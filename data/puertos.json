@@ -1,0 +1,1255 @@
+{
+ "actualizado": "03/11/2026, 19:55 h",
+ "fecha_registro": "2026-11-03",
+ "puertos": [
+  {
+   "puerto": "Ituzaingó",
+   "altura": 3.73,
+   "variacion": -0.03,
+   "alerta": 3.5,
+   "evacuacion": 4,
+   "fuente": "CIM/UNL (datos de Prefectura Naval Argentina), tabla consolidada del 03/11/2026 en el manifiesto validado 20261103_145314 (6 de 6 huellas); precisión solo fecha, hora de observación no publicada",
+   "registro": "03/11/2026"
+  },
+  {
+   "puerto": "Itá Ibaté",
+   "altura": 6.0,
+   "variacion": -0.06,
+   "alerta": 7,
+   "evacuacion": 7.5,
+   "fuente": "CIM/UNL (datos de Prefectura Naval Argentina), tabla consolidada del 03/11/2026 en el manifiesto validado 20261103_145314 (6 de 6 huellas); precisión solo fecha, hora de observación no publicada",
+   "registro": "03/11/2026"
+  },
+  {
+   "puerto": "Itatí",
+   "altura": 7.55,
+   "variacion": -0.02,
+   "alerta": 6.8,
+   "evacuacion": 7.5,
+   "fuente": "CIM/UNL (datos de Prefectura Naval Argentina), tabla consolidada del 03/11/2026 en el manifiesto validado 20261103_145314 (6 de 6 huellas); precisión solo fecha, hora de observación no publicada",
+   "registro": "03/11/2026"
+  },
+  {
+   "puerto": "Paso de la Patria",
+   "altura": 7.3,
+   "variacion": -0.06,
+   "alerta": 6.5,
+   "evacuacion": 7,
+   "fuente": "CIM/UNL (datos de Prefectura Naval Argentina), tabla consolidada del 03/11/2026 en el manifiesto validado 20261103_145314 (6 de 6 huellas); precisión solo fecha, hora de observación no publicada",
+   "registro": "03/11/2026"
+  },
+  {
+   "puerto": "Corrientes",
+   "altura": 7.08,
+   "variacion": -0.05,
+   "alerta": 6.5,
+   "evacuacion": 7,
+   "fuente": "CIM/UNL (datos de Prefectura Naval Argentina), tabla consolidada del 03/11/2026 en el manifiesto validado 20261103_145314 (6 de 6 huellas); precisión solo fecha, hora de observación no publicada",
+   "registro": "03/11/2026"
+  },
+  {
+   "puerto": "Empedrado",
+   "altura": 6.09,
+   "variacion": -0.06,
+   "alerta": 6.5,
+   "evacuacion": 6.7,
+   "fuente": "CIM/UNL (datos de Prefectura Naval Argentina), tabla consolidada del 03/11/2026 en el manifiesto validado 20261103_145314 (6 de 6 huellas); precisión solo fecha, hora de observación no publicada",
+   "registro": "03/11/2026"
+  },
+  {
+   "puerto": "Bella Vista",
+   "altura": 6.46,
+   "variacion": -0.07,
+   "alerta": 6,
+   "evacuacion": 6.4,
+   "fuente": "CIM/UNL (datos de Prefectura Naval Argentina), tabla consolidada del 03/11/2026 en el manifiesto validado 20261103_145314 (6 de 6 huellas); precisión solo fecha, hora de observación no publicada",
+   "registro": "03/11/2026"
+  },
+  {
+   "puerto": "Goya",
+   "altura": 6.1,
+   "variacion": 0.01,
+   "alerta": 5.2,
+   "evacuacion": 5.7,
+   "fuente": "CIM/UNL (datos de Prefectura Naval Argentina), tabla consolidada del 03/11/2026 en el manifiesto validado 20261103_145314 (6 de 6 huellas); precisión solo fecha, hora de observación no publicada",
+   "registro": "03/11/2026"
+  },
+  {
+   "puerto": "Esquina",
+   "altura": 5.5,
+   "variacion": 0.08,
+   "alerta": 5,
+   "evacuacion": 5.4,
+   "fuente": "CIM/UNL (datos de Prefectura Naval Argentina), tabla consolidada del 03/11/2026 en el manifiesto validado 20261103_145314 (6 de 6 huellas); precisión solo fecha, hora de observación no publicada",
+   "registro": "03/11/2026"
+  }
+ ],
+ "nota": "Actualización del 03/11/2026, 19:55 h. Fuente hidrológica única: manifiesto validado 20261103_145314 (ID 1DJYutnTXdxRVwpZ5Xpcix9OsaXaXksby, validado el 03/11/2026, 14:54 h; 6 de 6 huellas SHA-256 verificadas en esta corrida). Alturas del Paraná (CIM/UNL, datos de Prefectura, tabla consolidada del 03/11; solo fecha, hora de observación no publicada): Corrientes 7,08 m (−0,05), sobre su evacuación de 7,00 m; Paso de la Patria 7,30 m; Itatí 7,55 m; Itá Ibaté 6,00 m; Empedrado 6,09 m; Bella Vista 6,46 m; Goya 6,10 m; Esquina 5,50 m; Ituzaingó 3,73 m. La última lectura con hora verificada de Corrientes sigue siendo 7,13 m del 02/11 a las 06:00 h (CIM/UNL). Contraste anterior: Agrofy e INA 7,11 m (02/11) y Defensa Civil 7,15 m. Alertas: aviso amarillo del SMN por tormentas del martes 3/11 que incluye a Corrientes (20 a 40 mm); alerta naranja del COE de Corrientes por tormentas para 24 departamentos, Capital incluida, el 3 y 4/11 (40 a 80 mm, ráfagas de más de 90 km/h y granizo ocasional; una nota de Diario Época de las 05:58 h ubica su inicio el miércoles 4/11 a las 7 h, otras fuentes el martes 3/11 desde las 7 h); aviso naranja del SMN por tormentas fuertes para el miércoles 4/11 (emitido el 02/11 a las 18:03 h). Parte del SMN para la ciudad (La Nación, 07:00 h): martes 3/11 con tormentas fuertes por la mañana (70 %), tormentas por la tarde (70 %) y aisladas por la noche (40 %); miércoles 4/11 con tormentas aisladas por la mañana y la tarde (40 %) y fuertes por la noche (70 %); jueves 5/11 con 10 % por la mañana y sin lluvia por la tarde. Lluvia en la Capital (estimación derivada, no medición): 60 mm por día, valor medio del aviso del COE; resto de hoy desde las 7 h 41,6 mm y mañana 60 mm. Los modelos (Agrofy/Open-Meteo 38,2 y 87,3 mm; Meteored 34 y 59 mm) corresponden a corridas del 02/11 y solo sirven de contraste. Defensa Civil: sin informe nuevo; rige el parte difundido el 02/11 (1.687 personas, 409 evacuadas y 1.278 autoevacuadas). INA: Corrientes entre 5,10 y 6,00 m hacia el 10/11 (pronóstico del 30/10, no observado), con riesgo de nuevas subas entre 7 y 15 días después de lluvias en la cuenca media del Paraguay. EBY: alerta hidrológico N.º 01/noviembre (difundido por Examedia el 03/11), con caudal afluente de cerca de 29.000 m³/s y de 27.000 a 29.000 m³/s en los días siguientes, aún sobre los umbrales de alerta e inundabilidad; el paso Ituzaingó–Ayolas sigue suspendido hasta el viernes 6/11. Verificación del 03/11/2026, 19:55 h: manifiesto aceptado 20261103_145314 (6 de 6 huellas SHA-256 y tamaños coinciden); la revisión meteorológica del 03/11, 19:32 h (vigilancia_meteorologica_20261103_193231.json) sigue en NO_VERIFICADO: la página del COE figura sin alertas vigentes propias (último aviso listado del 01/11 al 02/11), en contradicción con la prensa que difunde la alerta naranja del 3 y 4/11, y los canales del SMN no fueron verificables; se conservan los avisos de prensa como no confirmados en origen.",
+ "ultimo_intento": "03/11/2026, 19:55 h",
+ "programada": true,
+ "horarios": [
+  "09:00",
+  "14:00",
+  "21:00"
+ ],
+ "partes_oficiales": [
+  {
+   "fecha": "03/11/2026, 19:55 h",
+   "organismo": "Verificación de este tablero (repositorio hidrológico de Drive, vigilancia meteorológica, SMN, COE, Defensa Civil, EBY)",
+   "resumen": "Repositorio: manifiesto encontrado y aceptado manifiesto_hidrologico_20261103_145314.json (ID 1DJYutnTXdxRVwpZ5Xpcix9OsaXaXksby, VALIDADO el 03/11/2026, 14:54 h). Verificación propia con código, descarga por enlace público (bytes originales): 6 de 6 huellas SHA-256 y tamaños coinciden (parana_historico 44.254 bytes, 174 registros; uruguay_historico 8.917 bytes, 27 registros; estado_actual 9.709; umbrales_puertos 8.301; pronosticos_oficiales 2.420; fuentes_metadatos 6.466), sin duplicados y con JSON válidos. Se cargaron el histórico y las alturas: Corrientes 7,08 m (−5 cm), Paso de la Patria 7,30 m, Itatí 7,55 m, Bella Vista 6,46 m, Goya 6,10 m, Esquina 5,50 m, Empedrado 6,09 m, Itá Ibaté 6,00 m e Ituzaingó 3,73 m (CIM/UNL, tabla del 03/11, solo fecha); Uruguay (CTM, 03/11, 07:00 h): Paso de los Libres 6,53 m, Santo Tomé 5,59 m, Alvear 6,79 m, Garruchos 4,00 m. Meteorología: vigilancia_meteorologica_20261103_193231.json (ID 1RQDN6nC7QbjCHKtSzt1rgEqhbJx_IRB2) con estado NO_DETERMINADO, normalizado a NO_VERIFICADO; el COE figura sin alertas vigentes propias en su página (último aviso listado del 01/11 al 02/11), en contradicción con la prensa que difunde su alerta naranja del 3 y 4/11, y el XML CAP del SMN no fue validable; una lista vacía no prueba ausencia de alertas. Sin informe nuevo de Defensa Civil (rige el total del 02/11: 1.687 personas), sin comunicado nuevo de Yacyretá (rige el alerta hidrológico N.º 01/noviembre) y sin cambios en el parte del SMN para la ciudad.",
+   "enlace": "https://drive.google.com/file/d/1DJYutnTXdxRVwpZ5Xpcix9OsaXaXksby/view"
+  },
+  {
+   "fecha": "03/11/2026, 19:25 h",
+   "organismo": "Verificación de este tablero (repositorio hidrológico de Drive, SMN, COE, Defensa Civil, EBY)",
+   "resumen": "Repositorio: manifiesto encontrado manifiesto_hidrologico_20261103_145314.json (ID 1DJYutnTXdxRVwpZ5Xpcix9OsaXaXksby, estado VALIDADO el 03/11/2026 a las 14:54 h); manifiesto aceptado: ninguno nuevo, rige el 20261102_202300 (ID 1Q-jSqh6RKMMM7yUmzioXPPnvi9RuXoKz). El conector entrega los archivos como base64 dentro de la respuesta y no permite calcular por código el SHA-256 de los seis archivos de la corrida nueva: LIMITACION_DE_VERIFICACION (no es un error de validación ni implica archivos corruptos). No se cargaron alturas ni histórico de esa corrida; hist-data y las alturas conservan su fecha real. Contraste del manifiesto nuevo, sin cargar como dato consolidado: Prefectura (tabla del 03/11, solo fecha) con Corrientes 7,08 m (−5 cm). Meteorología: archivo vigilancia_meteorologica_diagnostico_20261103_180946.json (ID 1yuECKbns5vpr5ZUk5pY3g6JAY1sR7zcb) con estado NO_DETERMINADO, normalizado a NO_VERIFICADO; una lista vacía no prueba ausencia de alertas. Siguen vigentes, según la prensa que difunde los partes oficiales, la alerta naranja del COE (40 a 80 mm, 3 y 4/11) y los avisos del SMN (amarillo del 3/11 y naranja del 4/11). Parte del SMN para la ciudad (La Nación, 08:46 h) sin cambios: mañana tormentas fuertes por la mañana y la tarde (70 %), jueves 5/11 sin lluvia. Sin informe nuevo de Defensa Civil (rige el total del 02/11: 1.687 personas) ni comunicado nuevo de Yacyretá (rige el alerta hidrológico N.º 01/noviembre).",
+   "enlace": "https://drive.google.com/file/d/1DJYutnTXdxRVwpZ5Xpcix9OsaXaXksby/view"
+  },
+  {
+   "fecha": "03/11/2026, 18:52 h",
+   "organismo": "Verificación de este tablero (repositorio hidrológico de Drive)",
+   "resumen": "Manifiesto más reciente en la carpeta: manifiesto_hidrologico_20261103_145314.json (ID 1DJYutnTXdxRVwpZ5Xpcix9OsaXaXksby), estado VALIDADO el 03/11/2026 a las 14:54 h. En esta corrida solo pudo comprobarse por código la huella SHA-256 del archivo parana_historico (coincide con el manifiesto); los otros cinco archivos llegaron por el conector sin posibilidad de calcular su huella, por lo que la corrida nueva NO se cargó (ERROR DE VALIDACIÓN, verificación incompleta) y rigen los datos del manifiesto 20261102_202300. Contraste, sin cargar como dato consolidado: la corrida nueva informa Prefectura (CIM/UNL, tabla del 03/11, solo fecha, sin hora individual) con Corrientes 7,08 m (−5 cm), Paso de la Patria 7,30 m, Itatí 7,55 m, Goya 6,10 m, Bella Vista 6,46 m, Esquina 5,50 m, Empedrado 6,09 m, Itá Ibaté 6,00 m e Ituzaingó 3,73 m, y CTM Salto Grande (03/11, 07:00 h) con Paso de los Libres 6,53 m. No se hallaron en esta corrida avisos, informes de Defensa Civil ni comunicados de Yacyretá posteriores a los ya cargados; rigen los de las 11:35 h.",
+   "enlace": "https://drive.google.com/file/d/1DJYutnTXdxRVwpZ5Xpcix9OsaXaXksby/view"
+  },
+  {
+   "fecha": "03/11/2026, 11:35 h",
+   "organismo": "Verificación de este tablero (Prefectura, SMN, COE, Defensa Civil)",
+   "resumen": "Prefectura: sigue vigente la tabla diaria del 02/11 (Corrientes 7,11 m, −0,05; Agrofy/INA, consulta de las 11:25 h); aún no hay tabla del 03/11, por lo que no se agregaron lecturas al histórico propio. SMN (La Nación, parte de las 08:46 h): hoy tormentas fuertes por la mañana (70 %), chaparrones por la tarde (40 %) y tormentas aisladas por la noche (40 %); mañana tormentas fuertes por la mañana y por la tarde (70 %) y chaparrones por la noche (40 %); del jueves 5/11 al lunes 9/11 sin lluvia significativa. Rigen la alerta naranja del COE (40 a 80 mm, 3 y 4/11) y los avisos del SMN. Defensa Civil: sin informe nuevo; rige el total del 02/11 (1.687 personas, 409 evacuadas y 1.278 autoevacuadas), en línea con la cifra de más de 1.680 desplazados difundida por MisionesOnline el 03/11.",
+   "enlace": "https://www.lanacion.com.ar/clima/corrientes/"
+  },
+  {
+   "fecha": "03/11/2026, 07:42 h",
+   "organismo": "Verificación de este tablero (Prefectura, SMN, COE, EBY, Defensa Civil, INA)",
+   "resumen": "Repositorio validado (manifiesto 20261102_202300, 6 de 6 huellas): Prefectura (tabla diaria del 02/11, hora no publicada): Corrientes 7,11 m, Paso de la Patria 7,35 m, Itatí 7,56 m, Bella Vista 6,53 m, Goya 6,09 m, Esquina 5,44 m, Ituzaingó 3,75 m. Respaldo del repositorio: Corrientes 7,13 m (02/11, 06:00 h) y demás puertos al 01/11. Uruguay (CTM, 02/11, 07:00 h): Paso de los Libres 7,03 m, bajo su alerta. SMN: aviso amarillo del 3/11 que incluye a Corrientes (20 a 40 mm) y aviso naranja del 4/11; COE: alerta naranja para 24 departamentos (40 a 80 mm). Parte del SMN para la ciudad (La Nación, 07:00 h): tormentas fuertes hoy por la mañana y mañana por la noche. Defensa Civil: sin informe nuevo; rige el total del 02/11 (1.687 personas). EBY: alerta hidrológico N.º 01/noviembre; paso Ituzaingó–Ayolas suspendido hasta el 6/11.",
+   "enlace": "https://www.lanacion.com.ar/clima/corrientes/"
+  },
+  {
+   "fecha": "03/11/2026, 05:58 h",
+   "organismo": "Entidad Binacional Yacyretá (EBY), alerta hidrológico N.º 01/noviembre (difundido por Examedia, Diario Época)",
+   "resumen": "Caudal afluente previsto de cerca de 29.000 m³/s para el 3/11 y de 27.000 a 29.000 m³/s en las jornadas siguientes; tendencia a la baja, con los niveles aún por encima de los umbrales de alerta e inundabilidad. Los caudales superaron la media histórica en 37 % en septiembre y en 106 % en octubre (serie 1971-2025). Lluvias previstas en la cuenca: entre 20 y 50 mm en la semana en gran parte de la cuenca, con picos locales de hasta 90 mm (centros especializados). Maniobras de la represa: la nota no las detalla. El paso Ituzaingó–Ayolas sigue suspendido hasta el viernes 6/11 (prórroga anunciada el 02/11). Comunicado original: https://www.eby.gov.py/alerta-hidrologico-n01-noviembre/ (no se pudo abrir en esta corrida; el contenido proviene de la nota de Examedia).",
+   "enlace": "https://examedia.com.ar/portada/post/88169121"
+  },
+  {
+   "fecha": "03/11/2026",
+   "organismo": "COE de Corrientes, alerta naranja por tormentas (difundido por Examedia)",
+   "resumen": "Alerta naranja para 24 departamentos (el titular menciona 23): Bella Vista, Berón de Astrada, Capital, Concepción, Curuzú Cuatiá, Empedrado, Esquina, General Alvear, General Paz, Goya, Itatí, Ituzaingó, Lavalle, Mburucuyá, Mercedes, Paso de los Libres, Saladas, San Cosme, San Luis del Palmar, San Martín, San Miguel, San Roque, Santo Tomé y Sauce. Acumulados de 40 a 80 mm, con valores localmente superiores, ráfagas de más de 90 km/h y granizo ocasional, desde las 7 h del martes 3/11 y el miércoles 4/11 (otra nota de Diario Época ubica el inicio el miércoles 4/11 a las 7 h). Monte Caseros no figura en la lista.",
+   "enlace": "https://examedia.com.ar/portada/post/88167825"
+  },
+  {
+   "fecha": "03/11/2026",
+   "organismo": "Servicio Meteorológico Nacional (SMN), aviso amarillo por tormentas del martes 3/11 y aviso naranja del miércoles 4/11 (difundido por Examedia)",
+   "resumen": "Aviso amarillo por tormentas para el martes 3/11 en Corrientes, Misiones, Chaco, Formosa, Santa Fe, Entre Ríos, Santiago del Estero y otras provincias, con acumulados de 20 a 40 mm; la nota no detalla departamentos ni horarios de vigencia o emisión. Aviso naranja por tormentas fuertes para el miércoles 4/11 en Corrientes y zonas aledañas (emitido el 02/11 a las 18:03 h), sin milímetros en las notas. Inestabilidad hasta el jueves 5/11 inclusive.",
+   "enlace": "https://examedia.com.ar/portada/post/88168653"
+  },
+  {
+   "fecha": "02/11/2026, 18:52 h",
+   "organismo": "Verificación de este tablero (Prefectura, SMN, COE, EBY, Defensa Civil, INA)",
+   "resumen": "Repositorio validado (manifiesto 20261102_180456): Corrientes 7,13 m, Paso de la Patria 7,36 m, Itatí 7,57 m, Bella Vista 6,53 m, Goya 6,09 m, Esquina 5,42 m, Ituzaingó 3,76 m (CIM/UNL, hora no publicada). Uruguay (CTM, 07:00 h): Paso de los Libres 7,03 m, ya bajo su alerta. SMN: aviso amarillo del 2/11 para el norte de Corrientes (20 a 50 mm); el del 3/11 no incluye a Corrientes. Sin avisos del COE hallados. Defensa Civil: 1.687 personas (409 evacuadas y 1.278 autoevacuadas). EBY: paso Ituzaingó–Ayolas suspendido hasta el 6/11.",
+   "enlace": "https://www.lanacion.com.ar/clima/corrientes/"
+  },
+  {
+   "fecha": "02/11/2026",
+   "organismo": "Entidad Binacional Yacyretá (EBY), prórroga de la suspensión del paso Ituzaingó–Ayolas e incidencias de caudal (difundido por Infobae)",
+   "resumen": "La EBY prorrogó hasta el viernes 6 de noviembre la suspensión del paso vehicular y peatonal Ituzaingó–Ayolas, medida preventiva vigente desde el 12/10; también cerró en forma transitoria los recorridos turísticos a la central y a la obra del brazo Aña Cuá. Caudal afluente: más del doble del promedio histórico en octubre; caudal medio diario de 32.000 m³/s (serie 1971-2025: 14.400 m³/s), con descenso previsto a unos 27.000 m³/s en los próximos días; tendencia a la baja, aunque sobre los niveles de alerta e inundabilidad. Lluvias previstas en la cuenca: los afluentes (Iguazú y Paraguay) seguirían en descenso; el INA advierte por lluvias en la cuenca media del Paraguay. Maniobras de la represa: la nota no las detalla. No se halló un alerta hidrológico posterior al N.º 13 del 30/10.",
+   "enlace": "https://www.infobae.com/politica/2026/11/02/el-nino-yacyreta-mantiene-interrumpido-el-paso-entre-argentina-y-paraguay-y-se-incrementa-la-cantidad-de-auto-evacuados-en-corrientes/"
+  },
+  {
+   "fecha": "02/11/2026",
+   "organismo": "Defensa Civil de Corrientes, último parte oficial (difundido por El Monterizo e Infobae)",
+   "resumen": "Las personas fuera de sus hogares pasaron de 1.467 a 1.687 en una semana: evacuados 409 (antes 741) y autoevacuados 1.278 (antes 726). Detalle: Paso de la Patria 228 (8 evacuados y 220 autoevacuados); Itatí 518 (190 evacuados y 328 autoevacuados); Capital 672 afectados; Goya, zona del puerto, 36 autoevacuados; Yahapé 2 evacuados; isla Apipé 119 evacuados; Ituzaingó 17; Paso de los Libres 31 evacuados; Santa Lucía 21 autoevacuados; Bella Vista 19; Cruz de los Milagros 24. Se pidió a los evacuados de la isla Apipé que no regresen por ahora. El Paraná llegó a 7,15 m en la Capital y el INA prevé que baje un metro más hacia el 10/11.",
+   "enlace": "https://elmonterizo.com/el-parana-bajo-pero-en-corrientes-hay-220-personas-mas-fuera-de-sus-casas"
+  },
+  {
+   "fecha": "02/11/2026",
+   "organismo": "Servicio Meteorológico Nacional (SMN), aviso amarillo por tormentas del martes 3/11 (difundido por El Cronista)",
+   "resumen": "El aviso amarillo para el martes 3/11 alcanza a San Luis, Córdoba, Santa Fe y Entre Ríos, con acumulados de 20 a 50 mm; no incluye a Corrientes. El aviso amarillo del lunes 2/11 para el norte de Corrientes (20 a 50 mm) sigue sin detalle de departamentos. No se hallaron avisos del COE.",
+   "enlace": "https://www.cronista.com/informacion-gral/se-anuncio-una-alerta-amarilla-por-tormentas-fuertes-en-4-provincias-se-espera-posible-caida-de-granizo-y-acumulados-de-hasta-50-mm-el-martes-3-de-noviembre/"
+  },
+  {
+   "fecha": "02/11/2026",
+   "organismo": "Servicio Meteorológico Nacional (SMN), aviso amarillo por tormentas (difundido por La Nación y Examedia)",
+   "resumen": "Aviso amarillo por tormentas para el norte de Corrientes el lunes 2 de noviembre, con acumulados de 20 a 50 mm que podrían superarse en forma puntual, posible granizo ocasional, ráfagas intensas y actividad eléctrica frecuente. Las notas consultadas no detallan los departamentos ni los horarios.",
+   "enlace": "https://www.lanacion.com.ar/sociedad/hay-alerta-amarilla-por-tormentas-para-este-lunes-2-de-noviembre-las-provincias-afectadas-nid01112026/"
+  },
+  {
+   "fecha": "02/11/2026, 07:05 h",
+   "organismo": "Verificación de este tablero (Prefectura, SMN, COE, EBY, Defensa Civil, INA)",
+   "resumen": "Prefectura (parte del 01/11): Corrientes 7,16 m, Paso de la Patria 7,38 m, Itatí 7,63 m, Bella Vista 6,53 m, Goya 6,07 m, Esquina 5,36 m, Ituzaingó 3,85 m. SMN: aviso amarillo por tormentas para el norte de Corrientes el 2/11 (20 a 50 mm); parte para la ciudad con tormentas fuertes hoy y el miércoles 4/11. Sin avisos del COE hallados. Defensa Civil: sin informe nuevo; rige el total del 28/10 (1.496 personas). EBY: sin comunicado posterior al alerta N.º 13 del 30/10. INA: descenso previsto hacia el 10/11 con riesgo de nuevas subas.",
+   "enlace": "https://www.lanacion.com.ar/clima/corrientes/"
+  },
+  {
+   "fecha": "31/10/2026",
+   "organismo": "Instituto Nacional del Agua (INA) y Prefectura Naval Argentina (El Litoral, difundido por Examedia)",
+   "resumen": "Más de 1.600 personas evacuadas y autoevacuadas en la provincia. El INA proyecta para el 10/11 entre 5,10 y 6,00 m en Corrientes y entre 4,50 y 6,00 m en Goya, con una posible bajante en las dos semanas siguientes. Yacyretá reduciría su caudal a 27.000 m³/s. Lluvias abundantes previstas en la cuenca media del Paraguay a comienzos de noviembre podrían provocar nuevas subas en 7 a 15 días.",
+   "enlace": "https://examedia.com.ar/portada/post/88156949"
+  },
+  {
+   "fecha": "01/11/2026, 07:06 h",
+   "organismo": "Verificación de este tablero (Prefectura, SMN, COE, EBY, Defensa Civil, INA)",
+   "resumen": "Prefectura: Corrientes 7,23 m el 01/11 (estacionado), Paso de la Patria 7,48 m, Bella Vista 6,51 m, Ituzaingó 3,88 m; Itatí 7,80 m, Goya 5,95 m y Esquina 5,27 m al 31/10. SMN (Corrientes Hoy, 31/10): domingo 1/11 con tormentas aisladas por la tarde y 40 a 70 % por la noche; lunes 2/11 con 10 % por la mañana y 0 % por la tarde; martes 3/11 con 40 % y tormentas aisladas. Sin avisos vigentes del SMN ni del COE hallados. Meteored: 0,9 mm hoy y 5,0 mm mañana en la Capital. Defensa Civil: sin informe nuevo; rige el total del 28/10 (1.496 personas); TN24 informa más de 1.600 el 01/11 sin atribución oficial. EBY: alerta N.º 13 del 30/10, con descenso del caudal.",
+   "enlace": "https://www.lanacion.com.ar/clima/corrientes/"
+  },
+  {
+   "fecha": "01/11/2026",
+   "organismo": "Instituto Nacional del Agua (INA) y Prefectura Naval Argentina (TN24, difundido por Examedia)",
+   "resumen": "El Paraná comienza a bajar en Corrientes, con 7,23 m (estacionado, sobre la evacuación de 7,00 m); Paso de la Patria 7,48 m en descenso; Bella Vista 6,51 m; Ituzaingó 3,88 m. Más de 1.600 personas evacuadas y autoevacuadas en la provincia. El INA prevé para el 10/11 entre 5,10 y 6,00 m en Corrientes y entre 4,50 y 6,00 m en Goya; Yacyretá reduciría su caudal a 27.000 m³/s. Advierte que las lluvias intensas previstas en la cuenca media del Paraguay en los primeros días de noviembre podrían provocar nuevas subas entre 7 y 15 días después.",
+   "enlace": "https://examedia.com.ar/portada/post/88157648"
+  },
+  {
+   "fecha": "30/10/2026",
+   "organismo": "Entidad Binacional Yacyretá (EBY), alerta hidrológico N.º 13/octubre",
+   "resumen": "Caudal afluente por encima del promedio: 37 % en septiembre y 105 % en octubre (serie 1971-2025). Caudal previsto de unos 32.500 m³/s para el 30/10 y de 32.000 a 27.000 m³/s en los días siguientes, con descenso (seguiría sobre los niveles de alerta e inundabilidad). Lluvias: sin precipitaciones de relevancia hidrológica en la cuenca del 30/10 al 2/11. Ituzaingó: 3,90 m a las 11:30 h, con 3,9 a 3,8 m hasta el 1/11 y 3,8 a 3,6 m desde el 2/11 (alerta 3,50 m, evacuación 4,00 m). Ayolas: 5,4 a 5,3 m hasta el 1/11. El comunicado no detalla maniobras de vertederos. Alta probabilidad de aguas altas entre octubre y diciembre por El Niño.",
+   "enlace": "https://www.eby.gov.py/alerta-hidrologico-n13-octubre/"
+  },
+  {
+   "fecha": "28/10/2026",
+   "organismo": "Entidad Binacional Yacyretá (EBY), alerta hidrológico N.º 12/octubre",
+   "resumen": "Caudal afluente de unos 32.500 m³/s el 28/10 y de 30.000 a 33.000 m³/s en los días siguientes, con tendencia estacionaria y gradual descenso de los niveles aguas abajo. Sin lluvias significativas en la cuenca del 28 al 30/10. Ituzaingó: 4,19 m a las 11 h (alerta 3,50 m, evacuación 4,00 m).",
+   "enlace": "https://www.eby.gov.py/alerta-hidrologico-n12-octubre/"
+  },
+  {
+   "fecha": "30/10/2026, 07:15 h",
+   "organismo": "Verificación de este tablero (Prefectura, SMN, COE, EBY, Defensa Civil, INA)",
+   "resumen": "Prefectura: sin parte nuevo del 30/10; rige el del 29/10 (Corrientes 7,36 m, −0,03). SMN (La Nación, versión de las 16:49 h): viernes 30 con 10 % por la tarde y 0 % por la noche; sábado 31 y domingo 1/11, 0 %; martes 3/11 con 40 % y tormentas aisladas por la tarde; sin avisos vigentes del SMN ni del COE hallados. Meteored y Agrofy: 0,0 y 0,2 mm hoy en la Capital. Defensa Civil: 440 evacuados y más de 1.000 autoevacuados (Examedia, 30/10), sin cifra total nueva; rige la del 28/10 (1.496 personas). EBY: sin comunicado posterior al informe del 27/10, que prevé descenso gradual hacia el fin de semana.",
+   "enlace": "https://www.lanacion.com.ar/clima/corrientes/"
+  },
+  {
+   "fecha": "30/10/2026, 07:15 h",
+   "organismo": "Defensa Civil de Corrientes, director Bruno Lovison (Diario Época, difundido por Examedia)",
+   "resumen": "Defensa Civil mantiene la alerta por la onda de crecida aguas abajo. Los niveles bajaron levemente en la mayor parte de la cuenca por el tiempo seco en el Iguazú y en Andresito. Los evacuados bajaron de unos 700 a 440 y los autoevacuados superan los 1.000. La onda se concentra entre la ciudad de Corrientes y Esquina, con niveles altos; la semana anterior se evacuaron familias en Cecilio Echevarría. Itatí, Paso de la Patria, la Capital, Ituzaingó e isla Apipé mantienen la asistencia; en la Capital, la Escuela N.º 293 es el refugio principal, apoyado por al menos seis comedores comunitarios. Advierten que noviembre y diciembre podrían traer lluvias intensas. La nota no detalla localidades ni alturas.",
+   "enlace": "https://examedia.com.ar/portada/post/88147066"
+  },
+  {
+   "fecha": "29/10/2026, 18:45 h",
+   "organismo": "Verificación de este tablero (Prefectura, SMN, COE, EBY, Defensa Civil, INA)",
+   "resumen": "Prefectura, parte del 29/10: Corrientes 7,36 m (−0,03), Paso de la Patria 7,69 m, Itatí 8,09 m, Bella Vista 6,45 m (sobre su evacuación), Goya 5,77 m (sobre su evacuación), Esquina 5,19 m, Ituzaingó 3,95 m (−0,35, bajo su evacuación). Paso de los Libres (Uruguay) 8,03 m, sobre su alerta y a 47 cm de la evacuación. SMN (La Nación, 16:49 h del 29/10): 10 % de probabilidad de lluvia esta tarde, 0 % del 30/10 al 1/11 y 40 % con tormentas aisladas el 3/11; sin avisos vigentes del SMN ni del COE para Corrientes. Defensa Civil: sin informe nuevo; rige el del 28/10 (1.496 personas, 440 evacuadas y 1.056 autoevacuadas). EBY: sin comunicado posterior al informe del 27/10, que prevé descenso gradual.",
+   "enlace": "https://www.lanacion.com.ar/clima/corrientes/"
+  },
+  {
+   "fecha": "29/10/2026",
+   "organismo": "Prefectura Naval Argentina, parte del 29/10 (difundido por La Nación)",
+   "resumen": "Lecturas de la mañana: Ituzaingó 3,95 m (8 h, −5 cm en dos horas), Itatí 8,09 m, Paso de la Patria 7,69 m, Corrientes 7,36 m (10 h, −2 cm respecto de las 4 h), Barranqueras 7,22 m, Bella Vista 6,45 m, Goya 5,77 m (+1 cm), Esquina 5,19 m, La Paz 5,75 m. Uruguay: Paso de los Libres 8,03 m (10 h), Concordia 9,00 m (6 h), Santo Tomé 10,43 m (−58 cm en 12 h). La nota aclara que las lecturas corresponden a distintos horarios.",
+   "enlace": "https://www.lanacion.com.ar/sociedad/altura-de-los-rios-en-la-argentina-segun-prefectura-esta-es-la-situacion-y-los-niveles-de-alerta-hoy-nid29102026/"
+  },
+  {
+   "fecha": "29/10/2026, 07:15 h",
+   "organismo": "Verificación de este tablero (Prefectura, SMN, COE, EBY, Defensa Civil, INA)",
+   "resumen": "Prefectura, parte del 28/10 (8 h): Corrientes 7,39 m (+0,04), Paso de la Patria 7,74 m, Itatí 8,20 m, Bella Vista 6,43 m (sobre su evacuación), Goya 5,68 m, Esquina 5,16 m, Ituzaingó 4,30 m (−0,10). Paso de los Libres (Uruguay) 7,56 m, sobre su alerta. SMN (La Nación, 16:56 h del 28/10): jueves 29 con 0 %, 10 % por la tarde; sin avisos vigentes del SMN ni del COE para Corrientes. Defensa Civil: sin informe nuevo; rige el del 28/10 (1.496 personas, 440 evacuadas y 1.056 autoevacuadas). EBY: informe del 27/10 con descenso gradual hacia el fin de semana.",
+   "enlace": "https://www.lanacion.com.ar/clima/corrientes/"
+  },
+  {
+   "fecha": "28/10/2026",
+   "organismo": "Entidad Binacional Yacyretá (EBY), informe del 27/10 (difundido por Perfil y MisionesOnline)",
+   "resumen": "Caudal afluente de unos 33.500 m³/s, casi el doble de lo habitual para la época (la cifra se atribuye a un análisis de Meteored en la nota). Tendencia: el caudal se aliviaría hacia el fin de semana, con un descenso gradual de los niveles; Ituzaingó pasaría de 4,31 m a entre 4,10 y 4,30 m (alerta 3,50 m, evacuación 4,00 m). Lluvias: sin lluvias significativas previstas en la cuenca alta hasta el viernes 30/10; El Niño podría traer lluvias intensas entre noviembre y enero. Maniobras: la represa abre y maneja los vertederos para evacuar el exceso de agua que no turbinan las máquinas; emitió 11 alertas preventivas.",
+   "enlace": "https://perfil.com/ciencia-y-tecnologia/crecida-del-rio-parana-yacyreta-preve-alivio-pero-hay-alerta-aYrPv0r29aOF"
+  },
+  {
+   "fecha": "26/10/2026",
+   "organismo": "Entidad Binacional Yacyretá (EBY), alerta hidrológico N.º 11 de octubre",
+   "resumen": "Caudal afluente por encima del promedio: 37 % en septiembre y 100 % en octubre (serie 1971-2025). Caudal previsto de unos 34.500 m³/s para el 26/10 y de 34.000 a 36.000 m³/s en los días siguientes, con tendencia estacionaria. Lluvias: sin precipitaciones de significancia hidrológica en la cuenca del 26 al 28/10. Ituzaingó: 4,48 m a las 11:30 h, con pronóstico de 4,4 a 4,5 m (alerta 3,50 m, evacuación 4,00 m); Ayolas: pronóstico de 6,0 a 6,2 m (alerta 4,20 m). Maniobras: el boletín no detalla maniobras específicas; indica que los caudales dependerán de la operación de las centrales aguas arriba y de la lluvia real. Alta probabilidad de aguas altas entre octubre y diciembre por El Niño.",
+   "enlace": "https://www.eby.gov.py/alerta-hidrologico-n11-octubre/"
+  },
+  {
+   "fecha": "28/10/2026, 12:16 h",
+   "organismo": "Defensa Civil de Corrientes, director Bruno Lovinson, en declaraciones a Radio Dos (difundido por Infobae); INA (proyecciones)",
+   "resumen": "Unas 1.500 personas afectadas por la crecida del Paraná en la provincia: 440 evacuadas y 1.056 autoevacuadas (1.496 en total). La nota no detalla cifras por localidad; señala como zonas más complejas Isla Apipé, Itatí y Paso de la Patria. Lovinson sostuvo que la situación está controlada. Según el INA, el Paraná seguiría en niveles altos con tendencia a descender en el corto plazo; desde el 1/11 se prevén lluvias superiores a lo normal, Itaipú podría aumentar su derrame en los primeros diez días de noviembre y en 7 a 15 días podrían darse nuevos repuntes, incluido otro tránsito de onda del Iguazú.",
+   "enlace": "https://www.infobae.com/sociedad/2026/10/28/el-nino-chaco-tiene-mas-de-2200-afectados-por-las-inundaciones-y-en-corrientes-se-reportaron-otros-1500/"
+  },
+  {
+   "fecha": "28/10/2026, 18:45 h",
+   "organismo": "Verificación de este tablero (Prefectura, SMN, EBY, Defensa Civil, INA)",
+   "resumen": "SMN (La Nación, actualizado a las 16:56 h): miércoles 28 con 0 % de probabilidad de lluvia; jueves 29, 0 % por la mañana y 10 % por la tarde; viernes 30, 0 %. No se hallaron avisos vigentes del SMN ni del COE. Prefectura: sin parte nuevo en el CIM de la UNL; rige el del 27/10 (Corrientes 7,35 m, estacionario). EBY: sin comunicado posterior al del 25/10 ni al anuncio del 26/10 (paso Ituzaingó–Ayolas cerrado al menos hasta el 30/10). Defensa Civil: nueva cifra del 28/10, con 1.496 personas fuera de sus hogares (440 evacuadas y 1.056 autoevacuadas).",
+   "enlace": "https://www.lanacion.com.ar/clima/corrientes/"
+  },
+  {
+   "fecha": "28/10/2026, 07:06 h",
+   "organismo": "Verificación de este tablero (Prefectura, SMN, EBY, Defensa Civil, INA)",
+   "resumen": "Prefectura, parte del 27/10 publicado por el CIM de la UNL: Corrientes 7,35 m (estacionario), Barranqueras 7,23 m (+0,01), Paso de la Patria 7,74 m (+0,04), Itatí 8,21 m (+0,02), Itá Ibaté 6,76 m, Ituzaingó 4,45 m (−0,05), Empedrado 6,21 m (+0,01), Bella Vista 6,36 m, Goya 5,65 m (+0,02) y Esquina 5,12 m (+0,03). SMN (parte difundido por La Nación, versión del 26/10, 23:31 h): miércoles 28 con 0 % de probabilidad de lluvia y jueves 29 con 10 %; no se hallaron avisos vigentes del SMN ni del COE (la página de alertas del SMN no pudo consultarse). EBY: sin comunicado posterior al del 25/10 ni al anuncio del 26/10 (paso Ituzaingó–Ayolas cerrado al menos hasta el 30/10). Defensa Civil: rige el relevamiento del 26/10, con 1.452 personas fuera de sus hogares (767 evacuados y 685 autoevacuados); sin informe más reciente.",
+   "enlace": "http://wfich1.unl.edu.ar/cim/rios/parana/alturas"
+  },
+  {
+   "fecha": "27/10/2026, 18:45 h",
+   "organismo": "Verificación de este tablero (SMN, Prefectura, EBY, Defensa Civil, INA)",
+   "resumen": "SMN (parte difundido por La Nación): miércoles 28 con 0 % de probabilidad de lluvia y jueves 29 con 10 %; no se hallaron avisos vigentes del SMN ni del COE (la página de alertas del SMN no pudo consultarse). Prefectura: la página del CIM de la UNL no pudo consultarse; Paso de la Patria 7,74 m el 27/10 (+0,04 m) según La Nación, y el resto rige con el parte del 26/10 (Corrientes 7,35 m, −0,01). EBY: sin comunicado posterior al del 25/10 ni al anuncio del 26/10 sobre el paso Ituzaingó–Ayolas (cerrado al menos hasta el 30/10). Defensa Civil: rige el relevamiento del 26/10, con 1.452 personas fuera de sus hogares (767 evacuados y 685 autoevacuados).",
+   "enlace": "https://www.lanacion.com.ar/clima/corrientes/"
+  },
+  {
+   "fecha": "27/10/2026, 15:01 h",
+   "organismo": "Defensa Civil de Corrientes, director Bruno Lovison, y Prefectura Naval Argentina (difundido por La Nación y Salta News)",
+   "resumen": "Paso de la Patria: el hidrómetro del puerto marcó 7,74 m el martes 27/10, sobre su cota de evacuación de 7,00 m. Más de 150 familias autoevacuadas y cuatro evacuadas formalmente por el municipio; hay sectores aislados por el agua y, según estimaciones oficiales, cerca del 40 % del pueblo está inundado (barrios Don Julián, La Isla y Pescadores, la zona de La Rioja y 8 de Diciembre, y la zona sur por el desborde del arroyo Guajó). El INA prevé una nueva onda de crecida para el 3/11. El intendente espera un pico de 8,00 a 8,10 m y advirtió que a 8,50 m el pueblo podría quedar incomunicado.",
+   "enlace": "https://www.lanacion.com.ar/sociedad/pueblo-sitiado-ya-son-mas-de-150-las-familias-evacuadas-en-paso-de-la-patria-y-anticipan-una-nueva-nid27102026/"
+  },
+  {
+   "fecha": "27/10/2026",
+   "organismo": "Defensa Civil de la Provincia de Corrientes, director Bruno Lovison (difundido por Corrientes Hoy y Perfil)",
+   "resumen": "Se espera una nueva onda de crecida del Paraná alrededor del 3/11, quizás similar a la anterior, que podría llevar el río a 7,60 o 7,70 m en la Capital y a más de 8 m en Paso de la Patria e Itatí. Según el funcionario, el cierre de las compuertas de Itaipú en el tramo superior sostendría y extendería la onda. Los municipios costeros permanecen en alerta roja. Si hubiera lluvias torrenciales en las cuencas, el escenario podría agravarse.",
+   "enlace": "https://www.corrienteshoy.com/info-general/para-la-semana-que-viene-se-espera-otra-creciente-del-rio-parana.htm"
+  },
+  {
+   "fecha": "26/10/2026",
+   "organismo": "Instituto Nacional del Agua (INA), Alerta Hidrológico de la Cuenca del Plata, reporte diario",
+   "resumen": "Observaciones del 26/10: Paraná en Corrientes 7,35 m (−0,01), aguas altas, con niveles de base que probablemente se mantengan sobre la alerta y la evacuación durante 7 días; Goya 5,64 m (+0,01), en ascenso, con mayor probabilidad de superar la evacuación desde el 27/10; Santa Fe 4,10 m (+0,03), con posibilidad de acercarse a la alerta desde los primeros días de noviembre. Uruguay: Paso de los Libres 6,25 m (+0,01), con tendencia de ascenso, alta probabilidad de superar la alerta de 7,50 m desde el 27/10 y chances de acercarse a la evacuación desde el 29/10; Concordia 9,26 m (−0,30), en descenso.",
+   "enlace": "https://alerta.ina.gob.ar/a5/diario/reporte_diario"
+  },
+  {
+   "fecha": "27/10/2026, 07:10 h",
+   "organismo": "Verificación de este tablero (SMN, Prefectura, EBY, Defensa Civil)",
+   "resumen": "SMN (parte difundido por La Nación, 26/10, 23:31 h): martes 27 mayormente nublado, 10 % de probabilidad de lluvia en la mañana, la tarde y la noche; miércoles 28 con 0 %. No se hallaron avisos vigentes del SMN ni del COE (la página de alertas del SMN no pudo consultarse). Prefectura: sin parte nuevo; rige el del 26/10 (Corrientes 7,35 m, −0,01). EBY: sin comunicado posterior al del 25/10 ni al anuncio del 26/10 sobre el paso Ituzaingó–Ayolas (cerrado al menos hasta el 30/10). Defensa Civil (Prensa Mercosur, 26/10): se mantienen 1.452 personas fuera de sus hogares (767 evacuados y 685 autoevacuados); no se halló un informe más reciente.",
+   "enlace": "https://www.lanacion.com.ar/clima/corrientes/"
+  },
+  {
+   "fecha": "26/10/2026, 23:37 h",
+   "organismo": "Verificación de este tablero (SMN, Prefectura, EBY, Defensa Civil)",
+   "resumen": "SMN (parte difundido por La Nación, 26/10, 23:31 h): martes 27 mayormente nublado, 10 % de probabilidad de lluvia en la mañana, la tarde y la noche; miércoles 28 sin lluvia. No se hallaron avisos vigentes del SMN ni del COE (la página de alertas del SMN no pudo consultarse). Prefectura: sin parte nuevo; rige el del 26/10 (Corrientes 7,35 m, −0,01). EBY: la página del informe hidrológico no muestra un comunicado posterior al del 25/10 ni al anuncio del 26/10 sobre el paso Ituzaingó–Ayolas. Defensa Civil (Prensa Mercosur, 26/10): se mantienen 1.452 personas fuera de sus hogares (767 evacuados y 685 autoevacuados); Paso de la Patria, 24 evacuados y 86 autoevacuados.",
+   "enlace": "https://www.lanacion.com.ar/clima/corrientes/"
+  },
+  {
+   "fecha": "26/10/2026, 18:44 h",
+   "organismo": "Prefectura Naval Argentina, parte del 26/10 publicado por el CIM de la UNL",
+   "resumen": "Paraná: Corrientes 7,35 m (−0,01), Barranqueras 7,22 m (−0,01), Paso de la Patria 7,70 m (estacionario), Ituzaingó 4,50 m (estacionario), Empedrado 6,20 m (estacionario). En ascenso: Itá Ibaté 6,76 m (+0,06), Itatí 8,19 m (+0,02), Bella Vista 6,36 m (+0,02), Goya 5,63 m (+0,01), Esquina 5,09 m (+0,04, sobre su alerta). Santa Fe 4,10 m (+0,03) y Paraná 4,11 m (+0,05).",
+   "enlace": "http://wfich1.unl.edu.ar/cim/rios/parana/alturas"
+  },
+  {
+   "fecha": "26/10/2026, 18:44 h",
+   "organismo": "Entidad Binacional Yacyretá (EBY), anuncio del 26/10 sobre el paso Ituzaingó–Ayolas (difundido por Infobae y Examedia)",
+   "resumen": "La EBY informó que el paso fronterizo Ituzaingó–Ayolas, cerrado desde hace unas dos semanas al tránsito vehicular y peatonal, seguirá cerrado al menos hasta el viernes 30/10. No se halló un informe hidrológico posterior al del 25/10, que preveía un caudal afluente de 35.000 a 38.000 m³/s con tendencia creciente, lluvias de 30 a 60 mm (localmente cerca de 120 mm) entre el 23 y el 26/10 en la cuenca, y Ituzaingó entre 4,3 y 4,6 m (alerta 3,50 m, evacuación 4,00 m). Nota: Infobae informa además que el Iguazú en las Cataratas superó los 17,7 millones de litros por segundo, unas 11 veces el promedio, y sigue en ascenso aguas arriba.",
+   "enlace": "https://www.infobae.com/sociedad/2026/10/26/el-nino-el-paso-por-yacyreta-continua-cerrado-por-el-nivel-del-parana-mientras-la-creciente-volvio-al-rio-uruguay/"
+  },
+  {
+   "fecha": "Octubre de 2026",
+   "organismo": "Entidad Binacional Yacyretá (EBY), comunicado \"Yacyretá informa sobre las incidencias del fenómeno Súper Niño\"",
+   "resumen": "Las condiciones de El Niño podrían mantenerse durante lo que resta de 2026 y extenderse a los primeros meses de 2027, con impacto especial en la cuenca del Paraná que alimenta a Yacyretá. El Sector Hidrología de la EBY sigue en forma permanente las lluvias y los caudales de la cuenca. Cuando sea necesario, la represa usará sus estructuras de descarga para suavizar los picos de crecida y reducir los riesgos aguas abajo, y anticipará las crecidas a las autoridades y comunidades ribereñas con varios días de antelación. Como central de llanura, las grandes crecidas elevan el nivel del río aguas abajo.",
+   "enlace": "https://www.eby.org.ar/yacyreta-informa-sobre-las-incidencias-del-fenomeno-super-nino"
+  },
+  {
+   "fecha": "26/10/2026, 18:44 h",
+   "organismo": "Verificación de este tablero (SMN, COE)",
+   "resumen": "No se encontraron avisos vigentes del SMN ni del COE para Corrientes el lunes 26 ni el martes 27/10 (la página de alertas del SMN no pudo consultarse). Meteored: 0 % de probabilidad de lluvia el lunes y 0,1 mm el martes a las 14 h (30 %). Agrofy (Open-Meteo): 0 mm el lunes y 0,1 mm el martes a las 17 h. Sin lluvia prevista del 28/10 al 1/11; clima.com anticipa 20,6 mm el 3/11 y 36,5 mm el 4/11.",
+   "enlace": "https://www.smn.gob.ar/alertas"
+  },
+  {
+   "fecha": "23/10/2026",
+   "organismo": "Instituto Nacional del Agua (INA), Alerta Hidrológico de la Cuenca del Plata, reporte diario",
+   "resumen": "Observaciones del 23/10: Corrientes 7,42 m, aguas altas, sobre alerta y evacuación, con permanencia en aguas altas durante 4 a 5 días. Goya 5,60 m, sobre su alerta, con mayor probabilidad de superar la evacuación desde el 23/10. Uruguay: Paso de los Libres 7,40 m, bajo su alerta, con tendencia descendente y posible repunte hacia fines de octubre; Concordia 10,44 m, bajo su alerta.",
+   "enlace": "https://alerta.ina.gob.ar/a5/diario/reporte_diario"
+  },
+  {
+   "fecha": "26/10/2026, 07:05 h",
+   "organismo": "Verificación de este tablero (SMN, COE, Prefectura)",
+   "resumen": "No se encontraron avisos vigentes del SMN ni del COE para Corrientes el lunes 26 ni el martes 27/10 (la página de alertas del SMN no pudo consultarse; el aviso naranja por tormentas del 24/10 ya venció). El parte semanal del SMN difundido por El Litoral prevé la semana con cielo parcialmente nublado y muy baja probabilidad de lluvia el viernes. Meteored: 0 % de probabilidad el lunes; clima.com: sin lluvia del 26/10 al 1/11. El parte de Prefectura del 26/10 todavía no estaba publicado: rigen las alturas del 25/10.",
+   "enlace": "https://www.smn.gob.ar/alertas"
+  },
+  {
+   "fecha": "25/10/2026",
+   "organismo": "Relevamiento provincial de evacuados difundido el 25/10 (Noticias de la Calle; la nota no identifica el organismo que lo elaboró; el operativo de asistencia lo coordina la Agencia Federal de Emergencias)",
+   "resumen": "1.452 personas fuera de sus hogares en Corrientes: 767 evacuados y 685 autoevacuados. Itatí: 475 evacuados (108 familias), en la Casa del Promesero y el hospedaje Taba Cué. Capital: 588 autoevacuados, y 64 personas en el centro de la Escuela N.º 293 Donato Álvarez, del barrio Pujol (la nota no aclara su condición). Isla Apipé: 114 evacuados (63 familias), en viviendas municipales. La Armada Argentina se sumó al operativo con el buque ARA Ciudad de Zárate y la lancha ARA Río Santiago.",
+   "enlace": "https://www.noticiasdelacalle.com.ar/noticias/2026/10/25/203175-mas-de-1400-evacuados-en-corrientes-y-la-armada-se-sumo-al-operativo-de-asistencia"
+  },
+  {
+   "fecha": "25/10/2026",
+   "organismo": "Entidad Binacional Yacyretá (EBY), comunicado hidrológico del 25/10 (difundido por Radio Cataratas)",
+   "resumen": "Caudal afluente por encima del promedio: 37 % en septiembre y 96 % en octubre (serie 1971-2025). Caudal previsto de unos 34.500 m³/s para el 25/10 y de 35.000 a 38.000 m³/s en los días siguientes, con tendencia creciente. Lluvias previstas entre el 23 y el 26/10 en la cuenca del Iguazú, aguas arriba de Itaipú y en la cuenca de aporte directo, de 30 a 60 mm y localmente cerca de 120 mm. Ituzaingó: 4,32 m a las 11 h, con pronóstico de 4,3 a 4,6 m (alerta 3,50 m, evacuación 4,00 m); Ayolas: pronóstico de 6,0 a 6,2 m (alerta 4,20 m). Los pronósticos de la EBY llegan hasta el 26/10 y pueden revisarse. Alta probabilidad de aguas altas entre octubre y diciembre por El Niño.",
+   "enlace": "https://radiocataratas.com/2026/10/25/yacyreta-alerta-por-efecto-nino-caudales-altos-en-el-parana-y-niveles-en-alerta-en-ituzaingo-y-ayolas/"
+  },
+  {
+   "fecha": "25/10/2026, 18:44 h",
+   "organismo": "Prefectura Naval Argentina, parte del 25/10 publicado por el CIM de la UNL",
+   "resumen": "Paraná: Corrientes 7,36 m (−0,03), Paso de la Patria 7,70 m (−0,03), Ituzaingó 4,50 m (−0,05), Barranqueras 7,23 m (−0,01): en bajante leve. Esquina 5,05 m (+0,09, sobre su alerta), Goya 5,62 m (+0,01), Itá Ibaté 6,70 m (+0,05): en ascenso. Itatí 8,17 m, Empedrado 6,20 m y Bella Vista 6,34 m, estacionarios.",
+   "enlace": "http://wfich1.unl.edu.ar/cim/rios/parana/alturas"
+  },
+  {
+   "fecha": "25/10/2026",
+   "organismo": "Entidad Binacional Yacyretá (EBY), informe hidrológico (difundido por Radio Cataratas)",
+   "resumen": "Los caudales que llegan a Yacyretá siguen por encima del promedio: 37 % en septiembre y 96 % en lo que va de octubre (serie 1971-2025). Entre el viernes 23 y el lunes 26 de octubre se prevén lluvias de variada intensidad en la cuenca del Iguazú, aguas arriba de Itaipú y en la cuenca de aporte directo a Yacyretá. Ituzaingó y Ayolas, en nivel de alerta. Alta probabilidad de aguas altas entre octubre y diciembre por El Niño.",
+   "enlace": "https://radiocataratas.com/2026/10/25/yacyreta-alerta-por-efecto-nino-caudales-altos-en-el-parana-y-niveles-en-alerta-en-ituzaingo-y-ayolas/"
+  },
+  {
+   "fecha": "24/10/2026",
+   "organismo": "Entidad Binacional Yacyretá (EBY), alerta hidrológico N.º 10 (difundido por Examedia)",
+   "resumen": "El caudal promedio de los primeros 23 días de octubre llegó a unos 28.000 m³/s, frente a 14.400 m³/s habituales. Las lluvias aguas arriba de Itaipú y en la cuenca del Iguazú podrían generar nuevos aumentos de caudal en Yacyretá y elevar los niveles aguas abajo de la represa. Persiste la probabilidad de un Niño fuerte a muy fuerte.",
+   "enlace": "https://examedia.com.ar/portada/post/88108916"
+  },
+  {
+   "fecha": "25/10/2026, 07:05 h",
+   "organismo": "Prefectura Naval Argentina, parte del 24/10 publicado por el CIM de la UNL",
+   "resumen": "Paraná: Corrientes 7,39 m (−0,05), Paso de la Patria 7,73 m (−0,05), Itatí 8,17 m (−0,13), Barranqueras 7,24 m (−0,06), Empedrado 6,20 m (−0,02): en bajante leve. Ituzaingó 4,55 m (+0,15), Bella Vista 6,34 m (+0,06), Goya 5,61 m (+0,01), Esquina 4,96 m (+0,11): en ascenso. Itá Ibaté 6,65 m, estacionario. Santa Fe 4,00 m (+0,08) y Paraná 3,99 m (+0,05), por debajo de su alerta.",
+   "enlace": "http://wfich1.unl.edu.ar/cim/rios/parana/alturas"
+  },
+  {
+   "fecha": "24/10/2026, 23:02 h",
+   "organismo": "COE de Corrientes (difundido por El Tribuno e Infobae, vía AIRE de Santa Fe)",
+   "resumen": "Más de 550 evacuados y autoevacuados en la provincia, frente a unos 400 dos días antes. Las autoridades coordinan asistencia con Defensa, Salud y Desarrollo Humano y reforzaron la atención sanitaria por el riesgo de dengue. Yacyretá informó que el aporte de agua de octubre superaba el promedio en un 92 %.",
+   "enlace": "https://www.eltribuno.com/nacionales/2026-10-24-23-2-0-videos-crecida-de-los-rios-e-inundaciones-las-causas-de-la-emergencia-en-chaco-y-corrientes"
+  },
+  {
+   "fecha": "24/10/2026",
+   "organismo": "INA, informe hidrométrico y pronóstico del río Paraná (actualizados el 23 y el 24/10)",
+   "resumen": "Corrientes en 7,37 m, categoría aguas altas, con descenso diario. Pronóstico del INA para Santa Fe: 4,56 m el 27/10 y 4,92 m el 3/11, por debajo de su alerta de 5,30 m; las lluvias en la cuenca podrían cambiar el escenario.",
+   "enlace": "https://www.ina.gob.ar/alerta/"
+  },
+  {
+   "fecha": "25/10/2026, 07:05 h",
+   "organismo": "Verificación de este tablero (SMN, COE)",
+   "resumen": "No se encontraron alertas vigentes del SMN ni del COE para Corrientes para el domingo 25/10. La página de alertas del SMN no pudo consultarse en esta corrida, por lo que la ausencia de alertas se basa en la prensa y en los modelos (Meteored 30 % de probabilidad de lluvia a las 14 h; Agrofy 0,4 mm).",
+   "enlace": "https://www.smn.gob.ar/alertas"
+  },
+  {
+   "fecha": "22/10/2026, 06:53 h",
+   "organismo": "SNIH, estaciones de la red hidrológica (ICAA, datos crudos sin validar)",
+   "resumen": "La lluvia ya llegó a la Capital: entre las 02 y las 06 h cayeron 51 mm en la estación ICAA de Corrientes (28,4 mm en una sola hora) y 53,5 mm en la estación 13805; La Palmira registró 37,6 mm e Itá Ibaté 10,8 mm. Santo Tomé, Bella Vista, Curuzú Cuatiá y Virasoro, sin lluvia significativa hasta las 06 h.",
+   "enlace": "https://snih.hidricosargentina.gob.ar/Filtros.aspx"
+  },
+  {
+   "fecha": "22/10/2026, 00:01 h",
+   "organismo": "Servicio Meteorológico Nacional (difundido por La Nación)",
+   "resumen": "Alerta naranja por tormentas para el jueves 22 en parte de Corrientes, con 60 a 100 mm que pueden superarse en forma puntual; el resto de la provincia, en alerta amarilla, con 10 a 30 mm. Se recomienda evitar actividades al aire libre en las zonas afectadas.",
+   "enlace": "https://www.lanacion.com.ar/sociedad/hay-alerta-naranja-y-amarilla-por-tormentas-lluvias-y-zonda-para-este-jueves-22-de-octubre-las-nid22102026/"
+  },
+  {
+   "fecha": "21/10/2026, noche",
+   "organismo": "COE de Corrientes (difundido por Examedia)",
+   "resumen": "Alerta naranja del COE de Corrientes desde las 0 h del jueves 22: lluvias intensas en períodos cortos, tormentas y granizo, con 60 a 100 mm que pueden superarse en forma localizada. Departamentos: Bella Vista, Berón de Astrada, Capital, Concepción, Curuzú Cuatiá, Empedrado, Esquina, General Paz, Goya, Itatí, Ituzaingó, Lavalle, Mburucuyá, Mercedes, Saladas, San Cosme, San Luis del Palmar, San Miguel, San Roque y Sauce.",
+   "enlace": "https://examedia.com.ar/portada/post/88095676"
+  },
+  {
+   "fecha": "21/10/2026, 16:26 h",
+   "organismo": "Defensa Civil de Corrientes (difundido por El Litoral)",
+   "resumen": "1.084 personas afectadas en la provincia: 543 en centros de evacuados y 541 autoevacuadas. Capital: 480 autoevacuados, con el río en 7,37 m. Isla Apipé: 76 evacuados. Ituzaingó: 19, con el río en 4,58 m y en bajante. Paso de la Patria: 4, río estacionado en 7,74 m. Cruz de los Milagros: 17 autoevacuados. Santa Lucía: 10.",
+   "enlace": "https://www.ellitoral.com.ar/sociedad/2026-10-21-16-26-0-crecida-de-los-rios-parana-y-uruguay-ya-hay-mas-de-1-000-personas-afectadas-en-corrientes"
+  },
+  {
+   "fecha": "21/10/2026",
+   "organismo": "Servicio Meteorológico Nacional (difundido por El Cronista y Ruralnet)",
+   "resumen": "El SMN actualizó el alerta amarilla por tormentas para toda la provincia de Corrientes: tormentas de variada intensidad, algunas localmente fuertes o puntualmente severas, durante la mañana, la tarde y la noche del miércoles 21, con acumulados de 40 a 80 mm que pueden superarse en forma puntual, granizo, actividad eléctrica frecuente y ráfagas de hasta 90 km/h.",
+   "enlace": "https://www.cronista.com/informacion-gral/se-acercan-tormentas-y-hay-alerta-amarilla-para-este-miercoles-21-en-corrientes-y-misiones-anticipan-rafagas-de-viento-de-90-kmh-granizo-y-lluvias/"
+  },
+  {
+   "fecha": "21/10/2026",
+   "organismo": "Servicio Meteorológico Nacional (difundido por C5N)",
+   "resumen": "El SMN anticipó un nuevo período de lluvias y tormentas en el norte del Litoral desde el miércoles 21 hasta el domingo 25, con acumulados que pueden superar los 100 mm. La primera tanda, desde el mediodía del miércoles, con 30 a 50 mm, y chaparrones entre jueves y sábado. En Corrientes, con abundante lluvia en poco tiempo, granizo, ráfagas de hasta 90 km/h y actividad eléctrica.",
+   "enlace": "https://www.c5n.com/sociedad/lluvia-sol-y-granizo-buenos-aires-pesar-la-inestabilidad-y-la-temperatura-maxima-sera-20-n252142"
+  },
+  {
+   "fecha": "21/10/2026, 09:53 h",
+   "organismo": "Prefectura Naval Argentina (difundido por La Nación)",
+   "resumen": "Lecturas posteriores al parte diario: Corrientes 7,36 m y Paso de la Patria 7,74 m, en crecimiento; Itatí 8,28 m, estable; Ituzaingó 4,61 m y Barranqueras 7,22 m, todos sobre su cota de evacuación. Bella Vista 6,25 m y Goya 5,51 m, en alerta.",
+   "enlace": "https://www.lanacion.com.ar/sociedad/altura-de-los-rios-en-la-argentina-segun-prefectura-esta-es-la-situacion-en-el-parana-hoy-miercoles-nid21102026/"
+  },
+  {
+   "fecha": "20/10/2026",
+   "organismo": "Servicio Meteorológico Nacional (difundido por El Litoral)",
+   "resumen": "Alerta amarilla por tormentas para toda la provincia de Corrientes el miércoles 21 y el jueves 22: lluvias y tormentas de variada intensidad, abundante lluvia en poco tiempo, actividad eléctrica, granizo y ráfagas de hasta 90 km/h.",
+   "enlace": "https://www.ellitoral.com.ar/sociedad/2026-10-20-19-24-0-corrientes-en-alerta-por-tormentas-fuertes-y-vientos-de-hasta-90-km-h-este-miercoles-y-jueves"
+  },
+  {
+   "fecha": "20/10/2026",
+   "organismo": "Defensa Civil de Corrientes, director Bruno Lovinson (difundido por medios)",
+   "resumen": "Los centros de evacuados de las localidades afectadas albergan a 400 personas, y muchas familias se autoevacuaron por sus propios medios. El Paraná está relativamente estacionado, pero se monitorean lluvias pronosticadas en las altas cuencas de hasta 200 mm, que podrían complicar al Paraná y al Uruguay. En la Capital se cerró preventivamente el acceso a Punta San Sebastián.",
+   "enlace": "https://elmonterizo.com/el-rio-se-quedo-quieto-pero-el-agua-ya-tiene-a-400-correntinos-fuera-de-sus-casas"
+  },
+  {
+   "fecha": "19/10/2026",
+   "organismo": "Instituto Nacional del Agua (INA), Alerta Hidrológico de la Cuenca del Plata",
+   "resumen": "El reporte diario del INA, con observaciones del 19/10, ubica al Paraná en Corrientes en 7,07 m, sobre su nivel de evacuación, y en Goya en 5,38 m, sobre la alerta, con mayor probabilidad de superar la evacuación desde el 23/10. Sobre el Uruguay, Paso de los Libres marca 9,20 m, sobre la evacuación, con tendencia descendente y posibles repuntes, y se anticipa un nuevo repunte desde el 28/10.",
+   "enlace": "https://alerta.ina.gob.ar/a5/diario/reporte_diario"
+  },
+  {
+   "fecha": "20/10/2026",
+   "organismo": "Agencia Federal de Emergencias (Nación), difundido por medios",
+   "resumen": "La Agencia Federal de Emergencias informó que trabaja con las autoridades provinciales y municipales en la asistencia a evacuados, la evaluación de las zonas de riesgo y la preparación de respuestas ante nuevos anegamientos. Según el reporte de Yacyretá, los caudales afluentes tienden a descender gradualmente, aunque el río seguirá por encima de los niveles de inundabilidad.",
+   "enlace": "https://www.infobae.com/sociedad/2026/10/20/ante-la-crecida-de-los-rios-en-el-litoral-las-fuerzas-federales-reforzaron-la-asistencia-en-las-zonas-afectadas/"
+  },
+  {
+   "fecha": "19/10/2026",
+   "organismo": "Municipalidad de Corrientes, Secretaría de Desarrollo Social (difundido por medios)",
+   "resumen": "Con el puerto de la Capital en 7,07 m, el municipio informó 380 personas autoevacuadas, de 103 familias, y que dispone de centros de evacuación para asistir a los vecinos de la ribera.",
+   "enlace": "https://www.corrienteshoy.com/info-general/confirman-oficialmente-que-son-380-los-autoevacuados-en-la-capital-correntina.htm"
+  },
+  {
+   "fecha": "18/10/2026, 19:58 h",
+   "organismo": "Defensa Civil de Corrientes, relevamiento provincial (difundido por medios)",
+   "resumen": "754 personas dejaron sus hogares en siete localidades: 392 evacuados y 362 autoevacuados. Capital: 344 autoevacuados de 89 familias. Itatí: 295 evacuados y 18 autoevacuados. Isla Apipé: 41 evacuados de 18 familias. Paso de los Libres: 31 evacuados de seis familias.",
+   "enlace": "https://www.ellitoral.com.ar/sociedad/2026-10-18-19-58-0-crecida-del-parana-ya-son-754-las-personas-que-dejaron-sus-casas-en-corrientes"
+  },
+  {
+   "fecha": "18/10/2026",
+   "organismo": "Municipalidad de Corrientes, Subsecretaría de Gestión de Riesgos y Catástrofes (declaraciones difundidas por medios)",
+   "resumen": "Unas 90 familias, cerca de 300 personas, autoevacuadas en barrios de las zonas norte y sur. El subsecretario estimó que el Paraná podría alcanzar entre 7,10 y 7,20 m entre el lunes y el martes en el puerto de Corrientes, y que el nivel podría mantenerse elevado durante 15 a 20 días, por el ingreso de agua desde Itaipú y Yacyretá.",
+   "enlace": "https://examedia.com.ar/portada/post/88073240"
+  },
+  {
+   "fecha": "16/10/2026",
+   "organismo": "Instituto Nacional del Agua (INA), Alerta Hidrológico de la Cuenca del Plata",
+   "resumen": "El reporte diario del INA prevé que el Paraná continúe en ascenso, con probabilidad de superar el nivel de evacuación en Corrientes a partir del 18/10 y, en Goya, superar la alerta desde el 17/10 y la evacuación con mayor probabilidad desde el 19/10. Sobre el río Uruguay, informa a Paso de los Libres y Bonpland sobre su cota de evacuación y anticipa una posterior fase de descenso.",
+   "enlace": "https://alerta.ina.gob.ar/a5/diario/reporte_diario"
+  },
+  {
+   "fecha": "15/10/2026",
+   "organismo": "Gobierno de Corrientes",
+   "resumen": "El Gobernador recorrió la costa ribereña de Itatí junto al Intendente y anunció la habilitación de espacios de resguardo para las familias que sean evacuadas. Se trabaja con excavadoras y entubado para mejorar el escurrimiento del agua.",
+   "enlace": "https://www.corrientes.gob.ar/"
+  }
+ ],
+ "zonas_actuales": [
+  {
+   "puerto": "Paso de la Patria",
+   "fecha": "27/10/2026",
+   "organismo": "Prefectura Naval Argentina y Defensa Civil de Corrientes (difundido por La Nación)",
+   "texto": "Río en 7,74 m. Más de 150 familias autoevacuadas y cuatro evacuadas por el municipio; cerca del 40 % del pueblo inundado, con los barrios Don Julián, La Isla y Pescadores, la zona de La Rioja y 8 de Diciembre y la zona sur por el desborde del arroyo Guajó.",
+   "enlace": "https://www.lanacion.com.ar/sociedad/pueblo-sitiado-ya-son-mas-de-150-las-familias-evacuadas-en-paso-de-la-patria-y-anticipan-una-nueva-nid27102026/"
+  },
+  {
+   "puerto": "Itatí",
+   "fecha": "18/10/2026",
+   "organismo": "Defensa Civil de Corrientes (relevamiento difundido por medios)",
+   "texto": "192 evacuados y 18 autoevacuados, de 43 familias, alojados en la Casa Promesero, el hospedaje Taba Cué y viviendas de familiares.",
+   "enlace": "https://examedia.com.ar/portada/post/88073711"
+  },
+  {
+   "puerto": "Itatí",
+   "fecha": "15/10/2026",
+   "organismo": "Gobierno de Corrientes",
+   "texto": "El Gobernador recorrió la costa ribereña de Itatí junto al Intendente y anunció espacios de resguardo para las familias que sean evacuadas.",
+   "enlace": "https://www.corrientes.gob.ar/"
+  },
+  {
+   "puerto": "Corrientes",
+   "fecha": "18/10/2026",
+   "organismo": "Municipalidad de Corrientes, Subsecretaría de Gestión de Riesgos y Catástrofes (declaraciones difundidas por medios)",
+   "texto": "Unas 90 familias, cerca de 300 personas, autoevacuadas en distintos barrios ribereños de las zonas norte y sur de la ciudad.",
+   "enlace": "https://examedia.com.ar/portada/post/88073240"
+  }
+ ],
+ "zonas_antecedentes": [
+  {
+   "puerto": "Corrientes",
+   "fecha": "08/11/2023",
+   "altura": "cerca de 7,00 m",
+   "organismo": "Municipalidad de Corrientes",
+   "texto": "Zona norte, de Punta Taitalo al Cichero. Zona sur, de Caridi al río Paraná y La Tosquera. El Centro, dentro de las cuatro avenidas, con retraso en el desagüe. Parque Camba Cuá. Los tres principales desagües que descargan en el Paraná (avenida 3 de Abril, arroyo Salamanca y arroyo Poncho Verde) estaban ahogados por la creciente.",
+   "enlace": "https://ciudaddecorrientes.gov.ar/content/ru-z-por-la-creciente-del-r-o-el-desagote-de-las-lluvias-va-ser-m-s-lento"
+  },
+  {
+   "puerto": "Corrientes",
+   "fecha": "06/11/2023",
+   "altura": "6,78 m",
+   "organismo": "Municipalidad de Corrientes",
+   "texto": "Quinta Ferré, Itatí, Cichero, Santa Marta y Punta Taitalo recibieron asistencia de las delegaciones municipales. Hubo familias evacuadas atendidas en el CIC del barrio Anahí y en el Dispositivo Territorial Comunitario del barrio Independencia. Zonas de descarga pluvial señaladas: Canal 5, Poncho Verde, arroyo Salamanca y Limita.",
+   "enlace": "https://ciudaddecorrientes.gov.ar/content/la-municipalidad-recorri-la-costa-del-r-o-mientras-contin-la-asistencia-los-afectados"
+  },
+  {
+   "puerto": "Corrientes",
+   "fecha": "05/02/2018",
+   "altura": "no informada",
+   "organismo": "Municipalidad de Corrientes",
+   "texto": "Seminario, Itatí, Plácido Martínez, Anahí y Quinta Ferré: asistencia a vecinos de la zona costera y obras para abrir desagües.",
+   "enlace": "https://ciudaddecorrientes.gov.ar/content/junto-naci-n-y-provincia-se-asiste-vecinos-de-zonas-ribere"
+  }
+ ],
+ "telefonos": [
+  [
+   "Defensa Civil",
+   "103"
+  ],
+  [
+   "Emergencias Náuticas (Prefectura)",
+   "106"
+  ],
+  [
+   "Emergencias",
+   "107"
+  ],
+  [
+   "Policía",
+   "911 / 101"
+  ],
+  [
+   "Bomberos",
+   "100"
+  ]
+ ],
+ "canales_oficiales": [
+  {
+   "localidad": "Provincia de Corrientes",
+   "canal": "Portal del Gobierno de Corrientes",
+   "enlace": "https://www.corrientes.gob.ar/"
+  },
+  {
+   "localidad": "Provincia de Corrientes",
+   "canal": "Instituto Correntino del Agua y del Ambiente (ICAA)",
+   "enlace": "https://icaa.gov.ar/"
+  },
+  {
+   "localidad": "Corrientes Capital",
+   "canal": "Municipalidad de la Ciudad de Corrientes",
+   "enlace": "https://www.ciudaddecorrientes.gov.ar/"
+  },
+  {
+   "localidad": "Goya",
+   "canal": "Municipalidad de Goya",
+   "enlace": "https://www.goya.gob.ar/"
+  },
+  {
+   "localidad": "Ituzaingó, Itá Ibaté, Itatí, Paso de la Patria, Empedrado, Bella Vista y Esquina",
+   "canal": "Canales oficiales municipales en verificación; hasta confirmarlos, rigen los avisos de Defensa Civil provincial (103)",
+   "enlace": ""
+  }
+ ],
+ "prensa_fecha": "03/11/2026, 07:11 h",
+ "prensa": [
+  {
+   "medio": "Examedia (Diario Época)",
+   "fecha": "03/11/2026",
+   "titulo": "Los ríos dan tregua pero prevén dos días de tormentas severas",
+   "resumen": "Los niveles de los ríos Paraná y Uruguay bajarían hacia la segunda quincena de noviembre. El SMN pronostica tormentas fuertes hoy y mañana en gran parte de la provincia, con inestabilidad hasta el jueves. La EBY prevé un caudal afluente de cerca de 29.000 m³/s. La nota no informa alturas por puerto ni cifras de evacuados.",
+   "enlace": "https://examedia.com.ar/portada/post/88169121"
+  },
+  {
+   "medio": "Examedia",
+   "fecha": "03/11/2026",
+   "titulo": "Alerta naranja por tormentas en Corrientes: hay 23 departamentos bajo advertencia",
+   "resumen": "Alerta naranja para 24 departamentos incluidos en la lista, con 40 a 80 mm, ráfagas de más de 90 km/h y granizo ocasional, desde las 7 h del martes 3/11 y el miércoles 4/11. La Capital figura entre los departamentos alcanzados.",
+   "enlace": "https://examedia.com.ar/portada/post/88167825"
+  },
+  {
+   "medio": "Examedia",
+   "fecha": "03/11/2026",
+   "titulo": "Hay alerta naranja y amarilla por tormentas, lluvias y vientos para este martes 3 de noviembre: las provincias afectadas",
+   "resumen": "El SMN mantiene aviso amarillo por tormentas, con 20 a 40 mm, que incluye a Corrientes; el naranja del martes alcanza a San Luis, Córdoba y La Pampa. La nota no detalla departamentos de Corrientes. No se informan barrios o zonas anegadas.",
+   "enlace": "https://examedia.com.ar/portada/post/88168653"
+  },
+  {
+   "medio": "Infobae",
+   "fecha": "02/11/2026",
+   "titulo": "El Niño: Yacyretá mantiene interrumpido el paso entre Argentina y Paraguay y se incrementa la cantidad de autoevacuados en Corrientes",
+   "resumen": "Los evacuados en centros bajaron de 741 a 409 y los autoevacuados subieron de 726 a 1.278. En la Capital, Itatí, Paso de la Patria, Bella Vista, Goya y Esquina las aguas siguen en nivel de evacuación; Ituzaingó está en alerta. La EBY prorrogó el cierre del paso hasta el 6/11.",
+   "enlace": "https://www.infobae.com/politica/2026/11/02/el-nino-yacyreta-mantiene-interrumpido-el-paso-entre-argentina-y-paraguay-y-se-incrementa-la-cantidad-de-auto-evacuados-en-corrientes/"
+  },
+  {
+   "medio": "El Monterizo",
+   "fecha": "02/11/2026",
+   "titulo": "El Paraná bajó, pero en Corrientes hay 220 personas más fuera de sus casas",
+   "resumen": "Con datos de Defensa Civil: 1.687 desplazados (1.467 una semana antes). Paso de la Patria sube de 110 a 228, Itatí de 475 a 518, la Capital de 652 a 672 y la isla Apipé de 114 a 119 evacuados. El río llegó a 7,15 m en la Capital.",
+   "enlace": "https://elmonterizo.com/el-parana-bajo-pero-en-corrientes-hay-220-personas-mas-fuera-de-sus-casas"
+  },
+  {
+   "medio": "infogoya.com",
+   "fecha": "02/11/2026",
+   "titulo": "El Paraná se estabiliza en 6,09 metros en Goya",
+   "resumen": "El COE monitorea la zona costera y asiste a familias afectadas; el 1/11 reforzó las defensas cerca del puerto y 34 familias estaban autoevacuadas. El INA proyecta una posible baja hacia el 10/11.",
+   "enlace": "https://infogoya.com/parana-estable-6-09-metros-goya-coe/"
+  },
+  {
+   "medio": "La Nación",
+   "fecha": "02/11/2026",
+   "titulo": "Hay alerta amarilla por tormentas para este lunes 2 de noviembre: las provincias afectadas",
+   "resumen": "El SMN incluye al norte de Corrientes en el aviso amarillo por tormentas, con 20 a 50 mm, granizo, ráfagas y actividad eléctrica. La nota no detalla departamentos ni horarios.",
+   "enlace": "https://www.lanacion.com.ar/sociedad/hay-alerta-amarilla-por-tormentas-para-este-lunes-2-de-noviembre-las-provincias-afectadas-nid01112026/"
+  },
+  {
+   "medio": "La Nación (parte del SMN)",
+   "fecha": "02/11/2026",
+   "titulo": "Clima en Corrientes: pronóstico de la semana",
+   "resumen": "Lunes 2/11 con tormentas fuertes por la mañana y la tarde; martes 3/11 con tormentas aisladas y fuertes por la noche; miércoles 4/11 con tormentas fuertes; desde el jueves 5/11 mejora, sin lluvia hasta el domingo 8/11.",
+   "enlace": "https://www.lanacion.com.ar/clima/corrientes/"
+  },
+  {
+   "medio": "El Litoral Corrientes (Examedia)",
+   "fecha": "31/10/2026",
+   "titulo": "Tras semanas críticas, el Paraná da un alivio: a qué altura podría llegar en Corrientes",
+   "resumen": "Más de 1.600 evacuados y autoevacuados en la provincia. Proyección del INA al 10/11: Corrientes entre 5,10 y 6,00 m. Advierten por nuevas subas posibles por lluvias en la cuenca del Paraguay. No se informan barrios o zonas anegadas nuevas.",
+   "enlace": "https://examedia.com.ar/portada/post/88156949"
+  },
+  {
+   "medio": "Examedia (TN24)",
+   "fecha": "01/11/2026",
+   "titulo": "El Paraná comienza a bajar en Corrientes, pero advierten que podrían registrarse nuevas crecidas",
+   "resumen": "Con el Paraná en 7,23 m, estacionado, sobre la evacuación de 7,00 m. Más de 1.600 evacuados y autoevacuados en la provincia. El INA prevé 5,10 a 6,00 m en Corrientes hacia el 10/11 y advierte por posibles nuevas subas entre 7 y 15 días después de las lluvias en la cuenca media del Paraguay. No se informan barrios o zonas anegadas nuevas.",
+   "enlace": "https://examedia.com.ar/portada/post/88157648"
+  },
+  {
+   "medio": "Corrientes Hoy",
+   "fecha": "31/10/2026",
+   "titulo": "Domingo nublado y con algunos chaparrones en Corrientes",
+   "resumen": "Parte del SMN: domingo 1/11 con 20 a 31 °C, tormentas aisladas por la tarde y 40 a 70 % de probabilidad de lluvia por la noche.",
+   "enlace": "https://www.corrienteshoy.com/info-general/domingo-nublado-y-con-algunos-chaparrones-en-corrientes.htm"
+  },
+  {
+   "medio": "Examedia (Diario Época)",
+   "fecha": "30/10/2026",
+   "titulo": "Defensa Civil mantiene la alerta por la onda de crecida aguas abajo",
+   "resumen": "Los evacuados bajaron de unos 700 a 440 y los autoevacuados superan los 1.000. La onda se concentra entre la Capital y Esquina, con niveles altos y descenso lento. En la Capital, la Escuela N.º 293 es el refugio principal. No se informan barrios o zonas anegadas nuevas.",
+   "enlace": "https://examedia.com.ar/portada/post/88147066"
+  },
+  {
+   "medio": "La Nación",
+   "fecha": "29/10/2026",
+   "titulo": "Altura de los ríos en la Argentina, según Prefectura: situación y niveles de alerta hoy, jueves 29 de octubre",
+   "resumen": "Con el Paraná en Corrientes en 7,36 m, Ituzaingó baja a 3,95 m y Paso de los Libres, sobre el Uruguay, sube a 8,03 m, cerca de su evacuación de 8,50 m. No se informan barrios o zonas anegadas nuevas.",
+   "enlace": "https://www.lanacion.com.ar/sociedad/altura-de-los-rios-en-la-argentina-segun-prefectura-esta-es-la-situacion-y-los-niveles-de-alerta-hoy-nid29102026/"
+  },
+  {
+   "medio": "Acción (accion.coop)",
+   "fecha": "29/10/2026",
+   "titulo": "Tregua del río Paraná",
+   "resumen": "Según el informe de Yacyretá, el caudal que ingresa al embalse se desacelera; se proyecta que Ituzaingó baje a entre 4,10 y 4,30 m y no se esperan lluvias significativas en la cuenca alta hasta el 30/10. La franja costera sigue anegada y bajo parámetros de emergencia.",
+   "enlace": "https://accion.coop/2026/10/29/las-ultimas/tregua-del-rio-parana/"
+  },
+  {
+   "medio": "Perfil",
+   "fecha": "28/10/2026",
+   "titulo": "El río Paraná daría una tregua tras superar marcas históricas, pero la alerta continúa",
+   "resumen": "Yacyretá prevé un alivio gradual hacia el fin de semana, con Ituzaingó entre 4,10 y 4,30 m y sin lluvias significativas en la cuenca alta hasta el 30/10, aunque mantiene la alerta y advierte por El Niño entre noviembre y enero.",
+   "enlace": "https://perfil.com/ciencia-y-tecnologia/crecida-del-rio-parana-yacyreta-preve-alivio-pero-hay-alerta-aYrPv0r29aOF"
+  },
+  {
+   "medio": "Infobae",
+   "fecha": "28/10/2026",
+   "titulo": "El Niño: Chaco tiene más de 2200 afectados por las inundaciones y en Corrientes se reportaron otros 1500",
+   "resumen": "Defensa Civil de Corrientes informa unas 1.500 personas afectadas: 440 evacuadas y 1.056 autoevacuadas. Las zonas más complejas son Isla Apipé, Itatí y Paso de la Patria. El INA prevé niveles altos con tendencia a descender en el corto plazo y lluvias superiores a lo normal desde el 1/11, con posibles nuevos repuntes en 7 a 15 días. Paso de los Libres, en alerta por un repunte del río Uruguay.",
+   "enlace": "https://www.infobae.com/sociedad/2026/10/28/el-nino-chaco-tiene-mas-de-2200-afectados-por-las-inundaciones-y-en-corrientes-se-reportaron-otros-1500/"
+  },
+  {
+   "medio": "La Nación",
+   "fecha": "27/10/2026",
+   "titulo": "Pueblo sitiado: ya son más de 150 las familias evacuadas en Paso de la Patria y anticipan una nueva onda de crecida",
+   "resumen": "Con el río en 7,74 m según Prefectura, más de 150 familias se autoevacuaron en Paso de la Patria y el municipio evacuó a cuatro más. Cerca del 40 % del pueblo está inundado: barrios Don Julián, La Isla y Pescadores, la zona de La Rioja y 8 de Diciembre, las playas Punta Mitre y Pelícano y la zona sur por el desborde del arroyo Guajó. El intendente espera 8,00 a 8,10 m y advierte que a 8,50 m el pueblo podría quedar incomunicado.",
+   "enlace": "https://www.lanacion.com.ar/sociedad/pueblo-sitiado-ya-son-mas-de-150-las-familias-evacuadas-en-paso-de-la-patria-y-anticipan-una-nueva-nid27102026/"
+  },
+  {
+   "medio": "Perfil",
+   "fecha": "27/10/2026",
+   "titulo": "Inundaciones en Corrientes: confirman una nueva onda de crecida del río Paraná para el 3 de noviembre",
+   "resumen": "Defensa Civil de la Provincia anticipa una nueva onda de crecida, con cerca de 7,60 a 7,70 m en la Capital y más de 8 m en Paso de la Patria e Itatí; Goya rozaría su escala de evacuación. En la Capital, una escuela del barrio Pujol funciona como centro de evacuados, con unas 30 familias asistidas. Los municipios costeros siguen en alerta roja.",
+   "enlace": "https://perfil.com/nea/inundaciones-en-corrientes-confirman-una-nueva-onda-de-crecida-del-rio-parana-para-el-3-de-noviembre-aNdJK9S4Q8y5"
+  },
+  {
+   "medio": "Corrientes Hoy",
+   "fecha": "27/10/2026",
+   "titulo": "Para la semana que viene se espera otra creciente del Río Paraná",
+   "resumen": "Según Defensa Civil de la Provincia, la nueva onda llegaría alrededor del 3/11, quizás similar a la anterior, con el río cerca de 7,60 a 7,70 m en la Capital y más de 8 m en Itatí y Paso de la Patria.",
+   "enlace": "https://www.corrienteshoy.com/info-general/para-la-semana-que-viene-se-espera-otra-creciente-del-rio-parana.htm"
+  },
+  {
+   "medio": "Examedia",
+   "fecha": "27/10/2026",
+   "titulo": "El río Paraná podría subir a la costanera en noviembre",
+   "resumen": "Con el Paraná en 7,35 m en el puerto de la Capital, el INA (informe del 23/10) proyecta entre 7,50 y 7,80 m en una semana, y una nueva onda de crecida para el 3/11 que podría superar por algunos centímetros el último pico. El especialista Juan José Neiff, de la UNNE, no descartó que el agua llegue a la avenida Costanera. Si hubiera lluvias torrenciales en las cuencas, el escenario podría agravarse.",
+   "enlace": "https://examedia.com.ar/portada/post/88125987"
+  },
+  {
+   "medio": "Prensa Mercosur",
+   "fecha": "26/10/2026",
+   "titulo": "Crecida del Paraná: ya son más de 1.400 desplazados en la provincia",
+   "resumen": "Se mantienen 1.452 personas fuera de sus hogares (767 evacuados y 685 autoevacuados). En la Capital, 64 personas en la Escuela N.º 293 del barrio Pujol y unos 588 autoevacuados, con los sectores más bajos anegados. En Paso de la Patria, 24 evacuados y 86 autoevacuados, con el río en 7,71 m; la presión sobre el arroyo Guajó amenaza los barrios Señorans, Rincón y El Lirio y el polideportivo municipal funciona como refugio preventivo. Itatí, 475 evacuados, con un nuevo refugio en preparación; Isla Apipé, 114 evacuados.",
+   "enlace": "https://prensamercosur.org/2026/10/26/crecida-del-parana-ya-son-mas-de-1-400-desplazados-en-la-provincia/"
+  },
+  {
+   "medio": "Infobae (nacional)",
+   "fecha": "26/10/2026",
+   "titulo": "El Niño: el paso por Yacyretá continúa cerrado por el nivel del Paraná mientras la creciente volvió al río Uruguay",
+   "resumen": "El paso Ituzaingó–Ayolas sigue cerrado al menos hasta el viernes 30/10, según la EBY. El Paraná está sobre los parámetros de evacuación en Ituzaingó, Itá Ibaté, Itatí, Paso de la Patria y la Capital; Bella Vista, Goya y Esquina, en alerta. La isla Apipé está inundada en un 50 %, partida en dos y con la ruta cortada, con más de 100 evacuados según el intendente. En el Uruguay hay niveles altos entre Puerto Concepción y Paso de los Libres, sin localidades en alerta ni evacuación.",
+   "enlace": "https://www.infobae.com/sociedad/2026/10/26/el-nino-el-paso-por-yacyreta-continua-cerrado-por-el-nivel-del-parana-mientras-la-creciente-volvio-al-rio-uruguay/"
+  },
+  {
+   "medio": "Examedia (Todojujuy)",
+   "fecha": "26/10/2026",
+   "titulo": "El Niño: la crecida del Paraná mantiene cerrado Yacyretá y vuelve a subir el Uruguay",
+   "resumen": "Replica los datos de la EBY y de Prefectura: cruces cerrados con Paraguay en Misiones y con Brasil sobre el Uruguay, onda de crecida del Uruguay avanzando hacia el sur y Salto Grande reduciendo su embalse.",
+   "enlace": "https://examedia.com.ar/portada/post/88122479"
+  },
+  {
+   "medio": "Diario de Cuyo (nacional)",
+   "fecha": "26/10/2026",
+   "titulo": "El Niño golpea a Chaco, Corrientes y Misiones: aumenta la cantidad de evacuados y el Paraná sube su nivel",
+   "resumen": "El COE de Corrientes registra más de 550 evacuados y autoevacuados; el INA midió el Paraná en 7,37 m en Corrientes el 24/10. Una imagen satelital muestra que la superficie cubierta por agua en el valle correntino del Paraná creció 53,4 % entre septiembre y octubre (unas 69.089 hectáreas).",
+   "enlace": "https://www.diariodecuyo.com.ar/argentina/el-nino-golpea-chaco-corrientes-y-misiones-aumenta-la-cantidad-evacuados-y-el-parana-sube-su-nivel-n6586836"
+  },
+  {
+   "medio": "Noticias de la Calle",
+   "fecha": "25/10/2026",
+   "titulo": "Más de 1.400 evacuados en Corrientes y la Armada se sumó al operativo de asistencia",
+   "resumen": "1.452 personas fuera de sus hogares (767 evacuados y 685 autoevacuados). Itatí concentra 475 evacuados, la Capital 588 autoevacuados y la isla Apipé 114 evacuados. El barrio Pujol, en la Capital, aloja un centro de contención en la Escuela N.º 293.",
+   "enlace": "https://www.noticiasdelacalle.com.ar/noticias/2026/10/25/203175-mas-de-1400-evacuados-en-corrientes-y-la-armada-se-sumo-al-operativo-de-asistencia"
+  },
+  {
+   "medio": "El Litoral (Corrientes)",
+   "fecha": "25/10/2026",
+   "titulo": "De la lluvia al calor: así estará el tiempo en Corrientes esta semana",
+   "resumen": "Según el SMN, lunes y martes parcialmente nublados, con máximas de 24 °C; el viernes, mayormente soleado y con muy baja probabilidad de lluvia, con 29 °C.",
+   "enlace": "https://www.ellitoral.com.ar/sociedad/2026-10-25-14-25-0-de-la-lluvia-al-calor-asi-estara-el-tiempo-en-corrientes-esta-semana"
+  },
+  {
+   "medio": "Infobae (nacional)",
+   "fecha": "24/10/2026",
+   "titulo": "Vuelven las lluvias al AMBA, mientras crece la preocupación por las alertas por tormentas en el Litoral",
+   "resumen": "El SMN emitió un aviso naranja por tormentas que incluyó a Corrientes el sábado 24/10 y pidió estar atentos a los avisos oficiales en las comunidades que todavía enfrentan la crecida.",
+   "enlace": "https://www.infobae.com/sociedad/2026/10/24/vuelven-las-lluvias-al-amba-mientras-crece-la-preocupacion-por-las-alertas-por-tormentas-en-el-litoral/"
+  },
+  {
+   "medio": "Infobae (nacional)",
+   "fecha": "25/10/2026",
+   "titulo": "El Niño: había 1.800 los evacuados en Chaco, Misiones fue afectada por fuertes tormentas y Santa Fe prevé otra suba del Paraná",
+   "resumen": "El INA midió el Paraná en 7,37 m en Corrientes, sobre la cota de evacuación de 7 m, con descenso diario y categoría de aguas altas. La nota informa 1.790 desplazados en Chaco y 141 en Misiones.",
+   "enlace": "https://www.infobae.com/sociedad/2026/10/25/el-nino-habia-1800-los-evacuados-en-chaco-misiones-fue-afectada-por-fuertes-tormentas-y-santa-fe-preve-otra-suba-del-parana/"
+  },
+  {
+   "medio": "Infobae (nacional)",
+   "fecha": "24/10/2026",
+   "titulo": "Inundaciones, evacuados y aislados: las imágenes del caos que provocó El Niño en Neuquén, Chaco y Corrientes",
+   "resumen": "El COE habla de más de 550 evacuados y autoevacuados en Corrientes. En Paso de los Libres el agua del Uruguay (7,88 m) llegó a la calle y al paseo costero. Un temporal con lluvia intensa, granizo y ráfagas afectó sobre todo zonas rurales de Goya, Lavalle, Perugorría y Santa Lucía. Vialidad Nacional trabaja en desagües de las rutas 118 y 14 e interviene en las rutas 12 y 123.",
+   "enlace": "https://www.infobae.com/sociedad/2026/10/24/inundaciones-evacuados-y-aislados-las-imagenes-del-caos-que-provoco-el-nino-en-neuquen-chaco-y-corrientes/"
+  },
+  {
+   "medio": "El Tribuno (nacional)",
+   "fecha": "24/10/2026, 23:02 h",
+   "titulo": "La crecida del Paraná y del río Uruguay provoca más evacuados en Chaco y Corrientes",
+   "resumen": "Paraná en 7,43 m en la capital, más de 8 m en Itatí y 7,79 m en Paso de la Patria; más de 550 evacuados y autoevacuados en la provincia. Las lluvias abundantes en las cuencas altas, sobre todo en Brasil, y la operación de Itaipú y Yacyretá explican la crecida.",
+   "enlace": "https://www.eltribuno.com/nacionales/2026-10-24-23-2-0-videos-crecida-de-los-rios-e-inundaciones-las-causas-de-la-emergencia-en-chaco-y-corrientes"
+  },
+  {
+   "medio": "AIRE de Santa Fe",
+   "fecha": "23/10/2026, 06:40 h",
+   "titulo": "Qué anticipa para Santa Fe que el río Paraná supere los niveles de alerta y evacuación en Corrientes y Reconquista",
+   "resumen": "El Paraná llegó a 7,45 m en Corrientes el jueves 22. El INA proyecta 4,56 m en Santa Fe el 27/10 y 4,92 m el 3/11, por debajo de la alerta.",
+   "enlace": "https://www.airedesantafe.com.ar/santa-fe/que-anticipa-santa-fe-que-el-rio-parana-supere-los-niveles-alerta-y-evacuacion-corrientes-y-reconquista-n674101"
+  },
+  {
+   "medio": "Examedia",
+   "fecha": "21/10/2026",
+   "titulo": "Alerta naranja por tormentas fuertes: prevén lluvias intensas y caída de granizo",
+   "resumen": "El COE emitió alerta naranja desde la medianoche del jueves para 20 departamentos, con 60 a 100 mm.",
+   "enlace": "https://examedia.com.ar/portada/post/88095676"
+  },
+  {
+   "medio": "El Litoral",
+   "fecha": "21/10/2026, 16:26 h",
+   "titulo": "Crecida de los ríos Paraná y Uruguay: ya hay más de 1.000 personas afectadas en Corrientes",
+   "resumen": "Defensa Civil informó 1.084 afectados, entre evacuados y autoevacuados.",
+   "enlace": "https://www.ellitoral.com.ar/sociedad/2026-10-21-16-26-0-crecida-de-los-rios-parana-y-uruguay-ya-hay-mas-de-1-000-personas-afectadas-en-corrientes"
+  },
+  {
+   "medio": "Corrientes Hoy",
+   "fecha": "21/10/2026",
+   "titulo": "Otra ciudad correntina en el sur está en alerta ante la creciente del río",
+   "resumen": "En Esquina el Paraná llegó a 4,71 m, creciendo unos 12 cm por día; faltan 29 cm para la alerta de 5 m.",
+   "enlace": "https://www.corrienteshoy.com/info-general/otra-ciudad-correntina-en-el-sur-esta-en-alerta-ante-la-creciente-del-rio.htm"
+  },
+  {
+   "medio": "Misiones Online",
+   "fecha": "21/10/2026",
+   "titulo": "El Paraná continúa estacionado sobre el nivel de evacuación en Itatí",
+   "resumen": "Con 8,28 m, hay caminos de acceso, sectores productivos y viviendas costeras anegados; continúan los traslados preventivos de personas y ganado.",
+   "enlace": "https://misionesonline.net/2026/10/21/corrientes-parana-evacuacion-itati/"
+  },
+  {
+   "medio": "La Nación",
+   "fecha": "21/10/2026",
+   "titulo": "El río Paraná rompió las defensas de Paso de la Patria e inundó tres barrios",
+   "resumen": "La rotura del terraplén se produjo con el hidrómetro local en 7,63 m y anegó los barrios Don Julián, La Isla y Pescadores. Unas 650 personas dejaron sus casas en la provincia; en Itatí, casi 200 fueron a centros de evacuación. En Goya se espera el pico entre el 22 y el 27 de octubre, con más de seis metros.",
+   "enlace": "https://www.lanacion.com.ar/sociedad/el-rio-parana-rompio-las-defensas-de-una-importante-ciudad-turistica-e-inundo-tres-barrios-nid21102026/"
+  },
+  {
+   "medio": "Elonce",
+   "fecha": "21/10/2026",
+   "titulo": "La crecida del Paraná rompió una defensa en Paso de la Patria y el agua inundó varios barrios",
+   "resumen": "En la ciudad de Corrientes, con el río en 7,07 m, el agua ingresó a viviendas del barrio Anahí, en el sector norte; se restringió el acceso a Punta San Sebastián.",
+   "enlace": "https://www.elonce.com/sociedad/la-crecida-del-rio-parana-rompio-una-defensa-en-una-ciudad-turistica-de-corrientes-y-el-agua-inundo-varios-barrios.htm"
+  },
+  {
+   "medio": "El Cronista",
+   "fecha": "21/10/2026",
+   "titulo": "Alerta amarilla para este miércoles en Corrientes y Misiones: ráfagas de 90 km/h, granizo y lluvias",
+   "resumen": "El SMN anticipa tormentas intensas durante toda la jornada, algunas localmente fuertes o puntualmente severas, con 40 a 80 mm que podrían superarse en forma localizada, y que podrían extenderse al resto de la semana.",
+   "enlace": "https://www.cronista.com/informacion-gral/se-acercan-tormentas-y-hay-alerta-amarilla-para-este-miercoles-21-en-corrientes-y-misiones-anticipan-rafagas-de-viento-de-90-kmh-granizo-y-lluvias/"
+  },
+  {
+   "medio": "La Nación",
+   "fecha": "21/10/2026, 09:53 h",
+   "titulo": "Altura de los ríos en la Argentina, según Prefectura: la situación en el Paraná hoy",
+   "resumen": "Las condiciones más comprometidas están en Misiones, Corrientes y Chaco: Ituzaingó, Itatí, Paso de la Patria, Corrientes y Barranqueras superan su cota de evacuación, con variaciones moderadas en las últimas horas.",
+   "enlace": "https://www.lanacion.com.ar/sociedad/altura-de-los-rios-en-la-argentina-segun-prefectura-esta-es-la-situacion-en-el-parana-hoy-miercoles-nid21102026/"
+  },
+  {
+   "medio": "C5N",
+   "fecha": "21/10/2026",
+   "titulo": "El SMN anticipa más de 100 mm en el norte del Litoral hasta el domingo",
+   "resumen": "Tormentas fuertes desde el mediodía del miércoles en el norte del Litoral, con 30 a 50 mm en la primera tanda y chaparrones hasta el sábado.",
+   "enlace": "https://www.c5n.com/sociedad/lluvia-sol-y-granizo-buenos-aires-pesar-la-inestabilidad-y-la-temperatura-maxima-sera-20-n252142"
+  },
+  {
+   "medio": "Corrientes Hoy",
+   "fecha": "21/10/2026",
+   "titulo": "El río Uruguay, estacionado a la baja en toda la provincia, pero el alerta se mantiene",
+   "resumen": "Según Prefectura, el Uruguay baja en Paso de los Libres, Alvear, Garruchos, Santo Tomé, La Cruz, Yapeyú, Bonpland y Monte Caseros, y está estacionado en Mocoretá.",
+   "enlace": "https://www.corrienteshoy.com/info-general/el-rio-uruguay-estacionado-a-la-baja-en-toda-la-provincia-pero-el-alerta-se-mantiene.htm"
+  },
+  {
+   "medio": "Economis (Misiones)",
+   "fecha": "21/10/2026",
+   "titulo": "La crecida del Paraná moviliza un operativo de limpieza en Yacyretá",
+   "resumen": "Operarios de la represa limpian las rejas por la gran cantidad de camalotes y troncos; el paso Ayolas e Ituzaingó sigue cerrado hasta el domingo 25.",
+   "enlace": "https://economis.com.ar/crecida-del-parana-moviliza-un-operativo-de-limpieza-en-yacyreta/"
+  },
+  {
+   "medio": "Elonce / Radio RD (Entre Ríos)",
+   "fecha": "21/10/2026",
+   "titulo": "El INA prevé que el Paraná supere la alerta en la ciudad de Paraná a comienzos de noviembre",
+   "resumen": "La onda de crecida avanza aguas abajo: el río subió 32 cm en una semana en Paraná; en La Paz el pronóstico anticipa niveles sobre la evacuación.",
+   "enlace": "https://radiord.com.ar/el-rio-parana-superaria-el-nivel-de-alerta-en-noviembre-en-la-capital-provincial/"
+  },
+  {
+   "medio": "TN24 (Chaco)",
+   "fecha": "20/10/2026",
+   "titulo": "El Paraná mantiene en vilo a Corrientes: 400 evacuados y barrios anegados",
+   "resumen": "En Paso de la Patria, el río rompió una barrera de contención provisoria y el agua llegó a calles céntricas, como 25 de Mayo y 8 de Diciembre. En Itatí, el barrio Ibiray permanece aislado, con viviendas con más de un metro de agua. En la Capital se cerró el acceso a Punta San Sebastián por la cercanía del agua a las defensas.",
+   "enlace": "https://www.tn24.com.ar/2026/10/el-parana-mantiene-en-vilo-a-corrientes-400-evacuados-y-barrios-anegados/"
+  },
+  {
+   "medio": "El Monterizo (Corrientes)",
+   "fecha": "20/10/2026",
+   "titulo": "El río se quedó quieto, pero el agua ya tiene a 400 correntinos fuera de sus casas",
+   "resumen": "Defensa Civil confirmó 400 personas en centros de evacuados y advirtió por lluvias de hasta 200 mm en las altas cuencas, un panorama desfavorable para el Paraná y el Uruguay. Itatí, Paso de la Patria y la Capital concentran los focos más complicados.",
+   "enlace": "https://elmonterizo.com/el-rio-se-quedo-quieto-pero-el-agua-ya-tiene-a-400-correntinos-fuera-de-sus-casas"
+  },
+  {
+   "medio": "El Litoral de Corrientes",
+   "fecha": "19/10/2026, 22:27 h",
+   "titulo": "Crecida del río Paraná en Corrientes: cerraron la punta San Sebastián",
+   "resumen": "La Municipalidad cerró de forma preventiva la punta San Sebastián, sobre la Costanera, y las playas Molina Punta e Isla Malvinas I y II. Según Prefectura, el río marcaba 7,17 m en el puerto local, por encima de la cota de evacuación.",
+   "enlace": "https://www.ellitoral.com.ar/ciudad/2026-10-19-22-27-0-crecida-del-rio-parana-en-corrientes-cerraron-la-punta-san-sebastian"
+  },
+  {
+   "medio": "Radio Sudamericana (Corrientes)",
+   "fecha": "19/10/2026",
+   "titulo": "Cerraron el acceso a la Punta San Sebastián por la crecida del Paraná",
+   "resumen": "Se restringió el ingreso al paseo costero de la Punta San Sebastián durante la noche del lunes. Prefectura informó 7,17 m a las 18 h, en estado de evacuación y creciente.",
+   "enlace": "https://www.radiosudamericana.com/nota/sociedad/351619-Cerraron-el-acceso-a-la-Punta-San-Sebastian-por-la-crecida-del-Parana.htm"
+  },
+  {
+   "medio": "Infobae (nacional)",
+   "fecha": "20/10/2026",
+   "titulo": "Ante la crecida de los ríos en el Litoral, las fuerzas federales reforzaron la asistencia en las zonas afectadas",
+   "resumen": "El diario informó que el Paraná superó la cota de evacuación en Corrientes Capital, Itatí, Paso de la Patria e Ituzaingó, y que la Agencia Federal de Emergencias colabora en asistencia y evaluación de zonas de riesgo. Yacyretá recibe un caudal 70 % superior al promedio de octubre.",
+   "enlace": "https://www.infobae.com/sociedad/2026/10/20/ante-la-crecida-de-los-rios-en-el-litoral-las-fuerzas-federales-reforzaron-la-asistencia-en-las-zonas-afectadas/"
+  }
+ ],
+ "puertos_uruguay": [
+  {
+   "puerto": "Garruchos",
+   "altura": 4.0,
+   "variacion": -0.74,
+   "alerta": 12.0,
+   "evacuacion": 14.0,
+   "fuente": "CTM Salto Grande, informe del 03/11/2026 a las 09:00 h (observación de las 07:00 h); repositorio validado, manifiesto 20261103_145314",
+   "registro": "03/11/2026, 07:00 h"
+  },
+  {
+   "puerto": "Santo Tomé",
+   "altura": 5.59,
+   "variacion": -0.53,
+   "alerta": 11.5,
+   "evacuacion": 12.5,
+   "fuente": "CTM Salto Grande, informe del 03/11/2026 a las 09:00 h (observación de las 07:00 h); repositorio validado, manifiesto 20261103_145314",
+   "registro": "03/11/2026, 07:00 h"
+  },
+  {
+   "puerto": "Alvear",
+   "altura": 6.79,
+   "variacion": -0.55,
+   "alerta": 9.5,
+   "evacuacion": 11.0,
+   "fuente": "CTM Salto Grande, informe del 03/11/2026 a las 09:00 h (observación de las 07:00 h); repositorio validado, manifiesto 20261103_145314",
+   "registro": "03/11/2026, 07:00 h"
+  },
+  {
+   "puerto": "La Cruz",
+   "altura": 8.12,
+   "variacion": -0.62,
+   "alerta": 9.5,
+   "evacuacion": 11.5,
+   "fuente": "Prefectura Naval Argentina vía INA-SIyAH, observación del 01/11/2026 a las 00:00 h; repositorio validado, manifiesto 20261102_202300",
+   "registro": "01/11/2026, 00:00 h"
+  },
+  {
+   "puerto": "Yapeyú",
+   "altura": 7.98,
+   "variacion": -0.42,
+   "alerta": 9.5,
+   "evacuacion": 10.5,
+   "fuente": "Prefectura Naval Argentina vía INA-SIyAH, observación del 01/11/2026 a las 00:00 h; repositorio validado, manifiesto 20261102_202300",
+   "registro": "01/11/2026, 00:00 h"
+  },
+  {
+   "puerto": "Paso de los Libres",
+   "altura": 6.53,
+   "variacion": -0.5,
+   "alerta": 7.5,
+   "evacuacion": 8.5,
+   "fuente": "CTM Salto Grande, informe del 03/11/2026 a las 09:00 h (observación de las 07:00 h); repositorio validado, manifiesto 20261103_145314",
+   "registro": "03/11/2026, 07:00 h"
+  },
+  {
+   "puerto": "Bonpland",
+   "altura": 4.1,
+   "variacion": null,
+   "alerta": 7.9,
+   "evacuacion": 10.8,
+   "fuente": "Prefectura Naval Argentina vía INA-SIyAH, observación del 30/10/2026 a las 00:00 h; repositorio validado, manifiesto 20261102_202300",
+   "registro": "30/10/2026, 00:00 h"
+  },
+  {
+   "puerto": "Monte Caseros",
+   "altura": 6.92,
+   "variacion": null,
+   "alerta": 7.5,
+   "evacuacion": 8.5,
+   "fuente": "Prefectura Naval Argentina, difundido por MonteCaserosOnline (en bajante)",
+   "registro": "20/10/2026, 12:00 h"
+  }
+ ],
+ "uruguay_nota": "Actualización del 03/11/2026, 19:55 h, repositorio validado (manifiesto 20261103_145314). CTM Salto Grande, 03/11 a las 07:00 h: Paso de los Libres 6,53 m (−0,50 m), bajo su alerta de 7,50 m; Santo Tomé 5,59 m; Alvear 6,79 m; Garruchos 4,00 m. La Cruz 8,12 m y Yapeyú 7,98 m el 01/11 (00:00 h), Bonpland 4,10 m el 30/10, sin lecturas posteriores. Monte Caseros: sin lectura en el repositorio; se conserva la última externa, pendiente de consolidación, del 20/10/2026, 12:00 h.",
+ "pasos_fecha": "03/11/2026, 07:11 h",
+ "pasos": [
+  {
+   "nombre": "Ituzaingó – Ayolas (Paraguay)",
+   "rio": "Paraná",
+   "estado": "cerrado",
+   "detalle": "Paso sobre la represa de Yacyretá cerrado al tránsito vehicular y peatonal desde hace unas dos semanas. El 26/10 la EBY informó que seguirá cerrado al menos hasta el viernes 30/10, con el caudal afluente en aumento. Un medio local difundió una versión, no confirmada, de que se buscaría cerrarlo en forma definitiva. Verificación del 27/10, 18:45 h: sin novedades ni reapertura anunciada. Verificación del 28/10/2026, 07:06 h: sin novedades en las fuentes consultadas. Verificación del 28/10/2026, 18:45 h: sin novedades en las fuentes consultadas. Verificación del 29/10/2026, 07:15 h: sin novedades en las fuentes consultadas. La EBY (informe del 27/10) prevé un descenso gradual hacia el fin de semana, con Ituzaingó en 4,30 m el 28/10; no se anunció reapertura. Verificación del 29/10/2026, 18:45 h: sin novedades en las fuentes consultadas. Verificación del 30/10/2026, 07:15 h: sin novedades en las fuentes consultadas. La EBY había fijado el cierre al menos hasta el viernes 30/10 (hoy); no se anunció reapertura. Verificación del 01/11/2026, 07:06 h: sin novedades en las fuentes consultadas. El plazo fijado por la EBY (al menos hasta el 30/10) venció sin anuncio de reapertura; el alerta N.º 13 del 30/10 prevé Ituzaingó en 3,9 a 3,8 m hasta el 1/11, bajo su evacuación. Verificación del 02/11/2026, 07:05 h: sin novedades en las fuentes consultadas. No se anunció la reapertura. Verificación del 02/11/2026, 18:52 h: la EBY prorrogó la suspensión del paso hasta el viernes 6/11 (Infobae); es una medida preventiva vigente desde el 12/10. Ituzaingó en 3,76 m el 02/11, bajo su evacuación. Verificación del 03/11/2026, 07:11 h: rige la suspensión prorrogada por la EBY hasta el viernes 6/11 (medida preventiva vigente desde el 12/10); el alerta hidrológico N.º 01/noviembre prevé un caudal de 27.000 a 29.000 m³/s, aún sobre los umbrales de alerta e inundabilidad. Ituzaingó en 3,85 m el 01/11 (repositorio) y 3,75 m el 02/11 (Prefectura, externa), bajo su evacuación.",
+   "fuente": "EBY, difundido por Infobae y Examedia, 02/11/2026 y 03/11/2026",
+   "enlace": "https://examedia.com.ar/portada/post/88169121",
+   "verificado": "03/11/2026, 07:11 h"
+  },
+  {
+   "nombre": "Alvear – Itaquí (Brasil)",
+   "rio": "Uruguay",
+   "estado": "cerrado",
+   "detalle": "Cierre preventivo del paso de frontera por razones de seguridad en la navegación, dispuesto con el río por encima de los 10 m. El 17/10 el río marcaba 10,35 m en Alvear, con las plantas bajas de Aduana y Prefectura inundadas y el nivel comenzando a bajar. No se encontró anuncio de reapertura. Verificación del 26/10, 18:44 h: sin novedades; Infobae (26/10) informa cruces con Brasil cerrados sobre el Uruguay en Misiones y la onda de crecida avanzando hacia el sur. Verificación del 27/10, 18:45 h: sin novedades. Verificación del 28/10/2026, 07:06 h: sin novedades en las fuentes consultadas. Verificación del 28/10/2026, 18:45 h: sin novedades en las fuentes consultadas. Verificación del 29/10/2026, 07:15 h: sin novedades en las fuentes consultadas. Verificación del 29/10/2026, 18:45 h: sin novedades en las fuentes consultadas. Verificación del 30/10/2026, 07:15 h: sin novedades en las fuentes consultadas. Verificación del 01/11/2026, 07:06 h: sin novedades en las fuentes consultadas. Verificación del 02/11/2026, 07:05 h: sin novedades en las fuentes consultadas. Verificación del 03/11/2026, 07:11 h: sin novedades en las fuentes consultadas.",
+   "fuente": "El Litoral, 17/10/2026 (cierre: Perfil, 12/10/2026)",
+   "enlace": "https://ellitoral.com.ar/sociedad/2026-10-17-21-18-0-la-crecida-del-rio-uruguay-inundo-las-plantas-bajas-de-aduana-y-prefectura-en-alvear",
+   "verificado": "03/11/2026, 07:11 h"
+  },
+  {
+   "nombre": "Monte Caseros – Bella Unión (Uruguay)",
+   "rio": "Uruguay",
+   "estado": "cerrado",
+   "detalle": "La Prefectura Monte Caseros dispuso el cierre del paso fronterizo y suspendió el servicio de lanchas de pasajeros desde el 7 de octubre. Según disposiciones anteriores de Prefectura, el paso se cierra con el río por encima de 6,20 m; el último registro conocido supera los 7 m. No se encontró una disposición de reapertura. Verificación del 26/10, 18:44 h: sin novedades; Infobae (26/10) informa cruces con Brasil cerrados sobre el Uruguay en Misiones y la onda de crecida avanzando hacia el sur. Verificación del 27/10, 18:45 h: sin novedades. Verificación del 28/10/2026, 07:06 h: sin novedades en las fuentes consultadas. Verificación del 28/10/2026, 18:45 h: sin novedades en las fuentes consultadas. Verificación del 29/10/2026, 07:15 h: sin novedades en las fuentes consultadas. Verificación del 29/10/2026, 18:45 h: sin novedades en las fuentes consultadas. Verificación del 30/10/2026, 07:15 h: sin novedades en las fuentes consultadas. Verificación del 01/11/2026, 07:06 h: sin novedades en las fuentes consultadas. Verificación del 02/11/2026, 07:05 h: sin novedades en las fuentes consultadas. Verificación del 03/11/2026, 07:11 h: sin novedades en las fuentes consultadas.",
+   "fuente": "Corrientes Hoy, citando la disposición de Prefectura, 07/10/2026; ratificado por La Nación, 15/10/2026",
+   "enlace": "https://www.corrienteshoy.com/info-general/argentina-cierran-otro-paso-fronterizo-en-corrientes-por-la-creciente-del-rio-uruguay.htm",
+   "verificado": "03/11/2026, 07:11 h"
+  },
+  {
+   "nombre": "Cruces fluviales con Paraguay",
+   "rio": "Paraná",
+   "estado": "restringido",
+   "detalle": "Del lado paraguayo hay 14 puestos migratorios inhabilitados por la crecida. Antes de cruzar en lancha desde Itatí, Paso de la Patria u otros puertos, conviene confirmar con Prefectura o Migraciones. Verificación del 27/10, 18:45 h: sin novedades. Verificación del 28/10/2026, 07:06 h: sin novedades en las fuentes consultadas. Verificación del 28/10/2026, 18:45 h: sin novedades en las fuentes consultadas. Verificación del 29/10/2026, 07:15 h: sin novedades en las fuentes consultadas. Verificación del 29/10/2026, 18:45 h: sin novedades en las fuentes consultadas. Verificación del 30/10/2026, 07:15 h: sin novedades en las fuentes consultadas. Verificación del 01/11/2026, 07:06 h: sin novedades en las fuentes consultadas. Verificación del 02/11/2026, 07:05 h: sin novedades en las fuentes consultadas. Verificación del 03/11/2026, 07:11 h: sin novedades en las fuentes consultadas.",
+   "fuente": "La Nación, 15/10/2026",
+   "enlace": "https://www.lanacion.com.ar/sociedad/crecidas-del-parana-y-del-uruguay-zonas-criticas-evacuados-rutas-cortadas-y-fechas-que-inquietan-nid15102026/",
+   "verificado": "03/11/2026, 07:11 h"
+  },
+  {
+   "nombre": "Santo Tomé – São Borja y Paso de los Libres – Uruguaiana (Brasil)",
+   "rio": "Uruguay",
+   "estado": "habilitado",
+   "detalle": "Puentes internacionales habilitados: no se encontraron cierres por la crecida. El puente Paso de los Libres – Uruguaiana tuvo dos cortes programados de una hora, el 10 y el 17 de octubre, por el traslado de unidades del Ejército a un ejercicio militar, ajenos a la crecida; ambos ya finalizaron. Verificación del 27/10, 18:45 h: sin novedades. Verificación del 28/10/2026, 07:06 h: sin novedades en las fuentes consultadas. Verificación del 28/10/2026, 18:45 h: sin novedades en las fuentes consultadas. Verificación del 29/10/2026, 07:15 h: sin novedades en las fuentes consultadas. Verificación del 29/10/2026, 18:45 h: sin novedades en las fuentes consultadas. Verificación del 30/10/2026, 07:15 h: sin novedades en las fuentes consultadas. Verificación del 01/11/2026, 07:06 h: sin novedades en las fuentes consultadas. Verificación del 02/11/2026, 07:05 h: sin novedades en las fuentes consultadas. Verificación del 03/11/2026, 07:11 h: sin novedades en las fuentes consultadas.",
+   "fuente": "Centro de Frontera Paso de los Libres, comunicado del 07/10/2026, difundido por Misiones Online",
+   "enlace": "https://misionesonline.net/2026/10/09/corrientes-brasil-cierre/",
+   "verificado": "03/11/2026, 07:11 h"
+  }
+ ],
+ "rutas": [
+  {
+   "tramo": "Paso de la Patria, sectores del distrito",
+   "estado": "cortado",
+   "detalle": "Hay sectores del distrito aislados por el agua, con cerca del 40 % del pueblo inundado. El intendente advirtió que con el río en 8,50 m el pueblo podría quedar incomunicado. Verificación del 28/10/2026, 07:06 h: sin novedades en las fuentes consultadas. Verificación del 28/10/2026, 18:45 h: sin novedades en las fuentes consultadas. Verificación del 29/10/2026, 07:15 h: sin novedades en las fuentes consultadas. Verificación del 29/10/2026, 18:45 h: sin novedades en las fuentes consultadas. Verificación del 30/10/2026, 07:15 h: sin novedades en las fuentes consultadas. Verificación del 01/11/2026, 07:06 h: sin novedades en las fuentes consultadas. Verificación del 02/11/2026, 07:05 h: sin novedades en las fuentes consultadas. Verificación del 03/11/2026, 07:11 h: sin novedades en las fuentes consultadas.",
+   "fuente": "La Nación, 27/10/2026",
+   "enlace": "https://www.lanacion.com.ar/sociedad/pueblo-sitiado-ya-son-mas-de-150-las-familias-evacuadas-en-paso-de-la-patria-y-anticipan-una-nueva-nid27102026/",
+   "verificado": "03/11/2026, 07:11 h"
+  },
+  {
+   "tramo": "Rutas nacionales 12 y 14 en territorio correntino",
+   "estado": "sin reportes",
+   "detalle": "No se encontraron reportes de cortes por la crecida en los tramos correntinos. Los cortes en la ruta nacional 12 (puentes de los arroyos Piray Guazú y Paranay) están en Misiones y los puentes ya fueron rehabilitados; el 14 (Campo Viera, por obras) también en Misiones. Verificación del 28/10/2026, 07:06 h: sin novedades en las fuentes consultadas. Verificación del 28/10/2026, 18:45 h: sin novedades en las fuentes consultadas. Verificación del 29/10/2026, 07:15 h: sin novedades en las fuentes consultadas. Verificación del 29/10/2026, 18:45 h: sin novedades en las fuentes consultadas. Verificación del 30/10/2026, 07:15 h: sin novedades en las fuentes consultadas. Verificación del 01/11/2026, 07:06 h: sin novedades en las fuentes consultadas. Verificación del 02/11/2026, 07:05 h: sin novedades en las fuentes consultadas. Verificación del 03/11/2026, 07:11 h: sin novedades en las fuentes consultadas.",
+   "fuente": "Infobae, 19/10/2026",
+   "enlace": "https://www.infobae.com/sociedad/2026/10/19/la-crecida-del-parana-complico-los-accesos-en-misiones-y-puso-en-riesgo-al-ganado-en-corrientes-hay-productores-que-estan-con-el-agua-encima/",
+   "verificado": "03/11/2026, 07:11 h"
+  },
+  {
+   "tramo": "Caminos de la isla Apipé",
+   "estado": "cortado",
+   "detalle": "Caminos cortados por el avance del río. Infobae (26/10) informa que la isla Apipé está inundada en un 50 %, partida en dos y con la ruta cortada, con más de 100 evacuados según el intendente Gustavo Figueredo. Verificación del 28/10/2026, 07:06 h: sin novedades en las fuentes consultadas. Verificación del 28/10/2026, 18:45 h: sin novedades en las fuentes consultadas. Verificación del 29/10/2026, 07:15 h: sin novedades en las fuentes consultadas. Verificación del 29/10/2026, 18:45 h: sin novedades en las fuentes consultadas. Verificación del 30/10/2026, 07:15 h: sin novedades en las fuentes consultadas. Verificación del 01/11/2026, 07:06 h: sin novedades en las fuentes consultadas. Verificación del 02/11/2026, 07:05 h: sin novedades en las fuentes consultadas. Verificación del 03/11/2026, 07:11 h: sin novedades en las fuentes consultadas.",
+   "fuente": "Infobae, 26/10/2026",
+   "enlace": "https://www.infobae.com/sociedad/2026/10/26/el-nino-el-paso-por-yacyreta-continua-cerrado-por-el-nivel-del-parana-mientras-la-creciente-volvio-al-rio-uruguay/",
+   "verificado": "03/11/2026, 07:11 h"
+  },
+  {
+   "tramo": "Corrientes Capital, acceso a Punta San Sebastián",
+   "estado": "cerrado",
+   "detalle": "Cierre preventivo del acceso por la cercanía del agua a las defensas costeras. Verificación del 26/10: no se informó su reapertura. Verificación del 28/10/2026, 07:06 h: sin novedades en las fuentes consultadas. Verificación del 28/10/2026, 18:45 h: sin novedades en las fuentes consultadas. Verificación del 29/10/2026, 07:15 h: sin novedades en las fuentes consultadas. Verificación del 29/10/2026, 18:45 h: sin novedades en las fuentes consultadas. Verificación del 30/10/2026, 07:15 h: sin novedades en las fuentes consultadas. Verificación del 01/11/2026, 07:06 h: sin novedades en las fuentes consultadas. Verificación del 02/11/2026, 07:05 h: sin novedades en las fuentes consultadas. Verificación del 03/11/2026, 07:11 h: sin novedades en las fuentes consultadas.",
+   "fuente": "Defensa Civil, informado por TN24 y Canal 12 Misiones, 20/10/2026",
+   "enlace": "https://www.canal12misiones.com/nacionales/corrientes-10",
+   "verificado": "03/11/2026, 07:11 h"
+  },
+  {
+   "tramo": "Itatí, barrio Ibiray",
+   "estado": "cortado",
+   "detalle": "Barrio aislado por el avance del río, con viviendas con más de un metro de agua en su interior. Verificación del 28/10/2026, 07:06 h: sin novedades en las fuentes consultadas. Verificación del 28/10/2026, 18:45 h: sin novedades en las fuentes consultadas. Verificación del 29/10/2026, 07:15 h: sin novedades en las fuentes consultadas. Verificación del 29/10/2026, 18:45 h: sin novedades en las fuentes consultadas. Verificación del 30/10/2026, 07:15 h: sin novedades en las fuentes consultadas. Verificación del 01/11/2026, 07:06 h: sin novedades en las fuentes consultadas. Verificación del 02/11/2026, 07:05 h: sin novedades en las fuentes consultadas. Verificación del 03/11/2026, 07:11 h: sin novedades en las fuentes consultadas.",
+   "fuente": "Defensa Civil, informado por TN24, 20/10/2026",
+   "enlace": "https://www.tn24.com.ar/2026/10/el-parana-mantiene-en-vilo-a-corrientes-400-evacuados-y-barrios-anegados/",
+   "verificado": "03/11/2026, 07:11 h"
+  }
+ ],
+ "tapon_fecha": "03/11/2026, 19:55 h",
+ "tapon_pronostico": "Aviso amarillo del SMN para el martes 3/11 que incluye a Corrientes (20 a 40 mm), alerta naranja del COE para el 3 y 4/11 en 24 departamentos, Capital incluida (40 a 80 mm), y aviso naranja del SMN para el miércoles 4/11. Parte del SMN para la ciudad (07:00 h): tormentas fuertes por la mañana de hoy y por la noche de mañana. Estimación derivada para la Capital (valor medio del COE): 60 mm por día; resto de hoy desde las 7 h, 41,6 mm, y mañana 60 mm. Con el Paraná en 7,08 m en Corrientes (03/11, CIM/UNL, solo fecha), sobre los 7 m, los desagües que descargan al río conservan la salida comprometida: una lluvia fuerte concentrada en pocas horas podría anegar calles. El INA prevé 5,10 a 6,00 m hacia el 10/11 (pronóstico del 30/10), con riesgo de nuevas subas entre 7 y 15 días después de lluvias en el Paraguay medio.",
+ "efecto_tapon": [
+  {
+   "ciudad": "Corrientes Capital",
+   "riesgo": "alto",
+   "rio": "7,08 m el 03/11 (CIM/UNL, tabla consolidada del manifiesto 20261103_145314; solo fecha, hora no publicada; −0,05 m), sobre la cota de evacuación de 7,00 m. INA: entre 5,10 y 6,00 m hacia el 10/11, con posibles nuevas subas entre 7 y 15 días después de lluvias en el Paraguay medio. Último total oficial (Defensa Civil, parte difundido el 02/11): 1.687 personas en la provincia (409 evacuadas y 1.278 autoevacuadas); en la Capital, 672 afectadas.",
+   "desagues": "Con el río por encima de los 7 m, la Municipalidad informó en noviembre de 2023 que los tres principales desagües que descargan en el Paraná, avenida 3 de Abril, arroyo Salamanca y arroyo Poncho Verde, quedaron ahogados. Hoy el río ya superó ese nivel.",
+   "fuente": "Municipalidad de Corrientes, 08/11/2023",
+   "enlace": "https://ciudaddecorrientes.gov.ar/content/ru-z-por-la-creciente-del-r-o-el-desagote-de-las-lluvias-va-ser-m-s-lento",
+   "pronostico": "Aviso amarillo del SMN para el martes 3/11 que incluye a Corrientes (20 a 40 mm), alerta naranja del COE para el 3 y 4/11 en 24 departamentos, Capital incluida (40 a 80 mm), y aviso naranja del SMN para el miércoles 4/11. Parte del SMN para la ciudad (07:00 h): tormentas fuertes por la mañana de hoy y por la noche de mañana. Estimación derivada para la Capital (valor medio del COE): 60 mm por día; resto de hoy desde las 7 h, 41,6 mm, y mañana 60 mm. Con el Paraná en 7,13 m en Corrientes (02/11, 06:00 h, CIM/UNL), sobre los 7 m, los desagües que descargan al río conservan la salida comprometida: una lluvia fuerte concentrada en pocas horas podría anegar calles. El INA prevé 5,10 a 6,00 m hacia el 10/11 (pronóstico del 30/10), con riesgo de nuevas subas entre 7 y 15 días después de lluvias en el Paraguay medio.",
+   "enlaces": [
+    {
+     "n": "Servicio Meteorológico Nacional (oficial)",
+     "u": "https://www.smn.gob.ar/"
+    },
+    {
+     "n": "AccuWeather, Corrientes (10 días)",
+     "u": "https://www.accuweather.com/es/ar/corrientes/3196/10-day-weather-forecast/3196"
+    },
+    {
+     "n": "Meteored, Corrientes (14 días)",
+     "u": "https://www.meteored.com.ar/tiempo-en_Corrientes-America+Sur-Argentina-Corrientes-SARC-1-16886.html"
+    },
+    {
+     "n": "CIM UNL, pronóstico de precipitaciones",
+     "u": "http://wfich1.unl.edu.ar/cim/pronostico-precipitacion"
+    }
+   ],
+   "simulador": {
+    "u": "https://claude.ai/artifact/FagikoE13bTFptsa63nMEZ",
+    "t": "Simulador por barrio de Corrientes Capital: elija su barrio y el tipo de calzada y vea si su calle puede anegarse hoy y mañana, con la lluvia registrada, el pronóstico de la ciudad y el efecto tapón del Paraná. Para el resto de la provincia, use el simulador por localidad: https://claude.ai/artifact/QeNo33wLShU9XVJFdNb78E"
+   }
+  },
+  {
+   "ciudad": "Paso de la Patria",
+   "riesgo": "alto",
+   "rio": "7,30 m el 03/11 (CIM/UNL, tabla consolidada del manifiesto 20261103_145314; solo fecha, hora no publicada), sobre su cota de evacuación de 7,00 m.",
+   "desagues": "El municipio selló bocas de tormenta con el río en 5,80 m para evitar que el Paraná ingrese por los desagües. El 20/10, el río rompió una barrera de contención provisoria y el agua llegó a calles céntricas, como 25 de Mayo y 8 de Diciembre.",
+   "fuente": "Municipalidad de Paso de la Patria, informado por El Litoral, 14/10/2026",
+   "enlace": "https://www.ellitoral.com.ar/sociedad/2026-10-14-19-14-0-pueblo-correntino-tapa-los-sumideros-para-evitar-que-el-agua-del-rio-ingrese-a-las-calles",
+   "pronostico": "Aviso amarillo del SMN para el 3/11 que incluye a Corrientes (20 a 40 mm), alerta naranja del COE para el 3 y 4/11 (40 a 80 mm) con este departamento en la lista, y aviso naranja del SMN para el 4/11. Estimación derivada: resto de hoy 41,6 mm y mañana 60 mm (valor medio del COE; reparto horario del modelo de la Capital). Parte del SMN para la Capital (07:00 h): tormentas fuertes hoy por la mañana y mañana por la noche. Nueva onda de crecida señalada por Defensa Civil para alrededor del 3/11, con más de 8 m, que las alturas disponibles (en descenso) no confirman.",
+   "enlaces": [
+    {
+     "n": "Servicio Meteorológico Nacional (oficial)",
+     "u": "https://www.smn.gob.ar/"
+    },
+    {
+     "n": "AccuWeather, Corrientes (10 días)",
+     "u": "https://www.accuweather.com/es/ar/corrientes/3196/10-day-weather-forecast/3196"
+    },
+    {
+     "n": "Meteored, Corrientes (14 días)",
+     "u": "https://www.meteored.com.ar/tiempo-en_Corrientes-America+Sur-Argentina-Corrientes-SARC-1-16886.html"
+    }
+   ]
+  },
+  {
+   "ciudad": "Itatí",
+   "riesgo": "alto",
+   "rio": "7,55 m el 03/11 (CIM/UNL, tabla consolidada del manifiesto 20261103_145314; solo fecha, hora no publicada), sobre su cota de evacuación de 7,50 m.",
+   "desagues": "El agua cubre la costanera y el barrio Ibiray quedó aislado, con viviendas con más de un metro de agua. Con el río por encima de las cotas de descarga, una lluvia intensa no tendría salida hacia el Paraná.",
+   "fuente": "Prefectura y medios locales, 18/10/2026",
+   "enlace": "",
+   "pronostico": "Aviso amarillo del SMN para el 3/11 que incluye a Corrientes (20 a 40 mm), alerta naranja del COE para el 3 y 4/11 (40 a 80 mm) con este departamento en la lista, y aviso naranja del SMN para el 4/11. Estimación derivada: resto de hoy 41,6 mm y mañana 60 mm (valor medio del COE; reparto horario del modelo de la Capital). Parte del SMN para la Capital (07:00 h): tormentas fuertes hoy por la mañana y mañana por la noche. Nueva onda de crecida señalada por Defensa Civil para alrededor del 3/11, con más de 8 m, que las alturas disponibles (en descenso) no confirman.",
+   "enlaces": [
+    {
+     "n": "Servicio Meteorológico Nacional (oficial)",
+     "u": "https://www.smn.gob.ar/"
+    },
+    {
+     "n": "Weather.us, Itatí (14 días)",
+     "u": "https://weather.us/weather/3433363-itati"
+    },
+    {
+     "n": "Meteored, Corrientes (14 días)",
+     "u": "https://www.meteored.com.ar/tiempo-en_Corrientes-America+Sur-Argentina-Corrientes-SARC-1-16886.html"
+    }
+   ]
+  },
+  {
+   "ciudad": "Goya",
+   "riesgo": "medio",
+   "rio": "6,10 m el 03/11 (CIM/UNL, tabla consolidada del manifiesto 20261103_145314; solo fecha, hora no publicada), sobre su cota de evacuación de 5,70 m.",
+   "desagues": "El INA prevé probabilidad de superar la cota de evacuación con mayor probabilidad desde el 19/10. Con el río en ascenso, la capacidad de descarga de los desagües costeros se reduce.",
+   "fuente": "INA, reporte diario del 16/10/2026",
+   "enlace": "https://alerta.ina.gob.ar/a5/diario/reporte_diario",
+   "pronostico": "Aviso amarillo del SMN para el 3/11 que incluye a Corrientes (20 a 40 mm), alerta naranja del COE para el 3 y 4/11 (40 a 80 mm) con este departamento en la lista, y aviso naranja del SMN para el 4/11. Estimación derivada: resto de hoy 41,6 mm y mañana 60 mm (valor medio del COE; reparto horario del modelo de la Capital). Parte del SMN para la Capital (07:00 h): tormentas fuertes hoy por la mañana y mañana por la noche.",
+   "enlaces": [
+    {
+     "n": "Servicio Meteorológico Nacional (oficial)",
+     "u": "https://www.smn.gob.ar/"
+    },
+    {
+     "n": "Meteored, Goya (14 días)",
+     "u": "https://www.meteored.com.ar/tiempo-en_Goya-America+Sur-Argentina-Corrientes--1-16710.html"
+    },
+    {
+     "n": "Weather.us, Goya (14 días)",
+     "u": "https://weather.us/weather/3433715-goya"
+    }
+   ]
+  },
+  {
+   "ciudad": "Ituzaingó",
+   "riesgo": "medio",
+   "rio": "3,73 m el 03/11 (CIM/UNL, tabla consolidada del manifiesto 20261103_145314; solo fecha, hora no publicada), bajo su evacuación de 4,00 m y sobre la alerta de 3,50 m.",
+   "desagues": "Con el río sobre su cota de evacuación, los desagües que descargan al Paraná tienen su salida comprometida.",
+   "fuente": "Prefectura, parte del 18/10/2026",
+   "enlace": "",
+   "pronostico": "Aviso amarillo del SMN para el 3/11 que incluye a Corrientes (20 a 40 mm), alerta naranja del COE para el 3 y 4/11 (40 a 80 mm) con este departamento en la lista, y aviso naranja del SMN para el 4/11. Estimación derivada: resto de hoy 41,6 mm y mañana 60 mm (valor medio del COE; reparto horario del modelo de la Capital). Parte del SMN para la Capital (07:00 h): tormentas fuertes hoy por la mañana y mañana por la noche.",
+   "enlaces": [
+    {
+     "n": "Servicio Meteorológico Nacional (oficial)",
+     "u": "https://www.smn.gob.ar/"
+    },
+    {
+     "n": "Meteored, Ituzaingó (14 días)",
+     "u": "https://www.meteored.cl/tiempo-en_Ituzaingo-America+Sur-Argentina-Corrientes--1-14981.html"
+    }
+   ]
+  }
+ ],
+ "alertas": [
+  {
+   "nivel": "naranja",
+   "aviso": "Alerta naranja del COE de Corrientes por tormentas (24 departamentos, incluida la Capital), martes 3 y miércoles 4/11",
+   "rango_mm": [
+    40,
+    80
+   ],
+   "zonas": "Bella Vista, Berón de Astrada, Capital, Concepción, Curuzú Cuatiá, Empedrado, Esquina, General Alvear, General Paz, Goya, Itatí, Ituzaingó, Lavalle, Mburucuyá, Mercedes, Paso de los Libres, Saladas, San Cosme, San Luis del Palmar, San Martín, San Miguel, San Roque, Santo Tomé y Sauce; posibles valores superiores, ráfagas de más de 90 km/h y granizo ocasional",
+   "emision": "sin hora de emisión en la fuente (Examedia, Diario Época, 02-03/11)"
+  },
+  {
+   "nivel": "naranja",
+   "aviso": "Aviso naranja del SMN por tormentas fuertes, miércoles 4/11, provincia de Corrientes y zonas aledañas",
+   "rango_mm": null,
+   "zonas": "provincia de Corrientes y zonas aledañas; las notas no detallan departamentos ni milímetros (probabilidad de lluvia de 40 a 70 %)",
+   "emision": "02/11/2026, 18:03 h (SMN, según Examedia)"
+  },
+  {
+   "nivel": "amarillo",
+   "aviso": "Aviso amarillo del SMN por tormentas, martes 3/11, incluye Corrientes",
+   "rango_mm": [
+    20,
+    40
+   ],
+   "zonas": "Corrientes, junto con Misiones, Chaco, Formosa, Santa Fe, Entre Ríos y otras provincias (sin departamentos)",
+   "emision": "sin hora de emisión en la fuente (La Nación, 03/11)"
+  }
+ ],
+ "alertas_fecha": "03/11/2026, 07:11 h"
+}

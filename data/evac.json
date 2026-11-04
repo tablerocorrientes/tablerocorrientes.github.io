@@ -1,0 +1,377 @@
+{
+ "actualizado": "03/11/2026, 07:11 h",
+ "total": {
+  "fecha": "02/11/2026",
+  "texto": "1.687 evacuados y autoevacuados en la provincia (409 evacuados y 1.278 autoevacuados), según Defensa Civil",
+  "valor": 1687
+ },
+ "serie": [
+  {
+   "f": "16/10",
+   "v": 222
+  },
+  {
+   "f": "16/10 noche",
+   "v": 472
+  },
+  {
+   "f": "17/10",
+   "v": 646
+  },
+  {
+   "f": "18/10",
+   "v": 754
+  },
+  {
+   "f": "21/10",
+   "v": 1084
+  },
+  {
+   "f": "24/10",
+   "v": 550,
+   "aprox": true
+  },
+  {
+   "f": "25/10",
+   "v": 1452
+  },
+  {
+   "f": "28/10",
+   "v": 1496
+  },
+  {
+   "f": "02/11",
+   "v": 1687
+  }
+ ],
+ "fuente": "Defensa Civil de Corrientes y COE provincial, difundidos por El Litoral, Infobae y El Tribuno; relevamiento del 25/10 difundido por Noticias de la Calle Cifra del 28/10 de Defensa Civil (Bruno Lovinson, a Radio Dos, difundida por Infobae). Verificación del 28/10/2026, 18:45 h: la nota no detalla localidades, por lo que no se agregan registros al historial; se conservan los centros informados. Verificación del 29/10/2026, 07:15 h: no se halló un informe nuevo de Defensa Civil ni del COE; rige la cifra del 28/10 (total sin cambios) y se conservan los registros y los centros informados. Verificación del 29/10/2026, 18:45 h: no se halló un informe nuevo de Defensa Civil ni del COE; rige la cifra del 28/10 (total sin cambios) y se conservan los registros y los centros informados. Verificación del 30/10/2026, 07:15 h: Examedia (Diario Época, 30/10) reitera 440 evacuados y más de 1.000 autoevacuados, sin detalle por localidad ni cifra total nueva; rige la cifra del 28/10 (total sin cambios) y se conservan los registros y los centros informados. Verificación del 01/11/2026, 07:06 h: no se halló un informe nuevo de Defensa Civil ni del COE; rige la cifra del 28/10 (total sin cambios). TN24 y Examedia (01/11) informan más de 1.600 personas evacuadas y autoevacuadas en la provincia, sin atribuir la cifra a un informe de Defensa Civil ni detallar localidades, por lo que no se carga como total ni se agregan registros. Se conservan los centros informados. Verificación del 02/11/2026, 07:05 h: no se halló un informe nuevo de Defensa Civil ni del COE; rige la cifra del 28/10 (total sin cambios). Se repite la cifra de más de 1.600 personas (TN24, El Litoral, 31/10 y 01/11) sin atribución a un informe de Defensa Civil ni detalle por localidades, por lo que no se carga como total ni se agregan registros. Sin cambios en los centros informados. Verificación del 02/11/2026, 18:52 h: Defensa Civil (El Monterizo e Infobae, 02/11) informa 1.687 personas (409 evacuadas y 1.278 autoevacuadas) y el detalle por localidad; se cargan los registros con desglose de evacuados y autoevacuados (Paso de la Patria, Itatí, Goya, Yahapé, isla Apipé, Paso de los Libres y Santa Lucía). No se cargan como registros la Capital (672 afectados), Ituzaingó (17), Bella Vista (19) y Cruz de los Milagros (24), porque la fuente no separa evacuados de autoevacuados. Centros: se actualizan las personas evacuadas de Itatí (190) y Paso de la Patria (8); sin novedades sobre otros centros. Verificación del 03/11/2026, 07:11 h: no se halló un informe nuevo de Defensa Civil ni del COE; rige el parte difundido el 02/11 (1.687 personas: 409 evacuadas y 1.278 autoevacuadas). Examedia (03/11) menciona a los evacuados sin cifras. Sin cambios en los centros informados.",
+ "historial": [
+  {
+   "f": "16/10/2026",
+   "n": "Corrientes Capital",
+   "evac": 0,
+   "auto": 71,
+   "fuente": "Defensa Civil de Corrientes (Infobae)",
+   "u": "https://www.infobae.com/sociedad/2026/10/16/el-nino-las-aguas-del-parana-ingresaron-a-la-ciudad-de-corrientes-y-la-provincia-suma-mas-de-200-evacuados/"
+  },
+  {
+   "f": "16/10/2026",
+   "n": "Itatí",
+   "evac": 55,
+   "auto": 0,
+   "fuente": "Defensa Civil de Corrientes (Infobae)",
+   "u": "https://www.infobae.com/sociedad/2026/10/16/el-nino-las-aguas-del-parana-ingresaron-a-la-ciudad-de-corrientes-y-la-provincia-suma-mas-de-200-evacuados/"
+  },
+  {
+   "f": "16/10/2026",
+   "n": "Ituzaingó",
+   "evac": 19,
+   "auto": 0,
+   "fuente": "Defensa Civil de Corrientes (Infobae)",
+   "u": "https://www.infobae.com/sociedad/2026/10/16/el-nino-las-aguas-del-parana-ingresaron-a-la-ciudad-de-corrientes-y-la-provincia-suma-mas-de-200-evacuados/"
+  },
+  {
+   "f": "16/10/2026 noche",
+   "n": "Itatí",
+   "evac": 110,
+   "auto": 0,
+   "fuente": "Defensa Civil de Corrientes (Infobae)",
+   "u": "https://www.infobae.com/sociedad/2026/10/17/mas-de-400-personas-abandonaron-sus-hogares-en-corrientes-tras-la-crecida-de-los-rios-parana-y-uruguay/"
+  },
+  {
+   "f": "17/10/2026",
+   "n": "Itatí",
+   "evac": 192,
+   "auto": 18,
+   "fuente": "Defensa Civil de Corrientes (El Litoral)",
+   "u": "https://www.ellitoral.com.ar/sociedad/2026-10-17-20-20-0-el-rio-parana-sigue-creciendo-y-corrientes-registra-646-evacuados"
+  },
+  {
+   "f": "17/10/2026",
+   "n": "Corrientes Capital",
+   "evac": 0,
+   "auto": 339,
+   "fuente": "Defensa Civil de Corrientes (El Litoral)",
+   "u": "https://www.ellitoral.com.ar/sociedad/2026-10-17-20-20-0-el-rio-parana-sigue-creciendo-y-corrientes-registra-646-evacuados"
+  },
+  {
+   "f": "17/10/2026",
+   "n": "Ituzaingó",
+   "evac": 19,
+   "auto": 0,
+   "fuente": "Defensa Civil de Corrientes (El Litoral)",
+   "u": "https://www.ellitoral.com.ar/sociedad/2026-10-17-20-20-0-el-rio-parana-sigue-creciendo-y-corrientes-registra-646-evacuados"
+  },
+  {
+   "f": "18/10/2026",
+   "n": "Corrientes Capital",
+   "evac": 0,
+   "auto": 344,
+   "fuente": "Defensa Civil de Corrientes (El Litoral)",
+   "u": "https://www.ellitoral.com.ar/sociedad/2026-10-18-19-58-0-crecida-del-parana-ya-son-754-las-personas-que-dejaron-sus-casas-en-corrientes"
+  },
+  {
+   "f": "18/10/2026",
+   "n": "Itatí",
+   "evac": 295,
+   "auto": 18,
+   "fuente": "Defensa Civil de Corrientes (El Litoral)",
+   "u": "https://www.ellitoral.com.ar/sociedad/2026-10-18-19-58-0-crecida-del-parana-ya-son-754-las-personas-que-dejaron-sus-casas-en-corrientes"
+  },
+  {
+   "f": "18/10/2026",
+   "n": "Isla Apipé",
+   "evac": 41,
+   "auto": 0,
+   "fuente": "Defensa Civil de Corrientes (El Litoral)",
+   "u": "https://www.ellitoral.com.ar/sociedad/2026-10-18-19-58-0-crecida-del-parana-ya-son-754-las-personas-que-dejaron-sus-casas-en-corrientes"
+  },
+  {
+   "f": "18/10/2026",
+   "n": "Paso de los Libres",
+   "evac": 31,
+   "auto": 0,
+   "fuente": "Defensa Civil de Corrientes (El Litoral)",
+   "u": "https://www.ellitoral.com.ar/sociedad/2026-10-18-19-58-0-crecida-del-parana-ya-son-754-las-personas-que-dejaron-sus-casas-en-corrientes"
+  },
+  {
+   "f": "18/10/2026",
+   "n": "Ituzaingó",
+   "evac": 19,
+   "auto": 0,
+   "fuente": "Defensa Civil de Corrientes (El Litoral)",
+   "u": "https://www.ellitoral.com.ar/sociedad/2026-10-18-19-58-0-crecida-del-parana-ya-son-754-las-personas-que-dejaron-sus-casas-en-corrientes"
+  },
+  {
+   "f": "18/10/2026",
+   "n": "Paso de la Patria",
+   "evac": 4,
+   "auto": 0,
+   "fuente": "Defensa Civil de Corrientes (El Litoral)",
+   "u": "https://www.ellitoral.com.ar/sociedad/2026-10-18-19-58-0-crecida-del-parana-ya-son-754-las-personas-que-dejaron-sus-casas-en-corrientes"
+  },
+  {
+   "f": "18/10/2026",
+   "n": "Yahapé",
+   "evac": 2,
+   "auto": 0,
+   "fuente": "Defensa Civil de Corrientes (El Litoral)",
+   "u": "https://www.ellitoral.com.ar/sociedad/2026-10-18-19-58-0-crecida-del-parana-ya-son-754-las-personas-que-dejaron-sus-casas-en-corrientes"
+  },
+  {
+   "f": "21/10/2026",
+   "n": "Corrientes Capital",
+   "evac": 0,
+   "auto": 480,
+   "fuente": "Defensa Civil de Corrientes (El Litoral)",
+   "u": "https://www.ellitoral.com.ar/sociedad/2026-10-21-16-26-0-crecida-de-los-rios-parana-y-uruguay-ya-hay-mas-de-1-000-personas-afectadas-en-corrientes"
+  },
+  {
+   "f": "21/10/2026",
+   "n": "Isla Apipé",
+   "evac": 76,
+   "auto": 0,
+   "fuente": "Defensa Civil de Corrientes (El Litoral)",
+   "u": "https://www.ellitoral.com.ar/sociedad/2026-10-21-16-26-0-crecida-de-los-rios-parana-y-uruguay-ya-hay-mas-de-1-000-personas-afectadas-en-corrientes"
+  },
+  {
+   "f": "21/10/2026",
+   "n": "Ituzaingó",
+   "evac": 19,
+   "auto": 0,
+   "fuente": "Defensa Civil de Corrientes (El Litoral)",
+   "u": "https://www.ellitoral.com.ar/sociedad/2026-10-21-16-26-0-crecida-de-los-rios-parana-y-uruguay-ya-hay-mas-de-1-000-personas-afectadas-en-corrientes"
+  },
+  {
+   "f": "21/10/2026",
+   "n": "Paso de la Patria",
+   "evac": 4,
+   "auto": 0,
+   "fuente": "Defensa Civil de Corrientes (El Litoral)",
+   "u": "https://www.ellitoral.com.ar/sociedad/2026-10-21-16-26-0-crecida-de-los-rios-parana-y-uruguay-ya-hay-mas-de-1-000-personas-afectadas-en-corrientes"
+  },
+  {
+   "f": "21/10/2026",
+   "n": "Cruz de los Milagros",
+   "evac": 0,
+   "auto": 17,
+   "fuente": "Defensa Civil de Corrientes (El Litoral)",
+   "u": "https://www.ellitoral.com.ar/sociedad/2026-10-21-16-26-0-crecida-de-los-rios-parana-y-uruguay-ya-hay-mas-de-1-000-personas-afectadas-en-corrientes"
+  },
+  {
+   "f": "21/10/2026",
+   "n": "Santa Lucía",
+   "evac": 0,
+   "auto": 10,
+   "fuente": "Defensa Civil de Corrientes (El Litoral)",
+   "u": "https://www.ellitoral.com.ar/sociedad/2026-10-21-16-26-0-crecida-de-los-rios-parana-y-uruguay-ya-hay-mas-de-1-000-personas-afectadas-en-corrientes"
+  },
+  {
+   "f": "16/10/2026 noche",
+   "n": "Corrientes Capital",
+   "evac": 0,
+   "auto": 266,
+   "fuente": "Defensa Civil de Corrientes (Elonce)",
+   "u": "https://www.elonce.com/sociedad/alerta-en-corrientes-ya-son-472-los-evacuados-y-autoevacuados-por-el-avance-del-agua.htm"
+  },
+  {
+   "f": "16/10/2026 noche",
+   "n": "Isla Apipé",
+   "evac": 44,
+   "auto": 0,
+   "fuente": "Defensa Civil de Corrientes (Análisis Digital)",
+   "u": "https://www.analisisdigital.com.ar/nacionales/2026/10/17/corrientes-472-personas-abandonaron-sus-casas-por-la-crecida-del-parana"
+  },
+  {
+   "f": "16/10/2026 noche",
+   "n": "Ituzaingó",
+   "evac": 19,
+   "auto": 0,
+   "fuente": "Defensa Civil de Corrientes (Análisis Digital)",
+   "u": "https://www.analisisdigital.com.ar/nacionales/2026/10/17/corrientes-472-personas-abandonaron-sus-casas-por-la-crecida-del-parana"
+  },
+  {
+   "f": "19/10/2026",
+   "n": "Corrientes Capital",
+   "evac": 0,
+   "auto": 380,
+   "fuente": "Municipalidad de Corrientes, Secretaría de Desarrollo Social (Canal 12 Misiones)",
+   "u": "https://www.canal12misiones.com/informacion-general/parana-corrientes-750-evacuados"
+  },
+  {
+   "f": "25/10/2026",
+   "n": "Itatí",
+   "evac": 475,
+   "auto": 0,
+   "fuente": "Relevamiento provincial de evacuados difundido el 25/10 (Noticias de la Calle; organismo no identificado en la nota; operativo coordinado por la Agencia Federal de Emergencias)",
+   "u": "https://www.noticiasdelacalle.com.ar/noticias/2026/10/25/203175-mas-de-1400-evacuados-en-corrientes-y-la-armada-se-sumo-al-operativo-de-asistencia"
+  },
+  {
+   "f": "25/10/2026",
+   "n": "Corrientes Capital",
+   "evac": 0,
+   "auto": 588,
+   "fuente": "Relevamiento provincial de evacuados difundido el 25/10 (Noticias de la Calle; organismo no identificado en la nota; operativo coordinado por la Agencia Federal de Emergencias); además 64 personas en el centro de la Escuela N.º 293, barrio Pujol, sin aclarar si son evacuadas o autoevacuadas",
+   "u": "https://www.noticiasdelacalle.com.ar/noticias/2026/10/25/203175-mas-de-1400-evacuados-en-corrientes-y-la-armada-se-sumo-al-operativo-de-asistencia"
+  },
+  {
+   "f": "25/10/2026",
+   "n": "Isla Apipé",
+   "evac": 114,
+   "auto": 0,
+   "fuente": "Relevamiento provincial de evacuados difundido el 25/10 (Noticias de la Calle; organismo no identificado en la nota; operativo coordinado por la Agencia Federal de Emergencias)",
+   "u": "https://www.noticiasdelacalle.com.ar/noticias/2026/10/25/203175-mas-de-1400-evacuados-en-corrientes-y-la-armada-se-sumo-al-operativo-de-asistencia"
+  },
+  {
+   "f": "26/10/2026",
+   "n": "Paso de la Patria",
+   "evac": 24,
+   "auto": 86,
+   "fuente": "Defensa Civil de Corrientes (Prensa Mercosur)",
+   "u": "https://prensamercosur.org/2026/10/26/crecida-del-parana-ya-son-mas-de-1-400-desplazados-en-la-provincia/"
+  },
+  {
+   "f": "02/11/2026",
+   "n": "Paso de la Patria",
+   "evac": 8,
+   "auto": 220,
+   "fuente": "Defensa Civil de Corrientes (El Monterizo, 02/11)",
+   "u": "https://elmonterizo.com/el-parana-bajo-pero-en-corrientes-hay-220-personas-mas-fuera-de-sus-casas"
+  },
+  {
+   "f": "02/11/2026",
+   "n": "Itatí",
+   "evac": 190,
+   "auto": 328,
+   "fuente": "Defensa Civil de Corrientes (El Monterizo, 02/11)",
+   "u": "https://elmonterizo.com/el-parana-bajo-pero-en-corrientes-hay-220-personas-mas-fuera-de-sus-casas"
+  },
+  {
+   "f": "02/11/2026",
+   "n": "Goya",
+   "evac": 0,
+   "auto": 36,
+   "fuente": "Defensa Civil de Corrientes (El Monterizo, 02/11)",
+   "u": "https://elmonterizo.com/el-parana-bajo-pero-en-corrientes-hay-220-personas-mas-fuera-de-sus-casas"
+  },
+  {
+   "f": "02/11/2026",
+   "n": "Yahapé",
+   "evac": 2,
+   "auto": 0,
+   "fuente": "Defensa Civil de Corrientes (El Monterizo, 02/11)",
+   "u": "https://elmonterizo.com/el-parana-bajo-pero-en-corrientes-hay-220-personas-mas-fuera-de-sus-casas"
+  },
+  {
+   "f": "02/11/2026",
+   "n": "Isla Apipé",
+   "evac": 119,
+   "auto": 0,
+   "fuente": "Defensa Civil de Corrientes (El Monterizo, 02/11)",
+   "u": "https://elmonterizo.com/el-parana-bajo-pero-en-corrientes-hay-220-personas-mas-fuera-de-sus-casas"
+  },
+  {
+   "f": "02/11/2026",
+   "n": "Paso de los Libres",
+   "evac": 31,
+   "auto": 0,
+   "fuente": "Defensa Civil de Corrientes (El Monterizo, 02/11)",
+   "u": "https://elmonterizo.com/el-parana-bajo-pero-en-corrientes-hay-220-personas-mas-fuera-de-sus-casas"
+  },
+  {
+   "f": "02/11/2026",
+   "n": "Santa Lucía",
+   "evac": 0,
+   "auto": 21,
+   "fuente": "Defensa Civil de Corrientes (El Monterizo, 02/11)",
+   "u": "https://elmonterizo.com/el-parana-bajo-pero-en-corrientes-hay-220-personas-mas-fuera-de-sus-casas"
+  }
+ ],
+ "centros": [
+  {
+   "n": "Corrientes Capital",
+   "centro": "Escuela N.º 293 Donato Álvarez, barrio Pujol. Primer centro oficial de la Capital, habilitado por el Municipio y el Gobierno provincial tras el reclamo de los vecinos del 22/10. El 30/10 Defensa Civil lo menciona como refugio principal de la Capital, con al menos seis comedores comunitarios de apoyo",
+   "personas": 64,
+   "estado": "habilitado",
+   "f": "26/10/2026",
+   "fuente": "Defensa Civil de Corrientes (El Monterizo, Prensa Mercosur)",
+   "u": "https://elmonterizo.com/crecio-el-parana-se-abrio-el-primer-refugio-en-la-capital-y-la-armada-desembarco-en-el-puerto"
+  },
+  {
+   "n": "Paso de la Patria",
+   "centro": "Escuela Secundaria",
+   "personas": 8,
+   "estado": "habilitado",
+   "f": "02/11/2026",
+   "fuente": "Defensa Civil de Corrientes (El Monterizo, 02/11)",
+   "u": "https://elmonterizo.com/el-parana-bajo-pero-en-corrientes-hay-220-personas-mas-fuera-de-sus-casas"
+  },
+  {
+   "n": "Itatí",
+   "centro": "Casa del Promesero y hospedaje Taba Cué; se prepara un nuevo refugio",
+   "personas": 190,
+   "estado": "habilitado",
+   "f": "02/11/2026",
+   "fuente": "Defensa Civil de Corrientes (El Monterizo, 02/11)",
+   "u": "https://elmonterizo.com/el-parana-bajo-pero-en-corrientes-hay-220-personas-mas-fuera-de-sus-casas"
+  },
+  {
+   "n": "Ituzaingó",
+   "centro": "Salón de usos múltiples y albergue del Club San Martín, además de viviendas de familiares",
+   "personas": 19,
+   "estado": "habilitado",
+   "f": "19/10/2026",
+   "fuente": "Defensa Civil de Corrientes (Primera Edición)",
+   "u": "https://www.primeraedicion.com.ar/nota/101152475/corrientes-bajo-agua-localidades-en-alerta-y-mas-de-750-evacuados/"
+  },
+  {
+   "n": "Paso de la Patria",
+   "centro": "Polideportivo municipal, refugio preventivo",
+   "personas": 8,
+   "estado": "habilitado",
+   "f": "02/11/2026",
+   "fuente": "Defensa Civil de Corrientes (El Monterizo, 02/11)",
+   "u": "https://elmonterizo.com/el-parana-bajo-pero-en-corrientes-hay-220-personas-mas-fuera-de-sus-casas"
+  }
+ ]
+}

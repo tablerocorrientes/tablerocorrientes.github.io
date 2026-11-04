@@ -1,0 +1,271 @@
+{
+ "actualizado": "03/11/2026, 21:25 h",
+ "metodo": "estimación derivada de avisos del SMN y modelos",
+ "estado_alertas": "VERIFICADO_CON_ALERTAS",
+ "estado_verificado": {
+  "fecha": "03/11/2026, 20:50 h (consolidado en Drive); contrastado con el listado del COE el 03/11/2026, 21:20 h",
+  "fuente": "Archivo meteorológico de Drive (solo lectura, revisión de las 20:50 h): estado CON_ALERTAS normalizado a VERIFICADO_CON_ALERTAS, y contraste directo con coe.corrientes.gob.ar/alertas (21:20 h): dos alertas previstas para el miércoles 4/11, de 03:00 a 20:59 h: naranja 2026-0018-NT (15 departamentos, con la Capital) y amarilla 2026-0063-AT (10 departamentos, sin la Capital); ninguna en curso. Sin milímetros oficiales y sin hora de emisión en el listado. Los canales del SMN (CAP, avisos a corto plazo, página de alertas) no fueron verificables: los avisos del SMN difundidos por la prensa (naranja del 4/11 y amarillo del 3/11) y la alerta del COE de 24 departamentos con 40 a 80 mm (3 y 4/11) no figuran en el listado oficial del COE y quedan sin reconfirmar, por lo que no se publican como vigentes"
+ },
+ "met_archivo": {
+  "nombre": "vigilancia_meteorologica_20261103_205018.json",
+  "id": "1PHqXSr3_FSI3cQZ3cV5jrNcFMjakXxa0",
+  "revision": "ecd66e26052df19aaaf6711a1d65dce7c5bce5b30dfdb69fd9a33eedc0fe1be6",
+  "fecha": "03/11/2026, 20:50 h"
+ },
+ "met_revision": "ecd66e26052df19aaaf6711a1d65dce7c5bce5b30dfdb69fd9a33eedc0fe1be6",
+ "smn": [
+  {
+   "id_oficial": "2026-0018-NT",
+   "tipo": "alerta",
+   "aviso": "Alerta naranja del COE de Corrientes por tormentas, miércoles 4/11 (15 departamentos, incluida la Capital)",
+   "nivel": "naranja",
+   "fenomeno": "Tormentas",
+   "rango_mm": null,
+   "zonas": "Berón de Astrada, Capital, Empedrado, General Alvear, General Paz, Itatí, Ituzaingó, Mburucuyá, Paso de los Libres, Saladas, San Cosme, San Luis del Palmar, San Martín, San Miguel y Santo Tomé",
+   "desde": "04/11/2026, 03:00 h",
+   "hasta": "04/11/2026, 20:59 h",
+   "emision": "no visible en el listado del COE (detalle individual no recuperable)",
+   "desde_iso": "2026-11-04T03:00:00-03:00",
+   "hasta_iso": "2026-11-04T20:59:00-03:00",
+   "emision_iso": null,
+   "incluye_corrientes": true,
+   "incluye_capital": true,
+   "url": "https://coe.corrientes.gob.ar/a/2026-0018-NT",
+   "origen": "COE"
+  },
+  {
+   "id_oficial": "2026-0063-AT",
+   "tipo": "alerta",
+   "aviso": "Alerta amarilla del COE de Corrientes por tormentas, miércoles 4/11 (10 departamentos, sin la Capital)",
+   "nivel": "amarillo",
+   "fenomeno": "Tormentas",
+   "rango_mm": null,
+   "zonas": "Bella Vista, Concepción, Curuzú Cuatiá, Esquina, Goya, Lavalle, Mercedes, Monte Caseros, San Roque y Sauce",
+   "desde": "04/11/2026, 03:00 h",
+   "hasta": "04/11/2026, 20:59 h",
+   "emision": "no visible en el listado del COE (detalle individual no recuperable)",
+   "desde_iso": "2026-11-04T03:00:00-03:00",
+   "hasta_iso": "2026-11-04T20:59:00-03:00",
+   "emision_iso": null,
+   "incluye_corrientes": true,
+   "incluye_capital": false,
+   "url": "https://coe.corrientes.gob.ar/a/2026-0063-AT",
+   "origen": "COE"
+  }
+ ],
+ "ciudades": {
+  "Corrientes Capital": {
+   "hoy": {
+    "mm": 0.0,
+    "horas": 0
+   },
+   "manana": {
+    "mm": 66.2,
+    "horas": 18
+   },
+   "fuente": "Sin milímetros oficiales verificados: la alerta naranja 2026-0018-NT del COE (4/11) no informa acumulados, y el rango de 40 a 80 mm difundido por la prensa para la alerta anterior no se reconfirmó en el listado del COE. Parte del SMN para la ciudad (La Nación, 08:46 h): mañana tormentas fuertes por la mañana y la tarde (70 %) y chaparrones por la noche (40 %); jueves 5/11 sin lluvia (0 %). Criterio 2 (tormentas fuertes, 70 % o más): modelo más alto, Agrofy (Open-Meteo) con 66,2 mm para mañana (corrida del 03/11, 21:17 h; Meteored 59 mm, corrida anterior). Reparto horario: el del propio modelo. Para hoy, el modelo prevé 0,8 mm en total, todos antes de las 15 h; queda sin lluvia significativa en el resto del día. Estimación derivada, no una medición."
+  },
+  "Goya": {
+   "hoy": {
+    "mm": 58.6,
+    "horas": 8
+   },
+   "manana": {
+    "mm": 60.0,
+    "horas": 16
+   },
+   "fuente": "Alerta naranja del COE de Corrientes, 3 y 4/11 (40 a 80 mm; departamento incluido): valor medio, 60 mm. El reparto horario copia el patrón del modelo de Agrofy escalado a 60 mm y corrido 4 h porque la lluvia del modelo prevista para las 6 a 8 h no se registró (SNIH hasta las 8 h: 0,25 mm) y el SMN ubica el pico a media mañana; hoy se muestra la lluvia que resta del día desde las 10 h. Estimación derivada, no una medición. Parte del SMN para la ciudad (La Nación, 08:46 h): hoy tormentas fuertes por la mañana (70 %), chaparrones por la tarde (40 %) y tormentas aisladas por la noche (40 %); mañana tormentas fuertes por la mañana y por la tarde (70 %) y chaparrones por la noche (40 %); jueves 5/11 sin lluvia (0 %). Nota del 03/11/2026, 21:25 h: este valor se arrastra de la estimación anterior, que tomaba el rango de 40 a 80 mm difundido por la prensa; el listado oficial del COE ya no lo respalda (alertas del 4/11 sin milímetros) y no hay una corrida de modelo actualizada y verificable para esta ciudad. No es un pronóstico oficial confirmado."
+  },
+  "Esquina": {
+   "hoy": {
+    "mm": 58.6,
+    "horas": 8
+   },
+   "manana": {
+    "mm": 60.0,
+    "horas": 16
+   },
+   "fuente": "Alerta naranja del COE de Corrientes, 3 y 4/11 (40 a 80 mm; departamento incluido): valor medio, 60 mm. El reparto horario copia el patrón del modelo de Agrofy escalado a 60 mm y corrido 4 h porque la lluvia del modelo prevista para las 6 a 8 h no se registró (SNIH hasta las 8 h: 0,25 mm) y el SMN ubica el pico a media mañana; hoy se muestra la lluvia que resta del día desde las 10 h. Estimación derivada, no una medición. Parte del SMN para la ciudad (La Nación, 08:46 h): hoy tormentas fuertes por la mañana (70 %), chaparrones por la tarde (40 %) y tormentas aisladas por la noche (40 %); mañana tormentas fuertes por la mañana y por la tarde (70 %) y chaparrones por la noche (40 %); jueves 5/11 sin lluvia (0 %). Nota del 03/11/2026, 21:25 h: este valor se arrastra de la estimación anterior, que tomaba el rango de 40 a 80 mm difundido por la prensa; el listado oficial del COE ya no lo respalda (alertas del 4/11 sin milímetros) y no hay una corrida de modelo actualizada y verificable para esta ciudad. No es un pronóstico oficial confirmado."
+  },
+  "Bella Vista": {
+   "hoy": {
+    "mm": 58.6,
+    "horas": 8
+   },
+   "manana": {
+    "mm": 60.0,
+    "horas": 16
+   },
+   "fuente": "Alerta naranja del COE de Corrientes, 3 y 4/11 (40 a 80 mm; departamento incluido): valor medio, 60 mm. El reparto horario copia el patrón del modelo de Agrofy escalado a 60 mm y corrido 4 h porque la lluvia del modelo prevista para las 6 a 8 h no se registró (SNIH hasta las 8 h: 0,25 mm) y el SMN ubica el pico a media mañana; hoy se muestra la lluvia que resta del día desde las 10 h. Estimación derivada, no una medición. Parte del SMN para la ciudad (La Nación, 08:46 h): hoy tormentas fuertes por la mañana (70 %), chaparrones por la tarde (40 %) y tormentas aisladas por la noche (40 %); mañana tormentas fuertes por la mañana y por la tarde (70 %) y chaparrones por la noche (40 %); jueves 5/11 sin lluvia (0 %). Nota del 03/11/2026, 21:25 h: este valor se arrastra de la estimación anterior, que tomaba el rango de 40 a 80 mm difundido por la prensa; el listado oficial del COE ya no lo respalda (alertas del 4/11 sin milímetros) y no hay una corrida de modelo actualizada y verificable para esta ciudad. No es un pronóstico oficial confirmado."
+  },
+  "Mercedes": {
+   "hoy": {
+    "mm": 58.6,
+    "horas": 8
+   },
+   "manana": {
+    "mm": 60.0,
+    "horas": 16
+   },
+   "fuente": "Alerta naranja del COE de Corrientes, 3 y 4/11 (40 a 80 mm; departamento incluido): valor medio, 60 mm. El reparto horario copia el patrón del modelo de Agrofy escalado a 60 mm y corrido 4 h porque la lluvia del modelo prevista para las 6 a 8 h no se registró (SNIH hasta las 8 h: 0,25 mm) y el SMN ubica el pico a media mañana; hoy se muestra la lluvia que resta del día desde las 10 h. Estimación derivada, no una medición. Parte del SMN para la ciudad (La Nación, 08:46 h): hoy tormentas fuertes por la mañana (70 %), chaparrones por la tarde (40 %) y tormentas aisladas por la noche (40 %); mañana tormentas fuertes por la mañana y por la tarde (70 %) y chaparrones por la noche (40 %); jueves 5/11 sin lluvia (0 %). Nota del 03/11/2026, 21:25 h: este valor se arrastra de la estimación anterior, que tomaba el rango de 40 a 80 mm difundido por la prensa; el listado oficial del COE ya no lo respalda (alertas del 4/11 sin milímetros) y no hay una corrida de modelo actualizada y verificable para esta ciudad. No es un pronóstico oficial confirmado."
+  },
+  "Curuzú Cuatiá": {
+   "hoy": {
+    "mm": 58.6,
+    "horas": 8
+   },
+   "manana": {
+    "mm": 60.0,
+    "horas": 16
+   },
+   "fuente": "Alerta naranja del COE de Corrientes, 3 y 4/11 (40 a 80 mm; departamento incluido): valor medio, 60 mm. El reparto horario copia el patrón del modelo de Agrofy escalado a 60 mm y corrido 4 h porque la lluvia del modelo prevista para las 6 a 8 h no se registró (SNIH hasta las 8 h: 0,25 mm) y el SMN ubica el pico a media mañana; hoy se muestra la lluvia que resta del día desde las 10 h. Estimación derivada, no una medición. Parte del SMN para la ciudad (La Nación, 08:46 h): hoy tormentas fuertes por la mañana (70 %), chaparrones por la tarde (40 %) y tormentas aisladas por la noche (40 %); mañana tormentas fuertes por la mañana y por la tarde (70 %) y chaparrones por la noche (40 %); jueves 5/11 sin lluvia (0 %). Nota del 03/11/2026, 21:25 h: este valor se arrastra de la estimación anterior, que tomaba el rango de 40 a 80 mm difundido por la prensa; el listado oficial del COE ya no lo respalda (alertas del 4/11 sin milímetros) y no hay una corrida de modelo actualizada y verificable para esta ciudad. No es un pronóstico oficial confirmado."
+  },
+  "Paso de los Libres": {
+   "hoy": {
+    "mm": 58.6,
+    "horas": 8
+   },
+   "manana": {
+    "mm": 60.0,
+    "horas": 16
+   },
+   "fuente": "Alerta naranja del COE de Corrientes, 3 y 4/11 (40 a 80 mm; departamento incluido): valor medio, 60 mm. El reparto horario copia el patrón del modelo de Agrofy escalado a 60 mm y corrido 4 h porque la lluvia del modelo prevista para las 6 a 8 h no se registró (SNIH hasta las 8 h: 0,25 mm) y el SMN ubica el pico a media mañana; hoy se muestra la lluvia que resta del día desde las 10 h. Estimación derivada, no una medición. Parte del SMN para la ciudad (La Nación, 08:46 h): hoy tormentas fuertes por la mañana (70 %), chaparrones por la tarde (40 %) y tormentas aisladas por la noche (40 %); mañana tormentas fuertes por la mañana y por la tarde (70 %) y chaparrones por la noche (40 %); jueves 5/11 sin lluvia (0 %). Nota del 03/11/2026, 21:25 h: este valor se arrastra de la estimación anterior, que tomaba el rango de 40 a 80 mm difundido por la prensa; el listado oficial del COE ya no lo respalda (alertas del 4/11 sin milímetros) y no hay una corrida de modelo actualizada y verificable para esta ciudad. No es un pronóstico oficial confirmado."
+  },
+  "Santo Tomé": {
+   "hoy": {
+    "mm": 58.6,
+    "horas": 8
+   },
+   "manana": {
+    "mm": 60.0,
+    "horas": 16
+   },
+   "fuente": "Alerta naranja del COE de Corrientes, 3 y 4/11 (40 a 80 mm; departamento incluido): valor medio, 60 mm. El reparto horario copia el patrón del modelo de Agrofy escalado a 60 mm y corrido 4 h porque la lluvia del modelo prevista para las 6 a 8 h no se registró (SNIH hasta las 8 h: 0,25 mm) y el SMN ubica el pico a media mañana; hoy se muestra la lluvia que resta del día desde las 10 h. Estimación derivada, no una medición. Parte del SMN para la ciudad (La Nación, 08:46 h): hoy tormentas fuertes por la mañana (70 %), chaparrones por la tarde (40 %) y tormentas aisladas por la noche (40 %); mañana tormentas fuertes por la mañana y por la tarde (70 %) y chaparrones por la noche (40 %); jueves 5/11 sin lluvia (0 %). Nota del 03/11/2026, 21:25 h: este valor se arrastra de la estimación anterior, que tomaba el rango de 40 a 80 mm difundido por la prensa; el listado oficial del COE ya no lo respalda (alertas del 4/11 sin milímetros) y no hay una corrida de modelo actualizada y verificable para esta ciudad. No es un pronóstico oficial confirmado."
+  },
+  "Gobernador Virasoro": {
+   "hoy": {
+    "mm": 58.6,
+    "horas": 8
+   },
+   "manana": {
+    "mm": 60.0,
+    "horas": 16
+   },
+   "fuente": "Alerta naranja del COE de Corrientes, 3 y 4/11 (40 a 80 mm; departamento incluido): valor medio, 60 mm. El reparto horario copia el patrón del modelo de Agrofy escalado a 60 mm y corrido 4 h porque la lluvia del modelo prevista para las 6 a 8 h no se registró (SNIH hasta las 8 h: 0,25 mm) y el SMN ubica el pico a media mañana; hoy se muestra la lluvia que resta del día desde las 10 h. Estimación derivada, no una medición. Parte del SMN para la ciudad (La Nación, 08:46 h): hoy tormentas fuertes por la mañana (70 %), chaparrones por la tarde (40 %) y tormentas aisladas por la noche (40 %); mañana tormentas fuertes por la mañana y por la tarde (70 %) y chaparrones por la noche (40 %); jueves 5/11 sin lluvia (0 %). Nota del 03/11/2026, 21:25 h: este valor se arrastra de la estimación anterior, que tomaba el rango de 40 a 80 mm difundido por la prensa; el listado oficial del COE ya no lo respalda (alertas del 4/11 sin milímetros) y no hay una corrida de modelo actualizada y verificable para esta ciudad. No es un pronóstico oficial confirmado."
+  },
+  "Ituzaingó": {
+   "hoy": {
+    "mm": 58.6,
+    "horas": 8
+   },
+   "manana": {
+    "mm": 60.0,
+    "horas": 16
+   },
+   "fuente": "Alerta naranja del COE de Corrientes, 3 y 4/11 (40 a 80 mm; departamento incluido): valor medio, 60 mm. El reparto horario copia el patrón del modelo de Agrofy escalado a 60 mm y corrido 4 h porque la lluvia del modelo prevista para las 6 a 8 h no se registró (SNIH hasta las 8 h: 0,25 mm) y el SMN ubica el pico a media mañana; hoy se muestra la lluvia que resta del día desde las 10 h. Estimación derivada, no una medición. Parte del SMN para la ciudad (La Nación, 08:46 h): hoy tormentas fuertes por la mañana (70 %), chaparrones por la tarde (40 %) y tormentas aisladas por la noche (40 %); mañana tormentas fuertes por la mañana y por la tarde (70 %) y chaparrones por la noche (40 %); jueves 5/11 sin lluvia (0 %). Nota del 03/11/2026, 21:25 h: este valor se arrastra de la estimación anterior, que tomaba el rango de 40 a 80 mm difundido por la prensa; el listado oficial del COE ya no lo respalda (alertas del 4/11 sin milímetros) y no hay una corrida de modelo actualizada y verificable para esta ciudad. No es un pronóstico oficial confirmado."
+  },
+  "Monte Caseros": {
+   "hoy": {
+    "mm": 29.3,
+    "horas": 8
+   },
+   "manana": {
+    "mm": 6.2,
+    "horas": 12
+   },
+   "fuente": "Aviso amarillo del SMN para Corrientes (20 a 40 mm, valor medio 30 mm; las fuentes difieren en si alcanza a este departamento: El Litoral lo extiende a toda la provincia) hoy; mañana, aviso naranja del SMN sin milímetros y departamento fuera de la lista del COE: único modelo disponible, Agrofy (Open-Meteo, 6,2 mm, corrida del 02/11, sin actualizar). Estimación derivada; vigilar nuevos avisos. Hoy se muestra la lluvia que resta del día desde las 10 h (reparto corrido 4 h, igual que la Capital). Parte del SMN para la ciudad (La Nación, 08:46 h): hoy tormentas fuertes por la mañana (70 %), chaparrones por la tarde (40 %) y tormentas aisladas por la noche (40 %); mañana tormentas fuertes por la mañana y por la tarde (70 %) y chaparrones por la noche (40 %); jueves 5/11 sin lluvia (0 %). Nota del 03/11/2026, 21:25 h: este valor se arrastra de la estimación anterior, que tomaba el rango de 40 a 80 mm difundido por la prensa; el listado oficial del COE ya no lo respalda (alertas del 4/11 sin milímetros) y no hay una corrida de modelo actualizada y verificable para esta ciudad. No es un pronóstico oficial confirmado."
+  },
+  "Saladas": {
+   "hoy": {
+    "mm": 58.6,
+    "horas": 8
+   },
+   "manana": {
+    "mm": 60.0,
+    "horas": 16
+   },
+   "fuente": "Alerta naranja del COE de Corrientes, 3 y 4/11 (40 a 80 mm; departamento incluido): valor medio, 60 mm. El reparto horario copia el patrón del modelo de Agrofy escalado a 60 mm y corrido 4 h porque la lluvia del modelo prevista para las 6 a 8 h no se registró (SNIH hasta las 8 h: 0,25 mm) y el SMN ubica el pico a media mañana; hoy se muestra la lluvia que resta del día desde las 10 h. Estimación derivada, no una medición. Parte del SMN para la ciudad (La Nación, 08:46 h): hoy tormentas fuertes por la mañana (70 %), chaparrones por la tarde (40 %) y tormentas aisladas por la noche (40 %); mañana tormentas fuertes por la mañana y por la tarde (70 %) y chaparrones por la noche (40 %); jueves 5/11 sin lluvia (0 %). Nota del 03/11/2026, 21:25 h: este valor se arrastra de la estimación anterior, que tomaba el rango de 40 a 80 mm difundido por la prensa; el listado oficial del COE ya no lo respalda (alertas del 4/11 sin milímetros) y no hay una corrida de modelo actualizada y verificable para esta ciudad. No es un pronóstico oficial confirmado."
+  }
+ },
+ "horario_capital": {
+  "2026-11-03": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.1,
+   0.5,
+   0.2,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "2026-11-04": [
+   0.1,
+   2.9,
+   1.0,
+   9.1,
+   9.3,
+   0.1,
+   4.6,
+   3.1,
+   8.0,
+   8.6,
+   14.4,
+   3.7,
+   0.7,
+   0.1,
+   0.1,
+   0.2,
+   0.1,
+   0.1,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "2026-11-05": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ]
+ },
+ "horario_act": "03/11/2026, 21:25 h"
+}

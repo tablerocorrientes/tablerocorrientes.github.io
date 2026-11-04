@@ -1,0 +1,620 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style><meta name="description" content="Elija su barrio y vea cuánta agua podría acumularse en su calle hoy y mañana, con lluvia medida, pronóstico y altura del río."><meta name="theme-color" content="#0c3f52"><link rel="manifest" href="/manifest.webmanifest"><link rel="icon" href="/icons/icon-192.png"><link rel="apple-touch-icon" href="/icons/apple-touch-icon.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Tablero Ctes"><meta property="og:type" content="website"><meta property="og:title" content="Si llueve, ¿se inunda mi barrio? Simulador de Corrientes Capital"><meta property="og:description" content="Elija su barrio y vea cuánta agua podría acumularse en su calle hoy y mañana, con lluvia medida, pronóstico y altura del río."><meta property="og:url" content="https://tablerocorrientes.github.io/barrio/"><meta property="og:image" content="https://tablerocorrientes.github.io/assets/og.png"><meta name="twitter:card" content="summary_large_image"><script src="/site.js" defer></script></head><body>
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Si llueve, ¿se inunda mi barrio? Simulador de Corrientes Capital</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..100,400..800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#e7edee; --card:#f6f8f8; --ink:#13262d; --ink2:#4a5d64; --soft:#7d8e94; --line:#c6d2d5;
+  --water:#1f6f8b; --water2:#5aa6bf; --ground:#dcd5c6; --hatch:#a69a80; --earth:#8a7a5c; --street:#56656b; --house:#d9cfbd;
+  --ok:#25724f; --okb:#dcece3; --w1:#9a7a12; --w1b:#f3ead0; --w2:#b5531b; --w2b:#f6e2d6; --bad:#a3261d; --badb:#f5dcd9;
+  --alert:#e3ad1f;
+  color-scheme:light;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+}
+html{scroll-padding-top:env(safe-area-inset-top,0px);height:100%}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0e1a1f; --card:#152429; --ink:#e4eef0; --ink2:#a8bcc2; --soft:#7a8f96; --line:#29404a;
+  --water:#3f9fc0; --water2:#2a6f88; --ground:#2f2b22; --hatch:#5f5644; --earth:#6f6248; --street:#3a484e; --house:#4a4436;
+  --ok:#6cc79a; --okb:#16302a; --w1:#e0c25a; --w1b:#2e2915; --w2:#ee9a63; --w2b:#33231a; --bad:#f08a80; --badb:#3a1c1a;
+  --alert:#e3ad1f; color-scheme:dark;}}
+:root[data-theme="dark"]{
+  --bg:#0e1a1f; --card:#152429; --ink:#e4eef0; --ink2:#a8bcc2; --soft:#7a8f96; --line:#29404a;
+  --water:#3f9fc0; --water2:#2a6f88; --ground:#2f2b22; --hatch:#5f5644; --earth:#6f6248; --street:#3a484e; --house:#4a4436;
+  --ok:#6cc79a; --okb:#16302a; --w1:#e0c25a; --w1b:#2e2915; --w2:#ee9a63; --w2b:#33231a; --bad:#f08a80; --badb:#3a1c1a;
+  --alert:#e3ad1f; color-scheme:dark;}
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Archivo,"Helvetica Neue",Arial,sans-serif;font-size:16px;line-height:1.45;-webkit-text-size-adjust:100%}
+.wrap{max-width:560px;margin:0 auto;padding:18px 16px 40px}
+header{display:flex;justify-content:space-between;align-items:baseline;gap:12px;margin-bottom:6px}
+h1{font-stretch:78%;font-weight:800;font-size:clamp(1.75rem,8vw,2.5rem);line-height:1.02;margin:0;letter-spacing:-.01em}
+.city{font-weight:700;font-size:.95rem;color:var(--water);margin:0 0 4px;letter-spacing:.02em}
+.simt{display:block;font-stretch:90%;font-weight:600;font-size:.5em;color:var(--ink2);margin-top:6px;letter-spacing:0}
+
+.hero{position:relative;overflow:hidden;border-radius:18px;margin:0 0 16px;color:#fff;
+  background:radial-gradient(120% 80% at 80% 0%,#4d6a75 0%,rgba(77,106,117,0) 60%),linear-gradient(180deg,#1b2a31 0%,#29424c 55%,#1f6f8b 100%)}
+.rainbg{position:absolute;inset:0;width:100%;height:100%}
+.hero.m-sol{background:radial-gradient(90% 70% at 85% 10%,rgba(255,226,140,.55) 0%,rgba(255,226,140,0) 55%),linear-gradient(180deg,#1f6fa6 0%,#3d8fc2 55%,#6db3d6 100%)}
+.hero.m-noche{background:radial-gradient(80% 60% at 85% 12%,rgba(170,190,220,.25) 0%,rgba(170,190,220,0) 55%),linear-gradient(180deg,#0b1726 0%,#13263b 60%,#1b3550 100%)}
+.rainbg .rays{transform-origin:470px 64px;animation:spin 60s linear infinite}
+.rainbg .cl{animation:drift 40s linear infinite alternate}
+.rainbg .tw{animation:tw 3.5s ease-in-out infinite alternate}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes drift{from{transform:translateX(0)}to{transform:translateX(-60px)}}
+@keyframes tw{from{opacity:.25}to{opacity:.9}}
+@media (prefers-reduced-motion:reduce){.rainbg .rays,.rainbg .cl,.rainbg .tw{animation:none}}
+.hero .sky{display:inline-block;margin-top:4px;font-size:.8rem;font-weight:700;color:#fff;background:rgba(0,0,0,.2);border-radius:12px;padding:3px 10px;white-space:normal;max-width:100%;line-height:1.3;text-align:right}
+
+.rainbg .ly{animation:fall 2.6s linear infinite}
+.rainbg .ly2{animation:fall 4.2s linear infinite}
+@keyframes fall{from{transform:translate(0,0)}to{transform:translate(-75px,300px)}}
+@media (prefers-reduced-motion:reduce){.rainbg .ly,.rainbg .ly2{animation:none}}
+.hin{position:relative;padding:16px 16px 18px}
+.htop{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:12px}
+.hmark{width:58px;height:58px;flex:none;filter:drop-shadow(0 4px 10px rgba(0,0,0,.35))}
+.hero .when{color:#d7e6eb;text-shadow:0 1px 3px rgba(0,0,0,.5)}
+.hero .city{color:#9fd8ec}
+.hero h1{color:#fff;text-shadow:0 2px 10px rgba(0,0,0,.35)}
+.hero .simt{color:#cfe3ea}
+.hero .sim{color:#e4eef0;border-color:rgba(255,255,255,.35);background:rgba(0,0,0,.18);margin:12px 0 0}
+.adm{margin:0 0 14px;padding:12px 14px;border-radius:14px;border:2px dashed var(--water);background:var(--card)}
+.adm b{display:block;font-size:.92rem;margin-bottom:2px}
+.adm p{margin:0 0 8px;font-size:.82rem;color:var(--ink2)}
+.adm .bt{display:grid;grid-template-columns:1fr 1fr;gap:6px}
+.adm button{font:inherit;font-size:.86rem;font-weight:700;cursor:pointer;border-radius:10px;padding:9px 8px;border:1px solid var(--line);background:var(--bg);color:var(--ink)}
+.adm button.on{background:var(--water);color:#fff;border-color:var(--water)}
+.adm .st{margin-top:8px;font-size:.8rem;color:var(--ink2)}
+.bleg{display:grid;gap:5px;margin-top:6px;font-size:.78rem;color:var(--ink2)}
+.bleg span{display:flex;gap:7px;align-items:flex-start}
+.bleg i{flex:none;width:12px;height:12px;border-radius:3px;margin-top:2px}
+.bleg b{color:var(--ink)}
+.hero .hin{background:linear-gradient(180deg,rgba(6,24,32,.42) 0%,rgba(6,24,32,.18) 100%)}
+.hero h1{font-size:clamp(2rem,9vw,2.7rem)!important;text-shadow:0 2px 12px rgba(0,0,0,.6),0 1px 2px rgba(0,0,0,.6)!important}
+.hero .city,.hero .simt,.hero .when,.hero .upd,.hero .sim{text-shadow:0 1px 3px rgba(0,0,0,.65)}
+.hero .city{font-size:1.02rem!important;color:#bfe9f7!important}
+.hero .upd{font-size:.94rem!important;color:#fff!important}
+.hero .upd small{font-size:.86rem!important;color:#e6f1f4!important}
+.hero .sim{background:rgba(0,0,0,.38)!important;color:#fff!important;font-size:.86rem!important}
+.calz{margin-top:12px}
+.hero .upd{margin:10px 0 0;font-size:.86rem;line-height:1.35;color:#e4eef0;display:flex;gap:8px;align-items:flex-start}
+.hero .upd::before{content:"";flex:none;width:9px;height:9px;border-radius:50%;background:#6cc79a;margin-top:4px;box-shadow:0 0 0 3px rgba(108,199,154,.25)}
+.hero .upd.old::before{background:#f2c14e;box-shadow:0 0 0 3px rgba(242,193,78,.3)}
+.hero .upd b{color:#fff}
+.hero .upd small{display:block;color:#bcd2d9;font-size:.8rem}
+.calz .lb{font-size:.86rem;color:var(--ink2);margin-bottom:6px}
+.calz .opts{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.calz input{position:absolute;opacity:0;pointer-events:none}
+.calz label{display:flex;align-items:center;justify-content:center;gap:8px;padding:11px 10px;border:2px solid var(--line);border-radius:12px;background:var(--card);font-weight:700;cursor:pointer;text-align:center}
+.calz label svg{flex:none}
+.calz input:checked+label{border-color:var(--water);background:var(--bg);color:var(--water)}
+.calz input:focus-visible+label{outline:3px solid var(--alert);outline-offset:2px}
+.when{font-size:.86rem;color:var(--ink2);text-align:right;white-space:nowrap}
+.sim{display:inline-block;font-size:.78rem;font-weight:600;color:var(--ink2);border:1px solid var(--line);border-radius:999px;padding:2px 10px;margin:8px 0 14px}
+select{width:100%;font:inherit;font-size:1.05rem;font-weight:600;color:var(--ink);background:var(--card);border:2px solid var(--water);border-radius:12px;padding:13px 14px;appearance:none;-webkit-appearance:none;
+  background-image:linear-gradient(45deg,transparent 50%,var(--water) 50%),linear-gradient(135deg,var(--water) 50%,transparent 50%);
+  background-position:calc(100% - 22px) 52%,calc(100% - 16px) 52%;background-size:6px 6px;background-repeat:no-repeat}
+select:focus-visible,button:focus-visible,input:focus-visible,summary:focus-visible{outline:3px solid var(--alert);outline-offset:2px}
+.tabs{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:14px 0 0}
+.tab{font:inherit;text-align:left;cursor:pointer;background:var(--card);color:var(--ink);border:2px solid var(--line);border-radius:12px;padding:10px 12px;display:flex;flex-direction:column;gap:2px}
+.tab[aria-selected="true"]{border-color:var(--ink)}
+.tab .d{font-weight:700;font-size:.98rem}
+.tab .s{font-size:.8rem;color:var(--ink2)}
+.tab .chip{align-self:flex-start;margin-top:4px;font-size:.74rem;font-weight:700;padding:2px 8px;border-radius:999px}
+.l0{background:var(--okb);color:var(--ok)}.l1{background:var(--w1b);color:var(--w1)}.l2{background:var(--w2b);color:var(--w2)}.l3{background:var(--badb);color:var(--bad)}
+.panel{background:var(--card);border-radius:16px;margin-top:10px;overflow:hidden;border:1px solid var(--line)}
+.scene{display:block;width:100%;height:auto}
+.scene .wl{transition:transform .9s cubic-bezier(.2,.7,.2,1),opacity .4s}
+.scene text{font-family:Archivo,sans-serif;font-variant-numeric:tabular-nums}
+.scene .halo{paint-order:stroke;stroke:var(--card);stroke-width:3px;stroke-linejoin:round}
+.tierra{display:flex;gap:9px;align-items:center;margin-top:10px;font-weight:600;cursor:pointer;font-size:.95rem}
+.tierra input{accent-color:var(--water);width:18px;height:18px;flex:none}
+@media (prefers-reduced-motion:reduce){.scene .wl{transition:none}}
+.verdict{padding:14px 16px 4px}
+.verdict .t{font-stretch:82%;font-weight:800;font-size:clamp(1.45rem,6.4vw,1.9rem);line-height:1.08;margin:0 0 6px}
+.verdict .t.c0{color:var(--ok)}.verdict .t.c1{color:var(--w1)}.verdict .t.c2{color:var(--w2)}.verdict .t.c3{color:var(--bad)}
+.verdict p{margin:0 0 8px;color:var(--ink2);font-size:.95rem}
+.verdict p b{color:var(--ink)}
+.rain{padding:6px 16px 14px}
+.rain svg{display:block;width:100%;height:auto}
+.rain .cmp{margin-top:8px;padding:10px 12px;border-radius:10px;background:var(--bg);font-size:.84rem;color:var(--ink2);line-height:1.45}
+.rain .cmp b{color:var(--ink)}
+.rain .cmp .dif{color:var(--w2);font-weight:700}
+.rain .cap{font-size:.84rem;color:var(--ink2);margin-top:4px}
+.alert{display:flex;gap:10px;align-items:flex-start;margin-top:10px;padding:11px 14px;border-radius:12px;background:var(--w1b);border-left:6px solid var(--alert);font-size:.88rem}
+.alert b{display:block}
+.river{display:flex;align-items:center;gap:12px;margin-top:10px;padding:11px 14px;border-radius:12px;background:var(--card);border:1px solid var(--line);font-size:.88rem;color:var(--ink2)}
+.river .h{font-stretch:80%;font-weight:800;font-size:1.5rem;color:var(--ink);white-space:nowrap}
+[hidden]{display:none!important}
+.drain{margin-top:10px;padding:11px 14px;border-radius:12px;background:var(--card);border:1px solid var(--line);font-size:.88rem;color:var(--ink2)}
+.drain .top{display:flex;justify-content:space-between;align-items:baseline;font-weight:700;color:var(--ink)}
+.drain .top span:last-child{font-stretch:80%;font-weight:800;font-size:1.2rem}
+.drain .bar{height:12px;border-radius:999px;background:var(--bg);margin:7px 0 7px;overflow:hidden;border:1px solid var(--line)}
+.drain .bar i{display:block;height:100%;min-width:3px;border-radius:999px;transition:width .6s}
+@media (prefers-reduced-motion:reduce){.drain .bar i{transition:none}}
+.drain .bar i.g{background:var(--ok)}.drain .bar i.y{background:var(--w1)}.drain .bar i.r{background:var(--bad)}
+.tapt{margin-top:12px;font-weight:700;color:var(--ink);font-size:.9rem}
+#tap{display:block;width:100%;height:auto;margin-top:4px}
+.pict{display:flex;flex-wrap:wrap;gap:2px;margin-top:10px}
+.leg{display:flex;flex-direction:column;gap:3px;font-size:.82rem;color:var(--ink2);margin-top:2px}
+.leg:empty{display:none}
+.leg span{display:flex;align-items:center;gap:8px}
+.leg i{display:inline-block;width:22px;height:0}
+.taps{margin:6px 0 0;font-size:.92rem;color:var(--ink)}
+#tap text{font-family:Archivo,sans-serif;font-variant-numeric:tabular-nums}
+.rf{display:flex;gap:9px;align-items:center;margin-top:9px;font-weight:600;color:var(--ink);cursor:pointer}
+.rf input{accent-color:var(--bad);width:18px;height:18px;flex:none}
+details{margin-top:12px;background:var(--card);border:1px solid var(--line);border-radius:12px}
+summary{cursor:pointer;list-style:none;padding:12px 14px;font-weight:700}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";float:right;font-weight:800;color:var(--water)}
+details[open] summary::after{content:"\2212"}
+.adj{padding:0 14px 14px}
+.seg{display:flex;flex-wrap:wrap;gap:6px;margin:4px 0 14px}
+.seg button{font:inherit;font-size:.86rem;cursor:pointer;border:1px solid var(--line);background:var(--bg);color:var(--ink);border-radius:999px;padding:7px 12px}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--card);border-color:var(--ink)}
+.row{margin:10px 0}
+.row .top{display:flex;justify-content:space-between;font-size:.9rem;font-weight:600}
+.row .top span:last-child{color:var(--water);font-weight:800}
+input[type=range]{width:100%;accent-color:var(--water);margin:6px 0 0}
+.reset{font:inherit;font-size:.84rem;background:none;border:none;color:var(--water);text-decoration:underline;cursor:pointer;padding:0}
+.note{font-size:.8rem;color:var(--soft);margin-top:14px}
+.src{font-size:.78rem;color:var(--soft);margin-top:10px}
+.fts{margin-top:10px;font-size:.84rem}
+.fts summary{padding:10px 14px}
+.fnote{margin:0 14px 8px;color:var(--ink2)}
+.fg{padding:0 14px 8px}
+.fg b{display:block;color:var(--ink);font-size:.86rem;margin:4px 0}
+.fg ul{margin:0;padding-left:18px;color:var(--ink2)}
+.fg li{margin:3px 0}
+.fg a{color:var(--water)}
+.src a{color:var(--ink2)}
+.stale{display:none;margin-top:10px;padding:10px 14px;border-radius:12px;background:var(--badb);color:var(--bad);font-size:.88rem;font-weight:600}
+footer{margin-top:22px;font-size:.82rem;color:var(--ink2)}
+footer b{display:block;color:var(--ink)}
+</style>
+</head>
+<body>
+<div class="wrap">
+<div class="hero">
+  <svg class="rainbg" id="rainbg" viewBox="0 0 560 300" preserveAspectRatio="xMidYMid slice" aria-hidden="true"></svg>
+  <div class="hin">
+    <div class="htop"><svg class="hmark" viewBox="0 0 100 100" aria-hidden="true"><rect x="0.00" y="0.00" width="100.00" height="100.00" rx="22.00" fill="#1f6f8b"/><clipPath id="c0"><rect x="0.00" y="0.00" width="100.00" height="100.00" rx="22.00"/></clipPath><g clip-path="url(#c0)"><path d="M0.00 62.00 C16.00 58.00 30.00 66.00 50.00 62.00 C70.00 58.00 84.00 66.00 100.00 62.00 L100.00 100.00 L0.00 100.00 Z" fill="#5aa6bf"/></g><path d="M24.00 80.00 L24.00 46.00 L46.00 27.00 L68.00 46.00 L68.00 80.00 Z" fill="none" stroke="#fff" stroke-width="6.50" stroke-linejoin="round"/><path d="M40.00 80.00 L40.00 63.00 L52.00 63.00 L52.00 80.00" fill="none" stroke="#fff" stroke-width="5.00" stroke-linejoin="round"/><path d="M8.00 62.00 C16.00 58.00 30.00 66.00 50.00 62.00 C70.00 58.00 84.00 66.00 94.00 62.00" fill="none" stroke="#fff" stroke-width="4.50" stroke-linecap="round"/><path d="M76.00 40.00 L90.00 40.00 L83.00 51.00 Z" fill="#fff"/><path d="M78.00 55.50 L88.00 55.50" stroke="#fff" stroke-width="3.00" stroke-linecap="round"/><path d="M30.00 10.00 L27.00 18.00" stroke="#fff" stroke-width="3.60" stroke-linecap="round" opacity=".85"/><path d="M52.00 8.00 L49.00 16.00" stroke="#fff" stroke-width="3.60" stroke-linecap="round" opacity=".85"/><path d="M74.00 14.00 L71.00 22.00" stroke="#fff" stroke-width="3.60" stroke-linecap="round" opacity=".85"/></svg><div class="when" id="when"></div></div>
+    <p class="city">Corrientes Capital</p>
+    <h1>Si llueve, ¿se inunda mi barrio?<span class="simt">Simulador</span></h1>
+    <span class="sim">Simulación: lluvia real medida por estaciones meteorológicas + pronóstico de la ciudad</span>
+    <p class="upd" id="upd"></p>
+  </div>
+</div>
+
+<div id="alertB" style="margin:0 0 14px"></div>
+
+<label for="barrio" class="note" style="display:block;margin:0 0 6px;color:var(--ink2)">Elija su barrio</label>
+<select id="barrio"></select>
+<div class="calz" role="radiogroup" aria-label="Tipo de calzada de su cuadra">
+  <div class="lb">¿Cómo es la calzada de su cuadra?</div>
+  <div class="opts">
+    <input type="radio" name="calz" id="pav" checked><label for="pav"><svg width="22" height="12" viewBox="0 0 22 12" aria-hidden="true"><rect x="0" y="4" width="22" height="5" fill="currentColor"/><rect x="0" y="0" width="3" height="9" fill="currentColor"/></svg>Pavimentada</label>
+    <input type="radio" name="calz" id="tierra"><label for="tierra"><svg width="22" height="12" viewBox="0 0 22 12" aria-hidden="true"><path d="M0 3H5L8 11L11 5Q16 3 22 5" fill="none" stroke="currentColor" stroke-width="2"/></svg>De tierra</label>
+  </div>
+</div>
+
+<div class="stale" id="stale"></div>
+
+<div class="tabs" role="tablist">
+  <button class="tab" role="tab" id="tab0" aria-selected="true"><span class="d" id="td0">Hoy</span><span class="s" id="ts0"></span><span class="chip" id="tc0"></span></button>
+  <button class="tab" role="tab" id="tab1" aria-selected="false"><span class="d" id="td1">Mañana</span><span class="s" id="ts1"></span><span class="chip" id="tc1"></span></button>
+</div>
+
+<div class="panel">
+  <svg class="scene" id="scene" viewBox="0 0 360 214" role="img" aria-labelledby="sceneT"><title id="sceneT">Perfil transversal de la calle con el nivel de agua estimado</title><g id="sc"></g>
+    <g class="wl" id="wl" style="transform:translateY(0px)"><g id="wlg"></g></g><g id="sg"></g>
+    <text id="wlab" x="352" y="24" text-anchor="end" font-size="24" font-weight="800" fill="var(--ink)" style="font-stretch:80%">0 cm</text>
+    <text id="wsub" x="352" y="37" text-anchor="end" font-size="9.5" fill="var(--ink2)">nivel de agua, promedio de la zona</text>
+  </svg>
+  <div class="verdict">
+    <div class="t" id="vt"></div>
+    <p id="vd"></p>
+    <p id="vf"></p>
+  </div>
+  <div class="rain">
+    <svg id="bars" viewBox="0 0 360 112" aria-label="Lluvia hora por hora: medida y pronosticada"></svg>
+    <div class="bleg" id="bleg"></div>
+    <div class="cap" id="rcap"></div>
+    <div class="cmp" id="cmp"></div>
+  </div>
+</div>
+
+<div class="alert" id="alert" hidden><span aria-hidden="true" style="font-size:1.2rem">⚠</span><div id="alertTxt"></div></div>
+
+<div class="river"><div class="h" id="rH"></div><div id="rT"></div></div>
+
+<div class="drain">
+  <div class="top"><span>Desagüe disponible hoy</span><span id="dP"></span></div>
+  <div class="bar"><i id="dB"></i></div>
+  <div id="dN"></div>
+  <div class="tapt">Efecto tapón: cuanto más sube el río, menos agua pueden sacar los desagües</div>
+  <svg id="tap" viewBox="0 0 340 182" role="img" aria-label="Capacidad de los desagües según la altura del río Paraná"></svg>
+  <div class="leg" id="tapLeg"></div>
+  <div class="pict" id="pict" aria-hidden="true"></div>
+  <p class="taps" id="tapS"></p>
+  <label class="rf" id="rfW" hidden><input type="checkbox" id="rf"> Considerar reflujo del río por los conductos</label>
+</div>
+
+<details>
+  <summary>Ajustar la simulación</summary>
+  <div class="adj">
+    
+    <div class="row"><div class="top"><span>Lluvia total del día elegido</span><span id="mmV"></span></div>
+      <input type="range" id="mm" min="0" max="200" step="1"></div>
+    <div class="row"><div class="top"><span>Concentrada en</span><span id="hsV"></span></div>
+      <input type="range" id="hs" min="1" max="24" step="1"></div>
+    <div class="row"><div class="top"><span>Altura del río Paraná</span><span id="rvV"></span></div>
+      <input type="range" id="rv" min="3" max="9" step="0.05"></div>
+    <button class="reset" id="reset">Volver a los datos precargados</button>
+  </div>
+</details>
+
+<p class="note"><b>Es una simulación, no un aviso oficial.</b> Combina el pronóstico precargado con la capacidad de desagüe que declaró el municipio y la altura del río. El resultado es un promedio de la zona: en las partes bajas el agua es más profunda. Ante una emergencia, Defensa Civil 103.</p>
+<p class="src" id="src"></p>
+
+<footer><b>Mag. Ing. Marcelo Cerdán</b>Analista Científico y Político Independiente</footer>
+</div>
+
+<script type="application/json" id="obs" data-src="/data/obs.json"></script>
+<script type="application/json" id="data" data-src="/data/barrio.json"></script>
+<script type="text/plain" id="main-js">
+(function(){
+
+(function(){var s=7,R=function(){s=(s*16807)%2147483647;return s/2147483647;};
+  function layer(n,op,wd,cls){var g='',h='';for(var i=0;i<n;i++){var x=-20+R()*680,y=-20+R()*320,l=10+R()*26,o=op[0]+R()*(op[1]-op[0]),w=wd[0]+R()*(wd[1]-wd[0]);
+    h+='<line x1="'+x.toFixed(1)+'" y1="'+y.toFixed(1)+'" x2="'+(x-l*0.25).toFixed(1)+'" y2="'+(y+l).toFixed(1)+'" stroke="#fff" stroke-opacity="'+o.toFixed(2)+'" stroke-width="'+w.toFixed(2)+'" stroke-linecap="round"/>';}
+    return '<g class="'+cls+'"><g>'+h+'</g><g transform="translate(75 -300)">'+h+'</g></g>';}
+  window.__rain=function(){return layer(90,[.06,.16],[.5,.9],'ly2')+layer(70,[.18,.42],[.8,1.5],'ly');};
+})();
+var D=JSON.parse(document.getElementById('data').textContent);
+/* solo alertas que incluyen a Corrientes Capital; las demás se informan aparte y no entran en el cálculo */
+var ALOTRAS=0;(function(){var A=D.alertas||{},n={};function nr(s){return String(s||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'');}
+  Object.keys(A).forEach(function(k){var a=A[k],z=nr((a.zonas||'')+' '+(a.texto||''));var ok=a.incluye_capital===true?true:a.incluye_capital===false?false:(/no incluye a la capital|no alcanza a la capital|no se confirmo que alcance a la capital|sin confirmar para la capital/.test(z)?false:/capital|provincia de corrientes|toda la provincia|para corrientes/.test(z));
+    if(ok)n[k]=a;else ALOTRAS++;});D.alertas=n;})();
+var OBS=null;try{OBS=JSON.parse(document.getElementById('obs').textContent);}catch(e){}
+var BARRIOS=[["17 de Agosto", "SUR", 8468, ""], ["3 de Abril", "RIB", 5833, "Sobre esta avenida descarga uno de los tres desagües principales de la ciudad al río Paraná."], ["9 de Julio", "SUR", 14241, "Nombrado como prioritario en la Ordenanza 7707. Integra el sector de la antigua Laguna Seca."], ["92 Viv. Salvador Miqueri", "SUR", 0, ""], ["Aldana", "CEN", 2596, ""], ["Alta Gracia", "SUR", 1595, ""], ["Anahi", "NOR", 4418, "El Zanjón del barrio Anahí figura entre los cuerpos de agua vinculados a anegamientos. Acá funciona el centro de evacuación de la zona norte."], ["Antartida Argentina", "NOR", 2153, ""], ["Apipe", "NOR", 2254, ""], ["Arazati", "RIB", 2654, ""], ["Asentamiento Eragia", "NOR", 0, ""], ["Asentamiento Pirayui Sur", "SUR", 0, "Nombrado como prioritario en la Ordenanza 7707 de Emergencia Hídrica y Climática."], ["Asentamiento Punta Taitalo", "RIB", 0, ""], ["Ayuda Mutua", "NOR", 0, ""], ["Bancario", "RIB", 786, ""], ["Bañado Norte", "RIB", 6180, ""], ["Bejarano", "NOR", 0, ""], ["Belgrano", "NOR", 2135, ""], ["Beron de Astrada", "CEN", 1306, ""], ["Cacique Canindeyu", "SUR", 1984, ""], ["Camba Cua", "RIB", 6963, "Acá descarga el arroyo Salamanca. El municipio señaló al parque Cambá Cuá como punto crítico en la creciente de 2023."], ["Centro", "CEN", 5433, "El municipio identificó en 2023 al área dentro de las cuatro avenidas como una de las más comprometidas ante una creciente."], ["Cichero", "RIB", 2308, ""], ["Ciudad de Arequipa", "RIB", 889, ""], ["Ciudad de Estepa", "SUR", 4351, ""], ["Ciudad de Valencia", "NOR", 786, ""], ["Ciudades Correntinas", "SUR", 6496, "Entre los barrios más afectados por las lluvias de diciembre de 2025, según la Municipalidad."], ["Club de Campo (23566-U)", "NOR", 0, ""], ["Club de Campo Buena Vista I", "NOR", 0, ""], ["Club de Campo Che Gente Cuera", "NOR", 0, ""], ["Club de Campo Don Manuel", "NOR", 0, ""], ["Club de Campo Dos Lunas-Este", "NOR", 0, ""], ["Club de Campo Laguna Pueblo Nuevo", "NOR", 0, ""], ["Club de Campo las Dos Lunas-Oeste", "NOR", 0, ""], ["Club de Campo los Azahares S.A.", "NOR", 0, ""], ["Club de Campo los Frutales", "NOR", 0, ""], ["Codepro", "RIB", 792, ""], ["Collantes", "NOR", 720, ""], ["Concepcion", "SUR", 2308, ""], ["Cremonte", "NOR", 1068, ""], ["Cristobal Colon", "SUR", 1141, ""], ["Deportes", "CEN", 5033, ""], ["Dr Nicolini", "SUR", 1475, ""], ["Dr. Montaña", "SUR", 6230, ""], ["Esperanza", "SUR", 2721, "Costa Esperanza figura entre los barrios más afectados en diciembre de 2025, según la Municipalidad."], ["Ex Aero Club", "SUR", 428, ""], ["Fray J de la Quintana", "SUR", 7114, "Nombrado como prioritario en la Ordenanza 7707 de Emergencia Hídrica y Climática."], ["Galvan", "RIB", 5187, "Incluido en las veinte iniciativas que el Concejo aprobó en agosto de 2026, junto con La Olla, Irupé, Ongay y Caridi."], ["General Madariaga", "NOR", 1363, ""], ["Golf Club Corrientes", "NOR", 0, ""], ["Granaderos", "NOR", 2037, ""], ["Guemes Invico", "SUR", 3097, ""], ["Guemes Tradicional", "NOR", 1360, ""], ["Hipodromo", "NOR", 1727, ""], ["Independencia", "SUR", 1098, "Acá funciona el centro de evacuación de la zona sur de la ciudad."], ["Industrial", "NOR", 1809, ""], ["Irupe", "SUR", 1456, "Integra el conglomerado de La Olla, junto con Ongay, San Jorge, Paloma de la Paz y La Olla. Beneficiario directo de la limpieza del canal de La Olla."], ["Jardin", "NOR", 4061, ""], ["Jose Maria Paz", "SUR", 0, ""], ["Jose Maria Ponce", "SUR", 2993, ""], ["Juan de Vera", "RIB", 4190, ""], ["Juan XXIII", "RIB", 7472, ""], ["La Cruz", "CEN", 3238, ""], ["La Olla, conglomerado completo", "SUR", 14037, "No figura como barrio en el listado oficial del municipio. Es el conglomerado formado por Irupé, Ongay, San Jorge, Paloma de la Paz, Serantes y La Olla, cercano a la Terminal de Ómnibus, donde viven unos 15 mil vecinos. Fue la zona más afectada en diciembre de 2025, con más de 150 familias asistidas, y está nombrada como prioritaria en la Ordenanza 7707. Superficie sumada de sus barrios componentes."], ["La Rosada", "CEN", 6530, "Lo atraviesa el arroyo Poncho Verde, entubado entre 1957 y 1959 bajo la avenida Gobernador Pujol."], ["Laguna Brava", "SUR", 3314, ""], ["Laguna Soto Sur", "NOR", 0, ""], ["Las Dos Curvas", "SUR", 0, ""], ["Las Rosas", "SUR", 593, ""], ["Libertad", "CEN", 9132, ""], ["Lomas", "SUR", 986, ""], ["Lomas del Mirador", "NOR", 3448, "Nombrado como prioritario en la Ordenanza 7707 de Emergencia Hídrica y Climática."], ["Luz y Fuerza", "RIB", 0, ""], ["Malvinas Argentinas", "SUR", 5735, ""], ["Merceditas Collantes", "NOR", 0, ""], ["Molina Punta", "NOR", 3301, "En marzo de 2024 las cuadrillas no lograron llegar. Figuró también entre los más afectados en temporales previos."], ["Niño Jesus", "NOR", 3997, ""], ["Ntra Sra. de Guadalupe", "SUR", 0, ""], ["Ntra Sra. de la Asuncion", "SUR", 0, ""], ["Nuestra Sra. de la Pompeya", "CEN", 0, ""], ["Paloma de la Paz", "SUR", 3560, "Integra el conglomerado de La Olla. Figura además entre los puntos de afectación históricos por anegamiento."], ["Paraje Perichon", "RIB", 0, ""], ["Parque Balneario Molina Punta", "RIB", 1804, "En marzo de 2024 las cuadrillas municipales no lograron llegar a este barrio durante el temporal."], ["Parque Cadena Norte", "SUR", 1338, ""], ["Parque Cadena Sur", "SUR", 0, ""], ["Paso Martinez", "SUR", 0, ""], ["Pedro Ferre", "RIB", 596, ""], ["Pio X", "RIB", 4583, ""], ["Pirayui", "SUR", 3622, "Nombrado como prioritario en la Ordenanza 7707 de Emergencia Hídrica y Climática."], ["Pirayui Nuevo", "SUR", 0, "Nombrado como prioritario en la Ordenanza 7707 de Emergencia Hídrica y Climática."], ["Placido Martinez", "RIB", 2280, ""], ["Popular", "NOR", 1631, ""], ["Primera Junta", "SUR", 2235, ""], ["Progreso", "SUR", 3674, ""], ["Pueblo Buenos Aires", "NOR", 0, ""], ["Pujol", "NOR", 0, ""], ["Quinta Ferre", "RIB", 4065, ""], ["Republica de Venezuela", "SUR", 1176, "Integra el sector de la antigua Laguna Seca, urbanizado sobre su parte más playa."], ["Residencial Santa Rosa", "NOR", 1196, ""], ["Rio Parana", "RIB", 891, "Su límite oeste llega hasta la costa, de modo que su escurrimiento depende directamente de la altura del río. Sector verificado sobre cartografía."], ["Samela Norte", "NOR", 0, ""], ["Samela Sur", "SUR", 0, ""], ["San Antonio", "SUR", 2152, ""], ["San Benito", "RIB", 4217, ""], ["San Geronimo", "NOR", 6146, "Nombrado como prioritario en la Ordenanza 7707. Figuró entre los más afectados en temporales anteriores."], ["San Ignacio", "NOR", 3626, "En marzo de 2024 las cuadrillas municipales no lograron llegar a este barrio durante el temporal."], ["San Jorge", "SUR", 0, "Integra el conglomerado de La Olla y es beneficiario directo de la limpieza del canal."], ["San Jose", "NOR", 2821, ""], ["San Marcelo", "SUR", 3415, ""], ["San Marcos", "SUR", 1597, ""], ["San Martin", "RIB", 6711, ""], ["San Roque", "SUR", 6469, ""], ["Santa Catalina", "SUR", 0, ""], ["Santa Margarita", "SUR", 929, ""], ["Santa Maria", "RIB", 1787, ""], ["Santa Rita Norte", "SUR", 0, ""], ["Santa Rita Sur", "SUR", 0, "En marzo de 2024 las cuadrillas municipales no lograron llegar a este barrio durante el temporal."], ["Santa Rosa", "CEN", 3450, "En diciembre de 2025 se informaron más de 120 departamentos afectados en este barrio."], ["Santa Teresita", "NOR", 4131, ""], ["Sapucay", "SUR", 0, ""], ["Sargento Cabral", "RIB", 1663, ""], ["Serantes", "SUR", 7962, "Beneficiario directo de la limpieza del canal de La Olla, según la propia Municipalidad."], ["Sol de Mayo", "NOR", 4509, ""], ["Sor Maria Assunta Pittaro", "RIB", 3725, ""], ["Sur", "RIB", 6877, ""], ["Tambor de Tacuari", "NOR", 1329, ""], ["Union", "SUR", 3217, ""], ["Universitario", "NOR", 2460, ""], ["Victor Colas", "NOR", 3483, ""], ["Villa Celia", "NOR", 2680, ""], ["Villa Chiquita", "NOR", 5273, ""], ["Villa Ongay", "SUR", 1059, "Integra el conglomerado de La Olla. En temporales anteriores la DPEC debió cortar la energía por seguridad ante los anegamientos."], ["Villa Patono", "RIB", 4254, ""], ["Villa Raquel", "SUR", 5301, ""], ["Virgen de los Dolores", "RIB", 0, ""], ["Yapeyu", "RIB", 1760, ""], ["Yecoha", "NOR", 0, ""], ["Zona Sur Pirayui", "SUR", 1653, "Nombrado como prioritario en la Ordenanza 7707 de Emergencia Hídrica y Climática."], ["Zona Sur Ponce", "SUR", 1321, ""]];
+var CAPD=65,C0=0.80,UMBRAL=5.00,AHOGADO=7.02;
+var $=function(id){return document.getElementById(id);};
+var MESES=['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
+var DIAS=['domingo','lunes','martes','miércoles','jueves','viernes','sábado'];
+function nf(x,d){return (+x).toLocaleString('es-AR',{minimumFractionDigits:d||0,maximumFractionDigits:d||0});}
+
+/* hora de Corrientes, sin depender de la zona del dispositivo */
+function ahora(){
+  var p={};try{new Intl.DateTimeFormat('en-CA',{timeZone:'America/Argentina/Cordoba',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hourCycle:'h23'}).formatToParts(new Date()).forEach(function(x){p[x.type]=x.value;});}catch(e){}
+  if(!p.year){var d=new Date();return {key:d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0'),h:d.getHours(),m:d.getMinutes()};}
+  return {key:p.year+'-'+p.month+'-'+p.day,h:+p.hour%24,m:+p.minute};
+}
+function addDay(k,n){var a=k.split('-');var d=new Date(Date.UTC(+a[0],+a[1]-1,+a[2]+n));return d.toISOString().slice(0,10);}
+function etiqueta(k){var a=k.split('-');var d=new Date(Date.UTC(+a[0],+a[1]-1,+a[2]));return DIAS[d.getUTCDay()]+' '+(+a[2])+' de '+MESES[+a[1]-1];}
+
+var NOW=ahora(), keys=Object.keys(D.dias).sort();
+var K0=NOW.key, HNOW=NOW.h, stale=false;
+if(!D.dias[K0]){stale=true; if(K0>keys[keys.length-1]){K0=keys[keys.length-2]||keys[0];HNOW=0;} else {K0=keys[0];HNOW=0;}}
+var K1=addDay(K0,1);
+/* alertas meteorológicas y enlaces de seguimiento */
+(function(){function e(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
+  var A=D.alertas||{},L=[[K0,'Hoy'],[K1,'Mañana']].filter(function(x){return A[x[0]];}),h='';
+  var col={amarillo:['#f6d55c','#3d3205'],naranja:['#f29c38','#3a1d00'],rojo:['#d64545','#fff']};
+  if(L.length&&D.estado_alertas==='NO_VERIFICADO')h+='<div style="margin-bottom:8px;padding:8px 10px;border-radius:10px;border:1px dashed #b07a10;font-size:.8rem"><b>Atención:</b> alertas difundidas por la prensa a partir de partes oficiales, no confirmadas en el sitio del organismo en la última consulta. Verifique en el SMN y en el COE.</div>';
+  if(L.length){L.forEach(function(x){var a=A[x[0]],c=col[a.nivel]||col.amarillo;h+='<div style="border-radius:14px;padding:12px 14px;margin-bottom:8px;background:'+c[0]+';color:'+c[1]+'"><b style="display:block;font-size:1rem;letter-spacing:.02em">⚠ ALERTA '+e(String(a.nivel||'').toUpperCase())+' DEL SMN, '+x[1].toUpperCase()+'</b><span style="font-size:.86rem;line-height:1.35">'+e(a.texto)+(a.min!=null?' Acumulado previsto: '+a.min+' a '+a.max+' mm.':'')+'</span></div>';});}
+  else h+='<div style="border-radius:14px;padding:10px 14px;margin-bottom:8px;background:var(--card);border:1px solid var(--line);font-size:.86rem">'+(D.estado_alertas==='NO_VERIFICADO'?'<b>Estado de alertas no verificado en la última consulta.</b> Esto no significa que no haya alertas: consulte el SMN.':'<b>Sin alertas meteorológicas para Corrientes Capital</b> en la última actualización ('+e(D.actualizado)+').')+(ALOTRAS?' Hay alertas vigentes en otras zonas de la provincia que no incluyen a la Capital.':'')+'</div>';
+  var lk=[['Alertas del SMN','https://www.smn.gob.ar/alertas'],['Radar meteorológico','https://www.smn.gob.ar/radar'],['Imágenes satelitales','https://www.smn.gob.ar/satelite']];
+  h+='<div style="display:flex;flex-wrap:wrap;gap:6px">'+lk.map(function(l){return '<a href="'+l[1]+'" target="_blank" rel="noopener" style="flex:1 1 auto;text-align:center;padding:8px 10px;border-radius:999px;background:#1f6f8b;color:#fff;font-weight:700;font-size:.8rem;text-decoration:none">'+l[0]+' ↗</a>';}).join('')+'</div><p class="note" style="margin:6px 0 0;font-size:.74rem;color:var(--ink2)">Siga las lluvias en tiempo real con el radar y el satélite del Servicio Meteorológico Nacional.</p>';
+  document.getElementById('alertB').innerHTML=h;})();
+if(stale){var s=$('stale');s.style.display='block';s.textContent='El pronóstico precargado corresponde al '+etiqueta(keys[0])+' y días siguientes. Se muestran esos días hasta la próxima actualización.';}
+$('when').innerHTML=etiqueta(NOW.key).replace(/^./,function(c){return c.toUpperCase();})+'<br>'+String(NOW.h).padStart(2,'0')+':'+String(NOW.m).padStart(2,'0')+' h';
+(function(){
+  var dd=D.dias[K0]||[], r=stale?null:(dd[HNOW]||0), ob=obsActiva();
+  if(ob&&!stale)r=(ob.mm!=null?+ob.mm:(ob.estado==='seca'?0:5));
+  var mode=r===null?(NOW.h>=6&&NOW.h<19?'sol':'noche'):(r>=0.2?'lluvia':(HNOW>=6&&HNOW<19?'sol':'noche'));
+  var hero=document.querySelector('.hero'), bg=$('rainbg'), g='';
+  hero.classList.remove('m-sol','m-noche'); if(mode!=='lluvia')hero.classList.add('m-'+mode);
+  if(mode==='lluvia') g=window.__rain();
+  else if(mode==='sol'){
+    g='';
+    var ry='';for(var i=0;i<12;i++){var a=i*Math.PI/6;ry+='<line x1="'+(470+Math.cos(a)*46).toFixed(1)+'" y1="'+(64+Math.sin(a)*46).toFixed(1)+'" x2="'+(470+Math.cos(a)*66).toFixed(1)+'" y2="'+(64+Math.sin(a)*66).toFixed(1)+'" stroke="#ffe08a" stroke-width="4" stroke-linecap="round" opacity=".85"/>';}
+    g+='<g class="rays">'+ry+'</g><circle cx="470" cy="64" r="40" fill="#ffd45e" opacity=".35"/><circle cx="470" cy="64" r="34" fill="#ffc94a"/><circle cx="464" cy="58" r="22" fill="#ffe08a" opacity=".7"/>';
+    function cloud(x,y,s,o){return '<g opacity="'+o+'" transform="translate('+x+' '+y+') scale('+s+')"><ellipse cx="0" cy="0" rx="42" ry="16" fill="#fff"/><ellipse cx="-16" cy="-10" rx="20" ry="16" fill="#fff"/><ellipse cx="12" cy="-14" rx="24" ry="19" fill="#fff"/></g>';}
+    g+='<g class="cl">'+cloud(330,120,1,.35)+cloud(140,210,1.3,.22)+cloud(520,230,.9,.25)+'</g>';
+  } else {
+    var st='',s=11;for(var j=0;j<40;j++){s=(s*16807)%2147483647;var x=(s%560);s=(s*16807)%2147483647;var y=(s%280);st+='<circle class="'+(j%3?'':'tw')+'" cx="'+x+'" cy="'+y+'" r="'+(j%5?0.9:1.6)+'" fill="#fff" opacity=".7"/>';}
+    g=st+'<circle cx="470" cy="64" r="30" fill="#f3f0dc"/><circle cx="483" cy="56" r="27" fill="#13263b"/>';
+  }
+  bg.innerHTML=g;
+  var lbl={lluvia:'Lluvia ahora',sol:'Sin lluvia ahora',noche:'Sin lluvia ahora'}[mode];
+  var hhmm=ob?new Date(ob.ts).toLocaleTimeString('es-AR',{hour:'2-digit',minute:'2-digit',hour12:false,timeZone:'America/Argentina/Cordoba'}):'';
+  var obT=ob?(ob.estado==='seca'||(ob.mm!=null&&+ob.mm<=0)?'Sin lluvia registrada':'Lluvia registrada: '+(ob.mm!=null?(+ob.mm).toLocaleString('es-AR',{maximumFractionDigits:1})+' mm en la última hora':ob.estado)):'';
+  var lastReg=(OBS&&OBS.dia===K0&&OBS.ts)?new Date(OBS.ts).toLocaleTimeString('es-AR',{hour:'2-digit',minute:'2-digit',hour12:false,timeZone:'America/Argentina/Cordoba'}):null;
+  $('when').innerHTML+='<br><span class="sky">'+(stale?'Pronóstico desactualizado':(ob?obT+', '+(ob.fuente||'estación ICAA')+', '+hhmm+' h':lbl+', estimado por pronóstico'+(lastReg?' (último registro de la estación: '+lastReg+' h)':' (sin registro de la estación)')))+'</span>';
+})();
+$('td0').textContent=stale?etiqueta(K0).replace(/^./,function(c){return c.toUpperCase();}):'Hoy';
+$('td1').textContent=stale?etiqueta(K1).replace(/^./,function(c){return c.toUpperCase();}):'Mañana';
+
+/* barrios */
+(function(){var sel=$('barrio'),h='';var idx=BARRIOS.map(function(b,i){return i;}).sort(function(a,b){return BARRIOS[a][0].localeCompare(BARRIOS[b][0],'es');});
+idx.forEach(function(i){h+='<option value="'+i+'">'+BARRIOS[i][0]+'</option>';});sel.innerHTML=h;
+var def=0;BARRIOS.forEach(function(b,i){if(b[0]==='Centro')def=i;});
+var saved=null;try{saved=localStorage.getItem('barrio-sim');}catch(e){}
+sel.value=(saved!==null&&BARRIOS[+saved])?saved:String(def);})();
+
+var state={scen:'modelo',day:0,H:+D.rio.altura,ov:{},rf:false,tierra:false};
+try{state.tierra=localStorage.getItem('tierra-sim')==='1';}catch(e){}
+document.getElementById('tierra').checked=state.tierra;
+document.getElementById('pav').checked=!state.tierra;
+
+var INT={debil:2,moderada:8,fuerte:20};
+/* OBS lo carga la tarea horaria con los registros de la estación ICAA publicados en el SNIH:
+   {"dia":"AAAA-MM-DD","registros":{"0":0,"1":0.2,...},"ultima_hora":16,"mm":0.0,"estado":"seca|debil|moderada|fuerte","ts":ms,"fuente":"SNIH, estación ICAA"} */
+function obsActiva(){var o=OBS; if(!o||!o.ts)return null; var age=(Date.now()-o.ts)/3600000; if(age<0||age>4.75)return null; return o;}
+function base(k){var r=(D.dias[k]||new Array(24).fill(0)).slice(), o=OBS;
+  if(o&&o.dia===k&&o.registros&&!stale){Object.keys(o.registros).forEach(function(h){var v=o.registros[h];if(v!=null&&+h<=HNOW)r[+h]=+v;});}
+  var a=obsActiva();
+  if(a&&k===K0&&!stale){var v=a.mm!=null?+a.mm:(a.estado==='seca'?0:(INT[a.estado]||2));
+    if(v<=0){r[HNOW]=0;} else {for(var j=HNOW;j<=Math.min(23,HNOW+1);j++)r[j]=Math.max(r[j],v);}}
+  return r;}
+function sum(a){return a.reduce(function(s,x){return s+x;},0);}
+function lluviaDia(k){
+  var r=base(k), al=D.alertas[k];
+  if(al&&al.max&&state.scen!=='modelo'){
+    /* la alerta fija el total de la ventana oficial; el modelo solo da la forma. Si el modelo trae menos lluvia que la alerta, la diferencia se reparte en la ventana */
+    var target=state.scen==='max'?al.max:(al.min+al.max)/2, hasta=al.hasta||24, n=hasta-al.desde, s=sum(r.slice(al.desde,hasta));
+    if(s<target){var add=(target-s)/n;for(var i=al.desde;i<hasta;i++)r[i]+=add;}
+    else{for(var j=al.desde;j<hasta;j++)r[j]=r[j]*target/s;}
+  }
+  var o=state.ov[k];
+  if(o){
+    if(o.hs){var first=r.findIndex(function(x){return x>=0.3;});if(first<0)first=al?al.desde:12;first=Math.min(first,24-o.hs);
+      r=new Array(24).fill(0);for(var q=first;q<first+o.hs;q++)r[q]=o.mm/o.hs;}
+    else{var t=sum(r);if(t<0.1){for(var w=12;w<18;w++)r[w]=o.mm/6;}else r=r.map(function(x){return x*o.mm/t;});}
+  }
+  return r;
+}
+function factor(h){if(h<=UMBRAL)return 1;if(h>=AHOGADO)return 0.05;return 1-0.95*Math.pow((h-UMBRAL)/(AHOGADO-UMBRAL),0.7);}
+/* zona sur: el Paraná la frena en forma indirecta, por remanso del Riachuelo. Supuesto: la mitad del efecto tapón de la costa */
+function fsur(h){return 1-0.5*(1-factor(h));}
+
+function simular(){
+  var b=BARRIOS[+$('barrio').value], sec=b[1];
+  var f=(sec==='SUR')?fsur(state.H):factor(state.H), TT=state.tierra, CI=TT?0.60:C0, CS=TT?0.04:0.02, KT=TT?0.35:1;
+  var rf=state.rf&&sec==='RIB'&&state.H>=AHOGADO;
+  var capR=rf?0:CAPD*C0*f*KT, back=rf?CAPD*C0*0.05:0;
+  var r0=lluviaDia(K0), r1=lluviaDia(K1), all=r0.concat(r1);
+  var S=0,rh=0,Ss=[],Cs=[],C0d=CI;
+  for(var h=0;h<48;h++){var r=all[h];if(r>0.05)rh++;var C=Math.min(0.9,CI+CS*Math.max(0,rh-1));S=Math.max(0,S+C*r+(r>0.05?back:0)-capR);Ss.push(S);Cs.push(C);}
+  function dia(i,desde){
+    var a=i*24, r=i?r1:r0, mx=0,at=-1,pk=0,ph=-1,cm=CI;
+    for(var h=desde;h<24;h++){if(Ss[a+h]>mx){mx=Ss[a+h];at=h;}if(r[h]>pk){pk=r[h];ph=h;}cm=Math.max(cm,Cs[a+h]);}
+    var tot=sum(r.slice(desde)), totD=sum(r);
+    var first=-1,last=-1;for(var k=desde;k<24;k++){if(r[k]>=0.3){if(first<0)first=k;last=k;}}
+    return {S:mx,cm:mx/10,at:at,pk:pk,ph:ph,C:cm,tot:tot,totD:totD,first:first,last:last,r:r,desde:desde};
+  }
+  return {b:b,sec:sec,capR:capR,f:f,KT:KT,rf:rf,back:back,d:[dia(0,stale?0:HNOW),dia(1,0)]};
+}
+function TH(){return state.tierra?[1,4,10]:[1,5,15];}
+function nivel(cm){var u=TH();return cm>=u[2]?3:cm>=u[1]?2:cm>=u[0]?1:0;}
+var TITS={p:['Sin anegamiento','Agua en la calle','Calle anegada','El agua puede entrar a las casas bajas'],t:['Sin anegamiento','Barro y charcos','Calle intransitable','El agua puede entrar a las casas bajas']};
+var CHIPS={p:['Sin anegamiento','Agua en la calle','Anegada','Riesgo en casas'],t:['Sin anegamiento','Barro','Intransitable','Riesgo en casas']};
+var TIT=TITS.p,CHIP=CHIPS.p;
+
+function proxima(fromDay,fromH){
+  for(var i=0;i<keys.length;i++){var k=keys[i];if(k<fromDay)continue;var r=lluviaDia(k);var st=(k===fromDay)?fromH:0;
+    for(var h=st;h<24;h++)if(r[h]>=0.3)return {k:k,h:h};}
+  return null;
+}
+function cuando(p){if(!p)return 'sin lluvia en los días pronosticados';var t=(p.k===K0&&!stale)?'hoy':(p.k===K1&&!stale)?'mañana':'el '+etiqueta(p.k);return t+(p.h===1?' desde la 1 h':' desde las '+p.h+' h');}
+
+function barras(d,i){
+  var W=360,TOP=16,BOT=84,HB=BOT-TOP,bw=(W-30)/24,X0=26,mx=Math.max(8,Math.ceil(Math.max.apply(null,d.r)/4)*4),g='';
+  var reg=(i===0&&!stale&&OBS&&OBS.dia===K0&&OBS.registros)?OBS.registros:{};
+  var lastMed=-1;Object.keys(reg).forEach(function(k){if(+k<=HNOW&&+k>lastMed)lastMed=+k;});
+  var xNow=X0+(i===0&&!stale?(HNOW+NOW.m/60):0)*bw;
+  g+='<defs><linearGradient id="gMed" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4fb0d1"/><stop offset="1" stop-color="#0c3f52"/></linearGradient><linearGradient id="gPrn" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#b8a9ec"/><stop offset="1" stop-color="#5a3fb0"/></linearGradient></defs>';
+  if(i===0&&!stale&&HNOW>0){g+='<rect x="'+X0+'" y="'+TOP+'" width="'+(xNow-X0).toFixed(1)+'" height="'+HB+'" fill="#1f6f8b" opacity=".08"/><text x="'+(X0+3)+'" y="'+(TOP+10)+'" font-size="8.5" font-weight="800" fill="#1f6f8b" font-family="Archivo,sans-serif" letter-spacing=".5">MEDIDO</text>';}
+  g+='<rect x="'+xNow.toFixed(1)+'" y="'+TOP+'" width="'+(X0+24*bw-xNow).toFixed(1)+'" height="'+HB+'" fill="#6b4fbb" opacity=".07"/><text x="'+(X0+24*bw-3)+'" y="'+(TOP+10)+'" text-anchor="end" font-size="8.5" font-weight="800" fill="#6b4fbb" font-family="Archivo,sans-serif" letter-spacing=".5">PRONÓSTICO</text>';
+  [0.5,1].forEach(function(f){var y=BOT-f*HB;g+='<line x1="'+X0+'" y1="'+y.toFixed(1)+'" x2="'+(X0+24*bw)+'" y2="'+y.toFixed(1)+'" stroke="var(--line)" stroke-dasharray="2 3"/><text x="'+(X0-3)+'" y="'+(y+3).toFixed(1)+'" text-anchor="end" font-size="8" fill="var(--soft)" font-family="Archivo,sans-serif">'+nf(mx*f)+'</text>';});
+  g+='<text x="'+(X0-3)+'" y="'+(BOT+3)+'" text-anchor="end" font-size="8" fill="var(--soft)" font-family="Archivo,sans-serif">0</text><text x="2" y="9" font-size="8" fill="var(--soft)" font-family="Archivo,sans-serif">mm/h</text>';
+  for(var h=0;h<24;h++){var v=d.r[h]||0,bh=v/mx*HB,med=(reg[h]!=null&&h<=HNOW);
+    var x=X0+h*bw+1.2;
+    g+='<rect x="'+x.toFixed(1)+'" y="'+(BOT-bh).toFixed(1)+'" width="'+(bw-2.4).toFixed(1)+'" height="'+Math.max(v>0?2:0,bh).toFixed(1)+'" rx="2" fill="url(#'+(med?'gMed':'gPrn')+')"/>';
+    if(v>=1)g+='<text x="'+(x+(bw-2.4)/2).toFixed(1)+'" y="'+(BOT-bh-3).toFixed(1)+'" text-anchor="middle" font-size="7.5" font-weight="700" fill="var(--ink)" font-family="Archivo,sans-serif">'+nf(v,v<10?1:0)+'</text>';}
+  g+='<line x1="'+X0+'" y1="'+(BOT+.5)+'" x2="'+(X0+24*bw)+'" y2="'+(BOT+.5)+'" stroke="var(--ink2)"/>';
+  for(var tt=0;tt<=24;tt+=3)g+='<text x="'+(X0+tt*bw).toFixed(1)+'" y="'+(BOT+13)+'" font-size="8.5" text-anchor="middle" fill="var(--soft)" font-family="Archivo,sans-serif">'+tt+'</text>';
+  g+='<text x="'+(X0+12*bw)+'" y="'+(BOT+24)+'" font-size="8" text-anchor="middle" fill="var(--soft)" font-family="Archivo,sans-serif">hora del día</text>';
+  if(i===0&&!stale)g+='<line x1="'+xNow.toFixed(1)+'" y1="'+(TOP-4)+'" x2="'+xNow.toFixed(1)+'" y2="'+(BOT+4)+'" stroke="var(--ink)" stroke-width="1.6"/><rect x="'+(xNow-17).toFixed(1)+'" y="1" width="34" height="12" rx="6" fill="var(--ink)"/><text x="'+xNow.toFixed(1)+'" y="10" text-anchor="middle" font-size="8" font-weight="800" fill="var(--card)" font-family="Archivo,sans-serif">AHORA</text>';
+  $('bars').innerHTML=g;
+  var fm=OBS&&OBS.ts?new Date(OBS.ts).toLocaleString('es-AR',{day:'2-digit',month:'2-digit',hour:'2-digit',minute:'2-digit',hour12:false,timeZone:'America/Argentina/Cordoba'}).replace(',',' a las')+' h':'sin datos';
+  $('bleg').innerHTML='<span><i style="background:linear-gradient(#4fb0d1,#0c3f52)"></i><b>Lluvia medida</b>, indicador compuesto: máximo horario de las estaciones ICAA y Corrientes 13805 del SNIH (no es la lluvia de toda la ciudad). Última actualización: '+fm+'</span><span><i style="background:linear-gradient(#b8a9ec,#5a3fb0)"></i><b>Pronóstico</b>, SMN, COE y modelos. Última actualización: '+String(D.actualizado||'').replace(/[<>&]/g,'')+'</span>';
+}
+
+
+var Y0=172,PX=3.4,XL=42,XR=352;
+function yc(cm){return Y0-cm*PX;}
+function drawScene(){
+  var T=state.tierra, g='', sg='', i;
+  g+='<defs><pattern id="ht" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" fill="var(--ground)"/><line x1="0" y1="0" x2="0" y2="6" stroke="var(--hatch)" stroke-width=".9"/></pattern>'
+   +'<pattern id="dt" width="7" height="7" patternUnits="userSpaceOnUse"><rect width="7" height="7" fill="var(--ground)"/><circle cx="2" cy="2" r=".9" fill="var(--hatch)"/><circle cx="5.5" cy="5" r=".7" fill="var(--hatch)"/></pattern>'
+   +'<clipPath id="cw"><rect x="'+XL+'" y="0" width="'+(XR-XL)+'" height="214"/></clipPath></defs>';
+  for(i=0;i<=30;i+=5){var y=yc(i);
+    g+='<line x1="'+XL+'" y1="'+y+'" x2="'+XR+'" y2="'+y+'" stroke="var(--line)" stroke-width=".6" opacity="'+(i?.7:0)+'"/>';
+    g+='<line x1="30" y1="'+y+'" x2="35" y2="'+y+'" stroke="var(--ink2)" stroke-width=".8"/>';
+    g+='<text x="27" y="'+(y+3)+'" text-anchor="end" font-size="8.5" fill="var(--ink2)">'+(i===30?'30 cm':i)+'</text>';}
+  g+='<line x1="35" y1="'+yc(30)+'" x2="35" y2="'+Y0+'" stroke="var(--ink2)" stroke-width=".8"/>';
+  $('sc').innerHTML=g;
+  var U=T?10:15, ref=T?4:5;
+  /* vivienda */
+  sg+='<rect x="56" y="'+(yc(U)-78)+'" width="78" height="78" fill="var(--card)" stroke="var(--ink2)" stroke-width="1"/>';
+  sg+='<rect x="98" y="'+(yc(U)-44)+'" width="18" height="44" fill="var(--bg)" stroke="var(--ink2)" stroke-width=".8"/>';
+  sg+='<text x="62" y="'+(yc(U)-66)+'" font-size="9" fill="var(--ink2)">Vivienda</text>';
+  if(!T){
+    sg+='<path d="M'+XL+' '+yc(15)+'H150V214H'+XL+'Z" fill="url(#ht)"/>';
+    sg+='<path d="M150 '+(Y0+7)+'H'+XR+'V214H150Z" fill="url(#dt)"/>';
+    sg+='<rect x="150" y="'+Y0+'" width="'+(XR-150)+'" height="7" fill="var(--street)"/>';
+    sg+='<path d="M'+XL+' '+yc(15)+'H150V'+Y0+'H'+XR+'" fill="none" stroke="var(--ink)" stroke-width="1.4"/>';
+    sg+='<text x="242" y="'+(Y0+18)+'" text-anchor="middle" font-size="8.5" fill="var(--ink2)">Calzada pavimentada</text>';
+    sg+='<text x="96" y="'+(yc(15)+14)+'" text-anchor="middle" font-size="8.5" fill="var(--ink2)">Vereda</text>';
+    sg+='<text x="154" y="'+(yc(15)+9)+'" font-size="8" fill="var(--ink2)">cordón</text>';
+  } else {
+    var d='M'+XL+' '+yc(10)+'H140L160 '+(Y0+24)+'L182 '+Y0+'Q230 '+(Y0-3)+' 266 '+Y0+'T'+XR+' '+Y0;
+    sg+='<path d="'+d+'V214H'+XL+'Z" fill="url(#dt)"/>';
+    sg+='<path d="'+d+'" fill="none" stroke="var(--ink)" stroke-width="1.4"/>';
+    sg+='<text x="262" y="'+(Y0+18)+'" text-anchor="middle" font-size="8.5" fill="var(--ink2)">Calle de tierra</text>';
+    sg+='<text x="161" y="'+(Y0+35)+'" text-anchor="middle" font-size="8.5" fill="var(--ink2)">cuneta</text>';
+    sg+='<text x="92" y="'+(yc(10)+14)+'" text-anchor="middle" font-size="8.5" fill="var(--ink2)">Terreno</text>';
+  }
+  sg+='<line x1="140" y1="'+yc(ref)+'" x2="'+XR+'" y2="'+yc(ref)+'" stroke="var(--ink2)" stroke-dasharray="4 3" stroke-width=".9"/>';
+  sg+='<text x="'+XR+'" y="'+(yc(ref)-3)+'" text-anchor="end" font-size="8.5" fill="var(--ink2)" class="halo">+'+ref+' cm, '+(T?'calle intransitable':'calle con agua')+'</text>';
+  sg+='<line x1="'+XL+'" y1="'+yc(U)+'" x2="'+XR+'" y2="'+yc(U)+'" stroke="var(--bad)" stroke-dasharray="4 3" stroke-width="1.1"/>';
+  sg+='<text x="'+XR+'" y="'+(yc(U)-3)+'" text-anchor="end" font-size="8.5" font-weight="700" fill="var(--bad)" class="halo">+'+U+' cm, umbral de vivienda</text>';
+  $('sg').innerHTML=sg;
+  $('wlg').innerHTML='<g clip-path="url(#cw)"><rect x="'+XL+'" y="'+Y0+'" width="'+(XR-XL)+'" height="140" fill="var(--water)" opacity=".55"/><line x1="'+XL+'" y1="'+Y0+'" x2="'+XR+'" y2="'+Y0+'" stroke="var(--water)" stroke-width="1.6"/></g>'
+   +'<path d="M186 '+(Y0-10)+'H198L192 '+(Y0-2)+'Z" fill="var(--card)" stroke="var(--water)" stroke-width="1.3"/>'
+   +'<text id="nat" x="203" y="'+(Y0-3)+'" font-size="9" font-weight="700" fill="var(--water)" class="halo">N.A.</text>';
+  /* la vivienda y el terreno quedan por encima del agua para que el agua solo se vea sobre el perfil */
+  $('scene').appendChild($('sg'));$('scene').appendChild($('wlab'));$('scene').appendChild($('wsub'));
+}
+function drawTapon(R){
+  var X0=46,X1=332,Yt=50,Yb=150,h0=3,h1=8.5;
+  function x(h){return X0+(h-h0)/(h1-h0)*(X1-X0);}
+  function y(p){return Yb-p/100*(Yb-Yt);}
+  var g='',H=state.H,sur=R.sec==='SUR',k=state.tierra?0.35:1;
+  var Z=[[h0,UMBRAL,'var(--okb)','var(--ok)',['Río bajo:','los desagües','funcionan normal']],
+         [UMBRAL,AHOGADO,'var(--w1b)','var(--w1)',['El río empieza','a tapar','las salidas']],
+         [AHOGADO,h1,'var(--badb)','var(--bad)',['Salidas bajo','el agua: casi','no desagota']]];
+  Z.forEach(function(z){var a=x(z[0]),b=x(z[1]),c=(a+b)/2;
+    g+='<rect x="'+a+'" y="'+Yt+'" width="'+(b-a)+'" height="'+(Yb-Yt)+'" fill="'+z[2]+'"/>';
+    g+='<rect x="'+a+'" y="2" width="'+(b-a-2)+'" height="40" rx="5" fill="'+z[2]+'"/>';
+    z[4].forEach(function(l,j){g+='<text x="'+c+'" y="'+(14+j*11)+'" text-anchor="middle" font-size="9" font-weight="'+(j?500:700)+'" fill="'+z[3]+'">'+l+'</text>';});});
+  [[100,'Normal'],[50,'La mitad'],[0,'Nada']].forEach(function(q){g+='<line x1="'+X0+'" y1="'+y(q[0])+'" x2="'+X1+'" y2="'+y(q[0])+'" stroke="var(--line)" stroke-width=".7"/><text x="'+(X0-5)+'" y="'+(y(q[0])+3)+'" text-anchor="end" font-size="8.5" fill="var(--ink2)">'+q[1]+'</text>';});
+  for(var m=3;m<=8;m++)g+='<text x="'+x(m)+'" y="'+(Yb+13)+'" text-anchor="middle" font-size="9" fill="var(--ink2)">'+m+' m</text>';
+  g+='<text x="'+((X0+X1)/2)+'" y="'+(Yb+26)+'" text-anchor="middle" font-size="9" fill="var(--ink2)">Altura del río Paraná en el puerto de Corrientes</text>';
+  function path(kk,fn){fn=fn||factor;var d='';for(var h=h0;h<=h1+0.001;h+=0.05){d+=(d?'L':'M')+x(h).toFixed(1)+' '+y(fn(h)*100*kk).toFixed(1);}return d;}
+  g+='<path d="'+path(1)+'" fill="none" stroke="var(--water)" stroke-width="3" stroke-linejoin="round" opacity="'+(state.tierra||sur?.45:1)+'"/>';
+  if(sur)g+='<path d="'+path(k,fsur)+'" fill="none" stroke="var(--w2)" stroke-width="3" stroke-dasharray="'+(state.tierra?'6 3':'none')+'" stroke-linejoin="round"/>';
+  $('tapLeg').innerHTML=sur?'<span><i style="border-top:3px solid var(--water);opacity:.5"></i>Barrios que descargan al Paraná</span><span><i style="border-top:3px '+(state.tierra?'dashed':'solid')+' var(--w2)"></i>Zona sur'+(state.tierra?', calle de tierra':'')+', por remanso del Riachuelo</span>':'';
+  if(state.tierra&&!sur)g+='<path d="'+path(0.35)+'" fill="none" stroke="var(--earth)" stroke-width="3" stroke-dasharray="6 3"/><text x="'+x(3.15)+'" y="'+(y(35)-6)+'" font-size="9" fill="var(--earth)" font-weight="700">su calle de tierra</text><text x="'+x(3.15)+'" y="'+(y(100)+12)+'" font-size="9" fill="var(--water)" font-weight="700" opacity=".7">calle pavimentada</text>';
+  var Hc=Math.min(h1,Math.max(h0,H)), pc=R.rf?0:(sur?fsur(H)*100*k:factor(H)*100*k), xc=x(Hc), yv=y(pc);
+  g+='<line x1="'+xc+'" y1="'+Yt+'" x2="'+xc+'" y2="'+Yb+'" stroke="var(--ink)" stroke-width="1.2" stroke-dasharray="3 2"/>';
+  g+='<circle cx="'+xc+'" cy="'+yv+'" r="6" fill="var(--ink)" stroke="var(--card)" stroke-width="2.5"/>';
+  var left=xc>X0+(X1-X0)*0.5, ly=Math.min(Yb-30,Math.max(Yt+16,yv-14));
+  g+='<g style="paint-order:stroke;stroke:var(--card);stroke-width:3.5px;stroke-linejoin:round"><text x="'+(left?xc-9:xc+9)+'" y="'+ly+'" text-anchor="'+(left?'end':'start')+'" font-size="11.5" font-weight="800" fill="var(--ink)">HOY</text>'
+   +'<text x="'+(left?xc-9:xc+9)+'" y="'+(ly+12)+'" text-anchor="'+(left?'end':'start')+'" font-size="9.5" font-weight="600" fill="var(--ink)">río en '+nf(H,2)+' m</text></g>';
+  $('tap').innerHTML=g;
+  /* pictograma: 20 gotas, cada una 5 % */
+  var n=Math.round(pc/5), ic='';
+  for(var q=0;q<20;q++){var on=q<n||(q===0&&pc>0&&n===0);ic+='<svg width="14" height="18" viewBox="0 0 14 18" aria-hidden="true"><path d="M7 1C7 1 1.5 8 1.5 11.5a5.5 5.5 0 0 0 11 0C12.5 8 7 1 7 1Z" fill="'+(on?'var(--water)':'none')+'" stroke="var(--water)" stroke-width="1.3" opacity="'+(on?1:.45)+'"/></svg>';}
+  $('pict').innerHTML=ic;
+  var lit=Math.round(pc);
+  $('tapS').innerHTML=R.rf?'Con reflujo, los desagües <b>no sacan agua</b>: el río entra por los conductos.'
+   :sur?'Esta zona desagua al Riachuelo y al Pirayuí, que desembocan en el Paraná. Con el Paraná en '+nf(H,2)+' m, el Riachuelo sube por remanso y frena la salida: de cada <b>100 litros</b> que '+(state.tierra?'una red pluvial':'los desagües')+' podría'+(state.tierra?'':'n')+' sacar con el río bajo, '+(state.tierra?'por las cunetas de su calle ':'hoy ')+'salen unos <b>'+lit+'</b>.'
+   :'Con el río en '+nf(H,2)+' m, de cada <b>100 litros</b> de lluvia que '+(state.tierra?'una red pluvial':'los desagües')+' podría'+(state.tierra?'':'n')+' sacar con el río bajo, '+(state.tierra?'por las cunetas de su calle ':'hoy ')+'salen solo <b>'+lit+'</b>. El resto queda en la calle.';
+  $('dN').hidden=true;
+}
+function render(){
+  TIT=state.tierra?TITS.t:TITS.p; CHIP=state.tierra?CHIPS.t:CHIPS.p; var LIM=TH()[2]*10, LIMT=state.tierra?'llegue al umbral de las viviendas':'supere el cordón';
+  var R=simular(), i=state.day, d=R.d[i];
+  [0,1].forEach(function(j){var x=R.d[j],n=nivel(x.cm);
+    $('tab'+j).setAttribute('aria-selected',j===i?'true':'false');
+    $('ts'+j).textContent=(x.totD<0.3?'sin lluvia':nf(x.totD)+' mm')+(D.alertas[j?K1:K0]?', alerta':'');
+    var c=$('tc'+j);c.className='chip l'+n;c.textContent=CHIP[n];});
+  var n=nivel(d.cm), cm=d.cm;
+  $('wl').style.transform='translateY('+(-Math.min(cm,30)*PX)+'px)'; $('wl').style.opacity=cm<0.3?0:1;
+  var na=$('nat'); na.textContent='N.A. +'+nf(cm,1)+' cm';
+  if(cm>=5){na.setAttribute('y',Y0+12);na.setAttribute('fill','#fff');na.setAttribute('class','');}else{na.setAttribute('y',Y0-3);na.setAttribute('fill','var(--water)');na.setAttribute('class','halo');}
+  $('wlab').textContent=(cm<0.5?'0':nf(cm,cm<10?1:0))+' cm';
+  $('vt').className='t c'+n; $('vt').textContent=TIT[n];
+
+  var bn=R.b[0], vd='', vf='';
+  if(d.tot<1){
+    vd=(i===0&&!stale?'Por el resto del día no se pronostica lluvia significativa':'No se pronostica lluvia significativa')+' para '+bn+'. ';
+    vd+='Próxima lluvia: <b>'+cuando(proxima(i?K1:K0,i?0:(stale?0:HNOW)))+'</b>.';
+  } else {
+    vd='Se esperan <b>'+nf(d.tot)+' mm</b>'+(i===0&&!stale?' desde ahora':'')+', entre las '+d.first+' y las '+(d.last+1)+' h, con un pico de '+nf(d.pk,1)+' mm por hora a las '+d.ph+' h. ';
+    vd+= n===0?(cm>=0.3?'Quedaría menos de 1 cm, que el desagüe alcanza a evacuar.':'El desagüe alcanza a sacarla.'):'Con este pronóstico quedarían unos <b>'+nf(cm,1)+' cm</b> de agua en '+bn+(d.at>=0?' hacia las '+d.at+' h':'')+'.';
+    if(n<3){var falta=(LIM-d.S)/d.C; vf='Para que el agua '+LIMT+' tendrían que caer unos <b>'+nf(Math.max(5,falta))+' mm más</b> de lo pronosticado.';
+      var net=d.C*d.pk+R.back-R.capR; if(net>0&&d.pk>=2) {var hh=(LIM-d.S)/net; vf+=' Si la lluvia se sostuviera al ritmo de su pico, llegaría '+(hh<1.5?'en alrededor de una hora.':'en unas '+nf(hh)+' horas.');}}
+    else vf='El agua superaría '+(state.tierra?'el umbral de las viviendas':'el cordón')+' por unos <b>'+nf(cm-TH()[2],1)+' cm</b>. En las partes bajas, más.';
+  if(state.tierra&&d.tot>=0.3) vf+=' Calle de tierra: sin conductos pluviales, el agua sale solo por cunetas y zanjas, y el barro la vuelve intransitable con menos agua.';
+  }
+  if(R.sec==='SUR'&&state.H>UMBRAL) vf+=(vf?' ':'')+'Zona sur: el Paraná la afecta en forma indirecta, por remanso del Riachuelo. Se aplica la mitad del efecto tapón como supuesto, porque el Riachuelo no tiene cota de alerta publicada.';
+  if(R.rf&&d.tot>=0.3) vf+=' Incluye la hipótesis de reflujo: sin salida al río y con ingreso de agua por los conductos mientras llueve.';
+  $('vd').innerHTML=vd; $('vf').innerHTML=vf;
+
+  barras(d,i);
+  var tl=d.r.reduce(function(s,x){return s+x;},0);
+  var regHoy=(i===0&&OBS&&OBS.dia===K0&&OBS.registros)?Object.keys(OBS.registros).length:0, frs=obsActiva();
+  var origen=i===1?' Mañana: estimado por pronóstico.':(regHoy?' Horas pasadas: registro de la estación ICAA (SNIH). '+(frs?'Próximas horas: pronóstico.':'El registro no está actualizado: desde la última hora con dato, se estima por pronóstico.'):' Sin registro de la estación: todo el día se estima por pronóstico.');
+  (function(){var cp=(D.comparacion||{})[i?K1:K0],h='';
+    if(cp){var ms=(cp.modelos||[]).filter(function(x){return x.mm!=null;}),vals=ms.map(function(x){return +x.mm;}),mn=Math.min.apply(null,vals),mx=Math.max.apply(null,vals);
+      h+='<b>1. Servicio Meteorológico Nacional (oficial):</b> '+(cp.smn&&cp.smn.texto?cp.smn.texto:'sin pronóstico específico cargado')+(cp.smn&&cp.smn.mm?' Acumulado previsto: '+cp.smn.mm[0]+' a '+cp.smn.mm[1]+' mm.':'')+'<br>';
+      h+='<b>2. Modelos:</b> '+ms.map(function(x){return x.n+', '+nf(x.mm,1)+' mm';}).join('; ')+'.<br>';
+      if(ms.length>1&&mx-mn>=5&&mx>=2*Math.max(mn,0.1))h+='<span class="dif">Los modelos difieren: entre '+nf(mn,1)+' y '+nf(mx,1)+' mm.</span><br>';
+      if(cp.usado!=null)h+='<b>Se calcula con '+nf(cp.usado,1)+' mm.</b> '+(cp.criterio||'');}
+    $('cmp').innerHTML=h; $('cmp').style.display=h?'':'none';})();
+  $('rcap').textContent=(tl<0.3?'Sin lluvia en el día.':'Lluvia del día, '+nf(tl)+' mm en total.')+origen+(D.alertas[i?K1:K0]&&D.alertas[i?K1:K0].max&&state.scen!=='modelo'?' La franja amarilla marca la alerta oficial.':'');
+
+  var al=D.alertas[i?K1:K0];
+  if(al){$('alert').hidden=false;$('alertTxt').innerHTML='<b>Aviso del SMN: alerta '+al.nivel+' para toda la provincia</b>'+al.texto;}
+  else $('alert').hidden=true;
+
+  var H=state.H;
+  $('rH').textContent=nf(H,2)+' m';
+  $('rT').textContent=(R.sec==='SUR'?'En la zona sur el efecto llega atenuado, por el Riachuelo. ':'')+(H>=AHOGADO?'Río Paraná por encima de '+nf(AHOGADO,2)+' m: los desagües al río casi no descargan.':H>UMBRAL?'Río Paraná sobre '+nf(UMBRAL,0)+' m: los desagües descargan con dificultad.':'Río Paraná por debajo de 5 m: los desagües descargan normalmente.')+' Prefectura, '+D.rio.actualizado+'.';
+
+  var pct=R.rf?0:Math.round(R.f*R.KT*100);
+  $('dP').textContent=(R.rf?'0 %, con reflujo':pct+' % de lo normal');
+  var dB=$('dB'); dB.style.width=pct+'%'; dB.className=pct>=60?'g':pct>=25?'y':'r';
+  $('dN').textContent=R.sec==='SUR'?(state.tierra?'Sin conductos, las cunetas sacan alrededor de un tercio de lo que saca la red. ':'')+'Esta zona no descarga al Paraná, así que no se aplica la corrección por la altura del río.'
+    :R.rf?'Hipótesis de reflujo: el río no solo tapa la salida, también ingresa por los conductos mientras llueve, a razón de unos '+nf(R.back,1)+' mm por hora.'
+    :(state.tierra?'Sin conductos, las cunetas sacan alrededor de un tercio de lo que saca la red. ':'')+(R.f<1?'Efecto tapón: de los '+nf(CAPD*C0)+' mm por hora que la red podría sacar con el río bajo, hoy salen unos '+nf(R.capR,1)+'.':'El río no limita la salida.');
+  drawTapon(R);
+  $('rfW').hidden=!(R.sec==='RIB'&&state.H>=AHOGADO);
+  $('rf').checked=state.rf;
+  var k=i?K1:K0, o=state.ov[k], tot=sum(lluviaDia(k));
+  $('mm').value=Math.round(tot); $('mmV').textContent=nf(tot)+' mm';
+  var hs=o&&o.hs?o.hs:Math.max(1,d.last>=0?d.last-d.first+1:6); $('hs').value=hs; $('hsV').textContent=hs+' h'+(o&&o.hs?'':', según pronóstico');
+  $('rv').value=H; $('rvV').textContent=nf(H,2)+' m';
+}
+
+$('barrio').addEventListener('change',function(){try{localStorage.setItem('barrio-sim',this.value);}catch(e){}render();});
+[0,1].forEach(function(j){$('tab'+j).addEventListener('click',function(){state.day=j;render();});});
+Array.prototype.forEach.call(document.querySelectorAll('#scen button'),function(b){b.addEventListener('click',function(){state.scen=b.dataset.v;state.ov={};
+  Array.prototype.forEach.call(document.querySelectorAll('#scen button'),function(x){x.setAttribute('aria-pressed',x===b?'true':'false');});render();});});
+$('mm').addEventListener('input',function(){var k=state.day?K1:K0,o=state.ov[k]||{};o.mm=+this.value;state.ov[k]=o;render();});
+$('hs').addEventListener('input',function(){var k=state.day?K1:K0,o=state.ov[k]||{mm:sum(lluviaDia(k))};o.hs=+this.value;state.ov[k]=o;render();});
+$('rv').addEventListener('input',function(){state.H=+this.value;render();});
+$('rf').addEventListener('change',function(){state.rf=this.checked;render();});
+function setCalz(){state.tierra=$('tierra').checked;try{localStorage.setItem('tierra-sim',state.tierra?'1':'0');}catch(e){}drawScene();render();}
+$('tierra').addEventListener('change',setCalz);
+$('pav').addEventListener('change',setCalz);
+$('reset').addEventListener('click',function(){state.ov={};state.H=+D.rio.altura;state.rf=false;render();});
+
+(function(){
+  var u=$('upd'), m=/(\d{1,2})\/(\d{1,2})\/(\d{4}).*?(\d{1,2}):(\d{2})/.exec(D.actualizado||''), age=null, cuando=D.actualizado;
+  if(m){var t=Date.UTC(+m[3],+m[2]-1,+m[1],+m[4]+3,+m[5]); age=(Date.now()-t)/3600000; cuando='el '+(+m[1])+'/'+(+m[2])+' a las '+m[4]+':'+m[5]+' h';}
+  var hace=age===null||age<1?'':age<24?' (hace '+Math.round(age)+(Math.round(age)===1?' hora)':' horas)'):' (hace '+Math.round(age/24)+(Math.round(age/24)===1?' día)':' días)');
+  var vieja=age!==null&&age>=12;
+  u.className='upd'+(vieja?' old':'');
+  u.innerHTML='<span>Pronóstico y altura del río actualizados <b>'+cuando+'</b>'+hace+(vieja?'. Puede haber datos más recientes.':'.')+'<small>Río: medición de Prefectura del '+D.rio.actualizado.replace('/2026','')+'.</small>'+(function(){if(!OBS||!OBS.ts)return '<small>Lluvia registrada (SNIH): sin datos cargados.</small>';var d=new Date(OBS.ts),f=d.toLocaleString('es-AR',{day:'2-digit',month:'2-digit',hour:'2-digit',minute:'2-digit',hour12:false,timeZone:'America/Argentina/Cordoba'});return '<small><b style="color:#fff">Lluvia registrada (SNIH, estaciones de la Capital): actualizada el '+f.replace(',',' a las')+' h</b>. Las estaciones se consultan en forma periódica.</small>';})()+'</span>';
+})();
+$('src').innerHTML='<details class="fts"><summary>Fuentes consultadas</summary><p class="fnote">Datos precargados el '+D.actualizado+'. Prioridad: primero el dato oficial; los modelos solo distribuyen la lluvia por hora.</p>'+D.fuentes.map(function(g){return '<div class="fg"><b>'+g.g+'</b><ul>'+g.l.map(function(f){return '<li><a href="'+f[1]+'" target="_blank" rel="noopener">'+f[0]+'</a></li>';}).join('')+'</ul></div>';}).join('')+'</details>';
+drawScene();
+render();
+})();
+</script>
+</body>
+</html>
+
+</body></html>

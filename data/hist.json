@@ -1,0 +1,1257 @@
+{
+ "repositorio": "Google Drive, carpeta Tablero_Ciudadano_Hidrologico",
+ "manifiesto": {
+  "id": "1DJYutnTXdxRVwpZ5Xpcix9OsaXaXksby",
+  "nombre": "manifiesto_hidrologico_20261103_145314.json",
+  "corrida": "20261103_145314",
+  "fecha_validacion": "03/11/2026, 14:54 h",
+  "sha256": "6 de 6 coinciden"
+ },
+ "actualizado": "03/11/2026, 19:55 h",
+ "series": [
+  {
+   "rio": "Paraná",
+   "puerto": "Ituzaingó",
+   "alerta": 3.5,
+   "evacuacion": 4.0,
+   "fuente": "Prefectura Naval Argentina vía INA-SIyAH",
+   "url": "https://alerta.ina.gov.ar/",
+   "lecturas": [
+    [
+     "2026-11-01T00:00:00",
+     3.85,
+     "verificado"
+    ],
+    [
+     "2026-11-03",
+     3.73,
+     "pendiente"
+    ]
+   ]
+  },
+  {
+   "rio": "Paraná",
+   "puerto": "Itá Ibaté",
+   "alerta": 7.0,
+   "evacuacion": 7.5,
+   "fuente": "Prefectura Naval Argentina vía INA-SIyAH",
+   "url": "https://alerta.ina.gov.ar/",
+   "lecturas": [
+    [
+     "2026-11-01T00:00:00",
+     6.1,
+     "verificado"
+    ],
+    [
+     "2026-11-03",
+     6.0,
+     "pendiente"
+    ]
+   ]
+  },
+  {
+   "rio": "Paraná",
+   "puerto": "Itatí",
+   "alerta": 6.8,
+   "evacuacion": 7.5,
+   "fuente": "CIM/UNL",
+   "url": "https://cim.fich.unl.edu.ar/rios/22/historico",
+   "lecturas": [
+    [
+     "2026-10-01T01:20:00",
+     4.72,
+     "verificado"
+    ],
+    [
+     "2026-10-02T06:05:00",
+     4.5,
+     "verificado"
+    ],
+    [
+     "2026-10-03T06:59:00",
+     4.55,
+     "verificado"
+    ],
+    [
+     "2026-10-04T09:22:00",
+     4.62,
+     "verificado"
+    ],
+    [
+     "2026-10-05T05:55:00",
+     4.86,
+     "verificado"
+    ],
+    [
+     "2026-10-06T05:40:00",
+     5.0,
+     "verificado"
+    ],
+    [
+     "2026-10-07T05:40:00",
+     5.08,
+     "verificado"
+    ],
+    [
+     "2026-10-08T05:40:00",
+     5.29,
+     "verificado"
+    ],
+    [
+     "2026-10-09T05:55:00",
+     5.52,
+     "verificado"
+    ],
+    [
+     "2026-10-10T08:42:00",
+     5.68,
+     "verificado"
+    ],
+    [
+     "2026-10-11T08:05:00",
+     5.76,
+     "verificado"
+    ],
+    [
+     "2026-10-12T08:40:00",
+     5.86,
+     "verificado"
+    ],
+    [
+     "2026-10-13T05:55:00",
+     5.98,
+     "verificado"
+    ],
+    [
+     "2026-10-14T06:00:00",
+     6.28,
+     "verificado"
+    ],
+    [
+     "2026-10-15T05:52:00",
+     6.68,
+     "verificado"
+    ],
+    [
+     "2026-10-16T05:51:00",
+     7.25,
+     "verificado"
+    ],
+    [
+     "2026-10-17T08:44:00",
+     7.74,
+     "verificado"
+    ],
+    [
+     "2026-10-18T08:34:00",
+     7.93,
+     "verificado"
+    ],
+    [
+     "2026-10-19T06:08:00",
+     8.17,
+     "verificado"
+    ],
+    [
+     "2026-10-20T06:03:00",
+     8.26,
+     "verificado"
+    ],
+    [
+     "2026-10-21T05:58:00",
+     8.28,
+     "verificado"
+    ],
+    [
+     "2026-10-22T06:02:00",
+     8.28,
+     "verificado"
+    ],
+    [
+     "2026-10-23T05:55:00",
+     8.3,
+     "verificado"
+    ],
+    [
+     "2026-10-24T08:30:00",
+     8.17,
+     "verificado"
+    ],
+    [
+     "2026-10-25T08:14:00",
+     8.17,
+     "verificado"
+    ],
+    [
+     "2026-10-26T05:55:00",
+     8.19,
+     "verificado"
+    ],
+    [
+     "2026-10-27T05:53:00",
+     8.21,
+     "verificado"
+    ],
+    [
+     "2026-10-28T06:00:00",
+     8.2,
+     "verificado"
+    ],
+    [
+     "2026-10-29T06:02:00",
+     8.15,
+     "verificado"
+    ],
+    [
+     "2026-10-30T06:00:00",
+     7.99,
+     "verificado"
+    ],
+    [
+     "2026-10-31T07:47:00",
+     7.8,
+     "verificado"
+    ],
+    [
+     "2026-11-01T00:00:00",
+     7.63,
+     "verificado"
+    ],
+    [
+     "2026-11-03",
+     7.55,
+     "pendiente"
+    ]
+   ]
+  },
+  {
+   "rio": "Paraná",
+   "puerto": "Paso de la Patria",
+   "alerta": 6.5,
+   "evacuacion": 7.0,
+   "fuente": "CIM/UNL",
+   "url": "https://cim.fich.unl.edu.ar/rios/23/historico",
+   "lecturas": [
+    [
+     "2026-10-01T01:20:00",
+     4.3,
+     "verificado"
+    ],
+    [
+     "2026-10-02T06:05:00",
+     4.18,
+     "verificado"
+    ],
+    [
+     "2026-10-03T06:59:00",
+     4.14,
+     "verificado"
+    ],
+    [
+     "2026-10-04T09:22:00",
+     4.14,
+     "verificado"
+    ],
+    [
+     "2026-10-05T05:55:00",
+     4.22,
+     "verificado"
+    ],
+    [
+     "2026-10-06T05:40:00",
+     4.24,
+     "verificado"
+    ],
+    [
+     "2026-10-07T05:40:00",
+     4.56,
+     "verificado"
+    ],
+    [
+     "2026-10-08T05:40:00",
+     4.72,
+     "verificado"
+    ],
+    [
+     "2026-10-09T05:55:00",
+     4.97,
+     "verificado"
+    ],
+    [
+     "2026-10-10T08:42:00",
+     5.1,
+     "verificado"
+    ],
+    [
+     "2026-10-11T08:05:00",
+     5.24,
+     "verificado"
+    ],
+    [
+     "2026-10-12T08:40:00",
+     5.36,
+     "verificado"
+    ],
+    [
+     "2026-10-13T05:55:00",
+     5.46,
+     "verificado"
+    ],
+    [
+     "2026-10-14T06:00:00",
+     5.69,
+     "verificado"
+    ],
+    [
+     "2026-10-15T05:52:00",
+     5.92,
+     "verificado"
+    ],
+    [
+     "2026-10-16T05:51:00",
+     6.5,
+     "verificado"
+    ],
+    [
+     "2026-10-17T08:44:00",
+     7.04,
+     "verificado"
+    ],
+    [
+     "2026-10-18T08:34:00",
+     7.28,
+     "verificado"
+    ],
+    [
+     "2026-10-19T06:08:00",
+     7.43,
+     "verificado"
+    ],
+    [
+     "2026-10-20T06:03:00",
+     7.62,
+     "verificado"
+    ],
+    [
+     "2026-10-21T05:58:00",
+     7.7,
+     "verificado"
+    ],
+    [
+     "2026-10-22T06:02:00",
+     7.77,
+     "verificado"
+    ],
+    [
+     "2026-10-23T05:55:00",
+     7.78,
+     "verificado"
+    ],
+    [
+     "2026-10-24T08:30:00",
+     7.73,
+     "verificado"
+    ],
+    [
+     "2026-10-25T08:14:00",
+     7.7,
+     "verificado"
+    ],
+    [
+     "2026-10-26T05:55:00",
+     7.7,
+     "verificado"
+    ],
+    [
+     "2026-10-27T05:53:00",
+     7.74,
+     "verificado"
+    ],
+    [
+     "2026-10-28T06:00:00",
+     7.74,
+     "verificado"
+    ],
+    [
+     "2026-10-29T06:02:00",
+     7.74,
+     "verificado"
+    ],
+    [
+     "2026-10-30T06:00:00",
+     7.64,
+     "verificado"
+    ],
+    [
+     "2026-10-31T07:47:00",
+     7.51,
+     "verificado"
+    ],
+    [
+     "2026-11-01T00:00:00",
+     7.38,
+     "verificado"
+    ],
+    [
+     "2026-11-03",
+     7.3,
+     "pendiente"
+    ]
+   ]
+  },
+  {
+   "rio": "Paraná",
+   "puerto": "Corrientes",
+   "alerta": 6.5,
+   "evacuacion": 7.0,
+   "fuente": "CIM/UNL",
+   "url": "https://cim.fich.unl.edu.ar/rios/24/historico",
+   "lecturas": [
+    [
+     "2026-10-01T01:20:00",
+     4.2,
+     "verificado"
+    ],
+    [
+     "2026-10-02T06:05:00",
+     4.1,
+     "verificado"
+    ],
+    [
+     "2026-10-03T06:59:00",
+     4.02,
+     "verificado"
+    ],
+    [
+     "2026-10-04T09:22:00",
+     4.09,
+     "verificado"
+    ],
+    [
+     "2026-10-05T05:55:00",
+     4.19,
+     "verificado"
+    ],
+    [
+     "2026-10-06T05:40:00",
+     4.32,
+     "verificado"
+    ],
+    [
+     "2026-10-07T05:40:00",
+     4.41,
+     "verificado"
+    ],
+    [
+     "2026-10-08T05:40:00",
+     4.51,
+     "verificado"
+    ],
+    [
+     "2026-10-09T05:55:00",
+     4.75,
+     "verificado"
+    ],
+    [
+     "2026-10-10T08:42:00",
+     4.92,
+     "verificado"
+    ],
+    [
+     "2026-10-11T08:05:00",
+     4.99,
+     "verificado"
+    ],
+    [
+     "2026-10-12T08:40:00",
+     4.99,
+     "verificado"
+    ],
+    [
+     "2026-10-13T05:55:00",
+     5.32,
+     "verificado"
+    ],
+    [
+     "2026-10-14T06:00:00",
+     5.48,
+     "verificado"
+    ],
+    [
+     "2026-10-15T05:52:00",
+     5.69,
+     "verificado"
+    ],
+    [
+     "2026-10-16T05:51:00",
+     6.1,
+     "verificado"
+    ],
+    [
+     "2026-10-17T08:44:00",
+     6.62,
+     "verificado"
+    ],
+    [
+     "2026-10-18T08:34:00",
+     6.85,
+     "verificado"
+    ],
+    [
+     "2026-10-19T06:08:00",
+     7.07,
+     "verificado"
+    ],
+    [
+     "2026-10-20T06:03:00",
+     7.21,
+     "verificado"
+    ],
+    [
+     "2026-10-21T05:58:00",
+     7.34,
+     "verificado"
+    ],
+    [
+     "2026-10-22T06:02:00",
+     7.38,
+     "verificado"
+    ],
+    [
+     "2026-10-23T05:55:00",
+     7.44,
+     "verificado"
+    ],
+    [
+     "2026-10-24T08:30:00",
+     7.39,
+     "verificado"
+    ],
+    [
+     "2026-10-25T08:14:00",
+     7.36,
+     "verificado"
+    ],
+    [
+     "2026-10-26T05:55:00",
+     7.35,
+     "verificado"
+    ],
+    [
+     "2026-10-27T05:53:00",
+     7.35,
+     "verificado"
+    ],
+    [
+     "2026-10-28T06:00:00",
+     7.39,
+     "verificado"
+    ],
+    [
+     "2026-10-29T06:02:00",
+     7.38,
+     "verificado"
+    ],
+    [
+     "2026-10-30T06:00:00",
+     7.33,
+     "verificado"
+    ],
+    [
+     "2026-10-31T07:47:00",
+     7.24,
+     "verificado"
+    ],
+    [
+     "2026-11-01T00:00:00",
+     7.16,
+     "verificado"
+    ],
+    [
+     "2026-11-02T06:00:00",
+     7.13,
+     "verificado"
+    ],
+    [
+     "2026-11-03",
+     7.08,
+     "pendiente"
+    ]
+   ]
+  },
+  {
+   "rio": "Paraná",
+   "puerto": "Empedrado",
+   "alerta": 6.5,
+   "evacuacion": 6.7,
+   "fuente": "Prefectura Naval Argentina vía INA-SIyAH",
+   "url": "https://alerta.ina.gov.ar/",
+   "lecturas": [
+    [
+     "2026-11-01T00:00:00",
+     6.2,
+     "verificado"
+    ],
+    [
+     "2026-11-03",
+     6.09,
+     "pendiente"
+    ]
+   ]
+  },
+  {
+   "rio": "Paraná",
+   "puerto": "Bella Vista",
+   "alerta": 6.0,
+   "evacuacion": 6.4,
+   "fuente": "CIM/UNL",
+   "url": "https://cim.fich.unl.edu.ar/rios/27/historico",
+   "lecturas": [
+    [
+     "2026-10-01T01:20:00",
+     4.41,
+     "verificado"
+    ],
+    [
+     "2026-10-02T06:05:00",
+     4.34,
+     "verificado"
+    ],
+    [
+     "2026-10-03T06:59:00",
+     4.26,
+     "verificado"
+    ],
+    [
+     "2026-10-04T09:22:00",
+     4.25,
+     "verificado"
+    ],
+    [
+     "2026-10-05T05:55:00",
+     4.25,
+     "verificado"
+    ],
+    [
+     "2026-10-06T05:40:00",
+     4.25,
+     "verificado"
+    ],
+    [
+     "2026-10-07T05:40:00",
+     4.32,
+     "verificado"
+    ],
+    [
+     "2026-10-08T05:40:00",
+     4.4,
+     "verificado"
+    ],
+    [
+     "2026-10-09T05:55:00",
+     4.59,
+     "verificado"
+    ],
+    [
+     "2026-10-10T08:42:00",
+     4.73,
+     "verificado"
+    ],
+    [
+     "2026-10-11T08:05:00",
+     4.83,
+     "verificado"
+    ],
+    [
+     "2026-10-12T08:40:00",
+     4.96,
+     "verificado"
+    ],
+    [
+     "2026-10-13T05:55:00",
+     5.04,
+     "verificado"
+    ],
+    [
+     "2026-10-14T06:00:00",
+     5.11,
+     "verificado"
+    ],
+    [
+     "2026-10-15T05:52:00",
+     5.22,
+     "verificado"
+    ],
+    [
+     "2026-10-16T05:51:00",
+     5.42,
+     "verificado"
+    ],
+    [
+     "2026-10-17T08:44:00",
+     5.56,
+     "verificado"
+    ],
+    [
+     "2026-10-18T08:34:00",
+     5.78,
+     "verificado"
+    ],
+    [
+     "2026-10-19T06:08:00",
+     6.09,
+     "verificado"
+    ],
+    [
+     "2026-10-20T06:03:00",
+     6.19,
+     "verificado"
+    ],
+    [
+     "2026-10-21T05:58:00",
+     6.25,
+     "verificado"
+    ],
+    [
+     "2026-10-22T06:02:00",
+     6.28,
+     "verificado"
+    ],
+    [
+     "2026-10-23T05:55:00",
+     6.28,
+     "verificado"
+    ],
+    [
+     "2026-10-24T08:30:00",
+     6.34,
+     "verificado"
+    ],
+    [
+     "2026-10-25T08:14:00",
+     6.34,
+     "verificado"
+    ],
+    [
+     "2026-10-26T05:55:00",
+     6.36,
+     "verificado"
+    ],
+    [
+     "2026-10-27T05:53:00",
+     6.36,
+     "verificado"
+    ],
+    [
+     "2026-10-28T06:00:00",
+     6.43,
+     "verificado"
+    ],
+    [
+     "2026-10-29T06:02:00",
+     6.45,
+     "verificado"
+    ],
+    [
+     "2026-10-30T06:00:00",
+     6.45,
+     "verificado"
+    ],
+    [
+     "2026-10-31T07:47:00",
+     6.49,
+     "verificado"
+    ],
+    [
+     "2026-11-01T07:27:00",
+     6.53,
+     "verificado"
+    ],
+    [
+     "2026-11-03",
+     6.46,
+     "pendiente"
+    ]
+   ]
+  },
+  {
+   "rio": "Paraná",
+   "puerto": "Goya",
+   "alerta": 5.2,
+   "evacuacion": 5.7,
+   "fuente": "CIM/UNL",
+   "url": "https://cim.fich.unl.edu.ar/rios/28/historico",
+   "lecturas": [
+    [
+     "2026-10-01T01:20:00",
+     4.18,
+     "verificado"
+    ],
+    [
+     "2026-10-02T06:05:00",
+     4.12,
+     "verificado"
+    ],
+    [
+     "2026-10-03T06:59:00",
+     4.1,
+     "verificado"
+    ],
+    [
+     "2026-10-04T09:22:00",
+     4.08,
+     "verificado"
+    ],
+    [
+     "2026-10-05T05:55:00",
+     4.04,
+     "verificado"
+    ],
+    [
+     "2026-10-06T05:40:00",
+     4.03,
+     "verificado"
+    ],
+    [
+     "2026-10-07T05:40:00",
+     4.11,
+     "verificado"
+    ],
+    [
+     "2026-10-08T05:40:00",
+     4.14,
+     "verificado"
+    ],
+    [
+     "2026-10-09T05:55:00",
+     4.28,
+     "verificado"
+    ],
+    [
+     "2026-10-10T08:42:00",
+     4.38,
+     "verificado"
+    ],
+    [
+     "2026-10-11T08:05:00",
+     4.48,
+     "verificado"
+    ],
+    [
+     "2026-10-12T08:40:00",
+     4.59,
+     "verificado"
+    ],
+    [
+     "2026-10-13T05:55:00",
+     4.62,
+     "verificado"
+    ],
+    [
+     "2026-10-14T06:00:00",
+     4.78,
+     "verificado"
+    ],
+    [
+     "2026-10-15T05:52:00",
+     4.86,
+     "verificado"
+    ],
+    [
+     "2026-10-16T05:51:00",
+     4.95,
+     "verificado"
+    ],
+    [
+     "2026-10-17T08:44:00",
+     5.08,
+     "verificado"
+    ],
+    [
+     "2026-10-18T08:34:00",
+     5.24,
+     "verificado"
+    ],
+    [
+     "2026-10-19T06:08:00",
+     5.37,
+     "verificado"
+    ],
+    [
+     "2026-10-20T06:03:00",
+     5.45,
+     "verificado"
+    ],
+    [
+     "2026-10-21T05:58:00",
+     5.5,
+     "verificado"
+    ],
+    [
+     "2026-10-22T06:02:00",
+     5.54,
+     "verificado"
+    ],
+    [
+     "2026-10-23T05:55:00",
+     5.6,
+     "verificado"
+    ],
+    [
+     "2026-10-24T08:30:00",
+     5.61,
+     "verificado"
+    ],
+    [
+     "2026-10-25T08:14:00",
+     5.62,
+     "verificado"
+    ],
+    [
+     "2026-10-26T05:55:00",
+     5.63,
+     "verificado"
+    ],
+    [
+     "2026-10-27T05:53:00",
+     5.65,
+     "verificado"
+    ],
+    [
+     "2026-10-28T06:00:00",
+     5.68,
+     "verificado"
+    ],
+    [
+     "2026-10-29T06:02:00",
+     5.74,
+     "verificado"
+    ],
+    [
+     "2026-10-30T06:00:00",
+     5.83,
+     "verificado"
+    ],
+    [
+     "2026-10-31T07:47:00",
+     5.93,
+     "verificado"
+    ],
+    [
+     "2026-11-01T00:00:00",
+     6.07,
+     "verificado"
+    ],
+    [
+     "2026-11-03",
+     6.1,
+     "pendiente"
+    ]
+   ]
+  },
+  {
+   "rio": "Paraná",
+   "puerto": "Esquina",
+   "alerta": 5.0,
+   "evacuacion": 5.4,
+   "fuente": "Prefectura Naval Argentina vía INA-SIyAH",
+   "url": "https://alerta.ina.gov.ar/",
+   "lecturas": [
+    [
+     "2026-11-01T00:00:00",
+     5.36,
+     "verificado"
+    ],
+    [
+     "2026-11-03",
+     5.5,
+     "pendiente"
+    ]
+   ]
+  },
+  {
+   "rio": "Uruguay",
+   "puerto": "Garruchos",
+   "alerta": 12.0,
+   "evacuacion": 14.0,
+   "fuente": "Prefectura Naval Argentina vía INA-SIyAH",
+   "url": "https://alerta.ina.gov.ar/",
+   "lecturas": [
+    [
+     "2026-10-29T07:00:00",
+     8.35,
+     "verificado"
+    ],
+    [
+     "2026-10-30T07:00:00",
+     6.55,
+     "verificado"
+    ],
+    [
+     "2026-10-31T07:00:00",
+     5.4,
+     "verificado"
+    ],
+    [
+     "2026-11-01T07:00:00",
+     4.83,
+     "verificado"
+    ],
+    [
+     "2026-11-02T07:00:00",
+     4.74,
+     "verificado"
+    ],
+    [
+     "2026-11-03T07:00:00",
+     4.0,
+     "verificado"
+    ]
+   ]
+  },
+  {
+   "rio": "Uruguay",
+   "puerto": "Santo Tomé",
+   "alerta": 11.5,
+   "evacuacion": 12.5,
+   "fuente": "INA",
+   "url": "https://alerta.ina.gob.ar/a5/diario/reporte_diario",
+   "lecturas": [
+    [
+     "2026-10-29T07:00:00",
+     10.2,
+     "verificado"
+    ],
+    [
+     "2026-10-30T07:00:00",
+     8.9,
+     "verificado"
+    ],
+    [
+     "2026-10-31T07:00:00",
+     7.68,
+     "verificado"
+    ],
+    [
+     "2026-11-01T07:00:00",
+     6.64,
+     "verificado"
+    ],
+    [
+     "2026-11-02T07:00:00",
+     6.12,
+     "verificado"
+    ],
+    [
+     "2026-11-03T07:00:00",
+     5.59,
+     "verificado"
+    ]
+   ]
+  },
+  {
+   "rio": "Uruguay",
+   "puerto": "Alvear",
+   "alerta": 9.5,
+   "evacuacion": 11.0,
+   "fuente": "Prefectura Naval Argentina vía INA-SIyAH",
+   "url": "https://alerta.ina.gov.ar/",
+   "lecturas": [
+    [
+     "2026-10-29T07:00:00",
+     9.3,
+     "verificado"
+    ],
+    [
+     "2026-10-30T07:00:00",
+     9.15,
+     "verificado"
+    ],
+    [
+     "2026-10-31T07:00:00",
+     8.73,
+     "verificado"
+    ],
+    [
+     "2026-11-01T07:00:00",
+     8.0,
+     "verificado"
+    ],
+    [
+     "2026-11-02T07:00:00",
+     7.34,
+     "verificado"
+    ],
+    [
+     "2026-11-03T07:00:00",
+     6.79,
+     "verificado"
+    ]
+   ]
+  },
+  {
+   "rio": "Uruguay",
+   "puerto": "La Cruz",
+   "alerta": 9.5,
+   "evacuacion": 11.5,
+   "fuente": "Prefectura Naval Argentina vía INA-SIyAH",
+   "url": "https://alerta.ina.gov.ar/",
+   "lecturas": [
+    [
+     "2026-11-01T00:00:00",
+     8.12,
+     "verificado"
+    ]
+   ]
+  },
+  {
+   "rio": "Uruguay",
+   "puerto": "Yapeyú",
+   "alerta": 9.5,
+   "evacuacion": 10.5,
+   "fuente": "Prefectura Naval Argentina vía INA-SIyAH",
+   "url": "https://alerta.ina.gov.ar/",
+   "lecturas": [
+    [
+     "2026-11-01T00:00:00",
+     7.98,
+     "verificado"
+    ]
+   ]
+  },
+  {
+   "rio": "Uruguay",
+   "puerto": "Paso de los Libres",
+   "alerta": 7.5,
+   "evacuacion": 8.5,
+   "fuente": "INA",
+   "url": "https://alerta.ina.gob.ar/a5/diario/reporte_diario",
+   "lecturas": [
+    [
+     "2026-10-29T07:00:00",
+     8.01,
+     "verificado"
+    ],
+    [
+     "2026-10-30T07:00:00",
+     8.04,
+     "verificado"
+    ],
+    [
+     "2026-10-31T07:00:00",
+     7.99,
+     "verificado"
+    ],
+    [
+     "2026-11-01T07:00:00",
+     7.66,
+     "verificado"
+    ],
+    [
+     "2026-11-02T07:00:00",
+     7.03,
+     "verificado"
+    ],
+    [
+     "2026-11-03T07:00:00",
+     6.53,
+     "verificado"
+    ]
+   ]
+  },
+  {
+   "rio": "Uruguay",
+   "puerto": "Bonpland",
+   "alerta": 7.9,
+   "evacuacion": 10.8,
+   "fuente": "Prefectura Naval Argentina vía INA-SIyAH",
+   "url": "https://alerta.ina.gov.ar/",
+   "lecturas": [
+    [
+     "2026-10-30T00:00:00",
+     4.1,
+     "verificado"
+    ]
+   ]
+  }
+ ],
+ "pronosticos": [
+  {
+   "organismo": "INA",
+   "emision": "2026-11-02",
+   "rio": "Paraná",
+   "horizonte_dias": 7,
+   "tipo": "cualitativo",
+   "tendencia": "Próximos 7 días: oscilante/leve descenso en Corrientes-Barranqueras en aguas altas, sobre alerta y evacuación; hacia Goya-Reconquista ascenso y estabilización gradual; riesgo de prolongación por aportes aguas arriba.",
+   "url": "https://alerta.ina.gob.ar/a5/diario/reporte_diario"
+  },
+  {
+   "organismo": "INA",
+   "emision": "2026-11-02",
+   "rio": "Uruguay",
+   "horizonte_dias": 7,
+   "tipo": "cualitativo",
+   "tendencia": "Informe INA 02/11: niveles de Santo Tomé y Paso de los Libres por debajo de alerta; perspectiva cualitativa local no individualizada en extracción, conservar cautela.",
+   "url": "https://alerta.ina.gob.ar/a5/diario/reporte_diario"
+  }
+ ],
+ "pron_num": [
+  {
+   "organismo": "INA",
+   "emision": "2026-10-30",
+   "puerto": "Corrientes",
+   "fecha_objetivo": "2026-11-03",
+   "minimo_m": 6.4,
+   "central_m": 6.84,
+   "maximo_m": 7.3,
+   "tipo": "pronóstico no observado",
+   "url": "https://ina.gob.ar/archivos/alerta/TabProno20261030.pdf"
+  },
+  {
+   "organismo": "INA",
+   "emision": "2026-10-30",
+   "puerto": "Corrientes",
+   "fecha_objetivo": "2026-11-10",
+   "minimo_m": 5.1,
+   "central_m": 5.57,
+   "maximo_m": 6,
+   "tipo": "pronóstico no observado",
+   "url": "https://ina.gob.ar/archivos/alerta/TabProno20261030.pdf"
+  },
+  {
+   "organismo": "INA",
+   "emision": "2026-10-30",
+   "puerto": "Goya",
+   "fecha_objetivo": "2026-11-03",
+   "minimo_m": 5.55,
+   "central_m": 5.75,
+   "maximo_m": 6.15,
+   "tipo": "pronóstico no observado",
+   "url": "https://ina.gob.ar/archivos/alerta/TabProno20261030.pdf"
+  },
+  {
+   "organismo": "INA",
+   "emision": "2026-10-30",
+   "puerto": "Goya",
+   "fecha_objetivo": "2026-11-10",
+   "minimo_m": 4.5,
+   "central_m": 5.3,
+   "maximo_m": 6,
+   "tipo": "pronóstico no observado",
+   "url": "https://ina.gob.ar/archivos/alerta/TabProno20261030.pdf"
+  }
+ ],
+ "pron_aviso": "Perspectiva cualitativa INA 02/11; puntos numéricos INA emitidos 30/10 conservados con fecha original (pronósticos no observados); ninguna cifra proyectada inventada. Son escenarios, no lecturas.",
+ "verificacion": "Validación integral de la corrida 20261103_145314 el 03/11/2026, 19:55 h: los seis archivos se descargaron por su enlace público (bytes originales) y las seis huellas SHA-256 y los seis tamaños coinciden con el manifiesto; CSV con las columnas declaradas, 174 registros del Paraná y 27 del Uruguay, sin duplicados; los cuatro JSON son válidos.",
+ "observaciones": [
+  "Río Paraná: la corrida incorpora la tabla consolidada del CIM/UNL (datos de Prefectura) del 03/11/2026 para los nueve puertos, con fecha solamente y hora individual no publicada; esas lecturas figuran como 'pendiente' (hora no verificada) y nunca se interpretan como las 00:00. Las lecturas del 02/11 de la tabla diaria de Prefectura que figuraban como pendientes en la corrida anterior no están en este manifiesto y se retiraron de las series; las alturas validadas no se modificaron.",
+  "Río Uruguay: el histórico (CTM Salto Grande, 07:00 h) llega al 03/11/2026 en Alvear, Garruchos, Paso de los Libres y Santo Tomé; comienza el 29/10/2026 y no es todavía una serie completa desde el 01/10; no se completan días faltantes ni se interpola. Bonpland tiene una única lectura (30/10); La Cruz y Yapeyú, una (01/11), sin lectura posterior.",
+  "Monte Caseros: sin lecturas ni cotas verificadas en el repositorio.",
+  "Las lecturas de las 00:00 de Prefectura publicadas por INA-SIyAH a las 03:00 UTC corresponden a las 00:00 de Argentina: hora verificada.",
+  "Advertencia del manifiesto: el cotejo independiente con Prefectura directa quedó pendiente (la consulta directa no respondió); es una inconsistencia documental a regularizar y no altera los datos, cuyas huellas coinciden. Empedrado, Esquina, Ituzaingó e Itá Ibaté tienen solo dos lecturas.",
+  "Contraste de Corrientes: la tabla diaria del INA del 02/11 daba 7,11 m sin hora individual, frente a 7,13 m del CIM/UNL a las 06:00 h del 02/11; no se equiparan como mediciones simultáneas.",
+  "La variación informada en los CSV no se usa en los gráficos; las alturas no se modificaron.",
+  "Vigilancia meteorológica: la revisión del 03/11, 19:32 h (NO_DETERMINADO, normalizada a NO_VERIFICADO) no pudo validar el XML CAP del SMN; el COE lista su página sin alertas vigentes propias; no se muestran avisos ni imágenes como verificados. No se infiere dirección ni llegada de tormentas.",
+  "Pronósticos del INA: los valores numéricos fueron emitidos el 30/10/2026 y se conservan con su fecha original; son escenarios, no lecturas."
+ ]
+}

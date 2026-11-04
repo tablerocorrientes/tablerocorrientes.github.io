@@ -1,0 +1,1133 @@
+{
+ "estado_alertas": "VERIFICADO_CON_ALERTAS",
+ "estado_verificado": {
+  "fecha": "03/11/2026, 20:50 h (consolidado en Drive); contrastado con el listado del COE el 03/11/2026, 21:20 h",
+  "fuente": "Archivo meteorológico de Drive (solo lectura, revisión de las 20:50 h): estado CON_ALERTAS normalizado a VERIFICADO_CON_ALERTAS, y contraste directo con coe.corrientes.gob.ar/alertas (21:20 h): dos alertas previstas para el miércoles 4/11, de 03:00 a 20:59 h: naranja 2026-0018-NT (15 departamentos, con la Capital) y amarilla 2026-0063-AT (10 departamentos, sin la Capital); ninguna en curso. Sin milímetros oficiales y sin hora de emisión en el listado. Los canales del SMN (CAP, avisos a corto plazo, página de alertas) no fueron verificables: los avisos del SMN difundidos por la prensa (naranja del 4/11 y amarillo del 3/11) y la alerta del COE de 24 departamentos con 40 a 80 mm (3 y 4/11) no figuran en el listado oficial del COE y quedan sin reconfirmar, por lo que no se publican como vigentes"
+ },
+ "met_archivo": {
+  "nombre": "vigilancia_meteorologica_20261103_205018.json",
+  "id": "1PHqXSr3_FSI3cQZ3cV5jrNcFMjakXxa0",
+  "revision": "ecd66e26052df19aaaf6711a1d65dce7c5bce5b30dfdb69fd9a33eedc0fe1be6",
+  "fecha": "03/11/2026, 20:50 h"
+ },
+ "met_revision": "ecd66e26052df19aaaf6711a1d65dce7c5bce5b30dfdb69fd9a33eedc0fe1be6",
+ "actualizado": "03/11/2026, 19:55 h",
+ "localidades": [
+  {
+   "n": "Corrientes Capital",
+   "dep": "Capital",
+   "ref": "Corrientes Capital",
+   "rio": "Paraná",
+   "altura": 7.08,
+   "alerta": 6.5,
+   "evac": 7.0,
+   "reg": "03/11/2026 (CIM/UNL, tabla consolidada del manifiesto 20261103_145314; solo fecha, hora no publicada)"
+  },
+  {
+   "n": "Riachuelo",
+   "dep": "Capital",
+   "ref": "Corrientes Capital"
+  },
+  {
+   "n": "Bella Vista",
+   "dep": "Bella Vista",
+   "ref": "Bella Vista",
+   "rio": "Paraná",
+   "altura": 6.46,
+   "alerta": 6.0,
+   "evac": 6.4,
+   "reg": "03/11/2026 (CIM/UNL, tabla consolidada del manifiesto 20261103_145314; solo fecha, hora no publicada)"
+  },
+  {
+   "n": "Berón de Astrada",
+   "dep": "Berón de Astrada",
+   "ref": "Ituzaingó"
+  },
+  {
+   "n": "Yahapé",
+   "dep": "Berón de Astrada",
+   "ref": "Ituzaingó"
+  },
+  {
+   "n": "Concepción",
+   "dep": "Concepción",
+   "ref": "Saladas"
+  },
+  {
+   "n": "Santa Rosa",
+   "dep": "Concepción",
+   "ref": "Saladas"
+  },
+  {
+   "n": "Tabay",
+   "dep": "Concepción",
+   "ref": "Saladas"
+  },
+  {
+   "n": "Tatacuá",
+   "dep": "Concepción",
+   "ref": "Saladas"
+  },
+  {
+   "n": "Curuzú Cuatiá",
+   "dep": "Curuzú Cuatiá",
+   "ref": "Curuzú Cuatiá"
+  },
+  {
+   "n": "Cazadores Correntinos",
+   "dep": "Curuzú Cuatiá",
+   "ref": "Curuzú Cuatiá"
+  },
+  {
+   "n": "Perugorría",
+   "dep": "Curuzú Cuatiá",
+   "ref": "Curuzú Cuatiá"
+  },
+  {
+   "n": "Empedrado",
+   "dep": "Empedrado",
+   "ref": "Corrientes Capital",
+   "rio": "Paraná",
+   "altura": 6.09,
+   "alerta": 6.5,
+   "evac": 6.7,
+   "reg": "03/11/2026 (CIM/UNL, tabla consolidada del manifiesto 20261103_145314; solo fecha, hora no publicada)"
+  },
+  {
+   "n": "El Sombrero",
+   "dep": "Empedrado",
+   "ref": "Corrientes Capital"
+  },
+  {
+   "n": "Esquina",
+   "dep": "Esquina",
+   "ref": "Esquina",
+   "rio": "Paraná",
+   "altura": 5.5,
+   "alerta": 5.0,
+   "evac": 5.4,
+   "reg": "03/11/2026 (CIM/UNL, tabla consolidada del manifiesto 20261103_145314; solo fecha, hora no publicada)"
+  },
+  {
+   "n": "Pueblo Libertador",
+   "dep": "Esquina",
+   "ref": "Esquina"
+  },
+  {
+   "n": "Alvear",
+   "dep": "General Alvear",
+   "ref": "Santo Tomé",
+   "rio": "Uruguay",
+   "altura": 6.79,
+   "alerta": 9.5,
+   "evac": 11.0,
+   "reg": "03/11/2026, 07:00 h (CTM Salto Grande); manifiesto 20261103_145314"
+  },
+  {
+   "n": "Estación Torrent",
+   "dep": "General Alvear",
+   "ref": "Santo Tomé"
+  },
+  {
+   "n": "Caá Catí",
+   "dep": "General Paz",
+   "ref": "Corrientes Capital"
+  },
+  {
+   "n": "Itá Ibaté",
+   "dep": "General Paz",
+   "ref": "Ituzaingó",
+   "rio": "Paraná",
+   "altura": 6.0,
+   "alerta": 7.0,
+   "evac": 7.5,
+   "reg": "03/11/2026 (CIM/UNL, tabla consolidada del manifiesto 20261103_145314; solo fecha, hora no publicada)"
+  },
+  {
+   "n": "Lomas de Vallejos",
+   "dep": "General Paz",
+   "ref": "Corrientes Capital"
+  },
+  {
+   "n": "Palmar Grande",
+   "dep": "General Paz",
+   "ref": "Corrientes Capital"
+  },
+  {
+   "n": "Goya",
+   "dep": "Goya",
+   "ref": "Goya",
+   "rio": "Paraná",
+   "altura": 6.1,
+   "alerta": 5.2,
+   "evac": 5.7,
+   "reg": "03/11/2026 (CIM/UNL, tabla consolidada del manifiesto 20261103_145314; solo fecha, hora no publicada)"
+  },
+  {
+   "n": "Colonia Carolina",
+   "dep": "Goya",
+   "ref": "Goya"
+  },
+  {
+   "n": "Itatí",
+   "dep": "Itatí",
+   "ref": "Corrientes Capital",
+   "rio": "Paraná",
+   "altura": 7.55,
+   "alerta": 6.8,
+   "evac": 7.5,
+   "reg": "03/11/2026 (CIM/UNL, tabla consolidada del manifiesto 20261103_145314; solo fecha, hora no publicada)"
+  },
+  {
+   "n": "Ramada Paso",
+   "dep": "Itatí",
+   "ref": "Corrientes Capital"
+  },
+  {
+   "n": "Ituzaingó",
+   "dep": "Ituzaingó",
+   "ref": "Ituzaingó",
+   "rio": "Paraná",
+   "altura": 3.73,
+   "alerta": 3.5,
+   "evac": 4.0,
+   "reg": "03/11/2026 (CIM/UNL, tabla consolidada del manifiesto 20261103_145314; solo fecha, hora no publicada)"
+  },
+  {
+   "n": "San Carlos",
+   "dep": "Ituzaingó",
+   "ref": "Gobernador Virasoro"
+  },
+  {
+   "n": "Villa Olivari",
+   "dep": "Ituzaingó",
+   "ref": "Ituzaingó"
+  },
+  {
+   "n": "Colonia Liebig",
+   "dep": "Ituzaingó",
+   "ref": "Gobernador Virasoro"
+  },
+  {
+   "n": "Lavalle",
+   "dep": "Lavalle",
+   "ref": "Goya"
+  },
+  {
+   "n": "Santa Lucía",
+   "dep": "Lavalle",
+   "ref": "Goya"
+  },
+  {
+   "n": "Cruz de los Milagros",
+   "dep": "Lavalle",
+   "ref": "Goya"
+  },
+  {
+   "n": "Gobernador Juan E. Martínez",
+   "dep": "Lavalle",
+   "ref": "Goya"
+  },
+  {
+   "n": "Yatayty Calle",
+   "dep": "Lavalle",
+   "ref": "Goya"
+  },
+  {
+   "n": "Mburucuyá",
+   "dep": "Mburucuyá",
+   "ref": "Saladas"
+  },
+  {
+   "n": "Mercedes",
+   "dep": "Mercedes",
+   "ref": "Mercedes"
+  },
+  {
+   "n": "Mariano I. Loza",
+   "dep": "Mercedes",
+   "ref": "Mercedes"
+  },
+  {
+   "n": "Felipe Yofre",
+   "dep": "Mercedes",
+   "ref": "Mercedes"
+  },
+  {
+   "n": "Colonia Carlos Pellegrini",
+   "dep": "Mercedes",
+   "ref": "Mercedes"
+  },
+  {
+   "n": "Monte Caseros",
+   "dep": "Monte Caseros",
+   "ref": "Monte Caseros",
+   "rio": "Uruguay",
+   "altura": 6.92,
+   "alerta": 7.5,
+   "evac": 8.5,
+   "reg": "externa, pendiente de consolidación (20/10/2026, 12:00 h)"
+  },
+  {
+   "n": "Mocoretá",
+   "dep": "Monte Caseros",
+   "ref": "Monte Caseros"
+  },
+  {
+   "n": "Juan Pujol",
+   "dep": "Monte Caseros",
+   "ref": "Monte Caseros"
+  },
+  {
+   "n": "Colonia Libertad",
+   "dep": "Monte Caseros",
+   "ref": "Monte Caseros"
+  },
+  {
+   "n": "Parada Pucheta",
+   "dep": "Monte Caseros",
+   "ref": "Monte Caseros"
+  },
+  {
+   "n": "Paso de los Libres",
+   "dep": "Paso de los Libres",
+   "ref": "Paso de los Libres",
+   "rio": "Uruguay",
+   "altura": 6.53,
+   "alerta": 7.5,
+   "evac": 8.5,
+   "reg": "03/11/2026, 07:00 h (CTM Salto Grande); manifiesto 20261103_145314"
+  },
+  {
+   "n": "Bonpland",
+   "dep": "Paso de los Libres",
+   "ref": "Paso de los Libres",
+   "rio": "Uruguay",
+   "altura": 4.1,
+   "alerta": 7.9,
+   "evac": 10.8,
+   "reg": "30/10/2026, 00:00 h (PNA vía INA-SIyAH); manifiesto 20261102_202300"
+  },
+  {
+   "n": "Tapebicuá",
+   "dep": "Paso de los Libres",
+   "ref": "Paso de los Libres"
+  },
+  {
+   "n": "Saladas",
+   "dep": "Saladas",
+   "ref": "Saladas"
+  },
+  {
+   "n": "San Lorenzo",
+   "dep": "Saladas",
+   "ref": "Saladas"
+  },
+  {
+   "n": "San Cosme",
+   "dep": "San Cosme",
+   "ref": "Corrientes Capital"
+  },
+  {
+   "n": "Paso de la Patria",
+   "dep": "San Cosme",
+   "ref": "Corrientes Capital",
+   "rio": "Paraná",
+   "altura": 7.3,
+   "alerta": 6.5,
+   "evac": 7.0,
+   "reg": "03/11/2026 (CIM/UNL, tabla consolidada del manifiesto 20261103_145314; solo fecha, hora no publicada)"
+  },
+  {
+   "n": "Santa Ana",
+   "dep": "San Cosme",
+   "ref": "Corrientes Capital"
+  },
+  {
+   "n": "San Luis del Palmar",
+   "dep": "San Luis del Palmar",
+   "ref": "Corrientes Capital"
+  },
+  {
+   "n": "Herlitzka",
+   "dep": "San Luis del Palmar",
+   "ref": "Corrientes Capital"
+  },
+  {
+   "n": "La Cruz",
+   "dep": "San Martín",
+   "ref": "Santo Tomé",
+   "rio": "Uruguay",
+   "altura": 8.12,
+   "alerta": 9.5,
+   "evac": 11.5,
+   "reg": "01/11/2026, 00:00 h (PNA vía INA-SIyAH); manifiesto 20261102_202300"
+  },
+  {
+   "n": "Yapeyú",
+   "dep": "San Martín",
+   "ref": "Paso de los Libres",
+   "rio": "Uruguay",
+   "altura": 7.98,
+   "alerta": 9.5,
+   "evac": 10.5,
+   "reg": "01/11/2026, 00:00 h (PNA vía INA-SIyAH); manifiesto 20261102_202300"
+  },
+  {
+   "n": "Guaviraví",
+   "dep": "San Martín",
+   "ref": "Santo Tomé"
+  },
+  {
+   "n": "San Miguel",
+   "dep": "San Miguel",
+   "ref": "Ituzaingó"
+  },
+  {
+   "n": "Loreto",
+   "dep": "San Miguel",
+   "ref": "Ituzaingó"
+  },
+  {
+   "n": "San Roque",
+   "dep": "San Roque",
+   "ref": "Goya"
+  },
+  {
+   "n": "Chavarría",
+   "dep": "San Roque",
+   "ref": "Mercedes"
+  },
+  {
+   "n": "9 de Julio",
+   "dep": "San Roque",
+   "ref": "Goya"
+  },
+  {
+   "n": "Pedro R. Fernández",
+   "dep": "San Roque",
+   "ref": "Goya"
+  },
+  {
+   "n": "Santo Tomé",
+   "dep": "Santo Tomé",
+   "ref": "Santo Tomé",
+   "rio": "Uruguay",
+   "altura": 5.59,
+   "alerta": 11.5,
+   "evac": 12.5,
+   "reg": "03/11/2026, 07:00 h (CTM Salto Grande); manifiesto 20261103_145314"
+  },
+  {
+   "n": "Gobernador Virasoro",
+   "dep": "Santo Tomé",
+   "ref": "Gobernador Virasoro"
+  },
+  {
+   "n": "Garruchos",
+   "dep": "Santo Tomé",
+   "ref": "Santo Tomé",
+   "rio": "Uruguay",
+   "altura": 4.0,
+   "alerta": 12.0,
+   "evac": 14.0,
+   "reg": "03/11/2026, 07:00 h (CTM Salto Grande); manifiesto 20261103_145314"
+  },
+  {
+   "n": "Sauce",
+   "dep": "Sauce",
+   "ref": "Curuzú Cuatiá"
+  }
+ ],
+ "pronostico": {
+  "Corrientes Capital": {
+   "hoy": {
+    "mm": 0.0,
+    "horas": 0
+   },
+   "manana": {
+    "mm": 66.2,
+    "horas": 18
+   },
+   "smn": "Alerta naranja del COE 2026-0018-NT para el miércoles 4/11 (03:00 a 20:59 h): el departamento está incluido. Ninguna está en curso a las 21:25 h del 03/11; el listado oficial no informa milímetros. Los avisos del SMN difundidos por la prensa no se pudieron reconfirmar en origen. Parte del SMN para la ciudad de Corrientes (La Nación, 08:46 h): mañana tormentas fuertes por la mañana y la tarde (70 %), chaparrones por la noche (40 %); jueves 5/11 sin lluvia (0 %).",
+   "modelos": {
+    "hoy": [
+     [
+      "Agrofy (Open-Meteo)",
+      0.8
+     ]
+    ],
+    "manana": [
+     [
+      "Agrofy (Open-Meteo)",
+      66.2
+     ],
+     [
+      "Meteored",
+      59.0
+     ]
+    ]
+   },
+   "criterio": "Sin milímetros oficiales verificados: la alerta naranja 2026-0018-NT del COE (4/11) no informa acumulados, y el rango de 40 a 80 mm difundido por la prensa para la alerta anterior no se reconfirmó en el listado del COE. Parte del SMN para la ciudad (La Nación, 08:46 h): mañana tormentas fuertes por la mañana y la tarde (70 %) y chaparrones por la noche (40 %); jueves 5/11 sin lluvia (0 %). Criterio 2 (tormentas fuertes, 70 % o más): modelo más alto, Agrofy (Open-Meteo) con 66,2 mm para mañana (corrida del 03/11, 21:17 h; Meteored 59 mm, corrida anterior). Reparto horario: el del propio modelo. Para hoy, el modelo prevé 0,8 mm en total, todos antes de las 15 h; queda sin lluvia significativa en el resto del día. Estimación derivada, no una medición.",
+   "fuente": "Alertas del COE de Corrientes y del SMN; modelos Agrofy News (Open-Meteo) y Meteored solo como contraste",
+   "act": "03/11, 21:25 h (alertas del COE y modelo Agrofy de las 21:17 h)"
+  },
+  "Goya": {
+   "hoy": {
+    "mm": 58.6,
+    "horas": 8
+   },
+   "manana": {
+    "mm": 60.0,
+    "horas": 16
+   },
+   "smn": "Alerta amarilla del COE 2026-0063-AT para el miércoles 4/11 (03:00 a 20:59 h): el departamento está incluido; la Capital no. Ninguna está en curso a las 21:25 h del 03/11; el listado oficial no informa milímetros. Los avisos del SMN difundidos por la prensa no se pudieron reconfirmar en origen. Parte del SMN para la ciudad de Corrientes (La Nación, 08:46 h): mañana tormentas fuertes por la mañana y la tarde (70 %), chaparrones por la noche (40 %); jueves 5/11 sin lluvia (0 %).",
+   "modelos": {
+    "hoy": [
+     [
+      "Agrofy (Open-Meteo)",
+      0.0
+     ]
+    ],
+    "manana": [
+     [
+      "Agrofy (Open-Meteo)",
+      6.1
+     ]
+    ]
+   },
+   "criterio": "Aviso oficial con milímetros (COE, 40 a 80 mm): valor medio, 60 mm para hoy y mañana. El reparto horario copia el patrón del modelo de Agrofy escalado a 60 mm y corrido 4 h porque la lluvia del modelo prevista para las 6 a 8 h no se registró (SNIH hasta las 8 h: 0,25 mm) y el SMN ubica el pico a media mañana; hoy se muestra la lluvia que resta del día desde las 10 h. Estimación derivada, no una medición. Nota del 03/11/2026, 21:25 h: este valor se arrastra de la estimación anterior, que tomaba el rango de 40 a 80 mm difundido por la prensa; el listado oficial del COE ya no lo respalda (alertas del 4/11 sin milímetros) y no hay una corrida de modelo actualizada y verificable para esta ciudad. No es un pronóstico oficial confirmado.",
+   "fuente": "Alertas del COE de Corrientes y del SMN; modelos Agrofy News (Open-Meteo) y Meteored solo como contraste",
+   "act": "03/11, 21:25 h (alertas del COE); modelos: ver criterio"
+  },
+  "Esquina": {
+   "hoy": {
+    "mm": 58.6,
+    "horas": 8
+   },
+   "manana": {
+    "mm": 60.0,
+    "horas": 16
+   },
+   "smn": "Alerta amarilla del COE 2026-0063-AT para el miércoles 4/11 (03:00 a 20:59 h): el departamento está incluido; la Capital no. Ninguna está en curso a las 21:25 h del 03/11; el listado oficial no informa milímetros. Los avisos del SMN difundidos por la prensa no se pudieron reconfirmar en origen. Parte del SMN para la ciudad de Corrientes (La Nación, 08:46 h): mañana tormentas fuertes por la mañana y la tarde (70 %), chaparrones por la noche (40 %); jueves 5/11 sin lluvia (0 %).",
+   "modelos": {
+    "hoy": [
+     [
+      "Agrofy (Open-Meteo)",
+      0.6
+     ]
+    ],
+    "manana": [
+     [
+      "Agrofy (Open-Meteo)",
+      1.2
+     ]
+    ]
+   },
+   "criterio": "Aviso oficial con milímetros (COE, 40 a 80 mm): valor medio, 60 mm para hoy y mañana. El reparto horario copia el patrón del modelo de Agrofy escalado a 60 mm y corrido 4 h porque la lluvia del modelo prevista para las 6 a 8 h no se registró (SNIH hasta las 8 h: 0,25 mm) y el SMN ubica el pico a media mañana; hoy se muestra la lluvia que resta del día desde las 10 h. Estimación derivada, no una medición. Nota del 03/11/2026, 21:25 h: este valor se arrastra de la estimación anterior, que tomaba el rango de 40 a 80 mm difundido por la prensa; el listado oficial del COE ya no lo respalda (alertas del 4/11 sin milímetros) y no hay una corrida de modelo actualizada y verificable para esta ciudad. No es un pronóstico oficial confirmado.",
+   "fuente": "Alertas del COE de Corrientes y del SMN; modelos Agrofy News (Open-Meteo) y Meteored solo como contraste",
+   "act": "03/11, 21:25 h (alertas del COE); modelos: ver criterio"
+  },
+  "Bella Vista": {
+   "hoy": {
+    "mm": 58.6,
+    "horas": 8
+   },
+   "manana": {
+    "mm": 60.0,
+    "horas": 16
+   },
+   "smn": "Alerta amarilla del COE 2026-0063-AT para el miércoles 4/11 (03:00 a 20:59 h): el departamento está incluido; la Capital no. Ninguna está en curso a las 21:25 h del 03/11; el listado oficial no informa milímetros. Los avisos del SMN difundidos por la prensa no se pudieron reconfirmar en origen. Parte del SMN para la ciudad de Corrientes (La Nación, 08:46 h): mañana tormentas fuertes por la mañana y la tarde (70 %), chaparrones por la noche (40 %); jueves 5/11 sin lluvia (0 %).",
+   "modelos": {
+    "hoy": [
+     [
+      "Agrofy (Open-Meteo)",
+      0.0
+     ]
+    ],
+    "manana": [
+     [
+      "Agrofy (Open-Meteo)",
+      11.3
+     ]
+    ]
+   },
+   "criterio": "Aviso oficial con milímetros (COE, 40 a 80 mm): valor medio, 60 mm para hoy y mañana. El reparto horario copia el patrón del modelo de Agrofy escalado a 60 mm y corrido 4 h porque la lluvia del modelo prevista para las 6 a 8 h no se registró (SNIH hasta las 8 h: 0,25 mm) y el SMN ubica el pico a media mañana; hoy se muestra la lluvia que resta del día desde las 10 h. Estimación derivada, no una medición. Nota del 03/11/2026, 21:25 h: este valor se arrastra de la estimación anterior, que tomaba el rango de 40 a 80 mm difundido por la prensa; el listado oficial del COE ya no lo respalda (alertas del 4/11 sin milímetros) y no hay una corrida de modelo actualizada y verificable para esta ciudad. No es un pronóstico oficial confirmado.",
+   "fuente": "Alertas del COE de Corrientes y del SMN; modelos Agrofy News (Open-Meteo) y Meteored solo como contraste",
+   "act": "03/11, 21:25 h (alertas del COE); modelos: ver criterio"
+  },
+  "Mercedes": {
+   "hoy": {
+    "mm": 58.6,
+    "horas": 8
+   },
+   "manana": {
+    "mm": 60.0,
+    "horas": 16
+   },
+   "smn": "Alerta amarilla del COE 2026-0063-AT para el miércoles 4/11 (03:00 a 20:59 h): el departamento está incluido; la Capital no. Ninguna está en curso a las 21:25 h del 03/11; el listado oficial no informa milímetros. Los avisos del SMN difundidos por la prensa no se pudieron reconfirmar en origen. Parte del SMN para la ciudad de Corrientes (La Nación, 08:46 h): mañana tormentas fuertes por la mañana y la tarde (70 %), chaparrones por la noche (40 %); jueves 5/11 sin lluvia (0 %).",
+   "modelos": {
+    "hoy": [
+     [
+      "Agrofy (Open-Meteo)",
+      0.1
+     ]
+    ],
+    "manana": [
+     [
+      "Agrofy (Open-Meteo)",
+      3.5
+     ]
+    ]
+   },
+   "criterio": "Aviso oficial con milímetros (COE, 40 a 80 mm): valor medio, 60 mm para hoy y mañana. El reparto horario copia el patrón del modelo de Agrofy escalado a 60 mm y corrido 4 h porque la lluvia del modelo prevista para las 6 a 8 h no se registró (SNIH hasta las 8 h: 0,25 mm) y el SMN ubica el pico a media mañana; hoy se muestra la lluvia que resta del día desde las 10 h. Estimación derivada, no una medición. Nota del 03/11/2026, 21:25 h: este valor se arrastra de la estimación anterior, que tomaba el rango de 40 a 80 mm difundido por la prensa; el listado oficial del COE ya no lo respalda (alertas del 4/11 sin milímetros) y no hay una corrida de modelo actualizada y verificable para esta ciudad. No es un pronóstico oficial confirmado.",
+   "fuente": "Alertas del COE de Corrientes y del SMN; modelos Agrofy News (Open-Meteo) y Meteored solo como contraste",
+   "act": "03/11, 21:25 h (alertas del COE); modelos: ver criterio"
+  },
+  "Curuzú Cuatiá": {
+   "hoy": {
+    "mm": 58.6,
+    "horas": 8
+   },
+   "manana": {
+    "mm": 60.0,
+    "horas": 16
+   },
+   "smn": "Alerta amarilla del COE 2026-0063-AT para el miércoles 4/11 (03:00 a 20:59 h): el departamento está incluido; la Capital no. Ninguna está en curso a las 21:25 h del 03/11; el listado oficial no informa milímetros. Los avisos del SMN difundidos por la prensa no se pudieron reconfirmar en origen. Parte del SMN para la ciudad de Corrientes (La Nación, 08:46 h): mañana tormentas fuertes por la mañana y la tarde (70 %), chaparrones por la noche (40 %); jueves 5/11 sin lluvia (0 %).",
+   "modelos": {
+    "hoy": [
+     [
+      "Agrofy (Open-Meteo)",
+      0.0
+     ]
+    ],
+    "manana": [
+     [
+      "Agrofy (Open-Meteo)",
+      4.5
+     ]
+    ]
+   },
+   "criterio": "Aviso oficial con milímetros (COE, 40 a 80 mm): valor medio, 60 mm para hoy y mañana. El reparto horario copia el patrón del modelo de Agrofy escalado a 60 mm y corrido 4 h porque la lluvia del modelo prevista para las 6 a 8 h no se registró (SNIH hasta las 8 h: 0,25 mm) y el SMN ubica el pico a media mañana; hoy se muestra la lluvia que resta del día desde las 10 h. Estimación derivada, no una medición. Nota del 03/11/2026, 21:25 h: este valor se arrastra de la estimación anterior, que tomaba el rango de 40 a 80 mm difundido por la prensa; el listado oficial del COE ya no lo respalda (alertas del 4/11 sin milímetros) y no hay una corrida de modelo actualizada y verificable para esta ciudad. No es un pronóstico oficial confirmado.",
+   "fuente": "Alertas del COE de Corrientes y del SMN; modelos Agrofy News (Open-Meteo) y Meteored solo como contraste",
+   "act": "03/11, 21:25 h (alertas del COE); modelos: ver criterio"
+  },
+  "Paso de los Libres": {
+   "hoy": {
+    "mm": 58.6,
+    "horas": 8
+   },
+   "manana": {
+    "mm": 60.0,
+    "horas": 16
+   },
+   "smn": "Alerta naranja del COE 2026-0018-NT para el miércoles 4/11 (03:00 a 20:59 h): el departamento está incluido. Ninguna está en curso a las 21:25 h del 03/11; el listado oficial no informa milímetros. Los avisos del SMN difundidos por la prensa no se pudieron reconfirmar en origen. Parte del SMN para la ciudad de Corrientes (La Nación, 08:46 h): mañana tormentas fuertes por la mañana y la tarde (70 %), chaparrones por la noche (40 %); jueves 5/11 sin lluvia (0 %).",
+   "modelos": {
+    "hoy": [
+     [
+      "Agrofy (Open-Meteo)",
+      0.0
+     ]
+    ],
+    "manana": [
+     [
+      "Agrofy (Open-Meteo)",
+      17.5
+     ]
+    ]
+   },
+   "criterio": "Aviso oficial con milímetros (COE, 40 a 80 mm): valor medio, 60 mm para hoy y mañana. El reparto horario copia el patrón del modelo de Agrofy escalado a 60 mm y corrido 4 h porque la lluvia del modelo prevista para las 6 a 8 h no se registró (SNIH hasta las 8 h: 0,25 mm) y el SMN ubica el pico a media mañana; hoy se muestra la lluvia que resta del día desde las 10 h. Estimación derivada, no una medición. Nota del 03/11/2026, 21:25 h: este valor se arrastra de la estimación anterior, que tomaba el rango de 40 a 80 mm difundido por la prensa; el listado oficial del COE ya no lo respalda (alertas del 4/11 sin milímetros) y no hay una corrida de modelo actualizada y verificable para esta ciudad. No es un pronóstico oficial confirmado.",
+   "fuente": "Alertas del COE de Corrientes y del SMN; modelos Agrofy News (Open-Meteo) y Meteored solo como contraste",
+   "act": "03/11, 21:25 h (alertas del COE); modelos: ver criterio"
+  },
+  "Santo Tomé": {
+   "hoy": {
+    "mm": 58.6,
+    "horas": 8
+   },
+   "manana": {
+    "mm": 60.0,
+    "horas": 16
+   },
+   "smn": "Alerta naranja del COE 2026-0018-NT para el miércoles 4/11 (03:00 a 20:59 h): el departamento está incluido. Ninguna está en curso a las 21:25 h del 03/11; el listado oficial no informa milímetros. Los avisos del SMN difundidos por la prensa no se pudieron reconfirmar en origen. Parte del SMN para la ciudad de Corrientes (La Nación, 08:46 h): mañana tormentas fuertes por la mañana y la tarde (70 %), chaparrones por la noche (40 %); jueves 5/11 sin lluvia (0 %).",
+   "modelos": {
+    "hoy": [
+     [
+      "Agrofy (Open-Meteo)",
+      0.1
+     ]
+    ],
+    "manana": [
+     [
+      "Agrofy (Open-Meteo)",
+      8.5
+     ]
+    ]
+   },
+   "criterio": "Aviso oficial con milímetros (COE, 40 a 80 mm): valor medio, 60 mm para hoy y mañana. El reparto horario copia el patrón del modelo de Agrofy escalado a 60 mm y corrido 4 h porque la lluvia del modelo prevista para las 6 a 8 h no se registró (SNIH hasta las 8 h: 0,25 mm) y el SMN ubica el pico a media mañana; hoy se muestra la lluvia que resta del día desde las 10 h. Estimación derivada, no una medición. Nota del 03/11/2026, 21:25 h: este valor se arrastra de la estimación anterior, que tomaba el rango de 40 a 80 mm difundido por la prensa; el listado oficial del COE ya no lo respalda (alertas del 4/11 sin milímetros) y no hay una corrida de modelo actualizada y verificable para esta ciudad. No es un pronóstico oficial confirmado.",
+   "fuente": "Alertas del COE de Corrientes y del SMN; modelos Agrofy News (Open-Meteo) y Meteored solo como contraste",
+   "act": "03/11, 21:25 h (alertas del COE); modelos: ver criterio"
+  },
+  "Gobernador Virasoro": {
+   "hoy": {
+    "mm": 58.6,
+    "horas": 8
+   },
+   "manana": {
+    "mm": 60.0,
+    "horas": 16
+   },
+   "smn": "Alerta naranja del COE 2026-0018-NT para el miércoles 4/11 (03:00 a 20:59 h): el departamento está incluido. Ninguna está en curso a las 21:25 h del 03/11; el listado oficial no informa milímetros. Los avisos del SMN difundidos por la prensa no se pudieron reconfirmar en origen. Parte del SMN para la ciudad de Corrientes (La Nación, 08:46 h): mañana tormentas fuertes por la mañana y la tarde (70 %), chaparrones por la noche (40 %); jueves 5/11 sin lluvia (0 %).",
+   "modelos": {
+    "hoy": [
+     [
+      "Agrofy (Open-Meteo)",
+      4.6
+     ]
+    ],
+    "manana": [
+     [
+      "Agrofy (Open-Meteo)",
+      6.2
+     ]
+    ]
+   },
+   "criterio": "Aviso oficial con milímetros (COE, 40 a 80 mm): valor medio, 60 mm para hoy y mañana. El reparto horario copia el patrón del modelo de Agrofy escalado a 60 mm y corrido 4 h porque la lluvia del modelo prevista para las 6 a 8 h no se registró (SNIH hasta las 8 h: 0,25 mm) y el SMN ubica el pico a media mañana; hoy se muestra la lluvia que resta del día desde las 10 h. Estimación derivada, no una medición. Nota del 03/11/2026, 21:25 h: este valor se arrastra de la estimación anterior, que tomaba el rango de 40 a 80 mm difundido por la prensa; el listado oficial del COE ya no lo respalda (alertas del 4/11 sin milímetros) y no hay una corrida de modelo actualizada y verificable para esta ciudad. No es un pronóstico oficial confirmado.",
+   "fuente": "Alertas del COE de Corrientes y del SMN; modelos Agrofy News (Open-Meteo) y Meteored solo como contraste",
+   "act": "03/11, 21:25 h (alertas del COE); modelos: ver criterio"
+  },
+  "Ituzaingó": {
+   "hoy": {
+    "mm": 58.6,
+    "horas": 8
+   },
+   "manana": {
+    "mm": 60.0,
+    "horas": 16
+   },
+   "smn": "Alerta naranja del COE 2026-0018-NT para el miércoles 4/11 (03:00 a 20:59 h): el departamento está incluido. Ninguna está en curso a las 21:25 h del 03/11; el listado oficial no informa milímetros. Los avisos del SMN difundidos por la prensa no se pudieron reconfirmar en origen. Parte del SMN para la ciudad de Corrientes (La Nación, 08:46 h): mañana tormentas fuertes por la mañana y la tarde (70 %), chaparrones por la noche (40 %); jueves 5/11 sin lluvia (0 %).",
+   "modelos": {
+    "hoy": [
+     [
+      "Agrofy (Open-Meteo)",
+      0.1
+     ]
+    ],
+    "manana": [
+     [
+      "Agrofy (Open-Meteo)",
+      8.8
+     ]
+    ]
+   },
+   "criterio": "Aviso oficial con milímetros (COE, 40 a 80 mm): valor medio, 60 mm para hoy y mañana. El reparto horario copia el patrón del modelo de Agrofy escalado a 60 mm y corrido 4 h porque la lluvia del modelo prevista para las 6 a 8 h no se registró (SNIH hasta las 8 h: 0,25 mm) y el SMN ubica el pico a media mañana; hoy se muestra la lluvia que resta del día desde las 10 h. Estimación derivada, no una medición. Nota del 03/11/2026, 21:25 h: este valor se arrastra de la estimación anterior, que tomaba el rango de 40 a 80 mm difundido por la prensa; el listado oficial del COE ya no lo respalda (alertas del 4/11 sin milímetros) y no hay una corrida de modelo actualizada y verificable para esta ciudad. No es un pronóstico oficial confirmado.",
+   "fuente": "Alertas del COE de Corrientes y del SMN; modelos Agrofy News (Open-Meteo) y Meteored solo como contraste",
+   "act": "03/11, 21:25 h (alertas del COE); modelos: ver criterio"
+  },
+  "Monte Caseros": {
+   "hoy": {
+    "mm": 29.3,
+    "horas": 8
+   },
+   "manana": {
+    "mm": 6.2,
+    "horas": 12
+   },
+   "smn": "Alerta amarilla del COE 2026-0063-AT para el miércoles 4/11 (03:00 a 20:59 h): el departamento está incluido; la Capital no. Ninguna está en curso a las 21:25 h del 03/11; el listado oficial no informa milímetros. Los avisos del SMN difundidos por la prensa no se pudieron reconfirmar en origen. Parte del SMN para la ciudad de Corrientes (La Nación, 08:46 h): mañana tormentas fuertes por la mañana y la tarde (70 %), chaparrones por la noche (40 %); jueves 5/11 sin lluvia (0 %).",
+   "modelos": {
+    "hoy": [
+     [
+      "Agrofy (Open-Meteo)",
+      0.0
+     ]
+    ],
+    "manana": [
+     [
+      "Agrofy (Open-Meteo)",
+      6.2
+     ]
+    ]
+   },
+   "criterio": "Aviso amarillo del SMN para Corrientes (20 a 40 mm, valor medio 30 mm; las fuentes difieren en si alcanza a este departamento: El Litoral lo extiende a toda la provincia) hoy; mañana, aviso naranja del SMN sin milímetros y departamento fuera de la lista del COE: único modelo disponible, Agrofy (Open-Meteo, 6,2 mm, corrida del 02/11, sin actualizar). Estimación derivada; vigilar nuevos avisos. Hoy se muestra la lluvia que resta del día desde las 10 h (reparto corrido 4 h, igual que la Capital). Parte del SMN para la ciudad (La Nación, 08:46 h): hoy tormentas fuertes por la mañana (70 %), chaparrones por la tarde (40 %) y tormentas aisladas por la noche (40 %); mañana tormentas fuertes por la mañana y por la tarde (70 %) y chaparrones por la noche (40 %); jueves 5/11 sin lluvia (0 %). Nota del 03/11/2026, 21:25 h: este valor se arrastra de la estimación anterior, que tomaba el rango de 40 a 80 mm difundido por la prensa; el listado oficial del COE ya no lo respalda (alertas del 4/11 sin milímetros) y no hay una corrida de modelo actualizada y verificable para esta ciudad. No es un pronóstico oficial confirmado.",
+   "fuente": "Alertas del COE de Corrientes y del SMN; modelos Agrofy News (Open-Meteo) y Meteored solo como contraste",
+   "act": "03/11, 21:25 h (alertas del COE); modelos: ver criterio"
+  },
+  "Saladas": {
+   "hoy": {
+    "mm": 58.6,
+    "horas": 8
+   },
+   "manana": {
+    "mm": 60.0,
+    "horas": 16
+   },
+   "smn": "Alerta naranja del COE 2026-0018-NT para el miércoles 4/11 (03:00 a 20:59 h): el departamento está incluido. Ninguna está en curso a las 21:25 h del 03/11; el listado oficial no informa milímetros. Los avisos del SMN difundidos por la prensa no se pudieron reconfirmar en origen. Parte del SMN para la ciudad de Corrientes (La Nación, 08:46 h): mañana tormentas fuertes por la mañana y la tarde (70 %), chaparrones por la noche (40 %); jueves 5/11 sin lluvia (0 %).",
+   "modelos": {
+    "hoy": [
+     [
+      "Agrofy (Open-Meteo)",
+      0.3
+     ]
+    ],
+    "manana": [
+     [
+      "Agrofy (Open-Meteo)",
+      40.4
+     ]
+    ]
+   },
+   "criterio": "Aviso oficial con milímetros (COE, 40 a 80 mm): valor medio, 60 mm para hoy y mañana. El reparto horario copia el patrón del modelo de Agrofy escalado a 60 mm y corrido 4 h porque la lluvia del modelo prevista para las 6 a 8 h no se registró (SNIH hasta las 8 h: 0,25 mm) y el SMN ubica el pico a media mañana; hoy se muestra la lluvia que resta del día desde las 10 h. Estimación derivada, no una medición. Nota del 03/11/2026, 21:25 h: este valor se arrastra de la estimación anterior, que tomaba el rango de 40 a 80 mm difundido por la prensa; el listado oficial del COE ya no lo respalda (alertas del 4/11 sin milímetros) y no hay una corrida de modelo actualizada y verificable para esta ciudad. No es un pronóstico oficial confirmado.",
+   "fuente": "Alertas del COE de Corrientes y del SMN; modelos Agrofy News (Open-Meteo) y Meteored solo como contraste",
+   "act": "03/11, 21:25 h (alertas del COE); modelos: ver criterio"
+  }
+ },
+ "antecedentes": {
+  "Paso de la Patria": [
+   {
+    "f": "02/11/2026",
+    "t": "Defensa Civil: 228 desplazados (8 evacuados y 220 autoevacuados), frente a 110 una semana antes; es el distrito con mayor aumento. Río en 7,36 m.",
+    "s": "Defensa Civil (El Monterizo)",
+    "u": "https://elmonterizo.com/el-parana-bajo-pero-en-corrientes-hay-220-personas-mas-fuera-de-sus-casas"
+   },
+   {
+    "f": "30/10/2026",
+    "t": "Defensa Civil mantiene los programas de asistencia a las familias afectadas por la crecida.",
+    "s": "Defensa Civil (Examedia, Diario Época)",
+    "u": "https://examedia.com.ar/portada/post/88147066"
+   },
+   {
+    "f": "28/10/2026",
+    "t": "Defensa Civil de Corrientes incluye a Paso de la Patria entre las localidades más complejas de la crecida (la provincia suma 440 evacuados y 1.056 autoevacuados); el INA prevé niveles altos con descenso en el corto plazo y posibles nuevos repuntes desde el 1/11.",
+    "s": "Defensa Civil (Infobae)",
+    "u": "https://www.infobae.com/sociedad/2026/10/28/el-nino-chaco-tiene-mas-de-2200-afectados-por-las-inundaciones-y-en-corrientes-se-reportaron-otros-1500/"
+   },
+   {
+    "f": "27/10/2026",
+    "t": "Río en 7,74 m. Más de 150 familias autoevacuadas y cuatro evacuadas por el municipio; cerca del 40 % del pueblo inundado, con sectores aislados: barrios Don Julián, La Isla y Pescadores, zona de La Rioja y 8 de Diciembre y zona sur por el desborde del arroyo Guajó. El intendente advierte que a 8,50 m podría quedar incomunicado.",
+    "s": "La Nación (Prefectura, Defensa Civil)",
+    "u": "https://www.lanacion.com.ar/sociedad/pueblo-sitiado-ya-son-mas-de-150-las-familias-evacuadas-en-paso-de-la-patria-y-anticipan-una-nueva-nid27102026/"
+   },
+   {
+    "f": "26/10/2026",
+    "t": "24 evacuados y 86 autoevacuados, con el río en 7,71 m. La presión sobre el arroyo Guajó amenaza los barrios Señorans, Rincón y El Lirio; el polideportivo municipal funciona como refugio preventivo.",
+    "s": "Defensa Civil (Prensa Mercosur)",
+    "u": "https://prensamercosur.org/2026/10/26/crecida-del-parana-ya-son-mas-de-1-400-desplazados-en-la-provincia/"
+   },
+   {
+    "f": "21/10/2026",
+    "t": "Se rompió el terraplén con el río en 7,63 m: se anegaron los barrios Don Julián, La Isla y Pescadores.",
+    "s": "La Nación",
+    "u": "https://www.lanacion.com.ar/sociedad/el-rio-parana-rompio-las-defensas-de-una-importante-ciudad-turistica-e-inundo-tres-barrios-nid21102026/"
+   }
+  ],
+  "Corrientes Capital": [
+   {
+    "f": "02/11/2026",
+    "t": "Defensa Civil: 672 personas afectadas (652 una semana antes). Río en 7,13 m según el CIM/UNL (7,15 m según El Monterizo). No se informan barrios anegados nuevos.",
+    "s": "Defensa Civil (El Monterizo)",
+    "u": "https://elmonterizo.com/el-parana-bajo-pero-en-corrientes-hay-220-personas-mas-fuera-de-sus-casas"
+   },
+   {
+    "f": "01/11/2026",
+    "t": "El Paraná comienza a bajar en la Capital (7,23 m, estacionado). Más de 1.600 evacuados y autoevacuados en la provincia según TN24; no se informan barrios o zonas anegadas nuevas.",
+    "s": "Examedia (TN24)",
+    "u": "https://examedia.com.ar/portada/post/88157648"
+   },
+   {
+    "f": "30/10/2026",
+    "t": "Defensa Civil mantiene la alerta: la onda de crecida se concentra entre la Capital y Esquina. La Escuela N.º 293 es el refugio principal de la ciudad, con al menos seis comedores comunitarios de apoyo.",
+    "s": "Defensa Civil (Examedia, Diario Época)",
+    "u": "https://examedia.com.ar/portada/post/88147066"
+   },
+   {
+    "f": "25/10/2026",
+    "t": "588 autoevacuados; además, 64 personas en el centro de la Escuela N.º 293 Donato Álvarez, en el barrio Pujol, con asistencia alimentaria y sanitaria.",
+    "s": "Relevamiento difundido por Noticias de la Calle",
+    "u": "https://www.noticiasdelacalle.com.ar/noticias/2026/10/25/203175-mas-de-1400-evacuados-en-corrientes-y-la-armada-se-sumo-al-operativo-de-asistencia"
+   },
+   {
+    "f": "24/10/2026",
+    "t": "El COE informa más de 550 evacuados y autoevacuados en la provincia, con el Paraná en 7,43 m en la capital.",
+    "s": "COE (El Tribuno)",
+    "u": "https://www.eltribuno.com/nacionales/2026-10-24-23-2-0-videos-crecida-de-los-rios-e-inundaciones-las-causas-de-la-emergencia-en-chaco-y-corrientes"
+   },
+   {
+    "f": "21/10/2026",
+    "t": "480 personas autoevacuadas en la ciudad, con el río en 7,37 m.",
+    "s": "Defensa Civil (El Litoral)",
+    "u": "https://www.ellitoral.com.ar/sociedad/2026-10-21-16-26-0-crecida-de-los-rios-parana-y-uruguay-ya-hay-mas-de-1-000-personas-afectadas-en-corrientes"
+   },
+   {
+    "f": "21/10/2026",
+    "t": "Con el Paraná en 7,07 m, el agua ingresó a viviendas del barrio Anahí, en el norte de la ciudad.",
+    "s": "Elonce",
+    "u": "https://www.elonce.com/sociedad/la-crecida-del-rio-parana-rompio-una-defensa-en-una-ciudad-turistica-de-corrientes-y-el-agua-inundo-varios-barrios.htm"
+   }
+  ],
+  "Itatí": [
+   {
+    "f": "02/11/2026",
+    "t": "Defensa Civil: 518 desplazados (190 evacuados y 328 autoevacuados), frente a 475 una semana antes. Río en 7,57 m, sobre su evacuación.",
+    "s": "Defensa Civil (El Monterizo)",
+    "u": "https://elmonterizo.com/el-parana-bajo-pero-en-corrientes-hay-220-personas-mas-fuera-de-sus-casas"
+   },
+   {
+    "f": "30/10/2026",
+    "t": "Defensa Civil mantiene la asistencia a las familias evacuadas; en la provincia los evacuados bajaron de unos 700 a 440 y los autoevacuados superan los 1.000.",
+    "s": "Defensa Civil (Examedia, Diario Época)",
+    "u": "https://examedia.com.ar/portada/post/88147066"
+   },
+   {
+    "f": "28/10/2026",
+    "t": "Defensa Civil de Corrientes la incluye entre las localidades más complejas de la crecida (la provincia suma 440 evacuados y 1.056 autoevacuados).",
+    "s": "Defensa Civil (Infobae)",
+    "u": "https://www.infobae.com/sociedad/2026/10/28/el-nino-chaco-tiene-mas-de-2200-afectados-por-las-inundaciones-y-en-corrientes-se-reportaron-otros-1500/"
+   },
+   {
+    "f": "25/10/2026",
+    "t": "475 evacuados (108 familias), alojados en la Casa del Promesero y el hospedaje Taba Cué; es la localidad más afectada de la provincia.",
+    "s": "Relevamiento difundido por Noticias de la Calle",
+    "u": "https://www.noticiasdelacalle.com.ar/noticias/2026/10/25/203175-mas-de-1400-evacuados-en-corrientes-y-la-armada-se-sumo-al-operativo-de-asistencia"
+   },
+   {
+    "f": "21/10/2026",
+    "t": "Casi 200 personas trasladadas a centros de evacuación por la crecida del Paraná.",
+    "s": "La Nación",
+    "u": "https://www.lanacion.com.ar/sociedad/el-rio-parana-rompio-las-defensas-de-una-importante-ciudad-turistica-e-inundo-tres-barrios-nid21102026/"
+   }
+  ],
+  "Goya": [
+   {
+    "f": "02/11/2026",
+    "t": "Zona del puerto: 36 autoevacuados (Defensa Civil); 34 familias autoevacuadas el 1/11 según el COE. Río estacionado en 6,09 m, con refuerzo de defensas cerca del puerto.",
+    "s": "Defensa Civil, COE (El Monterizo, infogoya.com)",
+    "u": "https://infogoya.com/parana-estable-6-09-metros-goya-coe/"
+   },
+   {
+    "f": "24/10/2026",
+    "t": "Un temporal con lluvia intensa, granizo y ráfagas afectó zonas rurales del departamento.",
+    "s": "Infobae",
+    "u": "https://www.infobae.com/sociedad/2026/10/24/inundaciones-evacuados-y-aislados-las-imagenes-del-caos-que-provoco-el-nino-en-neuquen-chaco-y-corrientes/"
+   },
+   {
+    "f": "21/10/2026",
+    "t": "El río en 5,48 m cubrió el paseo inferior de la costanera; el pico se espera entre el 22 y el 27 de octubre, con más de 6 m.",
+    "s": "La Nación",
+    "u": "https://www.lanacion.com.ar/sociedad/el-rio-parana-rompio-las-defensas-de-una-importante-ciudad-turistica-e-inundo-tres-barrios-nid21102026/"
+   },
+   {
+    "f": "1998",
+    "t": "Gran inundación: unas 4.000 personas sin hogar solo en Goya y la ruta 12 cortada por la caída de un puente.",
+    "s": "Norte Corrientes",
+    "u": "https://www.nortecorrientes.com/132068-a-veinte-anos-de-la-gran-inundacion-de-goya-y-corrientes-la-posibilidad-de-un-desastre-natural-sigue-latente"
+   }
+  ],
+  "Bella Vista": [
+   {
+    "f": "02/11/2026",
+    "t": "Defensa Civil: 19 desplazados (16 una semana antes). Río en 6,53 m, sobre su evacuación.",
+    "s": "Defensa Civil (El Monterizo)",
+    "u": "https://elmonterizo.com/el-parana-bajo-pero-en-corrientes-hay-220-personas-mas-fuera-de-sus-casas"
+   },
+   {
+    "f": "Abril de 2016",
+    "t": "Con casi 300 mm en un día, se anegaron los barrios Centenario, Hospital, Norte, Aguilar, 100 Viviendas y la zona de la Laguna del Mercado; hubo casas con hasta un metro y medio de agua.",
+    "s": "El Litoral",
+    "u": "https://www.ellitoral.com.ar/corrientes/2016-4-19-1-0-0-por-lluvias-evacuaron-80-personas-en-bella-vista-y-por-crecida-del-rio-10-familias-dejaban-sus-casas"
+   }
+  ],
+  "Santo Tomé": [
+   {
+    "f": "Octubre de 2024",
+    "t": "Con 80 a 110 mm se anegaron el barrio Centenario, las Chacras 44 y 45, el barrio Juan José Benetti y el barrio Estación; creció el arroyo Picardía por alcantarillas obstruidas.",
+    "s": "El Territorio",
+    "u": "https://www.elterritorio.com.ar/noticias/2024/10/24/839503-santo-tome-inundaciones-y-anegamientos-tras-intensas-lluvias"
+   },
+   {
+    "f": "2023",
+    "t": "Crecida del Uruguay y desborde de arroyos internos: unas 300 personas evacuadas.",
+    "s": "Perfil",
+    "u": "https://www.perfil.com/noticias/actualidad/inundaciones-en-corrientes-mas-de-500-evacuados-por-crecida-del-rio-uruguay-y-desborde-de-arroyos.phtml"
+   }
+  ],
+  "Alvear": [
+   {
+    "f": "2023",
+    "t": "Crecida del Uruguay y desborde de arroyos internos: más de 100 personas evacuadas.",
+    "s": "Perfil",
+    "u": "https://www.perfil.com/noticias/actualidad/inundaciones-en-corrientes-mas-de-500-evacuados-por-crecida-del-rio-uruguay-y-desborde-de-arroyos.phtml"
+   }
+  ],
+  "Mercedes": [
+   {
+    "f": "2023",
+    "t": "Desborde de arroyos internos tras lluvias intensas: unas 50 personas evacuadas.",
+    "s": "Perfil",
+    "u": "https://www.perfil.com/noticias/actualidad/inundaciones-en-corrientes-mas-de-500-evacuados-por-crecida-del-rio-uruguay-y-desborde-de-arroyos.phtml"
+   }
+  ],
+  "Paso de los Libres": [
+   {
+    "f": "02/11/2026",
+    "t": "Defensa Civil: 31 evacuados. El río Uruguay bajó a 7,03 m (CTM, 07:00 h), bajo su alerta.",
+    "s": "Defensa Civil (El Monterizo)",
+    "u": "https://elmonterizo.com/el-parana-bajo-pero-en-corrientes-hay-220-personas-mas-fuera-de-sus-casas"
+   },
+   {
+    "f": "24/10/2026",
+    "t": "Con el río Uruguay en 7,88 m, el agua llegó a la calle y al paseo costero.",
+    "s": "Infobae",
+    "u": "https://www.infobae.com/sociedad/2026/10/24/inundaciones-evacuados-y-aislados-las-imagenes-del-caos-que-provoco-el-nino-en-neuquen-chaco-y-corrientes/"
+   },
+   {
+    "f": "Octubre de 2026",
+    "t": "El arroyo Yatay, que no puede desaguar en el Uruguay crecido, afecta a dos barrios de la ciudad; unas 30 personas evacuadas.",
+    "s": "Examedia",
+    "u": "https://examedia.com.ar/portada/post/88072281"
+   },
+   {
+    "f": "1983",
+    "t": "La inundación afectó los sectores cercanos al río, el ex galpón fiscal y la cabecera del puente internacional.",
+    "s": "Diario Época",
+    "u": "https://www.diarioepoca.com/1392639-asi-se-vivieron-las-inundaciones-de-1983-en-paso-de-los-libres"
+   }
+  ],
+  "Ituzaingó": [
+   {
+    "f": "02/11/2026",
+    "t": "Defensa Civil: 17 desplazados en Ituzaingó (14 una semana antes) y 119 evacuados en la isla Apipé, a quienes se pidió no regresar por ahora. Ituzaingó en nivel de alerta (3,76 m).",
+    "s": "Defensa Civil (El Monterizo, Infobae)",
+    "u": "https://elmonterizo.com/el-parana-bajo-pero-en-corrientes-hay-220-personas-mas-fuera-de-sus-casas"
+   },
+   {
+    "f": "30/10/2026",
+    "t": "Defensa Civil mantiene la asistencia en Ituzaingó y en la isla Apipé; la semana anterior se evacuaron familias en Cecilio Echevarría.",
+    "s": "Defensa Civil (Examedia, Diario Época)",
+    "u": "https://examedia.com.ar/portada/post/88147066"
+   },
+   {
+    "f": "28/10/2026",
+    "t": "Defensa Civil de Corrientes incluye a la isla Apipé, frente a Ituzaingó, entre las zonas más complejas de la crecida (la provincia suma 440 evacuados y 1.056 autoevacuados).",
+    "s": "Defensa Civil (Infobae)",
+    "u": "https://www.infobae.com/sociedad/2026/10/28/el-nino-chaco-tiene-mas-de-2200-afectados-por-las-inundaciones-y-en-corrientes-se-reportaron-otros-1500/"
+   },
+   {
+    "f": "26/10/2026",
+    "t": "Isla Apipé, frente a Ituzaingó, inundada en un 50 %, partida en dos y con la ruta cortada; más de 100 evacuados según el intendente. El paso Ituzaingó–Ayolas sigue cerrado al menos hasta el 30/10.",
+    "s": "Infobae",
+    "u": "https://www.infobae.com/sociedad/2026/10/26/el-nino-el-paso-por-yacyreta-continua-cerrado-por-el-nivel-del-parana-mientras-la-creciente-volvio-al-rio-uruguay/"
+   },
+   {
+    "f": "25/10/2026",
+    "t": "En la isla Apipé, 114 evacuados (63 familias), alojados en viviendas municipales.",
+    "s": "Relevamiento difundido por Noticias de la Calle",
+    "u": "https://www.noticiasdelacalle.com.ar/noticias/2026/10/25/203175-mas-de-1400-evacuados-en-corrientes-y-la-armada-se-sumo-al-operativo-de-asistencia"
+   },
+   {
+    "f": "21/10/2026",
+    "t": "19 evacuados, con el río en 4,58 m; además, 76 evacuados en la isla Apipé.",
+    "s": "Defensa Civil (El Litoral)",
+    "u": "https://www.ellitoral.com.ar/sociedad/2026-10-21-16-26-0-crecida-de-los-rios-parana-y-uruguay-ya-hay-mas-de-1-000-personas-afectadas-en-corrientes"
+   }
+  ],
+  "Cruz de los Milagros": [
+   {
+    "f": "02/11/2026",
+    "t": "Defensa Civil: 24 desplazados, sin cambios respecto de la semana anterior.",
+    "s": "Defensa Civil (El Monterizo)",
+    "u": "https://elmonterizo.com/el-parana-bajo-pero-en-corrientes-hay-220-personas-mas-fuera-de-sus-casas"
+   },
+   {
+    "f": "21/10/2026",
+    "t": "17 personas autoevacuadas por la crecida.",
+    "s": "Defensa Civil (El Litoral)",
+    "u": "https://www.ellitoral.com.ar/sociedad/2026-10-21-16-26-0-crecida-de-los-rios-parana-y-uruguay-ya-hay-mas-de-1-000-personas-afectadas-en-corrientes"
+   }
+  ],
+  "Santa Lucía": [
+   {
+    "f": "02/11/2026",
+    "t": "Defensa Civil: 21 autoevacuados (28 una semana antes).",
+    "s": "Defensa Civil (El Monterizo)",
+    "u": "https://elmonterizo.com/el-parana-bajo-pero-en-corrientes-hay-220-personas-mas-fuera-de-sus-casas"
+   },
+   {
+    "f": "24/10/2026",
+    "t": "Un temporal con lluvia intensa, granizo y ráfagas afectó zonas rurales.",
+    "s": "Infobae",
+    "u": "https://www.infobae.com/sociedad/2026/10/24/inundaciones-evacuados-y-aislados-las-imagenes-del-caos-que-provoco-el-nino-en-neuquen-chaco-y-corrientes/"
+   },
+   {
+    "f": "21/10/2026",
+    "t": "10 personas autoevacuadas por la crecida.",
+    "s": "Defensa Civil (El Litoral)",
+    "u": "https://www.ellitoral.com.ar/sociedad/2026-10-21-16-26-0-crecida-de-los-rios-parana-y-uruguay-ya-hay-mas-de-1-000-personas-afectadas-en-corrientes"
+   }
+  ],
+  "Lavalle": [
+   {
+    "f": "24/10/2026",
+    "t": "Un temporal con lluvia intensa, granizo y ráfagas afectó zonas rurales del departamento.",
+    "s": "Infobae",
+    "u": "https://www.infobae.com/sociedad/2026/10/24/inundaciones-evacuados-y-aislados-las-imagenes-del-caos-que-provoco-el-nino-en-neuquen-chaco-y-corrientes/"
+   }
+  ],
+  "Perugorría": [
+   {
+    "f": "24/10/2026",
+    "t": "Un temporal con lluvia intensa, granizo y ráfagas afectó zonas rurales.",
+    "s": "Infobae",
+    "u": "https://www.infobae.com/sociedad/2026/10/24/inundaciones-evacuados-y-aislados-las-imagenes-del-caos-que-provoco-el-nino-en-neuquen-chaco-y-corrientes/"
+   }
+  ],
+  "Esquina": [
+   {
+    "f": "30/10/2026",
+    "t": "Defensa Civil ubica la onda de crecida entre la Capital y Esquina, con niveles altos y descenso lento.",
+    "s": "Defensa Civil (Examedia, Diario Época)",
+    "u": "https://examedia.com.ar/portada/post/88147066"
+   }
+  ]
+ },
+ "pron_actualizado": "03/11/2026, 21:25 h",
+ "smn": [
+  {
+   "id_oficial": "2026-0018-NT",
+   "tipo": "alerta",
+   "aviso": "Alerta naranja del COE de Corrientes por tormentas, miércoles 4/11 (15 departamentos, incluida la Capital)",
+   "nivel": "naranja",
+   "fenomeno": "Tormentas",
+   "rango_mm": null,
+   "zonas": "Berón de Astrada, Capital, Empedrado, General Alvear, General Paz, Itatí, Ituzaingó, Mburucuyá, Paso de los Libres, Saladas, San Cosme, San Luis del Palmar, San Martín, San Miguel y Santo Tomé",
+   "desde": "04/11/2026, 03:00 h",
+   "hasta": "04/11/2026, 20:59 h",
+   "emision": "no visible en el listado del COE (detalle individual no recuperable)",
+   "desde_iso": "2026-11-04T03:00:00-03:00",
+   "hasta_iso": "2026-11-04T20:59:00-03:00",
+   "emision_iso": null,
+   "incluye_corrientes": true,
+   "incluye_capital": true,
+   "url": "https://coe.corrientes.gob.ar/a/2026-0018-NT",
+   "origen": "COE"
+  },
+  {
+   "id_oficial": "2026-0063-AT",
+   "tipo": "alerta",
+   "aviso": "Alerta amarilla del COE de Corrientes por tormentas, miércoles 4/11 (10 departamentos, sin la Capital)",
+   "nivel": "amarillo",
+   "fenomeno": "Tormentas",
+   "rango_mm": null,
+   "zonas": "Bella Vista, Concepción, Curuzú Cuatiá, Esquina, Goya, Lavalle, Mercedes, Monte Caseros, San Roque y Sauce",
+   "desde": "04/11/2026, 03:00 h",
+   "hasta": "04/11/2026, 20:59 h",
+   "emision": "no visible en el listado del COE (detalle individual no recuperable)",
+   "desde_iso": "2026-11-04T03:00:00-03:00",
+   "hasta_iso": "2026-11-04T20:59:00-03:00",
+   "emision_iso": null,
+   "incluye_corrientes": true,
+   "incluye_capital": false,
+   "url": "https://coe.corrientes.gob.ar/a/2026-0063-AT",
+   "origen": "COE"
+  }
+ ]
+}

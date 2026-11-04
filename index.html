@@ -1,0 +1,554 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style><meta name="description" content="Ríos Paraná y Uruguay, alertas meteorológicas, lluvia medida, pronóstico, evacuados y simuladores de anegamiento para la provincia de Corrientes. Datos de fuentes oficiales."><meta name="theme-color" content="#0c3f52"><link rel="manifest" href="/manifest.webmanifest"><link rel="icon" href="/icons/icon-192.png"><link rel="apple-touch-icon" href="/icons/apple-touch-icon.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Tablero Ctes"><meta property="og:type" content="website"><meta property="og:title" content="Fenómeno de El Niño: Tablero Ciudadano de Corrientes"><meta property="og:description" content="Ríos Paraná y Uruguay, alertas meteorológicas, lluvia medida, pronóstico, evacuados y simuladores de anegamiento para la provincia de Corrientes. Datos de fuentes oficiales."><meta property="og:url" content="https://tablerocorrientes.github.io/"><meta property="og:image" content="https://tablerocorrientes.github.io/assets/og.png"><meta name="twitter:card" content="summary_large_image"><script src="/site.js" defer></script></head><body>
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Fenómeno de El Niño: Tablero Ciudadano de Corrientes</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..100,400..800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#e7edee;--card:#f6f8f8;--ink:#13262d;--ink2:#4a5d64;--soft:#7d8e94;--line:#c6d2d5;--water:#1f6f8b;--track:#dde5e7;--med:#1f6f8b;--prn:#6b4fbb;
+ --ok:#25724f;--okb:#dcece3;--warn:#9a7a12;--warnb:#f3ead0;--bad:#a3261d;--badb:#f5dcd9;
+ color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0e1a1f;--card:#152429;--ink:#e4eef0;--ink2:#a8bcc2;--soft:#7a8f96;--line:#29404a;--water:#3f9fc0;--track:#223640;--med:#3f9fc0;--prn:#9a85e6;
+ --ok:#6cc79a;--okb:#16302a;--warn:#e0c25a;--warnb:#2e2915;--bad:#f08a80;--badb:#3a1c1a;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0e1a1f;--card:#152429;--ink:#e4eef0;--ink2:#a8bcc2;--soft:#7a8f96;--line:#29404a;--water:#3f9fc0;--track:#223640;--med:#3f9fc0;--prn:#9a85e6;
+ --ok:#6cc79a;--okb:#16302a;--warn:#e0c25a;--warnb:#2e2915;--bad:#f08a80;--badb:#3a1c1a;color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}*,*::before,*::after{box-sizing:inherit}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Archivo,"Helvetica Neue",Arial,sans-serif;line-height:1.4;font-variant-numeric:tabular-nums}
+.w{max-width:640px;margin:0 auto;padding:14px 14px 36px}
+.hero{border-radius:18px;color:#fff;padding:16px;background:radial-gradient(120% 80% at 80% 0%,#4d6a75 0%,rgba(77,106,117,0) 60%),linear-gradient(180deg,#1b2a31 0%,#29424c 55%,#1f6f8b 100%)}
+.hero .k{margin:0;font-weight:700;font-size:.85rem;color:#9fd8ec}
+.hero h1{margin:2px 0 0;font-stretch:78%;font-weight:800;font-size:clamp(1.6rem,7vw,2.2rem);line-height:1.05}
+.hero .u{margin:8px 0 0;font-size:.8rem;color:#cfe3ea}
+.gauge{margin-top:14px;background:rgba(255,255,255,.1);border-radius:14px;padding:12px}
+.gauge .top{display:flex;justify-content:space-between;align-items:baseline}
+.gauge .v{font-stretch:80%;font-weight:800;font-size:2.4rem;line-height:1}
+.gauge .lab{font-size:.82rem;color:#cfe3ea}
+.pill{display:inline-block;font-size:.75rem;font-weight:800;padding:3px 9px;border-radius:999px}
+.p-ok{background:var(--okb);color:var(--ok)}.p-warn{background:var(--warnb);color:var(--warn)}.p-bad{background:var(--badb);color:var(--bad)}.p-n{background:var(--track);color:var(--ink2)}
+.kpis{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:12px}
+.kpi{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:10px 12px}
+.kpi .n{font-stretch:80%;font-weight:800;font-size:1.7rem;line-height:1.05}
+.kpi .t{font-size:.78rem;color:var(--ink2)}
+.sec{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:12px 12px 10px;margin-top:12px}
+.sec h2{margin:0 0 2px;font-stretch:85%;font-size:1.1rem}
+.sec .s{margin:0 0 8px;font-size:.78rem;color:var(--ink2)}
+.row{display:grid;grid-template-columns:96px 1fr 62px;gap:8px;align-items:center;padding:5px 0;border-top:1px solid var(--line)}
+.row:first-of-type{border-top:0}
+.row .nm{font-size:.84rem;font-weight:700;line-height:1.15}
+.row .nm small{display:block;font-weight:500;color:var(--soft);font-size:.7rem}
+.row .val{text-align:right;font-weight:800;font-size:.9rem;line-height:1.1}
+.row .val small{display:block;font-weight:600;font-size:.72rem}
+.up{color:var(--bad)}.down{color:var(--ok)}.flat{color:var(--soft)}
+svg{display:block;width:100%;height:auto}
+.leg{display:flex;flex-wrap:wrap;gap:10px;font-size:.72rem;color:var(--ink2);margin-top:6px}
+.leg i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:4px;vertical-align:-1px}
+table{width:100%;border-collapse:collapse;font-size:.84rem}
+td{padding:7px 4px;border-top:1px solid var(--line);vertical-align:top}
+tr:first-child td{border-top:0}
+.cards{display:grid;gap:8px}
+.card{border-left:4px solid var(--water);background:var(--bg);border-radius:10px;padding:8px 10px;font-size:.82rem}
+.card b{display:block;font-size:.78rem;color:var(--ink2);font-weight:700;margin-bottom:2px}
+.links{display:grid;gap:8px;margin-top:12px}
+.links a{display:flex;justify-content:space-between;align-items:center;gap:8px;padding:12px 14px;border-radius:14px;background:var(--card);border:1px solid var(--line);color:var(--ink);text-decoration:none;font-weight:700}
+.links a span{font-size:.78rem;font-weight:500;color:var(--ink2);display:block}
+.links a::after{content:"→";color:var(--water);font-weight:800}
+details.x{border-top:1px solid var(--line);padding:6px 0}
+details.x:first-of-type{border-top:0}
+details.x summary{cursor:pointer;list-style:none;display:flex;gap:8px;align-items:flex-start;font-size:.84rem}
+details.x summary::-webkit-details-marker{display:none}
+details.x summary::before{content:"+";flex:none;width:18px;height:18px;border-radius:50%;background:var(--track);color:var(--water);font-weight:800;display:flex;align-items:center;justify-content:center;font-size:.85rem;margin-top:1px}
+details.x[open] summary::before{content:"−"}
+details.x .dt{font-size:.82rem;color:var(--ink2);margin:6px 0 2px 26px}
+details.x .dt a{color:var(--water)}
+.meta{display:block;font-size:.72rem;color:var(--soft);font-weight:600}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{display:inline-flex;align-items:center;gap:6px;padding:7px 11px;border-radius:999px;background:var(--bg);border:1px solid var(--line);font-size:.84rem;color:var(--ink);text-decoration:none}
+.chip b{color:var(--water)}
+.hm{overflow-x:auto;max-width:100%}
+html,body{overflow-x:hidden}
+.hm table{border-collapse:separate;border-spacing:2px;font-size:.7rem;width:auto;table-layout:auto}
+.hm th{min-width:16px;max-width:16px;white-space:nowrap;overflow:visible;font-size:.62rem}
+.hm td,.hm th{padding:0;border:0;text-align:center}
+.hm th{font-weight:600;color:var(--soft);padding:0 1px 2px}
+.hm td.c{width:16px;min-width:16px;max-width:16px;height:16px;border-radius:3px}
+.hm td.n{text-align:left;padding:2px 6px 2px 0;white-space:normal;min-width:96px;max-width:112px;line-height:1.15;font-weight:700;font-size:.72rem;position:sticky;left:0;z-index:3;background:var(--card);box-shadow:4px 0 6px -4px rgba(0,0,0,.25)}
+.hm th:first-child{position:sticky;left:0;z-index:3;background:var(--card)}
+.hm td.c{position:relative;z-index:1}
+.seg button{font:inherit;font-size:.82rem;font-weight:700;cursor:pointer;border:1px solid var(--line);background:var(--bg);color:var(--ink);border-radius:999px;padding:7px 12px}
+.seg button[aria-pressed="true"]{background:var(--water);color:#fff;border-color:var(--water)}
+
+.blk{border-radius:18px;overflow:hidden;margin-top:16px;border:2px solid var(--med);background:var(--card)}
+.blk.prn{border-color:var(--prn)}
+.bh{display:flex;gap:12px;align-items:flex-start;padding:14px 14px 12px;color:#fff;background:linear-gradient(135deg,#0c3f52 0%,#1f6f8b 100%)}
+.prn .bh{background:linear-gradient(135deg,#33246a 0%,#6b4fbb 100%)}
+.bh svg{flex:none;width:44px;height:44px}
+.bh .tag{display:inline-block;font-size:.68rem;font-weight:800;letter-spacing:.06em;background:rgba(255,255,255,.2);border-radius:4px;padding:1px 6px;margin-bottom:3px}
+.bh h2{margin:0;font-size:1.2rem;line-height:1.15;color:#fff}
+.bh p{margin:3px 0 0;font-size:.78rem;color:rgba(255,255,255,.88);line-height:1.35}
+.stamp{display:inline-flex;align-items:center;gap:6px;margin-top:8px;background:#fff;color:#0c3f52;border-radius:999px;padding:4px 11px;font-weight:800;font-size:.8rem}
+.prn .stamp{color:#33246a}
+.stamp::before{content:"";width:8px;height:8px;border-radius:50%;background:currentColor}
+.blk .sec{border:0;border-radius:0;margin:0;border-top:1px solid var(--line);background:transparent}
+.blk .sec:first-of-type{border-top:0}
+.bsrc{font-size:.72rem;color:var(--ink2);padding:9px 14px;background:var(--bg);border-top:1px solid var(--line)}
+.bsrc b{color:var(--ink)}
+.dual{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:12px}
+.dual div{border-radius:14px;padding:10px 12px;color:#fff;font-size:.78rem;line-height:1.3}
+.dual b{display:block;font-size:.9rem;letter-spacing:.03em}
+.dual .m{background:linear-gradient(135deg,#0c3f52,#1f6f8b)}
+.dual .f{background:linear-gradient(135deg,#33246a,#6b4fbb)}
+.simbox{margin-top:14px;border-radius:18px;overflow:hidden;color:#fff;background:radial-gradient(120% 90% at 85% 0%,#4d6a75 0%,rgba(77,106,117,0) 60%),linear-gradient(160deg,#16303a 0%,#1f6f8b 60%,#4b3a8f 100%);box-shadow:0 6px 18px rgba(0,0,0,.18)}
+.simh{padding:16px 16px 6px}
+.simh .tag{display:inline-block;font-size:.68rem;font-weight:800;letter-spacing:.06em;border-radius:4px;padding:1px 6px}
+.simh h2{margin:6px 0 4px;font-size:1.35rem;line-height:1.12;color:#fff;text-shadow:0 1px 3px rgba(0,0,0,.4)}
+.simh p{margin:0;font-size:.86rem;line-height:1.4;color:#eaf4f7}
+.simh p b{color:#fff}
+.simg{display:grid;gap:10px;padding:12px 14px 6px}
+.simc{display:flex;gap:12px;align-items:center;background:#fff;color:#13262d;border-radius:14px;padding:12px;text-decoration:none;box-shadow:0 3px 10px rgba(0,0,0,.18)}
+.simc svg{flex:none;width:58px;height:58px}
+.simc .sk{display:block;font-size:.72rem;font-weight:800;letter-spacing:.04em;color:#1f6f8b;text-transform:uppercase}
+.simc:nth-child(2) .sk{color:#6b4fbb}
+.simc b{display:block;font-size:1.08rem;line-height:1.15}
+.simc .sd{display:block;font-size:.8rem;color:#4a5d64;margin-top:2px}
+.simc::after{content:"→";margin-left:auto;font-weight:800;font-size:1.3rem;color:#1f6f8b}
+.simn{margin:4px 16px 14px;font-size:.74rem;color:#d7e6eb}
+details.pz{border-top:1px solid var(--line)}
+details.pz summary{list-style:none;cursor:pointer}
+details.pz summary::-webkit-details-marker{display:none}
+details.pz .row{border-top:0}
+.pzh{display:inline-block;font-size:.72rem;font-weight:700;color:var(--water);margin-left:4px}
+.pzh::after{content:" ▾"}
+details.pz[open] .pzh::after{content:" ▴"}
+details.pz[open] .pzh{color:var(--ink2)}
+.pzb{padding:6px 0 12px}
+.src td:first-child{font-weight:700;width:42%}
+.foot{font-size:.76rem;color:var(--ink2);margin-top:14px}
+.foot b{display:block;color:var(--ink)}
+a:focus-visible{outline:3px solid #e3ad1f;outline-offset:2px}
+</style>
+</head>
+<body>
+<div class="w">
+<div class="hero">
+  <p class="k">Provincia de Corrientes</p>
+  <h1>Fenómeno de El Niño, tablero provincial</h1>
+  <p class="u" id="upd"></p>
+  <div class="gauge" aria-label="Altura del río Paraná en Corrientes">
+    <div class="top"><div><div class="lab">Paraná en Corrientes</div><div class="v" id="gv">—</div></div><div style="text-align:right"><span class="pill" id="gp"></span><div class="lab" id="gt" style="margin-top:4px"></div></div></div>
+    <svg id="gsvg" viewBox="0 0 320 44" role="img" aria-label="Escala de altura del río"></svg>
+  </div>
+</div>
+
+<div class="kpis">
+  <div class="kpi"><div class="n" id="k1">—</div><div class="t">puertos del Paraná sobre la cota de evacuación</div></div>
+  <div class="kpi"><div class="n" id="k2">—</div><div class="t" id="k2t">lluvia medida en Corrientes Capital, últimas 24 h</div></div>
+  <div class="kpi"><div class="n" id="k3">—</div><div class="t" id="k3t">mayor lluvia de la provincia, 24 h</div></div>
+  <div class="kpi"><div class="n" id="k4">—</div><div class="t">pasos fronterizos cerrados o restringidos</div></div>
+</div>
+
+<div class="sec" id="alertBox" style="margin-top:14px"><h2 style="display:flex;align-items:center;gap:8px"><span aria-hidden="true">⚠</span>Alertas meteorológicas</h2><div id="alertL"></div><figure id="satFig" hidden style="margin:12px 0 0"></figure><div id="alertMap"></div><div id="alertK" style="display:flex;flex-wrap:wrap;gap:6px;margin-top:10px"></div><p class="s" style="margin:6px 0 0">Siga las lluvias en tiempo real con el radar y el satélite del Servicio Meteorológico Nacional.</p></div>
+
+<div class="simbox" id="simuladores">
+  <div class="simh"><span class="tag" style="background:#fff;color:#0c3f52">HERRAMIENTAS</span><h2>Simuladores de lluvia y anegamiento</h2>
+  <p>Herramientas de simulación que combinan <b>datos de fuentes oficiales</b> (lluvia medida por estaciones, pronóstico del SMN y del COE, altura del río según Prefectura) con <b>modelos matemáticos y lógicos</b> de escurrimiento, capacidad de desagüe y efecto tapón, para estimar si su zona puede anegarse hoy y mañana.</p></div>
+  <div class="simg">
+    <a class="simc" href="/barrio/"><svg viewBox="0 0 100 100" aria-hidden="true"><rect x="0.00" y="0.00" width="100.00" height="100.00" rx="22.00" fill="#1f6f8b"/><clipPath id="cCap"><rect x="0.00" y="0.00" width="100.00" height="100.00" rx="22.00"/></clipPath><g clip-path="url(#cCap)"><path d="M0.00 62.00 C16.00 58.00 30.00 66.00 50.00 62.00 C70.00 58.00 84.00 66.00 100.00 62.00 L100.00 100.00 L0.00 100.00 Z" fill="#5aa6bf"/></g><path d="M24.00 80.00 L24.00 46.00 L46.00 27.00 L68.00 46.00 L68.00 80.00 Z" fill="none" stroke="#fff" stroke-width="6.50" stroke-linejoin="round"/><path d="M40.00 80.00 L40.00 63.00 L52.00 63.00 L52.00 80.00" fill="none" stroke="#fff" stroke-width="5.00" stroke-linejoin="round"/><path d="M8.00 62.00 C16.00 58.00 30.00 66.00 50.00 62.00 C70.00 58.00 84.00 66.00 94.00 62.00" fill="none" stroke="#fff" stroke-width="4.50" stroke-linecap="round"/><path d="M76.00 40.00 L90.00 40.00 L83.00 51.00 Z" fill="#fff"/><path d="M78.00 55.50 L88.00 55.50" stroke="#fff" stroke-width="3.00" stroke-linecap="round"/><path d="M30.00 10.00 L27.00 18.00" stroke="#fff" stroke-width="3.60" stroke-linecap="round" opacity=".85"/><path d="M52.00 8.00 L49.00 16.00" stroke="#fff" stroke-width="3.60" stroke-linecap="round" opacity=".85"/><path d="M74.00 14.00 L71.00 22.00" stroke="#fff" stroke-width="3.60" stroke-linecap="round" opacity=".85"/></svg><div><span class="sk">Corrientes Capital</span><b>Simulador por barrio</b><span class="sd">Elija su barrio y el tipo de calzada: estimación del agua en su calle.</span></div></a>
+    <a class="simc" href="/provincia/"><svg viewBox="0 0 100 100" aria-hidden="true"><rect width="100" height="100" rx="22" fill="#6b4fbb"/><path d="M50 18c-13 0-23 10-23 23 0 17 23 39 23 39s23-22 23-39c0-13-10-23-23-23z" fill="none" stroke="#fff" stroke-width="6.5" stroke-linejoin="round"/><circle cx="50" cy="41" r="8.5" fill="#fff"/><path d="M14 86c8-5 14-5 22 0s14 5 22 0 14-5 22 0" fill="none" stroke="#cfc3f5" stroke-width="5" stroke-linecap="round"/><path d="M80 14l-3 8M88 20l-3 8M72 22l-3 8" stroke="#fff" stroke-width="3.6" stroke-linecap="round" opacity=".85"/></svg><div><span class="sk">Toda la provincia</span><b>Simulador por localidad</b><span class="sd">68 localidades: lluvia real, pronóstico y altura del río en su puerto.</span></div></a>
+  </div>
+  <p class="simn">Son simulaciones con fines informativos; no reemplazan los avisos oficiales.</p>
+</div>
+
+<div class="dual" aria-label="Dos tipos de información de lluvia">
+  <div class="m"><b>● LLUVIA MEDIDA</b>Lluvia real ya caída, registrada por estaciones meteorológicas (SNIH)<span id="dMed" style="display:block;margin-top:5px;font-weight:800"></span></div>
+  <div class="f"><b>● PRONÓSTICO</b>Lluvia esperada para hoy y mañana (SMN, COE y modelos)<span id="dPrn" style="display:block;margin-top:5px;font-weight:800"></span></div>
+</div>
+
+
+
+<div class="sec"><h2>Río Paraná, por puerto</h2><p class="s" id="sP"></p><div id="par"></div><div id="parN"></div>
+  <div class="leg"><span><i style="background:var(--ok)"></i>Normal</span><span><i style="background:var(--warn)"></i>Alerta</span><span><i style="background:var(--bad)"></i>Evacuación</span><span>Marcas: cota de alerta y de evacuación</span></div></div>
+
+<div class="sec"><h2>Personas evacuadas y autoevacuadas</h2><p class="s" id="sE"></p>
+  <div id="evTot" style="display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin:2px 0 10px"></div>
+  <div class="seg" id="evSeg" role="tablist" style="display:flex;gap:6px;margin:0 0 8px;flex-wrap:wrap"><button data-m="ult" aria-pressed="true">Último parte por localidad</button><button data-m="acum" aria-pressed="false">Acumulado de partes de Defensa Civil</button></div>
+  <div id="evac"></div>
+  <div class="leg"><span><i style="background:var(--bad)"></i>Evacuados (en centros)</span><span><i style="background:var(--warn)"></i>Autoevacuados</span></div>
+  <p class="s" style="margin-top:12px;font-weight:700;color:var(--ink)">Centros de evacuados informados</p><div id="centros"></div>
+  <p class="s" style="margin-top:10px">Evolución del total provincial</p><svg id="evserie" viewBox="0 0 320 120" role="img" aria-label="Evolución de personas evacuadas"></svg>
+  <p class="s" id="eF" style="margin-top:6px"></p></div>
+
+<div class="sec" id="histSec"><h2>Río Paraná en Corrientes: evolución de la altura</h2><p class="s" id="hS"></p>
+  <svg id="hChart" viewBox="0 0 340 190" role="img" aria-label="Evolución diaria de la altura del río Paraná en el puerto de Corrientes"></svg>
+  <div class="leg"><span><i style="background:var(--water)"></i>Altura diaria (m)</span><span><i style="background:var(--warn)"></i>Cota de alerta</span><span><i style="background:var(--bad)"></i>Cota de evacuación</span></div>
+  <p class="s" id="hF" style="margin-top:8px"></p>
+  <div id="hPron" style="margin-top:12px"></div></div>
+
+<div class="sec" id="multiSec" hidden><h2>Puertos del Paraná y del Uruguay: evolución de la altura</h2><p class="s" id="mS"></p><div id="multi"></div>
+  <div class="leg"><span><i style="background:var(--water)"></i>Altura diaria</span><span><i style="background:var(--warn)"></i>Cota de alerta del puerto</span><span><i style="background:var(--bad)"></i>Cota de evacuación del puerto</span></div></div>
+
+<div class="sec"><h2>Río Uruguay, por puerto</h2><p class="s" id="sU"></p><div id="uru"></div><div id="uruN"></div></div>
+
+<div class="blk med" id="blkMed">
+  <div class="bh"><svg viewBox="0 0 44 44" aria-hidden="true"><rect x="13" y="6" width="18" height="32" rx="4" fill="none" stroke="#fff" stroke-width="2.5"/><rect x="15.5" y="22" width="13" height="13.5" rx="2" fill="#8fd3ea"/><path d="M9 6h26" stroke="#fff" stroke-width="2.5" stroke-linecap="round"/><path d="M31 14h4M31 20h4M31 26h4M31 32h4" stroke="#fff" stroke-width="2" stroke-linecap="round"/></svg><div><span class="tag">MEDIDO</span><h2>Lluvia real caída</h2><p>Registrada por las estaciones meteorológicas telemétricas de la provincia, consultadas en forma periódica. Es lluvia que ya cayó, no un pronóstico.</p><span class="stamp" id="medStamp">Última medición: sin datos</span></div></div>
+<div class="sec"><h2>Lluvia en Corrientes Capital, hora por hora</h2><p class="s" id="sL"></p><svg id="lcap" viewBox="0 0 320 120" role="img" aria-label="Lluvia hora por hora en la Capital"></svg></div>
+
+<div class="sec"><h2>Lluvia en la provincia, últimas 24 h</h2><p class="s">Estaciones con mayor registro, en mm</p><div id="lprov"></div></div>
+
+<div class="sec"><h2>Mapa de calor de la lluvia REGISTRADA, últimas 24 horas</h2><p class="s"><b>Lluvia ya caída, medida por las estaciones del SNIH. No es pronóstico</b> (el pronóstico está en su propio cuadro más abajo). Cada casilla es una hora; cuanto más oscuro, más lluvia.</p><div id="heatI"></div><div class="hm" id="heat"></div>
+  <div class="leg"><span><i style="background:var(--track)"></i>0 mm</span><span><i style="background:#b7dbe7"></i>hasta 2</span><span><i style="background:#5aa6bf"></i>2 a 10</span><span><i style="background:#1f6f8b"></i>10 a 20</span><span><i style="background:#0b3a4a"></i>más de 20</span><span>Casilla punteada: sin dato</span></div></div>
+
+  <div class="bsrc"><b id="fMed">Última actualización: sin datos.</b><br><b>Fuente:</b> Sistema Nacional de Información Hídrica (SNIH), Secretaría de Infraestructura y Política Hídrica de la Nación; estaciones del ICAA, INTA y Red Iberá. Datos crudos del sensor.</div>
+</div>
+
+<div class="blk prn" id="blkPrn">
+  <div class="bh"><svg viewBox="0 0 44 44" aria-hidden="true"><path d="M12 28a7 7 0 0 1 1-13.9A9 9 0 0 1 30.5 13 7.5 7.5 0 0 1 32 28z" fill="none" stroke="#fff" stroke-width="2.5" stroke-linejoin="round"/><circle cx="31" cy="31" r="8" fill="#6b4fbb" stroke="#fff" stroke-width="2.5"/><path d="M31 27v4l3 2" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><path d="M14 33l-2 5M20 33l-2 5" stroke="#cfc3f5" stroke-width="2.2" stroke-linecap="round"/></svg><div><span class="tag">PRONÓSTICO</span><h2>Lluvia esperada</h2><p>Lo que se prevé que llueva hoy y mañana. Prioridad al aviso oficial; los modelos reparten la lluvia por hora.</p><span class="stamp" id="prnStamp">Actualizado: sin datos</span></div></div>
+<div class="sec"><h2>Corrientes Capital: lluvia pronosticada hora por hora</h2><p class="s" id="sHC"></p><svg id="hcap" viewBox="0 0 340 130" role="img" aria-label="Lluvia pronosticada hora por hora en Corrientes Capital"></svg>
+  <div class="leg"><span><i style="background:var(--prn)"></i>Pronóstico por hora</span><span><i style="background:var(--prn);opacity:.3"></i>Horas ya transcurridas</span></div></div>
+
+<div class="sec"><h2>Pronóstico de lluvia por ciudad</h2><p class="s" id="sF"></p><div id="pron"></div>
+  <div class="leg"><span><i style="background:var(--prn)"></i>Hoy</span><span><i style="background:#b8a9ec"></i>Mañana</span></div></div>
+  <div class="bsrc"><b id="fPrn">Última actualización: sin datos.</b><br><b>Fuentes:</b> Servicio Meteorológico Nacional (SMN) y COE de Corrientes, avisos oficiales; modelos Open-Meteo (vía Agrofy News) y Meteored, solo para la distribución horaria.</div>
+</div>
+
+<div class="sec"><h2>Lluvia y desagües: efecto tapón por ciudad</h2><p class="s">Riesgo de anegamiento por el río alto. Toque una ciudad para ver el detalle.</p><div id="tapon"></div><div id="taponG"></div></div>
+
+<div class="sec"><h2>Zonas y barrios en riesgo</h2><p class="s">Situación actual y antecedentes documentados</p><div id="zonas"></div></div>
+
+
+
+<div class="sec"><h2>Pasos fronterizos y rutas</h2><p class="s" id="sX"></p><div id="pasos"></div><p class="s" style="margin-top:10px">Rutas</p><div id="rutas"></div></div>
+
+<div class="sec" id="ebyBox" style="border:2px solid var(--warn);background:var(--warnb)" hidden><h2 style="display:flex;align-items:center;gap:8px"><span aria-hidden="true">⚠</span>Comunicados de Yacyretá</h2><p class="s" style="margin:0 0 8px">La Entidad Binacional Yacyretá informa lo que ocurre aguas arriba de Corrientes: caudales, lluvias en la cuenca y maniobras de la represa.</p><p class="s" id="ebyMeta" style="color:var(--ink2)"></p><p id="ebyTxt" style="margin:0 0 6px;font-size:.92rem;font-weight:600;color:var(--ink)"></p><div id="ebyMas"></div></div>
+
+<div class="sec"><h2>Partes oficiales</h2><p class="s" id="sPO"></p><div id="partes"></div></div>
+
+<div class="sec"><h2>Resumen de prensa</h2><p class="s" id="sPR"></p><div id="prensa"></div></div>
+
+<div class="sec"><h2>Teléfonos útiles</h2><div class="chips" id="tel"></div><p class="s" style="margin-top:10px">Canales oficiales</p><div class="chips" id="canales"></div></div>
+
+<div class="links">
+  <a href="/barrio/"><div>Simulador por barrio<span>Corrientes Capital: ¿se anega mi calle hoy y mañana?</span></div></a>
+  <a href="/provincia/"><div>Simulador provincial<span>68 localidades, lluvia real y pronóstico</span></div></a>
+</div>
+
+<div class="sec"><h2>Fuentes oficiales y actualización</h2><p class="s" id="hor"></p><table class="src">
+  <tr><td>SNIH, Secretaría de Infraestructura y Política Hídrica</td><td>Lluvia medida en estaciones telemétricas, cada 2 horas</td></tr>
+  <tr><td>Prefectura Naval Argentina (CIM, UNL)</td><td>Altura de los ríos, dos veces por día</td></tr>
+  <tr><td>SMN y COE de Corrientes</td><td>Alertas meteorológicas, dos veces por día</td></tr>
+  <tr><td>Defensa Civil, EBY, Vialidad</td><td>Evacuados, pasos y rutas, dos veces por día</td></tr>
+</table></div>
+
+<p class="foot"><b>Mag. Ing. Marcelo Cerdán</b>Analista Científico y Político Independiente. Información con fines de divulgación, no reemplaza los avisos oficiales. Emergencias: Defensa Civil 103.</p>
+</div>
+
+<script type="application/json" id="puertos-data" data-src="/data/puertos.json"></script>
+<script type="application/json" id="lluvia-data" data-src="/data/lluvia.json"></script>
+<script type="application/json" id="sat-data" data-src="/data/sat.json"></script>
+<script type="application/json" id="hist-data" data-src="/data/hist.json"></script>
+<script type="application/json" id="evac-data" data-src="/data/evac.json"></script>
+<script type="application/json" id="pron-data" data-src="/data/pron.json"></script>
+<script type="text/plain" id="main-js">
+(function(){
+var D=JSON.parse(document.getElementById('puertos-data').textContent), L=null;
+try{L=JSON.parse(document.getElementById('lluvia-data').textContent);}catch(e){}
+var $=function(i){return document.getElementById(i);};
+function nf(x,d){return (+x).toLocaleString('es-AR',{minimumFractionDigits:d||0,maximumFractionDigits:d||0});}
+function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
+function st(p){return p.altura>=p.evacuacion?'bad':p.altura>=p.alerta?'warn':'ok';}
+var LBL={bad:'Evacuación',warn:'Alerta',ok:'Normal'};
+function trend(v){if(v==null)return '<small class="flat">sin variación</small>';var c=v>0.005?'up':v<-0.005?'down':'flat',a=v>0.005?'▲':v<-0.005?'▼':'■';return '<small class="'+c+'">'+a+' '+(v>0?'+':'')+nf(v,2)+'</small>';}
+$('upd').textContent='Ríos: '+(D.actualizado||'')+'. Lluvia: '+(L&&L.actualizado?L.actualizado:'sin datos')+'.';
+
+/* indicador del Paraná en Corrientes */
+var C=(D.puertos||[]).filter(function(p){return p.puerto==='Corrientes';})[0];
+if(C){var s=st(C);$('gv').textContent=nf(C.altura,2)+' m';$('gp').className='pill p-'+s;$('gp').textContent=LBL[s];
+  $('gt').innerHTML=trend(C.variacion).replace('<small','<span').replace('</small>','</span>')+' <span style="color:#cfe3ea">('+esc(C.registro)+')</span>';
+  var lo=3,hi=9,x=function(h){return 8+(Math.min(hi,Math.max(lo,h))-lo)/(hi-lo)*304;},g='';
+  g+='<rect x="8" y="14" width="304" height="10" rx="5" fill="rgba(255,255,255,.18)"/>';
+  g+='<rect x="'+x(C.alerta)+'" y="14" width="'+(x(C.evacuacion)-x(C.alerta))+'" height="10" fill="#e0c25a" opacity=".55"/>';
+  g+='<rect x="'+x(C.evacuacion)+'" y="14" width="'+(312-x(C.evacuacion))+'" height="10" rx="0" fill="#f08a80" opacity=".55"/>';
+  g+='<circle cx="'+x(C.altura)+'" cy="19" r="7" fill="#fff" stroke="#13262d" stroke-width="2"/>';
+  for(var m=3;m<=9;m++)g+='<text x="'+x(m)+'" y="40" text-anchor="middle" font-size="9" fill="#cfe3ea" font-family="Archivo,sans-serif">'+m+' m</text>';
+  g+='<text x="'+x(C.alerta)+'" y="10" text-anchor="middle" font-size="8.5" fill="#f3ead0" font-family="Archivo,sans-serif">alerta</text><text x="'+x(C.evacuacion)+'" y="10" text-anchor="start" font-size="8.5" fill="#f5dcd9" font-family="Archivo,sans-serif">evacuación</text>';
+  $('gsvg').innerHTML=g;}
+
+/* barras por puerto */
+function filas(list,box){var h='';list.forEach(function(p){var s=st(p),mx=Math.max(p.evacuacion*1.25,p.altura*1.05),W=200;
+  var xa=p.alerta/mx*W,xe=p.evacuacion/mx*W,xv=Math.min(W,p.altura/mx*W);
+  var col=s==='bad'?'var(--bad)':s==='warn'?'var(--warn)':'var(--ok)';
+  h+='<div class="row"><div class="nm">'+esc(p.puerto)+'<small>'+esc(p.registro||'')+'</small></div>'
+   +'<svg viewBox="0 0 200 18" aria-label="'+esc(p.puerto)+' '+nf(p.altura,2)+' metros"><rect x="0" y="5" width="200" height="8" rx="4" fill="var(--track)"/><rect x="0" y="5" width="'+xv.toFixed(1)+'" height="8" rx="4" fill="'+col+'"/>'
+   +'<line x1="'+xa.toFixed(1)+'" y1="1" x2="'+xa.toFixed(1)+'" y2="17" stroke="var(--warn)" stroke-width="2"/><line x1="'+xe.toFixed(1)+'" y1="1" x2="'+xe.toFixed(1)+'" y2="17" stroke="var(--bad)" stroke-width="2"/></svg>'
+   +'<div class="val">'+nf(p.altura,2)+' m'+trend(p.variacion)+'</div></div>';});
+  box.innerHTML=h;}
+var P=D.puertos||[], U=D.puertos_uruguay||[];
+filas(P,$('par')); filas(U,$('uru'));
+var nb=P.filter(function(p){return st(p)==='bad';}).length;
+$('k1').textContent=nb+' de '+P.length;
+$('sP').textContent='Altura en metros y variación diaria. '+nb+' puertos sobre evacuación.';
+$('sU').textContent=U.filter(function(p){return st(p)==='ok';}).length+' de '+U.length+' puertos en nivel normal.';
+
+/* lluvia */
+var est=(L&&L.estaciones)||[];
+function tot(s){return s.total!=null?s.total:(s.valores||[]).reduce(function(a,v){return a+(v||0);},0);}
+var capS=est.filter(function(s){return /^Corrientes Capital/.test(s.localidad);});
+if(capS.length){var vals=[],cols=L.columnas||[];for(var i=0;i<(capS[0].valores||[]).length;i++){var mxv=null;capS.forEach(function(s){var v=(s.valores||[])[i];if(v!=null)mxv=Math.max(mxv==null?0:mxv,v);});vals.push(mxv);}
+  var t24=Math.max.apply(null,capS.map(tot));$('k2').textContent=nf(t24,1)+' mm';
+  var top=Math.max(10,Math.max.apply(null,vals.map(function(v){return v||0;}))),bw=304/vals.length,g='';
+  g+='<defs><linearGradient id="gm" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5ab4d3"/><stop offset="1" stop-color="#0c3f52"/></linearGradient></defs>';[0.5,1].forEach(function(f){g+='<line x1="8" y1="'+(96-f*86).toFixed(1)+'" x2="312" y2="'+(96-f*86).toFixed(1)+'" stroke="var(--line)" stroke-dasharray="2 3"/><text x="312" y="'+(94-f*86).toFixed(1)+'" text-anchor="end" font-size="8" fill="var(--soft)" font-family="Archivo,sans-serif">'+nf(top*f)+' mm</text>';});
+  vals.forEach(function(v,i){var bh=(v||0)/top*86;g+='<rect x="'+(8+i*bw+1).toFixed(1)+'" y="'+(96-bh).toFixed(1)+'" width="'+(bw-2).toFixed(1)+'" height="'+Math.max(v?2:0,bh).toFixed(1)+'" rx="2.5" fill="'+(v==null?'var(--track)':'url(#gm)')+'"/>'+(v>=0.5?'<text x="'+(8+i*bw+bw/2).toFixed(1)+'" y="'+(92-bh).toFixed(1)+'" text-anchor="middle" font-size="7.5" font-weight="700" fill="var(--ink)" font-family="Archivo,sans-serif">'+nf(v,1)+'</text>':'');
+    if(i%4===0)g+='<text x="'+(8+i*bw+bw/2).toFixed(1)+'" y="112" text-anchor="middle" font-size="8.5" fill="var(--soft)" font-family="Archivo,sans-serif">'+esc(String(cols[i]||'').replace(/^\d+\/\d+ /,''))+'</text>';});
+  g+='<line x1="8" y1="96.5" x2="312" y2="96.5" stroke="var(--ink2)"/>';
+  $('lcap').innerHTML=g;$('sL').innerHTML='<b style="font-size:1.05rem;color:var(--ink)">'+nf(t24,1)+' mm</b> caídos en 24 horas. Milímetros por hora; mayor valor de las estaciones ICAA y 13805.';}
+else{$('k2').textContent='Sin dato';$('sL').textContent='Sin registros cargados.';}
+var rank=est.filter(function(s){return !/^Corrientes Capital \(/.test(s.localidad);}).slice().sort(function(a,b){return tot(b)-tot(a);}).slice(0,8);
+if(rank.length){$('k3').textContent=nf(tot(rank[0]),1)+' mm';$('k3t').textContent='mayor lluvia medida en 24 h: '+rank[0].localidad;
+  var mx=Math.max(5,tot(rank[0])),h='';rank.forEach(function(s){var v=tot(s);h+='<div class="row" style="grid-template-columns:110px 1fr 54px"><div class="nm">'+esc(s.localidad)+'</div><svg viewBox="0 0 200 14"><rect x="0" y="3" width="200" height="8" rx="4" fill="var(--track)"/><rect x="0" y="3" width="'+Math.max(v>0?3:0,v/mx*200).toFixed(1)+'" height="8" rx="4" fill="var(--med)"/></svg><div class="val">'+nf(v,1)+' <small style="display:inline;color:var(--soft)">mm</small></div></div>';});
+  $('lprov').innerHTML=h;}
+else{$('k3').textContent='Sin dato';$('lprov').innerHTML='<p class="s">Sin registros cargados.</p>';}
+
+/* sellos de actualización */
+$('medStamp').textContent='Última medición: '+(L&&L.actualizado?L.actualizado:'sin datos');$('dMed').textContent='Medición: '+(L&&L.actualizado?L.actualizado:'sin datos');$('fMed').textContent='Última actualización de la lluvia medida: '+(L&&L.actualizado?L.actualizado:'sin datos')+'.';
+/* utilidades del historial: verificado/pendiente y cortes por datos faltantes */
+function hVer(l){return (l[2]||'verificado')==='verificado';}
+function hSegs(R,X,Y){var segs=[],cur=[];for(var i=0;i<R.length;i++){if(i>0){var dt=(Date.parse(R[i][0])-Date.parse(R[i-1][0]))/3600000;if(dt>36){if(cur.length)segs.push(cur);cur=[];}}cur.push(X(i).toFixed(1)+','+Y(R[i][1]).toFixed(1));}if(cur.length)segs.push(cur);return segs;}
+function hFd(s){return s.slice(8,10)+'/'+s.slice(5,7);}
+/* gráfico 1: Paraná en Corrientes */
+(function(){var HD=null;try{HD=JSON.parse(document.getElementById('hist-data').textContent);}catch(e){}
+  var S=HD&&HD.series&&HD.series.filter(function(s){return s.puerto==='Corrientes';})[0];
+  var RV=S?S.lecturas.filter(hVer).sort(function(a,b){return a[0]<b[0]?-1:1;}):[];
+  if(!S||RV.length<2){$('histSec').hidden=true;return;}
+  var RP=S.lecturas.filter(function(l){return !hVer(l);});
+  var ALL=S.lecturas.slice().sort(function(a,b){return a[0]<b[0]?-1:1;});
+  var vals=ALL.map(function(r){return r[1];}),lo=Math.min(Math.floor(Math.min.apply(null,vals)),S.alerta-1),hi=Math.max(Math.ceil(Math.max.apply(null,vals)*2)/2,S.evacuacion+0.5);
+  var t0=Date.parse(ALL[0][0]),t1=Date.parse(ALL[ALL.length-1][0]),X0=30,X1=332,Y0=16,Y1=160;
+  var Xt=function(ts){return X0+(t1>t0?(Date.parse(ts)-t0)/(t1-t0):0)*(X1-X0);},Y=function(v){return Y1-(v-lo)/(hi-lo)*(Y1-Y0);},g='';
+  g+='<defs><linearGradient id="hG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1f6f8b" stop-opacity=".4"/><stop offset="1" stop-color="#1f6f8b" stop-opacity=".03"/></linearGradient></defs>';
+  g+='<rect x="'+X0+'" y="'+Y0+'" width="'+(X1-X0)+'" height="'+(Y(S.evacuacion)-Y0)+'" fill="var(--bad)" opacity=".07"/><rect x="'+X0+'" y="'+Y(S.evacuacion)+'" width="'+(X1-X0)+'" height="'+(Y(S.alerta)-Y(S.evacuacion))+'" fill="var(--warn)" opacity=".08"/>';
+  for(var v=Math.ceil(lo);v<=hi;v++)g+='<line x1="'+X0+'" y1="'+Y(v)+'" x2="'+X1+'" y2="'+Y(v)+'" stroke="var(--line)" stroke-dasharray="2 3"/><text x="'+(X0-4)+'" y="'+(Y(v)+3)+'" text-anchor="end" font-size="8.5" fill="var(--soft)" font-family="Archivo,sans-serif">'+v+' m</text>';
+  [[S.evacuacion,'var(--bad)','Evacuación '+nf(S.evacuacion,2)+' m'],[S.alerta,'var(--warn)','Alerta '+nf(S.alerta,2)+' m']].forEach(function(c){g+='<line x1="'+X0+'" y1="'+Y(c[0])+'" x2="'+X1+'" y2="'+Y(c[0])+'" stroke="'+c[1]+'" stroke-width="1.6"/><text x="'+(X0+4)+'" y="'+(Y(c[0])-3)+'" font-size="8.5" font-weight="700" fill="'+c[1]+'" font-family="Archivo,sans-serif">'+c[2]+'</text>';});
+  hSegs(RV,function(i){return Xt(RV[i][0]);},Y).forEach(function(sg){if(sg.length>1)g+='<polyline points="'+sg.join(' ')+'" fill="none" stroke="var(--water)" stroke-width="2.4" stroke-linejoin="round"/>';});
+  var mx=RV[0];RV.forEach(function(r){if(r[1]>mx[1])mx=r;var c=r[1]>=S.evacuacion?'var(--bad)':r[1]>=S.alerta?'var(--warn)':'var(--water)';g+='<circle cx="'+Xt(r[0]).toFixed(1)+'" cy="'+Y(r[1]).toFixed(1)+'" r="2.4" fill="'+c+'"><title>'+hFd(r[0])+' '+r[0].slice(11,16)+' h: '+nf(r[1],2)+' m (verificada)</title></circle>';});
+  RP.forEach(function(r){g+='<circle cx="'+Xt(r[0]).toFixed(1)+'" cy="'+Y(r[1]).toFixed(1)+'" r="3" fill="var(--card)" stroke="var(--soft)" stroke-width="1.4" stroke-dasharray="2 1.5"><title>'+hFd(r[0])+' '+r[0].slice(11,16)+' h: '+nf(r[1],2)+' m (pendiente de verificación)</title></circle>';});
+  g+='<text x="'+Xt(mx[0]).toFixed(1)+'" y="'+(Y(mx[1])-7).toFixed(1)+'" text-anchor="middle" font-size="9" font-weight="800" fill="var(--ink)" font-family="Archivo,sans-serif">máx. '+nf(mx[1],2)+' m</text>';
+  var last=RV[RV.length-1];g+='<circle cx="'+Xt(last[0])+'" cy="'+Y(last[1])+'" r="4" fill="var(--card)" stroke="var(--ink)" stroke-width="2"/>';
+  [0,.33,.66,1].forEach(function(f){var ts=ALL[Math.round(f*(ALL.length-1))][0];g+='<text x="'+Math.min(X1-12,Math.max(X0+12,Xt(ts))).toFixed(1)+'" y="'+(Y1+13)+'" text-anchor="middle" font-size="8.5" fill="var(--soft)" font-family="Archivo,sans-serif">'+hFd(ts)+'</text>';});
+  $('hChart').innerHTML=g;
+  var nA=RV.filter(function(r){return r[1]>=S.alerta&&r[1]<S.evacuacion;}).length,nE=RV.filter(function(r){return r[1]>=S.evacuacion;}).length;
+  $('hS').innerHTML=RV.length+' lecturas verificadas del '+hFd(RV[0][0])+' al '+hFd(last[0])+(RP.length?' y <b>'+RP.length+' pendientes</b> de verificación (puntos huecos, fuera de los cálculos)':'')+'. Máximo: <b>'+nf(mx[1],2)+' m</b> el '+hFd(mx[0])+'. <b style="color:var(--bad)">'+nE+' días</b> sobre la cota de evacuación y '+nA+' en alerta. Última medición verificada: <b>'+nf(last[1],2)+' m</b>, el '+hFd(last[0])+' a las '+last[0].slice(11,16)+' h. Los días sin lectura publicada quedan como un corte en la línea, nunca como cero.';
+  $('hF').innerHTML='<b>Fuente:</b> '+esc(S.fuente)+'. Repositorio: '+esc(HD.repositorio)+', actualizado '+esc(HD.actualizado)+'. '+esc(HD.verificacion||'');
+  var P=HD.pronosticos||[];
+  $('hPron').innerHTML=P.length?'<div style="border-left:4px solid var(--prn);background:var(--bg);border-radius:10px;padding:10px 12px"><b style="display:block;font-size:.9rem;color:var(--prn)">Pronóstico hidrológico oficial</b>'+P.map(function(p){return '<p style="margin:6px 0 0;font-size:.84rem"><b>'+esc(p.rio)+'</b>: '+esc(p.tendencia)+'.<span class="meta">'+esc(p.organismo)+', emitido el '+esc(String(p.emision).split('-').reverse().join('/'))+', horizonte de '+esc(p.horizonte_dias)+' días. '+(p.tipo==='cualitativo'?'Pronóstico cualitativo: el organismo no publicó alturas numéricas. ':'')+'<a href="'+esc(p.url)+'" target="_blank" rel="noopener" style="color:var(--water)">Fuente</a></span></p>';}).join('')+((HD.pron_num||[]).length?'<p style="margin:10px 0 4px;font-size:.84rem;font-weight:700">Pronóstico numérico del INA (escenarios, no son lecturas)</p><table style="font-size:.8rem"><tr><th style="text-align:left">Puerto</th><th>Fecha</th><th>Mín.</th><th>Central</th><th>Máx.</th></tr>'+HD.pron_num.map(function(q){return '<tr><td style="text-align:left">'+esc(q.puerto)+'</td><td>'+esc(String(q.fecha_objetivo).split('-').reverse().join('/'))+'</td><td>'+nf(q.minimo_m,2)+'</td><td><b>'+nf(q.central_m,2)+'</b></td><td>'+nf(q.maximo_m,2)+'</td></tr>';}).join('')+'</table><span class="meta">Emitido el '+esc(String(HD.pron_num[0].emision).split('-').reverse().join('/'))+' por el INA. '+esc(HD.pron_aviso||'')+' <a href="'+esc(HD.pron_num[0].url)+'" target="_blank" rel="noopener" style="color:var(--water)">Fuente</a></span>':'')+'</div>':'';
+})();
+/* gráfico grande reutilizable para cualquier puerto */
+function hBig(s,uid){var ALL=s.lecturas.slice().sort(function(a,b){return a[0]<b[0]?-1:1;}),RV=ALL.filter(hVer),RP=ALL.filter(function(l){return !hVer(l);});
+  var vals=ALL.map(function(r){return r[1];}),lo=Math.min(Math.floor(Math.min.apply(null,vals)),Math.floor(s.alerta-1)),hi=Math.max(Math.ceil(Math.max.apply(null,vals)*2)/2,s.evacuacion+0.5);
+  var t0=Date.parse(ALL[0][0]),t1=Date.parse(ALL[ALL.length-1][0]),X0=30,X1=332,Y0=16,Y1=160;
+  var Xt=function(ts){return X0+(t1>t0?(Date.parse(ts)-t0)/(t1-t0):0.5)*(X1-X0);},Y=function(v){return Y1-(v-lo)/(hi-lo)*(Y1-Y0);},g='';
+  g+='<defs><linearGradient id="hG'+uid+'" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1f6f8b" stop-opacity=".4"/><stop offset="1" stop-color="#1f6f8b" stop-opacity=".03"/></linearGradient></defs>';
+  g+='<rect x="'+X0+'" y="'+Y0+'" width="'+(X1-X0)+'" height="'+Math.max(0,Y(s.evacuacion)-Y0)+'" fill="var(--bad)" opacity=".07"/><rect x="'+X0+'" y="'+Y(s.evacuacion)+'" width="'+(X1-X0)+'" height="'+(Y(s.alerta)-Y(s.evacuacion))+'" fill="var(--warn)" opacity=".08"/>';
+  var step=(hi-lo)>6?2:1;for(var v=Math.ceil(lo);v<=hi;v+=step)g+='<line x1="'+X0+'" y1="'+Y(v)+'" x2="'+X1+'" y2="'+Y(v)+'" stroke="var(--line)" stroke-dasharray="2 3"/><text x="'+(X0-4)+'" y="'+(Y(v)+3)+'" text-anchor="end" font-size="8.5" fill="var(--soft)" font-family="Archivo,sans-serif">'+v+' m</text>';
+  [[s.evacuacion,'var(--bad)','Evacuación '+nf(s.evacuacion,2)+' m'],[s.alerta,'var(--warn)','Alerta '+nf(s.alerta,2)+' m']].forEach(function(c){g+='<line x1="'+X0+'" y1="'+Y(c[0])+'" x2="'+X1+'" y2="'+Y(c[0])+'" stroke="'+c[1]+'" stroke-width="1.6"/><text x="'+(X0+4)+'" y="'+(Y(c[0])-3)+'" font-size="8.5" font-weight="700" fill="'+c[1]+'" font-family="Archivo,sans-serif">'+c[2]+'</text>';});
+  hSegs(RV,function(i){return Xt(RV[i][0]);},Y).forEach(function(sg){if(sg.length>1){g+='<polyline points="'+sg.join(' ')+'" fill="none" stroke="var(--water)" stroke-width="2.4" stroke-linejoin="round"/>';}});
+  var mx=RV[0];RV.forEach(function(r){if(r[1]>mx[1])mx=r;var c=r[1]>=s.evacuacion?'var(--bad)':r[1]>=s.alerta?'var(--warn)':'var(--water)';g+='<circle cx="'+Xt(r[0]).toFixed(1)+'" cy="'+Y(r[1]).toFixed(1)+'" r="2.6" fill="'+c+'"><title>'+hFd(r[0])+' '+r[0].slice(11,16)+' h: '+nf(r[1],2)+' m</title></circle>';});
+  RP.forEach(function(r){g+='<circle cx="'+Xt(r[0]).toFixed(1)+'" cy="'+Y(r[1]).toFixed(1)+'" r="3" fill="var(--card)" stroke="var(--soft)" stroke-width="1.4" stroke-dasharray="2 1.5"/>';});
+  g+='<text x="'+Math.min(X1-20,Math.max(X0+20,Xt(mx[0]))).toFixed(1)+'" y="'+(Y(mx[1])-7).toFixed(1)+'" text-anchor="middle" font-size="9" font-weight="800" fill="var(--ink)" font-family="Archivo,sans-serif">máx. '+nf(mx[1],2)+' m</text>';
+  var last=RV[RV.length-1];g+='<circle cx="'+Xt(last[0])+'" cy="'+Y(last[1])+'" r="4" fill="var(--card)" stroke="var(--ink)" stroke-width="2"/>';
+  [0,.33,.66,1].forEach(function(f){var ts=ALL[Math.round(f*(ALL.length-1))][0];g+='<text x="'+Math.min(X1-12,Math.max(X0+12,Xt(ts))).toFixed(1)+'" y="'+(Y1+13)+'" text-anchor="middle" font-size="8.5" fill="var(--soft)" font-family="Archivo,sans-serif">'+hFd(ts)+'</text>';});
+  var nE=RV.filter(function(r){return r[1]>=s.evacuacion;}).length,nA=RV.filter(function(r){return r[1]>=s.alerta&&r[1]<s.evacuacion;}).length;
+  return '<svg viewBox="0 0 340 178" role="img" aria-label="Evolución de la altura en '+esc(s.puerto)+'">'+g+'</svg><p class="s" style="margin:4px 0 0">'+RV.length+' lecturas verificadas del '+hFd(RV[0][0])+' al '+hFd(last[0])+'. Máximo: <b>'+nf(mx[1],2)+' m</b> el '+hFd(mx[0])+'. <b style="color:var(--bad)">'+nE+' días</b> sobre evacuación y '+nA+' en alerta. Última: <b>'+nf(last[1],2)+' m</b>, '+hFd(last[0])+' a las '+last[0].slice(11,16)+' h. Fuente: '+esc(s.fuente)+'.</p>';}
+/* gráfico 2: puertos del Paraná y del Uruguay, solo con lecturas verificadas */
+(function(){var HD=null;try{HD=JSON.parse(document.getElementById('hist-data').textContent);}catch(e){}
+  var SS=((HD&&HD.series)||[]).filter(function(s){return s.alerta!=null&&s.evacuacion!=null&&(s.lecturas||[]).filter(hVer).length>=2;});
+  if(SS.length<2)return;
+  $('multiSec').hidden=false;
+  var h='',cA=0,cE=0,nP=0;
+  ['Paraná','Uruguay'].forEach(function(rio){var LL=SS.filter(function(s){return s.rio===rio;});if(!LL.length)return;
+    h+='<p class="s" style="margin:10px 0 4px;font-weight:800;color:var(--ink)">Río '+rio+'</p>';
+    LL.forEach(function(s){var ALL=s.lecturas.slice().sort(function(a,b){return a[0]<b[0]?-1:1;}),RV=ALL.filter(hVer),RP=ALL.filter(function(l){return !hVer(l);});nP+=RP.length;
+      var vals=ALL.map(function(r){return r[1];}),lo=Math.min(Math.min.apply(null,vals),s.alerta)-0.3,hi=Math.max(Math.max.apply(null,vals),s.evacuacion)+0.3,W=170,Hh=50;
+      var t0=Date.parse(ALL[0][0]),t1=Date.parse(ALL[ALL.length-1][0]),Xt=function(ts){return 3+(t1>t0?(Date.parse(ts)-t0)/(t1-t0):0)*(W-6);},Y=function(v){return Hh-3-(v-lo)/(hi-lo)*(Hh-6);};
+      var mx=Math.max.apply(null,RV.map(function(r){return r[1];})),last=RV[RV.length-1];
+      var dE=RV.filter(function(r){return r[1]>=s.evacuacion;}),dA=RV.filter(function(r){return r[1]>=s.alerta&&r[1]<s.evacuacion;});
+      if(dE.length)cE++;else if(dA.length)cA++;
+      var g='<rect x="0" y="0" width="'+W+'" height="'+Y(s.evacuacion)+'" fill="var(--bad)" opacity=".07"/><line x1="0" y1="'+Y(s.evacuacion)+'" x2="'+W+'" y2="'+Y(s.evacuacion)+'" stroke="var(--bad)" stroke-width="1.2"/><line x1="0" y1="'+Y(s.alerta)+'" x2="'+W+'" y2="'+Y(s.alerta)+'" stroke="var(--warn)" stroke-width="1.2" stroke-dasharray="3 2"/>';
+      hSegs(RV,function(i){return Xt(RV[i][0]);},Y).forEach(function(sg){if(sg.length>1)g+='<polyline points="'+sg.join(' ')+'" fill="none" stroke="var(--water)" stroke-width="1.8" stroke-linejoin="round"/>';});
+      RV.forEach(function(r){var c=r[1]>=s.evacuacion?'var(--bad)':r[1]>=s.alerta?'var(--warn)':null;if(c)g+='<circle cx="'+Xt(r[0]).toFixed(1)+'" cy="'+Y(r[1]).toFixed(1)+'" r="2.4" fill="'+c+'"><title>'+hFd(r[0])+' '+r[0].slice(11,16)+' h: '+nf(r[1],2)+' m</title></circle>';});
+      RP.forEach(function(r){g+='<circle cx="'+Xt(r[0]).toFixed(1)+'" cy="'+Y(r[1]).toFixed(1)+'" r="2.6" fill="var(--card)" stroke="var(--soft)" stroke-width="1.2" stroke-dasharray="2 1.5"><title>Pendiente de verificación</title></circle>';});
+      g+='<circle cx="'+Xt(last[0])+'" cy="'+Y(last[1])+'" r="3" fill="var(--ink)"/>';
+      var badge=dE.length?'<span class="pill p-bad">'+dE.length+' días sobre evacuación</span>'+(dA.length?' <span class="pill p-warn">'+dA.length+' en alerta</span>':''):dA.length?'<span class="pill p-warn">'+dA.length+' días en alerta</span>':'<span class="pill p-ok">sin superar cotas</span>';
+      var uid=(s.puerto+s.rio).replace(/[^A-Za-z]/g,'');h+='<details class="pz"><summary><div class="row" style="grid-template-columns:104px 1fr 78px"><div class="nm">'+esc(s.puerto)+'<small>alerta '+nf(s.alerta,2)+' · evac. '+nf(s.evacuacion,2)+'</small></div><svg viewBox="0 0 '+W+' '+Hh+'" aria-label="'+esc(s.puerto)+'">'+g+'</svg><div class="val">'+nf(last[1],2)+' m<small style="color:var(--soft)">'+hFd(last[0])+' '+last[0].slice(11,16)+' h, máx. '+nf(mx,2)+'</small></div></div><div style="margin:-2px 0 8px">'+badge+(RP.length?' <span class="pill p-n">'+RP.length+' pendientes</span>':'')+' <span class="pzh">Ver gráfico ampliado</span></div></summary><div class="pzb">'+hBig(s,uid)+'</div></details>';});});
+  if(HD.observaciones&&HD.observaciones.length)h+='<div style="margin-top:10px;padding:8px 10px;border-radius:10px;background:var(--bg);font-size:.78rem;color:var(--ink2)"><b style="color:var(--ink)">Observaciones de la validación</b><ul style="margin:4px 0 0;padding-left:18px">'+HD.observaciones.map(function(o){return '<li>'+esc(o)+'</li>';}).join('')+'</ul>'+(HD.manifiesto?'<span class="meta" style="margin-top:4px">Manifiesto '+esc(HD.manifiesto.nombre)+', corrida '+esc(HD.manifiesto.corrida)+', validado el '+esc(HD.manifiesto.fecha_validacion)+'. SHA-256: '+esc(HD.manifiesto.sha256)+'.</span>':'')+'</div>';
+  $('multi').innerHTML=h;
+  $('mS').innerHTML=SS.length+' puertos con lecturas verificadas, cada uno con sus propias cotas oficiales. <b style="color:var(--bad)">'+cE+'</b> superaron la evacuación y <b style="color:var(--warn)">'+cA+'</b> solo la alerta. Toque un puerto para ver su gráfico ampliado. Puntos de color: días sobre la cota; puntos huecos: lecturas pendientes de verificación, fuera de los cálculos. Los días sin lectura publicada quedan como corte, nunca como cero.';
+})();
+/* mapa de alertas por departamento: ahora, hoy o mañana */
+(function(){var M={"w":340,"h":329.7,"deps":{"CAPITAL":"M86.6,9.5 L92.3,18.3 L91.0,26.6 L83.0,26.5 L69.0,33.3 L69.0,22.9 L70.3,20.7 L77.4,11.7 L86.6,9.5Z","ITATI":"M140.1,0.0 L152.8,1.3 L159.0,7.8 L153.1,13.2 L146.3,13.4 L135.1,9.8 L119.8,15.0 L114.5,10.5 L112.6,2.3 L121.8,0.2 L126.4,2.1 L140.1,0.0Z","BERON DE ASTRADA":"M166.7,6.3 L174.7,13.0 L183.2,17.6 L193.1,15.4 L188.4,22.8 L176.6,31.7 L169.0,25.3 L167.6,19.1 L156.5,15.9 L153.1,13.2 L159.0,7.8 L166.7,6.3Z","GENERAL PAZ":"M199.4,15.2 L205.4,19.3 L189.6,30.1 L169.8,52.6 L167.0,59.3 L161.1,64.7 L150.1,67.0 L140.9,63.2 L136.1,56.2 L138.3,50.8 L135.7,47.2 L122.4,51.7 L117.8,49.2 L117.8,45.4 L141.8,31.9 L156.5,15.9 L167.6,19.1 L169.0,25.3 L176.6,31.7 L188.4,22.8 L193.1,15.4 L199.4,15.2Z","MERCEDES":"M95.5,167.1 L99.7,157.7 L111.7,155.4 L123.4,141.8 L132.8,135.0 L149.7,133.1 L197.2,120.4 L209.4,115.3 L211.3,118.0 L213.0,127.8 L213.2,148.1 L209.7,154.1 L187.5,178.8 L182.4,193.6 L185.5,200.0 L185.0,204.2 L187.5,210.1 L184.5,215.5 L185.1,223.5 L178.1,237.6 L174.0,240.5 L171.2,235.8 L161.2,230.3 L156.5,217.9 L151.4,211.7 L139.0,209.5 L134.3,203.1 L122.4,195.5 L114.1,187.7 L103.5,172.5 L95.5,167.1Z","CONCEPCION":"M163.8,62.4 L168.7,66.7 L174.1,75.7 L172.8,80.6 L176.2,87.7 L172.5,97.7 L175.9,101.9 L173.2,113.8 L177.6,124.9 L149.7,133.1 L132.8,135.0 L123.4,141.8 L117.2,148.7 L110.6,139.2 L105.8,142.1 L99.8,141.9 L96.7,137.5 L97.3,134.8 L103.0,131.0 L105.5,123.3 L117.2,108.9 L108.8,95.5 L115.6,85.6 L139.2,70.5 L161.1,64.7 L163.8,62.4Z","SAN ROQUE":"M117.1,148.6 L110.5,156.0 L99.7,157.7 L95.5,167.1 L89.4,158.2 L78.7,153.1 L71.0,147.1 L64.1,146.8 L60.8,144.0 L64.2,138.5 L83.1,120.8 L86.9,115.0 L108.8,95.5 L117.2,108.9 L105.5,123.3 L103.0,131.0 L97.3,134.8 L96.7,137.5 L102.2,142.8 L110.6,139.2 L117.1,148.6Z","SALADAS":"M107.9,67.0 L114.4,79.3 L112.1,83.3 L114.7,88.5 L106.3,98.2 L88.3,114.1 L81.0,106.8 L75.2,90.5 L70.7,95.1 L64.1,97.8 L60.1,97.5 L52.1,91.3 L71.0,85.5 L74.4,81.4 L76.1,75.6 L87.9,68.6 L100.4,65.0 L107.9,67.0Z","MBURUCUYA":"M150.1,67.0 L139.2,70.5 L115.0,87.3 L112.1,83.3 L114.4,79.3 L107.9,67.0 L123.3,60.2 L127.0,56.6 L129.8,50.2 L135.7,47.2 L138.3,50.8 L136.1,56.2 L140.9,63.2 L150.1,67.0Z","SAN LUIS DEL PALMAR":"M114.3,10.0 L119.8,15.0 L135.1,9.8 L146.3,13.4 L152.8,13.1 L156.5,16.0 L141.8,31.9 L117.8,45.4 L117.8,49.2 L122.4,51.7 L131.9,48.6 L128.9,51.5 L126.1,58.0 L118.6,62.0 L114.6,54.6 L111.1,52.8 L109.7,46.2 L101.2,43.2 L97.3,39.1 L92.6,40.1 L90.9,26.1 L92.3,18.3 L100.6,10.9 L108.4,8.1 L114.3,10.0Z","SANTO TOME":"M293.3,47.3 L318.9,64.0 L320.8,69.4 L326.1,68.6 L329.3,73.0 L328.5,76.2 L332.0,76.3 L332.4,78.8 L340.0,83.5 L339.0,87.2 L326.5,94.5 L335.9,101.8 L334.1,110.1 L331.9,110.5 L328.6,105.4 L318.6,104.7 L316.5,109.1 L318.2,115.8 L307.7,118.5 L306.3,121.3 L307.8,127.9 L298.6,135.2 L293.0,143.5 L286.9,144.3 L283.7,146.9 L280.2,138.9 L276.2,135.6 L281.6,126.8 L278.3,113.7 L266.3,110.3 L267.9,98.3 L267.1,93.8 L261.7,88.5 L257.1,90.2 L239.7,86.7 L244.3,82.7 L248.1,70.7 L253.6,67.1 L264.0,49.0 L275.2,59.3 L280.7,55.9 L284.0,59.3 L285.5,55.4 L288.5,54.3 L289.3,51.1 L293.3,47.3Z","GENERAL ALVEAR":"M267.8,110.6 L277.2,113.1 L279.5,116.8 L281.6,126.8 L276.2,135.6 L280.2,138.9 L281.3,143.7 L283.7,146.2 L283.7,154.9 L274.4,163.3 L275.3,167.8 L273.6,172.9 L266.3,174.2 L262.8,176.7 L261.7,176.5 L261.1,169.0 L255.4,154.1 L253.2,138.2 L256.6,134.1 L255.8,126.0 L263.5,113.5 L267.8,110.6Z","SAN MARTIN":"M255.5,89.9 L262.4,88.8 L267.7,96.3 L267.0,110.3 L255.8,126.0 L256.6,134.1 L253.2,138.2 L255.4,154.1 L262.2,174.8 L254.8,184.7 L254.5,191.3 L250.2,199.8 L244.7,201.7 L243.8,207.1 L241.6,209.5 L240.4,206.2 L241.6,191.9 L239.8,183.7 L225.7,183.9 L222.3,187.2 L216.2,186.8 L198.1,184.5 L187.3,179.4 L209.7,154.1 L213.2,148.1 L213.0,127.8 L211.3,118.0 L209.4,115.3 L239.7,86.7 L255.5,89.9Z","PASO DE LOS LIBRES":"M197.5,184.3 L222.3,187.2 L225.7,183.9 L239.8,183.7 L241.6,191.9 L240.4,206.2 L241.4,210.4 L228.9,221.4 L227.9,226.6 L224.9,227.7 L216.2,237.3 L211.2,239.6 L206.2,239.4 L201.3,243.8 L198.1,249.3 L198.3,257.1 L196.9,260.4 L191.4,263.4 L185.9,271.8 L178.0,276.8 L177.7,269.1 L184.5,263.3 L181.2,259.1 L174.4,260.2 L170.6,249.9 L172.5,247.5 L173.1,241.0 L178.1,237.6 L185.1,223.5 L184.5,215.5 L187.5,210.1 L185.0,204.2 L185.5,200.0 L182.4,193.6 L187.9,180.3 L197.5,184.3Z","MONTE CASEROS":"M166.3,255.5 L175.8,260.7 L181.2,259.1 L184.5,263.3 L177.7,269.1 L178.0,276.8 L172.6,277.1 L171.0,278.9 L174.2,284.4 L171.9,292.9 L151.5,308.9 L151.6,316.3 L155.0,319.4 L155.3,323.2 L158.1,326.4 L158.1,329.7 L155.2,329.0 L151.9,324.5 L144.3,321.8 L136.5,312.2 L137.5,307.6 L135.7,303.6 L138.6,301.2 L140.8,295.4 L142.4,273.8 L141.0,266.5 L144.3,261.5 L143.0,254.7 L144.0,246.1 L152.1,243.1 L159.8,253.9 L166.3,255.5Z","CURUZU CUATIA":"M114.1,187.7 L140.9,210.6 L151.4,211.7 L156.5,217.9 L161.2,230.3 L172.6,237.3 L173.1,244.6 L170.6,249.9 L174.3,260.0 L159.8,253.9 L152.1,243.1 L144.0,246.1 L143.0,254.7 L144.3,261.5 L141.0,266.5 L142.4,273.8 L140.8,295.4 L139.5,299.8 L136.2,303.0 L136.3,300.8 L130.5,298.9 L123.7,286.7 L118.5,283.6 L113.5,286.2 L103.2,279.7 L97.0,278.0 L109.0,267.7 L98.6,244.6 L86.0,245.9 L85.6,243.9 L88.8,238.2 L86.4,234.3 L85.4,219.3 L73.6,215.8 L72.9,207.8 L70.7,206.9 L70.6,204.6 L74.1,194.1 L80.0,183.3 L93.0,168.4 L96.6,167.1 L103.5,172.5 L114.1,187.7Z","SAUCE":"M86.4,224.7 L86.4,234.3 L88.8,238.2 L85.3,244.8 L87.3,246.0 L98.6,244.6 L108.7,269.1 L97.0,278.0 L94.4,275.6 L89.9,277.2 L85.6,276.0 L80.1,280.7 L75.4,280.4 L69.2,283.8 L62.0,281.1 L56.0,282.0 L55.5,277.1 L57.1,273.7 L60.5,246.9 L72.9,241.3 L80.3,230.1 L86.4,224.7Z","ESQUINA":"M56.0,282.0 L53.8,282.4 L52.9,284.8 L47.9,287.6 L47.8,290.0 L40.1,295.0 L32.3,294.1 L30.3,291.2 L24.1,290.3 L18.6,293.1 L12.8,292.0 L10.3,301.7 L0.0,287.1 L6.1,283.4 L8.0,271.1 L11.7,262.8 L18.7,260.5 L24.9,247.3 L50.5,236.3 L51.8,229.3 L55.9,220.7 L68.0,211.8 L71.5,206.8 L72.9,207.8 L73.6,215.8 L84.3,217.9 L86.4,224.7 L80.3,230.1 L72.9,241.3 L60.5,246.9 L57.1,273.7 L55.5,277.1 L56.0,282.0Z","ITUZAINGO":"M305.8,5.4 L306.0,11.8 L303.9,18.2 L306.2,23.5 L310.2,27.0 L322.9,50.6 L321.2,54.5 L323.9,62.7 L323.0,65.5 L325.0,68.0 L320.8,69.4 L318.9,64.0 L293.3,47.3 L289.3,51.1 L288.5,54.3 L285.5,55.4 L284.0,59.3 L280.7,55.9 L276.7,59.0 L274.0,59.0 L264.0,49.0 L253.6,67.1 L248.1,70.7 L244.3,82.7 L214.9,111.1 L203.1,118.3 L177.7,124.9 L173.2,113.8 L175.9,101.9 L180.3,101.6 L191.7,91.5 L194.4,84.9 L195.9,67.2 L200.3,56.3 L205.8,48.4 L218.4,38.7 L218.8,33.7 L229.2,26.2 L231.0,29.2 L237.5,32.9 L242.5,31.1 L248.0,32.4 L251.6,30.0 L252.2,27.7 L248.9,22.6 L248.7,19.5 L254.5,19.2 L258.3,16.4 L262.2,18.8 L268.0,28.9 L273.4,32.8 L276.5,32.9 L279.0,30.8 L280.3,25.2 L284.0,22.3 L284.8,14.2 L288.7,13.6 L295.8,6.6 L302.2,4.6 L305.8,5.4ZM232.3,15.6 L235.9,16.2 L244.5,23.1 L247.9,23.1 L247.1,27.7 L238.5,32.0 L235.9,30.7 L233.5,26.5 L227.8,22.2 L222.7,21.1 L232.3,15.6ZM250.3,26.8 L247.0,31.6 L246.0,31.5 L244.0,30.5 L243.9,30.5 L243.5,30.5 L245.2,30.2 L247.2,28.8 L249.0,24.8 L250.3,26.8ZM232.8,26.6 L235.7,30.8 L233.5,29.4 L232.2,28.9 L231.0,26.2 L229.9,25.5 L229.1,24.8 L228.9,24.4 L229.9,25.3 L231.6,26.3 L232.8,26.6ZM251.4,29.0 L249.7,30.5 L250.8,27.1 L251.4,29.0ZM231.0,27.4 L230.4,27.4 L230.0,26.3 L231.0,27.4ZM232.1,25.8 L233.0,26.6 L231.1,25.7 L232.1,25.8ZM243.3,30.7 L244.5,30.9 L244.9,31.2 L243.3,30.7ZM233.4,29.5 L232.7,29.6 L231.9,28.9 L233.4,29.5ZM230.0,24.7 L229.6,24.9 L229.2,24.3 L230.0,24.7ZM245.5,29.7 L245.3,30.0 L244.3,30.1 L244.8,29.8 L245.5,29.7ZM248.9,30.4 L247.8,31.7 L247.5,31.7 L248.9,30.4ZM244.8,29.7 L244.4,29.7 L245.6,29.5 L245.4,29.6 L244.8,29.7ZM230.4,26.3 L230.8,27.0 L229.8,26.0 L230.4,26.3ZM248.2,25.2 L247.7,25.4 L248.2,24.7 L248.2,25.2ZM250.2,28.3 L249.9,28.4 L250.2,27.8 L250.2,28.3ZM244.9,31.6 L246.1,31.7 L246.2,31.8 L244.9,31.6ZM236.7,31.2 L236.0,31.1 L235.8,30.7 L236.7,31.2ZM248.0,26.4 L247.7,26.3 L247.9,26.1 L248.0,26.4ZM236.5,31.5 L237.4,31.8 L237.0,31.9 L236.5,31.5ZM233.5,26.5 L233.1,26.6 L233.1,26.3 L233.5,26.5ZM230.5,26.0 L230.3,26.1 L229.8,25.8 L230.5,26.0ZM245.1,29.4 L244.9,29.3 L245.2,29.3 L245.1,29.4ZM247.2,28.6 L246.8,28.7 L247.3,28.5 L247.2,28.6ZM229.8,25.0 L229.9,25.2 L229.7,25.0 L229.8,25.0ZM231.4,25.6 L231.1,25.6 L230.9,25.5 L231.4,25.6ZM251.1,29.6 L251.0,29.6 L251.1,29.5 L251.1,29.6ZM243.3,29.9 L243.2,29.8 L243.4,29.7 L243.3,29.9Z","SAN MIGUEL":"M205.4,19.3 L227.0,22.3 L229.2,26.2 L218.8,33.7 L217.6,39.6 L205.8,48.4 L200.3,56.3 L195.9,67.2 L194.4,84.9 L191.7,91.5 L180.3,101.6 L176.7,102.4 L172.5,97.7 L176.2,87.7 L172.8,80.6 L174.1,75.7 L168.7,66.7 L163.8,62.4 L167.0,59.3 L169.8,52.6 L189.6,30.1 L205.4,19.3Z","GOYA":"M67.6,168.9 L77.0,171.6 L78.4,173.4 L72.3,185.1 L72.6,187.5 L78.5,187.0 L73.5,195.5 L68.3,211.4 L55.9,220.7 L51.8,229.3 L50.5,236.3 L27.6,245.1 L23.8,248.8 L18.7,260.5 L11.7,262.8 L8.9,251.1 L4.3,244.9 L7.8,239.1 L10.1,219.5 L11.0,209.1 L9.0,202.9 L16.0,198.0 L16.9,189.2 L25.3,186.4 L30.3,176.3 L36.3,174.9 L40.5,171.4 L50.9,169.1 L64.1,170.5 L67.6,168.9Z","LAVALLE":"M55.5,140.4 L64.1,146.8 L71.0,147.1 L78.7,153.1 L89.4,158.2 L94.3,163.9 L95.5,167.1 L87.3,174.2 L78.5,187.0 L72.4,186.6 L75.4,177.6 L78.4,173.4 L77.0,171.6 L67.6,168.9 L64.1,170.5 L50.9,169.1 L40.5,171.4 L42.7,167.8 L42.2,161.1 L46.0,153.7 L46.2,145.0 L49.1,141.4 L55.5,140.4Z","BELLA VISTA":"M88.3,114.1 L64.2,138.5 L60.8,144.0 L55.5,140.4 L49.1,141.4 L52.7,133.6 L50.4,130.6 L50.9,125.2 L55.1,117.3 L52.0,111.8 L52.8,105.1 L50.6,101.6 L50.7,90.9 L60.1,97.5 L64.1,97.8 L70.7,95.1 L75.2,90.5 L81.0,106.8 L88.3,114.1Z","EMPEDRADO":"M91.0,26.6 L92.6,40.1 L97.3,39.1 L101.2,43.2 L109.7,46.2 L111.1,52.8 L114.6,54.6 L118.7,62.3 L107.9,67.0 L100.4,65.0 L87.9,68.6 L76.1,75.6 L74.4,81.4 L71.0,85.5 L50.7,90.9 L54.0,82.6 L63.7,83.1 L70.8,75.2 L73.1,67.9 L72.0,60.1 L75.0,49.8 L74.2,40.1 L72.8,36.8 L70.0,34.6 L69.1,33.6 L68.9,33.0 L83.0,26.5 L91.0,26.6Z","SAN COSME":"M101.0,1.2 L112.6,2.3 L114.3,10.0 L108.4,8.1 L102.4,10.1 L92.1,18.4 L85.7,9.7 L101.0,1.2Z"},"capital":[73.0,19.9]},NM={"ITATI":"Itatí","BERON DE ASTRADA":"Berón de Astrada","CONCEPCION":"Concepción","MBURUCUYA":"Mburucuyá","SAN LUIS DEL PALMAR":"San Luis del Palmar","SANTO TOME":"Santo Tomé","SAN MARTIN":"San Martín","PASO DE LOS LIBRES":"Paso de los Libres","CURUZU CUATIA":"Curuzú Cuatiá","ITUZAINGO":"Ituzaingó"},PFa=null;try{PFa=JSON.parse(document.getElementById('pron-data').textContent);}catch(e){}
+  function nr(s){return String(s||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'');}
+  function fISO(s){s=String(s||'');var m=/^(\d{4})-(\d{2})-(\d{2})(?:T(\d{2}):(\d{2}))?/.exec(s);return m?(m[3]+'/'+m[2]+'/'+m[1]+(m[4]?', '+m[4]+':'+m[5]:'')):s;}
+  function pd(s,fin){s=fISO(s);var m=/(\d{1,2})\/(\d{1,2})\/(\d{4})(?:,\s*(\d{1,2}):(\d{2}))?/.exec(s||'');if(!m)return null;return new Date(+m[3],+m[2]-1,+m[1],m[4]?+m[4]:(fin?23:0),m[5]?+m[5]:(fin?59:0)).getTime();}
+  var DIAS=['dom','lun','mar','mié','jue','vie','sáb'];
+  function dia(ms){var d=new Date(ms);return DIAS[d.getDay()]+' '+d.getDate()+'/'+(d.getMonth()+1);}
+  function hr(ms){var d=new Date(ms);return ('0'+d.getHours()).slice(-2)+':'+('0'+d.getMinutes()).slice(-2);}
+  function fh(ms){return dia(ms)+', '+hr(ms)+' h';}
+  function rango(x){if(x.d0===-Infinity&&x.d1===Infinity)return 'vigencia no informada';var s0=x.d0===-Infinity?null:x.d0,s1=x.d1===Infinity?null:x.d1,c0=s0!=null&&hr(s0)==='00:00',c1=s1!=null&&hr(s1)==='23:59';
+    if(s0!=null&&s1!=null&&dia(s0)===dia(s1)&&c0&&c1)return dia(s0)+', todo el día';
+    return (s0!=null?'desde el '+dia(s0)+(c0?'':' a las '+hr(s0)+' h'):'desde hora no informada')+(s1!=null?' hasta '+(c1?'el final del '+dia(s1):'el '+dia(s1)+' a las '+hr(s1)+' h'):' hasta hora no informada');}
+  var R={amarillo:1,naranja:2,rojo:3},C={0:'var(--track)',1:'#f6d55c',2:'#f29c38',3:'#d64545'},NIV=['','amarilla','naranja','roja'];
+  var A=((PFa&&PFa.smn)||[]).filter(function(a){return a.incluye_corrientes!==false&&R[a.nivel];}).map(function(a){var z=nr((a.zonas||'')+' '+(a.aviso||''));var all=/provincia de corrientes|toda la provincia|incluye corrientes|incluye a corrientes/.test(z);
+    var deps=Object.keys(M.deps).filter(function(d){if(d==='CAPITAL'&&a.incluye_capital===false)return false;return all||z.indexOf(nr(d))>=0;});return {a:a,n:R[a.nivel],d0:pd(a.desde||a.desde_iso,false)||-Infinity,d1:pd(a.hasta||a.hasta_iso,true)||Infinity,deps:deps,all:all};});
+  var mode='ahora';
+  function win(){var n=new Date();if(mode==='ahora'){var x=n.getTime();return [x,x];}var b=new Date(n.getFullYear(),n.getMonth(),n.getDate()+(mode==='manana'?1:0));return [b.getTime(),b.getTime()+86399999];}
+  function draw(){var w=win(),act=A.filter(function(x){return x.d0<=w[1]&&x.d1>=w[0];}),lv={},lst={};
+    Object.keys(M.deps).forEach(function(d){lv[d]=0;lst[d]=[];});
+    act.forEach(function(x){x.deps.forEach(function(d){lv[d]=Math.max(lv[d],x.n);lst[d].push(x);});});
+    var g='';Object.keys(M.deps).forEach(function(d){var nm=NM[d]||d.toLowerCase().replace(/(^|\s)\S/g,function(c){return c.toUpperCase();});
+      var tt=lst[d].length?lst[d].sort(function(p,q){return q.n-p.n;}).map(function(x){return 'alerta '+NIV[x.n]+' ('+rango(x)+')';}).join('; '):'sin alerta';
+      g+='<path d="'+M.deps[d]+'" fill="'+C[lv[d]]+'" stroke="var(--card)" stroke-width="1"><title>'+nm+': '+tt+'</title></path>';});
+    g+='<circle cx="'+M.capital[0]+'" cy="'+M.capital[1]+'" r="4" fill="#13262d" stroke="#fff" stroke-width="1.5"/><text x="'+(M.capital[0]+7)+'" y="'+(M.capital[1]+4)+'" font-size="10" font-weight="800" fill="#13262d" stroke="#fff" stroke-width="2.5" paint-order="stroke" font-family="Archivo,sans-serif">Corrientes</text>';
+    var cnt=[0,0,0,0];Object.keys(lv).forEach(function(d){cnt[lv[d]]++;});
+    var n=new Date(),tit=mode==='ahora'?'ahora ('+fh(n.getTime())+')':mode==='hoy'?'hoy, '+DIAS[n.getDay()]+' '+n.getDate()+'/'+(n.getMonth()+1)+', en cualquier momento del día':'mañana, '+(function(){var m=new Date(n.getTime()+864e5);return DIAS[m.getDay()]+' '+m.getDate()+'/'+(m.getMonth()+1);})()+', en cualquier momento del día';
+    var lista=act.length?'<ul style="margin:6px 0 0;padding-left:0;list-style:none">'+act.sort(function(p,q){return q.n-p.n;}).map(function(x){return '<li style="display:flex;gap:8px;align-items:flex-start;margin-top:6px;font-size:.82rem"><i style="flex:none;width:14px;height:14px;border-radius:3px;margin-top:2px;background:'+C[x.n]+'"></i><span><b>Alerta '+NIV[x.n]+'</b>: '+esc(x.a.aviso)+'.<br><span style="color:var(--ink2)">Vigencia: '+rango(x)+'. '+(x.all?'Toda la provincia.':x.deps.length+' departamentos.')+'</span></span></li>';}).join('')+'</ul>':(PFa&&PFa.estado_alertas==='NO_VERIFICADO'?'<p class="s" style="margin:6px 0 0"><b>Estado de alertas no verificado:</b> el mapa no confirma ausencia de alertas.</p>':'<p class="s" style="margin:6px 0 0"><b>Sin alertas para este período.</b></p>');
+    if(mode==='ahora'){var px=A.filter(function(x){return x.d0>w[0];}).sort(function(p,q){return p.d0-q.d0;});if(px.length)lista+='<p class="s" style="margin:8px 0 0"><b>Próximas alertas:</b> '+px.map(function(x){return 'alerta '+NIV[x.n]+' '+rango(x)+' ('+(x.all?'toda la provincia':x.deps.length+' departamentos')+')';}).join('; ')+'. Use los botones Hoy y Mañana para verlas en el mapa.</p>';}
+    $('alertMapC').innerHTML='<p class="s" style="margin:8px 0 4px;font-weight:700;color:var(--ink)">Alertas por departamento: '+tit+'</p><svg viewBox="0 0 '+M.w+' '+M.h+'" role="img" aria-label="Mapa de alertas por departamento de Corrientes" style="max-width:420px;display:block;margin:0 auto">'+g+'</svg><div class="leg" style="justify-content:center"><span><i style="background:#d64545"></i>Roja ('+cnt[3]+')</span><span><i style="background:#f29c38"></i>Naranja ('+cnt[2]+')</span><span><i style="background:#f6d55c"></i>Amarilla ('+cnt[1]+')</span><span><i style="background:var(--track)"></i>Sin alerta ('+cnt[0]+')</span></div>'+lista+'<p class="s" style="margin:6px 0 0">Cada departamento toma el color de la alerta más alta que lo alcanza en el período elegido. Toque un departamento para ver todas sus alertas con día y horario.</p>';}
+  $('alertMap').innerHTML='<div class="seg" style="display:flex;gap:6px;margin:12px 0 0;flex-wrap:wrap" role="tablist"><button data-m="ahora" aria-pressed="true">Ahora</button><button data-m="hoy" aria-pressed="false">Hoy</button><button data-m="manana" aria-pressed="false">Mañana</button></div><div id="alertMapC"></div>';
+  [].forEach.call(document.querySelectorAll('#alertMap .seg button'),function(b){b.addEventListener('click',function(){mode=b.getAttribute('data-m');[].forEach.call(document.querySelectorAll('#alertMap .seg button'),function(o){o.setAttribute('aria-pressed',o===b?'true':'false');});draw();});});
+  draw();
+})();
+/* imagen satelital más reciente (copia en el propio tablero) */
+(function(){var S=null;try{S=JSON.parse(document.getElementById('sat-data').textContent);}catch(e){}
+  if(!S||!S.url)return;var el=$('satFig');el.hidden=false;
+  el.innerHTML='<p class="s" style="margin:0 0 4px;font-weight:700;color:var(--ink)">Imagen satelital más reciente: '+esc(S.captura||'')+'</p><img src="'+esc(S.url)+'" alt="Imagen satelital infrarroja del noreste argentino, Paraguay, Uruguay y sur de Brasil" style="width:100%;max-width:600px;display:block;margin:0 auto;border-radius:10px" loading="lazy"><figcaption class="s" style="margin:4px 0 0">Infrarrojo, canal 13: los colores verde, amarillo y rojo marcan nubes de tormenta con topes muy fríos. Corrientes está entre los ríos Paraná y Uruguay, al sur de Paraguay. Fuente: '+esc(S.fuente||'')+'. Copia descargada el '+esc(S.actualizado||'')+'; no es una imagen en vivo: para seguir la evolución, use el radar y el satélite del SMN.</figcaption>';
+})();
+/* alertas meteorológicas */
+(function(){var PFa=null;try{PFa=JSON.parse(document.getElementById('pron-data').textContent);}catch(e){}
+  var S=(PFa&&PFa.smn)||[],col={rojo:['#d64545','#fff'],naranja:['#f29c38','#3a1d00'],amarillo:['#f6d55c','#3d3205']};
+  function niv(a){var s=((a.nivel||'')+' '+(a.aviso||'')).toLowerCase();return /rojo/.test(s)?'rojo':/naranja/.test(s)?'naranja':/amarill/.test(s)?'amarillo':'';}
+  function aplica(a){if(a.incluye_corrientes===false)return false;var hs=String(a.hasta||a.hasta_iso||'');var mi=/^(\d{4})-(\d{2})-(\d{2})(?:T(\d{2}):(\d{2}))?/.exec(hs);if(mi)hs=mi[3]+'/'+mi[2]+'/'+mi[1]+(mi[4]?', '+mi[4]+':'+mi[5]:'');var m=/(\d{1,2})\/(\d{1,2})\/(\d{4})(?:,\s*(\d{1,2}):(\d{2}))?/.exec(hs);if(m&&Date.now()>new Date(+m[3],+m[2]-1,+m[1],m[4]?+m[4]:23,m[5]?+m[5]:59).getTime())return null;var z=((a.zonas||'')+' '+(a.aviso||'')).toLowerCase();return !/fuera de corrientes|no incluye a corrientes/.test(z);}
+  var V=S.filter(function(a){return aplica(a)===true;}),O=S.filter(function(a){return aplica(a)===false;}),h='';
+  if(V.length&&PFa&&PFa.estado_alertas==='NO_VERIFICADO')h+='<p class="s" style="margin:0 0 8px;padding:8px 10px;border-radius:10px;border:1px dashed var(--warn);color:var(--ink)"><b>Atención:</b> estas alertas fueron difundidas por la prensa a partir de partes oficiales, pero no pudieron confirmarse en el sitio del organismo en la última consulta. Verifique en el SMN y en el COE de Corrientes.</p>';
+  if(V.length)h+=V.map(function(a){var n=niv(a),c=col[n]||col.amarillo;return '<div style="border-radius:14px;padding:12px 14px;margin-bottom:8px;background:'+c[0]+';color:'+c[1]+'"><b style="display:block;font-size:1rem">'+esc(a.aviso||'Aviso del SMN')+'</b><span style="font-size:.84rem;line-height:1.35">'+(a.rango_mm?'Acumulado previsto: '+a.rango_mm[0]+' a '+a.rango_mm[1]+' mm. ':'')+(a.zonas?'Zonas: '+esc(a.zonas)+'. ':'')+(a.desde||a.hasta?'Vigencia: '+esc(a.desde||'')+' a '+esc(a.hasta||'')+'. ':'')+'Emisión: '+esc(a.emision||'sin dato')+'.</span></div>';}).join('');
+  else h+=(PFa&&PFa.estado_alertas==='NO_VERIFICADO')?'<div style="border-radius:14px;padding:10px 14px;background:var(--warnb);color:var(--ink);border:1px solid var(--warn)"><b>Estado de alertas no verificado en la última consulta.</b> Esto no significa que no haya alertas: consulte el SMN.'+(PFa.estado_verificado&&PFa.estado_verificado.fecha?' Último estado verificado: '+esc(PFa.estado_verificado.fecha)+(PFa.estado_verificado.fuente?', '+esc(PFa.estado_verificado.fuente):'')+'.':'')+'</div>':'<div style="border-radius:14px;padding:10px 14px;background:var(--okb,#e3f1e6);color:var(--ink)"><b>Sin alertas meteorológicas vigentes para Corrientes</b> en la última actualización'+(PFa&&PFa.estado_alertas==='VERIFICADO_SIN_ALERTAS'?' (ausencia verificada en fuentes oficiales)':'')+'.</div>';
+  if(O.length)h+='<p class="s" style="margin:6px 0 0">Otras alertas del SMN que no incluyen a Corrientes: '+O.map(function(a){return esc(a.aviso);}).join('; ')+'.</p>';
+  h+='<p class="s" style="margin:6px 0 0">Fuente: Servicio Meteorológico Nacional y COE de Corrientes. Actualizado: '+esc((PFa&&PFa.actualizado)||'sin dato')+'.</p>';
+  $('alertL').innerHTML=h;
+  $('alertK').innerHTML=[['Alertas del SMN','https://www.smn.gob.ar/alertas'],['Radar meteorológico','https://www.smn.gob.ar/radar'],['Imágenes satelitales','https://www.smn.gob.ar/satelite']].map(function(l){return '<a href="'+l[1]+'" target="_blank" rel="noopener" style="flex:1 1 auto;text-align:center;padding:8px 10px;border-radius:999px;background:var(--med);color:#fff;font-weight:700;font-size:.8rem;text-decoration:none">'+l[0]+' ↗</a>';}).join('');
+})();
+/* pasos y rutas */
+function det(sum,meta,body,link){return '<details class="x"><summary><div>'+sum+(meta?'<span class="meta">'+meta+'</span>':'')+'</div></summary><div class="dt">'+body+(link?' <a href="'+esc(link)+'" target="_blank" rel="noopener">Fuente</a>':'')+'</div></details>';}
+function chip(e){var c=e==='habilitado'||e==='sin reportes'?'p-ok':e==='restringido'||e==='con demoras'?'p-warn':e==='cerrado'||e==='cortado'?'p-bad':'p-n';return '<span class="pill '+c+'">'+esc(e)+'</span>';}
+var PS=D.pasos||[],nc=PS.filter(function(p){return p.estado!=='habilitado';}).length;$('k4').textContent=nc+' de '+PS.length;
+$('sX').textContent='Verificado: '+(D.pasos_fecha||'');
+$('pasos').innerHTML=PS.map(function(p){return det('<b>'+esc(p.nombre)+'</b> '+chip(p.estado),esc(p.rio||'')+(p.verificado?', verificado '+esc(p.verificado):''),esc(p.detalle||'')+(p.fuente?' ('+esc(p.fuente)+')':''),p.enlace);}).join('');
+$('rutas').innerHTML=(D.rutas||[]).map(function(r){return det('<b>'+esc(r.tramo)+'</b> '+chip(r.estado),r.verificado?'verificado '+esc(r.verificado):'',esc(r.detalle||'')+(r.fuente?' ('+esc(r.fuente)+')':''),r.enlace);}).join('');
+/* último comunicado de Yacyretá, destacado */
+(function(){var all=(D.partes_oficiales||[]).filter(function(p){return /^Entidad Binacional Yacyret/i.test(p.organismo||'');}),e=all[0];if(!e)return;
+  $('ebyBox').hidden=false;$('ebyMeta').innerHTML='<span class="pill p-warn">Más reciente</span> '+esc(e.fecha)+', '+esc(e.organismo)+(e.enlace?' <a href="'+esc(e.enlace)+'" target="_blank" rel="noopener" style="color:var(--water)">Fuente</a>':'');$('ebyTxt').textContent=e.resumen;
+  if(all.length>1)$('ebyMas').innerHTML='<p class="s" style="margin:8px 0 2px;font-weight:700;color:var(--ink)">Comunicados anteriores ('+(all.length-1)+')</p>'+all.slice(1).map(function(p){return det('<b>'+esc(p.organismo.replace(/^Entidad Binacional Yacyretá \(EBY\),?\s*/,''))+'</b>',esc(p.fecha),esc(p.resumen),p.enlace);}).join('');})();
+/* partes oficiales y prensa, completos */
+var PO=D.partes_oficiales||[];$('sPO').textContent=PO.length+' partes, del más reciente al más antiguo. Toque para leer el detalle.';
+$('partes').innerHTML=PO.map(function(p){return det((/^Entidad Binacional Yacyret/i.test(p.organismo||'')?'<span class="pill p-warn">Yacyretá</span> ':'')+'<b>'+esc(p.organismo)+'</b>',esc(p.fecha),esc(p.resumen),p.enlace);}).join('');
+var PR=D.prensa||[];$('sPR').textContent=PR.length+' notas, actualizado '+(D.prensa_fecha||'')+'. Toque para leer el resumen.';
+$('prensa').innerHTML=PR.map(function(p){return det('<b>'+esc(p.titulo)+'</b>',esc(p.medio)+', '+esc(p.fecha),esc(p.resumen||''),p.enlace);}).join('');
+/* teléfonos y canales */
+$('tel').innerHTML=(D.telefonos||[]).map(function(x){var n=String(x[1]||'').replace(/[^0-9+]/g,'');return '<a class="chip" href="tel:'+esc(n)+'">'+esc(x[0])+' <b>'+esc(x[1])+'</b></a>';}).join('');
+$('canales').innerHTML=(D.canales_oficiales||[]).map(function(c){return '<a class="chip" href="'+esc(c.enlace)+'" target="_blank" rel="noopener">'+esc(c.canal)+' <span style="color:var(--soft);font-size:.74rem">'+esc(c.localidad)+'</span></a>';}).join('');
+$('hor').textContent='Actualización programada: ríos, alertas, evacuados, pronósticos y prensa a las 07:00 y 18:30 h; lluvia real medida, en forma periódica a lo largo del día.';
+/* notas de los ríos */
+if(D.nota)$('parN').innerHTML=det('<b>Nota del parte oficial</b>',esc(D.actualizado||''),esc(D.nota));
+if(D.uruguay_nota)$('uruN').innerHTML=det('<b>Nota sobre el río Uruguay</b>','',esc(D.uruguay_nota));
+/* efecto tapón por ciudad */
+var ET=D.efecto_tapon||[];
+$('tapon').innerHTML=ET.map(function(e){var r=String(e.riesgo||'').toLowerCase(),c=r.indexOf('alto')>=0?'p-bad':(r.indexOf('medio')>=0||r.indexOf('moder')>=0)?'p-warn':'p-ok';
+  var b='<b>Río:</b> '+esc(e.rio||'')+'<br><b>Desagües:</b> '+esc(e.desagues||'')+'<br><b>Pronóstico:</b> '+esc(e.pronostico||'');
+  if(e.simulador&&e.simulador.u)b+='<br><a href="'+esc(e.simulador.u)+'" target="_blank" rel="noopener">Abrir el simulador</a>';
+  return det('<b>'+esc(e.ciudad)+'</b> <span class="pill '+c+'">riesgo '+esc(e.riesgo||'')+'</span>','',b);}).join('');
+if(D.tapon_pronostico)$('taponG').innerHTML=det('<b>Pronóstico y efecto tapón: situación general</b>',esc(D.tapon_fecha||''),esc(D.tapon_pronostico));
+/* zonas */
+var Z=(D.zonas_actuales||[]).map(function(z){return det('<b>'+esc(z.puerto)+'</b> <span class="pill p-bad">actual</span>',esc(z.fecha)+', '+esc(z.organismo||''),esc(z.texto),z.enlace);}).concat((D.zonas_antecedentes||[]).map(function(z){return det('<b>'+esc(z.puerto)+'</b> <span class="pill p-n">antecedente</span>',esc(z.fecha)+(z.altura?', río '+esc(z.altura):'')+', '+esc(z.organismo||''),esc(z.texto),z.enlace);}));
+$('zonas').innerHTML=Z.join('')||'<p class="s">Sin registros.</p>';
+/* mapa de calor de lluvia: todas las localidades */
+var LOCMAP={"Corrientes Capital": ["Corrientes Capital", "Corrientes Capital"], "Riachuelo": ["Corrientes Capital", "Corrientes Capital"], "Bella Vista": ["Bella Vista", "Bella Vista"], "Berón de Astrada": ["Itá Ibaté", "Ituzaingó"], "Yahapé": ["Itá Ibaté", "Ituzaingó"], "Concepción": ["Mburucuyá", "Saladas"], "Santa Rosa": ["Mburucuyá", "Saladas"], "Tabay": ["Mburucuyá", "Saladas"], "Tatacuá": ["Mburucuyá", "Saladas"], "Curuzú Cuatiá": ["Curuzú Cuatiá", "Curuzú Cuatiá"], "Cazadores Correntinos": ["Curuzú Cuatiá", "Curuzú Cuatiá"], "Perugorría": ["Curuzú Cuatiá", "Curuzú Cuatiá"], "Empedrado": ["Corrientes Capital", "Corrientes Capital"], "El Sombrero": ["Corrientes Capital", "Corrientes Capital"], "Esquina": ["Pueblo Libertador", "Esquina"], "Pueblo Libertador": ["Pueblo Libertador", "Esquina"], "Alvear": ["Santo Tomé", "Santo Tomé"], "Estación Torrent": ["Santo Tomé", "Santo Tomé"], "Caá Catí": ["Caá Catí", "Corrientes Capital"], "Itá Ibaté": ["Itá Ibaté", "Ituzaingó"], "Lomas de Vallejos": ["Caá Catí", "Corrientes Capital"], "Palmar Grande": ["Caá Catí", "Corrientes Capital"], "Goya": ["Santa Lucía", "Goya"], "Colonia Carolina": ["Santa Lucía", "Goya"], "Itatí": ["Corrientes Capital", "Corrientes Capital"], "Ramada Paso": ["Corrientes Capital", "Corrientes Capital"], "Ituzaingó": ["San Carlos", "Ituzaingó"], "San Carlos": ["San Carlos", "Gobernador Virasoro"], "Villa Olivari": ["San Carlos", "Ituzaingó"], "Colonia Liebig": ["San Carlos", "Gobernador Virasoro"], "Lavalle": ["Santa Lucía", "Goya"], "Santa Lucía": ["Santa Lucía", "Goya"], "Cruz de los Milagros": ["Santa Lucía", "Goya"], "Gobernador Juan E. Martínez": ["Santa Lucía", "Goya"], "Yatayty Calle": ["Santa Lucía", "Goya"], "Mburucuyá": ["Mburucuyá", "Saladas"], "Mercedes": ["Curuzú Cuatiá", "Mercedes"], "Mariano I. Loza": ["Curuzú Cuatiá", "Mercedes"], "Felipe Yofre": ["Curuzú Cuatiá", "Mercedes"], "Colonia Carlos Pellegrini": ["Colonia Carlos Pellegrini", "Mercedes"], "Monte Caseros": ["Curuzú Cuatiá", "Monte Caseros"], "Mocoretá": ["Curuzú Cuatiá", "Monte Caseros"], "Juan Pujol": ["Curuzú Cuatiá", "Monte Caseros"], "Colonia Libertad": ["Curuzú Cuatiá", "Monte Caseros"], "Parada Pucheta": ["Curuzú Cuatiá", "Monte Caseros"], "Paso de los Libres": ["Bonpland", "Paso de los Libres"], "Bonpland": ["Bonpland", "Paso de los Libres"], "Tapebicuá": ["Bonpland", "Paso de los Libres"], "Saladas": ["Mburucuyá", "Saladas"], "San Lorenzo": ["Mburucuyá", "Saladas"], "San Cosme": ["Corrientes Capital", "Corrientes Capital"], "Paso de la Patria": ["Corrientes Capital", "Corrientes Capital"], "Santa Ana": ["Corrientes Capital", "Corrientes Capital"], "San Luis del Palmar": ["Corrientes Capital", "Corrientes Capital"], "Herlitzka": ["Corrientes Capital", "Corrientes Capital"], "La Cruz": ["Bonpland", "Santo Tomé"], "Yapeyú": ["Bonpland", "Paso de los Libres"], "Guaviraví": ["Bonpland", "Santo Tomé"], "San Miguel": ["Caá Catí", "Ituzaingó"], "Loreto": ["Caá Catí", "Ituzaingó"], "San Roque": ["Santa Lucía", "Goya"], "Chavarría": ["Mburucuyá", "Mercedes"], "9 de Julio": ["Santa Lucía", "Goya"], "Pedro R. Fernández": ["Santa Lucía", "Goya"], "Santo Tomé": ["Santo Tomé", "Santo Tomé"], "Gobernador Virasoro": ["Gobernador Virasoro", "Gobernador Virasoro"], "Garruchos": ["Garruchos", "Santo Tomé"], "Sauce": ["Curuzú Cuatiá", "Curuzú Cuatiá"]};
+function findSt(name){for(var i=0;i<est.length;i++){if(est[i].localidad===name)return est[i];}return null;}
+if(est.length){var cols2=L.columnas||[],rows2=[];
+  est.forEach(function(s){rows2.push({n:String(s.localidad).replace('Corrientes Capital (estación 13805)','Capital (13805)'),v:s.valores||[],t:tot(s),med:true});});
+  Object.keys(LOCMAP).forEach(function(n){if(findSt(n))return;var st=findSt(LOCMAP[n][0]);if(!st)return;rows2.push({n:n,v:st.valores||[],t:tot(st),med:false,ref:LOCMAP[n][0]});});
+  rows2.sort(function(a,b){var ca=/^(Corrientes Capital|Capital \()/.test(a.n)?1:0,cb=/^(Corrientes Capital|Capital \()/.test(b.n)?1:0;return (cb-ca)||(b.t-a.t)||(b.med-a.med)||a.n.localeCompare(b.n,'es');});
+  var nm=rows2.filter(function(r){return r.med;}).length,ne=rows2.length-nm;
+  var h2='<table><tr><th></th>'+cols2.map(function(c,i){var last=(i===cols2.length-1),lab=String(c).replace(/^\d+\/\d+ /,'').replace(' h','');return '<th style="'+(last?'color:var(--med);font-weight:800':'')+'">'+((cols2.length-1-i)%3===0?esc(lab)+(last?'<br><span style="font-size:.6rem">última</span>':''):'')+'</th>';}).join('')+'<th>24 h</th></tr>';
+  rows2.forEach(function(r){h2+='<tr><td class="n"><span style="display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:5px;background:'+(r.med?'var(--water)':'#d08a2e')+'"></span>'+esc(r.n)+(r.med?'':'<span style="display:block;font-weight:500;font-size:.66rem;color:var(--soft);margin-left:14px">≈ estación '+esc(r.ref)+'</span>')+'</td>'+r.v.map(function(v){var bg=v==null?'transparent':v<=0?'#e3eaec':v<2?'#b7dbe7':v<10?'#5aa6bf':v<20?'#1f6f8b':'#0b3a4a';return '<td class="c" style="background:'+bg+';'+(r.med?'':'box-shadow:inset 0 0 0 2px var(--card);')+(v==null?'outline:1px dashed var(--line);outline-offset:-3px':'')+'" title="'+(v==null?'sin dato':nf(v,1)+' mm')+'"></td>';}).join('')+'<td style="padding-left:6px;font-weight:700;'+(r.med?'':'color:#d08a2e')+'">'+(r.med?'':'≈')+nf(r.t,1)+'</td></tr>';});
+  $('heatI').innerHTML='<p class="s" style="margin:0 0 6px"><b>'+rows2.length+' localidades.</b> <span style="color:var(--water);font-weight:700">●</span> '+nm+' medidas por estación telemétrica del SNIH. <span style="color:#d08a2e;font-weight:700">●</span> '+ne+' estimadas con la estación más cercana, indicada debajo del nombre. Deslice la tabla hacia el costado para ver las 24 horas. Se muestran horas completas: la última columna es la última hora cerrada antes de la actualización ('+esc(L.actualizado||'')+').</p>';$('heat').innerHTML=h2+'</table>';}
+else $('heat').innerHTML='<p class="s">Sin registros cargados.</p>';
+
+/* evacuados */
+var EV=null,PF=null;try{EV=JSON.parse(document.getElementById('evac-data').textContent);}catch(e){}try{PF=JSON.parse(document.getElementById('pron-data').textContent);}catch(e){}
+function fkey(f){var m=/(\d{1,2})\/(\d{1,2})\/(\d{4})/.exec(f||'');return m?(+m[3])*10000+(+m[2])*100+(+m[1])+(/noche/.test(f)?0.5:0):0;}
+var evMode='ult';
+function drawEvac(){
+  var H=((EV&&EV.historial)||[]).filter(function(r){return !/Municipalidad|municipio/i.test(r.fuente||'');});if(!H.length){$('evac').innerHTML='<p class="s">Sin datos cargados.</p>';return;}
+  var by={};H.forEach(function(r){(by[r.n]=by[r.n]||[]).push(r);});
+  var rows=Object.keys(by).map(function(n){var list=by[n].slice().sort(function(a,b){return fkey(a.f)-fkey(b.f);});
+    if(evMode==='acum'){return {n:n,evac:list.reduce(function(s,r){return s+r.evac;},0),auto:list.reduce(function(s,r){return s+r.auto;},0),f:list.length===1?'1 informe, '+list[0].f.replace(/\/2026.*/,''):list.length+' informes, '+list[0].f.replace(/\/2026.*/,'')+' a '+list[list.length-1].f.replace(/\/2026.*/,'')};}
+    return list[list.length-1];});
+  rows.sort(function(a,b){return (b.evac+b.auto)-(a.evac+a.auto);});
+  var mx=Math.max.apply(null,rows.map(function(r){return r.evac+r.auto;})),h='',se=0,sa=0;
+  rows.forEach(function(r){se+=r.evac;sa+=r.auto;var W=200,we=r.evac/mx*W,wa=r.auto/mx*W;
+    h+='<div class="row" style="grid-template-columns:110px 1fr 78px"><div class="nm">'+esc(r.n)+'<small>'+esc(r.f.replace('/2026',''))+'</small></div><svg viewBox="0 0 200 14" aria-label="'+esc(r.n)+'"><rect x="0" y="3" width="200" height="8" rx="4" fill="var(--track)"/><rect x="0" y="3" width="'+we.toFixed(1)+'" height="8" fill="var(--bad)"/><rect x="'+we.toFixed(1)+'" y="3" width="'+wa.toFixed(1)+'" height="8" fill="var(--warn)"/></svg><div class="val">'+nf(r.evac+r.auto)+'<small style="color:var(--soft)">'+nf(r.evac)+' ev. / '+nf(r.auto)+' auto.</small></div></div>';});
+  if(EV&&EV.total){var tt=EV.total,m=/(\d[\d.]*)\s*evacuados\s*y\s*(\d[\d.]*)\s*autoevacuados/i.exec(tt.texto||'');$('evTot').innerHTML='<span style="font-stretch:80%;font-weight:800;font-size:2.4rem;line-height:1;color:var(--bad)">'+nf(tt.valor)+'</span><span style="font-size:.85rem;color:var(--ink2)"><b style="color:var(--ink)">personas fuera de su casa en la provincia</b><br>'+(m?'<span style="color:var(--bad);font-weight:700">'+m[1]+' evacuados</span> y <span style="color:var(--warn);font-weight:700">'+m[2]+' autoevacuados</span>, ':'')+'según el último informe oficial ('+esc(tt.fecha)+')</span>';}
+  $('evac').innerHTML=h+(evMode==='acum'?'<div class="row" style="grid-template-columns:110px 1fr 78px;border-top:2px solid var(--ink)"><div class="nm">Total provincial</div><div></div><div class="val">'+nf(se+sa)+'<small style="color:var(--soft)">'+nf(se)+' ev. / '+nf(sa)+' auto.</small></div></div>':'');
+  $('sE').textContent=evMode==='ult'?'Detalle por localidad según el último informe de Defensa Civil de cada una (fecha bajo el nombre). Cada persona se cuenta una sola vez.':evMode==='acum'?'Suma de todos los partes de Defensa Civil publicados desde el 16/10, por localidad. Cada parte se suma completo, por lo que una misma persona puede figurar en más de un parte; el total actual es el número grande de arriba.':evMode==='ult'?'Situación según el último informe oficial con detalle de cada localidad (fecha bajo el nombre). '+(EV.total?EV.total.texto+' ('+EV.total.fecha+').':'')
+    :'Mayor número de personas fuera de su casa al mismo tiempo en cada localidad durante la emergencia, según los informes oficiales. No es una suma de informes: evita contar dos veces a la misma familia.';
+}
+Array.prototype.forEach.call(document.querySelectorAll('#evSeg button'),function(b){b.addEventListener('click',function(){evMode=b.dataset.m;Array.prototype.forEach.call(document.querySelectorAll('#evSeg button'),function(x){x.setAttribute('aria-pressed',x===b?'true':'false');});drawEvac();});});
+if(EV){drawEvac();
+  var S=EV.serie||[];if(S.length){var top=Math.max.apply(null,S.map(function(s){return s.v;}))*1.15,g='',X=function(i){return 24+i*(288/Math.max(1,S.length-1));},Y=function(v){return 96-v/top*80;};
+    g+='<polyline fill="none" stroke="var(--bad)" stroke-width="2.5" points="'+S.map(function(s,i){return X(i).toFixed(1)+','+Y(s.v).toFixed(1);}).join(' ')+'"/>';
+    S.forEach(function(s,i){g+='<circle cx="'+X(i).toFixed(1)+'" cy="'+Y(s.v).toFixed(1)+'" r="3.5" fill="'+(s.aprox?'var(--card)':'var(--bad)')+'" stroke="var(--bad)" stroke-width="2"/><text x="'+X(i).toFixed(1)+'" y="'+(Y(s.v)-8).toFixed(1)+'" text-anchor="middle" font-size="9" font-weight="700" fill="var(--ink)" font-family="Archivo,sans-serif">'+(s.aprox?'+':'')+nf(s.v)+'</text><text x="'+X(i).toFixed(1)+'" y="112" text-anchor="middle" font-size="8" fill="var(--soft)" font-family="Archivo,sans-serif">'+esc(s.f)+'</text>';});
+    g+='<line x1="16" y1="96.5" x2="316" y2="96.5" stroke="var(--line)"/>';$('evserie').innerHTML=g;}
+  $('eF').textContent='Fuente: Defensa Civil de Corrientes y COE provincial, difundidos por El Litoral, Infobae y El Tribuno. Actualizado: '+(EV.actualizado||'')+'. Un punto hueco indica un total aproximado ("más de").';
+} else {$('evac').innerHTML='<p class="s">Sin datos cargados.</p>';}
+
+/* centros de evacuados */
+(function(){var C=(EV&&EV.centros)||[];if(!C.length){$('centros').innerHTML='<p class="s">Sin centros informados en los partes oficiales.</p>';return;}
+  var by={},ord=[];C.forEach(function(c){if(!by[c.n]){by[c.n]=[];ord.push(c.n);}by[c.n].push(c);});
+  $('centros').innerHTML=ord.map(function(n){return '<div style="border-top:1px solid var(--line);padding:7px 0"><b style="font-size:.86rem">'+esc(n)+'</b>'+by[n].map(function(c){var cl=c.estado==='habilitado'?'p-bad':c.estado==='previsto'?'p-warn':c.estado==='cerrado'?'p-ok':'p-n';
+    return '<div style="display:flex;gap:8px;align-items:flex-start;margin-top:5px;font-size:.82rem"><span class="pill '+cl+'" style="flex:none">'+esc(c.estado)+'</span><div>'+esc(c.centro)+(c.personas!=null?' <b>('+nf(c.personas)+' personas)</b>':'')+'<span class="meta">'+esc(c.f)+', '+esc(c.fuente)+(c.u?' <a href="'+esc(c.u)+'" target="_blank" rel="noopener" style="color:var(--water)">Fuente</a>':'')+'</span></div></div>';}).join('')+'</div>';}).join('');
+})();
+/* pronóstico horario de la Capital */
+(function(){var HC=PF&&PF.horario_capital;if(!HC){$('sHC').textContent='Sin pronóstico horario cargado.';return;}
+  var now=new Date(Date.now()-3*3600000),hoy=now.toISOString().slice(0,10),hh=now.getUTCHours()+now.getUTCMinutes()/60;
+  var man=new Date(now.getTime()+86400000).toISOString().slice(0,10);
+  var a=HC[hoy]||null,b=HC[man]||null;if(!a&&!b){$('sHC').textContent='El pronóstico horario cargado no corresponde a hoy; se actualiza en la próxima corrida.';return;}
+  var vals=(a||new Array(24).fill(0)).concat(b||new Array(24).fill(0)),mx=Math.max(4,Math.ceil(Math.max.apply(null,vals)/4)*4);
+  var X0=22,W=310,bw=W/48,TOP=14,BOT=100,HB=BOT-TOP,g='<defs><linearGradient id="gP2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#b8a9ec"/><stop offset="1" stop-color="#5a3fb0"/></linearGradient></defs>';
+  [0.5,1].forEach(function(f){var y=BOT-f*HB;g+='<line x1="'+X0+'" y1="'+y+'" x2="'+(X0+W)+'" y2="'+y+'" stroke="var(--line)" stroke-dasharray="2 3"/><text x="'+(X0-3)+'" y="'+(y+3)+'" text-anchor="end" font-size="8" fill="var(--soft)" font-family="Archivo,sans-serif">'+nf(mx*f)+'</text>';});
+  g+='<text x="2" y="9" font-size="8" fill="var(--soft)" font-family="Archivo,sans-serif">mm/h</text>';
+  g+='<rect x="'+(X0+24*bw)+'" y="'+TOP+'" width="'+(24*bw)+'" height="'+HB+'" fill="var(--prn)" opacity=".05"/>';
+  vals.forEach(function(v,i){var bh=v/mx*HB,past=(i<24&&i+1<=hh);g+='<rect x="'+(X0+i*bw+.8).toFixed(1)+'" y="'+(BOT-bh).toFixed(1)+'" width="'+(bw-1.6).toFixed(1)+'" height="'+Math.max(v>0?2:0,bh).toFixed(1)+'" rx="1.5" fill="url(#gP2)" opacity="'+(past?.3:1)+'"/>';if(v>=2)g+='<text x="'+(X0+i*bw+bw/2).toFixed(1)+'" y="'+(BOT-bh-3).toFixed(1)+'" text-anchor="middle" font-size="6.5" font-weight="700" fill="var(--ink)" font-family="Archivo,sans-serif">'+nf(v,0)+'</text>';});
+  g+='<line x1="'+X0+'" y1="'+(BOT+.5)+'" x2="'+(X0+W)+'" y2="'+(BOT+.5)+'" stroke="var(--ink2)"/>';
+  [0,6,12,18,24,30,36,42,48].forEach(function(k){g+='<text x="'+(X0+k*bw).toFixed(1)+'" y="'+(BOT+11)+'" text-anchor="middle" font-size="7.5" fill="var(--soft)" font-family="Archivo,sans-serif">'+(k%24)+'</text>';});
+  g+='<text x="'+(X0+12*bw)+'" y="'+(BOT+24)+'" text-anchor="middle" font-size="8.5" font-weight="800" fill="var(--prn)" font-family="Archivo,sans-serif">HOY</text><text x="'+(X0+36*bw)+'" y="'+(BOT+24)+'" text-anchor="middle" font-size="8.5" font-weight="800" fill="var(--prn)" font-family="Archivo,sans-serif">MAÑANA</text>';
+  var xn=X0+hh*bw;g+='<line x1="'+xn.toFixed(1)+'" y1="'+(TOP-2)+'" x2="'+xn.toFixed(1)+'" y2="'+(BOT+3)+'" stroke="var(--ink)" stroke-width="1.4"/><rect x="'+(xn-16).toFixed(1)+'" y="1" width="32" height="11" rx="5.5" fill="var(--ink)"/><text x="'+xn.toFixed(1)+'" y="9.3" text-anchor="middle" font-size="7.5" font-weight="800" fill="var(--card)" font-family="Archivo,sans-serif">AHORA</text>';
+  $('hcap').innerHTML=g;
+  var th=(a||[]).reduce(function(s,v,i){return s+(i+1>hh?v:0);},0),tm=(b||[]).reduce(function(s,v){return s+v;},0);
+  $('sHC').innerHTML='<span class="pill p-n" style="margin-right:4px">Estimación derivada</span><b style="color:var(--prn)">'+nf(th,1)+' mm</b> previstos en lo que resta de hoy y <b style="color:var(--prn)">'+nf(tm,1)+' mm</b> mañana. Pronóstico actualizado: '+esc(PF.horario_act||PF.actualizado||'')+'.';
+})();
+/* pronóstico: todas las localidades */
+$('prnStamp').textContent='Actualizado: '+(PF&&PF.actualizado?PF.actualizado:'sin datos');$('dPrn').textContent='Actualizado: '+(PF&&PF.actualizado?PF.actualizado:'sin datos');$('fPrn').textContent='Última actualización del pronóstico: '+(PF&&PF.actualizado?PF.actualizado:'sin datos')+'.';
+if(PF&&PF.ciudades){var C2=PF.ciudades,all=Object.keys(LOCMAP).map(function(n){var own=C2[n],ref=LOCMAP[n][1],v=own||C2[ref];return v?{n:n,h:v.hoy?+v.hoy.mm:null,m:v.manana?+v.manana.mm:null,own:!!own,ref:ref}:null;}).filter(Boolean);
+  all.sort(function(a,b){return ((b.h||0)+(b.m||0))-((a.h||0)+(a.m||0))||(b.own-a.own)||a.n.localeCompare(b.n,'es');});
+  var mxp=Math.max(10,Math.max.apply(null,all.map(function(c){return Math.max(c.h||0,c.m||0);})));
+  function prow(c){var W=200;return '<div class="row" style="grid-template-columns:118px 1fr 70px"><div class="nm"><span style="display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:4px;background:'+(c.own?'var(--prn)':'#d08a2e')+'"></span>'+esc(c.n)+(c.own?'':'<small>según '+esc(c.ref)+'</small>')+'</div><svg viewBox="0 0 200 20" aria-label="'+esc(c.n)+'"><rect x="0" y="2" width="'+((c.h||0)/mxp*W).toFixed(1)+'" height="7" rx="3" fill="var(--prn)" opacity="'+(c.own?1:.6)+'"/><rect x="0" y="11" width="'+((c.m||0)/mxp*W).toFixed(1)+'" height="7" rx="3" fill="#b8a9ec" opacity="'+(c.own?1:.6)+'"/></svg><div class="val" style="font-size:.8rem">'+(c.h==null?'—':nf(c.h,1))+' / '+(c.m==null?'—':nf(c.m,1))+'<small style="color:var(--soft)">mm hoy / mañana</small></div></div>';}
+  var own=all.filter(function(c){return c.own;}),rest=all.filter(function(c){return !c.own;});
+  $('pron').innerHTML=own.map(prow).join('')+'<details class="x"><summary><div><b>Ver las otras '+rest.length+' localidades</b><span class="meta">Pronóstico de su ciudad de referencia más cercana</span></div></summary>'+rest.map(prow).join('')+'</details>';
+  $('sF').innerHTML='<span style="color:var(--prn);font-weight:700">●</span> '+own.length+' ciudades con pronóstico propio. <span style="color:#d08a2e;font-weight:700">●</span> '+rest.length+' localidades con el pronóstico de la ciudad de referencia más cercana. Prioridad al aviso oficial del SMN y del COE. Actualizado: '+esc(PF.actualizado||'');}
+else{$('pron').innerHTML='<p class="s">Sin pronóstico cargado.</p>';}
+})();
+</script>
+</body>
+</html>
+
+</body></html>
