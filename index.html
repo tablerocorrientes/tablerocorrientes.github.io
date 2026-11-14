@@ -128,6 +128,7 @@ details.pz[open] .pzh{color:var(--ink2)}
 .src td:first-child{font-weight:700;width:42%}
 .foot{font-size:.76rem;color:var(--ink2);margin-top:14px}
 .foot b{display:block;color:var(--ink)}
+.cap{margin:24px 0 10px;border:2px solid var(--line);border-radius:20px;overflow:hidden}.cap>.capt{margin:0;padding:12px 16px;font-size:1.35rem;line-height:1.2;font-weight:900;display:flex;gap:10px;align-items:center;background:var(--ink);color:var(--card)}.cap>.capb{padding:2px 8px 10px}.cap .sec{margin-top:10px}details.mas2{display:block}details.mas2>summary{cursor:pointer;color:var(--water);list-style:none;padding:10px 4px}details.mas2>summary::-webkit-details-marker{display:none}details.mas2>summary::before{content:"▸ ";}details.mas2[open]>summary::before{content:"▾ ";}.resg{display:grid;grid-template-columns:1fr 1fr;gap:8px;padding-top:8px}.resg .rc{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:10px 12px}.resg .rc .rt{font-size:.72rem;font-weight:800;letter-spacing:.04em;color:var(--soft);text-transform:uppercase}.resg .rc .rv{font-size:1.45rem;font-weight:900;line-height:1.15;margin-top:2px}.resg .rc .rs{font-size:.78rem;color:var(--ink2);margin-top:2px}.resg .full{grid-column:1/-1}
 a:focus-visible{outline:3px solid #e3ad1f;outline-offset:2px}
 </style>
 </head>
@@ -144,62 +145,46 @@ a:focus-visible{outline:3px solid #e3ad1f;outline-offset:2px}
 </div>
 
 <div id="staleT" style="margin-top:12px"></div>
-<div class="kpis">
+
+<section class="cap" id="capRes"><h2 class="capt"><span aria-hidden="true">📊</span>Resumen de la situación</h2><div class="capb">
+<div id="resumenG" class="resg"></div>
+<div hidden><div class="kpis">
   <div class="kpi"><div class="n" id="k1">—</div><div class="t">puertos del Paraná sobre la cota de evacuación</div></div>
   <div class="kpi"><div class="n" id="k2">—</div><div class="t" id="k2t">lluvia medida en Corrientes Capital, últimas 24 h</div></div>
   <div class="kpi"><div class="n" id="k3">—</div><div class="t" id="k3t">mayor lluvia de la provincia, 24 h</div></div>
   <div class="kpi"><div class="n" id="k4">—</div><div class="t">pasos fronterizos cerrados o restringidos</div></div>
-</div>
+</div><div class="dual" aria-label="Dos tipos de información de lluvia">
+  <div class="m"><b>● LLUVIA MEDIDA</b>Lluvia real ya caída, registrada por estaciones meteorológicas (SNIH)<span id="dMed" style="display:block;margin-top:5px;font-weight:800"></span></div>
+  <div class="f"><b>● PRONÓSTICO</b>Lluvia esperada para hoy y mañana (SMN, COE y modelos)<span id="dPrn" style="display:block;margin-top:5px;font-weight:800"></span></div>
+</div></div>
+</div></section>
 
 <div id="tc-rep-slot"></div>
 
-<div class="sec" id="alertBox" style="margin-top:14px"><h2 style="display:flex;align-items:center;gap:8px"><span aria-hidden="true">⚠</span>Alertas meteorológicas</h2><div id="alertL"></div><figure id="satFig" hidden style="margin:12px 0 0"></figure><div id="alertMap"></div><div id="alertK" style="display:flex;flex-wrap:wrap;gap:6px;margin-top:10px"></div><p class="s" style="margin:6px 0 0">Siga las lluvias en tiempo real con el radar y el satélite del Servicio Meteorológico Nacional.</p></div>
+<section class="cap" id="capAle"><h2 class="capt"><span aria-hidden="true">⚠️</span>Alertas meteorológicas</h2><div class="capb">
+<div class="sec" id="alertBox" style="margin-top:10px"><div id="alertL"></div><figure id="satFig" hidden style="margin:12px 0 0"></figure><div id="alertMap"></div><div id="alertK" style="display:flex;flex-wrap:wrap;gap:6px;margin-top:10px"></div><p class="s" style="margin:6px 0 0">Siga las lluvias en tiempo real con el radar y el satélite del Servicio Meteorológico Nacional.</p></div>
+</div></section>
 
-<div class="simbox" id="simuladores">
-  <div class="simh"><span class="tag" style="background:#fff;color:#0c3f52">HERRAMIENTAS</span><h2>Simuladores de lluvia y anegamiento</h2>
-  <p>Herramientas de simulación que combinan <b>datos de fuentes oficiales</b> (lluvia medida por estaciones, pronóstico del SMN y del COE, altura del río según Prefectura) con <b>modelos matemáticos y lógicos</b> de escurrimiento, capacidad de desagüe y efecto tapón, para estimar si su zona puede anegarse hoy y mañana.</p></div>
-  <div class="simg">
-    <a class="simc" href="/barrio/"><svg viewBox="0 0 100 100" aria-hidden="true"><rect x="0.00" y="0.00" width="100.00" height="100.00" rx="22.00" fill="#1f6f8b"/><clipPath id="cCap"><rect x="0.00" y="0.00" width="100.00" height="100.00" rx="22.00"/></clipPath><g clip-path="url(#cCap)"><path d="M0.00 62.00 C16.00 58.00 30.00 66.00 50.00 62.00 C70.00 58.00 84.00 66.00 100.00 62.00 L100.00 100.00 L0.00 100.00 Z" fill="#5aa6bf"/></g><path d="M24.00 80.00 L24.00 46.00 L46.00 27.00 L68.00 46.00 L68.00 80.00 Z" fill="none" stroke="#fff" stroke-width="6.50" stroke-linejoin="round"/><path d="M40.00 80.00 L40.00 63.00 L52.00 63.00 L52.00 80.00" fill="none" stroke="#fff" stroke-width="5.00" stroke-linejoin="round"/><path d="M8.00 62.00 C16.00 58.00 30.00 66.00 50.00 62.00 C70.00 58.00 84.00 66.00 94.00 62.00" fill="none" stroke="#fff" stroke-width="4.50" stroke-linecap="round"/><path d="M76.00 40.00 L90.00 40.00 L83.00 51.00 Z" fill="#fff"/><path d="M78.00 55.50 L88.00 55.50" stroke="#fff" stroke-width="3.00" stroke-linecap="round"/><path d="M30.00 10.00 L27.00 18.00" stroke="#fff" stroke-width="3.60" stroke-linecap="round" opacity=".85"/><path d="M52.00 8.00 L49.00 16.00" stroke="#fff" stroke-width="3.60" stroke-linecap="round" opacity=".85"/><path d="M74.00 14.00 L71.00 22.00" stroke="#fff" stroke-width="3.60" stroke-linecap="round" opacity=".85"/></svg><div><span class="sk">Corrientes Capital</span><b>Simulador por barrio</b><span class="sd">Elija su barrio y el tipo de calzada: estimación del agua en su calle.</span></div></a>
-    <a class="simc" href="/provincia/"><svg viewBox="0 0 100 100" aria-hidden="true"><rect width="100" height="100" rx="22" fill="#6b4fbb"/><path d="M50 18c-13 0-23 10-23 23 0 17 23 39 23 39s23-22 23-39c0-13-10-23-23-23z" fill="none" stroke="#fff" stroke-width="6.5" stroke-linejoin="round"/><circle cx="50" cy="41" r="8.5" fill="#fff"/><path d="M14 86c8-5 14-5 22 0s14 5 22 0 14-5 22 0" fill="none" stroke="#cfc3f5" stroke-width="5" stroke-linecap="round"/><path d="M80 14l-3 8M88 20l-3 8M72 22l-3 8" stroke="#fff" stroke-width="3.6" stroke-linecap="round" opacity=".85"/></svg><div><span class="sk">Toda la provincia</span><b>Simulador por localidad</b><span class="sd">68 localidades: lluvia real, pronóstico y altura del río en su puerto.</span></div></a>
-  </div>
-  <p class="simn">Son simulaciones con fines informativos; no reemplazan los avisos oficiales.</p>
-</div>
-
-<div class="dual" aria-label="Dos tipos de información de lluvia">
-  <div class="m"><b>● LLUVIA MEDIDA</b>Lluvia real ya caída, registrada por estaciones meteorológicas (SNIH)<span id="dMed" style="display:block;margin-top:5px;font-weight:800"></span></div>
-  <div class="f"><b>● PRONÓSTICO</b>Lluvia esperada para hoy y mañana (SMN, COE y modelos)<span id="dPrn" style="display:block;margin-top:5px;font-weight:800"></span></div>
-</div>
-
-
-
+<section class="cap" id="capRio"><h2 class="capt"><span aria-hidden="true">🌊</span>Altura de los ríos</h2><div class="capb">
 <div class="sec"><h2>Río Paraná, por puerto</h2><p class="s" id="sP"></p><div id="par"></div><div id="parN"></div>
   <div class="leg"><span><i style="background:var(--ok)"></i>Normal</span><span><i style="background:var(--warn)"></i>Alerta</span><span><i style="background:var(--bad)"></i>Evacuación</span><span>Marcas: cota de alerta y de evacuación</span></div></div>
-
-<div class="sec"><h2>Personas evacuadas y autoevacuadas</h2><p class="s" id="sE"></p>
-  <div id="evTot" style="display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin:2px 0 10px"></div>
-  <div class="seg" id="evSeg" role="tablist" style="display:flex;gap:6px;margin:0 0 8px;flex-wrap:wrap"><button data-m="ult" aria-pressed="true">Último parte por localidad</button><button data-m="acum" aria-pressed="false">Acumulado de partes de Defensa Civil</button></div>
-  <div id="evac"></div>
-  <div class="leg"><span><i style="background:var(--bad)"></i>Evacuados (en centros)</span><span><i style="background:var(--warn)"></i>Autoevacuados</span></div>
-  <p class="s" style="margin-top:12px;font-weight:700;color:var(--ink)">Centros de evacuados informados</p><div id="centros"></div>
-  <p class="s" style="margin-top:10px">Evolución del total provincial</p><svg id="evserie" viewBox="0 0 320 120" role="img" aria-label="Evolución de personas evacuadas"></svg>
-  <p class="s" id="eF" style="margin-top:6px"></p></div>
-
+<div class="sec"><h2>Río Uruguay, por puerto</h2><p class="s" id="sU"></p><div id="uru"></div><div id="uruN"></div></div>
 <div class="sec" id="histSec"><h2>Río Paraná en Corrientes: evolución de la altura</h2><p class="s" id="hS"></p>
   <svg id="hChart" viewBox="0 0 340 190" role="img" aria-label="Evolución diaria de la altura del río Paraná en el puerto de Corrientes"></svg>
   <div class="leg"><span><i style="background:var(--water)"></i>Altura diaria (m)</span><span><i style="background:var(--warn)"></i>Cota de alerta</span><span><i style="background:var(--bad)"></i>Cota de evacuación</span></div>
   <p class="s" id="hF" style="margin-top:8px"></p>
-  <div id="hPron" style="margin-top:12px"></div></div>
-
+  <details class="mas2" style="margin-top:8px"><summary><b>Ver pronóstico oficial del río (INA)</b></summary><div id="hPron"></div></details></div>
+<details class="mas2" style="margin-top:4px"><summary><b>Ver la evolución de cada puerto (Paraná y Uruguay)</b></summary>
 <div class="sec" id="multiSec" hidden><h2>Puertos del Paraná y del Uruguay: evolución de la altura</h2><p class="s" id="mS"></p><div id="multi"></div>
   <div class="leg"><span><i style="background:var(--water)"></i>Altura diaria</span><span><i style="background:var(--warn)"></i>Cota de alerta del puerto</span><span><i style="background:var(--bad)"></i>Cota de evacuación del puerto</span></div></div>
-
-<div class="sec"><h2>Río Uruguay, por puerto</h2><p class="s" id="sU"></p><div id="uru"></div><div id="uruN"></div></div>
+</details>
+</div></section>
 
 <div class="blk med" id="blkMed">
   <div class="bh"><svg viewBox="0 0 44 44" aria-hidden="true"><rect x="13" y="6" width="18" height="32" rx="4" fill="none" stroke="#fff" stroke-width="2.5"/><rect x="15.5" y="22" width="13" height="13.5" rx="2" fill="#8fd3ea"/><path d="M9 6h26" stroke="#fff" stroke-width="2.5" stroke-linecap="round"/><path d="M31 14h4M31 20h4M31 26h4M31 32h4" stroke="#fff" stroke-width="2" stroke-linecap="round"/></svg><div><span class="tag">MEDIDO</span><h2>Lluvia real caída</h2><p>Registrada por las estaciones meteorológicas telemétricas de la provincia, consultadas en forma periódica. Es lluvia que ya cayó, no un pronóstico.</p><span class="stamp" id="medStamp">Última medición: sin datos</span></div></div>
 <div class="sec"><h2>Lluvia en Corrientes Capital, hora por hora</h2><p class="s" id="sL"></p><svg id="lcap" viewBox="0 0 320 120" role="img" aria-label="Lluvia hora por hora en la Capital"></svg></div>
 
-<div class="sec"><h2>Lluvia en la provincia, últimas 24 h</h2><p class="s">Estaciones con mayor registro, en mm</p><div id="lprov"></div></div>
+<details class="sec mas2"><summary><b>Ver ranking de lluvia por estación, últimas 24 h</b></summary><div id="lprov" style="margin-top:8px"></div></details>
 
 <div class="sec"><h2>Mapa de calor de la lluvia REGISTRADA, últimas 24 horas</h2><p class="s"><b>Lluvia ya caída, medida por las estaciones del SNIH. No es pronóstico</b> (el pronóstico está en su propio cuadro más abajo). Cada casilla es una hora; cuanto más oscuro, más lluvia.</p><div id="heatI"></div><div class="hm" id="heat"></div>
   <div class="leg"><span><i style="background:var(--track)"></i>0 mm</span><span><i style="background:#b7dbe7"></i>hasta 2</span><span><i style="background:#5aa6bf"></i>2 a 10</span><span><i style="background:#1f6f8b"></i>10 a 20</span><span><i style="background:#0b3a4a"></i>más de 20</span><span>Casilla punteada: sin dato</span></div></div>
@@ -209,41 +194,64 @@ a:focus-visible{outline:3px solid #e3ad1f;outline-offset:2px}
 
 <div class="blk prn" id="blkPrn">
   <div class="bh"><svg viewBox="0 0 44 44" aria-hidden="true"><path d="M12 28a7 7 0 0 1 1-13.9A9 9 0 0 1 30.5 13 7.5 7.5 0 0 1 32 28z" fill="none" stroke="#fff" stroke-width="2.5" stroke-linejoin="round"/><circle cx="31" cy="31" r="8" fill="#6b4fbb" stroke="#fff" stroke-width="2.5"/><path d="M31 27v4l3 2" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><path d="M14 33l-2 5M20 33l-2 5" stroke="#cfc3f5" stroke-width="2.2" stroke-linecap="round"/></svg><div><span class="tag">PRONÓSTICO</span><h2>Lluvia esperada</h2><p>Lo que se prevé que llueva hoy y mañana. Prioridad al aviso oficial; los modelos reparten la lluvia por hora.</p><span class="stamp" id="prnStamp">Actualizado: sin datos</span></div></div>
-<div class="sec"><h2>Corrientes Capital: lluvia pronosticada hora por hora</h2><p class="s" id="sHC"></p><svg id="hcap" viewBox="0 0 340 130" role="img" aria-label="Lluvia pronosticada hora por hora en Corrientes Capital"></svg>
-  <div class="leg"><span><i style="background:var(--prn)"></i>Pronóstico por hora</span><span><i style="background:var(--prn);opacity:.3"></i>Horas ya transcurridas</span></div></div>
-
 <div class="sec"><h2>Su localidad: lluvia caída y lluvia esperada</h2><p class="s" id="sF"></p><div id="pron"></div>
   <div class="leg"><span><i style="background:var(--med)"></i>Cayó (medido)</span><span><i style="background:var(--prn)"></i>Se espera (pronóstico)</span></div></div>
-  <div class="bsrc"><b id="fPrn">Última actualización: sin datos.</b><br><b>Fuentes:</b> Servicio Meteorológico Nacional (SMN) y COE de Corrientes, avisos oficiales; modelos Open-Meteo (vía Agrofy News) y Meteored, solo para la distribución horaria.</div>
+  <details class="sec mas2"><summary><b>Ver pronóstico hora por hora de la Capital (hoy y mañana)</b></summary><p class="s" id="sHC"></p><svg id="hcap" viewBox="0 0 340 130" role="img" aria-label="Lluvia pronosticada hora por hora en Corrientes Capital"></svg>
+  <div class="leg"><span><i style="background:var(--prn)"></i>Pronóstico por hora</span><span><i style="background:var(--prn);opacity:.3"></i>Horas ya transcurridas</span></div></details>
+<div class="bsrc"><b id="fPrn">Última actualización: sin datos.</b><br><b>Fuentes:</b> Servicio Meteorológico Nacional (SMN) y COE de Corrientes, avisos oficiales; modelos Open-Meteo (vía Agrofy News) y Meteored, solo para la distribución horaria.</div>
 </div>
 
+<section class="cap" id="capRie"><h2 class="capt"><span aria-hidden="true">🏘️</span>Riesgo de anegamiento en las ciudades</h2><div class="capb">
+<div class="simbox" id="simuladores">
+  <div class="simh"><span class="tag" style="background:#fff;color:#0c3f52">HERRAMIENTAS</span><h2>Simuladores de lluvia y anegamiento</h2>
+  <p>Herramientas de simulación que combinan <b>datos de fuentes oficiales</b> (lluvia medida por estaciones, pronóstico del SMN y del COE, altura del río según Prefectura) con <b>modelos matemáticos y lógicos</b> de escurrimiento, capacidad de desagüe y efecto tapón, para estimar si su zona puede anegarse hoy y mañana.</p></div>
+  <div class="simg">
+    <a class="simc" href="/barrio/"><svg viewBox="0 0 100 100" aria-hidden="true"><rect x="0.00" y="0.00" width="100.00" height="100.00" rx="22.00" fill="#1f6f8b"/><clipPath id="cCap"><rect x="0.00" y="0.00" width="100.00" height="100.00" rx="22.00"/></clipPath><g clip-path="url(#cCap)"><path d="M0.00 62.00 C16.00 58.00 30.00 66.00 50.00 62.00 C70.00 58.00 84.00 66.00 100.00 62.00 L100.00 100.00 L0.00 100.00 Z" fill="#5aa6bf"/></g><path d="M24.00 80.00 L24.00 46.00 L46.00 27.00 L68.00 46.00 L68.00 80.00 Z" fill="none" stroke="#fff" stroke-width="6.50" stroke-linejoin="round"/><path d="M40.00 80.00 L40.00 63.00 L52.00 63.00 L52.00 80.00" fill="none" stroke="#fff" stroke-width="5.00" stroke-linejoin="round"/><path d="M8.00 62.00 C16.00 58.00 30.00 66.00 50.00 62.00 C70.00 58.00 84.00 66.00 94.00 62.00" fill="none" stroke="#fff" stroke-width="4.50" stroke-linecap="round"/><path d="M76.00 40.00 L90.00 40.00 L83.00 51.00 Z" fill="#fff"/><path d="M78.00 55.50 L88.00 55.50" stroke="#fff" stroke-width="3.00" stroke-linecap="round"/><path d="M30.00 10.00 L27.00 18.00" stroke="#fff" stroke-width="3.60" stroke-linecap="round" opacity=".85"/><path d="M52.00 8.00 L49.00 16.00" stroke="#fff" stroke-width="3.60" stroke-linecap="round" opacity=".85"/><path d="M74.00 14.00 L71.00 22.00" stroke="#fff" stroke-width="3.60" stroke-linecap="round" opacity=".85"/></svg><div><span class="sk">Corrientes Capital</span><b>Simulador por barrio</b><span class="sd">Elija su barrio y el tipo de calzada: estimación del agua en su calle.</span></div></a>
+    <a class="simc" href="/provincia/"><svg viewBox="0 0 100 100" aria-hidden="true"><rect width="100" height="100" rx="22" fill="#6b4fbb"/><path d="M50 18c-13 0-23 10-23 23 0 17 23 39 23 39s23-22 23-39c0-13-10-23-23-23z" fill="none" stroke="#fff" stroke-width="6.5" stroke-linejoin="round"/><circle cx="50" cy="41" r="8.5" fill="#fff"/><path d="M14 86c8-5 14-5 22 0s14 5 22 0 14-5 22 0" fill="none" stroke="#cfc3f5" stroke-width="5" stroke-linecap="round"/><path d="M80 14l-3 8M88 20l-3 8M72 22l-3 8" stroke="#fff" stroke-width="3.6" stroke-linecap="round" opacity=".85"/></svg><div><span class="sk">Toda la provincia</span><b>Simulador por localidad</b><span class="sd">68 localidades: lluvia real, pronóstico y altura del río en su puerto.</span></div></a>
+  </div>
+  <p class="simn">Son simulaciones con fines informativos; no reemplazan los avisos oficiales.</p>
+</div>
 <div class="sec"><h2>Lluvia y desagües: efecto tapón por ciudad</h2><p class="s">Riesgo de anegamiento por el río alto. Toque una ciudad para ver el detalle.</p><div id="tapon"></div><div id="taponG"></div></div>
-
 <div class="sec"><h2>Zonas y barrios en riesgo</h2><p class="s">Situación actual y antecedentes documentados</p><div id="zonas"></div></div>
+</div></section>
 
+<section class="cap" id="capEva"><h2 class="capt"><span aria-hidden="true">🏠</span>Evacuados</h2><div class="capb">
+<div class="sec"><h2>Personas evacuadas y autoevacuadas</h2><p class="s" id="sE"></p>
+  <div id="evTot" style="display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin:2px 0 10px"></div>
+  <div class="seg" id="evSeg" role="tablist" style="display:flex;gap:6px;margin:0 0 8px;flex-wrap:wrap"><button data-m="ult" aria-pressed="true">Último parte por localidad</button><button data-m="acum" aria-pressed="false">Acumulado de partes de Defensa Civil</button></div>
+  <div id="evac"></div>
+  <div class="leg"><span><i style="background:var(--bad)"></i>Evacuados (en centros)</span><span><i style="background:var(--warn)"></i>Autoevacuados</span></div>
+  <p class="s" style="margin-top:12px;font-weight:700;color:var(--ink)">Centros de evacuados informados</p><div id="centros"></div>
+  <p class="s" style="margin-top:10px">Evolución del total provincial</p><svg id="evserie" viewBox="0 0 320 120" role="img" aria-label="Evolución de personas evacuadas"></svg>
+  <p class="s" id="eF" style="margin-top:6px"></p></div>
+</div></section>
 
+<section class="cap" id="capPas"><h2 class="capt"><span aria-hidden="true">🚧</span>Pasos fronterizos y rutas</h2><div class="capb">
+<div class="sec"><p class="s" id="sX"></p><div id="pasos"></div><p class="s" style="margin-top:10px">Rutas</p><div id="rutas"></div></div>
+</div></section>
 
-<div class="sec"><h2>Pasos fronterizos y rutas</h2><p class="s" id="sX"></p><div id="pasos"></div><p class="s" style="margin-top:10px">Rutas</p><div id="rutas"></div></div>
-
+<section class="cap" id="capCom"><h2 class="capt"><span aria-hidden="true">📢</span>Comunicados oficiales</h2><div class="capb">
 <div class="sec" id="ebyBox" style="border:2px solid var(--warn);background:var(--warnb)" hidden><h2 style="display:flex;align-items:center;gap:8px"><span aria-hidden="true">⚠</span>Comunicados de Yacyretá</h2><p class="s" style="margin:0 0 8px">La Entidad Binacional Yacyretá informa lo que ocurre aguas arriba de Corrientes: caudales, lluvias en la cuenca y maniobras de la represa.</p><p class="s" id="ebyMeta" style="color:var(--ink2)"></p><p id="ebyTxt" style="margin:0 0 6px;font-size:.92rem;font-weight:600;color:var(--ink)"></p><div id="ebyMas"></div></div>
-
 <div class="sec"><h2>Partes oficiales</h2><p class="s" id="sPO"></p><div id="partes"></div></div>
+</div></section>
 
-<div class="sec"><h2>Resumen de prensa</h2><p class="s" id="sPR"></p><div id="prensa"></div></div>
+<section class="cap" id="capPre"><h2 class="capt"><span aria-hidden="true">📰</span>Prensa</h2><div class="capb">
+<div class="sec"><p class="s" id="sPR"></p><div id="prensa"></div></div>
+</div></section>
 
-<div class="sec"><h2>Teléfonos útiles</h2><div class="chips" id="tel"></div><p class="s" style="margin-top:10px">Canales oficiales</p><div class="chips" id="canales"></div></div>
-
+<section class="cap" id="capTel"><h2 class="capt"><span aria-hidden="true">📞</span>Teléfonos y enlaces útiles</h2><div class="capb">
+<div class="sec"><h2>Teléfonos</h2><div class="chips" id="tel"></div><p class="s" style="margin-top:10px">Canales oficiales</p><div class="chips" id="canales"></div></div>
 <div class="links">
   <a href="/barrio/"><div>Simulador por barrio<span>Corrientes Capital: ¿se anega mi calle hoy y mañana?</span></div></a>
   <a href="/provincia/"><div>Simulador provincial<span>68 localidades, lluvia real y pronóstico</span></div></a>
 </div>
-
 <div class="sec"><h2>Fuentes oficiales y actualización</h2><p class="s" id="hor"></p><table class="src">
-  <tr><td>SNIH, Secretaría de Infraestructura y Política Hídrica</td><td>Lluvia medida en estaciones telemétricas, cada 2 horas</td></tr>
+  <tr><td>SNIH, Secretaría de Infraestructura y Política Hídrica</td><td>Lluvia medida en estaciones telemétricas, dos veces por día y cada hora con alerta o lluvia</td></tr>
   <tr><td>Prefectura Naval Argentina (CIM, UNL)</td><td>Altura de los ríos, dos veces por día</td></tr>
-  <tr><td>SMN y COE de Corrientes</td><td>Alertas meteorológicas, dos veces por día</td></tr>
+  <tr><td>SMN y COE de Corrientes</td><td>Alertas meteorológicas, dos veces por día y cada 2 horas con alerta</td></tr>
   <tr><td>Defensa Civil, EBY, Vialidad</td><td>Evacuados, pasos y rutas, dos veces por día</td></tr>
 </table></div>
+</div></section>
 
 <p class="foot"><b>Mag. Ing. Marcelo Cerdán</b>Analista Científico y Político Independiente. Información con fines de divulgación, no reemplaza los avisos oficiales. Emergencias: Defensa Civil 103.</p>
 </div>
@@ -418,7 +426,7 @@ function hBig(s,uid){var ALL=s.lecturas.slice().sort(function(a,b){return a[0]<b
     var n=new Date(),tit=mode==='ahora'?'ahora ('+fh(n.getTime())+')':mode==='hoy'?'hoy, '+DIAS[n.getDay()]+' '+n.getDate()+'/'+(n.getMonth()+1)+', en cualquier momento del día':'mañana, '+(function(){var m=new Date(n.getTime()+864e5);return DIAS[m.getDay()]+' '+m.getDate()+'/'+(m.getMonth()+1);})()+', en cualquier momento del día';
     var lista=act.length?'<ul style="margin:6px 0 0;padding-left:0;list-style:none">'+act.sort(function(p,q){return q.n-p.n;}).map(function(x){return '<li style="display:flex;gap:8px;align-items:flex-start;margin-top:6px;font-size:.82rem"><i style="flex:none;width:14px;height:14px;border-radius:3px;margin-top:2px;background:'+C[x.n]+'"></i><span><b>Alerta '+NIV[x.n]+'</b>: '+esc(x.a.aviso)+'.<br><span style="color:var(--ink2)">Vigencia: '+rango(x)+'. '+(x.all?'Toda la provincia.':x.deps.length+' departamentos.')+'</span></span></li>';}).join('')+'</ul>':(PFa&&PFa.estado_alertas==='NO_VERIFICADO'?'<p class="s" style="margin:6px 0 0"><b>Sin alertas registradas en la última consulta.</b> Pueden emitirse nuevos avisos: consulte al SMN y al COE.</p>':'<p class="s" style="margin:6px 0 0"><b>Sin alertas para este período.</b></p>');
     if(mode==='ahora'){var px=A.filter(function(x){return x.d0>w[0];}).sort(function(p,q){return p.d0-q.d0;});if(px.length)lista+='<p class="s" style="margin:8px 0 0"><b>Próximas alertas:</b> '+px.map(function(x){return 'alerta '+NIV[x.n]+' '+rango(x)+' ('+(x.all?'toda la provincia':x.deps.length+' departamentos')+')';}).join('; ')+'. Use los botones Hoy y Mañana para verlas en el mapa.</p>';}
-    $('alertMapC').innerHTML='<p class="s" style="margin:8px 0 4px;font-weight:700;color:var(--ink)">Alertas por departamento: '+tit+'</p><svg viewBox="0 0 '+M.w+' '+M.h+'" role="img" aria-label="Mapa de alertas por departamento de Corrientes" style="max-width:420px;display:block;margin:0 auto">'+g+'</svg><div class="leg" style="justify-content:center"><span><i style="background:#d64545"></i>Roja ('+cnt[3]+')</span><span><i style="background:#f29c38"></i>Naranja ('+cnt[2]+')</span><span><i style="background:#f6d55c"></i>Amarilla ('+cnt[1]+')</span><span><i style="background:var(--track)"></i>Sin alerta ('+cnt[0]+')</span></div>'+lista+'<p class="s" style="margin:6px 0 0">Cada departamento toma el color de la alerta más alta que lo alcanza en el período elegido. Toque un departamento para ver todas sus alertas con día y horario.</p>';}
+    $('alertMapC').innerHTML='<p class="s" style="margin:8px 0 4px;font-weight:700;color:var(--ink)">Alertas por departamento: '+tit+'</p><svg viewBox="0 0 '+M.w+' '+M.h+'" role="img" aria-label="Mapa de alertas por departamento de Corrientes" style="max-width:420px;display:block;margin:0 auto">'+g+'</svg><div class="leg" style="justify-content:center"><span><i style="background:#d64545"></i>Roja ('+cnt[3]+')</span><span><i style="background:#f29c38"></i>Naranja ('+cnt[2]+')</span><span><i style="background:#f6d55c"></i>Amarilla ('+cnt[1]+')</span><span><i style="background:var(--track)"></i>Sin alerta ('+cnt[0]+')</span></div><p class="s" style="margin:4px 0 0;text-align:center">Toque un departamento para ver sus alertas.</p>'+(lista?'<details class="mas2"><summary><b>Ver detalle del mapa</b></summary>'+lista+'</details>':'');}
   $('alertMap').innerHTML='<div class="seg" style="display:flex;gap:6px;margin:12px 0 0;flex-wrap:wrap" role="tablist"><button data-m="ahora" aria-pressed="true">Ahora</button><button data-m="hoy" aria-pressed="false">Hoy</button><button data-m="manana" aria-pressed="false">Mañana</button></div><div id="alertMapC"></div>';
   [].forEach.call(document.querySelectorAll('#alertMap .seg button'),function(b){b.addEventListener('click',function(){mode=b.getAttribute('data-m');[].forEach.call(document.querySelectorAll('#alertMap .seg button'),function(o){o.setAttribute('aria-pressed',o===b?'true':'false');});draw();});});
   draw();
@@ -436,17 +444,24 @@ function tcStale(boxId,items){var el=document.getElementById(boxId);if(!el)retur
   el.innerHTML='<div style="border:2px solid #b07a10;background:#fbf3d9;color:#3d3205;border-radius:14px;padding:10px 13px;margin:0 0 12px;font-size:.86rem;line-height:1.4"><b style="display:block;font-size:.95rem">Sin información nueva desde hace más de un día</b>'+v.map(function(x){if(x[1]==null)return x[0]+': sin fecha de actualización.';var d=new Date(x[1]),h=Math.round((now-x[1])/3600000);return x[0]+': última información registrada el '+('0'+d.getDate()).slice(-2)+'/'+('0'+(d.getMonth()+1)).slice(-2)+' a las '+('0'+d.getHours()).slice(-2)+':'+('0'+d.getMinutes()).slice(-2)+' h (hace '+h+' h).';}).join('<br>')+'<br>Se muestra la última información registrada. Puede haber novedades: consulte al SMN, al COE y a Defensa Civil de Corrientes.</div>';}
 (function(){function j(id){try{return JSON.parse(document.getElementById(id).textContent);}catch(e){return {};}}var p=j('puertos-data'),l=j('lluvia-data'),f=j('pron-data'),st=j('sat-data');tcStale('staleT',[['Ríos y novedades',p.actualizado,25],['Lluvia medida',l.actualizado],['Pronóstico y alertas',f.actualizado],['Imagen satelital',st.actualizado||st.captura]]);})();
 function tcLimpio(s){s=String(s||'');var o=s.split(/(?<=[.;])\s+/).filter(function(x){return !/Drive|JSON|SHA|manifiesto|XML|NO_DETERMINADO|NO_VERIFICADO|repositorio|revisi[oó]n meteorol/i.test(x);}).join(' ');return o||'SMN y COE de Corrientes';}
-/* alertas meteorológicas */
+/* alertas meteorológicas, compactas */
+function alCorta(a){var DS=['dom','lun','mar','mié','jue','vie','sáb'],d=a.desde_iso?new Date(a.desde_iso):null,h=a.hasta_iso?new Date(a.hasta_iso):null,now=new Date();
+  function hh(x){return x.getHours()+(x.getMinutes()?':'+String(x.getMinutes()).padStart(2,'0'):'');}
+  var cuando='';if(d&&h){var mismo=d.toDateString()===h.toDateString();cuando=(mismo?DS[d.getDay()]+' '+d.getDate()+'/'+(d.getMonth()+1)+', de '+hh(d)+' a '+hh(h)+' h':DS[d.getDay()]+' '+hh(d)+' h a '+DS[h.getDay()]+' '+hh(h)+' h')+' ('+Math.round((h-d)/36e5)+' h)';}else cuando=String(a.desde||'')+(a.hasta?' a '+a.hasta:'');
+  var est=d&&h?(now>=d&&now<h?'EN CURSO':now<d?'PRÓXIMA':''):'';
+  var zz=String(a.zonas||'').split(/,\s*|\s+y\s+/).filter(Boolean),dnd=a.incluye_capital?'Incluye Corrientes Capital':'No incluye la Capital';
+  var zc=zz.length>4?zz.slice(0,4).join(', ')+' y '+(zz.length-4)+' más':zz.join(', ');
+  return {est:est,cuando:cuando,dnd:dnd,zc:zc,zz:zz};}
 (function(){var PFa=null;try{PFa=JSON.parse(document.getElementById('pron-data').textContent);}catch(e){}
   var S=(PFa&&PFa.smn)||[],col={rojo:['#d64545','#fff'],naranja:['#f29c38','#3a1d00'],amarillo:['#f6d55c','#3d3205']};
   function niv(a){var s=((a.nivel||'')+' '+(a.aviso||'')).toLowerCase();return /rojo/.test(s)?'rojo':/naranja/.test(s)?'naranja':/amarill/.test(s)?'amarillo':'';}
   function aplica(a){if(a.incluye_corrientes===false)return false;var hs=String(a.hasta||a.hasta_iso||'');var mi=/^(\d{4})-(\d{2})-(\d{2})(?:T(\d{2}):(\d{2}))?/.exec(hs);if(mi)hs=mi[3]+'/'+mi[2]+'/'+mi[1]+(mi[4]?', '+mi[4]+':'+mi[5]:'');var m=/(\d{1,2})\/(\d{1,2})\/(\d{4})(?:,\s*(\d{1,2}):(\d{2}))?/.exec(hs);if(m&&Date.now()>new Date(+m[3],+m[2]-1,+m[1],m[4]?+m[4]:23,m[5]?+m[5]:59).getTime())return null;var z=((a.zonas||'')+' '+(a.aviso||'')).toLowerCase();return !/fuera de corrientes|no incluye a corrientes/.test(z);}
   var V=S.filter(function(a){return aplica(a)===true;}),O=S.filter(function(a){return aplica(a)===false;}),h='';
   if(V.length&&PFa&&PFa.estado_alertas==='NO_VERIFICADO')h+='<p class="s" style="margin:0 0 8px;padding:8px 10px;border-radius:10px;border:1px dashed var(--warn);color:var(--ink)"><b>Atención:</b> estas alertas fueron difundidas por la prensa a partir de partes oficiales, pero no pudieron confirmarse en el sitio del organismo en la última consulta. Verifique en el SMN y en el COE de Corrientes.</p>';
-  if(V.length)h+=V.map(function(a){var n=niv(a),c=col[n]||col.amarillo;return '<div style="border-radius:14px;padding:12px 14px;margin-bottom:8px;background:'+c[0]+';color:'+c[1]+'"><b style="display:block;font-size:1rem">'+esc(a.aviso||'Aviso del SMN')+'</b><span style="font-size:.84rem;line-height:1.35">'+(a.rango_mm?'Acumulado previsto: '+a.rango_mm[0]+' a '+a.rango_mm[1]+' mm. ':'')+(a.zonas?'Zonas: '+esc(a.zonas)+'. ':'')+(a.desde||a.hasta?'Vigencia: '+esc(a.desde||'')+' a '+esc(a.hasta||'')+'. ':'')+'Emisión: '+esc(a.emision||'sin dato')+'.</span></div>';}).join('');
+  if(V.length)h+=V.map(function(a){var n=niv(a),c=col[n]||col.amarillo,k=alCorta(a);return '<div style="border-radius:14px;padding:12px 14px;margin-bottom:8px;background:'+c[0]+';color:'+c[1]+'"><div style="display:flex;justify-content:space-between;gap:8px;align-items:center"><b style="font-size:1.1rem;text-transform:uppercase">'+esc(n||'alerta')+' · '+esc(a.fenomeno||'tormentas')+'</b>'+(k.est?'<span style="font-size:.7rem;font-weight:900;padding:3px 8px;border-radius:999px;background:rgba(0,0,0,.18)">'+k.est+'</span>':'')+'</div><div style="font-size:.95rem;margin-top:4px">🕒 <b>'+esc(k.cuando)+'</b></div><div style="font-size:.9rem;margin-top:2px">📍 <b>'+esc(k.dnd)+'</b>'+(k.zc?': '+esc(k.zc):'')+'</div><details style="margin-top:6px;font-size:.82rem"><summary style="cursor:pointer;font-weight:700">Más datos</summary>'+(a.rango_mm?'Lluvia prevista: '+a.rango_mm[0]+' a '+a.rango_mm[1]+' mm. ':'')+'Departamentos: '+esc(a.zonas||'')+'. Emitida: '+esc(a.emision||'sin dato')+'. Fuente: SMN, difundida por el COE ('+esc(a.id_oficial||'')+').</details></div>';}).join('');
   else h+=(PFa&&PFa.estado_alertas==='NO_VERIFICADO')?'<b>Sin alertas registradas en la última consulta</b>'+(PFa.estado_verificado&&PFa.estado_verificado.fecha?' ('+esc(PFa.estado_verificado.fecha)+')':'')+'. Pueden emitirse nuevos avisos en cualquier momento: consulte al SMN y al COE de Corrientes.</div>':'<div style="border-radius:14px;padding:10px 14px;background:var(--okb,#e3f1e6);color:var(--ink)"><b>Sin alertas meteorológicas vigentes para Corrientes</b> en la última actualización'+(PFa&&PFa.estado_alertas==='VERIFICADO_SIN_ALERTAS'?' (ausencia verificada en fuentes oficiales)':'')+'.</div>';
   if(O.length)h+='<p class="s" style="margin:6px 0 0">Otras alertas del SMN que no incluyen a Corrientes: '+O.map(function(a){return esc(a.aviso);}).join('; ')+'.</p>';
-  h+='<p class="s" style="margin:6px 0 0">Fuente: Servicio Meteorológico Nacional y COE de Corrientes. Actualizado: '+esc((PFa&&PFa.actualizado)||'sin dato')+'.</p>';
+  h+='<p class="s" style="margin:6px 0 0">Fuente: SMN y COE de Corrientes. Consultado: '+esc((PFa&&PFa.actualizado)||'sin dato')+'.</p>';
   $('alertL').innerHTML=h;
   $('alertK').innerHTML=[['Alertas del SMN','https://www.smn.gob.ar/alertas'],['Radar meteorológico','https://www.smn.gob.ar/radar'],['Imágenes satelitales','https://www.smn.gob.ar/satelite']].map(function(l){return '<a href="'+l[1]+'" target="_blank" rel="noopener" style="flex:1 1 auto;text-align:center;padding:8px 10px;border-radius:999px;background:var(--med);color:#fff;font-weight:700;font-size:.8rem;text-decoration:none">'+l[0]+' ↗</a>';}).join('');
 })();
@@ -475,7 +490,7 @@ $('prensa').innerHTML=ultYHist(PR,function(p,tag){return det(tag+'<b>'+esc(p.tit
 /* teléfonos y canales */
 $('tel').innerHTML=(D.telefonos||[]).map(function(x){var n=String(x[1]||'').replace(/[^0-9+]/g,'');return '<a class="chip" href="tel:'+esc(n)+'">'+esc(x[0])+' <b>'+esc(x[1])+'</b></a>';}).join('');
 $('canales').innerHTML=(D.canales_oficiales||[]).map(function(c){return '<a class="chip" href="'+esc(c.enlace)+'" target="_blank" rel="noopener">'+esc(c.canal)+' <span style="color:var(--soft);font-size:.74rem">'+esc(c.localidad)+'</span></a>';}).join('');
-$('hor').textContent='Actualización programada: ríos, alertas, evacuados, pronósticos y prensa a las 07:00 y 18:30 h; lluvia real medida, en forma periódica a lo largo del día.';
+$('hor').textContent='Actualización completa a las 9 y a las 18:30 h. Con alerta o lluvia: lluvia medida cada hora y pronóstico y alertas cada 2 horas.';
 /* notas de los ríos */
 if(D.nota)$('parN').innerHTML=det('<b>Nota del parte oficial</b>',esc(D.actualizado||''),corto(D.nota,D.nota_breve));
 if(D.uruguay_nota)$('uruN').innerHTML=det('<b>Nota sobre el río Uruguay</b>','',corto(D.uruguay_nota,D.uruguay_breve));
@@ -488,7 +503,7 @@ $('tapon').innerHTML=ET.map(function(e){var r=String(e.riesgo||'').toLowerCase()
 if(D.tapon_pronostico)$('taponG').innerHTML=det('<b>Pronóstico y efecto tapón: situación general</b>',esc(D.tapon_fecha||''),corto(D.tapon_pronostico,D.tapon_breve));
 /* zonas */
 var Z=(D.zonas_actuales||[]).map(function(z){return det('<b>'+esc(z.puerto)+'</b> <span class="pill p-bad">actual</span>',esc(z.fecha)+', '+esc(z.organismo||''),esc(z.texto),z.enlace);}).concat((D.zonas_antecedentes||[]).map(function(z){return det('<b>'+esc(z.puerto)+'</b> <span class="pill p-n">antecedente</span>',esc(z.fecha)+(z.altura?', río '+esc(z.altura):'')+', '+esc(z.organismo||''),esc(z.texto),z.enlace);}));
-$('zonas').innerHTML=Z.join('')||'<p class="s">Sin registros.</p>';
+var nAct=(D.zonas_actuales||[]).length;$('zonas').innerHTML=(Z.slice(0,nAct).join('')+(Z.length>nAct?'<details class="mas2"><summary><b>Ver antecedentes históricos ('+(Z.length-nAct)+')</b></summary>'+Z.slice(nAct).join('')+'</details>':''))||'<p class="s">Sin registros.</p>';
 /* mapa de calor de lluvia: todas las localidades */
 var LOCMAP={"Corrientes Capital": ["Corrientes Capital", "Corrientes Capital"], "Riachuelo": ["Corrientes Capital", "Corrientes Capital"], "Bella Vista": ["Bella Vista", "Bella Vista"], "Berón de Astrada": ["Itá Ibaté", "Ituzaingó"], "Yahapé": ["Itá Ibaté", "Ituzaingó"], "Concepción": ["Mburucuyá", "Saladas"], "Santa Rosa": ["Mburucuyá", "Saladas"], "Tabay": ["Mburucuyá", "Saladas"], "Tatacuá": ["Mburucuyá", "Saladas"], "Curuzú Cuatiá": ["Curuzú Cuatiá", "Curuzú Cuatiá"], "Cazadores Correntinos": ["Curuzú Cuatiá", "Curuzú Cuatiá"], "Perugorría": ["Curuzú Cuatiá", "Curuzú Cuatiá"], "Empedrado": ["Corrientes Capital", "Corrientes Capital"], "El Sombrero": ["Corrientes Capital", "Corrientes Capital"], "Esquina": ["Pueblo Libertador", "Esquina"], "Pueblo Libertador": ["Pueblo Libertador", "Esquina"], "Alvear": ["Santo Tomé", "Santo Tomé"], "Estación Torrent": ["Santo Tomé", "Santo Tomé"], "Caá Catí": ["Caá Catí", "Corrientes Capital"], "Itá Ibaté": ["Itá Ibaté", "Ituzaingó"], "Lomas de Vallejos": ["Caá Catí", "Corrientes Capital"], "Palmar Grande": ["Caá Catí", "Corrientes Capital"], "Goya": ["Santa Lucía", "Goya"], "Colonia Carolina": ["Santa Lucía", "Goya"], "Itatí": ["Corrientes Capital", "Corrientes Capital"], "Ramada Paso": ["Corrientes Capital", "Corrientes Capital"], "Ituzaingó": ["San Carlos", "Ituzaingó"], "San Carlos": ["San Carlos", "Gobernador Virasoro"], "Villa Olivari": ["San Carlos", "Ituzaingó"], "Colonia Liebig": ["San Carlos", "Gobernador Virasoro"], "Lavalle": ["Santa Lucía", "Goya"], "Santa Lucía": ["Santa Lucía", "Goya"], "Cruz de los Milagros": ["Santa Lucía", "Goya"], "Gobernador Juan E. Martínez": ["Santa Lucía", "Goya"], "Yatayty Calle": ["Santa Lucía", "Goya"], "Mburucuyá": ["Mburucuyá", "Saladas"], "Mercedes": ["Curuzú Cuatiá", "Mercedes"], "Mariano I. Loza": ["Curuzú Cuatiá", "Mercedes"], "Felipe Yofre": ["Curuzú Cuatiá", "Mercedes"], "Colonia Carlos Pellegrini": ["Colonia Carlos Pellegrini", "Mercedes"], "Monte Caseros": ["Curuzú Cuatiá", "Monte Caseros"], "Mocoretá": ["Curuzú Cuatiá", "Monte Caseros"], "Juan Pujol": ["Curuzú Cuatiá", "Monte Caseros"], "Colonia Libertad": ["Curuzú Cuatiá", "Monte Caseros"], "Parada Pucheta": ["Curuzú Cuatiá", "Monte Caseros"], "Paso de los Libres": ["Bonpland", "Paso de los Libres"], "Bonpland": ["Bonpland", "Paso de los Libres"], "Tapebicuá": ["Bonpland", "Paso de los Libres"], "Saladas": ["Mburucuyá", "Saladas"], "San Lorenzo": ["Mburucuyá", "Saladas"], "San Cosme": ["Corrientes Capital", "Corrientes Capital"], "Paso de la Patria": ["Corrientes Capital", "Corrientes Capital"], "Santa Ana": ["Corrientes Capital", "Corrientes Capital"], "San Luis del Palmar": ["Corrientes Capital", "Corrientes Capital"], "Herlitzka": ["Corrientes Capital", "Corrientes Capital"], "La Cruz": ["Bonpland", "Santo Tomé"], "Yapeyú": ["Bonpland", "Paso de los Libres"], "Guaviraví": ["Bonpland", "Santo Tomé"], "San Miguel": ["Caá Catí", "Ituzaingó"], "Loreto": ["Caá Catí", "Ituzaingó"], "San Roque": ["Santa Lucía", "Goya"], "Chavarría": ["Mburucuyá", "Mercedes"], "9 de Julio": ["Santa Lucía", "Goya"], "Pedro R. Fernández": ["Santa Lucía", "Goya"], "Santo Tomé": ["Santo Tomé", "Santo Tomé"], "Gobernador Virasoro": ["Gobernador Virasoro", "Gobernador Virasoro"], "Garruchos": ["Garruchos", "Santo Tomé"], "Sauce": ["Curuzú Cuatiá", "Curuzú Cuatiá"]};
 function findSt(name){var c=null;for(var i=0;i<est.length;i++){if(est[i].localidad===name){if(!c)c=est[i];if((est[i].valores||[]).some(function(v){return v!=null;}))return est[i];}}return c;}
@@ -528,9 +543,11 @@ function drawEvac(){
     return list[list.length-1];});
   rows.sort(function(a,b){return (b.evac+b.auto)-(a.evac+a.auto);});
   var mx=Math.max.apply(null,rows.map(function(r){return r.evac+r.auto;})),h='',se=0,sa=0;
-  rows.forEach(function(r){se+=r.evac;sa+=r.auto;var W=200,we=r.evac/mx*W,wa=r.auto/mx*W;
+  rows.forEach(function(r,ix){se+=r.evac;sa+=r.auto;var W=200,we=r.evac/mx*W,wa=r.auto/mx*W;
+    if(ix===6)h+='<details class="mas2"><summary><b>Ver las otras '+(rows.length-6)+' localidades</b></summary>';
     h+='<div class="row" style="grid-template-columns:110px 1fr 78px"><div class="nm">'+esc(r.n)+'<small>'+esc(r.f.replace('/2026',''))+'</small></div><svg viewBox="0 0 200 14" aria-label="'+esc(r.n)+'"><rect x="0" y="3" width="200" height="8" rx="4" fill="var(--track)"/><rect x="0" y="3" width="'+we.toFixed(1)+'" height="8" fill="var(--bad)"/><rect x="'+we.toFixed(1)+'" y="3" width="'+wa.toFixed(1)+'" height="8" fill="var(--warn)"/></svg><div class="val">'+nf(r.evac+r.auto)+'<small style="color:var(--soft)">'+nf(r.evac)+' ev. / '+nf(r.auto)+' auto.</small></div></div>';});
   if(EV&&EV.total){var tt=EV.total,m=/(\d[\d.]*)\s*evacuados\s*y\s*(\d[\d.]*)\s*autoevacuados/i.exec(tt.texto||'');$('evTot').innerHTML='<span style="font-stretch:80%;font-weight:800;font-size:2.4rem;line-height:1;color:var(--bad)">'+nf(tt.valor)+'</span><span style="font-size:.85rem;color:var(--ink2)"><b style="color:var(--ink)">personas fuera de su casa en la provincia</b><br>'+(m?'<span style="color:var(--bad);font-weight:700">'+m[1]+' evacuados</span> y <span style="color:var(--warn);font-weight:700">'+m[2]+' autoevacuados</span>, ':'')+'según el último informe oficial ('+esc(tt.fecha)+')</span>';}
+  if(rows.length>6)h+='</details>';
   $('evac').innerHTML=h+(evMode==='acum'?'<div class="row" style="grid-template-columns:110px 1fr 78px;border-top:2px solid var(--ink)"><div class="nm">Total provincial</div><div></div><div class="val">'+nf(se+sa)+'<small style="color:var(--soft)">'+nf(se)+' ev. / '+nf(sa)+' auto.</small></div></div>':'');
   $('sE').textContent=evMode==='ult'?'Detalle por localidad según el último informe de Defensa Civil de cada una (fecha bajo el nombre). Cada persona se cuenta una sola vez.':evMode==='acum'?'Suma de todos los partes de Defensa Civil publicados desde el 16/10, por localidad. Cada parte se suma completo, por lo que una misma persona puede figurar en más de un parte; el total actual es el número grande de arriba.':evMode==='ult'?'Situación según el último informe oficial con detalle de cada localidad (fecha bajo el nombre). '+(EV.total?EV.total.texto+' ('+EV.total.fecha+').':'')
     :'Mayor número de personas fuera de su casa al mismo tiempo en cada localidad durante la emergencia, según los informes oficiales. No es una suma de informes: evita contar dos veces a la misma familia.';
@@ -625,6 +642,20 @@ else{$('pron').innerHTML='<p class="s">Sin pronóstico cargado.</p>';}
   $('sF').innerHTML='Compare cuánto llovió y cuánto se espera en cada localidad. Pronóstico actualizado: '+esc(PF.actualizado||'')+'.';
 })();
 
+
+/* resumen de la situación */
+(function(){var box=$('resumenG');if(!box)return;
+  function cnt(L){var e=0,a=0,n=0;L.forEach(function(p){var s=st(p);if(s==='bad')e++;else if(s==='warn')a++;else n++;});return [e,a,n];}
+  function rio(t,L,href){var c=cnt(L);return '<a class="rc" href="'+href+'" style="text-decoration:none;color:inherit"><div class="rt">'+t+'</div><div style="display:flex;gap:6px;flex-wrap:wrap;margin-top:6px"><span class="pill p-bad">'+c[0]+' evacuación</span><span class="pill p-warn">'+c[1]+' alerta</span><span class="pill p-ok">'+c[2]+' normal</span></div><div class="rs">'+L.length+' puertos</div></a>';}
+  var S=(PF&&PF.smn)||[],now=new Date(),V=S.filter(function(a){return a.incluye_corrientes!==false&&(!a.hasta_iso||new Date(a.hasta_iso)>now);});
+  var cl={rojo:'#d64545',naranja:'#f29c38',amarillo:'#f6d55c'},tx={rojo:'#fff',naranja:'#3a1d00',amarillo:'#3d3205'};
+  var al='<a class="rc full" href="#capAle" style="text-decoration:none;color:inherit"><div class="rt">Alertas meteorológicas</div>'+(V.length?V.map(function(a){var n=String(a.nivel||'amarillo').toLowerCase(),k=alCorta(a);return '<div style="margin-top:6px;border-radius:10px;padding:6px 10px;background:'+(cl[n]||cl.amarillo)+';color:'+(tx[n]||tx.amarillo)+';font-size:.86rem"><b style="text-transform:uppercase">'+esc(n)+'</b> · '+esc(k.cuando)+(k.est?' · <b>'+k.est+'</b>':'')+'<br>'+(a.incluye_capital?'<b>Incluye la Capital</b>':'Sin la Capital')+(k.zz.length?' · '+k.zz.length+' departamentos':'')+'</div>';}).join(''):'<div class="rv" style="color:var(--ok)">Sin alertas</div>')+'</a>';
+  var ev=(EV&&EV.total)||{};
+  box.innerHTML=rio('🌊 Río Paraná',D.puertos||[],'#capRio')+rio('🌊 Río Uruguay',D.puertos_uruguay||[],'#capRio')+al
+   +'<a class="rc" href="#blkMed" style="text-decoration:none;color:inherit"><div class="rt">🌧️ Lluvia caída, 24 h</div><div class="rv" style="color:var(--med)">'+esc($('k2').textContent)+'</div><div class="rs">en la Capital. Máximo en la provincia: '+esc($('k3').textContent)+(($('k3t').textContent.split(': ')[1])?', en '+esc($('k3t').textContent.split(': ')[1]):'')+'</div></a>'
+   +'<a class="rc" href="#capEva" style="text-decoration:none;color:inherit"><div class="rt">🏠 Evacuados</div><div class="rv" style="color:var(--bad)">'+(ev.valor!=null?nf(ev.valor):'s/d')+'</div><div class="rs">personas, parte del '+esc(ev.fecha||'')+'</div></a>'
+   +'<a class="rc full" href="#capPas" style="text-decoration:none;color:inherit"><div class="rt">🚧 Pasos fronterizos</div><div class="rs" style="font-size:.9rem;margin-top:4px"><b>'+esc($('k4').textContent)+'</b> cerrados o restringidos</div></a>';
+})();
 /* panel de actualizaciones: última y próxima, para ríos, lluvia caída y pronóstico */
 (function(){
   function pd(s){s=String(s||'');var m=/(\d{1,2})\/(\d{1,2})\/(\d{4})\D+(\d{1,2}):(\d{2})/.exec(s);return m?new Date(+m[3],+m[2]-1,+m[1],+m[4],+m[5]):null;}
