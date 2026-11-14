@@ -476,14 +476,14 @@
    "incluye_capital": true,
    "zonas": "Berón de Astrada, Capital, Empedrado, General Paz, Itatí, Mburucuyá, Saladas, San Cosme y San Luis del Palmar",
    "desde": "14/11/2026, 06:52 h",
-   "hasta": "14/11/2026, 12:00 h",
+   "hasta": "14/11/2026",
    "desde_iso": "2026-11-14T06:52:00-03:00",
-   "hasta_iso": "2026-11-14T12:00:00-03:00",
+   "hasta_iso": null,
    "emision": "14/11/2026, 06:55 h",
    "emision_iso": "2026-11-14T06:55:00-03:00",
    "min": 80,
    "max": 120,
-   "texto": "Alerta naranja por tormentas del Servicio Meteorológico Nacional, difundida por el COE de Corrientes (2026-0022-NT), en curso el sábado 14/11 desde las 06:52 h hasta las 12:00 h, que incluye a la Capital: tormentas fuertes, granizo ocasional, ráfagas que podrían superar los 90 km/h y entre 80 y 120 mm, que pueden ser superados en forma localizada. Emitida el 14/11/2026 a las 06:55 h."
+   "texto": "Alerta naranja por tormentas del Servicio Meteorológico Nacional, difundida por el COE de Corrientes (2026-0022-NT), en curso el sábado 14/11 desde las 06:52 h hasta las 12:00 h, que incluye a la Capital: tormentas fuertes, granizo ocasional, ráfagas que podrían superar los 90 km/h y entre 80 y 120 mm, que pueden ser superados en forma localizada. Emitida el 14/11/2026 a las 06:55 h. Además, el Servicio Meteorológico Nacional mantiene la alerta naranja por tormentas para la Capital durante la mañana y la tarde del sábado 14/11 (emitida el 13/11/2026 a las 17:36 h)."
   }
  },
  "rio": {

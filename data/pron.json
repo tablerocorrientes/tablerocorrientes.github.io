@@ -1,9 +1,9 @@
 {
- "actualizado": "14/11/2026, 09:15 h",
+ "actualizado": "14/11/2026, 11:16 h",
  "metodo": "estimación derivada de modelos y del parte del SMN",
  "estado_alertas": "VERIFICADO_CON_ALERTAS",
  "estado_verificado": {
-  "fecha": "14/11/2026, 09:15 h",
+  "fecha": "14/11/2026, 11:16 h",
   "fuente": "SMN y COE de Corrientes"
  },
  "met_archivo": {
@@ -57,6 +57,47 @@
    "incluye_capital": false,
    "url": "https://coe.corrientes.gob.ar/a/2026-0070-AT",
    "origen": "Servicio Meteorológico Nacional, difundido por el COE de Corrientes"
+  },
+  {
+   "id_oficial": "SMN 13/11/2026 17:36 naranja",
+   "tipo": "alerta",
+   "aviso": "Alerta naranja por tormentas del SMN para la mañana y la tarde del sábado 14/11",
+   "nivel": "naranja",
+   "fenomeno": "tormentas",
+   "rango_mm": [
+    80,
+    120
+   ],
+   "zonas": "Corrientes Capital, Berón de Astrada, Empedrado, General Paz, Itatí, Mburucuyá, Saladas, San Cosme y San Luis del Palmar",
+   "desde": "14/11/2026",
+   "hasta": "14/11/2026",
+   "desde_iso": null,
+   "hasta_iso": null,
+   "emision": "13/11/2026, 17:36 h",
+   "emision_iso": "2026-11-13T17:36:00-03:00",
+   "incluye_corrientes": true,
+   "incluye_capital": true,
+   "url": "https://www.elmonterizo.com/alerta-naranja-en-corrientes-las-zonas-que-quedaran-bajo-la-tormenta-este-sabado",
+   "origen": "Servicio Meteorológico Nacional, reproducido por la prensa (rige mañana y tarde del sábado, sin hora de fin publicada)"
+  },
+  {
+   "id_oficial": "SMN 13/11/2026 17:36 amarillo",
+   "tipo": "alerta",
+   "aviso": "Alerta amarilla por tormentas del SMN para la mañana y la tarde del sábado 14/11",
+   "nivel": "amarillo",
+   "fenomeno": "tormentas",
+   "rango_mm": null,
+   "zonas": "General Alvear, Paso de los Libres, San Martín, Santo Tomé, Concepción, Curuzú Cuatiá, Mercedes, San Roque, Sauce, Ituzaingó y San Miguel",
+   "desde": "14/11/2026",
+   "hasta": "14/11/2026",
+   "desde_iso": null,
+   "hasta_iso": null,
+   "emision": "13/11/2026, 17:36 h",
+   "emision_iso": "2026-11-13T17:36:00-03:00",
+   "incluye_corrientes": true,
+   "incluye_capital": false,
+   "url": "https://examedia.com.ar/portada/post/88237707",
+   "origen": "Servicio Meteorológico Nacional, reproducido por la prensa (rige mañana y tarde del sábado, sin hora de fin publicada)"
   }
  ],
  "ciudades": {
