@@ -126,7 +126,7 @@ footer{margin-top:22px;font-size:.82rem;color:var(--ink2)}footer b{display:block
 <div id="tabla"></div>
 <p class="src" id="tablaS"></p></div></details>
 
-<details><summary>¿Cómo se calcula?</summary><p class="note" style="padding:0 12px 12px;margin:0"><b>Es una simulación, no un aviso oficial.</b> Combina la lluvia real registrada por las estaciones del SNIH, el pronóstico para cada localidad, la altura del río en su puerto y una capacidad de desagüe supuesta. La única localidad con capacidad declarada por su municipio es Corrientes Capital (65 mm por hora); para las demás se usa un valor de referencia de 30 mm por hora, que cada vecino puede ajustar. Con el río alto, la salida de los desagües costeros se reduce entre la cota de alerta y la de evacuación de cada puerto. Resultado promedio de la zona urbana; en las partes bajas, más. Ante una emergencia, Defensa Civil 103.</p></details>
+<details><summary>¿Cómo se calcula?</summary><p class="note" style="padding:0 12px 12px;margin:0"><b>Es una simulación, no un aviso oficial.</b> Combina la lluvia real registrada por las estaciones del SNIH (en Corrientes Capital, el mayor valor de cada hora entre las estaciones ICAA y Corrientes 13805, igual que en el simulador por barrio), el pronóstico para cada localidad, la altura del río en su puerto y una capacidad de desagüe supuesta. La única localidad con capacidad declarada por su municipio es Corrientes Capital (65 mm por hora); para las demás se usa un valor de referencia de 30 mm por hora, que cada vecino puede ajustar. Con el río alto, la salida de los desagües costeros se reduce entre la cota de alerta y la de evacuación de cada puerto. Resultado promedio de la zona urbana; en las partes bajas, más. Ante una emergencia, Defensa Civil 103.</p></details>
 <a class="link" href="/barrio/">¿Vive en Corrientes Capital? Use el simulador por barrio →</a>
 
 <footer><b>Mag. Ing. Marcelo Cerdán</b>Analista Científico y Político Independiente</footer>
@@ -159,7 +159,17 @@ try{var sv=localStorage.getItem('loc-prov');if(sv!==null&&LOCS[+sv])$('loc').val
 /* lluvia real por localidad desde la tabla del SNIH */
 var lluviaVieja=!L||!L.actualizado||(edadH(L.actualizado)||99)>4.75;
 function estacionDe(loc){if(!L||!L.estaciones)return null;var n=norm(loc.n),alt=(loc.alias||[]).map(norm);
+  if(n==='corrientes capital'){var cap=capitalCompuesta();if(cap)return cap;}
   for(var i=0;i<L.estaciones.length;i++){var s=L.estaciones[i],m=norm(s.localidad);if(m===n||alt.indexOf(m)>=0||(n==='corrientes capital'&&m==='corrientes'))return s;}return null;}
+/* Capital: mismo indicador que el simulador por barrio, el mayor valor de ICAA y Corrientes 13805 en cada hora */
+var CAPC=null;
+function capitalCompuesta(){if(CAPC!==null)return CAPC||null;var a=null,b=null;
+  L.estaciones.forEach(function(s){if(s.codigo==283906||(norm(s.localidad)==='corrientes capital'&&!a))a=s;if(s.codigo==13805)b=s;});
+  if(!a||!b||a===b){CAPC=false;return null;}
+  var va=a.valores||[],vb=b.valores||[],n=Math.max(va.length,vb.length),v=[],t=0;
+  for(var i=0;i<n;i++){var x=va[i],y=vb[i];var m=(x==null&&y==null)?null:(x==null?y:(y==null?x:Math.max(x,y)));v.push(m);if(m!=null)t+=m;}
+  CAPC={localidad:'Corrientes Capital',estacion:'ICAA y Corrientes 13805 (el mayor valor de cada hora)',valores:v,total:Math.round(t*100)/100,
+    ultimo:(a.ultimo===b.ultimo?a.ultimo:'ICAA '+a.ultimo+'; 13805 '+b.ultimo),partes:[a,b]};return CAPC;}
 function total(s){return s.total!=null?s.total:(s.valores||[]).reduce(function(a,v){return a+(v||0);},0);}
 function ultima(s){var v=s.valores||[];for(var i=v.length-1;i>=0;i--)if(v[i]!=null)return v[i];return null;}
 
@@ -257,7 +267,7 @@ function tabla(loc){
     if(lluviaVieja)h+='<p class="warn">Datos desactualizados: la última carga es de hace '+Math.round(edadH(L.actualizado)||0)+' horas. El simulador estima por pronóstico hasta la próxima actualización.</p>';
     var cols=L.columnas||[], sel=estacionDe(loc);
     h+='<div class="tw"><table><thead><tr><th class="l">Localidad</th>'+cols.map(function(c){return '<th>'+esc(c)+'</th>';}).join('')+'<th>24 h</th></tr></thead><tbody>';
-    L.estaciones.forEach(function(s){h+='<tr'+(s===sel?' class="sel"':'')+'><td class="l"><b>'+esc(s.localidad)+'</b></td>'+(s.valores||[]).map(function(v){return '<td style="'+(v==null?'opacity:.35':v>=10?'font-weight:800;color:var(--bad)':v>=2?'font-weight:700':v>0?'':'opacity:.45')+'">'+(v==null?'·':nf(v,1))+'</td>';}).join('')+'<td><b>'+nf(total(s),1)+'</b></td></tr>';});
+    L.estaciones.forEach(function(s){h+='<tr'+(s===sel||(sel&&sel.partes&&sel.partes.indexOf(s)>=0)?' class="sel"':'')+'><td class="l"><b>'+esc(s.localidad)+'</b></td>'+(s.valores||[]).map(function(v){return '<td style="'+(v==null?'opacity:.35':v>=10?'font-weight:800;color:var(--bad)':v>=2?'font-weight:700':v>0?'':'opacity:.45')+'">'+(v==null?'·':nf(v,1))+'</td>';}).join('')+'<td><b>'+nf(total(s),1)+'</b></td></tr>';});
     h+='</tbody></table></div>';
     box.innerHTML=h;
   }
