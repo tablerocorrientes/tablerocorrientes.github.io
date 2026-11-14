@@ -519,43 +519,43 @@
       "fecha": "2026-11-15",
       "resumen": "Tormentas aisladas por la tarde",
       "prob": 40,
-      "tmin": null,
-      "tmax": null
+      "tmin": 25,
+      "tmax": 31
      },
      {
       "fecha": "2026-11-16",
       "resumen": "Mayormente nublado",
       "prob": 10,
-      "tmin": null,
-      "tmax": null
+      "tmin": 21,
+      "tmax": 30
      },
      {
       "fecha": "2026-11-17",
       "resumen": "Tormentas aisladas por la mañana",
       "prob": 40,
-      "tmin": null,
-      "tmax": null
+      "tmin": 22,
+      "tmax": 30
      },
      {
       "fecha": "2026-11-18",
       "resumen": "Parcialmente nublado",
       "prob": 10,
-      "tmin": null,
-      "tmax": null
+      "tmin": 19,
+      "tmax": 30
      },
      {
       "fecha": "2026-11-19",
       "resumen": "Parcialmente nublado",
       "prob": 10,
-      "tmin": null,
-      "tmax": null
+      "tmin": 22,
+      "tmax": 28
      },
      {
       "fecha": "2026-11-20",
       "resumen": "Tormentas aisladas",
       "prob": 40,
-      "tmin": null,
-      "tmax": null
+      "tmin": 21,
+      "tmax": 28
      }
     ]
    }
