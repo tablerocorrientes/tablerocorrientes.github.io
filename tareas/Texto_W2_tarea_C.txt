@@ -1,4 +1,4 @@
-TAREA C, LLUVIA MEDIDA E IMAGEN SATELITAL (una sola tarea, siempre activa, con condición)
+TAREA C, DISPARADOR DE GITHUB, LLUVIA MEDIDA E IMAGEN SATELITAL (una sola tarea, cada hora, siempre activa)
 
 REGLAS COMUNES PARA EL SITIO WEB (obligatorio)
 - Sitio: https://tablerocorrientes.github.io. Repositorio de GitHub: tablerocorrientes/tablerocorrientes.github.io, rama main. Las páginas son fijas: esta tarea SOLO escribe archivos de la carpeta data/ (y assets/sat.jpg cuando corresponda). Nunca modificar index.html, barrio/, provincia/, site.js, sw.js, tareas/ ni otros archivos del sitio.
@@ -23,9 +23,14 @@ REGLAS COMUNES PARA EL SITIO WEB (obligatorio)
 - Lenguaje para el ciudadano: todo texto que se muestre en el sitio (notas, partes, resúmenes, fuentes, aclaraciones) se redacta en lenguaje simple, con la fuente oficial y la fecha. No mencionar detalles técnicos internos: archivos, JSON, GitHub, Drive, ChatGPT, manifiestos, huellas, códigos de estado ni procedimientos de verificación. Esos detalles van SOLO en el informe de la tarea. No agregar a "partes_oficiales" entradas sobre la verificación del propio tablero.
 
 
-Frecuencia: una sola tarea C, cada hora, en la nube, siempre activa. No hace falta activarla ni desactivarla: la condición del punto 1 hace que, sin alerta ni lluvia, termine enseguida con un consumo mínimo. La lluvia medida (data/lluvia.json y data/obs.json) la actualiza cada hora, a las hh:20, la automatización del repositorio "Lluvia SNIH (cada hora)", que ejecuta tareas/snih_lluvia.py; las tareas A y B también la consultan. La tarea C NO consulta el SNIH ni escribe esos dos archivos: solo los lee.
+Frecuencia: una sola tarea C, cada hora, en la nube, siempre activa, haya o no alerta. La tarea C es el MECANISMO PRINCIPAL que pone en marcha la extracción de datos: no se confía en los horarios propios de GitHub. GitHub hace el trabajo de extracción con sus automatizaciones "Lluvia SNIH" (ejecuta tareas/snih_lluvia.py y escribe data/lluvia.json y data/obs.json) y "Pronóstico extendido" (ejecuta tareas/extendido_ciudades.py y escribe el extendido de data/pron.json); la tarea C las dispara. Si GitHub además corre alguna por su horario, es un complemento. La tarea C NO consulta el SNIH ni escribe esos archivos por su cuenta. Sin alerta ni lluvia trabaja en modo espaciado (punto 1 c).
 
-0. RESPALDO DE LAS AUTOMATIZACIONES DE GITHUB (siempre, antes de la condición, solo con código): leer "consultado" de data/lluvia.json. Si tiene más de 40 minutos, la automatización "Lluvia SNIH" no corrió por horario: dispararla con  gh api -X POST repos/tablerocorrientes/tablerocorrientes.github.io/actions/workflows/lluvia-snih.yml/dispatches -f ref=main  (no consultar el SNIH directamente). Igual con "actualizado" de "extendido" en data/pron.json: si tiene más de 2 horas y media, disparar  .../actions/workflows/extendido.yml/dispatches . Informar en una línea si se disparó alguna.
+0. DISPARO DE LAS AUTOMATIZACIONES DE GITHUB (siempre, en cada corrida, antes de la condición, solo con código):
+   a. Lluvia: disparar SIEMPRE la automatización "Lluvia SNIH" con  gh api -X POST repos/tablerocorrientes/tablerocorrientes.github.io/actions/workflows/lluvia-snih.yml/dispatches -f ref=main , sin importar la hora de la última consulta.
+   b. Pronóstico extendido: disparar "Pronóstico extendido" con  gh api -X POST repos/tablerocorrientes/tablerocorrientes.github.io/actions/workflows/extendido.yml/dispatches -f ref=main  si "actualizado" de "extendido" en data/pron.json tiene más de 1 hora y 45 minutos (así se renueva cada 2 horas).
+   c. Confirmación: esperar a que cada corrida disparada termine (consultar cada 30 segundos, como máximo 6 minutos, con  gh api "repos/tablerocorrientes/tablerocorrientes.github.io/actions/workflows/<archivo>/runs?per_page=1" ) y verificar que terminó con resultado "success". Si falló o no terminó, volver a dispararla una sola vez; si vuelve a fallar, informarlo y enviar una notificación.
+   d. Después, actualizar la copia local (git -C /tmp/sitio pull --rebase) para que la condición del punto 1 use los datos recién extraídos.
+   e. Informar en una línea qué se disparó y el resultado. Es la única acción permitida sobre la API de GitHub: no modificar las automatizaciones.
 
 1. CONDICIÓN (resolver PRIMERO, solo con código y sin búsquedas web):
    a. Leer data/pron.json del repositorio. Hay ALERTA VIGENTE si "smn" contiene una alerta con "incluye_corrientes" distinto de false cuya hora "hasta" no pasó.
