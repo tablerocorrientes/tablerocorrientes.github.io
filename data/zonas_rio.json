@@ -1,0 +1,225 @@
+{
+ "fuente": "Zonas documentadas por Municipalidades, Defensa Civil, el COE, Prefectura y la prensa, con la altura del río de ese momento. Las marcadas como estimación surgen del sector costero del simulador y de crecidas anteriores sin relevamiento oficial por barrio.",
+ "puertos": {
+  "Corrientes": [
+   {
+    "h": 6.78,
+    "zonas": [
+     "Quinta Ferré",
+     "Itatí",
+     "Cichero",
+     "Santa Marta",
+     "Punta Taitalo"
+    ],
+    "tipo": "documentado",
+    "fecha": "06/11/2023",
+    "fuente": "Municipalidad de Corrientes"
+   },
+   {
+    "h": 6.85,
+    "zonas": [
+     "Barrios ribereños de las zonas norte y sur: unas 90 familias autoevacuadas"
+    ],
+    "tipo": "documentado",
+    "fecha": "18/10/2026",
+    "fuente": "Municipalidad de Corrientes"
+   },
+   {
+    "h": 7.0,
+    "zonas": [
+     "Zona norte, de Punta Taitalo al Cichero",
+     "Zona sur, de Caridi al río y La Tosquera",
+     "Centro, dentro de las cuatro avenidas: desagüe lento",
+     "Parque Cambá Cuá"
+    ],
+    "tipo": "documentado",
+    "fecha": "08/11/2023",
+    "fuente": "Municipalidad de Corrientes",
+    "nota": "Desagües de la avenida 3 de Abril, el arroyo Salamanca y el arroyo Poncho Verde ahogados por el río."
+   },
+   {
+    "h": 7.44,
+    "zonas": [
+     "Acceso a Punta San Sebastián, cerrado en forma preventiva",
+     "687 personas afectadas en la Capital (relevamiento del 12/11/2026)"
+    ],
+    "tipo": "documentado",
+    "fecha": "octubre y noviembre de 2026",
+    "fuente": "Municipalidad y COE"
+   },
+   {
+    "h": 7.7,
+    "zonas": [
+     "3 de Abril",
+     "Arazati",
+     "Bancario",
+     "Bañado Norte",
+     "Camba Cua",
+     "Ciudad de Arequipa",
+     "Codepro",
+     "Galvan",
+     "Juan de Vera",
+     "Juan XXIII",
+     "Luz y Fuerza",
+     "Paraje Perichon",
+     "Parque Balneario Molina Punta",
+     "Pedro Ferre",
+     "Pio X",
+     "Placido Martinez",
+     "Rio Parana",
+     "San Benito",
+     "San Martin",
+     "Santa Maria",
+     "Sargento Cabral",
+     "Sor Maria Assunta Pittaro",
+     "Villa Patono",
+     "Virgen de los Dolores",
+     "Yapeyu"
+    ],
+    "tipo": "estimado",
+    "fecha": "",
+    "fuente": "Sector costero del simulador por barrio",
+    "nota": "Barrios de la franja costera del Paraná. No hay relevamiento oficial por barrio para esta altura."
+   },
+   {
+    "h": 8.4,
+    "zonas": [
+     "Centro",
+     "La Rosada (arroyo Poncho Verde)",
+     "3 de Abril",
+     "Cambá Cuá",
+     "Anahí",
+     "Bañado Norte",
+     "Molina Punta"
+    ],
+    "tipo": "estimado",
+    "fecha": "",
+    "fuente": "Comparación con 1992 y 1998",
+    "nota": "Altura comparable con las crecidas de 1992 y 1998; no se publicó un relevamiento por barrio de esas crecidas."
+   }
+  ],
+  "Paso de la Patria": [
+   {
+    "h": 7.74,
+    "zonas": [
+     "Don Julián",
+     "La Isla",
+     "Pescadores",
+     "La Rioja",
+     "8 de Diciembre",
+     "Zona sur, por el desborde del arroyo Guajó"
+    ],
+    "tipo": "documentado",
+    "fecha": "27/10/2026",
+    "fuente": "Prefectura y Defensa Civil (La Nación)",
+    "nota": "Cerca del 40 % del pueblo inundado."
+   },
+   {
+    "h": 8.5,
+    "zonas": [
+     "El pueblo podría quedar incomunicado"
+    ],
+    "tipo": "documentado",
+    "fecha": "octubre de 2026",
+    "fuente": "Advertencia del intendente"
+   }
+  ],
+  "Itatí": [
+   {
+    "h": 7.9,
+    "zonas": [
+     "Barrio Ibiray aislado, con viviendas con más de un metro de agua",
+     "Costa ribereña: 192 evacuados"
+    ],
+    "tipo": "documentado",
+    "fecha": "18/10/2026",
+    "fuente": "Defensa Civil"
+   },
+   {
+    "h": 8.28,
+    "zonas": [
+     "518 personas desplazadas en la localidad"
+    ],
+    "tipo": "documentado",
+    "fecha": "octubre y noviembre de 2026",
+    "fuente": "Defensa Civil y AFE"
+   }
+  ],
+  "Ituzaingó": [
+   {
+    "h": 3.68,
+    "zonas": [
+     "Isla Apipé: 185 evacuados, la mitad de la isla inundada y la ruta cortada",
+     "17 evacuados en Ituzaingó"
+    ],
+    "tipo": "documentado",
+    "fecha": "26/10 y 06/11/2026",
+    "fuente": "Defensa Civil e Infobae"
+   }
+  ],
+  "Goya": [
+   {
+    "h": 5.48,
+    "zonas": [
+     "Paseo inferior de la costanera"
+    ],
+    "tipo": "documentado",
+    "fecha": "21/10/2026",
+    "fuente": "La Nación"
+   },
+   {
+    "h": 6.0,
+    "zonas": [
+     "Zona del puerto: 157 autoevacuados",
+     "San Isidro: 50 autoevacuados"
+    ],
+    "tipo": "documentado",
+    "fecha": "06/11/2026",
+    "fuente": "Defensa Civil"
+   }
+  ],
+  "Bella Vista": [
+   {
+    "h": 6.53,
+    "zonas": [
+     "Zonas bajas: 19 desplazados"
+    ],
+    "tipo": "documentado",
+    "fecha": "02/11/2026",
+    "fuente": "Defensa Civil"
+   }
+  ],
+  "Esquina": [
+   {
+    "h": 5.59,
+    "zonas": [
+     "Zonas bajas: 58 autoevacuados (35 familias)"
+    ],
+    "tipo": "documentado",
+    "fecha": "06/11/2026",
+    "fuente": "Defensa Civil"
+   }
+  ],
+  "Paso de los Libres": [
+   {
+    "h": 7.43,
+    "zonas": [
+     "Costanera cerrada: calles Coronel López, Amado Bonpland y Plácido Martínez"
+    ],
+    "tipo": "documentado",
+    "fecha": "10/11/2026",
+    "fuente": "Municipalidad y Prefectura"
+   },
+   {
+    "h": 9.46,
+    "zonas": [
+     "Barrio Pescadores: familias trasladadas",
+     "Costanera"
+    ],
+    "tipo": "documentado",
+    "fecha": "2023",
+    "fuente": "Radio Sudamericana"
+   }
+  ]
+ }
+}
