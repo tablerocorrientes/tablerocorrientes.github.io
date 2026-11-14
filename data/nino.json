@@ -211,5 +211,43 @@
    }
   ]
  },
- "picos_fuente": "Picos históricos: serie del INA con datos de Prefectura (vía Copernicus Argentina), informe del INA del 14/01/2016 y Radio Sudamericana. Para los puertos sin dato histórico publicado se muestra solo el máximo de esta crecida."
+ "picos_fuente": "Picos históricos: serie del INA con datos de Prefectura (vía Copernicus Argentina), informe del INA del 14/01/2016 y Radio Sudamericana. Para los puertos sin dato histórico publicado se muestra solo el máximo de esta crecida.",
+ "lluvia_normal_mensual": {
+  "valores": [
+   180,
+   152,
+   155,
+   171,
+   88,
+   65,
+   32,
+   40,
+   60,
+   154,
+   185,
+   173
+  ],
+  "dias": [
+   8,
+   7,
+   7,
+   7,
+   6,
+   4,
+   4,
+   3,
+   5,
+   8,
+   8,
+   8
+  ],
+  "fuente": "Promedio 1991-2020 de Corrientes (Climats et Voyages)",
+  "url": "https://www.climatsetvoyages.com/climat/argentine/corrientes",
+  "tendencia": "El SMN prevé lluvias por encima de lo normal en el Litoral de noviembre a enero."
+ },
+ "defensas": {
+  "Corrientes": "Defensa costera sobre la avenida Costanera. El acceso a Punta San Sebastián está cerrado en forma preventiva por la cercanía del agua a las defensas (Municipalidad).",
+  "Goya": "Se reforzaron las defensas cerca del puerto (COE, 02/11/2026).",
+  "Paso de la Patria": "Cerca del 40 % del pueblo quedó inundado con el río en 7,74 m (27/10/2026)."
+ }
 }
