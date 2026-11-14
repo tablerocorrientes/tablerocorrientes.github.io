@@ -129,7 +129,15 @@
     cargarDatos().then(ejecutarPagina).then(function(){
       return Promise.all([fetch('/data/config.json',{cache:'no-cache'}).then(function(r){return r.json();}).catch(function(){return {};}),listas()]);
     }).then(function(r){reportes(r[0],r[1][0],r[1][1]);});
-    if('serviceWorker' in navigator)navigator.serviceWorker.register('/sw.js').catch(function(){});
+    if('serviceWorker' in navigator){navigator.serviceWorker.register('/sw.js',{updateViaCache:'none'}).then(function(reg){try{reg.update();}catch(e){}}).catch(function(){});
+      /* si se publica una versión nueva del sitio, recargar una sola vez para mostrarla */
+      var recargado=false;navigator.serviceWorker.addEventListener('controllerchange',function(){if(recargado)return;recargado=true;location.reload();});}
+    /* al volver a abrir la app (o volver a la pestaña), traer los datos más recientes */
+    var abierto=Date.now(),oculto=null;
+    function fresca(){if(document.visibilityState!=='visible')return;var t0=oculto||abierto;if(Date.now()-t0>2*60000||Date.now()-abierto>10*60000){location.reload();}}
+    document.addEventListener('visibilitychange',function(){if(document.visibilityState==='hidden')oculto=Date.now();else{fresca();oculto=null;}});
+    window.addEventListener('pageshow',function(e){if(e.persisted)location.reload();});
+    window.addEventListener('focus',function(){if(Date.now()-abierto>10*60000)fresca();});
   }
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',iniciar);else iniciar();
 })();
