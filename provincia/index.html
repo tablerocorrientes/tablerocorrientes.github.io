@@ -318,7 +318,7 @@ function tcProx(smn,llueve){
   var activo=act||!!llueve;
   function f(d){return d?dia(d)+' '+hm(d):'';}
   return {activo:activo,rio:f(sig(diarias)),lluvia:f(activo?sig(c1):sig(diarias)),pron:f(activo?sig(c2):sig(diarias)),
-    nota:activo?'<b style="color:#ffd27a">Modo alerta:</b> lluvia caída cada hora y pronóstico cada 2 horas, mientras haya alerta o lluvia.':'Sin alerta ni lluvia: actualización completa a las 9 y a las 18:30 h; si aparece una alerta o empieza a llover, se actualiza más seguido.'};
+    nota:activo?'<b style="color:#ffd27a">Modo alerta:</b> lluvia caída cada hora y pronóstico cada 2 horas, mientras haya alerta o lluvia.':'Sin alerta ni lluvia: actualización completa a las 9 y a las 18:30 h, y control de alertas a las 13:30 y 23:30 h; si aparece una alerta o empieza a llover, se actualiza más seguido.'};
 }
 (function(){
   var cap=L&&L.estaciones?capitalCompuesta():null;

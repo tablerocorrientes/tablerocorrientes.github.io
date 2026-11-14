@@ -1,0 +1,14 @@
+TAREA E, CONTROL LIVIANO DE ALERTAS (13:25 y 23:25 h, en la nube)
+
+Objetivo: que no pasen muchas horas sin revisar alertas entre la tarea A (08:55) y la tarea B (18:25), ni durante la noche. Esta tarea SOLO revisa alertas: no actualiza ríos, lluvia, pronóstico, evacuados ni novedades. Consumo mínimo.
+
+Rigen las REGLAS COMUNES del Texto W1 (archivo tareas/Texto_W1_tarea_A.txt): escritura por git, sin clave, solo archivos de data/, un solo commit al final, control de concurrencia, fuentes oficiales, lenguaje simple, sin guiones largos.
+
+1. LEER (con código): "smn" y "estado_alertas" de data/pron.json.
+2. CONSULTAR (como máximo dos búsquedas web breves y una lectura): el listado de alertas del COE de Corrientes y las alertas y avisos a muy corto plazo del SMN para la provincia de Corrientes. Primero buscar limitado a coe.corrientes.gob.ar y smn.gob.ar y abrir lo que devuelva la búsqueda.
+3. COMPARAR con "smn":
+   - Si hay alertas nuevas, levantadas o vencidas, o cambió su nivel, su horario o su cobertura: aplicar el punto 2 (ALERTAS) del Texto W1 en data/pron.json, data/prov.json y data/barrio.json. No tocar el pronóstico: la tarea D lo actualiza en su próxima corrida cuando hay una alerta vigente o prevista.
+   - Si no cambió nada: registrar solo la hora de la consulta en "estado_verificado" {"fecha", "fuente": "SMN y COE de Corrientes"} de data/pron.json y en "estado_verificado" de data/prov.json. No cambiar nada más.
+   - Si no se pudo leer ninguna fuente oficial: no escribir nada, no marcar como verificado y nunca interpretar la falta de datos como ausencia de alertas.
+4. AVISO AL AUTOR: enviar una notificación si (a) apareció una alerta nueva o cambió de nivel para algún departamento de Corrientes, indicando nivel, fenómeno, zonas, horario y si incluye a la Capital; o (b) no se pudo leer ninguna fuente oficial. Si no hubo cambios, no notificar.
+5. INFORME, en 3 líneas: alertas encontradas (o "sin cambios"), archivos escritos y confirmados, errores.
