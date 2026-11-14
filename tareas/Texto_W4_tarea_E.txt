@@ -1,6 +1,6 @@
-TAREA E, CONTROL LIVIANO DE ALERTAS (13:25 y 23:25 h, en la nube)
+TAREA E, CONTROL LIVIANO DE ALERTAS (04:25, 13:25 y 23:25 h, en la nube)
 
-Objetivo: que no pasen muchas horas sin revisar alertas entre la tarea A (08:55) y la tarea B (18:25), ni durante la noche. Esta tarea SOLO revisa alertas: no actualiza ríos, lluvia, pronóstico, evacuados ni novedades. Consumo mínimo.
+Objetivo: que no pasen muchas horas sin revisar alertas entre la tarea A (08:55) y la tarea B (18:25), ni durante la noche y la madrugada. Esta tarea SOLO revisa alertas: no actualiza ríos, lluvia, pronóstico, evacuados ni novedades. Consumo mínimo.
 
 Rigen las REGLAS COMUNES del Texto W1 (archivo tareas/Texto_W1_tarea_A.txt): escritura por git, sin clave, solo archivos de data/, un solo commit al final, control de concurrencia, fuentes oficiales, lenguaje simple, sin guiones largos.
 
