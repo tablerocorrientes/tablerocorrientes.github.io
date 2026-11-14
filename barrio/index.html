@@ -274,6 +274,8 @@ footer b{display:block;color:var(--ink)}
 <script type="application/json" id="obs" data-src="/data/obs.json"></script>
 <script type="application/json" id="pron-data" data-src="/data/pron.json"></script>
 <script type="application/json" id="data" data-src="/data/barrio.json"></script>
+<script type="application/json" id="lluvia-c" data-src="/data/lluvia.json"></script>
+<script type="application/json" id="puertos-c" data-src="/data/puertos.json"></script>
 <script type="application/json" id="obras-data" data-src="/data/obras.json"></script>
 <script type="text/plain" id="main-js">
 (function(){
@@ -661,6 +663,11 @@ function tcProx(smn,llueve){
   return {activo:activo,rio:f(sig(diarias)),lluvia:f(activo?sig(c1):sig(diarias)),pron:f(activo?sig(c2):sig(diarias)),
     nota:activo?'<b style="color:#ffd27a">Modo alerta:</b> lluvia caída cada hora y pronóstico cada 2 horas, mientras haya alerta o lluvia.':'Sin alerta ni lluvia: actualización completa a las 9 y a las 18:30 h, y control de alertas a las 4:30, 13:30 y 23:30 h; si aparece una alerta o empieza a llover, se actualiza más seguido.'};
 }
+function tcPd(s){var m=/(\d{1,2})\/(\d{1,2})\/(\d{4})\D+(\d{1,2}):(\d{2})/.exec(String(s||''));return m?new Date(+m[3],+m[2]-1,+m[1],+m[4],+m[5]):null;}
+function tcHm(d){return String(d.getHours()).padStart(2,'0')+':'+String(d.getMinutes()).padStart(2,'0')+' h';}
+function tcDia(d){var n=new Date(),a=new Date(n.getFullYear(),n.getMonth(),n.getDate()),b=new Date(d.getFullYear(),d.getMonth(),d.getDate()),k=Math.round((b-a)/864e5);return k===0?'hoy':k===-1?'ayer':String(d.getDate()).padStart(2,'0')+'/'+String(d.getMonth()+1).padStart(2,'0');}
+/* última consulta (aunque no haya cambios) y último dato nuevo */
+function tcCons(consultado,actualizado){var c=tcPd(consultado),u=tcPd(actualizado);if(u&&(!c||u>c))c=u;if(!c)return '';var t='Consultado '+tcDia(c)+' '+tcHm(c);if(u&&c-u>5*60000)t+=' · sin cambios desde las '+tcHm(u)+(tcDia(u)!=='hoy'?' ('+tcDia(u)+')':'');return t;}
 (function(){
   var u=$('upd'), m=/(\d{1,2})\/(\d{1,2})\/(\d{4}).*?(\d{1,2}):(\d{2})/.exec(D.actualizado||''), age=null, cuando=D.actualizado;
   if(m){var t=Date.UTC(+m[3],+m[2]-1,+m[1],+m[4]+3,+m[5]); age=(Date.now()-t)/3600000; cuando='el '+(+m[1])+'/'+(+m[2])+' a las '+m[4]+':'+m[5]+' h';}
@@ -669,14 +676,14 @@ function tcProx(smn,llueve){
   u.className='upd'+(vieja?' old':'');
   var rioTxt=String(D.rio.actualizado||'').split(/;\s*|\.\s+/).filter(function(x){return x&&!/repositorio|manifiesto|huella|ACTUALIZADO|Drive|JSON|SHA|validad|consolidad/i.test(x);}).join('; ').replace('/2026','');
   var fR=String(D.rio.actualizado||'').match(/\d{1,2}\/\d{1,2}\/\d{4}(,\s*\d{1,2}:\d{2}\s*h)?/),fL=OBS&&OBS.ts?new Date(OBS.ts).toLocaleString('es-AR',{day:'2-digit',month:'2-digit',hour:'2-digit',minute:'2-digit',hour12:false,timeZone:'America/Argentina/Cordoba'}).replace(',',' a las')+' h':'sin datos';
-  var PFd={};try{PFd=JSON.parse(document.getElementById('pron-data').textContent)||{};}catch(e){}
+  var PFd={},LLc={},PUc={};try{PFd=JSON.parse(document.getElementById('pron-data').textContent)||{};}catch(e){}try{LLc=JSON.parse(document.getElementById('lluvia-c').textContent)||{};}catch(e){}try{PUc=JSON.parse(document.getElementById('puertos-c').textContent)||{};}catch(e){}
   var llueveB=!!(OBS&&OBS.estado&&OBS.estado!=='seca'&&OBS.ts&&Date.now()-OBS.ts<3*3600000);
   var PX=tcProx(PFd.smn,llueveB);
-  var row=function(ic,t,v,s,px){return '<span style="display:grid;grid-template-columns:auto 1fr;gap:8px;align-items:center;background:rgba(255,255,255,.1);border-radius:12px;padding:7px 10px;margin-top:6px"><span style="font-size:1.2rem">'+ic+'</span><span><b style="color:#fff">'+t+': '+v+'</b><small style="display:block">'+s+'</small>'+(px?'<small style="display:block">Próxima actualización, aprox.: <b style="color:#fff">'+px+'</b></small>':'')+'</span></span>';};
+  var row=function(ic,t,v,s,px,cs){return '<span style="display:grid;grid-template-columns:auto 1fr;gap:8px;align-items:center;background:rgba(255,255,255,.1);border-radius:12px;padding:7px 10px;margin-top:6px"><span style="font-size:1.2rem">'+ic+'</span><span><b style="color:#fff">'+t+': '+v+'</b><small style="display:block">'+s+'</small>'+(cs?'<small style="display:block;color:#ffe7a8">'+cs+'</small>':'')+(px?'<small style="display:block">Próxima actualización, aprox.: <b style="color:#fff">'+px+'</b></small>':'')+'</span></span>';};
   u.innerHTML='<span style="display:block;width:100%"><b style="font-size:.72rem;letter-spacing:.06em;color:#cfe3ea">ÚLTIMAS ACTUALIZACIONES</b>'
-    +row('🌊','Río Paraná',(D.rio.altura!=null?String(D.rio.altura).replace('.',',')+' m':'s/d'),'Prefectura · '+(fR?fR[0].replace('/2026',''):'sin fecha'),PX.rio)
-    +row('🌧️','Lluvia medida',(OBS&&OBS.mm!=null?nf(+OBS.mm,1)+' mm en la última hora':'sin datos'),'Estaciones del SNIH en la Capital · '+fL,PX.lluvia)
-    +row('⛅','Pronóstico',(vieja?'desactualizado':'vigente'),'SMN, COE y modelos · '+cuando.replace(/^el /,'')+hace,PX.pron)+'<small style="display:block;margin-top:6px">'+PX.nota+'</small></span>';
+    +row('🌊','Río Paraná',(D.rio.altura!=null?String(D.rio.altura).replace('.',',')+' m':'s/d'),'Prefectura · lectura del '+(fR?fR[0].replace('/2026',''):'sin fecha'),PX.rio,tcCons(PUc.consultado||PUc.ultimo_intento,PUc.actualizado))
+    +row('🌧️','Lluvia medida',(OBS&&OBS.mm!=null?nf(+OBS.mm,1)+' mm en la última hora':'sin datos'),'Estaciones del SNIH en la Capital · último registro '+fL,PX.lluvia,tcCons(LLc.consultado,LLc.actualizado))
+    +row('⛅','Pronóstico',(vieja?'desactualizado':'vigente'),'SMN, COE y modelos',PX.pron,tcCons(PFd.consultado||(PFd.estado_verificado&&PFd.estado_verificado.fecha),PFd.actualizado||D.actualizado))+'<small style="display:block;margin-top:6px">'+PX.nota+' Las consultas se hacen en cada corrida; si no hay datos nuevos, se mantiene el último cambio registrado.</small></span>';
 })();
 /* Pronóstico extendido: solo informativo, no interviene en ningún cálculo */
 function tcExtHTML(ext,ciudad,titulo,op){
