@@ -1,5 +1,5 @@
 {
- "repositorio": "Google Drive, carpeta Tablero_Ciudadano_Hidrologico",
+ "repositorio": "Lecturas oficiales registradas por las tareas del Tablero Ciudadano",
  "manifiesto": {
   "id": "16fXJXTkGYeXqfHs6A9byrvE_YVd7-eE-",
   "nombre": "manifiesto_hidrologico_20261113_103404.json",
@@ -7,7 +7,7 @@
   "fecha_validacion": "13/11/2026, 10:35 h",
   "sha256": "6 de 6 coinciden"
  },
- "actualizado": "13/11/2026, 18:50 h",
+ "actualizado": "13/11/2026, 23:14 h",
  "series": [
   {
    "rio": "Paraná",
@@ -1827,7 +1827,7 @@
   }
  ],
  "pron_aviso": "Pronósticos y puntos numéricos copiados de pronosticos_oficiales de la corrida 20261112_113100, con su fecha de emisión; son escenarios, no lecturas. Pronósticos INA previos conservados con su fecha de emisión; no se verificó emisión nueva. No confundir observaciones 04/11 con proyecciones. Pronósticos conservados sin nueva emisión verificada; no confundir con niveles CTM 06/11.",
- "verificacion": "Validación integral de la corrida 20261113_103404 el 13/11/2026, 18:50 h: los seis archivos se descargaron por su enlace público (bytes originales) y las seis huellas SHA-256 y los seis tamaños coinciden con el manifiesto (parana_historico 65.593 bytes, 255 registros; uruguay_historico 20.022 bytes, 63 registros; estado_actual 12.513; umbrales_puertos 9.865; pronosticos_oficiales 3.746; fuentes_metadatos 8.961); CSV con las columnas declaradas y sin duplicados; JSON válidos (utf-8-sig). Se incorporaron 13 registros nuevos respecto de la carga anterior (9 del Paraná y 4 del Uruguay).",
+ "verificacion": "Consulta del 13/11/2026, 23:14 h: Prefectura Naval Argentina (tabla del CIM/UNL del 13/11/2026, sin hora de observación), INA (informe diario del 13/11) y Comisión Técnica Mixta de Salto Grande (niveles del 13/11/2026 a las 07:00 h). No hay lecturas posteriores a las ya registradas.",
  "observaciones": [
   "Monte Caseros: sin lecturas ni cotas verificadas en el repositorio (se mantiene la lectura externa del 20/10, pendiente de consolidación, fuera de este histórico).",
   "Las lecturas de las 00:00 de Prefectura publicadas por INA-SIyAH a las 03:00 UTC corresponden a las 00:00 de Argentina: hora verificada.",

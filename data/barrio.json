@@ -1,5 +1,5 @@
 {
- "actualizado": "13/11/2026 a las 18:50 h",
+ "actualizado": "13/11/2026 a las 23:14 h",
  "dias": {
   "2026-11-02": [
    0,
@@ -288,134 +288,160 @@
    0.0
   ],
   "2026-11-13": [
-   0.0,
-   0.0,
-   0.0,
-   0.0,
-   0.0,
-   0.0,
-   0.0,
-   0.0,
-   0.0,
-   0.0,
-   0.0,
-   0.0,
-   0.0,
-   0.0,
-   0.0,
-   0.0,
-   0.0,
-   0.0,
-   0.0,
-   0.0,
-   0.0,
-   0.0,
-   0.0,
-   0.0
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
   ],
   "2026-11-14": [
-   0.0,
-   0.0,
-   0.0,
-   0.0,
-   0.0,
-   0.0,
-   0.0,
-   0.0,
-   0.0,
-   0.0,
-   0.0,
-   0.0,
-   2.1,
-   0.9,
-   2.1,
-   0.4,
-   0.0,
-   0.0,
-   0.0,
-   0.0,
-   0.0,
-   0.0,
-   0.0,
-   0.0
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1.6,
+   8.7,
+   1.8,
+   0.6,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
   ],
   "2026-11-15": [
-   0.1083,
-   0.1083,
-   0.1083,
-   0.1083,
-   0.1083,
-   0.1083,
-   0.1083,
-   0.1083,
-   0.1083,
-   0.1083,
-   0.1083,
-   0.1083,
-   0.1083,
-   0.1083,
-   0.1083,
-   0.1083,
-   0.1083,
-   0.1083,
-   0.1083,
-   0.1083,
-   0.1083,
-   0.1083,
-   0.1083,
-   0.1083
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0.1,
+   0.1,
+   0.1,
+   0.1,
+   0,
+   0,
+   0.2,
+   0.1,
+   0,
+   0,
+   0,
+   0,
+   0
   ],
   "2026-11-16": [
-   0.175,
-   0.175,
-   0.175,
-   0.175,
-   0.175,
-   0.175,
-   0.175,
-   0.175,
-   0.175,
-   0.175,
-   0.175,
-   0.175,
-   0.175,
-   0.175,
-   0.175,
-   0.175,
-   0.175,
-   0.175,
-   0.175,
-   0.175,
-   0.175,
-   0.175,
-   0.175,
-   0.175
+   0.09,
+   0.09,
+   0.09,
+   0.09,
+   0.09,
+   0.09,
+   0.09,
+   0.09,
+   0.09,
+   0.09,
+   0.09,
+   0.09,
+   0.09,
+   0.09,
+   0.09,
+   0.09,
+   0.09,
+   0.09,
+   0.09,
+   0.09,
+   0.09,
+   0.09,
+   0.09,
+   0.09
   ],
   "2026-11-17": [
-   0.425,
-   0.425,
-   0.425,
-   0.425,
-   0.425,
-   0.425,
-   0.425,
-   0.425,
-   0.425,
-   0.425,
-   0.425,
-   0.425,
-   0.425,
-   0.425,
-   0.425,
-   0.425,
-   0.425,
-   0.425,
-   0.425,
-   0.425,
-   0.425,
-   0.425,
-   0.425,
-   0.425
+   0.34,
+   0.34,
+   0.34,
+   0.34,
+   0.34,
+   0.34,
+   0.34,
+   0.34,
+   0.34,
+   0.34,
+   0.34,
+   0.34,
+   0.34,
+   0.34,
+   0.34,
+   0.34,
+   0.34,
+   0.34,
+   0.34,
+   0.34,
+   0.34,
+   0.34,
+   0.34,
+   0.34
+  ],
+  "2026-11-18": [
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5
   ]
  },
  "alertas": {
@@ -427,20 +453,45 @@
    "hasta": "14/11/2026, 17:00 h",
    "desde_iso": "2026-11-14T11:00:00-03:00",
    "hasta_iso": "2026-11-14T17:00:00-03:00",
-   "emision": "sin dato (no visible en el listado del COE)",
-   "emision_iso": null,
-   "min": null,
-   "max": null,
-   "texto": "Alerta naranja del COE de Corrientes (2026-0021-NT) por tormentas para el sábado 14/11, de 11:00 a 17:00 h, que incluye a la Capital. El listado oficial no informa milímetros. Consulta directa del COE el 13/11/2026, 18:50 h."
+   "emision": "13/11/2026, 17:47 h",
+   "emision_iso": "2026-11-13T17:47:00-03:00",
+   "min": 80,
+   "max": 120,
+   "texto": "Alerta naranja por tormentas del Servicio Meteorológico Nacional, difundida por el COE de Corrientes (2026-0021-NT), para el sábado 14/11 de 11:00 a 17:00 h, que incluye a la Capital: tormentas fuertes, granizo ocasional, ráfagas que podrían superar los 90 km/h y entre 80 y 120 mm, que pueden ser superados en forma localizada. Emitida el 13/11/2026 a las 17:47 h."
   }
  },
  "rio": {
   "altura": 6.73,
-  "actualizado": "13/11/2026, tabla del CIM/UNL (datos de Prefectura Naval Argentina), solo fecha, hora de observación no publicada (−0,07 m); consolidada en el repositorio (manifiesto validado 20261113_103404 el 13/11/2026, 10:35 h, 6 de 6 huellas, unas 8 h de antigüedad: ACTUALIZADO). Contraste: INA, reporte diario del 13/11, 6,73 m. Última lectura con hora verificada: 7,13 m el 02/11 a las 06:00 h (CIM/UNL)",
+  "actualizado": "13/11/2026, tabla de Prefectura Naval Argentina publicada por el CIM/UNL, hora de observación no publicada (−0,07 m). El INA informa el mismo valor en su reporte del 13/11.",
   "alerta": 6.5,
   "evacuacion": 7.0
  },
  "fuentes": [
+  {
+   "g": "Actualización del 13/11/2026, 23:14 h",
+   "l": [
+    [
+     "COE de Corrientes, listado de alertas (avisos del SMN)",
+     "https://coe.corrientes.gob.ar/alertas"
+    ],
+    [
+     "Prefectura Naval Argentina, alturas del Paraná publicadas por el CIM/UNL (13/11)",
+     "https://cim.fich.unl.edu.ar/rios/parana/alturas"
+    ],
+    [
+     "INA, reporte hidrometeorológico diario del 13/11",
+     "https://alerta.ina.gob.ar/a5/diario/reporte_diario"
+    ],
+    [
+     "Agrofy News (datos de Open-Meteo), pronóstico para Corrientes",
+     "https://news.agrofy.com.ar/pronostico-clima-tiempo/corrientes/corrientes"
+    ],
+    [
+     "SNIH, lluvia medida",
+     "https://snih.hidricosargentina.gob.ar/Filtros.aspx"
+    ]
+   ]
+  },
   {
    "g": "Actualización del 13/11/2026, 18:50 h",
    "l": [
@@ -623,341 +674,6 @@
     [
      "Agrofy News (Open-Meteo), Corrientes, 18:45 h",
      "https://news.agrofy.com.ar/pronostico-clima-tiempo/corrientes/corrientes"
-    ]
-   ]
-  },
-  {
-   "g": "Actualización del 08/11/2026, 18:52 h",
-   "l": [
-    [
-     "Repositorio Tablero_Ciudadano_Hidrologico (Drive), manifiesto validado 20261108_044605 (6 de 6 huellas)",
-     "https://drive.google.com/file/d/1ZG1xV1i6ITrEZoE4w0lkdx7J6Bmzub6p/view"
-    ],
-    [
-     "Vigilancia meteorológica de Drive (solo lectura), revisión del 06/11, 18:48 h",
-     "https://drive.google.com/file/d/15pFDaK1FcyCdDs2B1CYWSSogHgE1q-DG/view"
-    ],
-    [
-     "COE de Corrientes, listado de alertas (sin alertas vigentes)",
-     "https://coe.corrientes.gob.ar/alertas"
-    ],
-    [
-     "CIM/UNL, alturas del Paraná (tabla del 08/11, datos de Prefectura)",
-     "https://cim.fich.unl.edu.ar/rios/parana/alturas"
-    ],
-    [
-     "CTM Salto Grande, niveles del río Uruguay (08/11, 07:00 h)",
-     "https://www.saltogrande.org/docs/hidrologia/CaudalesNiveles.pdf"
-    ],
-    [
-     "Agrofy News (Open-Meteo), Corrientes",
-     "https://news.agrofy.com.ar/pronostico-clima-tiempo/corrientes/corrientes"
-    ],
-    [
-     "Meteored, pronóstico de Corrientes",
-     "https://www.tiempo.com/argentina/corrientes/por-horas"
-    ],
-    [
-     "EBY, alerta hidrológico N.º 02/noviembre (4/11)",
-     "https://www.eby.gov.py/alerta-hidrologico-n02-noviembre/"
-    ],
-    [
-     "EsChaco (El Litoral), Defensa Civil: 1.967 evacuados (6/11)",
-     "https://www.eschaco.com/vernota.asp?id_noticia=133997"
-    ]
-   ]
-  },
-  {
-   "g": "Actualización del 04/11/2026, 09:15 h",
-   "l": [
-    [
-     "Repositorio Tablero_Ciudadano_Hidrologico (Drive), manifiesto validado 20261104_082348",
-     "https://drive.google.com/file/d/1ZF-6_NPJMfb04csHVVxUy9cS4YKQqQom/view"
-    ],
-    [
-     "Vigilancia meteorológica de Drive (solo lectura), revisión del 04/11, 07:32 h: VERIFICADO_CON_ALERTAS",
-     "https://drive.google.com/file/d/1EQx9v7zEnA-bbzkDhbAnafLTP-Eedqg7/view"
-    ],
-    [
-     "COE de Corrientes, alertas vigentes",
-     "https://coe.corrientes.gob.ar/alertas"
-    ],
-    [
-     "La Nación, clima en Corrientes (parte del SMN, 08:46 h)",
-     "https://www.lanacion.com.ar/clima/corrientes/"
-    ],
-    [
-     "Agrofy News (Open-Meteo), Corrientes, corrida del 03/11, 21:17 h",
-     "https://news.agrofy.com.ar/pronostico-clima-tiempo/corrientes/corrientes"
-    ],
-    [
-     "CIM/UNL, alturas del Paraná (datos de Prefectura)",
-     "https://cim.fich.unl.edu.ar/rios/parana/alturas"
-    ]
-   ]
-  },
-  {
-   "g": "Actualización del 03/11/2026, 19:55 h",
-   "l": [
-    [
-     "Repositorio Tablero_Ciudadano_Hidrologico (Drive), manifiesto validado 20261103_145314",
-     "https://drive.google.com/file/d/1DJYutnTXdxRVwpZ5Xpcix9OsaXaXksby/view"
-    ],
-    [
-     "Vigilancia meteorológica de Drive (solo lectura), revisión del 03/11, 19:32 h: NO_VERIFICADO",
-     "https://drive.google.com/file/d/1RQDN6nC7QbjCHKtSzt1rgEqhbJx_IRB2/view"
-    ],
-    [
-     "CIM/UNL, alturas del Paraná (datos de Prefectura)",
-     "https://cim.fich.unl.edu.ar/rios/parana/alturas"
-    ]
-   ]
-  },
-  {
-   "g": "Actualización del 03/11/2026, 07:11 h",
-   "l": [
-    [
-     "Repositorio Tablero_Ciudadano_Hidrologico (Drive), manifiesto validado 20261102_202300",
-     "https://drive.google.com/file/d/1Q-jSqh6RKMMM7yUmzioXPPnvi9RuXoKz/view"
-    ],
-    [
-     "La Nación, clima en Corrientes (parte del SMN, 07:00 h)",
-     "https://www.lanacion.com.ar/clima/corrientes/"
-    ],
-    [
-     "Examedia, alerta naranja por tormentas en Corrientes (COE)",
-     "https://examedia.com.ar/portada/post/88167825"
-    ],
-    [
-     "Examedia, alertas del SMN para el martes 3/11 (amarilla, incluye Corrientes)",
-     "https://examedia.com.ar/portada/post/88168653"
-    ],
-    [
-     "Examedia (Diario Época), los ríos dan tregua pero prevén dos días de tormentas severas; EBY",
-     "https://examedia.com.ar/portada/post/88169121"
-    ],
-    [
-     "Agrofy News (Open-Meteo), Corrientes, corrida del 02/11, 16:48 h",
-     "https://news.agrofy.com.ar/pronostico-clima-tiempo/corrientes/corrientes"
-    ],
-    [
-     "Agrofy News, altura del río Paraná en Corrientes (7,11 m, 02/11)",
-     "https://news.agrofy.com.ar/altura-de-los-rios/corrientes"
-    ],
-    [
-     "rioparana.com.ar, tabla de Prefectura del 02/11 (contraste)",
-     "https://rioparana.com.ar/rio/"
-    ]
-   ]
-  },
-  {
-   "g": "Actualización del 02/11/2026, 18:52 h",
-   "l": [
-    [
-     "Repositorio Tablero_Ciudadano_Hidrologico (Drive), manifiesto validado 20261102_180456",
-     "https://drive.google.com/file/d/1oVKtF2Uz8qZvbSpTCilg-H1FUGfmi1Fb/view"
-    ],
-    [
-     "La Nación, clima en Corrientes (parte del SMN, 07:00 h)",
-     "https://www.lanacion.com.ar/clima/corrientes/"
-    ],
-    [
-     "El Cronista, aviso amarillo del SMN para el martes 3/11 (no incluye a Corrientes)",
-     "https://www.cronista.com/informacion-gral/se-anuncio-una-alerta-amarilla-por-tormentas-fuertes-en-4-provincias-se-espera-posible-caida-de-granizo-y-acumulados-de-hasta-50-mm-el-martes-3-de-noviembre/"
-    ],
-    [
-     "Agrofy News (Open-Meteo), Corrientes, 02/11, 16:48 h",
-     "https://news.agrofy.com.ar/pronostico-clima-tiempo/corrientes/corrientes"
-    ],
-    [
-     "Infobae, evacuados y paso Ituzaingó–Ayolas (02/11)",
-     "https://www.infobae.com/politica/2026/11/02/el-nino-yacyreta-mantiene-interrumpido-el-paso-entre-argentina-y-paraguay-y-se-incrementa-la-cantidad-de-auto-evacuados-en-corrientes/"
-    ],
-    [
-     "El Monterizo, Defensa Civil (02/11)",
-     "https://elmonterizo.com/el-parana-bajo-pero-en-corrientes-hay-220-personas-mas-fuera-de-sus-casas"
-    ]
-   ]
-  },
-  {
-   "g": "Actualización del 02/11/2026, 07:05 h",
-   "l": [
-    [
-     "La Nación, aviso amarillo por tormentas del SMN para el lunes 2/11",
-     "https://www.lanacion.com.ar/sociedad/hay-alerta-amarilla-por-tormentas-para-este-lunes-2-de-noviembre-las-provincias-afectadas-nid01112026/"
-    ],
-    [
-     "Examedia, aviso amarillo por tormentas (2/11)",
-     "https://examedia.com.ar/portada/post/88161035"
-    ],
-    [
-     "La Nación, clima en Corrientes (parte del SMN, 07:00 h)",
-     "https://www.lanacion.com.ar/clima/corrientes/"
-    ],
-    [
-     "Agrofy News (Open-Meteo), Corrientes, consultado el 02/11",
-     "https://news.agrofy.com.ar/pronostico-clima-tiempo/corrientes/corrientes"
-    ],
-    [
-     "Meteored, pronóstico horario de Corrientes (corrida del 28/10)",
-     "https://www.tiempo.com/argentina/corrientes/por-horas"
-    ],
-    [
-     "rioparana.com.ar, parte de Prefectura del 01/11",
-     "https://rioparana.com.ar/rio/"
-    ],
-    [
-     "Examedia (El Litoral), el Paraná da un alivio (31/10)",
-     "https://examedia.com.ar/portada/post/88156949"
-    ],
-    [
-     "Examedia (TN24), el Paraná comienza a bajar (01/11)",
-     "https://examedia.com.ar/portada/post/88157648"
-    ]
-   ]
-  },
-  {
-   "g": "Actualización del 01/11/2026, 07:06 h",
-   "l": [
-    [
-     "Corrientes Hoy, parte del SMN para el domingo 1/11 (31/10)",
-     "https://www.corrienteshoy.com/info-general/domingo-nublado-y-con-algunos-chaparrones-en-corrientes.htm"
-    ],
-    [
-     "La Nación, clima en Corrientes (parte del SMN, versión de las 16:49 h)",
-     "https://www.lanacion.com.ar/clima/corrientes/"
-    ],
-    [
-     "Meteored, pronóstico horario de Corrientes",
-     "https://www.tiempo.com/argentina/corrientes/por-horas"
-    ],
-    [
-     "Examedia (TN24), el Paraná comienza a bajar en Corrientes (01/11)",
-     "https://examedia.com.ar/portada/post/88157648"
-    ],
-    [
-     "Agrofy News, altura de los ríos (lecturas del 31/10)",
-     "https://news.agrofy.com.ar/altura-de-los-rios/rio-parana"
-    ],
-    [
-     "EBY, alerta hidrológico N.º 13 (30/10)",
-     "https://www.eby.gov.py/alerta-hidrologico-n13-octubre/"
-    ]
-   ]
-  },
-  {
-   "g": "Actualización del 30/10/2026, 07:15 h",
-   "l": [
-    [
-     "La Nación, clima en Corrientes (parte del SMN, versión de las 16:49 h)",
-     "https://www.lanacion.com.ar/clima/corrientes/"
-    ],
-    [
-     "Agrofy News (Open-Meteo), Corrientes y 11 ciudades, consultado el 30/10",
-     "https://news.agrofy.com.ar/pronostico-clima-tiempo/corrientes/corrientes"
-    ],
-    [
-     "Meteored, pronóstico horario de Corrientes: 0 % y 0 mm el 30/10",
-     "https://www.tiempo.com/argentina/corrientes/por-horas"
-    ],
-    [
-     "Examedia (Diario Época), Defensa Civil mantiene la alerta por la onda de crecida (30/10)",
-     "https://examedia.com.ar/portada/post/88147066"
-    ],
-    [
-     "El Litoral, Yacyretá anticipa un descenso gradual (informe del 27/10)",
-     "https://www.ellitoral.com.ar/sociedad/2026-10-28-8-5-0-el-parana-comienza-a-estabilizarse-yacyreta-anticipa-un-descenso-gradual-de-los-niveles-hacia-el-fin-de-semana"
-    ],
-    [
-     "Corrientes Hoy, Yacyretá: Ituzaingó y Ayolas seguirán con niveles altos (28/10)",
-     "https://www.corrienteshoy.com/info-general/ituzaingo-y-ayolas-seguiran-con-niveles-altos-pese-al-leve-descenso-previsto-para-el-fin-de-semana.htm"
-    ],
-    [
-     "Prefectura Naval, último parte disponible (29/10, La Nación)",
-     "https://www.lanacion.com.ar/sociedad/altura-de-los-rios-en-la-argentina-segun-prefectura-esta-es-la-situacion-y-los-niveles-de-alerta-hoy-nid29102026/"
-    ]
-   ]
-  },
-  {
-   "g": "Pronóstico de la ciudad de Corrientes (base del cálculo)",
-   "l": [
-    [
-     "Agrofy News (Open-Meteo, CC BY 4.0), Corrientes, consultado el 26/10",
-     "https://news.agrofy.com.ar/pronostico-clima-tiempo/corrientes/corrientes"
-    ],
-    [
-     "Meteored, pronóstico horario de Corrientes, consultado el 26/10",
-     "https://www.tiempo.com/argentina/corrientes/por-horas"
-    ],
-    [
-     "clima.com, Corrientes a 14 días, consultado el 26/10",
-     "https://www.clima.com/argentina/corrientes/corrientes"
-    ]
-   ]
-  },
-  {
-   "g": "Fuentes oficiales",
-   "l": [
-    [
-     "Prefectura Naval, parte del 25/10 publicado por el CIM de la UNL",
-     "http://wfich1.unl.edu.ar/cim/rios/parana/alturas"
-    ],
-    [
-     "SMN, alertas vigentes (página no disponible en esta corrida)",
-     "https://www.smn.gob.ar/alertas"
-    ],
-    [
-     "Yacyretá (EBY), comunicado hidrológico del 25/10 (Radio Cataratas)",
-     "https://radiocataratas.com/2026/10/25/yacyreta-alerta-por-efecto-nino-caudales-altos-en-el-parana-y-niveles-en-alerta-en-ituzaingo-y-ayolas/"
-    ],
-    [
-     "INA, sistema de alerta hidrológico (informe del 24/10)",
-     "https://www.ina.gob.ar/alerta/"
-    ],
-    [
-     "SMN, pronóstico para Corrientes",
-     "https://www.smn.gob.ar/pronostico"
-    ],
-    [
-     "SNIH (ICAA), lluvia horaria registrada",
-     "https://snih.hidricosargentina.gob.ar/Filtros.aspx"
-    ],
-    [
-     "Municipalidad, capacidad de desagüe declarada",
-     "https://www.13maxnoticias.com/44875-el-intendente-claudio-polich-detallo-el-plan-de-prevencion-ante-el-nino-y-pidio-compromiso-ciudadano"
-    ],
-    [
-     "Municipalidad, barrios en datos abiertos",
-     "https://datos.ciudaddecorrientes.gov.ar/dataset/barrios"
-    ]
-   ]
-  },
-  {
-   "g": "Prensa que difunde los partes oficiales",
-   "l": [
-    [
-     "El Litoral, parte semanal del SMN para Corrientes (25/10)",
-     "https://www.ellitoral.com.ar/sociedad/2026-10-25-14-25-0-de-la-lluvia-al-calor-asi-estara-el-tiempo-en-corrientes-esta-semana"
-    ],
-    [
-     "Noticias de la Calle, relevamiento de evacuados (25/10)",
-     "https://www.noticiasdelacalle.com.ar/noticias/2026/10/25/203175-mas-de-1400-evacuados-en-corrientes-y-la-armada-se-sumo-al-operativo-de-asistencia"
-    ],
-    [
-     "Infobae, COE: más de 550 evacuados y autoevacuados (24/10)",
-     "https://www.infobae.com/sociedad/2026/10/24/inundaciones-evacuados-y-aislados-las-imagenes-del-caos-que-provoco-el-nino-en-neuquen-chaco-y-corrientes/"
-    ],
-    [
-     "Infobae, INA: Paraná en 7,37 m en Corrientes (25/10)",
-     "https://www.infobae.com/sociedad/2026/10/25/el-nino-habia-1800-los-evacuados-en-chaco-misiones-fue-afectada-por-fuertes-tormentas-y-santa-fe-preve-otra-suba-del-parana/"
-    ],
-    [
-     "El Tribuno, crecida y evacuados (24/10)",
-     "https://www.eltribuno.com/nacionales/2026-10-24-23-2-0-videos-crecida-de-los-rios-e-inundaciones-las-causas-de-la-emergencia-en-chaco-y-corrientes"
-    ],
-    [
-     "AIRE de Santa Fe, pronóstico del INA (23/10)",
-     "https://www.airedesantafe.com.ar/santa-fe/que-anticipa-santa-fe-que-el-rio-parana-supere-los-niveles-alerta-y-evacuacion-corrientes-y-reconquista-n674101"
     ]
    ]
   }
@@ -1172,35 +888,39 @@
   },
   "2026-11-13": {
    "smn": {
-    "texto": "Sin alerta en curso para la Capital el 13/11 (el COE solo lista alertas previstas para el 14/11). Parte del SMN con probabilidades para la ciudad: no disponible en esta corrida.",
+    "texto": "Sin parte del SMN por ciudad disponible. Avisos vigentes difundidos por el COE: alerta naranja 2026-0021-NT para el sábado 14/11 (Capital incluida, 80 a 120 mm) a partir de las 11:00 h.",
     "mm": null,
     "u": "https://coe.corrientes.gob.ar/alertas"
    },
    "modelos": [
     {
      "n": "Agrofy (Open-Meteo)",
-     "mm": 0.0,
-     "act": "13/11, 18:45 h"
+     "mm": 0,
+     "act": "13/11, 22:58 h"
     }
    ],
-   "usado": 0.0,
-   "criterio": "Sin aviso oficial en curso y sin lluvia prevista por el modelo para el resto del día (Agrofy 0,0 mm; probabilidad máxima 14 %): 0,0 mm. Meteored no pudo consultarse. Estimación derivada, no una medición."
+   "usado": 0,
+   "criterio": "Sin parte del SMN con probabilidades y con Meteored no consultable: se usa el promedio de los modelos disponibles (solo Agrofy, Open-Meteo). Estimación derivada, no una medición."
   },
   "2026-11-14": {
    "smn": {
-    "texto": "Alerta naranja del COE 2026-0021-NT por tormentas para el sábado 14/11, de 11:00 a 17:00 h, que incluye la Capital (sin milímetros en el listado oficial). Parte del SMN con probabilidades para la ciudad: no disponible en esta corrida.",
+    "texto": "Alerta naranja por tormentas del SMN difundida por el COE (2026-0021-NT), sábado 14/11 de 11:00 a 17:00 h, con 80 a 120 mm que pueden ser superados en forma localizada y ráfagas de más de 90 km/h.",
     "mm": null,
     "u": "https://coe.corrientes.gob.ar/a/2026-0021-NT"
    },
    "modelos": [
     {
      "n": "Agrofy (Open-Meteo)",
-     "mm": 5.5,
-     "act": "13/11, 18:45 h"
+     "mm": 12.7,
+     "act": "13/11, 22:58 h"
     }
    ],
-   "usado": 5.5,
-   "criterio": "Alerta naranja oficial sin milímetros: se adopta el valor más alto disponible, Agrofy con 5,5 mm entre las 12 y las 15 h (Meteored no pudo consultarse). Es probable que el acumulado real de una tormenta supere el de este modelo único. Estimación derivada, no una medición."
+   "usado": 12.7,
+   "escenario_severo": {
+    "min": 80,
+    "max": 120
+   },
+   "criterio": "Sin parte del SMN con probabilidades y con Meteored no consultable: se usa el promedio de los modelos disponibles (solo Agrofy, Open-Meteo: 12,7 mm, 78 % de probabilidad). El rango de la alerta (80 a 120 mm) no se usa como pronóstico central: se informa aparte como escenario severo. Estimación derivada, no una medición."
   },
   "2026-11-15": {
    "smn": {
