@@ -1,10 +1,9 @@
 {
- "actualizado": "14/11/2026, 04:10 h",
+ "actualizado": "14/11/2026, 04:27 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
-  "13/11 04 h",
-  "05 h",
+  "13/11 05 h",
   "06 h",
   "07 h",
   "08 h",
@@ -26,11 +25,13 @@
   "14/11 00 h",
   "01 h",
   "02 h",
-  "03 h"
+  "03 h",
+  "04 h",
+  "05 h (en curso)"
  ],
  "fuente": "Sistema Nacional de Información Hídrica (SNIH), Secretaría de Infraestructura y Política Hídrica; estaciones de la Red Hidrológica Nacional y redes asociadas (ICAA, INTA, Red Iberá). Datos crudos del sensor, sin validar.",
  "enlace": "https://snih.hidricosargentina.gob.ar/Filtros.aspx",
- "nota": "Ventana de 24 horas completas, de 04 h del 13/11 a 03 h del 14/11 (hora de Argentina); la hora en curso no se incluye. Las horas sin transmisión figuran como null, no como cero.",
+ "nota": "Ventana de 24 horas completas, de 05 h del 13/11 a 04 h del 14/11 (hora de Argentina), más la hora en curso como última columna, con los datos recibidos hasta el momento. El total suma solo las 24 horas completas. Las horas sin transmisión figuran como null, no como cero.",
  "estaciones": [
   {
    "localidad": "Corrientes Capital",
@@ -60,10 +61,11 @@
     0.0,
     0.0,
     0.0,
-    0.0
+    0.0,
+    null
    ],
    "total": 0.0,
-   "ultimo": "0 mm a las 03 h"
+   "ultimo": "0 mm a las 04 h"
   },
   {
    "localidad": "Corrientes Capital (estación 13805)",
@@ -93,17 +95,17 @@
     0.0,
     0.0,
     0.0,
-    0.0
+    0.0,
+    null
    ],
    "total": 0.0,
-   "ultimo": "0 mm a las 03 h"
+   "ultimo": "0 mm a las 04 h"
   },
   {
    "localidad": "Garruchos",
    "estacion": "Garruchos",
    "codigo": 13857,
    "valores": [
-    0.0,
     null,
     null,
     null,
@@ -124,6 +126,8 @@
     null,
     null,
     0.0,
+    null,
+    null,
     null,
     null,
     null
@@ -136,7 +140,6 @@
    "estacion": "Carlos Pellegrini",
    "codigo": 13826,
    "valores": [
-    0.0,
     null,
     null,
     null,
@@ -157,6 +160,8 @@
     null,
     null,
     0.0,
+    null,
+    null,
     null,
     null,
     null
@@ -180,7 +185,6 @@
     0.0,
     0.0,
     0.0,
-    0.0,
     0.25,
     0.0,
     0.0,
@@ -192,10 +196,12 @@
     0.0,
     0.0,
     0.0,
-    0.0
+    0.0,
+    0.0,
+    null
    ],
    "total": 0.25,
-   "ultimo": "0 mm a las 03 h"
+   "ultimo": "0 mm a las 04 h"
   },
   {
    "localidad": "Santa Lucía",
@@ -225,10 +231,11 @@
     0.0,
     0.0,
     0.0,
-    0.0
+    0.0,
+    null
    ],
    "total": 0.0,
-   "ultimo": "0 mm a las 03 h"
+   "ultimo": "0 mm a las 04 h"
   },
   {
    "localidad": "La Palmira",
@@ -258,16 +265,18 @@
     0.0,
     0.0,
     0.0,
-    0.0
+    0.0,
+    null
    ],
    "total": 0.0,
-   "ultimo": "0 mm a las 03 h"
+   "ultimo": "0 mm a las 04 h"
   },
   {
    "localidad": "Bella Vista",
    "estacion": "Bella Vista - EEA Bella Vista",
    "codigo": 111951,
    "valores": [
+    null,
     null,
     null,
     null,
@@ -324,6 +333,7 @@
     null,
     null,
     null,
+    null,
     null
    ],
    "total": null,
@@ -334,6 +344,7 @@
    "estacion": "Caa Cati - EEA Corrientes",
    "codigo": 111921,
    "valores": [
+    null,
     null,
     null,
     null,
@@ -390,6 +401,7 @@
     null,
     null,
     null,
+    null,
     null
    ],
    "total": null,
@@ -400,6 +412,7 @@
    "estacion": "Esquina - EEA Bella Vista",
    "codigo": 111914,
    "valores": [
+    null,
     null,
     null,
     null,
@@ -456,6 +469,7 @@
     null,
     null,
     null,
+    null,
     null
    ],
    "total": null,
@@ -466,6 +480,7 @@
    "estacion": "Goya - EEA Bella Vista",
    "codigo": 111950,
    "valores": [
+    null,
     null,
     null,
     null,
@@ -522,6 +537,7 @@
     null,
     null,
     null,
+    null,
     null
    ],
    "total": null,
@@ -532,6 +548,7 @@
    "estacion": "Itati",
    "codigo": 13862,
    "valores": [
+    null,
     null,
     null,
     null,
@@ -588,6 +605,7 @@
     null,
     null,
     null,
+    null,
     null
    ],
    "total": null,
@@ -598,6 +616,7 @@
    "estacion": "Ituzaingo II - EEA Corrientes",
    "codigo": 111971,
    "valores": [
+    null,
     null,
     null,
     null,
@@ -654,17 +673,17 @@
     0.0,
     0.0,
     0.0,
-    0.0
+    0.0,
+    null
    ],
    "total": 0.0,
-   "ultimo": "0 mm a las 03 h"
+   "ultimo": "0 mm a las 04 h"
   },
   {
    "localidad": "Gobernador Virasoro",
    "estacion": "La Sirena",
    "codigo": 13811,
    "valores": [
-    0.0,
     null,
     null,
     null,
@@ -685,6 +704,8 @@
     null,
     null,
     0.0,
+    null,
+    null,
     null,
     null,
     null
@@ -697,6 +718,7 @@
    "estacion": "Los Laureles",
    "codigo": 13821,
    "valores": [
+    null,
     null,
     null,
     null,
@@ -753,16 +775,18 @@
     0.0,
     0.0,
     0.0,
-    0.0
+    0.0,
+    null
    ],
    "total": 0.0,
-   "ultimo": "0 mm a las 03 h"
+   "ultimo": "0 mm a las 04 h"
   },
   {
    "localidad": "Mercedes",
    "estacion": "Mercedes - EEA Mercedes",
    "codigo": 111915,
    "valores": [
+    null,
     null,
     null,
     null,
@@ -819,6 +843,7 @@
     null,
     null,
     null,
+    null,
     null
    ],
    "total": null,
@@ -832,7 +857,6 @@
     null,
     null,
     null,
-    null,
     0.0,
     null,
     null,
@@ -850,6 +874,8 @@
     null,
     null,
     0.0,
+    null,
+    null,
     null,
     null,
     null
@@ -862,6 +888,7 @@
    "estacion": "Paso de los Libres",
    "codigo": 13802,
    "valores": [
+    null,
     null,
     null,
     null,
@@ -918,6 +945,7 @@
     null,
     null,
     null,
+    null,
     null
    ],
    "total": null,
@@ -928,6 +956,7 @@
    "estacion": "Paso Lucero",
    "codigo": 13803,
    "valores": [
+    null,
     null,
     null,
     null,
@@ -984,6 +1013,7 @@
     null,
     null,
     null,
+    null,
     null
    ],
    "total": null,
@@ -1017,6 +1047,7 @@
     null,
     null,
     null,
+    null,
     null
    ],
    "total": null,
@@ -1027,7 +1058,6 @@
    "estacion": "Portal Galarza",
    "codigo": 283904,
    "valores": [
-    0.0,
     null,
     null,
     null,
@@ -1048,6 +1078,8 @@
     null,
     null,
     0.0,
+    null,
+    null,
     null,
     null,
     null
@@ -1083,10 +1115,11 @@
     0.0,
     0.0,
     0.0,
-    0.0
+    0.0,
+    null
    ],
    "total": 0.0,
-   "ultimo": "0 mm a las 03 h"
+   "ultimo": "0 mm a las 04 h"
   },
   {
    "localidad": "Pueblo Libertador",
@@ -1113,13 +1146,14 @@
     null,
     null,
     null,
-    null,
     3.75,
     3.75,
-    1.25
+    1.25,
+    1.0,
+    null
    ],
-   "total": 8.75,
-   "ultimo": "1,25 mm a las 03 h"
+   "total": 9.75,
+   "ultimo": "1 mm a las 04 h"
   },
   {
    "localidad": "Itá Ibaté",
@@ -1149,10 +1183,11 @@
     0.0,
     0.0,
     0.0,
-    0.0
+    0.0,
+    null
    ],
    "total": 0.0,
-   "ultimo": "0 mm a las 03 h"
+   "ultimo": "0 mm a las 04 h"
   },
   {
    "localidad": "Mburucuyá",
@@ -1182,10 +1217,11 @@
     0.0,
     0.0,
     0.0,
+    0.0,
     0.0
    ],
    "total": 0.0,
-   "ultimo": "0 mm a las 03 h"
+   "ultimo": "0 mm a las 05 h (hora en curso)"
   },
   {
    "localidad": "Bonpland",
@@ -1215,10 +1251,11 @@
     0.0,
     0.0,
     0.0,
+    0.0,
     0.0
    ],
    "total": 0.0,
-   "ultimo": "0 mm a las 03 h"
+   "ultimo": "0 mm a las 05 h (hora en curso)"
   },
   {
    "localidad": "Bella Vista",
@@ -1248,10 +1285,11 @@
     0.0,
     0.0,
     0.0,
-    0.0
+    0.8,
+    1.2
    ],
-   "total": 0.0,
-   "ultimo": "0 mm a las 03 h"
+   "total": 0.8,
+   "ultimo": "1,2 mm a las 05 h (hora en curso)"
   },
   {
    "localidad": "Curuzú Cuatiá",
@@ -1281,17 +1319,17 @@
     0.0,
     0.0,
     0.0,
+    0.0,
     0.0
    ],
    "total": 0.0,
-   "ultimo": "0 mm a las 03 h"
+   "ultimo": "0 mm a las 05 h (hora en curso)"
   },
   {
    "localidad": "Parque Nacional Iberá",
    "estacion": "RMA08_PNI - Parque Nacional Iberá",
    "codigo": 220226,
    "valores": [
-    0.0,
     0.0,
     0.0,
     0.0,
@@ -1314,7 +1352,9 @@
     0.0,
     0.0,
     0.0,
-    0.0
+    0.0,
+    null,
+    null
    ],
    "total": 0.0,
    "ultimo": "0 mm a las 03 h"
@@ -1324,6 +1364,7 @@
    "estacion": "San Isidro - EEA Bella Vista",
    "codigo": 111918,
    "valores": [
+    null,
     null,
     null,
     null,
@@ -1380,6 +1421,7 @@
     null,
     null,
     null,
+    null,
     null
    ],
    "total": null,
@@ -1390,7 +1432,6 @@
    "estacion": "San Roquito",
    "codigo": 13832,
    "valores": [
-    0.0,
     null,
     null,
     null,
@@ -1411,6 +1452,8 @@
     null,
     null,
     0.0,
+    null,
+    null,
     null,
     null,
     null
@@ -1423,6 +1466,7 @@
    "estacion": "Santa Rosa - EEA Bella Vista",
    "codigo": 111917,
    "valores": [
+    null,
     null,
     null,
     null,
@@ -1479,6 +1523,7 @@
     null,
     null,
     null,
+    null,
     null
    ],
    "total": null,
@@ -1512,16 +1557,18 @@
     0.0,
     0.0,
     0.0,
-    0.0
+    0.0,
+    null
    ],
    "total": 0.0,
-   "ultimo": "0 mm a las 03 h"
+   "ultimo": "0 mm a las 04 h"
   },
   {
    "localidad": "El Sombrerito",
    "estacion": "Sombrerito - EEA Corrientes",
    "codigo": 111916,
    "valores": [
+    null,
     null,
     null,
     null,
@@ -1555,6 +1602,7 @@
    "estacion": "Tres Cerros - EEA Mercedes",
    "codigo": 111897,
    "valores": [
+    null,
     null,
     null,
     null,
