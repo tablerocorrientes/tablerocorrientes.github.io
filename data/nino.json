@@ -77,6 +77,25 @@
    "breve": "Pronóstico trimestral de noviembre a enero: lluvias por encima de lo normal en el Litoral, con más probabilidad hacia el norte, y temperaturas normales en el norte de la región.",
    "url": "https://www.meteored.com.ar/noticias/prediccion/se-viene-un-verano-raro-que-anticipa-el-smn-para-noviembre-diciembre-y-enero-y-como-planificar-las-vacaciones.html",
    "via": "Meteored"
+  },
+  {
+   "organismo": "Organización Meteorológica Mundial (OMM)",
+   "fecha": "03/09/2026",
+   "breve": "Probabilidad cercana al 100 % de que El Niño siga hasta febrero de 2027, con intensidad muy fuerte y pico hacia fines de 2026. Sus efectos continuarían durante 2027.",
+   "url": "https://www.wmo.int/news/media-centre/el-nino-set-become-very-strong-raising-risks-of-extreme-weather-2027"
+  },
+  {
+   "organismo": "IRI, Universidad de Columbia (Estados Unidos)",
+   "fecha": "19/10/2026",
+   "breve": "El Niño fuerte y en aumento (Niño 3.4 en +3,3 °C a mediados de octubre). Probabilidad del 100 % hasta marzo-mayo de 2027; se debilitaría de a poco y para el invierno de 2027 lo más probable es la condición neutral.",
+   "url": "https://iri.columbia.edu/our-expertise/climate/forecasts/enso/current/"
+  },
+  {
+   "organismo": "Itaipú Binacional (Brasil y Paraguay)",
+   "fecha": "26/10/2026",
+   "breve": "Reabrió el vertedero por la crecida del Iguazú y del Paraná, después de cerrarlo el 25/10 tras 26 días abierto. Las descargas de Itaipú y el caudal del Iguazú llegan a Yacyretá y luego a Corrientes con varios días de demora.",
+   "url": "https://www.ultimahora.com//itaipu-a653.html",
+   "via": "Última Hora"
   }
  ],
  "analogos": [
@@ -249,5 +268,21 @@
   "Corrientes": "Defensa costera sobre la avenida Costanera. El acceso a Punta San Sebastián está cerrado en forma preventiva por la cercanía del agua a las defensas (Municipalidad).",
   "Goya": "Se reforzaron las defensas cerca del puerto (COE, 02/11/2026).",
   "Paso de la Patria": "Cerca del 40 % del pueblo quedó inundado con el río en 7,74 m (27/10/2026)."
- }
+ },
+ "organismos_seguimiento": [
+  "NOAA, Centro de Predicción Climática",
+  "IRI, Universidad de Columbia",
+  "Organización Meteorológica Mundial (OMM)",
+  "Oficina de Meteorología de Australia (BoM)",
+  "Centro Europeo ECMWF y Copernicus (C3S)",
+  "Agencia Meteorológica de Japón (JMA)",
+  "Centro Regional del Clima para el Sur de Sudamérica (CRC-SAS)",
+  "CIIFEN",
+  "Servicio Meteorológico Nacional (SMN)",
+  "Instituto Nacional del Agua (INA)",
+  "Entidad Binacional Yacyretá (EBY)",
+  "Itaipú Binacional",
+  "SIMEPAR (lluvias en la cuenca alta, Brasil)",
+  "CTM Salto Grande"
+ ]
 }

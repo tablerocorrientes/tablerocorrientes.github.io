@@ -13,7 +13,9 @@
     "Pronóstico del INA: 6,60 m al 17/11"
    ],
    "confianza": "alta",
-   "horizonte": "próximos 5 días"
+   "horizonte": "próximos 5 días",
+   "ambito": "global",
+   "localidad": "Provincia"
   },
   {
    "id": "rio-uruguay-pico",
@@ -25,7 +27,9 @@
     "Reporte del INA del 12/11"
    ],
    "confianza": "media",
-   "horizonte": "próximos 3 días"
+   "horizonte": "próximos 3 días",
+   "ambito": "global",
+   "localidad": "Provincia"
   },
   {
    "id": "lluvia-14-11",
@@ -38,7 +42,9 @@
     "Cálculo de desagüe del simulador por barrio"
    ],
    "confianza": "alta",
-   "horizonte": "hoy"
+   "horizonte": "hoy",
+   "ambito": "global",
+   "localidad": "Provincia"
   },
   {
    "id": "nino-transitoria",
@@ -51,7 +57,9 @@
     "INA, 12/11/2026"
    ],
    "confianza": "media",
-   "horizonte": "próximas semanas"
+   "horizonte": "próximas semanas",
+   "ambito": "global",
+   "localidad": "Provincia"
   }
  ],
  "historial": [
@@ -67,7 +75,9 @@
    ],
    "confianza": "alta",
    "horizonte": "próximos 5 días",
-   "fecha": "14/11/2026, 19:05 h"
+   "fecha": "14/11/2026, 19:05 h",
+   "ambito": "global",
+   "localidad": "Provincia"
   },
   {
    "id": "rio-uruguay-pico",
@@ -80,7 +90,9 @@
    ],
    "confianza": "media",
    "horizonte": "próximos 3 días",
-   "fecha": "14/11/2026, 19:05 h"
+   "fecha": "14/11/2026, 19:05 h",
+   "ambito": "global",
+   "localidad": "Provincia"
   },
   {
    "id": "lluvia-14-11",
@@ -94,7 +106,9 @@
    ],
    "confianza": "alta",
    "horizonte": "hoy",
-   "fecha": "14/11/2026, 19:05 h"
+   "fecha": "14/11/2026, 19:05 h",
+   "ambito": "global",
+   "localidad": "Provincia"
   },
   {
    "id": "nino-transitoria",
@@ -108,7 +122,10 @@
    ],
    "confianza": "media",
    "horizonte": "próximas semanas",
-   "fecha": "14/11/2026, 19:05 h"
+   "fecha": "14/11/2026, 19:05 h",
+   "ambito": "global",
+   "localidad": "Provincia"
   }
- ]
+ ],
+ "aviso_vecinos": "Las inferencias locales basadas en reportes de vecinos son información a verificar: indican una tendencia, no un hecho confirmado por un organismo oficial."
 }
