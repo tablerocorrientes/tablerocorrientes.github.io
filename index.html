@@ -205,6 +205,7 @@ a:focus-visible{outline:3px solid #e3ad1f;outline-offset:2px}
   <div class="leg"><span><i style="background:var(--med)"></i>Cayó (medido)</span><span><i style="background:var(--prn)"></i>Se espera (pronóstico)</span></div></div>
   <details class="sec mas2"><summary><b>Ver pronóstico hora por hora de la Capital (hoy y mañana)</b></summary><p class="s" id="sHC"></p><svg id="hcap" viewBox="0 0 340 130" role="img" aria-label="Lluvia pronosticada hora por hora en Corrientes Capital"></svg>
   <div class="leg"><span><i style="background:var(--prn)"></i>Pronóstico por hora</span><span><i style="background:var(--prn);opacity:.3"></i>Horas ya transcurridas</span></div></details>
+  <div class="sec" id="extC" style="display:none"></div>
 <div class="bsrc"><b id="fPrn">Última actualización: sin datos.</b><br><b>Fuentes:</b> Servicio Meteorológico Nacional (SMN) y COE de Corrientes, avisos oficiales; modelos Open-Meteo (vía Agrofy News) y Meteored, solo para la distribución horaria.</div>
 </div>
 
@@ -591,6 +592,30 @@ if(EV){drawEvac();
     return '<div style="display:flex;gap:8px;align-items:flex-start;margin-top:5px;font-size:.82rem"><span class="pill '+cl+'" style="flex:none">'+esc(c.estado)+'</span><div>'+corto(c.centro)+(c.personas!=null?' <b>('+nf(c.personas)+' personas)</b>':'')+'<span class="meta">'+esc(c.f)+', '+esc(c.fuente)+(c.u?' <a href="'+esc(c.u)+'" target="_blank" rel="noopener" style="color:var(--water)">Fuente</a>':'')+'</span></div></div>';}).join(''));}).join('')+'<p class="s" style="margin-top:6px">Personas alojadas por localidad, según los partes oficiales. Toque una localidad para ver los centros.</p>';
 })();
 /* pronóstico horario de la Capital */
+/* Pronóstico extendido: solo informativo, no interviene en ningún cálculo */
+function tcExtHTML(ext,ciudad,titulo){
+  if(!ext||!ext.ciudades)return '';var c=ext.ciudades[ciudad];if(!c||!c.dias||!c.dias.length)return '';
+  var hoy=new Date(Date.now()-3*3600000).toISOString().slice(0,10);
+  var ds=c.dias.filter(function(d){return d&&d.fecha&&d.fecha>hoy;}).slice(0,7);if(!ds.length)return '';
+  function e(s){return String(s==null?'':s).replace(/[&<>"]/g,function(x){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[x];});}
+  function ic(t){t=String(t||'').toLowerCase();return /torment|granizo|electric/.test(t)?'⛈️':/lluvi|chaparr|llovizn|precipit/.test(t)?'🌧️':/parcial|algo nubl|variable|intervalos/.test(t)?'⛅':/nubl|cubierto/.test(t)?'☁️':/despej|solead|buen tiempo/.test(t)?'☀️':'🌤️';}
+  function dn(f){var d=new Date(f+'T12:00:00-03:00');return d.toLocaleDateString('es-AR',{weekday:'short',timeZone:'America/Argentina/Buenos_Aires'}).replace('.','')+' '+d.toLocaleDateString('es-AR',{day:'numeric',timeZone:'America/Argentina/Buenos_Aires'});}
+  function n(x){return x==null||x===''?'–':Math.round(+x);}
+  var h='<div style="background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 12px 10px">'
+    +'<div style="font-weight:800;font-size:1rem;color:var(--ink)">'+e(titulo||('Próximos días en '+ciudad))+'</div>'
+    +'<div style="font-size:.78rem;color:var(--soft);margin:2px 0 8px">Información adicional. No se usa en el cálculo del simulador.</div>'
+    +'<div style="display:grid;grid-auto-flow:column;grid-auto-columns:minmax(66px,1fr);gap:6px;overflow-x:auto;padding-bottom:4px">';
+  ds.forEach(function(d){var p=d.prob==null?null:Math.round(+d.prob);
+    h+='<div title="'+e(d.resumen||'')+'" style="text-align:center;border:1px solid var(--line);border-radius:12px;padding:7px 4px">'
+      +'<div style="font-size:.74rem;font-weight:700;color:var(--soft);text-transform:capitalize">'+e(dn(d.fecha))+'</div>'
+      +'<div style="font-size:1.5rem;line-height:1.3" aria-hidden="true">'+ic(d.resumen)+'</div>'
+      +'<div style="font-size:.8rem;font-weight:800;color:'+(p!=null&&p>=40?'var(--water)':'var(--ink)')+'">'+(p==null?'–':p+' %')+'</div>'
+      +'<div style="font-size:.74rem;color:var(--ink)"><b>'+n(d.tmax)+'°</b> / '+n(d.tmin)+'°</div>'
+      +'<div style="font-size:.66rem;color:var(--soft);line-height:1.2;margin-top:3px">'+e(d.resumen||'')+'</div></div>';});
+  h+='</div><div style="font-size:.72rem;color:var(--soft);margin-top:6px">Probabilidad de lluvia y temperaturas máxima y mínima. Fuente: '+e(c.fuente||'SMN')+(c.emision?', emitido el '+e(c.emision):'')+(ext.actualizado?'. Consultado: '+e(ext.actualizado):'')+'.</div></div>';
+  return h;
+}
+(function(){var h=tcExtHTML(PF&&PF.extendido,'Corrientes Capital','Próximos días en la Capital');var el=$('extC');if(h&&el){el.innerHTML=h;el.style.display='';}})();
 (function(){var HC=PF&&PF.horario_capital;if(!HC){$('sHC').textContent='Sin pronóstico horario cargado.';return;}
   var now=new Date(Date.now()-3*3600000),hoy=now.toISOString().slice(0,10),hh=now.getUTCHours()+now.getUTCMinutes()/60;
   var man=new Date(now.getTime()+86400000).toISOString().slice(0,10);
