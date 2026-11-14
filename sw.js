@@ -1,5 +1,5 @@
 /* Modo aplicación: páginas desde caché con actualización; datos siempre de la red primero */
-var VERSION='tc-v12';
+var VERSION='tc-v13';
 var BASE=['/','/barrio/','/provincia/','/site.js','/manifest.webmanifest','/icons/icon-192.png','/icons/icon-512.png','/icons/apple-touch-icon.png','/icons/favicon-48.png'];
 self.addEventListener('install',function(e){e.waitUntil(caches.open(VERSION).then(function(c){return c.addAll(BASE);}).then(function(){return self.skipWaiting();}));});
 self.addEventListener('activate',function(e){e.waitUntil(caches.keys().then(function(ks){return Promise.all(ks.filter(function(k){return k!==VERSION;}).map(function(k){return caches.delete(k);}));}).then(function(){return self.clients.claim();}));});

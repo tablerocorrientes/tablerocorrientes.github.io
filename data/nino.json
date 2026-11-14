@@ -132,5 +132,84 @@
   "horas": 5,
   "nota": "Más de 300 mm en cinco horas: unas 800 personas evacuadas en la Capital.",
   "url": "https://www.radiosudamericana.com/nota/sociedad/351555-Inundaciones-en-Corrientes--todas-las-crecidas-que-hicieron-historia.htm"
- }
+ },
+ "picos_por_puerto": {
+  "Corrientes": [
+   {
+    "a": "1983",
+    "h": 9.02
+   },
+   {
+    "a": "1992",
+    "h": 8.64
+   },
+   {
+    "a": "1998",
+    "h": 8.38
+   },
+   {
+    "a": "2016",
+    "h": 7.47
+   }
+  ],
+  "Ituzaingó": [
+   {
+    "a": "1983",
+    "h": 6.35
+   },
+   {
+    "a": "1992",
+    "h": 5.68
+   }
+  ],
+  "Bella Vista": [
+   {
+    "a": "1998",
+    "h": 7.41
+   },
+   {
+    "a": "1992",
+    "h": 7.35
+   },
+   {
+    "a": "1983",
+    "h": 7.22
+   }
+  ],
+  "Goya": [
+   {
+    "a": "1992",
+    "h": 7.2
+   },
+   {
+    "a": "1998",
+    "h": 7.07
+   },
+   {
+    "a": "1983",
+    "h": 7.03
+   }
+  ],
+  "Esquina": [
+   {
+    "a": "1992",
+    "h": 7.29
+   },
+   {
+    "a": "1905",
+    "h": 6.9
+   },
+   {
+    "a": "1983",
+    "h": 6.86
+   }
+  ],
+  "Paso de los Libres": [
+   {
+    "a": "2023",
+    "h": 9.46
+   }
+  ]
+ },
+ "picos_fuente": "Picos históricos: serie del INA con datos de Prefectura (vía Copernicus Argentina), informe del INA del 14/01/2016 y Radio Sudamericana. Para los puertos sin dato histórico publicado se muestra solo el máximo de esta crecida."
 }
