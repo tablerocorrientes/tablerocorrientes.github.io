@@ -221,5 +221,62 @@
     "fuente": "Radio Sudamericana"
    }
   ]
+ },
+ "lluvia": {
+  "Corrientes": [
+   {
+    "mm": 300,
+    "zonas": [
+     "Molina Punta",
+     "Parque Balneario Molina Punta",
+     "San Ignacio",
+     "Santa Rita Sur"
+    ],
+    "fecha": "03/03/2024",
+    "fuente": "Municipalidad de Corrientes",
+    "nota": "Más de 300 mm en cinco horas: las cuadrillas no lograron llegar a estos barrios; unas 800 personas evacuadas en la ciudad."
+   },
+   {
+    "mm": 150,
+    "zonas": [
+     "Ciudades Correntinas",
+     "Costa Esperanza",
+     "Santa Rosa (más de 120 departamentos afectados)"
+    ],
+    "fecha": "diciembre de 2025",
+    "fuente": "Municipalidad de Corrientes",
+    "nota": "Barrios más afectados por las lluvias de diciembre de 2025; no se informó el total de milímetros de ese evento en esta fuente, se usa un valor de referencia."
+   }
+  ],
+  "Bella Vista": [
+   {
+    "mm": 300,
+    "zonas": [
+     "Centenario",
+     "Hospital",
+     "Norte",
+     "Aguilar",
+     "100 Viviendas",
+     "Laguna del Mercado"
+    ],
+    "fecha": "abril de 2016",
+    "fuente": "El Litoral",
+    "nota": "Casi 300 mm en un día: casas con hasta un metro y medio de agua."
+   }
+  ],
+  "Santo Tomé": [
+   {
+    "mm": 80,
+    "zonas": [
+     "Centenario",
+     "Chacras 44 y 45",
+     "Juan José Benetti",
+     "Estación"
+    ],
+    "fecha": "octubre de 2024",
+    "fuente": "El Territorio",
+    "nota": "Con 80 a 110 mm; creció el arroyo Picardía por alcantarillas obstruidas."
+   }
+  ]
  }
 }
