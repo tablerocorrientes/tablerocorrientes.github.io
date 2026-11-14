@@ -136,7 +136,7 @@ a:focus-visible{outline:3px solid #e3ad1f;outline-offset:2px}
 <div class="hero">
   <p class="k">Provincia de Corrientes</p>
   <h1>Fenómeno de El Niño, tablero provincial</h1>
-  <p class="u" id="upd"></p>
+  <div id="upd" style="margin:10px 0 4px;display:grid;gap:6px"></div>
   <div class="gauge" aria-label="Altura del río Paraná en Corrientes">
     <div class="top"><div><div class="lab">Paraná en Corrientes</div><div class="v" id="gv">—</div></div><div style="text-align:right"><span class="pill" id="gp"></span><div class="lab" id="gt" style="margin-top:4px"></div></div></div>
     <svg id="gsvg" viewBox="0 0 320 44" role="img" aria-label="Escala de altura del río"></svg>
@@ -212,8 +212,8 @@ a:focus-visible{outline:3px solid #e3ad1f;outline-offset:2px}
 <div class="sec"><h2>Corrientes Capital: lluvia pronosticada hora por hora</h2><p class="s" id="sHC"></p><svg id="hcap" viewBox="0 0 340 130" role="img" aria-label="Lluvia pronosticada hora por hora en Corrientes Capital"></svg>
   <div class="leg"><span><i style="background:var(--prn)"></i>Pronóstico por hora</span><span><i style="background:var(--prn);opacity:.3"></i>Horas ya transcurridas</span></div></div>
 
-<div class="sec"><h2>Pronóstico de lluvia por ciudad</h2><p class="s" id="sF"></p><div id="pron"></div>
-  <div class="leg"><span><i style="background:var(--prn)"></i>Hoy</span><span><i style="background:#b8a9ec"></i>Mañana</span></div></div>
+<div class="sec"><h2>Su localidad: lluvia caída y lluvia esperada</h2><p class="s" id="sF"></p><div id="pron"></div>
+  <div class="leg"><span><i style="background:var(--med)"></i>Cayó (medido)</span><span><i style="background:var(--prn)"></i>Se espera (pronóstico)</span></div></div>
   <div class="bsrc"><b id="fPrn">Última actualización: sin datos.</b><br><b>Fuentes:</b> Servicio Meteorológico Nacional (SMN) y COE de Corrientes, avisos oficiales; modelos Open-Meteo (vía Agrofy News) y Meteored, solo para la distribución horaria.</div>
 </div>
 
@@ -265,7 +265,7 @@ function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return
 function st(p){return p.altura>=p.evacuacion?'bad':p.altura>=p.alerta?'warn':'ok';}
 var LBL={bad:'Evacuación',warn:'Alerta',ok:'Normal'};
 function trend(v){if(v==null)return '<small class="flat">sin variación</small>';var c=v>0.005?'up':v<-0.005?'down':'flat',a=v>0.005?'▲':v<-0.005?'▼':'■';return '<small class="'+c+'">'+a+' '+(v>0?'+':'')+nf(v,2)+'</small>';}
-$('upd').textContent='Ríos: '+(D.actualizado||'')+'. Lluvia: '+(L&&L.actualizado?L.actualizado:'sin datos')+'.';
+/* panel de actualizaciones: se completa al final */
 
 /* indicador del Paraná en Corrientes */
 var C=(D.puertos||[]).filter(function(p){return p.puerto==='Corrientes';})[0];
@@ -491,7 +491,7 @@ var Z=(D.zonas_actuales||[]).map(function(z){return det('<b>'+esc(z.puerto)+'</b
 $('zonas').innerHTML=Z.join('')||'<p class="s">Sin registros.</p>';
 /* mapa de calor de lluvia: todas las localidades */
 var LOCMAP={"Corrientes Capital": ["Corrientes Capital", "Corrientes Capital"], "Riachuelo": ["Corrientes Capital", "Corrientes Capital"], "Bella Vista": ["Bella Vista", "Bella Vista"], "Berón de Astrada": ["Itá Ibaté", "Ituzaingó"], "Yahapé": ["Itá Ibaté", "Ituzaingó"], "Concepción": ["Mburucuyá", "Saladas"], "Santa Rosa": ["Mburucuyá", "Saladas"], "Tabay": ["Mburucuyá", "Saladas"], "Tatacuá": ["Mburucuyá", "Saladas"], "Curuzú Cuatiá": ["Curuzú Cuatiá", "Curuzú Cuatiá"], "Cazadores Correntinos": ["Curuzú Cuatiá", "Curuzú Cuatiá"], "Perugorría": ["Curuzú Cuatiá", "Curuzú Cuatiá"], "Empedrado": ["Corrientes Capital", "Corrientes Capital"], "El Sombrero": ["Corrientes Capital", "Corrientes Capital"], "Esquina": ["Pueblo Libertador", "Esquina"], "Pueblo Libertador": ["Pueblo Libertador", "Esquina"], "Alvear": ["Santo Tomé", "Santo Tomé"], "Estación Torrent": ["Santo Tomé", "Santo Tomé"], "Caá Catí": ["Caá Catí", "Corrientes Capital"], "Itá Ibaté": ["Itá Ibaté", "Ituzaingó"], "Lomas de Vallejos": ["Caá Catí", "Corrientes Capital"], "Palmar Grande": ["Caá Catí", "Corrientes Capital"], "Goya": ["Santa Lucía", "Goya"], "Colonia Carolina": ["Santa Lucía", "Goya"], "Itatí": ["Corrientes Capital", "Corrientes Capital"], "Ramada Paso": ["Corrientes Capital", "Corrientes Capital"], "Ituzaingó": ["San Carlos", "Ituzaingó"], "San Carlos": ["San Carlos", "Gobernador Virasoro"], "Villa Olivari": ["San Carlos", "Ituzaingó"], "Colonia Liebig": ["San Carlos", "Gobernador Virasoro"], "Lavalle": ["Santa Lucía", "Goya"], "Santa Lucía": ["Santa Lucía", "Goya"], "Cruz de los Milagros": ["Santa Lucía", "Goya"], "Gobernador Juan E. Martínez": ["Santa Lucía", "Goya"], "Yatayty Calle": ["Santa Lucía", "Goya"], "Mburucuyá": ["Mburucuyá", "Saladas"], "Mercedes": ["Curuzú Cuatiá", "Mercedes"], "Mariano I. Loza": ["Curuzú Cuatiá", "Mercedes"], "Felipe Yofre": ["Curuzú Cuatiá", "Mercedes"], "Colonia Carlos Pellegrini": ["Colonia Carlos Pellegrini", "Mercedes"], "Monte Caseros": ["Curuzú Cuatiá", "Monte Caseros"], "Mocoretá": ["Curuzú Cuatiá", "Monte Caseros"], "Juan Pujol": ["Curuzú Cuatiá", "Monte Caseros"], "Colonia Libertad": ["Curuzú Cuatiá", "Monte Caseros"], "Parada Pucheta": ["Curuzú Cuatiá", "Monte Caseros"], "Paso de los Libres": ["Bonpland", "Paso de los Libres"], "Bonpland": ["Bonpland", "Paso de los Libres"], "Tapebicuá": ["Bonpland", "Paso de los Libres"], "Saladas": ["Mburucuyá", "Saladas"], "San Lorenzo": ["Mburucuyá", "Saladas"], "San Cosme": ["Corrientes Capital", "Corrientes Capital"], "Paso de la Patria": ["Corrientes Capital", "Corrientes Capital"], "Santa Ana": ["Corrientes Capital", "Corrientes Capital"], "San Luis del Palmar": ["Corrientes Capital", "Corrientes Capital"], "Herlitzka": ["Corrientes Capital", "Corrientes Capital"], "La Cruz": ["Bonpland", "Santo Tomé"], "Yapeyú": ["Bonpland", "Paso de los Libres"], "Guaviraví": ["Bonpland", "Santo Tomé"], "San Miguel": ["Caá Catí", "Ituzaingó"], "Loreto": ["Caá Catí", "Ituzaingó"], "San Roque": ["Santa Lucía", "Goya"], "Chavarría": ["Mburucuyá", "Mercedes"], "9 de Julio": ["Santa Lucía", "Goya"], "Pedro R. Fernández": ["Santa Lucía", "Goya"], "Santo Tomé": ["Santo Tomé", "Santo Tomé"], "Gobernador Virasoro": ["Gobernador Virasoro", "Gobernador Virasoro"], "Garruchos": ["Garruchos", "Santo Tomé"], "Sauce": ["Curuzú Cuatiá", "Curuzú Cuatiá"]};
-function findSt(name){for(var i=0;i<est.length;i++){if(est[i].localidad===name)return est[i];}return null;}
+function findSt(name){var c=null;for(var i=0;i<est.length;i++){if(est[i].localidad===name){if(!c)c=est[i];if((est[i].valores||[]).some(function(v){return v!=null;}))return est[i];}}return c;}
 if(est.length){var cols2=L.columnas||[],rows2=[];
   est.forEach(function(s){rows2.push({n:String(s.localidad).replace('Corrientes Capital (estación 13805)','Capital (13805)'),v:s.valores||[],t:tot(s),med:true});});
   Object.keys(LOCMAP).forEach(function(n){if(findSt(n))return;var st=findSt(LOCMAP[n][0]);if(!st)return;rows2.push({n:n,v:st.valores||[],t:tot(st),med:false,ref:LOCMAP[n][0]});});
@@ -502,17 +502,17 @@ if(est.length){var cols2=L.columnas||[],rows2=[];
   rows2.forEach(function(r){r.z=zonaDe(r.n,r.ref);});
   var nm=rows2.filter(function(r){return r.med;}).length,ne=rows2.length-nm,conLl=rows2.filter(function(r){return r.t>0;}).length;
   var ZL=[];rows2.forEach(function(r){if(ZL.indexOf(r.z)<0)ZL.push(r.z);});ZL.sort(function(a,b){return a==='Capital y alrededores'?-1:b==='Capital y alrededores'?1:a.localeCompare(b,'es');});
-  var zsel=null;try{zsel=localStorage.getItem('tc_zona');}catch(e){}
-  if(!zsel||(zsel!=='lluvia'&&zsel!=='todas'&&ZL.indexOf(zsel)<0))zsel=conLl?'lluvia':'Capital y alrededores';
+  var isCap=function(r){return /^(Corrientes Capital|Capital \()/.test(r.n);};var otras=rows2.filter(function(r){return !isCap(r)&&!(r.t>0);}).map(function(r){return r.n;}).sort(function(a,b){return a.localeCompare(b,'es');});
+  var zsel='';try{zsel=localStorage.getItem('tc_hloc')||'';}catch(e){}if(zsel!=='todas'&&otras.indexOf(zsel)<0)zsel='';
   function heatDraw(){
     var h2='<table><tr><th></th>'+cols2.map(function(c,i){var last=(i===cols2.length-1),lab=String(c).replace(/^\d+\/\d+ /,'').replace(' h','');return '<th style="'+(last?'color:var(--med);font-weight:800':'')+'">'+((cols2.length-1-i)%3===0?esc(lab)+(last?'<br><span style="font-size:.6rem">última</span>':''):'')+'</th>';}).join('')+'<th>24 h</th></tr>';
-    var sel=rows2.filter(function(r){return zsel==='todas'?true:zsel==='lluvia'?(r.t>0||/^(Corrientes Capital|Capital \()/.test(r.n)):r.z===zsel;});
+    var sel=rows2.filter(function(r){return zsel==='todas'||isCap(r)||r.t>0||r.n===zsel;});
     sel.forEach(function(r){h2+='<tr><td class="n"><span style="display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:5px;background:'+(r.med?'var(--water)':'#d08a2e')+'"></span>'+esc(r.n)+(r.med?'':'<span style="display:block;font-weight:500;font-size:.66rem;color:var(--soft);margin-left:14px">≈ estación '+esc(r.ref)+'</span>')+'</td>'+r.v.map(function(v){var bg=v==null?'transparent':v<=0?'#e3eaec':v<2?'#b7dbe7':v<10?'#5aa6bf':v<20?'#1f6f8b':'#0b3a4a';return '<td class="c" style="background:'+bg+';'+(r.med?'':'box-shadow:inset 0 0 0 2px var(--card);')+(v==null?'outline:1px dashed var(--line);outline-offset:-3px':'')+'" title="'+(v==null?'sin dato':nf(v,1)+' mm')+'"></td>';}).join('')+'<td style="padding-left:6px;font-weight:700;'+(r.med?'':'color:#d08a2e')+'">'+(r.med?'':'≈')+nf(r.t,1)+'</td></tr>';});
     $('heat').innerHTML=h2+'</table>'+(sel.length?'':'<p class="s">Sin localidades para esta zona.</p>');
     var hc=document.getElementById('heatC');if(hc)hc.textContent=sel.length+' de '+rows2.length+' localidades';
   }
-  $('heatI').innerHTML='<label style="display:block;font-weight:700;margin:4px 0">Elija la zona que quiere ver</label><select id="heatZ" style="width:100%;max-width:520px;font:inherit;font-size:1rem;padding:10px 12px;border-radius:12px;border:1px solid var(--line);background:var(--card);color:var(--ink)"><option value="lluvia">🌧️ Donde llovió en las últimas 24 h ('+conLl+')</option>'+ZL.map(function(z){return '<option value="'+esc(z)+'">'+esc(z)+'</option>';}).join('')+'<option value="todas">Todas las localidades ('+rows2.length+')</option></select><p class="s" style="margin:6px 0"><b id="heatC"></b>. <span style="color:var(--water);font-weight:700">●</span> medida por una estación del SNIH. <span style="color:#d08a2e;font-weight:700">●</span> estimada con la estación más cercana, indicada debajo del nombre. Deslice la tabla hacia el costado para ver las 24 horas; la última columna es la última hora completa antes de la actualización ('+esc(L.actualizado||'')+').</p>';
-  var zs=$('heatZ');zs.value=zsel;zs.addEventListener('change',function(){zsel=zs.value;try{localStorage.setItem('tc_zona',zsel);}catch(e){}heatDraw();});
+  $('heatI').innerHTML='<p style="margin:4px 0 8px;font-size:.88rem"><b>Corrientes Capital se muestra siempre.</b> Debajo aparecen solo las localidades donde <b>llovió de verdad</b> en las últimas 24 horas ('+conLl+'), según lo medido. Para ver otra localidad, elíjala en la lista.</p><select id="heatZ" style="width:100%;max-width:520px;font:inherit;font-size:1rem;padding:10px 12px;border-radius:12px;border:1px solid var(--line);background:var(--card);color:var(--ink)"><option value="">Ver otra localidad…</option>'+otras.map(function(z){return '<option value="'+esc(z)+'">'+esc(z)+'</option>';}).join('')+'<option value="todas">Todas las localidades ('+rows2.length+')</option></select><p class="s" style="margin:6px 0"><b id="heatC"></b>. <span style="color:var(--water);font-weight:700">●</span> medida por una estación. <span style="color:#d08a2e;font-weight:700">●</span> estimada con la estación más cercana. Deslice la tabla hacia el costado para ver las 24 horas; la última columna es la última hora completa ('+esc(L.actualizado||'')+').</p>';
+  var zs=$('heatZ');zs.value=zsel;zs.addEventListener('change',function(){zsel=zs.value;try{localStorage.setItem('tc_hloc',zsel);}catch(e){}heatDraw();});
   heatDraw();}
 else $('heat').innerHTML='<p class="s">Sin registros cargados.</p>';
 
@@ -580,6 +580,71 @@ if(PF&&PF.ciudades){var C2=PF.ciudades,all=Object.keys(LOCMAP).map(function(n){v
   $('pron').innerHTML=own.map(prow).join('')+'<details class="x"><summary><div><b>Ver las otras '+rest.length+' localidades</b><span class="meta">Pronóstico de su ciudad de referencia más cercana</span></div></summary>'+rest.map(prow).join('')+'</details>';
   $('sF').innerHTML='<span style="color:var(--prn);font-weight:700">●</span> '+own.length+' ciudades con pronóstico propio. <span style="color:#d08a2e;font-weight:700">●</span> '+rest.length+' localidades con el pronóstico de la ciudad de referencia más cercana. Prioridad al aviso oficial del SMN y del COE. Actualizado: '+esc(PF.actualizado||'');}
 else{$('pron').innerHTML='<p class="s">Sin pronóstico cargado.</p>';}
+/* lluvia caída versus lluvia esperada, por localidad */
+(function(){if(!PF||!PF.ciudades)return;var C2=PF.ciudades;
+  var names=[];Object.keys(LOCMAP).forEach(function(n){if(names.indexOf(n)<0)names.push(n);});est.forEach(function(s){var n=s.localidad;if(/estación 13805/.test(n))return;if(names.indexOf(n)<0)names.push(n);});
+  names.sort(function(a,b){return a==='Corrientes Capital'?-1:b==='Corrientes Capital'?1:a.localeCompare(b,'es');});
+  function pd(s){var m=/(\d{1,2})\/(\d{1,2})\/(\d{4})/.exec(String(s||''));return m?new Date(+m[3],+m[2]-1,+m[1]):null;}
+  var base=pd(PF.actualizado)||new Date(),DS=['dom','lun','mar','mié','jue','vie','sáb'];
+  function pasado(k){var d=new Date(base.getFullYear(),base.getMonth(),base.getDate()+k),h=new Date();return d<new Date(h.getFullYear(),h.getMonth(),h.getDate());}
+  function lab(k){var d=new Date(base.getFullYear(),base.getMonth(),base.getDate()+k);return DS[d.getDay()]+' '+d.getDate()+'/'+(d.getMonth()+1);}
+  function datos(n){var s=findSt(n),ref=null;if(!s&&LOCMAP[n]){ref=LOCMAP[n][0];s=findSt(ref);}
+    var own=C2[n],pref=null,f=own;if(!f&&LOCMAP[n]){pref=LOCMAP[n][1];f=C2[pref];}
+    var ref2=null;if(!f){for(var x in LOCMAP){if(LOCMAP[x][0]===n&&C2[LOCMAP[x][1]]){pref=LOCMAP[x][1];f=C2[pref];break;}}}
+    var conDato=s&&(s.valores||[]).some(function(x){return x!=null;});return {n:n,v:s?(s.valores||[]):[],tm:conDato?tot(s):null,ref:ref,f:f,pref:pref};}
+  function svg(o,big){var W=340,H=big?200:150,X0=26,mid=200,X1=W-6,TOP=18,BOT=H-30,v=o.v,cols=(L&&L.columnas)||[];
+    var mxh=Math.max(2,Math.max.apply(null,v.map(function(x){return x||0;})));
+    var hc=(o.n==='Corrientes Capital'&&PF.horario_capital)?PF.horario_capital:null,fv=[];
+    if(hc){var keys=Object.keys(hc).sort(),now=new Date(),k0=now.getFullYear()+'-'+String(now.getMonth()+1).padStart(2,'0')+'-'+String(now.getDate()).padStart(2,'0');keys.forEach(function(k){if(k<k0)return;(hc[k]||[]).forEach(function(x,i){if(k===k0&&i<now.getHours())return;fv.push([k,i,x||0]);});});fv=fv.slice(0,36);if(fv.length)mxh=Math.max(mxh,Math.max.apply(null,fv.map(function(x){return x[2];})));}
+    var g='';var bw=(mid-6-X0)/Math.max(1,v.length);
+    g+='<text x="'+X0+'" y="11" font-size="9" font-weight="800" fill="var(--med)" font-family="Archivo,sans-serif">CAYÓ (últimas 24 h)</text><text x="'+(mid+4)+'" y="11" font-size="9" font-weight="800" fill="var(--prn)" font-family="Archivo,sans-serif">SE ESPERA</text>';
+    g+='<line x1="'+(mid-1)+'" y1="'+TOP+'" x2="'+(mid-1)+'" y2="'+(BOT+4)+'" stroke="var(--line)" stroke-dasharray="3 3"/>';
+    v.forEach(function(x,i){var h=x==null?0:(x/mxh)*(BOT-TOP);var X=X0+i*bw;g+=x==null?'<rect x="'+(X+.5).toFixed(1)+'" y="'+(BOT-3)+'" width="'+(bw-1).toFixed(1)+'" height="3" fill="none" stroke="var(--line)" stroke-dasharray="1 1"/>':'<rect x="'+(X+.5).toFixed(1)+'" y="'+(BOT-h).toFixed(1)+'" width="'+(bw-1).toFixed(1)+'" height="'+Math.max(h,x>0?1.5:.6).toFixed(1)+'" rx="1" fill="var(--med)"/>';});
+    g+='<text x="'+(X0-3)+'" y="'+(TOP+4)+'" text-anchor="end" font-size="7.5" fill="var(--soft)" font-family="Archivo,sans-serif">'+nf(mxh,0)+'</text><text x="'+(X0-3)+'" y="'+BOT+'" text-anchor="end" font-size="7.5" fill="var(--soft)" font-family="Archivo,sans-serif">0</text><text x="'+(X0-3)+'" y="'+(TOP-6)+'" text-anchor="end" font-size="7" fill="var(--soft)" font-family="Archivo,sans-serif">mm</text>';
+    [0,Math.floor(v.length/2),v.length-1].forEach(function(i){if(cols[i]==null)return;g+='<text x="'+(X0+(i+.5)*bw).toFixed(1)+'" y="'+(BOT+11)+'" text-anchor="middle" font-size="7.5" fill="var(--soft)" font-family="Archivo,sans-serif">'+esc(String(cols[i]).replace(/^\d+\/\d+ /,''))+'</text>';});
+    g+='<line x1="'+X0+'" y1="'+BOT+'" x2="'+X1+'" y2="'+BOT+'" stroke="var(--ink2)"/>';
+    if(fv.length){var mxf=mxh,bf=(X1-mid-4)/fv.length;
+      fv.forEach(function(x,i){var h=(x[2]/mxf)*(BOT-TOP),X=mid+2+i*bf;g+='<rect x="'+X.toFixed(1)+'" y="'+(BOT-h).toFixed(1)+'" width="'+(bf-.8).toFixed(1)+'" height="'+Math.max(h,.6).toFixed(1)+'" rx="1" fill="var(--prn)"/>';if(x[1]===0)g+='<text x="'+X.toFixed(1)+'" y="'+(BOT+11)+'" font-size="7.5" fill="var(--soft)" font-family="Archivo,sans-serif">0 h</text>';});
+      g+='<text x="'+(mid+4)+'" y="'+(BOT+22)+'" font-size="7.5" fill="var(--soft)" font-family="Archivo,sans-serif">próximas '+fv.length+' horas, en mm por hora</text>';}
+    else if(o.f){var vals=[[lab(0),o.f.hoy?+o.f.hoy.mm:null,0],[lab(1),o.f.manana?+o.f.manana.mm:null,1]].filter(function(x){return !pasado(x[2]);});if(!vals.length)vals=[['sin pronóstico vigente',null,0]];var mx2=Math.max(5,Math.max.apply(null,vals.map(function(x){return x[1]||0;}))),bw2=(X1-mid-14)/Math.max(2,vals.length);
+      vals.forEach(function(x,i){var h=x[1]==null?0:(x[1]/mx2)*(BOT-TOP-10),X=mid+8+i*bw2;g+='<rect x="'+X.toFixed(1)+'" y="'+(BOT-h).toFixed(1)+'" width="'+(bw2-10).toFixed(1)+'" height="'+Math.max(h,.8).toFixed(1)+'" rx="3" fill="var(--prn)" opacity="'+(i?0.65:1)+'"/><text x="'+(X+(bw2-10)/2).toFixed(1)+'" y="'+(BOT-h-3).toFixed(1)+'" text-anchor="middle" font-size="9" font-weight="800" fill="var(--ink)" font-family="Archivo,sans-serif">'+(x[1]==null?'—':nf(x[1],1))+'</text><text x="'+(X+(bw2-10)/2).toFixed(1)+'" y="'+(BOT+11)+'" text-anchor="middle" font-size="7.5" fill="var(--soft)" font-family="Archivo,sans-serif">'+esc(x[0])+'</text>';});
+      g+='<text x="'+(mid+4)+'" y="'+(BOT+22)+'" font-size="7.5" fill="var(--soft)" font-family="Archivo,sans-serif">total previsto por día, en mm</text>';}
+    return '<svg viewBox="0 0 '+W+' '+H+'" style="width:100%;display:block" role="img" aria-label="Lluvia caída y esperada en '+esc(o.n)+'">'+g+'</svg>';}
+  var box=$('pron'),sel0=null;try{sel0=localStorage.getItem('tc_loc');}catch(e){}if(names.indexOf(sel0)<0)sel0='Corrientes Capital';
+  var lista=box.innerHTML;
+  box.innerHTML='<label style="display:block;font-weight:700;margin:4px 0">Elija su localidad</label><select id="cmpSel" style="width:100%;max-width:520px;font:inherit;font-size:1rem;padding:10px 12px;border-radius:12px;border:1px solid var(--line);background:var(--card);color:var(--ink)">'+names.map(function(n){return '<option>'+esc(n)+'</option>';}).join('')+'</select><div id="cmpTot" style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:10px 0"></div><div id="cmpG" style="cursor:zoom-in" title="Toque para ampliar"></div><p class="s" id="cmpN" style="margin:4px 0 0"></p><details class="x" style="margin-top:10px"><summary><div><b>Ver todas las ciudades en lista</b></div></summary>'+lista+'</details>';
+  function draw(){var o=datos($('cmpSel').value);
+    var fh=o.f&&o.f.hoy?+o.f.hoy.mm:null,fm=o.f&&o.f.manana?+o.f.manana.mm:null;
+    $('cmpTot').innerHTML='<div style="background:var(--bg);border-radius:12px;padding:8px 10px;border-left:4px solid var(--med)"><div style="font-size:.72rem;color:var(--soft);font-weight:700">CAYÓ, ÚLTIMAS 24 H</div><div style="font-size:1.5rem;font-weight:800;color:var(--med)">'+(o.tm==null?'<span style="font-size:1rem">sin datos de la estación</span>':(o.ref?'≈':'')+nf(o.tm,1)+' mm')+'</div></div><div style="background:var(--bg);border-radius:12px;padding:8px 10px;border-left:4px solid var(--prn)"><div style="font-size:.72rem;color:var(--soft);font-weight:700">SE ESPERA</div><div style="font-size:1.05rem;font-weight:800;color:var(--prn)">'+(pasado(0)?'':lab(0)+': '+(fh==null?'—':nf(fh,1)+' mm')+'<br>')+lab(1)+': '+(fm==null?'—':nf(fm,1)+' mm')+'</div></div>';
+    $('cmpG').innerHTML=svg(o,false);
+    $('cmpN').innerHTML='Toque el gráfico para ampliarlo. '+(o.ref?'Lluvia caída estimada con la estación de '+esc(o.ref)+'. ':'Lluvia caída medida por la estación de la localidad. ')+(o.pref?'Pronóstico de '+esc(o.pref)+', la ciudad de referencia más cercana. ':'')+'El pronóstico es una estimación; ante una alerta, prevalece el aviso oficial.';}
+  var s=$('cmpSel');s.value=sel0;s.onchange=function(){try{localStorage.setItem('tc_loc',s.value);}catch(e){}draw();};draw();
+  $('cmpG').onclick=function(){var o=datos(s.value),m=document.createElement('div');m.style.cssText='position:fixed;inset:0;z-index:9999;background:rgba(0,0,0,.85);display:flex;flex-direction:column;align-items:center;justify-content:center;padding:16px';
+    m.innerHTML='<div style="background:var(--card);border-radius:16px;padding:12px;width:100%;max-width:900px"><div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px"><b style="color:var(--ink)">'+esc(o.n)+': lluvia caída y esperada</b><button type="button" style="font:inherit;font-weight:800;border:0;border-radius:999px;padding:6px 14px;background:var(--water);color:#fff">Cerrar</button></div>'+svg(o,true)+'<p class="s" style="margin:6px 0 0">Gire el teléfono para verlo más grande.</p></div>';
+    m.onclick=function(e){if(e.target===m||e.target.tagName==='BUTTON')m.remove();};document.body.appendChild(m);};
+  $('sF').innerHTML='Compare cuánto llovió y cuánto se espera en cada localidad. Pronóstico actualizado: '+esc(PF.actualizado||'')+'.';
+})();
+
+/* panel de actualizaciones: última y próxima, para ríos, lluvia caída y pronóstico */
+(function(){
+  function pd(s){s=String(s||'');var m=/(\d{1,2})\/(\d{1,2})\/(\d{4})\D+(\d{1,2}):(\d{2})/.exec(s);return m?new Date(+m[3],+m[2]-1,+m[1],+m[4],+m[5]):null;}
+  var now=new Date();
+  function hm(d){return String(d.getHours()).padStart(2,'0')+':'+String(d.getMinutes()).padStart(2,'0')+' h';}
+  function dia(d){var a=new Date(now.getFullYear(),now.getMonth(),now.getDate()),b=new Date(d.getFullYear(),d.getMonth(),d.getDate()),k=Math.round((b-a)/864e5);return k===0?'hoy':k===1?'mañana':k===-1?'ayer':String(d.getDate()).padStart(2,'0')+'/'+String(d.getMonth()+1).padStart(2,'0');}
+  function sig(cands){var best=null;for(var add=0;add<2;add++)cands.forEach(function(c){var d=new Date(now.getFullYear(),now.getMonth(),now.getDate()+add,c[0],c[1]);if(d>now&&(!best||d<best))best=d;});return best;}
+  var diarias=[[9,0],[18,30]];
+  var cada1=[],cada2=[];for(var h=0;h<24;h++){cada1.push([h,10]);if(h%2===1)cada2.push([h,10]);}
+  var S=(PF&&PF.smn)||[],act=S.some(function(a){if(a.incluye_corrientes===false)return false;var hs=a.hasta_iso?Date.parse(a.hasta_iso):NaN,ds=a.desde_iso?Date.parse(a.desde_iso):NaN;return (isNaN(hs)||hs>now)&&(isNaN(ds)||ds-now<864e5);});
+  var llueve=((L&&L.estaciones)||[]).some(function(s){var v=(s.valores||[]).slice(-3);return v.some(function(x){return x!=null&&x>=0.5;});});
+  var activo=act||llueve;
+  var filas=[['🌊','Ríos',D.actualizado,sig(diarias),'dos veces por día'],
+    ['🌧️','Lluvia caída',L&&L.actualizado,activo?sig(cada1):sig(diarias),activo?'cada hora mientras haya alerta o lluvia':'dos veces por día; cada hora si hay alerta o lluvia'],
+    ['⛅','Pronóstico',PF&&PF.actualizado,activo?sig(cada2):sig(diarias),activo?'cada 2 horas mientras haya alerta o lluvia':'dos veces por día; cada 2 horas si hay alerta o lluvia']];
+  $('upd').innerHTML='<div style="font-size:.78rem;font-weight:800;letter-spacing:.06em;color:#cfe3ea">ACTUALIZACIONES</div>'+filas.map(function(f){var u=pd(f[2]);
+    return '<div style="display:grid;grid-template-columns:auto 1fr 1fr;gap:8px;align-items:center;background:rgba(255,255,255,.1);border-radius:12px;padding:8px 10px"><span style="font-size:1.3rem" aria-hidden="true">'+f[0]+'</span><div><div style="font-size:.72rem;color:#cfe3ea">'+f[1]+', última</div><div style="font-size:1.05rem;font-weight:800;color:#fff">'+(u?dia(u)+' '+hm(u):'sin dato')+'</div></div><div><div style="font-size:.72rem;color:#cfe3ea">Próxima, aprox.</div><div style="font-size:1.05rem;font-weight:800;color:#fff">'+(f[3]?dia(f[3])+' '+hm(f[3]):'')+'</div></div></div>';}).join('')+
+    '<div style="font-size:.72rem;color:#cfe3ea">'+(activo?'<b style="color:#ffd27a">Modo alerta:</b> lluvia caída cada hora y pronóstico cada 2 horas.':'Sin alerta ni lluvia: actualización completa a las 9 y a las 18:30 h; si aparece una alerta o empieza a llover, se actualiza más seguido.')+'</div>';
+})();
+
 })();
 </script>
 </body>
