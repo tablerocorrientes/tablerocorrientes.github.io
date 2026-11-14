@@ -225,6 +225,7 @@ a:focus-visible{outline:3px solid #e3ad1f;outline-offset:2px}
   <p class="simn">Son simulaciones con fines informativos; no reemplazan los avisos oficiales.</p>
 </div>
 <div class="sec"><h2>Lluvia y desagües: efecto tapón por ciudad</h2><p class="s">Riesgo de anegamiento por el río alto. Toque una ciudad para ver el detalle.</p><div id="tapon"></div><div id="taponG"></div></div>
+<div class="sec"><h2>📚 Lo que aprendió el tablero</h2><div id="conK" class="resg" style="padding-top:4px"></div><div id="conL"></div><p class="s" id="conN"></p></div>
 <div class="sec"><h2>📸 Lo que informan los vecinos</h2><p class="s">Reportes enviados con el formulario, revisados por la inteligencia artificial y comparados con los datos oficiales. Se publican sin datos personales.</p><div id="repL"></div></div>
 <div class="sec"><h2>Zonas anegadas ahora</h2><p class="s">Por la crecida del río 🌊 o por lluvia 🌧️, según partes oficiales y prensa. Se actualiza dos veces por día.</p><div id="zonas"></div></div>
 <div class="sec"><h2>Obras terminadas que cambian el cálculo</h2><p class="s">Las simulaciones por barrio y por localidad se ajustan cuando se termina una obra de desagüe.</p><div id="obrasL"></div></div>
@@ -282,6 +283,7 @@ a:focus-visible{outline:3px solid #e3ad1f;outline-offset:2px}
 <script type="application/json" id="nino-data" data-src="/data/nino.json"></script>
 <script type="application/json" id="barrios-data" data-src="/data/barrios.json"></script>
 <script type="application/json" id="zrio-data" data-src="/data/zonas_rio.json"></script>
+<script type="application/json" id="con-data" data-src="/data/conocimiento.json"></script>
 <script type="application/json" id="rep-data" data-src="/data/reportes.json"></script>
 <script type="text/plain" id="main-js">
 (function(){
@@ -803,6 +805,14 @@ else{$('pron').innerHTML='<p class="s">Sin pronóstico cargado.</p>';}
     $('picoN').innerHTML=(R.h>=7?'<span style="display:block;margin-bottom:6px;padding:8px 10px;border-radius:10px;background:var(--badb,#f5dcd9);color:var(--ink)"><b>⚠ Con el río en '+nf(R.h,2)+' m, por encima de la cota de evacuación (7 m),</b> las zonas bajas de la costa pueden inundarse directamente por el río, aunque no llueva. El cálculo de esta sección mide solo el agua de lluvia que no puede salir.</span>':'')+'<b>Cómo se estima:</b> se aplica el mismo cálculo del simulador por barrio (desagüe de 65 mm por hora que declaró el municipio, reducido por el efecto tapón del río) a cada zona de la ciudad, con la altura del río y la lluvia elegidas. Los barrios se ordenan por ese resultado y se muestran los que tienen antecedentes documentados de anegamiento. Es una estimación para prepararse, no un pronóstico ni un aviso oficial: el resultado real depende de cada cuadra, del estado de los desagües y de las obras. <a href="/barrio/" style="color:var(--water);font-weight:700">Calcule su barrio en el simulador →</a>';
     [].forEach.call($('picoC').querySelectorAll('button'),function(b){b.onclick=function(){if(b.dataset.r)st.r=b.dataset.r;if(b.dataset.l)st.l=b.dataset.l;draw();};});}
   draw();})();
+
+/* conocimiento acumulado */
+(function(){var K=null;try{K=JSON.parse(document.getElementById('con-data').textContent);}catch(e){}if(!K||!K.contadores){var b=$('conK');if(b)b.parentNode.hidden=true;return;}
+  var c=K.contadores,V=K.verificaciones||{},T=[['🏘️','Barrios documentados',c.barrios_documentados],['📸','Reportes verificados',c.reportes_verificados],['🛠️','Obras registradas',c.obras],['🎯','Pronósticos comparados',(c.comparaciones_rio||0)+(c.comparaciones_lluvia||0)]];
+  $('conK').innerHTML=T.map(function(x){return '<div class="rc"><div class="rt">'+x[0]+' '+x[1]+'</div><div class="rv" style="color:var(--water)">'+nf(x[2]||0)+'</div></div>';}).join('');
+  var R=V.rio||[],acc='';if(R.length){var m=R.slice(0,20).reduce(function(s,x){return s+Math.abs(+x.diferencia||0);},0)/Math.min(20,R.length);acc='<p style="font-size:.86rem;margin:8px 0 0">🎯 Pronóstico del río: en las últimas '+Math.min(20,R.length)+' comparaciones, la diferencia promedio con la altura real fue de <b>'+nf(m*100,0)+' cm</b>.</p>';}
+  var A=K.aprendizajes||[];$('conL').innerHTML=acc+'<p class="s" style="margin:10px 0 4px;font-weight:800;color:var(--ink)">Últimos registros incorporados</p>'+A.slice(0,4).map(function(a){return '<div style="font-size:.84rem;margin:5px 0"><b>'+esc(a.fecha)+' · '+esc(a.lugar)+':</b> '+esc(a.dato)+'</div>';}).join('')+(A.length>4?'<details class="mas2"><summary><b>Ver todos ('+A.length+')</b></summary>'+A.slice(4).map(function(a){return '<div style="font-size:.82rem;margin:5px 0"><b>'+esc(a.fecha)+' · '+esc(a.lugar)+':</b> '+esc(a.dato)+' <span class="meta">'+esc(a.fuente||'')+'</span></div>';}).join('')+'</details>':'');
+  $('conN').textContent=(K.explicacion||'')+' Actualizado: '+(K.actualizado||'')+'.';})();
 /* reportes de vecinos verificados */
 (function(){var R=null;try{R=JSON.parse(document.getElementById('rep-data').textContent);}catch(e){}var box=$('repL');if(!box)return;var L=(R&&R.reportes)||[];
   var col={'coincide':['p-ok','✔ coincide con los datos'],'en revisión':['p-warn','en revisión'],'no coincide':['p-n','no se pudo confirmar']};
