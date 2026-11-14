@@ -1,5 +1,5 @@
 {
- "actualizado": "14/11/2026, 13:12 h",
+ "actualizado": "14/11/2026, 13:13 h",
  "explicacion": "Cada actualización suma registros: barrios afectados con la altura del río o la lluvia de ese día, obras terminadas, reportes de vecinos verificados y la comparación entre lo pronosticado y lo que ocurrió. Con esa comparación se detectan desvíos y se proponen ajustes a los cálculos, que revisa el autor del tablero.",
  "contadores": {
   "barrios_documentados": 49,
@@ -9,6 +9,13 @@
   "comparaciones_lluvia": 2
  },
  "aprendizajes": [
+  {
+   "fecha": "14/11/2026",
+   "tipo": "alerta",
+   "lugar": "Provincia de Corrientes",
+   "dato": "Terminaron las alertas por tormentas del sábado 14/11 para la Capital (naranja hasta las 12 h, amarilla hasta las 13 h) y rige una alerta amarilla para el este de la provincia el domingo 15/11 de 0 a 7 h, con 30 a 70 mm.",
+   "fuente": "Servicio Meteorológico Nacional y COE de Corrientes"
+  },
   {
    "fecha": "14/11/2026",
    "tipo": "lluvia",
