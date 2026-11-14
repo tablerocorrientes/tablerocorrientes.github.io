@@ -1,0 +1,114 @@
+{
+ "actualizado": "14/11/2026, 19:05 h",
+ "aviso": "Inferencias propias del tablero, elaboradas con procesamiento lógico a partir de sus registros y de fuentes oficiales. No son avisos oficiales: ante una emergencia, siga las indicaciones de Defensa Civil y del SMN.",
+ "vigentes": [
+  {
+   "id": "rio-parana-bajante",
+   "tema": "🌊 Río Paraná",
+   "titulo": "El Paraná sigue en bajante lenta en la Capital",
+   "texto": "Bajó de 7,00 m el 6/11 a 6,68 m hoy, unos 4 cm por día. Aguas arriba también baja (Ituzaingó pasó de 3,70 a 2,99 m) y Yacyretá prevé menos caudal hasta el 17/11. Si sigue este ritmo, quedaría por debajo de la cota de alerta (6,50 m) hacia el 18 o 19 de noviembre.",
+   "base": [
+    "Alturas de Prefectura del 6 al 14/11 (Corrientes, Itatí, Ituzaingó)",
+    "Comunicado de Yacyretá del 13/11",
+    "Pronóstico del INA: 6,60 m al 17/11"
+   ],
+   "confianza": "alta",
+   "horizonte": "próximos 5 días"
+  },
+  {
+   "id": "rio-uruguay-pico",
+   "tema": "🌊 Río Uruguay",
+   "titulo": "La crecida del Uruguay está pasando por Paso de los Libres",
+   "texto": "Santo Tomé tuvo su pico el 10/11 (10,99 m) y ya baja. Esa onda llega ahora a Paso de los Libres, que sigue subiendo (7,98 m el 13/11). Lo más probable es que Libres tenga su máximo entre el 15 y el 16/11 y luego empiece a bajar, como prevé el INA.",
+   "base": [
+    "Alturas de Santo Tomé y Paso de los Libres del 5 al 13/11",
+    "Reporte del INA del 12/11"
+   ],
+   "confianza": "media",
+   "horizonte": "próximos 3 días"
+  },
+  {
+   "id": "lluvia-14-11",
+   "tema": "🌧️ Lluvia",
+   "titulo": "La tormenta del sábado dejó mucho menos lluvia que la prevista por la alerta",
+   "texto": "La alerta naranja anunciaba entre 80 y 120 mm, pero en la Capital se midieron unos 7 mm y el máximo de la provincia fue 11 mm (Pueblo Libertador). Los desagües alcanzaron. Atención: con el río en 6,68 m los desagües funcionan a un 16 % de lo normal, así que una tormenta de más de unos 10 mm en una hora ya podría acumular agua en las calles.",
+   "base": [
+    "Lluvia medida por el SNIH el 14/11",
+    "Alerta naranja 2026-0022-NT",
+    "Cálculo de desagüe del simulador por barrio"
+   ],
+   "confianza": "alta",
+   "horizonte": "hoy"
+  },
+  {
+   "id": "nino-transitoria",
+   "tema": "🌎 El Niño",
+   "titulo": "La bajante actual puede ser una pausa, no el final de la crecida",
+   "texto": "El Niño sigue fuerte y en aumento según la NOAA, el SMN prevé lluvias por encima de lo normal en el Litoral hasta enero y el INA advierte que hacia fines de noviembre podrían volver lluvias importantes en la cuenca. Conviene no bajar la guardia en las zonas costeras.",
+   "base": [
+    "NOAA, 12/11/2026",
+    "SMN, pronóstico trimestral",
+    "INA, 12/11/2026"
+   ],
+   "confianza": "media",
+   "horizonte": "próximas semanas"
+  }
+ ],
+ "historial": [
+  {
+   "id": "rio-parana-bajante",
+   "tema": "🌊 Río Paraná",
+   "titulo": "El Paraná sigue en bajante lenta en la Capital",
+   "texto": "Bajó de 7,00 m el 6/11 a 6,68 m hoy, unos 4 cm por día. Aguas arriba también baja (Ituzaingó pasó de 3,70 a 2,99 m) y Yacyretá prevé menos caudal hasta el 17/11. Si sigue este ritmo, quedaría por debajo de la cota de alerta (6,50 m) hacia el 18 o 19 de noviembre.",
+   "base": [
+    "Alturas de Prefectura del 6 al 14/11 (Corrientes, Itatí, Ituzaingó)",
+    "Comunicado de Yacyretá del 13/11",
+    "Pronóstico del INA: 6,60 m al 17/11"
+   ],
+   "confianza": "alta",
+   "horizonte": "próximos 5 días",
+   "fecha": "14/11/2026, 19:05 h"
+  },
+  {
+   "id": "rio-uruguay-pico",
+   "tema": "🌊 Río Uruguay",
+   "titulo": "La crecida del Uruguay está pasando por Paso de los Libres",
+   "texto": "Santo Tomé tuvo su pico el 10/11 (10,99 m) y ya baja. Esa onda llega ahora a Paso de los Libres, que sigue subiendo (7,98 m el 13/11). Lo más probable es que Libres tenga su máximo entre el 15 y el 16/11 y luego empiece a bajar, como prevé el INA.",
+   "base": [
+    "Alturas de Santo Tomé y Paso de los Libres del 5 al 13/11",
+    "Reporte del INA del 12/11"
+   ],
+   "confianza": "media",
+   "horizonte": "próximos 3 días",
+   "fecha": "14/11/2026, 19:05 h"
+  },
+  {
+   "id": "lluvia-14-11",
+   "tema": "🌧️ Lluvia",
+   "titulo": "La tormenta del sábado dejó mucho menos lluvia que la prevista por la alerta",
+   "texto": "La alerta naranja anunciaba entre 80 y 120 mm, pero en la Capital se midieron unos 7 mm y el máximo de la provincia fue 11 mm (Pueblo Libertador). Los desagües alcanzaron. Atención: con el río en 6,68 m los desagües funcionan a un 16 % de lo normal, así que una tormenta de más de unos 10 mm en una hora ya podría acumular agua en las calles.",
+   "base": [
+    "Lluvia medida por el SNIH el 14/11",
+    "Alerta naranja 2026-0022-NT",
+    "Cálculo de desagüe del simulador por barrio"
+   ],
+   "confianza": "alta",
+   "horizonte": "hoy",
+   "fecha": "14/11/2026, 19:05 h"
+  },
+  {
+   "id": "nino-transitoria",
+   "tema": "🌎 El Niño",
+   "titulo": "La bajante actual puede ser una pausa, no el final de la crecida",
+   "texto": "El Niño sigue fuerte y en aumento según la NOAA, el SMN prevé lluvias por encima de lo normal en el Litoral hasta enero y el INA advierte que hacia fines de noviembre podrían volver lluvias importantes en la cuenca. Conviene no bajar la guardia en las zonas costeras.",
+   "base": [
+    "NOAA, 12/11/2026",
+    "SMN, pronóstico trimestral",
+    "INA, 12/11/2026"
+   ],
+   "confianza": "media",
+   "horizonte": "próximas semanas",
+   "fecha": "14/11/2026, 19:05 h"
+  }
+ ]
+}
