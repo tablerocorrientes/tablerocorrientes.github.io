@@ -57,10 +57,11 @@ tr:first-child td{border-top:0}
 .links a::after{content:"→";color:var(--water);font-weight:800}
 details.x{border-top:1px solid var(--line);padding:6px 0}
 details.x:first-of-type{border-top:0}
-details.x summary{cursor:pointer;list-style:none;display:flex;gap:8px;align-items:flex-start;font-size:.84rem}
-details.x summary::-webkit-details-marker{display:none}
-details.x summary::before{content:"+";flex:none;width:18px;height:18px;border-radius:50%;background:var(--track);color:var(--water);font-weight:800;display:flex;align-items:center;justify-content:center;font-size:.85rem;margin-top:1px}
-details.x[open] summary::before{content:"−"}
+details.x>summary{cursor:pointer;list-style:none;display:flex;gap:8px;align-items:flex-start;font-size:.84rem}
+details.x>summary::-webkit-details-marker{display:none}
+details.x>summary>div{flex:1;min-width:0}
+details.x>summary::before{content:"+";flex:none;width:18px;height:18px;border-radius:50%;background:var(--track);color:var(--water);font-weight:800;display:flex;align-items:center;justify-content:center;font-size:.85rem;margin-top:1px}
+details.x[open]>summary::before{content:"−"}
 details.x .dt{font-size:.82rem;color:var(--ink2);margin:6px 0 2px 26px}
 details.x .dt a{color:var(--water)}
 .meta{display:block;font-size:.72rem;color:var(--soft);font-weight:600}
@@ -450,37 +451,41 @@ function tcLimpio(s){s=String(s||'');var o=s.split(/(?<=[.;])\s+/).filter(functi
   $('alertK').innerHTML=[['Alertas del SMN','https://www.smn.gob.ar/alertas'],['Radar meteorológico','https://www.smn.gob.ar/radar'],['Imágenes satelitales','https://www.smn.gob.ar/satelite']].map(function(l){return '<a href="'+l[1]+'" target="_blank" rel="noopener" style="flex:1 1 auto;text-align:center;padding:8px 10px;border-radius:999px;background:var(--med);color:#fff;font-weight:700;font-size:.8rem;text-decoration:none">'+l[0]+' ↗</a>';}).join('');
 })();
 /* pasos y rutas */
+function corto(full,breve){full=String(full||'');var b=breve?String(breve):'';if(!b){if(full.length<=260)return esc(full);var s=full.split(/(?<=\.)\s+/),o='';for(var i=0;i<s.length&&(o+' '+s[i]).length<230;i++)o+=(o?' ':'')+s[i];b=o||(full.slice(0,220)+'…');}if(b===full)return esc(full);return esc(b)+'<details class="mas" style="margin-top:6px"><summary style="cursor:pointer;color:var(--water);font-weight:700;font-size:.8rem">Leer completo</summary><div style="margin-top:6px">'+esc(full)+'</div></details>';}
 function det(sum,meta,body,link){return '<details class="x"><summary><div>'+sum+(meta?'<span class="meta">'+meta+'</span>':'')+'</div></summary><div class="dt">'+body+(link?' <a href="'+esc(link)+'" target="_blank" rel="noopener">Fuente</a>':'')+'</div></details>';}
 function chip(e){var c=e==='habilitado'||e==='sin reportes'?'p-ok':e==='restringido'||e==='con demoras'?'p-warn':e==='cerrado'||e==='cortado'?'p-bad':'p-n';return '<span class="pill '+c+'">'+esc(e)+'</span>';}
 var PS=D.pasos||[],nc=PS.filter(function(p){return p.estado!=='habilitado';}).length;$('k4').textContent=nc+' de '+PS.length;
 $('sX').textContent='Verificado: '+(D.pasos_fecha||'');
-$('pasos').innerHTML=PS.map(function(p){return det('<b>'+esc(p.nombre)+'</b> '+chip(p.estado),esc(p.rio||'')+(p.verificado?', verificado '+esc(p.verificado):''),esc(p.detalle||'')+(p.fuente?' ('+esc(p.fuente)+')':''),p.enlace);}).join('');
-$('rutas').innerHTML=(D.rutas||[]).map(function(r){return det('<b>'+esc(r.tramo)+'</b> '+chip(r.estado),r.verificado?'verificado '+esc(r.verificado):'',esc(r.detalle||'')+(r.fuente?' ('+esc(r.fuente)+')':''),r.enlace);}).join('');
+$('pasos').innerHTML=PS.map(function(p){return det('<b>'+esc(p.nombre)+'</b> '+chip(p.estado),esc(p.rio||'')+(p.verificado?', verificado '+esc(p.verificado):''),corto(p.detalle,p.breve)+(p.fuente?' <span class="meta">'+esc(p.fuente)+'</span>':''),p.enlace);}).join('');
+$('rutas').innerHTML=(D.rutas||[]).map(function(r){return det('<b>'+esc(r.tramo)+'</b> '+chip(r.estado),r.verificado?'verificado '+esc(r.verificado):'',corto(r.detalle,r.breve)+(r.fuente?' <span class="meta">'+esc(r.fuente)+'</span>':''),r.enlace);}).join('');
 /* último comunicado de Yacyretá, destacado */
 (function(){var all=(D.partes_oficiales||[]).filter(function(p){return /^Entidad Binacional Yacyret/i.test(p.organismo||'');}),e=all[0];if(!e)return;
-  $('ebyBox').hidden=false;$('ebyMeta').innerHTML='<span class="pill p-warn">Más reciente</span> '+esc(e.fecha)+', '+esc(e.organismo)+(e.enlace?' <a href="'+esc(e.enlace)+'" target="_blank" rel="noopener" style="color:var(--water)">Fuente</a>':'');$('ebyTxt').textContent=e.resumen;
-  if(all.length>1)$('ebyMas').innerHTML='<p class="s" style="margin:8px 0 2px;font-weight:700;color:var(--ink)">Comunicados anteriores ('+(all.length-1)+')</p>'+all.slice(1).map(function(p){return det('<b>'+esc(p.organismo.replace(/^Entidad Binacional Yacyretá \(EBY\),?\s*/,''))+'</b>',esc(p.fecha),esc(p.resumen),p.enlace);}).join('');})();
+  $('ebyBox').hidden=false;$('ebyMeta').innerHTML='<span class="pill p-warn">Más reciente</span> '+esc(e.fecha)+', '+esc(e.organismo)+(e.enlace?' <a href="'+esc(e.enlace)+'" target="_blank" rel="noopener" style="color:var(--water)">Fuente</a>':'');$('ebyTxt').innerHTML=corto(e.resumen,e.breve);
+  var ed=function(p){return det('<b>'+esc(p.organismo.replace(/^Entidad Binacional Yacyretá \(EBY\),?\s*/,''))+'</b>',esc(p.fecha),corto(p.resumen,p.breve),p.enlace);};
+  var h='';if(all[1])h+='<p class="s" style="margin:10px 0 2px;font-weight:700;color:var(--ink)">Comunicado anterior</p>'+ed(all[1]);
+  if(all.length>2)h+='<details style="margin-top:10px;border:1px dashed var(--line);border-radius:12px;padding:8px 12px"><summary style="cursor:pointer;font-weight:700;color:var(--water)">Ver comunicados históricos ('+(all.length-2)+')</summary>'+(D.eby_resumen_anteriores?'<p style="font-size:.84rem;margin:8px 0"><b>Resumen:</b> '+esc(D.eby_resumen_anteriores)+'</p>':'')+all.slice(2).map(ed).join('')+'</details>';
+  $('ebyMas').innerHTML=h;})();
 /* partes oficiales y prensa: los últimos a la vista y el resto desplegable */
 function fOrd(s){s=String(s||'');var m=/(\d{1,2})\/(\d{1,2})\/(\d{4})(?:\D+(\d{1,2}):(\d{2}))?/.exec(s);if(m)return new Date(+m[3],+m[2]-1,+m[1],m[4]?+m[4]:12,m[5]?+m[5]:0).getTime();m=/(\d{4})-(\d{2})-(\d{2})/.exec(s);if(m)return new Date(+m[1],+m[2]-1,+m[3],12).getTime();return 0;}
 function ultYHist(items,fn,n,lbl){n=n||5;var v=items.slice(0,n),h=items.slice(n);return v.map(function(p,i){return fn(p,i===0?'<span class="pill" style="background:#e5484d;color:#fff;font-weight:800">ÚLTIMO</span> ':'');}).join('')+(h.length?'<details style="margin-top:10px;border:1px dashed var(--line);border-radius:12px;padding:8px 12px"><summary style="cursor:pointer;font-weight:700;color:var(--water)">Ver '+lbl+' históricos ('+h.length+')</summary>'+h.map(function(p){return fn(p,'');}).join('')+'</details>':'');}
 var PO=(D.partes_oficiales||[]).filter(function(p){return !/^Verificaci[oó]n de este tablero/i.test(p.organismo||'');}).map(function(p){var q={};for(var k in p)q[k]=p[k];q.organismo=String(p.organismo||'').replace(/\s*\([^)]*(Drive|JSON|SHA|manifiesto)[^)]*\)/gi,'');return q;});PO.sort(function(a,b){return fOrd(b.fecha)-fOrd(a.fecha);});$('sPO').textContent='Los 5 más recientes. Toque para leer el detalle; los anteriores están al final.';
-$('partes').innerHTML=ultYHist(PO,function(p,tag){return det(tag+(/^Entidad Binacional Yacyret/i.test(p.organismo||'')?'<span class="pill p-warn">Yacyretá</span> ':'')+'<b>'+esc(p.organismo)+'</b>',esc(p.fecha),esc(p.resumen),p.enlace);},5,'partes');
+$('partes').innerHTML=ultYHist(PO,function(p,tag){return det(tag+(/^Entidad Binacional Yacyret/i.test(p.organismo||'')?'<span class="pill p-warn">Yacyretá</span> ':'')+'<b>'+esc(p.organismo)+'</b>',esc(p.fecha),corto(p.resumen,p.breve),p.enlace);},5,'partes');
 var PR=(D.prensa||[]).slice().sort(function(a,b){return fOrd(b.fecha)-fOrd(a.fecha);});$('sPR').textContent='Las 5 notas más recientes (actualizado '+(D.prensa_fecha||'')+'). Toque para leer el resumen; las anteriores están al final.';
-$('prensa').innerHTML=ultYHist(PR,function(p,tag){return det(tag+'<b>'+esc(p.titulo)+'</b>',esc(p.medio)+', '+esc(p.fecha),esc(p.resumen||''),p.enlace);},5,'notas');
+$('prensa').innerHTML=ultYHist(PR,function(p,tag){return det(tag+'<b>'+esc(p.titulo)+'</b>',esc(p.medio)+', '+esc(p.fecha),corto(p.resumen,p.breve),p.enlace);},5,'notas');
 /* teléfonos y canales */
 $('tel').innerHTML=(D.telefonos||[]).map(function(x){var n=String(x[1]||'').replace(/[^0-9+]/g,'');return '<a class="chip" href="tel:'+esc(n)+'">'+esc(x[0])+' <b>'+esc(x[1])+'</b></a>';}).join('');
 $('canales').innerHTML=(D.canales_oficiales||[]).map(function(c){return '<a class="chip" href="'+esc(c.enlace)+'" target="_blank" rel="noopener">'+esc(c.canal)+' <span style="color:var(--soft);font-size:.74rem">'+esc(c.localidad)+'</span></a>';}).join('');
 $('hor').textContent='Actualización programada: ríos, alertas, evacuados, pronósticos y prensa a las 07:00 y 18:30 h; lluvia real medida, en forma periódica a lo largo del día.';
 /* notas de los ríos */
-if(D.nota)$('parN').innerHTML=det('<b>Nota del parte oficial</b>',esc(D.actualizado||''),esc(D.nota));
-if(D.uruguay_nota)$('uruN').innerHTML=det('<b>Nota sobre el río Uruguay</b>','',esc(D.uruguay_nota));
+if(D.nota)$('parN').innerHTML=det('<b>Nota del parte oficial</b>',esc(D.actualizado||''),corto(D.nota,D.nota_breve));
+if(D.uruguay_nota)$('uruN').innerHTML=det('<b>Nota sobre el río Uruguay</b>','',corto(D.uruguay_nota,D.uruguay_breve));
 /* efecto tapón por ciudad */
 var ET=D.efecto_tapon||[];
 $('tapon').innerHTML=ET.map(function(e){var r=String(e.riesgo||'').toLowerCase(),c=r.indexOf('alto')>=0?'p-bad':(r.indexOf('medio')>=0||r.indexOf('moder')>=0)?'p-warn':'p-ok';
   var b='<b>Río:</b> '+esc(e.rio||'')+'<br><b>Desagües:</b> '+esc(e.desagues||'')+'<br><b>Pronóstico:</b> '+esc(e.pronostico||'');
   if(e.simulador&&e.simulador.u)b+='<br><a href="'+esc(e.simulador.u)+'" target="_blank" rel="noopener">Abrir el simulador</a>';
   return det('<b>'+esc(e.ciudad)+'</b> <span class="pill '+c+'">riesgo '+esc(e.riesgo||'')+'</span>','',b);}).join('');
-if(D.tapon_pronostico)$('taponG').innerHTML=det('<b>Pronóstico y efecto tapón: situación general</b>',esc(D.tapon_fecha||''),esc(D.tapon_pronostico));
+if(D.tapon_pronostico)$('taponG').innerHTML=det('<b>Pronóstico y efecto tapón: situación general</b>',esc(D.tapon_fecha||''),corto(D.tapon_pronostico,D.tapon_breve));
 /* zonas */
 var Z=(D.zonas_actuales||[]).map(function(z){return det('<b>'+esc(z.puerto)+'</b> <span class="pill p-bad">actual</span>',esc(z.fecha)+', '+esc(z.organismo||''),esc(z.texto),z.enlace);}).concat((D.zonas_antecedentes||[]).map(function(z){return det('<b>'+esc(z.puerto)+'</b> <span class="pill p-n">antecedente</span>',esc(z.fecha)+(z.altura?', río '+esc(z.altura):'')+', '+esc(z.organismo||''),esc(z.texto),z.enlace);}));
 $('zonas').innerHTML=Z.join('')||'<p class="s">Sin registros.</p>';
@@ -542,8 +547,9 @@ if(EV){drawEvac();
 /* centros de evacuados */
 (function(){var C=(EV&&EV.centros)||[];if(!C.length){$('centros').innerHTML='<p class="s">Sin centros informados en los partes oficiales.</p>';return;}
   var by={},ord=[];C.forEach(function(c){if(!by[c.n]){by[c.n]=[];ord.push(c.n);}by[c.n].push(c);});
-  $('centros').innerHTML=ord.map(function(n){return '<div style="border-top:1px solid var(--line);padding:7px 0"><b style="font-size:.86rem">'+esc(n)+'</b>'+by[n].map(function(c){var cl=c.estado==='habilitado'?'p-bad':c.estado==='previsto'?'p-warn':c.estado==='cerrado'?'p-ok':'p-n';
-    return '<div style="display:flex;gap:8px;align-items:flex-start;margin-top:5px;font-size:.82rem"><span class="pill '+cl+'" style="flex:none">'+esc(c.estado)+'</span><div>'+esc(c.centro)+(c.personas!=null?' <b>('+nf(c.personas)+' personas)</b>':'')+'<span class="meta">'+esc(c.f)+', '+esc(c.fuente)+(c.u?' <a href="'+esc(c.u)+'" target="_blank" rel="noopener" style="color:var(--water)">Fuente</a>':'')+'</span></div></div>';}).join('')+'</div>';}).join('');
+  var tot=function(n){return by[n].reduce(function(s,c){return s+(c.personas||0);},0);};ord.sort(function(x,y){return tot(y)-tot(x);});var mx=Math.max.apply(null,ord.map(tot).concat([1]));
+  $('centros').innerHTML=ord.map(function(n){var v=tot(n);return det('<div style="display:flex;align-items:center;gap:8px;width:100%"><b style="flex:0 0 38%;font-size:.86rem">'+esc(n)+'</b><span style="flex:1;height:14px;background:var(--line);border-radius:7px;overflow:hidden"><span style="display:block;height:100%;width:'+Math.max(3,Math.round(v/mx*100))+'%;background:var(--bad)"></span></span><b style="flex:0 0 auto;font-size:.86rem">'+(v?nf(v):'s/d')+'</b></div>','',by[n].map(function(c){var cl=c.estado==='habilitado'?'p-bad':c.estado==='previsto'?'p-warn':c.estado==='cerrado'?'p-ok':'p-n';
+    return '<div style="display:flex;gap:8px;align-items:flex-start;margin-top:5px;font-size:.82rem"><span class="pill '+cl+'" style="flex:none">'+esc(c.estado)+'</span><div>'+corto(c.centro)+(c.personas!=null?' <b>('+nf(c.personas)+' personas)</b>':'')+'<span class="meta">'+esc(c.f)+', '+esc(c.fuente)+(c.u?' <a href="'+esc(c.u)+'" target="_blank" rel="noopener" style="color:var(--water)">Fuente</a>':'')+'</span></div></div>';}).join(''));}).join('')+'<p class="s" style="margin-top:6px">Personas alojadas por localidad, según los partes oficiales. Toque una localidad para ver los centros.</p>';
 })();
 /* pronóstico horario de la Capital */
 (function(){var HC=PF&&PF.horario_capital;if(!HC){$('sHC').textContent='Sin pronóstico horario cargado.';return;}

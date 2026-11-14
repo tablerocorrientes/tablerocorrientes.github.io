@@ -151,7 +151,8 @@
    "fecha": "10/11/2026",
    "organismo": "Entidad Binacional Yacyretá (EBY), alerta hidrológico N.º 03/noviembre (comunicado original, hora de emisión no informada)",
    "resumen": "Caudal afluente previsto de unos 28.000 m³/s para el 10/11 y de 27.500 a 26.000 m³/s en los días siguientes: tendencia a la bajante. Septiembre promedió 12.339 m³/s (37 % sobre lo normal) y octubre 14.400 m³/s (106 % sobre lo normal), el mayor caudal medio de un octubre en la serie 1971-2025. Lluvias previstas en la cuenca: baja intensidad sobre la cuenca incremental de Yacyretá entre el miércoles 11 y el viernes 13/11, con 5 a 10 mm en promedio y cerca de 25 mm en forma local en el escenario más lluvioso. Maniobras de la represa: el comunicado no informa maniobras del vertedero. Aguas abajo: Puerto Ituzaingó 3,48 m el 10/11 a las 12:00 h, con previsión de 3,5 a 3,4 m hasta el jueves 12 y de 3,3 a 3,2 m el viernes 13 (alerta 3,50 m, evacuación 4,00 m); Ayolas de 5,1 a 5,0 m hasta el jueves y de 5,0 a 4,9 m el viernes, por encima de su nivel de inundabilidad de 4,50 m. Advierte alta probabilidad de aguas altas entre noviembre de 2026 y enero de 2027 por El Niño. Los pronósticos cubren hasta el 13/11.",
-   "enlace": "https://www.eby.gov.py/alerta-hidrologico-n03-noviembre/"
+   "enlace": "https://www.eby.gov.py/alerta-hidrologico-n03-noviembre/",
+   "breve": "El caudal que llega a Yacyretá empieza a bajar (de 28.000 a 26.000 m³/s). Ituzaingó quedaría entre 3,2 y 3,4 m, por debajo de la alerta. La EBY advierte que, por El Niño, puede haber aguas altas hasta enero de 2027."
   },
   {
    "fecha": "10/11/2026, 18:53 h",
@@ -169,7 +170,8 @@
    "fecha": "04/11/2026",
    "organismo": "Entidad Binacional Yacyretá (EBY), alerta hidrológico N.º 02/noviembre (comunicado original, hora de emisión no informada)",
    "resumen": "Caudal afluente previsto de cerca de 30.500 m³/s para el 4/11, con descenso a unos 27.000 a 30.000 m³/s en los días siguientes; tendencia a la baja, con niveles aún por encima de los umbrales de alerta e inundabilidad. Septiembre promedió 12.339 m³/s (37 % sobre lo normal) y octubre 14.400 m³/s (106 % sobre lo normal), el mayor caudal medio de un octubre en la serie 1971-2025. Lluvias previstas en la cuenca entre el 4 y el 10/11: 20 a 50 mm en promedio, concentradas en la cuenca del Iguazú y el área de aporte directo, con un escenario más lluvioso de unos 120 mm en forma local. Maniobras de la represa: el comunicado no menciona maniobras del vertedero. Aguas abajo: Puerto Ituzaingó 3,79 m el 4/11 a las 12:00 h, con previsión de 3,6 a 3,8 m durante el fin de semana y de 3,5 a 3,6 m a comienzos de la semana próxima (alerta 3,50 m, evacuación 4,00 m); Ayolas de 5,2 a 5,4 m. Advierte alta probabilidad de crecidas entre noviembre de 2026 y enero de 2027 por El Niño. Los pronósticos cubren hasta el 10/11 y están sujetos a revisión. No se halló un comunicado posterior.",
-   "enlace": "https://www.eby.gov.py/alerta-hidrologico-n02-noviembre/"
+   "enlace": "https://www.eby.gov.py/alerta-hidrologico-n02-noviembre/",
+   "breve": "El caudal bajaba (de 30.500 a unos 27.000 m³/s), todavía por encima de los niveles de alerta. Ituzaingó entre 3,5 y 3,8 m, con lluvias previstas de 20 a 50 mm en la cuenca."
   },
   {
    "fecha": "06/11/2026",
@@ -1081,96 +1083,107 @@
    "nombre": "Ituzaingó – Ayolas (Paraguay)",
    "rio": "Paraná",
    "estado": "habilitado",
-   "detalle": "Paso sobre la represa de Yacyretá cerrado al tránsito vehicular y peatonal desde hace unas dos semanas. El 26/10 la EBY informó que seguirá cerrado al menos hasta el viernes 30/10, con el caudal afluente en aumento. Un medio local difundió una versión, no confirmada, de que se buscaría cerrarlo en forma definitiva. Verificación del 27/10, 18:45 h: sin novedades ni reapertura anunciada. Verificación del 28/10/2026, 07:06 h: sin novedades en las fuentes consultadas. Verificación del 28/10/2026, 18:45 h: sin novedades en las fuentes consultadas. Verificación del 29/10/2026, 07:15 h: sin novedades en las fuentes consultadas. La EBY (informe del 27/10) prevé un descenso gradual hacia el fin de semana, con Ituzaingó en 4,30 m el 28/10; no se anunció reapertura. Verificación del 29/10/2026, 18:45 h: sin novedades en las fuentes consultadas. Verificación del 30/10/2026, 07:15 h: sin novedades en las fuentes consultadas. La EBY había fijado el cierre al menos hasta el viernes 30/10 (hoy); no se anunció reapertura. Verificación del 01/11/2026, 07:06 h: sin novedades en las fuentes consultadas. El plazo fijado por la EBY (al menos hasta el 30/10) venció sin anuncio de reapertura; el alerta N.º 13 del 30/10 prevé Ituzaingó en 3,9 a 3,8 m hasta el 1/11, bajo su evacuación. Verificación del 02/11/2026, 07:05 h: sin novedades en las fuentes consultadas. No se anunció la reapertura. Verificación del 02/11/2026, 18:52 h: la EBY prorrogó la suspensión del paso hasta el viernes 6/11 (Infobae); es una medida preventiva vigente desde el 12/10. Ituzaingó en 3,76 m el 02/11, bajo su evacuación. Verificación del 03/11/2026, 07:11 h: rige la suspensión prorrogada por la EBY hasta el viernes 6/11 (medida preventiva vigente desde el 12/10); el alerta hidrológico N.º 01/noviembre prevé un caudal de 27.000 a 29.000 m³/s, aún sobre los umbrales de alerta e inundabilidad. Ituzaingó en 3,85 m el 01/11 (repositorio) y 3,75 m el 02/11 (Prefectura, externa), bajo su evacuación. Verificación del 08/11/2026, 18:52 h: la suspensión anunciada por la EBY regía hasta el viernes 6/11; en las fuentes consultadas no se halló un anuncio de reapertura ni de nueva prórroga, por lo que el estado actual no pudo confirmarse y se conserva la última situación informada. El alerta hidrológico N.º 02/noviembre de la EBY (4/11) prevé Ituzaingó en 3,6 a 3,8 m durante el fin de semana, bajo su evacuación de 4,00 m (lectura de hoy del CIM/UNL: 3,68 m). Verificación del 10/11/2026, 18:53 h: la EBY informó la reapertura del paso desde el sábado 7/11 a las 00:00 h, de 9 a 19 h, «hasta que las condiciones climáticas y el comportamiento del río lo permitan», y que seguirá abierto tras la visita del Papa (Facundo Palma, presidente del Consejo de Administración, a Radio Sudamericana, difundido por Examedia el 5/11). No se halló un anuncio posterior de nuevo cierre. El alerta N.º 03/noviembre (10/11) informa Ituzaingó en 3,48 m, en bajante. Verificación del 11/11/2026, 18:56 h: sin novedades en las fuentes consultadas. Verificación del 12/11/2026, 18:54 h: sin novedades en las fuentes consultadas.",
+   "detalle": "Paso sobre la represa de Yacyretá cerrado al tránsito vehicular y peatonal desde hace unas dos semanas. El 26/10 la EBY informó que seguirá cerrado al menos hasta el viernes 30/10, con el caudal afluente en aumento. Un medio local difundió una versión, no confirmada, de que se buscaría cerrarlo en forma definitiva. La EBY (informe del 27/10) prevé un descenso gradual hacia el fin de semana, con Ituzaingó en 4,30 m el 28/10; no se anunció reapertura. La EBY había fijado el cierre al menos hasta el viernes 30/10 (hoy); no se anunció reapertura. El plazo fijado por la EBY (al menos hasta el 30/10) venció sin anuncio de reapertura; el alerta N.º 13 del 30/10 prevé Ituzaingó en 3,9 a 3,8 m hasta el 1/11, bajo su evacuación. No se anunció la reapertura. Verificación del 02/11/2026, 18:52 h: la EBY prorrogó la suspensión del paso hasta el viernes 6/11 (Infobae); es una medida preventiva vigente desde el 12/10. Ituzaingó en 3,76 m el 02/11, bajo su evacuación. Verificación del 03/11/2026, 07:11 h: rige la suspensión prorrogada por la EBY hasta el viernes 6/11 (medida preventiva vigente desde el 12/10); el alerta hidrológico N.º 01/noviembre prevé un caudal de 27.000 a 29.000 m³/s, aún sobre los umbrales de alerta e inundabilidad. Ituzaingó en 3,85 m el 01/11 (repositorio) y 3,75 m el 02/11 (Prefectura, externa), bajo su evacuación. Verificación del 08/11/2026, 18:52 h: la suspensión anunciada por la EBY regía hasta el viernes 6/11; en las fuentes consultadas no se halló un anuncio de reapertura ni de nueva prórroga, por lo que el estado actual no pudo confirmarse y se conserva la última situación informada. El alerta hidrológico N.º 02/noviembre de la EBY (4/11) prevé Ituzaingó en 3,6 a 3,8 m durante el fin de semana, bajo su evacuación de 4,00 m (lectura de hoy del CIM/UNL: 3,68 m). Verificación del 10/11/2026, 18:53 h: la EBY informó la reapertura del paso desde el sábado 7/11 a las 00:00 h, de 9 a 19 h, «hasta que las condiciones climáticas y el comportamiento del río lo permitan», y que seguirá abierto tras la visita del Papa (Facundo Palma, presidente del Consejo de Administración, a Radio Sudamericana, difundido por Examedia el 5/11). No se halló un anuncio posterior de nuevo cierre. El alerta N.º 03/noviembre (10/11) informa Ituzaingó en 3,48 m, en bajante.",
    "fuente": "Entidad Binacional Yacyretá (declaraciones difundidas por Examedia y El Litoral)",
    "enlace": "https://examedia.com.ar/portada/post/88186633",
-   "verificado": "12/11/2026, 18:54 h"
+   "verificado": "12/11/2026, 18:54 h",
+   "breve": "Reabierto desde el 7/11, de 9 a 19 h, mientras el río lo permita (Yacyretá). Había estado cerrado desde el 12/10 por la crecida."
   },
   {
    "nombre": "Alvear – Itaquí (Brasil)",
    "rio": "Uruguay",
    "estado": "cerrado",
-   "detalle": "Cierre preventivo del paso de frontera por razones de seguridad en la navegación, dispuesto con el río por encima de los 10 m. El 17/10 el río marcaba 10,35 m en Alvear, con las plantas bajas de Aduana y Prefectura inundadas y el nivel comenzando a bajar. No se encontró anuncio de reapertura. Verificación del 26/10, 18:44 h: sin novedades; Infobae (26/10) informa cruces con Brasil cerrados sobre el Uruguay en Misiones y la onda de crecida avanzando hacia el sur. Verificación del 27/10, 18:45 h: sin novedades. Verificación del 28/10/2026, 07:06 h: sin novedades en las fuentes consultadas. Verificación del 28/10/2026, 18:45 h: sin novedades en las fuentes consultadas. Verificación del 29/10/2026, 07:15 h: sin novedades en las fuentes consultadas. Verificación del 29/10/2026, 18:45 h: sin novedades en las fuentes consultadas. Verificación del 30/10/2026, 07:15 h: sin novedades en las fuentes consultadas. Verificación del 01/11/2026, 07:06 h: sin novedades en las fuentes consultadas. Verificación del 02/11/2026, 07:05 h: sin novedades en las fuentes consultadas. Verificación del 03/11/2026, 07:11 h: sin novedades en las fuentes consultadas. Verificación del 10/11/2026, 18:53 h: sin novedades en las fuentes consultadas. Verificación del 11/11/2026, 18:56 h: sin novedades en las fuentes consultadas. Verificación del 12/11/2026, 18:54 h: sin novedades en las fuentes consultadas.",
+   "detalle": "Cierre preventivo del paso de frontera por razones de seguridad en la navegación, dispuesto con el río por encima de los 10 m. El 17/10 el río marcaba 10,35 m en Alvear, con las plantas bajas de Aduana y Prefectura inundadas y el nivel comenzando a bajar. No se encontró anuncio de reapertura. Verificación del 26/10, 18:44 h: sin novedades; Infobae (26/10) informa cruces con Brasil cerrados sobre el Uruguay en Misiones y la onda de crecida avanzando hacia el sur.",
    "fuente": "El Litoral, 17/10/2026 (cierre: Perfil, 12/10/2026)",
    "enlace": "https://ellitoral.com.ar/sociedad/2026-10-17-21-18-0-la-crecida-del-rio-uruguay-inundo-las-plantas-bajas-de-aduana-y-prefectura-en-alvear",
-   "verificado": "12/11/2026, 18:54 h"
+   "verificado": "12/11/2026, 18:54 h",
+   "breve": "Cerrado desde mediados de octubre por la crecida del río Uruguay. No hay anuncio de reapertura."
   },
   {
    "nombre": "Monte Caseros – Bella Unión (Uruguay)",
    "rio": "Uruguay",
    "estado": "cerrado",
-   "detalle": "La Prefectura Monte Caseros dispuso el cierre del paso fronterizo y suspendió el servicio de lanchas de pasajeros desde el 7 de octubre. Según disposiciones anteriores de Prefectura, el paso se cierra con el río por encima de 6,20 m; el último registro conocido supera los 7 m. No se encontró una disposición de reapertura. Verificación del 26/10, 18:44 h: sin novedades; Infobae (26/10) informa cruces con Brasil cerrados sobre el Uruguay en Misiones y la onda de crecida avanzando hacia el sur. Verificación del 27/10, 18:45 h: sin novedades. Verificación del 28/10/2026, 07:06 h: sin novedades en las fuentes consultadas. Verificación del 28/10/2026, 18:45 h: sin novedades en las fuentes consultadas. Verificación del 29/10/2026, 07:15 h: sin novedades en las fuentes consultadas. Verificación del 29/10/2026, 18:45 h: sin novedades en las fuentes consultadas. Verificación del 30/10/2026, 07:15 h: sin novedades en las fuentes consultadas. Verificación del 01/11/2026, 07:06 h: sin novedades en las fuentes consultadas. Verificación del 02/11/2026, 07:05 h: sin novedades en las fuentes consultadas. Verificación del 03/11/2026, 07:11 h: sin novedades en las fuentes consultadas. Verificación del 10/11/2026, 18:53 h: sin novedades en las fuentes consultadas. Verificación del 11/11/2026, 18:56 h: sin novedades en las fuentes consultadas. Verificación del 12/11/2026, 18:54 h: sin novedades en las fuentes consultadas.",
+   "detalle": "La Prefectura Monte Caseros dispuso el cierre del paso fronterizo y suspendió el servicio de lanchas de pasajeros desde el 7 de octubre. Según disposiciones anteriores de Prefectura, el paso se cierra con el río por encima de 6,20 m; el último registro conocido supera los 7 m. No se encontró una disposición de reapertura. Verificación del 26/10, 18:44 h: sin novedades; Infobae (26/10) informa cruces con Brasil cerrados sobre el Uruguay en Misiones y la onda de crecida avanzando hacia el sur.",
    "fuente": "Corrientes Hoy, citando la disposición de Prefectura, 07/10/2026; ratificado por La Nación, 15/10/2026",
    "enlace": "https://www.corrienteshoy.com/info-general/argentina-cierran-otro-paso-fronterizo-en-corrientes-por-la-creciente-del-rio-uruguay.htm",
-   "verificado": "12/11/2026, 18:54 h"
+   "verificado": "12/11/2026, 18:54 h",
+   "breve": "Cerrado y sin lanchas de pasajeros desde el 7/10, por disposición de Prefectura. No hay anuncio de reapertura."
   },
   {
    "nombre": "Cruces fluviales con Paraguay",
    "rio": "Paraná",
    "estado": "restringido",
-   "detalle": "Del lado paraguayo hay 14 puestos migratorios inhabilitados por la crecida. Antes de cruzar en lancha desde Itatí, Paso de la Patria u otros puertos, conviene confirmar con Prefectura o Migraciones. Verificación del 27/10, 18:45 h: sin novedades. Verificación del 28/10/2026, 07:06 h: sin novedades en las fuentes consultadas. Verificación del 28/10/2026, 18:45 h: sin novedades en las fuentes consultadas. Verificación del 29/10/2026, 07:15 h: sin novedades en las fuentes consultadas. Verificación del 29/10/2026, 18:45 h: sin novedades en las fuentes consultadas. Verificación del 30/10/2026, 07:15 h: sin novedades en las fuentes consultadas. Verificación del 01/11/2026, 07:06 h: sin novedades en las fuentes consultadas. Verificación del 02/11/2026, 07:05 h: sin novedades en las fuentes consultadas. Verificación del 03/11/2026, 07:11 h: sin novedades en las fuentes consultadas. Verificación del 10/11/2026, 18:53 h: sin novedades en las fuentes consultadas. Verificación del 11/11/2026, 18:56 h: sin novedades en las fuentes consultadas. Verificación del 12/11/2026, 18:54 h: sin novedades en las fuentes consultadas.",
+   "detalle": "Del lado paraguayo hay 14 puestos migratorios inhabilitados por la crecida. Antes de cruzar en lancha desde Itatí, Paso de la Patria u otros puertos, conviene confirmar con Prefectura o Migraciones.",
    "fuente": "La Nación, 15/10/2026",
    "enlace": "https://www.lanacion.com.ar/sociedad/crecidas-del-parana-y-del-uruguay-zonas-criticas-evacuados-rutas-cortadas-y-fechas-que-inquietan-nid15102026/",
-   "verificado": "12/11/2026, 18:54 h"
+   "verificado": "12/11/2026, 18:54 h",
+   "breve": "Paraguay tiene 14 puestos migratorios inhabilitados por la crecida. Antes de cruzar en lancha, consulte a Prefectura o a Migraciones."
   },
   {
    "nombre": "Santo Tomé – São Borja y Paso de los Libres – Uruguaiana (Brasil)",
    "rio": "Uruguay",
    "estado": "habilitado",
-   "detalle": "Puentes internacionales habilitados: no se encontraron cierres por la crecida. El puente Paso de los Libres – Uruguaiana tuvo dos cortes programados de una hora, el 10 y el 17 de octubre, por el traslado de unidades del Ejército a un ejercicio militar, ajenos a la crecida; ambos ya finalizaron. Verificación del 27/10, 18:45 h: sin novedades. Verificación del 28/10/2026, 07:06 h: sin novedades en las fuentes consultadas. Verificación del 28/10/2026, 18:45 h: sin novedades en las fuentes consultadas. Verificación del 29/10/2026, 07:15 h: sin novedades en las fuentes consultadas. Verificación del 29/10/2026, 18:45 h: sin novedades en las fuentes consultadas. Verificación del 30/10/2026, 07:15 h: sin novedades en las fuentes consultadas. Verificación del 01/11/2026, 07:06 h: sin novedades en las fuentes consultadas. Verificación del 02/11/2026, 07:05 h: sin novedades en las fuentes consultadas. Verificación del 03/11/2026, 07:11 h: sin novedades en las fuentes consultadas. Verificación del 10/11/2026, 18:53 h: sin novedades en las fuentes consultadas. Verificación del 11/11/2026, 18:56 h: sin novedades en las fuentes consultadas. Verificación del 12/11/2026, 18:54 h: sin novedades en las fuentes consultadas.",
+   "detalle": "Puentes internacionales habilitados: no se encontraron cierres por la crecida. El puente Paso de los Libres – Uruguaiana tuvo dos cortes programados de una hora, el 10 y el 17 de octubre, por el traslado de unidades del Ejército a un ejercicio militar, ajenos a la crecida; ambos ya finalizaron.",
    "fuente": "Centro de Frontera Paso de los Libres, comunicado del 07/10/2026, difundido por Misiones Online",
    "enlace": "https://misionesonline.net/2026/10/09/corrientes-brasil-cierre/",
-   "verificado": "12/11/2026, 18:54 h"
+   "verificado": "12/11/2026, 18:54 h",
+   "breve": "Los puentes funcionan con normalidad: no hay cierres por la crecida."
   }
  ],
  "rutas": [
   {
    "tramo": "Paso de los Libres, accesos a la Costanera",
    "estado": "cerrado",
-   "detalle": "Cierre preventivo total de los accesos a la costanera para autos, motos, bicicletas y peatones por la crecida del río Uruguay (7,43 m, a 7 cm de la alerta, según Prefectura); calles afectadas: Coronel López, Amado Bonpland y Plácido Martínez. Informado el 10/11/2026. Verificación del 11/11/2026, 18:56 h: sin novedades en las fuentes consultadas. Verificación del 12/11/2026, 18:54 h: la costanera permanece cerrada; Prefectura informó 7,89 m al mediodía del 12/11, en ascenso (Diario El Libertador).",
+   "detalle": "Cierre preventivo total de los accesos a la costanera para autos, motos, bicicletas y peatones por la crecida del río Uruguay (7,43 m, a 7 cm de la alerta, según Prefectura); calles afectadas: Coronel López, Amado Bonpland y Plácido Martínez. Informado el 10/11/2026. Verificación del 12/11/2026, 18:54 h: la costanera permanece cerrada; Prefectura informó 7,89 m al mediodía del 12/11, en ascenso (Diario El Libertador).",
    "fuente": "Municipalidad de Paso de los Libres y Prefectura (Diario El Libertador, 12/11)",
    "enlace": "https://www.diarioellibertador.com.ar/crecida-rio-uruguay-alerta-cierre-costanera-paso-de-los-libres/",
-   "verificado": "12/11/2026, 18:54 h"
+   "verificado": "12/11/2026, 18:54 h",
+   "breve": "Accesos a la costanera cerrados para todo tránsito desde el 10/11. El río Uruguay marcaba 7,89 m el 12/11, en subida."
   },
   {
    "tramo": "Paso de la Patria, sectores del distrito",
    "estado": "cortado",
-   "detalle": "Hay sectores del distrito aislados por el agua, con cerca del 40 % del pueblo inundado. El intendente advirtió que con el río en 8,50 m el pueblo podría quedar incomunicado. Verificación del 28/10/2026, 07:06 h: sin novedades en las fuentes consultadas. Verificación del 28/10/2026, 18:45 h: sin novedades en las fuentes consultadas. Verificación del 29/10/2026, 07:15 h: sin novedades en las fuentes consultadas. Verificación del 29/10/2026, 18:45 h: sin novedades en las fuentes consultadas. Verificación del 30/10/2026, 07:15 h: sin novedades en las fuentes consultadas. Verificación del 01/11/2026, 07:06 h: sin novedades en las fuentes consultadas. Verificación del 02/11/2026, 07:05 h: sin novedades en las fuentes consultadas. Verificación del 03/11/2026, 07:11 h: sin novedades en las fuentes consultadas. Verificación del 10/11/2026, 18:53 h: sin novedades en las fuentes consultadas. Verificación del 11/11/2026, 18:56 h: sin novedades en las fuentes consultadas. Verificación del 12/11/2026, 18:54 h: sin novedades en las fuentes consultadas.",
+   "detalle": "Hay sectores del distrito aislados por el agua, con cerca del 40 % del pueblo inundado. El intendente advirtió que con el río en 8,50 m el pueblo podría quedar incomunicado.",
    "fuente": "La Nación, 27/10/2026",
    "enlace": "https://www.lanacion.com.ar/sociedad/pueblo-sitiado-ya-son-mas-de-150-las-familias-evacuadas-en-paso-de-la-patria-y-anticipan-una-nueva-nid27102026/",
-   "verificado": "12/11/2026, 18:54 h"
+   "verificado": "12/11/2026, 18:54 h",
+   "breve": "Hay sectores aislados por el agua; cerca del 40 % del pueblo está inundado."
   },
   {
    "tramo": "Rutas nacionales 12 y 14 en territorio correntino",
    "estado": "sin reportes",
-   "detalle": "No se encontraron reportes de cortes por la crecida en los tramos correntinos. Los cortes en la ruta nacional 12 (puentes de los arroyos Piray Guazú y Paranay) están en Misiones y los puentes ya fueron rehabilitados; el 14 (Campo Viera, por obras) también en Misiones. Verificación del 28/10/2026, 07:06 h: sin novedades en las fuentes consultadas. Verificación del 28/10/2026, 18:45 h: sin novedades en las fuentes consultadas. Verificación del 29/10/2026, 07:15 h: sin novedades en las fuentes consultadas. Verificación del 29/10/2026, 18:45 h: sin novedades en las fuentes consultadas. Verificación del 30/10/2026, 07:15 h: sin novedades en las fuentes consultadas. Verificación del 01/11/2026, 07:06 h: sin novedades en las fuentes consultadas. Verificación del 02/11/2026, 07:05 h: sin novedades en las fuentes consultadas. Verificación del 03/11/2026, 07:11 h: sin novedades en las fuentes consultadas. Verificación del 10/11/2026, 18:53 h: sin novedades en las fuentes consultadas. Verificación del 11/11/2026, 18:56 h: sin novedades en las fuentes consultadas. Verificación del 12/11/2026, 18:54 h: sin novedades en las fuentes consultadas.",
+   "detalle": "No se encontraron reportes de cortes por la crecida en los tramos correntinos. Los cortes en la ruta nacional 12 (puentes de los arroyos Piray Guazú y Paranay) están en Misiones y los puentes ya fueron rehabilitados; el 14 (Campo Viera, por obras) también en Misiones.",
    "fuente": "Infobae, 19/10/2026",
    "enlace": "https://www.infobae.com/sociedad/2026/10/19/la-crecida-del-parana-complico-los-accesos-en-misiones-y-puso-en-riesgo-al-ganado-en-corrientes-hay-productores-que-estan-con-el-agua-encima/",
-   "verificado": "12/11/2026, 18:54 h"
+   "verificado": "12/11/2026, 18:54 h",
+   "breve": "Sin cortes por la crecida en los tramos de Corrientes."
   },
   {
    "tramo": "Caminos de la isla Apipé",
    "estado": "cortado",
-   "detalle": "Caminos cortados por el avance del río. Infobae (26/10) informa que la isla Apipé está inundada en un 50 %, partida en dos y con la ruta cortada, con más de 100 evacuados según el intendente Gustavo Figueredo. Verificación del 28/10/2026, 07:06 h: sin novedades en las fuentes consultadas. Verificación del 28/10/2026, 18:45 h: sin novedades en las fuentes consultadas. Verificación del 29/10/2026, 07:15 h: sin novedades en las fuentes consultadas. Verificación del 29/10/2026, 18:45 h: sin novedades en las fuentes consultadas. Verificación del 30/10/2026, 07:15 h: sin novedades en las fuentes consultadas. Verificación del 01/11/2026, 07:06 h: sin novedades en las fuentes consultadas. Verificación del 02/11/2026, 07:05 h: sin novedades en las fuentes consultadas. Verificación del 03/11/2026, 07:11 h: sin novedades en las fuentes consultadas. Verificación del 10/11/2026, 18:53 h: sin novedades en las fuentes consultadas. Verificación del 11/11/2026, 18:56 h: sin novedades en las fuentes consultadas. Verificación del 12/11/2026, 18:54 h: sin novedades en las fuentes consultadas.",
+   "detalle": "Caminos cortados por el avance del río. Infobae (26/10) informa que la isla Apipé está inundada en un 50 %, partida en dos y con la ruta cortada, con más de 100 evacuados según el intendente Gustavo Figueredo.",
    "fuente": "Infobae, 26/10/2026",
    "enlace": "https://www.infobae.com/sociedad/2026/10/26/el-nino-el-paso-por-yacyreta-continua-cerrado-por-el-nivel-del-parana-mientras-la-creciente-volvio-al-rio-uruguay/",
-   "verificado": "12/11/2026, 18:54 h"
+   "verificado": "12/11/2026, 18:54 h",
+   "breve": "Caminos cortados; la isla está inundada en un 50 % (Infobae, 26/10)."
   },
   {
    "tramo": "Corrientes Capital, acceso a Punta San Sebastián",
    "estado": "cerrado",
-   "detalle": "Cierre preventivo del acceso por la cercanía del agua a las defensas costeras. Verificación del 26/10: no se informó su reapertura. Verificación del 28/10/2026, 07:06 h: sin novedades en las fuentes consultadas. Verificación del 28/10/2026, 18:45 h: sin novedades en las fuentes consultadas. Verificación del 29/10/2026, 07:15 h: sin novedades en las fuentes consultadas. Verificación del 29/10/2026, 18:45 h: sin novedades en las fuentes consultadas. Verificación del 30/10/2026, 07:15 h: sin novedades en las fuentes consultadas. Verificación del 01/11/2026, 07:06 h: sin novedades en las fuentes consultadas. Verificación del 02/11/2026, 07:05 h: sin novedades en las fuentes consultadas. Verificación del 03/11/2026, 07:11 h: sin novedades en las fuentes consultadas. Verificación del 10/11/2026, 18:53 h: sin novedades en las fuentes consultadas. Verificación del 11/11/2026, 18:56 h: sin novedades en las fuentes consultadas. Verificación del 12/11/2026, 18:54 h: sin novedades en las fuentes consultadas.",
+   "detalle": "Cierre preventivo del acceso por la cercanía del agua a las defensas costeras. Verificación del 26/10: no se informó su reapertura.",
    "fuente": "Defensa Civil, informado por TN24 y Canal 12 Misiones, 20/10/2026",
    "enlace": "https://www.canal12misiones.com/nacionales/corrientes-10",
-   "verificado": "12/11/2026, 18:54 h"
+   "verificado": "12/11/2026, 18:54 h",
+   "breve": "Acceso cerrado en forma preventiva por la cercanía del agua a las defensas costeras."
   },
   {
    "tramo": "Itatí, barrio Ibiray",
    "estado": "cortado",
-   "detalle": "Barrio aislado por el avance del río, con viviendas con más de un metro de agua en su interior. Verificación del 28/10/2026, 07:06 h: sin novedades en las fuentes consultadas. Verificación del 28/10/2026, 18:45 h: sin novedades en las fuentes consultadas. Verificación del 29/10/2026, 07:15 h: sin novedades en las fuentes consultadas. Verificación del 29/10/2026, 18:45 h: sin novedades en las fuentes consultadas. Verificación del 30/10/2026, 07:15 h: sin novedades en las fuentes consultadas. Verificación del 01/11/2026, 07:06 h: sin novedades en las fuentes consultadas. Verificación del 02/11/2026, 07:05 h: sin novedades en las fuentes consultadas. Verificación del 03/11/2026, 07:11 h: sin novedades en las fuentes consultadas. Verificación del 10/11/2026, 18:53 h: sin novedades en las fuentes consultadas. Verificación del 11/11/2026, 18:56 h: sin novedades en las fuentes consultadas. Verificación del 12/11/2026, 18:54 h: sin novedades en las fuentes consultadas.",
+   "detalle": "Barrio aislado por el avance del río, con viviendas con más de un metro de agua en su interior.",
    "fuente": "Defensa Civil, informado por TN24, 20/10/2026",
    "enlace": "https://www.tn24.com.ar/2026/10/el-parana-mantiene-en-vilo-a-corrientes-400-evacuados-y-barrios-anegados/",
-   "verificado": "12/11/2026, 18:54 h"
+   "verificado": "12/11/2026, 18:54 h",
+   "breve": "Barrio aislado por el río, con viviendas con más de un metro de agua."
   }
  ],
  "tapon_fecha": "13/11/2026, 23:14 h",
@@ -1297,5 +1310,9 @@
   }
  ],
  "alertas": [],
- "alertas_fecha": "13/11/2026, 18:50 h"
+ "alertas_fecha": "13/11/2026, 18:50 h",
+ "eby_resumen_anteriores": "Entre el 24/10 y el 3/11 la EBY informó caudales de hasta unos 34.500 m³/s, el doble de lo habitual (octubre fue el mes más caudaloso de la serie 1971-2025), con Ituzaingó por encima de 4 m. El paso Ituzaingó–Ayolas estuvo cerrado desde el 12/10 y reabrió el 7/11. La EBY advirtió que El Niño podría extenderse hasta los primeros meses de 2027.",
+ "nota_breve": "Paraná en Corrientes: 6,73 m, en leve bajante, por encima de la alerta (6,50 m) y por debajo de la evacuación (7,00 m). Goya y Esquina siguen por encima de su nivel de evacuación.",
+ "uruguay_breve": "Paso de los Libres: 7,98 m y en subida, por encima de la alerta (7,50 m); el INA prevé el pico en 2 o 3 días y luego descenso. Santo Tomé y Garruchos bajan.",
+ "tapon_breve": "Hoy sábado rige alerta naranja por tormentas para la Capital, de 11 a 17 h (80 a 120 mm). Con los ríos altos, una lluvia fuerte puede superar la capacidad de los desagües."
 }
