@@ -132,9 +132,15 @@ footer{margin-top:22px;font-size:.82rem;color:var(--ink2)}footer b{display:block
 
 <script type="application/json" id="prov-data" data-src="/data/prov.json"></script>
 <script type="application/json" id="lluvia-data" data-src="/data/lluvia.json"></script>
+<script type="application/json" id="obras-data" data-src="/data/obras.json"></script>
 <script type="text/plain" id="main-js">
 (function(){
 var P=JSON.parse(document.getElementById('prov-data').textContent);
+var OB=null;try{OB=JSON.parse(document.getElementById('obras-data').textContent);}catch(e){}
+function nrmL(s){return String(s||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').trim();}
+function obrasLoc(loc){var L=((OB&&OB.obras)||[]).filter(function(o){if(o.estado!=='terminada'||!o.efecto||!o.efecto.capacidad_pct)return false;if(o.vence_iso&&new Date(o.vence_iso)<new Date())return false;
+  return (o.ambito==='provincia'&&(o.localidades||[]).some(function(x){return nrmL(x)===nrmL(loc.n);}))||(o.ambito==='capital'&&o.toda_la_ciudad===true&&loc.n==='Corrientes Capital');});
+  return {L:L,m:Math.min(1.5,L.reduce(function(s,o){return s*(1+o.efecto.capacidad_pct/100);},1))};}
 var L=null;try{L=JSON.parse(document.getElementById('lluvia-data').textContent);}catch(e){}
 var $=function(i){return document.getElementById(i);};
 function nf(x,d){return (+x).toLocaleString('es-AR',{minimumFractionDigits:d||0,maximumFractionDigits:d||0});}
@@ -170,8 +176,8 @@ function datos(){
   var H=o.H!=null?o.H:(loc.altura!=null?loc.altura:null), cp=o.cp!=null?o.cp:cap0(loc);
   return {loc:loc,pr:pr,est:est,real24:real24,ult:ult,mm:mm,hs:hs,H:H,cp:cp,origen:origen,pmm:pmm};
 }
-function calc(x){var f=factor(x.loc,x.H), cap=x.cp*C0*f, I=x.mm/x.hs, C=Math.min(0.9,C0+0.02*Math.max(0,x.hs-1));
-  var exc=Math.max(0,C*I-cap), cm=exc*x.hs/10; return {f:f,cap:cap,I:I,C:C,cm:cm};}
+function calc(x){var f=factor(x.loc,x.H), ob=obrasLoc(x.loc), cap=x.cp*ob.m*C0*f, I=x.mm/x.hs, C=Math.min(0.9,C0+0.02*Math.max(0,x.hs-1));
+  var exc=Math.max(0,C*I-cap), cm=exc*x.hs/10; return {f:f,cap:cap,I:I,C:C,cm:cm,ob:ob};}
 function nivel(cm){return cm>=15?3:cm>=5?2:cm>=1?1:0;}
 var TIT=['Sin anegamiento previsto','Agua en las calles','Calles anegadas','El agua puede entrar a las casas bajas'];
 
@@ -209,6 +215,7 @@ function render(){
   var vf='';
   if(x.loc.rio&&r.f<1) vf='El río '+x.loc.rio+' en '+nf(x.H,2)+' m reduce la salida de los desagües costeros (efecto tapón).';
   if(false) vf+=(vf?' ':'')+'Para esta localidad no hay pronóstico cargado: puede ingresar los milímetros esperados en "Ajustar la estimación".';
+  if(r.ob&&r.ob.L.length)vf+=(vf?' ':'')+'<b>Incluye obras terminadas:</b> '+r.ob.L.map(function(o){return esc(o.nombre)+' (+'+o.efecto.capacidad_pct+' % de desagüe, supuesto)';}).join('; ')+'.';
   $('vf').innerHTML=vf;
   $('kReal').textContent=x.real24!=null?nf(x.real24,1)+' mm':(x.est?'Desactualizado':(L&&L.estaciones&&L.estaciones.length?'Sin estación':'Aún no cargado'));
   $('kRealS').textContent=x.est?(lluviaVieja?'El registro tiene más de 4 horas':(esc(x.est.estacion||'')+', último: '+esc(x.est.ultimo||''))):(L&&L.estaciones&&L.estaciones.length?'Esta localidad no tiene estación telemétrica en el SNIH':'La carga horaria desde el SNIH todavía no comenzó');

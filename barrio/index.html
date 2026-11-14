@@ -269,6 +269,7 @@ footer b{display:block;color:var(--ink)}
 
 <script type="application/json" id="obs" data-src="/data/obs.json"></script>
 <script type="application/json" id="data" data-src="/data/barrio.json"></script>
+<script type="application/json" id="obras-data" data-src="/data/obras.json"></script>
 <script type="text/plain" id="main-js">
 (function(){
 
@@ -284,6 +285,12 @@ var ALOTRAS=0;(function(){var A=D.alertas||{},n={};function nr(s){return String(
   Object.keys(A).forEach(function(k){var a=A[k],z=nr((a.zonas||'')+' '+(a.texto||''));var ok=a.incluye_capital===true?true:a.incluye_capital===false?false:(/no incluye a la capital|no alcanza a la capital|no se confirmo que alcance a la capital|sin confirmar para la capital/.test(z)?false:/capital|provincia de corrientes|toda la provincia|para corrientes/.test(z));
     if(ok)n[k]=a;else ALOTRAS++;});D.alertas=n;})();
 var OBS=null;try{OBS=JSON.parse(document.getElementById('obs').textContent);}catch(e){}
+var OB=null;try{OB=JSON.parse(document.getElementById('obras-data').textContent);}catch(e){}
+function nrm(s){return String(s||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').trim();}
+/* obras terminadas que mejoran el desagüe del barrio o de su sector (bitácora en /data/obras.json) */
+function obrasDe(b){var L=((OB&&OB.obras)||[]).filter(function(o){if(o.estado!=='terminada'||o.ambito!=='capital'||!o.efecto||!o.efecto.capacidad_pct)return false;if(o.vence_iso&&new Date(o.vence_iso)<new Date())return false;
+  return (o.toda_la_ciudad===true)||(o.barrios||[]).some(function(x){return nrm(x)===nrm(b[0]);})||(o.sectores||[]).indexOf(b[1])>=0;});
+  var m=L.reduce(function(s,o){return s*(1+o.efecto.capacidad_pct/100);},1);return {L:L,m:Math.min(1.5,m)};}
 /* menos de 0,5 mm en la última hora no se considera lluvia en curso */
 if(OBS&&OBS.estado&&OBS.estado!=='seca'&&(+OBS.mm||0)<0.5){OBS.estado='seca';}
 /* aviso de datos desactualizados (más de 12 horas) */
@@ -399,7 +406,7 @@ function simular(){
   var b=BARRIOS[+$('barrio').value], sec=b[1];
   var f=(sec==='SUR')?fsur(state.H):factor(state.H), TT=state.tierra, CI=TT?0.60:C0, CS=TT?0.04:0.02, KT=TT?0.35:1;
   var rf=state.rf&&sec==='RIB'&&state.H>=AHOGADO;
-  var capR=rf?0:CAPD*C0*f*KT, back=rf?CAPD*C0*0.05:0;
+  var OBx=obrasDe(b), capR=rf?0:CAPD*OBx.m*C0*f*KT, back=rf?CAPD*C0*0.05:0;
   var r0=lluviaDia(K0), r1=lluviaDia(K1), all=r0.concat(r1);
   var S=0,rh=0,Ss=[],Cs=[],C0d=CI;
   for(var h=0;h<48;h++){var r=all[h];if(r>0.05)rh++;var C=Math.min(0.9,CI+CS*Math.max(0,rh-1));S=Math.max(0,S+C*r+(r>0.05?back:0)-capR);Ss.push(S);Cs.push(C);}
@@ -410,7 +417,7 @@ function simular(){
     var first=-1,last=-1;for(var k=desde;k<24;k++){if(r[k]>=0.3){if(first<0)first=k;last=k;}}
     return {S:mx,cm:mx/10,at:at,pk:pk,ph:ph,C:cm,tot:tot,totD:totD,first:first,last:last,r:r,desde:desde};
   }
-  return {b:b,sec:sec,capR:capR,f:f,KT:KT,rf:rf,back:back,d:[dia(0,stale?0:HNOW),dia(1,0)]};
+  return {ob:OBx,b:b,sec:sec,capR:capR,f:f,KT:KT,rf:rf,back:back,d:[dia(0,stale?0:HNOW),dia(1,0)]};
 }
 function TH(){return state.tierra?[1,4,10]:[1,5,15];}
 function nivel(cm){var u=TH();return cm>=u[2]?3:cm>=u[1]?2:cm>=u[0]?1:0;}
@@ -559,6 +566,7 @@ function render(){
   }
   if(R.sec==='SUR'&&state.H>UMBRAL) vf+=(vf?' ':'')+'Zona sur: el Paraná la afecta en forma indirecta, por remanso del Riachuelo. Se aplica la mitad del efecto tapón como supuesto, porque el Riachuelo no tiene cota de alerta publicada.';
   if(R.rf&&d.tot>=0.3) vf+=' Incluye la hipótesis de reflujo: sin salida al río y con ingreso de agua por los conductos mientras llueve.';
+  if(R.ob&&R.ob.L.length)vf+=' <b>Incluye obras terminadas:</b> '+R.ob.L.map(function(o){return String(o.nombre).replace(/[&<>"]/g,'')+' (+'+o.efecto.capacidad_pct+' % de desagüe, supuesto)';}).join('; ')+'.';
   $('vd').innerHTML=vd; $('vf').innerHTML=vf;
 
   barras(d,i);

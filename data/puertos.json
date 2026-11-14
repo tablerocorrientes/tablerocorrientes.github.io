@@ -480,28 +480,32 @@
    "fecha": "27/10/2026",
    "organismo": "Prefectura Naval Argentina y Defensa Civil de Corrientes (difundido por La Nación)",
    "texto": "Río en 7,74 m. Más de 150 familias autoevacuadas y cuatro evacuadas por el municipio; cerca del 40 % del pueblo inundado, con los barrios Don Julián, La Isla y Pescadores, la zona de La Rioja y 8 de Diciembre y la zona sur por el desborde del arroyo Guajó.",
-   "enlace": "https://www.lanacion.com.ar/sociedad/pueblo-sitiado-ya-son-mas-de-150-las-familias-evacuadas-en-paso-de-la-patria-y-anticipan-una-nueva-nid27102026/"
+   "enlace": "https://www.lanacion.com.ar/sociedad/pueblo-sitiado-ya-son-mas-de-150-las-familias-evacuadas-en-paso-de-la-patria-y-anticipan-una-nueva-nid27102026/",
+   "causa": "río"
   },
   {
    "puerto": "Itatí",
    "fecha": "18/10/2026",
    "organismo": "Defensa Civil de Corrientes (relevamiento difundido por medios)",
    "texto": "192 evacuados y 18 autoevacuados, de 43 familias, alojados en la Casa Promesero, el hospedaje Taba Cué y viviendas de familiares.",
-   "enlace": "https://examedia.com.ar/portada/post/88073711"
+   "enlace": "https://examedia.com.ar/portada/post/88073711",
+   "causa": "río"
   },
   {
    "puerto": "Itatí",
    "fecha": "15/10/2026",
    "organismo": "Gobierno de Corrientes",
    "texto": "El Gobernador recorrió la costa ribereña de Itatí junto al Intendente y anunció espacios de resguardo para las familias que sean evacuadas.",
-   "enlace": "https://www.corrientes.gob.ar/"
+   "enlace": "https://www.corrientes.gob.ar/",
+   "causa": "río"
   },
   {
    "puerto": "Corrientes",
    "fecha": "18/10/2026",
    "organismo": "Municipalidad de Corrientes, Subsecretaría de Gestión de Riesgos y Catástrofes (declaraciones difundidas por medios)",
    "texto": "Unas 90 familias, cerca de 300 personas, autoevacuadas en distintos barrios ribereños de las zonas norte y sur de la ciudad.",
-   "enlace": "https://examedia.com.ar/portada/post/88073240"
+   "enlace": "https://examedia.com.ar/portada/post/88073240",
+   "causa": "río"
   }
  ],
  "zonas_antecedentes": [
@@ -511,7 +515,8 @@
    "altura": "cerca de 7,00 m",
    "organismo": "Municipalidad de Corrientes",
    "texto": "Zona norte, de Punta Taitalo al Cichero. Zona sur, de Caridi al río Paraná y La Tosquera. El Centro, dentro de las cuatro avenidas, con retraso en el desagüe. Parque Camba Cuá. Los tres principales desagües que descargan en el Paraná (avenida 3 de Abril, arroyo Salamanca y arroyo Poncho Verde) estaban ahogados por la creciente.",
-   "enlace": "https://ciudaddecorrientes.gov.ar/content/ru-z-por-la-creciente-del-r-o-el-desagote-de-las-lluvias-va-ser-m-s-lento"
+   "enlace": "https://ciudaddecorrientes.gov.ar/content/ru-z-por-la-creciente-del-r-o-el-desagote-de-las-lluvias-va-ser-m-s-lento",
+   "causa": "río"
   },
   {
    "puerto": "Corrientes",
@@ -519,7 +524,8 @@
    "altura": "6,78 m",
    "organismo": "Municipalidad de Corrientes",
    "texto": "Quinta Ferré, Itatí, Cichero, Santa Marta y Punta Taitalo recibieron asistencia de las delegaciones municipales. Hubo familias evacuadas atendidas en el CIC del barrio Anahí y en el Dispositivo Territorial Comunitario del barrio Independencia. Zonas de descarga pluvial señaladas: Canal 5, Poncho Verde, arroyo Salamanca y Limita.",
-   "enlace": "https://ciudaddecorrientes.gov.ar/content/la-municipalidad-recorri-la-costa-del-r-o-mientras-contin-la-asistencia-los-afectados"
+   "enlace": "https://ciudaddecorrientes.gov.ar/content/la-municipalidad-recorri-la-costa-del-r-o-mientras-contin-la-asistencia-los-afectados",
+   "causa": "río"
   },
   {
    "puerto": "Corrientes",
@@ -527,7 +533,8 @@
    "altura": "no informada",
    "organismo": "Municipalidad de Corrientes",
    "texto": "Seminario, Itatí, Plácido Martínez, Anahí y Quinta Ferré: asistencia a vecinos de la zona costera y obras para abrir desagües.",
-   "enlace": "https://ciudaddecorrientes.gov.ar/content/junto-naci-n-y-provincia-se-asiste-vecinos-de-zonas-ribere"
+   "enlace": "https://ciudaddecorrientes.gov.ar/content/junto-naci-n-y-provincia-se-asiste-vecinos-de-zonas-ribere",
+   "causa": "río"
   }
  ],
  "telefonos": [

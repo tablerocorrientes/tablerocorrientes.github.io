@@ -1,0 +1,21 @@
+{
+ "actualizado": "14/11/2026, 02:45 h",
+ "criterio": "Solo se cargan obras TERMINADAS e inauguradas, confirmadas por una fuente oficial o por dos medios distintos. El efecto sobre la capacidad de desagüe usa valores de referencia conservadores por tipo de obra y siempre se informa como supuesto.",
+ "valores_referencia": {
+  "desagüe pluvial nuevo o ampliación de conducto": 15,
+  "estación de bombeo": 20,
+  "reservorio o laguna de retardo": 10,
+  "canal a cielo abierto nuevo o ampliado": 10,
+  "limpieza o desobstrucción de desagües y canales (vence a los 90 días)": 5,
+  "defensa costera o terraplén": 0,
+  "pavimento con cordón cuneta": 0
+ },
+ "obras": [],
+ "bitacora": [
+  {
+   "fecha": "14/11/2026, 02:45 h",
+   "accion": "inicio",
+   "detalle": "Se crea el registro de obras terminadas y anegamientos. Las simulaciones toman de aquí los ajustes de capacidad de desagüe."
+  }
+ ]
+}
