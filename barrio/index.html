@@ -603,7 +603,7 @@ function render(){
   barras(d,i);
   var tl=d.r.reduce(function(s,x){return s+x;},0);
   var regHoy=(i===0&&OBS&&OBS.dia===K0&&OBS.registros)?Object.keys(OBS.registros).length:0, frs=obsActiva();
-  var origen=i===1?' Mañana: estimado por pronóstico.':(regHoy?' Horas pasadas: registro de la estación ICAA (SNIH). '+(frs?'Próximas horas: pronóstico.':'El registro no está actualizado: desde la última hora con dato, se estima por pronóstico.'):' Sin registro de la estación: todo el día se estima por pronóstico.');
+  var origen=i===1?' Mañana: estimado por pronóstico.':(regHoy?' Horas pasadas: lluvia medida (mayor valor de cada hora entre las estaciones ICAA y Corrientes 13805 del SNIH). '+(frs?'Próximas horas: pronóstico.':'El registro no está actualizado: desde la última hora con dato, se estima por pronóstico.'):' Sin registro de la estación: todo el día se estima por pronóstico.');
   (function(){var cp=(D.comparacion||{})[i?K1:K0],h='';
     if(cp){var ms=(cp.modelos||[]).filter(function(x){return x.mm!=null;}),vals=ms.map(function(x){return +x.mm;}),mn=Math.min.apply(null,vals),mx=Math.max.apply(null,vals);
       h+='<b>1. Servicio Meteorológico Nacional (oficial):</b> '+(cp.smn&&cp.smn.texto?cp.smn.texto:'sin pronóstico específico cargado')+(cp.smn&&cp.smn.mm?' Acumulado previsto: '+cp.smn.mm[0]+' a '+cp.smn.mm[1]+' mm.':'')+'<br>';
