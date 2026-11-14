@@ -15,7 +15,7 @@ Las páginas son fijas y leen estos archivos. Cada tarea de actualización escri
 | Archivo | Contenido | Lo actualizan |
 |---|---|---|
 | `puertos.json` | Ríos, partes, prensa, pasos, rutas, efecto tapón | Tareas A y B |
-| `hist.json` | Histórico validado de alturas (repositorio de Drive) | Tareas A y B |
+| `hist.json` | Histórico de alturas (base validada hasta el 09/11/2026, luego lecturas oficiales registradas por las tareas) | Tareas A y B |
 | `evac.json` | Evacuados, centros, historial | Tareas A y B |
 | `barrio.json` | Pronóstico horario, alertas y río del simulador por barrio | Tareas A, B y D |
 | `prov.json` | Localidades, pronóstico y alertas del simulador provincial | Tareas A, B y D |

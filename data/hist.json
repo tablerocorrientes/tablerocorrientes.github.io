@@ -1,21 +1,21 @@
 {
  "repositorio": "Google Drive, carpeta Tablero_Ciudadano_Hidrologico",
  "manifiesto": {
-  "id": "1DJYutnTXdxRVwpZ5Xpcix9OsaXaXksby",
-  "nombre": "manifiesto_hidrologico_20261103_145314.json",
-  "corrida": "20261103_145314",
-  "fecha_validacion": "03/11/2026, 14:54 h",
+  "id": "16fXJXTkGYeXqfHs6A9byrvE_YVd7-eE-",
+  "nombre": "manifiesto_hidrologico_20261113_103404.json",
+  "corrida": "20261113_103404",
+  "fecha_validacion": "13/11/2026, 10:35 h",
   "sha256": "6 de 6 coinciden"
  },
- "actualizado": "03/11/2026, 19:55 h",
+ "actualizado": "13/11/2026, 18:50 h",
  "series": [
   {
    "rio": "Paraná",
    "puerto": "Ituzaingó",
    "alerta": 3.5,
-   "evacuacion": 4.0,
-   "fuente": "Prefectura Naval Argentina vía INA-SIyAH",
-   "url": "https://alerta.ina.gov.ar/",
+   "evacuacion": 4,
+   "fuente": "CIM/UNL (PNA); Prefectura Naval Argentina vía INA-SIyAH",
+   "url": "https://cim.fich.unl.edu.ar/rios/parana/alturas",
    "lecturas": [
     [
      "2026-11-01T00:00:00",
@@ -26,16 +26,61 @@
      "2026-11-03",
      3.73,
      "pendiente"
+    ],
+    [
+     "2026-11-04",
+     3.74,
+     "pendiente"
+    ],
+    [
+     "2026-11-05",
+     3.75,
+     "pendiente"
+    ],
+    [
+     "2026-11-06",
+     3.7,
+     "pendiente"
+    ],
+    [
+     "2026-11-07",
+     3.65,
+     "pendiente"
+    ],
+    [
+     "2026-11-09",
+     3.56,
+     "pendiente"
+    ],
+    [
+     "2026-11-10",
+     3.52,
+     "pendiente"
+    ],
+    [
+     "2026-11-11",
+     3.46,
+     "pendiente"
+    ],
+    [
+     "2026-11-12",
+     3.45,
+     "pendiente"
+    ],
+    [
+     "2026-11-13",
+     3.25,
+     "pendiente"
     ]
    ]
   },
   {
    "rio": "Paraná",
    "puerto": "Itá Ibaté",
-   "alerta": 7.0,
+   "alerta": 7,
    "evacuacion": 7.5,
-   "fuente": "Prefectura Naval Argentina vía INA-SIyAH",
-   "url": "https://alerta.ina.gov.ar/",
+   "fuente": "CIM/UNL (PNA); Prefectura Naval Argentina vía INA-SIyAH",
+   "url": "https://cim.fich.unl.edu.ar/rios/parana/alturas",
    "lecturas": [
     [
      "2026-11-01T00:00:00",
@@ -46,6 +91,51 @@
      "2026-11-03",
      6.0,
      "pendiente"
+    ],
+    [
+     "2026-11-04",
+     5.98,
+     "pendiente"
+    ],
+    [
+     "2026-11-05",
+     6.02,
+     "pendiente"
+    ],
+    [
+     "2026-11-06",
+     6.0,
+     "pendiente"
+    ],
+    [
+     "2026-11-07",
+     6.0,
+     "pendiente"
+    ],
+    [
+     "2026-11-09",
+     5.88,
+     "pendiente"
+    ],
+    [
+     "2026-11-10",
+     5.78,
+     "pendiente"
+    ],
+    [
+     "2026-11-11",
+     5.68,
+     "pendiente"
+    ],
+    [
+     "2026-11-12",
+     5.62,
+     "pendiente"
+    ],
+    [
+     "2026-11-13",
+     5.62,
+     "pendiente"
     ]
    ]
   },
@@ -54,8 +144,8 @@
    "puerto": "Itatí",
    "alerta": 6.8,
    "evacuacion": 7.5,
-   "fuente": "CIM/UNL",
-   "url": "https://cim.fich.unl.edu.ar/rios/22/historico",
+   "fuente": "CIM/UNL; CIM/UNL (PNA); Prefectura Naval Argentina vía INA-SIyAH",
+   "url": "https://cim.fich.unl.edu.ar/rios/parana/alturas",
    "lecturas": [
     [
      "2026-10-01T01:20:00",
@@ -221,6 +311,51 @@
      "2026-11-03",
      7.55,
      "pendiente"
+    ],
+    [
+     "2026-11-04",
+     7.48,
+     "pendiente"
+    ],
+    [
+     "2026-11-05",
+     7.44,
+     "pendiente"
+    ],
+    [
+     "2026-11-06",
+     7.45,
+     "pendiente"
+    ],
+    [
+     "2026-11-07",
+     7.42,
+     "pendiente"
+    ],
+    [
+     "2026-11-09",
+     7.42,
+     "pendiente"
+    ],
+    [
+     "2026-11-10",
+     7.38,
+     "pendiente"
+    ],
+    [
+     "2026-11-11",
+     7.32,
+     "pendiente"
+    ],
+    [
+     "2026-11-12",
+     7.16,
+     "pendiente"
+    ],
+    [
+     "2026-11-13",
+     7.06,
+     "pendiente"
     ]
    ]
   },
@@ -228,9 +363,9 @@
    "rio": "Paraná",
    "puerto": "Paso de la Patria",
    "alerta": 6.5,
-   "evacuacion": 7.0,
-   "fuente": "CIM/UNL",
-   "url": "https://cim.fich.unl.edu.ar/rios/23/historico",
+   "evacuacion": 7,
+   "fuente": "CIM/UNL; CIM/UNL (PNA); Prefectura Naval Argentina vía INA-SIyAH",
+   "url": "https://cim.fich.unl.edu.ar/rios/parana/alturas",
    "lecturas": [
     [
      "2026-10-01T01:20:00",
@@ -396,6 +531,51 @@
      "2026-11-03",
      7.3,
      "pendiente"
+    ],
+    [
+     "2026-11-04",
+     7.22,
+     "pendiente"
+    ],
+    [
+     "2026-11-05",
+     7.2,
+     "pendiente"
+    ],
+    [
+     "2026-11-06",
+     7.22,
+     "pendiente"
+    ],
+    [
+     "2026-11-07",
+     7.17,
+     "pendiente"
+    ],
+    [
+     "2026-11-09",
+     7.11,
+     "pendiente"
+    ],
+    [
+     "2026-11-10",
+     7.05,
+     "pendiente"
+    ],
+    [
+     "2026-11-11",
+     7.03,
+     "pendiente"
+    ],
+    [
+     "2026-11-12",
+     6.97,
+     "pendiente"
+    ],
+    [
+     "2026-11-13",
+     6.9,
+     "pendiente"
     ]
    ]
   },
@@ -403,9 +583,9 @@
    "rio": "Paraná",
    "puerto": "Corrientes",
    "alerta": 6.5,
-   "evacuacion": 7.0,
-   "fuente": "CIM/UNL",
-   "url": "https://cim.fich.unl.edu.ar/rios/24/historico",
+   "evacuacion": 7,
+   "fuente": "CIM/UNL; CIM/UNL (PNA); Prefectura Naval Argentina vía INA-SIyAH",
+   "url": "https://cim.fich.unl.edu.ar/rios/parana/alturas",
    "lecturas": [
     [
      "2026-10-01T01:20:00",
@@ -576,6 +756,51 @@
      "2026-11-03",
      7.08,
      "pendiente"
+    ],
+    [
+     "2026-11-04",
+     7.02,
+     "pendiente"
+    ],
+    [
+     "2026-11-05",
+     7.02,
+     "pendiente"
+    ],
+    [
+     "2026-11-06",
+     7.0,
+     "pendiente"
+    ],
+    [
+     "2026-11-07",
+     7.0,
+     "pendiente"
+    ],
+    [
+     "2026-11-09",
+     6.93,
+     "pendiente"
+    ],
+    [
+     "2026-11-10",
+     6.88,
+     "pendiente"
+    ],
+    [
+     "2026-11-11",
+     6.84,
+     "pendiente"
+    ],
+    [
+     "2026-11-12",
+     6.8,
+     "pendiente"
+    ],
+    [
+     "2026-11-13",
+     6.73,
+     "pendiente"
     ]
    ]
   },
@@ -584,8 +809,8 @@
    "puerto": "Empedrado",
    "alerta": 6.5,
    "evacuacion": 6.7,
-   "fuente": "Prefectura Naval Argentina vía INA-SIyAH",
-   "url": "https://alerta.ina.gov.ar/",
+   "fuente": "CIM/UNL (PNA); Prefectura Naval Argentina vía INA-SIyAH",
+   "url": "https://cim.fich.unl.edu.ar/rios/parana/alturas",
    "lecturas": [
     [
      "2026-11-01T00:00:00",
@@ -596,16 +821,61 @@
      "2026-11-03",
      6.09,
      "pendiente"
+    ],
+    [
+     "2026-11-04",
+     6.07,
+     "pendiente"
+    ],
+    [
+     "2026-11-05",
+     6.1,
+     "pendiente"
+    ],
+    [
+     "2026-11-06",
+     6.05,
+     "pendiente"
+    ],
+    [
+     "2026-11-07",
+     6.0,
+     "pendiente"
+    ],
+    [
+     "2026-11-09",
+     6.0,
+     "pendiente"
+    ],
+    [
+     "2026-11-10",
+     5.98,
+     "pendiente"
+    ],
+    [
+     "2026-11-11",
+     5.92,
+     "pendiente"
+    ],
+    [
+     "2026-11-12",
+     5.9,
+     "pendiente"
+    ],
+    [
+     "2026-11-13",
+     5.88,
+     "pendiente"
     ]
    ]
   },
   {
    "rio": "Paraná",
    "puerto": "Bella Vista",
-   "alerta": 6.0,
+   "alerta": 6,
    "evacuacion": 6.4,
-   "fuente": "CIM/UNL",
-   "url": "https://cim.fich.unl.edu.ar/rios/27/historico",
+   "fuente": "CIM/UNL; CIM/UNL (PNA)",
+   "url": "https://cim.fich.unl.edu.ar/rios/parana/alturas",
    "lecturas": [
     [
      "2026-10-01T01:20:00",
@@ -771,6 +1041,51 @@
      "2026-11-03",
      6.46,
      "pendiente"
+    ],
+    [
+     "2026-11-04",
+     6.44,
+     "pendiente"
+    ],
+    [
+     "2026-11-05",
+     6.44,
+     "pendiente"
+    ],
+    [
+     "2026-11-06",
+     6.44,
+     "pendiente"
+    ],
+    [
+     "2026-11-07",
+     6.41,
+     "pendiente"
+    ],
+    [
+     "2026-11-09",
+     6.34,
+     "pendiente"
+    ],
+    [
+     "2026-11-10",
+     6.34,
+     "pendiente"
+    ],
+    [
+     "2026-11-11",
+     6.31,
+     "pendiente"
+    ],
+    [
+     "2026-11-12",
+     6.3,
+     "pendiente"
+    ],
+    [
+     "2026-11-13",
+     6.27,
+     "pendiente"
     ]
    ]
   },
@@ -779,8 +1094,8 @@
    "puerto": "Goya",
    "alerta": 5.2,
    "evacuacion": 5.7,
-   "fuente": "CIM/UNL",
-   "url": "https://cim.fich.unl.edu.ar/rios/28/historico",
+   "fuente": "CIM/UNL; CIM/UNL (PNA); Prefectura Naval Argentina vía INA-SIyAH",
+   "url": "https://cim.fich.unl.edu.ar/rios/parana/alturas",
    "lecturas": [
     [
      "2026-10-01T01:20:00",
@@ -946,16 +1261,61 @@
      "2026-11-03",
      6.1,
      "pendiente"
+    ],
+    [
+     "2026-11-04",
+     6.1,
+     "pendiente"
+    ],
+    [
+     "2026-11-05",
+     6.1,
+     "pendiente"
+    ],
+    [
+     "2026-11-06",
+     6.09,
+     "pendiente"
+    ],
+    [
+     "2026-11-07",
+     6.08,
+     "pendiente"
+    ],
+    [
+     "2026-11-09",
+     6.0,
+     "pendiente"
+    ],
+    [
+     "2026-11-10",
+     5.96,
+     "pendiente"
+    ],
+    [
+     "2026-11-11",
+     5.94,
+     "pendiente"
+    ],
+    [
+     "2026-11-12",
+     5.89,
+     "pendiente"
+    ],
+    [
+     "2026-11-13",
+     5.87,
+     "pendiente"
     ]
    ]
   },
   {
    "rio": "Paraná",
    "puerto": "Esquina",
-   "alerta": 5.0,
+   "alerta": 5,
    "evacuacion": 5.4,
-   "fuente": "Prefectura Naval Argentina vía INA-SIyAH",
-   "url": "https://alerta.ina.gov.ar/",
+   "fuente": "CIM/UNL (PNA); Prefectura Naval Argentina vía INA-SIyAH",
+   "url": "https://cim.fich.unl.edu.ar/rios/parana/alturas",
    "lecturas": [
     [
      "2026-11-01T00:00:00",
@@ -966,6 +1326,51 @@
      "2026-11-03",
      5.5,
      "pendiente"
+    ],
+    [
+     "2026-11-04",
+     5.55,
+     "pendiente"
+    ],
+    [
+     "2026-11-05",
+     5.58,
+     "pendiente"
+    ],
+    [
+     "2026-11-06",
+     5.6,
+     "pendiente"
+    ],
+    [
+     "2026-11-07",
+     5.6,
+     "pendiente"
+    ],
+    [
+     "2026-11-09",
+     5.58,
+     "pendiente"
+    ],
+    [
+     "2026-11-10",
+     5.57,
+     "pendiente"
+    ],
+    [
+     "2026-11-11",
+     5.56,
+     "pendiente"
+    ],
+    [
+     "2026-11-12",
+     5.54,
+     "pendiente"
+    ],
+    [
+     "2026-11-13",
+     5.52,
+     "pendiente"
     ]
    ]
   },
@@ -974,8 +1379,8 @@
    "puerto": "Garruchos",
    "alerta": 12.0,
    "evacuacion": 14.0,
-   "fuente": "Prefectura Naval Argentina vía INA-SIyAH",
-   "url": "https://alerta.ina.gov.ar/",
+   "fuente": "CTM Salto Grande",
+   "url": "https://www.saltogrande.org/docs/hidrologia/CaudalesNiveles.pdf",
    "lecturas": [
     [
      "2026-10-29T07:00:00",
@@ -1006,6 +1411,51 @@
      "2026-11-03T07:00:00",
      4.0,
      "verificado"
+    ],
+    [
+     "2026-11-04T07:00:00",
+     3.58,
+     "verificado"
+    ],
+    [
+     "2026-11-05T07:00:00",
+     5.85,
+     "verificado"
+    ],
+    [
+     "2026-11-06T07:00:00",
+     6.7,
+     "verificado"
+    ],
+    [
+     "2026-11-07T07:00:00",
+     11.34,
+     "verificado"
+    ],
+    [
+     "2026-11-09T07:00:00",
+     11.04,
+     "verificado"
+    ],
+    [
+     "2026-11-10T07:00:00",
+     11.42,
+     "verificado"
+    ],
+    [
+     "2026-11-11T07:00:00",
+     10.82,
+     "verificado"
+    ],
+    [
+     "2026-11-12T07:00:00",
+     8.4,
+     "verificado"
+    ],
+    [
+     "2026-11-13T07:00:00",
+     6.37,
+     "verificado"
     ]
    ]
   },
@@ -1014,8 +1464,8 @@
    "puerto": "Santo Tomé",
    "alerta": 11.5,
    "evacuacion": 12.5,
-   "fuente": "INA",
-   "url": "https://alerta.ina.gob.ar/a5/diario/reporte_diario",
+   "fuente": "CTM Salto Grande",
+   "url": "https://www.saltogrande.org/docs/hidrologia/CaudalesNiveles.pdf",
    "lecturas": [
     [
      "2026-10-29T07:00:00",
@@ -1046,6 +1496,51 @@
      "2026-11-03T07:00:00",
      5.59,
      "verificado"
+    ],
+    [
+     "2026-11-04T07:00:00",
+     4.84,
+     "verificado"
+    ],
+    [
+     "2026-11-05T07:00:00",
+     6.0,
+     "verificado"
+    ],
+    [
+     "2026-11-06T07:00:00",
+     7.46,
+     "verificado"
+    ],
+    [
+     "2026-11-07T07:00:00",
+     9.5,
+     "verificado"
+    ],
+    [
+     "2026-11-09T07:00:00",
+     10.83,
+     "verificado"
+    ],
+    [
+     "2026-11-10T07:00:00",
+     10.99,
+     "verificado"
+    ],
+    [
+     "2026-11-11T07:00:00",
+     10.96,
+     "verificado"
+    ],
+    [
+     "2026-11-12T07:00:00",
+     10.1,
+     "verificado"
+    ],
+    [
+     "2026-11-13T07:00:00",
+     8.5,
+     "verificado"
     ]
    ]
   },
@@ -1054,8 +1549,8 @@
    "puerto": "Alvear",
    "alerta": 9.5,
    "evacuacion": 11.0,
-   "fuente": "Prefectura Naval Argentina vía INA-SIyAH",
-   "url": "https://alerta.ina.gov.ar/",
+   "fuente": "CTM Salto Grande",
+   "url": "https://www.saltogrande.org/docs/hidrologia/CaudalesNiveles.pdf",
    "lecturas": [
     [
      "2026-10-29T07:00:00",
@@ -1085,6 +1580,51 @@
     [
      "2026-11-03T07:00:00",
      6.79,
+     "verificado"
+    ],
+    [
+     "2026-11-04T07:00:00",
+     6.04,
+     "verificado"
+    ],
+    [
+     "2026-11-05T07:00:00",
+     5.76,
+     "verificado"
+    ],
+    [
+     "2026-11-06T07:00:00",
+     6.22,
+     "verificado"
+    ],
+    [
+     "2026-11-07T07:00:00",
+     6.95,
+     "verificado"
+    ],
+    [
+     "2026-11-09T07:00:00",
+     8.5,
+     "verificado"
+    ],
+    [
+     "2026-11-10T07:00:00",
+     8.9,
+     "verificado"
+    ],
+    [
+     "2026-11-11T07:00:00",
+     9.14,
+     "verificado"
+    ],
+    [
+     "2026-11-12T07:00:00",
+     9.26,
+     "verificado"
+    ],
+    [
+     "2026-11-13T07:00:00",
+     9.0,
      "verificado"
     ]
    ]
@@ -1124,8 +1664,8 @@
    "puerto": "Paso de los Libres",
    "alerta": 7.5,
    "evacuacion": 8.5,
-   "fuente": "INA",
-   "url": "https://alerta.ina.gob.ar/a5/diario/reporte_diario",
+   "fuente": "CTM Salto Grande",
+   "url": "https://www.saltogrande.org/docs/hidrologia/CaudalesNiveles.pdf",
    "lecturas": [
     [
      "2026-10-29T07:00:00",
@@ -1155,6 +1695,51 @@
     [
      "2026-11-03T07:00:00",
      6.53,
+     "verificado"
+    ],
+    [
+     "2026-11-04T07:00:00",
+     5.9,
+     "verificado"
+    ],
+    [
+     "2026-11-05T07:00:00",
+     5.19,
+     "verificado"
+    ],
+    [
+     "2026-11-06T07:00:00",
+     5.12,
+     "verificado"
+    ],
+    [
+     "2026-11-07T07:00:00",
+     5.65,
+     "verificado"
+    ],
+    [
+     "2026-11-09T07:00:00",
+     6.95,
+     "verificado"
+    ],
+    [
+     "2026-11-10T07:00:00",
+     7.42,
+     "verificado"
+    ],
+    [
+     "2026-11-11T07:00:00",
+     7.68,
+     "verificado"
+    ],
+    [
+     "2026-11-12T07:00:00",
+     7.86,
+     "verificado"
+    ],
+    [
+     "2026-11-13T07:00:00",
+     7.98,
      "verificado"
     ]
    ]
@@ -1241,17 +1826,19 @@
    "url": "https://ina.gob.ar/archivos/alerta/TabProno20261030.pdf"
   }
  ],
- "pron_aviso": "Perspectiva cualitativa INA 02/11; puntos numéricos INA emitidos 30/10 conservados con fecha original (pronósticos no observados); ninguna cifra proyectada inventada. Son escenarios, no lecturas.",
- "verificacion": "Validación integral de la corrida 20261103_145314 el 03/11/2026, 19:55 h: los seis archivos se descargaron por su enlace público (bytes originales) y las seis huellas SHA-256 y los seis tamaños coinciden con el manifiesto; CSV con las columnas declaradas, 174 registros del Paraná y 27 del Uruguay, sin duplicados; los cuatro JSON son válidos.",
+ "pron_aviso": "Pronósticos y puntos numéricos copiados de pronosticos_oficiales de la corrida 20261112_113100, con su fecha de emisión; son escenarios, no lecturas. Pronósticos INA previos conservados con su fecha de emisión; no se verificó emisión nueva. No confundir observaciones 04/11 con proyecciones. Pronósticos conservados sin nueva emisión verificada; no confundir con niveles CTM 06/11.",
+ "verificacion": "Validación integral de la corrida 20261113_103404 el 13/11/2026, 18:50 h: los seis archivos se descargaron por su enlace público (bytes originales) y las seis huellas SHA-256 y los seis tamaños coinciden con el manifiesto (parana_historico 65.593 bytes, 255 registros; uruguay_historico 20.022 bytes, 63 registros; estado_actual 12.513; umbrales_puertos 9.865; pronosticos_oficiales 3.746; fuentes_metadatos 8.961); CSV con las columnas declaradas y sin duplicados; JSON válidos (utf-8-sig). Se incorporaron 13 registros nuevos respecto de la carga anterior (9 del Paraná y 4 del Uruguay).",
  "observaciones": [
-  "Río Paraná: la corrida incorpora la tabla consolidada del CIM/UNL (datos de Prefectura) del 03/11/2026 para los nueve puertos, con fecha solamente y hora individual no publicada; esas lecturas figuran como 'pendiente' (hora no verificada) y nunca se interpretan como las 00:00. Las lecturas del 02/11 de la tabla diaria de Prefectura que figuraban como pendientes en la corrida anterior no están en este manifiesto y se retiraron de las series; las alturas validadas no se modificaron.",
-  "Río Uruguay: el histórico (CTM Salto Grande, 07:00 h) llega al 03/11/2026 en Alvear, Garruchos, Paso de los Libres y Santo Tomé; comienza el 29/10/2026 y no es todavía una serie completa desde el 01/10; no se completan días faltantes ni se interpola. Bonpland tiene una única lectura (30/10); La Cruz y Yapeyú, una (01/11), sin lectura posterior.",
-  "Monte Caseros: sin lecturas ni cotas verificadas en el repositorio.",
+  "Monte Caseros: sin lecturas ni cotas verificadas en el repositorio (se mantiene la lectura externa del 20/10, pendiente de consolidación, fuera de este histórico).",
   "Las lecturas de las 00:00 de Prefectura publicadas por INA-SIyAH a las 03:00 UTC corresponden a las 00:00 de Argentina: hora verificada.",
-  "Advertencia del manifiesto: el cotejo independiente con Prefectura directa quedó pendiente (la consulta directa no respondió); es una inconsistencia documental a regularizar y no altera los datos, cuyas huellas coinciden. Empedrado, Esquina, Ituzaingó e Itá Ibaté tienen solo dos lecturas.",
-  "Contraste de Corrientes: la tabla diaria del INA del 02/11 daba 7,11 m sin hora individual, frente a 7,13 m del CIM/UNL a las 06:00 h del 02/11; no se equiparan como mediciones simultáneas.",
-  "La variación informada en los CSV no se usa en los gráficos; las alturas no se modificaron.",
-  "Vigilancia meteorológica: la revisión del 03/11, 19:32 h (NO_DETERMINADO, normalizada a NO_VERIFICADO) no pudo validar el XML CAP del SMN; el COE lista su página sin alertas vigentes propias; no se muestran avisos ni imágenes como verificados. No se infiere dirección ni llegada de tormentas.",
-  "Pronósticos del INA: los valores numéricos fueron emitidos el 30/10/2026 y se conservan con su fecha original; son escenarios, no lecturas."
+  "Río Paraná: las tablas diarias del CIM/UNL (datos de Prefectura) del 03/11 al 12/11 tienen fecha solamente y hora individual no publicada; figuran como 'pendiente' (hora no verificada) y nunca se interpretan como las 00:00. No hay lectura del 08/11 en el repositorio para los puertos del Paraná; no se completa ni se interpola.",
+  "Empedrado, Esquina, Ituzaingó e Itá Ibaté tienen pocas lecturas (10 cada uno), todas de fecha solamente salvo la del 01/11 a las 00:00 h.",
+  "Río Uruguay: el histórico (CTM Salto Grande, 07:00 h) llega al 12/11/2026 en Garruchos, Santo Tomé, Alvear y Paso de los Libres; comienza el 29/10/2026 y no es todavía una serie completa desde el 01/10; no se completan días faltantes ni se interpola. Bonpland tiene una única lectura (30/10); La Cruz y Yapeyú, una (01/11), sin lectura posterior (el manifiesto las declara pendientes de Prefectura).",
+  "Variación informada en el CSV que no coincide con la diferencia entre lecturas consecutivas (no se usa en los gráficos ni se corrigieron las alturas): Ituzaingó 2026-11-03: CSV -3 cm frente a -12 cm; Itá Ibaté 2026-11-03: CSV -6 cm frente a -10 cm; Itatí 2026-11-03: CSV -2 cm frente a -8 cm; Paso de la Patria 2026-11-03: CSV -6 cm frente a -8 cm; Empedrado 2026-11-03: CSV -6 cm frente a -11 cm; Goya 2026-11-01T00:00:00: CSV 12 cm frente a 14 cm; Goya 2026-11-03: CSV 1 cm frente a 3 cm; Esquina 2026-11-03: CSV 8 cm frente a 14 cm.",
+  "Garruchos: la serie consolidada pasa de 6,70 m (06/11) a 11,34 m (07/11), 11,04 m (09/11) y 11,42 m (10/11); no tiene lectura del 08/11 (la lectura directa de CTM del 08/11, 11,85 m, figura solo en el histórico propio). Saltos a confirmar con Prefectura; no se modificaron las alturas.",
+  "Advertencias del manifiesto 20261112_113100: Paraná con fecha solamente (12/11); Uruguay CTM 12/11, 07:00 h; Bonpland, La Cruz y Yapeyú pendientes de lectura de Prefectura. Es una inconsistencia documental a regularizar y no altera los datos, cuyas huellas coinciden.",
+  "Garruchos: la serie consolidada baja de 10,82 m (11/11) a 8,40 m (12/11), 2,42 m en un día, en coincidencia con el PDF de CTM del 12/11 (caudal de 12.969 a 8.915 m³/s); se conserva sin modificar.",
+  "Este histórico llega al 12/11/2026 (Paraná, fecha solamente; Uruguay, 07:00 h) y no se mezcla con el histórico propio ni con las lecturas externas.",
+  "Corrida 20261113_103404: tabla del CIM/UNL del 13/11 con fecha solamente, hora individual no publicada (lecturas del Paraná marcadas pendientes, nunca interpretadas como 00:00). CTM Salto Grande 13/11, 07:00 h para el Uruguay. Pendientes en la corrida: lecturas recientes de Bonpland, La Cruz y Yapeyú (Prefectura vía INA-SIyAH). Inconsistencia documental a regularizar, no alteración de los datos."
  ]
 }

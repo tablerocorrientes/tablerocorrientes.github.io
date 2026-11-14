@@ -1,9 +1,9 @@
 {
- "actualizado": "03/11/2026, 07:11 h",
+ "actualizado": "09/11/2026, 18:49 h",
  "total": {
-  "fecha": "02/11/2026",
-  "texto": "1.687 evacuados y autoevacuados en la provincia (409 evacuados y 1.278 autoevacuados), según Defensa Civil",
-  "valor": 1687
+  "fecha": "06/11/2026",
+  "texto": "1.967 evacuados y autoevacuados en la provincia (444 evacuados y 1.523 autoevacuados), según Defensa Civil",
+  "valor": 1967
  },
  "serie": [
   {
@@ -42,9 +42,13 @@
   {
    "f": "02/11",
    "v": 1687
+  },
+  {
+   "f": "06/11",
+   "v": 1967
   }
  ],
- "fuente": "Defensa Civil de Corrientes y COE provincial, difundidos por El Litoral, Infobae y El Tribuno; relevamiento del 25/10 difundido por Noticias de la Calle Cifra del 28/10 de Defensa Civil (Bruno Lovinson, a Radio Dos, difundida por Infobae). Verificación del 28/10/2026, 18:45 h: la nota no detalla localidades, por lo que no se agregan registros al historial; se conservan los centros informados. Verificación del 29/10/2026, 07:15 h: no se halló un informe nuevo de Defensa Civil ni del COE; rige la cifra del 28/10 (total sin cambios) y se conservan los registros y los centros informados. Verificación del 29/10/2026, 18:45 h: no se halló un informe nuevo de Defensa Civil ni del COE; rige la cifra del 28/10 (total sin cambios) y se conservan los registros y los centros informados. Verificación del 30/10/2026, 07:15 h: Examedia (Diario Época, 30/10) reitera 440 evacuados y más de 1.000 autoevacuados, sin detalle por localidad ni cifra total nueva; rige la cifra del 28/10 (total sin cambios) y se conservan los registros y los centros informados. Verificación del 01/11/2026, 07:06 h: no se halló un informe nuevo de Defensa Civil ni del COE; rige la cifra del 28/10 (total sin cambios). TN24 y Examedia (01/11) informan más de 1.600 personas evacuadas y autoevacuadas en la provincia, sin atribuir la cifra a un informe de Defensa Civil ni detallar localidades, por lo que no se carga como total ni se agregan registros. Se conservan los centros informados. Verificación del 02/11/2026, 07:05 h: no se halló un informe nuevo de Defensa Civil ni del COE; rige la cifra del 28/10 (total sin cambios). Se repite la cifra de más de 1.600 personas (TN24, El Litoral, 31/10 y 01/11) sin atribución a un informe de Defensa Civil ni detalle por localidades, por lo que no se carga como total ni se agregan registros. Sin cambios en los centros informados. Verificación del 02/11/2026, 18:52 h: Defensa Civil (El Monterizo e Infobae, 02/11) informa 1.687 personas (409 evacuadas y 1.278 autoevacuadas) y el detalle por localidad; se cargan los registros con desglose de evacuados y autoevacuados (Paso de la Patria, Itatí, Goya, Yahapé, isla Apipé, Paso de los Libres y Santa Lucía). No se cargan como registros la Capital (672 afectados), Ituzaingó (17), Bella Vista (19) y Cruz de los Milagros (24), porque la fuente no separa evacuados de autoevacuados. Centros: se actualizan las personas evacuadas de Itatí (190) y Paso de la Patria (8); sin novedades sobre otros centros. Verificación del 03/11/2026, 07:11 h: no se halló un informe nuevo de Defensa Civil ni del COE; rige el parte difundido el 02/11 (1.687 personas: 409 evacuadas y 1.278 autoevacuadas). Examedia (03/11) menciona a los evacuados sin cifras. Sin cambios en los centros informados.",
+ "fuente": "Defensa Civil de Corrientes, partes difundidos por El Litoral, EsChaco, El Monterizo e Infobae. Último parte: 06/11/2026 (1.967 personas: 444 evacuadas y 1.523 autoevacuadas; por localidad suman 442 evacuados). Verificación del 08/11/2026, 18:52 h: sin parte posterior hallado; no se hallaron cambios en los centros de evacuados. Verificación del 11/11/2026, 18:56 h: sin parte posterior hallado; no se hallaron cambios en los centros de evacuados.",
  "historial": [
   {
    "f": "16/10/2026",
@@ -325,6 +329,94 @@
    "auto": 21,
    "fuente": "Defensa Civil de Corrientes (El Monterizo, 02/11)",
    "u": "https://elmonterizo.com/el-parana-bajo-pero-en-corrientes-hay-220-personas-mas-fuera-de-sus-casas"
+  },
+  {
+   "f": "06/11/2026",
+   "n": "Capital",
+   "evac": 42,
+   "auto": 633,
+   "fuente": "Defensa Civil de Corrientes (relevamiento del 6/11 difundido por El Litoral y EsChaco)",
+   "u": "https://www.eschaco.com/vernota.asp?id_noticia=133997"
+  },
+  {
+   "f": "06/11/2026",
+   "n": "Isla Apipé",
+   "evac": 185,
+   "auto": 0,
+   "fuente": "Defensa Civil de Corrientes (relevamiento del 6/11 difundido por El Litoral y EsChaco)",
+   "u": "https://www.eschaco.com/vernota.asp?id_noticia=133997"
+  },
+  {
+   "f": "06/11/2026",
+   "n": "Itatí",
+   "evac": 190,
+   "auto": 328,
+   "fuente": "Defensa Civil de Corrientes (relevamiento del 6/11 difundido por El Litoral y EsChaco)",
+   "u": "https://www.eschaco.com/vernota.asp?id_noticia=133997"
+  },
+  {
+   "f": "06/11/2026",
+   "n": "Paso de la Patria",
+   "evac": 8,
+   "auto": 220,
+   "fuente": "Defensa Civil de Corrientes (relevamiento del 6/11 difundido por El Litoral y EsChaco)",
+   "u": "https://www.eschaco.com/vernota.asp?id_noticia=133997"
+  },
+  {
+   "f": "06/11/2026",
+   "n": "Ituzaingó",
+   "evac": 17,
+   "auto": 0,
+   "fuente": "Defensa Civil de Corrientes (relevamiento del 6/11 difundido por El Litoral y EsChaco)",
+   "u": "https://www.eschaco.com/vernota.asp?id_noticia=133997"
+  },
+  {
+   "f": "06/11/2026",
+   "n": "Santa Lucía",
+   "evac": 0,
+   "auto": 21,
+   "fuente": "Defensa Civil de Corrientes (relevamiento del 6/11 difundido por El Litoral y EsChaco)",
+   "u": "https://www.eschaco.com/vernota.asp?id_noticia=133997"
+  },
+  {
+   "f": "06/11/2026",
+   "n": "Cruz de los Milagros",
+   "evac": 0,
+   "auto": 40,
+   "fuente": "Defensa Civil de Corrientes (relevamiento del 6/11 difundido por El Litoral y EsChaco)",
+   "u": "https://www.eschaco.com/vernota.asp?id_noticia=133997"
+  },
+  {
+   "f": "06/11/2026",
+   "n": "Bella Vista",
+   "evac": 0,
+   "auto": 16,
+   "fuente": "Defensa Civil de Corrientes (relevamiento del 6/11 difundido por El Litoral y EsChaco)",
+   "u": "https://www.eschaco.com/vernota.asp?id_noticia=133997"
+  },
+  {
+   "f": "06/11/2026",
+   "n": "Goya (zona del puerto)",
+   "evac": 0,
+   "auto": 157,
+   "fuente": "Defensa Civil de Corrientes (relevamiento del 6/11 difundido por El Litoral y EsChaco)",
+   "u": "https://www.eschaco.com/vernota.asp?id_noticia=133997"
+  },
+  {
+   "f": "06/11/2026",
+   "n": "San Isidro",
+   "evac": 0,
+   "auto": 50,
+   "fuente": "Defensa Civil de Corrientes (relevamiento del 6/11 difundido por El Litoral y EsChaco)",
+   "u": "https://www.eschaco.com/vernota.asp?id_noticia=133997"
+  },
+  {
+   "f": "06/11/2026",
+   "n": "Esquina",
+   "evac": 0,
+   "auto": 58,
+   "fuente": "Defensa Civil de Corrientes (relevamiento del 6/11 difundido por El Litoral y EsChaco)",
+   "u": "https://www.eschaco.com/vernota.asp?id_noticia=133997"
   }
  ],
  "centros": [
@@ -342,27 +434,27 @@
    "centro": "Escuela Secundaria",
    "personas": 8,
    "estado": "habilitado",
-   "f": "02/11/2026",
-   "fuente": "Defensa Civil de Corrientes (El Monterizo, 02/11)",
-   "u": "https://elmonterizo.com/el-parana-bajo-pero-en-corrientes-hay-220-personas-mas-fuera-de-sus-casas"
+   "f": "06/11/2026",
+   "fuente": "Defensa Civil de Corrientes (relevamiento del 6/11 difundido por El Litoral y EsChaco)",
+   "u": "https://www.eschaco.com/vernota.asp?id_noticia=133997"
   },
   {
    "n": "Itatí",
    "centro": "Casa del Promesero y hospedaje Taba Cué; se prepara un nuevo refugio",
    "personas": 190,
    "estado": "habilitado",
-   "f": "02/11/2026",
-   "fuente": "Defensa Civil de Corrientes (El Monterizo, 02/11)",
-   "u": "https://elmonterizo.com/el-parana-bajo-pero-en-corrientes-hay-220-personas-mas-fuera-de-sus-casas"
+   "f": "06/11/2026",
+   "fuente": "Defensa Civil de Corrientes (relevamiento del 6/11 difundido por El Litoral y EsChaco)",
+   "u": "https://www.eschaco.com/vernota.asp?id_noticia=133997"
   },
   {
    "n": "Ituzaingó",
    "centro": "Salón de usos múltiples y albergue del Club San Martín, además de viviendas de familiares",
-   "personas": 19,
+   "personas": 17,
    "estado": "habilitado",
-   "f": "19/10/2026",
-   "fuente": "Defensa Civil de Corrientes (Primera Edición)",
-   "u": "https://www.primeraedicion.com.ar/nota/101152475/corrientes-bajo-agua-localidades-en-alerta-y-mas-de-750-evacuados/"
+   "f": "06/11/2026",
+   "fuente": "Defensa Civil de Corrientes (relevamiento del 6/11 difundido por El Litoral y EsChaco)",
+   "u": "https://www.eschaco.com/vernota.asp?id_noticia=133997"
   },
   {
    "n": "Paso de la Patria",

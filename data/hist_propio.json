@@ -1,0 +1,432 @@
+{
+ "descripcion": "Histórico propio de Claude: lecturas oficiales consultadas directamente por las tareas A y B (Prefectura Naval Argentina, CIM/UNL, INA, CTM Salto Grande), independiente del repositorio de ChatGPT.",
+ "actualizado": "13/11/2026, 18:50 h",
+ "series": [
+  {
+   "rio": "Paraná",
+   "puerto": "Ituzaingó",
+   "lecturas": [
+    [
+     "2026-11-08",
+     3.68,
+     "CIM/UNL (datos de Prefectura Naval Argentina), https://cim.fich.unl.edu.ar/rios/parana/alturas",
+     "hora no publicada"
+    ],
+    [
+     "2026-11-10",
+     3.52,
+     "CIM/UNL (datos de Prefectura Naval Argentina), https://cim.fich.unl.edu.ar/rios/parana/alturas",
+     "hora no publicada"
+    ],
+    [
+     "2026-11-10T12:00:00",
+     3.48,
+     "Entidad Binacional Yacyretá, alerta hidrológico N.º 03/noviembre, https://www.eby.gov.py/alerta-hidrologico-n03-noviembre/",
+     "hora verificada"
+    ],
+    [
+     "2026-11-11",
+     3.46,
+     "CIM/UNL (datos de Prefectura Naval Argentina), https://cim.fich.unl.edu.ar/rios/parana/alturas",
+     "hora no publicada"
+    ],
+    [
+     "2026-11-12",
+     3.45,
+     "CIM/UNL (datos de Prefectura Naval Argentina), https://cim.fich.unl.edu.ar/rios/parana/alturas",
+     "hora no publicada"
+    ],
+    [
+     "2026-11-13",
+     3.25,
+     "CIM/UNL (datos de Prefectura Naval Argentina), https://cim.fich.unl.edu.ar/rios/parana/alturas",
+     "hora no publicada"
+    ]
+   ]
+  },
+  {
+   "rio": "Paraná",
+   "puerto": "Itá Ibaté",
+   "lecturas": [
+    [
+     "2026-11-08",
+     5.88,
+     "CIM/UNL (datos de Prefectura Naval Argentina), https://cim.fich.unl.edu.ar/rios/parana/alturas",
+     "hora no publicada"
+    ],
+    [
+     "2026-11-10",
+     5.78,
+     "CIM/UNL (datos de Prefectura Naval Argentina), https://cim.fich.unl.edu.ar/rios/parana/alturas",
+     "hora no publicada"
+    ],
+    [
+     "2026-11-11",
+     5.68,
+     "CIM/UNL (datos de Prefectura Naval Argentina), https://cim.fich.unl.edu.ar/rios/parana/alturas",
+     "hora no publicada"
+    ],
+    [
+     "2026-11-12",
+     5.62,
+     "CIM/UNL (datos de Prefectura Naval Argentina), https://cim.fich.unl.edu.ar/rios/parana/alturas",
+     "hora no publicada"
+    ],
+    [
+     "2026-11-13",
+     5.62,
+     "CIM/UNL (datos de Prefectura Naval Argentina), https://cim.fich.unl.edu.ar/rios/parana/alturas",
+     "hora no publicada"
+    ]
+   ]
+  },
+  {
+   "rio": "Paraná",
+   "puerto": "Itatí",
+   "lecturas": [
+    [
+     "2026-11-08",
+     7.48,
+     "CIM/UNL (datos de Prefectura Naval Argentina), https://cim.fich.unl.edu.ar/rios/parana/alturas",
+     "hora no publicada"
+    ],
+    [
+     "2026-11-10",
+     7.38,
+     "CIM/UNL (datos de Prefectura Naval Argentina), https://cim.fich.unl.edu.ar/rios/parana/alturas",
+     "hora no publicada"
+    ],
+    [
+     "2026-11-11",
+     7.32,
+     "CIM/UNL (datos de Prefectura Naval Argentina), https://cim.fich.unl.edu.ar/rios/parana/alturas",
+     "hora no publicada"
+    ],
+    [
+     "2026-11-12",
+     7.16,
+     "CIM/UNL (datos de Prefectura Naval Argentina), https://cim.fich.unl.edu.ar/rios/parana/alturas",
+     "hora no publicada"
+    ],
+    [
+     "2026-11-13",
+     7.06,
+     "CIM/UNL (datos de Prefectura Naval Argentina), https://cim.fich.unl.edu.ar/rios/parana/alturas",
+     "hora no publicada"
+    ]
+   ]
+  },
+  {
+   "rio": "Paraná",
+   "puerto": "Paso de la Patria",
+   "lecturas": [
+    [
+     "2026-11-08",
+     7.14,
+     "CIM/UNL (datos de Prefectura Naval Argentina), https://cim.fich.unl.edu.ar/rios/parana/alturas",
+     "hora no publicada"
+    ],
+    [
+     "2026-11-10",
+     7.05,
+     "CIM/UNL (datos de Prefectura Naval Argentina), https://cim.fich.unl.edu.ar/rios/parana/alturas",
+     "hora no publicada"
+    ],
+    [
+     "2026-11-11",
+     7.03,
+     "CIM/UNL (datos de Prefectura Naval Argentina), https://cim.fich.unl.edu.ar/rios/parana/alturas",
+     "hora no publicada"
+    ],
+    [
+     "2026-11-12",
+     6.97,
+     "CIM/UNL (datos de Prefectura Naval Argentina), https://cim.fich.unl.edu.ar/rios/parana/alturas",
+     "hora no publicada"
+    ],
+    [
+     "2026-11-13",
+     6.9,
+     "CIM/UNL (datos de Prefectura Naval Argentina), https://cim.fich.unl.edu.ar/rios/parana/alturas",
+     "hora no publicada"
+    ]
+   ]
+  },
+  {
+   "rio": "Paraná",
+   "puerto": "Corrientes",
+   "lecturas": [
+    [
+     "2026-11-08",
+     7.0,
+     "CIM/UNL (datos de Prefectura Naval Argentina), https://cim.fich.unl.edu.ar/rios/parana/alturas",
+     "hora no publicada"
+    ],
+    [
+     "2026-11-10",
+     6.88,
+     "CIM/UNL (datos de Prefectura Naval Argentina), https://cim.fich.unl.edu.ar/rios/parana/alturas",
+     "hora no publicada"
+    ],
+    [
+     "2026-11-11",
+     6.84,
+     "CIM/UNL (datos de Prefectura Naval Argentina), https://cim.fich.unl.edu.ar/rios/parana/alturas",
+     "hora no publicada"
+    ],
+    [
+     "2026-11-12",
+     6.8,
+     "CIM/UNL (datos de Prefectura Naval Argentina), https://cim.fich.unl.edu.ar/rios/parana/alturas",
+     "hora no publicada"
+    ],
+    [
+     "2026-11-13",
+     6.73,
+     "CIM/UNL (datos de Prefectura Naval Argentina), https://cim.fich.unl.edu.ar/rios/parana/alturas",
+     "hora no publicada"
+    ]
+   ]
+  },
+  {
+   "rio": "Paraná",
+   "puerto": "Empedrado",
+   "lecturas": [
+    [
+     "2026-11-08",
+     6.0,
+     "CIM/UNL (datos de Prefectura Naval Argentina), https://cim.fich.unl.edu.ar/rios/parana/alturas",
+     "hora no publicada"
+    ],
+    [
+     "2026-11-10",
+     5.98,
+     "CIM/UNL (datos de Prefectura Naval Argentina), https://cim.fich.unl.edu.ar/rios/parana/alturas",
+     "hora no publicada"
+    ],
+    [
+     "2026-11-11",
+     5.92,
+     "CIM/UNL (datos de Prefectura Naval Argentina), https://cim.fich.unl.edu.ar/rios/parana/alturas",
+     "hora no publicada"
+    ],
+    [
+     "2026-11-12",
+     5.9,
+     "CIM/UNL (datos de Prefectura Naval Argentina), https://cim.fich.unl.edu.ar/rios/parana/alturas",
+     "hora no publicada"
+    ],
+    [
+     "2026-11-13",
+     5.88,
+     "CIM/UNL (datos de Prefectura Naval Argentina), https://cim.fich.unl.edu.ar/rios/parana/alturas",
+     "hora no publicada"
+    ]
+   ]
+  },
+  {
+   "rio": "Paraná",
+   "puerto": "Bella Vista",
+   "lecturas": [
+    [
+     "2026-11-08",
+     6.34,
+     "CIM/UNL (datos de Prefectura Naval Argentina), https://cim.fich.unl.edu.ar/rios/parana/alturas",
+     "hora no publicada"
+    ],
+    [
+     "2026-11-10",
+     6.34,
+     "CIM/UNL (datos de Prefectura Naval Argentina), https://cim.fich.unl.edu.ar/rios/parana/alturas",
+     "hora no publicada"
+    ],
+    [
+     "2026-11-11",
+     6.31,
+     "CIM/UNL (datos de Prefectura Naval Argentina), https://cim.fich.unl.edu.ar/rios/parana/alturas",
+     "hora no publicada"
+    ],
+    [
+     "2026-11-12",
+     6.3,
+     "CIM/UNL (datos de Prefectura Naval Argentina), https://cim.fich.unl.edu.ar/rios/parana/alturas",
+     "hora no publicada"
+    ],
+    [
+     "2026-11-13",
+     6.27,
+     "CIM/UNL (datos de Prefectura Naval Argentina), https://cim.fich.unl.edu.ar/rios/parana/alturas",
+     "hora no publicada"
+    ]
+   ]
+  },
+  {
+   "rio": "Paraná",
+   "puerto": "Goya",
+   "lecturas": [
+    [
+     "2026-11-08",
+     6.0,
+     "CIM/UNL (datos de Prefectura Naval Argentina), https://cim.fich.unl.edu.ar/rios/parana/alturas",
+     "hora no publicada"
+    ],
+    [
+     "2026-11-10",
+     5.96,
+     "CIM/UNL (datos de Prefectura Naval Argentina), https://cim.fich.unl.edu.ar/rios/parana/alturas",
+     "hora no publicada"
+    ],
+    [
+     "2026-11-11",
+     5.94,
+     "CIM/UNL (datos de Prefectura Naval Argentina), https://cim.fich.unl.edu.ar/rios/parana/alturas",
+     "hora no publicada"
+    ],
+    [
+     "2026-11-12",
+     5.89,
+     "CIM/UNL (datos de Prefectura Naval Argentina), https://cim.fich.unl.edu.ar/rios/parana/alturas",
+     "hora no publicada"
+    ],
+    [
+     "2026-11-13",
+     5.87,
+     "CIM/UNL (datos de Prefectura Naval Argentina), https://cim.fich.unl.edu.ar/rios/parana/alturas",
+     "hora no publicada"
+    ]
+   ]
+  },
+  {
+   "rio": "Paraná",
+   "puerto": "Esquina",
+   "lecturas": [
+    [
+     "2026-11-08",
+     5.59,
+     "CIM/UNL (datos de Prefectura Naval Argentina), https://cim.fich.unl.edu.ar/rios/parana/alturas",
+     "hora no publicada"
+    ],
+    [
+     "2026-11-10",
+     5.57,
+     "CIM/UNL (datos de Prefectura Naval Argentina), https://cim.fich.unl.edu.ar/rios/parana/alturas",
+     "hora no publicada"
+    ],
+    [
+     "2026-11-11",
+     5.56,
+     "CIM/UNL (datos de Prefectura Naval Argentina), https://cim.fich.unl.edu.ar/rios/parana/alturas",
+     "hora no publicada"
+    ],
+    [
+     "2026-11-12",
+     5.54,
+     "CIM/UNL (datos de Prefectura Naval Argentina), https://cim.fich.unl.edu.ar/rios/parana/alturas",
+     "hora no publicada"
+    ],
+    [
+     "2026-11-13",
+     5.52,
+     "CIM/UNL (datos de Prefectura Naval Argentina), https://cim.fich.unl.edu.ar/rios/parana/alturas",
+     "hora no publicada"
+    ]
+   ]
+  },
+  {
+   "rio": "Uruguay",
+   "puerto": "Garruchos",
+   "lecturas": [
+    [
+     "2026-11-08T07:00:00",
+     11.85,
+     "CTM Salto Grande, https://www.saltogrande.org/docs/hidrologia/CaudalesNiveles.pdf",
+     "hora verificada"
+    ],
+    [
+     "2026-11-12T07:00:00",
+     8.4,
+     "CTM Salto Grande, https://www.saltogrande.org/docs/hidrologia/CaudalesNiveles.pdf",
+     "hora verificada"
+    ]
+   ]
+  },
+  {
+   "rio": "Uruguay",
+   "puerto": "Santo Tomé",
+   "lecturas": [
+    [
+     "2026-11-08T07:00:00",
+     10.76,
+     "CTM Salto Grande, https://www.saltogrande.org/docs/hidrologia/CaudalesNiveles.pdf",
+     "hora verificada"
+    ],
+    [
+     "2026-11-12T07:00:00",
+     10.1,
+     "CTM Salto Grande, https://www.saltogrande.org/docs/hidrologia/CaudalesNiveles.pdf",
+     "hora verificada"
+    ],
+    [
+     "2026-11-13",
+     8.9,
+     "INA, reporte diario del 13/11, https://alerta.ina.gob.ar/a5/diario/pdf/reporte_diario_2026-11-13.pdf",
+     "hora no publicada"
+    ]
+   ]
+  },
+  {
+   "rio": "Uruguay",
+   "puerto": "Alvear",
+   "lecturas": [
+    [
+     "2026-11-08T07:00:00",
+     8.03,
+     "CTM Salto Grande, https://www.saltogrande.org/docs/hidrologia/CaudalesNiveles.pdf",
+     "hora verificada"
+    ],
+    [
+     "2026-11-12T07:00:00",
+     9.26,
+     "CTM Salto Grande, https://www.saltogrande.org/docs/hidrologia/CaudalesNiveles.pdf",
+     "hora verificada"
+    ]
+   ]
+  },
+  {
+   "rio": "Uruguay",
+   "puerto": "Paso de los Libres",
+   "lecturas": [
+    [
+     "2026-11-08T07:00:00",
+     6.34,
+     "CTM Salto Grande, https://www.saltogrande.org/docs/hidrologia/CaudalesNiveles.pdf",
+     "hora verificada"
+    ],
+    [
+     "2026-11-10",
+     7.43,
+     "Prefectura Naval Argentina, último reporte difundido por El Litoral el 10/11/2026 a las 11:23 h, https://www.ellitoral.com.ar/interior/2026-11-10-11-23-0-el-rio-uruguay-marco-crece-y-la-municipalidad-de-paso-de-los-libres-cerro-su-costanera",
+     "hora no publicada"
+    ],
+    [
+     "2026-11-12T07:00:00",
+     7.86,
+     "CTM Salto Grande, https://www.saltogrande.org/docs/hidrologia/CaudalesNiveles.pdf",
+     "hora verificada"
+    ],
+    [
+     "2026-11-12",
+     7.89,
+     "Prefectura Naval Argentina, registro del mediodía del 12/11/2026 difundido por Diario El Libertador a las 14:47 h, https://www.diarioellibertador.com.ar/crecida-rio-uruguay-alerta-cierre-costanera-paso-de-los-libres/",
+     "hora no publicada"
+    ],
+    [
+     "2026-11-13",
+     7.99,
+     "INA, reporte diario del 13/11, https://alerta.ina.gob.ar/a5/diario/pdf/reporte_diario_2026-11-13.pdf",
+     "hora no publicada"
+    ]
+   ]
+  }
+ ]
+}
