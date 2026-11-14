@@ -13,3 +13,5 @@ Rigen las REGLAS COMUNES del Texto W1 (archivo tareas/Texto_W1_tarea_A.txt): esc
    - Si no se pudo leer ninguna fuente (SMN, COE ni prensa con parte oficial, según el orden de fuentes): no escribir nada, no marcar como verificado y nunca interpretar la falta de datos como ausencia de alertas.
 4. AVISO AL AUTOR: enviar una notificación si (a) apareció una alerta nueva o cambió de nivel para algún departamento de Corrientes, indicando nivel, fenómeno, zonas, horario y si incluye a la Capital; o (b) no se pudo leer ninguna fuente oficial. Si no hubo cambios, no notificar.
 5. INFORME, en 3 líneas: alertas encontradas (o "sin cambios"), archivos escritos y confirmados, errores.
+
+REGISTRO DE CADA INTENTO (SIEMPRE, aunque la condición no se cumpla o no haya cambios): en data/pron.json escribir "consultado" con la hora de esta corrida ("dd/mm/aaaa, hh:mm h") y "consulta_resultado" ("datos nuevos", "sin cambios", "sin alerta ni lluvia" o "fuente sin respuesta"), y hacer commit de ese registro. No modificar "actualizado" si no hubo datos nuevos.

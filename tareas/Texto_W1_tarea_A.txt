@@ -80,3 +80,5 @@ Actualizar "actualizado" aunque no haya cambios.
    g. En el INFORME de la tarea (no en el sitio), agregar para el autor del tablero un "Aviso para redes" por cada zona con reportes que coinciden: lugar, qué pasa, desde cuándo, y una frase lista para publicar.
 6. IMAGEN SATELITAL: ejecutar el punto 4 del Texto W2 (archivo tareas/Texto_W2_tarea_C.txt).
 7. INFORME: altura del Paraná en Corrientes (fuente y hora), obras terminadas agregadas y anegamientos nuevos o resueltos, lecturas agregadas a data/hist.json, estado de alertas, pronóstico de la Capital (estimación derivada y criterio), pronóstico extendido cargado (ciudades y días), lluvia de las últimas 24 h en la Capital, evacuados según el último informe oficial, archivos escritos y confirmados, conflictos de concurrencia y errores.
+
+REGISTRO DE CADA INTENTO (SIEMPRE): en data/puertos.json escribir "consultado" (hora de esta corrida) y "consulta_resultado" ("datos nuevos", "sin cambios" o "fuente sin respuesta") aunque Prefectura no haya publicado una lectura nueva; lo mismo en data/lluvia.json y data/pron.json si la corrida los consultó. No modificar "actualizado" si no hubo datos nuevos.
