@@ -273,7 +273,29 @@ function tabla(loc){
   }
   $('tablaS').innerHTML='Fuente: Sistema Nacional de Información Hídrica (SNIH), Secretaría de Infraestructura y Política Hídrica; datos crudos del sensor, sin validar.'+(L&&L.actualizado?' Última actualización: '+esc(L.actualizado)+'.':'');
 }
-$('upd').textContent='Ríos y datos generales: '+(P.actualizado||'sin dato')+'. Pronóstico (estimación derivada de avisos del SMN y modelos): '+(P.pron_actualizado||P.actualizado||'sin dato')+'. Lluvia real medida: '+(L&&L.actualizado?L.actualizado:'sin registros cargados')+'.';
+function tcProx(smn,llueve){
+  var now=new Date();
+  function hm(d){return String(d.getHours()).padStart(2,'0')+':'+String(d.getMinutes()).padStart(2,'0')+' h';}
+  function dia(d){var a=new Date(now.getFullYear(),now.getMonth(),now.getDate()),b=new Date(d.getFullYear(),d.getMonth(),d.getDate()),k=Math.round((b-a)/864e5);return k===0?'hoy':k===1?'mañana':k===-1?'ayer':String(d.getDate()).padStart(2,'0')+'/'+String(d.getMonth()+1).padStart(2,'0');}
+  function sig(c){var best=null;for(var add=0;add<2;add++)c.forEach(function(x){var d=new Date(now.getFullYear(),now.getMonth(),now.getDate()+add,x[0],x[1]);if(d>now&&(!best||d<best))best=d;});return best;}
+  var diarias=[[9,0],[18,30]],c1=[],c2=[];for(var h=0;h<24;h++){c1.push([h,10]);if(h%2===1)c2.push([h,10]);}
+  var act=(smn||[]).some(function(a){if(a.incluye_corrientes===false)return false;var hs=a.hasta_iso?Date.parse(a.hasta_iso):NaN,ds=a.desde_iso?Date.parse(a.desde_iso):NaN;return (isNaN(hs)||hs>now)&&(isNaN(ds)||ds-now<864e5);});
+  var activo=act||!!llueve;
+  function f(d){return d?dia(d)+' '+hm(d):'';}
+  return {activo:activo,rio:f(sig(diarias)),lluvia:f(activo?sig(c1):sig(diarias)),pron:f(activo?sig(c2):sig(diarias)),
+    nota:activo?'<b style="color:#ffd27a">Modo alerta:</b> lluvia caída cada hora y pronóstico cada 2 horas, mientras haya alerta o lluvia.':'Sin alerta ni lluvia: actualización completa a las 9 y a las 18:30 h; si aparece una alerta o empieza a llover, se actualiza más seguido.'};
+}
+(function(){
+  var cap=L&&L.estaciones?capitalCompuesta():null;
+  var llueveP=!!(cap&&(cap.valores||[]).slice(-3).some(function(x){return x!=null&&x>=0.5;}));
+  var PX=tcProx(P.smn,llueveP);
+  function corto(t){var m=/(\d{1,2})\/(\d{1,2})\/\d{4}\D+(\d{1,2}):(\d{2})/.exec(String(t||''));return m?m[1].padStart(2,'0')+'/'+m[2].padStart(2,'0')+' '+m[3].padStart(2,'0')+':'+m[4]+' h':'sin dato';}
+  var filas=[['🌊','Ríos',P.actualizado,PX.rio],['🌧️','Lluvia caída',L&&L.actualizado,PX.lluvia],['⛅','Pronóstico y alertas',P.pron_actualizado||P.actualizado,PX.pron]];
+  var u=$('upd');u.style.display='grid';u.style.gap='6px';
+  u.innerHTML='<span style="font-size:.78rem;font-weight:800;letter-spacing:.06em;color:#cfe3ea">ACTUALIZACIONES</span>'+filas.map(function(f){
+    return '<span style="display:grid;grid-template-columns:auto 1fr 1fr;gap:8px;align-items:center;background:rgba(255,255,255,.12);border-radius:12px;padding:8px 10px"><span style="font-size:1.3rem" aria-hidden="true">'+f[0]+'</span><span><span style="display:block;font-size:.72rem;color:#cfe3ea">'+f[1]+', última</span><b style="font-size:1rem;color:#fff">'+corto(f[2])+'</b></span><span><span style="display:block;font-size:.72rem;color:#cfe3ea">Próxima, aprox.</span><b style="font-size:1rem;color:#fff">'+f[3]+'</b></span></span>';}).join('')
+    +'<span style="font-size:.74rem;color:#e6f1f4">'+PX.nota+'</span>';
+})();
 $('loc').addEventListener('change',function(){try{localStorage.setItem('loc-prov',this.value);}catch(e){}render();});
 (function(){var inp=$('buscar'),sug=$('sug');
   inp.addEventListener('input',function(){var q=norm(inp.value);sug.innerHTML='';if(q.length<2)return;
