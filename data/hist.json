@@ -1,12 +1,5 @@
 {
  "repositorio": "Lecturas oficiales registradas por las tareas del Tablero Ciudadano",
- "manifiesto": {
-  "id": "16fXJXTkGYeXqfHs6A9byrvE_YVd7-eE-",
-  "nombre": "manifiesto_hidrologico_20261113_103404.json",
-  "corrida": "20261113_103404",
-  "fecha_validacion": "13/11/2026, 10:35 h",
-  "sha256": "6 de 6 coinciden"
- },
  "actualizado": "13/11/2026, 23:14 h",
  "series": [
   {
@@ -1763,82 +1756,76 @@
  "pronosticos": [
   {
    "organismo": "INA",
-   "emision": "2026-11-02",
+   "emision": "2026-11-12",
    "rio": "Paraná",
    "horizonte_dias": 7,
    "tipo": "cualitativo",
-   "tendencia": "Próximos 7 días: oscilante/leve descenso en Corrientes-Barranqueras en aguas altas, sobre alerta y evacuación; hacia Goya-Reconquista ascenso y estabilización gradual; riesgo de prolongación por aportes aguas arriba.",
+   "tendencia": "En Corrientes, el río seguiría alto, con oscilaciones o un leve descenso en los próximos 7 días, y bajaría de a poco por debajo del nivel de alerta. En Goya también oscilaría o bajaría levemente, con alta probabilidad de seguir por encima de los niveles de alerta y de evacuación. Más adelante se estabilizaría en niveles medios altos; hacia fines de noviembre podrían volver lluvias importantes en la cuenca",
    "url": "https://alerta.ina.gob.ar/a5/diario/reporte_diario"
   },
   {
    "organismo": "INA",
-   "emision": "2026-11-02",
+   "emision": "2026-11-12",
    "rio": "Uruguay",
    "horizonte_dias": 7,
    "tipo": "cualitativo",
-   "tendencia": "Informe INA 02/11: niveles de Santo Tomé y Paso de los Libres por debajo de alerta; perspectiva cualitativa local no individualizada en extracción, conservar cautela.",
+   "tendencia": "En Paso de los Libres, el río subiría por encima del nivel de alerta, con el pico en 2 a 3 días, y después empezaría a bajar. En Santo Tomé se mantendría en niveles medios altos, con pocas posibilidades de nuevas subidas en el corto plazo",
    "url": "https://alerta.ina.gob.ar/a5/diario/reporte_diario"
   }
  ],
  "pron_num": [
   {
    "organismo": "INA",
-   "emision": "2026-10-30",
+   "emision": "2026-11-12",
    "puerto": "Corrientes",
-   "fecha_objetivo": "2026-11-03",
-   "minimo_m": 6.4,
-   "central_m": 6.84,
-   "maximo_m": 7.3,
-   "tipo": "pronóstico no observado",
-   "url": "https://ina.gob.ar/archivos/alerta/TabProno20261030.pdf"
+   "fecha_objetivo": "2026-11-17",
+   "minimo_m": null,
+   "central_m": null,
+   "maximo_m": 6.6,
+   "tipo": "pronóstico",
+   "url": "https://www.ellitoral.com.ar/sociedad/2026-11-12-20-55-0-altura-del-parana-cuanto-podria-bajar-el-rio-en-corrientes-hasta-fin-de-noviembre"
   },
   {
    "organismo": "INA",
-   "emision": "2026-10-30",
+   "emision": "2026-11-12",
    "puerto": "Corrientes",
-   "fecha_objetivo": "2026-11-10",
-   "minimo_m": 5.1,
-   "central_m": 5.57,
-   "maximo_m": 6,
-   "tipo": "pronóstico no observado",
-   "url": "https://ina.gob.ar/archivos/alerta/TabProno20261030.pdf"
+   "fecha_objetivo": "2026-11-24",
+   "minimo_m": 5.4,
+   "central_m": null,
+   "maximo_m": 6.14,
+   "tipo": "pronóstico",
+   "url": "https://www.ellitoral.com.ar/sociedad/2026-11-12-20-55-0-altura-del-parana-cuanto-podria-bajar-el-rio-en-corrientes-hasta-fin-de-noviembre"
   },
   {
    "organismo": "INA",
-   "emision": "2026-10-30",
+   "emision": "2026-11-12",
    "puerto": "Goya",
-   "fecha_objetivo": "2026-11-03",
-   "minimo_m": 5.55,
-   "central_m": 5.75,
-   "maximo_m": 6.15,
-   "tipo": "pronóstico no observado",
-   "url": "https://ina.gob.ar/archivos/alerta/TabProno20261030.pdf"
+   "fecha_objetivo": "2026-11-17",
+   "minimo_m": null,
+   "central_m": 5.81,
+   "maximo_m": null,
+   "tipo": "pronóstico",
+   "url": "https://www.ellitoral.com.ar/sociedad/2026-11-12-20-55-0-altura-del-parana-cuanto-podria-bajar-el-rio-en-corrientes-hasta-fin-de-noviembre"
   },
   {
    "organismo": "INA",
-   "emision": "2026-10-30",
+   "emision": "2026-11-12",
    "puerto": "Goya",
-   "fecha_objetivo": "2026-11-10",
-   "minimo_m": 4.5,
-   "central_m": 5.3,
-   "maximo_m": 6,
-   "tipo": "pronóstico no observado",
-   "url": "https://ina.gob.ar/archivos/alerta/TabProno20261030.pdf"
+   "fecha_objetivo": "2026-11-24",
+   "minimo_m": null,
+   "central_m": 5.64,
+   "maximo_m": null,
+   "tipo": "pronóstico",
+   "url": "https://www.ellitoral.com.ar/sociedad/2026-11-12-20-55-0-altura-del-parana-cuanto-podria-bajar-el-rio-en-corrientes-hasta-fin-de-noviembre"
   }
  ],
- "pron_aviso": "Pronósticos y puntos numéricos copiados de pronosticos_oficiales de la corrida 20261112_113100, con su fecha de emisión; son escenarios, no lecturas. Pronósticos INA previos conservados con su fecha de emisión; no se verificó emisión nueva. No confundir observaciones 04/11 con proyecciones. Pronósticos conservados sin nueva emisión verificada; no confundir con niveles CTM 06/11.",
+ "pron_aviso": "Valores difundidos por El Litoral a partir del pronóstico del INA. Son estimaciones, no mediciones, y pueden cambiar con las lluvias.",
  "verificacion": "Consulta del 13/11/2026, 23:14 h: Prefectura Naval Argentina (tabla del CIM/UNL del 13/11/2026, sin hora de observación), INA (informe diario del 13/11) y Comisión Técnica Mixta de Salto Grande (niveles del 13/11/2026 a las 07:00 h). No hay lecturas posteriores a las ya registradas.",
  "observaciones": [
-  "Monte Caseros: sin lecturas ni cotas verificadas en el repositorio (se mantiene la lectura externa del 20/10, pendiente de consolidación, fuera de este histórico).",
-  "Las lecturas de las 00:00 de Prefectura publicadas por INA-SIyAH a las 03:00 UTC corresponden a las 00:00 de Argentina: hora verificada.",
-  "Río Paraná: las tablas diarias del CIM/UNL (datos de Prefectura) del 03/11 al 12/11 tienen fecha solamente y hora individual no publicada; figuran como 'pendiente' (hora no verificada) y nunca se interpretan como las 00:00. No hay lectura del 08/11 en el repositorio para los puertos del Paraná; no se completa ni se interpola.",
   "Empedrado, Esquina, Ituzaingó e Itá Ibaté tienen pocas lecturas (10 cada uno), todas de fecha solamente salvo la del 01/11 a las 00:00 h.",
-  "Río Uruguay: el histórico (CTM Salto Grande, 07:00 h) llega al 12/11/2026 en Garruchos, Santo Tomé, Alvear y Paso de los Libres; comienza el 29/10/2026 y no es todavía una serie completa desde el 01/10; no se completan días faltantes ni se interpola. Bonpland tiene una única lectura (30/10); La Cruz y Yapeyú, una (01/11), sin lectura posterior (el manifiesto las declara pendientes de Prefectura).",
   "Variación informada en el CSV que no coincide con la diferencia entre lecturas consecutivas (no se usa en los gráficos ni se corrigieron las alturas): Ituzaingó 2026-11-03: CSV -3 cm frente a -12 cm; Itá Ibaté 2026-11-03: CSV -6 cm frente a -10 cm; Itatí 2026-11-03: CSV -2 cm frente a -8 cm; Paso de la Patria 2026-11-03: CSV -6 cm frente a -8 cm; Empedrado 2026-11-03: CSV -6 cm frente a -11 cm; Goya 2026-11-01T00:00:00: CSV 12 cm frente a 14 cm; Goya 2026-11-03: CSV 1 cm frente a 3 cm; Esquina 2026-11-03: CSV 8 cm frente a 14 cm.",
   "Garruchos: la serie consolidada pasa de 6,70 m (06/11) a 11,34 m (07/11), 11,04 m (09/11) y 11,42 m (10/11); no tiene lectura del 08/11 (la lectura directa de CTM del 08/11, 11,85 m, figura solo en el histórico propio). Saltos a confirmar con Prefectura; no se modificaron las alturas.",
-  "Advertencias del manifiesto 20261112_113100: Paraná con fecha solamente (12/11); Uruguay CTM 12/11, 07:00 h; Bonpland, La Cruz y Yapeyú pendientes de lectura de Prefectura. Es una inconsistencia documental a regularizar y no altera los datos, cuyas huellas coinciden.",
   "Garruchos: la serie consolidada baja de 10,82 m (11/11) a 8,40 m (12/11), 2,42 m en un día, en coincidencia con el PDF de CTM del 12/11 (caudal de 12.969 a 8.915 m³/s); se conserva sin modificar.",
-  "Este histórico llega al 12/11/2026 (Paraná, fecha solamente; Uruguay, 07:00 h) y no se mezcla con el histórico propio ni con las lecturas externas.",
-  "Corrida 20261113_103404: tabla del CIM/UNL del 13/11 con fecha solamente, hora individual no publicada (lecturas del Paraná marcadas pendientes, nunca interpretadas como 00:00). CTM Salto Grande 13/11, 07:00 h para el Uruguay. Pendientes en la corrida: lecturas recientes de Bonpland, La Cruz y Yapeyú (Prefectura vía INA-SIyAH). Inconsistencia documental a regularizar, no alteración de los datos."
+  "Este histórico llega al 12/11/2026 (Paraná, fecha solamente; Uruguay, 07:00 h) y no se mezcla con el histórico propio ni con las lecturas externas."
  ]
 }

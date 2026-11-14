@@ -69,32 +69,53 @@
   window.addEventListener('appinstalled',function(){instalada=true;var d=document.getElementById('tc-inst');if(d)d.remove();});
   /* 4. Reportes ciudadanos */
   var TIPOS=['Calle anegada','Agua dentro de viviendas','Desagüe tapado o colapsado','Evacuados o autoevacuados','Corte de calle o ruta','Crecida del río','Otro, vinculado a lluvias o crecida'];
+  function reducir(file){return new Promise(function(ok,mal){var fr=new FileReader();fr.onerror=mal;fr.onload=function(){var im=new Image();im.onerror=mal;im.onload=function(){var M=1600,k=Math.min(1,M/Math.max(im.width,im.height)),c=document.createElement('canvas');c.width=Math.round(im.width*k);c.height=Math.round(im.height*k);c.getContext('2d').drawImage(im,0,0,c.width,c.height);ok(c.toDataURL('image/jpeg',0.8).split(',')[1]);};im.src=fr.result;};fr.readAsDataURL(file);});}
   function reportes(cfg,barrios,locs){
     var s=document.createElement('section');s.id='tc-rep';s.className='tc-card';
     var opts=['<option value="">Elija su barrio o localidad</option>'];
     if(barrios.length)opts.push('<optgroup label="Corrientes Capital">'+barrios.map(function(b){return '<option>'+b+'</option>';}).join('')+'</optgroup>');
     if(locs.length)opts.push('<optgroup label="Provincia de Corrientes">'+locs.map(function(b){return '<option>'+b+'</option>';}).join('')+'</optgroup>');
-    s.innerHTML='<h2>Contanos qué pasa en tu barrio</h2><p style="margin:0;font-size:.9rem">Envíenos lo que ve en su barrio o localidad sobre lluvias, anegamientos y la crecida. Nos ayuda a conocer la situación real.</p>'+
-      '<div class="av"><b>No es un servicio de emergencias.</b> Si su vida o sus bienes corren peligro, llame a Defensa Civil al <b>103</b> o al <b>911</b>.</div>'+
-      (cfg.form_url?'<a class="env" style="display:inline-block;text-decoration:none" href="'+cfg.form_url+'" target="_blank" rel="noopener">Enviar un reporte</a>':
-      '<label for="tc-al">Nombre o usuario (puede ser un alias)</label><input id="tc-al" maxlength="60" required>'+
+    var URL_R=cfg.reportes_url||'';
+    s.innerHTML='<h2>📸 Contanos qué pasa en tu barrio</h2><p style="margin:0;font-size:.9rem">Envíenos fotos y lo que ve sobre lluvias, calles anegadas o la crecida. <b>Puede hacerlo en forma anónima.</b> Sus reportes nos ayudan a conocer la situación real y alimentan nuestras investigaciones.</p>'+
+      '<button class="env" id="tc-abrir" type="button">Enviar fotos o un reporte</button>'+
+      '<div id="tc-form" hidden>'+
+      '<div class="av"><b>No es un servicio de emergencias ni un canal oficial.</b> Es una iniciativa ciudadana independiente. Si su vida o sus bienes corren peligro, llame a Defensa Civil al <b>103</b> o al <b>911</b>.</div>'+
       '<label for="tc-lu">Barrio o localidad</label><select id="tc-lu">'+opts.join('')+'</select>'+
       '<label for="tc-ti">Qué está pasando</label><select id="tc-ti"><option value="">Elija una opción</option>'+TIPOS.map(function(t){return '<option>'+t+'</option>';}).join('')+'</select>'+
       '<label for="tc-de">Descripción breve (calle, altura, desde cuándo)</label><textarea id="tc-de" maxlength="800"></textarea>'+
+      (URL_R?'<label for="tc-fo">Fotos (hasta 4, opcional)</label><input id="tc-fo" type="file" accept="image/*" multiple><p class="s" id="tc-fon"></p>':'')+
+      '<label for="tc-al">Nombre o alias (opcional; si lo deja vacío, el reporte es anónimo)</label><input id="tc-al" maxlength="60" placeholder="Anónimo">'+
       '<label for="tc-co">Contacto (opcional, solo si acepta que le respondamos)</label><input id="tc-co" maxlength="80">'+
-      '<label class="ck"><input type="checkbox" id="tc-ok"> Acepto que la información se use, sin mis datos personales, para el análisis y la difusión sobre el fenómeno de El Niño.</label>'+
-      '<button class="env" id="tc-env">Enviar reporte por correo</button><p class="s">Se abrirá su aplicación de correo con el reporte listo; puede adjuntar fotos antes de enviarlo. Los reportes no se publican automáticamente. Datos tratados según la Ley 25.326 de Protección de Datos Personales.</p><p class="s" id="tc-msg" role="status"></p>');
-    document.body.appendChild(s);
+      '<input id="tc-web" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px">'+
+      '<label class="ck"><input type="checkbox" id="tc-ok"> Acepto que la información y las fotos se usen, sin mis datos personales, para el análisis y la difusión sobre las lluvias y la crecida.</label>'+
+      '<button class="env" id="tc-env" type="button">'+(URL_R?'Enviar reporte':'Enviar reporte por correo')+'</button>'+
+      '<p class="s">'+(URL_R?'El reporte llega directamente a nuestro equipo; no hace falta tener correo en el celular.':'Se abrirá su aplicación de correo con el reporte listo; puede adjuntar fotos antes de enviarlo.')+' Los reportes no se publican automáticamente. Datos tratados según la Ley 25.326 de Protección de Datos Personales.</p><p class="s" id="tc-msg" role="status" style="font-weight:700"></p></div>';
+    var slot=document.getElementById('tc-rep-slot');if(slot)slot.appendChild(s);else document.body.appendChild(s);
     var f=document.createElement('p');f.id='tc-foot';f.innerHTML='Tablero Ciudadano de Corrientes, información de fuentes oficiales. Contacto: <a href="mailto:'+(cfg.email||EMAIL)+'">'+(cfg.email||EMAIL)+'</a>';document.body.appendChild(f);
-    var b=document.getElementById('tc-env');if(!b)return;
+    var ab=document.getElementById('tc-abrir'),fm=document.getElementById('tc-form');
+    function abrir(){fm.hidden=false;ab.hidden=true;}
+    ab.onclick=abrir;if(location.hash==='#tc-rep')abrir();
+    window.addEventListener('hashchange',function(){if(location.hash==='#tc-rep')abrir();});
+    var fo=document.getElementById('tc-fo');if(fo)fo.onchange=function(){var n=fo.files.length;document.getElementById('tc-fon').textContent=n>4?'Se enviarán solo las primeras 4 fotos.':(n?n+' foto'+(n>1?'s':'')+' elegida'+(n>1?'s':'')+'.':'');};
+    var b=document.getElementById('tc-env');
     b.onclick=function(){
-      var g=function(i){return (document.getElementById(i).value||'').trim();},msg=document.getElementById('tc-msg');
-      if(!g('tc-al')||!g('tc-lu')||!g('tc-ti')||!g('tc-de')){msg.textContent='Complete nombre o usuario, lugar, qué está pasando y la descripción.';return;}
+      var g=function(i){var e=document.getElementById(i);return e?(e.value||'').trim():'';},msg=document.getElementById('tc-msg');
+      if(!g('tc-lu')||!g('tc-ti')||!g('tc-de')){msg.textContent='Complete el lugar, qué está pasando y la descripción.';return;}
       if(!document.getElementById('tc-ok').checked){msg.textContent='Para enviar el reporte, marque la autorización.';return;}
-      var asunto='Reporte ciudadano: '+g('tc-ti')+', '+g('tc-lu');
-      var cuerpo='Nombre o usuario: '+g('tc-al')+'\nLugar: '+g('tc-lu')+'\nQué está pasando: '+g('tc-ti')+'\nDescripción: '+g('tc-de')+'\nContacto: '+(g('tc-co')||'no informado')+'\nAutorización de uso sin datos personales: sí\nFecha y hora del reporte: '+new Date().toLocaleString('es-AR')+'\n\n(Puede adjuntar fotos a este correo.)';
-      location.href='mailto:'+(cfg.email||EMAIL)+'?subject='+encodeURIComponent(asunto)+'&body='+encodeURIComponent(cuerpo);
-      msg.textContent='Si no se abrió su correo, escriba a '+(cfg.email||EMAIL)+'.';
+      var datos={nombre:g('tc-al')||'Anónimo',lugar:g('tc-lu'),tipo:g('tc-ti'),descripcion:g('tc-de'),contacto:g('tc-co'),web:g('tc-web'),fecha:new Date().toLocaleString('es-AR'),pagina:location.pathname};
+      if(!URL_R){
+        var asunto='Reporte ciudadano: '+datos.tipo+', '+datos.lugar;
+        var cuerpo='Nombre o alias: '+datos.nombre+'\nLugar: '+datos.lugar+'\nQué está pasando: '+datos.tipo+'\nDescripción: '+datos.descripcion+'\nContacto: '+(datos.contacto||'no informado')+'\nAutorización de uso sin datos personales: sí\nFecha y hora del reporte: '+datos.fecha+'\n\n(Puede adjuntar fotos a este correo.)';
+        location.href='mailto:'+(cfg.email||EMAIL)+'?subject='+encodeURIComponent(asunto)+'&body='+encodeURIComponent(cuerpo);
+        msg.textContent='Si no se abrió su correo, escriba a '+(cfg.email||EMAIL)+'.';return;}
+      b.disabled=true;msg.textContent='Enviando… (con fotos puede tardar unos segundos)';
+      var fs=fo?[].slice.call(fo.files,0,4):[];
+      Promise.all(fs.map(reducir)).then(function(fotos){datos.fotos=fotos.map(function(d){return {datos:d};});
+        return fetch(URL_R,{method:'POST',body:JSON.stringify(datos)});
+      }).then(function(r){return r.json();}).then(function(j){
+        if(!j||!j.ok)throw new Error((j&&j.error)||'error');
+        fm.innerHTML='<div class="av" style="background:#e3f4ea;border-color:#2f9e5b;color:#13262d"><b>¡Gracias! Recibimos su reporte.</b> Lo vamos a revisar. Si dejó un contacto, puede que le escribamos.</div><button class="env" type="button" onclick="location.reload()">Enviar otro reporte</button>';
+      }).catch(function(){b.disabled=false;msg.innerHTML='No se pudo enviar. Revise la conexión e intente de nuevo, o escriba a <a href="mailto:'+(cfg.email||EMAIL)+'">'+(cfg.email||EMAIL)+'</a>.';});
     };
   }
   function listas(){

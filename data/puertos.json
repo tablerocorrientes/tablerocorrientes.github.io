@@ -107,12 +107,6 @@
   },
   {
    "fecha": "13/11/2026, 18:50 h",
-   "organismo": "Verificación de este tablero (repositorio hidrológico de Drive, vigilancia meteorológica, SMN, COE, Defensa Civil, EBY)",
-   "resumen": "Repositorio: manifiesto encontrado y aceptado manifiesto_hidrologico_20261113_103404.json (ID 16fXJXTkGYeXqfHs6A9byrvE_YVd7-eE-, VALIDADO el 13/11/2026, 10:35 h); anterior aceptado por este tablero: 20261112_113100 (la corrida intermedia 20261113_072640 queda incluida en la nueva). Verificación propia con código, descarga por enlace público (bytes originales): 6 de 6 huellas SHA-256 y tamaños coinciden (parana_historico 65.593 bytes, 255 registros; uruguay_historico 20.022 bytes, 63 registros; estado_actual 12.513; umbrales_puertos 9.865; pronosticos_oficiales 3.746; fuentes_metadatos 8.961), sin duplicados, con las columnas declaradas y JSON válidos (utf-8-sig). El histórico (hist-data) incorpora 13 registros nuevos (9 del Paraná, tabla del 13/11, y 4 del Uruguay, CTM 13/11, 07:00 h). Frescura: manifiesto de unas 8 h y lecturas coincidentes con la tabla del CIM/UNL del 13/11: actualizado; todas las alturas mostradas salen del repositorio. Meteorología: archivo vigilancia_meteorologica_20261113_183508.json (ID 15g6uyHS0IG3jar5uC35MvarMHHPXg7eB, revisión aae6c54b…, 13/11/2026, 18:35 h), CON_ALERTAS, normalizado a VERIFICADO_CON_ALERTAS por el listado oficial del COE; el CAP nacional del SMN no pudo verificarse. Defensa Civil: sin informe nuevo. EBY: sin comunicado nuevo hallado. Pasos fronterizos, rutas y prensa: no reverificados en esta corrida.",
-   "enlace": "https://drive.google.com/file/d/16fXJXTkGYeXqfHs6A9byrvE_YVd7-eE-/view"
-  },
-  {
-   "fecha": "13/11/2026, 18:50 h",
    "organismo": "COE de Corrientes, listado de alertas (consulta directa)",
    "resumen": "Dos alertas por tormentas previstas para el sábado 14/11, ninguna en curso: NARANJA 2026-0021-NT, de 11:00 a 17:00 h, para Bella Vista, Berón de Astrada, Capital, Empedrado, Esquina, General Paz, Goya, Itatí, Lavalle, Mburucuyá, Saladas, San Cosme y San Luis del Palmar; AMARILLA 2026-0068-AT, de 10:00 a 17:00 h, para Concepción, Curuzú Cuatiá, General Alvear, Ituzaingó, Mercedes, Paso de los Libres, San Martín, San Miguel, San Roque, Santo Tomé y Sauce. El listado no informa milímetros ni hora de emisión.",
    "enlace": "https://coe.corrientes.gob.ar/alertas"
@@ -122,12 +116,6 @@
    "organismo": "Instituto Nacional del Agua (INA), reporte hidrometeorológico diario de la Cuenca del Plata del 13/11",
    "resumen": "Niveles: Corrientes 6,73 m (alerta 6,50 m, evacuación 7,00 m); Goya 5,87 m, sobre alerta y evacuación; Santo Tomé 8,90 m; Paso de los Libres 7,99 m, sobre alerta. Paraná en Corrientes: oscilante o en leve descenso, con salida del nivel de alerta prevista en 7 días; Goya, leve descenso con alta probabilidad de seguir sobre alerta y evacuación; Santa Fe y Rosario, ascenso que se atenúa, con culminación entre 7 y 14 días. Uruguay: Paso de los Libres, oscilaciones sobre la alerta durante 2 a 3 días y luego descenso; Santo Tomé, sin chances de nuevos repuntes a corto plazo. Lluvias previstas a 7 días: moderadas a ligeramente abundantes en el Paraná medio (Corrientes a Rosario) y leves en la cuenca del Uruguay. Pronóstico, no observación.",
    "enlace": "https://alerta.ina.gob.ar/a5/diario/pdf/reporte_diario_2026-11-13.pdf"
-  },
-  {
-   "fecha": "12/11/2026, 18:54 h",
-   "organismo": "Verificación de este tablero (repositorio hidrológico de Drive, vigilancia meteorológica, SMN, COE, Defensa Civil, EBY)",
-   "resumen": "Repositorio: manifiesto encontrado y aceptado manifiesto_hidrologico_20261112_113100.json (ID 1YM0OjYn8QoOp4HVsJ4FjzclpxnMkx5QA, VALIDADO el 12/11/2026, 11:31 h); anterior aceptado por este tablero: 20261111_132444 (la corrida intermedia 20261112_073022 queda incluida en la nueva). Verificación propia con código, descarga por enlace público (bytes originales): 6 de 6 huellas SHA-256 y tamaños coinciden (parana_historico 63.166 bytes, 246 registros; uruguay_historico 18.860 bytes, 59 registros; estado_actual 12.145; umbrales_puertos 9.759; pronosticos_oficiales 3.606; fuentes_metadatos 8.669), sin duplicados, con las columnas declaradas y JSON válidos (utf-8-sig). El histórico (hist-data) incorpora 13 registros nuevos respecto de la carga anterior (9 del Paraná, tabla del 12/11, y 4 del Uruguay, CTM 12/11, 07:00 h). Frescura: manifiesto de unas 7 h y lecturas coincidentes con la tabla del CIM/UNL y el PDF de CTM del 12/11: actualizado; todas las alturas mostradas salen del repositorio. Meteorología: sin archivo de Drive nuevo; rige vigilancia_meteorologica_20261111_170619.json (revisión c03d94ac…, NO_DETERMINADO, normalizado a NO_VERIFICADO). COE: sin alertas vigentes ni por empezar. SMN: página de alertas no accesible. Defensa Civil: sin informe nuevo. EBY: sin comunicado nuevo. Pasos fronterizos y rutas reverificados en esta corrida.",
-   "enlace": "https://drive.google.com/file/d/1YM0OjYn8QoOp4HVsJ4FjzclpxnMkx5QA/view"
   },
   {
    "fecha": "12/11/2026",
@@ -148,12 +136,6 @@
    "enlace": "https://coe.corrientes.gob.ar/alertas"
   },
   {
-   "fecha": "11/11/2026, 18:56 h",
-   "organismo": "Verificación de este tablero (repositorio hidrológico de Drive, vigilancia meteorológica, SMN, COE, Defensa Civil, EBY)",
-   "resumen": "Repositorio: manifiesto encontrado y aceptado manifiesto_hidrologico_20261111_132444.json (ID 1rLADNf1B6yTbWX0uhXvimbAU6wmbZuEB, VALIDADO el 11/11/2026, 13:28 h); anterior aceptado por este tablero: 20261110_102412 (las corridas intermedias 20261111_083024 y 20261111_093000 quedan incluidas en la nueva). Verificación propia con código, descarga por enlace público (bytes originales): 6 de 6 huellas SHA-256 y tamaños coinciden (parana_historico 60.746 bytes, 237 registros; uruguay_historico 17.719 bytes, 55 registros; estado_actual 11.778; umbrales_puertos 9.755; pronosticos_oficiales 3.606; fuentes_metadatos 8.320), sin duplicados, con las columnas declaradas y JSON válidos (utf-8-sig). El histórico (hist-data) incorpora 13 registros nuevos (9 del Paraná, tabla del 11/11, y 4 del Uruguay, CTM 11/11, 07:00 h). Frescura: manifiesto de unas 5 h y lecturas coincidentes con la tabla del CIM/UNL del 11/11: actualizado; todas las alturas mostradas salen del repositorio. Meteorología: vigilancia_meteorologica_20261111_170619.json (revisión c03d94ac…, 17:06 h, NO_DETERMINADO, normalizado a NO_VERIFICADO). COE: sin alertas vigentes ni por empezar. SMN: página de alertas no accesible; alerta amarilla de la tarde del 11/11 conocida por la prensa. Defensa Civil: sin informe nuevo. EBY: sin comunicado nuevo. Pasos fronterizos y rutas reverificados en esta corrida, sin cambios.",
-   "enlace": "https://drive.google.com/file/d/1rLADNf1B6yTbWX0uhXvimbAU6wmbZuEB/view"
-  },
-  {
    "fecha": "11/11/2026",
    "organismo": "Servicio Meteorológico Nacional (SMN), alerta amarilla por tormentas (difundida por Corrientes de Tarde, El Litoral y El Cronista; hora de emisión no informada)",
    "resumen": "Alerta amarilla del SMN por tormentas para el miércoles 11/11, durante la tarde, en Berón de Astrada, Capital, Empedrado, General Paz, Itatí, Mburucuyá, Saladas, San Cosme y San Luis del Palmar, con 20 a 50 mm de acumulado (puntualmente más), actividad eléctrica frecuente, granizo ocasional y ráfagas (difundida por Corrientes de Tarde, El Litoral y El Cronista; hora de emisión no informada). Otras notas mencionan además sectores del sur y el este de la provincia sin detallar departamentos. Su período (la tarde, hasta las 18 h según la franja del SMN) ya concluyó; no se halló alerta para la noche ni para el jueves 12. El listado del COE no muestra alertas vigentes y la página de alertas del SMN no pudo consultarse en origen: estado NO_VERIFICADO.",
@@ -166,12 +148,6 @@
    "enlace": "https://coe.corrientes.gob.ar/alertas"
   },
   {
-   "fecha": "10/11/2026, 18:53 h",
-   "organismo": "Verificación de este tablero (repositorio hidrológico de Drive, vigilancia meteorológica, SMN, COE, Defensa Civil, EBY)",
-   "resumen": "Repositorio: manifiesto encontrado y aceptado manifiesto_hidrologico_20261110_102412.json (ID 1a2-QR1utZMD2DRrXDACM7V7POtHy_vkn, VALIDADO el 10/11/2026, 10:25 h); anterior aceptado por este tablero: 20261109_164429 (la corrida intermedia 20261110_063443 queda incluida en la nueva). Verificación propia con código, descarga por enlace público (bytes originales): 6 de 6 huellas SHA-256 y tamaños coinciden (parana_historico 58.499 bytes, 228 registros; uruguay_historico 16.436 bytes, 51 registros; estado_actual 10.793; umbrales_puertos 8.868; pronosticos_oficiales 2.786; fuentes_metadatos 7.203), sin duplicados, con las columnas declaradas y JSON válidos (utf-8-sig). El histórico (hist-data) incorpora 14 registros nuevos (9 del Paraná y 5 del Uruguay). Frescura: manifiesto de unas 9 h y lecturas coincidentes con la tabla del CIM/UNL del 10/11: actualizado; todas las alturas mostradas salen del repositorio. Meteorología: sin archivo de Drive nuevo; rige vigilancia_meteorologica_20261109_165120.json (revisión 05689f91…, NO_DETERMINADO, normalizado a NO_VERIFICADO). COE: sin alertas vigentes ni por empezar. SMN: página de alertas no accesible. Defensa Civil: sin informe nuevo. Pasos fronterizos y rutas reverificados en esta corrida.",
-   "enlace": "https://drive.google.com/file/d/1a2-QR1utZMD2DRrXDACM7V7POtHy_vkn/view"
-  },
-  {
    "fecha": "10/11/2026",
    "organismo": "Entidad Binacional Yacyretá (EBY), alerta hidrológico N.º 03/noviembre (comunicado original, hora de emisión no informada)",
    "resumen": "Caudal afluente previsto de unos 28.000 m³/s para el 10/11 y de 27.500 a 26.000 m³/s en los días siguientes: tendencia a la bajante. Septiembre promedió 12.339 m³/s (37 % sobre lo normal) y octubre 14.400 m³/s (106 % sobre lo normal), el mayor caudal medio de un octubre en la serie 1971-2025. Lluvias previstas en la cuenca: baja intensidad sobre la cuenca incremental de Yacyretá entre el miércoles 11 y el viernes 13/11, con 5 a 10 mm en promedio y cerca de 25 mm en forma local en el escenario más lluvioso. Maniobras de la represa: el comunicado no informa maniobras del vertedero. Aguas abajo: Puerto Ituzaingó 3,48 m el 10/11 a las 12:00 h, con previsión de 3,5 a 3,4 m hasta el jueves 12 y de 3,3 a 3,2 m el viernes 13 (alerta 3,50 m, evacuación 4,00 m); Ayolas de 5,1 a 5,0 m hasta el jueves y de 5,0 a 4,9 m el viernes, por encima de su nivel de inundabilidad de 4,50 m. Advierte alta probabilidad de aguas altas entre noviembre de 2026 y enero de 2027 por El Niño. Los pronósticos cubren hasta el 13/11.",
@@ -182,18 +158,6 @@
    "organismo": "COE de Corrientes, listado de alertas (consulta directa)",
    "resumen": "El listado oficial indica «No hay alertas vigentes en este momento» y no muestra alertas por empezar. La última registrada es la alerta amarilla 2026-0066-AT por tormentas (15 departamentos, con la Capital; 06/11, de 03:00 a 09:00 h, vencida). El listado no informa milímetros ni hora de emisión. La página de alertas del SMN no pudo consultarse (error de acceso): el estado general de alertas queda NO_VERIFICADO.",
    "enlace": "https://coe.corrientes.gob.ar/alertas"
-  },
-  {
-   "fecha": "09/11/2026, 18:49 h",
-   "organismo": "Verificación de este tablero (repositorio hidrológico de Drive, vigilancia meteorológica, SMN, COE, Defensa Civil, EBY)",
-   "resumen": "Repositorio: manifiesto encontrado y aceptado manifiesto_hidrologico_20261109_164429.json (ID 18Kc0N1wIe7slyl6C9JngatERdfl6GzSj, VALIDADO el 09/11/2026, 16:49 h); anterior aceptado: 20261108_044605. Verificación propia con código, descarga por enlace público (bytes originales): 6 de 6 huellas SHA-256 y tamaños coinciden (parana_historico 56.283 bytes, 219 registros; uruguay_historico 14.857 bytes, 46 registros; estado_actual 10.271; umbrales_puertos 8.606; pronosticos_oficiales 2.519; fuentes_metadatos 7.101), sin duplicados, con las columnas declaradas y JSON válidos (utf-8-sig). El histórico (hist-data) incorpora 12 registros nuevos (9 del Paraná y 3 del Uruguay). Frescura: manifiesto de menos de 14 h; se lo considera actualizado y las alturas mostradas salen del repositorio, salvo Garruchos (EXTERNA, pendiente de consolidación, 08/11, 07:00 h). Advertencias del manifiesto: CIM/UNL 09/11 fecha solamente, sin hora; CTM 09/11 07:00 h en tres estaciones; sin verificación de Claude/Cowork. Meteorología: último archivo de Drive vigilancia_meteorologica_20261109_165120.json (ID 1Aele9FYUFC1H1LuPTDcdfBWbKvvcwAOu, revisión 05689f91d2738e1a9965e9d025afdb81127c8cf58cfe445250e1022902030f5e, 09/11/2026, 16:51 h), estado NO_DETERMINADO normalizado a NO_VERIFICADO (XML del SMN no validados; el COE sin alertas propias). Consulta directa del COE: sin alertas vigentes ni por empezar. Pasos fronterizos, rutas, prensa y centros de evacuados no se reverificaron en esta corrida y conservan su última fecha.",
-   "enlace": "https://drive.google.com/file/d/18Kc0N1wIe7slyl6C9JngatERdfl6GzSj/view"
-  },
-  {
-   "fecha": "08/11/2026, 18:52 h",
-   "organismo": "Verificación de este tablero (repositorio hidrológico de Drive, vigilancia meteorológica, SMN, COE, Defensa Civil, EBY)",
-   "resumen": "Repositorio: manifiesto encontrado y aceptado manifiesto_hidrologico_20261108_044605.json (ID 1ZG1xV1i6ITrEZoE4w0lkdx7J6Bmzub6p, VALIDADO el 08/11/2026, 04:47 h); anterior aceptado: 20261104_172157. Verificación propia con código, descarga por enlace público (bytes originales): 6 de 6 huellas SHA-256 y tamaños coinciden (parana_historico 54.068 bytes, 210 registros; uruguay_historico 14.085 bytes, 43 registros; estado_actual 10.282; umbrales_puertos 8.603; pronosticos_oficiales 2.519; fuentes_metadatos 6.882), sin duplicados, con las columnas declaradas y JSON válidos (utf-8-sig). Se cargaron el histórico (hist-data) con 13 registros nuevos respecto de la corrida anterior. Frescura: manifiesto de más de 14 h y lecturas anteriores a los partes de hoy: no se lo considera actualizado; alturas mostradas por lectura directa (CIM/UNL 08/11, solo fecha; CTM 08/11, 07:00 h). Advertencias del manifiesto: CIM/UNL 07/11 solo fecha; CTM 07/11 07:00 h con más de 12 h al validar; INA sin lecturas incorporadas; Claude/Cowork no verificado. Meteorología: último archivo de Drive vigilancia_meteorologica_20261106_184806.json (ID 15pFDaK1FcyCdDs2B1CYWSSogHgE1q-DG, revisión ea5294dd23d094ce7ad2c9d429045703ecb547822aa11f54c25858437693312e, 06/11/2026, 18:48 h, CON_ALERTAS normalizado a VERIFICADO_CON_ALERTAS en su momento); su alerta (2026-0066-AT) ya venció. Consulta directa del COE a las 08/11/2026, 18:52 h: sin alertas vigentes ni por empezar; SMN no verificable: estado vigente NO_VERIFICADO.",
-   "enlace": "https://drive.google.com/file/d/1ZG1xV1i6ITrEZoE4w0lkdx7J6Bmzub6p/view"
   },
   {
    "fecha": "08/11/2026, 18:52 h",
@@ -220,57 +184,15 @@
    "enlace": "https://www.infobae.com/politica/2026/11/06/el-nino-la-crecida-del-rio-uruguay-obligo-a-cerrar-cuatro-pasos-fluviales-a-brasil/"
   },
   {
-   "fecha": "04/11/2026, 18:58 h",
-   "organismo": "Verificación de este tablero (repositorio hidrológico de Drive)",
-   "resumen": "Repositorio: manifiesto encontrado y aceptado manifiesto_hidrologico_20261104_172157.json (ID 1DBuk7mXQCzeb08kxh21XFkCUyssmHiF_, VALIDADO el 04/11/2026, 17:21 h); anterior aceptado: 20261104_082348. Verificación propia con código, descarga por enlace público (bytes originales): 6 de 6 huellas SHA-256 y tamaños coinciden (parana_historico 46.685 bytes, 183 registros, idéntico al anterior; uruguay_historico 10.249 bytes, 31 registros; estado_actual 10.077; umbrales_puertos 8.305; pronosticos_oficiales 2.426; fuentes_metadatos 5.709), sin duplicados y con JSON válidos. Novedad: lecturas del Uruguay del 04/11, 07:00 h (CTM Salto Grande): Paso de los Libres 5,90 m, Santo Tomé 4,84 m, Alvear 6,04 m, Garruchos 3,58 m, todos bajo alerta. Paraná sin cambios (Corrientes 7,02 m). Meteorología: sin revisión de Drive posterior a la del 04/11, 07:32 h; las alertas del COE vigentes hasta las 20:59 h se conservan. No se hallaron en esta corrida informes nuevos de Defensa Civil ni comunicados nuevos de Yacyretá; pasos y rutas conservan su última verificación.",
-   "enlace": "https://drive.google.com/file/d/1DBuk7mXQCzeb08kxh21XFkCUyssmHiF_/view"
-  },
-  {
    "fecha": "04/11/2026, 09:15 h",
-   "organismo": "Verificación de este tablero (repositorio hidrológico de Drive, vigilancia meteorológica, SMN, COE, Defensa Civil, EBY)",
-   "resumen": "Repositorio: manifiesto encontrado y aceptado manifiesto_hidrologico_20261104_082348.json (ID 1ZF-6_NPJMfb04csHVVxUy9cS4YKQqQom, VALIDADO el 04/11/2026, 08:23 h). Verificación propia con código, descarga por enlace público (bytes originales): 6 de 6 huellas SHA-256 y tamaños coinciden (parana_historico 46.685 bytes, 183 registros; uruguay_historico 8.917 bytes, 27 registros; estado_actual 9.734; umbrales_puertos 8.295; pronosticos_oficiales 2.420; fuentes_metadatos 5.703), sin duplicados y con JSON válidos. Alturas (CIM/UNL, tabla del 04/11, solo fecha): Corrientes 7,02 m (−6 cm), Paso de la Patria 7,22 m, Itatí 7,48 m, Bella Vista 6,44 m, Goya 6,10 m, Esquina 5,55 m, Empedrado 6,07 m, Itá Ibaté 5,98 m e Ituzaingó 3,74 m; Uruguay sin lectura nueva (CTM, 03/11, 07:00 h). Meteorología: vigilancia_meteorologica_20261104_073228.json (ID 1EQx9v7zEnA-bbzkDhbAnafLTP-Eedqg7), CON_ALERTAS normalizado a VERIFICADO_CON_ALERTAS. Sin informe nuevo de Defensa Civil (rige el total del 02/11: 1.687 personas), sin comunicado nuevo de Yacyretá hallado (rige el alerta hidrológico N.º 01/noviembre) y sin verificación de cambios en pasos y rutas en esta corrida.",
-   "enlace": "https://drive.google.com/file/d/1ZF-6_NPJMfb04csHVVxUy9cS4YKQqQom/view"
-  },
-  {
-   "fecha": "04/11/2026, 09:15 h",
-   "organismo": "COE de Corrientes, alertas y avisos de corto plazo del 4/11 (listado oficial, revisión meteorológica de Drive del 04/11, 07:32 h)",
+   "organismo": "COE de Corrientes, alertas y avisos de corto plazo del 4/11 (listado oficial)",
    "resumen": "Vigentes hasta las 20:59 h: alertas naranjas 2026-0018-NT (15 departamentos, con la Capital) y 2026-0019-NT (24 departamentos, con la Capital) y amarillas 2026-0063-AT (10 departamentos, sin la Capital) y 2026-0064-AT (Monte Caseros), todas por tormentas. Vencidos: avisos rojos de corto plazo 2026-0123-CP (Capital, Empedrado, San Cosme y San Luis del Palmar, 05:52 a 07:52 h) y 2026-0124-CP (11 departamentos sin la Capital, 06:16 a 09:16 h). El listado no informa milímetros ni hora de emisión; los canales del SMN no fueron verificables.",
    "enlace": "https://coe.corrientes.gob.ar/alertas"
   },
   {
-   "fecha": "03/11/2026, 19:55 h",
-   "organismo": "Verificación de este tablero (repositorio hidrológico de Drive, vigilancia meteorológica, SMN, COE, Defensa Civil, EBY)",
-   "resumen": "Repositorio: manifiesto encontrado y aceptado manifiesto_hidrologico_20261103_145314.json (ID 1DJYutnTXdxRVwpZ5Xpcix9OsaXaXksby, VALIDADO el 03/11/2026, 14:54 h). Verificación propia con código, descarga por enlace público (bytes originales): 6 de 6 huellas SHA-256 y tamaños coinciden (parana_historico 44.254 bytes, 174 registros; uruguay_historico 8.917 bytes, 27 registros; estado_actual 9.709; umbrales_puertos 8.301; pronosticos_oficiales 2.420; fuentes_metadatos 6.466), sin duplicados y con JSON válidos. Se cargaron el histórico y las alturas: Corrientes 7,08 m (−5 cm), Paso de la Patria 7,30 m, Itatí 7,55 m, Bella Vista 6,46 m, Goya 6,10 m, Esquina 5,50 m, Empedrado 6,09 m, Itá Ibaté 6,00 m e Ituzaingó 3,73 m (CIM/UNL, tabla del 03/11, solo fecha); Uruguay (CTM, 03/11, 07:00 h): Paso de los Libres 6,53 m, Santo Tomé 5,59 m, Alvear 6,79 m, Garruchos 4,00 m. Meteorología: vigilancia_meteorologica_20261103_193231.json (ID 1RQDN6nC7QbjCHKtSzt1rgEqhbJx_IRB2) con estado NO_DETERMINADO, normalizado a NO_VERIFICADO; el COE figura sin alertas vigentes propias en su página (último aviso listado del 01/11 al 02/11), en contradicción con la prensa que difunde su alerta naranja del 3 y 4/11, y el XML CAP del SMN no fue validable; una lista vacía no prueba ausencia de alertas. Sin informe nuevo de Defensa Civil (rige el total del 02/11: 1.687 personas), sin comunicado nuevo de Yacyretá (rige el alerta hidrológico N.º 01/noviembre) y sin cambios en el parte del SMN para la ciudad.",
-   "enlace": "https://drive.google.com/file/d/1DJYutnTXdxRVwpZ5Xpcix9OsaXaXksby/view"
-  },
-  {
-   "fecha": "03/11/2026, 19:25 h",
-   "organismo": "Verificación de este tablero (repositorio hidrológico de Drive, SMN, COE, Defensa Civil, EBY)",
-   "resumen": "Repositorio: manifiesto encontrado manifiesto_hidrologico_20261103_145314.json (ID 1DJYutnTXdxRVwpZ5Xpcix9OsaXaXksby, estado VALIDADO el 03/11/2026 a las 14:54 h); manifiesto aceptado: ninguno nuevo, rige el 20261102_202300 (ID 1Q-jSqh6RKMMM7yUmzioXPPnvi9RuXoKz). El conector entrega los archivos como base64 dentro de la respuesta y no permite calcular por código el SHA-256 de los seis archivos de la corrida nueva: LIMITACION_DE_VERIFICACION (no es un error de validación ni implica archivos corruptos). No se cargaron alturas ni histórico de esa corrida; hist-data y las alturas conservan su fecha real. Contraste del manifiesto nuevo, sin cargar como dato consolidado: Prefectura (tabla del 03/11, solo fecha) con Corrientes 7,08 m (−5 cm). Meteorología: archivo vigilancia_meteorologica_diagnostico_20261103_180946.json (ID 1yuECKbns5vpr5ZUk5pY3g6JAY1sR7zcb) con estado NO_DETERMINADO, normalizado a NO_VERIFICADO; una lista vacía no prueba ausencia de alertas. Siguen vigentes, según la prensa que difunde los partes oficiales, la alerta naranja del COE (40 a 80 mm, 3 y 4/11) y los avisos del SMN (amarillo del 3/11 y naranja del 4/11). Parte del SMN para la ciudad (La Nación, 08:46 h) sin cambios: mañana tormentas fuertes por la mañana y la tarde (70 %), jueves 5/11 sin lluvia. Sin informe nuevo de Defensa Civil (rige el total del 02/11: 1.687 personas) ni comunicado nuevo de Yacyretá (rige el alerta hidrológico N.º 01/noviembre).",
-   "enlace": "https://drive.google.com/file/d/1DJYutnTXdxRVwpZ5Xpcix9OsaXaXksby/view"
-  },
-  {
-   "fecha": "03/11/2026, 18:52 h",
-   "organismo": "Verificación de este tablero (repositorio hidrológico de Drive)",
-   "resumen": "Manifiesto más reciente en la carpeta: manifiesto_hidrologico_20261103_145314.json (ID 1DJYutnTXdxRVwpZ5Xpcix9OsaXaXksby), estado VALIDADO el 03/11/2026 a las 14:54 h. En esta corrida solo pudo comprobarse por código la huella SHA-256 del archivo parana_historico (coincide con el manifiesto); los otros cinco archivos llegaron por el conector sin posibilidad de calcular su huella, por lo que la corrida nueva NO se cargó (ERROR DE VALIDACIÓN, verificación incompleta) y rigen los datos del manifiesto 20261102_202300. Contraste, sin cargar como dato consolidado: la corrida nueva informa Prefectura (CIM/UNL, tabla del 03/11, solo fecha, sin hora individual) con Corrientes 7,08 m (−5 cm), Paso de la Patria 7,30 m, Itatí 7,55 m, Goya 6,10 m, Bella Vista 6,46 m, Esquina 5,50 m, Empedrado 6,09 m, Itá Ibaté 6,00 m e Ituzaingó 3,73 m, y CTM Salto Grande (03/11, 07:00 h) con Paso de los Libres 6,53 m. No se hallaron en esta corrida avisos, informes de Defensa Civil ni comunicados de Yacyretá posteriores a los ya cargados; rigen los de las 11:35 h.",
-   "enlace": "https://drive.google.com/file/d/1DJYutnTXdxRVwpZ5Xpcix9OsaXaXksby/view"
-  },
-  {
-   "fecha": "03/11/2026, 11:35 h",
-   "organismo": "Verificación de este tablero (Prefectura, SMN, COE, Defensa Civil)",
-   "resumen": "Prefectura: sigue vigente la tabla diaria del 02/11 (Corrientes 7,11 m, −0,05; Agrofy/INA, consulta de las 11:25 h); aún no hay tabla del 03/11, por lo que no se agregaron lecturas al histórico propio. SMN (La Nación, parte de las 08:46 h): hoy tormentas fuertes por la mañana (70 %), chaparrones por la tarde (40 %) y tormentas aisladas por la noche (40 %); mañana tormentas fuertes por la mañana y por la tarde (70 %) y chaparrones por la noche (40 %); del jueves 5/11 al lunes 9/11 sin lluvia significativa. Rigen la alerta naranja del COE (40 a 80 mm, 3 y 4/11) y los avisos del SMN. Defensa Civil: sin informe nuevo; rige el total del 02/11 (1.687 personas, 409 evacuadas y 1.278 autoevacuadas), en línea con la cifra de más de 1.680 desplazados difundida por MisionesOnline el 03/11.",
-   "enlace": "https://www.lanacion.com.ar/clima/corrientes/"
-  },
-  {
-   "fecha": "03/11/2026, 07:42 h",
-   "organismo": "Verificación de este tablero (Prefectura, SMN, COE, EBY, Defensa Civil, INA)",
-   "resumen": "Repositorio validado (manifiesto 20261102_202300, 6 de 6 huellas): Prefectura (tabla diaria del 02/11, hora no publicada): Corrientes 7,11 m, Paso de la Patria 7,35 m, Itatí 7,56 m, Bella Vista 6,53 m, Goya 6,09 m, Esquina 5,44 m, Ituzaingó 3,75 m. Respaldo del repositorio: Corrientes 7,13 m (02/11, 06:00 h) y demás puertos al 01/11. Uruguay (CTM, 02/11, 07:00 h): Paso de los Libres 7,03 m, bajo su alerta. SMN: aviso amarillo del 3/11 que incluye a Corrientes (20 a 40 mm) y aviso naranja del 4/11; COE: alerta naranja para 24 departamentos (40 a 80 mm). Parte del SMN para la ciudad (La Nación, 07:00 h): tormentas fuertes hoy por la mañana y mañana por la noche. Defensa Civil: sin informe nuevo; rige el total del 02/11 (1.687 personas). EBY: alerta hidrológico N.º 01/noviembre; paso Ituzaingó–Ayolas suspendido hasta el 6/11.",
-   "enlace": "https://www.lanacion.com.ar/clima/corrientes/"
-  },
-  {
    "fecha": "03/11/2026, 05:58 h",
    "organismo": "Entidad Binacional Yacyretá (EBY), alerta hidrológico N.º 01/noviembre (difundido por Examedia, Diario Época)",
-   "resumen": "Caudal afluente previsto de cerca de 29.000 m³/s para el 3/11 y de 27.000 a 29.000 m³/s en las jornadas siguientes; tendencia a la baja, con los niveles aún por encima de los umbrales de alerta e inundabilidad. Los caudales superaron la media histórica en 37 % en septiembre y en 106 % en octubre (serie 1971-2025). Lluvias previstas en la cuenca: entre 20 y 50 mm en la semana en gran parte de la cuenca, con picos locales de hasta 90 mm (centros especializados). Maniobras de la represa: la nota no las detalla. El paso Ituzaingó–Ayolas sigue suspendido hasta el viernes 6/11 (prórroga anunciada el 02/11). Comunicado original: https://www.eby.gov.py/alerta-hidrologico-n01-noviembre/ (no se pudo abrir en esta corrida; el contenido proviene de la nota de Examedia).",
+   "resumen": "Caudal afluente previsto de cerca de 29.000 m³/s para el 3/11 y de 27.000 a 29.000 m³/s en las jornadas siguientes; tendencia a la baja, con los niveles aún por encima de los umbrales de alerta e inundabilidad. Los caudales superaron la media histórica en 37 % en septiembre y en 106 % en octubre (serie 1971-2025). Lluvias previstas en la cuenca: entre 20 y 50 mm en la semana en gran parte de la cuenca, con picos locales de hasta 90 mm (centros especializados). Maniobras de la represa: la nota no las detalla. El paso Ituzaingó–Ayolas sigue suspendido hasta el viernes 6/11 (prórroga anunciada el 02/11). Comunicado original: https://www.eby.gov.py/alerta-hidrologico-n01-noviembre/.",
    "enlace": "https://examedia.com.ar/portada/post/88169121"
   },
   {
@@ -284,12 +206,6 @@
    "organismo": "Servicio Meteorológico Nacional (SMN), aviso amarillo por tormentas del martes 3/11 y aviso naranja del miércoles 4/11 (difundido por Examedia)",
    "resumen": "Aviso amarillo por tormentas para el martes 3/11 en Corrientes, Misiones, Chaco, Formosa, Santa Fe, Entre Ríos, Santiago del Estero y otras provincias, con acumulados de 20 a 40 mm; la nota no detalla departamentos ni horarios de vigencia o emisión. Aviso naranja por tormentas fuertes para el miércoles 4/11 en Corrientes y zonas aledañas (emitido el 02/11 a las 18:03 h), sin milímetros en las notas. Inestabilidad hasta el jueves 5/11 inclusive.",
    "enlace": "https://examedia.com.ar/portada/post/88168653"
-  },
-  {
-   "fecha": "02/11/2026, 18:52 h",
-   "organismo": "Verificación de este tablero (Prefectura, SMN, COE, EBY, Defensa Civil, INA)",
-   "resumen": "Repositorio validado (manifiesto 20261102_180456): Corrientes 7,13 m, Paso de la Patria 7,36 m, Itatí 7,57 m, Bella Vista 6,53 m, Goya 6,09 m, Esquina 5,42 m, Ituzaingó 3,76 m (CIM/UNL, hora no publicada). Uruguay (CTM, 07:00 h): Paso de los Libres 7,03 m, ya bajo su alerta. SMN: aviso amarillo del 2/11 para el norte de Corrientes (20 a 50 mm); el del 3/11 no incluye a Corrientes. Sin avisos del COE hallados. Defensa Civil: 1.687 personas (409 evacuadas y 1.278 autoevacuadas). EBY: paso Ituzaingó–Ayolas suspendido hasta el 6/11.",
-   "enlace": "https://www.lanacion.com.ar/clima/corrientes/"
   },
   {
    "fecha": "02/11/2026",
@@ -316,22 +232,10 @@
    "enlace": "https://www.lanacion.com.ar/sociedad/hay-alerta-amarilla-por-tormentas-para-este-lunes-2-de-noviembre-las-provincias-afectadas-nid01112026/"
   },
   {
-   "fecha": "02/11/2026, 07:05 h",
-   "organismo": "Verificación de este tablero (Prefectura, SMN, COE, EBY, Defensa Civil, INA)",
-   "resumen": "Prefectura (parte del 01/11): Corrientes 7,16 m, Paso de la Patria 7,38 m, Itatí 7,63 m, Bella Vista 6,53 m, Goya 6,07 m, Esquina 5,36 m, Ituzaingó 3,85 m. SMN: aviso amarillo por tormentas para el norte de Corrientes el 2/11 (20 a 50 mm); parte para la ciudad con tormentas fuertes hoy y el miércoles 4/11. Sin avisos del COE hallados. Defensa Civil: sin informe nuevo; rige el total del 28/10 (1.496 personas). EBY: sin comunicado posterior al alerta N.º 13 del 30/10. INA: descenso previsto hacia el 10/11 con riesgo de nuevas subas.",
-   "enlace": "https://www.lanacion.com.ar/clima/corrientes/"
-  },
-  {
    "fecha": "31/10/2026",
    "organismo": "Instituto Nacional del Agua (INA) y Prefectura Naval Argentina (El Litoral, difundido por Examedia)",
    "resumen": "Más de 1.600 personas evacuadas y autoevacuadas en la provincia. El INA proyecta para el 10/11 entre 5,10 y 6,00 m en Corrientes y entre 4,50 y 6,00 m en Goya, con una posible bajante en las dos semanas siguientes. Yacyretá reduciría su caudal a 27.000 m³/s. Lluvias abundantes previstas en la cuenca media del Paraguay a comienzos de noviembre podrían provocar nuevas subas en 7 a 15 días.",
    "enlace": "https://examedia.com.ar/portada/post/88156949"
-  },
-  {
-   "fecha": "01/11/2026, 07:06 h",
-   "organismo": "Verificación de este tablero (Prefectura, SMN, COE, EBY, Defensa Civil, INA)",
-   "resumen": "Prefectura: Corrientes 7,23 m el 01/11 (estacionado), Paso de la Patria 7,48 m, Bella Vista 6,51 m, Ituzaingó 3,88 m; Itatí 7,80 m, Goya 5,95 m y Esquina 5,27 m al 31/10. SMN (Corrientes Hoy, 31/10): domingo 1/11 con tormentas aisladas por la tarde y 40 a 70 % por la noche; lunes 2/11 con 10 % por la mañana y 0 % por la tarde; martes 3/11 con 40 % y tormentas aisladas. Sin avisos vigentes del SMN ni del COE hallados. Meteored: 0,9 mm hoy y 5,0 mm mañana en la Capital. Defensa Civil: sin informe nuevo; rige el total del 28/10 (1.496 personas); TN24 informa más de 1.600 el 01/11 sin atribución oficial. EBY: alerta N.º 13 del 30/10, con descenso del caudal.",
-   "enlace": "https://www.lanacion.com.ar/clima/corrientes/"
   },
   {
    "fecha": "01/11/2026",
@@ -353,33 +257,15 @@
   },
   {
    "fecha": "30/10/2026, 07:15 h",
-   "organismo": "Verificación de este tablero (Prefectura, SMN, COE, EBY, Defensa Civil, INA)",
-   "resumen": "Prefectura: sin parte nuevo del 30/10; rige el del 29/10 (Corrientes 7,36 m, −0,03). SMN (La Nación, versión de las 16:49 h): viernes 30 con 10 % por la tarde y 0 % por la noche; sábado 31 y domingo 1/11, 0 %; martes 3/11 con 40 % y tormentas aisladas por la tarde; sin avisos vigentes del SMN ni del COE hallados. Meteored y Agrofy: 0,0 y 0,2 mm hoy en la Capital. Defensa Civil: 440 evacuados y más de 1.000 autoevacuados (Examedia, 30/10), sin cifra total nueva; rige la del 28/10 (1.496 personas). EBY: sin comunicado posterior al informe del 27/10, que prevé descenso gradual hacia el fin de semana.",
-   "enlace": "https://www.lanacion.com.ar/clima/corrientes/"
-  },
-  {
-   "fecha": "30/10/2026, 07:15 h",
    "organismo": "Defensa Civil de Corrientes, director Bruno Lovison (Diario Época, difundido por Examedia)",
    "resumen": "Defensa Civil mantiene la alerta por la onda de crecida aguas abajo. Los niveles bajaron levemente en la mayor parte de la cuenca por el tiempo seco en el Iguazú y en Andresito. Los evacuados bajaron de unos 700 a 440 y los autoevacuados superan los 1.000. La onda se concentra entre la ciudad de Corrientes y Esquina, con niveles altos; la semana anterior se evacuaron familias en Cecilio Echevarría. Itatí, Paso de la Patria, la Capital, Ituzaingó e isla Apipé mantienen la asistencia; en la Capital, la Escuela N.º 293 es el refugio principal, apoyado por al menos seis comedores comunitarios. Advierten que noviembre y diciembre podrían traer lluvias intensas. La nota no detalla localidades ni alturas.",
    "enlace": "https://examedia.com.ar/portada/post/88147066"
-  },
-  {
-   "fecha": "29/10/2026, 18:45 h",
-   "organismo": "Verificación de este tablero (Prefectura, SMN, COE, EBY, Defensa Civil, INA)",
-   "resumen": "Prefectura, parte del 29/10: Corrientes 7,36 m (−0,03), Paso de la Patria 7,69 m, Itatí 8,09 m, Bella Vista 6,45 m (sobre su evacuación), Goya 5,77 m (sobre su evacuación), Esquina 5,19 m, Ituzaingó 3,95 m (−0,35, bajo su evacuación). Paso de los Libres (Uruguay) 8,03 m, sobre su alerta y a 47 cm de la evacuación. SMN (La Nación, 16:49 h del 29/10): 10 % de probabilidad de lluvia esta tarde, 0 % del 30/10 al 1/11 y 40 % con tormentas aisladas el 3/11; sin avisos vigentes del SMN ni del COE para Corrientes. Defensa Civil: sin informe nuevo; rige el del 28/10 (1.496 personas, 440 evacuadas y 1.056 autoevacuadas). EBY: sin comunicado posterior al informe del 27/10, que prevé descenso gradual.",
-   "enlace": "https://www.lanacion.com.ar/clima/corrientes/"
   },
   {
    "fecha": "29/10/2026",
    "organismo": "Prefectura Naval Argentina, parte del 29/10 (difundido por La Nación)",
    "resumen": "Lecturas de la mañana: Ituzaingó 3,95 m (8 h, −5 cm en dos horas), Itatí 8,09 m, Paso de la Patria 7,69 m, Corrientes 7,36 m (10 h, −2 cm respecto de las 4 h), Barranqueras 7,22 m, Bella Vista 6,45 m, Goya 5,77 m (+1 cm), Esquina 5,19 m, La Paz 5,75 m. Uruguay: Paso de los Libres 8,03 m (10 h), Concordia 9,00 m (6 h), Santo Tomé 10,43 m (−58 cm en 12 h). La nota aclara que las lecturas corresponden a distintos horarios.",
    "enlace": "https://www.lanacion.com.ar/sociedad/altura-de-los-rios-en-la-argentina-segun-prefectura-esta-es-la-situacion-y-los-niveles-de-alerta-hoy-nid29102026/"
-  },
-  {
-   "fecha": "29/10/2026, 07:15 h",
-   "organismo": "Verificación de este tablero (Prefectura, SMN, COE, EBY, Defensa Civil, INA)",
-   "resumen": "Prefectura, parte del 28/10 (8 h): Corrientes 7,39 m (+0,04), Paso de la Patria 7,74 m, Itatí 8,20 m, Bella Vista 6,43 m (sobre su evacuación), Goya 5,68 m, Esquina 5,16 m, Ituzaingó 4,30 m (−0,10). Paso de los Libres (Uruguay) 7,56 m, sobre su alerta. SMN (La Nación, 16:56 h del 28/10): jueves 29 con 0 %, 10 % por la tarde; sin avisos vigentes del SMN ni del COE para Corrientes. Defensa Civil: sin informe nuevo; rige el del 28/10 (1.496 personas, 440 evacuadas y 1.056 autoevacuadas). EBY: informe del 27/10 con descenso gradual hacia el fin de semana.",
-   "enlace": "https://www.lanacion.com.ar/clima/corrientes/"
   },
   {
    "fecha": "28/10/2026",
@@ -400,24 +286,6 @@
    "enlace": "https://www.infobae.com/sociedad/2026/10/28/el-nino-chaco-tiene-mas-de-2200-afectados-por-las-inundaciones-y-en-corrientes-se-reportaron-otros-1500/"
   },
   {
-   "fecha": "28/10/2026, 18:45 h",
-   "organismo": "Verificación de este tablero (Prefectura, SMN, EBY, Defensa Civil, INA)",
-   "resumen": "SMN (La Nación, actualizado a las 16:56 h): miércoles 28 con 0 % de probabilidad de lluvia; jueves 29, 0 % por la mañana y 10 % por la tarde; viernes 30, 0 %. No se hallaron avisos vigentes del SMN ni del COE. Prefectura: sin parte nuevo en el CIM de la UNL; rige el del 27/10 (Corrientes 7,35 m, estacionario). EBY: sin comunicado posterior al del 25/10 ni al anuncio del 26/10 (paso Ituzaingó–Ayolas cerrado al menos hasta el 30/10). Defensa Civil: nueva cifra del 28/10, con 1.496 personas fuera de sus hogares (440 evacuadas y 1.056 autoevacuadas).",
-   "enlace": "https://www.lanacion.com.ar/clima/corrientes/"
-  },
-  {
-   "fecha": "28/10/2026, 07:06 h",
-   "organismo": "Verificación de este tablero (Prefectura, SMN, EBY, Defensa Civil, INA)",
-   "resumen": "Prefectura, parte del 27/10 publicado por el CIM de la UNL: Corrientes 7,35 m (estacionario), Barranqueras 7,23 m (+0,01), Paso de la Patria 7,74 m (+0,04), Itatí 8,21 m (+0,02), Itá Ibaté 6,76 m, Ituzaingó 4,45 m (−0,05), Empedrado 6,21 m (+0,01), Bella Vista 6,36 m, Goya 5,65 m (+0,02) y Esquina 5,12 m (+0,03). SMN (parte difundido por La Nación, versión del 26/10, 23:31 h): miércoles 28 con 0 % de probabilidad de lluvia y jueves 29 con 10 %; no se hallaron avisos vigentes del SMN ni del COE (la página de alertas del SMN no pudo consultarse). EBY: sin comunicado posterior al del 25/10 ni al anuncio del 26/10 (paso Ituzaingó–Ayolas cerrado al menos hasta el 30/10). Defensa Civil: rige el relevamiento del 26/10, con 1.452 personas fuera de sus hogares (767 evacuados y 685 autoevacuados); sin informe más reciente.",
-   "enlace": "http://wfich1.unl.edu.ar/cim/rios/parana/alturas"
-  },
-  {
-   "fecha": "27/10/2026, 18:45 h",
-   "organismo": "Verificación de este tablero (SMN, Prefectura, EBY, Defensa Civil, INA)",
-   "resumen": "SMN (parte difundido por La Nación): miércoles 28 con 0 % de probabilidad de lluvia y jueves 29 con 10 %; no se hallaron avisos vigentes del SMN ni del COE (la página de alertas del SMN no pudo consultarse). Prefectura: la página del CIM de la UNL no pudo consultarse; Paso de la Patria 7,74 m el 27/10 (+0,04 m) según La Nación, y el resto rige con el parte del 26/10 (Corrientes 7,35 m, −0,01). EBY: sin comunicado posterior al del 25/10 ni al anuncio del 26/10 sobre el paso Ituzaingó–Ayolas (cerrado al menos hasta el 30/10). Defensa Civil: rige el relevamiento del 26/10, con 1.452 personas fuera de sus hogares (767 evacuados y 685 autoevacuados).",
-   "enlace": "https://www.lanacion.com.ar/clima/corrientes/"
-  },
-  {
    "fecha": "27/10/2026, 15:01 h",
    "organismo": "Defensa Civil de Corrientes, director Bruno Lovison, y Prefectura Naval Argentina (difundido por La Nación y Salta News)",
    "resumen": "Paso de la Patria: el hidrómetro del puerto marcó 7,74 m el martes 27/10, sobre su cota de evacuación de 7,00 m. Más de 150 familias autoevacuadas y cuatro evacuadas formalmente por el municipio; hay sectores aislados por el agua y, según estimaciones oficiales, cerca del 40 % del pueblo está inundado (barrios Don Julián, La Isla y Pescadores, la zona de La Rioja y 8 de Diciembre, y la zona sur por el desborde del arroyo Guajó). El INA prevé una nueva onda de crecida para el 3/11. El intendente espera un pico de 8,00 a 8,10 m y advirtió que a 8,50 m el pueblo podría quedar incomunicado.",
@@ -434,18 +302,6 @@
    "organismo": "Instituto Nacional del Agua (INA), Alerta Hidrológico de la Cuenca del Plata, reporte diario",
    "resumen": "Observaciones del 26/10: Paraná en Corrientes 7,35 m (−0,01), aguas altas, con niveles de base que probablemente se mantengan sobre la alerta y la evacuación durante 7 días; Goya 5,64 m (+0,01), en ascenso, con mayor probabilidad de superar la evacuación desde el 27/10; Santa Fe 4,10 m (+0,03), con posibilidad de acercarse a la alerta desde los primeros días de noviembre. Uruguay: Paso de los Libres 6,25 m (+0,01), con tendencia de ascenso, alta probabilidad de superar la alerta de 7,50 m desde el 27/10 y chances de acercarse a la evacuación desde el 29/10; Concordia 9,26 m (−0,30), en descenso.",
    "enlace": "https://alerta.ina.gob.ar/a5/diario/reporte_diario"
-  },
-  {
-   "fecha": "27/10/2026, 07:10 h",
-   "organismo": "Verificación de este tablero (SMN, Prefectura, EBY, Defensa Civil)",
-   "resumen": "SMN (parte difundido por La Nación, 26/10, 23:31 h): martes 27 mayormente nublado, 10 % de probabilidad de lluvia en la mañana, la tarde y la noche; miércoles 28 con 0 %. No se hallaron avisos vigentes del SMN ni del COE (la página de alertas del SMN no pudo consultarse). Prefectura: sin parte nuevo; rige el del 26/10 (Corrientes 7,35 m, −0,01). EBY: sin comunicado posterior al del 25/10 ni al anuncio del 26/10 sobre el paso Ituzaingó–Ayolas (cerrado al menos hasta el 30/10). Defensa Civil (Prensa Mercosur, 26/10): se mantienen 1.452 personas fuera de sus hogares (767 evacuados y 685 autoevacuados); no se halló un informe más reciente.",
-   "enlace": "https://www.lanacion.com.ar/clima/corrientes/"
-  },
-  {
-   "fecha": "26/10/2026, 23:37 h",
-   "organismo": "Verificación de este tablero (SMN, Prefectura, EBY, Defensa Civil)",
-   "resumen": "SMN (parte difundido por La Nación, 26/10, 23:31 h): martes 27 mayormente nublado, 10 % de probabilidad de lluvia en la mañana, la tarde y la noche; miércoles 28 sin lluvia. No se hallaron avisos vigentes del SMN ni del COE (la página de alertas del SMN no pudo consultarse). Prefectura: sin parte nuevo; rige el del 26/10 (Corrientes 7,35 m, −0,01). EBY: la página del informe hidrológico no muestra un comunicado posterior al del 25/10 ni al anuncio del 26/10 sobre el paso Ituzaingó–Ayolas. Defensa Civil (Prensa Mercosur, 26/10): se mantienen 1.452 personas fuera de sus hogares (767 evacuados y 685 autoevacuados); Paso de la Patria, 24 evacuados y 86 autoevacuados.",
-   "enlace": "https://www.lanacion.com.ar/clima/corrientes/"
   },
   {
    "fecha": "26/10/2026, 18:44 h",
@@ -466,22 +322,10 @@
    "enlace": "https://www.eby.org.ar/yacyreta-informa-sobre-las-incidencias-del-fenomeno-super-nino"
   },
   {
-   "fecha": "26/10/2026, 18:44 h",
-   "organismo": "Verificación de este tablero (SMN, COE)",
-   "resumen": "No se encontraron avisos vigentes del SMN ni del COE para Corrientes el lunes 26 ni el martes 27/10 (la página de alertas del SMN no pudo consultarse). Meteored: 0 % de probabilidad de lluvia el lunes y 0,1 mm el martes a las 14 h (30 %). Agrofy (Open-Meteo): 0 mm el lunes y 0,1 mm el martes a las 17 h. Sin lluvia prevista del 28/10 al 1/11; clima.com anticipa 20,6 mm el 3/11 y 36,5 mm el 4/11.",
-   "enlace": "https://www.smn.gob.ar/alertas"
-  },
-  {
    "fecha": "23/10/2026",
    "organismo": "Instituto Nacional del Agua (INA), Alerta Hidrológico de la Cuenca del Plata, reporte diario",
    "resumen": "Observaciones del 23/10: Corrientes 7,42 m, aguas altas, sobre alerta y evacuación, con permanencia en aguas altas durante 4 a 5 días. Goya 5,60 m, sobre su alerta, con mayor probabilidad de superar la evacuación desde el 23/10. Uruguay: Paso de los Libres 7,40 m, bajo su alerta, con tendencia descendente y posible repunte hacia fines de octubre; Concordia 10,44 m, bajo su alerta.",
    "enlace": "https://alerta.ina.gob.ar/a5/diario/reporte_diario"
-  },
-  {
-   "fecha": "26/10/2026, 07:05 h",
-   "organismo": "Verificación de este tablero (SMN, COE, Prefectura)",
-   "resumen": "No se encontraron avisos vigentes del SMN ni del COE para Corrientes el lunes 26 ni el martes 27/10 (la página de alertas del SMN no pudo consultarse; el aviso naranja por tormentas del 24/10 ya venció). El parte semanal del SMN difundido por El Litoral prevé la semana con cielo parcialmente nublado y muy baja probabilidad de lluvia el viernes. Meteored: 0 % de probabilidad el lunes; clima.com: sin lluvia del 26/10 al 1/11. El parte de Prefectura del 26/10 todavía no estaba publicado: rigen las alturas del 25/10.",
-   "enlace": "https://www.smn.gob.ar/alertas"
   },
   {
    "fecha": "25/10/2026",
@@ -530,12 +374,6 @@
    "organismo": "INA, informe hidrométrico y pronóstico del río Paraná (actualizados el 23 y el 24/10)",
    "resumen": "Corrientes en 7,37 m, categoría aguas altas, con descenso diario. Pronóstico del INA para Santa Fe: 4,56 m el 27/10 y 4,92 m el 3/11, por debajo de su alerta de 5,30 m; las lluvias en la cuenca podrían cambiar el escenario.",
    "enlace": "https://www.ina.gob.ar/alerta/"
-  },
-  {
-   "fecha": "25/10/2026, 07:05 h",
-   "organismo": "Verificación de este tablero (SMN, COE)",
-   "resumen": "No se encontraron alertas vigentes del SMN ni del COE para Corrientes para el domingo 25/10. La página de alertas del SMN no pudo consultarse en esta corrida, por lo que la ausencia de alertas se basa en la prensa y en los modelos (Meteored 30 % de probabilidad de lluvia a las 14 h; Agrofy 0,4 mm).",
-   "enlace": "https://www.smn.gob.ar/alertas"
   },
   {
    "fecha": "22/10/2026, 06:53 h",
