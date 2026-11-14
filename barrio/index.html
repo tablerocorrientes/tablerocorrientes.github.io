@@ -357,7 +357,7 @@ $('when').innerHTML=etiqueta(NOW.key).replace(/^./,function(c){return c.toUpperC
   var hhmm=ob?new Date(ob.ts).toLocaleTimeString('es-AR',{hour:'2-digit',minute:'2-digit',hour12:false,timeZone:'America/Argentina/Cordoba'}):'';
   var obT=ob?(ob.estado==='seca'||(ob.mm!=null&&+ob.mm<=0)?'Sin lluvia registrada':'Lluvia registrada: '+(ob.mm!=null?(+ob.mm).toLocaleString('es-AR',{maximumFractionDigits:1})+' mm en la última hora':ob.estado)):'';
   var lastReg=(OBS&&OBS.dia===K0&&OBS.ts)?new Date(OBS.ts).toLocaleTimeString('es-AR',{hour:'2-digit',minute:'2-digit',hour12:false,timeZone:'America/Argentina/Cordoba'}):null;
-  $('when').innerHTML+='<br><span class="sky">'+(stale?'Pronóstico desactualizado':(ob?obT+', '+(ob.fuente||'estación ICAA')+', '+hhmm+' h':lbl+', estimado por pronóstico'+(lastReg?' (último registro de la estación: '+lastReg+' h)':' (sin registro de la estación)')))+'</span>';
+  $('when').innerHTML+='<br><span class="sky">'+(stale?'Pronóstico desactualizado':(ob?obT+' ('+hhmm+' h)':lbl+', estimado por pronóstico'+(lastReg?' (último registro de la estación: '+lastReg+' h)':' (sin registro de la estación)')))+'</span>';
 })();
 $('td0').textContent=stale?etiqueta(K0).replace(/^./,function(c){return c.toUpperCase();}):'Hoy';
 $('td1').textContent=stale?etiqueta(K1).replace(/^./,function(c){return c.toUpperCase();}):'Mañana';
@@ -463,15 +463,23 @@ function barras(d,i){
     var x=X0+h*bw+1.2;
     g+='<rect x="'+x.toFixed(1)+'" y="'+(BOT-bh).toFixed(1)+'" width="'+(bw-2.4).toFixed(1)+'" height="'+Math.max(v>0?2:0,bh).toFixed(1)+'" rx="2" fill="url(#'+(med?'gMed':'gPrn')+')"/>';
     if(v>=1)g+='<text x="'+(x+(bw-2.4)/2).toFixed(1)+'" y="'+(BOT-bh-3).toFixed(1)+'" text-anchor="middle" font-size="7.5" font-weight="700" fill="var(--ink)" font-family="Archivo,sans-serif">'+nf(v,v<10?1:0)+'</text>';}
-  var acc=0,pts=[],mxc=Math.max(5,d.r.reduce(function(s,x){return s+(x||0);},0));for(var q=0;q<24;q++){acc+=d.r[q]||0;pts.push((X0+(q+1)*bw).toFixed(1)+','+(BOT-acc/mxc*HB*.92).toFixed(1));}
-  if(acc>0.2){g+='<polyline points="'+X0+','+BOT+' '+pts.join(' ')+'" fill="none" stroke="var(--alert)" stroke-width="2" stroke-linejoin="round" opacity=".95"/><circle cx="'+(X0+24*bw).toFixed(1)+'" cy="'+(BOT-acc/mxc*HB*.92).toFixed(1)+'" r="3" fill="var(--alert)"/><text x="'+(X0+24*bw-4).toFixed(1)+'" y="'+(BOT-acc/mxc*HB*.92-6).toFixed(1)+'" text-anchor="end" font-size="8.5" font-weight="800" fill="var(--alert)" font-family="Archivo,sans-serif">'+nf(acc,acc<10?1:0)+' mm en el día</text>';}
+  var acc=0,ptsM=[X0+','+BOT],ptsP=[],mxc=Math.max(5,d.r.reduce(function(s,x){return s+(x||0);},0)),hCut=(i===0&&!stale)?HNOW:-1,accM=0,ya=function(v){return (BOT-v/mxc*HB*.92).toFixed(1);};
+  for(var q=0;q<24;q++){acc+=d.r[q]||0;var pt=(X0+(q+1)*bw).toFixed(1)+','+ya(acc);if(q<hCut){ptsM.push(pt);accM=acc;}else{if(!ptsP.length)ptsP.push(ptsM[ptsM.length-1]);ptsP.push(pt);}}
+  if(acc>0.2){var XR=X0+24*bw;
+    if(ptsM.length>1)g+='<polyline points="'+ptsM.join(' ')+'" fill="none" stroke="var(--alert)" stroke-width="2.4" stroke-linejoin="round"/>';
+    if(ptsP.length>1)g+='<polyline points="'+ptsP.join(' ')+'" fill="none" stroke="var(--alert)" stroke-width="2.4" stroke-dasharray="4 3" stroke-linejoin="round"/>';
+    g+='<circle cx="'+XR.toFixed(1)+'" cy="'+ya(acc)+'" r="3.2" fill="var(--alert)"/><text x="'+(XR-4).toFixed(1)+'" y="'+(+ya(acc)<TOP+16?+ya(acc)+13:+ya(acc)-6).toFixed(1)+'" text-anchor="end" font-size="8.5" font-weight="800" fill="var(--alert)" font-family="Archivo,sans-serif">Total del día: '+nf(acc,acc<10?1:0)+' mm</text>';
+    if(hCut>0&&accM>0.05){var xm=X0+hCut*bw;g+='<circle cx="'+xm.toFixed(1)+'" cy="'+ya(accM)+'" r="2.6" fill="var(--alert)"/><text x="'+(xm-3).toFixed(1)+'" y="'+(+ya(accM)-5).toFixed(1)+'" text-anchor="end" font-size="7.5" font-weight="800" fill="var(--alert)" font-family="Archivo,sans-serif">ya cayeron '+nf(accM,accM<10?1:0)+'</text>';}}
   g+='<line x1="'+X0+'" y1="'+(BOT+.5)+'" x2="'+(X0+24*bw)+'" y2="'+(BOT+.5)+'" stroke="var(--ink2)"/>';
   for(var tt=0;tt<=24;tt+=3)g+='<text x="'+(X0+tt*bw).toFixed(1)+'" y="'+(BOT+13)+'" font-size="8.5" text-anchor="middle" fill="var(--soft)" font-family="Archivo,sans-serif">'+tt+'</text>';
   g+='<text x="'+(X0+12*bw)+'" y="'+(BOT+24)+'" font-size="8" text-anchor="middle" fill="var(--soft)" font-family="Archivo,sans-serif">hora del día</text>';
   if(i===0&&!stale)g+='<line x1="'+xNow.toFixed(1)+'" y1="'+(TOP-4)+'" x2="'+xNow.toFixed(1)+'" y2="'+(BOT+4)+'" stroke="var(--ink)" stroke-width="1.6"/><rect x="'+(xNow-17).toFixed(1)+'" y="1" width="34" height="12" rx="6" fill="var(--ink)"/><text x="'+xNow.toFixed(1)+'" y="10" text-anchor="middle" font-size="8" font-weight="800" fill="var(--card)" font-family="Archivo,sans-serif">AHORA</text>';
   $('bars').innerHTML=g;
   var fm=OBS&&OBS.ts?new Date(OBS.ts).toLocaleString('es-AR',{day:'2-digit',month:'2-digit',hour:'2-digit',minute:'2-digit',hour12:false,timeZone:'America/Argentina/Cordoba'}).replace(',',' a las')+' h':'sin datos';
-  $('bleg').innerHTML='<span><i style="background:var(--alert);height:3px;margin-top:7px"></i><b>Línea amarilla:</b> lluvia acumulada del día</span><span><i style="background:linear-gradient(#4fb0d1,#0c3f52)"></i><b>Lluvia medida</b>, indicador compuesto: máximo horario de las estaciones ICAA y Corrientes 13805 del SNIH (no es la lluvia de toda la ciudad). Última actualización: '+fm+'</span><span><i style="background:linear-gradient(#b8a9ec,#5a3fb0)"></i><b>Pronóstico</b>, SMN, COE y modelos. Última actualización: '+String(D.actualizado||'').replace(/[<>&]/g,'')+'</span>';
+  var fp=String(D.actualizado||'').replace(/[<>&]/g,'').replace(/^(\d{1,2}\/\d{1,2})\/\d{4},?\s*(a las\s*)?/,'$1 a las ');
+  $('bleg').innerHTML='<span style="align-items:flex-start"><i style="width:14px;height:12px;border-radius:3px;background:linear-gradient(#4fb0d1,#0c3f52);margin-top:3px;flex:none"></i><span style="display:block"><b>Barras azules: lluvia medida por hora.</b><br><small>Estaciones del SNIH en la Capital · actualizada '+fm+'</small></span></span>'
+    +'<span style="align-items:flex-start"><i style="width:14px;height:12px;border-radius:3px;background:linear-gradient(#b8a9ec,#5a3fb0);margin-top:3px;flex:none"></i><span style="display:block"><b>Barras violetas: lluvia pronosticada por hora.</b><br><small>SMN, COE y modelos · actualizado '+fp+'</small></span></span>'
+    +'<span style="align-items:flex-start"><i style="width:14px;height:0;border-top:3px solid var(--alert);margin-top:8px;flex:none"></i><span style="display:block"><b>Línea amarilla: lluvia acumulada en el día.</b><br><small>Suma todo lo que llovió desde las 0 h (tramo lleno) más lo que se espera hasta las 24 h (tramo punteado). El punto final es el total del día.</small></span></span>';
 }
 
 
@@ -588,7 +596,7 @@ function render(){
   if(R.ob&&R.ob.L.length)vf+=' <b>Incluye obras terminadas:</b> '+R.ob.L.map(function(o){return String(o.nombre).replace(/[&<>"]/g,'')+' (+'+o.efecto.capacidad_pct+' % de desagüe, supuesto)';}).join('; ')+'.';
   $('vd').innerHTML=vd; $('vf').innerHTML=vf;
   $('gauge').innerHTML=gaugeSVG(d.cm,TH(),state.tierra?['Seco','Barro','Intransitable','Casas']:['Seco','Agua en calle','Anegada','Casas']);
-  clampar('upd');clampar('rT');clampar('vf');
+  clampar('rT');clampar('vf');
 
   barras(d,i);
   var tl=d.r.reduce(function(s,x){return s+x;},0);
@@ -646,7 +654,12 @@ $('reset').addEventListener('click',function(){state.ov={};state.H=+D.rio.altura
   var vieja=age!==null&&age>=24;
   u.className='upd'+(vieja?' old':'');
   var rioTxt=String(D.rio.actualizado||'').split(/;\s*|\.\s+/).filter(function(x){return x&&!/repositorio|manifiesto|huella|ACTUALIZADO|Drive|JSON|SHA|validad|consolidad/i.test(x);}).join('; ').replace('/2026','');
-  u.innerHTML='<span>Última información registrada <b>'+cuando+'</b>'+hace+(vieja?'. Puede haber novedades: consulte al SMN y al COE.':'.')+'<small>Río: '+(D.rio.altura!=null?String(D.rio.altura).replace('.',',')+' m, ':'')+'medición de Prefectura del '+rioTxt+'.</small>'+(function(){if(!OBS||!OBS.ts)return '<small>Lluvia registrada (SNIH): sin datos cargados.</small>';var d=new Date(OBS.ts),f=d.toLocaleString('es-AR',{day:'2-digit',month:'2-digit',hour:'2-digit',minute:'2-digit',hour12:false,timeZone:'America/Argentina/Cordoba'});return '<small><b style="color:#fff">Lluvia registrada (SNIH, estaciones de la Capital): actualizada el '+f.replace(',',' a las')+' h</b>. Las estaciones se consultan en forma periódica.</small>';})()+'</span>';
+  var fR=String(D.rio.actualizado||'').match(/\d{1,2}\/\d{1,2}\/\d{4}(,\s*\d{1,2}:\d{2}\s*h)?/),fL=OBS&&OBS.ts?new Date(OBS.ts).toLocaleString('es-AR',{day:'2-digit',month:'2-digit',hour:'2-digit',minute:'2-digit',hour12:false,timeZone:'America/Argentina/Cordoba'}).replace(',',' a las')+' h':'sin datos';
+  var row=function(ic,t,v,s){return '<span style="display:grid;grid-template-columns:auto 1fr;gap:8px;align-items:center;background:rgba(255,255,255,.1);border-radius:12px;padding:7px 10px;margin-top:6px"><span style="font-size:1.2rem">'+ic+'</span><span><b style="color:#fff">'+t+': '+v+'</b><small style="display:block">'+s+'</small></span></span>';};
+  u.innerHTML='<span style="display:block;width:100%"><b style="font-size:.72rem;letter-spacing:.06em;color:#cfe3ea">ÚLTIMAS ACTUALIZACIONES</b>'
+    +row('🌊','Río Paraná',(D.rio.altura!=null?String(D.rio.altura).replace('.',',')+' m':'s/d'),'Prefectura · '+(fR?fR[0].replace('/2026',''):'sin fecha'))
+    +row('🌧️','Lluvia medida',(OBS&&OBS.mm!=null?nf(+OBS.mm,1)+' mm en la última hora':'sin datos'),'Estaciones del SNIH en la Capital · '+fL)
+    +row('⛅','Pronóstico',(vieja?'desactualizado':'vigente'),'SMN, COE y modelos · '+cuando.replace(/^el /,'')+hace)+'</span>';
 })();
 $('src').innerHTML='<details class="fts"><summary>Fuentes consultadas</summary><p class="fnote">Datos precargados el '+D.actualizado+'. Prioridad: primero el dato oficial; los modelos solo distribuyen la lluvia por hora.</p>'+D.fuentes.map(function(g){return '<div class="fg"><b>'+g.g+'</b><ul>'+g.l.map(function(f){return '<li><a href="'+f[1]+'" target="_blank" rel="noopener">'+f[0]+'</a></li>';}).join('')+'</ul></div>';}).join('')+'</details>';
 drawScene();

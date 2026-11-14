@@ -163,7 +163,7 @@ function estacionDe(loc){if(!L||!L.estaciones)return null;var n=norm(loc.n),alt=
 function total(s){return s.total!=null?s.total:(s.valores||[]).reduce(function(a,v){return a+(v||0);},0);}
 function ultima(s){var v=s.valores||[];for(var i=v.length-1;i>=0;i--)if(v[i]!=null)return v[i];return null;}
 
-function factor(loc,H){if(!loc.rio||H==null)return 1;var a=loc.alerta,e=loc.evac;if(H<=a)return 1;if(H>=e)return 0.05;return 1-0.95*Math.pow((H-a)/(e-a),0.7);}
+function factor(loc,H){if(!loc.rio||H==null)return 1;var a=loc.alerta,e=loc.evac;if(loc.n==='Corrientes Capital'){a=5.00;e=7.02;}/* mismo criterio que el simulador por barrio: los desagües de la Capital empiezan a frenarse con el río sobre 5 m */if(H<=a)return 1;if(H>=e)return 0.05;return 1-0.95*Math.pow((H-a)/(e-a),0.7);}
 function cap0(loc){return loc.cap||(loc.n==='Corrientes Capital'?65:30);}
 
 function datos(){
