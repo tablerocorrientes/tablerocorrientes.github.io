@@ -1,0 +1,29 @@
+TAREA C, LLUVIA MEDIDA E IMAGEN SATELITAL (una sola tarea, siempre activa, con condición)
+
+REGLAS COMUNES PARA EL SITIO WEB (obligatorio)
+- Sitio: https://tablerocorrientes.github.io. Repositorio de GitHub: tablerocorrientes/tablerocorrientes.github.io, rama main. Las páginas son fijas: esta tarea SOLO escribe archivos de la carpeta data/ (y assets/sat.jpg cuando corresponda). Nunca modificar index.html, barrio/, provincia/, site.js, sw.js, tareas/ ni otros archivos del sitio.
+- Acceso: por git, sin clave. La sesión ya tiene permiso sobre este repositorio. No usar la API de GitHub con clave, no pedir claves y no intentar otras vías si git falla: informar el error.
+- Lectura y escritura CON CÓDIGO, nunca pasando el contenido de los archivos por la conversación:
+  Al empezar: git clone --depth 1 https://github.com/tablerocorrientes/tablerocorrientes.github.io /tmp/sitio (si ya existe, git -C /tmp/sitio pull --rebase). Leer los archivos de /tmp/sitio/data/ con Python (json).
+  Escribir: guardar el JSON nuevo en UTF-8 con indent=1 y ensure_ascii=False, luego git add de los archivos cambiados, git -c user.name="Tablero Ciudadano" -c user.email="tablerocorrientes@gmail.com" commit -m "<tarea>: actualiza <archivos>, <fecha y hora>" y git push origin HEAD:main. Un solo commit por corrida, al final.
+  Control de concurrencia: si el push es rechazado porque main cambió, ejecutar git pull --rebase origin main y volver a hacer push una vez. Si hay conflicto en el rebase, descartar el intento (git rebase --abort), volver a clonar, reaplicar SOLO los campos que esta tarea modifica y hacer push una vez más. Si vuelve a fallar, no escribir e informar "CONFLICTO DE CONCURRENCIA".
+  Modificar solo los campos que corresponden a esta tarea y conservar intactos todos los demás campos de cada archivo.
+  Después del push, confirmar con git ls-remote origin main que el commit quedó publicado.
+- Si no hay nada que cambiar, no hacer commit.
+- Formatos: los archivos conservan exactamente la estructura que tienen hoy (leerlos primero y respetarla). Fechas para mostrar en formato argentino "dd/mm/aaaa, hh:mm h" (hora de Argentina, UTC−3); fechas internas adicionales en ISO 8601 cuando se indique.
+- Fuentes: solo oficiales (SMN, COE y Defensa Civil de Corrientes, Prefectura Naval Argentina, CIM/UNL, INA, CTM Salto Grande, SNIH, EBY) y prensa que reproduce partes oficiales. No usar el repositorio de Google Drive de ChatGPT para lluvia, pronóstico ni alertas. No inventar, no interpolar, no completar datos faltantes, no interpretar null como cero.
+- Medición, estimación y alerta siempre separadas: lluvia medida (SNIH), pronóstico (estimación derivada) y alertas oficiales. Nunca presentar una estimación como medición.
+- Redacción formal, sin guiones largos.
+- Lenguaje para el ciudadano: todo texto que se muestre en el sitio (notas, partes, resúmenes, fuentes, aclaraciones) se redacta en lenguaje simple, con la fuente oficial y la fecha. No mencionar detalles técnicos internos: archivos, JSON, GitHub, Drive, ChatGPT, manifiestos, huellas, códigos de estado ni procedimientos de verificación. Esos detalles van SOLO en el informe de la tarea. No agregar a "partes_oficiales" entradas sobre la verificación del propio tablero.
+
+
+Frecuencia: una sola tarea C, cada hora, en la nube, siempre activa. No hace falta activarla ni desactivarla: la condición del punto 1 hace que, sin alerta ni lluvia, termine enseguida con un consumo mínimo. La lluvia del día igual se actualiza dos veces por día con las tareas A y B.
+
+1. CONDICIÓN (resolver PRIMERO, solo con código y sin búsquedas web):
+   a. Leer data/pron.json del repositorio. Hay ALERTA VIGENTE si "smn" contiene una alerta con "incluye_corrientes" distinto de false cuya hora "hasta" no pasó.
+   b. Consultar el SNIH (punto 2) solo para las dos estaciones de la Capital, ICAA (283906) y Corrientes 13805, en las últimas 3 horas. Hay LLUVIA EN CURSO si alguna registró 0,5 mm o más en ese lapso.
+   c. Si no hay alerta vigente ni lluvia en curso: TERMINAR la tarea aquí, sin escribir nada, e informar en una línea "Sin alerta ni lluvia: corrida omitida".
+2. LLUVIA DE LA PROVINCIA (data/lluvia.json), con código, consultando el SNIH (snih.hidricosargentina.gob.ar): estaciones de Corrientes, código de precipitación 20, registros de los días de ayer y de hoy completos; quedarse con las últimas 24 horas completas. Por estación: "localidad", "valores" (24, null en las horas sin transmisión, nunca cero), "total", "ultimo". Actualizar "columnas" y "actualizado".
+3. LLUVIA OBSERVADA EN LA CAPITAL (data/obs.json): {"dia", "registros" (indicador compuesto: por hora, el máximo de ICAA y 13805; si solo una estación tiene dato, ese valor y la estación en "cobertura"; si ninguna, la hora no se incluye), "registros_icaa", "registros_13805", "cobertura", "indicador": "compuesto: máximo horario de ICAA y Corrientes 13805", "ultima_hora", "mm" (última hora), "estado" ("seca" si menos de 0,5 mm, "debil", "moderada" o "fuerte"), "ts" (milisegundos), "fuente"}.
+4. IMAGEN SATELITAL (assets/sat.jpg y data/sat.json), con código: leer el listado https://cdn.star.nesdis.noaa.gov/GOES19/ABI/SECTOR/ssa/13/, tomar el archivo más reciente "AAAADDDHHMM_GOES19-ABI-ssa-13-1800x1080.jpg"; si su hora es la misma de "captura_utc" en data/sat.json, no hacer nada. Si es nueva: descargarla, recortarla con Pillow (crop((560, 200, 1160, 580))), guardarla como JPEG de calidad 82, guardarla en assets/sat.jpg y actualizar data/sat.json {"url": "/assets/sat.jpg", "captura_utc", "captura" (hora argentina), "fuente": "NOAA/NESDIS/STAR, satélite GOES-19, ABI canal 13, sector Sudamérica Sur (archivo <nombre>)", "origen", "actualizado"}.
+5. INFORME, en 4 líneas: si se ejecutó o se omitió (y por qué), lluvia de la última hora en la Capital (las dos estaciones), localidad con más lluvia en 24 horas, imagen satelital cargada, archivos escritos y confirmados.

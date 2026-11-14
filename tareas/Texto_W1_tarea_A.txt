@@ -1,0 +1,43 @@
+TAREA A, ACTUALIZACIÓN COMPLETA DEL SITIO WEB: RÍOS, ALERTAS, PRONÓSTICO, LLUVIA, EVACUADOS Y NOVEDADES
+
+REGLAS COMUNES PARA EL SITIO WEB (obligatorio)
+- Sitio: https://tablerocorrientes.github.io. Repositorio de GitHub: tablerocorrientes/tablerocorrientes.github.io, rama main. Las páginas son fijas: esta tarea SOLO escribe archivos de la carpeta data/ (y assets/sat.jpg cuando corresponda). Nunca modificar index.html, barrio/, provincia/, site.js, sw.js, tareas/ ni otros archivos del sitio.
+- Acceso: por git, sin clave. La sesión ya tiene permiso sobre este repositorio. No usar la API de GitHub con clave, no pedir claves y no intentar otras vías si git falla: informar el error.
+- Lectura y escritura CON CÓDIGO, nunca pasando el contenido de los archivos por la conversación:
+  Al empezar: git clone --depth 1 https://github.com/tablerocorrientes/tablerocorrientes.github.io /tmp/sitio (si ya existe, git -C /tmp/sitio pull --rebase). Leer los archivos de /tmp/sitio/data/ con Python (json).
+  Escribir: guardar el JSON nuevo en UTF-8 con indent=1 y ensure_ascii=False, luego git add de los archivos cambiados, git -c user.name="Tablero Ciudadano" -c user.email="tablerocorrientes@gmail.com" commit -m "<tarea>: actualiza <archivos>, <fecha y hora>" y git push origin HEAD:main. Un solo commit por corrida, al final.
+  Control de concurrencia: si el push es rechazado porque main cambió, ejecutar git pull --rebase origin main y volver a hacer push una vez. Si hay conflicto en el rebase, descartar el intento (git rebase --abort), volver a clonar, reaplicar SOLO los campos que esta tarea modifica y hacer push una vez más. Si vuelve a fallar, no escribir e informar "CONFLICTO DE CONCURRENCIA".
+  Modificar solo los campos que corresponden a esta tarea y conservar intactos todos los demás campos de cada archivo.
+  Después del push, confirmar con git ls-remote origin main que el commit quedó publicado.
+- Si no hay nada que cambiar, no hacer commit.
+- Formatos: los archivos conservan exactamente la estructura que tienen hoy (leerlos primero y respetarla). Fechas para mostrar en formato argentino "dd/mm/aaaa, hh:mm h" (hora de Argentina, UTC−3); fechas internas adicionales en ISO 8601 cuando se indique.
+- Fuentes: solo oficiales (SMN, COE y Defensa Civil de Corrientes, Prefectura Naval Argentina, CIM/UNL, INA, CTM Salto Grande, SNIH, EBY) y prensa que reproduce partes oficiales. No usar el repositorio de Google Drive de ChatGPT para lluvia, pronóstico ni alertas. No inventar, no interpolar, no completar datos faltantes, no interpretar null como cero.
+- Medición, estimación y alerta siempre separadas: lluvia medida (SNIH), pronóstico (estimación derivada) y alertas oficiales. Nunca presentar una estimación como medición.
+- Redacción formal, sin guiones largos.
+- Lenguaje para el ciudadano: todo texto que se muestre en el sitio (notas, partes, resúmenes, fuentes, aclaraciones) se redacta en lenguaje simple, con la fuente oficial y la fecha. No mencionar detalles técnicos internos: archivos, JSON, GitHub, Drive, ChatGPT, manifiestos, huellas, códigos de estado ni procedimientos de verificación. Esos detalles van SOLO en el informe de la tarea. No agregar a "partes_oficiales" entradas sobre la verificación del propio tablero.
+
+
+Frecuencia: tarea A, diaria a las 08:55, en la nube. Es la actualización completa del día y la que detecta nuevas alertas por la mañana (la tarea B, de las 18:30, usa el Texto W1B, más corto).
+
+1. RÍOS (archivos data/puertos.json, data/hist.json, data/prov.json y data/barrio.json):
+   a. Consultar directamente el último parte oficial de alturas: Prefectura Naval Argentina (contenidosweb.prefecturanaval.gob.ar/alturas, o su reproducción en rioparana.com.ar), CIM/UNL e INA-SIyAH para el Paraná, y CTM Salto Grande para el Uruguay. Para cada puerto: altura, variación, fecha y hora de observación (o "hora no publicada"), fuente y enlace.
+   b. data/puertos.json: actualizar "puertos" y "puertos_uruguay" (altura, variación, registro con fecha y hora, fuente), "nota", "uruguay_nota", "actualizado" y "ultimo_intento".
+   c. data/hist.json: es el histórico de alturas que alimenta los gráficos. Su base es la serie validada hasta el 09/11/2026; desde ahora la construye esta tarea. En cada serie (una por puerto, con sus cotas de alerta y evacuación), AGREGAR al final la lectura nueva como ["AAAA-MM-DDTHH:MM:SS", altura_m, "verificado"] si tiene hora oficial publicada, o ["AAAA-MM-DD" + "T12:00:00", altura_m, "pendiente"] si solo tiene fecha. Una sola lectura por puerto, fecha y hora: no duplicar, no borrar ni modificar las anteriores. Actualizar "actualizado", "repositorio": "Lecturas oficiales registradas por las tareas del Tablero Ciudadano" y "verificacion" con la fuente usada. No leer ni usar el repositorio de Drive de ChatGPT.
+   d. data/prov.json: actualizar "altura" y "reg" de cada localidad con puerto, y "actualizado".
+   e. data/barrio.json: actualizar "rio" {"altura", "actualizado", "alerta": 6.5, "evacuacion": 7.0} con la lectura de Corrientes.
+2. ALERTAS (data/pron.json, data/prov.json y data/barrio.json): consultar el listado de alertas del COE de Corrientes y las alertas y avisos a muy corto plazo del SMN. Estados: "VERIFICADO_CON_ALERTAS", "VERIFICADO_SIN_ALERTAS" o "NO_VERIFICADO" (nunca interpretar una consulta fallida como ausencia de alertas).
+   - data/pron.json: "estado_alertas", "estado_verificado" {"fecha", "fuente"} y "smn": lista de alertas vigentes o previstas, cada una {"id_oficial", "tipo", "aviso", "nivel", "fenomeno", "rango_mm", "zonas" (departamentos tal como los publica la fuente), "desde", "hasta" ("dd/mm/aaaa, hh:mm h" o "dd/mm/aaaa"), "desde_iso", "hasta_iso", "emision", "incluye_corrientes", "incluye_capital" (true, false o null si la cobertura es ambigua), "url", "origen"}. Quitar las vencidas o levantadas.
+   - data/prov.json: "smn" (la misma lista) y "estado_alertas".
+   - data/barrio.json: "alertas" por fecha, solo las que incluyen con certeza a la Capital, con el nivel más alto de cada día; y "estado_alertas".
+3. PRONÓSTICO (data/pron.json, data/prov.json y data/barrio.json), como ESTIMACIÓN DERIVADA:
+   - Fuentes: parte del SMN por ciudad (o las notas "Clima en <ciudad> hoy" de La Nación, que lo reproducen) y modelos horarios (Agrofy News con datos de Open-Meteo, y Meteored).
+   - Escenario probable: el promedio de los modelos; si el SMN prevé tormentas fuertes con 70 % o más, el modelo más alto; si prevé menos de 40 %, el modelo más bajo. El rango de una alerta NO se usa como pronóstico central: se guarda aparte como escenario severo.
+   - data/pron.json: "ciudades" (12 ciudades de referencia: hoy y mañana, mm y horas, fuente), "horario_capital" (hoy, mañana y pasado mañana, 24 valores por día), "metodo": "estimación derivada de modelos y del parte del SMN", "actualizado" y "horario_act".
+   - data/prov.json: "pronostico" (las 12 ciudades con su formato actual) y "pron_actualizado".
+   - data/barrio.json: "dias" (hoy y los 5 días siguientes, 24 valores), "comparacion" de hoy (texto del SMN, modelos, valor usado y criterio) y "actualizado".
+4. LLUVIA MEDIDA (data/lluvia.json y data/obs.json): ejecutar el mismo procedimiento del Texto W2 (archivo tareas/Texto_W2_tarea_C.txt), punto 2 y 3 (consulta al SNIH), sin la condición de alerta.
+5. EVACUADOS Y NOVEDADES (data/evac.json y data/puertos.json):
+   - data/evac.json: solo informes oficiales de Defensa Civil de Corrientes: agregar al "historial" cada informe nuevo por localidad (sin duplicar), actualizar "total", "serie", "centros" y "actualizado".
+   - data/puertos.json: "partes_oficiales" (nuevos primero, incluidos los comunicados de la Entidad Binacional Yacyretá, buscados con el buscador web porque eby.org.ar bloquea la lectura automática), "prensa", "pasos" y "rutas" (verificar su estado), "tapon_pronostico", "efecto_tapon" y sus fechas.
+6. IMAGEN SATELITAL: ejecutar el punto 4 del Texto W2 (archivo tareas/Texto_W2_tarea_C.txt).
+7. INFORME: altura del Paraná en Corrientes (fuente y hora), lecturas agregadas a data/hist.json, estado de alertas, pronóstico de la Capital (estimación derivada y criterio), lluvia de las últimas 24 h en la Capital, evacuados según el último informe oficial, archivos escritos y confirmados, conflictos de concurrencia y errores.
