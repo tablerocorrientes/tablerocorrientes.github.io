@@ -891,15 +891,15 @@ else{$('pron').innerHTML='<p class="s">Sin pronóstico cargado.</p>';}
   function dia(d){var a=new Date(now.getFullYear(),now.getMonth(),now.getDate()),b=new Date(d.getFullYear(),d.getMonth(),d.getDate()),k=Math.round((b-a)/864e5);return k===0?'hoy':k===1?'mañana':k===-1?'ayer':String(d.getDate()).padStart(2,'0')+'/'+String(d.getMonth()+1).padStart(2,'0');}
   function sig(cands){var best=null;for(var add=0;add<2;add++)cands.forEach(function(c){var d=new Date(now.getFullYear(),now.getMonth(),now.getDate()+add,c[0],c[1]);if(d>now&&(!best||d<best))best=d;});return best;}
   var diarias=[[9,0],[18,30]];
-  var cada1=[],cada2=[];for(var h=0;h<24;h++){cada1.push([h,10]);if(h%2===1)cada2.push([h,10]);}
+  var cada1=[],cada2=[];for(var h=0;h<24;h++){cada1.push([h,25]);cada1.push([h,55]);if(h%2===1)cada2.push([h,10]);}
   var S=(PF&&PF.smn)||[],act=S.some(function(a){if(a.incluye_corrientes===false)return false;var hs=a.hasta_iso?Date.parse(a.hasta_iso):NaN,ds=a.desde_iso?Date.parse(a.desde_iso):NaN;return (isNaN(hs)||hs>now)&&(isNaN(ds)||ds-now<864e5);});
   var llueve=((L&&L.estaciones)||[]).some(function(s){var v=(s.valores||[]).slice(-3);return v.some(function(x){return x!=null&&x>=0.5;});});
   var activo=act||llueve;
   function ult(x){var c=pd(x.consultado),u=pd(x.actualizado);return {c:(c&&(!u||c>u))?c:u,u:u,r:x.consulta_resultado||''};}
-  var filas=[['🌊','Ríos',ult(D),sig(diarias)],['🌧️','Lluvia caída',ult(L||{}),activo?sig(cada1):sig(diarias)],['⛅','Pronóstico',ult(PF||{}),activo?sig(cada2):sig(diarias)]];
+  var filas=[['🌊','Ríos',ult(D),sig(diarias)],['🌧️','Lluvia caída',ult(L||{}),sig(cada1)],['⛅','Pronóstico',ult(PF||{}),activo?sig(cada2):sig(diarias)]];
   $('upd').innerHTML='<div style="font-size:.78rem;font-weight:800;letter-spacing:.06em;color:#cfe3ea">ACTUALIZACIONES</div>'+filas.map(function(f){var x=f[2],nuevo=x.u&&x.c&&x.c-x.u>5*60000;
     return '<div style="display:grid;grid-template-columns:auto 1fr 1fr;gap:8px;align-items:center;background:rgba(255,255,255,.1);border-radius:12px;padding:8px 10px"><span style="font-size:1.3rem" aria-hidden="true">'+f[0]+'</span><div><div style="font-size:.72rem;color:#cfe3ea">'+f[1]+', última consulta</div><div style="font-size:1.05rem;font-weight:800;color:#fff">'+(x.c?dia(x.c)+' '+hm(x.c):'sin dato')+'</div>'+(nuevo?'<div style="font-size:.68rem;color:#cfe3ea">sin cambios · último dato nuevo '+hm(x.u)+'</div>':'')+'</div><div><div style="font-size:.72rem;color:#cfe3ea">Próxima, aprox.</div><div style="font-size:1.05rem;font-weight:800;color:#fff">'+(f[3]?dia(f[3])+' '+hm(f[3]):'')+'</div></div></div>';}).join('')+
-    '<div style="font-size:.72rem;color:#cfe3ea">'+'Las consultas se hacen en cada corrida; si no hay datos nuevos, se mantiene el último cambio registrado. '+(activo?'<b style="color:#ffd27a">Modo alerta:</b> lluvia caída cada hora y pronóstico cada 2 horas.':'Sin alerta ni lluvia: actualización completa a las 9 y a las 18:30 h, y control de alertas a las 4:30, 13:30 y 23:30 h; si aparece una alerta o empieza a llover, se actualiza más seguido.')+'</div>';
+    '<div style="font-size:.72rem;color:#cfe3ea">'+'Las consultas se hacen en cada corrida; si no hay datos nuevos, se mantiene el último cambio registrado. '+(activo?'La lluvia medida se consulta cada 30 minutos. <b style="color:#ffd27a">Modo alerta:</b> pronóstico y alertas cada 2 horas.':'La lluvia medida se consulta cada 30 minutos, siempre. Sin alerta ni lluvia: actualización completa a las 9 y a las 18:30 h, y control de alertas a las 4:30, 13:30 y 23:30 h; si aparece una alerta o empieza a llover, se actualiza más seguido.')+'</div>';
 })();
 
 })();

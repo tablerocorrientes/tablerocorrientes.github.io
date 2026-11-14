@@ -1,7 +1,8 @@
-name: Lluvia SNIH (cada hora)
+name: Lluvia SNIH (cada 30 minutos)
 on:
   schedule:
     - cron: '20 * * * *'
+    - cron: '50 * * * *'
   workflow_dispatch:
 permissions:
   contents: write
