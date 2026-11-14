@@ -1,0 +1,82 @@
+{
+ "actualizado": "14/11/2026, 03:10 h",
+ "breve": "El Niño es fuerte y sigue creciendo. Sería de los más intensos desde 1950 y empezaría a debilitarse a comienzos de 2027. Para el Litoral se esperan lluvias por encima de lo normal hasta enero.",
+ "fases": [
+  {
+   "n": "Desarrollo",
+   "desde": "2026-06",
+   "hasta": "2026-11"
+  },
+  {
+   "n": "Pico",
+   "desde": "2026-11",
+   "hasta": "2027-02"
+  },
+  {
+   "n": "Debilitamiento",
+   "desde": "2027-02",
+   "hasta": "2027-05"
+  },
+  {
+   "n": "Neutral",
+   "desde": "2027-05",
+   "hasta": "2027-07"
+  }
+ ],
+ "fases_fuente": "Fases según la discusión de NOAA del 12/11/2026 y su modelo CFS; son estimaciones y cambian mes a mes.",
+ "indicadores": [
+  {
+   "t": "Pacífico (Niño 3.4)",
+   "v": "+2,5 °C",
+   "s": "sobre lo normal, NOAA 12/11"
+  },
+  {
+   "t": "Evento histórico",
+   "v": "60 %",
+   "s": "chance de ser el más fuerte desde 1950 (NOAA)"
+  },
+  {
+   "t": "Fuerte o muy fuerte",
+   "v": "+79 %",
+   "s": "probabilidad hasta enero-marzo 2027 (NOAA)"
+  },
+  {
+   "t": "Lluvias en el Litoral",
+   "v": "Arriba de lo normal",
+   "s": "noviembre a enero (SMN)"
+  }
+ ],
+ "proyecciones": [
+  {
+   "organismo": "NOAA, Centro de Predicción Climática (Estados Unidos)",
+   "fecha": "12/11/2026",
+   "breve": "El Niño se sigue fortaleciendo. Es muy probable que sea fuerte o muy fuerte hasta enero-marzo de 2027 y hay un 60 % de chance de que sea el más intenso desde 1950. Empezaría a debilitarse a comienzos de 2027. Próximo informe: 10/12/2026.",
+   "url": "https://cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc_Sp.html"
+  },
+  {
+   "organismo": "Servicio Meteorológico Nacional (SMN)",
+   "fecha": "01/11/2026",
+   "breve": "Pronóstico trimestral de noviembre a enero: lluvias por encima de lo normal en el Litoral, con más probabilidad hacia el norte, y temperaturas normales en el norte de la región.",
+   "url": "https://www.meteored.com.ar/noticias/prediccion/se-viene-un-verano-raro-que-anticipa-el-smn-para-noviembre-diciembre-y-enero-y-como-planificar-las-vacaciones.html",
+   "via": "Meteored"
+  },
+  {
+   "organismo": "Instituto Nacional del Agua (INA)",
+   "fecha": "12/11/2026",
+   "breve": "El Paraná seguiría alto en Corrientes con un leve descenso; hacia fines de noviembre podrían volver lluvias importantes en la cuenca.",
+   "url": "https://alerta.ina.gob.ar/a5/diario/reporte_diario"
+  },
+  {
+   "organismo": "Entidad Binacional Yacyretá (EBY)",
+   "fecha": "10/11/2026",
+   "breve": "Alta probabilidad de aguas altas en el Paraná entre noviembre de 2026 y enero de 2027 por El Niño.",
+   "url": ""
+  },
+  {
+   "organismo": "Modelo CFS de NOAA (difundido por Agrofy News)",
+   "fecha": "06/11/2026",
+   "breve": "El Niño se debilitaría entre febrero y abril de 2027, con un posible segundo máximo cerca de junio de 2027. Es la proyección de un modelo, no un pronóstico oficial.",
+   "url": "https://news.agrofy.com.ar/noticia/216961/nino-podria-tener-segundo-pico-junio-2027-algo-nunca-visto-significa-campo"
+  }
+ ]
+}
