@@ -79,7 +79,7 @@
     "tipo": "estimado",
     "fecha": "",
     "fuente": "Sector costero del simulador por barrio",
-    "nota": "Barrios de la franja costera del Paraná. No hay relevamiento oficial por barrio para esta altura."
+    "nota": "Barrios de la franja costera del Paraná. No se encontró un relevamiento oficial por barrio para esta altura."
    },
    {
     "h": 8.4,
@@ -95,7 +95,7 @@
     "tipo": "estimado",
     "fecha": "",
     "fuente": "Comparación con 1992 y 1998",
-    "nota": "Altura comparable con las crecidas de 1992 y 1998; no se publicó un relevamiento por barrio de esas crecidas."
+    "nota": "Altura comparable con las crecidas de 1992 y 1998; no se encontró un relevamiento público por barrio de esas crecidas."
    }
   ],
   "Paso de la Patria": [
