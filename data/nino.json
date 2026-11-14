@@ -78,5 +78,59 @@
    "breve": "El Niño se debilitaría entre febrero y abril de 2027, con un posible segundo máximo cerca de junio de 2027. Es la proyección de un modelo, no un pronóstico oficial.",
    "url": "https://news.agrofy.com.ar/noticia/216961/nino-podria-tener-segundo-pico-junio-2027-algo-nunca-visto-significa-campo"
   }
- ]
+ ],
+ "analogos": [
+  {
+   "evento": "El Niño 1982-83",
+   "anio": "1983",
+   "altura": 9.02,
+   "fecha": "18/07/1983",
+   "nota": "Récord de la serie desde 1901. Otra fuente periodística informa 8,65 m.",
+   "fuente": "INA, serie de Prefectura (vía Copernicus Argentina)",
+   "url": "https://copernicus.com.ar/crecida-rio-parana-1983"
+  },
+  {
+   "evento": "Crecida 1992",
+   "anio": "1992",
+   "altura": 8.64,
+   "fecha": "1992",
+   "nota": "Segunda marca más alta de la serie.",
+   "fuente": "INA, serie de Prefectura (vía Copernicus Argentina)",
+   "url": "https://copernicus.com.ar/crecida-rio-parana-1983"
+  },
+  {
+   "evento": "El Niño 1997-98",
+   "anio": "1998",
+   "altura": 8.38,
+   "fecha": "1998",
+   "nota": "",
+   "fuente": "Radio Sudamericana",
+   "url": "https://www.radiosudamericana.com/nota/sociedad/351555-Inundaciones-en-Corrientes--todas-las-crecidas-que-hicieron-historia.htm"
+  },
+  {
+   "evento": "El Niño 2015-16",
+   "anio": "2016",
+   "altura": 7.47,
+   "fecha": "10/01/2016",
+   "nota": "",
+   "fuente": "INA, informe hidrológico del 14/01/2016",
+   "url": "https://www.ina.gob.ar/archivos/alerta/hidro__16_01_14.pdf"
+  },
+  {
+   "evento": "El Niño 2026 (hasta ahora)",
+   "anio": "2026",
+   "altura": 7.44,
+   "fecha": "23/10/2026",
+   "nota": "Máximo registrado en esta crecida, por ahora.",
+   "fuente": "Prefectura, histórico del tablero",
+   "url": ""
+  }
+ ],
+ "lluvia_extrema": {
+  "evento": "Temporal del 3 de marzo de 2024",
+  "mm": 300,
+  "horas": 5,
+  "nota": "Más de 300 mm en cinco horas: unas 800 personas evacuadas en la Capital.",
+  "url": "https://www.radiosudamericana.com/nota/sociedad/351555-Inundaciones-en-Corrientes--todas-las-crecidas-que-hicieron-historia.htm"
+ }
 }

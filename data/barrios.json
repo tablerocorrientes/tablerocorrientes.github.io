@@ -1,0 +1,839 @@
+{
+ "fuente": "Lista y sectores del simulador por barrio; antecedentes documentados por la Municipalidad, el Concejo Deliberante y la prensa.",
+ "barrios": [
+  [
+   "17 de Agosto",
+   "SUR",
+   8468,
+   ""
+  ],
+  [
+   "3 de Abril",
+   "RIB",
+   5833,
+   "Sobre esta avenida descarga uno de los tres desagües principales de la ciudad al río Paraná."
+  ],
+  [
+   "9 de Julio",
+   "SUR",
+   14241,
+   "Nombrado como prioritario en la Ordenanza 7707. Integra el sector de la antigua Laguna Seca."
+  ],
+  [
+   "92 Viv. Salvador Miqueri",
+   "SUR",
+   0,
+   ""
+  ],
+  [
+   "Aldana",
+   "CEN",
+   2596,
+   ""
+  ],
+  [
+   "Alta Gracia",
+   "SUR",
+   1595,
+   ""
+  ],
+  [
+   "Anahi",
+   "NOR",
+   4418,
+   "El Zanjón del barrio Anahí figura entre los cuerpos de agua vinculados a anegamientos. Acá funciona el centro de evacuación de la zona norte."
+  ],
+  [
+   "Antartida Argentina",
+   "NOR",
+   2153,
+   ""
+  ],
+  [
+   "Apipe",
+   "NOR",
+   2254,
+   ""
+  ],
+  [
+   "Arazati",
+   "RIB",
+   2654,
+   ""
+  ],
+  [
+   "Asentamiento Eragia",
+   "NOR",
+   0,
+   ""
+  ],
+  [
+   "Asentamiento Pirayui Sur",
+   "SUR",
+   0,
+   "Nombrado como prioritario en la Ordenanza 7707 de Emergencia Hídrica y Climática."
+  ],
+  [
+   "Asentamiento Punta Taitalo",
+   "RIB",
+   0,
+   ""
+  ],
+  [
+   "Ayuda Mutua",
+   "NOR",
+   0,
+   ""
+  ],
+  [
+   "Bancario",
+   "RIB",
+   786,
+   ""
+  ],
+  [
+   "Bañado Norte",
+   "RIB",
+   6180,
+   ""
+  ],
+  [
+   "Bejarano",
+   "NOR",
+   0,
+   ""
+  ],
+  [
+   "Belgrano",
+   "NOR",
+   2135,
+   ""
+  ],
+  [
+   "Beron de Astrada",
+   "CEN",
+   1306,
+   ""
+  ],
+  [
+   "Cacique Canindeyu",
+   "SUR",
+   1984,
+   ""
+  ],
+  [
+   "Camba Cua",
+   "RIB",
+   6963,
+   "Acá descarga el arroyo Salamanca. El municipio señaló al parque Cambá Cuá como punto crítico en la creciente de 2023."
+  ],
+  [
+   "Centro",
+   "CEN",
+   5433,
+   "El municipio identificó en 2023 al área dentro de las cuatro avenidas como una de las más comprometidas ante una creciente."
+  ],
+  [
+   "Cichero",
+   "RIB",
+   2308,
+   ""
+  ],
+  [
+   "Ciudad de Arequipa",
+   "RIB",
+   889,
+   ""
+  ],
+  [
+   "Ciudad de Estepa",
+   "SUR",
+   4351,
+   ""
+  ],
+  [
+   "Ciudad de Valencia",
+   "NOR",
+   786,
+   ""
+  ],
+  [
+   "Ciudades Correntinas",
+   "SUR",
+   6496,
+   "Entre los barrios más afectados por las lluvias de diciembre de 2025, según la Municipalidad."
+  ],
+  [
+   "Club de Campo (23566-U)",
+   "NOR",
+   0,
+   ""
+  ],
+  [
+   "Club de Campo Buena Vista I",
+   "NOR",
+   0,
+   ""
+  ],
+  [
+   "Club de Campo Che Gente Cuera",
+   "NOR",
+   0,
+   ""
+  ],
+  [
+   "Club de Campo Don Manuel",
+   "NOR",
+   0,
+   ""
+  ],
+  [
+   "Club de Campo Dos Lunas-Este",
+   "NOR",
+   0,
+   ""
+  ],
+  [
+   "Club de Campo Laguna Pueblo Nuevo",
+   "NOR",
+   0,
+   ""
+  ],
+  [
+   "Club de Campo las Dos Lunas-Oeste",
+   "NOR",
+   0,
+   ""
+  ],
+  [
+   "Club de Campo los Azahares S.A.",
+   "NOR",
+   0,
+   ""
+  ],
+  [
+   "Club de Campo los Frutales",
+   "NOR",
+   0,
+   ""
+  ],
+  [
+   "Codepro",
+   "RIB",
+   792,
+   ""
+  ],
+  [
+   "Collantes",
+   "NOR",
+   720,
+   ""
+  ],
+  [
+   "Concepcion",
+   "SUR",
+   2308,
+   ""
+  ],
+  [
+   "Cremonte",
+   "NOR",
+   1068,
+   ""
+  ],
+  [
+   "Cristobal Colon",
+   "SUR",
+   1141,
+   ""
+  ],
+  [
+   "Deportes",
+   "CEN",
+   5033,
+   ""
+  ],
+  [
+   "Dr Nicolini",
+   "SUR",
+   1475,
+   ""
+  ],
+  [
+   "Dr. Montaña",
+   "SUR",
+   6230,
+   ""
+  ],
+  [
+   "Esperanza",
+   "SUR",
+   2721,
+   "Costa Esperanza figura entre los barrios más afectados en diciembre de 2025, según la Municipalidad."
+  ],
+  [
+   "Ex Aero Club",
+   "SUR",
+   428,
+   ""
+  ],
+  [
+   "Fray J de la Quintana",
+   "SUR",
+   7114,
+   "Nombrado como prioritario en la Ordenanza 7707 de Emergencia Hídrica y Climática."
+  ],
+  [
+   "Galvan",
+   "RIB",
+   5187,
+   "Incluido en las veinte iniciativas que el Concejo aprobó en agosto de 2026, junto con La Olla, Irupé, Ongay y Caridi."
+  ],
+  [
+   "General Madariaga",
+   "NOR",
+   1363,
+   ""
+  ],
+  [
+   "Golf Club Corrientes",
+   "NOR",
+   0,
+   ""
+  ],
+  [
+   "Granaderos",
+   "NOR",
+   2037,
+   ""
+  ],
+  [
+   "Guemes Invico",
+   "SUR",
+   3097,
+   ""
+  ],
+  [
+   "Guemes Tradicional",
+   "NOR",
+   1360,
+   ""
+  ],
+  [
+   "Hipodromo",
+   "NOR",
+   1727,
+   ""
+  ],
+  [
+   "Independencia",
+   "SUR",
+   1098,
+   "Acá funciona el centro de evacuación de la zona sur de la ciudad."
+  ],
+  [
+   "Industrial",
+   "NOR",
+   1809,
+   ""
+  ],
+  [
+   "Irupe",
+   "SUR",
+   1456,
+   "Integra el conglomerado de La Olla, junto con Ongay, San Jorge, Paloma de la Paz y La Olla. Beneficiario directo de la limpieza del canal de La Olla."
+  ],
+  [
+   "Jardin",
+   "NOR",
+   4061,
+   ""
+  ],
+  [
+   "Jose Maria Paz",
+   "SUR",
+   0,
+   ""
+  ],
+  [
+   "Jose Maria Ponce",
+   "SUR",
+   2993,
+   ""
+  ],
+  [
+   "Juan de Vera",
+   "RIB",
+   4190,
+   ""
+  ],
+  [
+   "Juan XXIII",
+   "RIB",
+   7472,
+   ""
+  ],
+  [
+   "La Cruz",
+   "CEN",
+   3238,
+   ""
+  ],
+  [
+   "La Olla, conglomerado completo",
+   "SUR",
+   14037,
+   "No figura como barrio en el listado oficial del municipio. Es el conglomerado formado por Irupé, Ongay, San Jorge, Paloma de la Paz, Serantes y La Olla, cercano a la Terminal de Ómnibus, donde viven unos 15 mil vecinos. Fue la zona más afectada en diciembre de 2025, con más de 150 familias asistidas, y está nombrada como prioritaria en la Ordenanza 7707. Superficie sumada de sus barrios componentes."
+  ],
+  [
+   "La Rosada",
+   "CEN",
+   6530,
+   "Lo atraviesa el arroyo Poncho Verde, entubado entre 1957 y 1959 bajo la avenida Gobernador Pujol."
+  ],
+  [
+   "Laguna Brava",
+   "SUR",
+   3314,
+   ""
+  ],
+  [
+   "Laguna Soto Sur",
+   "NOR",
+   0,
+   ""
+  ],
+  [
+   "Las Dos Curvas",
+   "SUR",
+   0,
+   ""
+  ],
+  [
+   "Las Rosas",
+   "SUR",
+   593,
+   ""
+  ],
+  [
+   "Libertad",
+   "CEN",
+   9132,
+   ""
+  ],
+  [
+   "Lomas",
+   "SUR",
+   986,
+   ""
+  ],
+  [
+   "Lomas del Mirador",
+   "NOR",
+   3448,
+   "Nombrado como prioritario en la Ordenanza 7707 de Emergencia Hídrica y Climática."
+  ],
+  [
+   "Luz y Fuerza",
+   "RIB",
+   0,
+   ""
+  ],
+  [
+   "Malvinas Argentinas",
+   "SUR",
+   5735,
+   ""
+  ],
+  [
+   "Merceditas Collantes",
+   "NOR",
+   0,
+   ""
+  ],
+  [
+   "Molina Punta",
+   "NOR",
+   3301,
+   "En marzo de 2024 las cuadrillas no lograron llegar. Figuró también entre los más afectados en temporales previos."
+  ],
+  [
+   "Niño Jesus",
+   "NOR",
+   3997,
+   ""
+  ],
+  [
+   "Ntra Sra. de Guadalupe",
+   "SUR",
+   0,
+   ""
+  ],
+  [
+   "Ntra Sra. de la Asuncion",
+   "SUR",
+   0,
+   ""
+  ],
+  [
+   "Nuestra Sra. de la Pompeya",
+   "CEN",
+   0,
+   ""
+  ],
+  [
+   "Paloma de la Paz",
+   "SUR",
+   3560,
+   "Integra el conglomerado de La Olla. Figura además entre los puntos de afectación históricos por anegamiento."
+  ],
+  [
+   "Paraje Perichon",
+   "RIB",
+   0,
+   ""
+  ],
+  [
+   "Parque Balneario Molina Punta",
+   "RIB",
+   1804,
+   "En marzo de 2024 las cuadrillas municipales no lograron llegar a este barrio durante el temporal."
+  ],
+  [
+   "Parque Cadena Norte",
+   "SUR",
+   1338,
+   ""
+  ],
+  [
+   "Parque Cadena Sur",
+   "SUR",
+   0,
+   ""
+  ],
+  [
+   "Paso Martinez",
+   "SUR",
+   0,
+   ""
+  ],
+  [
+   "Pedro Ferre",
+   "RIB",
+   596,
+   ""
+  ],
+  [
+   "Pio X",
+   "RIB",
+   4583,
+   ""
+  ],
+  [
+   "Pirayui",
+   "SUR",
+   3622,
+   "Nombrado como prioritario en la Ordenanza 7707 de Emergencia Hídrica y Climática."
+  ],
+  [
+   "Pirayui Nuevo",
+   "SUR",
+   0,
+   "Nombrado como prioritario en la Ordenanza 7707 de Emergencia Hídrica y Climática."
+  ],
+  [
+   "Placido Martinez",
+   "RIB",
+   2280,
+   ""
+  ],
+  [
+   "Popular",
+   "NOR",
+   1631,
+   ""
+  ],
+  [
+   "Primera Junta",
+   "SUR",
+   2235,
+   ""
+  ],
+  [
+   "Progreso",
+   "SUR",
+   3674,
+   ""
+  ],
+  [
+   "Pueblo Buenos Aires",
+   "NOR",
+   0,
+   ""
+  ],
+  [
+   "Pujol",
+   "NOR",
+   0,
+   ""
+  ],
+  [
+   "Quinta Ferre",
+   "RIB",
+   4065,
+   ""
+  ],
+  [
+   "Republica de Venezuela",
+   "SUR",
+   1176,
+   "Integra el sector de la antigua Laguna Seca, urbanizado sobre su parte más playa."
+  ],
+  [
+   "Residencial Santa Rosa",
+   "NOR",
+   1196,
+   ""
+  ],
+  [
+   "Rio Parana",
+   "RIB",
+   891,
+   "Su límite oeste llega hasta la costa, de modo que su escurrimiento depende directamente de la altura del río. Sector verificado sobre cartografía."
+  ],
+  [
+   "Samela Norte",
+   "NOR",
+   0,
+   ""
+  ],
+  [
+   "Samela Sur",
+   "SUR",
+   0,
+   ""
+  ],
+  [
+   "San Antonio",
+   "SUR",
+   2152,
+   ""
+  ],
+  [
+   "San Benito",
+   "RIB",
+   4217,
+   ""
+  ],
+  [
+   "San Geronimo",
+   "NOR",
+   6146,
+   "Nombrado como prioritario en la Ordenanza 7707. Figuró entre los más afectados en temporales anteriores."
+  ],
+  [
+   "San Ignacio",
+   "NOR",
+   3626,
+   "En marzo de 2024 las cuadrillas municipales no lograron llegar a este barrio durante el temporal."
+  ],
+  [
+   "San Jorge",
+   "SUR",
+   0,
+   "Integra el conglomerado de La Olla y es beneficiario directo de la limpieza del canal."
+  ],
+  [
+   "San Jose",
+   "NOR",
+   2821,
+   ""
+  ],
+  [
+   "San Marcelo",
+   "SUR",
+   3415,
+   ""
+  ],
+  [
+   "San Marcos",
+   "SUR",
+   1597,
+   ""
+  ],
+  [
+   "San Martin",
+   "RIB",
+   6711,
+   ""
+  ],
+  [
+   "San Roque",
+   "SUR",
+   6469,
+   ""
+  ],
+  [
+   "Santa Catalina",
+   "SUR",
+   0,
+   ""
+  ],
+  [
+   "Santa Margarita",
+   "SUR",
+   929,
+   ""
+  ],
+  [
+   "Santa Maria",
+   "RIB",
+   1787,
+   ""
+  ],
+  [
+   "Santa Rita Norte",
+   "SUR",
+   0,
+   ""
+  ],
+  [
+   "Santa Rita Sur",
+   "SUR",
+   0,
+   "En marzo de 2024 las cuadrillas municipales no lograron llegar a este barrio durante el temporal."
+  ],
+  [
+   "Santa Rosa",
+   "CEN",
+   3450,
+   "En diciembre de 2025 se informaron más de 120 departamentos afectados en este barrio."
+  ],
+  [
+   "Santa Teresita",
+   "NOR",
+   4131,
+   ""
+  ],
+  [
+   "Sapucay",
+   "SUR",
+   0,
+   ""
+  ],
+  [
+   "Sargento Cabral",
+   "RIB",
+   1663,
+   ""
+  ],
+  [
+   "Serantes",
+   "SUR",
+   7962,
+   "Beneficiario directo de la limpieza del canal de La Olla, según la propia Municipalidad."
+  ],
+  [
+   "Sol de Mayo",
+   "NOR",
+   4509,
+   ""
+  ],
+  [
+   "Sor Maria Assunta Pittaro",
+   "RIB",
+   3725,
+   ""
+  ],
+  [
+   "Sur",
+   "RIB",
+   6877,
+   ""
+  ],
+  [
+   "Tambor de Tacuari",
+   "NOR",
+   1329,
+   ""
+  ],
+  [
+   "Union",
+   "SUR",
+   3217,
+   ""
+  ],
+  [
+   "Universitario",
+   "NOR",
+   2460,
+   ""
+  ],
+  [
+   "Victor Colas",
+   "NOR",
+   3483,
+   ""
+  ],
+  [
+   "Villa Celia",
+   "NOR",
+   2680,
+   ""
+  ],
+  [
+   "Villa Chiquita",
+   "NOR",
+   5273,
+   ""
+  ],
+  [
+   "Villa Ongay",
+   "SUR",
+   1059,
+   "Integra el conglomerado de La Olla. En temporales anteriores la DPEC debió cortar la energía por seguridad ante los anegamientos."
+  ],
+  [
+   "Villa Patono",
+   "RIB",
+   4254,
+   ""
+  ],
+  [
+   "Villa Raquel",
+   "SUR",
+   5301,
+   ""
+  ],
+  [
+   "Virgen de los Dolores",
+   "RIB",
+   0,
+   ""
+  ],
+  [
+   "Yapeyu",
+   "RIB",
+   1760,
+   ""
+  ],
+  [
+   "Yecoha",
+   "NOR",
+   0,
+   ""
+  ],
+  [
+   "Zona Sur Pirayui",
+   "SUR",
+   1653,
+   "Nombrado como prioritario en la Ordenanza 7707 de Emergencia Hídrica y Climática."
+  ],
+  [
+   "Zona Sur Ponce",
+   "SUR",
+   1321,
+   ""
+  ]
+ ]
+}
