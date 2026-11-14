@@ -1,9 +1,9 @@
 {
- "actualizado": "14/11/2026, 17:11 h",
+ "actualizado": "14/11/2026, 18:31 h",
  "metodo": "estimación derivada de modelos y del parte del SMN",
  "estado_alertas": "VERIFICADO_CON_ALERTAS",
  "estado_verificado": {
-  "fecha": "14/11/2026, 17:11 h",
+  "fecha": "14/11/2026, 18:31 h",
   "fuente": "COE de Corrientes"
  },
  "met_archivo": {
@@ -503,5 +503,62 @@
    0.0
   ]
  },
- "horario_act": "14/11/2026, 09:12 h"
+ "horario_act": "14/11/2026, 09:12 h",
+ "consultado": "14/11/2026, 18:31 h",
+ "consulta_resultado": "sin cambios",
+ "extendido": {
+  "actualizado": "14/11/2026, 18:31 h",
+  "aviso": "Pronóstico extendido informativo. No se usa en los cálculos del simulador.",
+  "ciudades": {
+   "Corrientes Capital": {
+    "fuente": "Servicio Meteorológico Nacional, publicado por La Nación",
+    "url": "https://www.lanacion.com.ar/clima/corrientes/",
+    "emision": "14/11/2026, 17:55 h",
+    "dias": [
+     {
+      "fecha": "2026-11-15",
+      "resumen": "Tormentas aisladas por la tarde",
+      "prob": 40,
+      "tmin": null,
+      "tmax": null
+     },
+     {
+      "fecha": "2026-11-16",
+      "resumen": "Mayormente nublado",
+      "prob": 10,
+      "tmin": null,
+      "tmax": null
+     },
+     {
+      "fecha": "2026-11-17",
+      "resumen": "Tormentas aisladas por la mañana",
+      "prob": 40,
+      "tmin": null,
+      "tmax": null
+     },
+     {
+      "fecha": "2026-11-18",
+      "resumen": "Parcialmente nublado",
+      "prob": 10,
+      "tmin": null,
+      "tmax": null
+     },
+     {
+      "fecha": "2026-11-19",
+      "resumen": "Parcialmente nublado",
+      "prob": 10,
+      "tmin": null,
+      "tmax": null
+     },
+     {
+      "fecha": "2026-11-20",
+      "resumen": "Tormentas aisladas",
+      "prob": 40,
+      "tmin": null,
+      "tmax": null
+     }
+    ]
+   }
+  }
+ }
 }

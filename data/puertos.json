@@ -85,7 +85,7 @@
   }
  ],
  "nota": "Actualización del 14/11/2026, 09:12 h. Paraná, tabla de Prefectura Naval Argentina del 14/11/2026 publicada por el CIM de la Universidad Nacional del Litoral (sin hora de observación): Corrientes 6,68 m (−0,05), sobre la alerta de 6,50 m y bajo la evacuación de 7,00 m; Paso de la Patria 6,82 m (−0,08), sobre su alerta; Itatí 7,00 m (−0,06), sobre su alerta; Goya 5,86 m y Esquina 5,51 m, todavía sobre su nivel de evacuación; Bella Vista 6,26 m (−0,01), sobre su alerta; Empedrado 5,84 m; Itá Ibaté 5,44 m; Ituzaingó 2,99 m (−0,26), bajo su alerta. Todos los puertos bajan. El INA (informe del 13/11) prevé que el Paraná en Corrientes siga oscilante o en leve descenso en los próximos 7 días, hasta quedar por debajo de la alerta. La Entidad Binacional Yacyretá (13/11) prevé menos caudal hasta el 17/11 y en Ituzaingó entre 3,2 y 2,4 m. ALERTAS DEL COE (consulta de las 09:00 h): alerta NARANJA por tormentas 2026-0022-NT, EN CURSO desde las 06:52 h hasta las 12:00 h del sábado 14/11, que INCLUYE A LA CAPITAL, con 80 a 120 mm que pueden ser superados en forma localizada, ráfagas de más de 90 km/h y granizo ocasional; alerta amarilla 2026-0070-AT, en curso hasta las 12:00 h, para el centro, sur y este de la provincia (30 a 70 mm). Ambas reemplazan a las alertas emitidas el viernes. Fuente: Servicio Meteorológico Nacional, difundidas por el COE. Evacuados: sin informe nuevo de Defensa Civil; rige el del 06/11 (1.967 personas).",
- "ultimo_intento": "14/11/2026, 09:12 h",
+ "ultimo_intento": "14/11/2026, 18:31 h",
  "programada": true,
  "horarios": [
   "09:00",
@@ -1350,5 +1350,7 @@
  "eby_resumen_anteriores": "Entre el 24/10 y el 3/11 la EBY informó caudales de hasta unos 34.500 m³/s, el doble de lo habitual (octubre fue el mes más caudaloso de la serie 1971-2025), con Ituzaingó por encima de 4 m. El paso Ituzaingó–Ayolas estuvo cerrado desde el 12/10 y reabrió el 7/11. La EBY advirtió que El Niño podría extenderse hasta los primeros meses de 2027.",
  "nota_breve": "Paraná en Corrientes: 6,68 m y en bajante, sobre la alerta (6,50 m) y bajo la evacuación (7,00 m). Hoy rige alerta naranja por tormentas para la Capital hasta las 12 h.",
  "uruguay_breve": "Paso de los Libres: 7,98 m, sobre la alerta (7,50 m); el INA prevé que oscile 2 o 3 días y luego baje. Santo Tomé y Garruchos bajan.",
- "tapon_breve": "Rige alerta naranja por tormentas para la Capital hasta las 12 h (80 a 120 mm). Con el río alto, una lluvia fuerte puede superar la capacidad de los desagües."
+ "tapon_breve": "Rige alerta naranja por tormentas para la Capital hasta las 12 h (80 a 120 mm). Con el río alto, una lluvia fuerte puede superar la capacidad de los desagües.",
+ "consultado": "14/11/2026, 18:31 h",
+ "consulta_resultado": "sin cambios"
 }
