@@ -1,5 +1,5 @@
 {
- "actualizado": "13/11/2026 a las 23:14 h",
+ "actualizado": "14/11/2026 a las 09:12 h",
  "dias": {
   "2026-11-02": [
    0,
@@ -328,10 +328,10 @@
    0,
    0,
    0,
+   0,
+   0,
    1.6,
-   8.7,
-   1.8,
-   0.6,
+   0.5,
    0,
    0,
    0,
@@ -340,133 +340,192 @@
    0
   ],
   "2026-11-15": [
-   0,
-   0,
-   0,
-   0,
-   0,
-   0,
-   0,
-   0,
-   0,
-   0,
-   0,
-   0.1,
-   0.1,
-   0.1,
-   0.1,
-   0,
-   0,
-   0.2,
-   0.1,
-   0,
-   0,
-   0,
-   0,
-   0
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
   ],
   "2026-11-16": [
-   0.09,
-   0.09,
-   0.09,
-   0.09,
-   0.09,
-   0.09,
-   0.09,
-   0.09,
-   0.09,
-   0.09,
-   0.09,
-   0.09,
-   0.09,
-   0.09,
-   0.09,
-   0.09,
-   0.09,
-   0.09,
-   0.09,
-   0.09,
-   0.09,
-   0.09,
-   0.09,
-   0.09
+   0,
+   0.0,
+   0.0,
+   0.0,
+   0.4,
+   0.8,
+   0.2,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.6,
+   0.3,
+   0.0,
+   0.0,
+   0.0,
+   0.0
   ],
   "2026-11-17": [
-   0.34,
-   0.34,
-   0.34,
-   0.34,
-   0.34,
-   0.34,
-   0.34,
-   0.34,
-   0.34,
-   0.34,
-   0.34,
-   0.34,
-   0.34,
-   0.34,
-   0.34,
-   0.34,
-   0.34,
-   0.34,
-   0.34,
-   0.34,
-   0.34,
-   0.34,
-   0.34,
-   0.34
+   0.888,
+   0.888,
+   0.888,
+   0.888,
+   0.888,
+   0.888,
+   0.888,
+   0.888,
+   0.888,
+   0.888,
+   0.888,
+   0.888,
+   0.888,
+   0.888,
+   0.888,
+   0.888,
+   0.888,
+   0.888,
+   0.888,
+   0.888,
+   0.888,
+   0.888,
+   0.888,
+   0.888
   ],
   "2026-11-18": [
-   0.5,
-   0.5,
-   0.5,
-   0.5,
-   0.5,
-   0.5,
-   0.5,
-   0.5,
-   0.5,
-   0.5,
-   0.5,
-   0.5,
-   0.5,
-   0.5,
-   0.5,
-   0.5,
-   0.5,
-   0.5,
-   0.5,
-   0.5,
-   0.5,
-   0.5,
-   0.5,
-   0.5
+   2.571,
+   2.571,
+   2.571,
+   2.571,
+   2.571,
+   2.571,
+   2.571,
+   2.571,
+   2.571,
+   2.571,
+   2.571,
+   2.571,
+   2.571,
+   2.571,
+   2.571,
+   2.571,
+   2.571,
+   2.571,
+   2.571,
+   2.571,
+   2.571,
+   2.571,
+   2.571,
+   2.571
+  ],
+  "2026-11-19": [
+   0.683,
+   0.683,
+   0.683,
+   0.683,
+   0.683,
+   0.683,
+   0.683,
+   0.683,
+   0.683,
+   0.683,
+   0.683,
+   0.683,
+   0.683,
+   0.683,
+   0.683,
+   0.683,
+   0.683,
+   0.683,
+   0.683,
+   0.683,
+   0.683,
+   0.683,
+   0.683,
+   0.683
   ]
  },
  "alertas": {
   "2026-11-14": {
    "nivel": "naranja",
    "incluye_capital": true,
-   "zonas": "Bella Vista, Berón de Astrada, Capital, Empedrado, Esquina, General Paz, Goya, Itatí, Lavalle, Mburucuyá, Saladas, San Cosme y San Luis del Palmar",
-   "desde": "14/11/2026, 11:00 h",
-   "hasta": "14/11/2026, 17:00 h",
-   "desde_iso": "2026-11-14T11:00:00-03:00",
-   "hasta_iso": "2026-11-14T17:00:00-03:00",
-   "emision": "13/11/2026, 17:47 h",
-   "emision_iso": "2026-11-13T17:47:00-03:00",
+   "zonas": "Berón de Astrada, Capital, Empedrado, General Paz, Itatí, Mburucuyá, Saladas, San Cosme y San Luis del Palmar",
+   "desde": "14/11/2026, 06:52 h",
+   "hasta": "14/11/2026, 12:00 h",
+   "desde_iso": "2026-11-14T06:52:00-03:00",
+   "hasta_iso": "2026-11-14T12:00:00-03:00",
+   "emision": "14/11/2026, 06:55 h",
+   "emision_iso": "2026-11-14T06:55:00-03:00",
    "min": 80,
    "max": 120,
-   "texto": "Alerta naranja por tormentas del Servicio Meteorológico Nacional, difundida por el COE de Corrientes (2026-0021-NT), para el sábado 14/11 de 11:00 a 17:00 h, que incluye a la Capital: tormentas fuertes, granizo ocasional, ráfagas que podrían superar los 90 km/h y entre 80 y 120 mm, que pueden ser superados en forma localizada. Emitida el 13/11/2026 a las 17:47 h."
+   "texto": "Alerta naranja por tormentas del Servicio Meteorológico Nacional, difundida por el COE de Corrientes (2026-0022-NT), en curso el sábado 14/11 desde las 06:52 h hasta las 12:00 h, que incluye a la Capital: tormentas fuertes, granizo ocasional, ráfagas que podrían superar los 90 km/h y entre 80 y 120 mm, que pueden ser superados en forma localizada. Emitida el 14/11/2026 a las 06:55 h."
   }
  },
  "rio": {
-  "altura": 6.73,
-  "actualizado": "13/11/2026, tabla de Prefectura Naval Argentina publicada por el CIM/UNL, hora de observación no publicada (−0,07 m). El INA informa el mismo valor en su reporte del 13/11.",
+  "altura": 6.68,
+  "actualizado": "14/11/2026, tabla de Prefectura Naval Argentina publicada por el CIM/UNL (hora no publicada)",
   "alerta": 6.5,
   "evacuacion": 7.0
  },
  "fuentes": [
+  {
+   "g": "Actualización del 14/11/2026, 09:12 h",
+   "l": [
+    [
+     "COE de Corrientes, listado de alertas (avisos del SMN)",
+     "https://coe.corrientes.gob.ar/alertas"
+    ],
+    [
+     "Prefectura Naval Argentina, alturas del Paraná publicadas por el CIM/UNL (14/11)",
+     "https://cim.fich.unl.edu.ar/rios/parana/alturas"
+    ],
+    [
+     "INA, reporte hidrometeorológico diario del 13/11",
+     "https://alerta.ina.gob.ar/a5/diario/pdf/reporte_diario_2026-11-13.pdf"
+    ],
+    [
+     "La Nación, clima en Corrientes (parte del SMN, 07:08 h)",
+     "https://www.lanacion.com.ar/clima/corrientes/"
+    ],
+    [
+     "Agrofy News (datos de Open-Meteo), pronóstico para Corrientes",
+     "https://news.agrofy.com.ar/pronostico-clima-tiempo/corrientes/corrientes"
+    ],
+    [
+     "Meteored, pronóstico por horas de Corrientes",
+     "https://www.meteored.com.ar/tiempo-en_Corrientes-America+Sur-Argentina-Corrientes-SARC-horas-16886.html"
+    ],
+    [
+     "SNIH, lluvia medida",
+     "https://snih.hidricosargentina.gob.ar/Filtros.aspx"
+    ]
+   ]
+  },
   {
    "g": "Actualización del 13/11/2026, 23:14 h",
    "l": [
@@ -645,35 +704,6 @@
     [
      "EBY, alerta hidrológico N.º 03/noviembre (10/11)",
      "https://www.eby.gov.py/alerta-hidrologico-n03-noviembre/"
-    ]
-   ]
-  },
-  {
-   "g": "Actualización del 09/11/2026, 18:49 h",
-   "l": [
-    [
-     "Repositorio Tablero_Ciudadano_Hidrologico (Drive), manifiesto validado 20261109_164429 (6 de 6 huellas)",
-     "https://drive.google.com/file/d/18Kc0N1wIe7slyl6C9JngatERdfl6GzSj/view"
-    ],
-    [
-     "Vigilancia meteorológica de Drive (solo lectura), revisión del 09/11, 16:51 h: NO_VERIFICADO",
-     "https://drive.google.com/file/d/1Aele9FYUFC1H1LuPTDcdfBWbKvvcwAOu/view"
-    ],
-    [
-     "COE de Corrientes, listado de alertas (sin alertas vigentes)",
-     "https://coe.corrientes.gob.ar/alertas"
-    ],
-    [
-     "CIM/UNL, alturas del Paraná (datos de Prefectura)",
-     "https://cim.fich.unl.edu.ar/rios/parana/alturas"
-    ],
-    [
-     "La Nación, clima en Corrientes (parte del SMN, 17:25 h)",
-     "https://www.lanacion.com.ar/clima/corrientes/"
-    ],
-    [
-     "Agrofy News (Open-Meteo), Corrientes, 18:45 h",
-     "https://news.agrofy.com.ar/pronostico-clima-tiempo/corrientes/corrientes"
     ]
    ]
   }
@@ -904,71 +934,118 @@
   },
   "2026-11-14": {
    "smn": {
-    "texto": "Alerta naranja por tormentas del SMN difundida por el COE (2026-0021-NT), sábado 14/11 de 11:00 a 17:00 h, con 80 a 120 mm que pueden ser superados en forma localizada y ráfagas de más de 90 km/h.",
+    "texto": "Parte del SMN difundido por La Nación (actualizado a las 07:08 h del 14/11): tormentas fuertes, 100 % por la mañana y 70 % por la tarde. Alerta naranja por tormentas del SMN difundida por el COE (2026-0022-NT), en curso hasta las 12:00 h, con 80 a 120 mm que pueden ser superados en forma localizada.",
     "mm": null,
-    "u": "https://coe.corrientes.gob.ar/a/2026-0021-NT"
+    "u": "https://www.lanacion.com.ar/clima/corrientes/"
    },
    "modelos": [
     {
      "n": "Agrofy (Open-Meteo)",
-     "mm": 12.7,
-     "act": "13/11, 22:58 h"
+     "mm": 2.1,
+     "act": "14/11, 08:13 h"
+    },
+    {
+     "n": "Meteored",
+     "mm": 0.9,
+     "act": "14/11, 09:00 h"
     }
    ],
-   "usado": 12.7,
+   "usado": 2.1,
+   "criterio": "Parte del SMN (La Nación, 07:08 h): tormentas fuertes, 100 % por la mañana y 70 % por la tarde; el SMN prevé tormentas fuertes con 70 % o más: se usa el modelo más alto: 2,1 mm. El rango de la alerta (80 a 120 mm) no se usa como pronóstico central: se informa aparte como escenario severo. Estimación derivada, no una medición.",
    "escenario_severo": {
     "min": 80,
     "max": 120
-   },
-   "criterio": "Sin parte del SMN con probabilidades y con Meteored no consultable: se usa el promedio de los modelos disponibles (solo Agrofy, Open-Meteo: 12,7 mm, 78 % de probabilidad). El rango de la alerta (80 a 120 mm) no se usa como pronóstico central: se informa aparte como escenario severo. Estimación derivada, no una medición."
+   }
   },
   "2026-11-15": {
    "smn": {
-    "texto": "Sin aviso oficial ni parte del SMN con probabilidades disponible para ese día.",
+    "texto": "Parte del SMN difundido por La Nación (actualizado a las 07:08 h del 14/11): tormentas aisladas por la tarde, 40 %.",
     "mm": null,
-    "u": "https://www.smn.gob.ar/pronostico"
+    "u": "https://www.lanacion.com.ar/clima/corrientes/"
    },
    "modelos": [
     {
      "n": "Agrofy (Open-Meteo)",
-     "mm": 2.6,
-     "act": "12/11, 18:00 h"
+     "mm": 0,
+     "act": "14/11, 08:13 h"
+    },
+    {
+     "n": "Meteored",
+     "mm": 0.0,
+     "act": "14/11, 09:00 h"
     }
    ],
-   "usado": 2.6,
-   "criterio": "Sin aviso oficial ni parte del SMN: promedio de los modelos disponibles (solo Agrofy, 2,6 mm, 22 % de probabilidad). El modelo solo publica el total diario: el reparto horario es uniforme y no representa un horario real. Pronóstico de más de 48 h, de baja confiabilidad. Estimación derivada, no una medición. Valor conservado de la corrida del 12/11, 18:00 h; sin pronóstico nuevo verificado en esta corrida."
+   "usado": 0.0,
+   "criterio": "Parte del SMN (La Nación, 07:08 h): tormentas aisladas por la tarde, 40 %; el SMN prevé entre 40 y 69 % de probabilidad: se usa el promedio de los modelos: 0,0 mm. Estimación derivada, no una medición."
   },
   "2026-11-16": {
    "smn": {
-    "texto": "Sin aviso oficial ni parte del SMN con probabilidades disponible para ese día.",
+    "texto": "Parte del SMN difundido por La Nación (actualizado a las 07:08 h del 14/11): mayormente nublado, 10 %.",
     "mm": null,
-    "u": "https://www.smn.gob.ar/pronostico"
+    "u": "https://www.lanacion.com.ar/clima/corrientes/"
    },
    "modelos": [
     {
      "n": "Agrofy (Open-Meteo)",
-     "mm": 4.2,
-     "act": "12/11, 18:00 h"
+     "mm": 3.4,
+     "act": "14/11, 08:13 h"
+    },
+    {
+     "n": "Meteored",
+     "mm": 2.3,
+     "act": "14/11, 09:00 h"
     }
    ],
-   "usado": 4.2,
-   "criterio": "Sin aviso oficial ni parte del SMN: promedio de los modelos disponibles (solo Agrofy, 4,2 mm, 30 % de probabilidad). El modelo solo publica el total diario: el reparto horario es uniforme y no representa un horario real. Pronóstico de más de 48 h, de baja confiabilidad. Estimación derivada, no una medición. Valor conservado de la corrida del 12/11, 18:00 h; sin pronóstico nuevo verificado en esta corrida."
+   "usado": 2.3,
+   "criterio": "Parte del SMN (La Nación, 07:08 h): mayormente nublado, 10 %; el SMN prevé menos de 40 % de probabilidad: se usa el modelo más bajo: 2,3 mm. Estimación derivada, no una medición."
   },
   "2026-11-17": {
    "smn": {
-    "texto": "Sin aviso oficial ni parte del SMN con probabilidades disponible para ese día.",
+    "texto": "Parte del SMN difundido por La Nación (actualizado a las 07:08 h del 14/11): tormentas aisladas, 40 %.",
     "mm": null,
-    "u": "https://www.smn.gob.ar/pronostico"
+    "u": "https://www.lanacion.com.ar/clima/corrientes/"
    },
    "modelos": [
     {
      "n": "Agrofy (Open-Meteo)",
-     "mm": 10.2,
-     "act": "12/11, 18:00 h"
+     "mm": 21.3,
+     "act": "14/11, 08:13 h"
     }
    ],
-   "usado": 10.2,
-   "criterio": "Sin aviso oficial ni parte del SMN: promedio de los modelos disponibles (solo Agrofy, 10,2 mm, 73 % de probabilidad). El modelo solo publica el total diario: el reparto horario es uniforme y no representa un horario real. Pronóstico de más de 48 h, de baja confiabilidad. Estimación derivada, no una medición. Valor conservado de la corrida del 12/11, 18:00 h; sin pronóstico nuevo verificado en esta corrida."
+   "usado": 21.3,
+   "criterio": "Parte del SMN (La Nación, 07:08 h): tormentas aisladas, 40 %; el SMN prevé entre 40 y 69 % de probabilidad: se usa el promedio de los modelos (solo hay un modelo disponible para ese día): 21,3 mm. El modelo solo publica el total diario: el reparto horario es uniforme y no representa un horario real. Pronóstico de más de 48 h, de baja confiabilidad. Estimación derivada, no una medición."
+  },
+  "2026-11-18": {
+   "smn": {
+    "texto": "Parte del SMN difundido por La Nación (actualizado a las 07:08 h del 14/11): parcialmente nublado, 10 %.",
+    "mm": null,
+    "u": "https://www.lanacion.com.ar/clima/corrientes/"
+   },
+   "modelos": [
+    {
+     "n": "Agrofy (Open-Meteo)",
+     "mm": 61.7,
+     "act": "14/11, 08:13 h"
+    }
+   ],
+   "usado": 61.7,
+   "criterio": "Parte del SMN (La Nación, 07:08 h): parcialmente nublado, 10 %; el SMN prevé menos de 40 % de probabilidad: se usa el modelo más bajo (solo hay un modelo disponible para ese día): 61,7 mm. El modelo solo publica el total diario: el reparto horario es uniforme y no representa un horario real. Pronóstico de más de 48 h, de baja confiabilidad. El modelo prevé mucha más lluvia que el parte del SMN, que indica 10 % de probabilidad: tomar este valor con mucha cautela. Estimación derivada, no una medición."
+  },
+  "2026-11-19": {
+   "smn": {
+    "texto": "Parte del SMN difundido por La Nación (actualizado a las 07:08 h del 14/11): parcialmente nublado, 10 %.",
+    "mm": null,
+    "u": "https://www.lanacion.com.ar/clima/corrientes/"
+   },
+   "modelos": [
+    {
+     "n": "Agrofy (Open-Meteo)",
+     "mm": 16.4,
+     "act": "14/11, 08:13 h"
+    }
+   ],
+   "usado": 16.4,
+   "criterio": "Parte del SMN (La Nación, 07:08 h): parcialmente nublado, 10 %; el SMN prevé menos de 40 % de probabilidad: se usa el modelo más bajo (solo hay un modelo disponible para ese día): 16,4 mm. El modelo solo publica el total diario: el reparto horario es uniforme y no representa un horario real. Pronóstico de más de 48 h, de baja confiabilidad. Estimación derivada, no una medición."
   }
  },
  "estado_alertas": "VERIFICADO_CON_ALERTAS"

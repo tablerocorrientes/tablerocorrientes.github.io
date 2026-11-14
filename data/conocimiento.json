@@ -1,12 +1,12 @@
 {
- "actualizado": "14/11/2026, 08:11 h",
+ "actualizado": "14/11/2026, 09:12 h",
  "explicacion": "Cada actualización suma registros: barrios afectados con la altura del río o la lluvia de ese día, obras terminadas, reportes de vecinos verificados y la comparación entre lo pronosticado y lo que ocurrió. Con esa comparación se detectan desvíos y se proponen ajustes a los cálculos, que revisa el autor del tablero.",
  "contadores": {
   "barrios_documentados": 49,
   "obras": 0,
   "reportes_verificados": 0,
   "comparaciones_rio": 0,
-  "comparaciones_lluvia": 0
+  "comparaciones_lluvia": 2
  },
  "aprendizajes": [
   {
@@ -19,7 +19,20 @@
  ],
  "verificaciones": {
   "rio": [],
-  "lluvia": [],
+  "lluvia": [
+   {
+    "fecha": "2026-11-13",
+    "localidad": "Mercedes",
+    "pronosticado_mm": 0,
+    "medido_mm": 0.0
+   },
+   {
+    "fecha": "2026-11-13",
+    "localidad": "Corrientes Capital",
+    "pronosticado_mm": 0,
+    "medido_mm": 0.0
+   }
+  ],
   "simulador": []
  },
  "ajustes": []

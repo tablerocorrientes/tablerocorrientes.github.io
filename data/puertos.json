@@ -1,91 +1,91 @@
 {
- "actualizado": "13/11/2026, 23:14 h",
- "fecha_registro": "2026-11-13",
+ "actualizado": "14/11/2026, 09:12 h",
+ "fecha_registro": "2026-11-14",
  "puertos": [
   {
    "puerto": "Ituzaingó",
-   "altura": 3.25,
-   "variacion": -0.2,
+   "altura": 2.99,
+   "variacion": -0.26,
    "alerta": 3.5,
    "evacuacion": 4,
-   "fuente": "Prefectura Naval Argentina, tabla de alturas del 13/11/2026 publicada por el CIM de la Universidad Nacional del Litoral (hora de observación no publicada)",
-   "registro": "13/11/2026"
+   "fuente": "Prefectura Naval Argentina, tabla de alturas del 14/11/2026 publicada por el CIM de la Universidad Nacional del Litoral (hora de observación no publicada)",
+   "registro": "14/11/2026"
   },
   {
    "puerto": "Itá Ibaté",
-   "altura": 5.62,
-   "variacion": 0.0,
+   "altura": 5.44,
+   "variacion": -0.18,
    "alerta": 7,
    "evacuacion": 7.5,
-   "fuente": "Prefectura Naval Argentina, tabla de alturas del 13/11/2026 publicada por el CIM de la Universidad Nacional del Litoral (hora de observación no publicada)",
-   "registro": "13/11/2026"
+   "fuente": "Prefectura Naval Argentina, tabla de alturas del 14/11/2026 publicada por el CIM de la Universidad Nacional del Litoral (hora de observación no publicada)",
+   "registro": "14/11/2026"
   },
   {
    "puerto": "Itatí",
-   "altura": 7.06,
-   "variacion": -0.1,
+   "altura": 7.0,
+   "variacion": -0.06,
    "alerta": 6.8,
    "evacuacion": 7.5,
-   "fuente": "Prefectura Naval Argentina, tabla de alturas del 13/11/2026 publicada por el CIM de la Universidad Nacional del Litoral (hora de observación no publicada)",
-   "registro": "13/11/2026"
+   "fuente": "Prefectura Naval Argentina, tabla de alturas del 14/11/2026 publicada por el CIM de la Universidad Nacional del Litoral (hora de observación no publicada)",
+   "registro": "14/11/2026"
   },
   {
    "puerto": "Paso de la Patria",
-   "altura": 6.9,
-   "variacion": -0.07,
+   "altura": 6.82,
+   "variacion": -0.08,
    "alerta": 6.5,
    "evacuacion": 7,
-   "fuente": "Prefectura Naval Argentina, tabla de alturas del 13/11/2026 publicada por el CIM de la Universidad Nacional del Litoral (hora de observación no publicada)",
-   "registro": "13/11/2026"
+   "fuente": "Prefectura Naval Argentina, tabla de alturas del 14/11/2026 publicada por el CIM de la Universidad Nacional del Litoral (hora de observación no publicada)",
+   "registro": "14/11/2026"
   },
   {
    "puerto": "Corrientes",
-   "altura": 6.73,
-   "variacion": -0.07,
+   "altura": 6.68,
+   "variacion": -0.05,
    "alerta": 6.5,
    "evacuacion": 7,
-   "fuente": "Prefectura Naval Argentina, tabla de alturas del 13/11/2026 publicada por el CIM de la Universidad Nacional del Litoral (hora de observación no publicada)",
-   "registro": "13/11/2026"
+   "fuente": "Prefectura Naval Argentina, tabla de alturas del 14/11/2026 publicada por el CIM de la Universidad Nacional del Litoral (hora de observación no publicada)",
+   "registro": "14/11/2026"
   },
   {
    "puerto": "Empedrado",
-   "altura": 5.88,
-   "variacion": -0.02,
+   "altura": 5.84,
+   "variacion": -0.04,
    "alerta": 6.5,
    "evacuacion": 6.7,
-   "fuente": "Prefectura Naval Argentina, tabla de alturas del 13/11/2026 publicada por el CIM de la Universidad Nacional del Litoral (hora de observación no publicada)",
-   "registro": "13/11/2026"
+   "fuente": "Prefectura Naval Argentina, tabla de alturas del 14/11/2026 publicada por el CIM de la Universidad Nacional del Litoral (hora de observación no publicada)",
+   "registro": "14/11/2026"
   },
   {
    "puerto": "Bella Vista",
-   "altura": 6.27,
-   "variacion": -0.03,
+   "altura": 6.26,
+   "variacion": -0.01,
    "alerta": 6,
    "evacuacion": 6.4,
-   "fuente": "Prefectura Naval Argentina, tabla de alturas del 13/11/2026 publicada por el CIM de la Universidad Nacional del Litoral (hora de observación no publicada)",
-   "registro": "13/11/2026"
+   "fuente": "Prefectura Naval Argentina, tabla de alturas del 14/11/2026 publicada por el CIM de la Universidad Nacional del Litoral (hora de observación no publicada)",
+   "registro": "14/11/2026"
   },
   {
    "puerto": "Goya",
-   "altura": 5.87,
-   "variacion": -0.02,
+   "altura": 5.86,
+   "variacion": -0.01,
    "alerta": 5.2,
    "evacuacion": 5.7,
-   "fuente": "Prefectura Naval Argentina, tabla de alturas del 13/11/2026 publicada por el CIM de la Universidad Nacional del Litoral (hora de observación no publicada)",
-   "registro": "13/11/2026"
+   "fuente": "Prefectura Naval Argentina, tabla de alturas del 14/11/2026 publicada por el CIM de la Universidad Nacional del Litoral (hora de observación no publicada)",
+   "registro": "14/11/2026"
   },
   {
    "puerto": "Esquina",
-   "altura": 5.52,
-   "variacion": -0.02,
+   "altura": 5.51,
+   "variacion": -0.01,
    "alerta": 5,
    "evacuacion": 5.4,
-   "fuente": "Prefectura Naval Argentina, tabla de alturas del 13/11/2026 publicada por el CIM de la Universidad Nacional del Litoral (hora de observación no publicada)",
-   "registro": "13/11/2026"
+   "fuente": "Prefectura Naval Argentina, tabla de alturas del 14/11/2026 publicada por el CIM de la Universidad Nacional del Litoral (hora de observación no publicada)",
+   "registro": "14/11/2026"
   }
  ],
- "nota": "Actualización del 13/11/2026, 23:14 h. Paraná, tabla de Prefectura Naval Argentina del 13/11/2026 publicada por el CIM de la Universidad Nacional del Litoral (sin hora de observación; no hay tabla más nueva): Corrientes 6,73 m (−0,07), sobre la alerta de 6,50 m y bajo la evacuación de 7,00 m; Paso de la Patria 6,90 m (−0,07); Itatí 7,06 m (−0,10), sobre su alerta; Goya 5,87 m y Esquina 5,52 m, sobre su cota de evacuación; Bella Vista 6,27 m (−0,03); Empedrado 5,88 m; Itá Ibaté 5,62 m; Ituzaingó 3,25 m (−0,20), bajo su alerta. El INA (informe del 13/11) prevé que el Paraná en Corrientes siga oscilante o en leve descenso. ALERTAS DEL COE (consulta de las 23:14 h): alerta AMARILLA por tormentas 2026-0069-AT, EN CURSO desde el viernes 13/11 a las 23:00 h hasta el sábado 14/11 a las 10:00 h, para Bella Vista, Esquina, Goya y Lavalle (30 a 70 mm, granizo ocasional); alerta NARANJA por tormentas 2026-0021-NT para el sábado 14/11 de 11:00 a 17:00 h, que INCLUYE A LA CAPITAL, con 80 a 120 mm que pueden ser superados en forma localizada, ráfagas que podrían superar los 90 km/h y granizo ocasional; y alerta amarilla 2026-0068-AT para el sábado 14/11 de 10:00 a 17:00 h en el centro y este de la provincia (30 a 70 mm). Fuente de las tres: Servicio Meteorológico Nacional, difundidas por el COE. Con los ríos altos, una tormenta de esa magnitud puede complicar el desagüe de la ciudad. Evacuados: sin informe nuevo de Defensa Civil; rige el del 06/11 (1.967 personas).",
- "ultimo_intento": "13/11/2026, 23:14 h",
+ "nota": "Actualización del 14/11/2026, 09:12 h. Paraná, tabla de Prefectura Naval Argentina del 14/11/2026 publicada por el CIM de la Universidad Nacional del Litoral (sin hora de observación): Corrientes 6,68 m (−0,05), sobre la alerta de 6,50 m y bajo la evacuación de 7,00 m; Paso de la Patria 6,82 m (−0,08), sobre su alerta; Itatí 7,00 m (−0,06), sobre su alerta; Goya 5,86 m y Esquina 5,51 m, todavía sobre su nivel de evacuación; Bella Vista 6,26 m (−0,01), sobre su alerta; Empedrado 5,84 m; Itá Ibaté 5,44 m; Ituzaingó 2,99 m (−0,26), bajo su alerta. Todos los puertos bajan. El INA (informe del 13/11) prevé que el Paraná en Corrientes siga oscilante o en leve descenso en los próximos 7 días, hasta quedar por debajo de la alerta. La Entidad Binacional Yacyretá (13/11) prevé menos caudal hasta el 17/11 y en Ituzaingó entre 3,2 y 2,4 m. ALERTAS DEL COE (consulta de las 09:00 h): alerta NARANJA por tormentas 2026-0022-NT, EN CURSO desde las 06:52 h hasta las 12:00 h del sábado 14/11, que INCLUYE A LA CAPITAL, con 80 a 120 mm que pueden ser superados en forma localizada, ráfagas de más de 90 km/h y granizo ocasional; alerta amarilla 2026-0070-AT, en curso hasta las 12:00 h, para el centro, sur y este de la provincia (30 a 70 mm). Ambas reemplazan a las alertas emitidas el viernes. Fuente: Servicio Meteorológico Nacional, difundidas por el COE. Evacuados: sin informe nuevo de Defensa Civil; rige el del 06/11 (1.967 personas).",
+ "ultimo_intento": "14/11/2026, 09:12 h",
  "programada": true,
  "horarios": [
   "09:00",
@@ -93,6 +93,27 @@
   "21:00"
  ],
  "partes_oficiales": [
+  {
+   "fecha": "14/11/2026, 06:59 h",
+   "organismo": "COE de Corrientes (aviso del Servicio Meteorológico Nacional)",
+   "resumen": "Alerta amarilla por tormentas 2026-0070-AT, en curso desde el sábado 14/11 a las 06:57 h hasta las 12:00 h, para Bella Vista, Concepción, Curuzú Cuatiá, Esquina, Goya, Ituzaingó, Lavalle, Mercedes, San Miguel, San Roque y Sauce. Se esperan tormentas de variada intensidad, algunas fuertes, con granizo ocasional, actividad eléctrica frecuente y entre 30 y 70 mm, que pueden ser superados en forma localizada.",
+   "enlace": "https://coe.corrientes.gob.ar/a/2026-0070-AT",
+   "breve": "Alerta amarilla por tormentas hasta las 12 h del sábado en el centro, sur y este de la provincia: 30 a 70 mm y granizo ocasional."
+  },
+  {
+   "fecha": "14/11/2026, 06:55 h",
+   "organismo": "COE de Corrientes (aviso del Servicio Meteorológico Nacional)",
+   "resumen": "Alerta naranja por tormentas 2026-0022-NT, en curso desde el sábado 14/11 a las 06:52 h hasta las 12:00 h, para Berón de Astrada, Capital, Empedrado, General Paz, Itatí, Mburucuyá, Saladas, San Cosme y San Luis del Palmar. Se esperan tormentas de variada intensidad, algunas fuertes, con granizo ocasional, ráfagas que podrían superar los 90 km/h y entre 80 y 120 mm, que pueden ser superados en forma localizada. Reemplaza a la alerta naranja 2026-0021-NT emitida el viernes.",
+   "enlace": "https://coe.corrientes.gob.ar/a/2026-0022-NT",
+   "breve": "Alerta naranja por tormentas para la Capital y el noroeste, hasta las 12 h del sábado: 80 a 120 mm, ráfagas de más de 90 km/h y granizo."
+  },
+  {
+   "fecha": "13/11/2026",
+   "organismo": "Entidad Binacional Yacyretá (EBY), alerta hidrológico N.º 04/noviembre",
+   "resumen": "Caudal de entrada de unos 24.700 m³/s el 13/11, con descenso previsto a entre 24.500 y 20.500 m³/s hasta el martes 17/11. No se esperan lluvias importantes en la cuenca entre el 13 y el 17/11. En Ituzaingó, el río marcó 3,18 m a las 11 h del 13/11 y bajaría a entre 3,2 y 2,4 m (alerta 3,50 m). Octubre tuvo el mayor caudal medio de la serie histórica para ese mes. Pronóstico, no observación.",
+   "enlace": "https://www.eby.gov.py/89785-2/",
+   "breve": "Yacyretá prevé menos caudal hasta el 17/11 y que el río en Ituzaingó baje a entre 3,2 y 2,4 m, bajo la alerta."
+  },
   {
    "fecha": "13/11/2026, 22:52 h",
    "organismo": "COE de Corrientes (aviso del Servicio Meteorológico Nacional)",
@@ -586,8 +607,16 @@
    "enlace": ""
   }
  ],
- "prensa_fecha": "12/11/2026, 18:54 h",
+ "prensa_fecha": "14/11/2026, 09:12 h",
  "prensa": [
+  {
+   "medio": "Infobae",
+   "fecha": "14/11/2026",
+   "titulo": "Crecida del río Paraná: Santa Fe se encuentra al límite de la evacuación y ya son más de 4.500 afectados en el Litoral",
+   "resumen": "Según la Agencia Federal de Emergencias, hay al menos 4.547 personas evacuadas o autoevacuadas en el Litoral; en Corrientes, 2.005 afectados, con unos 690 vecinos de la Capital con viviendas anegadas, 518 en Itatí, 228 en Paso de la Patria y 211 en la isla Apipé. Goya y Esquina siguen sobre su nivel de evacuación.",
+   "enlace": "https://www.infobae.com/sociedad/2026/11/14/crecida-del-rio-parana-santa-fe-se-encuentra-al-limite-de-la-evacuacion-y-ya-son-mas-de-4500-afectados-en-el-litoral/",
+   "breve": "En Corrientes hay 2.005 afectados por la crecida, según la Agencia Federal de Emergencias; en la Capital, unos 690 vecinos con viviendas anegadas."
+  },
   {
    "medio": "Infobae",
    "fecha": "12/11/2026",
@@ -1039,21 +1068,21 @@
   },
   {
    "puerto": "La Cruz",
-   "altura": 8.12,
-   "variacion": -0.62,
+   "altura": 8.97,
+   "variacion": -0.07,
    "alerta": 9.5,
    "evacuacion": 11.5,
-   "fuente": "Prefectura Naval Argentina, publicado por el INA (sin lectura posterior)",
-   "registro": "01/11/2026, 00:00 h"
+   "fuente": "Prefectura Naval Argentina, lectura del 13/11/2026 publicada por el INA y difundida por Agrofy News (hora no publicada)",
+   "registro": "13/11/2026 (hora no publicada)"
   },
   {
    "puerto": "Yapeyú",
-   "altura": 7.98,
-   "variacion": -0.42,
+   "altura": 8.4,
+   "variacion": -0.02,
    "alerta": 9.5,
    "evacuacion": 10.5,
-   "fuente": "Prefectura Naval Argentina, publicado por el INA (sin lectura posterior)",
-   "registro": "01/11/2026, 00:00 h"
+   "fuente": "Prefectura Naval Argentina, lectura del 13/11/2026 publicada por el INA y difundida por Agrofy News (hora no publicada)",
+   "registro": "13/11/2026 (hora no publicada)"
   },
   {
    "puerto": "Paso de los Libres",
@@ -1066,24 +1095,24 @@
   },
   {
    "puerto": "Bonpland",
-   "altura": 4.1,
-   "variacion": null,
+   "altura": 5.65,
+   "variacion": 0.4,
    "alerta": 7.9,
    "evacuacion": 10.8,
-   "fuente": "Prefectura Naval Argentina, publicado por el INA (sin lectura posterior)",
-   "registro": "30/10/2026, 00:00 h"
+   "fuente": "Prefectura Naval Argentina, lectura del 09/11/2026 publicada por el INA y difundida por Agrofy News (hora no publicada)",
+   "registro": "09/11/2026 (hora no publicada)"
   },
   {
    "puerto": "Monte Caseros",
-   "altura": 6.92,
-   "variacion": null,
+   "altura": 5.78,
+   "variacion": 0.18,
    "alerta": 7.5,
    "evacuacion": 8.5,
-   "fuente": "Prefectura Naval Argentina, difundido por MonteCaserosOnline (en bajante)",
-   "registro": "20/10/2026, 12:00 h"
+   "fuente": "Prefectura Naval Argentina, lectura del 13/11/2026 publicada por el INA y difundida por Agrofy News (hora no publicada)",
+   "registro": "13/11/2026 (hora no publicada)"
   }
  ],
- "uruguay_nota": "Actualización del 13/11/2026, 23:14 h. Comisión Técnica Mixta de Salto Grande, niveles del 13/11/2026 a las 07:00 h (sin reporte más nuevo): Paso de los Libres 7,98 m (+0,12), sobre su alerta de 7,50 m y bajo la evacuación de 8,50 m; Alvear 9,00 m (−0,26); Santo Tomé 8,50 m (−1,60); Garruchos 6,37 m (−2,03), en fuerte bajante. El INA prevé oscilaciones sobre la alerta en Paso de los Libres por 2 o 3 días y luego descenso. La Cruz, Yapeyú y Bonpland siguen sin lectura posterior a fines de octubre; Monte Caseros conserva su última lectura conocida del 20/10.",
+ "uruguay_nota": "Actualización del 14/11/2026, 09:12 h. Comisión Técnica Mixta de Salto Grande, niveles del 13/11/2026 a las 07:00 h (sin reporte más nuevo): Paso de los Libres 7,98 m (+0,12), sobre su alerta de 7,50 m y bajo la evacuación de 8,50 m; Alvear 9,00 m (−0,26); Santo Tomé 8,50 m (−1,60); Garruchos 6,37 m (−2,03), en fuerte bajante. Prefectura Naval Argentina, lecturas del 13/11 publicadas por el INA: La Cruz 8,97 m (−0,07), Yapeyú 8,40 m (−0,02) y Monte Caseros 5,78 m (+0,18); Bonpland 5,65 m el 09/11. El INA (informe del 13/11) prevé oscilaciones sobre la alerta en Paso de los Libres por 2 o 3 días y luego descenso, con pocas chances de una nueva crecida importante.",
  "pasos_fecha": "12/11/2026, 18:54 h",
  "pasos": [
   {
@@ -1193,17 +1222,17 @@
    "breve": "Barrio aislado por el río, con viviendas con más de un metro de agua."
   }
  ],
- "tapon_fecha": "13/11/2026, 23:14 h",
- "tapon_pronostico": "Sábado 14/11: alerta naranja por tormentas del Servicio Meteorológico Nacional (COE 2026-0021-NT), de 11:00 a 17:00 h, que incluye a Corrientes Capital, Goya, Esquina, Bella Vista, Empedrado, Itatí, Saladas y otros departamentos, con 80 a 120 mm y ráfagas de más de 90 km/h; alerta amarilla 2026-0069-AT en curso para Bella Vista, Esquina, Goya y Lavalle hasta las 10:00 h (30 a 70 mm), y amarilla 2026-0068-AT de 10:00 a 17:00 h para el centro y este (30 a 70 mm). Pronóstico estimado para la Capital (modelo Open-Meteo publicado por Agrofy News): 12,7 mm el sábado, entre las 14 y las 17 h; es un valor de modelo y puede quedar muy por debajo de lo que indica la alerta. Con los ríos altos, una lluvia de esa magnitud podría superar la capacidad de los desagües costeros.",
+ "tapon_fecha": "14/11/2026, 09:12 h",
+ "tapon_pronostico": "Sábado 14/11: alerta naranja por tormentas del Servicio Meteorológico Nacional (COE 2026-0022-NT), en curso hasta las 12:00 h, para Corrientes Capital, Empedrado, Itatí, Saladas, San Cosme y otros departamentos del noroeste, con 80 a 120 mm y ráfagas de más de 90 km/h; alerta amarilla 2026-0070-AT hasta las 12:00 h para Goya, Esquina, Bella Vista, Mercedes, Curuzú Cuatiá, Ituzaingó y otros departamentos (30 a 70 mm). Pronóstico estimado para la Capital: 2,1 mm el sábado, sobre todo entre las 15 y las 17 h (modelo Open-Meteo publicado por Agrofy News; Meteored prevé 0,9 mm). El parte del Servicio Meteorológico Nacional prevé tormentas fuertes por la mañana y la tarde. Los modelos pueden quedar muy por debajo de lo que indica la alerta. Con los ríos altos, una lluvia fuerte podría superar la capacidad de los desagües costeros.",
  "efecto_tapon": [
   {
    "ciudad": "Corrientes Capital",
    "riesgo": "alto",
-   "rio": "6,73 m el 13/11 (Prefectura Naval Argentina, tabla publicada por el CIM/UNL, hora no publicada; −0,07 m), sobre la de alerta y bajo la de evacuación (alerta 6,50 m, evacuación 7,00 m). Defensa Civil (parte del 06/11): 1.967 personas en la provincia (444 evacuadas y 1.523 autoevacuadas); en la Capital, 675 (42 evacuadas y 633 autoevacuadas).",
+   "rio": "6,68 m el 14/11 (Prefectura Naval Argentina, tabla publicada por el CIM/UNL, hora no publicada; −0,05 m), sobre la de alerta y bajo la de evacuación (alerta 6,50 m, evacuación 7,00 m). Defensa Civil (parte del 06/11): 1.967 personas en la provincia (444 evacuadas y 1.523 autoevacuadas); en la Capital, 675 (42 evacuadas y 633 autoevacuadas).",
    "desagues": "Con el río por encima de los 7 m, la Municipalidad informó en noviembre de 2023 que los tres principales desagües que descargan en el Paraná, avenida 3 de Abril, arroyo Salamanca y arroyo Poncho Verde, quedaron ahogados. Hoy el río ya superó ese nivel.",
    "fuente": "Municipalidad de Corrientes, 08/11/2023",
    "enlace": "https://ciudaddecorrientes.gov.ar/content/ru-z-por-la-creciente-del-r-o-el-desagote-de-las-lluvias-va-ser-m-s-lento",
-   "pronostico": "Alerta naranja por tormentas del SMN difundida por el COE (2026-0021-NT), sábado 14/11 de 11:00 a 17:00 h, con 80 a 120 mm y ráfagas de más de 90 km/h. Consulta del 13/11/2026, 23:14 h.",
+   "pronostico": "Alerta naranja por tormentas del SMN difundida por el COE (2026-0022-NT), en curso el sábado 14/11 hasta las 12:00 h, con 80 a 120 mm y ráfagas de más de 90 km/h. Consulta del 14/11/2026, 09:12 h.",
    "enlaces": [
     {
      "n": "Servicio Meteorológico Nacional (oficial)",
@@ -1230,11 +1259,11 @@
   {
    "ciudad": "Paso de la Patria",
    "riesgo": "alto",
-   "rio": "6,90 m el 13/11 (Prefectura Naval Argentina, tabla publicada por el CIM/UNL, hora no publicada; −0,07 m), sobre la de alerta y bajo la de evacuación (alerta 6,50 m, evacuación 7,00 m).",
+   "rio": "6,82 m el 14/11 (Prefectura Naval Argentina, tabla publicada por el CIM/UNL, hora no publicada; −0,08 m), sobre la de alerta y bajo la de evacuación (alerta 6,50 m, evacuación 7,00 m).",
    "desagues": "El municipio selló bocas de tormenta con el río en 5,80 m para evitar que el Paraná ingrese por los desagües. El 20/10, el río rompió una barrera de contención provisoria y el agua llegó a calles céntricas, como 25 de Mayo y 8 de Diciembre.",
    "fuente": "Municipalidad de Paso de la Patria, informado por El Litoral, 14/10/2026",
    "enlace": "https://www.ellitoral.com.ar/sociedad/2026-10-14-19-14-0-pueblo-correntino-tapa-los-sumideros-para-evitar-que-el-agua-del-rio-ingrese-a-las-calles",
-   "pronostico": "Alerta naranja por tormentas del SMN difundida por el COE (2026-0021-NT), sábado 14/11 de 11:00 a 17:00 h, con 80 a 120 mm y ráfagas de más de 90 km/h. Consulta del 13/11/2026, 23:14 h.",
+   "pronostico": "Alerta naranja por tormentas del SMN difundida por el COE (2026-0022-NT), en curso el sábado 14/11 hasta las 12:00 h, con 80 a 120 mm y ráfagas de más de 90 km/h. Consulta del 14/11/2026, 09:12 h.",
    "enlaces": [
     {
      "n": "Servicio Meteorológico Nacional (oficial)",
@@ -1253,11 +1282,11 @@
   {
    "ciudad": "Itatí",
    "riesgo": "alto",
-   "rio": "7,06 m el 13/11 (Prefectura Naval Argentina, tabla publicada por el CIM/UNL, hora no publicada; −0,10 m), sobre la de alerta y bajo la de evacuación (alerta 6,80 m, evacuación 7,50 m).",
+   "rio": "7,00 m el 14/11 (Prefectura Naval Argentina, tabla publicada por el CIM/UNL, hora no publicada; −0,06 m), sobre la de alerta y bajo la de evacuación (alerta 6,80 m, evacuación 7,50 m).",
    "desagues": "El agua cubre la costanera y el barrio Ibiray quedó aislado, con viviendas con más de un metro de agua. Con el río por encima de las cotas de descarga, una lluvia intensa no tendría salida hacia el Paraná.",
    "fuente": "Prefectura y medios locales, 18/10/2026",
    "enlace": "",
-   "pronostico": "Alerta naranja por tormentas del SMN difundida por el COE (2026-0021-NT), sábado 14/11 de 11:00 a 17:00 h, con 80 a 120 mm y ráfagas de más de 90 km/h. Consulta del 13/11/2026, 23:14 h.",
+   "pronostico": "Alerta naranja por tormentas del SMN difundida por el COE (2026-0022-NT), en curso el sábado 14/11 hasta las 12:00 h, con 80 a 120 mm y ráfagas de más de 90 km/h. Consulta del 14/11/2026, 09:12 h.",
    "enlaces": [
     {
      "n": "Servicio Meteorológico Nacional (oficial)",
@@ -1276,11 +1305,11 @@
   {
    "ciudad": "Goya",
    "riesgo": "medio",
-   "rio": "5,87 m el 13/11 (Prefectura Naval Argentina, tabla publicada por el CIM/UNL, hora no publicada; −0,02 m), sobre su cota de evacuación (alerta 5,20 m, evacuación 5,70 m).",
+   "rio": "5,86 m el 14/11 (Prefectura Naval Argentina, tabla publicada por el CIM/UNL, hora no publicada; −0,01 m), sobre su cota de evacuación (alerta 5,20 m, evacuación 5,70 m).",
    "desagues": "El INA prevé probabilidad de superar la cota de evacuación con mayor probabilidad desde el 19/10. Con el río en ascenso, la capacidad de descarga de los desagües costeros se reduce.",
    "fuente": "INA, reporte diario del 16/10/2026",
    "enlace": "https://alerta.ina.gob.ar/a5/diario/reporte_diario",
-   "pronostico": "Alerta naranja por tormentas del SMN difundida por el COE (2026-0021-NT), sábado 14/11 de 11:00 a 17:00 h, con 80 a 120 mm y ráfagas de más de 90 km/h. Consulta del 13/11/2026, 23:14 h.",
+   "pronostico": "Alerta amarilla por tormentas del SMN difundida por el COE (2026-0070-AT), en curso el sábado 14/11 hasta las 12:00 h, con 30 a 70 mm. Consulta del 14/11/2026, 09:12 h.",
    "enlaces": [
     {
      "n": "Servicio Meteorológico Nacional (oficial)",
@@ -1299,11 +1328,11 @@
   {
    "ciudad": "Ituzaingó",
    "riesgo": "medio",
-   "rio": "3,25 m el 13/11 (Prefectura Naval Argentina, tabla publicada por el CIM/UNL, hora no publicada; −0,20 m), bajo su cota de alerta (alerta 3,50 m, evacuación 4,00 m).",
+   "rio": "2,99 m el 14/11 (Prefectura Naval Argentina, tabla publicada por el CIM/UNL, hora no publicada; −0,26 m), bajo su cota de alerta (alerta 3,50 m, evacuación 4,00 m).",
    "desagues": "Con el río sobre su cota de evacuación, los desagües que descargan al Paraná tienen su salida comprometida.",
    "fuente": "Prefectura, parte del 18/10/2026",
    "enlace": "",
-   "pronostico": "Alerta amarilla por tormentas del SMN difundida por el COE (2026-0068-AT), sábado 14/11 de 10:00 a 17:00 h, con 30 a 70 mm. Consulta del 13/11/2026, 23:14 h.",
+   "pronostico": "Alerta amarilla por tormentas del SMN difundida por el COE (2026-0070-AT), en curso el sábado 14/11 hasta las 12:00 h, con 30 a 70 mm. Consulta del 14/11/2026, 09:12 h.",
    "enlaces": [
     {
      "n": "Servicio Meteorológico Nacional (oficial)",
@@ -1317,9 +1346,9 @@
   }
  ],
  "alertas": [],
- "alertas_fecha": "13/11/2026, 18:50 h",
+ "alertas_fecha": "14/11/2026, 09:12 h",
  "eby_resumen_anteriores": "Entre el 24/10 y el 3/11 la EBY informó caudales de hasta unos 34.500 m³/s, el doble de lo habitual (octubre fue el mes más caudaloso de la serie 1971-2025), con Ituzaingó por encima de 4 m. El paso Ituzaingó–Ayolas estuvo cerrado desde el 12/10 y reabrió el 7/11. La EBY advirtió que El Niño podría extenderse hasta los primeros meses de 2027.",
- "nota_breve": "Paraná en Corrientes: 6,73 m, en leve bajante, por encima de la alerta (6,50 m) y por debajo de la evacuación (7,00 m). Goya y Esquina siguen por encima de su nivel de evacuación.",
- "uruguay_breve": "Paso de los Libres: 7,98 m y en subida, por encima de la alerta (7,50 m); el INA prevé el pico en 2 o 3 días y luego descenso. Santo Tomé y Garruchos bajan.",
- "tapon_breve": "Hoy sábado rige alerta naranja por tormentas para la Capital, de 11 a 17 h (80 a 120 mm). Con los ríos altos, una lluvia fuerte puede superar la capacidad de los desagües."
+ "nota_breve": "Paraná en Corrientes: 6,68 m y en bajante, sobre la alerta (6,50 m) y bajo la evacuación (7,00 m). Hoy rige alerta naranja por tormentas para la Capital hasta las 12 h.",
+ "uruguay_breve": "Paso de los Libres: 7,98 m, sobre la alerta (7,50 m); el INA prevé que oscile 2 o 3 días y luego baje. Santo Tomé y Garruchos bajan.",
+ "tapon_breve": "Rige alerta naranja por tormentas para la Capital hasta las 12 h (80 a 120 mm). Con el río alto, una lluvia fuerte puede superar la capacidad de los desagües."
 }

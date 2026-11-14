@@ -1,11 +1,9 @@
 {
- "actualizado": "14/11/2026, 07:10 h",
+ "actualizado": "14/11/2026, 09:12 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
-  "13/11 08 h",
-  "09 h",
-  "10 h",
+  "13/11 10 h",
   "11 h",
   "12 h",
   "13 h",
@@ -27,11 +25,13 @@
   "05 h",
   "06 h",
   "07 h",
-  "08 h (en curso)"
+  "08 h",
+  "09 h",
+  "10 h (en curso)"
  ],
  "fuente": "Sistema Nacional de Información Hídrica (SNIH), Secretaría de Infraestructura y Política Hídrica; estaciones de la Red Hidrológica Nacional y redes asociadas (ICAA, INTA, Red Iberá). Datos crudos del sensor, sin validar.",
  "enlace": "https://snih.hidricosargentina.gob.ar/Filtros.aspx",
- "nota": "Ventana de 24 horas completas, de 08 h del 13/11 a 07 h del 14/11 (hora de Argentina), más la hora en curso como última columna, con los datos recibidos hasta el momento. El total suma solo las 24 horas completas. Las horas sin transmisión figuran como null, no como cero.",
+ "nota": "Ventana de 24 horas completas, de 10 h del 13/11 a 09 h del 14/11 (hora de Argentina), más la hora en curso como última columna, con los datos recibidos hasta el momento. El total suma solo las 24 horas completas. Las horas sin transmisión figuran como null, no como cero.",
  "estaciones": [
   {
    "localidad": "Corrientes Capital",
@@ -59,13 +59,13 @@
     0.0,
     0.0,
     0.0,
-    0.0,
-    0.0,
     0.8,
+    1.2,
+    0.2,
     null
    ],
-   "total": 0.8,
-   "ultimo": "0,8 mm a las 07 h"
+   "total": 2.2,
+   "ultimo": "0,2 mm a las 09 h"
   },
   {
    "localidad": "Corrientes Capital (estación 13805)",
@@ -93,20 +93,22 @@
     0.0,
     0.0,
     0.0,
-    0.0,
-    0.0,
     0.75,
+    1.0,
+    0.5,
     null
    ],
-   "total": 0.75,
-   "ultimo": "0,75 mm a las 07 h"
+   "total": 2.25,
+   "ultimo": "0,5 mm a las 09 h"
   },
   {
    "localidad": "Garruchos",
    "estacion": "Garruchos",
    "codigo": 13857,
    "valores": [
-    0.0,
+    null,
+    null,
+    0.25,
     null,
     null,
     null,
@@ -114,10 +116,6 @@
     null,
     null,
     null,
-    0.25,
-    null,
-    null,
-    null,
     0.0,
     null,
     null,
@@ -127,6 +125,8 @@
     null,
     null,
     0.0,
+    null,
+    null,
     null,
     null,
     null,
@@ -140,8 +140,6 @@
    "estacion": "Carlos Pellegrini",
    "codigo": 13826,
    "valores": [
-    0.0,
-    null,
     null,
     null,
     0.5,
@@ -164,18 +162,18 @@
     null,
     null,
     null,
+    0.0,
+    null,
     null
    ],
    "total": 0.5,
-   "ultimo": "0 mm a las 04 h"
+   "ultimo": "0 mm a las 08 h"
   },
   {
    "localidad": "San Carlos",
    "estacion": "San Carlos",
    "codigo": 13864,
    "valores": [
-    0.0,
-    0.0,
     0.0,
     0.0,
     0.0,
@@ -197,11 +195,13 @@
     0.0,
     0.0,
     0.0,
-    null,
+    0.0,
+    0.0,
+    0.0,
     null
    ],
    "total": 0.25,
-   "ultimo": "0 mm a las 06 h"
+   "ultimo": "0 mm a las 09 h"
   },
   {
    "localidad": "Santa Lucía",
@@ -227,15 +227,15 @@
     0.0,
     0.0,
     0.0,
-    0.0,
-    0.0,
     0.25,
+    0.0,
+    0.0,
     0.0,
     null,
     null
    ],
    "total": 0.25,
-   "ultimo": "0 mm a las 06 h"
+   "ultimo": "0 mm a las 08 h"
   },
   {
    "localidad": "La Palmira",
@@ -269,7 +269,7 @@
     null
    ],
    "total": 0.0,
-   "ultimo": "0 mm a las 07 h"
+   "ultimo": "0 mm a las 09 h"
   },
   {
    "localidad": "Bella Vista",
@@ -303,7 +303,7 @@
     null
    ],
    "total": null,
-   "ultimo": "sin datos en las últimas 24 horas"
+   "ultimo": "sin datos en las últimas 24 h"
   },
   {
    "localidad": "Caá Caraí",
@@ -337,7 +337,7 @@
     null
    ],
    "total": null,
-   "ultimo": "sin datos en las últimas 24 horas"
+   "ultimo": "sin datos en las últimas 24 h"
   },
   {
    "localidad": "Caá Catí",
@@ -371,7 +371,7 @@
     null
    ],
    "total": null,
-   "ultimo": "sin datos en las últimas 24 horas"
+   "ultimo": "sin datos en las últimas 24 h"
   },
   {
    "localidad": "Curuzú Cuatiá",
@@ -405,7 +405,7 @@
     null
    ],
    "total": null,
-   "ultimo": "sin datos en las últimas 24 horas"
+   "ultimo": "sin datos en las últimas 24 h"
   },
   {
    "localidad": "Esquina",
@@ -439,7 +439,7 @@
     null
    ],
    "total": null,
-   "ultimo": "sin datos en las últimas 24 horas"
+   "ultimo": "sin datos en las últimas 24 h"
   },
   {
    "localidad": "Estación Torrent",
@@ -473,7 +473,7 @@
     null
    ],
    "total": null,
-   "ultimo": "sin datos en las últimas 24 horas"
+   "ultimo": "sin datos en las últimas 24 h"
   },
   {
    "localidad": "Goya",
@@ -507,7 +507,7 @@
     null
    ],
    "total": null,
-   "ultimo": "sin datos en las últimas 24 horas"
+   "ultimo": "sin datos en las últimas 24 h"
   },
   {
    "localidad": "Herlitzka",
@@ -541,7 +541,7 @@
     null
    ],
    "total": null,
-   "ultimo": "sin datos en las últimas 24 horas"
+   "ultimo": "sin datos en las últimas 24 h"
   },
   {
    "localidad": "Itatí",
@@ -575,7 +575,7 @@
     null
    ],
    "total": null,
-   "ultimo": "sin datos en las últimas 24 horas"
+   "ultimo": "sin datos en las últimas 24 h"
   },
   {
    "localidad": "Ituzaingó",
@@ -609,7 +609,7 @@
     null
    ],
    "total": null,
-   "ultimo": "sin datos en las últimas 24 horas"
+   "ultimo": "sin datos en las últimas 24 h"
   },
   {
    "localidad": "Ituzaingó",
@@ -643,7 +643,7 @@
     null
    ],
    "total": null,
-   "ultimo": "sin datos en las últimas 24 horas"
+   "ultimo": "sin datos en las últimas 24 h"
   },
   {
    "localidad": "La Cruz",
@@ -677,19 +677,13 @@
     null
    ],
    "total": 0.0,
-   "ultimo": "0 mm a las 07 h"
+   "ultimo": "0 mm a las 09 h"
   },
   {
    "localidad": "Gobernador Virasoro",
    "estacion": "La Sirena",
    "codigo": 13811,
    "valores": [
-    0.0,
-    null,
-    null,
-    null,
-    0.0,
-    null,
     null,
     null,
     0.0,
@@ -703,6 +697,12 @@
     0.0,
     null,
     null,
+    null,
+    0.0,
+    null,
+    null,
+    null,
+    0.0,
     null,
     null,
     null,
@@ -711,7 +711,7 @@
     null
    ],
    "total": 0.0,
-   "ultimo": "0 mm a las 00 h"
+   "ultimo": "0 mm a las 04 h"
   },
   {
    "localidad": "Los Laureles",
@@ -745,7 +745,7 @@
     null
    ],
    "total": null,
-   "ultimo": "sin datos en las últimas 24 horas"
+   "ultimo": "sin datos en las últimas 24 h"
   },
   {
    "localidad": "Mercedes",
@@ -779,7 +779,7 @@
     null
    ],
    "total": 0.0,
-   "ultimo": "0 mm a las 07 h"
+   "ultimo": "0 mm a las 09 h"
   },
   {
    "localidad": "Mercedes",
@@ -813,7 +813,7 @@
     null
    ],
    "total": null,
-   "ultimo": "sin datos en las últimas 24 horas"
+   "ultimo": "sin datos en las últimas 24 h"
   },
   {
    "localidad": "Monte Caseros",
@@ -847,13 +847,23 @@
     null
    ],
    "total": null,
-   "ultimo": "sin datos en las últimas 24 horas"
+   "ultimo": "sin datos en las últimas 24 h"
   },
   {
    "localidad": "Paso Cerrito",
    "estacion": "Paso Cerrito",
    "codigo": 13849,
    "valores": [
+    null,
+    null,
+    0.0,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
     0.0,
     null,
     null,
@@ -862,17 +872,7 @@
     null,
     null,
     null,
-    null,
-    null,
-    null,
-    null,
-    0.0,
-    null,
-    null,
-    null,
-    0.0,
-    null,
-    null,
+    4.0,
     null,
     null,
     null,
@@ -880,8 +880,8 @@
     null,
     null
    ],
-   "total": 0.0,
-   "ultimo": "0 mm a las 00 h"
+   "total": 4.0,
+   "ultimo": "4 mm a las 04 h"
   },
   {
    "localidad": "Paso de los Libres",
@@ -915,7 +915,7 @@
     null
    ],
    "total": null,
-   "ultimo": "sin datos en las últimas 24 horas"
+   "ultimo": "sin datos en las últimas 24 h"
   },
   {
    "localidad": "Paso Ledesma",
@@ -949,7 +949,7 @@
     null
    ],
    "total": null,
-   "ultimo": "sin datos en las últimas 24 horas"
+   "ultimo": "sin datos en las últimas 24 h"
   },
   {
    "localidad": "Paso Lucero",
@@ -983,7 +983,7 @@
     null
    ],
    "total": null,
-   "ultimo": "sin datos en las últimas 24 horas"
+   "ultimo": "sin datos en las últimas 24 h"
   },
   {
    "localidad": "Paso Mesa",
@@ -1017,7 +1017,7 @@
     null
    ],
    "total": null,
-   "ultimo": "sin datos en las últimas 24 horas"
+   "ultimo": "sin datos en las últimas 24 h"
   },
   {
    "localidad": "Santo Tomé",
@@ -1051,19 +1051,13 @@
     null
    ],
    "total": null,
-   "ultimo": "sin datos en las últimas 24 horas"
+   "ultimo": "sin datos en las últimas 24 h"
   },
   {
    "localidad": "Portal Galarza",
    "estacion": "Portal Galarza",
    "codigo": 283904,
    "valores": [
-    0.0,
-    null,
-    null,
-    null,
-    0.0,
-    null,
     null,
     null,
     0.0,
@@ -1081,11 +1075,17 @@
     0.0,
     null,
     null,
+    null,
+    0.0,
+    null,
+    null,
+    null,
+    0.0,
     null,
     null
    ],
    "total": 0.0,
-   "ultimo": "0 mm a las 04 h"
+   "ultimo": "0 mm a las 08 h"
   },
   {
    "localidad": "Caá Catí",
@@ -1119,7 +1119,7 @@
     null
    ],
    "total": 0.0,
-   "ultimo": "0 mm a las 07 h"
+   "ultimo": "0 mm a las 09 h"
   },
   {
    "localidad": "Pueblo Libertador",
@@ -1141,19 +1141,19 @@
     null,
     null,
     null,
-    null,
-    null,
     3.75,
     3.75,
     1.25,
     1.0,
     1.0,
     0.25,
-    null,
+    0.0,
+    0.0,
+    0.0,
     null
    ],
    "total": 11.0,
-   "ultimo": "0,25 mm a las 06 h"
+   "ultimo": "0 mm a las 09 h"
   },
   {
    "localidad": "Itá Ibaté",
@@ -1187,7 +1187,7 @@
     null
    ],
    "total": 0.0,
-   "ultimo": "0 mm a las 07 h"
+   "ultimo": "0 mm a las 09 h"
   },
   {
    "localidad": "Mburucuyá",
@@ -1215,13 +1215,13 @@
     0.0,
     0.0,
     0.0,
-    0.2,
+    0.0,
     0.0,
     0.0,
     null
    ],
-   "total": 0.2,
-   "ultimo": "0 mm a las 07 h"
+   "total": 0.0,
+   "ultimo": "0 mm a las 09 h"
   },
   {
    "localidad": "Bonpland",
@@ -1255,7 +1255,7 @@
     null
    ],
    "total": 0.0,
-   "ultimo": "0 mm a las 07 h"
+   "ultimo": "0 mm a las 09 h"
   },
   {
    "localidad": "Bella Vista",
@@ -1280,16 +1280,16 @@
     0.0,
     0.0,
     0.0,
+    0.4,
+    0.2,
     0.0,
     0.0,
-    0.8,
-    1.4,
     0.0,
-    1.2,
+    0.0,
     null
    ],
-   "total": 3.4,
-   "ultimo": "1,2 mm a las 07 h"
+   "total": 0.6,
+   "ultimo": "0 mm a las 09 h"
   },
   {
    "localidad": "Curuzú Cuatiá",
@@ -1323,7 +1323,7 @@
     null
    ],
    "total": 0.0,
-   "ultimo": "0 mm a las 07 h"
+   "ultimo": "0 mm a las 09 h"
   },
   {
    "localidad": "Parque Nacional Iberá",
@@ -1331,7 +1331,7 @@
    "codigo": 220226,
    "valores": [
     0.0,
-    null,
+    0.0,
     0.0,
     0.0,
     0.0,
@@ -1357,7 +1357,7 @@
     null
    ],
    "total": 0.0,
-   "ultimo": "0 mm a las 06 h"
+   "ultimo": "0 mm a las 08 h"
   },
   {
    "localidad": "San Isidro",
@@ -1391,7 +1391,7 @@
     null
    ],
    "total": null,
-   "ultimo": "sin datos en las últimas 24 horas"
+   "ultimo": "sin datos en las últimas 24 h"
   },
   {
    "localidad": "San Roque",
@@ -1425,19 +1425,13 @@
     null
    ],
    "total": null,
-   "ultimo": "sin datos en las últimas 24 horas"
+   "ultimo": "sin datos en las últimas 24 h"
   },
   {
    "localidad": "San Roquito",
    "estacion": "San Roquito",
    "codigo": 13832,
    "valores": [
-    0.0,
-    null,
-    null,
-    null,
-    0.0,
-    null,
     null,
     null,
     0.0,
@@ -1453,6 +1447,12 @@
     null,
     null,
     0.0,
+    null,
+    null,
+    null,
+    0.0,
+    null,
+    null,
     null,
     null,
     null,
@@ -1493,7 +1493,7 @@
     null
    ],
    "total": null,
-   "ultimo": "sin datos en las últimas 24 horas"
+   "ultimo": "sin datos en las últimas 24 h"
   },
   {
    "localidad": "Santo Tomé",
@@ -1527,7 +1527,7 @@
     null
    ],
    "total": null,
-   "ultimo": "sin datos en las últimas 24 horas"
+   "ultimo": "sin datos en las últimas 24 h"
   },
   {
    "localidad": "Santo Tomé",
@@ -1561,7 +1561,7 @@
     null
    ],
    "total": 0.0,
-   "ultimo": "0 mm a las 07 h"
+   "ultimo": "0 mm a las 09 h"
   },
   {
    "localidad": "El Sombrerito",
@@ -1595,7 +1595,7 @@
     null
    ],
    "total": null,
-   "ultimo": "sin datos en las últimas 24 horas"
+   "ultimo": "sin datos en las últimas 24 h"
   },
   {
    "localidad": "La Cruz",
@@ -1629,7 +1629,7 @@
     null
    ],
    "total": null,
-   "ultimo": "sin datos en las últimas 24 horas"
+   "ultimo": "sin datos en las últimas 24 h"
   }
  ]
 }
