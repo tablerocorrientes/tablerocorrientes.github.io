@@ -1,5 +1,5 @@
 {
- "actualizado": "14/11/2026, 22:04 h",
+ "actualizado": "14/11/2026, 22:09 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
@@ -95,11 +95,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 7.75,
-   "ultimo": "0 mm a las 21 h"
+   "ultimo": "0 mm a las 22 h"
   },
   {
    "localidad": "Garruchos",
@@ -673,11 +673,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 21 h"
+   "ultimo": "0 mm a las 22 h"
   },
   {
    "localidad": "Gobernador Virasoro",
@@ -775,11 +775,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 21 h"
+   "ultimo": "0 mm a las 22 h"
   },
   {
    "localidad": "Mercedes",
@@ -1115,11 +1115,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 21 h"
+   "ultimo": "0 mm a las 22 h"
   },
   {
    "localidad": "Pueblo Libertador",
@@ -1183,11 +1183,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 21 h"
+   "ultimo": "0 mm a las 22 h"
   },
   {
    "localidad": "Mburucuyá",
@@ -1217,11 +1217,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0.4,
-   "ultimo": "0 mm a las 21 h"
+   "ultimo": "0 mm a las 22 h"
   },
   {
    "localidad": "Bonpland",
@@ -1251,11 +1251,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 21 h"
+   "ultimo": "0 mm a las 22 h"
   },
   {
    "localidad": "Bella Vista",
@@ -1285,11 +1285,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 3.6,
-   "ultimo": "0 mm a las 21 h"
+   "ultimo": "0 mm a las 22 h"
   },
   {
    "localidad": "Curuzú Cuatiá",
@@ -1319,11 +1319,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 21 h"
+   "ultimo": "0 mm a las 22 h"
   },
   {
    "localidad": "Parque Nacional Iberá",
@@ -1557,11 +1557,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 21 h"
+   "ultimo": "0 mm a las 22 h"
   },
   {
    "localidad": "El Sombrerito",
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "14/11/2026, 22:04 h",
+ "consultado": "14/11/2026, 22:09 h",
  "consulta_resultado": "datos nuevos"
 }
