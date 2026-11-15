@@ -1,0 +1,12 @@
+{
+ "nota": "Portadas de noticias que alimentan el Radar de gestión y las tareas del tablero. 'github': las descarga la automatización Fuentes oficiales en cada corrida. 'pc': las lee la tarea F desde el navegador de la computadora del autor (los sitios rechazan las descargas desde servidores).",
+ "portales": [
+  {"nombre": "munired_municipio_corrientes", "via": "github", "url": "https://munired.mcypcorrientes.gob.ar/noticias/corrientes", "descripcion": "Munired (Gobierno de Corrientes): noticias del Municipio de Corrientes y del Gobierno provincial"},
+  {"nombre": "munired_municipio_corrientes_p2", "via": "github", "url": "https://munired.mcypcorrientes.gob.ar/noticias/corrientes?page=2", "descripcion": "Munired, segunda página"},
+  {"nombre": "epoca_municipio_capitalino", "via": "pc", "url": "https://www.diarioepoca.com/t2859-municipio-capitalino", "descripcion": "Diario Época, tema Municipio capitalino"},
+  {"nombre": "epoca_claudio_polich", "via": "pc", "url": "https://www.diarioepoca.com/t41116-claudio-polich", "descripcion": "Diario Época, tema Claudio Polich"},
+  {"nombre": "epoca_jp_valdes", "via": "pc", "url": "https://www.diarioepoca.com/t68271-jp-valdes", "descripcion": "Diario Época, tema Juan Pablo Valdés"},
+  {"nombre": "norte_corrientes", "via": "pc", "url": "https://www.nortecorrientes.com", "descripcion": "Norte Corrientes, portada"},
+  {"nombre": "radio_dos", "via": "pc", "url": "https://www.radiodos.com.ar", "descripcion": "Radio Dos, portada"}
+ ]
+}

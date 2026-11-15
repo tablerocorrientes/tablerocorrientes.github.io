@@ -197,4 +197,40 @@ if pedidas:
     pend['pendientes'] = pend['pendientes'][-60:]
     json.dump(pend, open(pp, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
 
+# Portadas de noticias (Munired y otras): lista de títulos con su dirección
+def enlaces(h, base):
+    dom = re.match(r'https?://[^/]+', base).group(0)
+    vistos, filas = set(), []
+    for href, txt in re.findall(r'<a[^>]+href="([^"#]+)"[^>]*>(.*?)</a>', h, re.S):
+        t = re.sub(r'\s+', ' ', html.unescape(re.sub(r'<[^>]+>', ' ', txt))).strip()
+        if len(t) < 25:
+            continue
+        u = href if href.startswith('http') else dom + ('' if href.startswith('/') else '/') + href
+        if not u.startswith(dom) or u in vistos:
+            continue
+        vistos.add(u)
+        filas.append(t + ' | ' + u)
+    return filas
+try:
+    port = json.load(open(os.path.join(OUT, 'portales.json'), encoding='utf-8'))['portales']
+except Exception:
+    port = []
+PD = os.path.join(OUT, 'portales')
+os.makedirs(PD, exist_ok=True)
+indice['portales'] = {}
+for pt in port:
+    if pt.get('via') != 'github':
+        continue
+    r = {'url': pt['url']}
+    try:
+        st, h = bajar(pt['url'])
+        filas = enlaces(h, pt['url'])
+        open(os.path.join(PD, pt['nombre'] + '.txt'), 'w', encoding='utf-8').write(
+            'Portada: ' + pt['url'] + '\nConsultado: ' + indice['consultado'] + '\nLeído por GitHub\n\n' + '\n'.join(filas))
+        r.update(estado=st, notas=len(filas), archivo='data/fuentes/portales/' + pt['nombre'] + '.txt')
+    except Exception as e:
+        r.update(estado='error', detalle=str(e)[:200])
+    indice['portales'][pt['nombre']] = r
+    print('portal', pt['nombre'], r.get('estado'), r.get('notas'))
+
 json.dump(indice, open(os.path.join(OUT, 'indice.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
