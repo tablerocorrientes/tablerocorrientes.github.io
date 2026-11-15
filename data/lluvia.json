@@ -1,5 +1,5 @@
 {
- "actualizado": "15/11/2026, 18:09 h",
+ "actualizado": "15/11/2026, 18:26 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
@@ -197,11 +197,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 17 h"
+   "ultimo": "0 mm a las 18 h"
   },
   {
    "localidad": "Santa Lucía",
@@ -231,11 +231,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 17 h"
+   "ultimo": "0 mm a las 18 h"
   },
   {
    "localidad": "La Palmira",
@@ -1115,11 +1115,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 17 h"
+   "ultimo": "0 mm a las 18 h"
   },
   {
    "localidad": "Pueblo Libertador",
@@ -1149,11 +1149,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 17 h"
+   "ultimo": "0 mm a las 18 h"
   },
   {
    "localidad": "Itá Ibaté",
@@ -1217,11 +1217,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 17 h"
+   "ultimo": "0 mm a las 18 h"
   },
   {
    "localidad": "Bonpland",
@@ -1251,11 +1251,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 17 h"
+   "ultimo": "0 mm a las 18 h"
   },
   {
    "localidad": "Bella Vista",
@@ -1285,11 +1285,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0.2,
-   "ultimo": "0 mm a las 17 h"
+   "ultimo": "0 mm a las 18 h"
   },
   {
    "localidad": "Curuzú Cuatiá",
@@ -1319,11 +1319,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 17 h"
+   "ultimo": "0 mm a las 18 h"
   },
   {
    "localidad": "Parque Nacional Iberá",
@@ -1353,11 +1353,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 17 h"
+   "ultimo": "0 mm a las 18 h"
   },
   {
    "localidad": "San Isidro",
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "15/11/2026, 18:09 h",
+ "consultado": "15/11/2026, 18:26 h",
  "consulta_resultado": "datos nuevos"
 }

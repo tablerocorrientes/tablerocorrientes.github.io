@@ -1,11 +1,11 @@
 {
- "actualizado": "15/11/2026, 09:15 h",
+ "actualizado": "15/11/2026, 18:33 h",
  "fecha_registro": "2026-11-15",
  "puertos": [
   {
    "puerto": "Ituzaingó",
-   "altura": 2.65,
-   "variacion": -0.34,
+   "altura": 2.5,
+   "variacion": -0.49,
    "alerta": 3.5,
    "evacuacion": 4,
    "fuente": "Prefectura Naval Argentina, alturas reproducidas por rioparana.com.ar (15/11/2026, hora de observación no publicada)",
@@ -13,8 +13,8 @@
   },
   {
    "puerto": "Itá Ibaté",
-   "altura": 5.22,
-   "variacion": -0.22,
+   "altura": 5.0,
+   "variacion": -0.44,
    "alerta": 7,
    "evacuacion": 7.5,
    "fuente": "Prefectura Naval Argentina, alturas reproducidas por rioparana.com.ar (15/11/2026, hora de observación no publicada)",
@@ -22,35 +22,35 @@
   },
   {
    "puerto": "Itatí",
-   "altura": 6.81,
-   "variacion": -0.19,
+   "altura": 6.79,
+   "variacion": -0.21,
    "alerta": 6.8,
    "evacuacion": 7.5,
-   "fuente": "Prefectura Naval Argentina, alturas reproducidas por rioparana.com.ar (15/11/2026, 08:00 h)",
-   "registro": "15/11/2026, 08:00 h"
+   "fuente": "Prefectura Naval Argentina, alturas reproducidas por rioparana.com.ar (15/11/2026, hora de observación no publicada)",
+   "registro": "15/11/2026"
   },
   {
    "puerto": "Paso de la Patria",
-   "altura": 6.71,
-   "variacion": -0.11,
+   "altura": 6.65,
+   "variacion": -0.17,
    "alerta": 6.5,
    "evacuacion": 7,
-   "fuente": "Prefectura Naval Argentina, alturas reproducidas por rioparana.com.ar (15/11/2026, 08:00 h)",
-   "registro": "15/11/2026, 08:00 h"
+   "fuente": "Prefectura Naval Argentina, alturas reproducidas por rioparana.com.ar (15/11/2026, 18:00 h)",
+   "registro": "15/11/2026, 18:00 h"
   },
   {
    "puerto": "Corrientes",
-   "altura": 6.57,
-   "variacion": -0.11,
+   "altura": 6.55,
+   "variacion": -0.13,
    "alerta": 6.5,
    "evacuacion": 7,
-   "fuente": "Prefectura Naval Argentina, alturas reproducidas por rioparana.com.ar (15/11/2026, 08:00 h)",
-   "registro": "15/11/2026, 08:00 h"
+   "fuente": "Prefectura Naval Argentina, alturas reproducidas por rioparana.com.ar (15/11/2026, 18:00 h)",
+   "registro": "15/11/2026, 18:00 h"
   },
   {
    "puerto": "Empedrado",
-   "altura": 5.8,
-   "variacion": -0.04,
+   "altura": 5.82,
+   "variacion": -0.02,
    "alerta": 6.5,
    "evacuacion": 6.7,
    "fuente": "Prefectura Naval Argentina, alturas reproducidas por rioparana.com.ar (15/11/2026, hora de observación no publicada)",
@@ -62,17 +62,17 @@
    "variacion": -0.06,
    "alerta": 6,
    "evacuacion": 6.4,
-   "fuente": "Prefectura Naval Argentina, alturas reproducidas por rioparana.com.ar (15/11/2026, 08:00 h)",
-   "registro": "15/11/2026, 08:00 h"
+   "fuente": "Prefectura Naval Argentina, alturas reproducidas por rioparana.com.ar (15/11/2026, 18:00 h)",
+   "registro": "15/11/2026, 18:00 h"
   },
   {
    "puerto": "Goya",
-   "altura": 5.86,
-   "variacion": 0.0,
+   "altura": 5.82,
+   "variacion": -0.04,
    "alerta": 5.2,
    "evacuacion": 5.7,
-   "fuente": "Prefectura Naval Argentina, alturas reproducidas por rioparana.com.ar (15/11/2026, 08:00 h)",
-   "registro": "15/11/2026, 08:00 h"
+   "fuente": "Prefectura Naval Argentina, alturas reproducidas por rioparana.com.ar (15/11/2026, 18:00 h)",
+   "registro": "15/11/2026, 18:00 h"
   },
   {
    "puerto": "Esquina",
@@ -80,12 +80,12 @@
    "variacion": -0.01,
    "alerta": 5,
    "evacuacion": 5.4,
-   "fuente": "Prefectura Naval Argentina, alturas reproducidas por rioparana.com.ar (15/11/2026, 06:00 h)",
-   "registro": "15/11/2026, 06:00 h"
+   "fuente": "Prefectura Naval Argentina, alturas reproducidas por rioparana.com.ar (15/11/2026, 14:00 h)",
+   "registro": "15/11/2026, 14:00 h"
   }
  ],
- "nota": "Actualización del 15/11/2026, 09:15 h. Paraná, alturas de Prefectura Naval Argentina del 15/11/2026 reproducidas por rioparana.com.ar: Corrientes 6,57 m a las 08:00 h (−0,11 respecto del 14/11), todavía 7 cm sobre la alerta de 6,50 m y bajo la evacuación de 7,00 m; Paso de la Patria 6,71 m (−0,11), sobre su alerta; Itatí 6,81 m (−0,19), apenas sobre su alerta de 6,80 m; Goya 5,86 m (sin cambios) y Esquina 5,50 m (−0,01), todavía sobre su nivel de evacuación; Bella Vista 6,20 m (−0,06), sobre su alerta; Empedrado 5,80 m; Itá Ibaté 5,22 m; Ituzaingó 2,65 m (−0,34), bajo su alerta. Todos los puertos bajan o se mantienen. El INA (informe del 13/11) prevé que el Paraná en Corrientes siga en descenso lento y quede por debajo de la alerta. ALERTAS: el Servicio Meteorológico Nacional no tiene alertas ni avisos para Corrientes el domingo 15/11 (consulta de las 08:40 h) y el COE de Corrientes no tiene alertas vigentes (consulta de las 09:00 h). Evacuados: sin informe nuevo de Defensa Civil.",
- "ultimo_intento": "15/11/2026, 09:15 h",
+ "nota": "Actualización del 15/11/2026, 18:33 h. Paraná, alturas de Prefectura Naval Argentina del 15/11/2026 reproducidas por rioparana.com.ar: Corrientes 6,55 m a las 18:00 h (−0,13 respecto del 14/11), 5 cm sobre la alerta de 6,50 m y bajo la evacuación de 7,00 m; Paso de la Patria 6,65 m (−0,17), sobre su alerta; Itatí 6,79 m (−0,21), ya 1 cm bajo su alerta de 6,80 m; Goya 5,82 m (−0,04) y Esquina 5,50 m (−0,01), todavía sobre su nivel de evacuación; Bella Vista 6,20 m (−0,06), sobre su alerta; Empedrado 5,82 m; Itá Ibaté 5,00 m; Ituzaingó 2,50 m (−0,49), bajo su alerta. El río sigue en bajante lenta en todos los puertos de Corrientes.",
+ "ultimo_intento": "15/11/2026, 18:33 h",
  "programada": true,
  "horarios": [
   "09:00",
@@ -1362,9 +1362,9 @@
  "alertas": [],
  "alertas_fecha": "14/11/2026, 09:12 h",
  "eby_resumen_anteriores": "Entre el 24/10 y el 3/11 la EBY informó caudales de hasta unos 34.500 m³/s, el doble de lo habitual (octubre fue el mes más caudaloso de la serie 1971-2025), con Ituzaingó por encima de 4 m. El paso Ituzaingó–Ayolas estuvo cerrado desde el 12/10 y reabrió el 7/11. La EBY advirtió que El Niño podría extenderse hasta los primeros meses de 2027.",
- "nota_breve": "Paraná en Corrientes: 6,57 m (15/11, 08:00 h), en bajante lenta y 7 cm sobre la alerta (6,50 m). Sin alertas por tormentas para Corrientes.",
+ "nota_breve": "Paraná en Corrientes: 6,55 m (15/11, 18:00 h), en bajante lenta y 5 cm sobre la alerta (6,50 m). Alerta amarilla por tormentas prevista para el martes 17/11.",
  "uruguay_breve": "Paso de los Libres: 7,98 m, sobre la alerta (7,50 m); el INA prevé que oscile 2 o 3 días y luego baje. Santo Tomé y Garruchos bajan.",
  "tapon_breve": "Sin alerta para la Capital desde las 22 h del 14/11. Con el río alto, una lluvia fuerte puede superar la capacidad de los desagües.",
- "consultado": "15/11/2026, 09:15 h",
+ "consultado": "15/11/2026, 18:33 h",
  "consulta_resultado": "datos nuevos"
 }

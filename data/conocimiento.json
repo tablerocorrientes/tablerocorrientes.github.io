@@ -1,5 +1,5 @@
 {
- "actualizado": "15/11/2026, 09:15 h",
+ "actualizado": "15/11/2026, 18:33 h",
  "explicacion": "Cada actualización suma registros: barrios afectados con la altura del río o la lluvia de ese día, obras terminadas, reportes de vecinos verificados y la comparación entre lo pronosticado y lo que ocurrió. Con esa comparación se detectan desvíos y se proponen ajustes a los cálculos, que revisa el autor del tablero.",
  "contadores": {
   "barrios_documentados": 87,
@@ -9,6 +9,20 @@
   "comparaciones_lluvia": 4
  },
  "aprendizajes": [
+  {
+   "fecha": "15/11/2026",
+   "tipo": "rio",
+   "lugar": "Itatí",
+   "dato": "El Paraná en Itatí marcó 6,79 m el 15/11, 1 cm bajo su cota de alerta de 6,80 m.",
+   "fuente": "Prefectura Naval Argentina (rioparana.com.ar)"
+  },
+  {
+   "fecha": "15/11/2026",
+   "tipo": "rio",
+   "lugar": "Corrientes Capital",
+   "dato": "El Paraná en Corrientes marcó 6,55 m el 15/11 a las 18:00 h, 5 cm sobre la alerta y 13 cm menos que el día anterior.",
+   "fuente": "Prefectura Naval Argentina (rioparana.com.ar)"
+  },
   {
    "fecha": "15/11/2026",
    "tipo": "alerta",

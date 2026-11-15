@@ -1,9 +1,9 @@
 {
- "actualizado": "15/11/2026, 09:15 h",
+ "actualizado": "15/11/2026, 18:33 h",
  "metodo": "estimación derivada de modelos y del parte del SMN",
  "estado_alertas": "VERIFICADO_CON_ALERTAS",
  "estado_verificado": {
-  "fecha": "15/11/2026, 13:27 h",
+  "fecha": "15/11/2026, 18:33 h",
   "fuente": "SMN y COE de Corrientes"
  },
  "met_archivo": {
@@ -46,19 +46,9 @@
     "mm": 0.0,
     "horas": 0
    },
-   "smn": "Sin alertas del SMN ni del COE para la Capital el domingo 15/11. Parte del SMN difundido por La Nación (08:48 h): hoy mayormente nublado, 10 % de probabilidad de lluvia por la mañana y 0 % por la tarde y la noche; mañana lunes mayormente nublado, 0 %.",
+   "smn": "Sin alertas del SMN ni del COE para la Capital el domingo 15/11 ni el lunes 16/11 (alerta amarilla por tormentas prevista para el martes 17/11). Parte del SMN difundido por La Nación (17:31 h): hoy mayormente nublado, 0 % de probabilidad de lluvia por la tarde y la noche; mañana lunes mayormente nublado, 0 %.",
    "modelos": {
     "hoy": [
-     [
-      "Open-Meteo",
-      0.0
-     ],
-     [
-      "Modelo numérico del SMN",
-      0.0
-     ]
-    ],
-    "manana": [
      [
       "Open-Meteo",
       0.2
@@ -71,78 +61,36 @@
       "Modelo numérico del SMN",
       0.0
      ]
+    ],
+    "manana": [
+     [
+      "Open-Meteo",
+      1.0
+     ],
+     [
+      "Meteored",
+      0.6
+     ],
+     [
+      "Modelo numérico del SMN",
+      0.0
+     ]
     ]
    },
-   "criterio": "Hoy y mañana el parte del SMN prevé menos de 40 % de probabilidad de lluvia, por eso se usa el modelo más bajo: hoy 0,0 mm y mañana 0,0 mm (Open-Meteo, Meteored y el modelo numérico del SMN coinciden en lluvia nula o casi nula).",
-   "fuente": "Hoy 0,0 mm y mañana 0,0 mm. Modelos Open-Meteo (15/11, 08:59 h), Meteored y modelo numérico del SMN (el modelo puede diferir del pronóstico emitido). Estimación derivada, no una medición.",
-   "act": "15/11, 08:59 h"
+   "criterio": "Hoy y mañana el parte del SMN prevé menos de 40 % de probabilidad de lluvia, por eso se usa el modelo más bajo: hoy 0,0 mm y mañana 0,0 mm (Open-Meteo prevé 0,2 y 1,0 mm; Meteored 0,0 y 0,6 mm; el modelo numérico del SMN, sin lluvia).",
+   "fuente": "Hoy 0,0 mm y mañana 0,0 mm. Modelos Open-Meteo (15/11, 18:33 h), Meteored y modelo numérico del SMN (el modelo puede diferir del pronóstico emitido). Estimación derivada, no una medición.",
+   "act": "15/11, 18:33 h"
   },
   "Goya": {
    "hoy": {
-    "mm": 0.5,
-    "horas": 3
-   },
-   "manana": {
-    "mm": 0.0,
-    "horas": 0
-   },
-   "smn": "Sin alerta del SMN ni del COE para Goya el domingo 15/11 (consulta de las 09:00 h).",
-   "modelos": {
-    "hoy": [
-     [
-      "Open-Meteo",
-      0.5
-     ]
-    ],
-    "manana": [
-     [
-      "Open-Meteo",
-      0.0
-     ]
-    ]
-   },
-   "criterio": "Parte del SMN por ciudad con probabilidades no disponible para esta ciudad: se usa el promedio de los modelos disponibles (Open-Meteo): hoy 0,5 mm y mañana 0,0 mm.",
-   "fuente": "Modelo Open-Meteo (15/11, 08:59 h). Estimación derivada, no una medición.",
-   "act": "15/11, 08:59 h"
-  },
-  "Esquina": {
-   "hoy": {
-    "mm": 0.0,
-    "horas": 0
-   },
-   "manana": {
-    "mm": 0.0,
-    "horas": 0
-   },
-   "smn": "Sin alerta del SMN ni del COE para Esquina el domingo 15/11 (consulta de las 09:00 h).",
-   "modelos": {
-    "hoy": [
-     [
-      "Open-Meteo",
-      0.0
-     ]
-    ],
-    "manana": [
-     [
-      "Open-Meteo",
-      0.0
-     ]
-    ]
-   },
-   "criterio": "Parte del SMN por ciudad con probabilidades no disponible para esta ciudad: se usa el promedio de los modelos disponibles (Open-Meteo): hoy 0,0 mm y mañana 0,0 mm.",
-   "fuente": "Modelo Open-Meteo (15/11, 08:59 h). Estimación derivada, no una medición.",
-   "act": "15/11, 08:59 h"
-  },
-  "Bella Vista": {
-   "hoy": {
     "mm": 0.2,
-    "horas": 2
+    "horas": 1
    },
    "manana": {
     "mm": 0.0,
     "horas": 0
    },
-   "smn": "Sin alerta del SMN ni del COE para Bella Vista el domingo 15/11 (consulta de las 09:00 h).",
+   "smn": "Sin alerta del SMN ni del COE para Goya el domingo 15/11 ni el lunes 16/11 (consulta de las 18:33 h).",
    "modelos": {
     "hoy": [
      [
@@ -158,24 +106,24 @@
     ]
    },
    "criterio": "Parte del SMN por ciudad con probabilidades no disponible para esta ciudad: se usa el promedio de los modelos disponibles (Open-Meteo): hoy 0,2 mm y mañana 0,0 mm.",
-   "fuente": "Modelo Open-Meteo (15/11, 08:59 h). Estimación derivada, no una medición.",
-   "act": "15/11, 08:59 h"
+   "fuente": "Modelo Open-Meteo (15/11, 18:33 h). Estimación derivada, no una medición.",
+   "act": "15/11, 18:33 h"
   },
-  "Mercedes": {
+  "Esquina": {
    "hoy": {
-    "mm": 1.5,
-    "horas": 8
+    "mm": 0.3,
+    "horas": 2
    },
    "manana": {
     "mm": 0.0,
     "horas": 0
    },
-   "smn": "Sin alerta del SMN ni del COE para Mercedes el domingo 15/11 (consulta de las 09:00 h).",
+   "smn": "Sin alerta del SMN ni del COE para Esquina el domingo 15/11 ni el lunes 16/11 (consulta de las 18:33 h).",
    "modelos": {
     "hoy": [
      [
       "Open-Meteo",
-      1.5
+      0.3
      ]
     ],
     "manana": [
@@ -185,229 +133,285 @@
      ]
     ]
    },
-   "criterio": "Parte del SMN por ciudad con probabilidades no disponible para esta ciudad: se usa el promedio de los modelos disponibles (Open-Meteo): hoy 1,5 mm y mañana 0,0 mm.",
-   "fuente": "Modelo Open-Meteo (15/11, 08:59 h). Estimación derivada, no una medición.",
-   "act": "15/11, 08:59 h"
+   "criterio": "Parte del SMN por ciudad con probabilidades no disponible para esta ciudad: se usa el promedio de los modelos disponibles (Open-Meteo): hoy 0,3 mm y mañana 0,0 mm.",
+   "fuente": "Modelo Open-Meteo (15/11, 18:33 h). Estimación derivada, no una medición.",
+   "act": "15/11, 18:33 h"
   },
-  "Curuzú Cuatiá": {
+  "Bella Vista": {
    "hoy": {
-    "mm": 1.0,
-    "horas": 7
-   },
-   "manana": {
     "mm": 0.2,
     "horas": 2
    },
-   "smn": "Sin alerta del SMN ni del COE para Curuzú Cuatiá el domingo 15/11 (consulta de las 09:00 h).",
-   "modelos": {
-    "hoy": [
-     [
-      "Open-Meteo",
-      1.0
-     ]
-    ],
-    "manana": [
-     [
-      "Open-Meteo",
-      0.2
-     ]
-    ]
-   },
-   "criterio": "Parte del SMN por ciudad con probabilidades no disponible para esta ciudad: se usa el promedio de los modelos disponibles (Open-Meteo): hoy 1,0 mm y mañana 0,2 mm.",
-   "fuente": "Modelo Open-Meteo (15/11, 08:59 h). Estimación derivada, no una medición.",
-   "act": "15/11, 08:59 h"
-  },
-  "Paso de los Libres": {
-   "hoy": {
-    "mm": 1.1,
-    "horas": 9
-   },
    "manana": {
-    "mm": 0.2,
-    "horas": 4
+    "mm": 0.9,
+    "horas": 7
    },
-   "smn": "Sin alerta del SMN ni del COE para Paso de los Libres el domingo 15/11 (consulta de las 09:00 h).",
+   "smn": "Sin alerta del SMN ni del COE para Bella Vista el domingo 15/11 ni el lunes 16/11 (consulta de las 18:33 h).",
    "modelos": {
     "hoy": [
      [
       "Open-Meteo",
-      2.0
-     ],
-     [
-      "Modelo numérico del SMN",
       0.2
      ]
     ],
     "manana": [
      [
       "Open-Meteo",
-      0.4
-     ],
-     [
-      "Modelo numérico del SMN",
-      0.0
+      0.9
      ]
     ]
    },
-   "criterio": "Parte del SMN por ciudad con probabilidades no disponible para esta ciudad: se usa el promedio de los modelos disponibles (Open-Meteo y el modelo numérico del SMN): hoy 1,1 mm y mañana 0,2 mm.",
-   "fuente": "Modelo Open-Meteo (15/11, 08:59 h) y el modelo numérico del SMN. Estimación derivada, no una medición.",
-   "act": "15/11, 08:59 h"
+   "criterio": "Parte del SMN por ciudad con probabilidades no disponible para esta ciudad: se usa el promedio de los modelos disponibles (Open-Meteo): hoy 0,2 mm y mañana 0,9 mm.",
+   "fuente": "Modelo Open-Meteo (15/11, 18:33 h). Estimación derivada, no una medición.",
+   "act": "15/11, 18:33 h"
   },
-  "Santo Tomé": {
-   "hoy": {
-    "mm": 0.0,
-    "horas": 0
-   },
-   "manana": {
-    "mm": 0.0,
-    "horas": 0
-   },
-   "smn": "Sin alerta del SMN ni del COE para Santo Tomé el domingo 15/11 (consulta de las 09:00 h).",
-   "modelos": {
-    "hoy": [
-     [
-      "Open-Meteo",
-      0.0
-     ]
-    ],
-    "manana": [
-     [
-      "Open-Meteo",
-      0.0
-     ]
-    ]
-   },
-   "criterio": "Parte del SMN por ciudad con probabilidades no disponible para esta ciudad: se usa el promedio de los modelos disponibles (Open-Meteo): hoy 0,0 mm y mañana 0,0 mm.",
-   "fuente": "Modelo Open-Meteo (15/11, 08:59 h). Estimación derivada, no una medición.",
-   "act": "15/11, 08:59 h"
-  },
-  "Gobernador Virasoro": {
-   "hoy": {
-    "mm": 0.4,
-    "horas": 4
-   },
-   "manana": {
-    "mm": 0.5,
-    "horas": 5
-   },
-   "smn": "Sin alerta del SMN ni del COE para Gobernador Virasoro el domingo 15/11 (consulta de las 09:00 h).",
-   "modelos": {
-    "hoy": [
-     [
-      "Open-Meteo",
-      0.4
-     ]
-    ],
-    "manana": [
-     [
-      "Open-Meteo",
-      0.5
-     ]
-    ]
-   },
-   "criterio": "Parte del SMN por ciudad con probabilidades no disponible para esta ciudad: se usa el promedio de los modelos disponibles (Open-Meteo): hoy 0,4 mm y mañana 0,5 mm.",
-   "fuente": "Modelo Open-Meteo (15/11, 08:59 h). Estimación derivada, no una medición.",
-   "act": "15/11, 08:59 h"
-  },
-  "Ituzaingó": {
-   "hoy": {
-    "mm": 0.3,
-    "horas": 4
-   },
-   "manana": {
-    "mm": 0.0,
-    "horas": 0
-   },
-   "smn": "Sin alerta del SMN ni del COE para Ituzaingó el domingo 15/11 (consulta de las 09:00 h).",
-   "modelos": {
-    "hoy": [
-     [
-      "Open-Meteo",
-      0.6
-     ],
-     [
-      "Modelo numérico del SMN",
-      0.1
-     ]
-    ],
-    "manana": [
-     [
-      "Open-Meteo",
-      0.0
-     ],
-     [
-      "Modelo numérico del SMN",
-      0.0
-     ]
-    ]
-   },
-   "criterio": "Parte del SMN por ciudad con probabilidades no disponible para esta ciudad: se usa el promedio de los modelos disponibles (Open-Meteo y el modelo numérico del SMN): hoy 0,3 mm y mañana 0,0 mm.",
-   "fuente": "Modelo Open-Meteo (15/11, 08:59 h) y el modelo numérico del SMN. Estimación derivada, no una medición.",
-   "act": "15/11, 08:59 h"
-  },
-  "Monte Caseros": {
+  "Mercedes": {
    "hoy": {
     "mm": 0.1,
     "horas": 1
    },
    "manana": {
-    "mm": 0.3,
-    "horas": 5
+    "mm": 2.0,
+    "horas": 10
    },
-   "smn": "Sin alerta del SMN ni del COE para Monte Caseros el domingo 15/11 (consulta de las 09:00 h).",
+   "smn": "Sin alerta del SMN ni del COE para Mercedes el domingo 15/11 ni el lunes 16/11 (consulta de las 18:33 h).",
    "modelos": {
     "hoy": [
      [
       "Open-Meteo",
       0.1
+     ]
+    ],
+    "manana": [
+     [
+      "Open-Meteo",
+      2.0
+     ]
+    ]
+   },
+   "criterio": "Parte del SMN por ciudad con probabilidades no disponible para esta ciudad: se usa el promedio de los modelos disponibles (Open-Meteo): hoy 0,1 mm y mañana 2,0 mm.",
+   "fuente": "Modelo Open-Meteo (15/11, 18:33 h). Estimación derivada, no una medición.",
+   "act": "15/11, 18:33 h"
+  },
+  "Curuzú Cuatiá": {
+   "hoy": {
+    "mm": 1.1,
+    "horas": 6
+   },
+   "manana": {
+    "mm": 0.8,
+    "horas": 5
+   },
+   "smn": "Sin alerta del SMN ni del COE para Curuzú Cuatiá el domingo 15/11 ni el lunes 16/11 (consulta de las 18:33 h).",
+   "modelos": {
+    "hoy": [
+     [
+      "Open-Meteo",
+      1.1
+     ]
+    ],
+    "manana": [
+     [
+      "Open-Meteo",
+      0.8
+     ]
+    ]
+   },
+   "criterio": "Parte del SMN por ciudad con probabilidades no disponible para esta ciudad: se usa el promedio de los modelos disponibles (Open-Meteo): hoy 1,1 mm y mañana 0,8 mm.",
+   "fuente": "Modelo Open-Meteo (15/11, 18:33 h). Estimación derivada, no una medición.",
+   "act": "15/11, 18:33 h"
+  },
+  "Paso de los Libres": {
+   "hoy": {
+    "mm": 0.3,
+    "horas": 4
+   },
+   "manana": {
+    "mm": 0.1,
+    "horas": 2
+   },
+   "smn": "Sin alerta del SMN ni del COE para Paso de los Libres el domingo 15/11 ni el lunes 16/11 (consulta de las 18:33 h).",
+   "modelos": {
+    "hoy": [
+     [
+      "Open-Meteo",
+      0.4
+     ],
+     [
+      "Modelo numérico del SMN",
+      0.2
+     ]
+    ],
+    "manana": [
+     [
+      "Open-Meteo",
+      0.2
      ],
      [
       "Modelo numérico del SMN",
       0.0
+     ]
+    ]
+   },
+   "criterio": "Parte del SMN por ciudad con probabilidades no disponible para esta ciudad: se usa el promedio de los modelos disponibles (Open-Meteo y el modelo numérico del SMN): hoy 0,3 mm y mañana 0,1 mm.",
+   "fuente": "Modelo Open-Meteo (15/11, 18:33 h) y el modelo numérico del SMN. Estimación derivada, no una medición.",
+   "act": "15/11, 18:33 h"
+  },
+  "Santo Tomé": {
+   "hoy": {
+    "mm": 0.2,
+    "horas": 2
+   },
+   "manana": {
+    "mm": 0.2,
+    "horas": 2
+   },
+   "smn": "Sin alerta del SMN ni del COE para Santo Tomé el domingo 15/11 ni el lunes 16/11 (consulta de las 18:33 h).",
+   "modelos": {
+    "hoy": [
+     [
+      "Open-Meteo",
+      0.2
+     ]
+    ],
+    "manana": [
+     [
+      "Open-Meteo",
+      0.2
+     ]
+    ]
+   },
+   "criterio": "Parte del SMN por ciudad con probabilidades no disponible para esta ciudad: se usa el promedio de los modelos disponibles (Open-Meteo): hoy 0,2 mm y mañana 0,2 mm.",
+   "fuente": "Modelo Open-Meteo (15/11, 18:33 h). Estimación derivada, no una medición.",
+   "act": "15/11, 18:33 h"
+  },
+  "Gobernador Virasoro": {
+   "hoy": {
+    "mm": 2.3,
+    "horas": 5
+   },
+   "manana": {
+    "mm": 0.6,
+    "horas": 5
+   },
+   "smn": "Sin alerta del SMN ni del COE para Gobernador Virasoro el domingo 15/11 ni el lunes 16/11 (consulta de las 18:33 h).",
+   "modelos": {
+    "hoy": [
+     [
+      "Open-Meteo",
+      2.3
+     ]
+    ],
+    "manana": [
+     [
+      "Open-Meteo",
+      0.6
+     ]
+    ]
+   },
+   "criterio": "Parte del SMN por ciudad con probabilidades no disponible para esta ciudad: se usa el promedio de los modelos disponibles (Open-Meteo): hoy 2,3 mm y mañana 0,6 mm.",
+   "fuente": "Modelo Open-Meteo (15/11, 18:33 h). Estimación derivada, no una medición.",
+   "act": "15/11, 18:33 h"
+  },
+  "Ituzaingó": {
+   "hoy": {
+    "mm": 0.9,
+    "horas": 6
+   },
+   "manana": {
+    "mm": 0.0,
+    "horas": 0
+   },
+   "smn": "Sin alerta del SMN ni del COE para Ituzaingó el domingo 15/11 ni el lunes 16/11 (consulta de las 18:33 h).",
+   "modelos": {
+    "hoy": [
+     [
+      "Open-Meteo",
+      1.6
+     ],
+     [
+      "Modelo numérico del SMN",
+      0.1
+     ]
+    ],
+    "manana": [
+     [
+      "Open-Meteo",
+      0.0
+     ],
+     [
+      "Modelo numérico del SMN",
+      0.0
+     ]
+    ]
+   },
+   "criterio": "Parte del SMN por ciudad con probabilidades no disponible para esta ciudad: se usa el promedio de los modelos disponibles (Open-Meteo y el modelo numérico del SMN): hoy 0,9 mm y mañana 0,0 mm.",
+   "fuente": "Modelo Open-Meteo (15/11, 18:33 h) y el modelo numérico del SMN. Estimación derivada, no una medición.",
+   "act": "15/11, 18:33 h"
+  },
+  "Monte Caseros": {
+   "hoy": {
+    "mm": 0.0,
+    "horas": 0
+   },
+   "manana": {
+    "mm": 0.2,
+    "horas": 4
+   },
+   "smn": "Sin alerta del SMN ni del COE para Monte Caseros el domingo 15/11 ni el lunes 16/11 (consulta de las 18:33 h).",
+   "modelos": {
+    "hoy": [
+     [
+      "Open-Meteo",
+      0.0
+     ],
+     [
+      "Modelo numérico del SMN",
+      0.0
+     ]
+    ],
+    "manana": [
+     [
+      "Open-Meteo",
+      0.4
+     ],
+     [
+      "Modelo numérico del SMN",
+      0.0
+     ]
+    ]
+   },
+   "criterio": "Parte del SMN por ciudad con probabilidades no disponible para esta ciudad: se usa el promedio de los modelos disponibles (Open-Meteo y el modelo numérico del SMN): hoy 0,0 mm y mañana 0,2 mm.",
+   "fuente": "Modelo Open-Meteo (15/11, 18:33 h) y el modelo numérico del SMN. Estimación derivada, no una medición.",
+   "act": "15/11, 18:33 h"
+  },
+  "Saladas": {
+   "hoy": {
+    "mm": 0.5,
+    "horas": 5
+   },
+   "manana": {
+    "mm": 0.7,
+    "horas": 5
+   },
+   "smn": "Sin alerta del SMN ni del COE para Saladas el domingo 15/11 ni el lunes 16/11 (consulta de las 18:33 h).",
+   "modelos": {
+    "hoy": [
+     [
+      "Open-Meteo",
+      0.5
      ]
     ],
     "manana": [
      [
       "Open-Meteo",
       0.7
-     ],
-     [
-      "Modelo numérico del SMN",
-      0.0
      ]
     ]
    },
-   "criterio": "Parte del SMN por ciudad con probabilidades no disponible para esta ciudad: se usa el promedio de los modelos disponibles (Open-Meteo y el modelo numérico del SMN): hoy 0,1 mm y mañana 0,3 mm.",
-   "fuente": "Modelo Open-Meteo (15/11, 08:59 h) y el modelo numérico del SMN. Estimación derivada, no una medición.",
-   "act": "15/11, 08:59 h"
-  },
-  "Saladas": {
-   "hoy": {
-    "mm": 0.1,
-    "horas": 1
-   },
-   "manana": {
-    "mm": 0.1,
-    "horas": 1
-   },
-   "smn": "Sin alerta del SMN ni del COE para Saladas el domingo 15/11 (consulta de las 09:00 h).",
-   "modelos": {
-    "hoy": [
-     [
-      "Open-Meteo",
-      0.1
-     ]
-    ],
-    "manana": [
-     [
-      "Open-Meteo",
-      0.1
-     ]
-    ]
-   },
-   "criterio": "Parte del SMN por ciudad con probabilidades no disponible para esta ciudad: se usa el promedio de los modelos disponibles (Open-Meteo): hoy 0,1 mm y mañana 0,1 mm.",
-   "fuente": "Modelo Open-Meteo (15/11, 08:59 h). Estimación derivada, no una medición.",
-   "act": "15/11, 08:59 h"
+   "criterio": "Parte del SMN por ciudad con probabilidades no disponible para esta ciudad: se usa el promedio de los modelos disponibles (Open-Meteo): hoy 0,5 mm y mañana 0,7 mm.",
+   "fuente": "Modelo Open-Meteo (15/11, 18:33 h). Estimación derivada, no una medición.",
+   "act": "15/11, 18:33 h"
   }
  },
  "horario_capital": {
@@ -466,23 +470,23 @@
   "2026-11-17": [
    0.0,
    0.0,
-   0.0,
-   6.65,
-   4.6,
-   1.95,
-   0.1,
-   0.0,
-   0.0,
-   0.0,
-   0.0,
-   0.0,
-   0.35,
-   0.75,
-   0.3,
-   0.25,
-   0.1,
-   0.15,
    0.05,
+   5.15,
+   1.05,
+   0.2,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.3,
+   0.6,
+   0.15,
    0.0,
    0.0,
    0.0,
@@ -490,17 +494,17 @@
    0.0
   ]
  },
- "horario_act": "15/11/2026, 09:15 h",
- "consultado": "15/11/2026, 17:09 h",
- "consulta_resultado": "sin alerta ni lluvia",
+ "horario_act": "15/11/2026, 18:33 h",
+ "consultado": "15/11/2026, 18:33 h",
+ "consulta_resultado": "datos nuevos",
  "extendido": {
-  "actualizado": "15/11/2026, 18:13 h",
+  "actualizado": "15/11/2026, 18:33 h",
   "aviso": "Pronóstico extendido informativo. No se usa en los cálculos del simulador.",
   "ciudades": {
    "Corrientes Capital": {
     "fuente": "Servicio Meteorológico Nacional, publicado por La Nación",
     "url": "https://www.lanacion.com.ar/clima/corrientes/",
-    "emision": "15/11/2026, 08:48 h",
+    "emision": "15/11/2026, 17:31 h",
     "dias": [
      {
       "fecha": "2026-11-16",
