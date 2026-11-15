@@ -14,7 +14,19 @@
   },
   "coe_inicio": {
    "url": "https://coe.corrientes.gob.ar/",
-   "enlaces": [],
+   "enlaces": [
+    "https://coe.corrientes.gob.ar/a/2026-0020-NT",
+    "https://coe.corrientes.gob.ar/a/2026-0022-NT",
+    "https://coe.corrientes.gob.ar/a/2026-0065-AT",
+    "https://coe.corrientes.gob.ar/a/2026-0066-AT",
+    "https://coe.corrientes.gob.ar/a/2026-0070-AT",
+    "https://coe.corrientes.gob.ar/a/2026-0071-AT",
+    "https://coe.corrientes.gob.ar/a/2026-0072-AT",
+    "https://coe.corrientes.gob.ar/a/2026-0073-AT",
+    "https://coe.corrientes.gob.ar/a/2026-0124-CP",
+    "https://coe.corrientes.gob.ar/a/2026-0125-CP",
+    "https://coe.corrientes.gob.ar/a/2026-0126-CP"
+   ],
    "estado": 200,
    "caracteres": 3625,
    "archivo": "data/fuentes/coe_inicio.txt"
@@ -24,6 +36,42 @@
    "estado": 200,
    "caracteres": 1815,
    "archivo": "data/fuentes/coe_2026_0072_AT.txt"
+  },
+  "coe_a_2026_0020_NT": {
+   "url": "https://coe.corrientes.gob.ar/a/2026-0020-NT",
+   "estado": 200,
+   "caracteres": 2264,
+   "archivo": "data/fuentes/coe_a_2026_0020_NT.txt"
+  },
+  "coe_a_2026_0022_NT": {
+   "url": "https://coe.corrientes.gob.ar/a/2026-0022-NT",
+   "estado": 200,
+   "caracteres": 2213,
+   "archivo": "data/fuentes/coe_a_2026_0022_NT.txt"
+  },
+  "coe_a_2026_0065_AT": {
+   "url": "https://coe.corrientes.gob.ar/a/2026-0065-AT",
+   "estado": 200,
+   "caracteres": 2156,
+   "archivo": "data/fuentes/coe_a_2026_0065_AT.txt"
+  },
+  "coe_a_2026_0066_AT": {
+   "url": "https://coe.corrientes.gob.ar/a/2026-0066-AT",
+   "estado": 200,
+   "caracteres": 2244,
+   "archivo": "data/fuentes/coe_a_2026_0066_AT.txt"
+  },
+  "coe_a_2026_0070_AT": {
+   "url": "https://coe.corrientes.gob.ar/a/2026-0070-AT",
+   "estado": 200,
+   "caracteres": 2167,
+   "archivo": "data/fuentes/coe_a_2026_0070_AT.txt"
+  },
+  "coe_a_2026_0071_AT": {
+   "url": "https://coe.corrientes.gob.ar/a/2026-0071-AT",
+   "estado": 200,
+   "caracteres": 1993,
+   "archivo": "data/fuentes/coe_a_2026_0071_AT.txt"
   }
  }
 }
