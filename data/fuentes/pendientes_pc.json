@@ -4,6 +4,31 @@
    "url": "https://api.open-meteo.com/v1/forecast?latitude=-27.47&longitude=-58.83&hourly=precipitation&timezone=America/Argentina/Buenos_Aires&forecast_days=3",
    "desde": "15/11/2026, 01:13 h",
    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "url": "https://www.diarioepoca.com/1394439-jp-valdes-y-polich-destacaron-el-impacto-de-la-megaobra-de-desague-concluida-sobre-el-pirayui",
+   "desde": "15/11/2026, 01:34 h",
+   "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "url": "https://www.nortecorrientes.com/203909-impulsan-un-regimen-de-transicion-en-el-transporte-urbano-camino-al-proceso-licitatorio",
+   "desde": "15/11/2026, 01:34 h",
+   "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "url": "https://www.republicadecorrientes.com/76201-juan-pablo-valdes-dijo-que-corrientes-espera-fondos-de-la-nacion-por-3000-millones",
+   "desde": "15/11/2026, 01:34 h",
+   "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "url": "https://www.diarioepoca.com/",
+   "desde": "15/11/2026, 01:34 h",
+   "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "url": "https://www.corrienteshoy.com/",
+   "desde": "15/11/2026, 01:34 h",
+   "error": "HTTP Error 429: Too Many Requests"
   }
  ]
 }

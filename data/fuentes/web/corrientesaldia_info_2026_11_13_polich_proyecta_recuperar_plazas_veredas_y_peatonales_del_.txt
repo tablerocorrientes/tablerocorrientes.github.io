@@ -1,0 +1,181 @@
+Fuente: https://corrientesaldia.info/2026/11/13/polich-proyecta-recuperar-plazas-veredas-y-peatonales-del-barrio-laguna-seca/
+Consultado: 15/11/2026, 01:34 h
+
+Polich proyecta recuperar plazas, veredas y peatonales del barrio Laguna Seca - Corrientes al Día
+Ir al contenido
+Facebook
+Instagram
+Youtube
+Google Discover
+Corrientes
+{{current_weather.dt | momentjs( atts.date )}}
+{{current_weather.temp | temp}} ° {{units}}
+{{day.dt | momentjs(atts.date)}}
+{{day.temp | temp}} ° {{day.temp_min | temp}} ° {{units}}
+{{current_weather.temp | temp}} °
+Humidity: {{current_weather.humidity}}%
+Clouds: {{current_weather.clouds}}%
+Wind ({{current_weather.wind.deg}}) :
+{{current_weather.wind.speed}} {{units_wind}}
+{{current_weather.desc}}
+{{day.dt | momentjs(atts.date)}}
+{{day.temp | temp}}°
+{{day.temp_min | temp}} °
+Inicio
+Corrientes
+Actualidad
+Economía
+Educación
+Municipales
+Policiales
+Política
+Salud
+Sociedad
+El País
+Nacionales
+Regionales
+El Mundo
+Suplementos
+Ambiente
+Carnavales
+Espectáculos
+Cultura
+Deportes
+Empresas
+Rural
+Tecnología
+Turismo
+Variedades
+Agenda
+Datos Útiles
+Columnistas
+Nosotros
+Archivo
+Municipales
+Polich proyecta recuperar plazas, veredas y peatonales del barrio Laguna Seca
+Publicado en noviembre 13, 2026.
+Por Corrientes al Día
+El intendente Claudio Polich recorrió el barrio con equipos municipales y escuchó los planteos de los vecinos. Los trabajos de iluminación ya comenzaron en el sector de las 322 Viviendas.
+La Municipalidad de Corrientes proyecta recuperar los espacios públicos de Laguna Seca , uno de los primeros complejos habitacionales de la ciudad. El intendente Claudio Polich recorrió plazas, peatonales y comercios junto a los equipos de Obras Públicas y Servicios Públicos para evaluar el estado de la infraestructura y definir las próximas intervenciones a partir de los planteos de los vecinos.
+La visita comenzó en la plazoleta Cabo Primero de la Prefectura Naval Argentina Julio Omar Benítez, frente al Centro Comercial N.º 2, sobre la calle Dr. Miguel Sussini. Allí, Polich indicó que el Municipio ya inició trabajos de iluminación que incluyen la instalación de nuevas columnas y la reposición de otras existentes.
+Desde ese punto, la comitiva siguió por las peatonales internas y el centro comercial, con paradas en dependencias estatales y negocios de la zona. El recorrido terminó en la plazoleta Simón, en la esquina de Pirovano y Hawái.
+Veredas, circulación interna y arbolado entre las prioridades
+Polich destacó que Laguna Seca cuenta con calles pavimentadas, dársenas de estacionamiento y espacios comunes, aunque parte de esa infraestructura se deterioró tras años de escasa inversión, según señaló. El intendente adelantó que las próximas intervenciones apuntarán a mejorar las veredas y la circulación dentro del barrio, además de recuperar lugares de uso compartido.
+El secretario de Obras Públicas, Sebastián Gómez de la Fuente, explicó que la recorrida permitió identificar problemas y recoger las necesidades de los vecinos. Con esa información, los equipos técnicos completarán el relevamiento y planificarán las intervenciones.
+Por su parte, el secretario de Servicios Públicos, Ignacio Maldonado Yonna, señaló que su área evaluará podas puntuales y de formación para evitar que el arbolado interfiera con los servicios urbanos. También pidió la colaboración de los vecinos para mantener la limpieza de los espacios comunes.
+El barrio Laguna Seca se consolidó entre fines de los años 70 y comienzos de los 80 a partir de planes estatales de vivienda vinculados al FONAVI y al INVICO. Las peatonales internas, las plazoletas y los centros comerciales de cercanía todavía conservan la impronta de ese diseño. Por esos mismos espacios pasan hoy las mejoras que el Municipio busca planificar junto con los vecinos.
+Agregar Corrientes al día en Google Discover
+Relacionado:
+barrio laguna seca | Claudio Polich | Corrientes | Municipalidad de Corrientes
+Prev No te pierdas Banco de Corrientes lanzó líneas para refinanciar deudas y asistir a afectados por El Niño
+También podés ver Fin de semana en Corrientes con Mercado de Pulgas, Súper Seven, ferias, Peña y más Next
+Municipales
+La ciudad de Corrientes prepara puentes aéreos para proteger a los monos carayá
+Publicado en noviembre 14, 2026.
+Por Corrientes al Día Los primeros tres pasafaunas se instalarán en Laguna Soto y cerca de la Facultad de Ciencias Veterinarias de la UNNE, rumbo al Parque Mitre en la (...)
+SEGUIR LEYENDO
+Municipales
+Secuestraron 35 motos en Corrientes y 30 fueron vinculadas a la práctica de stunt
+Publicado en noviembre 14, 2026.
+Por Corrientes al Día El operativo se desplegó durante la madrugada del sábado 14 de noviembre en distintos puntos de Corrientes capital. También fueron secuestrados tres autos y se registraron (...)
+SEGUIR LEYENDO
+Municipales
+Comienza el pago del plus extraordinario a municipales capitalinos
+Publicado en noviembre 13, 2026.
+El cronograma del segundo adicional del mes de noviembre para los trabajadores comunales capitalinos se extenderá hasta el miércoles 18. La Municipalidad de Corrientes informó que este martes 17 de (...)
+SEGUIR LEYENDO
+Agregar Corrientes al día en Google Discover
+ACOMPAÑANOS
+Corrientes al Día es periodismo local serio y responsable, y queremos que siga siendo gratuito. Invitándonos un Cafecito nos ayudás un montón, porque entendemos que todo suma y que, juntos, las crisis son más fáciles de superar.
+Tu navegador no soporta la etiqueta de video.
+-->
+Tu navegador no soporta la etiqueta de video.
+ÚLTIMAS
+VIDEOS
+RELACIONADAS
+ÚLTIMAS
+Policiales
+Violento ataque de motochorros a dos mujeres en Corrientes
+Policiales
+Policías auxiliaron a una nena de 2 años que ingirió sustancia tóxica
+Policiales
+Recuperaron un cachorro de pastor alemán robado en Corrientes
+Política
+Valdés inauguró obras deportivas, una planta de faena y enripiado en Colonia Liebig
+Agenda
+Fin de semana en Corrientes con Mercado de Pulgas, Súper Seven, ferias, Peña y más
+VIDEOS
+Espectáculos
+El correntino Richard Scofano ganó un Latin Grammy 2026
+Economía
+Anunciaron 10% de aumento salarial para empleados provinciales y créditos del Banco de Corrientes
+Política
+Valdés y Karina Milei evaluaron el impacto de la emergencia hídrica en Corrientes
+Economía
+Este viernes detallarán el aumento salarial del 10% para estatales correntinos
+Sociedad
+León XIV se despidió de la Argentina con una misa en Luján: “Argentina, levántate y camina”
+RELACIONADAS
+Municipales
+La ciudad de Corrientes prepara puentes aéreos para proteger a los monos carayá
+Policiales
+Violento ataque de motochorros a dos mujeres en Corrientes
+Municipales
+Secuestraron 35 motos en Corrientes y 30 fueron vinculadas a la práctica de stunt
+Policiales
+Policías auxiliaron a una nena de 2 años que ingirió sustancia tóxica
+Policiales
+Recuperaron un cachorro de pastor alemán robado en Corrientes
+MÁS VISTAS
+Municipales
+Polich proyecta recuperar plazas, veredas y peatonales del barrio Laguna Seca
+Economía
+Banco de Corrientes lanzó líneas para refinanciar deudas y asistir a afectados por El Niño
+Datos Útiles
+Inscripciones UNNE 2027: cuándo abren, cómo anotarse y qué documentos presentar
+Tecnología
+Tecnicar 2026: 22 escuelas competirán con autos eléctricos en la Costanera Sur
+Columnistas
+Visita Papal: un pueblo hambriento de amor y de liderazgos positivos (*)
+Economía
+Arranca el pago del Plus de Refuerzo de noviembre para estatales correntinos
+Policiales
+Fuga de Leonardo Bertulazzi: un camionero dijo que lo llevó hasta el límite entre Corrientes y Entre Ríos
+Economía
+Juan Pablo Valdés inauguró un mega aserradero en Santo Tomé
+">
+Copyright © 2026 Corrientes al día. Powered by ArgentoIA .
+Home
+Corrientes
+Actualidad
+Economía
+Educación
+Municipales
+Policiales
+Política
+Salud
+Sociedad
+El País
+Nacionales
+Regionales
+El Mundo
+Suplementos
+Ambiente
+Carnavales
+Espectáculos
+Cultura
+Deportes
+Empresas
+Rural
+Tecnología
+Turismo
+Variedades
+Agenda
+Datos Útiles
+Columnistas
+Nosotros
+Archivo
+Facebook
+Instagram
+Youtube
+Copyright © 2024 Corrientes al día. Un sitio que funciona dentro de la plataforma Tres Barbas .
