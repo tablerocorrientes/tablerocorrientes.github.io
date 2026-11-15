@@ -29,6 +29,7 @@
   '#tc-inst h2{margin:0 0 6px;font-size:1.15rem;letter-spacing:.02em}#tc-inst p{margin:0 0 10px;font-size:.9rem;line-height:1.4}'+
   '#tc-inst .b{display:flex;gap:8px;flex-wrap:wrap}#tc-inst button{font:800 .9rem Archivo,system-ui,sans-serif;border:0;border-radius:999px;padding:10px 16px;cursor:pointer}'+
   '#tc-inst .si{background:#fff;color:#0c3f52}#tc-inst .no{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.6)}'+
+  '#tc-inst-d{background:transparent!important;border:0!important;padding:0!important;margin:0!important;box-shadow:none!important;color:#fff}#tc-inst .tc-dev{color:#13262d}#tc-inst .tc-dev p{color:#4a5b61;font-size:.8rem;margin:0 0 4px}#tc-inst summary::-webkit-details-marker{display:none}#tc-inst small{opacity:.9}#tc-inst .si{margin-top:4px}'+
   '#tc-inst ol{margin:6px 0 10px;padding-left:20px;font-size:.88rem;line-height:1.5}'+
   '#tc-rep{background:#f6f8f8;color:#13262d;border:1px solid #c6d2d5;margin:16px 12px 24px}'+
   '#tc-rep h2{margin:0 0 4px;font-size:1.15rem}#tc-rep .av{background:#fde7e5;border:1px solid #d64545;border-radius:10px;padding:8px 10px;font-size:.84rem;margin:8px 0 12px}'+
@@ -51,21 +52,31 @@
   var esIOS=/iphone|ipad|ipod/i.test(ua),inApp=/FBAN|FBAV|Instagram|FB_IAB|Line\//i.test(ua);
   var instalada=window.matchMedia('(display-mode: standalone)').matches||navigator.standalone===true;
   function ocultadoReciente(){try{var t=+localStorage.getItem('tc-inst-no');return t&&Date.now()-t<7*864e5;}catch(e){return false;}}
+  var esAnd=/android/i.test(ua),esWin=/windows/i.test(ua),esMac=/macintosh/i.test(ua)&&!('ontouchend' in document);
   function aviso(forzar){
-    if(instalada)return;if(!forzar&&ocultadoReciente())return;
-    var old=document.getElementById('tc-inst');if(old)old.remove();
-    var d=document.createElement('section');d.id='tc-inst';d.className='tc-card';
-    var cuerpo;
-    if(inApp){cuerpo='<p>Está viendo el tablero dentro de Facebook o Instagram, y desde aquí no se puede instalar.</p><ol><li>Toque los <b>tres puntos</b> (arriba a la derecha).</li><li>Elija <b>"Abrir en el navegador"</b> (Chrome o Safari).</li><li>Allí vuelva a tocar <b>"Instalar"</b>.</li></ol>';}
-    else if(esIOS){cuerpo='<p>En el iPhone se agrega en dos pasos:</p><ol><li>Toque el botón <b>Compartir</b> (el cuadrado con la flecha hacia arriba, abajo de la pantalla).</li><li>Elija <b>"Agregar a inicio"</b> y confirme.</li></ol>';}
-    else if(dPrompt){cuerpo='<p>Agréguelo a la pantalla de inicio de su celular y ábralo con un toque, como una aplicación, cuando haya alertas o lluvias.</p>';}
-    else{cuerpo='<p>Abra el menú del navegador (los tres puntos) y elija <b>"Instalar aplicación"</b> o <b>"Agregar a la pantalla principal"</b>.</p>';}
-    d.innerHTML='<h2>TENGA EL TABLERO SIEMPRE A MANO</h2>'+cuerpo+'<div class="b">'+(dPrompt&&!inApp&&!esIOS?'<button class="si" id="tc-si">Agregar a mi celular</button>':'')+'<button class="no" id="tc-no">Ahora no</button></div>';
-    var nav=document.getElementById('tc-nav');nav.parentNode.insertBefore(d,nav.nextSibling);
-    var si=document.getElementById('tc-si');if(si)si.onclick=function(){dPrompt.prompt();dPrompt.userChoice.then(function(){d.remove();});};
-    document.getElementById('tc-no').onclick=function(){try{localStorage.setItem('tc-inst-no',String(Date.now()));}catch(e){}d.remove();};
+    var g=document.getElementById('tc-inst');
+    if(!g){
+      g=document.createElement('section');g.id='tc-inst';g.className='tc-card';
+      var P={
+        and:['🤖 Android','<ol><li>Abra <b>tablerocorrientes.github.io</b> en <b>Chrome</b>.</li><li>Toque los <b>tres puntos ⋮</b>, arriba a la derecha.</li><li>Elija <b>"Instalar aplicación"</b> o <b>"Agregar a la pantalla principal"</b>.</li><li>Confirme con <b>"Instalar"</b>. El ícono del tablero aparece junto a sus aplicaciones.</li></ol><p class="s">En Samsung Internet: menú ☰, <b>"Agregar página a"</b>, <b>"Pantalla de inicio"</b>.</p>'],
+        ios:['🍎 iPhone y iPad','<ol><li>Abra <b>tablerocorrientes.github.io</b> en <b>Safari</b>.</li><li>Toque el botón <b>Compartir</b>, el cuadrado con la flecha hacia arriba, abajo de la pantalla.</li><li>Deslice hacia abajo y elija <b>"Agregar a inicio"</b> (o "Agregar a pantalla de inicio").</li><li>Toque <b>"Agregar"</b>, arriba a la derecha. El ícono queda en su pantalla de inicio.</li></ol>'],
+        win:['💻 Windows y Mac','<ol><li>Abra <b>tablerocorrientes.github.io</b> en <b>Chrome</b> o <b>Edge</b>.</li><li>En Chrome, toque el ícono de <b>instalar</b> (pantalla con flecha) a la derecha de la barra de direcciones, o el menú <b>⋮</b>, <b>"Transmitir, guardar y compartir"</b>, <b>"Instalar página como aplicación"</b>.</li><li>En Edge, menú <b>…</b>, <b>"Aplicaciones"</b>, <b>"Instalar este sitio como una aplicación"</b>.</li><li>Confirme con <b>"Instalar"</b>. Queda en el menú Inicio y puede anclarlo a la barra de tareas.</li></ol><p class="s">En Mac con Safari: menú <b>Archivo</b>, <b>"Agregar al Dock"</b>.</p>'],
+        fb:['📘 Si lo abrió desde Facebook o Instagram','<ol><li>Desde el navegador interno de Facebook o Instagram no se puede instalar.</li><li>Toque los <b>tres puntos</b>, arriba a la derecha.</li><li>Elija <b>"Abrir en el navegador"</b> (Chrome o Safari) y siga los pasos de su dispositivo.</li></ol>']};
+      var mio=inApp?'fb':esIOS?'ios':esAnd?'and':(esWin||esMac)?'win':'and';
+      var orden=[mio].concat(['and','ios','win','fb'].filter(function(k){return k!==mio;}));
+      g.innerHTML='<details id="tc-inst-d"><summary style="cursor:pointer;list-style:none;display:flex;gap:10px;align-items:center"><span style="font-size:1.9rem;line-height:1">📲</span><span><b style="display:block;font-size:1.02rem">Instale el tablero en su celular o computadora</b><small>Gratis, sin tienda de aplicaciones y sin datos personales. Toque aquí para ver el paso a paso.</small></span><span style="margin-left:auto;font-weight:900">›</span></summary>'+
+        '<div id="tc-inst-ya" style="margin:10px 0 0"></div>'+
+        orden.map(function(k,i){return '<details class="tc-dev"'+(i===0?' open':'')+' style="margin-top:8px;border:1px solid #c9d8de;border-radius:12px;padding:8px 10px;background:#fff"><summary style="cursor:pointer;font-weight:800">'+P[k][0]+(i===0?' <small style="font-weight:600;color:#2f9e5b">(su dispositivo)</small>':'')+'</summary>'+P[k][1]+'</details>';}).join('')+
+        '<p class="s" style="margin-top:8px">Una vez instalado, se abre con un toque como cualquier aplicación y se actualiza solo.</p><button class="no" id="tc-no" type="button">Ocultar por ahora</button></details>';
+      var nav=document.getElementById('tc-nav');nav.parentNode.insertBefore(g,nav.nextSibling);
+      document.getElementById('tc-no').onclick=function(){try{localStorage.setItem('tc-inst-no',String(Date.now()));}catch(e){}g.remove();};
+    }
+    var ya=document.getElementById('tc-inst-ya');
+    if(ya&&dPrompt&&!esIOS&&!inApp&&!ya.firstChild){ya.innerHTML='<button class="si" id="tc-si" type="button">Instalar ahora en este dispositivo</button>';document.getElementById('tc-si').onclick=function(){dPrompt.prompt();dPrompt.userChoice.then(function(c){if(c&&c.outcome==='accepted')g.remove();});};}
+    if(forzar){document.getElementById('tc-inst-d').open=true;g.scrollIntoView({behavior:'smooth',block:'start'});}
   }
-  window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();dPrompt=e;var b=document.getElementById('tc-inst-btn');if(b)b.hidden=false;aviso(false);});
+  function guiaInicial(){if(instalada)return;if(location.hash==='#instalar'){aviso(true);return;}if(!ocultadoReciente())aviso(false);}
+  window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();dPrompt=e;var b=document.getElementById('tc-inst-btn');if(b)b.hidden=false;if(document.getElementById('tc-inst'))aviso(false);});
   window.addEventListener('appinstalled',function(){instalada=true;var d=document.getElementById('tc-inst');if(d)d.remove();});
   /* 4. Reportes ciudadanos */
   var TIPOS=['Calle anegada','Agua dentro de viviendas','Desagüe tapado o colapsado','Evacuados o autoevacuados','Corte de calle o ruta','Crecida del río','Otro, vinculado a lluvias o crecida'];
@@ -125,7 +136,7 @@
   /* 5. Arranque */
   function iniciar(){
     estilo();menu();
-    var ib=document.getElementById('tc-inst-btn');if(ib){if(!instalada&&(esIOS||inApp))ib.hidden=false;ib.onclick=function(){if(dPrompt&&!esIOS&&!inApp){dPrompt.prompt();}else{aviso(true);window.scrollTo({top:0,behavior:'smooth'});}};}
+    guiaInicial();window.addEventListener('hashchange',function(){if(location.hash==='#instalar')aviso(true);});var ib=document.getElementById('tc-inst-btn');if(ib){if(!instalada)ib.hidden=false;ib.onclick=function(){aviso(true);};}
     if(esIOS||inApp)aviso(false);
     cargarDatos().then(ejecutarPagina).then(function(){
       return Promise.all([fetch('/data/config.json',{cache:'no-cache'}).then(function(r){return r.json();}).catch(function(){return {};}),listas()]);
