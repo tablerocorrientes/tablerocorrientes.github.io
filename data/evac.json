@@ -477,21 +477,46 @@
     "Las Tomateras",
     "Caridi",
     "Bajo Caridi",
+    "La Tosquera (incluida la zona baja, Estrella del Mar)",
+    "Itatí",
+    "Anahí",
+    "Río Paraná",
+    "Plácido Martínez",
     "El Cichero",
     "Punta Taitalo",
-    "Tatay",
-    "Plácido Martínez"
+    "Tatay"
    ],
    "centros": [
     "Escuela N.º 293 Donato Álvarez (barrio Pujol)"
    ],
-   "detalle": "El 13/11 la Agencia Federal de Emergencias informó 690 vecinos de la Capital con sus casas anegadas; con la bajante, la Capital pasó de nivel de evacuación a alerta. El último parte de Defensa Civil (06/11) registró 42 evacuados y 633 autoevacuados (202 familias). Los barrios ribereños afectados son los que informó la Municipalidad en octubre.",
+   "detalle": "El 13/11 la Agencia Federal de Emergencias informó 690 vecinos de la Capital con sus casas anegadas; con la bajante, la Capital pasó de nivel de evacuación a alerta. El último parte de Defensa Civil (06/11) registró 42 evacuados y 633 autoevacuados (202 familias). Zonas: la Municipalidad (Secretaría de Desarrollo Humano, 19/10) relevó la zona norte, del Cichero a Punta Taitalo (Itatí, Plácido Martínez, Anahí), y la zona sur, de Bajo Caridi a La Tosquera, con cortes preventivos de luz en La Tosquera, Anahí, Río Paraná y Punta Taitalo. En La Tosquera Zona Baja (Estrella del Mar), una asociación civil del barrio informó el 21/10 viviendas inundadas y familias que permanecían en canoas.",
    "breve": "Unos 690 vecinos con sus casas anegadas al 13/11, en barrios ribereños del norte y del sur. Todavía no se informa regreso de familias.",
    "f": "13/11/2026",
    "f_iso": "2026-11-13",
-   "fuente": "Agencia Federal de Emergencias (Infobae); barrios según la Municipalidad de Corrientes (20/10)",
+   "fuente": "Agencia Federal de Emergencias (Infobae); barrios según la Municipalidad de Corrientes (19/10 y 20/10), el Gobierno provincial (26/10) y una asociación civil de La Tosquera (21/10)",
    "u": "https://www.infobae.com/sociedad/2026/11/13/el-nino-diez-ciudades-del-litoral-continuan-con-el-agua-en-niveles-de-evacuacion-y-son-mas-de-4500-las-personas-afectadas/",
-   "tipo": "prensa"
+   "tipo": "prensa",
+   "personas": 690,
+   "fuentes_zonas": [
+    {
+     "zona": "Zona norte y zona sur, incluida La Tosquera",
+     "fuente": "Municipalidad de Corrientes, Secretaría de Desarrollo Humano (24diez)",
+     "f": "19/10/2026",
+     "u": "https://24diez.com.ar/crecida-del-parana-en-corrientes-hay-103-familias-autoevacuadas-y-cortaron-la-luz-en-zonas-inundadas/"
+    },
+    {
+     "zona": "La Tosquera Zona Baja (Estrella del Mar)",
+     "fuente": "Asociación Civil Sembrando Sueños Río Paraná (Corrientes de Tarde)",
+     "f": "21/10/2026",
+     "u": "https://corrientesdetarde.com/index.php/destacados/dramatica-situacion-en-la-tosquera-familias-resisten-la-crecida-del-parana-a-bordo-de-canoas/"
+    },
+    {
+     "zona": "Barrio Itatí",
+     "fuente": "Gobierno de Corrientes (El Litoral)",
+     "f": "26/10/2026",
+     "u": "https://www.ellitoral.com.ar/sociedad/2026-10-26-16-44-0-crecida-del-rio-parana-el-gobierno-de-corrientes-asistio-a-familias-del-barrio-itati"
+    }
+   ]
   },
   {
    "n": "Itatí",
@@ -510,7 +535,8 @@
    "f_iso": "2026-11-13",
    "fuente": "Agencia Federal de Emergencias (Infobae)",
    "u": "https://www.infobae.com/sociedad/2026/11/13/el-nino-diez-ciudades-del-litoral-continuan-con-el-agua-en-niveles-de-evacuacion-y-son-mas-de-4500-las-personas-afectadas/",
-   "tipo": "prensa"
+   "tipo": "prensa",
+   "personas": 518
   },
   {
    "n": "Paso de la Patria",
@@ -533,7 +559,8 @@
    "f_iso": "2026-11-13",
    "fuente": "Agencia Federal de Emergencias (Infobae); barrios según La Nación (27/10)",
    "u": "https://www.infobae.com/sociedad/2026/11/13/el-nino-diez-ciudades-del-litoral-continuan-con-el-agua-en-niveles-de-evacuacion-y-son-mas-de-4500-las-personas-afectadas/",
-   "tipo": "prensa"
+   "tipo": "prensa",
+   "personas": 228
   },
   {
    "n": "Isla Apipé",
@@ -549,7 +576,8 @@
    "f_iso": "2026-11-13",
    "fuente": "Agencia Federal de Emergencias (Infobae); pedido del intendente según El Monterizo (11/11)",
    "u": "https://www.infobae.com/sociedad/2026/11/13/el-nino-diez-ciudades-del-litoral-continuan-con-el-agua-en-niveles-de-evacuacion-y-son-mas-de-4500-las-personas-afectadas/",
-   "tipo": "prensa"
+   "tipo": "prensa",
+   "personas": 211
   },
   {
    "n": "Goya",
