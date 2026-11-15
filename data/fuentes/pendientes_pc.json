@@ -29,6 +29,26 @@
    "url": "https://www.corrienteshoy.com/",
    "desde": "15/11/2026, 01:34 h",
    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "url": "https://www.corrienteshoy.com/info-general/el-carnaval-oficial-de-corrientes-comenzara-el-30-de-enero-y-culminara-el-27-de-febrero-de-2027.htm",
+   "desde": "15/11/2026, 01:36 h",
+   "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "url": "https://www.perfil.com/noticias/nea/el-gobierno-avanza-con-la-concesion-privada-en-paso-de-los-libres-el-plan-para-modernizar-el-cotecar-ayAX25b8szHc.phtml",
+   "desde": "15/11/2026, 01:36 h",
+   "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "url": "https://www.radiodos.com.ar/",
+   "desde": "15/11/2026, 01:36 h",
+   "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "url": "https://www.perfil.com/noticias/nea",
+   "desde": "15/11/2026, 01:36 h",
+   "error": "HTTP Error 429: Too Many Requests"
   }
  ]
 }

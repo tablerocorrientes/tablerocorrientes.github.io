@@ -1,6 +1,6 @@
 {
- "consultado": "15/11/2026, 01:34 h",
- "consultado_iso": "2026-11-15T01:34-03:00",
+ "consultado": "15/11/2026, 01:36 h",
+ "consultado_iso": "2026-11-15T01:36-03:00",
  "paginas": {
   "smn_alertas": {
    "url": "https://www.smn.gob.ar/alertas",
@@ -137,55 +137,55 @@
   }
  },
  "pedidas": {
-  "https://www.diarioellibertador.com.ar/corrientes-cayeron-90-milimetros-en-una-hora-y-la-ciudad-quedo-paralizada/": {
-   "url": "https://www.diarioellibertador.com.ar/corrientes-cayeron-90-milimetros-en-una-hora-y-la-ciudad-quedo-paralizada/",
+  "https://www.diarioellibertador.com.ar/repunte-del-rio-no-hay-balnearios-y-prefectura-pide-extremar-cuidados/": {
+   "url": "https://www.diarioellibertador.com.ar/repunte-del-rio-no-hay-balnearios-y-prefectura-pide-extremar-cuidados/",
    "estado": 200,
-   "caracteres": 5748,
-   "archivo": "data/fuentes/web/diarioellibertador_com_ar_corrientes_cayeron_90_milimetros_en_una_hora_y_la_ciudad_quedo_p.txt"
+   "caracteres": 6020,
+   "archivo": "data/fuentes/web/diarioellibertador_com_ar_repunte_del_rio_no_hay_balnearios_y_prefectura_pide_extremar_cui.txt"
   },
-  "https://ciudaddecorrientes.gov.ar/content/cuadrillas-municipales-recorren-la-ciudad-tras-la-tormenta-de-esta-ma-ana": {
-   "url": "https://ciudaddecorrientes.gov.ar/content/cuadrillas-municipales-recorren-la-ciudad-tras-la-tormenta-de-esta-ma-ana",
+  "https://corrientes.tur.ar/presentaron-la-modernizacion-de-la-web-de-turismo-y-los-carnavales-correntinos-2027/": {
+   "url": "https://corrientes.tur.ar/presentaron-la-modernizacion-de-la-web-de-turismo-y-los-carnavales-correntinos-2027/",
    "estado": 200,
-   "caracteres": 3835,
-   "archivo": "data/fuentes/web/ciudaddecorrientes_gov_ar_content_cuadrillas_municipales_recorren_la_ciudad_tras_la_tormen.txt"
+   "caracteres": 4608,
+   "archivo": "data/fuentes/web/corrientes_tur_ar_presentaron_la_modernizacion_de_la_web_de_turismo_y_los_carnavales_corre.txt"
   },
-  "https://www.ellitoral.com.ar/policiales/2026-11-14-19-34-0-fiscalia-general-pidio-celeridad-en-una-causa-de-malversacion-de-fondos-a-un-municipio": {
-   "url": "https://www.ellitoral.com.ar/policiales/2026-11-14-19-34-0-fiscalia-general-pidio-celeridad-en-una-causa-de-malversacion-de-fondos-a-un-municipio",
-   "estado": 200,
-   "caracteres": 3020,
-   "archivo": "data/fuentes/web/ellitoral_com_ar_policiales_2026_11_14_19_34_0_fiscalia_general_pidio_celeridad_en_una_cau.txt"
-  },
-  "https://noticiasargentinas.com/politica/corrientes-mostro-avances-en-prevencion-frente-a-el-nino-ante-funcionarios-nacionales_a6af666529872162574450a99": {
-   "url": "https://noticiasargentinas.com/politica/corrientes-mostro-avances-en-prevencion-frente-a-el-nino-ante-funcionarios-nacionales_a6af666529872162574450a99",
-   "estado": 200,
-   "caracteres": 5369,
-   "archivo": "data/fuentes/web/noticiasargentinas_com_politica_corrientes_mostro_avances_en_prevencion_frente_a_el_nino_a.txt"
-  },
-  "https://www.cronica.com.ar/politica/santilli-destaco-la-planificacion-y-la-inversion-de-corrientes-para-anticiparse-a-el-nino/": {
-   "url": "https://www.cronica.com.ar/politica/santilli-destaco-la-planificacion-y-la-inversion-de-corrientes-para-anticiparse-a-el-nino/",
-   "estado": 200,
-   "caracteres": 6880,
-   "archivo": "data/fuentes/web/cronica_com_ar_politica_santilli_destaco_la_planificacion_y_la_inversion_de_corrientes_par.txt"
-  },
-  "https://ciudaddecorrientes.gov.ar/content/el-municipio-reforz-los-trabajos-de-drenaje-durante-las-lluvias-y-sostiene-un-plan-integral-de": {
-   "url": "https://ciudaddecorrientes.gov.ar/content/el-municipio-reforz-los-trabajos-de-drenaje-durante-las-lluvias-y-sostiene-un-plan-integral-de",
-   "estado": 200,
-   "caracteres": 4154,
-   "archivo": "data/fuentes/web/ciudaddecorrientes_gov_ar_content_el_municipio_reforz_los_trabajos_de_drenaje_durante_las_.txt"
-  },
-  "https://www.diarioepoca.com/1394439-jp-valdes-y-polich-destacaron-el-impacto-de-la-megaobra-de-desague-concluida-sobre-el-pirayui": {
-   "url": "https://www.diarioepoca.com/1394439-jp-valdes-y-polich-destacaron-el-impacto-de-la-megaobra-de-desague-concluida-sobre-el-pirayui",
+  "https://www.corrienteshoy.com/info-general/el-carnaval-oficial-de-corrientes-comenzara-el-30-de-enero-y-culminara-el-27-de-febrero-de-2027.htm": {
+   "url": "https://www.corrienteshoy.com/info-general/el-carnaval-oficial-de-corrientes-comenzara-el-30-de-enero-y-culminara-el-27-de-febrero-de-2027.htm",
    "estado": "error",
    "detalle": "HTTP Error 429: Too Many Requests"
   },
-  "https://www.ellitoral.com.ar/actualidad/2026-11-5-13-8-0-valdes-y-polich-recorrieron-la-obra-de-desague-del-pirayui-beneficiara-a-mas-de-250-000-correntinos": {
-   "url": "https://www.ellitoral.com.ar/actualidad/2026-11-5-13-8-0-valdes-y-polich-recorrieron-la-obra-de-desague-del-pirayui-beneficiara-a-mas-de-250-000-correntinos",
+  "https://www.ellitoral.com.ar/cultura/2026-9-11-18-55-0-carnavales-correntinos-2027-confirmaron-las-fechas-y-construiran-un-multiespacio-en-el-nolo-alias": {
+   "url": "https://www.ellitoral.com.ar/cultura/2026-9-11-18-55-0-carnavales-correntinos-2027-confirmaron-las-fechas-y-construiran-un-multiespacio-en-el-nolo-alias",
    "estado": 200,
-   "caracteres": 3085,
-   "archivo": "data/fuentes/web/ellitoral_com_ar_actualidad_2026_11_5_13_8_0_valdes_y_polich_recorrieron_la_obra_de_desagu.txt"
+   "caracteres": 3005,
+   "archivo": "data/fuentes/web/ellitoral_com_ar_cultura_2026_9_11_18_55_0_carnavales_correntinos_2027_confirmaron_las_fec.txt"
   },
-  "https://www.nortecorrientes.com/203909-impulsan-un-regimen-de-transicion-en-el-transporte-urbano-camino-al-proceso-licitatorio": {
-   "url": "https://www.nortecorrientes.com/203909-impulsan-un-regimen-de-transicion-en-el-transporte-urbano-camino-al-proceso-licitatorio",
+  "https://www.perfil.com/noticias/nea/juan-pablo-valdes-anuncio-un-aumento-salarial-en-noviembre-evaluamos-si-sera-de-uno-o-dos-digitos.phtml": {
+   "url": "https://www.perfil.com/noticias/nea/juan-pablo-valdes-anuncio-un-aumento-salarial-en-noviembre-evaluamos-si-sera-de-uno-o-dos-digitos.phtml",
+   "estado": 200,
+   "caracteres": 4336,
+   "archivo": "data/fuentes/web/perfil_com_noticias_nea_juan_pablo_valdes_anuncio_un_aumento_salarial_en_noviembre_evaluam.txt"
+  },
+  "https://prensamercosur.org/2026/11/08/inminente-anuncio-salarial-con-una-mejora-que-rondara-el-8-y-el-10/": {
+   "url": "https://prensamercosur.org/2026/11/08/inminente-anuncio-salarial-con-una-mejora-que-rondara-el-8-y-el-10/",
+   "estado": 200,
+   "caracteres": 12168,
+   "archivo": "data/fuentes/web/prensamercosur_org_2026_11_08_inminente_anuncio_salarial_con_una_mejora_que_rondara_el_8_y.txt"
+  },
+  "https://www.ellitoral.com.ar/sociedad/2026-11-13-20-33-0-una-ciudad-correntina-se-quedo-sin-playas-habilitadas-por-la-crecida-del-rio-uruguay": {
+   "url": "https://www.ellitoral.com.ar/sociedad/2026-11-13-20-33-0-una-ciudad-correntina-se-quedo-sin-playas-habilitadas-por-la-crecida-del-rio-uruguay",
+   "estado": 200,
+   "caracteres": 3451,
+   "archivo": "data/fuentes/web/ellitoral_com_ar_sociedad_2026_11_13_20_33_0_una_ciudad_correntina_se_quedo_sin_playas_hab.txt"
+  },
+  "https://www.diarioellibertador.com.ar/el-rio-parana-supero-los-650-metros-y-prefectura-activo-la-alerta/": {
+   "url": "https://www.diarioellibertador.com.ar/el-rio-parana-supero-los-650-metros-y-prefectura-activo-la-alerta/",
+   "estado": 200,
+   "caracteres": 5220,
+   "archivo": "data/fuentes/web/diarioellibertador_com_ar_el_rio_parana_supero_los_650_metros_y_prefectura_activo_la_alert.txt"
+  },
+  "https://www.perfil.com/noticias/nea/el-gobierno-avanza-con-la-concesion-privada-en-paso-de-los-libres-el-plan-para-modernizar-el-cotecar-ayAX25b8szHc.phtml": {
+   "url": "https://www.perfil.com/noticias/nea/el-gobierno-avanza-con-la-concesion-privada-en-paso-de-los-libres-el-plan-para-modernizar-el-cotecar-ayAX25b8szHc.phtml",
    "estado": "error",
    "detalle": "HTTP Error 429: Too Many Requests"
   },
@@ -194,69 +194,43 @@
    "estado": "error",
    "detalle": "HTTP Error 429: Too Many Requests"
   },
-  "https://www.diarioellibertador.com.ar/polich-convoca-artistas-ornamentacion-navidena-corrientes/": {
-   "url": "https://www.diarioellibertador.com.ar/polich-convoca-artistas-ornamentacion-navidena-corrientes/",
-   "estado": 200,
-   "caracteres": 4999,
-   "archivo": "data/fuentes/web/diarioellibertador_com_ar_polich_convoca_artistas_ornamentacion_navidena_corrientes.txt"
-  },
-  "https://www.perfil.com/noticias/nea/gustavo-valdes-no-tengo-conversaciones-con-patricia-bullrich-es-pescado-podrido.phtml": {
-   "url": "https://www.perfil.com/noticias/nea/gustavo-valdes-no-tengo-conversaciones-con-patricia-bullrich-es-pescado-podrido.phtml",
-   "estado": 200,
-   "caracteres": 4426,
-   "archivo": "data/fuentes/web/perfil_com_noticias_nea_gustavo_valdes_no_tengo_conversaciones_con_patricia_bullrich_es_pe.txt"
-  },
-  "https://www.perfil.com/noticias/nea/gustavo-valdes-impulsa-un-tercer-sector-para-2027-por-fuera-de-milei-y-el-kirchnerismo.phtml": {
-   "url": "https://www.perfil.com/noticias/nea/gustavo-valdes-impulsa-un-tercer-sector-para-2027-por-fuera-de-milei-y-el-kirchnerismo.phtml",
-   "estado": 200,
-   "caracteres": 6816,
-   "archivo": "data/fuentes/web/perfil_com_noticias_nea_gustavo_valdes_impulsa_un_tercer_sector_para_2027_por_fuera_de_mil.txt"
-  },
-  "https://www.ellitoral.com.ar/": {
-   "url": "https://www.ellitoral.com.ar/",
-   "estado": 200,
-   "caracteres": 18462,
-   "archivo": "data/fuentes/web/ellitoral_com_ar.txt"
-  },
-  "https://www.diarioepoca.com/": {
-   "url": "https://www.diarioepoca.com/",
+  "https://www.nortecorrientes.com/203909-impulsan-un-regimen-de-transicion-en-el-transporte-urbano-camino-al-proceso-licitatorio": {
+   "url": "https://www.nortecorrientes.com/203909-impulsan-un-regimen-de-transicion-en-el-transporte-urbano-camino-al-proceso-licitatorio",
    "estado": "error",
    "detalle": "HTTP Error 429: Too Many Requests"
   },
-  "https://www.diarioellibertador.com.ar/": {
-   "url": "https://www.diarioellibertador.com.ar/",
-   "estado": 200,
-   "caracteres": 5884,
-   "archivo": "data/fuentes/web/diarioellibertador_com_ar.txt"
-  },
-  "https://www.corrienteshoy.com/": {
-   "url": "https://www.corrienteshoy.com/",
+  "https://www.diarioepoca.com/1394439-jp-valdes-y-polich-destacaron-el-impacto-de-la-megaobra-de-desague-concluida-sobre-el-pirayui": {
+   "url": "https://www.diarioepoca.com/1394439-jp-valdes-y-polich-destacaron-el-impacto-de-la-megaobra-de-desague-concluida-sobre-el-pirayui",
    "estado": "error",
    "detalle": "HTTP Error 429: Too Many Requests"
   },
-  "https://elmonterizo.com/el-alerta-bajo-pero-no-del-todo-el-operativo-que-no-se-detiene-en-corrientes": {
-   "url": "https://elmonterizo.com/el-alerta-bajo-pero-no-del-todo-el-operativo-que-no-se-detiene-en-corrientes",
+  "https://www.radiosudamericana.com/": {
+   "url": "https://www.radiosudamericana.com/",
    "estado": 200,
-   "caracteres": 3123,
-   "archivo": "data/fuentes/web/elmonterizo_com_el_alerta_bajo_pero_no_del_todo_el_operativo_que_no_se_detiene_en_corrient.txt"
+   "caracteres": 17546,
+   "archivo": "data/fuentes/web/radiosudamericana_com.txt"
   },
-  "https://www.lanacion.com.ar/politica/karina-milei-y-santilli-se-reunieron-con-valdes-en-corrientes-por-las-paso-y-la-emergencia-de-el-nid12112026/": {
-   "url": "https://www.lanacion.com.ar/politica/karina-milei-y-santilli-se-reunieron-con-valdes-en-corrientes-por-las-paso-y-la-emergencia-de-el-nid12112026/",
-   "estado": 200,
-   "caracteres": 4923,
-   "archivo": "data/fuentes/web/lanacion_com_ar_politica_karina_milei_y_santilli_se_reunieron_con_valdes_en_corrientes_por.txt"
+  "https://www.radiodos.com.ar/": {
+   "url": "https://www.radiodos.com.ar/",
+   "estado": "error",
+   "detalle": "HTTP Error 429: Too Many Requests"
   },
-  "https://corrientesaldia.info/2026/11/13/polich-proyecta-recuperar-plazas-veredas-y-peatonales-del-barrio-laguna-seca/": {
-   "url": "https://corrientesaldia.info/2026/11/13/polich-proyecta-recuperar-plazas-veredas-y-peatonales-del-barrio-laguna-seca/",
-   "estado": 200,
-   "caracteres": 7873,
-   "archivo": "data/fuentes/web/corrientesaldia_info_2026_11_13_polich_proyecta_recuperar_plazas_veredas_y_peatonales_del_.txt"
+  "https://www.perfil.com/noticias/nea": {
+   "url": "https://www.perfil.com/noticias/nea",
+   "estado": "error",
+   "detalle": "HTTP Error 429: Too Many Requests"
   },
-  "https://www.perfil.com/noticias/nea/gustavo-valdes-sobre-una-posible-alianza-todavia-no-tenemos-dialogo-politico-con-la-libertad-avanza.phtml": {
-   "url": "https://www.perfil.com/noticias/nea/gustavo-valdes-sobre-una-posible-alianza-todavia-no-tenemos-dialogo-politico-con-la-libertad-avanza.phtml",
+  "https://www.ellitoral.com.ar/ciudad": {
+   "url": "https://www.ellitoral.com.ar/ciudad",
    "estado": 200,
-   "caracteres": 5295,
-   "archivo": "data/fuentes/web/perfil_com_noticias_nea_gustavo_valdes_sobre_una_posible_alianza_todavia_no_tenemos_dialog.txt"
+   "caracteres": 5488,
+   "archivo": "data/fuentes/web/ellitoral_com_ar_ciudad.txt"
+  },
+  "https://www.ellitoral.com.ar/politica": {
+   "url": "https://www.ellitoral.com.ar/politica",
+   "estado": 200,
+   "caracteres": 5131,
+   "archivo": "data/fuentes/web/ellitoral_com_ar_politica.txt"
   }
  }
 }
