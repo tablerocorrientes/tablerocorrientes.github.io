@@ -1,3 +1,19 @@
 {
- "pendientes": []
+ "pendientes": [
+  {
+   "url": "https://www.nortecorrientes.com",
+   "desde": "15/11/2026, 12:06 h",
+   "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "url": "https://www.radiodos.com.ar",
+   "desde": "15/11/2026, 12:06 h",
+   "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "url": "https://www.diarioepoca.com",
+   "desde": "15/11/2026, 12:06 h",
+   "error": "HTTP Error 429: Too Many Requests"
+  }
+ ]
 }
