@@ -29,6 +29,7 @@
   '#tc-inst h2{margin:0 0 6px;font-size:1.15rem;letter-spacing:.02em}#tc-inst p{margin:0 0 10px;font-size:.9rem;line-height:1.4}'+
   '#tc-inst .b{display:flex;gap:8px;flex-wrap:wrap}#tc-inst button{font:800 .9rem Archivo,system-ui,sans-serif;border:0;border-radius:999px;padding:10px 16px;cursor:pointer}'+
   '#tc-inst .si{background:#fff;color:#0c3f52}#tc-inst .no{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.6)}'+
+  '#tc-inst .tc-dev .si{display:block;width:100%;box-sizing:border-box;margin:6px 0 2px;background:#0c3f52;color:#fff}#tc-inst .tc-msg{font-size:.8rem;color:#13262d;margin:4px 0 0}#tc-inst .tc-msg:empty{display:none}'+
   '#tc-inst-d{background:transparent!important;border:0!important;padding:0!important;margin:0!important;box-shadow:none!important;color:#fff}#tc-inst .tc-dev{color:#13262d}#tc-inst .tc-dev p{color:#4a5b61;font-size:.8rem;margin:0 0 4px}#tc-inst summary::-webkit-details-marker{display:none}#tc-inst small{opacity:.9}#tc-inst .si{margin-top:4px}'+
   '#tc-inst ol{margin:6px 0 10px;padding-left:20px;font-size:.88rem;line-height:1.5}'+
   '#tc-rep{background:#f6f8f8;color:#13262d;border:1px solid #c6d2d5;margin:16px 12px 24px}'+
@@ -53,6 +54,27 @@
   var instalada=window.matchMedia('(display-mode: standalone)').matches||navigator.standalone===true;
   function ocultadoReciente(){try{var t=+localStorage.getItem('tc-inst-no2');return t&&Date.now()-t<7*864e5;}catch(e){return false;}}
   var esAnd=/android/i.test(ua),esWin=/windows/i.test(ua),esMac=/macintosh/i.test(ua)&&!('ontouchend' in document);
+  var SITIO='https://tablerocorrientes.github.io/';
+  function accion(k,m){
+    var es=k==='fb'?inApp:inApp?false:k==='and'?esAnd:k==='ios'?esIOS:(esWin||esMac||(!esAnd&&!esIOS));
+    if(!es){
+      var enl=SITIO+'#instalar';
+      if(navigator.share&&(esAnd||esIOS)){navigator.share({title:'Tablero Ciudadano de Corrientes',text:'Cómo instalar el tablero',url:enl}).catch(function(){});}
+      else{try{navigator.clipboard.writeText(enl).catch(function(){});}catch(e){}}
+      m.innerHTML='Este botón funciona desde ese dispositivo. Abra allí <b>'+enl.replace('https://','')+'</b> y toque el botón nuevamente.';return;}
+    if(instalada&&k!=='fb'){m.textContent='El tablero ya está instalado en este dispositivo. Lo encuentra entre sus aplicaciones.';return;}
+    if(k==='and'||k==='win'){
+      if(dPrompt){var dp=dPrompt;dPrompt=null;dp.prompt();dp.userChoice.then(function(c){m.textContent=c&&c.outcome==='accepted'?'Listo, el tablero quedó instalado.':'Instalación cancelada. Puede volver a intentarlo recargando la página.';});return;}
+      if(k==='win'&&esMac&&!/chrome|edg/i.test(ua)){m.innerHTML='En Safari use el menú <b>Archivo</b>, <b>"Agregar al Dock"</b>.';return;}
+      m.innerHTML='Su navegador no abrió la ventana de instalación. Use el menú <b>⋮</b> y elija <b>"Instalar aplicación"</b>. Si no aparece esa opción, es posible que ya lo tenga instalado.';return;}
+    if(k==='ios'){
+      if(navigator.share){navigator.share({title:'Tablero Ciudadano de Corrientes',url:SITIO}).catch(function(){});}
+      m.innerHTML='En el menú que se abre, deslice hacia abajo, elija <b>"Agregar a inicio"</b> y luego <b>"Agregar"</b>.';return;}
+    if(k==='fb'){
+      if(esIOS)location.href='x-safari-'+SITIO;
+      else if(esAnd)location.href='intent://tablerocorrientes.github.io/#Intent;scheme=https;end';
+      m.innerHTML='Si no se abrió, toque los <b>tres puntos</b> y elija <b>"Abrir en el navegador"</b>.';}
+  }
   function aviso(forzar){
     var g=document.getElementById('tc-inst');
     if(!g){
@@ -62,13 +84,15 @@
         ios:['🍎 iPhone y iPad','<ol><li>Abra <b>tablerocorrientes.github.io</b> en <b>Safari</b>.</li><li>Toque el botón <b>Compartir</b>, el cuadrado con la flecha hacia arriba, abajo de la pantalla.</li><li>Deslice hacia abajo y elija <b>"Agregar a inicio"</b> (o "Agregar a pantalla de inicio").</li><li>Toque <b>"Agregar"</b>, arriba a la derecha. El ícono queda en su pantalla de inicio.</li></ol>'],
         win:['💻 Windows y Mac','<ol><li>Abra <b>tablerocorrientes.github.io</b> en <b>Chrome</b> o <b>Edge</b>.</li><li>En Chrome, toque el ícono de <b>instalar</b> (pantalla con flecha) a la derecha de la barra de direcciones, o el menú <b>⋮</b>, <b>"Transmitir, guardar y compartir"</b>, <b>"Instalar página como aplicación"</b>.</li><li>En Edge, menú <b>…</b>, <b>"Aplicaciones"</b>, <b>"Instalar este sitio como una aplicación"</b>.</li><li>Confirme con <b>"Instalar"</b>. Queda en el menú Inicio y puede anclarlo a la barra de tareas.</li></ol><p class="s">En Mac con Safari: menú <b>Archivo</b>, <b>"Agregar al Dock"</b>.</p>'],
         fb:['📘 Si lo abrió desde Facebook o Instagram','<ol><li>Desde el navegador interno de Facebook o Instagram no se puede instalar.</li><li>Toque los <b>tres puntos</b>, arriba a la derecha.</li><li>Elija <b>"Abrir en el navegador"</b> (Chrome o Safari) y siga los pasos de su dispositivo.</li></ol>']};
+      var BT={and:'📥 Instalar ahora en Android',ios:'📤 Abrir "Compartir" para agregar a inicio',win:'📥 Instalar ahora en la computadora',fb:'🌐 Abrir en el navegador'};
       var mio=inApp?'fb':esIOS?'ios':esAnd?'and':(esWin||esMac)?'win':'and';
       var orden=[mio].concat(['and','ios','win','fb'].filter(function(k){return k!==mio;}));
       g.innerHTML='<details id="tc-inst-d"><summary style="cursor:pointer;list-style:none;display:flex;gap:10px;align-items:center"><span style="font-size:1.9rem;line-height:1">📲</span><span><b style="display:block;font-size:1.02rem">Instale el tablero en su celular o computadora</b><small>Gratis, sin tienda de aplicaciones y sin datos personales. Toque aquí para ver el paso a paso.</small></span><span style="margin-left:auto;font-weight:900">›</span></summary>'+
         '<div id="tc-inst-ya" style="margin:10px 0 0"></div>'+
-        orden.map(function(k,i){return '<details class="tc-dev"'+(i===0?' open':'')+' style="margin-top:8px;border:1px solid #c9d8de;border-radius:12px;padding:8px 10px;background:#fff"><summary style="cursor:pointer;font-weight:800">'+P[k][0]+(i===0?' <small style="font-weight:600;color:#2f9e5b">(su dispositivo)</small>':'')+'</summary>'+P[k][1]+'</details>';}).join('')+
+        orden.map(function(k,i){return '<details class="tc-dev"'+(i===0?' open':'')+' style="margin-top:8px;border:1px solid #c9d8de;border-radius:12px;padding:8px 10px;background:#fff"><summary style="cursor:pointer;font-weight:800">'+P[k][0]+(i===0?' <small style="font-weight:600;color:#2f9e5b">(su dispositivo)</small>':'')+'</summary>'+P[k][1]+'<button class="si tc-act" type="button" data-k="'+k+'">'+BT[k]+'</button><p class="tc-msg" role="status"></p></details>';}).join('')+
         '<p class="s" style="margin-top:8px">Una vez instalado, se abre con un toque como cualquier aplicación y se actualiza solo.</p><button class="no" id="tc-no" type="button">Ocultar por ahora</button></details>';
       var nav=document.getElementById('tc-nav');nav.parentNode.insertBefore(g,nav.nextSibling);
+      [].forEach.call(g.querySelectorAll('.tc-act'),function(b){b.onclick=function(){accion(b.dataset.k,b.nextElementSibling);};});
       document.getElementById('tc-no').onclick=function(){try{localStorage.setItem('tc-inst-no2',String(Date.now()));}catch(e){}g.remove();};
     }
     var ya=document.getElementById('tc-inst-ya');
