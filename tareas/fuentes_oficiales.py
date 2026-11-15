@@ -85,6 +85,8 @@ for nombre, url in urls.items():
             r['enlaces'] = enl[:80]
         open(os.path.join(OUT, nombre + '.txt'), 'w', encoding='utf-8').write(
             'Fuente: ' + url + '\nConsultado: ' + indice['consultado'] + '\n\n' + t)
+        if os.environ.get('CRUDO') and nombre == os.environ.get('CRUDO'):
+            open(os.path.join(OUT, nombre + '_crudo.html'), 'w', encoding='utf-8').write(h)
         r.update(estado=st, caracteres=len(t), archivo='data/fuentes/' + nombre + '.txt')
     except Exception as e:
         r.update(estado='error', detalle=str(e)[:200])
