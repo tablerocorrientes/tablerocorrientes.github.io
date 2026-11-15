@@ -618,6 +618,24 @@
      "fuente": "Municipalidad de Corrientes, Desarrollo Humano (La Red Corrientes)",
      "f": "20/10/2026",
      "u": "https://laredcorrientes.com/noticia/01711_asistencia-municipal-ante-la-crecida-ms-de-400-personas-autoevacuadas-y-relevamientos-en-zonas-crticas-.htm"
+    },
+    {
+     "zona": "Zona sur de Bajo Galván a La Tosquera (33 familias) y zona norte de Puerto Italia a Punta Taitalo (70 familias)",
+     "fuente": "Municipalidad de Corrientes, Desarrollo Social (La Nación, vía Salta News)",
+     "f": "20/10/2026",
+     "u": "https://www.saltanews.com.ar/en-corrientes-el-agua-sube-y-el-miedo-a-los-robos-frena-la-evacuacion"
+    },
+    {
+     "zona": "Operativos de salud en Plácido Martínez, Santa Marta y Anahí",
+     "fuente": "Municipalidad de Corrientes, Desarrollo Humano (Radio Dos y Diario Época)",
+     "f": "21/10/2026",
+     "u": "https://www.radiodos.com.ar/215723-creciente-en-corrientes-mas-de-400-personas-se-autoevacuaron-en-barrios-riberenos-de-la-capital"
+    },
+    {
+     "zona": "Asistencia alimentaria en Santa Marta, Esperanza, Pujol, Itatí y Río Paraná",
+     "fuente": "Ministerio de Desarrollo Social de la provincia (13Max)",
+     "f": "27/10/2026",
+     "u": "https://www.13maxnoticias.com/45007-la-creciente-del-parana-deja-mas-de-1400-desplazados-en-corrientes-y-la-armada-se-sumo-a-la-asistencia"
     }
    ],
    "linea": [
@@ -687,6 +705,14 @@
      "u": "https://www.ellitoral.com.ar/sociedad/2026-10-21-16-26-0-crecida-de-los-rios-parana-y-uruguay-ya-hay-mas-de-1-000-personas-afectadas-en-corrientes"
     },
     {
+     "f": "21/10/2026",
+     "f_iso": "2026-10-21",
+     "personas": 420,
+     "familias": 110,
+     "fuente": "Municipalidad de Corrientes, Desarrollo Humano (Radio Dos y Diario Época)",
+     "u": "https://www.radiodos.com.ar/215723-creciente-en-corrientes-mas-de-400-personas-se-autoevacuaron-en-barrios-riberenos-de-la-capital"
+    },
+    {
      "f": "23/10/2026",
      "f_iso": "2026-10-23",
      "evac": 75,
@@ -703,6 +729,14 @@
      "familias": null,
      "fuente": "Defensa Civil de Corrientes (Diario 1588)",
      "u": "https://diario1588.com/?p=270602"
+    },
+    {
+     "f": "27/10/2026",
+     "f_iso": "2026-10-27",
+     "evac": 64,
+     "auto": 588,
+     "fuente": "Defensa Civil de Corrientes (13Max)",
+     "u": "https://www.13maxnoticias.com/45007-la-creciente-del-parana-deja-mas-de-1400-desplazados-en-corrientes-y-la-armada-se-sumo-a-la-asistencia"
     },
     {
      "f": "31/10/2026",
@@ -824,6 +858,14 @@
      "u": "https://diario1588.com/?p=270602"
     },
     {
+     "f": "27/10/2026",
+     "f_iso": "2026-10-27",
+     "evac": 475,
+     "familias": 108,
+     "fuente": "Defensa Civil de Corrientes (13Max)",
+     "u": "https://www.13maxnoticias.com/45007-la-creciente-del-parana-deja-mas-de-1400-desplazados-en-corrientes-y-la-armada-se-sumo-a-la-asistencia"
+    },
+    {
      "f": "31/10/2026",
      "f_iso": "2026-10-31",
      "evac": 188,
@@ -939,6 +981,14 @@
      "familias": null,
      "fuente": "Defensa Civil de Corrientes (El Monterizo)",
      "u": "https://elmonterizo.com/crecio-el-parana-se-abrio-el-primer-refugio-en-la-capital-y-la-armada-desembarco-en-el-puerto"
+    },
+    {
+     "f": "27/10/2026",
+     "f_iso": "2026-10-27",
+     "evac": 24,
+     "auto": 86,
+     "fuente": "Defensa Civil de Corrientes (13Max)",
+     "u": "https://www.13maxnoticias.com/45007-la-creciente-del-parana-deja-mas-de-1400-desplazados-en-corrientes-y-la-armada-se-sumo-a-la-asistencia"
     },
     {
      "f": "28/10/2026",
@@ -1094,6 +1144,14 @@
      "u": "https://diario1588.com/?p=270602"
     },
     {
+     "f": "27/10/2026",
+     "f_iso": "2026-10-27",
+     "evac": 114,
+     "familias": 63,
+     "fuente": "Defensa Civil de Corrientes (13Max)",
+     "u": "https://www.13maxnoticias.com/45007-la-creciente-del-parana-deja-mas-de-1400-desplazados-en-corrientes-y-la-armada-se-sumo-a-la-asistencia"
+    },
+    {
      "f": "31/10/2026",
      "f_iso": "2026-10-31",
      "evac": 119,
@@ -1226,6 +1284,14 @@
      "familias": 92,
      "fuente": "COE de Goya, Acción Social (El Litoral)",
      "u": "https://www.ellitoral.com.ar/interior/2026-11-8-8-35-0-aunque-el-rio-parana-descendio-ya-son-92-las-familias-autoevacuadas-en-goya"
+    },
+    {
+     "f": "09/11/2026",
+     "f_iso": "2026-11-09",
+     "auto": 157,
+     "familias": 44,
+     "fuente": "Defensa Civil de Corrientes, zona del puerto (13Max)",
+     "u": "https://www.13maxnoticias.com/45033-corrientes-casi-2000-personas-tuvieron-que-dejar-sus-hogares-debido-a-la-crecida"
     },
     {
      "f": "10/11/2026",
@@ -1659,6 +1725,13 @@
    "u": "https://elmonterizo.com/el-parana-bajo-pero-en-corrientes-hay-220-personas-mas-fuera-de-sus-casas",
    "tipo": "oficial",
    "linea": [
+    {
+     "f": "13/10/2026",
+     "f_iso": "2026-10-13",
+     "evac": 31,
+     "fuente": "Diario Época (alojados en el Regimiento de Infantería de Monte)",
+     "u": "https://www.diarioepoca.com/1392393-creciente-empedrado-en-emergencia-y-en-capital-el-rio-supero-cinco-metros"
+    },
     {
      "f": "14/10/2026",
      "f_iso": "2026-10-14",
