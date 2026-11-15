@@ -1,6 +1,6 @@
 {
- "consultado": "15/11/2026, 00:14 h",
- "consultado_iso": "2026-11-15T00:14-03:00",
+ "consultado": "15/11/2026, 00:25 h",
+ "consultado_iso": "2026-11-15T00:25-03:00",
  "paginas": {
   "smn_alertas": {
    "url": "https://www.smn.gob.ar/alertas",
@@ -15,21 +15,50 @@
   "coe_inicio": {
    "url": "https://coe.corrientes.gob.ar/",
    "enlaces": [
-    "https://coe.corrientes.gob.ar/a/2026-0020-NT",
-    "https://coe.corrientes.gob.ar/a/2026-0022-NT",
-    "https://coe.corrientes.gob.ar/a/2026-0065-AT",
-    "https://coe.corrientes.gob.ar/a/2026-0066-AT",
-    "https://coe.corrientes.gob.ar/a/2026-0070-AT",
-    "https://coe.corrientes.gob.ar/a/2026-0071-AT",
-    "https://coe.corrientes.gob.ar/a/2026-0072-AT",
-    "https://coe.corrientes.gob.ar/a/2026-0073-AT",
-    "https://coe.corrientes.gob.ar/a/2026-0124-CP",
+    "https://coe.corrientes.gob.ar/a/2026-0126-CP",
     "https://coe.corrientes.gob.ar/a/2026-0125-CP",
-    "https://coe.corrientes.gob.ar/a/2026-0126-CP"
+    "https://coe.corrientes.gob.ar/a/2026-0124-CP",
+    "https://coe.corrientes.gob.ar/a/2026-0073-AT",
+    "https://coe.corrientes.gob.ar/a/2026-0072-AT",
+    "https://coe.corrientes.gob.ar/a/2026-0071-AT",
+    "https://coe.corrientes.gob.ar/a/2026-0070-AT",
+    "https://coe.corrientes.gob.ar/a/2026-0066-AT",
+    "https://coe.corrientes.gob.ar/a/2026-0065-AT",
+    "https://coe.corrientes.gob.ar/a/2026-0022-NT",
+    "https://coe.corrientes.gob.ar/a/2026-0020-NT"
    ],
    "estado": 200,
    "caracteres": 3607,
    "archivo": "data/fuentes/coe_inicio.txt"
+  },
+  "ina_reporte_diario": {
+   "url": "https://alerta.ina.gob.ar/a5/diario/reporte_diario",
+   "estado": 200,
+   "caracteres": 16749,
+   "archivo": "data/fuentes/ina_reporte_diario.txt"
+  },
+  "rioparana_alturas": {
+   "url": "https://www.rioparana.com.ar",
+   "estado": 200,
+   "caracteres": 5900,
+   "archivo": "data/fuentes/rioparana_alturas.txt"
+  },
+  "prefectura_alturas": {
+   "url": "https://contenidosweb.prefecturanaval.gob.ar/alturas/",
+   "estado": "error",
+   "detalle": "<urlopen error timed out>"
+  },
+  "lanacion_clima_corrientes": {
+   "url": "https://www.lanacion.com.ar/clima/corrientes/",
+   "estado": 200,
+   "caracteres": 8264,
+   "archivo": "data/fuentes/lanacion_clima_corrientes.txt"
+  },
+  "noaa_enso": {
+   "url": "https://cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc_Sp.html",
+   "estado": 200,
+   "caracteres": 4083,
+   "archivo": "data/fuentes/noaa_enso.txt"
   },
   "smn_datos_alertas": {
    "url": "https://ws.smn.gob.ar/alerts/type/AL",
@@ -70,41 +99,55 @@
    "caracteres": 1815,
    "archivo": "data/fuentes/coe_2026_0072_AT.txt"
   },
-  "coe_a_2026_0020_NT": {
-   "url": "https://coe.corrientes.gob.ar/a/2026-0020-NT",
+  "coe_a_2026_0126_CP": {
+   "url": "https://coe.corrientes.gob.ar/a/2026-0126-CP",
    "estado": 200,
-   "caracteres": 2264,
-   "archivo": "data/fuentes/coe_a_2026_0020_NT.txt"
+   "caracteres": 2122,
+   "archivo": "data/fuentes/coe_a_2026_0126_CP.txt"
   },
-  "coe_a_2026_0022_NT": {
-   "url": "https://coe.corrientes.gob.ar/a/2026-0022-NT",
+  "coe_a_2026_0125_CP": {
+   "url": "https://coe.corrientes.gob.ar/a/2026-0125-CP",
    "estado": 200,
-   "caracteres": 2213,
-   "archivo": "data/fuentes/coe_a_2026_0022_NT.txt"
+   "caracteres": 2053,
+   "archivo": "data/fuentes/coe_a_2026_0125_CP.txt"
   },
-  "coe_a_2026_0065_AT": {
-   "url": "https://coe.corrientes.gob.ar/a/2026-0065-AT",
+  "coe_a_2026_0124_CP": {
+   "url": "https://coe.corrientes.gob.ar/a/2026-0124-CP",
    "estado": 200,
-   "caracteres": 2156,
-   "archivo": "data/fuentes/coe_a_2026_0065_AT.txt"
+   "caracteres": 2332,
+   "archivo": "data/fuentes/coe_a_2026_0124_CP.txt"
   },
-  "coe_a_2026_0066_AT": {
-   "url": "https://coe.corrientes.gob.ar/a/2026-0066-AT",
+  "coe_a_2026_0073_AT": {
+   "url": "https://coe.corrientes.gob.ar/a/2026-0073-AT",
    "estado": 200,
-   "caracteres": 2244,
-   "archivo": "data/fuentes/coe_a_2026_0066_AT.txt"
+   "caracteres": 1901,
+   "archivo": "data/fuentes/coe_a_2026_0073_AT.txt"
   },
-  "coe_a_2026_0070_AT": {
-   "url": "https://coe.corrientes.gob.ar/a/2026-0070-AT",
+  "coe_a_2026_0072_AT": {
+   "url": "https://coe.corrientes.gob.ar/a/2026-0072-AT",
    "estado": 200,
-   "caracteres": 2167,
-   "archivo": "data/fuentes/coe_a_2026_0070_AT.txt"
+   "caracteres": 1815,
+   "archivo": "data/fuentes/coe_a_2026_0072_AT.txt"
   },
   "coe_a_2026_0071_AT": {
    "url": "https://coe.corrientes.gob.ar/a/2026-0071-AT",
    "estado": 200,
    "caracteres": 1993,
    "archivo": "data/fuentes/coe_a_2026_0071_AT.txt"
+  }
+ },
+ "pedidas": {
+  "https://www.infobae.com/sociedad/2026/11/13/el-nino-diez-ciudades-del-litoral-continuan-con-el-agua-en-niveles-de-evacuacion-y-son-mas-de-4500-las-personas-afectadas/": {
+   "url": "https://www.infobae.com/sociedad/2026/11/13/el-nino-diez-ciudades-del-litoral-continuan-con-el-agua-en-niveles-de-evacuacion-y-son-mas-de-4500-las-personas-afectadas/",
+   "estado": 200,
+   "caracteres": 10000,
+   "archivo": "data/fuentes/web/infobae_com_sociedad_2026_11_13_el_nino_diez_ciudades_del_litoral_continuan_con_el_agua_en.txt"
+  },
+  "https://infogoya.com/coe-goya-rio-97-familias-autoevacuadas/": {
+   "url": "https://infogoya.com/coe-goya-rio-97-familias-autoevacuadas/",
+   "estado": 200,
+   "caracteres": 2980,
+   "archivo": "data/fuentes/web/infogoya_com_coe_goya_rio_97_familias_autoevacuadas.txt"
   }
  }
 }
