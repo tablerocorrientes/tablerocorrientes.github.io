@@ -1,0 +1,8 @@
+{
+ "consultado": "15/11/2026, 00:40 h",
+ "consultado_iso": "2026-11-15T00:40:10-03:00",
+ "fuente": "Servicio Meteorológico Nacional (www.smn.gob.ar/alertas), leído desde una conexión de Corrientes",
+ "resultado": "sin alertas para Corrientes",
+ "alertas": [],
+ "texto_pagina": "Resumen por provincia (www.smn.gob.ar/resumen_por_provincia), columnas ACP, Tormenta, Lluvia, Nevada, Viento, Viento zonda, Niebla, Polvo, Humo, Ceniza: Corrientes sin alertas ni avisos a muy corto plazo marcados. Provincias con alerta en el resumen: Chubut, La Pampa, Mendoza, Misiones, Neuquén, Río Negro y San Luis (alerta amarillo por tormenta). La página /alertas no mostró fecha de emisión en el texto (--/--/---- --:--h). La dirección www.smn.gob.ar/alertas-corto-plazo respondió 'Page not found' (404)."
+}
