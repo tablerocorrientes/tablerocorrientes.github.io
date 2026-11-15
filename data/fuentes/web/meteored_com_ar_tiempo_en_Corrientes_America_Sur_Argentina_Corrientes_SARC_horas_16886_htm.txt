@@ -1,5 +1,5 @@
 Fuente: https://www.meteored.com.ar/tiempo-en_Corrientes-America+Sur-Argentina-Corrientes-SARC-horas-16886.html
-Consultado: 15/11/2026, 08:59 h
+Consultado: 15/11/2026, 18:29 h
 
 Tiempo en Corrientes por horas - Meteored Argentina
 Tiempo
@@ -95,40 +95,40 @@ Viento - Medio 2 km/h
 Presión 1010 hPa
 Niebla Sí
 Viento - Rachas 14 km/h
-Cota Nieve 5200 m
+Cota Nieve 5400 m
 05:00 21° Niebla
-Sensación T. 21° Oeste 4 - 14 km/h
+Sensación T. 21° Oeste 4 - 12 km/h
 0 Bajo FPS: No
 05:00 21° Niebla
-Sensación T. 21° Oeste 4 - 14 km/h
+Sensación T. 21° Oeste 4 - 12 km/h
 0 Bajo FPS: No
 Lluvia 0% 0 mm
 Humedad 100%
 Punto de rocío 21 °C
-Nubosidad 3%
+Nubosidad 0%
 Sensación Térmica 21 °C
 Visibilidad 500 m
 Viento - Medio 4 km/h
 Presión 1009 hPa
 Niebla Sí
-Viento - Rachas 14 km/h
-Cota Nieve 5300 m
+Viento - Rachas 12 km/h
+Cota Nieve 5400 m
 06:00 21° Niebla
-Sensación T. 21° Oeste 4 - 12 km/h
+Sensación T. 21° Oeste 4 - 9 km/h
 0 Bajo FPS: No
 Lluvia 0% 0 mm
 Humedad 99%
 Punto de rocío 21 °C
-Nubosidad 3%
+Nubosidad 5%
 Sensación Térmica 21 °C
 Visibilidad 900 m
 Viento - Medio 4 km/h
 Presión 1009 hPa
 Niebla Sí
-Viento - Rachas 12 km/h
-Cota Nieve 5300 m
+Viento - Rachas 9 km/h
+Cota Nieve 5400 m
 07:00 21° Niebla
-Sensación T. 21° Oeste 4 - 12 km/h
+Sensación T. 21° Oeste 4 - 11 km/h
 0 Bajo FPS: No
 Lluvia 0% 0 mm
 Humedad 99%
@@ -139,7 +139,7 @@ Visibilidad 3 km
 Viento - Medio 4 km/h
 Presión 1009 hPa
 Niebla Sí
-Viento - Rachas 12 km/h
+Viento - Rachas 11 km/h
 Cota Nieve 5300 m
 08:00 22° Niebla
 Sensación T. 19° Oeste 4 - 13 km/h
@@ -150,7 +150,7 @@ Sensación T. 19° Oeste 4 - 13 km/h
 Lluvia 0% 0 mm
 Humedad 98%
 Punto de rocío 22 °C
-Nubosidad 3%
+Nubosidad 6%
 Sensación Térmica 19 °C
 Visibilidad 8 km
 Viento - Medio 4 km/h
@@ -158,380 +158,380 @@ Presión 1009 hPa
 Niebla Sí
 Viento - Rachas 13 km/h
 Cota Nieve 5300 m
-09:00 25° Soleado
-Sensación T. 29° Suroeste 4 - 15 km/h
+09:00 24° Soleado
+Sensación T. 24° Suroeste 6 - 14 km/h
 4 Medio FPS: 6-10
 Lluvia 0% 0 mm
-Humedad 80%
-Punto de rocío 22 °C
-Nubosidad 6%
-Sensación Térmica 29 °C
-Visibilidad 35 km
-Viento - Medio 4 km/h
+Humedad 81%
+Punto de rocío 20 °C
+Nubosidad 19%
+Sensación Térmica 24 °C
+Visibilidad 10 km
+Viento - Medio 6 km/h
 Presión 1010 hPa
 Niebla No
-Viento - Rachas 15 km/h
-Cota Nieve 5200 m
-10:00 27° Soleado
-Sensación T. 31° Sur 4 - 16 km/h
-7 Alto FPS: 15-25
-Lluvia 0% 0 mm
-Humedad 71%
-Punto de rocío 21 °C
-Nubosidad 2%
-Sensación Térmica 31 °C
-Visibilidad 35 km
-Viento - Medio 4 km/h
-Presión 1010 hPa
-Niebla No
-Viento - Rachas 16 km/h
+Viento - Rachas 14 km/h
 Cota Nieve 5300 m
-11:00 29° Nubes y claros
-Sensación T. 32° Sur 2 - 16 km/h
+10:00 26° Soleado
+Sensación T. 27° Sur 6 - 20 km/h
+6 Alto FPS: 15-25
+Lluvia 0% 0 mm
+Humedad 81%
+Punto de rocío 22 °C
+Nubosidad 10%
+Sensación Térmica 27 °C
+Visibilidad 10 km
+Viento - Medio 6 km/h
+Presión 1010 hPa
+Niebla No
+Viento - Rachas 20 km/h
+Cota Nieve 5300 m
+11:00 27° Nubes y claros
+Sensación T. 29° Sur 9 - 20 km/h
 9 ¡Muy Alto! FPS: 25-50
-11:00 29° Parcialmente nuboso
-Sensación T. 32° Sur 2 - 16 km/h
+11:00 27° Nubes y claros
+Sensación T. 29° Sur 9 - 20 km/h
 9 ¡Muy Alto! FPS: 25-50
+Lluvia 0% 0 mm
+Humedad 77%
+Punto de rocío 22 °C
+Nubosidad 50%
+Sensación Térmica 29 °C
+Visibilidad 10 km
+Viento - Medio 9 km/h
+Presión 1010 hPa
+Niebla No
+Viento - Rachas 20 km/h
+Cota Nieve 5400 m
+12:00 29° Nubes y claros
+Sensación T. 32° Sur 9 - 17 km/h
+11+ ¡Extremo! FPS: 50+
+Lluvia 0% 0 mm
+Humedad 70%
+Punto de rocío 23 °C
+Nubosidad 50%
+Sensación Térmica 32 °C
+Visibilidad 10 km
+Viento - Medio 9 km/h
+Presión 1010 hPa
+Niebla No
+Viento - Rachas 17 km/h
+Cota Nieve 5400 m
+13:00 29° Parcialmente nuboso
+Sensación T. 32° Sur 9 - 14 km/h
+11+ ¡Extremo! FPS: 50+
 Lluvia 0% 0 mm
 Humedad 64%
-Punto de rocío 21 °C
-Nubosidad 12%
+Punto de rocío 22 °C
+Nubosidad 60%
 Sensación Térmica 32 °C
-Visibilidad 40 km
-Viento - Medio 2 km/h
-Presión 1010 hPa
-Niebla No
-Viento - Rachas 16 km/h
-Cota Nieve 5300 m
-12:00 30° Parcialmente nuboso
-Sensación T. 34° Noroeste 2 - 15 km/h
-10 ¡Muy Alto! FPS: 25-50
-Lluvia 0% 0 mm
-Humedad 57%
-Punto de rocío 21 °C
-Nubosidad 68%
-Sensación Térmica 34 °C
-Visibilidad 40 km
-Viento - Medio 2 km/h
+Visibilidad 10 km
+Viento - Medio 9 km/h
 Presión 1009 hPa
 Niebla No
-Viento - Rachas 15 km/h
-Cota Nieve 5300 m
-13:00 31° Parcialmente nuboso
-Sensación T. 34° Noroeste 4 - 16 km/h
-9 ¡Muy Alto! FPS: 25-50
+Viento - Rachas 14 km/h
+Cota Nieve 5400 m
+14:00 31° Parcialmente nuboso
+Sensación T. 34° Sureste 4 - 14 km/h
+10 ¡Muy Alto! FPS: 25-50
+14:00 31° Parcialmente nuboso
+Sensación T. 34° Sureste 4 - 14 km/h
+10 ¡Muy Alto! FPS: 25-50
 Lluvia 0% 0 mm
-Humedad 55%
-Punto de rocío 21 °C
-Nubosidad 78%
+Humedad 59%
+Punto de rocío 22 °C
+Nubosidad 60%
 Sensación Térmica 34 °C
-Visibilidad 30 km
+Visibilidad 10 km
 Viento - Medio 4 km/h
 Presión 1008 hPa
 Niebla No
-Viento - Rachas 16 km/h
+Viento - Rachas 14 km/h
 Cota Nieve 5300 m
-14:00 31° Nubes y claros
-Sensación T. 34° Noroeste 6 - 18 km/h
-9 ¡Muy Alto! FPS: 25-50
-14:00 31° Parcialmente nuboso
-Sensación T. 34° Noroeste 6 - 18 km/h
-9 ¡Muy Alto! FPS: 25-50
+15:00 31° Parcialmente nuboso
+Sensación T. 34° Sur 6 - 14 km/h
+7 Alto FPS: 15-25
 Lluvia 0% 0 mm
-Humedad 55%
-Punto de rocío 21 °C
-Nubosidad 55%
+Humedad 59%
+Punto de rocío 22 °C
+Nubosidad 60%
 Sensación Térmica 34 °C
-Visibilidad 16 km
+Visibilidad 10 km
 Viento - Medio 6 km/h
 Presión 1007 hPa
 Niebla No
-Viento - Rachas 18 km/h
-Cota Nieve 5200 m
-15:00 31° Nubes y claros
-Sensación T. 34° Noroeste 6 - 18 km/h
-7 Alto FPS: 15-25
+Viento - Rachas 14 km/h
+Cota Nieve 5300 m
+16:00 31° Nubes y claros
+Sensación T. 35° Oeste 6 - 15 km/h
+4 Medio FPS: 6-10
 Lluvia 0% 0 mm
-Humedad 55%
-Punto de rocío 21 °C
-Nubosidad 36%
-Sensación Térmica 34 °C
-Visibilidad 40 km
+Humedad 57%
+Punto de rocío 22 °C
+Nubosidad 50%
+Sensación Térmica 35 °C
+Visibilidad 10 km
 Viento - Medio 6 km/h
+Presión 1007 hPa
+Niebla No
+Viento - Rachas 15 km/h
+Cota Nieve 5300 m
+17:00 32° Nubes y claros
+Sensación T. 34° Norte 9 - 15 km/h
+2 Bajo FPS: No
+17:00 32° Nubes y claros
+Sensación T. 34° Norte 9 - 15 km/h
+2 Bajo FPS: No
+Lluvia 0% 0 mm
+Humedad 53%
+Punto de rocío 21 °C
+Nubosidad 50%
+Sensación Térmica 34 °C
+Visibilidad 10 km
+Viento - Medio 9 km/h
 Presión 1006 hPa
 Niebla No
-Viento - Rachas 18 km/h
-Cota Nieve 5200 m
-16:00 31° Soleado
-Sensación T. 34° Noroeste 5 - 17 km/h
-5 Medio FPS: 6-10
-Lluvia 0% 0 mm
-Humedad 55%
-Punto de rocío 21 °C
-Nubosidad 4%
-Sensación Térmica 34 °C
-Visibilidad 45 km
-Viento - Medio 5 km/h
-Presión 1005 hPa
-Niebla No
-Viento - Rachas 17 km/h
+Viento - Rachas 15 km/h
 Cota Nieve 5300 m
-17:00 31° Soleado
-Sensación T. 34° Norte 7 - 17 km/h
-2 Bajo FPS: No
-17:00 31° Soleado
-Sensación T. 34° Norte 7 - 17 km/h
-2 Bajo FPS: No
-Lluvia 0% 0 mm
-Humedad 56%
-Punto de rocío 21 °C
-Nubosidad 5%
-Sensación Térmica 34 °C
-Visibilidad 45 km
-Viento - Medio 7 km/h
-Presión 1004 hPa
-Niebla No
-Viento - Rachas 17 km/h
-Cota Nieve 5300 m
-18:00 30° Soleado
-Sensación T. 33° Norte 6 - 17 km/h
+18:00 32° Nubes y claros
+Sensación T. 34° Norte 9 - 15 km/h
 1 Bajo FPS: No
 Lluvia 0% 0 mm
-Humedad 60%
-Punto de rocío 21 °C
-Nubosidad 3%
-Sensación Térmica 33 °C
-Visibilidad 45 km
-Viento - Medio 6 km/h
-Presión 1004 hPa
+Humedad 50%
+Punto de rocío 20 °C
+Nubosidad 50%
+Sensación Térmica 34 °C
+Visibilidad 10 km
+Viento - Medio 9 km/h
+Presión 1005 hPa
 Niebla No
-Viento - Rachas 17 km/h
+Viento - Rachas 15 km/h
 Cota Nieve 5300 m
-19:00 28° Soleado
-Sensación T. 33° Noreste 3 - 13 km/h
+19:00 29° Nubes y claros
+Sensación T. 34° Sureste 1 - 10 km/h
 0 Bajo FPS: No
 Lluvia 0% 0 mm
-Humedad 72%
+Humedad 73%
 Punto de rocío 23 °C
-Nubosidad 4%
-Sensación Térmica 33 °C
+Nubosidad 16%
+Sensación Térmica 34 °C
 Visibilidad 40 km
-Viento - Medio 3 km/h
+Viento - Medio 1 km/h
 Presión 1004 hPa
 Niebla No
-Viento - Rachas 13 km/h
+Viento - Rachas 10 km/h
 Cota Nieve 5300 m
-20:00 27° Cielo despejado
-Sensación T. 31° Noreste 2 - 6 km/h
+20:00 28° Nubes y claros
+Sensación T. 32° Este 2 - 5 km/h
 0 Bajo FPS: No
-20:00 27° Cielo despejado
-Sensación T. 31° Noreste 2 - 6 km/h
+20:00 28° Nubes y claros
+Sensación T. 32° Este 2 - 5 km/h
 0 Bajo FPS: No
 Lluvia 0% 0 mm
-Humedad 75%
-Punto de rocío 22 °C
-Nubosidad 0%
-Sensación Térmica 31 °C
-Visibilidad 35 km
+Humedad 74%
+Punto de rocío 23 °C
+Nubosidad 21%
+Sensación Térmica 32 °C
+Visibilidad 40 km
 Viento - Medio 2 km/h
-Presión 1004 hPa
+Presión 1005 hPa
+Niebla No
+Viento - Rachas 5 km/h
+Cota Nieve 5300 m
+21:00 27° Nubes y claros
+Sensación T. 32° Este 3 - 6 km/h
+0 Bajo FPS: No
+Lluvia 0% 0 mm
+Humedad 76%
+Punto de rocío 23 °C
+Nubosidad 29%
+Sensación Térmica 32 °C
+Visibilidad 35 km
+Viento - Medio 3 km/h
+Presión 1006 hPa
 Niebla No
 Viento - Rachas 6 km/h
 Cota Nieve 5300 m
-21:00 26° Cielo despejado
-Sensación T. 31° Sureste 4 - 7 km/h
+22:00 27° Nubes y claros
+Sensación T. 31° Sureste 3 - 6 km/h
 0 Bajo FPS: No
 Lluvia 0% 0 mm
-Humedad 81%
+Humedad 80%
 Punto de rocío 23 °C
-Nubosidad 4%
+Nubosidad 44%
 Sensación Térmica 31 °C
 Visibilidad 35 km
-Viento - Medio 4 km/h
-Presión 1005 hPa
-Niebla No
-Viento - Rachas 7 km/h
-Cota Nieve 5300 m
-22:00 26° Nubes y claros
-Sensación T. 30° Sureste 5 - 9 km/h
-0 Bajo FPS: No
-Lluvia 0% 0 mm
-Humedad 82%
-Punto de rocío 22 °C
-Nubosidad 28%
-Sensación Térmica 30 °C
-Visibilidad 35 km
-Viento - Medio 5 km/h
+Viento - Medio 3 km/h
 Presión 1006 hPa
 Niebla No
-Viento - Rachas 9 km/h
+Viento - Rachas 6 km/h
 Cota Nieve 5300 m
-23:00 25° Nubes y claros
-Sensación T. 29° Este 4 - 9 km/h
+23:00 26° Nubes y claros
+Sensación T. 30° Sureste 4 - 6 km/h
 0 Bajo FPS: No
-23:00 25° Nubes y claros
-Sensación T. 29° Este 4 - 9 km/h
+23:00 26° Nubes y claros
+Sensación T. 30° Sureste 4 - 6 km/h
 0 Bajo FPS: No
 Lluvia 0% 0 mm
 Humedad 83%
-Punto de rocío 22 °C
-Nubosidad 41%
-Sensación Térmica 29 °C
+Punto de rocío 23 °C
+Nubosidad 46%
+Sensación Térmica 30 °C
 Visibilidad 35 km
 Viento - Medio 4 km/h
 Presión 1007 hPa
 Niebla No
-Viento - Rachas 9 km/h
-Cota Nieve 5300 m
-24:00 25° Cielo despejado
-Sensación T. 29° Este 3 - 6 km/h
-0 Bajo FPS: No
-Lluvia 0% 0 mm
-Humedad 85%
-Punto de rocío 22 °C
-Nubosidad 5%
-Sensación Térmica 29 °C
-Visibilidad 35 km
-Viento - Medio 3 km/h
-Presión 1007 hPa
-Niebla No
 Viento - Rachas 6 km/h
 Cota Nieve 5300 m
+24:00 26° Nubes y claros
+Sensación T. 30° Sureste 5 - 9 km/h
+0 Bajo FPS: No
+Lluvia 0% 0 mm
+Humedad 83%
+Punto de rocío 23 °C
+Nubosidad 49%
+Sensación Térmica 30 °C
+Visibilidad 35 km
+Viento - Medio 5 km/h
+Presión 1007 hPa
+Niebla No
+Viento - Rachas 9 km/h
+Cota Nieve 5300 m
 Lunes, 16 de noviembre
-La mayor parte del día Nubes y claros
+La mayor parte del día Lluvia débil con cielo parcialmente nuboso
 Salida del sol a las 05:55 Puesta del sol a las 19:25
 Primera luz a las 05:29 Última luz a las 19:50
 Fase Lunar
 Creciente Iluminada 42%
 Puesta Luna 00:43 Salida Luna 11:44
 01:00 25° Nubes y claros
-Sensación T. 29° Este 1 - 6 km/h
+Sensación T. 29° Este 5 - 9 km/h
+0 Bajo FPS: No
+Lluvia 0% 0 mm
+Humedad 85%
+Punto de rocío 22 °C
+Nubosidad 45%
+Sensación Térmica 29 °C
+Visibilidad 35 km
+Viento - Medio 5 km/h
+Presión 1006 hPa
+Niebla No
+Viento - Rachas 9 km/h
+Cota Nieve 5300 m
+02:00 25° Nubes y claros
+Sensación T. 29° Este 5 - 9 km/h
+0 Bajo FPS: No
+02:00 25° Nubes y claros
+Sensación T. 29° Este 5 - 9 km/h
 0 Bajo FPS: No
 Lluvia 0% 0 mm
 Humedad 86%
 Punto de rocío 22 °C
-Nubosidad 14%
+Nubosidad 36%
 Sensación Térmica 29 °C
 Visibilidad 30 km
-Viento - Medio 1 km/h
+Viento - Medio 5 km/h
 Presión 1006 hPa
 Niebla No
-Viento - Rachas 6 km/h
+Viento - Rachas 9 km/h
 Cota Nieve 5200 m
-02:00 24° Nubes y claros
-Sensación T. 29° Sureste 2 - 4 km/h
-0 Bajo FPS: No
-02:00 24° Nubes y claros
-Sensación T. 29° Sureste 2 - 4 km/h
+03:00 25° Nubes y claros
+Sensación T. 29° Este 3 - 8 km/h
 0 Bajo FPS: No
 Lluvia 0% 0 mm
 Humedad 87%
 Punto de rocío 22 °C
-Nubosidad 45%
+Nubosidad 48%
+Sensación Térmica 29 °C
+Visibilidad 30 km
+Viento - Medio 3 km/h
+Presión 1006 hPa
+Niebla No
+Viento - Rachas 8 km/h
+Cota Nieve 5200 m
+04:00 24° Nubes y claros
+Sensación T. 29° Este 2 - 5 km/h
+0 Bajo FPS: No
+Lluvia 0% 0 mm
+Humedad 87%
+Punto de rocío 22 °C
+Nubosidad 32%
 Sensación Térmica 29 °C
 Visibilidad 30 km
 Viento - Medio 2 km/h
 Presión 1006 hPa
 Niebla No
-Viento - Rachas 4 km/h
-Cota Nieve 5200 m
-03:00 24° Nubes y claros
-Sensación T. 28° Sureste 4 - 7 km/h
-0 Bajo FPS: No
-Lluvia 0% 0 mm
-Humedad 90%
-Punto de rocío 22 °C
-Nubosidad 11%
-Sensación Térmica 28 °C
-Visibilidad 30 km
-Viento - Medio 4 km/h
-Presión 1006 hPa
-Niebla No
-Viento - Rachas 7 km/h
-Cota Nieve 5200 m
-04:00 24° Cielo despejado
-Sensación T. 28° Este 3 - 7 km/h
-0 Bajo FPS: No
-Lluvia 0% 0 mm
-Humedad 89%
-Punto de rocío 22 °C
-Nubosidad 6%
-Sensación Térmica 28 °C
-Visibilidad 30 km
-Viento - Medio 3 km/h
-Presión 1005 hPa
-Niebla No
-Viento - Rachas 7 km/h
-Cota Nieve 5200 m
-05:00 24° Nubes y claros
-Sensación T. 27° Este 3 - 5 km/h
-0 Bajo FPS: No
-05:00 24° Nubes y claros
-Sensación T. 27° Este 3 - 5 km/h
-0 Bajo FPS: No
-Lluvia 0% 0 mm
-Humedad 89%
-Punto de rocío 22 °C
-Nubosidad 31%
-Sensación Térmica 27 °C
-Visibilidad 30 km
-Viento - Medio 3 km/h
-Presión 1005 hPa
-Niebla No
 Viento - Rachas 5 km/h
 Cota Nieve 5200 m
-06:00 23° Nubes y claros
-Sensación T. 27° Este 4 - 7 km/h
+05:00 24° Nubes y claros
+Sensación T. 28° Este 3 - 5 km/h
+0 Bajo FPS: No
+05:00 24° Nubes y claros
+Sensación T. 28° Este 3 - 5 km/h
+0 Bajo FPS: No
+Lluvia 0% 0 mm
+Humedad 89%
+Punto de rocío 22 °C
+Nubosidad 33%
+Sensación Térmica 28 °C
+Visibilidad 30 km
+Viento - Medio 3 km/h
+Presión 1006 hPa
+Niebla No
+Viento - Rachas 5 km/h
+Cota Nieve 5100 m
+06:00 24° Nubes y claros
+Sensación T. 28° Este 4 - 7 km/h
 0 Bajo FPS: No
 Lluvia 0% 0 mm
 Humedad 90%
-Punto de rocío 21 °C
-Nubosidad 33%
-Sensación Térmica 27 °C
-Visibilidad 30 km
-Viento - Medio 4 km/h
-Presión 1005 hPa
-Niebla No
-Viento - Rachas 7 km/h
-Cota Nieve 5200 m
-07:00 25° Nubes y claros
-Sensación T. 28° Este 5 - 10 km/h
-0 Bajo FPS: No
-Lluvia 0% 0 mm
-Humedad 86%
 Punto de rocío 22 °C
-Nubosidad 43%
+Nubosidad 30%
 Sensación Térmica 28 °C
 Visibilidad 30 km
-Viento - Medio 5 km/h
+Viento - Medio 4 km/h
 Presión 1006 hPa
 Niebla No
-Viento - Rachas 10 km/h
-Cota Nieve 5200 m
-08:00 26° Nubes y claros
-Sensación T. 30° Sureste 4 - 12 km/h
-1 Bajo FPS: No
-08:00 26° Nubes y claros
-Sensación T. 30° Sureste 4 - 12 km/h
-1 Bajo FPS: No
+Viento - Rachas 7 km/h
+Cota Nieve 5100 m
+07:00 25° Nubes y claros
+Sensación T. 29° Sureste 6 - 12 km/h
+0 Bajo FPS: No
 Lluvia 0% 0 mm
-Humedad 80%
-Punto de rocío 22 °C
-Nubosidad 45%
-Sensación Térmica 30 °C
-Visibilidad 35 km
-Viento - Medio 4 km/h
+Humedad 87%
+Punto de rocío 23 °C
+Nubosidad 42%
+Sensación Térmica 29 °C
+Visibilidad 30 km
+Viento - Medio 6 km/h
 Presión 1006 hPa
 Niebla No
 Viento - Rachas 12 km/h
 Cota Nieve 5200 m
+08:00 26° Nubes y claros
+Sensación T. 31° Sureste 5 - 14 km/h
+1 Bajo FPS: No
+08:00 26° Nubes y claros
+Sensación T. 31° Sureste 5 - 14 km/h
+1 Bajo FPS: No
+Lluvia 0% 0 mm
+Humedad 81%
+Punto de rocío 23 °C
+Nubosidad 46%
+Sensación Térmica 31 °C
+Visibilidad 35 km
+Viento - Medio 5 km/h
+Presión 1007 hPa
+Niebla No
+Viento - Rachas 14 km/h
+Cota Nieve 5200 m
 09:00 28° Nubes y claros
 Sensación T. 32° Este 5 - 15 km/h
-3 Medio FPS: 6-10
+4 Medio FPS: 6-10
 Lluvia 0% 0 mm
-Humedad 73%
-Punto de rocío 22 °C
-Nubosidad 46%
+Humedad 74%
+Punto de rocío 23 °C
+Nubosidad 24%
 Sensación Térmica 32 °C
 Visibilidad 35 km
 Viento - Medio 5 km/h
@@ -540,230 +540,230 @@ Niebla No
 Viento - Rachas 15 km/h
 Cota Nieve 5200 m
 10:00 30° Nubes y claros
-Sensación T. 33° Este 6 - 17 km/h
+Sensación T. 34° Este 5 - 16 km/h
 6 Alto FPS: 15-25
 Lluvia 0% 0 mm
-Humedad 63%
-Punto de rocío 22 °C
-Nubosidad 20%
-Sensación Térmica 33 °C
+Humedad 66%
+Punto de rocío 23 °C
+Nubosidad 25%
+Sensación Térmica 34 °C
 Visibilidad 20 km
+Viento - Medio 5 km/h
+Presión 1007 hPa
+Niebla No
+Viento - Rachas 16 km/h
+Cota Nieve 5200 m
+11:00 31° Nubes y claros
+Sensación T. 34° Noreste 6 - 18 km/h
+9 ¡Muy Alto! FPS: 25-50
+11:00 30% 0.1 mm 31° Lluvia débil
+Sensación T. 34° Noreste 6 - 18 km/h
+9 ¡Muy Alto! FPS: 25-50
+Lluvia 0% 0 mm
+Humedad 60%
+Punto de rocío 22 °C
+Nubosidad 21%
+Sensación Térmica 34 °C
+Visibilidad 10 km
 Viento - Medio 6 km/h
 Presión 1006 hPa
 Niebla No
-Viento - Rachas 17 km/h
+Viento - Rachas 18 km/h
 Cota Nieve 5200 m
-11:00 31° Nubes y claros
-Sensación T. 34° Noreste 8 - 21 km/h
-9 ¡Muy Alto! FPS: 25-50
-11:00 31° Nubes y claros
-Sensación T. 34° Noreste 8 - 21 km/h
-9 ¡Muy Alto! FPS: 25-50
-Lluvia 0% 0 mm
+12:00 30% 0.1 mm 31° Lluvia débil
+Sensación T. 34° Noreste 8 - 22 km/h
+11+ ¡Extremo! FPS: 50+
+Lluvia 30% 0.1 mm
 Humedad 56%
-Punto de rocío 21 °C
-Nubosidad 34%
+Punto de rocío 22 °C
+Nubosidad 32%
 Sensación Térmica 34 °C
-Visibilidad 12 km
+Visibilidad 8 km
 Viento - Medio 8 km/h
-Presión 1006 hPa
+Presión 1005 hPa
+Niebla No
+Viento - Rachas 22 km/h
+Cota Nieve 5200 m
+13:00 30% 0.2 mm 32° Lluvia débil
+Sensación T. 35° Noreste 8 - 22 km/h
+11+ ¡Extremo! FPS: 50+
+Lluvia 30% 0.2 mm
+Humedad 56%
+Punto de rocío 22 °C
+Nubosidad 26%
+Sensación Térmica 35 °C
+Visibilidad 14 km
+Viento - Medio 8 km/h
+Presión 1005 hPa
+Niebla No
+Viento - Rachas 22 km/h
+Cota Nieve 5200 m
+14:00 32° Nubes y claros
+Sensación T. 36° Noreste 7 - 21 km/h
+10 ¡Muy Alto! FPS: 25-50
+14:00 30% 0.2 mm 32° Lluvia débil
+Sensación T. 36° Noreste 7 - 21 km/h
+10 ¡Muy Alto! FPS: 25-50
+Lluvia 10% 0 mm
+Humedad 55%
+Punto de rocío 22 °C
+Nubosidad 15%
+Sensación Térmica 36 °C
+Visibilidad 35 km
+Viento - Medio 7 km/h
+Presión 1004 hPa
 Niebla No
 Viento - Rachas 21 km/h
-Cota Nieve 5100 m
-12:00 31° Nubes y claros
-Sensación T. 35° Noreste 6 - 21 km/h
-11+ ¡Extremo! FPS: 50+
+Cota Nieve 5200 m
+15:00 33° Nubes y claros
+Sensación T. 36° Este 8 - 21 km/h
+7 Alto FPS: 15-25
 Lluvia 0% 0 mm
-Humedad 54%
-Punto de rocío 21 °C
+Humedad 55%
+Punto de rocío 22 °C
+Nubosidad 18%
+Sensación Térmica 36 °C
+Visibilidad 30 km
+Viento - Medio 8 km/h
+Presión 1003 hPa
+Niebla No
+Viento - Rachas 21 km/h
+Cota Nieve 5200 m
+16:00 32° Nubes y claros
+Sensación T. 36° Este 9 - 22 km/h
+4 Medio FPS: 6-10
+Lluvia 0% 0 mm
+Humedad 56%
+Punto de rocío 22 °C
+Nubosidad 26%
+Sensación Térmica 36 °C
+Visibilidad 14 km
+Viento - Medio 9 km/h
+Presión 1002 hPa
+Niebla No
+Viento - Rachas 22 km/h
+Cota Nieve 5200 m
+17:00 32° Nubes y claros
+Sensación T. 35° Este 9 - 21 km/h
+2 Bajo FPS: No
+17:00 30% 0.1 mm 32° Lluvia débil
+Sensación T. 35° Este 9 - 21 km/h
+2 Bajo FPS: No
+Lluvia 10% 0 mm
+Humedad 59%
+Punto de rocío 23 °C
+Nubosidad 24%
+Sensación Térmica 35 °C
+Visibilidad 12 km
+Viento - Medio 9 km/h
+Presión 1001 hPa
+Niebla No
+Viento - Rachas 21 km/h
+Cota Nieve 5200 m
+18:00 30% 0.1 mm 31° Lluvia débil
+Sensación T. 35° Este 7 - 19 km/h
+1 Bajo FPS: No
+Lluvia 30% 0.1 mm
+Humedad 64%
+Punto de rocío 23 °C
 Nubosidad 22%
 Sensación Térmica 35 °C
 Visibilidad 16 km
-Viento - Medio 6 km/h
-Presión 1005 hPa
-Niebla No
-Viento - Rachas 21 km/h
-Cota Nieve 5100 m
-13:00 32° Nubes y claros
-Sensación T. 36° Noreste 3 - 17 km/h
-11+ ¡Extremo! FPS: 50+
-Lluvia 0% 0 mm
-Humedad 53%
-Punto de rocío 21 °C
-Nubosidad 17%
-Sensación Térmica 36 °C
-Visibilidad 50 km
-Viento - Medio 3 km/h
-Presión 1004 hPa
-Niebla No
-Viento - Rachas 17 km/h
-Cota Nieve 5100 m
-14:00 33° Nubes y claros
-Sensación T. 36° Este 6 - 17 km/h
-10 ¡Muy Alto! FPS: 25-50
-14:00 33° Nubes y claros
-Sensación T. 36° Este 6 - 17 km/h
-10 ¡Muy Alto! FPS: 25-50
-Lluvia 0% 0 mm
-Humedad 51%
-Punto de rocío 21 °C
-Nubosidad 20%
-Sensación Térmica 36 °C
-Visibilidad 50 km
-Viento - Medio 6 km/h
-Presión 1004 hPa
-Niebla No
-Viento - Rachas 17 km/h
-Cota Nieve 5100 m
-15:00 33° Nubes y claros
-Sensación T. 36° Este 7 - 19 km/h
-7 Alto FPS: 15-25
-Lluvia 10% 0 mm
-Humedad 51%
-Punto de rocío 21 °C
-Nubosidad 16%
-Sensación Térmica 36 °C
-Visibilidad 35 km
 Viento - Medio 7 km/h
-Presión 1003 hPa
+Presión 1001 hPa
 Niebla No
 Viento - Rachas 19 km/h
-Cota Nieve 5100 m
-16:00 32° Nubes y claros
-Sensación T. 36° Este 7 - 20 km/h
-4 Medio FPS: 6-10
-Lluvia 10% 0 mm
-Humedad 52%
-Punto de rocío 21 °C
-Nubosidad 16%
-Sensación Térmica 36 °C
-Visibilidad 45 km
-Viento - Medio 7 km/h
-Presión 1002 hPa
-Niebla No
-Viento - Rachas 20 km/h
-Cota Nieve 5100 m
-17:00 32° Nubes y claros
-Sensación T. 35° Este 6 - 17 km/h
-2 Bajo FPS: No
-17:00 32° Nubes y claros
-Sensación T. 35° Este 6 - 17 km/h
-2 Bajo FPS: No
-Lluvia 10% 0 mm
-Humedad 52%
-Punto de rocío 21 °C
-Nubosidad 19%
-Sensación Térmica 35 °C
-Visibilidad 18 km
-Viento - Medio 6 km/h
-Presión 1001 hPa
-Niebla No
-Viento - Rachas 17 km/h
 Cota Nieve 5200 m
-18:00 31° Nubes y claros
-Sensación T. 35° Sureste 7 - 15 km/h
-1 Bajo FPS: No
-Lluvia 0% 0 mm
-Humedad 57%
-Punto de rocío 22 °C
-Nubosidad 13%
-Sensación Térmica 35 °C
-Visibilidad 40 km
-Viento - Medio 7 km/h
-Presión 1001 hPa
-Niebla No
-Viento - Rachas 15 km/h
-Cota Nieve 5100 m
-19:00 29° Soleado
-Sensación T. 33° Sureste 8 - 15 km/h
-0 Bajo FPS: No
-Lluvia 0% 0 mm
-Humedad 68%
-Punto de rocío 23 °C
-Nubosidad 10%
-Sensación Térmica 33 °C
-Visibilidad 40 km
-Viento - Medio 8 km/h
-Presión 1001 hPa
-Niebla No
-Viento - Rachas 15 km/h
-Cota Nieve 5100 m
-20:00 28° Cielo despejado
-Sensación T. 31° Sureste 9 - 16 km/h
-0 Bajo FPS: No
-20:00 28° Cielo despejado
-Sensación T. 31° Sureste 9 - 16 km/h
-0 Bajo FPS: No
-Lluvia 0% 0 mm
-Humedad 72%
-Punto de rocío 23 °C
-Nubosidad 8%
-Sensación Térmica 31 °C
-Visibilidad 40 km
-Viento - Medio 9 km/h
-Presión 1002 hPa
-Niebla No
-Viento - Rachas 16 km/h
-Cota Nieve 5100 m
-21:00 28° Cielo despejado
-Sensación T. 31° Sureste 9 - 16 km/h
-0 Bajo FPS: No
-Lluvia 0% 0 mm
-Humedad 75%
-Punto de rocío 23 °C
-Nubosidad 4%
-Sensación Térmica 31 °C
-Visibilidad 35 km
-Viento - Medio 9 km/h
-Presión 1002 hPa
-Niebla No
-Viento - Rachas 16 km/h
-Cota Nieve 5000 m
-22:00 27° Nubes y claros
-Sensación T. 31° Este 9 - 17 km/h
+19:00 29° Nubes y claros
+Sensación T. 35° Este 4 - 12 km/h
 0 Bajo FPS: No
 Lluvia 0% 0 mm
 Humedad 77%
-Punto de rocío 23 °C
-Nubosidad 14%
+Punto de rocío 25 °C
+Nubosidad 45%
+Sensación Térmica 35 °C
+Visibilidad 30 km
+Viento - Medio 4 km/h
+Presión 1001 hPa
+Niebla No
+Viento - Rachas 12 km/h
+Cota Nieve 5100 m
+20:00 28° Parcialmente nuboso
+Sensación T. 33° Este 4 - 7 km/h
+0 Bajo FPS: No
+20:00 28° Parcialmente nuboso
+Sensación T. 33° Este 4 - 7 km/h
+0 Bajo FPS: No
+Lluvia 0% 0 mm
+Humedad 81%
+Punto de rocío 25 °C
+Nubosidad 58%
+Sensación Térmica 33 °C
+Visibilidad 30 km
+Viento - Medio 4 km/h
+Presión 1002 hPa
+Niebla No
+Viento - Rachas 7 km/h
+Cota Nieve 5100 m
+21:00 28° Nubes y claros
+Sensación T. 33° Este 4 - 7 km/h
+0 Bajo FPS: No
+Lluvia 0% 0 mm
+Humedad 83%
+Punto de rocío 25 °C
+Nubosidad 53%
+Sensación Térmica 33 °C
+Visibilidad 10 km
+Viento - Medio 4 km/h
+Presión 1002 hPa
+Niebla No
+Viento - Rachas 7 km/h
+Cota Nieve 5100 m
+22:00 27° Nubes y claros
+Sensación T. 32° Este 5 - 9 km/h
+0 Bajo FPS: No
+Lluvia 0% 0 mm
+Humedad 86%
+Punto de rocío 24 °C
+Nubosidad 39%
+Sensación Térmica 32 °C
+Visibilidad 8 km
+Viento - Medio 5 km/h
+Presión 1003 hPa
+Niebla No
+Viento - Rachas 9 km/h
+Cota Nieve 5100 m
+23:00 30% 0.2 mm 26° Lluvia débil
+Sensación T. 31° Este 6 - 12 km/h
+0 Bajo FPS: No
+23:00 30% 0.2 mm 26° Lluvia débil
+Sensación T. 31° Este 6 - 12 km/h
+0 Bajo FPS: No
+Lluvia 30% 0.2 mm
+Humedad 88%
+Punto de rocío 24 °C
+Nubosidad 48%
 Sensación Térmica 31 °C
-Visibilidad 35 km
-Viento - Medio 9 km/h
+Visibilidad 8 km
+Viento - Medio 6 km/h
 Presión 1003 hPa
 Niebla No
-Viento - Rachas 17 km/h
-Cota Nieve 5000 m
-23:00 27° Cielo despejado
-Sensación T. 30° Este 9 - 17 km/h
-0 Bajo FPS: No
-23:00 27° Nubes y claros
-Sensación T. 30° Este 9 - 17 km/h
-0 Bajo FPS: No
-Lluvia 0% 0 mm
-Humedad 79%
-Punto de rocío 23 °C
-Nubosidad 4%
-Sensación Térmica 30 °C
-Visibilidad 35 km
-Viento - Medio 9 km/h
-Presión 1003 hPa
-Niebla No
-Viento - Rachas 17 km/h
-Cota Nieve 5000 m
+Viento - Rachas 12 km/h
+Cota Nieve 5100 m
 24:00 26° Nubes y claros
-Sensación T. 30° Este 8 - 16 km/h
+Sensación T. 31° Este 5 - 11 km/h
 0 Bajo FPS: No
-Lluvia 0% 0 mm
-Humedad 82%
-Punto de rocío 23 °C
-Nubosidad 49%
-Sensación Térmica 30 °C
-Visibilidad 35 km
-Viento - Medio 8 km/h
-Presión 1003 hPa
+Lluvia 10% 0 mm
+Humedad 89%
+Punto de rocío 24 °C
+Nubosidad 17%
+Sensación Térmica 31 °C
+Visibilidad 18 km
+Viento - Medio 5 km/h
+Presión 1002 hPa
 Niebla No
-Viento - Rachas 16 km/h
-Cota Nieve 5000 m
+Viento - Rachas 11 km/h
+Cota Nieve 5100 m
 Martes, 17 de noviembre
 De madrugada Chubascos tormentosos con cielo parcialmente nuboso
 Salida del sol a las 05:54 Puesta del sol a las 19:26
@@ -771,345 +771,345 @@ Primera luz a las 05:29 Última luz a las 19:51
 Fase Lunar
 Creciente Iluminada 51%
 Puesta Luna 01:16 Salida Luna 12:39
-01:00 26° Parcialmente nuboso
-Sensación T. 30° Sureste 6 - 14 km/h
-0 Bajo FPS: No
-Lluvia 10% 0 mm
-Humedad 86%
-Punto de rocío 23 °C
-Nubosidad 60%
-Sensación Térmica 30 °C
-Visibilidad 30 km
-Viento - Medio 6 km/h
-Presión 1003 hPa
-Niebla No
-Viento - Rachas 14 km/h
-Cota Nieve 5000 m
-02:00 25° Parcialmente nuboso
-Sensación T. 29° Este 7 - 14 km/h
-0 Bajo FPS: No
-02:00 40% 6 mm 25° Tormenta
-Sensación T. 29° Este 7 - 14 km/h
+01:00 26° Cielo despejado
+Sensación T. 30° Noreste 7 - 10 km/h
 0 Bajo FPS: No
 Lluvia 20% 0 mm
-Humedad 88%
-Punto de rocío 23 °C
-Nubosidad 57%
-Sensación Térmica 29 °C
-Visibilidad 20 km
+Humedad 90%
+Punto de rocío 24 °C
+Nubosidad 8%
+Sensación Térmica 30 °C
+Visibilidad 25 km
 Viento - Medio 7 km/h
 Presión 1002 hPa
 Niebla No
+Viento - Rachas 10 km/h
+Cota Nieve 5000 m
+02:00 25° Parcialmente nuboso
+Sensación T. 30° Noreste 5 - 14 km/h
+0 Bajo FPS: No
+02:00 50% 4.2 mm 25° Tormenta
+Sensación T. 30° Noreste 5 - 14 km/h
+0 Bajo FPS: No
+Lluvia 20% 0 mm
+Humedad 91%
+Punto de rocío 24 °C
+Nubosidad 78%
+Sensación Térmica 30 °C
+Visibilidad 4 km
+Viento - Medio 5 km/h
+Presión 1001 hPa
+Niebla No
 Viento - Rachas 14 km/h
 Cota Nieve 5000 m
-03:00 40% 6 mm 23° Tormenta
-Sensación T. 27° Suroeste 7 - 18 km/h
+03:00 50% 4.2 mm 23° Tormenta
+Sensación T. 25° Sur 14 - 35 km/h
 0 Bajo FPS: No
-Lluvia 40% 6 mm
-Humedad 96%
+Lluvia 50% 4.2 mm
+Humedad 97%
 Punto de rocío 23 °C
 Nubosidad 96%
-Sensación Térmica 27 °C
-Visibilidad 2 km
-Viento - Medio 7 km/h
-Presión 1005 hPa
-Niebla No
-Viento - Rachas 18 km/h
-Cota Nieve 4600 m
-04:00 50% 4.4 mm 24° Tormenta
-Sensación T. 28° Sureste 1 - 18 km/h
-0 Bajo FPS: No
-Lluvia 50% 4.4 mm
-Humedad 93%
-Punto de rocío 22 °C
-Nubosidad 51%
-Sensación Térmica 28 °C
-Visibilidad 2 km
-Viento - Medio 1 km/h
+Sensación Térmica 25 °C
+Visibilidad 3 km
+Viento - Medio 14 km/h
 Presión 1004 hPa
 Niebla No
-Viento - Rachas 18 km/h
-Cota Nieve 4700 m
-05:00 60% 1.7 mm 23° Lluvia débil
-Sensación T. 26° Sureste 8 - 16 km/h
+Viento - Rachas 35 km/h
+Cota Nieve 4800 m
+04:00 60% 0.9 mm 23° Lluvia débil
+Sensación T. 27° Sureste 6 - 26 km/h
 0 Bajo FPS: No
-05:00 60% 6.2 mm 23° Tormenta
-Sensación T. 26° Sureste 8 - 16 km/h
-0 Bajo FPS: No
-Lluvia 60% 1.7 mm
-Humedad 96%
-Punto de rocío 22 °C
-Nubosidad 55%
-Sensación Térmica 26 °C
-Visibilidad 6 km
-Viento - Medio 8 km/h
-Presión 1004 hPa
-Niebla No
-Viento - Rachas 16 km/h
-Cota Nieve 4600 m
-06:00 50% 0.1 mm 23° Lluvia débil
-Sensación T. 27° Este 5 - 18 km/h
-0 Bajo FPS: No
-Lluvia 50% 0.1 mm
+Lluvia 60% 0.9 mm
 Humedad 97%
 Punto de rocío 22 °C
-Nubosidad 46%
+Nubosidad 61%
+Sensación Térmica 27 °C
+Visibilidad 6 km
+Viento - Medio 6 km/h
+Presión 1004 hPa
+Niebla No
+Viento - Rachas 26 km/h
+Cota Nieve 4600 m
+05:00 60% 0.2 mm 23° Lluvia débil
+Sensación T. 27° Este 5 - 13 km/h
+0 Bajo FPS: No
+05:00 60% 1.1 mm 23° Lluvia débil
+Sensación T. 27° Este 5 - 13 km/h
+0 Bajo FPS: No
+Lluvia 60% 0.2 mm
+Humedad 97%
+Punto de rocío 22 °C
+Nubosidad 63%
 Sensación Térmica 27 °C
 Visibilidad 16 km
 Viento - Medio 5 km/h
 Presión 1004 hPa
 Niebla No
-Viento - Rachas 18 km/h
+Viento - Rachas 13 km/h
+Cota Nieve 4500 m
+06:00 23° Parcialmente nuboso
+Sensación T. 26° Este 6 - 14 km/h
+0 Bajo FPS: No
+Lluvia 20% 0 mm
+Humedad 97%
+Punto de rocío 22 °C
+Nubosidad 80%
+Sensación Térmica 26 °C
+Visibilidad 18 km
+Viento - Medio 6 km/h
+Presión 1003 hPa
+Niebla No
+Viento - Rachas 14 km/h
 Cota Nieve 4700 m
-07:00 23° Nubes y claros
-Sensación T. 27° Noreste 7 - 14 km/h
+07:00 23° Parcialmente nuboso
+Sensación T. 27° Noreste 4 - 13 km/h
 0 Bajo FPS: No
 Lluvia 20% 0 mm
 Humedad 96%
-Punto de rocío 23 °C
-Nubosidad 29%
+Punto de rocío 22 °C
+Nubosidad 66%
 Sensación Térmica 27 °C
 Visibilidad 20 km
-Viento - Medio 7 km/h
+Viento - Medio 4 km/h
 Presión 1004 hPa
 Niebla No
-Viento - Rachas 14 km/h
-Cota Nieve 4600 m
-08:00 24° Nubes y claros
-Sensación T. 28° Noreste 6 - 16 km/h
+Viento - Rachas 13 km/h
+Cota Nieve 4800 m
+08:00 24° Parcialmente nuboso
+Sensación T. 27° Sureste 8 - 18 km/h
 1 Bajo FPS: No
-08:00 24° Nubes y claros
-Sensación T. 28° Noreste 6 - 16 km/h
+08:00 24° Cubierto
+Sensación T. 27° Sureste 8 - 18 km/h
 1 Bajo FPS: No
 Lluvia 20% 0 mm
 Humedad 92%
-Punto de rocío 23 °C
-Nubosidad 33%
-Sensación Térmica 28 °C
-Visibilidad 25 km
-Viento - Medio 6 km/h
-Presión 1005 hPa
-Niebla No
-Viento - Rachas 16 km/h
-Cota Nieve 4700 m
-09:00 26° Nubes y claros
-Sensación T. 30° Noreste 7 - 18 km/h
-4 Medio FPS: 6-10
-Lluvia 20% 0 mm
-Humedad 83%
-Punto de rocío 23 °C
-Nubosidad 32%
-Sensación Térmica 30 °C
-Visibilidad 30 km
-Viento - Medio 7 km/h
+Punto de rocío 22 °C
+Nubosidad 88%
+Sensación Térmica 27 °C
+Visibilidad 20 km
+Viento - Medio 8 km/h
 Presión 1005 hPa
 Niebla No
 Viento - Rachas 18 km/h
 Cota Nieve 4700 m
-10:00 28° Nubes y claros
-Sensación T. 31° Norte 11 - 26 km/h
-6 Alto FPS: 15-25
+09:00 25° Cubierto
+Sensación T. 28° Sureste 10 - 23 km/h
+2 Bajo FPS: No
 Lluvia 20% 0 mm
-Humedad 75%
-Punto de rocío 23 °C
-Nubosidad 32%
-Sensación Térmica 31 °C
+Humedad 84%
+Punto de rocío 22 °C
+Nubosidad 99%
+Sensación Térmica 28 °C
+Visibilidad 25 km
+Viento - Medio 10 km/h
+Presión 1006 hPa
+Niebla No
+Viento - Rachas 23 km/h
+Cota Nieve 4600 m
+10:00 26° Parcialmente nuboso
+Sensación T. 30° Noreste 6 - 23 km/h
+6 Alto FPS: 15-25
+Lluvia 10% 0 mm
+Humedad 79%
+Punto de rocío 22 °C
+Nubosidad 68%
+Sensación Térmica 30 °C
 Visibilidad 35 km
-Viento - Medio 11 km/h
+Viento - Medio 6 km/h
+Presión 1006 hPa
+Niebla No
+Viento - Rachas 23 km/h
+Cota Nieve 4600 m
+11:00 29° Parcialmente nuboso
+Sensación T. 32° Norte 10 - 27 km/h
+9 ¡Muy Alto! FPS: 25-50
+11:00 29° Cubierto
+Sensación T. 32° Norte 10 - 27 km/h
+9 ¡Muy Alto! FPS: 25-50
+Lluvia 10% 0 mm
+Humedad 69%
+Punto de rocío 22 °C
+Nubosidad 63%
+Sensación Térmica 32 °C
+Visibilidad 40 km
+Viento - Medio 10 km/h
 Presión 1005 hPa
 Niebla No
-Viento - Rachas 26 km/h
-Cota Nieve 4700 m
-11:00 30° Parcialmente nuboso
-Sensación T. 33° Norte 11 - 28 km/h
-8 ¡Muy Alto! FPS: 25-50
-11:00 30% 0.2 mm 30° Tormenta
-Sensación T. 33° Norte 11 - 28 km/h
-8 ¡Muy Alto! FPS: 25-50
+Viento - Rachas 27 km/h
+Cota Nieve 4600 m
+12:00 30° Cubierto
+Sensación T. 35° Oeste 2 - 24 km/h
+6 Alto FPS: 15-25
 Lluvia 20% 0 mm
 Humedad 67%
 Punto de rocío 23 °C
-Nubosidad 70%
-Sensación Térmica 33 °C
-Visibilidad 40 km
-Viento - Medio 11 km/h
+Nubosidad 100%
+Sensación Térmica 35 °C
+Visibilidad 30 km
+Viento - Medio 2 km/h
 Presión 1005 hPa
 Niebla No
-Viento - Rachas 28 km/h
-Cota Nieve 4700 m
-12:00 30% 0.2 mm 29° Tormenta
-Sensación T. 33° Noroeste 7 - 26 km/h
-8 ¡Muy Alto! FPS: 25-50
-Lluvia 30% 0.2 mm
-Humedad 70%
-Punto de rocío 23 °C
-Nubosidad 92%
-Sensación Térmica 33 °C
-Visibilidad 9 km
-Viento - Medio 7 km/h
-Presión 1005 hPa
-Niebla No
-Viento - Rachas 26 km/h
-Cota Nieve 4700 m
-13:00 30% 0.6 mm 29° Tormenta
-Sensación T. 34° Noroeste 3 - 19 km/h
-11+ ¡Extremo! FPS: 50+
-Lluvia 30% 0.6 mm
-Humedad 73%
-Punto de rocío 24 °C
-Nubosidad 62%
-Sensación Térmica 34 °C
-Visibilidad 9 km
-Viento - Medio 3 km/h
-Presión 1005 hPa
-Niebla No
-Viento - Rachas 19 km/h
+Viento - Rachas 24 km/h
 Cota Nieve 4800 m
-14:00 30% 0.4 mm 27° Tormenta
-Sensación T. 31° Sur 9 - 23 km/h
-9 ¡Muy Alto! FPS: 25-50
-14:00 30% 1.2 mm 27° Tormenta
-Sensación T. 31° Sur 9 - 23 km/h
-9 ¡Muy Alto! FPS: 25-50
-Lluvia 30% 0.4 mm
-Humedad 80%
+13:00 30° Parcialmente nuboso
+Sensación T. 34° Suroeste 4 - 17 km/h
+8 ¡Muy Alto! FPS: 25-50
+Lluvia 20% 0 mm
+Humedad 66%
 Punto de rocío 23 °C
-Nubosidad 68%
-Sensación Térmica 31 °C
-Visibilidad 4 km
-Viento - Medio 9 km/h
+Nubosidad 91%
+Sensación Térmica 34 °C
+Visibilidad 30 km
+Viento - Medio 4 km/h
 Presión 1004 hPa
 Niebla No
-Viento - Rachas 23 km/h
+Viento - Rachas 17 km/h
 Cota Nieve 4700 m
-15:00 30% 0.2 mm 28° Lluvia débil
-Sensación T. 33° Sureste 3 - 22 km/h
+14:00 31° Parcialmente nuboso
+Sensación T. 34° Suroeste 7 - 20 km/h
 8 ¡Muy Alto! FPS: 25-50
-Lluvia 30% 0.2 mm
-Humedad 76%
-Punto de rocío 24 °C
-Nubosidad 24%
-Sensación Térmica 33 °C
-Visibilidad 18 km
-Viento - Medio 3 km/h
-Presión 1003 hPa
-Niebla No
-Viento - Rachas 22 km/h
-Cota Nieve 4700 m
-16:00 30% 0.1 mm 29° Lluvia débil
-Sensación T. 34° Sureste 6 - 19 km/h
-4 Medio FPS: 6-10
-Lluvia 30% 0.1 mm
-Humedad 71%
-Punto de rocío 24 °C
-Nubosidad 36%
-Sensación Térmica 34 °C
-Visibilidad 8 km
-Viento - Medio 6 km/h
-Presión 1003 hPa
-Niebla No
-Viento - Rachas 19 km/h
-Cota Nieve 4800 m
-17:00 30% 0.1 mm 29° Lluvia débil
-Sensación T. 33° Este 7 - 21 km/h
-2 Bajo FPS: No
-17:00 30% 0.2 mm 29° Lluvia débil
-Sensación T. 33° Este 7 - 21 km/h
-2 Bajo FPS: No
-Lluvia 30% 0.1 mm
-Humedad 72%
-Punto de rocío 24 °C
-Nubosidad 23%
-Sensación Térmica 33 °C
-Visibilidad 14 km
-Viento - Medio 7 km/h
-Presión 1003 hPa
-Niebla No
-Viento - Rachas 21 km/h
-Cota Nieve 4700 m
-18:00 28° Nubes y claros
-Sensación T. 32° Noreste 9 - 20 km/h
-1 Bajo FPS: No
-Lluvia 10% 0 mm
-Humedad 74%
+14:00 31° Parcialmente nuboso
+Sensación T. 34° Suroeste 7 - 20 km/h
+8 ¡Muy Alto! FPS: 25-50
+Lluvia 20% 0 mm
+Humedad 64%
 Punto de rocío 23 °C
-Nubosidad 38%
-Sensación Térmica 32 °C
-Visibilidad 12 km
-Viento - Medio 9 km/h
+Nubosidad 74%
+Sensación Térmica 34 °C
+Visibilidad 40 km
+Viento - Medio 7 km/h
 Presión 1003 hPa
 Niebla No
 Viento - Rachas 20 km/h
 Cota Nieve 4700 m
+15:00 30° Nubes y claros
+Sensación T. 33° Sur 9 - 25 km/h
+7 Alto FPS: 15-25
+Lluvia 20% 0 mm
+Humedad 65%
+Punto de rocío 23 °C
+Nubosidad 54%
+Sensación Térmica 33 °C
+Visibilidad 12 km
+Viento - Medio 9 km/h
+Presión 1003 hPa
+Niebla No
+Viento - Rachas 25 km/h
+Cota Nieve 4700 m
+16:00 30% 0.2 mm 30° Lluvia débil
+Sensación T. 33° Sureste 9 - 24 km/h
+4 Medio FPS: 6-10
+Lluvia 30% 0.2 mm
+Humedad 67%
+Punto de rocío 23 °C
+Nubosidad 52%
+Sensación Térmica 33 °C
+Visibilidad 25 km
+Viento - Medio 9 km/h
+Presión 1003 hPa
+Niebla No
+Viento - Rachas 24 km/h
+Cota Nieve 4900 m
+17:00 30% 0.3 mm 29° Tormenta
+Sensación T. 33° Este 6 - 22 km/h
+2 Bajo FPS: No
+17:00 30% 0.6 mm 29° Tormenta
+Sensación T. 33° Este 6 - 22 km/h
+2 Bajo FPS: No
+Lluvia 30% 0.3 mm
+Humedad 74%
+Punto de rocío 23 °C
+Nubosidad 46%
+Sensación Térmica 33 °C
+Visibilidad 10 km
+Viento - Medio 6 km/h
+Presión 1003 hPa
+Niebla No
+Viento - Rachas 22 km/h
+Cota Nieve 4800 m
+18:00 30% 0.1 mm 28° Lluvia débil
+Sensación T. 33° Este 2 - 15 km/h
+1 Bajo FPS: No
+Lluvia 30% 0.1 mm
+Humedad 78%
+Punto de rocío 24 °C
+Nubosidad 41%
+Sensación Térmica 33 °C
+Visibilidad 18 km
+Viento - Medio 2 km/h
+Presión 1003 hPa
+Niebla No
+Viento - Rachas 15 km/h
+Cota Nieve 4700 m
 19:00 27° Nubes y claros
-Sensación T. 32° Noreste 4 - 18 km/h
+Sensación T. 32° Sureste 4 - 9 km/h
 0 Bajo FPS: No
 Lluvia 10% 0 mm
-Humedad 83%
-Punto de rocío 24 °C
-Nubosidad 27%
-Sensación Térmica 32 °C
-Visibilidad 30 km
-Viento - Medio 4 km/h
-Presión 1004 hPa
-Niebla No
-Viento - Rachas 18 km/h
-Cota Nieve 4700 m
-20:00 26° Nubes y claros
-Sensación T. 31° Este 3 - 8 km/h
-0 Bajo FPS: No
-20:00 26° Nubes y claros
-Sensación T. 31° Este 3 - 8 km/h
-0 Bajo FPS: No
-Lluvia 0% 0 mm
 Humedad 87%
-Punto de rocío 24 °C
-Nubosidad 30%
-Sensación Térmica 31 °C
-Visibilidad 30 km
-Viento - Medio 3 km/h
-Presión 1004 hPa
-Niebla No
-Viento - Rachas 8 km/h
-Cota Nieve 4600 m
-21:00 26° Nubes y claros
-Sensación T. 31° Sureste 4 - 8 km/h
-0 Bajo FPS: No
-Lluvia 0% 0 mm
-Humedad 89%
-Punto de rocío 24 °C
-Nubosidad 20%
-Sensación Térmica 31 °C
+Punto de rocío 25 °C
+Nubosidad 14%
+Sensación Térmica 32 °C
 Visibilidad 25 km
 Viento - Medio 4 km/h
-Presión 1004 hPa
+Presión 1003 hPa
 Niebla No
-Viento - Rachas 8 km/h
-Cota Nieve 4500 m
-22:00 25° Nubes y claros
-Sensación T. 30° Este 4 - 8 km/h
+Viento - Rachas 9 km/h
+Cota Nieve 4700 m
+20:00 26° Cielo despejado
+Sensación T. 31° Este 5 - 9 km/h
+0 Bajo FPS: No
+20:00 26° Nubes y claros
+Sensación T. 31° Este 5 - 9 km/h
 0 Bajo FPS: No
 Lluvia 0% 0 mm
-Humedad 92%
+Humedad 90%
 Punto de rocío 24 °C
-Nubosidad 14%
+Nubosidad 2%
+Sensación Térmica 31 °C
+Visibilidad 25 km
+Viento - Medio 5 km/h
+Presión 1004 hPa
+Niebla No
+Viento - Rachas 9 km/h
+Cota Nieve 4600 m
+21:00 26° Cielo despejado
+Sensación T. 31° Este 5 - 11 km/h
+0 Bajo FPS: No
+Lluvia 0% 0 mm
+Humedad 90%
+Punto de rocío 24 °C
+Nubosidad 2%
+Sensación Térmica 31 °C
+Visibilidad 25 km
+Viento - Medio 5 km/h
+Presión 1004 hPa
+Niebla No
+Viento - Rachas 11 km/h
+Cota Nieve 4700 m
+22:00 25° Cielo despejado
+Sensación T. 30° Este 5 - 11 km/h
+0 Bajo FPS: No
+Lluvia 0% 0 mm
+Humedad 91%
+Punto de rocío 24 °C
+Nubosidad 9%
 Sensación Térmica 30 °C
 Visibilidad 25 km
-Viento - Medio 4 km/h
+Viento - Medio 5 km/h
 Presión 1005 hPa
 Niebla No
-Viento - Rachas 8 km/h
+Viento - Rachas 11 km/h
 Cota Nieve 4700 m
-23:00 25° Cielo despejado
+23:00 25° Nubes y claros
 Sensación T. 30° Este 4 - 9 km/h
 0 Bajo FPS: No
 23:00 25° Nubes y claros
 Sensación T. 30° Este 4 - 9 km/h
 0 Bajo FPS: No
 Lluvia 0% 0 mm
-Humedad 93%
+Humedad 92%
 Punto de rocío 24 °C
-Nubosidad 6%
+Nubosidad 30%
 Sensación Térmica 30 °C
 Visibilidad 25 km
 Viento - Medio 4 km/h
@@ -1118,25 +1118,25 @@ Niebla No
 Viento - Rachas 9 km/h
 Cota Nieve 4700 m
 24:00 25° Nubes y claros
-Sensación T. 30° Noreste 1 - 6 km/h
+Sensación T. 30° Este 2 - 8 km/h
 0 Bajo FPS: No
-Lluvia 0% 0 mm
-Humedad 94%
-Punto de rocío 23 °C
-Nubosidad 22%
+Lluvia 10% 0 mm
+Humedad 92%
+Punto de rocío 24 °C
+Nubosidad 24%
 Sensación Térmica 30 °C
 Visibilidad 25 km
-Viento - Medio 1 km/h
+Viento - Medio 2 km/h
 Presión 1005 hPa
 Niebla No
-Viento - Rachas 6 km/h
+Viento - Rachas 8 km/h
 Cota Nieve 4600 m
 Noticias
 Últimas noticias
-Violentos temporales en Argentina con granizo, tornados y destrozos: así sigue el tiempo este fin de semana de alerta
-Se viene una semana de calor, humedad y lluvias en CABA y el GBA: qué día hay tormentas y cuándo se despeja
-El río Paraná sigue creciendo y complica al Litoral: más de 4.500 evacuados y alerta por nuevas subas
-Calor extremo, cortes de luz y hospitales al límite: el riesgo de que El Niño pueda desencadenar una crisis en cadena
+Aumenta la frecuencia de lluvias entre el lunes 16 y el viernes 20, con picos de +180 mm en estas regiones
+1998 KY26: el pequeño asteroide que gira cada 5 minutos y al que la sonda Hayabusa2 llegará en 2031
+La primavera se parte en dos: Argentina espera más lluvias y un fuerte contraste térmico del 16 al 23 de noviembre
+EE.UU. suspendió todos sus vuelos durante 4 horas: una falla expuso tecnología de los años 80 en un sistema crítico
 Descarga Gratis App Android meteored.com.ar
 Descarga Gratis App iOS meteored.com.ar
 Descarga Gratis App Huawei meteored.com.ar

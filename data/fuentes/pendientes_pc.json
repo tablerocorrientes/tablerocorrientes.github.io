@@ -1,3 +1,14 @@
 {
- "pendientes": []
+ "pendientes": [
+  {
+   "url": "https://news.agrofy.com.ar/pronostico-clima-tiempo/corrientes/corrientes",
+   "desde": "15/11/2026, 18:29 h",
+   "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "url": "https://www.smn.gob.ar/pronostico/?loc=7054",
+   "desde": "15/11/2026, 18:29 h",
+   "error": "HTTP Error 429: Too Many Requests"
+  }
+ ]
 }
