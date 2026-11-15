@@ -1,0 +1,22 @@
+TAREA F, ALERTAS DEL SMN DESDE LA COMPUTADORA DEL AUTOR (cada 2 horas, solo si la computadora está encendida)
+
+Propósito: el sitio del SMN rechaza las consultas que llegan desde servidores en la nube, pero responde a una conexión común de Corrientes. Esta tarea usa la computadora del autor para leer las alertas del SMN de primera mano y dejarlas en el repositorio. Si la computadora está apagada o no responde, la tarea termina sin escribir nada y sin notificar: el tablero sigue funcionando con el COE.
+
+REGLAS
+- Repositorio: tablerocorrientes/tablerocorrientes.github.io, rama main. Esta tarea SOLO escribe data/fuentes/smn_alertas_local.json. No modificar ningún otro archivo (las alertas del tablero las actualizan las tareas A, B, D y E).
+- Escritura por git, sin clave, desde la nube de la sesión (no desde la computadora del autor): git clone --depth 1 https://github.com/tablerocorrientes/tablerocorrientes.github.io /tmp/sitio , guardar el archivo en UTF-8 con indent=1 y ensure_ascii=False, git add, git -c user.name="Tablero Ciudadano" -c user.email="tablerocorrientes@gmail.com" commit -m "Tarea F: alertas del SMN, <fecha y hora>" y git push origin HEAD:main. Si el push es rechazado: git pull --rebase origin main y push una vez más.
+- En la computadora del autor: solo leer páginas del SMN. No crear, modificar ni borrar archivos allí, no instalar nada y no abrir otros sitios.
+- Fuente única: Servicio Meteorológico Nacional. No inventar, no completar datos faltantes. Fechas en formato "dd/mm/aaaa, hh:mm h" (hora de Argentina).
+
+PASOS
+1. Comprobar que la computadora del autor responde. Si no responde, terminar con la línea "Computadora no disponible: sin lectura del SMN" (sin notificar).
+2. Leer las alertas del SMN para la provincia de Corrientes, en este orden:
+   a. En el navegador de la computadora del autor: abrir https://www.smn.gob.ar/alertas y leer el texto de la página (alertas por tormentas, lluvias, vientos, etc. y avisos a muy corto plazo), quedándose con lo que alcance a la provincia de Corrientes (departamentos o zonas de Corrientes). Si la página muestra un mapa con selección por provincia, elegir Corrientes.
+   b. Si el navegador no está disponible: desde la terminal de esa computadora, descargar https://www.smn.gob.ar/alertas y https://www.smn.gob.ar/alertas-corto-plazo (solo lectura) y extraer el texto.
+3. Escribir data/fuentes/smn_alertas_local.json:
+   {"consultado": "<hora de esta lectura>", "consultado_iso": "<ISO 8601 con -03:00>", "fuente": "Servicio Meteorológico Nacional (www.smn.gob.ar/alertas), leído desde una conexión de Corrientes",
+    "resultado": "con alertas" | "sin alertas para Corrientes" | "página sin respuesta",
+    "alertas": [{"tipo": "alerta" o "aviso a muy corto plazo", "nivel": "amarillo" | "naranja" | "rojo", "fenomeno", "zonas" (departamentos o zonas de Corrientes, como figuran), "desde", "hasta", "emision", "texto" (lo que dice el SMN, breve)}],
+    "texto_pagina": "<texto relevante de la página, máximo 4000 caracteres>"}
+   Si la página no respondió, escribir igual "consultado" y "resultado": "página sin respuesta", con "alertas": [].
+4. INFORME en 2 líneas: resultado y alertas para Corrientes encontradas (nivel, fenómeno, zonas, vigencia); archivo confirmado con git ls-remote origin main.
