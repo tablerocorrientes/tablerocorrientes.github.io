@@ -1,6 +1,6 @@
 {
- "consultado": "15/11/2026, 00:25 h",
- "consultado_iso": "2026-11-15T00:25-03:00",
+ "consultado": "15/11/2026, 00:34 h",
+ "consultado_iso": "2026-11-15T00:34-03:00",
  "paginas": {
   "smn_alertas": {
    "url": "https://www.smn.gob.ar/alertas",
@@ -134,20 +134,6 @@
    "estado": 200,
    "caracteres": 1993,
    "archivo": "data/fuentes/coe_a_2026_0071_AT.txt"
-  }
- },
- "pedidas": {
-  "https://www.infobae.com/sociedad/2026/11/13/el-nino-diez-ciudades-del-litoral-continuan-con-el-agua-en-niveles-de-evacuacion-y-son-mas-de-4500-las-personas-afectadas/": {
-   "url": "https://www.infobae.com/sociedad/2026/11/13/el-nino-diez-ciudades-del-litoral-continuan-con-el-agua-en-niveles-de-evacuacion-y-son-mas-de-4500-las-personas-afectadas/",
-   "estado": 200,
-   "caracteres": 10000,
-   "archivo": "data/fuentes/web/infobae_com_sociedad_2026_11_13_el_nino_diez_ciudades_del_litoral_continuan_con_el_agua_en.txt"
-  },
-  "https://infogoya.com/coe-goya-rio-97-familias-autoevacuadas/": {
-   "url": "https://infogoya.com/coe-goya-rio-97-familias-autoevacuadas/",
-   "estado": 200,
-   "caracteres": 2980,
-   "archivo": "data/fuentes/web/infogoya_com_coe_goya_rio_97_familias_autoevacuadas.txt"
   }
  }
 }
