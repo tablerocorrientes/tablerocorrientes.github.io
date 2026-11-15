@@ -29,6 +29,9 @@
   '#tc-inst h2{margin:0 0 6px;font-size:1.15rem;letter-spacing:.02em}#tc-inst p{margin:0 0 10px;font-size:.9rem;line-height:1.4}'+
   '#tc-inst .b{display:flex;gap:8px;flex-wrap:wrap}#tc-inst button{font:800 .9rem Archivo,system-ui,sans-serif;border:0;border-radius:999px;padding:10px 16px;cursor:pointer}'+
   '#tc-inst .si{background:#fff;color:#0c3f52}#tc-inst .no{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.6)}'+
+  '.tc-clamp{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}'+
+  '.tc-more{display:inline-block;border:0;background:none;color:#1f6f8b;font:800 .8rem Archivo,system-ui,sans-serif;padding:2px 0 6px;cursor:pointer}'+
+  '#tc-reset{position:fixed;right:12px;bottom:calc(14px + env(safe-area-inset-bottom,0px));z-index:60;border:0;border-radius:999px;padding:11px 16px;background:#0c3f52;color:#fff;font:800 .88rem Archivo,system-ui,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.3);cursor:pointer}#tc-reset[hidden]{display:none}'+
   '#tc-inst{margin:8px 12px!important;padding:8px!important}'+
   '#tc-inst .tc-blink{cursor:pointer;list-style:none;display:flex;gap:10px;align-items:center;background:linear-gradient(90deg,#ff9f1c,#ffcf4a);color:#2a1600;border-radius:14px;padding:10px 12px;animation:tcPulso 1.6s ease-in-out infinite}'+
   '#tc-inst .tc-blink b{display:block;font-size:.92rem;letter-spacing:.02em}#tc-inst .tc-blink small{display:block;font-size:.78rem;opacity:1}'+
@@ -163,10 +166,20 @@
     return fetch('/data/lugares.json').then(function(r){return r.json();}).then(function(d){return [d.barrios||[],d.localidades||[]];}).catch(function(){return [[],[]];});
   }
   document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('.tc-go-rep');if(!a)return;var r=document.getElementById('tc-rep');if(!r)return;e.preventDefault();var c=r.closest('[hidden]');while(c){c.hidden=false;c=c.parentElement&&c.parentElement.closest('[hidden]');}r.scrollIntoView({behavior:'smooth',block:'start'});var b=document.getElementById('tc-abrir');if(b&&b.offsetParent!==null)setTimeout(function(){b.click();},400);});
+  /* textos resumidos con "Ver más" y botón para volver al estado inicial */
+  var abiertos=0;
+  function resetVis(){var b=document.getElementById('tc-reset');if(!b){b=document.createElement('button');b.id='tc-reset';b.type='button';b.textContent='↺ Cerrar todo';document.body.appendChild(b);
+      b.onclick=function(){[].forEach.call(document.querySelectorAll('details[data-ini]'),function(d){d.open=d.dataset.ini==='1';d.removeAttribute('data-ini');});
+        [].forEach.call(document.querySelectorAll('.tc-clamp-off'),function(p){p.classList.remove('tc-clamp-off');p.classList.add('tc-clamp');var m=p.nextElementSibling;if(m&&m.className==='tc-more')m.textContent='Ver más ▾';});resetVis();};}
+    b.hidden=!(document.querySelector('details[data-ini]')||document.querySelector('.tc-clamp-off'));}
+  document.addEventListener('click',function(e){var sm=e.target.closest&&e.target.closest('summary');if(!sm)return;var d=sm.parentElement;if(!d||d.tagName!=='DETAILS'||d.id==='tc-inst-d')return;if(!d.hasAttribute('data-ini'))d.dataset.ini=d.open?'1':'0';setTimeout(function(){if(d.dataset.ini===(d.open?'1':'0'))d.removeAttribute('data-ini');resetVis();},30);},true);
+  function resumir(){[].forEach.call(document.querySelectorAll('p.s'),function(p){if(p.dataset.cl||p.closest('summary,#tc-rep,#tc-inst,.zbox'))return;var tx=(p.textContent||'').trim();if(tx.length<170)return;
+    p.dataset.cl='1';p.classList.add('tc-clamp');var m=document.createElement('button');m.type='button';m.className='tc-more';m.textContent='Ver más ▾';p.parentNode.insertBefore(m,p.nextSibling);
+    m.onclick=function(){var off=p.classList.toggle('tc-clamp');p.classList.toggle('tc-clamp-off',!off);m.textContent=off?'Ver más ▾':'Ver menos ▴';resetVis();};});}
   /* 5. Arranque */
   function iniciar(){
     estilo();menu();
-    guiaInicial();window.addEventListener('hashchange',function(){if(location.hash==='#instalar')aviso(true);});var ib=document.getElementById('tc-inst-btn');if(ib){ib.hidden=false;ib.onclick=function(){aviso(true);};}
+    guiaInicial();resumir();resetVis();setTimeout(resumir,1500);setTimeout(resumir,4000);window.addEventListener('hashchange',function(){if(location.hash==='#instalar')aviso(true);});var ib=document.getElementById('tc-inst-btn');if(ib){ib.hidden=false;ib.onclick=function(){aviso(true);};}
     if(esIOS||inApp)aviso(false);
     cargarDatos().then(ejecutarPagina).then(function(){
       return Promise.all([fetch('/data/config.json',{cache:'no-cache'}).then(function(r){return r.json();}).catch(function(){return {};}),listas()]);
