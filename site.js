@@ -29,6 +29,13 @@
   '#tc-inst h2{margin:0 0 6px;font-size:1.15rem;letter-spacing:.02em}#tc-inst p{margin:0 0 10px;font-size:.9rem;line-height:1.4}'+
   '#tc-inst .b{display:flex;gap:8px;flex-wrap:wrap}#tc-inst button{font:800 .9rem Archivo,system-ui,sans-serif;border:0;border-radius:999px;padding:10px 16px;cursor:pointer}'+
   '#tc-inst .si{background:#fff;color:#0c3f52}#tc-inst .no{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.6)}'+
+  '#tc-inst{margin:8px 12px!important;padding:8px!important}'+
+  '#tc-inst .tc-blink{cursor:pointer;list-style:none;display:flex;gap:10px;align-items:center;background:linear-gradient(90deg,#ff9f1c,#ffcf4a);color:#2a1600;border-radius:14px;padding:10px 12px;animation:tcPulso 1.6s ease-in-out infinite}'+
+  '#tc-inst .tc-blink b{display:block;font-size:.92rem;letter-spacing:.02em}#tc-inst .tc-blink small{display:block;font-size:.78rem;opacity:1}'+
+  '#tc-inst .tc-blink .ic{font-size:1.8rem;line-height:1;animation:tcTit 1s steps(2,start) infinite}#tc-inst .tc-blink .fl{margin-left:auto;font-weight:900;font-size:1.4rem}'+
+  '#tc-inst-d[open] .tc-blink{animation:none}#tc-inst-d[open] .tc-blink .fl{transform:rotate(90deg)}'+
+  '@keyframes tcPulso{0%,100%{box-shadow:0 0 0 0 rgba(255,159,28,.85);filter:brightness(1)}50%{box-shadow:0 0 0 8px rgba(255,159,28,0);filter:brightness(1.12)}}'+
+  '@keyframes tcTit{to{visibility:hidden}}'+
   '#tc-inst .tc-dev .si{display:block;width:100%;box-sizing:border-box;margin:6px 0 2px;background:#0c3f52;color:#fff}#tc-inst .tc-msg{font-size:.8rem;color:#13262d;margin:4px 0 0}#tc-inst .tc-msg:empty{display:none}'+
   '#tc-inst-d{background:transparent!important;border:0!important;padding:0!important;margin:0!important;box-shadow:none!important;color:#fff}#tc-inst .tc-dev{color:#13262d}#tc-inst .tc-dev p{color:#4a5b61;font-size:.8rem;margin:0 0 4px}#tc-inst summary::-webkit-details-marker{display:none}#tc-inst small{opacity:.9}#tc-inst .si{margin-top:4px}'+
   '#tc-inst ol{margin:6px 0 10px;padding-left:20px;font-size:.88rem;line-height:1.5}'+
@@ -87,19 +94,18 @@
       var BT={and:'📥 Instalar ahora en Android',ios:'📤 Abrir "Compartir" para agregar a inicio',win:'📥 Instalar ahora en la computadora',fb:'🌐 Abrir en el navegador'};
       var mio=inApp?'fb':esIOS?'ios':esAnd?'and':(esWin||esMac)?'win':'and';
       var orden=[mio].concat(['and','ios','win','fb'].filter(function(k){return k!==mio;}));
-      g.innerHTML='<details id="tc-inst-d"><summary style="cursor:pointer;list-style:none;display:flex;gap:10px;align-items:center"><span style="font-size:1.9rem;line-height:1">📲</span><span><b style="display:block;font-size:1.02rem">Instale el tablero en su celular o computadora</b><small>Gratis, sin tienda de aplicaciones y sin datos personales. Toque aquí para ver el paso a paso.</small></span><span style="margin-left:auto;font-weight:900">›</span></summary>'+
+      g.innerHTML='<details id="tc-inst-d"><summary class="tc-blink"><span class="ic">📲</span><span><b>INSTALE EL TABLERO EN SU CELULAR O COMPUTADORA</b><small>Gratis, sin tienda de aplicaciones. Toque aquí y siga el paso a paso.</small></span><span class="fl">›</span></summary>'+
         '<div id="tc-inst-ya" style="margin:10px 0 0"></div>'+
         orden.map(function(k,i){return '<details class="tc-dev"'+(i===0?' open':'')+' style="margin-top:8px;border:1px solid #c9d8de;border-radius:12px;padding:8px 10px;background:#fff"><summary style="cursor:pointer;font-weight:800">'+P[k][0]+(i===0?' <small style="font-weight:600;color:#2f9e5b">(su dispositivo)</small>':'')+'</summary>'+P[k][1]+'<button class="si tc-act" type="button" data-k="'+k+'">'+BT[k]+'</button><p class="tc-msg" role="status"></p></details>';}).join('')+
-        '<p class="s" style="margin-top:8px">Una vez instalado, se abre con un toque como cualquier aplicación y se actualiza solo.</p><button class="no" id="tc-no" type="button">Ocultar por ahora</button></details>';
+        '<p class="s" style="margin-top:8px">Una vez instalado, se abre con un toque como cualquier aplicación y se actualiza solo.</p></details>';
       var nav=document.getElementById('tc-nav');nav.parentNode.insertBefore(g,nav.nextSibling);
       [].forEach.call(g.querySelectorAll('.tc-act'),function(b){b.onclick=function(){accion(b.dataset.k,b.nextElementSibling);};});
-      document.getElementById('tc-no').onclick=function(){try{localStorage.setItem('tc-inst-no2',String(Date.now()));}catch(e){}g.remove();};
     }
     var ya=document.getElementById('tc-inst-ya');
-    if(ya&&dPrompt&&!esIOS&&!inApp&&!ya.firstChild){ya.innerHTML='<button class="si" id="tc-si" type="button">Instalar ahora en este dispositivo</button>';document.getElementById('tc-si').onclick=function(){dPrompt.prompt();dPrompt.userChoice.then(function(c){if(c&&c.outcome==='accepted')g.remove();});};}
+    if(ya&&dPrompt&&!esIOS&&!inApp&&!ya.firstChild){ya.innerHTML='<button class="si" id="tc-si" type="button">Instalar ahora en este dispositivo</button>';document.getElementById('tc-si').onclick=function(){dPrompt.prompt();dPrompt.userChoice.then(function(c){});};}
     if(forzar){document.getElementById('tc-inst-d').open=true;g.scrollIntoView({behavior:'smooth',block:'start'});}
   }
-  function guiaInicial(){if(instalada)return;if(location.hash==='#instalar'){aviso(true);return;}if(!ocultadoReciente())aviso(false);}
+  function guiaInicial(){aviso(location.hash==='#instalar');}
   window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();dPrompt=e;if(document.getElementById('tc-inst'))aviso(false);});
   window.addEventListener('appinstalled',function(){instalada=true;var d=document.getElementById('tc-inst');if(d)d.remove();});
   /* 4. Reportes ciudadanos */
