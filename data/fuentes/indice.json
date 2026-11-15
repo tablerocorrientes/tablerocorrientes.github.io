@@ -1,6 +1,6 @@
 {
- "consultado": "15/11/2026, 18:29 h",
- "consultado_iso": "2026-11-15T18:29-03:00",
+ "consultado": "15/11/2026, 19:48 h",
+ "consultado_iso": "2026-11-15T19:48-03:00",
  "paginas": {
   "smn_alertas": {
    "url": "https://www.smn.gob.ar/alertas",
@@ -39,7 +39,7 @@
   "rioparana_alturas": {
    "url": "https://www.rioparana.com.ar",
    "estado": 200,
-   "caracteres": 11268,
+   "caracteres": 11270,
    "archivo": "data/fuentes/rioparana_alturas.txt"
   },
   "prefectura_alturas": {
@@ -50,7 +50,7 @@
   "lanacion_clima_corrientes": {
    "url": "https://www.lanacion.com.ar/clima/corrientes/",
    "estado": 200,
-   "caracteres": 8033,
+   "caracteres": 8169,
    "archivo": "data/fuentes/lanacion_clima_corrientes.txt"
   },
   "noaa_enso": {
@@ -130,27 +130,131 @@
   }
  },
  "pedidas": {
-  "https://api.open-meteo.com/v1/forecast?latitude=-27.47,-29.14,-30.01,-28.51,-29.18,-29.79,-29.71,-28.55,-28.05,-27.59,-30.25,-28.25&longitude=-58.83,-59.26,-59.53,-59.04,-58.08,-58.05,-57.09,-56.04,-56.02,-56.69,-57.64,-58.62&hourly=precipitation,precipitation_probability&timezone=America/Argentina/Buenos_Aires&forecast_days=7": {
-   "url": "https://api.open-meteo.com/v1/forecast?latitude=-27.47,-29.14,-30.01,-28.51,-29.18,-29.79,-29.71,-28.55,-28.05,-27.59,-30.25,-28.25&longitude=-58.83,-59.26,-59.53,-59.04,-58.08,-58.05,-57.09,-56.04,-56.02,-56.69,-57.64,-58.62&hourly=precipitation,precipitation_probability&timezone=America/Argentina/Buenos_Aires&forecast_days=7",
-   "estado": 200,
-   "caracteres": 58322,
-   "archivo": "data/fuentes/web/api_open_meteo_com_v1_forecast_latitude_27_47_29_14_30_01_28_51_29_18_29_79_29_71_28_55_28.txt"
+  "https://www.nortecorrientes.com/207157-%C2%A0en-repudio-al-aumento-del-10-docentes-inician-un-plan-de-lucha-con-movilizaciones": {
+   "url": "https://www.nortecorrientes.com/207157-%C2%A0en-repudio-al-aumento-del-10-docentes-inician-un-plan-de-lucha-con-movilizaciones",
+   "estado": "error",
+   "detalle": "HTTP Error 404: NOT FOUND"
   },
-  "https://www.meteored.com.ar/tiempo-en_Corrientes-America+Sur-Argentina-Corrientes-SARC-horas-16886.html": {
-   "url": "https://www.meteored.com.ar/tiempo-en_Corrientes-America+Sur-Argentina-Corrientes-SARC-horas-16886.html",
-   "estado": 200,
-   "caracteres": 23453,
-   "archivo": "data/fuentes/web/meteored_com_ar_tiempo_en_Corrientes_America_Sur_Argentina_Corrientes_SARC_horas_16886_htm.txt"
-  },
-  "https://news.agrofy.com.ar/pronostico-clima-tiempo/corrientes/corrientes": {
-   "url": "https://news.agrofy.com.ar/pronostico-clima-tiempo/corrientes/corrientes",
+  "https://www.nortecorrientes.com/207148-docentes-denuncian-precarizacion-y-perdida-de-puestos-de-trabajo": {
+   "url": "https://www.nortecorrientes.com/207148-docentes-denuncian-precarizacion-y-perdida-de-puestos-de-trabajo",
    "estado": "error",
    "detalle": "HTTP Error 429: Too Many Requests"
   },
-  "https://www.smn.gob.ar/pronostico/?loc=7054": {
-   "url": "https://www.smn.gob.ar/pronostico/?loc=7054",
+  "https://www.nortecorrientes.com/207160-alerta-de-yacyreta-advierten-que-seguira-la-creciente-del-parana-en-noviembre": {
+   "url": "https://www.nortecorrientes.com/207160-alerta-de-yacyreta-advierten-que-seguira-la-creciente-del-parana-en-noviembre",
    "estado": "error",
    "detalle": "HTTP Error 429: Too Many Requests"
+  },
+  "https://www.diarioepoca.com/1393782-el-intendente-polich-pidio-adherir-a-la-emergencia-hidrica": {
+   "url": "https://www.diarioepoca.com/1393782-el-intendente-polich-pidio-adherir-a-la-emergencia-hidrica",
+   "estado": "error",
+   "detalle": "HTTP Error 429: Too Many Requests"
+  },
+  "https://www.diarioepoca.com/1394817-polich-convoco-a-artistas-locales-para-imprimirle-identidad-correntina-al-escenario-urbano": {
+   "url": "https://www.diarioepoca.com/1394817-polich-convoco-a-artistas-locales-para-imprimirle-identidad-correntina-al-escenario-urbano",
+   "estado": "error",
+   "detalle": "HTTP Error 429: Too Many Requests"
+  },
+  "https://www.diarioepoca.com/1394359-un-nuevo-modelo-para-el-teatro-de-la-ciudad-mas-acceso-y-participacion-cultural": {
+   "url": "https://www.diarioepoca.com/1394359-un-nuevo-modelo-para-el-teatro-de-la-ciudad-mas-acceso-y-participacion-cultural",
+   "estado": "error",
+   "detalle": "HTTP Error 429: Too Many Requests"
+  },
+  "https://www.diarioepoca.com/1393741-polich-superviso-obra-de-600-metros-de-nuevos-desagues-pluviales": {
+   "url": "https://www.diarioepoca.com/1393741-polich-superviso-obra-de-600-metros-de-nuevos-desagues-pluviales",
+   "estado": "error",
+   "detalle": "HTTP Error 429: Too Many Requests"
+  },
+  "https://www.diarioepoca.com/1394439-jp-valdes-y-polich-destacaron-el-impacto-de-la-megaobra-de-desague-concluida-sobre-el-pirayui": {
+   "url": "https://www.diarioepoca.com/1394439-jp-valdes-y-polich-destacaron-el-impacto-de-la-megaobra-de-desague-concluida-sobre-el-pirayui",
+   "estado": "error",
+   "detalle": "HTTP Error 429: Too Many Requests"
+  },
+  "https://www.diarioepoca.com/1395200-el-chamame-espera-y-la-fiesta-nacional-guarda-silencio": {
+   "url": "https://www.diarioepoca.com/1395200-el-chamame-espera-y-la-fiesta-nacional-guarda-silencio",
+   "estado": "error",
+   "detalle": "HTTP Error 429: Too Many Requests"
+  },
+  "https://munired.mcypcorrientes.gob.ar/noticia/valdes-inauguro-el-nuevo-centro-de-atencion-ambulatoria-del-instituto-de-cardiologia": {
+   "url": "https://munired.mcypcorrientes.gob.ar/noticia/valdes-inauguro-el-nuevo-centro-de-atencion-ambulatoria-del-instituto-de-cardiologia",
+   "estado": 200,
+   "caracteres": 3882,
+   "archivo": "data/fuentes/web/munired_mcypcorrientes_gob_ar_noticia_valdes_inauguro_el_nuevo_centro_de_atencion_ambulato.txt"
+  },
+  "https://munired.mcypcorrientes.gob.ar/noticia/el-gobierno-desplego-un-masivo-operativo-integral-en-el-barrio-santa-marta": {
+   "url": "https://munired.mcypcorrientes.gob.ar/noticia/el-gobierno-desplego-un-masivo-operativo-integral-en-el-barrio-santa-marta",
+   "estado": 200,
+   "caracteres": 3209,
+   "archivo": "data/fuentes/web/munired_mcypcorrientes_gob_ar_noticia_el_gobierno_desplego_un_masivo_operativo_integral_en.txt"
+  },
+  "https://munired.mcypcorrientes.gob.ar/noticia/valdes-superviso-el-avance-de-la-pavimentacion-de-la-ruta-provincial-126": {
+   "url": "https://munired.mcypcorrientes.gob.ar/noticia/valdes-superviso-el-avance-de-la-pavimentacion-de-la-ruta-provincial-126",
+   "estado": 200,
+   "caracteres": 3025,
+   "archivo": "data/fuentes/web/munired_mcypcorrientes_gob_ar_noticia_valdes_superviso_el_avance_de_la_pavimentacion_de_la.txt"
+  },
+  "https://munired.mcypcorrientes.gob.ar/noticia/valdes-y-polich-supervisaron-obras-hidricas-en-la-capital": {
+   "url": "https://munired.mcypcorrientes.gob.ar/noticia/valdes-y-polich-supervisaron-obras-hidricas-en-la-capital",
+   "estado": 200,
+   "caracteres": 3474,
+   "archivo": "data/fuentes/web/munired_mcypcorrientes_gob_ar_noticia_valdes_y_polich_supervisaron_obras_hidricas_en_la_ca.txt"
+  },
+  "https://munired.mcypcorrientes.gob.ar/noticia/salud-publica-insta-a-completar-esquemas-de-vacunas-del-calendario-y-la-antigripal-para-grupos-de-riesgo-6": {
+   "url": "https://munired.mcypcorrientes.gob.ar/noticia/salud-publica-insta-a-completar-esquemas-de-vacunas-del-calendario-y-la-antigripal-para-grupos-de-riesgo-6",
+   "estado": 200,
+   "caracteres": 2138,
+   "archivo": "data/fuentes/web/munired_mcypcorrientes_gob_ar_noticia_salud_publica_insta_a_completar_esquemas_de_vacunas_.txt"
+  },
+  "https://www.radiodos.com.ar/217137-el-coprodis-intensifica-su-labor-con-capacitaciones-entrega-de-insumos-y-asistencia-ante-las-inundaciones": {
+   "url": "https://www.radiodos.com.ar/217137-el-coprodis-intensifica-su-labor-con-capacitaciones-entrega-de-insumos-y-asistencia-ante-las-inundaciones",
+   "estado": "error",
+   "detalle": "HTTP Error 429: Too Many Requests"
+  },
+  "https://perfil.com/nea/el-gobernador-de-corrientes-tras-el-acto-con-el-papa-leon-xiv-recibimos-su-mensaje-de-unidad-aENoE1K6Pg12": {
+   "url": "https://perfil.com/nea/el-gobernador-de-corrientes-tras-el-acto-con-el-papa-leon-xiv-recibimos-su-mensaje-de-unidad-aENoE1K6Pg12",
+   "estado": 200,
+   "caracteres": 5119,
+   "archivo": "data/fuentes/web/perfil_com_nea_el_gobernador_de_corrientes_tras_el_acto_con_el_papa_leon_xiv_recibimos_su_.txt"
+  },
+  "https://www.perfil.com/noticias/nea/los-sindicatos-docentes-correntinos-rechazaron-el-aumento-del-gobierno-y-exigen-paritarias.phtml": {
+   "url": "https://www.perfil.com/noticias/nea/los-sindicatos-docentes-correntinos-rechazaron-el-aumento-del-gobierno-y-exigen-paritarias.phtml",
+   "estado": 200,
+   "caracteres": 6834,
+   "archivo": "data/fuentes/web/perfil_com_noticias_nea_los_sindicatos_docentes_correntinos_rechazaron_el_aumento_del_gobi.txt"
+  },
+  "https://www.ellitoral.com.ar": {
+   "url": "https://www.ellitoral.com.ar",
+   "estado": 200,
+   "caracteres": 17614,
+   "archivo": "data/fuentes/web/ellitoral_com_ar.txt"
+  },
+  "https://www.diarioellibertador.com.ar": {
+   "url": "https://www.diarioellibertador.com.ar",
+   "estado": 200,
+   "caracteres": 5996,
+   "archivo": "data/fuentes/web/diarioellibertador_com_ar.txt"
+  },
+  "https://www.radiosudamericana.com": {
+   "url": "https://www.radiosudamericana.com",
+   "estado": 200,
+   "caracteres": 17506,
+   "archivo": "data/fuentes/web/radiosudamericana_com.txt"
+  },
+  "https://ciudaddecorrientes.gov.ar/noticias": {
+   "url": "https://ciudaddecorrientes.gov.ar/noticias",
+   "estado": "error",
+   "detalle": "HTTP Error 429: Too Many Requests"
+  },
+  "https://www.corrientes.gob.ar/prensa": {
+   "url": "https://www.corrientes.gob.ar/prensa",
+   "estado": "error",
+   "detalle": "HTTP Error 429: Too Many Requests"
+  },
+  "https://www.perfil.com/noticias/nea/claudio-polich-anuncio-la-compra-de-un-camion-desobstructor-para-los-desagues-de-corrientes.phtml": {
+   "url": "https://www.perfil.com/noticias/nea/claudio-polich-anuncio-la-compra-de-un-camion-desobstructor-para-los-desagues-de-corrientes.phtml",
+   "estado": 200,
+   "caracteres": 4889,
+   "archivo": "data/fuentes/web/perfil_com_noticias_nea_claudio_polich_anuncio_la_compra_de_un_camion_desobstructor_para_l.txt"
   }
  },
  "portales": {
