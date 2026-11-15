@@ -94,6 +94,20 @@
  ],
  "partes_oficiales": [
   {
+   "fecha": "14/11/2026, 09:46 h",
+   "organismo": "COE de Corrientes (aviso del Servicio Meteorológico Nacional)",
+   "resumen": "Alerta amarilla por tormentas 2026-0072-AT, en curso desde el domingo 15/11 a las 00:00 h hasta las 07:00 h, para General Alvear, Ituzaingó, Paso de los Libres, San Martín, San Miguel y Santo Tomé. Se esperan tormentas de variada intensidad, algunas fuertes, con granizo ocasional, actividad eléctrica frecuente y entre 30 y 70 mm, que pueden ser superados en forma localizada. No incluye a la Capital.",
+   "enlace": "https://coe.corrientes.gob.ar/a/2026-0072-AT",
+   "breve": "Alerta amarilla por tormentas hasta las 07 h del 15/11 en el este de la provincia (30 a 70 mm). No incluye a la Capital."
+  },
+  {
+   "fecha": "14/11/2026, 13:46 h",
+   "organismo": "COE de Corrientes (aviso del Servicio Meteorológico Nacional)",
+   "resumen": "Alerta amarilla por tormentas 2026-0073-AT, desde el sábado 14/11 a las 14:00 h hasta las 22:00 h, para Berón de Astrada, Capital, Empedrado, General Paz, Itatí, Ituzaingó, Mburucuyá, Saladas, San Cosme, San Luis del Palmar y San Miguel, con 30 a 70 mm que pueden ser superados en forma localizada. Ya venció.",
+   "enlace": "https://coe.corrientes.gob.ar/a/2026-0073-AT",
+   "breve": "Alerta amarilla por tormentas para la Capital y el noroeste el 14/11 de 14 a 22 h (30 a 70 mm). Ya venció."
+  },
+  {
    "fecha": "14/11/2026, 06:59 h",
    "organismo": "COE de Corrientes (aviso del Servicio Meteorológico Nacional)",
    "resumen": "Alerta amarilla por tormentas 2026-0070-AT, en curso desde el sábado 14/11 a las 06:57 h hasta las 12:00 h, para Bella Vista, Concepción, Curuzú Cuatiá, Esquina, Goya, Ituzaingó, Lavalle, Mercedes, San Miguel, San Roque y Sauce. Se esperan tormentas de variada intensidad, algunas fuertes, con granizo ocasional, actividad eléctrica frecuente y entre 30 y 70 mm, que pueden ser superados en forma localizada.",
@@ -1348,9 +1362,9 @@
  "alertas": [],
  "alertas_fecha": "14/11/2026, 09:12 h",
  "eby_resumen_anteriores": "Entre el 24/10 y el 3/11 la EBY informó caudales de hasta unos 34.500 m³/s, el doble de lo habitual (octubre fue el mes más caudaloso de la serie 1971-2025), con Ituzaingó por encima de 4 m. El paso Ituzaingó–Ayolas estuvo cerrado desde el 12/10 y reabrió el 7/11. La EBY advirtió que El Niño podría extenderse hasta los primeros meses de 2027.",
- "nota_breve": "Paraná en Corrientes: 6,68 m y en bajante, sobre la alerta (6,50 m) y bajo la evacuación (7,00 m). Hoy rige alerta naranja por tormentas para la Capital hasta las 12 h.",
+ "nota_breve": "Paraná en Corrientes: 6,68 m (14/11) y en bajante, sobre la alerta (6,50 m) y bajo la evacuación (7,00 m). Sin alerta por tormentas para la Capital.",
  "uruguay_breve": "Paso de los Libres: 7,98 m, sobre la alerta (7,50 m); el INA prevé que oscile 2 o 3 días y luego baje. Santo Tomé y Garruchos bajan.",
- "tapon_breve": "Rige alerta naranja por tormentas para la Capital hasta las 12 h (80 a 120 mm). Con el río alto, una lluvia fuerte puede superar la capacidad de los desagües.",
- "consultado": "14/11/2026, 18:31 h",
+ "tapon_breve": "Sin alerta para la Capital desde las 22 h del 14/11. Con el río alto, una lluvia fuerte puede superar la capacidad de los desagües.",
+ "consultado": "15/11/2026, 00:23 h",
  "consulta_resultado": "sin cambios"
 }

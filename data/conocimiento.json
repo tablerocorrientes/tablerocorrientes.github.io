@@ -1,14 +1,42 @@
 {
- "actualizado": "14/11/2026, 18:31 h",
+ "actualizado": "15/11/2026, 00:23 h",
  "explicacion": "Cada actualización suma registros: barrios afectados con la altura del río o la lluvia de ese día, obras terminadas, reportes de vecinos verificados y la comparación entre lo pronosticado y lo que ocurrió. Con esa comparación se detectan desvíos y se proponen ajustes a los cálculos, que revisa el autor del tablero.",
  "contadores": {
   "barrios_documentados": 49,
   "obras": 0,
   "reportes_verificados": 0,
   "comparaciones_rio": 0,
-  "comparaciones_lluvia": 2
+  "comparaciones_lluvia": 4
  },
  "aprendizajes": [
+  {
+   "fecha": "15/11/2026",
+   "tipo": "evacuacion",
+   "lugar": "Paso de la Patria",
+   "dato": "Barrios Don Julián, La Isla y Pescadores con familias evacuadas por la crecida; 228 personas fuera de sus casas al 13/11, con el Paraná en Corrientes en 6,72 m.",
+   "fuente": "Agencia Federal de Emergencias (Infobae) y La Nación"
+  },
+  {
+   "fecha": "15/11/2026",
+   "tipo": "evacuacion",
+   "lugar": "Corrientes Capital",
+   "dato": "Barrios ribereños Las Tomateras, Caridi, Bajo Caridi, El Cichero, Punta Taitalo, Tatay y Plácido Martínez con familias autoevacuadas; 690 vecinos con casas anegadas al 13/11, con el río en 6,72 m.",
+   "fuente": "Agencia Federal de Emergencias (Infobae) y Municipalidad de Corrientes"
+  },
+  {
+   "fecha": "15/11/2026",
+   "tipo": "evacuacion",
+   "lugar": "Goya",
+   "dato": "97 familias autoevacuadas el 10/11 con el Paraná en Goya en 5,95 m.",
+   "fuente": "COE de Goya (InfoGoya)"
+  },
+  {
+   "fecha": "15/11/2026",
+   "tipo": "lluvia",
+   "lugar": "Corrientes Capital",
+   "dato": "El 14/11 la Capital midió 8,2 mm en 24 horas (indicador compuesto), frente a 80 a 120 mm posibles según la alerta naranja y 2,1 mm de la estimación del tablero.",
+   "fuente": "SNIH, datos crudos sin validar"
+  },
   {
    "fecha": "14/11/2026",
    "tipo": "lluvia",
@@ -62,6 +90,18 @@
  "verificaciones": {
   "rio": [],
   "lluvia": [
+   {
+    "fecha": "2026-11-14",
+    "localidad": "Corrientes Capital",
+    "pronosticado_mm": 2.1,
+    "medido_mm": 8.2
+   },
+   {
+    "fecha": "2026-11-14",
+    "localidad": "Mercedes",
+    "pronosticado_mm": 0.1,
+    "medido_mm": 0
+   },
    {
     "fecha": "2026-11-13",
     "localidad": "Mercedes",

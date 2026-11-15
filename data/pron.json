@@ -3,7 +3,7 @@
  "metodo": "estimación derivada de modelos y del parte del SMN",
  "estado_alertas": "VERIFICADO_CON_ALERTAS",
  "estado_verificado": {
-  "fecha": "14/11/2026, 23:26 h",
+  "fecha": "15/11/2026, 00:14 h",
   "fuente": "COE de Corrientes"
  },
  "met_archivo": {
@@ -504,7 +504,7 @@
   ]
  },
  "horario_act": "14/11/2026, 09:12 h",
- "consultado": "14/11/2026, 23:26 h",
+ "consultado": "15/11/2026, 00:23 h",
  "consulta_resultado": "sin cambios",
  "extendido": {
   "actualizado": "14/11/2026, 23:09 h",
@@ -1251,6 +1251,45 @@
       "tmax": 29
      }
     ]
+   }
+  },
+  "fiabilidad": {
+   "actualizado": "15/11/2026, 00:23 h",
+   "umbral": 0.7,
+   "n_min": 20,
+   "ventana_dias": 30,
+   "criterio": "acierto: coinciden llovió (1 mm o más) y lluvia pronosticada (40 % o más)",
+   "por_horizonte": {
+    "1": {
+     "n": 0,
+     "aciertos": 0,
+     "tasa": null,
+     "habilitado": false
+    },
+    "2": {
+     "n": 0,
+     "aciertos": 0,
+     "tasa": null,
+     "habilitado": false
+    },
+    "3": {
+     "n": 0,
+     "aciertos": 0,
+     "tasa": null,
+     "habilitado": false
+    },
+    "4": {
+     "n": 0,
+     "aciertos": 0,
+     "tasa": null,
+     "habilitado": false
+    },
+    "5": {
+     "n": 0,
+     "aciertos": 0,
+     "tasa": null,
+     "habilitado": false
+    }
    }
   }
  }

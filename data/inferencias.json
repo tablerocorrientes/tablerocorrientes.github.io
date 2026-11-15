@@ -1,5 +1,5 @@
 {
- "actualizado": "14/11/2026, 19:05 h",
+ "actualizado": "15/11/2026, 00:23 h",
  "aviso": "Inferencias propias del tablero, elaboradas con procesamiento lógico a partir de sus registros y de fuentes oficiales. No son avisos oficiales: ante una emergencia, siga las indicaciones de Defensa Civil y del SMN.",
  "vigentes": [
   {
@@ -60,9 +60,42 @@
    "horizonte": "próximas semanas",
    "ambito": "global",
    "localidad": "Provincia"
+  },
+  {
+   "id": "evacuados-sin-regreso",
+   "tema": "🏘️ Barrios",
+   "titulo": "Aunque el río baja, las familias evacuadas todavía no vuelven a sus casas",
+   "texto": "Al 13/11 seguían fuera de sus casas unas 1.650 personas en cuatro localidades: Capital (690), Itatí (518), Paso de la Patria (228) e Isla Apipé (211). El Paraná baja unos 4 cm por día en la Capital, pero sigue sobre la alerta (6,68 m) y el INA anticipa posibles lluvias en la cuenca hacia fines de noviembre. Por eso es probable que el regreso sea lento y que las autoridades pidan esperar, como ya ocurrió en Isla Apipé.",
+   "base": [
+    "Agencia Federal de Emergencias, cifras del 13/11 (Infobae)",
+    "Prefectura Naval Argentina, Corrientes 6,68 m el 14/11",
+    "INA, informe diario del 13/11",
+    "Intendente de Isla Apipé (El Monterizo, 11/11)"
+   ],
+   "confianza": "media",
+   "horizonte": "próximas semanas",
+   "ambito": "global",
+   "localidad": "Provincia de Corrientes"
   }
  ],
  "historial": [
+  {
+   "id": "evacuados-sin-regreso",
+   "tema": "🏘️ Barrios",
+   "titulo": "Aunque el río baja, las familias evacuadas todavía no vuelven a sus casas",
+   "texto": "Al 13/11 seguían fuera de sus casas unas 1.650 personas en cuatro localidades: Capital (690), Itatí (518), Paso de la Patria (228) e Isla Apipé (211). El Paraná baja unos 4 cm por día en la Capital, pero sigue sobre la alerta (6,68 m) y el INA anticipa posibles lluvias en la cuenca hacia fines de noviembre. Por eso es probable que el regreso sea lento y que las autoridades pidan esperar, como ya ocurrió en Isla Apipé.",
+   "base": [
+    "Agencia Federal de Emergencias, cifras del 13/11 (Infobae)",
+    "Prefectura Naval Argentina, Corrientes 6,68 m el 14/11",
+    "INA, informe diario del 13/11",
+    "Intendente de Isla Apipé (El Monterizo, 11/11)"
+   ],
+   "confianza": "media",
+   "horizonte": "próximas semanas",
+   "ambito": "global",
+   "localidad": "Provincia de Corrientes",
+   "fecha": "15/11/2026"
+  },
   {
    "id": "rio-parana-bajante",
    "tema": "🌊 Río Paraná",
