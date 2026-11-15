@@ -1,6 +1,11 @@
 name: Fuentes oficiales de alertas (SMN y COE)
 on:
   workflow_dispatch:
+    inputs:
+      urls:
+        description: 'Direcciones de páginas a descargar, separadas por espacios'
+        required: false
+        default: ''
 permissions:
   contents: write
 concurrency:
@@ -15,6 +20,8 @@ jobs:
         with:
           fetch-depth: 1
       - name: Descargar y publicar
+        env:
+          URLS: ${{ github.event.inputs.urls }}
         run: |
           git config user.name "Tablero Ciudadano"
           git config user.email "tablerocorrientes@gmail.com"

@@ -45,6 +45,12 @@ urls = {
     'smn_alertas': 'https://www.smn.gob.ar/alertas',
     'smn_alertas_corto_plazo': 'https://www.smn.gob.ar/alertas-corto-plazo',
     'coe_inicio': 'https://coe.corrientes.gob.ar/',
+    # Ríos y pronóstico publicados por organismos y medios autorizados
+    'ina_reporte_diario': 'https://alerta.ina.gob.ar/a5/diario/reporte_diario',
+    'rioparana_alturas': 'https://www.rioparana.com.ar',
+    'prefectura_alturas': 'https://contenidosweb.prefecturanaval.gob.ar/alturas/',
+    'lanacion_clima_corrientes': 'https://www.lanacion.com.ar/clima/corrientes/',
+    'noaa_enso': 'https://cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc_Sp.html',
     # Datos abiertos y servicios de datos del SMN (pensados para consultas automáticas)
     'smn_datos_alertas': 'https://ws.smn.gob.ar/alerts/type/AL',
     'smn_datos_avisos_cp': 'https://ws.smn.gob.ar/alerts/type/AC',
@@ -75,6 +81,7 @@ for nombre, url in urls.items():
         if nombre == 'coe_inicio':
             enl = sorted(set('https://coe.corrientes.gob.ar' + x if x.startswith('/') else x
                              for x in re.findall(r'href="((?:https://coe\.corrientes\.gob\.ar)?/a/[^"#?]+)"', h)))
+            enl.sort(reverse=True)
             r['enlaces'] = enl[:80]
         open(os.path.join(OUT, nombre + '.txt'), 'w', encoding='utf-8').write(
             'Fuente: ' + url + '\nConsultado: ' + indice['consultado'] + '\n\n' + t)
@@ -100,5 +107,25 @@ for u in [x for x in indice['paginas'].get('coe_inicio', {}).get('enlaces', []) 
         r.update(estado='error', detalle=str(e)[:200])
     indice['paginas'][nombre] = r
     print(nombre, r.get('estado'))
+
+# Páginas pedidas por la tarea que disparó la corrida (notas de prensa, partes municipales, etc.)
+pedidas = [u for u in re.split(r'\s+', os.environ.get('URLS', '').strip()) if u.startswith('http')][:25]
+if pedidas:
+    WEB = os.path.join(OUT, 'web')
+    os.makedirs(WEB, exist_ok=True)
+    indice['pedidas'] = {}
+    for u in pedidas:
+        nombre = re.sub(r'[^A-Za-z0-9]+', '_', re.sub(r'^https?://(www\.)?', '', u)).strip('_')[:90]
+        r = {'url': u}
+        try:
+            st, h = bajar(u)
+            t = h[:60000] if h.lstrip()[:1] in '[{' else texto(h)
+            open(os.path.join(WEB, nombre + '.txt'), 'w', encoding='utf-8').write(
+                'Fuente: ' + u + '\nConsultado: ' + indice['consultado'] + '\n\n' + t)
+            r.update(estado=st, caracteres=len(t), archivo='data/fuentes/web/' + nombre + '.txt')
+        except Exception as e:
+            r.update(estado='error', detalle=str(e)[:200])
+        indice['pedidas'][u] = r
+        print('pedida', u, r.get('estado'))
 
 json.dump(indice, open(os.path.join(OUT, 'indice.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
