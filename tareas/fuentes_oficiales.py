@@ -183,4 +183,18 @@ if pedidas:
         indice['pedidas'][u] = r
         print('pedida', u, r.get('estado'))
 
+# Notas que no se pudieron descargar: quedan pendientes para que la tarea F las lea desde la PC del autor
+if pedidas:
+    pp = os.path.join(OUT, 'pendientes_pc.json')
+    try:
+        pend = json.load(open(pp, encoding='utf-8'))
+    except Exception:
+        pend = {'pendientes': []}
+    ya = {x['url'] for x in pend['pendientes']}
+    for u, r in indice['pedidas'].items():
+        if r.get('estado') != 200 and u not in ya:
+            pend['pendientes'].append({'url': u, 'desde': indice['consultado'], 'error': r.get('detalle', '')})
+    pend['pendientes'] = pend['pendientes'][-60:]
+    json.dump(pend, open(pp, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+
 json.dump(indice, open(os.path.join(OUT, 'indice.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
