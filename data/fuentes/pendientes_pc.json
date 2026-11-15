@@ -59,6 +59,11 @@
    "url": "https://www.corrientes.gob.ar/",
    "desde": "15/11/2026, 08:54 h",
    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "url": "https://www.lt7noticias.com/75347-corrientes-el-concejo-aprobo-la-tarifaria-y-el-presupuesto-2026-en-sesion-extraordinaria",
+   "desde": "15/11/2026, 08:56 h",
+   "error": "HTTP Error 404: NOT FOUND"
   }
  ]
 }

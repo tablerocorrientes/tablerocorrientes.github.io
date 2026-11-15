@@ -1,6 +1,6 @@
 {
- "consultado": "15/11/2026, 08:54 h",
- "consultado_iso": "2026-11-15T08:54-03:00",
+ "consultado": "15/11/2026, 08:56 h",
+ "consultado_iso": "2026-11-15T08:56-03:00",
  "paginas": {
   "smn_alertas": {
    "url": "https://www.smn.gob.ar/alertas",
@@ -130,47 +130,28 @@
   }
  },
  "pedidas": {
-  "https://ciudaddecorrientes.gov.ar/noticias": {
-   "url": "https://ciudaddecorrientes.gov.ar/noticias",
-   "estado": "error",
-   "detalle": "HTTP Error 429: Too Many Requests"
-  },
-  "https://www.corrientes.gob.ar/": {
-   "url": "https://www.corrientes.gob.ar/",
-   "estado": "error",
-   "detalle": "HTTP Error 429: Too Many Requests"
-  },
-  "https://www.diarioepoca.com/": {
-   "url": "https://www.diarioepoca.com/",
-   "estado": "error",
-   "detalle": "HTTP Error 429: Too Many Requests"
-  },
-  "https://www.radiodos.com.ar/217046-el-aumento-del-10-para-estatales-de-corrientes-sera-desde-diciembre-e-impactara-en-el-aguinaldo": {
-   "url": "https://www.radiodos.com.ar/217046-el-aumento-del-10-para-estatales-de-corrientes-sera-desde-diciembre-e-impactara-en-el-aguinaldo",
-   "estado": "error",
-   "detalle": "HTTP Error 429: Too Many Requests"
-  },
-  "https://www.corrienteshoy.com/economia/el-llamado-a-licitacion-al-transporte-publico-en-corrientes-demandara-todo-el-2026.htm": {
-   "url": "https://www.corrienteshoy.com/economia/el-llamado-a-licitacion-al-transporte-publico-en-corrientes-demandara-todo-el-2026.htm",
-   "estado": "error",
-   "detalle": "HTTP Error 429: Too Many Requests"
-  },
-  "https://nuevamiradacorrientes.com/news/suspensiones-corrientes-licita-colectivos-en-medio-de-un-sistema-en-conflicto": {
-   "url": "https://nuevamiradacorrientes.com/news/suspensiones-corrientes-licita-colectivos-en-medio-de-un-sistema-en-conflicto",
-   "estado": "error",
-   "detalle": "HTTP Error 429: Too Many Requests"
-  },
-  "https://radiobellavista.com/zonas-calidas-corrientes-ya-aplica-el-subsidio-del-50-en-la-tarifa-electrica-y-35-mil-usuarios-aun-deben-inscribirse/": {
-   "url": "https://radiobellavista.com/zonas-calidas-corrientes-ya-aplica-el-subsidio-del-50-en-la-tarifa-electrica-y-35-mil-usuarios-aun-deben-inscribirse/",
+  "https://examedia.com.ar/portada/post/88226997": {
+   "url": "https://examedia.com.ar/portada/post/88226997",
    "estado": 200,
-   "caracteres": 8436,
-   "archivo": "data/fuentes/web/radiobellavista_com_zonas_calidas_corrientes_ya_aplica_el_subsidio_del_50_en_la_tarifa_ele.txt"
+   "caracteres": 5419,
+   "archivo": "data/fuentes/web/examedia_com_ar_portada_post_88226997.txt"
   },
-  "https://concejocorrientes.gob.ar/taquigraficas/2026/16-04-2026.pdf": {
-   "url": "https://concejocorrientes.gob.ar/taquigraficas/2026/16-04-2026.pdf",
+  "https://examedia.com.ar/portada/post/88223780": {
+   "url": "https://examedia.com.ar/portada/post/88223780",
    "estado": 200,
-   "caracteres": 60000,
-   "archivo": "data/fuentes/web/concejocorrientes_gob_ar_taquigraficas_2026_16_04_2026_pdf.txt"
+   "caracteres": 7402,
+   "archivo": "data/fuentes/web/examedia_com_ar_portada_post_88223780.txt"
+  },
+  "https://examedia.com.ar/portada/post/88145959": {
+   "url": "https://examedia.com.ar/portada/post/88145959",
+   "estado": 200,
+   "caracteres": 5613,
+   "archivo": "data/fuentes/web/examedia_com_ar_portada_post_88145959.txt"
+  },
+  "https://www.lt7noticias.com/75347-corrientes-el-concejo-aprobo-la-tarifaria-y-el-presupuesto-2026-en-sesion-extraordinaria": {
+   "url": "https://www.lt7noticias.com/75347-corrientes-el-concejo-aprobo-la-tarifaria-y-el-presupuesto-2026-en-sesion-extraordinaria",
+   "estado": "error",
+   "detalle": "HTTP Error 404: NOT FOUND"
   }
  }
 }
