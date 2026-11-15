@@ -949,7 +949,7 @@ else{$('pron').innerHTML='<p class="s">Sin pronóstico cargado.</p>';}
       +PR.map(function(q){return '<div style="margin-top:8px;font-size:.86rem;line-height:1.4"><b>'+esc(q.organismo)+'</b> <span style="color:var(--ink2);font-size:.76rem">('+esc(q.fecha)+')</span><br>'+esc(q.breve)+(q.url?' <a href="'+esc(q.url)+'" target="_blank" rel="noopener">fuente</a>':'')+'</div>';}).join('')
       +'<div style="margin-top:8px"><a href="#capNin" style="font-weight:800;color:var(--water);text-decoration:none">Ver el análisis completo de El Niño ›</a></div></div>';}
   box.innerHTML=html;
-  var q=$('zq');if(q)q.addEventListener('input',function(){var v=q.value.trim().toLowerCase();[].forEach.call(document.querySelectorAll('#zl details'),function(d){var m=!v||d.getAttribute('data-q').indexOf(v)>=0;d.style.display=m?'':'none';if(v&&m)d.open=true;if(!v)d.open=false;});});
+  var q=$('zq');if(q)q.addEventListener('input',function(){var v=q.value.trim().toLowerCase();[].forEach.call(document.querySelectorAll('#zl > details'),function(d){var m=!v||(d.getAttribute('data-q')||'').indexOf(v)>=0;d.style.display=m?'':'none';if(v&&m)d.open=true;if(!v)d.open=false;});});
 })();
 /* indicadores clave: gráficos */
 (function(){var box=$('kpiG');if(!box)return;var HD=null;try{HD=JSON.parse(document.getElementById('hist-data').textContent);}catch(e){}
