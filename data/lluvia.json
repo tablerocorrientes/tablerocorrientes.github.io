@@ -1,5 +1,5 @@
 {
- "actualizado": "15/11/2026, 19:07 h",
+ "actualizado": "15/11/2026, 19:09 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
@@ -95,11 +95,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0.25,
-   "ultimo": "0 mm a las 18 h"
+   "ultimo": "0 mm a las 19 h"
   },
   {
    "localidad": "Garruchos",
@@ -673,11 +673,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 18 h"
+   "ultimo": "0 mm a las 19 h"
   },
   {
    "localidad": "Gobernador Virasoro",
@@ -775,11 +775,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 18 h"
+   "ultimo": "0 mm a las 19 h"
   },
   {
    "localidad": "Mercedes",
@@ -1115,11 +1115,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 18 h"
+   "ultimo": "0 mm a las 19 h"
   },
   {
    "localidad": "Pueblo Libertador",
@@ -1183,11 +1183,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 18 h"
+   "ultimo": "0 mm a las 19 h"
   },
   {
    "localidad": "Mburucuyá",
@@ -1557,11 +1557,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 18 h"
+   "ultimo": "0 mm a las 19 h"
   },
   {
    "localidad": "El Sombrerito",
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "15/11/2026, 19:07 h",
+ "consultado": "15/11/2026, 19:09 h",
  "consulta_resultado": "datos nuevos"
 }
