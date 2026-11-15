@@ -29,6 +29,31 @@
    "url": "https://www.diarioepoca.com/",
    "desde": "15/11/2026, 08:50 h",
    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "url": "https://www.radiodos.com.ar/217046-el-aumento-del-10-para-estatales-de-corrientes-sera-desde-diciembre-e-impactara-en-el-aguinaldo",
+   "desde": "15/11/2026, 08:51 h",
+   "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "url": "https://www.corrienteshoy.com/economia/el-llamado-a-licitacion-al-transporte-publico-en-corrientes-demandara-todo-el-2026.htm",
+   "desde": "15/11/2026, 08:51 h",
+   "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "url": "https://nuevamiradacorrientes.com/news/suspensiones-corrientes-licita-colectivos-en-medio-de-un-sistema-en-conflicto",
+   "desde": "15/11/2026, 08:51 h",
+   "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "url": "https://www.corrienteshoy.com/policiales/mega-operativo-en-corrientes-secuestraron-30-motos-stunt.htm",
+   "desde": "15/11/2026, 08:51 h",
+   "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "url": "https://www.radiodos.com.ar/t14067-recoleccion-de-residuos",
+   "desde": "15/11/2026, 08:51 h",
+   "error": "HTTP Error 429: Too Many Requests"
   }
  ]
 }
