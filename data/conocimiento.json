@@ -1,5 +1,5 @@
 {
- "actualizado": "15/11/2026, 00:51 h",
+ "actualizado": "15/11/2026, 03:14 h",
  "explicacion": "Cada actualización suma registros: barrios afectados con la altura del río o la lluvia de ese día, obras terminadas, reportes de vecinos verificados y la comparación entre lo pronosticado y lo que ocurrió. Con esa comparación se detectan desvíos y se proponen ajustes a los cálculos, que revisa el autor del tablero.",
  "contadores": {
   "barrios_documentados": 87,
@@ -9,6 +9,13 @@
   "comparaciones_lluvia": 4
  },
  "aprendizajes": [
+  {
+   "fecha": "15/11/2026",
+   "tipo": "alerta",
+   "lugar": "Este de Corrientes",
+   "dato": "El SMN no mantiene alertas para Corrientes el domingo 15/11; la alerta amarilla por tormentas 2026-0072-AT (00:00 a 07:00 h) ya no figura en su mapa.",
+   "fuente": "SMN"
+  },
   {
    "fecha": "15/11/2026",
    "tipo": "evacuacion",

@@ -1,8 +1,8 @@
 {
- "estado_alertas": "VERIFICADO_CON_ALERTAS",
+ "estado_alertas": "VERIFICADO_SIN_ALERTAS",
  "estado_verificado": {
-  "fecha": "15/11/2026, 01:17 h",
-  "fuente": "COE de Corrientes: no hay alertas vigentes para la Capital. Rige una alerta amarilla por tormentas para el este de la provincia (General Alvear, Ituzaingó, Paso de los Libres, San Martín, San Miguel y Santo Tomé) el domingo 15/11 entre las 00:00 y las 07:00 h, con 30 a 70 mm."
+  "fecha": "15/11/2026, 02:43 h",
+  "fuente": "SMN: sin alertas ni avisos a muy corto plazo para la provincia de Corrientes el domingo 15/11 (mapa de alertas emitido el 14/11 a las 18:06 h)."
  },
  "met_archivo": {
   "nombre": "vigilancia_meteorologica_20261113_183508.json",
@@ -1224,28 +1224,5 @@
   ]
  },
  "pron_actualizado": "14/11/2026, 18:31 h",
- "smn": [
-  {
-   "id_oficial": "2026-0072-AT",
-   "tipo": "alerta",
-   "aviso": "Alerta amarilla por tormentas (COE 2026-0072-AT)",
-   "nivel": "amarillo",
-   "fenomeno": "tormentas",
-   "rango_mm": [
-    30,
-    70
-   ],
-   "zonas": "General Alvear, Ituzaingó, Paso de los Libres, San Martín, San Miguel y Santo Tomé",
-   "desde": "15/11/2026, 00:00 h",
-   "hasta": "15/11/2026, 07:00 h",
-   "desde_iso": "2026-11-15T00:00:00-03:00",
-   "hasta_iso": "2026-11-15T07:00:00-03:00",
-   "emision": "14/11/2026, 09:46 h",
-   "emision_iso": "2026-11-14T09:46:00-03:00",
-   "incluye_corrientes": true,
-   "incluye_capital": false,
-   "url": "https://coe.corrientes.gob.ar/a/2026-0072-AT",
-   "origen": "Servicio Meteorológico Nacional, difundido por el COE de Corrientes"
-  }
- ]
+ "smn": []
 }

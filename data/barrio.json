@@ -1048,5 +1048,5 @@
    "criterio": "Parte del SMN (La Nación, 07:08 h): parcialmente nublado, 10 %; el SMN prevé menos de 40 % de probabilidad: se usa el modelo más bajo (solo hay un modelo disponible para ese día): 16,4 mm. El modelo solo publica el total diario: el reparto horario es uniforme y no representa un horario real. Pronóstico de más de 48 h, de baja confiabilidad. Estimación derivada, no una medición."
   }
  },
- "estado_alertas": "VERIFICADO_CON_ALERTAS"
+ "estado_alertas": "VERIFICADO_SIN_ALERTAS"
 }
