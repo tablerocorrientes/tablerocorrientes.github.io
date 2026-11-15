@@ -1,133 +1,46 @@
 Fuente: https://www.rioparana.com.ar
-Consultado: 15/11/2026, 00:34 h
+Consultado: 15/11/2026, 00:35 h
 
-Paraná Info — mapa, guías y nivel del río Paraná
-🌊 Río Paraná · Argentina
-Todo el Paraná, en un solo lugar.
-Mapa del río con miles de puntos, guías de pesca y la altura del agua en 38 estaciones. Para pescadores, navegantes y quienes viven junto al río.
-Explorar el mapa
-También en Google Play
-El río, punto por punto
-Mapa del Paraná
-Casi mil puntos entre arroyos, lagunas, islas, canales y las estaciones de nivel. Prendé y apagá capas según lo que busques.
-🌊 Ríos y Arroyos
-📍 Lagunas, Islas y lugares
-🚧 Canales y Terraplenes
-📈 Estaciones de nivel
-Cartografía © OpenStreetMap · puntos de referencia para pesca y navegación — no reemplazan la carta náutica oficial.
-Quién te lleva al agua
-Guías de pesca del Paraná
-Guías embarcados que operan en el río. Contactalos directo por su canal oficial.
-FansFishing
-📍 Paso de la Patria, Corrientes 🎣 Dorado · Surubí
-Excursiones embarcadas de pesca deportiva con guías profesionales.
-Ver ficha completa →
-Contactar por WhatsApp
-Careca Pesca
-📍 Corrientes / Paso de la Patria 🎣 Dorado · Surubí · Boga
-Jornadas de 8 h embarcado: lancha equipada, guía, carnada y permisos incluidos.
-Ver ficha completa →
-Contactar por WhatsApp
-Guías de La Paz
-📍 La Paz, Entre Ríos 🎣 Dorado · Surubí
-Directorio de guías embarcados de la zona de La Paz, sobre el Paraná medio.
-Ver ficha de la zona
-Datos públicos publicados por cada guía. Paraná Info no está afiliado a estos prestadores. Más guías, próximamente.
-La app móvil · Paraná Info
-El río en tu bolsillo
-Datos oficiales de la Prefectura Naval Argentina y clima en vivo, presentados simple para decidir rápido si salir al agua.
-Altura del río, estación por estación
-Altura del agua en 38 estaciones de la Prefectura Naval Argentina, con la tendencia (sube, baja o estable) y a cuánto está cada una de su nivel de alerta. Del Alto Paraná al Delta.
-Clima y pronóstico 7 días
-Temperatura, viento y humedad de tu zona, más el pronóstico de la semana. Datos de Open-Meteo.
-Estación más cercana, automática
-La app detecta tu ubicación y te muestra la estación del río más cercana, sin configurar nada.
-Noticias de Prefectura
-Las últimas novedades oficiales de la Prefectura Naval Argentina, siempre a mano.
-Emergencia náutica 106
-Un botón directo para llamar a la Prefectura Naval Argentina ante cualquier emergencia en el agua.
-Descargar en Google Play
-Adentro de la app
-Simple, clara, al grano
-Inicio
-Estaciones
-Fuentes de datos
-Cobertura
-Estaciones del Paraná
-Del Alto Paraná al Delta, con la altura que publica la Prefectura para cada estación.
-Puerto Libertad —
-Eldorado —
-Itatí —
-Paso de la Patria —
-Santa Ana —
-Posadas —
-Itá Ibaté —
-Corrientes —
-Barranqueras —
-Ituzaingó —
-Empedrado —
-Bella Vista —
-Goya —
-Reconquista —
-Esquina —
-La Paz —
-Santa Elena —
-Hernandarias —
-Santa Fe —
-Paraná —
-Diamante —
-Victoria —
-San Lorenzo —
-Rosario —
-Villa Constitución —
-San Nicolás —
-Ramallo —
-San Pedro —
-Baradero —
-Zárate —
-Campana —
-Isla Martín García —
-Escobar —
-Dique Luján —
-Tigre —
-San Fernando —
-San Isidro —
-Olivos —
-Ver la altura del río Paraná hoy en las 38 estaciones →
-Datos y confianza
-Fuentes oficiales
-Toda la información gubernamental viene de fuentes oficiales, citadas dentro de la app.
-Nivel del río Prefectura Naval Argentina
-contenidosweb.prefecturanaval.gob.ar
-Noticias Portal del Gobierno de Argentina
-argentina.gob.ar
-Clima Open-Meteo
-open-meteo.com
-Paraná Info es un desarrollo independiente y no representa ni está asociado a la Prefectura Naval Argentina ni a ningún otro organismo público. La información gubernamental se ofrece con fines informativos; consultá las fuentes oficiales para datos definitivos.
-Emergencia náutica: 106
-Llamada directa a la Prefectura Naval Argentina desde la app.
-Preguntas frecuentes
-Lo que se pregunta sobre el Paraná
-¿Cómo está el río Paraná hoy?
-Paraná Info muestra la altura de 38 estaciones de la Prefectura Naval Argentina, del Alto Paraná al Delta: Puerto Libertad, Eldorado, Santa Ana, Posadas, Ituzaingó, Itá Ibaté, Itatí, Paso de la Patria, Corrientes, Barranqueras, Empedrado, Bella Vista, Goya, Reconquista, Esquina, La Paz, Santa Elena, Hernandarias, Paraná, Santa Fe, Diamante, Victoria, San Lorenzo, Rosario, Villa Constitución, San Nicolás, Ramallo, San Pedro, Baradero, Zárate, Campana, Escobar, Isla Martín García, Dique Luján, Tigre, San Fernando, San Isidro y Olivos. En el sitio, la actualización diaria de las fichas consulta observaciones del INA (alerta.ina.gob.ar). Al abrirlas se consulta nuestra API, basada en datos de Prefectura. Cada lectura tiene su propia fecha.
-¿Dónde pescar en el río Paraná?
-El mapa de Paraná Info tiene casi mil puntos entre arroyos, lagunas, islas, canales y estaciones de nivel, para pescadores y navegantes. Además, el sitio lista guías embarcados que operan en el río (FansFishing en Paso de la Patria, Careca Pesca en Corrientes y guías de La Paz), con contacto directo por su canal oficial.
-¿El mapa de Paraná Info reemplaza la carta náutica oficial?
-No. El mapa usa cartografía de OpenStreetMap con puntos de referencia para pesca y navegación, pero no reemplaza la carta náutica oficial. Paraná Info es un desarrollo independiente, no asociado a la Prefectura Naval Argentina ni a ningún organismo público.
-¿De dónde salen los datos del nivel del río?
-Las fichas del sitio consultan diariamente observaciones del INA (alerta.ina.gob.ar) y, al abrirse, nuestra API basada en datos de Prefectura Naval Argentina. En la app, el nivel del agua viene de Prefectura (contenidosweb.prefecturanaval.gob.ar), las noticias del Portal del Gobierno de Argentina (argentina.gob.ar) y el clima de Open-Meteo. Las fuentes oficiales se citan dentro de la app.
-Paraná Info · Hecho con ❤️ para la comunidad del río Paraná
-Política de privacidad
-Cobranzas PyME
-Centros de Salud
-Multas de tránsito
-Termotanques
-Purificadores de agua
-Suplementos
-Comprar en el exterior
-Mascotas
-Precio de granos
-Sobre nosotros
-Contacto
-Privacidad
-Términos
+Alturas de Prefectura Naval Argentina reproducidas por rioparana.com.ar (servicio de datos api.rioparana.com.ar). Última lectura: 2026-11-15T01:00:00.000Z (hora UTC si termina en Z).
+
+Baradero: 1,97 m (alerta 2,70 m), trend: falling, lectura 2026-11-14T03:00:00.000Z
+Barranqueras: 6,48 m (alerta 6,00 m, SOBRE ALERTA), trend: stable, lectura 2026-11-15T01:00:00.000Z
+Bella Vista: 6,26 m (alerta 6,00 m, SOBRE ALERTA), trend: stable, lectura 2026-11-15T01:00:00.000Z
+Campana: 0,40 m (alerta 2,20 m), trend: falling, lectura 2026-11-14T15:00:00.000Z
+Corrientes: 6,62 m (alerta 6,50 m, SOBRE ALERTA), trend: stable, lectura 2026-11-15T01:00:00.000Z
+Diamante: 5,77 m (alerta 5,30 m, SOBRE ALERTA), trend: stable, lectura 2026-11-15T01:00:00.000Z
+Dique Luján: 0,51 m (alerta 2,30 m), trend: falling, lectura 2026-11-14T15:00:00.000Z
+Eldorado: 14,80 m (alerta 23,00 m), trend: rising, lectura 2026-10-08T03:00:00.000Z
+Empedrado: 5,82 m (alerta 6,50 m), trend: falling, lectura 2026-11-14T15:00:00.000Z
+Escobar: 0,50 m (alerta 3,00 m), trend: falling, lectura 2026-11-14T15:00:00.000Z
+Esquina: 5,51 m (alerta 5,00 m, SOBRE ALERTA), trend: stable, lectura 2026-11-14T21:00:00.000Z
+Goya: 5,86 m (alerta 5,20 m, SOBRE ALERTA), trend: stable, lectura 2026-11-15T01:00:00.000Z
+Hernandarias: 6,43 m (alerta 5,50 m, SOBRE ALERTA), trend: stable, lectura 2026-11-15T01:00:00.000Z
+Itá Ibaté: 5,30 m (alerta 7,00 m), trend: falling, lectura 2026-11-14T15:00:00.000Z
+Itatí: 6,91 m (alerta 6,80 m, SOBRE ALERTA), trend: stable, lectura 2026-11-15T01:00:00.000Z
+Ituzaingó: 2,87 m (alerta 3,50 m), trend: falling, lectura 2026-11-14T15:00:00.000Z
+La Paz: 6,30 m (alerta 5,80 m, SOBRE ALERTA), trend: stable, lectura 2026-11-15T01:00:00.000Z
+Puerto Libertad: 15,00 m (alerta 29,00 m), trend: falling, lectura 2026-09-30T03:00:00.000Z
+Isla Martín García: 0,87 m (alerta 2,50 m), trend: falling, lectura 2026-11-14T15:00:00.000Z
+Olivos: 1,30 m (alerta 3,00 m), trend: rising, lectura 2026-11-14T03:00:00.000Z
+Paraná: 5,66 m (alerta 4,70 m, SOBRE ALERTA), trend: stable, lectura 2026-11-15T01:00:00.000Z
+Paso de la Patria: 6,76 m (alerta 6,50 m, SOBRE ALERTA), trend: stable, lectura 2026-11-15T01:00:00.000Z
+Posadas: 10,13 m (alerta 11,00 m), trend: stable, lectura 2026-11-14T15:00:00.000Z
+Ramallo: 2,88 m (alerta 3,50 m), trend: rising, lectura 2026-11-14T15:00:00.000Z
+Reconquista: 5,69 m (alerta 5,10 m, SOBRE ALERTA), trend: stable, lectura 2026-11-14T21:00:00.000Z
+Rosario: 4,73 m (alerta 5,00 m), trend: rising, lectura 2026-11-14T15:00:00.000Z
+San Fernando: 0,60 m (alerta 3,00 m), trend: falling, lectura 2026-11-14T15:00:00.000Z
+San Isidro: 0,50 m (alerta 3,00 m), trend: falling, lectura 2026-11-14T15:00:00.000Z
+San Lorenzo: 5,13 m (alerta 5,20 m), trend: rising, lectura 2026-11-14T15:00:00.000Z
+San Nicolás: 3,33 m (alerta 4,20 m), trend: stable, lectura 2026-11-14T15:00:00.000Z
+San Pedro: 2,24 m (alerta 3,40 m), trend: stable, lectura 2026-11-14T15:00:00.000Z
+Santa Ana: 8,54 m (alerta 9,30 m), trend: falling, lectura 2026-11-14T15:00:00.000Z
+Santa Elena: 6,44 m (alerta 6,90 m), trend: rising, lectura 2026-11-14T15:00:00.000Z
+Santa Fe: 5,67 m (alerta 5,30 m, SOBRE ALERTA), trend: stable, lectura 2026-11-14T21:00:00.000Z
+Tigre: 0,50 m (alerta 3,30 m), trend: falling, lectura 2026-11-14T15:00:00.000Z
+Victoria: 4,41 m (alerta 4,60 m), trend: rising, lectura 2026-11-14T15:00:00.000Z
+Villa Constitución: 3,69 m (alerta 4,00 m), trend: rising, lectura 2026-11-14T15:00:00.000Z
+Zárate: 0,81 m (alerta 2,20 m), trend: falling, lectura 2026-11-14T15:00:00.000Z
+
+Datos completos:
+[{"stationId": "baradero", "level": 1.97, "trend": "falling", "changeRate": -3, "timestamp": "2026-11-14T03:00:00.000Z", "updatedAt": "2026-11-15T02:53:32.425Z", "alertLevel": 2.7, "evacuationLevel": 3.1}, {"stationId": "barranqueras", "level": 6.48, "trend": "stable", "changeRate": -1, "timestamp": "2026-11-15T01:00:00.000Z", "updatedAt": "2026-11-15T03:07:54.042Z", "alertLevel": 6, "evacuationLevel": 6.5}, {"stationId": "bella-vista", "level": 6.26, "trend": "stable", "changeRate": 0, "timestamp": "2026-11-15T01:00:00.000Z", "updatedAt": "2026-11-15T03:07:54.046Z", "alertLevel": 6, "evacuationLevel": 6.4}, {"stationId": "campana", "level": 0.4, "trend": "falling", "changeRate": -40, "timestamp": "2026-11-14T15:00:00.000Z", "updatedAt": "2026-11-15T03:07:54.079Z", "alertLevel": 2.2, "evacuationLevel": 2.45}, {"stationId": "corrientes", "level": 6.62, "trend": "stable", "changeRate": 0, "timestamp": "2026-11-15T01:00:00.000Z", "updatedAt": "2026-11-15T03:07:54.041Z", "alertLevel": 6.5, "evacuationLevel": 7}, {"stationId": "diamante", "level": 5.77, "trend": "stable", "changeRate": 0, "timestamp": "2026-11-15T01:00:00.000Z", "updatedAt": "2026-11-15T03:07:54.065Z", "alertLevel": 5.3, "evacuationLevel": 5.5}, {"stationId": "dique-lujan", "level": 0.51, "trend": "falling", "changeRate": -89, "timestamp": "2026-11-14T15:00:00.000Z", "updatedAt": "2026-11-15T03:07:54.085Z", "alertLevel": 2.3, "evacuationLevel": 2.8}, {"stationId": "eldorado", "level": 14.8, "trend": "rising", "changeRate": 20, "timestamp": "2026-10-08T03:00:00.000Z", "updatedAt": "2026-10-08T14:58:25.763Z", "alertLevel": 23, "evacuationLevel": 25}, {"stationId": "empedrado", "level": 5.82, "trend": "falling", "changeRate": -2, "timestamp": "2026-11-14T15:00:00.000Z", "updatedAt": "2026-11-15T03:07:54.044Z", "alertLevel": 6.5, "evacuationLevel": 7}, {"stationId": "escobar", "level": 0.5, "trend": "falling", "changeRate": -50, "timestamp": "2026-11-14T15:00:00.000Z", "updatedAt": "2026-11-15T03:07:54.081Z", "alertLevel": 3, "evacuationLevel": 3.5}, {"stationId": "esquina", "level": 5.51, "trend": "stable", "changeRate": 0, "timestamp": "2026-11-14T21:00:00.000Z", "updatedAt": "2026-11-15T03:07:54.051Z", "alertLevel": 5, "evacuationLevel": 5.4}, {"stationId": "goya", "level": 5.86, "trend": "stable", "changeRate": 0, "timestamp": "2026-11-15T01:00:00.000Z", "updatedAt": "2026-11-15T03:07:54.047Z", "alertLevel": 5.2, "evacuationLevel": 5.7}, {"stationId": "hernandarias", "level": 6.43, "trend": "stable", "changeRate": 0, "timestamp": "2026-11-15T01:00:00.000Z", "updatedAt": "2026-11-15T03:07:54.056Z", "alertLevel": 5.5, "evacuationLevel": 6}, {"stationId": "ita-ibate", "level": 5.3, "trend": "falling", "changeRate": -14.000000000000002, "timestamp": "2026-11-14T15:00:00.000Z", "updatedAt": "2026-11-15T03:07:54.035Z", "alertLevel": 7, "evacuationLevel": 7.5}, {"stationId": "itati", "level": 6.91, "trend": "stable", "changeRate": -1, "timestamp": "2026-11-15T01:00:00.000Z", "updatedAt": "2026-11-15T03:07:54.037Z", "alertLevel": 6.8, "evacuationLevel": 7.5}, {"stationId": "ituzaingo", "level": 2.87, "trend": "falling", "changeRate": -12, "timestamp": "2026-11-14T15:00:00.000Z", "updatedAt": "2026-11-15T03:07:54.033Z", "alertLevel": 3.5, "evacuationLevel": 4}, {"stationId": "la-paz", "level": 6.3, "trend": "stable", "changeRate": 0, "timestamp": "2026-11-15T01:00:00.000Z", "updatedAt": "2026-11-15T03:07:54.052Z", "alertLevel": 5.8, "evacuationLevel": 6.15}, {"stationId": "libertad", "level": 15, "trend": "falling", "changeRate": -60, "timestamp": "2026-09-30T03:00:00.000Z", "updatedAt": "2026-09-30T14:37:54.178Z", "alertLevel": 29, "evacuationLevel": 31}, {"stationId": "martin-garcia", "level": 0.87, "trend": "falling", "changeRate": -56.99999999999999, "timestamp": "2026-11-14T15:00:00.000Z", "updatedAt": "2026-11-15T03:07:54.082Z", "alertLevel": 2.5, "evacuationLevel": 5}, {"stationId": "olivos", "level": 1.3, "trend": "rising", "changeRate": 2, "timestamp": "2026-11-14T03:00:00.000Z", "updatedAt": "2026-11-14T16:19:27.460Z", "alertLevel": 3, "evacuationLevel": 3.8}, {"stationId": "parana", "level": 5.66, "trend": "stable", "changeRate": 0, "timestamp": "2026-11-15T01:00:00.000Z", "updatedAt": "2026-11-15T03:07:54.057Z", "alertLevel": 4.7, "evacuationLevel": 5}, {"stationId": "paso-de-la-patria", "level": 6.76, "trend": "stable", "changeRate": 0, "timestamp": "2026-11-15T01:00:00.000Z", "updatedAt": "2026-11-15T03:07:54.039Z", "alertLevel": 6.5, "evacuationLevel": 7}, {"stationId": "posadas", "level": 10.13, "trend": "stable", "changeRate": 0, "timestamp": "2026-11-14T15:00:00.000Z", "updatedAt": "2026-11-15T03:07:54.030Z", "alertLevel": 11, "evacuationLevel": 12}, {"stationId": "ramallo", "level": 2.88, "trend": "rising", "changeRate": 3, "timestamp": "2026-11-14T15:00:00.000Z", "updatedAt": "2026-11-15T03:07:54.075Z", "alertLevel": 3.5, "evacuationLevel": 4}, {"stationId": "reconquista", "level": 5.69, "trend": "stable", "changeRate": 0, "timestamp": "2026-11-14T21:00:00.000Z", "updatedAt": "2026-11-15T03:07:54.049Z", "alertLevel": 5.1, "evacuationLevel": 5.3}, {"stationId": "rosario", "level": 4.73, "trend": "rising", "changeRate": 10, "timestamp": "2026-11-14T15:00:00.000Z", "updatedAt": "2026-11-15T03:07:54.070Z", "alertLevel": 5, "evacuationLevel": 5.3}, {"stationId": "san-fernando", "level": 0.6, "trend": "falling", "changeRate": -70, "timestamp": "2026-11-14T15:00:00.000Z", "updatedAt": "2026-11-15T03:07:54.087Z", "alertLevel": 3, "evacuationLevel": 3.5}, {"stationId": "san-isidro", "level": 0.5, "trend": "falling", "changeRate": -100, "timestamp": "2026-11-14T15:00:00.000Z", "updatedAt": "2026-11-15T03:07:54.089Z", "alertLevel": 3, "evacuationLevel": 3.5}, {"stationId": "san-lorenzo", "level": 5.13, "trend": "rising", "changeRate": 6, "timestamp": "2026-11-14T15:00:00.000Z", "updatedAt": "2026-11-15T03:07:54.068Z", "alertLevel": 5.2, "evacuationLevel": 5.7}, {"stationId": "san-nicolas", "level": 3.33, "trend": "stable", "changeRate": 0, "timestamp": "2026-11-14T15:00:00.000Z", "updatedAt": "2026-11-15T03:07:54.074Z", "alertLevel": 4.2, "evacuationLevel": 5}, {"stationId": "san-pedro", "level": 2.24, "trend": "stable", "changeRate": 0, "timestamp": "2026-11-14T15:00:00.000Z", "updatedAt": "2026-11-15T03:07:54.076Z", "alertLevel": 3.4, "evacuationLevel": 3.6}, {"stationId": "santa-ana", "level": 8.54, "trend": "falling", "changeRate": -7.000000000000001, "timestamp": "2026-11-14T15:00:00.000Z", "updatedAt": "2026-11-15T03:07:54.027Z", "alertLevel": 9.3, "evacuationLevel": 9.8}, {"stationId": "santa-elena", "level": 6.44, "trend": "rising", "changeRate": 3, "timestamp": "2026-11-14T15:00:00.000Z", "updatedAt": "2026-11-15T03:07:54.054Z", "alertLevel": 6.9, "evacuationLevel": 7.25}, {"stationId": "santa-fe", "level": 5.67, "trend": "stable", "changeRate": 0, "timestamp": "2026-11-14T21:00:00.000Z", "updatedAt": "2026-11-15T03:07:54.063Z", "alertLevel": 5.3, "evacuationLevel": 5.7}, {"stationId": "tigre", "level": 0.5, "trend": "falling", "changeRate": -100, "timestamp": "2026-11-14T15:00:00.000Z", "updatedAt": "2026-11-15T03:07:54.084Z", "alertLevel": 3.3, "evacuationLevel": 3.8}, {"stationId": "victoria", "level": 4.41, "trend": "rising", "changeRate": 3, "timestamp": "2026-11-14T15:00:00.000Z", "updatedAt": "2026-11-15T03:07:54.067Z", "alertLevel": 4.6, "evacuationLevel": 4.9}, {"stationId": "villa-constitucion", "level": 3.69, "trend": "rising", "changeRate": 2, "timestamp": "2026-11-14T15:00:00.000Z", "updatedAt": "2026-11-15T03:07:54.072Z", "alertLevel": 4, "evacuationLevel": 4.5}, {"stationId": "zarate", "level": 0.81, "trend": "falling", "changeRate": -41, "timestamp": "2026-11-14T15:00:00.000Z", "updatedAt": "2026-11-15T03:07:54.078Z", "alertLevel": 2.2, "evacuationLevel": 2.4}]
