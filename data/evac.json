@@ -1,5 +1,5 @@
 {
- "actualizado": "15/11/2026, 00:23 h",
+ "actualizado": "15/11/2026, 00:51 h",
  "total": {
   "fecha": "06/11/2026",
   "texto": "1.967 evacuados y autoevacuados en la provincia (444 evacuados y 1.523 autoevacuados), según Defensa Civil",
@@ -484,7 +484,20 @@
     "Plácido Martínez",
     "El Cichero",
     "Punta Taitalo",
-    "Tatay"
+    "Tatay",
+    "Santa Marta",
+    "Quilmes",
+    "Sol de Mayo",
+    "Bonpland",
+    "Lomas del Mirador",
+    "Puerto Italia",
+    "Bajo Galván",
+    "Esperanza",
+    "Bañado Norte",
+    "Virgen de los Dolores",
+    "Quinta Ferré",
+    "Santa Rita",
+    "Pujol"
    ],
    "centros": [
     "Escuela N.º 293 Donato Álvarez (barrio Pujol)"
@@ -515,6 +528,220 @@
      "fuente": "Gobierno de Corrientes (El Litoral)",
      "f": "26/10/2026",
      "u": "https://www.ellitoral.com.ar/sociedad/2026-10-26-16-44-0-crecida-del-rio-parana-el-gobierno-de-corrientes-asistio-a-familias-del-barrio-itati"
+    },
+    {
+     "zona": "Santa Marta",
+     "fuente": "Defensa Civil de Corrientes (El Litoral)",
+     "f": "17/10/2026",
+     "u": "https://www.ellitoral.com.ar/ciudad/2026-10-17-21-50-0-la-capital-correntina-tiene-339-personas-autoevacuadas-y-10-barrios-comprometidos"
+    },
+    {
+     "zona": "Quilmes",
+     "fuente": "Defensa Civil de Corrientes (El Litoral)",
+     "f": "17/10/2026",
+     "u": "https://www.ellitoral.com.ar/ciudad/2026-10-17-21-50-0-la-capital-correntina-tiene-339-personas-autoevacuadas-y-10-barrios-comprometidos"
+    },
+    {
+     "zona": "Sol de Mayo",
+     "fuente": "Defensa Civil de Corrientes (El Litoral)",
+     "f": "17/10/2026",
+     "u": "https://www.ellitoral.com.ar/ciudad/2026-10-17-21-50-0-la-capital-correntina-tiene-339-personas-autoevacuadas-y-10-barrios-comprometidos"
+    },
+    {
+     "zona": "Bonpland",
+     "fuente": "Defensa Civil de Corrientes (El Litoral)",
+     "f": "17/10/2026",
+     "u": "https://www.ellitoral.com.ar/ciudad/2026-10-17-21-50-0-la-capital-correntina-tiene-339-personas-autoevacuadas-y-10-barrios-comprometidos"
+    },
+    {
+     "zona": "Lomas del Mirador",
+     "fuente": "Defensa Civil de Corrientes (El Litoral)",
+     "f": "17/10/2026",
+     "u": "https://www.ellitoral.com.ar/ciudad/2026-10-17-21-50-0-la-capital-correntina-tiene-339-personas-autoevacuadas-y-10-barrios-comprometidos"
+    },
+    {
+     "zona": "Puerto Italia",
+     "fuente": "Municipalidad de Corrientes, Desarrollo Social (El Litoral)",
+     "f": "19/10/2026",
+     "u": "https://www.ellitoral.com.ar/ciudad/2026-10-19-12-20-0-hay-casas-que-estan-totalmente-bajo-agua-la-creciente-golpea-a-los-barrios-riberenos"
+    },
+    {
+     "zona": "Bajo Galván",
+     "fuente": "Municipalidad de Corrientes, Desarrollo Social (El Litoral)",
+     "f": "19/10/2026",
+     "u": "https://www.ellitoral.com.ar/ciudad/2026-10-19-12-20-0-hay-casas-que-estan-totalmente-bajo-agua-la-creciente-golpea-a-los-barrios-riberenos"
+    },
+    {
+     "zona": "Esperanza",
+     "fuente": "Defensa Civil de Corrientes (El Libertador)",
+     "f": "19/10/2026",
+     "u": "https://www.diarioellibertador.com.ar/el-agua-avanza-y-la-provincia-afronta-un-esquema-de-crecidas-ciclicas/"
+    },
+    {
+     "zona": "Bañado Norte",
+     "fuente": "Municipalidad de Corrientes, Desarrollo Humano (Diario 1588)",
+     "f": "21/10/2026",
+     "u": "https://diario1588.com/?p=270400"
+    },
+    {
+     "zona": "Virgen de los Dolores",
+     "fuente": "Relevamiento provincial y municipal (El Litoral)",
+     "f": "23/10/2026",
+     "u": "https://www.ellitoral.com.ar/ciudad/2026-10-23-20-34-0-el-parana-se-estaciono-y-hay-mas-de-600-personas-fuera-de-sus-casas-en-capital"
+    },
+    {
+     "zona": "Quinta Ferré",
+     "fuente": "Relevamiento provincial y municipal (El Litoral)",
+     "f": "23/10/2026",
+     "u": "https://www.ellitoral.com.ar/ciudad/2026-10-23-20-34-0-el-parana-se-estaciono-y-hay-mas-de-600-personas-fuera-de-sus-casas-en-capital"
+    },
+    {
+     "zona": "Santa Rita",
+     "fuente": "Relevamiento provincial y municipal (El Litoral)",
+     "f": "23/10/2026",
+     "u": "https://www.ellitoral.com.ar/ciudad/2026-10-23-20-34-0-el-parana-se-estaciono-y-hay-mas-de-600-personas-fuera-de-sus-casas-en-capital"
+    },
+    {
+     "zona": "Pujol",
+     "fuente": "Defensa Civil de Corrientes (Diario 1588)",
+     "f": "25/10/2026",
+     "u": "https://diario1588.com/?p=270602"
+    },
+    {
+     "zona": "Tatay y Plácido Martínez, los más afectados (20/10)",
+     "fuente": "Municipalidad de Corrientes, Desarrollo Humano (La Red Corrientes)",
+     "f": "20/10/2026",
+     "u": "https://laredcorrientes.com/noticia/01711_asistencia-municipal-ante-la-crecida-ms-de-400-personas-autoevacuadas-y-relevamientos-en-zonas-crticas-.htm"
+    },
+    {
+     "zona": "Las Tomateras, Caridi y Bajo Caridi",
+     "fuente": "Municipalidad de Corrientes, Desarrollo Humano (La Red Corrientes)",
+     "f": "20/10/2026",
+     "u": "https://laredcorrientes.com/noticia/01711_asistencia-municipal-ante-la-crecida-ms-de-400-personas-autoevacuadas-y-relevamientos-en-zonas-crticas-.htm"
+    }
+   ],
+   "linea": [
+    {
+     "f": "16/10/2026",
+     "f_iso": "2026-10-16",
+     "evac": 0,
+     "auto": 71,
+     "familias": null,
+     "fuente": "Defensa Civil de Corrientes (Infobae)",
+     "u": "https://www.infobae.com/sociedad/2026/10/16/el-nino-las-aguas-del-parana-ingresaron-a-la-ciudad-de-corrientes-y-la-provincia-suma-mas-de-200-evacuados/"
+    },
+    {
+     "f": "16/10/2026 noche",
+     "f_iso": "2026-10-16",
+     "evac": 0,
+     "auto": 266,
+     "familias": 65,
+     "fuente": "Defensa Civil de Corrientes (El Litoral)",
+     "u": "https://www.ellitoral.com.ar/sociedad/2026-10-16-22-30-0-corrientes-472-personas-abandonaron-sus-casas-por-la-crecida-del-parana"
+    },
+    {
+     "f": "17/10/2026",
+     "f_iso": "2026-10-17",
+     "evac": 0,
+     "auto": 339,
+     "familias": 89,
+     "fuente": "Defensa Civil de Corrientes (El Litoral)",
+     "u": "https://www.ellitoral.com.ar/ciudad/2026-10-17-21-50-0-la-capital-correntina-tiene-339-personas-autoevacuadas-y-10-barrios-comprometidos"
+    },
+    {
+     "f": "18/10/2026",
+     "f_iso": "2026-10-18",
+     "evac": 0,
+     "auto": 344,
+     "familias": null,
+     "fuente": "Defensa Civil de Corrientes (El Litoral)",
+     "u": "https://www.ellitoral.com.ar/sociedad/2026-10-18-19-58-0-crecida-del-parana-ya-son-754-las-personas-que-dejaron-sus-casas-en-corrientes"
+    },
+    {
+     "f": "18/10/2026 noche",
+     "f_iso": "2026-10-18",
+     "evac": 0,
+     "auto": 380,
+     "familias": 103,
+     "fuente": "Municipalidad de Corrientes, Desarrollo Social (El Litoral)",
+     "u": "https://www.ellitoral.com.ar/ciudad/2026-10-19-12-20-0-hay-casas-que-estan-totalmente-bajo-agua-la-creciente-golpea-a-los-barrios-riberenos"
+    },
+    {
+     "f": "20/10/2026",
+     "f_iso": "2026-10-20",
+     "evac": null,
+     "auto": null,
+     "personas": 400,
+     "familias": 110,
+     "fuente": "Municipalidad de Corrientes, Desarrollo Humano (La Red Corrientes)",
+     "u": "https://laredcorrientes.com/noticia/01711_asistencia-municipal-ante-la-crecida-ms-de-400-personas-autoevacuadas-y-relevamientos-en-zonas-crticas-.htm",
+     "nota": "más de 400 personas"
+    },
+    {
+     "f": "21/10/2026",
+     "f_iso": "2026-10-21",
+     "evac": 0,
+     "auto": 480,
+     "familias": null,
+     "fuente": "Defensa Civil de Corrientes (El Litoral)",
+     "u": "https://www.ellitoral.com.ar/sociedad/2026-10-21-16-26-0-crecida-de-los-rios-parana-y-uruguay-ya-hay-mas-de-1-000-personas-afectadas-en-corrientes"
+    },
+    {
+     "f": "23/10/2026",
+     "f_iso": "2026-10-23",
+     "evac": 75,
+     "auto": 543,
+     "familias": 183,
+     "fuente": "Defensa Civil de Corrientes (El Litoral)",
+     "u": "https://www.ellitoral.com.ar/ciudad/2026-10-23-20-34-0-el-parana-se-estaciono-y-hay-mas-de-600-personas-fuera-de-sus-casas-en-capital"
+    },
+    {
+     "f": "25/10/2026",
+     "f_iso": "2026-10-25",
+     "evac": 64,
+     "auto": 588,
+     "familias": null,
+     "fuente": "Defensa Civil de Corrientes (Diario 1588)",
+     "u": "https://diario1588.com/?p=270602"
+    },
+    {
+     "f": "31/10/2026",
+     "f_iso": "2026-10-31",
+     "evac": 42,
+     "auto": 630,
+     "familias": 201,
+     "fuente": "Defensa Civil de Corrientes (Canal 12 Misiones)",
+     "u": "https://www.canal12misiones.com/nacionales/el-nino-corrientes-rio-parana"
+    },
+    {
+     "f": "02/11/2026",
+     "f_iso": "2026-11-02",
+     "evac": null,
+     "auto": null,
+     "personas": 672,
+     "familias": null,
+     "fuente": "Defensa Civil de Corrientes (El Monterizo)",
+     "u": "https://elmonterizo.com/el-parana-bajo-pero-en-corrientes-hay-220-personas-mas-fuera-de-sus-casas"
+    },
+    {
+     "f": "06/11/2026",
+     "f_iso": "2026-11-06",
+     "evac": 42,
+     "auto": 633,
+     "familias": 202,
+     "fuente": "Defensa Civil de Corrientes (El Litoral)",
+     "u": "https://www.ellitoral.com.ar/sociedad/2026-11-5-19-39-0-el-parana-se-estaciona-y-corrientes-tiene-1-967-evacuados-por-la-crecida"
+    },
+    {
+     "f": "13/11/2026",
+     "f_iso": "2026-11-13",
+     "evac": null,
+     "auto": null,
+     "personas": 690,
+     "familias": null,
+     "fuente": "Agencia Federal de Emergencias (Infobae)",
+     "u": "https://www.infobae.com/sociedad/2026/11/13/el-nino-diez-ciudades-del-litoral-continuan-con-el-agua-en-niveles-de-evacuacion-y-son-mas-de-4500-las-personas-afectadas/",
+     "nota": "vecinos con sus casas anegadas"
     }
    ]
   },
@@ -524,7 +751,11 @@
    "evac": null,
    "auto": null,
    "familias": null,
-   "zonas": [],
+   "zonas": [
+    "Barrio Ibiray (Yvirá Í)",
+    "Costanera, bajada de calles y acceso a la Playa Buena Vista",
+    "Campings y calles de sectores bajos"
+   ],
    "centros": [
     "Casa del Promesero",
     "Hospedaje Taba Cué"
@@ -536,7 +767,120 @@
    "fuente": "Agencia Federal de Emergencias (Infobae)",
    "u": "https://www.infobae.com/sociedad/2026/11/13/el-nino-diez-ciudades-del-litoral-continuan-con-el-agua-en-niveles-de-evacuacion-y-son-mas-de-4500-las-personas-afectadas/",
    "tipo": "prensa",
-   "personas": 518
+   "personas": 518,
+   "linea": [
+    {
+     "f": "16/10/2026",
+     "f_iso": "2026-10-16",
+     "evac": 55,
+     "auto": 0,
+     "familias": null,
+     "fuente": "Defensa Civil de Corrientes (Infobae)",
+     "u": "https://www.infobae.com/sociedad/2026/10/16/el-nino-las-aguas-del-parana-ingresaron-a-la-ciudad-de-corrientes-y-la-provincia-suma-mas-de-200-evacuados/"
+    },
+    {
+     "f": "16/10/2026 noche",
+     "f_iso": "2026-10-16",
+     "evac": 110,
+     "auto": 0,
+     "familias": 43,
+     "fuente": "Defensa Civil de Corrientes (El Litoral)",
+     "u": "https://www.ellitoral.com.ar/sociedad/2026-10-16-22-30-0-corrientes-472-personas-abandonaron-sus-casas-por-la-crecida-del-parana"
+    },
+    {
+     "f": "17/10/2026",
+     "f_iso": "2026-10-17",
+     "evac": 192,
+     "auto": 18,
+     "familias": null,
+     "fuente": "Defensa Civil de Corrientes (El Litoral)",
+     "u": "https://www.ellitoral.com.ar/sociedad/2026-10-17-20-20-0-el-rio-parana-sigue-creciendo-y-corrientes-registra-646-evacuados"
+    },
+    {
+     "f": "18/10/2026",
+     "f_iso": "2026-10-18",
+     "evac": 295,
+     "auto": 18,
+     "familias": null,
+     "fuente": "Defensa Civil de Corrientes (El Litoral)",
+     "u": "https://www.ellitoral.com.ar/sociedad/2026-10-18-19-58-0-crecida-del-parana-ya-son-754-las-personas-que-dejaron-sus-casas-en-corrientes"
+    },
+    {
+     "f": "21/10/2026",
+     "f_iso": "2026-10-21",
+     "evac": 411,
+     "auto": 27,
+     "familias": null,
+     "fuente": "Defensa Civil de Corrientes (El Litoral)",
+     "u": "https://www.ellitoral.com.ar/sociedad/2026-10-21-16-26-0-crecida-de-los-rios-parana-y-uruguay-ya-hay-mas-de-1-000-personas-afectadas-en-corrientes"
+    },
+    {
+     "f": "25/10/2026",
+     "f_iso": "2026-10-25",
+     "evac": 475,
+     "auto": 0,
+     "familias": 108,
+     "fuente": "Defensa Civil de Corrientes (Diario 1588)",
+     "u": "https://diario1588.com/?p=270602"
+    },
+    {
+     "f": "31/10/2026",
+     "f_iso": "2026-10-31",
+     "evac": 188,
+     "auto": 322,
+     "familias": null,
+     "fuente": "Defensa Civil de Corrientes (Canal 12 Misiones)",
+     "u": "https://www.canal12misiones.com/nacionales/el-nino-corrientes-rio-parana"
+    },
+    {
+     "f": "02/11/2026",
+     "f_iso": "2026-11-02",
+     "evac": 190,
+     "auto": 328,
+     "familias": null,
+     "fuente": "Defensa Civil de Corrientes (El Monterizo)",
+     "u": "https://elmonterizo.com/el-parana-bajo-pero-en-corrientes-hay-220-personas-mas-fuera-de-sus-casas"
+    },
+    {
+     "f": "06/11/2026",
+     "f_iso": "2026-11-06",
+     "evac": 190,
+     "auto": 328,
+     "familias": 123,
+     "fuente": "Defensa Civil de Corrientes (El Litoral)",
+     "u": "https://www.ellitoral.com.ar/sociedad/2026-11-5-19-39-0-el-parana-se-estaciona-y-corrientes-tiene-1-967-evacuados-por-la-crecida"
+    },
+    {
+     "f": "13/11/2026",
+     "f_iso": "2026-11-13",
+     "evac": null,
+     "auto": null,
+     "personas": 518,
+     "familias": null,
+     "fuente": "Agencia Federal de Emergencias (Infobae)",
+     "u": "https://www.infobae.com/sociedad/2026/11/13/el-nino-diez-ciudades-del-litoral-continuan-con-el-agua-en-niveles-de-evacuacion-y-son-mas-de-4500-las-personas-afectadas/"
+    }
+   ],
+   "fuentes_zonas": [
+    {
+     "zona": "Barrio Ibiray (Yvirá Í), el más afectado",
+     "fuente": "Radio Sudamericana y diario Época (Examedia)",
+     "f": "16/10/2026",
+     "u": "https://www.radiosudamericana.com/amp/sociedad/351506-Inundaciones-en-Itati--el-drama-de-las-familias-evacuadas.htm"
+    },
+    {
+     "zona": "Costanera, bajada de calles y acceso a la Playa Buena Vista",
+     "fuente": "Municipalidad de Itatí (El Libertador)",
+     "f": "16/10/2026",
+     "u": "https://www.diarioellibertador.com.ar/crecida-rio-itati-evacuados-ituzaingo/"
+    },
+    {
+     "zona": "Campings y calles de sectores bajos",
+     "fuente": "Prensa (ItuNet)",
+     "f": "18/10/2026",
+     "u": "https://itunet.com.ar/2026-10-18-la-crecida-del-parana-obliga-a-evacuar-familias-en-itati-e-ituzaingo"
+    }
+   ]
   },
   {
    "n": "Paso de la Patria",
@@ -547,7 +891,14 @@
    "zonas": [
     "Don Julián",
     "La Isla",
-    "Pescadores"
+    "Pescadores",
+    "Zona turística junto a la Cabaña Don Julián",
+    "Los Chaqueños",
+    "Zona del arroyo Guajó",
+    "Señorans",
+    "Rincón",
+    "El Lirio",
+    "Punta Santa Ana"
    ],
    "centros": [
     "Escuela Secundaria",
@@ -560,7 +911,119 @@
    "fuente": "Agencia Federal de Emergencias (Infobae); barrios según La Nación (27/10)",
    "u": "https://www.infobae.com/sociedad/2026/11/13/el-nino-diez-ciudades-del-litoral-continuan-con-el-agua-en-niveles-de-evacuacion-y-son-mas-de-4500-las-personas-afectadas/",
    "tipo": "prensa",
-   "personas": 228
+   "personas": 228,
+   "linea": [
+    {
+     "f": "18/10/2026",
+     "f_iso": "2026-10-18",
+     "evac": 4,
+     "auto": 0,
+     "familias": null,
+     "fuente": "Defensa Civil de Corrientes (El Litoral)",
+     "u": "https://www.ellitoral.com.ar/sociedad/2026-10-18-19-58-0-crecida-del-parana-ya-son-754-las-personas-que-dejaron-sus-casas-en-corrientes"
+    },
+    {
+     "f": "21/10/2026",
+     "f_iso": "2026-10-21",
+     "evac": 4,
+     "auto": 0,
+     "familias": null,
+     "fuente": "Defensa Civil de Corrientes (El Litoral)",
+     "u": "https://www.ellitoral.com.ar/sociedad/2026-10-21-16-26-0-crecida-de-los-rios-parana-y-uruguay-ya-hay-mas-de-1-000-personas-afectadas-en-corrientes"
+    },
+    {
+     "f": "25/10/2026",
+     "f_iso": "2026-10-25",
+     "evac": 24,
+     "auto": 86,
+     "familias": null,
+     "fuente": "Defensa Civil de Corrientes (El Monterizo)",
+     "u": "https://elmonterizo.com/crecio-el-parana-se-abrio-el-primer-refugio-en-la-capital-y-la-armada-desembarco-en-el-puerto"
+    },
+    {
+     "f": "28/10/2026",
+     "f_iso": "2026-10-28",
+     "evac": null,
+     "auto": null,
+     "personas": 36,
+     "familias": 13,
+     "fuente": "Prefectura Naval Argentina (El Litoral)",
+     "u": "https://www.ellitoral.com.ar/sociedad/2026-10-28-22-6-0-corrientes-prefectura-asistio-a-pobladores-afectados-por-la-crecida-del-rio-parana",
+     "nota": "solo barrio Punta Santa Ana"
+    },
+    {
+     "f": "02/11/2026",
+     "f_iso": "2026-11-02",
+     "evac": 8,
+     "auto": 220,
+     "familias": null,
+     "fuente": "Defensa Civil de Corrientes (El Monterizo)",
+     "u": "https://elmonterizo.com/el-parana-bajo-pero-en-corrientes-hay-220-personas-mas-fuera-de-sus-casas"
+    },
+    {
+     "f": "06/11/2026",
+     "f_iso": "2026-11-06",
+     "evac": 8,
+     "auto": 220,
+     "familias": 68,
+     "fuente": "Defensa Civil de Corrientes (El Litoral)",
+     "u": "https://www.ellitoral.com.ar/sociedad/2026-11-5-19-39-0-el-parana-se-estaciona-y-corrientes-tiene-1-967-evacuados-por-la-crecida"
+    },
+    {
+     "f": "13/11/2026",
+     "f_iso": "2026-11-13",
+     "evac": null,
+     "auto": null,
+     "personas": 228,
+     "familias": null,
+     "fuente": "Agencia Federal de Emergencias (Infobae)",
+     "u": "https://www.infobae.com/sociedad/2026/11/13/el-nino-diez-ciudades-del-litoral-continuan-con-el-agua-en-niveles-de-evacuacion-y-son-mas-de-4500-las-personas-afectadas/"
+    }
+   ],
+   "fuentes_zonas": [
+    {
+     "zona": "Zona turística junto a la Cabaña Don Julián",
+     "fuente": "Diario Época (Examedia)",
+     "f": "18/10/2026",
+     "u": "https://examedia.com.ar/portada/post/88072280"
+    },
+    {
+     "zona": "Los Chaqueños",
+     "fuente": "Diario Época (Examedia)",
+     "f": "18/10/2026",
+     "u": "https://examedia.com.ar/portada/post/88072280"
+    },
+    {
+     "zona": "Zona del arroyo Guajó",
+     "fuente": "Defensa Civil de Corrientes (El Monterizo)",
+     "f": "25/10/2026",
+     "u": "https://elmonterizo.com/crecio-el-parana-se-abrio-el-primer-refugio-en-la-capital-y-la-armada-desembarco-en-el-puerto"
+    },
+    {
+     "zona": "Señorans",
+     "fuente": "Defensa Civil de Corrientes (El Monterizo)",
+     "f": "25/10/2026",
+     "u": "https://elmonterizo.com/crecio-el-parana-se-abrio-el-primer-refugio-en-la-capital-y-la-armada-desembarco-en-el-puerto"
+    },
+    {
+     "zona": "Rincón",
+     "fuente": "Defensa Civil de Corrientes (El Monterizo)",
+     "f": "25/10/2026",
+     "u": "https://elmonterizo.com/crecio-el-parana-se-abrio-el-primer-refugio-en-la-capital-y-la-armada-desembarco-en-el-puerto"
+    },
+    {
+     "zona": "El Lirio",
+     "fuente": "Defensa Civil de Corrientes (El Monterizo)",
+     "f": "25/10/2026",
+     "u": "https://elmonterizo.com/crecio-el-parana-se-abrio-el-primer-refugio-en-la-capital-y-la-armada-desembarco-en-el-puerto"
+    },
+    {
+     "zona": "Punta Santa Ana",
+     "fuente": "Prefectura Naval Argentina (El Litoral)",
+     "f": "28/10/2026",
+     "u": "https://www.ellitoral.com.ar/sociedad/2026-10-28-22-6-0-corrientes-prefectura-asistio-a-pobladores-afectados-por-la-crecida-del-rio-parana"
+    }
+   ]
   },
   {
    "n": "Isla Apipé",
@@ -568,8 +1031,14 @@
    "evac": null,
    "auto": null,
    "familias": null,
-   "zonas": [],
-   "centros": [],
+   "zonas": [
+    "Zona rural y San Antonio",
+    "Isla Apipé Chico"
+   ],
+   "centros": [
+    "Viviendas municipales",
+    "Capilla de Isla Apipé Chico"
+   ],
    "detalle": "El 13/11 la Agencia Federal de Emergencias informó 211 personas evacuadas o autoevacuadas en Isla Apipé (Defensa Civil, 06/11: 185 evacuados, 94 familias). Aunque el río bajó, el intendente pidió que las familias no regresen todavía porque se prevé una nueva suba.",
    "breve": "211 personas fuera de sus casas al 13/11. El intendente pidió no regresar todavía.",
    "f": "13/11/2026",
@@ -577,7 +1046,96 @@
    "fuente": "Agencia Federal de Emergencias (Infobae); pedido del intendente según El Monterizo (11/11)",
    "u": "https://www.infobae.com/sociedad/2026/11/13/el-nino-diez-ciudades-del-litoral-continuan-con-el-agua-en-niveles-de-evacuacion-y-son-mas-de-4500-las-personas-afectadas/",
    "tipo": "prensa",
-   "personas": 211
+   "personas": 211,
+   "linea": [
+    {
+     "f": "14/10/2026",
+     "f_iso": "2026-10-14",
+     "evac": 57,
+     "auto": null,
+     "familias": null,
+     "fuente": "Municipalidad de Isla Apipé, intendente (Canal 12 Misiones)",
+     "u": "https://www.canal12misiones.com/aaa-modulo-b/corrientes-9"
+    },
+    {
+     "f": "16/10/2026 noche",
+     "f_iso": "2026-10-16",
+     "evac": 44,
+     "auto": 0,
+     "familias": 19,
+     "fuente": "Defensa Civil de Corrientes (El Litoral)",
+     "u": "https://www.ellitoral.com.ar/sociedad/2026-10-16-22-30-0-corrientes-472-personas-abandonaron-sus-casas-por-la-crecida-del-parana"
+    },
+    {
+     "f": "18/10/2026",
+     "f_iso": "2026-10-18",
+     "evac": 41,
+     "auto": 0,
+     "familias": null,
+     "fuente": "Defensa Civil de Corrientes (El Litoral)",
+     "u": "https://www.ellitoral.com.ar/sociedad/2026-10-18-19-58-0-crecida-del-parana-ya-son-754-las-personas-que-dejaron-sus-casas-en-corrientes"
+    },
+    {
+     "f": "21/10/2026",
+     "f_iso": "2026-10-21",
+     "evac": 76,
+     "auto": 0,
+     "familias": null,
+     "fuente": "Defensa Civil de Corrientes (El Litoral)",
+     "u": "https://www.ellitoral.com.ar/sociedad/2026-10-21-16-26-0-crecida-de-los-rios-parana-y-uruguay-ya-hay-mas-de-1-000-personas-afectadas-en-corrientes"
+    },
+    {
+     "f": "25/10/2026",
+     "f_iso": "2026-10-25",
+     "evac": 114,
+     "auto": 0,
+     "familias": 63,
+     "fuente": "Defensa Civil de Corrientes (Diario 1588)",
+     "u": "https://diario1588.com/?p=270602"
+    },
+    {
+     "f": "31/10/2026",
+     "f_iso": "2026-10-31",
+     "evac": 119,
+     "auto": 0,
+     "familias": null,
+     "fuente": "Defensa Civil de Corrientes (Canal 12 Misiones)",
+     "u": "https://www.canal12misiones.com/nacionales/el-nino-corrientes-rio-parana"
+    },
+    {
+     "f": "06/11/2026",
+     "f_iso": "2026-11-06",
+     "evac": 185,
+     "auto": 0,
+     "familias": 94,
+     "fuente": "Defensa Civil de Corrientes (El Litoral)",
+     "u": "https://www.ellitoral.com.ar/sociedad/2026-11-5-19-39-0-el-parana-se-estaciona-y-corrientes-tiene-1-967-evacuados-por-la-crecida"
+    },
+    {
+     "f": "13/11/2026",
+     "f_iso": "2026-11-13",
+     "evac": null,
+     "auto": null,
+     "personas": 211,
+     "familias": null,
+     "fuente": "Agencia Federal de Emergencias (Infobae)",
+     "u": "https://www.infobae.com/sociedad/2026/11/13/el-nino-diez-ciudades-del-litoral-continuan-con-el-agua-en-niveles-de-evacuacion-y-son-mas-de-4500-las-personas-afectadas/"
+    }
+   ],
+   "fuentes_zonas": [
+    {
+     "zona": "Zona rural y San Antonio",
+     "fuente": "Municipalidad de Isla Apipé, intendente (Canal 12 Misiones)",
+     "f": "14/10/2026",
+     "u": "https://www.canal12misiones.com/aaa-modulo-b/corrientes-9"
+    },
+    {
+     "zona": "Isla Apipé Chico",
+     "fuente": "Prensa (ItuNet)",
+     "f": "18/10/2026",
+     "u": "https://itunet.com.ar/2026-10-18-la-crecida-del-parana-obliga-a-evacuar-familias-en-itati-e-ituzaingo"
+    }
+   ]
   },
   {
    "n": "Goya",
@@ -585,7 +1143,14 @@
    "evac": null,
    "auto": null,
    "familias": 97,
-   "zonas": [],
+   "zonas": [
+    "Zona del puerto y Puerto Boca",
+    "Zonas bajas del sur de la ciudad",
+    "Tercera sección, camino a Esquina (arroyo Ysoró)",
+    "Parajes Quebracho, Pueblo Nuevo y San Francisco el Bajo (aislados)",
+    "Paraje Santa Rosa, costa del Isoró",
+    "Paraje Las Piedras"
+   ],
    "centros": [],
    "detalle": "El Comando Operativo de Emergencias de Goya informó 97 familias autoevacuadas el 10/11 a las 20 h, con el río en 5,95 m y estacionario. La Municipalidad entregó 90 casillas de emergencia y el Ejército colocó un puente en el paraje Soledad. Defensa Civil (06/11) ubicaba a los autoevacuados en la zona del puerto.",
    "breve": "97 familias autoevacuadas al 10/11, con el río en 5,95 m. Se entregaron 90 casillas de emergencia.",
@@ -593,7 +1158,123 @@
    "f_iso": "2026-11-10",
    "fuente": "COE de Goya (Municipalidad), difundido por InfoGoya y El Litoral",
    "u": "https://infogoya.com/coe-goya-rio-97-familias-autoevacuadas/",
-   "tipo": "municipal"
+   "tipo": "municipal",
+   "linea": [
+    {
+     "f": "31/10/2026",
+     "f_iso": "2026-10-31",
+     "evac": 0,
+     "auto": 30,
+     "familias": null,
+     "fuente": "Defensa Civil de Corrientes (Canal 12 Misiones)",
+     "u": "https://www.canal12misiones.com/nacionales/el-nino-corrientes-rio-parana",
+     "nota": "zona del puerto"
+    },
+    {
+     "f": "02/11/2026",
+     "f_iso": "2026-11-02",
+     "evac": 0,
+     "auto": 36,
+     "familias": null,
+     "fuente": "Defensa Civil de Corrientes (El Monterizo)",
+     "u": "https://elmonterizo.com/el-parana-bajo-pero-en-corrientes-hay-220-personas-mas-fuera-de-sus-casas",
+     "nota": "zona del puerto"
+    },
+    {
+     "f": "03/11/2026",
+     "f_iso": "2026-11-03",
+     "evac": null,
+     "auto": null,
+     "familias": 63,
+     "fuente": "Municipalidad de Goya, intendente (El Litoral)",
+     "u": "https://www.ellitoral.com.ar/sociedad/2026-11-3-9-46-0-crecida-del-parana-en-goya-el-intendente-detallo-las-zonas-afectadas-y-las-evacuaciones"
+    },
+    {
+     "f": "04/11/2026",
+     "f_iso": "2026-11-04",
+     "evac": null,
+     "auto": null,
+     "familias": 72,
+     "fuente": "Municipalidad de Goya (El Litoral)",
+     "u": "https://www.ellitoral.com.ar/interior/2026-11-4-10-21-0-asisten-a-72-familias-autoevacuadas-en-goya-y-se-monitorea-la-evolucion-del-rio-parana"
+    },
+    {
+     "f": "04/11/2026 noche",
+     "f_iso": "2026-11-04",
+     "evac": 0,
+     "auto": 126,
+     "familias": 32,
+     "fuente": "COE de Goya (El Litoral)",
+     "u": "https://www.ellitoral.com.ar/sociedad/2026-11-4-19-51-0-crecida-en-goya-el-rio-supera-el-nivel-de-evacuacion-y-hay-126-personas-fuera-de-sus-casas",
+     "nota": "zona del puerto"
+    },
+    {
+     "f": "06/11/2026",
+     "f_iso": "2026-11-06",
+     "evac": 0,
+     "auto": 157,
+     "familias": 44,
+     "fuente": "Defensa Civil de Corrientes (El Litoral)",
+     "u": "https://www.ellitoral.com.ar/sociedad/2026-11-5-19-39-0-el-parana-se-estaciona-y-corrientes-tiene-1-967-evacuados-por-la-crecida",
+     "nota": "zona del puerto"
+    },
+    {
+     "f": "07/11/2026",
+     "f_iso": "2026-11-07",
+     "evac": null,
+     "auto": null,
+     "familias": 92,
+     "fuente": "COE de Goya, Acción Social (El Litoral)",
+     "u": "https://www.ellitoral.com.ar/interior/2026-11-8-8-35-0-aunque-el-rio-parana-descendio-ya-son-92-las-familias-autoevacuadas-en-goya"
+    },
+    {
+     "f": "10/11/2026",
+     "f_iso": "2026-11-10",
+     "evac": null,
+     "auto": null,
+     "familias": 97,
+     "fuente": "COE de Goya (InfoGoya)",
+     "u": "https://infogoya.com/coe-goya-rio-97-familias-autoevacuadas/"
+    }
+   ],
+   "fuentes_zonas": [
+    {
+     "zona": "Zona del puerto y Puerto Boca",
+     "fuente": "Municipalidad de Goya y COE de Goya (El Litoral)",
+     "f": "03/11/2026",
+     "u": "https://www.ellitoral.com.ar/sociedad/2026-11-3-9-46-0-crecida-del-parana-en-goya-el-intendente-detallo-las-zonas-afectadas-y-las-evacuaciones"
+    },
+    {
+     "zona": "Zonas bajas del sur de la ciudad",
+     "fuente": "Municipalidad de Goya, intendente (El Litoral)",
+     "f": "03/11/2026",
+     "u": "https://www.ellitoral.com.ar/sociedad/2026-11-3-9-46-0-crecida-del-parana-en-goya-el-intendente-detallo-las-zonas-afectadas-y-las-evacuaciones"
+    },
+    {
+     "zona": "Tercera sección, camino a Esquina (arroyo Ysoró)",
+     "fuente": "Municipalidad de Goya, intendente (El Litoral)",
+     "f": "03/11/2026",
+     "u": "https://www.ellitoral.com.ar/sociedad/2026-11-3-9-46-0-crecida-del-parana-en-goya-el-intendente-detallo-las-zonas-afectadas-y-las-evacuaciones"
+    },
+    {
+     "zona": "Parajes Quebracho, Pueblo Nuevo y San Francisco el Bajo (aislados)",
+     "fuente": "Vialidad Provincial y Municipalidad de Goya (El Libertador, Elonce)",
+     "f": "04/11/2026",
+     "u": "https://www.diarioellibertador.com.ar/goya-crecida-parana-63-familias-evacuadas-zona-puerto-aislados-ruta-82/"
+    },
+    {
+     "zona": "Paraje Santa Rosa, costa del Isoró",
+     "fuente": "COE de Goya (El Litoral)",
+     "f": "04/11/2026",
+     "u": "https://www.ellitoral.com.ar/sociedad/2026-11-4-19-51-0-crecida-en-goya-el-rio-supera-el-nivel-de-evacuacion-y-hay-126-personas-fuera-de-sus-casas"
+    },
+    {
+     "zona": "Paraje Las Piedras",
+     "fuente": "COE de Goya, Acción Social (El Litoral)",
+     "f": "07/11/2026",
+     "u": "https://www.ellitoral.com.ar/interior/2026-11-8-8-35-0-aunque-el-rio-parana-descendio-ya-son-92-las-familias-autoevacuadas-en-goya"
+    }
+   ]
   },
   {
    "n": "Ituzaingó",
@@ -601,9 +1282,14 @@
    "evac": 17,
    "auto": null,
    "familias": 4,
-   "zonas": [],
+   "zonas": [
+    "Barrio Mil Viviendas (agua en calles)",
+    "Zona costera",
+    "Apipé Chico e islas del municipio"
+   ],
    "centros": [
-    "Salón de usos múltiples y albergue del Club San Martín"
+    "Salón de usos múltiples y albergue del Club San Martín",
+    "Casas de familiares y salón de usos múltiples"
    ],
    "detalle": "Último parte de Defensa Civil de Corrientes (06/11): 17 evacuados (4 familias). No se halló un dato más nuevo.",
    "breve": "17 evacuados (4 familias) según Defensa Civil (06/11).",
@@ -611,7 +1297,85 @@
    "f_iso": "2026-11-06",
    "fuente": "Defensa Civil de Corrientes (El Litoral)",
    "u": "https://www.ellitoral.com.ar/sociedad/2026-11-5-19-39-0-el-parana-se-estaciona-y-corrientes-tiene-1-967-evacuados-por-la-crecida",
-   "tipo": "oficial"
+   "tipo": "oficial",
+   "linea": [
+    {
+     "f": "16/10/2026",
+     "f_iso": "2026-10-16",
+     "evac": 23,
+     "auto": null,
+     "familias": null,
+     "fuente": "Municipalidad de Ituzaingó, Acción Social (El Libertador)",
+     "u": "https://www.diarioellibertador.com.ar/crecida-rio-itati-evacuados-ituzaingo/",
+     "nota": "zona costera"
+    },
+    {
+     "f": "16/10/2026 noche",
+     "f_iso": "2026-10-16",
+     "evac": 19,
+     "auto": 0,
+     "familias": 4,
+     "fuente": "Defensa Civil de Corrientes (El Litoral)",
+     "u": "https://www.ellitoral.com.ar/sociedad/2026-10-16-22-30-0-corrientes-472-personas-abandonaron-sus-casas-por-la-crecida-del-parana"
+    },
+    {
+     "f": "21/10/2026",
+     "f_iso": "2026-10-21",
+     "evac": 19,
+     "auto": 0,
+     "familias": null,
+     "fuente": "Defensa Civil de Corrientes (El Litoral)",
+     "u": "https://www.ellitoral.com.ar/sociedad/2026-10-21-16-26-0-crecida-de-los-rios-parana-y-uruguay-ya-hay-mas-de-1-000-personas-afectadas-en-corrientes"
+    },
+    {
+     "f": "25/10/2026",
+     "f_iso": "2026-10-25",
+     "evac": 14,
+     "auto": 0,
+     "familias": null,
+     "fuente": "Defensa Civil de Corrientes (Diario 1588)",
+     "u": "https://diario1588.com/?p=270602"
+    },
+    {
+     "f": "31/10/2026",
+     "f_iso": "2026-10-31",
+     "evac": null,
+     "auto": null,
+     "personas": 17,
+     "familias": 6,
+     "fuente": "Defensa Civil de Corrientes (Canal 12 Misiones)",
+     "u": "https://www.canal12misiones.com/nacionales/el-nino-corrientes-rio-parana"
+    },
+    {
+     "f": "06/11/2026",
+     "f_iso": "2026-11-06",
+     "evac": 17,
+     "auto": 0,
+     "familias": 4,
+     "fuente": "Defensa Civil de Corrientes (El Litoral)",
+     "u": "https://www.ellitoral.com.ar/sociedad/2026-11-5-19-39-0-el-parana-se-estaciona-y-corrientes-tiene-1-967-evacuados-por-la-crecida"
+    }
+   ],
+   "fuentes_zonas": [
+    {
+     "zona": "Barrio Mil Viviendas (agua en calles)",
+     "fuente": "Prefectura y prensa (Canal 12 Misiones)",
+     "f": "14/10/2026",
+     "u": "https://www.canal12misiones.com/aaa-modulo-b/corrientes-9"
+    },
+    {
+     "zona": "Zona costera",
+     "fuente": "Municipalidad de Ituzaingó, Acción Social (El Libertador)",
+     "f": "16/10/2026",
+     "u": "https://www.diarioellibertador.com.ar/crecida-rio-itati-evacuados-ituzaingo/"
+    },
+    {
+     "zona": "Apipé Chico e islas del municipio",
+     "fuente": "Municipalidad de Ituzaingó, Acción Social (El Libertador)",
+     "f": "16/10/2026",
+     "u": "https://www.diarioellibertador.com.ar/crecida-rio-itati-evacuados-ituzaingo/"
+    }
+   ]
   },
   {
    "n": "Esquina",
@@ -619,15 +1383,54 @@
    "evac": null,
    "auto": 58,
    "familias": 35,
-   "zonas": [],
-   "centros": [],
+   "zonas": [
+    "Costanera y sector del anfiteatro",
+    "Bajo Hospital, Bananal y Aeroclub"
+   ],
+   "centros": [
+    "Espacio municipal con 96 camas"
+   ],
    "detalle": "Último parte de Defensa Civil de Corrientes (06/11): 58 autoevacuados (35 familias). No se halló un dato más nuevo.",
    "breve": "58 autoevacuados (35 familias) según Defensa Civil (06/11).",
    "f": "06/11/2026",
    "f_iso": "2026-11-06",
    "fuente": "Defensa Civil de Corrientes (El Litoral)",
    "u": "https://www.ellitoral.com.ar/sociedad/2026-11-5-19-39-0-el-parana-se-estaciona-y-corrientes-tiene-1-967-evacuados-por-la-crecida",
-   "tipo": "oficial"
+   "tipo": "oficial",
+   "linea": [
+    {
+     "f": "03/11/2026",
+     "f_iso": "2026-11-03",
+     "evac": 1,
+     "auto": null,
+     "familias": null,
+     "fuente": "Municipalidad de Esquina (El Litoral)",
+     "u": "https://www.ellitoral.com.ar/sociedad/2026-11-3-17-57-0-el-rio-corriente-en-crecida-desbordo-la-costanera-y-dejo-el-primer-evacuado-en-esquina"
+    },
+    {
+     "f": "06/11/2026",
+     "f_iso": "2026-11-06",
+     "evac": 0,
+     "auto": 58,
+     "familias": 35,
+     "fuente": "Defensa Civil de Corrientes (El Litoral)",
+     "u": "https://www.ellitoral.com.ar/sociedad/2026-11-5-19-39-0-el-parana-se-estaciona-y-corrientes-tiene-1-967-evacuados-por-la-crecida"
+    }
+   ],
+   "fuentes_zonas": [
+    {
+     "zona": "Costanera y sector del anfiteatro",
+     "fuente": "Municipalidad de Esquina (El Litoral)",
+     "f": "03/11/2026",
+     "u": "https://www.ellitoral.com.ar/sociedad/2026-11-3-17-57-0-el-rio-corriente-en-crecida-desbordo-la-costanera-y-dejo-el-primer-evacuado-en-esquina"
+    },
+    {
+     "zona": "Bajo Hospital, Bananal y Aeroclub",
+     "fuente": "Prefectura Naval Argentina (El Monterizo)",
+     "f": "noviembre de 2026",
+     "u": "https://elmonterizo.com/el-rio-paso-la-marca-de-evacuacion-y-las-lanchas-no-llegaron-a-las-islas"
+    }
+   ]
   },
   {
    "n": "San Isidro",
@@ -635,7 +1438,10 @@
    "evac": null,
    "auto": 50,
    "familias": 10,
-   "zonas": [],
+   "zonas": [
+    "Paraje San Antonio Isla",
+    "Costanera del paraje Stella Maris (agua en accesos y patios)"
+   ],
    "centros": [],
    "detalle": "Último parte de Defensa Civil de Corrientes (06/11): 50 autoevacuados (10 familias). No se halló un dato más nuevo.",
    "breve": "50 autoevacuados (10 familias) según Defensa Civil (06/11).",
@@ -643,7 +1449,42 @@
    "f_iso": "2026-11-06",
    "fuente": "Defensa Civil de Corrientes (El Litoral)",
    "u": "https://www.ellitoral.com.ar/sociedad/2026-11-5-19-39-0-el-parana-se-estaciona-y-corrientes-tiene-1-967-evacuados-por-la-crecida",
-   "tipo": "oficial"
+   "tipo": "oficial",
+   "linea": [
+    {
+     "f": "05/11/2026",
+     "f_iso": "2026-11-05",
+     "evac": null,
+     "auto": null,
+     "familias": 15,
+     "fuente": "Prensa local (El Libertador)",
+     "u": "https://www.diarioellibertador.com.ar/goya-crecida-parana-63-familias-evacuadas-zona-puerto-aislados-ruta-82/",
+     "nota": "familias evacuadas, en su mayoría del paraje San Antonio Isla"
+    },
+    {
+     "f": "06/11/2026",
+     "f_iso": "2026-11-06",
+     "evac": 0,
+     "auto": 50,
+     "familias": 10,
+     "fuente": "Defensa Civil de Corrientes (El Litoral)",
+     "u": "https://www.ellitoral.com.ar/sociedad/2026-11-5-19-39-0-el-parana-se-estaciona-y-corrientes-tiene-1-967-evacuados-por-la-crecida"
+    }
+   ],
+   "fuentes_zonas": [
+    {
+     "zona": "Paraje San Antonio Isla",
+     "fuente": "Prensa local (El Libertador)",
+     "f": "05/11/2026",
+     "u": "https://www.diarioellibertador.com.ar/goya-crecida-parana-63-familias-evacuadas-zona-puerto-aislados-ruta-82/"
+    },
+    {
+     "zona": "Costanera del paraje Stella Maris (agua en accesos y patios)",
+     "fuente": "Prensa local (El Libertador)",
+     "f": "05/11/2026",
+     "u": "https://www.diarioellibertador.com.ar/goya-crecida-parana-63-familias-evacuadas-zona-puerto-aislados-ruta-82/"
+    }
+   ]
   },
   {
    "n": "Cruz de los Milagros",
@@ -659,7 +1500,46 @@
    "f_iso": "2026-11-06",
    "fuente": "Defensa Civil de Corrientes (El Litoral)",
    "u": "https://www.ellitoral.com.ar/sociedad/2026-11-5-19-39-0-el-parana-se-estaciona-y-corrientes-tiene-1-967-evacuados-por-la-crecida",
-   "tipo": "oficial"
+   "tipo": "oficial",
+   "linea": [
+    {
+     "f": "21/10/2026",
+     "f_iso": "2026-10-21",
+     "evac": 0,
+     "auto": 17,
+     "familias": null,
+     "fuente": "Defensa Civil de Corrientes (El Litoral)",
+     "u": "https://www.ellitoral.com.ar/sociedad/2026-10-21-16-26-0-crecida-de-los-rios-parana-y-uruguay-ya-hay-mas-de-1-000-personas-afectadas-en-corrientes"
+    },
+    {
+     "f": "25/10/2026",
+     "f_iso": "2026-10-25",
+     "evac": 0,
+     "auto": 24,
+     "familias": null,
+     "fuente": "Defensa Civil de Corrientes (Diario 1588)",
+     "u": "https://diario1588.com/?p=270602"
+    },
+    {
+     "f": "02/11/2026",
+     "f_iso": "2026-11-02",
+     "evac": null,
+     "auto": null,
+     "personas": 24,
+     "familias": null,
+     "fuente": "Defensa Civil de Corrientes (El Monterizo)",
+     "u": "https://elmonterizo.com/el-parana-bajo-pero-en-corrientes-hay-220-personas-mas-fuera-de-sus-casas"
+    },
+    {
+     "f": "06/11/2026",
+     "f_iso": "2026-11-06",
+     "evac": 0,
+     "auto": 40,
+     "familias": 7,
+     "fuente": "Defensa Civil de Corrientes (El Litoral)",
+     "u": "https://www.ellitoral.com.ar/sociedad/2026-11-5-19-39-0-el-parana-se-estaciona-y-corrientes-tiene-1-967-evacuados-por-la-crecida"
+    }
+   ]
   },
   {
    "n": "Santa Lucía",
@@ -675,7 +1555,45 @@
    "f_iso": "2026-11-06",
    "fuente": "Defensa Civil de Corrientes (El Litoral)",
    "u": "https://www.ellitoral.com.ar/sociedad/2026-11-5-19-39-0-el-parana-se-estaciona-y-corrientes-tiene-1-967-evacuados-por-la-crecida",
-   "tipo": "oficial"
+   "tipo": "oficial",
+   "linea": [
+    {
+     "f": "21/10/2026",
+     "f_iso": "2026-10-21",
+     "evac": 0,
+     "auto": 10,
+     "familias": null,
+     "fuente": "Defensa Civil de Corrientes (El Litoral)",
+     "u": "https://www.ellitoral.com.ar/sociedad/2026-10-21-16-26-0-crecida-de-los-rios-parana-y-uruguay-ya-hay-mas-de-1-000-personas-afectadas-en-corrientes"
+    },
+    {
+     "f": "25/10/2026",
+     "f_iso": "2026-10-25",
+     "evac": 0,
+     "auto": 28,
+     "familias": null,
+     "fuente": "Defensa Civil de Corrientes (Diario 1588)",
+     "u": "https://diario1588.com/?p=270602"
+    },
+    {
+     "f": "02/11/2026",
+     "f_iso": "2026-11-02",
+     "evac": 0,
+     "auto": 21,
+     "familias": null,
+     "fuente": "Defensa Civil de Corrientes (El Monterizo)",
+     "u": "https://elmonterizo.com/el-parana-bajo-pero-en-corrientes-hay-220-personas-mas-fuera-de-sus-casas"
+    },
+    {
+     "f": "06/11/2026",
+     "f_iso": "2026-11-06",
+     "evac": 0,
+     "auto": 21,
+     "familias": 5,
+     "fuente": "Defensa Civil de Corrientes (El Litoral)",
+     "u": "https://www.ellitoral.com.ar/sociedad/2026-11-5-19-39-0-el-parana-se-estaciona-y-corrientes-tiene-1-967-evacuados-por-la-crecida"
+    }
+   ]
   },
   {
    "n": "Bella Vista",
@@ -691,7 +1609,217 @@
    "f_iso": "2026-11-06",
    "fuente": "Defensa Civil de Corrientes (El Litoral)",
    "u": "https://www.ellitoral.com.ar/sociedad/2026-11-5-19-39-0-el-parana-se-estaciona-y-corrientes-tiene-1-967-evacuados-por-la-crecida",
-   "tipo": "oficial"
+   "tipo": "oficial",
+   "linea": [
+    {
+     "f": "25/10/2026",
+     "f_iso": "2026-10-25",
+     "evac": 16,
+     "auto": null,
+     "familias": null,
+     "fuente": "Defensa Civil de Corrientes (Diario 1588)",
+     "u": "https://diario1588.com/?p=270602"
+    },
+    {
+     "f": "02/11/2026",
+     "f_iso": "2026-11-02",
+     "evac": null,
+     "auto": null,
+     "personas": 19,
+     "familias": null,
+     "fuente": "Defensa Civil de Corrientes (El Monterizo)",
+     "u": "https://elmonterizo.com/el-parana-bajo-pero-en-corrientes-hay-220-personas-mas-fuera-de-sus-casas"
+    },
+    {
+     "f": "06/11/2026",
+     "f_iso": "2026-11-06",
+     "evac": 0,
+     "auto": 16,
+     "familias": 4,
+     "fuente": "Defensa Civil de Corrientes (El Litoral)",
+     "u": "https://www.ellitoral.com.ar/sociedad/2026-11-5-19-39-0-el-parana-se-estaciona-y-corrientes-tiene-1-967-evacuados-por-la-crecida"
+    }
+   ]
+  },
+  {
+   "n": "Paso de los Libres",
+   "estado": "con evacuados",
+   "evac": 31,
+   "auto": null,
+   "familias": 6,
+   "zonas": [],
+   "centros": [
+    "Ex Regimiento"
+   ],
+   "detalle": "Último parte de Defensa Civil de Corrientes con cifras (02/11): 31 evacuados en el ex Regimiento. El 13/11 el río Uruguay seguía en alerta, en bajante.",
+   "breve": "31 evacuados en el ex Regimiento según Defensa Civil (02/11). No se halló un dato más nuevo.",
+   "f": "02/11/2026",
+   "f_iso": "2026-11-02",
+   "fuente": "Defensa Civil de Corrientes (El Monterizo)",
+   "u": "https://elmonterizo.com/el-parana-bajo-pero-en-corrientes-hay-220-personas-mas-fuera-de-sus-casas",
+   "tipo": "oficial",
+   "linea": [
+    {
+     "f": "14/10/2026",
+     "f_iso": "2026-10-14",
+     "evac": 31,
+     "auto": null,
+     "familias": null,
+     "fuente": "Municipalidad de Paso de los Libres, centro de evacuados (Canal 12 Misiones)",
+     "u": "https://www.canal12misiones.com/nacionales/corrientes-evacuados-paso-de-los-libres"
+    },
+    {
+     "f": "16/10/2026 noche",
+     "f_iso": "2026-10-16",
+     "evac": 31,
+     "auto": 0,
+     "familias": 6,
+     "fuente": "Defensa Civil de Corrientes (El Litoral)",
+     "u": "https://www.ellitoral.com.ar/sociedad/2026-10-16-22-30-0-corrientes-472-personas-abandonaron-sus-casas-por-la-crecida-del-parana"
+    },
+    {
+     "f": "21/10/2026",
+     "f_iso": "2026-10-21",
+     "evac": 31,
+     "auto": 0,
+     "familias": null,
+     "fuente": "Defensa Civil de Corrientes (El Litoral)",
+     "u": "https://www.ellitoral.com.ar/sociedad/2026-10-21-16-26-0-crecida-de-los-rios-parana-y-uruguay-ya-hay-mas-de-1-000-personas-afectadas-en-corrientes"
+    },
+    {
+     "f": "25/10/2026",
+     "f_iso": "2026-10-25",
+     "evac": 31,
+     "auto": 0,
+     "familias": null,
+     "fuente": "Defensa Civil de Corrientes (Diario 1588)",
+     "u": "https://diario1588.com/?p=270602"
+    },
+    {
+     "f": "02/11/2026",
+     "f_iso": "2026-11-02",
+     "evac": 31,
+     "auto": 0,
+     "familias": null,
+     "fuente": "Defensa Civil de Corrientes (El Monterizo)",
+     "u": "https://elmonterizo.com/el-parana-bajo-pero-en-corrientes-hay-220-personas-mas-fuera-de-sus-casas"
+    }
+   ]
+  },
+  {
+   "n": "Yahapé",
+   "estado": "con evacuados",
+   "evac": 2,
+   "auto": null,
+   "familias": 1,
+   "zonas": [],
+   "centros": [],
+   "detalle": "Defensa Civil de Corrientes registró 2 evacuados de una familia, alojados en casa de familiares (16/10 y 02/11). No se halló un dato más nuevo.",
+   "breve": "2 evacuados (una familia) según Defensa Civil (02/11).",
+   "f": "02/11/2026",
+   "f_iso": "2026-11-02",
+   "fuente": "Defensa Civil de Corrientes (El Monterizo)",
+   "u": "https://elmonterizo.com/el-parana-bajo-pero-en-corrientes-hay-220-personas-mas-fuera-de-sus-casas",
+   "tipo": "oficial",
+   "linea": [
+    {
+     "f": "16/10/2026 noche",
+     "f_iso": "2026-10-16",
+     "evac": 2,
+     "auto": 0,
+     "familias": 1,
+     "fuente": "Defensa Civil de Corrientes (El Litoral)",
+     "u": "https://www.ellitoral.com.ar/sociedad/2026-10-16-22-30-0-corrientes-472-personas-abandonaron-sus-casas-por-la-crecida-del-parana"
+    },
+    {
+     "f": "02/11/2026",
+     "f_iso": "2026-11-02",
+     "evac": 2,
+     "auto": 0,
+     "familias": null,
+     "fuente": "Defensa Civil de Corrientes (El Monterizo)",
+     "u": "https://elmonterizo.com/el-parana-bajo-pero-en-corrientes-hay-220-personas-mas-fuera-de-sus-casas"
+    }
+   ]
+  },
+  {
+   "n": "San Cosme",
+   "estado": "con evacuados",
+   "evac": null,
+   "auto": null,
+   "familias": null,
+   "personas": 3,
+   "zonas": [],
+   "centros": [],
+   "detalle": "El informe de Defensa Civil del 25/10 registró 3 personas fuera de sus casas en San Cosme. No se halló un dato más nuevo.",
+   "breve": "3 personas fuera de sus casas según Defensa Civil (25/10).",
+   "f": "25/10/2026",
+   "f_iso": "2026-10-25",
+   "fuente": "Defensa Civil de Corrientes (Diario 1588)",
+   "u": "https://diario1588.com/?p=270602",
+   "tipo": "oficial",
+   "linea": [
+    {
+     "f": "25/10/2026",
+     "f_iso": "2026-10-25",
+     "evac": null,
+     "auto": null,
+     "personas": 3,
+     "familias": null,
+     "fuente": "Defensa Civil de Corrientes (Diario 1588)",
+     "u": "https://diario1588.com/?p=270602"
+    }
+   ]
+  },
+  {
+   "n": "Monte Caseros",
+   "estado": "sin evacuados",
+   "evac": null,
+   "auto": null,
+   "familias": null,
+   "zonas": [],
+   "centros": [],
+   "detalle": "El intendente informó el 13/10 que el río Uruguay estaba por debajo de los niveles de alerta y evacuación, sin familias evacuadas ni viviendas inundadas.",
+   "breve": "Sin familias evacuadas según el intendente (13/10).",
+   "f": "13/10/2026",
+   "f_iso": "2026-10-13",
+   "fuente": "Municipalidad de Monte Caseros (Virasoro Virtual)",
+   "u": "https://virasorovirtual.com/2026-10-14-crece-el-parana-en-corrientes-evacuados-y-emergencia-hidrica-en-varias-localidades",
+   "tipo": "municipal",
+   "linea": [
+    {
+     "f": "13/10/2026",
+     "f_iso": "2026-10-13",
+     "evac": null,
+     "auto": null,
+     "personas": 0,
+     "familias": null,
+     "fuente": "Municipalidad de Monte Caseros, intendente (Virasoro Virtual)",
+     "u": "https://virasorovirtual.com/2026-10-14-crece-el-parana-en-corrientes-evacuados-y-emergencia-hidrica-en-varias-localidades",
+     "nota": "sin familias evacuadas ni viviendas inundadas"
+    }
+   ]
   }
- ]
+ ],
+ "barrido_historico": {
+  "desde": "01/10/2026",
+  "localidades": {
+   "Corrientes Capital": "15/11/2026",
+   "Itatí": "15/11/2026",
+   "Paso de la Patria": "15/11/2026",
+   "Isla Apipé": "15/11/2026",
+   "Goya": "15/11/2026",
+   "Ituzaingó": "15/11/2026",
+   "Esquina": "15/11/2026",
+   "San Isidro": "15/11/2026",
+   "Cruz de los Milagros": "15/11/2026",
+   "Santa Lucía": "15/11/2026",
+   "Bella Vista": "15/11/2026",
+   "Paso de los Libres": "15/11/2026",
+   "Yahapé": "15/11/2026",
+   "San Cosme": "15/11/2026",
+   "Monte Caseros": "15/11/2026"
+  },
+  "nota": "Barrido de notas desde el inicio de la crecida. Sin datos hallados en este barrido: Santa Ana, Riachuelo, Empedrado (unas 200 personas afectadas según el municipio, sin cifras de evacuados), Itá Ibaté, Berón de Astrada, Lavalle, Santo Tomé, Alvear, La Cruz, Yapeyú, Bonpland y Garruchos."
+ }
 }

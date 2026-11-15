@@ -1,14 +1,280 @@
 {
- "actualizado": "15/11/2026, 00:23 h",
+ "actualizado": "15/11/2026, 00:51 h",
  "explicacion": "Cada actualización suma registros: barrios afectados con la altura del río o la lluvia de ese día, obras terminadas, reportes de vecinos verificados y la comparación entre lo pronosticado y lo que ocurrió. Con esa comparación se detectan desvíos y se proponen ajustes a los cálculos, que revisa el autor del tablero.",
  "contadores": {
-  "barrios_documentados": 49,
+  "barrios_documentados": 87,
   "obras": 0,
   "reportes_verificados": 0,
   "comparaciones_rio": 0,
   "comparaciones_lluvia": 4
  },
  "aprendizajes": [
+  {
+   "fecha": "15/11/2026",
+   "tipo": "evacuacion",
+   "lugar": "Corrientes Capital",
+   "dato": "Zona afectada por la crecida: Santa Marta (17/10/2026, con el Paraná en Corrientes en 6,62 m).",
+   "fuente": "Defensa Civil de Corrientes (El Litoral)"
+  },
+  {
+   "fecha": "15/11/2026",
+   "tipo": "evacuacion",
+   "lugar": "Corrientes Capital",
+   "dato": "Zona afectada por la crecida: Quilmes (17/10/2026, con el Paraná en Corrientes en 6,62 m).",
+   "fuente": "Defensa Civil de Corrientes (El Litoral)"
+  },
+  {
+   "fecha": "15/11/2026",
+   "tipo": "evacuacion",
+   "lugar": "Corrientes Capital",
+   "dato": "Zona afectada por la crecida: Sol de Mayo (17/10/2026, con el Paraná en Corrientes en 6,62 m).",
+   "fuente": "Defensa Civil de Corrientes (El Litoral)"
+  },
+  {
+   "fecha": "15/11/2026",
+   "tipo": "evacuacion",
+   "lugar": "Corrientes Capital",
+   "dato": "Zona afectada por la crecida: Bonpland (17/10/2026, con el Paraná en Corrientes en 6,62 m).",
+   "fuente": "Defensa Civil de Corrientes (El Litoral)"
+  },
+  {
+   "fecha": "15/11/2026",
+   "tipo": "evacuacion",
+   "lugar": "Corrientes Capital",
+   "dato": "Zona afectada por la crecida: Lomas del Mirador (17/10/2026, con el Paraná en Corrientes en 6,62 m).",
+   "fuente": "Defensa Civil de Corrientes (El Litoral)"
+  },
+  {
+   "fecha": "15/11/2026",
+   "tipo": "evacuacion",
+   "lugar": "Corrientes Capital",
+   "dato": "Zona afectada por la crecida: Puerto Italia (19/10/2026, con el Paraná en Corrientes en 7,07 m).",
+   "fuente": "Municipalidad de Corrientes, Desarrollo Social (El Litoral)"
+  },
+  {
+   "fecha": "15/11/2026",
+   "tipo": "evacuacion",
+   "lugar": "Corrientes Capital",
+   "dato": "Zona afectada por la crecida: Bajo Galván (19/10/2026, con el Paraná en Corrientes en 7,07 m).",
+   "fuente": "Municipalidad de Corrientes, Desarrollo Social (El Litoral)"
+  },
+  {
+   "fecha": "15/11/2026",
+   "tipo": "evacuacion",
+   "lugar": "Corrientes Capital",
+   "dato": "Zona afectada por la crecida: Esperanza (19/10/2026, con el Paraná en Corrientes en 7,07 m).",
+   "fuente": "Defensa Civil de Corrientes (El Libertador)"
+  },
+  {
+   "fecha": "15/11/2026",
+   "tipo": "evacuacion",
+   "lugar": "Corrientes Capital",
+   "dato": "Zona afectada por la crecida: Bañado Norte (21/10/2026, con el Paraná en Corrientes en 7,34 m).",
+   "fuente": "Municipalidad de Corrientes, Desarrollo Humano (Diario 1588)"
+  },
+  {
+   "fecha": "15/11/2026",
+   "tipo": "evacuacion",
+   "lugar": "Corrientes Capital",
+   "dato": "Zona afectada por la crecida: Virgen de los Dolores (23/10/2026, con el Paraná en Corrientes en 7,44 m).",
+   "fuente": "Relevamiento provincial y municipal (El Litoral)"
+  },
+  {
+   "fecha": "15/11/2026",
+   "tipo": "evacuacion",
+   "lugar": "Corrientes Capital",
+   "dato": "Zona afectada por la crecida: Quinta Ferré (23/10/2026, con el Paraná en Corrientes en 7,44 m).",
+   "fuente": "Relevamiento provincial y municipal (El Litoral)"
+  },
+  {
+   "fecha": "15/11/2026",
+   "tipo": "evacuacion",
+   "lugar": "Corrientes Capital",
+   "dato": "Zona afectada por la crecida: Santa Rita (23/10/2026, con el Paraná en Corrientes en 7,44 m).",
+   "fuente": "Relevamiento provincial y municipal (El Litoral)"
+  },
+  {
+   "fecha": "15/11/2026",
+   "tipo": "evacuacion",
+   "lugar": "Corrientes Capital",
+   "dato": "Zona afectada por la crecida: Pujol (25/10/2026, con el Paraná en Corrientes en 7,36 m).",
+   "fuente": "Defensa Civil de Corrientes (Diario 1588)"
+  },
+  {
+   "fecha": "15/11/2026",
+   "tipo": "evacuacion",
+   "lugar": "Itatí",
+   "dato": "Zona afectada por la crecida: Barrio Ibiray (Yvirá Í) (16/10/2026, con el Paraná en Itatí en 7,25 m).",
+   "fuente": "Radio Sudamericana y diario Época (Examedia)"
+  },
+  {
+   "fecha": "15/11/2026",
+   "tipo": "evacuacion",
+   "lugar": "Itatí",
+   "dato": "Zona afectada por la crecida: Costanera, bajada de calles y acceso a la Playa Buena Vista (16/10/2026, con el Paraná en Itatí en 7,25 m).",
+   "fuente": "Municipalidad de Itatí (El Libertador)"
+  },
+  {
+   "fecha": "15/11/2026",
+   "tipo": "evacuacion",
+   "lugar": "Itatí",
+   "dato": "Zona afectada por la crecida: Campings y calles de sectores bajos (18/10/2026, con el Paraná en Itatí en 7,93 m).",
+   "fuente": "Prensa (ItuNet)"
+  },
+  {
+   "fecha": "15/11/2026",
+   "tipo": "evacuacion",
+   "lugar": "Paso de la Patria",
+   "dato": "Zona afectada por la crecida: Zona turística junto a la Cabaña Don Julián (18/10/2026, con el Paraná en Paso de la Patria en 7,28 m).",
+   "fuente": "Diario Época (Examedia)"
+  },
+  {
+   "fecha": "15/11/2026",
+   "tipo": "evacuacion",
+   "lugar": "Paso de la Patria",
+   "dato": "Zona afectada por la crecida: Los Chaqueños (18/10/2026, con el Paraná en Paso de la Patria en 7,28 m).",
+   "fuente": "Diario Época (Examedia)"
+  },
+  {
+   "fecha": "15/11/2026",
+   "tipo": "evacuacion",
+   "lugar": "Paso de la Patria",
+   "dato": "Zona afectada por la crecida: Zona del arroyo Guajó (25/10/2026, con el Paraná en Paso de la Patria en 7,7 m).",
+   "fuente": "Defensa Civil de Corrientes (El Monterizo)"
+  },
+  {
+   "fecha": "15/11/2026",
+   "tipo": "evacuacion",
+   "lugar": "Paso de la Patria",
+   "dato": "Zona afectada por la crecida: Señorans (25/10/2026, con el Paraná en Paso de la Patria en 7,7 m).",
+   "fuente": "Defensa Civil de Corrientes (El Monterizo)"
+  },
+  {
+   "fecha": "15/11/2026",
+   "tipo": "evacuacion",
+   "lugar": "Paso de la Patria",
+   "dato": "Zona afectada por la crecida: Rincón (25/10/2026, con el Paraná en Paso de la Patria en 7,7 m).",
+   "fuente": "Defensa Civil de Corrientes (El Monterizo)"
+  },
+  {
+   "fecha": "15/11/2026",
+   "tipo": "evacuacion",
+   "lugar": "Paso de la Patria",
+   "dato": "Zona afectada por la crecida: El Lirio (25/10/2026, con el Paraná en Paso de la Patria en 7,7 m).",
+   "fuente": "Defensa Civil de Corrientes (El Monterizo)"
+  },
+  {
+   "fecha": "15/11/2026",
+   "tipo": "evacuacion",
+   "lugar": "Paso de la Patria",
+   "dato": "Zona afectada por la crecida: Punta Santa Ana (28/10/2026, con el Paraná en Paso de la Patria en 7,74 m).",
+   "fuente": "Prefectura Naval Argentina (El Litoral)"
+  },
+  {
+   "fecha": "15/11/2026",
+   "tipo": "evacuacion",
+   "lugar": "Isla Apipé",
+   "dato": "Zona afectada por la crecida: Zona rural y San Antonio (14/10/2026).",
+   "fuente": "Municipalidad de Isla Apipé, intendente (Canal 12 Misiones)"
+  },
+  {
+   "fecha": "15/11/2026",
+   "tipo": "evacuacion",
+   "lugar": "Isla Apipé",
+   "dato": "Zona afectada por la crecida: Isla Apipé Chico (18/10/2026).",
+   "fuente": "Prensa (ItuNet)"
+  },
+  {
+   "fecha": "15/11/2026",
+   "tipo": "evacuacion",
+   "lugar": "Goya",
+   "dato": "Zona afectada por la crecida: Zona del puerto y Puerto Boca (03/11/2026, con el Paraná en Goya en 6,1 m).",
+   "fuente": "Municipalidad de Goya y COE de Goya (El Litoral)"
+  },
+  {
+   "fecha": "15/11/2026",
+   "tipo": "evacuacion",
+   "lugar": "Goya",
+   "dato": "Zona afectada por la crecida: Zonas bajas del sur de la ciudad (03/11/2026, con el Paraná en Goya en 6,1 m).",
+   "fuente": "Municipalidad de Goya, intendente (El Litoral)"
+  },
+  {
+   "fecha": "15/11/2026",
+   "tipo": "evacuacion",
+   "lugar": "Goya",
+   "dato": "Zona afectada por la crecida: Tercera sección, camino a Esquina (arroyo Ysoró) (03/11/2026, con el Paraná en Goya en 6,1 m).",
+   "fuente": "Municipalidad de Goya, intendente (El Litoral)"
+  },
+  {
+   "fecha": "15/11/2026",
+   "tipo": "evacuacion",
+   "lugar": "Goya",
+   "dato": "Zona afectada por la crecida: Parajes Quebracho, Pueblo Nuevo y San Francisco el Bajo (aislados) (04/11/2026, con el Paraná en Goya en 6,1 m).",
+   "fuente": "Vialidad Provincial y Municipalidad de Goya (El Libertador, Elonce)"
+  },
+  {
+   "fecha": "15/11/2026",
+   "tipo": "evacuacion",
+   "lugar": "Goya",
+   "dato": "Zona afectada por la crecida: Paraje Santa Rosa, costa del Isoró (04/11/2026, con el Paraná en Goya en 6,1 m).",
+   "fuente": "COE de Goya (El Litoral)"
+  },
+  {
+   "fecha": "15/11/2026",
+   "tipo": "evacuacion",
+   "lugar": "Goya",
+   "dato": "Zona afectada por la crecida: Paraje Las Piedras (07/11/2026, con el Paraná en Goya en 6,08 m).",
+   "fuente": "COE de Goya, Acción Social (El Litoral)"
+  },
+  {
+   "fecha": "15/11/2026",
+   "tipo": "evacuacion",
+   "lugar": "Ituzaingó",
+   "dato": "Zona afectada por la crecida: Barrio Mil Viviendas (agua en calles) (14/10/2026).",
+   "fuente": "Prefectura y prensa (Canal 12 Misiones)"
+  },
+  {
+   "fecha": "15/11/2026",
+   "tipo": "evacuacion",
+   "lugar": "Ituzaingó",
+   "dato": "Zona afectada por la crecida: Zona costera (16/10/2026).",
+   "fuente": "Municipalidad de Ituzaingó, Acción Social (El Libertador)"
+  },
+  {
+   "fecha": "15/11/2026",
+   "tipo": "evacuacion",
+   "lugar": "Ituzaingó",
+   "dato": "Zona afectada por la crecida: Apipé Chico e islas del municipio (16/10/2026).",
+   "fuente": "Municipalidad de Ituzaingó, Acción Social (El Libertador)"
+  },
+  {
+   "fecha": "15/11/2026",
+   "tipo": "evacuacion",
+   "lugar": "Esquina",
+   "dato": "Zona afectada por la crecida: Costanera y sector del anfiteatro (03/11/2026, con el Paraná en Esquina en 5,5 m).",
+   "fuente": "Municipalidad de Esquina (El Litoral)"
+  },
+  {
+   "fecha": "15/11/2026",
+   "tipo": "evacuacion",
+   "lugar": "Esquina",
+   "dato": "Zona afectada por la crecida: Bajo Hospital, Bananal y Aeroclub (noviembre de 2026).",
+   "fuente": "Prefectura Naval Argentina (El Monterizo)"
+  },
+  {
+   "fecha": "15/11/2026",
+   "tipo": "evacuacion",
+   "lugar": "San Isidro",
+   "dato": "Zona afectada por la crecida: Paraje San Antonio Isla (05/11/2026).",
+   "fuente": "Prensa local (El Libertador)"
+  },
+  {
+   "fecha": "15/11/2026",
+   "tipo": "evacuacion",
+   "lugar": "San Isidro",
+   "dato": "Zona afectada por la crecida: Costanera del paraje Stella Maris (agua en accesos y patios) (05/11/2026).",
+   "fuente": "Prensa local (El Libertador)"
+  },
   {
    "fecha": "15/11/2026",
    "tipo": "evacuacion",
