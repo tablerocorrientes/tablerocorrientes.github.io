@@ -54,6 +54,11 @@
    "url": "https://www.radiodos.com.ar/t14067-recoleccion-de-residuos",
    "desde": "15/11/2026, 08:51 h",
    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "url": "https://www.corrientes.gob.ar/",
+   "desde": "15/11/2026, 08:54 h",
+   "error": "HTTP Error 429: Too Many Requests"
   }
  ]
 }

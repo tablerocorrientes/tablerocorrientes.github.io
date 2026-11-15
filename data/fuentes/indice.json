@@ -1,6 +1,6 @@
 {
- "consultado": "15/11/2026, 08:51 h",
- "consultado_iso": "2026-11-15T08:51-03:00",
+ "consultado": "15/11/2026, 08:54 h",
+ "consultado_iso": "2026-11-15T08:54-03:00",
  "paginas": {
   "smn_alertas": {
    "url": "https://www.smn.gob.ar/alertas",
@@ -130,40 +130,25 @@
   }
  },
  "pedidas": {
-  "https://www.ellitoral.com.ar/actualidad/2026-11-14-23-52-0-el-gobierno-provincial-asegura-que-los-salarios-2026-creceran-un-28-20": {
-   "url": "https://www.ellitoral.com.ar/actualidad/2026-11-14-23-52-0-el-gobierno-provincial-asegura-que-los-salarios-2026-creceran-un-28-20",
-   "estado": 200,
-   "caracteres": 3703,
-   "archivo": "data/fuentes/web/ellitoral_com_ar_actualidad_2026_11_14_23_52_0_el_gobierno_provincial_asegura_que_los_sala.txt"
+  "https://ciudaddecorrientes.gov.ar/noticias": {
+   "url": "https://ciudaddecorrientes.gov.ar/noticias",
+   "estado": "error",
+   "detalle": "HTTP Error 429: Too Many Requests"
+  },
+  "https://www.corrientes.gob.ar/": {
+   "url": "https://www.corrientes.gob.ar/",
+   "estado": "error",
+   "detalle": "HTTP Error 429: Too Many Requests"
+  },
+  "https://www.diarioepoca.com/": {
+   "url": "https://www.diarioepoca.com/",
+   "estado": "error",
+   "detalle": "HTTP Error 429: Too Many Requests"
   },
   "https://www.radiodos.com.ar/217046-el-aumento-del-10-para-estatales-de-corrientes-sera-desde-diciembre-e-impactara-en-el-aguinaldo": {
    "url": "https://www.radiodos.com.ar/217046-el-aumento-del-10-para-estatales-de-corrientes-sera-desde-diciembre-e-impactara-en-el-aguinaldo",
    "estado": "error",
    "detalle": "HTTP Error 429: Too Many Requests"
-  },
-  "https://examedia.com.ar/portada/post/88237404": {
-   "url": "https://examedia.com.ar/portada/post/88237404",
-   "estado": 200,
-   "caracteres": 6273,
-   "archivo": "data/fuentes/web/examedia_com_ar_portada_post_88237404.txt"
-  },
-  "https://www.perfil.com/noticias/nea/juan-pablo-valdes-anuncio-tarifa-electrica-diferenciada-ratifico-el-rechazo-a-las-paso-y-viajara-a-las-zonas-inundadas.phtml": {
-   "url": "https://www.perfil.com/noticias/nea/juan-pablo-valdes-anuncio-tarifa-electrica-diferenciada-ratifico-el-rechazo-a-las-paso-y-viajara-a-las-zonas-inundadas.phtml",
-   "estado": 200,
-   "caracteres": 5479,
-   "archivo": "data/fuentes/web/perfil_com_noticias_nea_juan_pablo_valdes_anuncio_tarifa_electrica_diferenciada_ratifico_e.txt"
-  },
-  "https://www.ellitoral.com.ar/sociedad/2026-11-13-12-50-0-el-gobierno-provincial-y-el-banco-de-corrientes-presentaron-lineas-de-alivio-financiero-para-familias-y-empresas": {
-   "url": "https://www.ellitoral.com.ar/sociedad/2026-11-13-12-50-0-el-gobierno-provincial-y-el-banco-de-corrientes-presentaron-lineas-de-alivio-financiero-para-familias-y-empresas",
-   "estado": 200,
-   "caracteres": 4262,
-   "archivo": "data/fuentes/web/ellitoral_com_ar_sociedad_2026_11_13_12_50_0_el_gobierno_provincial_y_el_banco_de_corrient.txt"
-  },
-  "https://chacodiapordia.com/corrientes-usuarios-y-consumidores-senala-irregularidades-en-la-prorroga-de-la-concesion-a-lusa/": {
-   "url": "https://chacodiapordia.com/corrientes-usuarios-y-consumidores-senala-irregularidades-en-la-prorroga-de-la-concesion-a-lusa/",
-   "estado": 200,
-   "caracteres": 7888,
-   "archivo": "data/fuentes/web/chacodiapordia_com_corrientes_usuarios_y_consumidores_senala_irregularidades_en_la_prorrog.txt"
   },
   "https://www.corrienteshoy.com/economia/el-llamado-a-licitacion-al-transporte-publico-en-corrientes-demandara-todo-el-2026.htm": {
    "url": "https://www.corrienteshoy.com/economia/el-llamado-a-licitacion-al-transporte-publico-en-corrientes-demandara-todo-el-2026.htm",
@@ -175,39 +160,17 @@
    "estado": "error",
    "detalle": "HTTP Error 429: Too Many Requests"
   },
-  "https://www.novacorrientes.com/seccion.asp?s=30&t=La+Provincia&n=2026_11_14": {
-   "url": "https://www.novacorrientes.com/seccion.asp?s=30&t=La+Provincia&n=2026_11_14",
+  "https://radiobellavista.com/zonas-calidas-corrientes-ya-aplica-el-subsidio-del-50-en-la-tarifa-electrica-y-35-mil-usuarios-aun-deben-inscribirse/": {
+   "url": "https://radiobellavista.com/zonas-calidas-corrientes-ya-aplica-el-subsidio-del-50-en-la-tarifa-electrica-y-35-mil-usuarios-aun-deben-inscribirse/",
    "estado": 200,
-   "caracteres": 10641,
-   "archivo": "data/fuentes/web/novacorrientes_com_seccion_asp_s_30_t_La_Provincia_n_2026_11_14.txt"
+   "caracteres": 8436,
+   "archivo": "data/fuentes/web/radiobellavista_com_zonas_calidas_corrientes_ya_aplica_el_subsidio_del_50_en_la_tarifa_ele.txt"
   },
-  "https://examedia.com.ar/portada/post/88237411": {
-   "url": "https://examedia.com.ar/portada/post/88237411",
+  "https://concejocorrientes.gob.ar/taquigraficas/2026/16-04-2026.pdf": {
+   "url": "https://concejocorrientes.gob.ar/taquigraficas/2026/16-04-2026.pdf",
    "estado": 200,
-   "caracteres": 3342,
-   "archivo": "data/fuentes/web/examedia_com_ar_portada_post_88237411.txt"
-  },
-  "https://www.diarioellibertador.com.ar/pasafaunas-aereos-en-corrientes/": {
-   "url": "https://www.diarioellibertador.com.ar/pasafaunas-aereos-en-corrientes/",
-   "estado": 200,
-   "caracteres": 6098,
-   "archivo": "data/fuentes/web/diarioellibertador_com_ar_pasafaunas_aereos_en_corrientes.txt"
-  },
-  "https://www.corrienteshoy.com/policiales/mega-operativo-en-corrientes-secuestraron-30-motos-stunt.htm": {
-   "url": "https://www.corrienteshoy.com/policiales/mega-operativo-en-corrientes-secuestraron-30-motos-stunt.htm",
-   "estado": "error",
-   "detalle": "HTTP Error 429: Too Many Requests"
-  },
-  "https://www.radiosudamericana.com/t967/municipalidad.htm": {
-   "url": "https://www.radiosudamericana.com/t967/municipalidad.htm",
-   "estado": 200,
-   "caracteres": 3749,
-   "archivo": "data/fuentes/web/radiosudamericana_com_t967_municipalidad_htm.txt"
-  },
-  "https://www.radiodos.com.ar/t14067-recoleccion-de-residuos": {
-   "url": "https://www.radiodos.com.ar/t14067-recoleccion-de-residuos",
-   "estado": "error",
-   "detalle": "HTTP Error 429: Too Many Requests"
+   "caracteres": 60000,
+   "archivo": "data/fuentes/web/concejocorrientes_gob_ar_taquigraficas_2026_16_04_2026_pdf.txt"
   }
  }
 }
