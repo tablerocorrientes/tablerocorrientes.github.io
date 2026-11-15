@@ -46,11 +46,23 @@
    "estado": "error",
    "detalle": "HTTP Error 503: Service Unavailable"
   },
-  "smn_datos_abiertos": {
-   "url": "https://ssl.smn.gob.ar/dpd/descarga_opendata.php?file=observaciones/tiepre20261114.txt",
+  "smn_datos_horarios_ayer": {
+   "url": "https://ssl.smn.gob.ar/dpd/descarga_opendata.php?file=observaciones/datohorario20261113.txt",
    "estado": 200,
-   "caracteres": 53,
-   "archivo": "data/fuentes/smn_datos_abiertos.txt"
+   "caracteres": 60000,
+   "archivo": "data/fuentes/smn_datos_horarios_ayer.txt"
+  },
+  "smn_pronostico_5_dias": {
+   "url": "https://ssl.smn.gob.ar/dpd/descarga_opendata.php?file=pron5d/pron20261114.txt",
+   "estado": 200,
+   "caracteres": 60000,
+   "archivo": "data/fuentes/smn_pronostico_5_dias.txt"
+  },
+  "smn_pronostico_5_dias_ayer": {
+   "url": "https://ssl.smn.gob.ar/dpd/descarga_opendata.php?file=pron5d/pron20261113.txt",
+   "estado": 200,
+   "caracteres": 60000,
+   "archivo": "data/fuentes/smn_pronostico_5_dias_ayer.txt"
   },
   "coe_2026_0072_AT": {
    "url": "https://coe.corrientes.gob.ar/a/2026-0072-AT",
