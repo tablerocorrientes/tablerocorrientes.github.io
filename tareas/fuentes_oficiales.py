@@ -34,6 +34,31 @@ def filtrar_smn(nombre, t):
         return '\n'.join(out)
     return t
 
+def rioparana(pagina):
+    """La página completa las alturas desde su servicio de datos; se leen de ahí y se arma una tabla por puerto."""
+    nombres = dict(re.findall(r'data-station="([^"]+)"><a class="st-name"[^>]*>([^<]+)</a>', pagina))
+    st, js = bajar('https://api.rioparana.com.ar/public/river')
+    datos = json.loads(js)
+    filas, ult = [], None
+    for r in datos:
+        if not isinstance(r.get('level'), (int, float)):
+            continue
+        n = html.unescape(nombres.get(r.get('stationId'), r.get('stationId', '')))
+        al = r.get('alertLevel')
+        ts = r.get('timestamp') or ''
+        if ts and (ult is None or ts > ult):
+            ult = ts
+        fila = n + ': ' + ('%.2f' % r['level']).replace('.', ',') + ' m'
+        if isinstance(al, (int, float)):
+            fila += ' (alerta ' + ('%.2f' % al).replace('.', ',') + ' m' + (', SOBRE ALERTA' if r['level'] >= al else '') + ')'
+        for k in ('variation', 'change', 'delta', 'trend'):
+            if r.get(k) is not None:
+                fila += ', ' + k + ': ' + str(r[k])
+        fila += ', lectura ' + ts
+        filas.append(fila)
+    cab = 'Alturas de Prefectura Naval Argentina reproducidas por rioparana.com.ar (servicio de datos api.rioparana.com.ar). Última lectura: ' + (ult or 's/d') + ' (hora UTC si termina en Z).'
+    return cab + '\n\n' + '\n'.join(filas) + '\n\nDatos completos:\n' + json.dumps(datos, ensure_ascii=False)[:20000]
+
 def texto(h):
     h = re.sub(r'(?is)<(script|style|noscript)[^>]*>.*?</\1>', ' ', h)
     h = re.sub(r'(?i)<br\s*/?>|</p>|</div>|</li>|</h\d>|</tr>', '\n', h)
@@ -76,7 +101,9 @@ for nombre, url in urls.items():
     r = {'url': url}
     try:
         st, h = bajar(url)
-        t = filtrar_smn(nombre, h) if nombre.startswith('smn_') and 'opendata' in url else (h[:60000] if h.lstrip()[:1] in '[{' else texto(h))
+        if nombre == 'rioparana_alturas':
+            h = rioparana(h)
+        t = h if nombre == 'rioparana_alturas' else filtrar_smn(nombre, h) if nombre.startswith('smn_') and 'opendata' in url else (h[:60000] if h.lstrip()[:1] in '[{' else texto(h))
         # Enlaces internos del COE a partes y alertas, para seguirlos en la próxima consulta
         if nombre == 'coe_inicio':
             enl = sorted(set('https://coe.corrientes.gob.ar' + x if x.startswith('/') else x
@@ -85,8 +112,6 @@ for nombre, url in urls.items():
             r['enlaces'] = enl[:80]
         open(os.path.join(OUT, nombre + '.txt'), 'w', encoding='utf-8').write(
             'Fuente: ' + url + '\nConsultado: ' + indice['consultado'] + '\n\n' + t)
-        if os.environ.get('CRUDO') and nombre == os.environ.get('CRUDO'):
-            open(os.path.join(OUT, nombre + '_crudo.html'), 'w', encoding='utf-8').write(h)
         r.update(estado=st, caracteres=len(t), archivo='data/fuentes/' + nombre + '.txt')
     except Exception as e:
         r.update(estado='error', detalle=str(e)[:200])
