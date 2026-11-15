@@ -1,6 +1,6 @@
 {
- "consultado": "15/11/2026, 03:09 h",
- "consultado_iso": "2026-11-15T03:09-03:00",
+ "consultado": "15/11/2026, 03:11 h",
+ "consultado_iso": "2026-11-15T03:11-03:00",
  "paginas": {
   "smn_alertas": {
    "url": "https://www.smn.gob.ar/alertas",
@@ -134,6 +134,19 @@
    "estado": 200,
    "caracteres": 1993,
    "archivo": "data/fuentes/coe_a_2026_0071_AT.txt"
+  }
+ },
+ "pedidas": {
+  "https://news.agrofy.com.ar/pronostico-clima-tiempo/corrientes/corrientes": {
+   "url": "https://news.agrofy.com.ar/pronostico-clima-tiempo/corrientes/corrientes",
+   "estado": "error",
+   "detalle": "HTTP Error 429: Too Many Requests"
+  },
+  "https://www.meteored.com.ar/tiempo-en_Corrientes-America+Sur-Argentina-Corrientes-SARC-horas-16886.html": {
+   "url": "https://www.meteored.com.ar/tiempo-en_Corrientes-America+Sur-Argentina-Corrientes-SARC-horas-16886.html",
+   "estado": 200,
+   "caracteres": 23311,
+   "archivo": "data/fuentes/web/meteored_com_ar_tiempo_en_Corrientes_America_Sur_Argentina_Corrientes_SARC_horas_16886_htm.txt"
   }
  }
 }

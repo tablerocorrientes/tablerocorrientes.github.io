@@ -34,6 +34,11 @@
    "url": "https://ciudaddecorrientes.gov.ar/noticias",
    "desde": "15/11/2026, 01:54 h",
    "error": "HTTP Error 429: Too Many Requests; HTTP 404 también desde la computadora del autor"
+  },
+  {
+   "url": "https://news.agrofy.com.ar/pronostico-clima-tiempo/corrientes/corrientes",
+   "desde": "15/11/2026, 03:11 h",
+   "error": "HTTP Error 429: Too Many Requests"
   }
  ]
 }
