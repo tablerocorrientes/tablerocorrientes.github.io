@@ -608,6 +608,7 @@ if(EV){drawEvac();
     if(r.centros&&r.centros.length)body+='<div style="margin-top:4px"><b>Centros:</b> '+r.centros.map(esc).join(', ')+'.</div>';
     if(r.personas!=null&&r.evac==null&&r.auto==null)body+='<div><b>'+nf(r.personas)+'</b> personas fuera de sus casas (la fuente no separa evacuados de autoevacuados).</div>';
     if(r.fuentes_zonas&&r.fuentes_zonas.length)body+='<div style="margin-top:4px"><b>De dónde sale cada zona:</b> '+r.fuentes_zonas.map(function(z){return esc(z.zona)+' ('+esc(z.fuente)+', '+esc(z.f)+(z.u?', <a href="'+esc(z.u)+'" target="_blank" rel="noopener">ver</a>':'')+')';}).join('; ')+'.</div>';
+    if(r.linea&&r.linea.length)body+='<div style="margin-top:4px"><b>Evolución:</b> '+r.linea.map(function(x){var v=x.personas!=null?nf(x.personas)+' personas':(x.evac!=null||x.auto!=null)?nf((x.evac||0)+(x.auto||0))+' personas':x.familias!=null?nf(x.familias)+' familias':'';return esc(x.f)+(v?': '+v:'')+(x.u?' (<a href="'+esc(x.u)+'" target="_blank" rel="noopener">'+esc(x.fuente||'fuente')+'</a>)':x.fuente?' ('+esc(x.fuente)+')':'');}).join('; ')+'.</div>';
     if(r.detalle)body+='<div style="margin-top:4px">'+corto(r.detalle,r.breve)+'</div>';
     return det(sum+tipo,meta,body||'<div>Sin más detalle en la fuente.</div>',r.u);}).join('')+'<p class="s" style="margin-top:6px">Estado de cada localidad según el último dato oficial hallado, con su fecha. Toque una localidad para ver zonas, barrios y centros.</p>';
 })();
