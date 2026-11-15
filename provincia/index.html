@@ -313,12 +313,12 @@ function tcProx(smn,llueve){
   function hm(d){return String(d.getHours()).padStart(2,'0')+':'+String(d.getMinutes()).padStart(2,'0')+' h';}
   function dia(d){var a=new Date(now.getFullYear(),now.getMonth(),now.getDate()),b=new Date(d.getFullYear(),d.getMonth(),d.getDate()),k=Math.round((b-a)/864e5);return k===0?'hoy':k===1?'mañana':k===-1?'ayer':String(d.getDate()).padStart(2,'0')+'/'+String(d.getMonth()+1).padStart(2,'0');}
   function sig(c){var best=null;for(var add=0;add<2;add++)c.forEach(function(x){var d=new Date(now.getFullYear(),now.getMonth(),now.getDate()+add,x[0],x[1]);if(d>now&&(!best||d<best))best=d;});return best;}
-  var diarias=[[9,0],[18,30]],c1=[],c2=[];for(var h=0;h<24;h++){c1.push([h,25]);c1.push([h,55]);if(h%2===1)c2.push([h,10]);}
+  var diarias=[[9,0],[18,30]],c1=[],c2=[];for(var h=0;h<24;h++){c1.push([h,12]);if(h%2===1)c2.push([h,20]);}
   var act=(smn||[]).some(function(a){if(a.incluye_corrientes===false)return false;var hs=a.hasta_iso?Date.parse(a.hasta_iso):NaN,ds=a.desde_iso?Date.parse(a.desde_iso):NaN;return (isNaN(hs)||hs>now)&&(isNaN(ds)||ds-now<864e5);});
   var activo=act||!!llueve;
   function f(d){return d?dia(d)+' '+hm(d):'';}
   return {activo:activo,rio:f(sig(diarias)),lluvia:f(sig(c1)),pron:f(activo?sig(c2):sig(diarias)),
-    nota:activo?'La lluvia medida se consulta cada 30 minutos. <b style="color:#ffd27a">Modo alerta:</b> pronóstico y alertas cada 2 horas, mientras haya alerta o lluvia.':'La lluvia medida se consulta cada 30 minutos, siempre. Sin alerta ni lluvia: actualización completa a las 9 y a las 18:30 h, y control de alertas a las 4:30, 13:30 y 23:30 h; si aparece una alerta o empieza a llover, se actualiza más seguido.'};
+    nota:activo?'<b style="color:#ffd27a">⚡ Frecuencia inteligente, modo alerta activo:</b> lluvia medida cada hora, alertas oficiales y pronóstico cada 2 horas, imagen satelital cada hora, mientras haya una alerta vigente o lluvia en curso.':'<b>⚡ Frecuencia inteligente, modo normal:</b> lluvia medida cada hora, ríos y pronóstico dos veces al día, alertas oficiales en tres controles diarios. Ante una alerta o lluvia, el sistema intensifica sus consultas en forma automática.'};
 }
 function tcPd(s){var m=/(\d{1,2})\/(\d{1,2})\/(\d{4})\D+(\d{1,2}):(\d{2})/.exec(String(s||''));return m?new Date(+m[3],+m[2]-1,+m[1],+m[4],+m[5]):null;}
 function tcHm(d){return String(d.getHours()).padStart(2,'0')+':'+String(d.getMinutes()).padStart(2,'0')+' h';}
@@ -334,9 +334,9 @@ function tcCons(consultado,actualizado){var c=tcPd(consultado),u=tcPd(actualizad
   var pA=tcPd(P.pron_actualizado||P.actualizado),pB=tcPd(PFp.actualizado),pUlt=(pB&&(!pA||pB>pA))?PFp.actualizado:(P.pron_actualizado||P.actualizado);
   var filas=[['🌊','Ríos',P.actualizado,PX.rio,tcCons(P.consultado,P.actualizado)],['🌧️','Lluvia caída',L&&L.actualizado,PX.lluvia,tcCons(L&&L.consultado,L&&L.actualizado)],['⛅','Pronóstico y alertas',pUlt,PX.pron,tcCons(PFp.consultado||(PFp.estado_verificado&&PFp.estado_verificado.fecha),pUlt)]];
   var u=$('upd');u.style.display='grid';u.style.gap='6px';
-  u.innerHTML='<span style="font-size:.78rem;font-weight:800;letter-spacing:.06em;color:#cfe3ea">ACTUALIZACIONES</span>'+filas.map(function(f){
+  u.innerHTML='<span style="font-size:.78rem;font-weight:800;letter-spacing:.06em;color:#cfe3ea">MONITOREO DE FUENTES OFICIALES</span>'+filas.map(function(f){
     return '<span style="display:grid;grid-template-columns:auto 1fr 1fr;gap:8px;align-items:center;background:rgba(255,255,255,.12);border-radius:12px;padding:8px 10px"><span style="font-size:1.3rem" aria-hidden="true">'+f[0]+'</span><span><span style="display:block;font-size:.72rem;color:#cfe3ea">'+f[1]+', último dato</span><b style="font-size:1rem;color:#fff">'+corto(f[2])+'</b>'+(f[4]?'<span style="display:block;font-size:.68rem;color:#ffe7a8">'+f[4]+'</span>':'')+'</span><span><span style="display:block;font-size:.72rem;color:#cfe3ea">Próxima, aprox.</span><b style="font-size:1rem;color:#fff">'+f[3]+'</b></span></span>';}).join('')
-    +'<span style="font-size:.74rem;color:#e6f1f4">'+PX.nota+' Las consultas se hacen en cada corrida; si no hay datos nuevos, se mantiene el último cambio registrado.</span>';
+    +'<span style="font-size:.74rem;color:#e6f1f4">'+PX.nota+' Protocolo de consulta continua: cada fuente oficial se verifica según su propia frecuencia; si no hay datos nuevos, se conserva el último registro validado.</span>';
 })();
 $('loc').addEventListener('change',function(){try{localStorage.setItem('loc-prov',this.value);}catch(e){}render();});
 (function(){var inp=$('buscar'),sug=$('sug');
