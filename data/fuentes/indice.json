@@ -1,6 +1,6 @@
 {
- "consultado": "15/11/2026, 08:57 h",
- "consultado_iso": "2026-11-15T08:57-03:00",
+ "consultado": "15/11/2026, 08:59 h",
+ "consultado_iso": "2026-11-15T08:59-03:00",
  "paginas": {
   "smn_alertas": {
    "url": "https://www.smn.gob.ar/alertas",
@@ -127,6 +127,85 @@
    "estado": 200,
    "caracteres": 2167,
    "archivo": "data/fuentes/coe_a_2026_0070_AT.txt"
+  }
+ },
+ "pedidas": {
+  "https://api.open-meteo.com/v1/forecast?latitude=-27.47,-29.14,-30.01,-28.51,-29.18,-29.79,-29.71,-28.55,-28.05,-27.59,-30.25,-28.25&longitude=-58.83,-59.26,-59.53,-59.04,-58.08,-58.05,-57.09,-56.04,-56.02,-56.69,-57.64,-58.62&hourly=precipitation,precipitation_probability&timezone=America/Argentina/Buenos_Aires&forecast_days=7": {
+   "url": "https://api.open-meteo.com/v1/forecast?latitude=-27.47,-29.14,-30.01,-28.51,-29.18,-29.79,-29.71,-28.55,-28.05,-27.59,-30.25,-28.25&longitude=-58.83,-59.26,-59.53,-59.04,-58.08,-58.05,-57.09,-56.04,-56.02,-56.69,-57.64,-58.62&hourly=precipitation,precipitation_probability&timezone=America/Argentina/Buenos_Aires&forecast_days=7",
+   "estado": 200,
+   "caracteres": 58314,
+   "archivo": "data/fuentes/web/api_open_meteo_com_v1_forecast_latitude_27_47_29_14_30_01_28_51_29_18_29_79_29_71_28_55_28.txt"
+  },
+  "https://www.meteored.com.ar/tiempo-en_Corrientes-America+Sur-Argentina-Corrientes-SARC-horas-16886.html": {
+   "url": "https://www.meteored.com.ar/tiempo-en_Corrientes-America+Sur-Argentina-Corrientes-SARC-horas-16886.html",
+   "estado": 200,
+   "caracteres": 23384,
+   "archivo": "data/fuentes/web/meteored_com_ar_tiempo_en_Corrientes_America_Sur_Argentina_Corrientes_SARC_horas_16886_htm.txt"
+  },
+  "https://www.saltogrande.org/docs/hidrologia/CaudalesNiveles.pdf": {
+   "url": "https://www.saltogrande.org/docs/hidrologia/CaudalesNiveles.pdf",
+   "estado": 200,
+   "caracteres": 46874,
+   "archivo": "data/fuentes/web/saltogrande_org_docs_hidrologia_CaudalesNiveles_pdf.txt"
+  },
+  "https://news.agrofy.com.ar/altura-de-los-rios/paso-de-los-libres": {
+   "url": "https://news.agrofy.com.ar/altura-de-los-rios/paso-de-los-libres",
+   "estado": "error",
+   "detalle": "HTTP Error 429: Too Many Requests"
+  },
+  "https://news.agrofy.com.ar/altura-de-los-rios/santo-tome": {
+   "url": "https://news.agrofy.com.ar/altura-de-los-rios/santo-tome",
+   "estado": "error",
+   "detalle": "HTTP Error 404: NOT FOUND"
+  },
+  "https://news.agrofy.com.ar/altura-de-los-rios/la-cruz": {
+   "url": "https://news.agrofy.com.ar/altura-de-los-rios/la-cruz",
+   "estado": "error",
+   "detalle": "HTTP Error 429: Too Many Requests"
+  },
+  "https://news.agrofy.com.ar/altura-de-los-rios/yapeyu": {
+   "url": "https://news.agrofy.com.ar/altura-de-los-rios/yapeyu",
+   "estado": "error",
+   "detalle": "HTTP Error 429: Too Many Requests"
+  },
+  "https://news.agrofy.com.ar/altura-de-los-rios/monte-caseros": {
+   "url": "https://news.agrofy.com.ar/altura-de-los-rios/monte-caseros",
+   "estado": "error",
+   "detalle": "HTTP Error 429: Too Many Requests"
+  },
+  "https://news.agrofy.com.ar/altura-de-los-rios/bonpland": {
+   "url": "https://news.agrofy.com.ar/altura-de-los-rios/bonpland",
+   "estado": "error",
+   "detalle": "HTTP Error 429: Too Many Requests"
+  },
+  "https://news.agrofy.com.ar/altura-de-los-rios/corrientes": {
+   "url": "https://news.agrofy.com.ar/altura-de-los-rios/corrientes",
+   "estado": "error",
+   "detalle": "HTTP Error 429: Too Many Requests"
+  },
+  "https://www.ellitoral.com/nacionales/600-evacuados-corrientes-crecida-rio-parana-santa-fe-uruguay-ahora-hoy_0_hCDWdFZeB7.amp.html": {
+   "url": "https://www.ellitoral.com/nacionales/600-evacuados-corrientes-crecida-rio-parana-santa-fe-uruguay-ahora-hoy_0_hCDWdFZeB7.amp.html",
+   "estado": 200,
+   "caracteres": 6497,
+   "archivo": "data/fuentes/web/ellitoral_com_nacionales_600_evacuados_corrientes_crecida_rio_parana_santa_fe_uruguay_ahor.txt"
+  },
+  "https://www.canal12misiones.com/?p=623849": {
+   "url": "https://www.canal12misiones.com/?p=623849",
+   "estado": 200,
+   "caracteres": 4816,
+   "archivo": "data/fuentes/web/canal12misiones_com_p_623849.txt"
+  },
+  "https://www.elonce.com/uid-889762": {
+   "url": "https://www.elonce.com/uid-889762",
+   "estado": 200,
+   "caracteres": 7988,
+   "archivo": "data/fuentes/web/elonce_com_uid_889762.txt"
+  },
+  "https://www.primeraedicion.com.ar/?p=208525": {
+   "url": "https://www.primeraedicion.com.ar/?p=208525",
+   "estado": 200,
+   "caracteres": 6642,
+   "archivo": "data/fuentes/web/primeraedicion_com_ar_p_208525.txt"
   }
  }
 }

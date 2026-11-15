@@ -64,6 +64,41 @@
    "url": "https://www.lt7noticias.com/75347-corrientes-el-concejo-aprobo-la-tarifaria-y-el-presupuesto-2026-en-sesion-extraordinaria",
    "desde": "15/11/2026, 08:56 h",
    "error": "HTTP Error 404: NOT FOUND"
+  },
+  {
+   "url": "https://news.agrofy.com.ar/altura-de-los-rios/paso-de-los-libres",
+   "desde": "15/11/2026, 08:59 h",
+   "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "url": "https://news.agrofy.com.ar/altura-de-los-rios/santo-tome",
+   "desde": "15/11/2026, 08:59 h",
+   "error": "HTTP Error 404: NOT FOUND"
+  },
+  {
+   "url": "https://news.agrofy.com.ar/altura-de-los-rios/la-cruz",
+   "desde": "15/11/2026, 08:59 h",
+   "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "url": "https://news.agrofy.com.ar/altura-de-los-rios/yapeyu",
+   "desde": "15/11/2026, 08:59 h",
+   "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "url": "https://news.agrofy.com.ar/altura-de-los-rios/monte-caseros",
+   "desde": "15/11/2026, 08:59 h",
+   "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "url": "https://news.agrofy.com.ar/altura-de-los-rios/bonpland",
+   "desde": "15/11/2026, 08:59 h",
+   "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "url": "https://news.agrofy.com.ar/altura-de-los-rios/corrientes",
+   "desde": "15/11/2026, 08:59 h",
+   "error": "HTTP Error 429: Too Many Requests"
   }
  ]
 }
