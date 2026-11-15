@@ -93,7 +93,7 @@ def texto(h):
 
 urls = {
     'smn_alertas': 'https://www.smn.gob.ar/alertas',
-    'smn_alertas_corto_plazo': 'https://www.smn.gob.ar/alertas-corto-plazo',
+    'smn_alertas_corto_plazo': 'https://www.smn.gob.ar/avisos_a_muy_corto_plazo',
     'coe_inicio': 'https://coe.corrientes.gob.ar/',
     # Ríos y pronóstico publicados por organismos y medios autorizados
     'ina_reporte_diario': 'https://alerta.ina.gob.ar/a5/diario/reporte_diario',

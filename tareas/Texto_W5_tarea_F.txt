@@ -12,8 +12,8 @@ REGLAS
 PASOS
 1. Comprobar que la computadora del autor responde. Si no responde, terminar con la línea "Computadora no disponible: sin lectura del SMN" (sin notificar).
 2. Leer las alertas del SMN para la provincia de Corrientes, en este orden:
-   a. En el navegador de la computadora del autor: abrir https://www.smn.gob.ar/alertas y leer el texto de la página (alertas por tormentas, lluvias, vientos, etc. y avisos a muy corto plazo), quedándose con lo que alcance a la provincia de Corrientes (departamentos o zonas de Corrientes). Si la página muestra un mapa con selección por provincia, elegir Corrientes.
-   b. Si el navegador no está disponible: desde la terminal de esa computadora, descargar https://www.smn.gob.ar/alertas y https://www.smn.gob.ar/alertas-corto-plazo (solo lectura) y extraer el texto.
+   a. En el navegador de la computadora del autor: abrir https://www.smn.gob.ar/alertas, https://www.smn.gob.ar/resumen_por_provincia (tabla por provincia y fenómeno) y https://www.smn.gob.ar/avisos_a_muy_corto_plazo y leer el texto de la página (alertas por tormentas, lluvias, vientos, etc. y avisos a muy corto plazo), quedándose con lo que alcance a la provincia de Corrientes (departamentos o zonas de Corrientes). Si la página muestra un mapa con selección por provincia, elegir Corrientes.
+   b. Si el navegador no está disponible: desde la terminal de esa computadora, descargar https://www.smn.gob.ar/alertas , https://www.smn.gob.ar/resumen_por_provincia y https://www.smn.gob.ar/avisos_a_muy_corto_plazo (solo lectura) y extraer el texto.
 3. Escribir data/fuentes/smn_alertas_local.json:
    {"consultado": "<hora de esta lectura>", "consultado_iso": "<ISO 8601 con -03:00>", "fuente": "Servicio Meteorológico Nacional (www.smn.gob.ar/alertas), leído desde una conexión de Corrientes",
     "resultado": "con alertas" | "sin alertas para Corrientes" | "página sin respuesta",
