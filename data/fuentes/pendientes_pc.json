@@ -21,79 +21,19 @@
    "error": "HTTP Error 429: Too Many Requests; HTTP 404 también desde la computadora del autor; 15/11 06:4x: HTTP 404 otra vez desde la computadora del autor; 15/11 08:40: HTTP 404 otra vez desde la computadora del autor"
   },
   {
-   "url": "https://www.corrientes.gob.ar/prensa",
-   "desde": "15/11/2026, 08:50 h",
-   "error": "HTTP Error 404: NOT FOUND"
-  },
-  {
-   "url": "https://www.diarioepoca.com/",
-   "desde": "15/11/2026, 08:50 h",
-   "error": "HTTP Error 429: Too Many Requests"
-  },
-  {
-   "url": "https://www.radiodos.com.ar/217046-el-aumento-del-10-para-estatales-de-corrientes-sera-desde-diciembre-e-impactara-en-el-aguinaldo",
-   "desde": "15/11/2026, 08:51 h",
-   "error": "HTTP Error 429: Too Many Requests"
-  },
-  {
    "url": "https://www.corrienteshoy.com/economia/el-llamado-a-licitacion-al-transporte-publico-en-corrientes-demandara-todo-el-2026.htm",
    "desde": "15/11/2026, 08:51 h",
-   "error": "HTTP Error 429: Too Many Requests"
-  },
-  {
-   "url": "https://nuevamiradacorrientes.com/news/suspensiones-corrientes-licita-colectivos-en-medio-de-un-sistema-en-conflicto",
-   "desde": "15/11/2026, 08:51 h",
-   "error": "HTTP Error 429: Too Many Requests"
+   "error": "HTTP Error 429: Too Many Requests; 15/11 10:4x: la página abre desde la computadora del autor pero el texto de la nota no se pudo extraer"
   },
   {
    "url": "https://www.corrienteshoy.com/policiales/mega-operativo-en-corrientes-secuestraron-30-motos-stunt.htm",
    "desde": "15/11/2026, 08:51 h",
-   "error": "HTTP Error 429: Too Many Requests"
-  },
-  {
-   "url": "https://www.radiodos.com.ar/t14067-recoleccion-de-residuos",
-   "desde": "15/11/2026, 08:51 h",
-   "error": "HTTP Error 429: Too Many Requests"
-  },
-  {
-   "url": "https://www.corrientes.gob.ar/",
-   "desde": "15/11/2026, 08:54 h",
-   "error": "HTTP Error 429: Too Many Requests"
-  },
-  {
-   "url": "https://www.lt7noticias.com/75347-corrientes-el-concejo-aprobo-la-tarifaria-y-el-presupuesto-2026-en-sesion-extraordinaria",
-   "desde": "15/11/2026, 08:56 h",
-   "error": "HTTP Error 404: NOT FOUND"
-  },
-  {
-   "url": "https://news.agrofy.com.ar/altura-de-los-rios/paso-de-los-libres",
-   "desde": "15/11/2026, 08:59 h",
-   "error": "HTTP Error 429: Too Many Requests"
-  },
-  {
-   "url": "https://news.agrofy.com.ar/altura-de-los-rios/santo-tome",
-   "desde": "15/11/2026, 08:59 h",
-   "error": "HTTP Error 404: NOT FOUND"
-  },
-  {
-   "url": "https://news.agrofy.com.ar/altura-de-los-rios/la-cruz",
-   "desde": "15/11/2026, 08:59 h",
-   "error": "HTTP Error 429: Too Many Requests"
-  },
-  {
-   "url": "https://news.agrofy.com.ar/altura-de-los-rios/yapeyu",
-   "desde": "15/11/2026, 08:59 h",
-   "error": "HTTP Error 429: Too Many Requests"
-  },
-  {
-   "url": "https://news.agrofy.com.ar/altura-de-los-rios/monte-caseros",
-   "desde": "15/11/2026, 08:59 h",
-   "error": "HTTP Error 429: Too Many Requests"
+   "error": "HTTP Error 429: Too Many Requests; 15/11 10:4x: la página abre desde la computadora del autor pero el texto de la nota no se pudo extraer"
   },
   {
    "url": "https://news.agrofy.com.ar/altura-de-los-rios/bonpland",
    "desde": "15/11/2026, 08:59 h",
-   "error": "HTTP Error 429: Too Many Requests"
+   "error": "HTTP Error 429: Too Many Requests; 15/11 10:4x: HTTP 404 también desde la computadora del autor"
   },
   {
    "url": "https://news.agrofy.com.ar/altura-de-los-rios/corrientes",

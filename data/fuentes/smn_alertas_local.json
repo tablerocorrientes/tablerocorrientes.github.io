@@ -1,8 +1,8 @@
 {
- "consultado": "15/11/2026, 08:40 h",
- "consultado_iso": "2026-11-15T08:40:51-03:00",
+ "consultado": "15/11/2026, 10:40 h",
+ "consultado_iso": "2026-11-15T10:40:00-03:00",
  "fuente": "Servicio Meteorológico Nacional (www.smn.gob.ar/alertas), leído desde una conexión de Corrientes",
  "resultado": "sin alertas para Corrientes",
  "alertas": [],
- "texto_pagina": "Alertas: fecha de emisión 15/11/2026 06:02h (Domingo 15, Lunes 16, Martes 17). Resumen por provincia (información vigente desde las 06:00h de hoy domingo 15): Corrientes sin alertas ni avisos en ninguna columna (Aviso a muy corto plazo, Tormenta, Lluvia, Nevada, Viento, Viento zonda, Niebla, Polvo, Humo, Ceniza: '-'). Provincias con alerta amarillo por tormenta: Chubut, La Pampa, Mendoza, Neuquén, Río Negro, San Luis. Avisos a muy corto plazo (www.smn.gob.ar/avisos_a_muy_corto_plazo): 'No hay avisos'. La dirección www.smn.gob.ar/alertas-corto-plazo respondió HTTP 404."
+ "texto_pagina": "Alertas (www.smn.gob.ar/alertas): Fecha de emisión: 15/11/2026 06:02h. Días: Domingo 15, Lunes 16, Martes 17.\nResumen por provincia (www.smn.gob.ar/resumen_por_provincia): Información vigente desde las 06:00h de hoy domingo 15 hasta las 05:59 horas de mañana lunes 16 de noviembre de 2.026. Corrientes: ACP -, Tormenta -, Lluvia -, Nevada -, Viento -, Viento zonda -, Niebla -, Polvo -, Humo -, Ceniza - (sin fenómenos marcados). Tampoco hay fenómenos marcados para Chaco, Misiones, Entre Ríos ni Santa Fe.\nAvisos a muy corto plazo (www.smn.gob.ar/avisos_a_muy_corto_plazo): No hay avisos.\nNota: la dirección www.smn.gob.ar/alertas-corto-plazo responde 'Page not found' (HTTP 404); los avisos se leyeron en /avisos_a_muy_corto_plazo."
 }
