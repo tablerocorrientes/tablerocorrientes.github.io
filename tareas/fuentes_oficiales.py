@@ -47,7 +47,8 @@ for nombre, url in urls.items():
         t = texto(h)
         # Enlaces internos del COE a partes y alertas, para seguirlos en la próxima consulta
         if nombre == 'coe_inicio':
-            enl = sorted(set(re.findall(r'href="(https://coe\.corrientes\.gob\.ar/[^"#?]+)"', h)))
+            enl = sorted(set('https://coe.corrientes.gob.ar' + x if x.startswith('/') else x
+                             for x in re.findall(r'href="((?:https://coe\.corrientes\.gob\.ar)?/a/[^"#?]+)"', h)))
             r['enlaces'] = enl[:80]
         open(os.path.join(OUT, nombre + '.txt'), 'w', encoding='utf-8').write(
             'Fuente: ' + url + '\nConsultado: ' + indice['consultado'] + '\n\n' + t)
