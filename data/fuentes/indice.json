@@ -1,6 +1,6 @@
 {
- "consultado": "15/11/2026, 12:06 h",
- "consultado_iso": "2026-11-15T12:06-03:00",
+ "consultado": "15/11/2026, 12:09 h",
+ "consultado_iso": "2026-11-15T12:09-03:00",
  "paginas": {
   "smn_alertas": {
    "url": "https://www.smn.gob.ar/alertas",
@@ -129,27 +129,18 @@
    "archivo": "data/fuentes/coe_a_2026_0070_AT.txt"
   }
  },
- "pedidas": {
-  "https://munired.mcypcorrientes.gob.ar/noticias/corrientes": {
+ "portales": {
+  "munired_municipio_corrientes": {
    "url": "https://munired.mcypcorrientes.gob.ar/noticias/corrientes",
    "estado": 200,
-   "caracteres": 1002,
-   "archivo": "data/fuentes/web/munired_mcypcorrientes_gob_ar_noticias_corrientes.txt"
+   "notas": 8,
+   "archivo": "data/fuentes/portales/munired_municipio_corrientes.txt"
   },
-  "https://www.nortecorrientes.com": {
-   "url": "https://www.nortecorrientes.com",
-   "estado": "error",
-   "detalle": "HTTP Error 429: Too Many Requests"
-  },
-  "https://www.radiodos.com.ar": {
-   "url": "https://www.radiodos.com.ar",
-   "estado": "error",
-   "detalle": "HTTP Error 429: Too Many Requests"
-  },
-  "https://www.diarioepoca.com": {
-   "url": "https://www.diarioepoca.com",
-   "estado": "error",
-   "detalle": "HTTP Error 429: Too Many Requests"
+  "munired_municipio_corrientes_p2": {
+   "url": "https://munired.mcypcorrientes.gob.ar/noticias/corrientes?page=2",
+   "estado": 200,
+   "notas": 8,
+   "archivo": "data/fuentes/portales/munired_municipio_corrientes_p2.txt"
   }
  }
 }
