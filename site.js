@@ -76,7 +76,7 @@
     if(barrios.length)opts.push('<optgroup label="Corrientes Capital">'+barrios.map(function(b){return '<option>'+b+'</option>';}).join('')+'</optgroup>');
     if(locs.length)opts.push('<optgroup label="Provincia de Corrientes">'+locs.map(function(b){return '<option>'+b+'</option>';}).join('')+'</optgroup>');
     var URL_R=cfg.reportes_url||'';
-    s.innerHTML='<h2>📸 Contanos qué pasa en tu barrio</h2><p style="margin:0;font-size:.9rem">Envíenos fotos y lo que ve sobre lluvias, calles anegadas o la crecida. <b>Puede hacerlo en forma anónima.</b> Sus reportes nos ayudan a conocer la situación real y alimentan nuestras investigaciones.</p>'+
+    s.innerHTML='<h2>📣 Informe lo que observa en su barrio</h2><p style="margin:0;font-size:.9rem">Envíenos fotos y lo que ve sobre lluvias, calles anegadas, agua en viviendas, desagües colapsados o la crecida. <b>Puede hacerlo en forma anónima.</b> Cada reporte se valida contra los datos oficiales y entra al <b>modo de aprendizaje</b> del tablero: mejora sus inferencias, proyecciones y estimaciones con inteligencia artificial, y muestra la situación real de cada barrio.</p>'+
       '<button class="env" id="tc-abrir" type="button">Enviar fotos o un reporte</button>'+
       '<div id="tc-form" hidden>'+
       '<div class="av"><b>No es un servicio de emergencias ni un canal oficial.</b> Es una iniciativa ciudadana independiente. Si su vida o sus bienes corren peligro, llame a Defensa Civil al <b>103</b> o al <b>911</b>.</div>'+
@@ -121,6 +121,7 @@
   function listas(){
     return fetch('/data/lugares.json').then(function(r){return r.json();}).then(function(d){return [d.barrios||[],d.localidades||[]];}).catch(function(){return [[],[]];});
   }
+  document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('.tc-go-rep');if(!a)return;var r=document.getElementById('tc-rep');if(!r)return;e.preventDefault();var c=r.closest('[hidden]');while(c){c.hidden=false;c=c.parentElement&&c.parentElement.closest('[hidden]');}r.scrollIntoView({behavior:'smooth',block:'start'});var b=document.getElementById('tc-abrir');if(b&&b.offsetParent!==null)setTimeout(function(){b.click();},400);});
   /* 5. Arranque */
   function iniciar(){
     estilo();menu();
