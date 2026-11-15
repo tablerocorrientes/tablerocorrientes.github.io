@@ -1,29 +1,3 @@
 {
- "pendientes": [
-  {
-   "url": "https://www.perfil.com/noticias/nea/el-gobierno-avanza-con-la-concesion-privada-en-paso-de-los-libres-el-plan-para-modernizar-el-cotecar-ayAX25b8szHc.phtml",
-   "desde": "15/11/2026, 01:36 h",
-   "error": "HTTP Error 429: Too Many Requests; HTTP 404 también desde la computadora del autor; 15/11 06:4x: HTTP 404 otra vez desde la computadora del autor; 15/11 08:40: HTTP 404 otra vez desde la computadora del autor; 15/11 11:43: HTTP 404 otra vez desde la computadora del autor; 15/11 11:44: HTTP 404 otra vez desde la computadora del autor (sitio autorizado en el navegador)"
-  },
-  {
-   "url": "https://www.perfil.com/noticias/nea",
-   "desde": "15/11/2026, 01:36 h",
-   "error": "HTTP Error 429: Too Many Requests; HTTP 404 también desde la computadora del autor; 15/11 08:40: HTTP 404 otra vez desde la computadora del autor; 15/11 11:43: HTTP 404 otra vez desde la computadora del autor; 15/11 11:44: HTTP 404 otra vez desde la computadora del autor (sitio autorizado en el navegador)"
-  },
-  {
-   "url": "https://www.perfil.com/noticias/nea/presupuesto-2027-grachot-expuso-en-el-senado-el-proyecto-de-486-billones-aiqJe7v55Z6K.phtml",
-   "desde": "15/11/2026, 01:54 h",
-   "error": "HTTP Error 429: Too Many Requests; HTTP 404 también desde la computadora del autor; 15/11 06:4x: HTTP 404 otra vez desde la computadora del autor; 15/11 08:40: HTTP 404 otra vez desde la computadora del autor; 15/11 11:43: HTTP 404 otra vez desde la computadora del autor; 15/11 11:44: HTTP 404 otra vez desde la computadora del autor (sitio autorizado en el navegador)"
-  },
-  {
-   "url": "https://ciudaddecorrientes.gov.ar/noticias",
-   "desde": "15/11/2026, 01:54 h",
-   "error": "HTTP Error 429: Too Many Requests; HTTP 404 también desde la computadora del autor; 15/11 06:4x: HTTP 404 otra vez desde la computadora del autor; 15/11 08:40: HTTP 404 otra vez desde la computadora del autor; 15/11 11:43: HTTP 404 otra vez desde la computadora del autor; 15/11 11:44: HTTP 404 otra vez desde la computadora del autor (sitio autorizado en el navegador)"
-  },
-  {
-   "url": "https://news.agrofy.com.ar/altura-de-los-rios/bonpland",
-   "desde": "15/11/2026, 08:59 h",
-   "error": "HTTP Error 429: Too Many Requests; 15/11 10:4x: HTTP 404 también desde la computadora del autor; 15/11 11:43: HTTP 404 otra vez desde la computadora del autor; 15/11 11:44: HTTP 404 otra vez desde la computadora del autor (sitio autorizado en el navegador)"
-  }
- ]
+ "pendientes": []
 }
