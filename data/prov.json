@@ -1,8 +1,8 @@
 {
- "estado_alertas": "VERIFICADO_SIN_ALERTAS",
+ "estado_alertas": "VERIFICADO_CON_ALERTAS",
  "estado_verificado": {
-  "fecha": "15/11/2026, 09:00 h",
-  "fuente": "SMN (consulta de las 08:40 h) y COE de Corrientes (consulta de las 09:00 h): sin alertas ni avisos a muy corto plazo para la provincia de Corrientes el domingo 15/11."
+  "fecha": "15/11/2026, 13:27 h",
+  "fuente": "SMN (consulta de las 12:45 h) y COE de Corrientes (consulta de las 13:26 h): alerta amarilla por tormentas prevista para el martes 17/11 en el norte, noroeste y noreste de Corrientes, incluida la Capital. Sin alertas el domingo 15 y el lunes 16."
  },
  "met_archivo": {
   "nombre": "vigilancia_meteorologica_20261113_183508.json",
@@ -1212,5 +1212,27 @@
   ]
  },
  "pron_actualizado": "15/11/2026, 09:15 h",
- "smn": []
+ "smn": [
+  {
+   "id_oficial": null,
+   "tipo": "alerta",
+   "aviso": "Alerta amarilla por tormentas del Servicio Meteorológico Nacional para el martes 17/11, en el norte y noroeste de Corrientes (zona de la Capital y Saladas) y en el noreste (zona de Ituzaingó). El domingo 15 y el lunes 16 no hay alertas en la provincia.",
+   "nivel": "amarillo",
+   "fenomeno": "tormenta",
+   "rango_mm": null,
+   "zonas": [
+    "Zona del norte y noroeste de Corrientes que incluye la Capital y Saladas",
+    "Zona del noreste de Corrientes que incluye Ituzaingó"
+   ],
+   "desde": "17/11/2026",
+   "hasta": "17/11/2026",
+   "desde_iso": "2026-11-17T00:00:00-03:00",
+   "hasta_iso": "2026-11-17T23:59:00-03:00",
+   "emision": "15/11/2026, 06:02 h",
+   "incluye_corrientes": true,
+   "incluye_capital": true,
+   "url": "https://www.smn.gob.ar/alertas",
+   "origen": "Servicio Meteorológico Nacional, alerta prevista consultada el 15/11/2026 a las 12:45 h"
+  }
+ ]
 }

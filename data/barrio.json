@@ -510,6 +510,20 @@
    "min": 80,
    "max": 120,
    "texto": "Alerta naranja por tormentas del Servicio Meteorológico Nacional, difundida por el COE de Corrientes (2026-0022-NT), que incluyó a la Capital el sábado 14/11 desde las 06:52 h hasta las 12:00 h, con 80 a 120 mm posibles. Luego rigió una alerta amarilla (2026-0071-AT) hasta las 13:00 h y otra alerta amarilla (2026-0073-AT), también para la Capital, de 14:00 a 22:00 h, con 30 a 70 mm posibles. Desde las 22:00 h no hay alertas vigentes para la Capital."
+  },
+  "2026-11-17": {
+   "nivel": "amarillo",
+   "incluye_capital": true,
+   "zonas": "Zona del norte y noroeste de Corrientes que incluye la Capital y Saladas, y zona del noreste que incluye Ituzaingó",
+   "desde": "17/11/2026",
+   "hasta": "17/11/2026",
+   "desde_iso": "2026-11-17T00:00:00-03:00",
+   "hasta_iso": "2026-11-17T23:59:00-03:00",
+   "emision": "15/11/2026, 06:02 h",
+   "emision_iso": "2026-11-15T06:02:00-03:00",
+   "min": null,
+   "max": null,
+   "texto": "Alerta amarilla por tormentas del Servicio Meteorológico Nacional prevista para el martes 17/11, que incluye a la Capital. El SMN no publicó todavía el horario ni la cantidad de lluvia esperada. El COE de Corrientes aún no la difundió."
   }
  },
  "rio": {
@@ -1074,5 +1088,5 @@
    "criterio": "Parte del SMN (La Nación, 07:08 h): parcialmente nublado, 10 %; el SMN prevé menos de 40 % de probabilidad: se usa el modelo más bajo (solo hay un modelo disponible para ese día): 16,4 mm. El modelo solo publica el total diario: el reparto horario es uniforme y no representa un horario real. Pronóstico de más de 48 h, de baja confiabilidad. Estimación derivada, no una medición."
   }
  },
- "estado_alertas": "VERIFICADO_SIN_ALERTAS"
+ "estado_alertas": "VERIFICADO_CON_ALERTAS"
 }
