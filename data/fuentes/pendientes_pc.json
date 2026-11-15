@@ -49,6 +49,31 @@
    "url": "https://www.perfil.com/noticias/nea",
    "desde": "15/11/2026, 01:36 h",
    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "url": "https://nuevamiradacorrientes.com/news/suspensiones-corrientes-licita-colectivos-en-medio-de-un-sistema-en-conflicto",
+   "desde": "15/11/2026, 01:54 h",
+   "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "url": "https://www.nortecorrientes.com/187805--se-termino-el-negocio-ersa-anuncio-el-el-cese-de-la-concesion-del-transporte",
+   "desde": "15/11/2026, 01:54 h",
+   "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "url": "https://www.perfil.com/noticias/nea/presupuesto-2027-grachot-expuso-en-el-senado-el-proyecto-de-486-billones-aiqJe7v55Z6K.phtml",
+   "desde": "15/11/2026, 01:54 h",
+   "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "url": "https://ciudaddecorrientes.gov.ar/noticias",
+   "desde": "15/11/2026, 01:54 h",
+   "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "url": "https://www.corrientes.gob.ar/",
+   "desde": "15/11/2026, 01:54 h",
+   "error": "HTTP Error 429: Too Many Requests"
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
- "consultado": "15/11/2026, 01:36 h",
- "consultado_iso": "2026-11-15T01:36-03:00",
+ "consultado": "15/11/2026, 01:54 h",
+ "consultado_iso": "2026-11-15T01:54-03:00",
  "paginas": {
   "smn_alertas": {
    "url": "https://www.smn.gob.ar/alertas",
@@ -51,7 +51,7 @@
   "lanacion_clima_corrientes": {
    "url": "https://www.lanacion.com.ar/clima/corrientes/",
    "estado": 200,
-   "caracteres": 8278,
+   "caracteres": 8167,
    "archivo": "data/fuentes/lanacion_clima_corrientes.txt"
   },
   "noaa_enso": {
@@ -137,100 +137,60 @@
   }
  },
  "pedidas": {
-  "https://www.diarioellibertador.com.ar/repunte-del-rio-no-hay-balnearios-y-prefectura-pide-extremar-cuidados/": {
-   "url": "https://www.diarioellibertador.com.ar/repunte-del-rio-no-hay-balnearios-y-prefectura-pide-extremar-cuidados/",
+  "https://www.momarandu.com/notix/noticia/16501_lusa-se-har-cargo-de-197-millones-de-deuda-de-ersa-urbano-con-la-municipalidad-de-corrientes.htm": {
+   "url": "https://www.momarandu.com/notix/noticia/16501_lusa-se-har-cargo-de-197-millones-de-deuda-de-ersa-urbano-con-la-municipalidad-de-corrientes.htm",
    "estado": 200,
-   "caracteres": 6020,
-   "archivo": "data/fuentes/web/diarioellibertador_com_ar_repunte_del_rio_no_hay_balnearios_y_prefectura_pide_extremar_cui.txt"
+   "caracteres": 5738,
+   "archivo": "data/fuentes/web/momarandu_com_notix_noticia_16501_lusa_se_har_cargo_de_197_millones_de_deuda_de_ersa_urban.txt"
   },
-  "https://corrientes.tur.ar/presentaron-la-modernizacion-de-la-web-de-turismo-y-los-carnavales-correntinos-2027/": {
-   "url": "https://corrientes.tur.ar/presentaron-la-modernizacion-de-la-web-de-turismo-y-los-carnavales-correntinos-2027/",
+  "https://chacodiapordia.com/corrientes-usuarios-y-consumidores-senala-irregularidades-en-la-prorroga-de-la-concesion-a-lusa/": {
+   "url": "https://chacodiapordia.com/corrientes-usuarios-y-consumidores-senala-irregularidades-en-la-prorroga-de-la-concesion-a-lusa/",
    "estado": 200,
-   "caracteres": 4608,
-   "archivo": "data/fuentes/web/corrientes_tur_ar_presentaron_la_modernizacion_de_la_web_de_turismo_y_los_carnavales_corre.txt"
+   "caracteres": 7787,
+   "archivo": "data/fuentes/web/chacodiapordia_com_corrientes_usuarios_y_consumidores_senala_irregularidades_en_la_prorrog.txt"
   },
-  "https://www.corrienteshoy.com/info-general/el-carnaval-oficial-de-corrientes-comenzara-el-30-de-enero-y-culminara-el-27-de-febrero-de-2027.htm": {
-   "url": "https://www.corrienteshoy.com/info-general/el-carnaval-oficial-de-corrientes-comenzara-el-30-de-enero-y-culminara-el-27-de-febrero-de-2027.htm",
+  "https://concejocorrientes.gob.ar/expedientes/683-C-2025.pdf": {
+   "url": "https://concejocorrientes.gob.ar/expedientes/683-C-2025.pdf",
+   "estado": 200,
+   "caracteres": 24124,
+   "archivo": "data/fuentes/web/concejocorrientes_gob_ar_expedientes_683_C_2025_pdf.txt"
+  },
+  "https://nuevamiradacorrientes.com/news/suspensiones-corrientes-licita-colectivos-en-medio-de-un-sistema-en-conflicto": {
+   "url": "https://nuevamiradacorrientes.com/news/suspensiones-corrientes-licita-colectivos-en-medio-de-un-sistema-en-conflicto",
    "estado": "error",
    "detalle": "HTTP Error 429: Too Many Requests"
   },
-  "https://www.ellitoral.com.ar/cultura/2026-9-11-18-55-0-carnavales-correntinos-2027-confirmaron-las-fechas-y-construiran-un-multiespacio-en-el-nolo-alias": {
-   "url": "https://www.ellitoral.com.ar/cultura/2026-9-11-18-55-0-carnavales-correntinos-2027-confirmaron-las-fechas-y-construiran-un-multiespacio-en-el-nolo-alias",
+  "https://neahoy.com/2026/04/21/crisis-del-transporte-en-corrientes-suspenden-choferes-y-crece-la-tension-en-el-sistema/": {
+   "url": "https://neahoy.com/2026/04/21/crisis-del-transporte-en-corrientes-suspenden-choferes-y-crece-la-tension-en-el-sistema/",
    "estado": 200,
-   "caracteres": 3005,
-   "archivo": "data/fuentes/web/ellitoral_com_ar_cultura_2026_9_11_18_55_0_carnavales_correntinos_2027_confirmaron_las_fec.txt"
+   "caracteres": 6280,
+   "archivo": "data/fuentes/web/neahoy_com_2026_04_21_crisis_del_transporte_en_corrientes_suspenden_choferes_y_crece_la_te.txt"
   },
-  "https://www.perfil.com/noticias/nea/juan-pablo-valdes-anuncio-un-aumento-salarial-en-noviembre-evaluamos-si-sera-de-uno-o-dos-digitos.phtml": {
-   "url": "https://www.perfil.com/noticias/nea/juan-pablo-valdes-anuncio-un-aumento-salarial-en-noviembre-evaluamos-si-sera-de-uno-o-dos-digitos.phtml",
+  "https://www.laizquierdadiario.com/Recolectores-de-residuos-denuncian-salarios-debajo-de-la-linea-indigencia": {
+   "url": "https://www.laizquierdadiario.com/Recolectores-de-residuos-denuncian-salarios-debajo-de-la-linea-indigencia",
    "estado": 200,
-   "caracteres": 4336,
-   "archivo": "data/fuentes/web/perfil_com_noticias_nea_juan_pablo_valdes_anuncio_un_aumento_salarial_en_noviembre_evaluam.txt"
+   "caracteres": 7218,
+   "archivo": "data/fuentes/web/laizquierdadiario_com_Recolectores_de_residuos_denuncian_salarios_debajo_de_la_linea_indig.txt"
   },
-  "https://prensamercosur.org/2026/11/08/inminente-anuncio-salarial-con-una-mejora-que-rondara-el-8-y-el-10/": {
-   "url": "https://prensamercosur.org/2026/11/08/inminente-anuncio-salarial-con-una-mejora-que-rondara-el-8-y-el-10/",
-   "estado": 200,
-   "caracteres": 12168,
-   "archivo": "data/fuentes/web/prensamercosur_org_2026_11_08_inminente_anuncio_salarial_con_una_mejora_que_rondara_el_8_y.txt"
-  },
-  "https://www.ellitoral.com.ar/sociedad/2026-11-13-20-33-0-una-ciudad-correntina-se-quedo-sin-playas-habilitadas-por-la-crecida-del-rio-uruguay": {
-   "url": "https://www.ellitoral.com.ar/sociedad/2026-11-13-20-33-0-una-ciudad-correntina-se-quedo-sin-playas-habilitadas-por-la-crecida-del-rio-uruguay",
-   "estado": 200,
-   "caracteres": 3451,
-   "archivo": "data/fuentes/web/ellitoral_com_ar_sociedad_2026_11_13_20_33_0_una_ciudad_correntina_se_quedo_sin_playas_hab.txt"
-  },
-  "https://www.diarioellibertador.com.ar/el-rio-parana-supero-los-650-metros-y-prefectura-activo-la-alerta/": {
-   "url": "https://www.diarioellibertador.com.ar/el-rio-parana-supero-los-650-metros-y-prefectura-activo-la-alerta/",
-   "estado": 200,
-   "caracteres": 5220,
-   "archivo": "data/fuentes/web/diarioellibertador_com_ar_el_rio_parana_supero_los_650_metros_y_prefectura_activo_la_alert.txt"
-  },
-  "https://www.perfil.com/noticias/nea/el-gobierno-avanza-con-la-concesion-privada-en-paso-de-los-libres-el-plan-para-modernizar-el-cotecar-ayAX25b8szHc.phtml": {
-   "url": "https://www.perfil.com/noticias/nea/el-gobierno-avanza-con-la-concesion-privada-en-paso-de-los-libres-el-plan-para-modernizar-el-cotecar-ayAX25b8szHc.phtml",
+  "https://www.nortecorrientes.com/187805--se-termino-el-negocio-ersa-anuncio-el-el-cese-de-la-concesion-del-transporte": {
+   "url": "https://www.nortecorrientes.com/187805--se-termino-el-negocio-ersa-anuncio-el-el-cese-de-la-concesion-del-transporte",
    "estado": "error",
    "detalle": "HTTP Error 429: Too Many Requests"
   },
-  "https://www.republicadecorrientes.com/76201-juan-pablo-valdes-dijo-que-corrientes-espera-fondos-de-la-nacion-por-3000-millones": {
-   "url": "https://www.republicadecorrientes.com/76201-juan-pablo-valdes-dijo-que-corrientes-espera-fondos-de-la-nacion-por-3000-millones",
+  "https://www.perfil.com/noticias/nea/presupuesto-2027-grachot-expuso-en-el-senado-el-proyecto-de-486-billones-aiqJe7v55Z6K.phtml": {
+   "url": "https://www.perfil.com/noticias/nea/presupuesto-2027-grachot-expuso-en-el-senado-el-proyecto-de-486-billones-aiqJe7v55Z6K.phtml",
    "estado": "error",
    "detalle": "HTTP Error 429: Too Many Requests"
   },
-  "https://www.nortecorrientes.com/203909-impulsan-un-regimen-de-transicion-en-el-transporte-urbano-camino-al-proceso-licitatorio": {
-   "url": "https://www.nortecorrientes.com/203909-impulsan-un-regimen-de-transicion-en-el-transporte-urbano-camino-al-proceso-licitatorio",
+  "https://ciudaddecorrientes.gov.ar/noticias": {
+   "url": "https://ciudaddecorrientes.gov.ar/noticias",
    "estado": "error",
    "detalle": "HTTP Error 429: Too Many Requests"
   },
-  "https://www.diarioepoca.com/1394439-jp-valdes-y-polich-destacaron-el-impacto-de-la-megaobra-de-desague-concluida-sobre-el-pirayui": {
-   "url": "https://www.diarioepoca.com/1394439-jp-valdes-y-polich-destacaron-el-impacto-de-la-megaobra-de-desague-concluida-sobre-el-pirayui",
+  "https://www.corrientes.gob.ar/": {
+   "url": "https://www.corrientes.gob.ar/",
    "estado": "error",
    "detalle": "HTTP Error 429: Too Many Requests"
-  },
-  "https://www.radiosudamericana.com/": {
-   "url": "https://www.radiosudamericana.com/",
-   "estado": 200,
-   "caracteres": 17546,
-   "archivo": "data/fuentes/web/radiosudamericana_com.txt"
-  },
-  "https://www.radiodos.com.ar/": {
-   "url": "https://www.radiodos.com.ar/",
-   "estado": "error",
-   "detalle": "HTTP Error 429: Too Many Requests"
-  },
-  "https://www.perfil.com/noticias/nea": {
-   "url": "https://www.perfil.com/noticias/nea",
-   "estado": "error",
-   "detalle": "HTTP Error 429: Too Many Requests"
-  },
-  "https://www.ellitoral.com.ar/ciudad": {
-   "url": "https://www.ellitoral.com.ar/ciudad",
-   "estado": 200,
-   "caracteres": 5488,
-   "archivo": "data/fuentes/web/ellitoral_com_ar_ciudad.txt"
-  },
-  "https://www.ellitoral.com.ar/politica": {
-   "url": "https://www.ellitoral.com.ar/politica",
-   "estado": 200,
-   "caracteres": 5131,
-   "archivo": "data/fuentes/web/ellitoral_com_ar_politica.txt"
   }
  }
 }
