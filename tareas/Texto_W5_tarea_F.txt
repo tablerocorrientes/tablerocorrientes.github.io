@@ -3,6 +3,7 @@ TAREA F, ALERTAS DEL SMN DESDE LA COMPUTADORA DEL AUTOR (cada 2 horas, solo si l
 Propósito: el sitio del SMN rechaza las consultas que llegan desde servidores en la nube, pero responde a una conexión común de Corrientes. Esta tarea usa la computadora del autor para leer las alertas del SMN de primera mano y dejarlas en el repositorio. Si la computadora está apagada o no responde, la tarea termina sin escribir nada y sin notificar: el tablero sigue funcionando con el COE.
 
 REGLAS
+- SIN APROBACIONES: la tarea corre sin nadie presente. Si el navegador o la computadora piden una autorización, no esperar: terminar con "Computadora no disponible: sin lectura del SMN", sin escribir nada.
 - Repositorio: tablerocorrientes/tablerocorrientes.github.io, rama main. Esta tarea SOLO escribe data/fuentes/smn_alertas_local.json. No modificar ningún otro archivo (las alertas del tablero las actualizan las tareas A, B, D y E).
 - Escritura por git, sin clave, desde la nube de la sesión (no desde la computadora del autor): git clone --depth 1 https://github.com/tablerocorrientes/tablerocorrientes.github.io /tmp/sitio , guardar el archivo en UTF-8 con indent=1 y ensure_ascii=False, git add, git -c user.name="Tablero Ciudadano" -c user.email="tablerocorrientes@gmail.com" commit -m "Tarea F: alertas del SMN, <fecha y hora>" y git push origin HEAD:main. Si el push es rechazado: git pull --rebase origin main y push una vez más.
 - En la computadora del autor: solo leer páginas del SMN. No crear, modificar ni borrar archivos allí, no instalar nada y no abrir otros sitios.
