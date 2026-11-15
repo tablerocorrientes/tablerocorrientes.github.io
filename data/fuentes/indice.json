@@ -1,6 +1,6 @@
 {
- "consultado": "15/11/2026, 00:43 h",
- "consultado_iso": "2026-11-15T00:43-03:00",
+ "consultado": "15/11/2026, 00:45 h",
+ "consultado_iso": "2026-11-15T00:45-03:00",
  "paginas": {
   "smn_alertas": {
    "url": "https://www.smn.gob.ar/alertas",
@@ -40,7 +40,7 @@
   "rioparana_alturas": {
    "url": "https://www.rioparana.com.ar",
    "estado": 200,
-   "caracteres": 11366,
+   "caracteres": 11314,
    "archivo": "data/fuentes/rioparana_alturas.txt"
   },
   "prefectura_alturas": {
@@ -137,154 +137,79 @@
   }
  },
  "pedidas": {
-  "https://www.ellitoral.com.ar/ciudad/2026-10-17-21-50-0-la-capital-correntina-tiene-339-personas-autoevacuadas-y-10-barrios-comprometidos": {
-   "url": "https://www.ellitoral.com.ar/ciudad/2026-10-17-21-50-0-la-capital-correntina-tiene-339-personas-autoevacuadas-y-10-barrios-comprometidos",
+  "https://www.ellitoral.com.ar/ciudad/2026-10-19-12-20-0-hay-casas-que-estan-totalmente-bajo-agua-la-creciente-golpea-a-los-barrios-riberenos": {
+   "url": "https://www.ellitoral.com.ar/ciudad/2026-10-19-12-20-0-hay-casas-que-estan-totalmente-bajo-agua-la-creciente-golpea-a-los-barrios-riberenos",
    "estado": 200,
-   "caracteres": 2864,
-   "archivo": "data/fuentes/web/ellitoral_com_ar_ciudad_2026_10_17_21_50_0_la_capital_correntina_tiene_339_personas_autoev.txt"
+   "caracteres": 3406,
+   "archivo": "data/fuentes/web/ellitoral_com_ar_ciudad_2026_10_19_12_20_0_hay_casas_que_estan_totalmente_bajo_agua_la_cre.txt"
   },
-  "https://www.ellitoral.com.ar/ciudad/2026-10-23-20-34-0-el-parana-se-estaciono-y-hay-mas-de-600-personas-fuera-de-sus-casas-en-capital": {
-   "url": "https://www.ellitoral.com.ar/ciudad/2026-10-23-20-34-0-el-parana-se-estaciono-y-hay-mas-de-600-personas-fuera-de-sus-casas-en-capital",
-   "estado": 200,
-   "caracteres": 3613,
-   "archivo": "data/fuentes/web/ellitoral_com_ar_ciudad_2026_10_23_20_34_0_el_parana_se_estaciono_y_hay_mas_de_600_persona.txt"
-  },
-  "https://www.ellitoral.com.ar/sociedad/2026-10-28-22-6-0-corrientes-prefectura-asistio-a-pobladores-afectados-por-la-crecida-del-rio-parana": {
-   "url": "https://www.ellitoral.com.ar/sociedad/2026-10-28-22-6-0-corrientes-prefectura-asistio-a-pobladores-afectados-por-la-crecida-del-rio-parana",
-   "estado": 200,
-   "caracteres": 2310,
-   "archivo": "data/fuentes/web/ellitoral_com_ar_sociedad_2026_10_28_22_6_0_corrientes_prefectura_asistio_a_pobladores_afe.txt"
-  },
-  "https://www.ellitoral.com.ar/sociedad/2026-11-3-17-57-0-el-rio-corriente-en-crecida-desbordo-la-costanera-y-dejo-el-primer-evacuado-en-esquina": {
-   "url": "https://www.ellitoral.com.ar/sociedad/2026-11-3-17-57-0-el-rio-corriente-en-crecida-desbordo-la-costanera-y-dejo-el-primer-evacuado-en-esquina",
-   "estado": 200,
-   "caracteres": 2944,
-   "archivo": "data/fuentes/web/ellitoral_com_ar_sociedad_2026_11_3_17_57_0_el_rio_corriente_en_crecida_desbordo_la_costan.txt"
-  },
-  "https://www.ellitoral.com.ar/sociedad/2026-11-5-19-39-0-el-parana-se-estaciona-y-corrientes-tiene-1-967-evacuados-por-la-crecida": {
-   "url": "https://www.ellitoral.com.ar/sociedad/2026-11-5-19-39-0-el-parana-se-estaciona-y-corrientes-tiene-1-967-evacuados-por-la-crecida",
-   "estado": 200,
-   "caracteres": 2803,
-   "archivo": "data/fuentes/web/ellitoral_com_ar_sociedad_2026_11_5_19_39_0_el_parana_se_estaciona_y_corrientes_tiene_1_96.txt"
-  },
-  "https://www.ellitoral.com.ar/sociedad/2026-10-21-16-26-0-crecida-de-los-rios-parana-y-uruguay-ya-hay-mas-de-1-000-personas-afectadas-en-corrientes": {
-   "url": "https://www.ellitoral.com.ar/sociedad/2026-10-21-16-26-0-crecida-de-los-rios-parana-y-uruguay-ya-hay-mas-de-1-000-personas-afectadas-en-corrientes",
-   "estado": 200,
-   "caracteres": 3481,
-   "archivo": "data/fuentes/web/ellitoral_com_ar_sociedad_2026_10_21_16_26_0_crecida_de_los_rios_parana_y_uruguay_ya_hay_m.txt"
-  },
-  "https://www.diarioellibertador.com.ar/crecida-rio-itati-evacuados-ituzaingo/": {
-   "url": "https://www.diarioellibertador.com.ar/crecida-rio-itati-evacuados-ituzaingo/",
-   "estado": 200,
-   "caracteres": 5593,
-   "archivo": "data/fuentes/web/diarioellibertador_com_ar_crecida_rio_itati_evacuados_ituzaingo.txt"
-  },
-  "https://www.radiosudamericana.com/amp/sociedad/351506-Inundaciones-en-Itati--el-drama-de-las-familias-evacuadas.htm": {
-   "url": "https://www.radiosudamericana.com/amp/sociedad/351506-Inundaciones-en-Itati--el-drama-de-las-familias-evacuadas.htm",
-   "estado": 200,
-   "caracteres": 2320,
-   "archivo": "data/fuentes/web/radiosudamericana_com_amp_sociedad_351506_Inundaciones_en_Itati_el_drama_de_las_familias_e.txt"
-  },
-  "https://diario1588.com/?p=270602": {
-   "url": "https://diario1588.com/?p=270602",
-   "estado": 200,
-   "caracteres": 4430,
-   "archivo": "data/fuentes/web/diario1588_com_p_270602.txt"
-  },
-  "https://itunet.com.ar/2026-10-18-la-crecida-del-parana-obliga-a-evacuar-familias-en-itati-e-ituzaingo": {
-   "url": "https://itunet.com.ar/2026-10-18-la-crecida-del-parana-obliga-a-evacuar-familias-en-itati-e-ituzaingo",
-   "estado": 200,
-   "caracteres": 5677,
-   "archivo": "data/fuentes/web/itunet_com_ar_2026_10_18_la_crecida_del_parana_obliga_a_evacuar_familias_en_itati_e_ituzai.txt"
-  },
-  "https://www.13maxnoticias.com/45007-la-creciente-del-parana-deja-mas-de-1400-desplazados-en-corrientes-y-la-armada-se-sumo-a-la-asistencia": {
-   "url": "https://www.13maxnoticias.com/45007-la-creciente-del-parana-deja-mas-de-1400-desplazados-en-corrientes-y-la-armada-se-sumo-a-la-asistencia",
+  "https://www.radiodos.com.ar/215723-creciente-en-corrientes-mas-de-400-personas-se-autoevacuaron-en-barrios-riberenos-de-la-capital": {
+   "url": "https://www.radiodos.com.ar/215723-creciente-en-corrientes-mas-de-400-personas-se-autoevacuaron-en-barrios-riberenos-de-la-capital",
    "estado": "error",
    "detalle": "HTTP Error 403: Forbidden"
   },
-  "https://elmonterizo.com/la-crecida-saco-a-472-personas-de-sus-casas-en-corrientes-el-mapa-pueblo-por-pueblo": {
-   "url": "https://elmonterizo.com/la-crecida-saco-a-472-personas-de-sus-casas-en-corrientes-el-mapa-pueblo-por-pueblo",
+  "https://misionesonline.net/2026/11/03/el-fenomeno-de-el-nino-no-da-tregua-en-corrientes-y-los-desplazados-por-la-creciente-superaron-los-1-680/": {
+   "url": "https://misionesonline.net/2026/11/03/el-fenomeno-de-el-nino-no-da-tregua-en-corrientes-y-los-desplazados-por-la-creciente-superaron-los-1-680/",
    "estado": 200,
-   "caracteres": 4315,
-   "archivo": "data/fuentes/web/elmonterizo_com_la_crecida_saco_a_472_personas_de_sus_casas_en_corrientes_el_mapa_pueblo_p.txt"
+   "caracteres": 7724,
+   "archivo": "data/fuentes/web/misionesonline_net_2026_11_03_el_fenomeno_de_el_nino_no_da_tregua_en_corrientes_y_los_desp.txt"
   },
-  "https://elmonterizo.com/crecio-el-parana-se-abrio-el-primer-refugio-en-la-capital-y-la-armada-desembarco-en-el-puerto": {
-   "url": "https://elmonterizo.com/crecio-el-parana-se-abrio-el-primer-refugio-en-la-capital-y-la-armada-desembarco-en-el-puerto",
+  "https://diario1588.com/?p=270400": {
+   "url": "https://diario1588.com/?p=270400",
    "estado": 200,
-   "caracteres": 4151,
-   "archivo": "data/fuentes/web/elmonterizo_com_crecio_el_parana_se_abrio_el_primer_refugio_en_la_capital_y_la_armada_dese.txt"
+   "caracteres": 4423,
+   "archivo": "data/fuentes/web/diario1588_com_p_270400.txt"
   },
-  "https://elmonterizo.com/el-parana-ya-se-lleva-familias-en-corrientes-y-los-evacuados-seguiran-creciendo": {
-   "url": "https://elmonterizo.com/el-parana-ya-se-lleva-familias-en-corrientes-y-los-evacuados-seguiran-creciendo",
-   "estado": 200,
-   "caracteres": 4715,
-   "archivo": "data/fuentes/web/elmonterizo_com_el_parana_ya_se_lleva_familias_en_corrientes_y_los_evacuados_seguiran_crec.txt"
+  "https://www.nortecorrientes.com/206968-con-mas-de-1600-evacuados-preven-una-bajante-temporal-pero-advierten-nuevas-subas": {
+   "url": "https://www.nortecorrientes.com/206968-con-mas-de-1600-evacuados-preven-una-bajante-temporal-pero-advierten-nuevas-subas",
+   "estado": "error",
+   "detalle": "HTTP Error 403: Forbidden"
   },
-  "https://www.infobae.com/sociedad/2026/11/14/crecida-del-rio-parana-santa-fe-se-encuentra-al-limite-de-la-evacuacion-y-ya-son-mas-de-4500-afectados-en-el-litoral/": {
-   "url": "https://www.infobae.com/sociedad/2026/11/14/crecida-del-rio-parana-santa-fe-se-encuentra-al-limite-de-la-evacuacion-y-ya-son-mas-de-4500-afectados-en-el-litoral/",
+  "https://laredcorrientes.com/noticia/01711_asistencia-municipal-ante-la-crecida-ms-de-400-personas-autoevacuadas-y-relevamientos-en-zonas-crticas-.htm": {
+   "url": "https://laredcorrientes.com/noticia/01711_asistencia-municipal-ante-la-crecida-ms-de-400-personas-autoevacuadas-y-relevamientos-en-zonas-crticas-.htm",
    "estado": 200,
-   "caracteres": 10995,
-   "archivo": "data/fuentes/web/infobae_com_sociedad_2026_11_14_crecida_del_rio_parana_santa_fe_se_encuentra_al_limite_de_.txt"
+   "caracteres": 4694,
+   "archivo": "data/fuentes/web/laredcorrientes_com_noticia_01711_asistencia_municipal_ante_la_crecida_ms_de_400_personas_.txt"
   },
-  "https://www.elonce.com/sociedad/la-creciente-del-parana-corto-una-ruta-en-corrientes-y-15-familias-quedaron-aisladas.htm": {
-   "url": "https://www.elonce.com/sociedad/la-creciente-del-parana-corto-una-ruta-en-corrientes-y-15-familias-quedaron-aisladas.htm",
+  "https://www.diarioellibertador.com.ar/el-agua-avanza-y-la-provincia-afronta-un-esquema-de-crecidas-ciclicas/": {
+   "url": "https://www.diarioellibertador.com.ar/el-agua-avanza-y-la-provincia-afronta-un-esquema-de-crecidas-ciclicas/",
    "estado": 200,
-   "caracteres": 7737,
-   "archivo": "data/fuentes/web/elonce_com_sociedad_la_creciente_del_parana_corto_una_ruta_en_corrientes_y_15_familias_que.txt"
+   "caracteres": 5847,
+   "archivo": "data/fuentes/web/diarioellibertador_com_ar_el_agua_avanza_y_la_provincia_afronta_un_esquema_de_crecidas_cic.txt"
   },
-  "https://www.canal12misiones.com/nacionales/el-nino-corrientes-rio-parana": {
-   "url": "https://www.canal12misiones.com/nacionales/el-nino-corrientes-rio-parana",
-   "estado": 200,
-   "caracteres": 4165,
-   "archivo": "data/fuentes/web/canal12misiones_com_nacionales_el_nino_corrientes_rio_parana.txt"
+  "https://www.saltanews.com.ar/en-corrientes-el-agua-sube-y-el-miedo-a-los-robos-frena-la-evacuacion": {
+   "url": "https://www.saltanews.com.ar/en-corrientes-el-agua-sube-y-el-miedo-a-los-robos-frena-la-evacuacion",
+   "estado": "error",
+   "detalle": "HTTP Error 429: Too Many Requests"
   },
-  "https://www.delabahia.com.ar/el-rio-parana-comenzo-a-bajar-pero-aun-hay-mas-de-1-600-evacuados-en-corrientes/": {
-   "url": "https://www.delabahia.com.ar/el-rio-parana-comenzo-a-bajar-pero-aun-hay-mas-de-1-600-evacuados-en-corrientes/",
-   "estado": 200,
-   "caracteres": 2450,
-   "archivo": "data/fuentes/web/delabahia_com_ar_el_rio_parana_comenzo_a_bajar_pero_aun_hay_mas_de_1_600_evacuados_en_corr.txt"
+  "https://www.diarionorte.com/336563-el-parana-bajo-otros-10-centimetros-y-se-acerca-al-nivel-de-evacuacion": {
+   "url": "https://www.diarionorte.com/336563-el-parana-bajo-otros-10-centimetros-y-se-acerca-al-nivel-de-evacuacion",
+   "estado": "error",
+   "detalle": "HTTP Error 403: Forbidden"
   },
-  "https://prensamercosur.org/2026/11/05/inundaciones-en-corrientes-440-evacuados-y-mas-de-mil-autoevacuados-por-la-creciente/": {
-   "url": "https://prensamercosur.org/2026/11/05/inundaciones-en-corrientes-440-evacuados-y-mas-de-mil-autoevacuados-por-la-creciente/",
+  "https://www.ellitoral.com.ar/sociedad/2026-10-16-22-30-0-corrientes-472-personas-abandonaron-sus-casas-por-la-crecida-del-parana": {
+   "url": "https://www.ellitoral.com.ar/sociedad/2026-10-16-22-30-0-corrientes-472-personas-abandonaron-sus-casas-por-la-crecida-del-parana",
    "estado": 200,
-   "caracteres": 11401,
-   "archivo": "data/fuentes/web/prensamercosur_org_2026_11_05_inundaciones_en_corrientes_440_evacuados_y_mas_de_mil_autoev.txt"
+   "caracteres": 3434,
+   "archivo": "data/fuentes/web/ellitoral_com_ar_sociedad_2026_10_16_22_30_0_corrientes_472_personas_abandonaron_sus_casas.txt"
   },
-  "https://www.conclusion.com.ar/?p=1469303": {
-   "url": "https://www.conclusion.com.ar/?p=1469303",
+  "https://24diez.com.ar/crecida-del-parana-en-corrientes-hay-103-familias-autoevacuadas-y-cortaron-la-luz-en-zonas-inundadas/": {
+   "url": "https://24diez.com.ar/crecida-del-parana-en-corrientes-hay-103-familias-autoevacuadas-y-cortaron-la-luz-en-zonas-inundadas/",
    "estado": 200,
-   "caracteres": 6165,
-   "archivo": "data/fuentes/web/conclusion_com_ar_p_1469303.txt"
+   "caracteres": 8071,
+   "archivo": "data/fuentes/web/24diez_com_ar_crecida_del_parana_en_corrientes_hay_103_familias_autoevacuadas_y_cortaron_l.txt"
   },
-  "https://examedia.com.ar/portada/post/88072280": {
-   "url": "https://examedia.com.ar/portada/post/88072280",
+  "https://infogoya.com/coe-goya-rio-97-familias-autoevacuadas/": {
+   "url": "https://infogoya.com/coe-goya-rio-97-familias-autoevacuadas/",
    "estado": 200,
-   "caracteres": 5470,
-   "archivo": "data/fuentes/web/examedia_com_ar_portada_post_88072280.txt"
+   "caracteres": 2980,
+   "archivo": "data/fuentes/web/infogoya_com_coe_goya_rio_97_familias_autoevacuadas.txt"
   },
-  "https://www.perfil.com/noticias/nea/crecidas-de-los-rios-uruguay-y-parana-mas-de-mil-personas-debieron-dejar-sus-casas-en-corrientes.phtml": {
-   "url": "https://www.perfil.com/noticias/nea/crecidas-de-los-rios-uruguay-y-parana-mas-de-mil-personas-debieron-dejar-sus-casas-en-corrientes.phtml",
+  "https://www.ellitoral.com.ar/sociedad/2026-10-26-16-44-0-crecida-del-rio-parana-el-gobierno-de-corrientes-asistio-a-familias-del-barrio-itati": {
+   "url": "https://www.ellitoral.com.ar/sociedad/2026-10-26-16-44-0-crecida-del-rio-parana-el-gobierno-de-corrientes-asistio-a-familias-del-barrio-itati",
    "estado": 200,
-   "caracteres": 5156,
-   "archivo": "data/fuentes/web/perfil_com_noticias_nea_crecidas_de_los_rios_uruguay_y_parana_mas_de_mil_personas_debieron.txt"
-  },
-  "https://www.canal12misiones.com/nacionales/corrientes-evacuados-paso-de-los-libres": {
-   "url": "https://www.canal12misiones.com/nacionales/corrientes-evacuados-paso-de-los-libres",
-   "estado": 200,
-   "caracteres": 4307,
-   "archivo": "data/fuentes/web/canal12misiones_com_nacionales_corrientes_evacuados_paso_de_los_libres.txt"
-  },
-  "https://elmonterizo.com/el-parana-bajo-pero-en-corrientes-hay-220-personas-mas-fuera-de-sus-casas": {
-   "url": "https://elmonterizo.com/el-parana-bajo-pero-en-corrientes-hay-220-personas-mas-fuera-de-sus-casas",
-   "estado": 200,
-   "caracteres": 3577,
-   "archivo": "data/fuentes/web/elmonterizo_com_el_parana_bajo_pero_en_corrientes_hay_220_personas_mas_fuera_de_sus_casas.txt"
-  },
-  "https://www.infobae.com/sociedad/2026/11/13/el-nino-diez-ciudades-del-litoral-continuan-con-el-agua-en-niveles-de-evacuacion-y-son-mas-de-4500-las-personas-afectadas/": {
-   "url": "https://www.infobae.com/sociedad/2026/11/13/el-nino-diez-ciudades-del-litoral-continuan-con-el-agua-en-niveles-de-evacuacion-y-son-mas-de-4500-las-personas-afectadas/",
-   "estado": 200,
-   "caracteres": 9971,
-   "archivo": "data/fuentes/web/infobae_com_sociedad_2026_11_13_el_nino_diez_ciudades_del_litoral_continuan_con_el_agua_en.txt"
+   "caracteres": 3574,
+   "archivo": "data/fuentes/web/ellitoral_com_ar_sociedad_2026_10_26_16_44_0_crecida_del_rio_parana_el_gobierno_de_corrien.txt"
   }
  }
 }
