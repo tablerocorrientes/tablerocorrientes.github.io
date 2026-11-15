@@ -1,6 +1,6 @@
 {
- "consultado": "15/11/2026, 19:50 h",
- "consultado_iso": "2026-11-15T19:50-03:00",
+ "consultado": "15/11/2026, 19:52 h",
+ "consultado_iso": "2026-11-15T19:52-03:00",
  "paginas": {
   "smn_alertas": {
    "url": "https://www.smn.gob.ar/alertas",
@@ -130,63 +130,45 @@
   }
  },
  "pedidas": {
-  "https://www.perfil.com/noticias/nea/juan-pablo-valdes-envio-el-presupuesto-2027-gastos-por-mas-48-billones-y-las-claves-del-proyecto.phtml": {
-   "url": "https://www.perfil.com/noticias/nea/juan-pablo-valdes-envio-el-presupuesto-2027-gastos-por-mas-48-billones-y-las-claves-del-proyecto.phtml",
+  "https://www.ellitoral.com.ar/cultura/2026-11-15-0-9-0-corrientes-presento-oficialmente-el-carnaval-correntino-2027": {
+   "url": "https://www.ellitoral.com.ar/cultura/2026-11-15-0-9-0-corrientes-presento-oficialmente-el-carnaval-correntino-2027",
    "estado": 200,
-   "caracteres": 5637,
-   "archivo": "data/fuentes/web/perfil_com_noticias_nea_juan_pablo_valdes_envio_el_presupuesto_2027_gastos_por_mas_48_bill.txt"
+   "caracteres": 4894,
+   "archivo": "data/fuentes/web/ellitoral_com_ar_cultura_2026_11_15_0_9_0_corrientes_presento_oficialmente_el_carnaval_cor.txt"
   },
-  "https://perfil.com/nea/presupuesto-2027-grachot-expuso-en-el-senado-el-proyecto-de-486-billones-aiqJe7v55Z6K": {
-   "url": "https://perfil.com/nea/presupuesto-2027-grachot-expuso-en-el-senado-el-proyecto-de-486-billones-aiqJe7v55Z6K",
+  "https://examedia.com.ar/portada/post/88237418": {
+   "url": "https://examedia.com.ar/portada/post/88237418",
    "estado": 200,
-   "caracteres": 4843,
-   "archivo": "data/fuentes/web/perfil_com_nea_presupuesto_2027_grachot_expuso_en_el_senado_el_proyecto_de_486_billones_ai.txt"
+   "caracteres": 5385,
+   "archivo": "data/fuentes/web/examedia_com_ar_portada_post_88237418.txt"
   },
-  "https://www.perfil.com/noticias/nea/gustavo-valdes-viajo-al-mundial-2026-en-medio-de-la-paralisis-del-senado-de-corrientes.phtml": {
-   "url": "https://www.perfil.com/noticias/nea/gustavo-valdes-viajo-al-mundial-2026-en-medio-de-la-paralisis-del-senado-de-corrientes.phtml",
+  "https://elmonterizo.com/corrientes-ya-tiene-fechas-para-el-carnaval-2027-que-dijo-braillard-poccard-sobre-el-nino": {
+   "url": "https://elmonterizo.com/corrientes-ya-tiene-fechas-para-el-carnaval-2027-que-dijo-braillard-poccard-sobre-el-nino",
    "estado": 200,
-   "caracteres": 5034,
-   "archivo": "data/fuentes/web/perfil_com_noticias_nea_gustavo_valdes_viajo_al_mundial_2026_en_medio_de_la_paralisis_del_.txt"
+   "caracteres": 5206,
+   "archivo": "data/fuentes/web/elmonterizo_com_corrientes_ya_tiene_fechas_para_el_carnaval_2027_que_dijo_braillard_poccar.txt"
   },
-  "https://www.perfil.com/noticias/nea/corrientes-activa-las-video-multas-como-funciona-el-sistema-y-que-infracciones-sancionara.phtml": {
-   "url": "https://www.perfil.com/noticias/nea/corrientes-activa-las-video-multas-como-funciona-el-sistema-y-que-infracciones-sancionara.phtml",
+  "https://www.ellitoral.com.ar/cultura/2026-9-11-18-55-0-carnavales-correntinos-2027-confirmaron-las-fechas-y-construiran-un-multiespacio-en-el-nolo-alias": {
+   "url": "https://www.ellitoral.com.ar/cultura/2026-9-11-18-55-0-carnavales-correntinos-2027-confirmaron-las-fechas-y-construiran-un-multiespacio-en-el-nolo-alias",
    "estado": 200,
-   "caracteres": 4832,
-   "archivo": "data/fuentes/web/perfil_com_noticias_nea_corrientes_activa_las_video_multas_como_funciona_el_sistema_y_que_.txt"
+   "caracteres": 3005,
+   "archivo": "data/fuentes/web/ellitoral_com_ar_cultura_2026_9_11_18_55_0_carnavales_correntinos_2027_confirmaron_las_fec.txt"
   },
-  "https://prensamercosur.org/2026/10/29/el-concejo-analiza-adhesion-a-emergencia-hidrica/": {
-   "url": "https://prensamercosur.org/2026/10/29/el-concejo-analiza-adhesion-a-emergencia-hidrica/",
+  "http://www.noticiasdelparana.com.ar/NuevaEdicion/2026/11/15/corrientes-presentaron-el-carnaval-2027-confirmaron-fechas-precios-y-beneficios-para-la-proxima-edicion/": {
+   "url": "http://www.noticiasdelparana.com.ar/NuevaEdicion/2026/11/15/corrientes-presentaron-el-carnaval-2027-confirmaron-fechas-precios-y-beneficios-para-la-proxima-edicion/",
    "estado": 200,
-   "caracteres": 8653,
-   "archivo": "data/fuentes/web/prensamercosur_org_2026_10_29_el_concejo_analiza_adhesion_a_emergencia_hidrica.txt"
+   "caracteres": 3538,
+   "archivo": "data/fuentes/web/noticiasdelparana_com_ar_NuevaEdicion_2026_11_15_corrientes_presentaron_el_carnaval_2027_c.txt"
   },
-  "https://www.canal26.com/general/2026/10/31/inundaciones-por-el-nino-en-argentina-las-4-provincias-mas-afectadas-por-las-crecidas-y-los-evacuados/": {
-   "url": "https://www.canal26.com/general/2026/10/31/inundaciones-por-el-nino-en-argentina-las-4-provincias-mas-afectadas-por-las-crecidas-y-los-evacuados/",
-   "estado": 200,
-   "caracteres": 10411,
-   "archivo": "data/fuentes/web/canal26_com_general_2026_10_31_inundaciones_por_el_nino_en_argentina_las_4_provincias_mas_.txt"
-  },
-  "https://perfil.com/noticias/nea/presupuesto-2027-proyectan-obras-clave-para-corrientes-y-juan-pablo-valdes-se-reune-con-diego-santilli.phtml": {
-   "url": "https://perfil.com/noticias/nea/presupuesto-2027-proyectan-obras-clave-para-corrientes-y-juan-pablo-valdes-se-reune-con-diego-santilli.phtml",
-   "estado": 200,
-   "caracteres": 5115,
-   "archivo": "data/fuentes/web/perfil_com_noticias_nea_presupuesto_2027_proyectan_obras_clave_para_corrientes_y_juan_pabl.txt"
-  },
-  "https://www.perfil.com/noticias/nea": {
-   "url": "https://www.perfil.com/noticias/nea",
+  "https://www.diarioepoca.com/1393782-el-intendente-polich-pidio-adherir-a-la-emergencia-hidrica": {
+   "url": "https://www.diarioepoca.com/1393782-el-intendente-polich-pidio-adherir-a-la-emergencia-hidrica",
    "estado": "error",
    "detalle": "HTTP Error 429: Too Many Requests"
   },
-  "https://www.radiosudamericana.com/t967-municipalidad.htm": {
-   "url": "https://www.radiosudamericana.com/t967-municipalidad.htm",
+  "https://www.diarioepoca.com/1394817-polich-convoco-a-artistas-locales-para-imprimirle-identidad-correntina-al-escenario-urbano": {
+   "url": "https://www.diarioepoca.com/1394817-polich-convoco-a-artistas-locales-para-imprimirle-identidad-correntina-al-escenario-urbano",
    "estado": "error",
    "detalle": "HTTP Error 429: Too Many Requests"
-  },
-  "https://novacorrientes.com/seccion.asp?s=30&t=La_Provincia": {
-   "url": "https://novacorrientes.com/seccion.asp?s=30&t=La_Provincia",
-   "estado": 200,
-   "caracteres": 10639,
-   "archivo": "data/fuentes/web/novacorrientes_com_seccion_asp_s_30_t_La_Provincia.txt"
   }
  },
  "portales": {
