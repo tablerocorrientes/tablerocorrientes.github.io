@@ -1,0 +1,29 @@
+{
+ "consultado": "14/11/2026, 22:19 h",
+ "consultado_iso": "2026-11-14T22:19-03:00",
+ "paginas": {
+  "smn_alertas": {
+   "url": "https://www.smn.gob.ar/alertas",
+   "estado": "error",
+   "detalle": "HTTP Error 403: Forbidden"
+  },
+  "smn_alertas_corto_plazo": {
+   "url": "https://www.smn.gob.ar/alertas-corto-plazo",
+   "estado": "error",
+   "detalle": "HTTP Error 403: Forbidden"
+  },
+  "coe_inicio": {
+   "url": "https://coe.corrientes.gob.ar/",
+   "enlaces": [],
+   "estado": 200,
+   "caracteres": 3625,
+   "archivo": "data/fuentes/coe_inicio.txt"
+  },
+  "coe_2026_0072_AT": {
+   "url": "https://coe.corrientes.gob.ar/a/2026-0072-AT",
+   "estado": 200,
+   "caracteres": 1815,
+   "archivo": "data/fuentes/coe_2026_0072_AT.txt"
+  }
+ }
+}
