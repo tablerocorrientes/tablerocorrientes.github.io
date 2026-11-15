@@ -16,6 +16,24 @@ def bajar(url, t=30):
     with urllib.request.urlopen(req, timeout=t) as r:
         return r.status, r.read().decode('utf-8', 'replace')
 
+CTES = ('CORRIENTES', 'PASO DE LOS LIBRES', 'PASO_DE_LOS_LIBRES', 'MONTE CASEROS', 'MONTE_CASEROS',
+        'ITUZAINGO', 'MERCEDES', 'GOYA', 'SANTO TOME', 'SANTO_TOME', 'CURUZU', 'ESQUINA', 'BELLA VISTA', 'RESISTENCIA')
+
+def filtrar_smn(nombre, t):
+    lineas = t.split('\n')
+    if 'horarios' in nombre:
+        cab = lineas[:3]
+        return '\n'.join(cab + [l for l in lineas[3:] if any(c in l.upper() for c in CTES)])
+    if 'pronostico' in nombre:
+        out, guardar = lineas[:4], False
+        for l in lineas:
+            if re.fullmatch(r'[A-Z_ ]{3,}', l.strip()):
+                guardar = any(c in l for c in CTES)
+            if guardar:
+                out.append(l)
+        return '\n'.join(out)
+    return t
+
 def texto(h):
     h = re.sub(r'(?is)<(script|style|noscript)[^>]*>.*?</\1>', ' ', h)
     h = re.sub(r'(?i)<br\s*/?>|</p>|</div>|</li>|</h\d>|</tr>', '\n', h)
@@ -52,7 +70,7 @@ for nombre, url in urls.items():
     r = {'url': url}
     try:
         st, h = bajar(url)
-        t = h[:60000] if h.lstrip()[:1] in '[{' else texto(h)
+        t = filtrar_smn(nombre, h) if nombre.startswith('smn_') and 'opendata' in url else (h[:60000] if h.lstrip()[:1] in '[{' else texto(h))
         # Enlaces internos del COE a partes y alertas, para seguirlos en la próxima consulta
         if nombre == 'coe_inicio':
             enl = sorted(set('https://coe.corrientes.gob.ar' + x if x.startswith('/') else x
