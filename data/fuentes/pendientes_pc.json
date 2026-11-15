@@ -3,77 +3,37 @@
   {
    "url": "https://api.open-meteo.com/v1/forecast?latitude=-27.47&longitude=-58.83&hourly=precipitation&timezone=America/Argentina/Buenos_Aires&forecast_days=3",
    "desde": "15/11/2026, 01:13 h",
-   "error": "HTTP Error 429: Too Many Requests"
-  },
-  {
-   "url": "https://www.diarioepoca.com/1394439-jp-valdes-y-polich-destacaron-el-impacto-de-la-megaobra-de-desague-concluida-sobre-el-pirayui",
-   "desde": "15/11/2026, 01:34 h",
-   "error": "HTTP Error 429: Too Many Requests"
-  },
-  {
-   "url": "https://www.nortecorrientes.com/203909-impulsan-un-regimen-de-transicion-en-el-transporte-urbano-camino-al-proceso-licitatorio",
-   "desde": "15/11/2026, 01:34 h",
-   "error": "HTTP Error 429: Too Many Requests"
-  },
-  {
-   "url": "https://www.republicadecorrientes.com/76201-juan-pablo-valdes-dijo-que-corrientes-espera-fondos-de-la-nacion-por-3000-millones",
-   "desde": "15/11/2026, 01:34 h",
-   "error": "HTTP Error 429: Too Many Requests"
-  },
-  {
-   "url": "https://www.diarioepoca.com/",
-   "desde": "15/11/2026, 01:34 h",
-   "error": "HTTP Error 429: Too Many Requests"
+   "error": "HTTP Error 429: Too Many Requests; Navegador: acceso no permitido desde la computadora del autor (se salteó)"
   },
   {
    "url": "https://www.corrienteshoy.com/",
    "desde": "15/11/2026, 01:34 h",
-   "error": "HTTP Error 429: Too Many Requests"
+   "error": "HTTP Error 429: Too Many Requests; Leída desde la computadora del autor: el texto extraído solo mostró el clima, sin la nota"
   },
   {
    "url": "https://www.corrienteshoy.com/info-general/el-carnaval-oficial-de-corrientes-comenzara-el-30-de-enero-y-culminara-el-27-de-febrero-de-2027.htm",
    "desde": "15/11/2026, 01:36 h",
-   "error": "HTTP Error 429: Too Many Requests"
+   "error": "HTTP Error 429: Too Many Requests; Leída desde la computadora del autor: el texto extraído solo mostró el clima, sin la nota"
   },
   {
    "url": "https://www.perfil.com/noticias/nea/el-gobierno-avanza-con-la-concesion-privada-en-paso-de-los-libres-el-plan-para-modernizar-el-cotecar-ayAX25b8szHc.phtml",
    "desde": "15/11/2026, 01:36 h",
-   "error": "HTTP Error 429: Too Many Requests"
-  },
-  {
-   "url": "https://www.radiodos.com.ar/",
-   "desde": "15/11/2026, 01:36 h",
-   "error": "HTTP Error 429: Too Many Requests"
+   "error": "HTTP Error 429: Too Many Requests; HTTP 404 también desde la computadora del autor"
   },
   {
    "url": "https://www.perfil.com/noticias/nea",
    "desde": "15/11/2026, 01:36 h",
-   "error": "HTTP Error 429: Too Many Requests"
-  },
-  {
-   "url": "https://nuevamiradacorrientes.com/news/suspensiones-corrientes-licita-colectivos-en-medio-de-un-sistema-en-conflicto",
-   "desde": "15/11/2026, 01:54 h",
-   "error": "HTTP Error 429: Too Many Requests"
-  },
-  {
-   "url": "https://www.nortecorrientes.com/187805--se-termino-el-negocio-ersa-anuncio-el-el-cese-de-la-concesion-del-transporte",
-   "desde": "15/11/2026, 01:54 h",
-   "error": "HTTP Error 429: Too Many Requests"
+   "error": "HTTP Error 429: Too Many Requests; HTTP 404 también desde la computadora del autor"
   },
   {
    "url": "https://www.perfil.com/noticias/nea/presupuesto-2027-grachot-expuso-en-el-senado-el-proyecto-de-486-billones-aiqJe7v55Z6K.phtml",
    "desde": "15/11/2026, 01:54 h",
-   "error": "HTTP Error 429: Too Many Requests"
+   "error": "HTTP Error 429: Too Many Requests; HTTP 404 también desde la computadora del autor"
   },
   {
    "url": "https://ciudaddecorrientes.gov.ar/noticias",
    "desde": "15/11/2026, 01:54 h",
-   "error": "HTTP Error 429: Too Many Requests"
-  },
-  {
-   "url": "https://www.corrientes.gob.ar/",
-   "desde": "15/11/2026, 01:54 h",
-   "error": "HTTP Error 429: Too Many Requests"
+   "error": "HTTP Error 429: Too Many Requests; HTTP 404 también desde la computadora del autor"
   }
  ]
 }
