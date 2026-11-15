@@ -1,6 +1,6 @@
 {
- "consultado": "15/11/2026, 04:26 h",
- "consultado_iso": "2026-11-15T04:26-03:00",
+ "consultado": "15/11/2026, 08:50 h",
+ "consultado_iso": "2026-11-15T08:50-03:00",
  "paginas": {
   "smn_alertas": {
    "url": "https://www.smn.gob.ar/alertas",
@@ -17,7 +17,6 @@
    "enlaces": [
     "https://coe.corrientes.gob.ar/a/2026-0126-CP",
     "https://coe.corrientes.gob.ar/a/2026-0125-CP",
-    "https://coe.corrientes.gob.ar/a/2026-0124-CP",
     "https://coe.corrientes.gob.ar/a/2026-0073-AT",
     "https://coe.corrientes.gob.ar/a/2026-0072-AT",
     "https://coe.corrientes.gob.ar/a/2026-0071-AT",
@@ -28,7 +27,7 @@
     "https://coe.corrientes.gob.ar/a/2026-0020-NT"
    ],
    "estado": 200,
-   "caracteres": 3607,
+   "caracteres": 3403,
    "archivo": "data/fuentes/coe_inicio.txt"
   },
   "ina_reporte_diario": {
@@ -40,7 +39,7 @@
   "rioparana_alturas": {
    "url": "https://www.rioparana.com.ar",
    "estado": 200,
-   "caracteres": 11312,
+   "caracteres": 11315,
    "archivo": "data/fuentes/rioparana_alturas.txt"
   },
   "prefectura_alturas": {
@@ -51,7 +50,7 @@
   "lanacion_clima_corrientes": {
    "url": "https://www.lanacion.com.ar/clima/corrientes/",
    "estado": 200,
-   "caracteres": 8208,
+   "caracteres": 8099,
    "archivo": "data/fuentes/lanacion_clima_corrientes.txt"
   },
   "noaa_enso": {
@@ -78,7 +77,7 @@
   "smn_datos_horarios_ayer": {
    "url": "https://ssl.smn.gob.ar/dpd/descarga_opendata.php?file=observaciones/datohorario20261114.txt",
    "estado": 200,
-   "caracteres": 58,
+   "caracteres": 10301,
    "archivo": "data/fuentes/smn_datos_horarios_ayer.txt"
   },
   "smn_pronostico_5_dias": {
@@ -105,12 +104,6 @@
    "caracteres": 2053,
    "archivo": "data/fuentes/coe_a_2026_0125_CP.txt"
   },
-  "coe_a_2026_0124_CP": {
-   "url": "https://coe.corrientes.gob.ar/a/2026-0124-CP",
-   "estado": 200,
-   "caracteres": 2332,
-   "archivo": "data/fuentes/coe_a_2026_0124_CP.txt"
-  },
   "coe_a_2026_0073_AT": {
    "url": "https://coe.corrientes.gob.ar/a/2026-0073-AT",
    "estado": 200,
@@ -120,7 +113,7 @@
   "coe_a_2026_0072_AT": {
    "url": "https://coe.corrientes.gob.ar/a/2026-0072-AT",
    "estado": 200,
-   "caracteres": 1815,
+   "caracteres": 1811,
    "archivo": "data/fuentes/coe_a_2026_0072_AT.txt"
   },
   "coe_a_2026_0071_AT": {
@@ -128,6 +121,53 @@
    "estado": 200,
    "caracteres": 1993,
    "archivo": "data/fuentes/coe_a_2026_0071_AT.txt"
+  },
+  "coe_a_2026_0070_AT": {
+   "url": "https://coe.corrientes.gob.ar/a/2026-0070-AT",
+   "estado": 200,
+   "caracteres": 2167,
+   "archivo": "data/fuentes/coe_a_2026_0070_AT.txt"
+  }
+ },
+ "pedidas": {
+  "https://ciudaddecorrientes.gov.ar/noticias": {
+   "url": "https://ciudaddecorrientes.gov.ar/noticias",
+   "estado": "error",
+   "detalle": "HTTP Error 429: Too Many Requests"
+  },
+  "https://www.corrientes.gob.ar/prensa": {
+   "url": "https://www.corrientes.gob.ar/prensa",
+   "estado": "error",
+   "detalle": "HTTP Error 404: NOT FOUND"
+  },
+  "https://www.ellitoral.com.ar/": {
+   "url": "https://www.ellitoral.com.ar/",
+   "estado": 200,
+   "caracteres": 18175,
+   "archivo": "data/fuentes/web/ellitoral_com_ar.txt"
+  },
+  "https://www.diarioellibertador.com.ar/": {
+   "url": "https://www.diarioellibertador.com.ar/",
+   "estado": 200,
+   "caracteres": 5884,
+   "archivo": "data/fuentes/web/diarioellibertador_com_ar.txt"
+  },
+  "https://www.radiosudamericana.com/": {
+   "url": "https://www.radiosudamericana.com/",
+   "estado": 200,
+   "caracteres": 17581,
+   "archivo": "data/fuentes/web/radiosudamericana_com.txt"
+  },
+  "https://www.diarioepoca.com/": {
+   "url": "https://www.diarioepoca.com/",
+   "estado": "error",
+   "detalle": "HTTP Error 429: Too Many Requests"
+  },
+  "https://coe.corrientes.gob.ar/": {
+   "url": "https://coe.corrientes.gob.ar/",
+   "estado": 200,
+   "caracteres": 3403,
+   "archivo": "data/fuentes/web/coe_corrientes_gob_ar.txt"
   }
  }
 }

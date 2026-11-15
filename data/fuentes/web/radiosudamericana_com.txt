@@ -1,5 +1,5 @@
 Fuente: https://www.radiosudamericana.com/
-Consultado: 15/11/2026, 01:36 h
+Consultado: 15/11/2026, 08:50 h
 
 -->
 Radio Sudamericana 100.3
@@ -75,8 +75,8 @@ Ezequiel Bacher, de Comunicaciones, protagonizó una jugada insólita frente a A
 CONECTANDO CON FACEBOOK
 Radio Sudamericana
 Lotería Correntina: los premiados del sábado 14 de noviembre 2026
-Viví la XXXI Edición del Súper Seven del Nordeste en Canal 5TV
 Falleció Roberto Saucedo, ex entrenador de Boca Unidos
+Viví la XXXI Edición del Súper Seven del Nordeste en Canal 5TV
 videos destacados
 Video no soportado. Por favor, utiliza ó actualiza tu navegador.
 ATAQUE EN RESISTENCIA
@@ -240,11 +240,11 @@ Corrientes: ya identificaron a los familiares de la mujer internada en el Escuel
 2
 Un niño de 7 años murió tras el despiste de una camioneta
 3
-Falleció Roberto Saucedo, ex entrenador de Boca Unidos
+El fuerte ida y vuelta en redes sociales entre Wanda Nara y la China Suárez: insultos y acusaciones
 4
-Policía y Municipio secuestraron 30 motos stunt en operativo conjunto
+Falleció Roberto Saucedo, ex entrenador de Boca Unidos
 5
-Cayó un correntino en Entre Ríos con más tres kilos de marihuana
+Policía y Municipio secuestraron 30 motos stunt en operativo conjunto
 '9' AND noticias.ClasificacionId <> 27 AND noticias.ClasificacionId <> 28 AND noticias.ClasificacionId <> 29 AND noticias.ClasificacionId <> 30 AND noticias.ClasificacionId <> 31 AND noticias.ClasificacionId <> 32 AND noticias.ClasificacionId <> 33 AND noticias.ClasificacionId <> 34 AND noticias.ClasificacionId <> 35 AND noticias.ClasificacionId <> 37 ORDER BY Creacion_Fecha DESC LIMIT 29,0-->
 '9' AND noticias.ClasificacionId <> '35' AND noticias.ClasificacionId <> 27 AND noticias.ClasificacionId <> 28 AND noticias.ClasificacionId <> 29 AND noticias.ClasificacionId <> 30 AND noticias.ClasificacionId <> 31 AND noticias.ClasificacionId <> 32 AND noticias.ClasificacionId <> 33 AND noticias.ClasificacionId <> 34 AND noticias.ClasificacionId <> 35 AND noticias.ClasificacionId <> 37 AND imagenes.File <> '' AND imagenes.id_nota = noticias.Id ORDER BY noticias.Id DESC LIMIT 0,30 -->
 '9' AND noticias.ClasificacionId <> '35' AND noticias.ClasificacionId <> 27 AND noticias.ClasificacionId <> 28 AND noticias.ClasificacionId <> 29 AND noticias.ClasificacionId <> 30 AND noticias.ClasificacionId <> 31 AND noticias.ClasificacionId <> 32 AND noticias.ClasificacionId <> 33 AND noticias.ClasificacionId <> 34 AND noticias.ClasificacionId <> 35 AND noticias.ClasificacionId <> 37 AND imagenes.File <> '' AND imagenes.id_nota = noticias.Id ORDER BY noticias.Id DESC LIMIT 0,30 -->
