@@ -1,6 +1,6 @@
 {
- "consultado": "15/11/2026, 01:54 h",
- "consultado_iso": "2026-11-15T01:54-03:00",
+ "consultado": "15/11/2026, 03:09 h",
+ "consultado_iso": "2026-11-15T03:09-03:00",
  "paginas": {
   "smn_alertas": {
    "url": "https://www.smn.gob.ar/alertas",
@@ -40,7 +40,7 @@
   "rioparana_alturas": {
    "url": "https://www.rioparana.com.ar",
    "estado": 200,
-   "caracteres": 11314,
+   "caracteres": 11297,
    "archivo": "data/fuentes/rioparana_alturas.txt"
   },
   "prefectura_alturas": {
@@ -51,7 +51,7 @@
   "lanacion_clima_corrientes": {
    "url": "https://www.lanacion.com.ar/clima/corrientes/",
    "estado": 200,
-   "caracteres": 8167,
+   "caracteres": 8203,
    "archivo": "data/fuentes/lanacion_clima_corrientes.txt"
   },
   "noaa_enso": {
@@ -134,63 +134,6 @@
    "estado": 200,
    "caracteres": 1993,
    "archivo": "data/fuentes/coe_a_2026_0071_AT.txt"
-  }
- },
- "pedidas": {
-  "https://www.momarandu.com/notix/noticia/16501_lusa-se-har-cargo-de-197-millones-de-deuda-de-ersa-urbano-con-la-municipalidad-de-corrientes.htm": {
-   "url": "https://www.momarandu.com/notix/noticia/16501_lusa-se-har-cargo-de-197-millones-de-deuda-de-ersa-urbano-con-la-municipalidad-de-corrientes.htm",
-   "estado": 200,
-   "caracteres": 5738,
-   "archivo": "data/fuentes/web/momarandu_com_notix_noticia_16501_lusa_se_har_cargo_de_197_millones_de_deuda_de_ersa_urban.txt"
-  },
-  "https://chacodiapordia.com/corrientes-usuarios-y-consumidores-senala-irregularidades-en-la-prorroga-de-la-concesion-a-lusa/": {
-   "url": "https://chacodiapordia.com/corrientes-usuarios-y-consumidores-senala-irregularidades-en-la-prorroga-de-la-concesion-a-lusa/",
-   "estado": 200,
-   "caracteres": 7787,
-   "archivo": "data/fuentes/web/chacodiapordia_com_corrientes_usuarios_y_consumidores_senala_irregularidades_en_la_prorrog.txt"
-  },
-  "https://concejocorrientes.gob.ar/expedientes/683-C-2025.pdf": {
-   "url": "https://concejocorrientes.gob.ar/expedientes/683-C-2025.pdf",
-   "estado": 200,
-   "caracteres": 24124,
-   "archivo": "data/fuentes/web/concejocorrientes_gob_ar_expedientes_683_C_2025_pdf.txt"
-  },
-  "https://nuevamiradacorrientes.com/news/suspensiones-corrientes-licita-colectivos-en-medio-de-un-sistema-en-conflicto": {
-   "url": "https://nuevamiradacorrientes.com/news/suspensiones-corrientes-licita-colectivos-en-medio-de-un-sistema-en-conflicto",
-   "estado": "error",
-   "detalle": "HTTP Error 429: Too Many Requests"
-  },
-  "https://neahoy.com/2026/04/21/crisis-del-transporte-en-corrientes-suspenden-choferes-y-crece-la-tension-en-el-sistema/": {
-   "url": "https://neahoy.com/2026/04/21/crisis-del-transporte-en-corrientes-suspenden-choferes-y-crece-la-tension-en-el-sistema/",
-   "estado": 200,
-   "caracteres": 6280,
-   "archivo": "data/fuentes/web/neahoy_com_2026_04_21_crisis_del_transporte_en_corrientes_suspenden_choferes_y_crece_la_te.txt"
-  },
-  "https://www.laizquierdadiario.com/Recolectores-de-residuos-denuncian-salarios-debajo-de-la-linea-indigencia": {
-   "url": "https://www.laizquierdadiario.com/Recolectores-de-residuos-denuncian-salarios-debajo-de-la-linea-indigencia",
-   "estado": 200,
-   "caracteres": 7218,
-   "archivo": "data/fuentes/web/laizquierdadiario_com_Recolectores_de_residuos_denuncian_salarios_debajo_de_la_linea_indig.txt"
-  },
-  "https://www.nortecorrientes.com/187805--se-termino-el-negocio-ersa-anuncio-el-el-cese-de-la-concesion-del-transporte": {
-   "url": "https://www.nortecorrientes.com/187805--se-termino-el-negocio-ersa-anuncio-el-el-cese-de-la-concesion-del-transporte",
-   "estado": "error",
-   "detalle": "HTTP Error 429: Too Many Requests"
-  },
-  "https://www.perfil.com/noticias/nea/presupuesto-2027-grachot-expuso-en-el-senado-el-proyecto-de-486-billones-aiqJe7v55Z6K.phtml": {
-   "url": "https://www.perfil.com/noticias/nea/presupuesto-2027-grachot-expuso-en-el-senado-el-proyecto-de-486-billones-aiqJe7v55Z6K.phtml",
-   "estado": "error",
-   "detalle": "HTTP Error 429: Too Many Requests"
-  },
-  "https://ciudaddecorrientes.gov.ar/noticias": {
-   "url": "https://ciudaddecorrientes.gov.ar/noticias",
-   "estado": "error",
-   "detalle": "HTTP Error 429: Too Many Requests"
-  },
-  "https://www.corrientes.gob.ar/": {
-   "url": "https://www.corrientes.gob.ar/",
-   "estado": "error",
-   "detalle": "HTTP Error 429: Too Many Requests"
   }
  }
 }
