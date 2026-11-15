@@ -1,5 +1,5 @@
 {
- "actualizado": "15/11/2026, 12:09 h",
+ "actualizado": "15/11/2026, 12:41 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
@@ -197,11 +197,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 11 h"
+   "ultimo": "0 mm a las 12 h"
   },
   {
    "localidad": "Santa Lucía",
@@ -231,11 +231,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 11 h"
+   "ultimo": "0 mm a las 12 h"
   },
   {
    "localidad": "La Palmira",
@@ -1149,11 +1149,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 11 h"
+   "ultimo": "0 mm a las 12 h"
   },
   {
    "localidad": "Itá Ibaté",
@@ -1285,11 +1285,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0.2,
-   "ultimo": "0 mm a las 11 h"
+   "ultimo": "0 mm a las 12 h"
   },
   {
    "localidad": "Curuzú Cuatiá",
@@ -1353,11 +1353,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 11 h"
+   "ultimo": "0 mm a las 12 h"
   },
   {
    "localidad": "San Isidro",
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "15/11/2026, 12:09 h",
+ "consultado": "15/11/2026, 12:41 h",
  "consulta_resultado": "datos nuevos"
 }
