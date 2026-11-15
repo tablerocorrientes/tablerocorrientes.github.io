@@ -31,7 +31,9 @@ urls = {
     'smn_datos_alertas': 'https://ws.smn.gob.ar/alerts/type/AL',
     'smn_datos_avisos_cp': 'https://ws.smn.gob.ar/alerts/type/AC',
     'smn_datos_tiempo_presente': 'https://ws.smn.gob.ar/map_items/weather',
-    'smn_datos_abiertos': 'https://ssl.smn.gob.ar/dpd/descarga_opendata.php?file=observaciones/tiepre' + ahora.strftime('%Y%m%d') + '.txt',
+    'smn_datos_horarios_ayer': 'https://ssl.smn.gob.ar/dpd/descarga_opendata.php?file=observaciones/datohorario' + (ahora - datetime.timedelta(days=1)).strftime('%Y%m%d') + '.txt',
+    'smn_pronostico_5_dias': 'https://ssl.smn.gob.ar/dpd/descarga_opendata.php?file=pron5d/pron' + ahora.strftime('%Y%m%d') + '.txt',
+    'smn_pronostico_5_dias_ayer': 'https://ssl.smn.gob.ar/dpd/descarga_opendata.php?file=pron5d/pron' + (ahora - datetime.timedelta(days=1)).strftime('%Y%m%d') + '.txt',
 }
 # Páginas de alertas del COE ya registradas en el tablero
 try:
