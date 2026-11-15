@@ -3,7 +3,8 @@ Guarda el texto en data/fuentes/ para que las tareas lo lean sin depender del na
 Lo ejecuta la automatización "Fuentes oficiales" de GitHub."""
 import json, re, html, datetime, urllib.request, os
 
-UA = {'User-Agent': 'Mozilla/5.0 (Tablero Ciudadano de Corrientes; consulta publica)'}
+UA = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36 (Tablero Ciudadano de Corrientes)',
+      'Accept': 'text/html,application/json;q=0.9,*/*;q=0.8', 'Accept-Language': 'es-AR,es;q=0.9'}
 BASE = os.path.join(os.path.dirname(__file__), '..', 'data')
 OUT = os.path.join(BASE, 'fuentes')
 os.makedirs(OUT, exist_ok=True)
@@ -26,6 +27,11 @@ urls = {
     'smn_alertas': 'https://www.smn.gob.ar/alertas',
     'smn_alertas_corto_plazo': 'https://www.smn.gob.ar/alertas-corto-plazo',
     'coe_inicio': 'https://coe.corrientes.gob.ar/',
+    # Datos abiertos y servicios de datos del SMN (pensados para consultas automáticas)
+    'smn_datos_alertas': 'https://ws.smn.gob.ar/alerts/type/AL',
+    'smn_datos_avisos_cp': 'https://ws.smn.gob.ar/alerts/type/AC',
+    'smn_datos_tiempo_presente': 'https://ws.smn.gob.ar/map_items/weather',
+    'smn_datos_abiertos': 'https://ssl.smn.gob.ar/dpd/descarga_opendata.php?file=observaciones/tiepre' + ahora.strftime('%Y%m%d') + '.txt',
 }
 # Páginas de alertas del COE ya registradas en el tablero
 try:
@@ -44,7 +50,7 @@ for nombre, url in urls.items():
     r = {'url': url}
     try:
         st, h = bajar(url)
-        t = texto(h)
+        t = h[:60000] if h.lstrip()[:1] in '[{' else texto(h)
         # Enlaces internos del COE a partes y alertas, para seguirlos en la próxima consulta
         if nombre == 'coe_inicio':
             enl = sorted(set('https://coe.corrientes.gob.ar' + x if x.startswith('/') else x
