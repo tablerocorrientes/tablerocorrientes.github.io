@@ -1,5 +1,5 @@
 {
- "actualizado": "15/11/2026, 08:09 h",
+ "actualizado": "15/11/2026, 08:56 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
@@ -129,11 +129,11 @@
     null,
     null,
     null,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 04 h"
+   "ultimo": "0 mm a las 08 h"
   },
   {
    "localidad": "Colonia Carlos Pellegrini",
@@ -197,11 +197,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 07 h"
+   "ultimo": "0 mm a las 08 h"
   },
   {
    "localidad": "Santa Lucía",
@@ -231,11 +231,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 07 h"
+   "ultimo": "0 mm a las 08 h"
   },
   {
    "localidad": "La Palmira",
@@ -1081,11 +1081,11 @@
     null,
     null,
     null,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 04 h"
+   "ultimo": "0 mm a las 08 h"
   },
   {
    "localidad": "Caá Catí",
@@ -1149,11 +1149,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 07 h"
+   "ultimo": "0 mm a las 08 h"
   },
   {
    "localidad": "Itá Ibaté",
@@ -1353,11 +1353,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 07 h"
+   "ultimo": "0 mm a las 08 h"
   },
   {
    "localidad": "San Isidro",
@@ -1455,11 +1455,11 @@
     null,
     null,
     null,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 04 h"
+   "ultimo": "0 mm a las 08 h"
   },
   {
    "localidad": "Santa Rosa",
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "15/11/2026, 08:09 h",
+ "consultado": "15/11/2026, 08:56 h",
  "consulta_resultado": "datos nuevos"
 }

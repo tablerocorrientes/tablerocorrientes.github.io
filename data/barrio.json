@@ -1,5 +1,5 @@
 {
- "actualizado": "14/11/2026 a las 18:31 h",
+ "actualizado": "15/11/2026 a las 09:15 h",
  "dias": {
   "2026-11-02": [
    0,
@@ -366,13 +366,6 @@
    0.0
   ],
   "2026-11-16": [
-   0,
-   0.0,
-   0.0,
-   0.0,
-   0.4,
-   0.8,
-   0.2,
    0.0,
    0.0,
    0.0,
@@ -384,90 +377,123 @@
    0.0,
    0.0,
    0.0,
-   0.6,
-   0.3,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
    0.0,
    0.0,
    0.0,
    0.0
   ],
   "2026-11-17": [
-   0.888,
-   0.888,
-   0.888,
-   0.888,
-   0.888,
-   0.888,
-   0.888,
-   0.888,
-   0.888,
-   0.888,
-   0.888,
-   0.888,
-   0.888,
-   0.888,
-   0.888,
-   0.888,
-   0.888,
-   0.888,
-   0.888,
-   0.888,
-   0.888,
-   0.888,
-   0.888,
-   0.888
+   0.0,
+   0.0,
+   0.0,
+   6.65,
+   4.6,
+   1.95,
+   0.1,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.35,
+   0.75,
+   0.3,
+   0.25,
+   0.1,
+   0.15,
+   0.05,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
   ],
   "2026-11-18": [
-   2.571,
-   2.571,
-   2.571,
-   2.571,
-   2.571,
-   2.571,
-   2.571,
-   2.571,
-   2.571,
-   2.571,
-   2.571,
-   2.571,
-   2.571,
-   2.571,
-   2.571,
-   2.571,
-   2.571,
-   2.571,
-   2.571,
-   2.571,
-   2.571,
-   2.571,
-   2.571,
-   2.571
+   0.0,
+   0.0,
+   0.1,
+   0.3,
+   10.4,
+   3.4,
+   0.6,
+   1.4,
+   0.8,
+   0.5,
+   0.9,
+   0.6,
+   1.8,
+   0.9,
+   1.2,
+   0.5,
+   0.3,
+   0.3,
+   0.3,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
   ],
   "2026-11-19": [
-   0.683,
-   0.683,
-   0.683,
-   0.683,
-   0.683,
-   0.683,
-   0.683,
-   0.683,
-   0.683,
-   0.683,
-   0.683,
-   0.683,
-   0.683,
-   0.683,
-   0.683,
-   0.683,
-   0.683,
-   0.683,
-   0.683,
-   0.683,
-   0.683,
-   0.683,
-   0.683,
-   0.683
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.1,
+   0.1,
+   0.1,
+   0.2,
+   0.2,
+   0.2,
+   2.5,
+   2.5,
+   2.5,
+   1.0,
+   1.0,
+   1.0,
+   0.4,
+   0.4
+  ],
+  "2026-11-20": [
+   0.4,
+   2.0,
+   2.0,
+   2.0,
+   3.4,
+   3.4,
+   3.4,
+   0.3,
+   0.3,
+   0.3,
+   0.1,
+   0.1,
+   0.1,
+   0.5,
+   0.5,
+   0.5,
+   0.1,
+   0.1,
+   0.1,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
   ]
  },
  "alertas": {
@@ -487,12 +513,53 @@
   }
  },
  "rio": {
-  "altura": 6.68,
-  "actualizado": "14/11/2026, tabla de Prefectura Naval Argentina publicada por el CIM/UNL (hora no publicada)",
+  "altura": 6.57,
+  "actualizado": "15/11/2026, 08:00 h, Prefectura Naval Argentina (publicado por rioparana.com.ar)",
   "alerta": 6.5,
   "evacuacion": 7.0
  },
  "fuentes": [
+  {
+   "g": "Actualización del 15/11/2026, 09:15 h",
+   "l": [
+    [
+     "Servicio Meteorológico Nacional, alertas y avisos",
+     "https://www.smn.gob.ar/alertas"
+    ],
+    [
+     "COE de Corrientes, listado de alertas",
+     "https://coe.corrientes.gob.ar/"
+    ],
+    [
+     "Prefectura Naval Argentina, alturas del Paraná publicadas por rioparana.com.ar (15/11)",
+     "https://www.rioparana.com.ar"
+    ],
+    [
+     "INA, reporte hidrometeorológico diario del 13/11",
+     "https://alerta.ina.gob.ar/a5/diario/reporte_diario"
+    ],
+    [
+     "La Nación, clima en Corrientes (parte del SMN, 08:48 h)",
+     "https://www.lanacion.com.ar/clima/corrientes/"
+    ],
+    [
+     "Open-Meteo, pronóstico por horas",
+     "https://open-meteo.com/"
+    ],
+    [
+     "Meteored, pronóstico por horas de Corrientes",
+     "https://www.meteored.com.ar/tiempo-en_Corrientes-America+Sur-Argentina-Corrientes-SARC-horas-16886.html"
+    ],
+    [
+     "SMN, pronóstico numérico a 5 días (datos abiertos)",
+     "https://www.smn.gob.ar/descarga-de-datos"
+    ],
+    [
+     "SNIH, lluvia medida",
+     "https://snih.hidricosargentina.gob.ar/Filtros.aspx"
+    ]
+   ]
+  },
   {
    "g": "Actualización del 14/11/2026, 09:12 h",
    "l": [
@@ -663,47 +730,6 @@
     [
      "Meteored, pronóstico de Corrientes (11/11)",
      "https://www.meteored.com.ar/tiempo-en_Corrientes-America+Sur-Argentina-Corrientes-SARC-1-16886.html"
-    ]
-   ]
-  },
-  {
-   "g": "Actualización del 10/11/2026, 18:53 h",
-   "l": [
-    [
-     "Repositorio Tablero_Ciudadano_Hidrologico (Drive), manifiesto validado 20261110_102412 (6 de 6 huellas)",
-     "https://drive.google.com/file/d/1a2-QR1utZMD2DRrXDACM7V7POtHy_vkn/view"
-    ],
-    [
-     "Vigilancia meteorológica de Drive (solo lectura), revisión del 09/11, 16:51 h: NO_VERIFICADO",
-     "https://drive.google.com/file/d/1Aele9FYUFC1H1LuPTDcdfBWbKvvcwAOu/view"
-    ],
-    [
-     "COE de Corrientes, listado de alertas (sin alertas vigentes)",
-     "https://coe.corrientes.gob.ar/alertas"
-    ],
-    [
-     "CIM/UNL, alturas del Paraná (tabla del 10/11, datos de Prefectura)",
-     "https://cim.fich.unl.edu.ar/rios/parana/alturas"
-    ],
-    [
-     "La Nación, clima en Corrientes (parte del SMN, última versión disponible: 09/11, 17:25 h)",
-     "https://www.lanacion.com.ar/clima/corrientes/"
-    ],
-    [
-     "El Cronista, pronóstico del SMN para el miércoles 11/11 en Corrientes",
-     "https://www.cronista.com/informacion-gral/se-aproximan-tormentas-este-miercoles-11-de-noviembre-habra-lluvias-con-actividad-electrica-en-la-provincia-de-corrientes/"
-    ],
-    [
-     "Agrofy News (Open-Meteo), Corrientes (corrida del 09/11, 18:45 h)",
-     "https://news.agrofy.com.ar/pronostico-clima-tiempo/corrientes/corrientes"
-    ],
-    [
-     "Meteored, pronóstico por horas de Corrientes",
-     "https://www.meteored.com.ar/tiempo-en_Corrientes-America+Sur-Argentina-Corrientes-SARC-horas-16886.html"
-    ],
-    [
-     "EBY, alerta hidrológico N.º 03/noviembre (10/11)",
-     "https://www.eby.gov.py/alerta-hidrologico-n03-noviembre/"
     ]
    ]
   }
@@ -959,24 +985,24 @@
   },
   "2026-11-15": {
    "smn": {
-    "texto": "Parte del SMN difundido por La Nación (actualizado a las 07:08 h del 14/11): tormentas aisladas por la tarde, 40 %.",
+    "texto": "Parte del SMN difundido por La Nación (actualizado a las 08:48 h del 15/11): mayormente nublado, 10 % de probabilidad de lluvia por la mañana y 0 % por la tarde y la noche. Sin alertas para la Capital.",
     "mm": null,
     "u": "https://www.lanacion.com.ar/clima/corrientes/"
    },
    "modelos": [
     {
-     "n": "Agrofy (Open-Meteo)",
-     "mm": 0,
-     "act": "14/11, 08:13 h"
+     "n": "Open-Meteo",
+     "mm": 0.0,
+     "act": "15/11, 08:59 h"
     },
     {
-     "n": "Meteored",
+     "n": "Modelo numérico del SMN",
      "mm": 0.0,
-     "act": "14/11, 09:00 h"
+     "act": "15/11"
     }
    ],
    "usado": 0.0,
-   "criterio": "Parte del SMN (La Nación, 07:08 h): tormentas aisladas por la tarde, 40 %; el SMN prevé entre 40 y 69 % de probabilidad: se usa el promedio de los modelos: 0,0 mm. Estimación derivada, no una medición."
+   "criterio": "El SMN prevé menos de 40 % de probabilidad de lluvia: se usa el modelo más bajo. Todos los modelos prevén un día sin lluvia. Estimación derivada, no una medición."
   },
   "2026-11-16": {
    "smn": {

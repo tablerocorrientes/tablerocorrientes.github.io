@@ -1,8 +1,8 @@
 {
  "estado_alertas": "VERIFICADO_SIN_ALERTAS",
  "estado_verificado": {
-  "fecha": "15/11/2026, 04:26 h",
-  "fuente": "SMN y COE de Corrientes: sin alertas ni avisos a muy corto plazo del SMN para la provincia de Corrientes el domingo 15/11."
+  "fecha": "15/11/2026, 09:00 h",
+  "fuente": "SMN (consulta de las 08:40 h) y COE de Corrientes (consulta de las 09:00 h): sin alertas ni avisos a muy corto plazo para la provincia de Corrientes el domingo 15/11."
  },
  "met_archivo": {
   "nombre": "vigilancia_meteorologica_20261113_183508.json",
@@ -11,17 +11,17 @@
   "fecha": "13/11/2026, 18:35 h"
  },
  "met_revision": "aae6c54b1ab7086a927cf2e4bb8e34a53a584e781ba42ff90ab9d653046ddc38",
- "actualizado": "14/11/2026, 09:12 h",
+ "actualizado": "15/11/2026, 09:15 h",
  "localidades": [
   {
    "n": "Corrientes Capital",
    "dep": "Capital",
    "ref": "Corrientes Capital",
    "rio": "Paraná",
-   "altura": 6.68,
+   "altura": 6.57,
    "alerta": 6.5,
    "evac": 7.0,
-   "reg": "14/11/2026, solo fecha, hora no publicada (Prefectura Naval Argentina, tabla del CIM/UNL)"
+   "reg": "15/11/2026, 08:00 h (Prefectura Naval Argentina, publicado por rioparana.com.ar)"
   },
   {
    "n": "Riachuelo",
@@ -33,10 +33,10 @@
    "dep": "Bella Vista",
    "ref": "Bella Vista",
    "rio": "Paraná",
-   "altura": 6.26,
+   "altura": 6.2,
    "alerta": 6.0,
    "evac": 6.4,
-   "reg": "14/11/2026, solo fecha, hora no publicada (Prefectura Naval Argentina, tabla del CIM/UNL)"
+   "reg": "15/11/2026, 08:00 h (Prefectura Naval Argentina, publicado por rioparana.com.ar)"
   },
   {
    "n": "Berón de Astrada",
@@ -88,10 +88,10 @@
    "dep": "Empedrado",
    "ref": "Corrientes Capital",
    "rio": "Paraná",
-   "altura": 5.84,
+   "altura": 5.8,
    "alerta": 6.5,
    "evac": 6.7,
-   "reg": "14/11/2026, solo fecha, hora no publicada (Prefectura Naval Argentina, tabla del CIM/UNL)"
+   "reg": "15/11/2026, solo fecha, hora no publicada (Prefectura Naval Argentina, publicado por rioparana.com.ar)"
   },
   {
    "n": "El Sombrero",
@@ -103,10 +103,10 @@
    "dep": "Esquina",
    "ref": "Esquina",
    "rio": "Paraná",
-   "altura": 5.51,
+   "altura": 5.5,
    "alerta": 5.0,
    "evac": 5.4,
-   "reg": "14/11/2026, solo fecha, hora no publicada (Prefectura Naval Argentina, tabla del CIM/UNL)"
+   "reg": "15/11/2026, 06:00 h (Prefectura Naval Argentina, publicado por rioparana.com.ar)"
   },
   {
    "n": "Pueblo Libertador",
@@ -138,10 +138,10 @@
    "dep": "General Paz",
    "ref": "Ituzaingó",
    "rio": "Paraná",
-   "altura": 5.44,
+   "altura": 5.22,
    "alerta": 7.0,
    "evac": 7.5,
-   "reg": "14/11/2026, solo fecha, hora no publicada (Prefectura Naval Argentina, tabla del CIM/UNL)"
+   "reg": "15/11/2026, solo fecha, hora no publicada (Prefectura Naval Argentina, publicado por rioparana.com.ar)"
   },
   {
    "n": "Lomas de Vallejos",
@@ -161,7 +161,7 @@
    "altura": 5.86,
    "alerta": 5.2,
    "evac": 5.7,
-   "reg": "14/11/2026, solo fecha, hora no publicada (Prefectura Naval Argentina, tabla del CIM/UNL)"
+   "reg": "15/11/2026, 08:00 h (Prefectura Naval Argentina, publicado por rioparana.com.ar)"
   },
   {
    "n": "Colonia Carolina",
@@ -173,10 +173,10 @@
    "dep": "Itatí",
    "ref": "Corrientes Capital",
    "rio": "Paraná",
-   "altura": 7.0,
+   "altura": 6.81,
    "alerta": 6.8,
    "evac": 7.5,
-   "reg": "14/11/2026, solo fecha, hora no publicada (Prefectura Naval Argentina, tabla del CIM/UNL)"
+   "reg": "15/11/2026, 08:00 h (Prefectura Naval Argentina, publicado por rioparana.com.ar)"
   },
   {
    "n": "Ramada Paso",
@@ -188,10 +188,10 @@
    "dep": "Ituzaingó",
    "ref": "Ituzaingó",
    "rio": "Paraná",
-   "altura": 2.99,
+   "altura": 2.65,
    "alerta": 3.5,
    "evac": 4.0,
-   "reg": "14/11/2026, solo fecha, hora no publicada (Prefectura Naval Argentina, tabla del CIM/UNL)"
+   "reg": "15/11/2026, solo fecha, hora no publicada (Prefectura Naval Argentina, publicado por rioparana.com.ar)"
   },
   {
    "n": "San Carlos",
@@ -333,10 +333,10 @@
    "dep": "San Cosme",
    "ref": "Corrientes Capital",
    "rio": "Paraná",
-   "altura": 6.82,
+   "altura": 6.71,
    "alerta": 6.5,
    "evac": 7.0,
-   "reg": "14/11/2026, solo fecha, hora no publicada (Prefectura Naval Argentina, tabla del CIM/UNL)"
+   "reg": "15/11/2026, 08:00 h (Prefectura Naval Argentina, publicado por rioparana.com.ar)"
   },
   {
    "n": "Santa Ana",
@@ -442,387 +442,375 @@
  "pronostico": {
   "Corrientes Capital": {
    "hoy": {
-    "mm": 2.1,
+    "mm": 0.0,
+    "horas": 0
+   },
+   "manana": {
+    "mm": 0.0,
+    "horas": 0
+   },
+   "smn": "Sin alertas del SMN ni del COE para la Capital el domingo 15/11. Parte del SMN difundido por La Nación (08:48 h): hoy mayormente nublado, 10 % de probabilidad de lluvia por la mañana y 0 % por la tarde y la noche; mañana lunes mayormente nublado, 0 %.",
+   "modelos": {
+    "hoy": [
+     [
+      "Open-Meteo",
+      0.0
+     ],
+     [
+      "Modelo numérico del SMN",
+      0.0
+     ]
+    ],
+    "manana": [
+     [
+      "Open-Meteo",
+      0.2
+     ],
+     [
+      "Meteored",
+      0.0
+     ],
+     [
+      "Modelo numérico del SMN",
+      0.0
+     ]
+    ]
+   },
+   "criterio": "Hoy y mañana el parte del SMN prevé menos de 40 % de probabilidad de lluvia, por eso se usa el modelo más bajo: hoy 0,0 mm y mañana 0,0 mm (Open-Meteo, Meteored y el modelo numérico del SMN coinciden en lluvia nula o casi nula).",
+   "fuente": "Hoy 0,0 mm y mañana 0,0 mm. Modelos Open-Meteo (15/11, 08:59 h), Meteored y modelo numérico del SMN (el modelo puede diferir del pronóstico emitido). Estimación derivada, no una medición.",
+   "act": "15/11, 08:59 h"
+  },
+  "Goya": {
+   "hoy": {
+    "mm": 0.5,
+    "horas": 3
+   },
+   "manana": {
+    "mm": 0.0,
+    "horas": 0
+   },
+   "smn": "Sin alerta del SMN ni del COE para Goya el domingo 15/11 (consulta de las 09:00 h).",
+   "modelos": {
+    "hoy": [
+     [
+      "Open-Meteo",
+      0.5
+     ]
+    ],
+    "manana": [
+     [
+      "Open-Meteo",
+      0.0
+     ]
+    ]
+   },
+   "criterio": "Parte del SMN por ciudad con probabilidades no disponible para esta ciudad: se usa el promedio de los modelos disponibles (Open-Meteo): hoy 0,5 mm y mañana 0,0 mm.",
+   "fuente": "Modelo Open-Meteo (15/11, 08:59 h). Estimación derivada, no una medición.",
+   "act": "15/11, 08:59 h"
+  },
+  "Esquina": {
+   "hoy": {
+    "mm": 0.0,
+    "horas": 0
+   },
+   "manana": {
+    "mm": 0.0,
+    "horas": 0
+   },
+   "smn": "Sin alerta del SMN ni del COE para Esquina el domingo 15/11 (consulta de las 09:00 h).",
+   "modelos": {
+    "hoy": [
+     [
+      "Open-Meteo",
+      0.0
+     ]
+    ],
+    "manana": [
+     [
+      "Open-Meteo",
+      0.0
+     ]
+    ]
+   },
+   "criterio": "Parte del SMN por ciudad con probabilidades no disponible para esta ciudad: se usa el promedio de los modelos disponibles (Open-Meteo): hoy 0,0 mm y mañana 0,0 mm.",
+   "fuente": "Modelo Open-Meteo (15/11, 08:59 h). Estimación derivada, no una medición.",
+   "act": "15/11, 08:59 h"
+  },
+  "Bella Vista": {
+   "hoy": {
+    "mm": 0.2,
     "horas": 2
    },
    "manana": {
     "mm": 0.0,
     "horas": 0
    },
-   "smn": "Alerta naranja por tormentas del SMN difundida por el COE (2026-0022-NT), en curso el sábado 14/11 hasta las 12:00 h, con 80 a 120 mm (escenario severo, no pronóstico central). Parte del SMN: tormentas fuertes hoy por la mañana (100 %) y por la tarde (70 %); mañana, tormentas aisladas por la tarde (40 %).",
+   "smn": "Sin alerta del SMN ni del COE para Bella Vista el domingo 15/11 (consulta de las 09:00 h).",
    "modelos": {
     "hoy": [
      [
-      "Agrofy (Open-Meteo)",
-      2.1
-     ],
-     [
-      "Meteored",
-      0.9
-     ]
-    ],
-    "manana": [
-     [
-      "Agrofy (Open-Meteo)",
-      0
-     ],
-     [
-      "Meteored",
-      0.0
-     ]
-    ]
-   },
-   "criterio": "Hoy: el parte del SMN (La Nación, 07:08 h) prevé tormentas fuertes con 100 % de probabilidad por la mañana y 70 % por la tarde, por eso se usa el modelo más alto (Agrofy, Open-Meteo: 2,1 mm; Meteored: 0,9 mm). Mañana: el SMN prevé tormentas aisladas con 40 % por la tarde, por eso se usa el promedio de los modelos (0 mm). El rango de la alerta (80 a 120 mm) se informa aparte como escenario severo.",
-   "fuente": "Listado de alertas del COE de Corrientes (avisos del SMN); modelo Agrofy News (Open-Meteo); Meteored y parte del SMN",
-   "act": "14/11, 08:13 h",
-   "escenario_severo": {
-    "min": 80,
-    "max": 120,
-    "fuente": "Alerta 2026-0022-NT del SMN difundida por el COE"
-   }
-  },
-  "Goya": {
-   "hoy": {
-    "mm": 0.1,
-    "horas": 1
-   },
-   "manana": {
-    "mm": 0.8,
-    "horas": 4
-   },
-   "smn": "Alerta amarilla por tormentas del SMN difundida por el COE (2026-0070-AT), en curso el sábado 14/11 hasta las 12:00 h, con 30 a 70 mm (escenario severo, no pronóstico central).",
-   "modelos": {
-    "hoy": [
-     [
-      "Agrofy (Open-Meteo)",
-      0.1
-     ]
-    ],
-    "manana": [
-     [
-      "Agrofy (Open-Meteo)",
-      0.8
-     ]
-    ]
-   },
-   "criterio": "Parte del SMN por ciudad con probabilidades no disponible para esta ciudad y Meteored no consultado: se usa el único modelo disponible (Agrofy, Open-Meteo: 0,1 mm hoy, 75 % de probabilidad). El rango de la alerta (30 a 70 mm) se informa aparte como escenario severo.",
-   "fuente": "Listado de alertas del COE de Corrientes (avisos del SMN); modelo Agrofy News (Open-Meteo)",
-   "act": "14/11, 09:05 h",
-   "escenario_severo": {
-    "min": 30,
-    "max": 70,
-    "fuente": "Alerta 2026-0070-AT del SMN difundida por el COE"
-   }
-  },
-  "Esquina": {
-   "hoy": {
-    "mm": 0.7,
-    "horas": 2
-   },
-   "manana": {
-    "mm": 0,
-    "horas": 0
-   },
-   "smn": "Alerta amarilla por tormentas del SMN difundida por el COE (2026-0070-AT), en curso el sábado 14/11 hasta las 12:00 h, con 30 a 70 mm (escenario severo, no pronóstico central).",
-   "modelos": {
-    "hoy": [
-     [
-      "Agrofy (Open-Meteo)",
-      0.7
-     ]
-    ],
-    "manana": [
-     [
-      "Agrofy (Open-Meteo)",
-      0
-     ]
-    ]
-   },
-   "criterio": "Parte del SMN por ciudad con probabilidades no disponible para esta ciudad y Meteored no consultado: se usa el único modelo disponible (Agrofy, Open-Meteo: 0,7 mm hoy, 75 % de probabilidad). El rango de la alerta (30 a 70 mm) se informa aparte como escenario severo.",
-   "fuente": "Listado de alertas del COE de Corrientes (avisos del SMN); modelo Agrofy News (Open-Meteo)",
-   "act": "14/11, 09:05 h",
-   "escenario_severo": {
-    "min": 30,
-    "max": 70,
-    "fuente": "Alerta 2026-0070-AT del SMN difundida por el COE"
-   }
-  },
-  "Bella Vista": {
-   "hoy": {
-    "mm": 0.9,
-    "horas": 2
-   },
-   "manana": {
-    "mm": 0.1,
-    "horas": 1
-   },
-   "smn": "Alerta amarilla por tormentas del SMN difundida por el COE (2026-0070-AT), en curso el sábado 14/11 hasta las 12:00 h, con 30 a 70 mm (escenario severo, no pronóstico central).",
-   "modelos": {
-    "hoy": [
-     [
-      "Agrofy (Open-Meteo)",
-      0.9
-     ]
-    ],
-    "manana": [
-     [
-      "Agrofy (Open-Meteo)",
-      0.1
-     ]
-    ]
-   },
-   "criterio": "Parte del SMN por ciudad con probabilidades no disponible para esta ciudad y Meteored no consultado: se usa el único modelo disponible (Agrofy, Open-Meteo: 0,9 mm hoy, 74 % de probabilidad). El rango de la alerta (30 a 70 mm) se informa aparte como escenario severo.",
-   "fuente": "Listado de alertas del COE de Corrientes (avisos del SMN); modelo Agrofy News (Open-Meteo)",
-   "act": "14/11, 08:29 h",
-   "escenario_severo": {
-    "min": 30,
-    "max": 70,
-    "fuente": "Alerta 2026-0070-AT del SMN difundida por el COE"
-   }
-  },
-  "Mercedes": {
-   "hoy": {
-    "mm": 0.1,
-    "horas": 1
-   },
-   "manana": {
-    "mm": 1.2,
-    "horas": 5
-   },
-   "smn": "Alerta amarilla por tormentas del SMN difundida por el COE (2026-0070-AT), en curso el sábado 14/11 hasta las 12:00 h, con 30 a 70 mm (escenario severo, no pronóstico central).",
-   "modelos": {
-    "hoy": [
-     [
-      "Agrofy (Open-Meteo)",
-      0.1
-     ]
-    ],
-    "manana": [
-     [
-      "Agrofy (Open-Meteo)",
-      1.2
-     ]
-    ]
-   },
-   "criterio": "Parte del SMN por ciudad con probabilidades no disponible para esta ciudad y Meteored no consultado: se usa el único modelo disponible (Agrofy, Open-Meteo: 0,1 mm hoy, 65 % de probabilidad). El rango de la alerta (30 a 70 mm) se informa aparte como escenario severo.",
-   "fuente": "Listado de alertas del COE de Corrientes (avisos del SMN); modelo Agrofy News (Open-Meteo)",
-   "act": "14/11, 09:05 h",
-   "escenario_severo": {
-    "min": 30,
-    "max": 70,
-    "fuente": "Alerta 2026-0070-AT del SMN difundida por el COE"
-   }
-  },
-  "Curuzú Cuatiá": {
-   "hoy": {
-    "mm": 0.1,
-    "horas": 1
-   },
-   "manana": {
-    "mm": 0,
-    "horas": 0
-   },
-   "smn": "Alerta amarilla por tormentas del SMN difundida por el COE (2026-0070-AT), en curso el sábado 14/11 hasta las 12:00 h, con 30 a 70 mm (escenario severo, no pronóstico central).",
-   "modelos": {
-    "hoy": [
-     [
-      "Agrofy (Open-Meteo)",
-      0.1
-     ]
-    ],
-    "manana": [
-     [
-      "Agrofy (Open-Meteo)",
-      0
-     ]
-    ]
-   },
-   "criterio": "Parte del SMN por ciudad con probabilidades no disponible para esta ciudad y Meteored no consultado: se usa el único modelo disponible (Agrofy, Open-Meteo: 0,1 mm hoy, 60 % de probabilidad). El rango de la alerta (30 a 70 mm) se informa aparte como escenario severo.",
-   "fuente": "Listado de alertas del COE de Corrientes (avisos del SMN); modelo Agrofy News (Open-Meteo)",
-   "act": "14/11, 07:19 h",
-   "escenario_severo": {
-    "min": 30,
-    "max": 70,
-    "fuente": "Alerta 2026-0070-AT del SMN difundida por el COE"
-   }
-  },
-  "Paso de los Libres": {
-   "hoy": {
-    "mm": 0.2,
-    "horas": 2
-   },
-   "manana": {
-    "mm": 0,
-    "horas": 0
-   },
-   "smn": "Sin alerta vigente del COE para Paso de los Libres (consulta del 14/11/2026, 09:12 h).",
-   "modelos": {
-    "hoy": [
-     [
-      "Agrofy (Open-Meteo)",
+      "Open-Meteo",
       0.2
      ]
     ],
     "manana": [
      [
-      "Agrofy (Open-Meteo)",
-      0
+      "Open-Meteo",
+      0.0
      ]
     ]
    },
-   "criterio": "Parte del SMN por ciudad con probabilidades no disponible para esta ciudad y Meteored no consultado: se usa el único modelo disponible (Agrofy, Open-Meteo: 0,2 mm hoy, 43 % de probabilidad).",
-   "fuente": "Listado de alertas del COE de Corrientes (avisos del SMN); modelo Agrofy News (Open-Meteo)",
-   "act": "14/11, 09:05 h"
+   "criterio": "Parte del SMN por ciudad con probabilidades no disponible para esta ciudad: se usa el promedio de los modelos disponibles (Open-Meteo): hoy 0,2 mm y mañana 0,0 mm.",
+   "fuente": "Modelo Open-Meteo (15/11, 08:59 h). Estimación derivada, no una medición.",
+   "act": "15/11, 08:59 h"
+  },
+  "Mercedes": {
+   "hoy": {
+    "mm": 1.5,
+    "horas": 8
+   },
+   "manana": {
+    "mm": 0.0,
+    "horas": 0
+   },
+   "smn": "Sin alerta del SMN ni del COE para Mercedes el domingo 15/11 (consulta de las 09:00 h).",
+   "modelos": {
+    "hoy": [
+     [
+      "Open-Meteo",
+      1.5
+     ]
+    ],
+    "manana": [
+     [
+      "Open-Meteo",
+      0.0
+     ]
+    ]
+   },
+   "criterio": "Parte del SMN por ciudad con probabilidades no disponible para esta ciudad: se usa el promedio de los modelos disponibles (Open-Meteo): hoy 1,5 mm y mañana 0,0 mm.",
+   "fuente": "Modelo Open-Meteo (15/11, 08:59 h). Estimación derivada, no una medición.",
+   "act": "15/11, 08:59 h"
+  },
+  "Curuzú Cuatiá": {
+   "hoy": {
+    "mm": 1.0,
+    "horas": 7
+   },
+   "manana": {
+    "mm": 0.2,
+    "horas": 2
+   },
+   "smn": "Sin alerta del SMN ni del COE para Curuzú Cuatiá el domingo 15/11 (consulta de las 09:00 h).",
+   "modelos": {
+    "hoy": [
+     [
+      "Open-Meteo",
+      1.0
+     ]
+    ],
+    "manana": [
+     [
+      "Open-Meteo",
+      0.2
+     ]
+    ]
+   },
+   "criterio": "Parte del SMN por ciudad con probabilidades no disponible para esta ciudad: se usa el promedio de los modelos disponibles (Open-Meteo): hoy 1,0 mm y mañana 0,2 mm.",
+   "fuente": "Modelo Open-Meteo (15/11, 08:59 h). Estimación derivada, no una medición.",
+   "act": "15/11, 08:59 h"
+  },
+  "Paso de los Libres": {
+   "hoy": {
+    "mm": 1.1,
+    "horas": 9
+   },
+   "manana": {
+    "mm": 0.2,
+    "horas": 4
+   },
+   "smn": "Sin alerta del SMN ni del COE para Paso de los Libres el domingo 15/11 (consulta de las 09:00 h).",
+   "modelos": {
+    "hoy": [
+     [
+      "Open-Meteo",
+      2.0
+     ],
+     [
+      "Modelo numérico del SMN",
+      0.2
+     ]
+    ],
+    "manana": [
+     [
+      "Open-Meteo",
+      0.4
+     ],
+     [
+      "Modelo numérico del SMN",
+      0.0
+     ]
+    ]
+   },
+   "criterio": "Parte del SMN por ciudad con probabilidades no disponible para esta ciudad: se usa el promedio de los modelos disponibles (Open-Meteo y el modelo numérico del SMN): hoy 1,1 mm y mañana 0,2 mm.",
+   "fuente": "Modelo Open-Meteo (15/11, 08:59 h) y el modelo numérico del SMN. Estimación derivada, no una medición.",
+   "act": "15/11, 08:59 h"
   },
   "Santo Tomé": {
    "hoy": {
-    "mm": 0.5,
-    "horas": 1
+    "mm": 0.0,
+    "horas": 0
    },
    "manana": {
-    "mm": 1.1,
-    "horas": 2
+    "mm": 0.0,
+    "horas": 0
    },
-   "smn": "Sin alerta vigente del COE para Santo Tomé (consulta del 14/11/2026, 09:12 h).",
+   "smn": "Sin alerta del SMN ni del COE para Santo Tomé el domingo 15/11 (consulta de las 09:00 h).",
    "modelos": {
     "hoy": [
      [
-      "Agrofy (Open-Meteo)",
-      0.5
+      "Open-Meteo",
+      0.0
      ]
     ],
     "manana": [
      [
-      "Agrofy (Open-Meteo)",
-      1.1
+      "Open-Meteo",
+      0.0
      ]
     ]
    },
-   "criterio": "Parte del SMN por ciudad con probabilidades no disponible para esta ciudad y Meteored no consultado: se usa el único modelo disponible (Agrofy, Open-Meteo: 0,5 mm hoy, 50 % de probabilidad).",
-   "fuente": "Listado de alertas del COE de Corrientes (avisos del SMN); modelo Agrofy News (Open-Meteo)",
-   "act": "14/11, 06:58 h"
+   "criterio": "Parte del SMN por ciudad con probabilidades no disponible para esta ciudad: se usa el promedio de los modelos disponibles (Open-Meteo): hoy 0,0 mm y mañana 0,0 mm.",
+   "fuente": "Modelo Open-Meteo (15/11, 08:59 h). Estimación derivada, no una medición.",
+   "act": "15/11, 08:59 h"
   },
   "Gobernador Virasoro": {
    "hoy": {
-    "mm": 2.2,
-    "horas": 5
+    "mm": 0.4,
+    "horas": 4
    },
    "manana": {
-    "mm": 0.9,
-    "horas": 2
+    "mm": 0.5,
+    "horas": 5
    },
-   "smn": "Sin alerta vigente del COE para Gobernador Virasoro (consulta del 14/11/2026, 09:12 h).",
+   "smn": "Sin alerta del SMN ni del COE para Gobernador Virasoro el domingo 15/11 (consulta de las 09:00 h).",
    "modelos": {
     "hoy": [
      [
-      "Agrofy (Open-Meteo)",
-      2.2
+      "Open-Meteo",
+      0.4
      ]
     ],
     "manana": [
      [
-      "Agrofy (Open-Meteo)",
-      0.9
+      "Open-Meteo",
+      0.5
      ]
     ]
    },
-   "criterio": "Parte del SMN por ciudad con probabilidades no disponible para esta ciudad y Meteored no consultado: se usa el único modelo disponible (Agrofy, Open-Meteo: 2,2 mm hoy, 53 % de probabilidad).",
-   "fuente": "Listado de alertas del COE de Corrientes (avisos del SMN); modelo Agrofy News (Open-Meteo)",
-   "act": "14/11, 08:18 h"
+   "criterio": "Parte del SMN por ciudad con probabilidades no disponible para esta ciudad: se usa el promedio de los modelos disponibles (Open-Meteo): hoy 0,4 mm y mañana 0,5 mm.",
+   "fuente": "Modelo Open-Meteo (15/11, 08:59 h). Estimación derivada, no una medición.",
+   "act": "15/11, 08:59 h"
   },
   "Ituzaingó": {
    "hoy": {
-    "mm": 0.6,
-    "horas": 2
+    "mm": 0.3,
+    "horas": 4
    },
    "manana": {
-    "mm": 0,
+    "mm": 0.0,
     "horas": 0
    },
-   "smn": "Alerta amarilla por tormentas del SMN difundida por el COE (2026-0070-AT), en curso el sábado 14/11 hasta las 12:00 h, con 30 a 70 mm (escenario severo, no pronóstico central).",
+   "smn": "Sin alerta del SMN ni del COE para Ituzaingó el domingo 15/11 (consulta de las 09:00 h).",
    "modelos": {
     "hoy": [
      [
-      "Agrofy (Open-Meteo)",
+      "Open-Meteo",
       0.6
+     ],
+     [
+      "Modelo numérico del SMN",
+      0.1
      ]
     ],
     "manana": [
      [
-      "Agrofy (Open-Meteo)",
-      0
+      "Open-Meteo",
+      0.0
+     ],
+     [
+      "Modelo numérico del SMN",
+      0.0
      ]
     ]
    },
-   "criterio": "Parte del SMN por ciudad con probabilidades no disponible para esta ciudad y Meteored no consultado: se usa el único modelo disponible (Agrofy, Open-Meteo: 0,6 mm hoy, 52 % de probabilidad). El rango de la alerta (30 a 70 mm) se informa aparte como escenario severo.",
-   "fuente": "Listado de alertas del COE de Corrientes (avisos del SMN); modelo Agrofy News (Open-Meteo)",
-   "act": "14/11, 09:05 h",
-   "escenario_severo": {
-    "min": 30,
-    "max": 70,
-    "fuente": "Alerta 2026-0070-AT del SMN difundida por el COE"
-   }
+   "criterio": "Parte del SMN por ciudad con probabilidades no disponible para esta ciudad: se usa el promedio de los modelos disponibles (Open-Meteo y el modelo numérico del SMN): hoy 0,3 mm y mañana 0,0 mm.",
+   "fuente": "Modelo Open-Meteo (15/11, 08:59 h) y el modelo numérico del SMN. Estimación derivada, no una medición.",
+   "act": "15/11, 08:59 h"
   },
   "Monte Caseros": {
    "hoy": {
-    "mm": 0.7,
+    "mm": 0.1,
     "horas": 1
    },
    "manana": {
-    "mm": 0,
-    "horas": 0
+    "mm": 0.3,
+    "horas": 5
    },
-   "smn": "Sin alerta vigente del COE para Monte Caseros (consulta del 14/11/2026, 09:12 h).",
+   "smn": "Sin alerta del SMN ni del COE para Monte Caseros el domingo 15/11 (consulta de las 09:00 h).",
    "modelos": {
     "hoy": [
      [
-      "Agrofy (Open-Meteo)",
-      0.7
+      "Open-Meteo",
+      0.1
+     ],
+     [
+      "Modelo numérico del SMN",
+      0.0
      ]
     ],
     "manana": [
      [
-      "Agrofy (Open-Meteo)",
-      0
+      "Open-Meteo",
+      0.7
+     ],
+     [
+      "Modelo numérico del SMN",
+      0.0
      ]
     ]
    },
-   "criterio": "Parte del SMN por ciudad con probabilidades no disponible para esta ciudad y Meteored no consultado: se usa el único modelo disponible (Agrofy, Open-Meteo: 0,7 mm hoy, 51 % de probabilidad).",
-   "fuente": "Listado de alertas del COE de Corrientes (avisos del SMN); modelo Agrofy News (Open-Meteo)",
-   "act": "14/11, 09:05 h"
+   "criterio": "Parte del SMN por ciudad con probabilidades no disponible para esta ciudad: se usa el promedio de los modelos disponibles (Open-Meteo y el modelo numérico del SMN): hoy 0,1 mm y mañana 0,3 mm.",
+   "fuente": "Modelo Open-Meteo (15/11, 08:59 h) y el modelo numérico del SMN. Estimación derivada, no una medición.",
+   "act": "15/11, 08:59 h"
   },
   "Saladas": {
    "hoy": {
-    "mm": 0.3,
-    "horas": 2
+    "mm": 0.1,
+    "horas": 1
    },
    "manana": {
     "mm": 0.1,
     "horas": 1
    },
-   "smn": "Alerta naranja por tormentas del SMN difundida por el COE (2026-0022-NT), en curso el sábado 14/11 hasta las 12:00 h, con 80 a 120 mm (escenario severo, no pronóstico central).",
+   "smn": "Sin alerta del SMN ni del COE para Saladas el domingo 15/11 (consulta de las 09:00 h).",
    "modelos": {
     "hoy": [
      [
-      "Agrofy (Open-Meteo)",
-      0.3
+      "Open-Meteo",
+      0.1
      ]
     ],
     "manana": [
      [
-      "Agrofy (Open-Meteo)",
+      "Open-Meteo",
       0.1
      ]
     ]
    },
-   "criterio": "Parte del SMN por ciudad con probabilidades no disponible para esta ciudad y Meteored no consultado: se usa el único modelo disponible (Agrofy, Open-Meteo: 0,3 mm hoy, 72 % de probabilidad). El rango de la alerta (80 a 120 mm) se informa aparte como escenario severo.",
-   "fuente": "Listado de alertas del COE de Corrientes (avisos del SMN); modelo Agrofy News (Open-Meteo)",
-   "act": "14/11, 07:36 h",
-   "escenario_severo": {
-    "min": 80,
-    "max": 120,
-    "fuente": "Alerta 2026-0022-NT del SMN difundida por el COE"
-   }
+   "criterio": "Parte del SMN por ciudad con probabilidades no disponible para esta ciudad: se usa el promedio de los modelos disponibles (Open-Meteo): hoy 0,1 mm y mañana 0,1 mm.",
+   "fuente": "Modelo Open-Meteo (15/11, 08:59 h). Estimación derivada, no una medición.",
+   "act": "15/11, 08:59 h"
   }
  },
  "antecedentes": {
@@ -1223,6 +1211,6 @@
    }
   ]
  },
- "pron_actualizado": "14/11/2026, 18:31 h",
+ "pron_actualizado": "15/11/2026, 09:15 h",
  "smn": []
 }

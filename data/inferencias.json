@@ -1,19 +1,19 @@
 {
- "actualizado": "15/11/2026, 00:23 h",
+ "actualizado": "15/11/2026, 09:15 h",
  "aviso": "Inferencias propias del tablero, elaboradas con procesamiento lógico a partir de sus registros y de fuentes oficiales. No son avisos oficiales: ante una emergencia, siga las indicaciones de Defensa Civil y del SMN.",
  "vigentes": [
   {
    "id": "rio-parana-bajante",
    "tema": "🌊 Río Paraná",
-   "titulo": "El Paraná sigue en bajante lenta en la Capital",
-   "texto": "Bajó de 7,00 m el 6/11 a 6,68 m hoy, unos 4 cm por día. Aguas arriba también baja (Ituzaingó pasó de 3,70 a 2,99 m) y Yacyretá prevé menos caudal hasta el 17/11. Si sigue este ritmo, quedaría por debajo de la cota de alerta (6,50 m) hacia el 18 o 19 de noviembre.",
+   "titulo": "El Paraná en la Capital está a punto de bajar de la alerta",
+   "texto": "Bajó de 7,00 m el 6/11 a 6,57 m hoy a las 08:00 h, unos 5 cm por día, y en el último día bajó 11 cm. Aguas arriba también baja (Ituzaingó 2,65 m, Itatí 6,81 m). Si sigue este ritmo, quedaría por debajo de la cota de alerta (6,50 m) entre el 16 y el 17 de noviembre, como prevé el INA.",
    "base": [
-    "Alturas de Prefectura del 6 al 14/11 (Corrientes, Itatí, Ituzaingó)",
-    "Comunicado de Yacyretá del 13/11",
-    "Pronóstico del INA: 6,60 m al 17/11"
+    "Alturas de Prefectura del 6 al 15/11 (Corrientes, Itatí, Ituzaingó)",
+    "Pronóstico del INA: 6,60 m o menos al 17/11",
+    "Comunicado de Yacyretá del 13/11"
    ],
    "confianza": "alta",
-   "horizonte": "próximos 5 días",
+   "horizonte": "próximos 3 días",
    "ambito": "global",
    "localidad": "Provincia"
   },
@@ -79,6 +79,22 @@
   }
  ],
  "historial": [
+  {
+   "id": "rio-parana-bajante",
+   "tema": "🌊 Río Paraná",
+   "titulo": "El Paraná en la Capital está a punto de bajar de la alerta",
+   "texto": "Bajó de 7,00 m el 6/11 a 6,57 m hoy a las 08:00 h, unos 5 cm por día, y en el último día bajó 11 cm. Aguas arriba también baja (Ituzaingó 2,65 m, Itatí 6,81 m). Si sigue este ritmo, quedaría por debajo de la cota de alerta (6,50 m) entre el 16 y el 17 de noviembre, como prevé el INA.",
+   "base": [
+    "Alturas de Prefectura del 6 al 15/11 (Corrientes, Itatí, Ituzaingó)",
+    "Pronóstico del INA: 6,60 m o menos al 17/11",
+    "Comunicado de Yacyretá del 13/11"
+   ],
+   "confianza": "alta",
+   "horizonte": "próximos 3 días",
+   "ambito": "global",
+   "localidad": "Provincia",
+   "fecha": "15/11/2026"
+  },
   {
    "id": "evacuados-sin-regreso",
    "tema": "🏘️ Barrios",
