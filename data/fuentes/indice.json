@@ -1,6 +1,6 @@
 {
- "consultado": "15/11/2026, 01:11 h",
- "consultado_iso": "2026-11-15T01:11-03:00",
+ "consultado": "15/11/2026, 01:13 h",
+ "consultado_iso": "2026-11-15T01:13-03:00",
  "paginas": {
   "smn_alertas": {
    "url": "https://www.smn.gob.ar/alertas",
@@ -134,6 +134,13 @@
    "estado": 200,
    "caracteres": 1993,
    "archivo": "data/fuentes/coe_a_2026_0071_AT.txt"
+  }
+ },
+ "pedidas": {
+  "https://api.open-meteo.com/v1/forecast?latitude=-27.47&longitude=-58.83&hourly=precipitation&timezone=America/Argentina/Buenos_Aires&forecast_days=3": {
+   "url": "https://api.open-meteo.com/v1/forecast?latitude=-27.47&longitude=-58.83&hourly=precipitation&timezone=America/Argentina/Buenos_Aires&forecast_days=3",
+   "estado": "error",
+   "detalle": "HTTP Error 429: Too Many Requests"
   }
  }
 }

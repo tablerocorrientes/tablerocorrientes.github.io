@@ -1,0 +1,9 @@
+{
+ "pendientes": [
+  {
+   "url": "https://api.open-meteo.com/v1/forecast?latitude=-27.47&longitude=-58.83&hourly=precipitation&timezone=America/Argentina/Buenos_Aires&forecast_days=3",
+   "desde": "15/11/2026, 01:13 h",
+   "error": "HTTP Error 429: Too Many Requests"
+  }
+ ]
+}
