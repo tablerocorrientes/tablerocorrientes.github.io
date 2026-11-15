@@ -1,8 +1,8 @@
 {
- "consultado": "15/11/2026, 02:43 h",
- "consultado_iso": "2026-11-15T02:43:12-03:00",
+ "consultado": "15/11/2026, 04:40 h",
+ "consultado_iso": "2026-11-15T04:40:39-03:00",
  "fuente": "Servicio Meteorológico Nacional (www.smn.gob.ar/alertas), leído desde una conexión de Corrientes",
  "resultado": "sin alertas para Corrientes",
  "alertas": [],
- "texto_pagina": "Página /alertas: mapa de alertas con fecha de emisión 14/11/2026 18:06h (días domingo 15, lunes 16, martes 17); el texto de la página no lista zonas. Resumen por provincia (www.smn.gob.ar/resumen_por_provincia): \"Información vigente desde las 00:00h de hoy domingo 15 hasta las 23:59 horas de mañana domingo 15 de noviembre de 2.026\". Columnas ACP, Tormenta, Lluvia, Nevada, Viento, Viento zonda, Niebla, Polvo, Humo, Ceniza: Corrientes con '-' en todas (sin alertas ni avisos a muy corto plazo). Provincias con marca en la columna Tormenta: Chubut, La Pampa, Mendoza, Misiones, Neuquén, Río Negro y San Luis. La dirección www.smn.gob.ar/alertas-corto-plazo respondió 'Page not found' (404)."
+ "texto_pagina": "Resumen por provincia (www.smn.gob.ar/resumen_por_provincia): Información vigente desde las 00:00h de hoy domingo 15 hasta las 23:59 horas de mañana domingo 15 de noviembre de 2.026. Corrientes: ACP -, Tormenta -, Lluvia -, Nevada -, Viento -, Viento zonda -, Niebla -, Polvo -, Humo -, Ceniza - (sin alertas). Mapa de alertas (www.smn.gob.ar/alertas): Fecha de emisión: 14/11/2026 18:06h; días Domingo 15, Lunes 16, Martes 17. Avisos a muy corto plazo (www.smn.gob.ar/avisos_a_muy_corto_plazo): No hay avisos. Nota: la dirección www.smn.gob.ar/alertas-corto-plazo responde 404; la página vigente es /avisos_a_muy_corto_plazo."
 }
