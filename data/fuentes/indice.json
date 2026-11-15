@@ -1,6 +1,6 @@
 {
- "consultado": "14/11/2026, 23:26 h",
- "consultado_iso": "2026-11-14T23:26-03:00",
+ "consultado": "15/11/2026, 00:14 h",
+ "consultado_iso": "2026-11-15T00:14-03:00",
  "paginas": {
   "smn_alertas": {
    "url": "https://www.smn.gob.ar/alertas",
@@ -28,7 +28,7 @@
     "https://coe.corrientes.gob.ar/a/2026-0126-CP"
    ],
    "estado": 200,
-   "caracteres": 3625,
+   "caracteres": 3607,
    "archivo": "data/fuentes/coe_inicio.txt"
   },
   "smn_datos_alertas": {
@@ -47,19 +47,19 @@
    "detalle": "HTTP Error 503: Service Unavailable"
   },
   "smn_datos_horarios_ayer": {
-   "url": "https://ssl.smn.gob.ar/dpd/descarga_opendata.php?file=observaciones/datohorario20261113.txt",
+   "url": "https://ssl.smn.gob.ar/dpd/descarga_opendata.php?file=observaciones/datohorario20261114.txt",
    "estado": 200,
-   "caracteres": 10301,
+   "caracteres": 58,
    "archivo": "data/fuentes/smn_datos_horarios_ayer.txt"
   },
   "smn_pronostico_5_dias": {
-   "url": "https://ssl.smn.gob.ar/dpd/descarga_opendata.php?file=pron5d/pron20261114.txt",
+   "url": "https://ssl.smn.gob.ar/dpd/descarga_opendata.php?file=pron5d/pron20261115.txt",
    "estado": 200,
-   "caracteres": 17711,
+   "caracteres": 44,
    "archivo": "data/fuentes/smn_pronostico_5_dias.txt"
   },
   "smn_pronostico_5_dias_ayer": {
-   "url": "https://ssl.smn.gob.ar/dpd/descarga_opendata.php?file=pron5d/pron20261113.txt",
+   "url": "https://ssl.smn.gob.ar/dpd/descarga_opendata.php?file=pron5d/pron20261114.txt",
    "estado": 200,
    "caracteres": 17711,
    "archivo": "data/fuentes/smn_pronostico_5_dias_ayer.txt"
