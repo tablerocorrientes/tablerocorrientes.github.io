@@ -1,8 +1,8 @@
 {
  "estado_alertas": "VERIFICADO_SIN_ALERTAS",
  "estado_verificado": {
-  "fecha": "15/11/2026, 02:43 h",
-  "fuente": "SMN: sin alertas ni avisos a muy corto plazo para la provincia de Corrientes el domingo 15/11 (mapa de alertas emitido el 14/11 a las 18:06 h)."
+  "fecha": "15/11/2026, 04:26 h",
+  "fuente": "SMN y COE de Corrientes: sin alertas ni avisos a muy corto plazo del SMN para la provincia de Corrientes el domingo 15/11."
  },
  "met_archivo": {
   "nombre": "vigilancia_meteorologica_20261113_183508.json",
