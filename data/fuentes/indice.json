@@ -1,6 +1,6 @@
 {
- "consultado": "15/11/2026, 00:47 h",
- "consultado_iso": "2026-11-15T00:47-03:00",
+ "consultado": "15/11/2026, 00:57 h",
+ "consultado_iso": "2026-11-15T00:57-03:00",
  "paginas": {
   "smn_alertas": {
    "url": "https://www.smn.gob.ar/alertas",
@@ -137,92 +137,40 @@
   }
  },
  "pedidas": {
-  "https://www.ellitoral.com.ar/interior/2026-11-4-10-21-0-asisten-a-72-familias-autoevacuadas-en-goya-y-se-monitorea-la-evolucion-del-rio-parana": {
-   "url": "https://www.ellitoral.com.ar/interior/2026-11-4-10-21-0-asisten-a-72-familias-autoevacuadas-en-goya-y-se-monitorea-la-evolucion-del-rio-parana",
-   "estado": 200,
-   "caracteres": 2751,
-   "archivo": "data/fuentes/web/ellitoral_com_ar_interior_2026_11_4_10_21_0_asisten_a_72_familias_autoevacuadas_en_goya_y_.txt"
-  },
-  "https://www.ellitoral.com.ar/sociedad/2026-11-3-9-46-0-crecida-del-parana-en-goya-el-intendente-detallo-las-zonas-afectadas-y-las-evacuaciones": {
-   "url": "https://www.ellitoral.com.ar/sociedad/2026-11-3-9-46-0-crecida-del-parana-en-goya-el-intendente-detallo-las-zonas-afectadas-y-las-evacuaciones",
-   "estado": 200,
-   "caracteres": 3851,
-   "archivo": "data/fuentes/web/ellitoral_com_ar_sociedad_2026_11_3_9_46_0_crecida_del_parana_en_goya_el_intendente_detall.txt"
-  },
-  "https://www.ellitoral.com.ar/interior/2026-11-8-8-35-0-aunque-el-rio-parana-descendio-ya-son-92-las-familias-autoevacuadas-en-goya": {
-   "url": "https://www.ellitoral.com.ar/interior/2026-11-8-8-35-0-aunque-el-rio-parana-descendio-ya-son-92-las-familias-autoevacuadas-en-goya",
-   "estado": 200,
-   "caracteres": 2553,
-   "archivo": "data/fuentes/web/ellitoral_com_ar_interior_2026_11_8_8_35_0_aunque_el_rio_parana_descendio_ya_son_92_las_fa.txt"
-  },
-  "https://www.ellitoral.com.ar/sociedad/2026-11-4-19-51-0-crecida-en-goya-el-rio-supera-el-nivel-de-evacuacion-y-hay-126-personas-fuera-de-sus-casas": {
-   "url": "https://www.ellitoral.com.ar/sociedad/2026-11-4-19-51-0-crecida-en-goya-el-rio-supera-el-nivel-de-evacuacion-y-hay-126-personas-fuera-de-sus-casas",
-   "estado": 200,
-   "caracteres": 2445,
-   "archivo": "data/fuentes/web/ellitoral_com_ar_sociedad_2026_11_4_19_51_0_crecida_en_goya_el_rio_supera_el_nivel_de_evac.txt"
-  },
-  "https://www.diarioellibertador.com.ar/goya-crecida-parana-63-familias-evacuadas-zona-puerto-aislados-ruta-82/": {
-   "url": "https://www.diarioellibertador.com.ar/goya-crecida-parana-63-familias-evacuadas-zona-puerto-aislados-ruta-82/",
-   "estado": 200,
-   "caracteres": 7143,
-   "archivo": "data/fuentes/web/diarioellibertador_com_ar_goya_crecida_parana_63_familias_evacuadas_zona_puerto_aislados_r.txt"
-  },
-  "https://www.elmonterizo.com/goya-bajo-el-agua-32-familias-ya-dejaron-sus-casas-y-el-rio-no-da-tregua": {
-   "url": "https://www.elmonterizo.com/goya-bajo-el-agua-32-familias-ya-dejaron-sus-casas-y-el-rio-no-da-tregua",
-   "estado": 200,
-   "caracteres": 3999,
-   "archivo": "data/fuentes/web/elmonterizo_com_goya_bajo_el_agua_32_familias_ya_dejaron_sus_casas_y_el_rio_no_da_tregua.txt"
-  },
-  "https://www.diarioepoca.com/1392393-creciente-empedrado-en-emergencia-y-en-capital-el-rio-supero-cinco-metros": {
-   "url": "https://www.diarioepoca.com/1392393-creciente-empedrado-en-emergencia-y-en-capital-el-rio-supero-cinco-metros",
+  "https://www.13maxnoticias.com/45007-la-creciente-del-parana-deja-mas-de-1400-desplazados-en-corrientes-y-la-armada-se-sumo-a-la-asistencia": {
+   "url": "https://www.13maxnoticias.com/45007-la-creciente-del-parana-deja-mas-de-1400-desplazados-en-corrientes-y-la-armada-se-sumo-a-la-asistencia",
    "estado": "error",
-   "detalle": "HTTP Error 403: Forbidden"
-  },
-  "https://www.canal12misiones.com/aaa-modulo-b/corrientes-9": {
-   "url": "https://www.canal12misiones.com/aaa-modulo-b/corrientes-9",
-   "estado": 200,
-   "caracteres": 7353,
-   "archivo": "data/fuentes/web/canal12misiones_com_aaa_modulo_b_corrientes_9.txt"
-  },
-  "https://virasorovirtual.com/2026-10-14-crece-el-parana-en-corrientes-evacuados-y-emergencia-hidrica-en-varias-localidades": {
-   "url": "https://virasorovirtual.com/2026-10-14-crece-el-parana-en-corrientes-evacuados-y-emergencia-hidrica-en-varias-localidades",
-   "estado": 200,
-   "caracteres": 8239,
-   "archivo": "data/fuentes/web/virasorovirtual_com_2026_10_14_crece_el_parana_en_corrientes_evacuados_y_emergencia_hidric.txt"
-  },
-  "https://elmonterizo.com/el-parana-paso-los-7-metros-y-ya-hay-cientos-de-evacuados-en-corrientes-las-familias-que-debieron-dejar-sus-casas": {
-   "url": "https://elmonterizo.com/el-parana-paso-los-7-metros-y-ya-hay-cientos-de-evacuados-en-corrientes-las-familias-que-debieron-dejar-sus-casas",
-   "estado": 200,
-   "caracteres": 2320,
-   "archivo": "data/fuentes/web/elmonterizo_com_el_parana_paso_los_7_metros_y_ya_hay_cientos_de_evacuados_en_corrientes_la.txt"
-  },
-  "https://www.diarioellibertador.com.ar/esquina-crecida-rio-corriente-desborde-costanera-playas-evacuados/": {
-   "url": "https://www.diarioellibertador.com.ar/esquina-crecida-rio-corriente-desborde-costanera-playas-evacuados/",
-   "estado": "error",
-   "detalle": "HTTP Error 404: Not Found"
+   "detalle": "HTTP Error 429: Too Many Requests"
   },
   "https://www.13maxnoticias.com/45033-corrientes-casi-2000-personas-tuvieron-que-dejar-sus-hogares-debido-a-la-crecida": {
    "url": "https://www.13maxnoticias.com/45033-corrientes-casi-2000-personas-tuvieron-que-dejar-sus-hogares-debido-a-la-crecida",
    "estado": "error",
-   "detalle": "HTTP Error 403: Forbidden"
+   "detalle": "HTTP Error 404: NOT FOUND"
   },
-  "https://elmonterizo.com/el-rio-paso-la-marca-de-evacuacion-y-las-lanchas-no-llegaron-a-las-islas": {
-   "url": "https://elmonterizo.com/el-rio-paso-la-marca-de-evacuacion-y-las-lanchas-no-llegaron-a-las-islas",
-   "estado": 200,
-   "caracteres": 2747,
-   "archivo": "data/fuentes/web/elmonterizo_com_el_rio_paso_la_marca_de_evacuacion_y_las_lanchas_no_llegaron_a_las_islas.txt"
+  "https://www.diarioepoca.com/1392393-creciente-empedrado-en-emergencia-y-en-capital-el-rio-supero-cinco-metros": {
+   "url": "https://www.diarioepoca.com/1392393-creciente-empedrado-en-emergencia-y-en-capital-el-rio-supero-cinco-metros",
+   "estado": "error",
+   "detalle": "HTTP Error 429: Too Many Requests"
   },
-  "https://prensamercosur.org/2026/10/26/crecida-del-parana-ya-son-mas-de-1-400-desplazados-en-la-provincia/": {
-   "url": "https://prensamercosur.org/2026/10/26/crecida-del-parana-ya-son-mas-de-1-400-desplazados-en-la-provincia/",
-   "estado": 200,
-   "caracteres": 10374,
-   "archivo": "data/fuentes/web/prensamercosur_org_2026_10_26_crecida_del_parana_ya_son_mas_de_1_400_desplazados_en_la_pro.txt"
+  "https://www.diarionorte.com/336563-el-parana-bajo-otros-10-centimetros-y-se-acerca-al-nivel-de-evacuacion": {
+   "url": "https://www.diarionorte.com/336563-el-parana-bajo-otros-10-centimetros-y-se-acerca-al-nivel-de-evacuacion",
+   "estado": "error",
+   "detalle": "HTTP Error 404: NOT FOUND"
   },
-  "https://misionesonline.net/2026/10/14/corrientes-parana-crecida/": {
-   "url": "https://misionesonline.net/2026/10/14/corrientes-parana-crecida/",
-   "estado": 200,
-   "caracteres": 10454,
-   "archivo": "data/fuentes/web/misionesonline_net_2026_10_14_corrientes_parana_crecida.txt"
+  "https://www.nortecorrientes.com/206968-con-mas-de-1600-evacuados-preven-una-bajante-temporal-pero-advierten-nuevas-subas": {
+   "url": "https://www.nortecorrientes.com/206968-con-mas-de-1600-evacuados-preven-una-bajante-temporal-pero-advierten-nuevas-subas",
+   "estado": "error",
+   "detalle": "HTTP Error 429: Too Many Requests"
+  },
+  "https://www.radiodos.com.ar/215723-creciente-en-corrientes-mas-de-400-personas-se-autoevacuaron-en-barrios-riberenos-de-la-capital": {
+   "url": "https://www.radiodos.com.ar/215723-creciente-en-corrientes-mas-de-400-personas-se-autoevacuaron-en-barrios-riberenos-de-la-capital",
+   "estado": "error",
+   "detalle": "HTTP Error 429: Too Many Requests"
+  },
+  "https://www.saltanews.com.ar/en-corrientes-el-agua-sube-y-el-miedo-a-los-robos-frena-la-evacuacion": {
+   "url": "https://www.saltanews.com.ar/en-corrientes-el-agua-sube-y-el-miedo-a-los-robos-frena-la-evacuacion",
+   "estado": "error",
+   "detalle": "HTTP Error 429: Too Many Requests"
   }
  }
 }
