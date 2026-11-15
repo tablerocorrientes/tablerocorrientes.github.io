@@ -1,5 +1,5 @@
 {
- "actualizado": "15/11/2026, 14:09 h",
+ "actualizado": "15/11/2026, 14:27 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
@@ -197,11 +197,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 13 h"
+   "ultimo": "0 mm a las 14 h"
   },
   {
    "localidad": "Santa Lucía",
@@ -231,11 +231,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 13 h"
+   "ultimo": "0 mm a las 14 h"
   },
   {
    "localidad": "La Palmira",
@@ -1115,11 +1115,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 13 h"
+   "ultimo": "0 mm a las 14 h"
   },
   {
    "localidad": "Pueblo Libertador",
@@ -1149,11 +1149,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 13 h"
+   "ultimo": "0 mm a las 14 h"
   },
   {
    "localidad": "Itá Ibaté",
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "15/11/2026, 14:09 h",
+ "consultado": "15/11/2026, 14:27 h",
  "consulta_resultado": "datos nuevos"
 }
