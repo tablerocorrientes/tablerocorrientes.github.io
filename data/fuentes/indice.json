@@ -1,6 +1,6 @@
 {
- "consultado": "14/11/2026, 22:19 h",
- "consultado_iso": "2026-11-14T22:19-03:00",
+ "consultado": "14/11/2026, 22:24 h",
+ "consultado_iso": "2026-11-14T22:24-03:00",
  "paginas": {
   "smn_alertas": {
    "url": "https://www.smn.gob.ar/alertas",
@@ -30,6 +30,27 @@
    "estado": 200,
    "caracteres": 3625,
    "archivo": "data/fuentes/coe_inicio.txt"
+  },
+  "smn_datos_alertas": {
+   "url": "https://ws.smn.gob.ar/alerts/type/AL",
+   "estado": "error",
+   "detalle": "HTTP Error 503: Service Unavailable"
+  },
+  "smn_datos_avisos_cp": {
+   "url": "https://ws.smn.gob.ar/alerts/type/AC",
+   "estado": "error",
+   "detalle": "HTTP Error 503: Service Unavailable"
+  },
+  "smn_datos_tiempo_presente": {
+   "url": "https://ws.smn.gob.ar/map_items/weather",
+   "estado": "error",
+   "detalle": "HTTP Error 503: Service Unavailable"
+  },
+  "smn_datos_abiertos": {
+   "url": "https://ssl.smn.gob.ar/dpd/descarga_opendata.php?file=observaciones/tiepre20261114.txt",
+   "estado": 200,
+   "caracteres": 53,
+   "archivo": "data/fuentes/smn_datos_abiertos.txt"
   },
   "coe_2026_0072_AT": {
    "url": "https://coe.corrientes.gob.ar/a/2026-0072-AT",
