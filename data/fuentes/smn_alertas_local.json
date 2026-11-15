@@ -1,22 +1,8 @@
 {
- "consultado": "15/11/2026, 12:45 h",
- "consultado_iso": "2026-11-15T12:45:00-03:00",
+ "consultado": "15/11/2026, 14:40 h",
+ "consultado_iso": "2026-11-15T14:40:00-03:00",
  "fuente": "Servicio Meteorológico Nacional (www.smn.gob.ar/alertas), leído desde una conexión de Corrientes",
- "resultado": "con alertas",
- "alertas": [
-  {
-   "tipo": "alerta",
-   "nivel": "amarillo",
-   "fenomeno": "tormenta",
-   "zonas": [
-    "área del mapa del SMN que incluye Corrientes capital y Saladas (norte/noroeste de Corrientes)",
-    "área del mapa del SMN que incluye Ituzaingó (noreste de Corrientes)"
-   ],
-   "desde": "17/11/2026",
-   "hasta": "17/11/2026",
-   "emision": "15/11/2026, 06:02 h",
-   "texto": "Martes 17: Tormenta: Amarillo. Lluvia, nevada, viento y viento zonda: sin alerta. Domingo 15 y lunes 16 sin alerta en toda la provincia. El mapa del SMN no muestra nombres de zonas; se identificaron por ubicación."
-  }
- ],
- "texto_pagina": "SMN – Alertas, Resumen por provincia. Fecha de emisión: 15/11/2026 06:02h. Días: Domingo 15, Lunes 16, Martes 17. Zonas del mapa que cubren la provincia de Corrientes (6 áreas; ubicadas por geometría con localidades de referencia: Corrientes capital/Saladas; Ituzaingó; Santo Tomé/Virasoro/Paso de los Libres; Goya/Esquina; Mercedes/Curuzú Cuatiá; Monte Caseros). Domingo 15: todas Sin alerta. Lunes 16: todas Sin alerta. Martes 17: Tormenta: Amarillo; Lluvia: Sin alerta; Nevada: Sin alerta; Viento: Sin alerta; Viento zonda: Sin alerta — en el área que incluye Corrientes capital y Saladas y en el área que incluye Ituzaingó; Sin alerta en las otras cuatro áreas de Corrientes. Avisos a muy corto plazo (www.smn.gob.ar/avisos_a_muy_corto_plazo): \"No hay avisos\". La dirección www.smn.gob.ar/alertas-corto-plazo responde página no encontrada (404)."
+ "resultado": "sin alertas para Corrientes",
+ "alertas": [],
+ "texto_pagina": "Alertas: fecha de emisión 15/11/2026 06:02h (Domingo 15, Lunes 16, Martes 17). Resumen por provincia: Información vigente desde las 12:00h de hoy domingo 15 hasta las 11:59 horas de mañana lunes 16 de noviembre de 2.026. Corrientes: ACP -, Tormenta -, Lluvia -, Nevada -, Viento -, Viento zonda -, Niebla -, Polvo -, Humo -, Ceniza - (sin alertas). Avisos a muy corto plazo (www.smn.gob.ar/avisos_a_muy_corto_plazo), resumen por provincia: No hay avisos. (La dirección www.smn.gob.ar/alertas-corto-plazo responde 404.)"
 }
