@@ -1,6 +1,6 @@
 {
- "consultado": "15/11/2026, 08:56 h",
- "consultado_iso": "2026-11-15T08:56-03:00",
+ "consultado": "15/11/2026, 08:57 h",
+ "consultado_iso": "2026-11-15T08:57-03:00",
  "paginas": {
   "smn_alertas": {
    "url": "https://www.smn.gob.ar/alertas",
@@ -127,31 +127,6 @@
    "estado": 200,
    "caracteres": 2167,
    "archivo": "data/fuentes/coe_a_2026_0070_AT.txt"
-  }
- },
- "pedidas": {
-  "https://examedia.com.ar/portada/post/88226997": {
-   "url": "https://examedia.com.ar/portada/post/88226997",
-   "estado": 200,
-   "caracteres": 5419,
-   "archivo": "data/fuentes/web/examedia_com_ar_portada_post_88226997.txt"
-  },
-  "https://examedia.com.ar/portada/post/88223780": {
-   "url": "https://examedia.com.ar/portada/post/88223780",
-   "estado": 200,
-   "caracteres": 7402,
-   "archivo": "data/fuentes/web/examedia_com_ar_portada_post_88223780.txt"
-  },
-  "https://examedia.com.ar/portada/post/88145959": {
-   "url": "https://examedia.com.ar/portada/post/88145959",
-   "estado": 200,
-   "caracteres": 5613,
-   "archivo": "data/fuentes/web/examedia_com_ar_portada_post_88145959.txt"
-  },
-  "https://www.lt7noticias.com/75347-corrientes-el-concejo-aprobo-la-tarifaria-y-el-presupuesto-2026-en-sesion-extraordinaria": {
-   "url": "https://www.lt7noticias.com/75347-corrientes-el-concejo-aprobo-la-tarifaria-y-el-presupuesto-2026-en-sesion-extraordinaria",
-   "estado": "error",
-   "detalle": "HTTP Error 404: NOT FOUND"
   }
  }
 }
