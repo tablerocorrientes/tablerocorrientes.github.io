@@ -3,42 +3,27 @@
   {
    "url": "https://www.perfil.com/noticias/nea/el-gobierno-avanza-con-la-concesion-privada-en-paso-de-los-libres-el-plan-para-modernizar-el-cotecar-ayAX25b8szHc.phtml",
    "desde": "15/11/2026, 01:36 h",
-   "error": "HTTP Error 429: Too Many Requests; HTTP 404 también desde la computadora del autor; 15/11 06:4x: HTTP 404 otra vez desde la computadora del autor; 15/11 08:40: HTTP 404 otra vez desde la computadora del autor"
+   "error": "HTTP Error 429: Too Many Requests; HTTP 404 también desde la computadora del autor; 15/11 06:4x: HTTP 404 otra vez desde la computadora del autor; 15/11 08:40: HTTP 404 otra vez desde la computadora del autor; 15/11 11:43: HTTP 404 otra vez desde la computadora del autor"
   },
   {
    "url": "https://www.perfil.com/noticias/nea",
    "desde": "15/11/2026, 01:36 h",
-   "error": "HTTP Error 429: Too Many Requests; HTTP 404 también desde la computadora del autor; 15/11 08:40: HTTP 404 otra vez desde la computadora del autor"
+   "error": "HTTP Error 429: Too Many Requests; HTTP 404 también desde la computadora del autor; 15/11 08:40: HTTP 404 otra vez desde la computadora del autor; 15/11 11:43: HTTP 404 otra vez desde la computadora del autor"
   },
   {
    "url": "https://www.perfil.com/noticias/nea/presupuesto-2027-grachot-expuso-en-el-senado-el-proyecto-de-486-billones-aiqJe7v55Z6K.phtml",
    "desde": "15/11/2026, 01:54 h",
-   "error": "HTTP Error 429: Too Many Requests; HTTP 404 también desde la computadora del autor; 15/11 06:4x: HTTP 404 otra vez desde la computadora del autor; 15/11 08:40: HTTP 404 otra vez desde la computadora del autor"
+   "error": "HTTP Error 429: Too Many Requests; HTTP 404 también desde la computadora del autor; 15/11 06:4x: HTTP 404 otra vez desde la computadora del autor; 15/11 08:40: HTTP 404 otra vez desde la computadora del autor; 15/11 11:43: HTTP 404 otra vez desde la computadora del autor"
   },
   {
    "url": "https://ciudaddecorrientes.gov.ar/noticias",
    "desde": "15/11/2026, 01:54 h",
-   "error": "HTTP Error 429: Too Many Requests; HTTP 404 también desde la computadora del autor; 15/11 06:4x: HTTP 404 otra vez desde la computadora del autor; 15/11 08:40: HTTP 404 otra vez desde la computadora del autor"
-  },
-  {
-   "url": "https://www.corrienteshoy.com/economia/el-llamado-a-licitacion-al-transporte-publico-en-corrientes-demandara-todo-el-2026.htm",
-   "desde": "15/11/2026, 08:51 h",
-   "error": "HTTP Error 429: Too Many Requests; 15/11 10:4x: la página abre desde la computadora del autor pero el texto de la nota no se pudo extraer"
-  },
-  {
-   "url": "https://www.corrienteshoy.com/policiales/mega-operativo-en-corrientes-secuestraron-30-motos-stunt.htm",
-   "desde": "15/11/2026, 08:51 h",
-   "error": "HTTP Error 429: Too Many Requests; 15/11 10:4x: la página abre desde la computadora del autor pero el texto de la nota no se pudo extraer"
+   "error": "HTTP Error 429: Too Many Requests; HTTP 404 también desde la computadora del autor; 15/11 06:4x: HTTP 404 otra vez desde la computadora del autor; 15/11 08:40: HTTP 404 otra vez desde la computadora del autor; 15/11 11:43: HTTP 404 otra vez desde la computadora del autor"
   },
   {
    "url": "https://news.agrofy.com.ar/altura-de-los-rios/bonpland",
    "desde": "15/11/2026, 08:59 h",
-   "error": "HTTP Error 429: Too Many Requests; 15/11 10:4x: HTTP 404 también desde la computadora del autor"
-  },
-  {
-   "url": "https://news.agrofy.com.ar/altura-de-los-rios/corrientes",
-   "desde": "15/11/2026, 08:59 h",
-   "error": "HTTP Error 429: Too Many Requests"
+   "error": "HTTP Error 429: Too Many Requests; 15/11 10:4x: HTTP 404 también desde la computadora del autor; 15/11 11:43: HTTP 404 otra vez desde la computadora del autor"
   }
  ]
 }
