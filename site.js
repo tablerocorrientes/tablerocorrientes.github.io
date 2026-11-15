@@ -44,14 +44,14 @@
   function menu(){
     var items=[['/','Tablero'],['/barrio/','Mi barrio'],['/provincia/','Mi localidad']];
     var n=document.createElement('nav');n.id='tc-nav';n.setAttribute('aria-label','Menú principal');
-    n.innerHTML='<div class="in"><span class="brand">Tablero Ctes</span>'+items.map(function(i){return '<a href="'+i[0]+'"'+(path===i[0]?' aria-current="page"':'')+'>'+i[1]+'</a>';}).join('')+'<a href="#tc-rep">Reportar</a><button class="inst" id="tc-inst-btn" hidden>Instalar</button></div>';
+    n.innerHTML='<div class="in"><span class="brand">Tablero Ctes</span>'+items.map(function(i){return '<a href="'+i[0]+'"'+(path===i[0]?' aria-current="page"':'')+'>'+i[1]+'</a>';}).join('')+'<a href="#tc-rep">Reportar</a><button class="inst" id="tc-inst-btn" type="button">📲 Instalar</button></div>';
     document.body.insertBefore(n,document.body.firstChild);
   }
   /* 3. Aviso de instalación */
   var ua=navigator.userAgent||'',dPrompt=null;
   var esIOS=/iphone|ipad|ipod/i.test(ua),inApp=/FBAN|FBAV|Instagram|FB_IAB|Line\//i.test(ua);
   var instalada=window.matchMedia('(display-mode: standalone)').matches||navigator.standalone===true;
-  function ocultadoReciente(){try{var t=+localStorage.getItem('tc-inst-no');return t&&Date.now()-t<7*864e5;}catch(e){return false;}}
+  function ocultadoReciente(){try{var t=+localStorage.getItem('tc-inst-no2');return t&&Date.now()-t<7*864e5;}catch(e){return false;}}
   var esAnd=/android/i.test(ua),esWin=/windows/i.test(ua),esMac=/macintosh/i.test(ua)&&!('ontouchend' in document);
   function aviso(forzar){
     var g=document.getElementById('tc-inst');
@@ -69,14 +69,14 @@
         orden.map(function(k,i){return '<details class="tc-dev"'+(i===0?' open':'')+' style="margin-top:8px;border:1px solid #c9d8de;border-radius:12px;padding:8px 10px;background:#fff"><summary style="cursor:pointer;font-weight:800">'+P[k][0]+(i===0?' <small style="font-weight:600;color:#2f9e5b">(su dispositivo)</small>':'')+'</summary>'+P[k][1]+'</details>';}).join('')+
         '<p class="s" style="margin-top:8px">Una vez instalado, se abre con un toque como cualquier aplicación y se actualiza solo.</p><button class="no" id="tc-no" type="button">Ocultar por ahora</button></details>';
       var nav=document.getElementById('tc-nav');nav.parentNode.insertBefore(g,nav.nextSibling);
-      document.getElementById('tc-no').onclick=function(){try{localStorage.setItem('tc-inst-no',String(Date.now()));}catch(e){}g.remove();};
+      document.getElementById('tc-no').onclick=function(){try{localStorage.setItem('tc-inst-no2',String(Date.now()));}catch(e){}g.remove();};
     }
     var ya=document.getElementById('tc-inst-ya');
     if(ya&&dPrompt&&!esIOS&&!inApp&&!ya.firstChild){ya.innerHTML='<button class="si" id="tc-si" type="button">Instalar ahora en este dispositivo</button>';document.getElementById('tc-si').onclick=function(){dPrompt.prompt();dPrompt.userChoice.then(function(c){if(c&&c.outcome==='accepted')g.remove();});};}
     if(forzar){document.getElementById('tc-inst-d').open=true;g.scrollIntoView({behavior:'smooth',block:'start'});}
   }
   function guiaInicial(){if(instalada)return;if(location.hash==='#instalar'){aviso(true);return;}if(!ocultadoReciente())aviso(false);}
-  window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();dPrompt=e;var b=document.getElementById('tc-inst-btn');if(b)b.hidden=false;if(document.getElementById('tc-inst'))aviso(false);});
+  window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();dPrompt=e;if(document.getElementById('tc-inst'))aviso(false);});
   window.addEventListener('appinstalled',function(){instalada=true;var d=document.getElementById('tc-inst');if(d)d.remove();});
   /* 4. Reportes ciudadanos */
   var TIPOS=['Calle anegada','Agua dentro de viviendas','Desagüe tapado o colapsado','Evacuados o autoevacuados','Corte de calle o ruta','Crecida del río','Otro, vinculado a lluvias o crecida'];
@@ -136,7 +136,7 @@
   /* 5. Arranque */
   function iniciar(){
     estilo();menu();
-    guiaInicial();window.addEventListener('hashchange',function(){if(location.hash==='#instalar')aviso(true);});var ib=document.getElementById('tc-inst-btn');if(ib){if(!instalada)ib.hidden=false;ib.onclick=function(){aviso(true);};}
+    guiaInicial();window.addEventListener('hashchange',function(){if(location.hash==='#instalar')aviso(true);});var ib=document.getElementById('tc-inst-btn');if(ib){ib.hidden=false;ib.onclick=function(){aviso(true);};}
     if(esIOS||inApp)aviso(false);
     cargarDatos().then(ejecutarPagina).then(function(){
       return Promise.all([fetch('/data/config.json',{cache:'no-cache'}).then(function(r){return r.json();}).catch(function(){return {};}),listas()]);
