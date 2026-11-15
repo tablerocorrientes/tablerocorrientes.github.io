@@ -3,7 +3,7 @@
  "metodo": "estimación derivada de modelos y del parte del SMN",
  "estado_alertas": "VERIFICADO_CON_ALERTAS",
  "estado_verificado": {
-  "fecha": "15/11/2026, 00:14 h",
+  "fecha": "15/11/2026, 01:17 h",
   "fuente": "COE de Corrientes"
  },
  "met_archivo": {
@@ -504,7 +504,7 @@
   ]
  },
  "horario_act": "14/11/2026, 09:12 h",
- "consultado": "15/11/2026, 00:23 h",
+ "consultado": "15/11/2026, 01:17 h",
  "consulta_resultado": "sin cambios",
  "extendido": {
   "actualizado": "15/11/2026, 01:09 h",
