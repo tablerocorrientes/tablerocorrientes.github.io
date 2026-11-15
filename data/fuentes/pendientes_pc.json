@@ -1,24 +1,9 @@
 {
  "pendientes": [
   {
-   "url": "https://api.open-meteo.com/v1/forecast?latitude=-27.47&longitude=-58.83&hourly=precipitation&timezone=America/Argentina/Buenos_Aires&forecast_days=3",
-   "desde": "15/11/2026, 01:13 h",
-   "error": "HTTP Error 429: Too Many Requests; Navegador: acceso no permitido desde la computadora del autor (se salteó); 15/11: acceso no permitido otra vez (se salteó)"
-  },
-  {
-   "url": "https://www.corrienteshoy.com/",
-   "desde": "15/11/2026, 01:34 h",
-   "error": "HTTP Error 429: Too Many Requests; Leída desde la computadora del autor: el texto extraído solo mostró el clima, sin la nota"
-  },
-  {
-   "url": "https://www.corrienteshoy.com/info-general/el-carnaval-oficial-de-corrientes-comenzara-el-30-de-enero-y-culminara-el-27-de-febrero-de-2027.htm",
-   "desde": "15/11/2026, 01:36 h",
-   "error": "HTTP Error 429: Too Many Requests; Leída desde la computadora del autor: el texto extraído solo mostró el clima, sin la nota; 15/11: texto extraído otra vez solo con el clima"
-  },
-  {
    "url": "https://www.perfil.com/noticias/nea/el-gobierno-avanza-con-la-concesion-privada-en-paso-de-los-libres-el-plan-para-modernizar-el-cotecar-ayAX25b8szHc.phtml",
    "desde": "15/11/2026, 01:36 h",
-   "error": "HTTP Error 429: Too Many Requests; HTTP 404 también desde la computadora del autor"
+   "error": "HTTP Error 429: Too Many Requests; HTTP 404 también desde la computadora del autor; 15/11 06:4x: HTTP 404 otra vez desde la computadora del autor"
   },
   {
    "url": "https://www.perfil.com/noticias/nea",
@@ -28,12 +13,12 @@
   {
    "url": "https://www.perfil.com/noticias/nea/presupuesto-2027-grachot-expuso-en-el-senado-el-proyecto-de-486-billones-aiqJe7v55Z6K.phtml",
    "desde": "15/11/2026, 01:54 h",
-   "error": "HTTP Error 429: Too Many Requests; HTTP 404 también desde la computadora del autor"
+   "error": "HTTP Error 429: Too Many Requests; HTTP 404 también desde la computadora del autor; 15/11 06:4x: HTTP 404 otra vez desde la computadora del autor"
   },
   {
    "url": "https://ciudaddecorrientes.gov.ar/noticias",
    "desde": "15/11/2026, 01:54 h",
-   "error": "HTTP Error 429: Too Many Requests; HTTP 404 también desde la computadora del autor"
+   "error": "HTTP Error 429: Too Many Requests; HTTP 404 también desde la computadora del autor; 15/11 06:4x: HTTP 404 otra vez desde la computadora del autor"
   }
  ]
 }
