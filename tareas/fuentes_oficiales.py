@@ -11,10 +11,35 @@ os.makedirs(OUT, exist_ok=True)
 AR = datetime.timezone(datetime.timedelta(hours=-3))
 ahora = datetime.datetime.now(AR)
 
-def bajar(url, t=30):
-    req = urllib.request.Request(url, headers=UA)
+def _get(url, headers, t):
+    req = urllib.request.Request(url, headers=headers)
     with urllib.request.urlopen(req, timeout=t) as r:
         return r.status, r.read().decode('utf-8', 'replace')
+
+NAV = dict(UA, **{'Referer': 'https://www.google.com/', 'Sec-Fetch-Mode': 'navigate', 'Sec-Fetch-Site': 'cross-site',
+                  'Sec-Fetch-Dest': 'document', 'Upgrade-Insecure-Requests': '1', 'Cache-Control': 'no-cache'})
+
+def bajar(url, t=30, alternativas=False):
+    """Descarga directa; si el sitio rechaza la consulta y se piden alternativas: encabezados de navegador,
+    versión AMP de la nota y la copia pública del Archivo de Internet (web.archive.org)."""
+    try:
+        return _get(url, UA, t)
+    except Exception as e:
+        if not alternativas:
+            raise
+        err = e
+    intentos = [(url, NAV)]
+    base = url.rstrip('/')
+    intentos += [(base + '/amp', NAV), (base + '?amp=1', NAV), (base + '?outputType=amp', NAV)]
+    intentos += [('https://web.archive.org/web/2026id_/' + url, UA)]
+    for u, hd in intentos:
+        try:
+            st, h = _get(u, hd, t)
+            if len(h) > 2000:
+                return st, ('<!-- leído desde: ' + u + ' -->') + h
+        except Exception as e2:
+            err = e2
+    raise err
 
 CTES = ('CORRIENTES', 'PASO DE LOS LIBRES', 'PASO_DE_LOS_LIBRES', 'MONTE CASEROS', 'MONTE_CASEROS',
         'ITUZAINGO', 'MERCEDES', 'GOYA', 'SANTO TOME', 'SANTO_TOME', 'CURUZU', 'ESQUINA', 'BELLA VISTA', 'RESISTENCIA')
@@ -145,7 +170,10 @@ if pedidas:
         nombre = re.sub(r'[^A-Za-z0-9]+', '_', re.sub(r'^https?://(www\.)?', '', u)).strip('_')[:90]
         r = {'url': u}
         try:
-            st, h = bajar(u)
+            st, h = bajar(u, alternativas=True)
+            via = re.match(r'<!-- leído desde: (\S+) -->', h)
+            if via:
+                r['leido_desde'] = via.group(1)
             t = h[:60000] if h.lstrip()[:1] in '[{' else texto(h)
             open(os.path.join(WEB, nombre + '.txt'), 'w', encoding='utf-8').write(
                 'Fuente: ' + u + '\nConsultado: ' + indice['consultado'] + '\n\n' + t)
