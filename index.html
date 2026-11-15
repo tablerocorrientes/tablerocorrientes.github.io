@@ -596,7 +596,7 @@ if(EV){drawEvac();
 (function(){var L=(EV&&EV.situacion)||[];if(!L.length)return;$('evSitW').style.display='';
   var hoy=Date.now(),ED={'con evacuados':['p-bad',0],'en regreso':['p-warn',1],'sin evacuados':['p-ok',2]};
   var dias=function(r){var t=Date.parse(r.f_iso||'');return isNaN(t)?null:Math.floor((hoy-t)/864e5);};
-  var ord=L.slice().sort(function(a,b){var ea=(ED[a.estado]||['',3])[1],eb=(ED[b.estado]||['',3])[1];return ea-eb||((b.evac||0)+(b.auto||0))-((a.evac||0)+(a.auto||0));});
+  var ord=L.slice().sort(function(a,b){var ea=(ED[a.estado]||['',3])[1],eb=(ED[b.estado]||['',3])[1];var tot=function(r){return r.personas!=null?r.personas:(r.evac||0)+(r.auto||0);};return ea-eb||tot(b)-tot(a);});
   $('evSit').innerHTML=ord.map(function(r){var e=ED[r.estado]||['p-n',3],d=dias(r),viejo=d!=null&&d>5;
     var n=r.personas!=null?nf(r.personas):(r.evac!=null||r.auto!=null)?nf((r.evac||0)+(r.auto||0)):r.familias!=null?nf(r.familias)+' fam.':'s/d';
     var tipo=r.tipo==='vecinos'?'<span class="pill p-n" style="margin-left:6px">Información de vecinos, a verificar</span>':r.tipo==='estimado'?'<span class="pill p-n" style="margin-left:6px">Estimado por altura del río</span>':'';
