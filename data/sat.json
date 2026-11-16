@@ -1,8 +1,8 @@
 {
  "url": "/assets/sat.jpg",
- "captura_utc": "2026-11-16T12:00:00Z",
- "captura": "16/11/2026, 09:00 h",
- "fuente": "NOAA/NESDIS/STAR, satélite GOES-19, ABI canal 13, sector Sudamérica Sur (archivo 20263201200_GOES19-ABI-ssa-13-1800x1080.jpg)",
- "origen": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/SECTOR/ssa/13/20263201200_GOES19-ABI-ssa-13-1800x1080.jpg",
- "actualizado": "16/11/2026, 09:17 h"
+ "captura_utc": "2026-11-16T14:00:00Z",
+ "captura": "16/11/2026, 11:00 h",
+ "fuente": "NOAA/NESDIS/STAR, satélite GOES-19, ABI canal 13, sector Sudamérica Sur (archivo 20263201400_GOES19-ABI-ssa-13-1800x1080.jpg)",
+ "origen": "https://cdn.star.nesdis.noaa.gov/GOES19/ABI/SECTOR/ssa/13/20263201400_GOES19-ABI-ssa-13-1800x1080.jpg",
+ "actualizado": "16/11/2026, 11:15 h"
 }
