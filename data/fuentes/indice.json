@@ -1,6 +1,6 @@
 {
- "consultado": "16/11/2026, 08:59 h",
- "consultado_iso": "2026-11-16T08:59-03:00",
+ "consultado": "16/11/2026, 09:12 h",
+ "consultado_iso": "2026-11-16T09:12-03:00",
  "paginas": {
   "smn_alertas": {
    "url": "https://www.smn.gob.ar/alertas",
@@ -51,7 +51,7 @@
   "lanacion_clima_corrientes": {
    "url": "https://www.lanacion.com.ar/clima/corrientes/",
    "estado": 200,
-   "caracteres": 8196,
+   "caracteres": 8181,
    "archivo": "data/fuentes/lanacion_clima_corrientes.txt"
   },
   "noaa_enso": {
@@ -134,64 +134,6 @@
    "estado": 200,
    "caracteres": 1993,
    "archivo": "data/fuentes/coe_a_2026_0071_AT.txt"
-  }
- },
- "pedidas": {
-  "https://api.open-meteo.com/v1/forecast?latitude=-27.47,-29.14,-30.01,-28.51,-29.18,-29.79,-29.71,-28.55,-28.05,-27.59,-30.25,-28.25&longitude=-58.83,-59.26,-59.53,-59.04,-58.08,-58.05,-57.09,-56.04,-56.02,-56.69,-57.64,-58.62&hourly=precipitation,precipitation_probability&timezone=America/Argentina/Buenos_Aires&forecast_days=7": {
-   "url": "https://api.open-meteo.com/v1/forecast?latitude=-27.47,-29.14,-30.01,-28.51,-29.18,-29.79,-29.71,-28.55,-28.05,-27.59,-30.25,-28.25&longitude=-58.83,-59.26,-59.53,-59.04,-58.08,-58.05,-57.09,-56.04,-56.02,-56.69,-57.64,-58.62&hourly=precipitation,precipitation_probability&timezone=America/Argentina/Buenos_Aires&forecast_days=7",
-   "estado": 200,
-   "caracteres": 58459,
-   "archivo": "data/fuentes/web/api_open_meteo_com_v1_forecast_latitude_27_47_29_14_30_01_28_51_29_18_29_79_29_71_28_55_28.txt"
-  },
-  "https://www.saltogrande.org/docs/hidrologia/CaudalesNiveles.pdf": {
-   "url": "https://www.saltogrande.org/docs/hidrologia/CaudalesNiveles.pdf",
-   "estado": 200,
-   "caracteres": 42331,
-   "archivo": "data/fuentes/web/saltogrande_org_docs_hidrologia_CaudalesNiveles_pdf.txt"
-  },
-  "https://news.agrofy.com.ar/altura-de-los-rios/paso-de-los-libres": {
-   "url": "https://news.agrofy.com.ar/altura-de-los-rios/paso-de-los-libres",
-   "estado": "error",
-   "detalle": "HTTP Error 429: Too Many Requests"
-  },
-  "https://saladillocampo.com.ar/blog/2026/11/16/crecida-del-rio-parana-mas-de-4-500-evacuados-y-preocupacion-por-el-impacto-en-el-agro-y-la-logistica/": {
-   "url": "https://saladillocampo.com.ar/blog/2026/11/16/crecida-del-rio-parana-mas-de-4-500-evacuados-y-preocupacion-por-el-impacto-en-el-agro-y-la-logistica/",
-   "estado": 200,
-   "caracteres": 11762,
-   "archivo": "data/fuentes/web/saladillocampo_com_ar_blog_2026_11_16_crecida_del_rio_parana_mas_de_4_500_evacuados_y_preo.txt"
-  },
-  "https://www.diarionorte.com/336617-el-parana-bajo-otros-cinco-centimetros-pero-aun-hay-2236-desplazados": {
-   "url": "https://www.diarionorte.com/336617-el-parana-bajo-otros-cinco-centimetros-pero-aun-hay-2236-desplazados",
-   "estado": "error",
-   "detalle": "HTTP Error 429: Too Many Requests"
-  },
-  "https://www.diarionorte.com/336563-el-parana-bajo-otros-10-centimetros-y-se-acerca-al-nivel-de-evacuacion": {
-   "url": "https://www.diarionorte.com/336563-el-parana-bajo-otros-10-centimetros-y-se-acerca-al-nivel-de-evacuacion",
-   "estado": "error",
-   "detalle": "HTTP Error 429: Too Many Requests"
-  },
-  "https://www.radiodos.com.ar/216309-tras-leve-descenso-del-rio-parana-piden-a-los-evacuados-de-isla-apipe-que-no-regresen-a-sus-casas": {
-   "url": "https://www.radiodos.com.ar/216309-tras-leve-descenso-del-rio-parana-piden-a-los-evacuados-de-isla-apipe-que-no-regresen-a-sus-casas",
-   "estado": "error",
-   "detalle": "HTTP Error 429: Too Many Requests"
-  },
-  "https://diarioellibertador.com.ar/valdes-inauguro-obras-en-la-capital-destacando-la-inversion-tras-dos-decadas-de-postergacion": {
-   "url": "https://diarioellibertador.com.ar/valdes-inauguro-obras-en-la-capital-destacando-la-inversion-tras-dos-decadas-de-postergacion",
-   "estado": 200,
-   "caracteres": 8998,
-   "archivo": "data/fuentes/web/diarioellibertador_com_ar_valdes_inauguro_obras_en_la_capital_destacando_la_inversion_tras.txt"
-  },
-  "https://www.letrap.com.ar/el-rio-parana-comienza-estabilizarse-pero-yacyreta-advierte-el-riesgo-nuevas-crecidas-n5427795": {
-   "url": "https://www.letrap.com.ar/el-rio-parana-comienza-estabilizarse-pero-yacyreta-advierte-el-riesgo-nuevas-crecidas-n5427795",
-   "estado": 200,
-   "caracteres": 5768,
-   "archivo": "data/fuentes/web/letrap_com_ar_el_rio_parana_comienza_estabilizarse_pero_yacyreta_advierte_el_riesgo_nuevas.txt"
-  },
-  "https://www.meteored.com.ar/noticias/prediccion/crecida-del-rio-parana-yacyreta-anticipa-un-alivio-hacia-el-fin-de-semana-pero-persiste-la-alerta.html": {
-   "url": "https://www.meteored.com.ar/noticias/prediccion/crecida-del-rio-parana-yacyreta-anticipa-un-alivio-hacia-el-fin-de-semana-pero-persiste-la-alerta.html",
-   "estado": 200,
-   "caracteres": 6520,
-   "archivo": "data/fuentes/web/meteored_com_ar_noticias_prediccion_crecida_del_rio_parana_yacyreta_anticipa_un_alivio_hac.txt"
   }
  },
  "portales": {
