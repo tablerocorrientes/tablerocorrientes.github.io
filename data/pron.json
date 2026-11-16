@@ -1,9 +1,9 @@
 {
- "actualizado": "16/11/2026, 09:16 h",
+ "actualizado": "16/11/2026, 11:20 h",
  "metodo": "estimación derivada de modelos y del parte del SMN",
  "estado_alertas": "VERIFICADO_CON_ALERTAS",
  "estado_verificado": {
-  "fecha": "16/11/2026, 09:16 h",
+  "fecha": "16/11/2026, 11:20 h",
   "fuente": "SMN y COE de Corrientes"
  },
  "met_archivo": {
@@ -509,7 +509,7 @@
   ]
  },
  "horario_act": "16/11/2026, 09:04 h",
- "consultado": "16/11/2026, 09:16 h",
+ "consultado": "16/11/2026, 11:20 h",
  "consulta_resultado": "sin cambios",
  "extendido": {
   "actualizado": "16/11/2026, 11:14 h",
