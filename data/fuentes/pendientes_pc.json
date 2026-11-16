@@ -79,6 +79,31 @@
    "url": "https://www.corrientes.gob.ar/prensa",
    "desde": "16/11/2026, 18:39 h",
    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "url": "https://www.senadoctes.gov.ar/ordenes/2026/19-11-2026.pdf",
+   "desde": "16/11/2026, 18:42 h",
+   "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "url": "https://www.diarioepoca.com/1395175-en-una-semana-el-papa-karina-una-suba-salarial-y-el-megaaserradero",
+   "desde": "16/11/2026, 18:42 h",
+   "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "url": "https://www.noticiero9.com.ar/35675-inundaciones-en-corrientes-vecinos-denuncian-total-ausencia-del-municipio",
+   "desde": "16/11/2026, 18:42 h",
+   "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "url": "https://www.republicadecorrientes.com/76630-valdes-inauguro-un-hogar-de-ancianos-pavimento-y-otras-obras-en-curuzu",
+   "desde": "16/11/2026, 18:42 h",
+   "error": "HTTP Error 404: NOT FOUND"
+  },
+  {
+   "url": "https://www.republicadecorrientes.com/73927-tassano-estamos-trabajando-en-la-modernizacion-de-diputados",
+   "desde": "16/11/2026, 18:42 h",
+   "error": "HTTP Error 429: Too Many Requests"
   }
  ]
 }

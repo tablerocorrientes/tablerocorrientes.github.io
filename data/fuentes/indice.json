@@ -1,6 +1,6 @@
 {
- "consultado": "16/11/2026, 18:39 h",
- "consultado_iso": "2026-11-16T18:39-03:00",
+ "consultado": "16/11/2026, 18:42 h",
+ "consultado_iso": "2026-11-16T18:42-03:00",
  "paginas": {
   "smn_alertas": {
    "url": "https://www.smn.gob.ar/alertas",
@@ -137,115 +137,101 @@
   }
  },
  "pedidas": {
-  "https://www.senadoctes.gov.ar/ordenes/2026/12-11-2026.pdf": {
-   "url": "https://www.senadoctes.gov.ar/ordenes/2026/12-11-2026.pdf",
-   "estado": 200,
-   "caracteres": 4287,
-   "archivo": "data/fuentes/web/senadoctes_gov_ar_ordenes_2026_12_11_2026_pdf.txt"
-  },
-  "https://www.senadoctes.gov.ar/informesordenes/2026/12-11-2026.pdf": {
-   "url": "https://www.senadoctes.gov.ar/informesordenes/2026/12-11-2026.pdf",
-   "estado": 200,
-   "caracteres": 6952,
-   "archivo": "data/fuentes/web/senadoctes_gov_ar_informesordenes_2026_12_11_2026_pdf.txt"
-  },
   "https://www.senadoctes.gov.ar/taquigraficas/2026/12-11-2026.pdf": {
    "url": "https://www.senadoctes.gov.ar/taquigraficas/2026/12-11-2026.pdf",
    "estado": "error",
    "detalle": "HTTP Error 429: Too Many Requests"
   },
-  "https://www.senadoctes.gov.ar/ordenes/2026/11-11-2026.pdf": {
-   "url": "https://www.senadoctes.gov.ar/ordenes/2026/11-11-2026.pdf",
-   "estado": "error",
-   "detalle": "HTTP Error 429: Too Many Requests"
-  },
-  "https://www.senadoctes.gov.ar/ordenes/2026/13-11-2026.pdf": {
-   "url": "https://www.senadoctes.gov.ar/ordenes/2026/13-11-2026.pdf",
-   "estado": "error",
-   "detalle": "HTTP Error 429: Too Many Requests"
-  },
-  "https://www.senadoctes.gov.ar/ordenes/2026/05-11-2026.pdf": {
-   "url": "https://www.senadoctes.gov.ar/ordenes/2026/05-11-2026.pdf",
-   "estado": "error",
-   "detalle": "HTTP Error 429: Too Many Requests"
-  },
-  "https://www.senadoctes.gov.ar/informesordenes/2026/05-11-2026.pdf": {
-   "url": "https://www.senadoctes.gov.ar/informesordenes/2026/05-11-2026.pdf",
-   "estado": "error",
-   "detalle": "HTTP Error 429: Too Many Requests"
-  },
-  "https://hcdcorrientes.gov.ar/sesiones/informe-del-orden-del-dia/": {
-   "url": "https://hcdcorrientes.gov.ar/sesiones/informe-del-orden-del-dia/",
+  "https://www.senadoctes.gov.ar/informesordenes/2026/29-10-2026.pdf": {
+   "url": "https://www.senadoctes.gov.ar/informesordenes/2026/29-10-2026.pdf",
    "estado": 200,
-   "caracteres": 11099,
-   "archivo": "data/fuentes/web/hcdcorrientes_gov_ar_sesiones_informe_del_orden_del_dia.txt"
+   "caracteres": 8916,
+   "archivo": "data/fuentes/web/senadoctes_gov_ar_informesordenes_2026_29_10_2026_pdf.txt"
   },
-  "https://hcdcorrientes.gov.ar/sesion-18-media-sancion-para-el-plan-de-prevencion-de-la-ludopatia-online/": {
-   "url": "https://hcdcorrientes.gov.ar/sesion-18-media-sancion-para-el-plan-de-prevencion-de-la-ludopatia-online/",
+  "https://www.senadoctes.gov.ar/ordenes/2026/19-11-2026.pdf": {
+   "url": "https://www.senadoctes.gov.ar/ordenes/2026/19-11-2026.pdf",
+   "estado": "error",
+   "detalle": "HTTP Error 429: Too Many Requests"
+  },
+  "https://hcdcorrientes.gov.ar/se-desarrollo-la-sesion-plenaria-del-parlamento-norte-grande-en-corrientes/": {
+   "url": "https://hcdcorrientes.gov.ar/se-desarrollo-la-sesion-plenaria-del-parlamento-norte-grande-en-corrientes/",
    "estado": 200,
-   "caracteres": 7948,
-   "archivo": "data/fuentes/web/hcdcorrientes_gov_ar_sesion_18_media_sancion_para_el_plan_de_prevencion_de_la_ludopatia_on.txt"
+   "caracteres": 7254,
+   "archivo": "data/fuentes/web/hcdcorrientes_gov_ar_se_desarrollo_la_sesion_plenaria_del_parlamento_norte_grande_en_corri.txt"
   },
-  "https://www.radiodos.com.ar/217161-semana-crucial-en-el-senado-buscan-dar-media-sancion-a-la-ley-de-presupuesto-provincial": {
-   "url": "https://www.radiodos.com.ar/217161-semana-crucial-en-el-senado-buscan-dar-media-sancion-a-la-ley-de-presupuesto-provincial",
+  "https://hcdcorrientes.gov.ar/sesiones/orden-del-dia/": {
+   "url": "https://hcdcorrientes.gov.ar/sesiones/orden-del-dia/",
+   "estado": 200,
+   "caracteres": 11498,
+   "archivo": "data/fuentes/web/hcdcorrientes_gov_ar_sesiones_orden_del_dia.txt"
+  },
+  "https://hcdcorrientes.gov.ar/noticias/": {
+   "url": "https://hcdcorrientes.gov.ar/noticias/",
+   "estado": 200,
+   "caracteres": 31812,
+   "archivo": "data/fuentes/web/hcdcorrientes_gov_ar_noticias.txt"
+  },
+  "https://www.infobae.com/sociedad/2026/11/16/alarma-por-la-crecida-del-rio-parana-hay-cientos-de-evacuados-y-crece-la-preocupacion-por-nuevas-tormentas/": {
+   "url": "https://www.infobae.com/sociedad/2026/11/16/alarma-por-la-crecida-del-rio-parana-hay-cientos-de-evacuados-y-crece-la-preocupacion-por-nuevas-tormentas/",
+   "estado": 200,
+   "caracteres": 11806,
+   "archivo": "data/fuentes/web/infobae_com_sociedad_2026_11_16_alarma_por_la_crecida_del_rio_parana_hay_cientos_de_evacua.txt"
+  },
+  "https://www.diarioepoca.com/1395175-en-una-semana-el-papa-karina-una-suba-salarial-y-el-megaaserradero": {
+   "url": "https://www.diarioepoca.com/1395175-en-una-semana-el-papa-karina-una-suba-salarial-y-el-megaaserradero",
+   "estado": "error",
+   "detalle": "HTTP Error 429: Too Many Requests"
+  },
+  "https://examedia.com.ar/portada/post/88248777": {
+   "url": "https://examedia.com.ar/portada/post/88248777",
+   "estado": 200,
+   "caracteres": 6615,
+   "archivo": "data/fuentes/web/examedia_com_ar_portada_post_88248777.txt"
+  },
+  "https://www.noticiero9.com.ar/35675-inundaciones-en-corrientes-vecinos-denuncian-total-ausencia-del-municipio": {
+   "url": "https://www.noticiero9.com.ar/35675-inundaciones-en-corrientes-vecinos-denuncian-total-ausencia-del-municipio",
+   "estado": "error",
+   "detalle": "HTTP Error 429: Too Many Requests"
+  },
+  "https://www.republicadecorrientes.com/76630-valdes-inauguro-un-hogar-de-ancianos-pavimento-y-otras-obras-en-curuzu": {
+   "url": "https://www.republicadecorrientes.com/76630-valdes-inauguro-un-hogar-de-ancianos-pavimento-y-otras-obras-en-curuzu",
    "estado": "error",
    "detalle": "HTTP Error 404: NOT FOUND"
   },
-  "https://www.radiodos.com.ar/217167-jp-valdes-hicimos-un-gran-esfuerzo-para-otorgar-un-10-de-aumento-%C2%A0": {
-   "url": "https://www.radiodos.com.ar/217167-jp-valdes-hicimos-un-gran-esfuerzo-para-otorgar-un-10-de-aumento-%C2%A0",
-   "estado": "error",
-   "detalle": "HTTP Error 429: Too Many Requests"
-  },
-  "https://www.radiodos.com.ar/217183-la-profesora-eliana-samaniego-confirmada-nueva-titular-del-consejo-de-educacion-de-corrientes": {
-   "url": "https://www.radiodos.com.ar/217183-la-profesora-eliana-samaniego-confirmada-nueva-titular-del-consejo-de-educacion-de-corrientes",
-   "estado": "error",
-   "detalle": "HTTP Error 429: Too Many Requests"
-  },
-  "https://www.nortecorrientes.com/207121-la-inflacion-de-octubre-fue-de-22-y-acumulo-331-en-doce-meses": {
-   "url": "https://www.nortecorrientes.com/207121-la-inflacion-de-octubre-fue-de-22-y-acumulo-331-en-doce-meses",
-   "estado": "error",
-   "detalle": "HTTP Error 429: Too Many Requests"
-  },
-  "https://www.nortecorrientes.com/207137-una-familia-necesita-1690000-para-no-ser-pobre": {
-   "url": "https://www.nortecorrientes.com/207137-una-familia-necesita-1690000-para-no-ser-pobre",
-   "estado": "error",
-   "detalle": "HTTP Error 404: NOT FOUND"
-  },
-  "https://www.nortecorrientes.com/207183-encuesta-electoral-empate-en-primera-vuelta-y-una-diferencia-llamativa-en-el-balotaje": {
-   "url": "https://www.nortecorrientes.com/207183-encuesta-electoral-empate-en-primera-vuelta-y-una-diferencia-llamativa-en-el-balotaje",
-   "estado": "error",
-   "detalle": "HTTP Error 429: Too Many Requests"
-  },
-  "https://www.nortecorrientes.com/207049-la-trastienda-busca-un-acuerdo-por-el-futuro-de-la-sala-teatral": {
-   "url": "https://www.nortecorrientes.com/207049-la-trastienda-busca-un-acuerdo-por-el-futuro-de-la-sala-teatral",
-   "estado": "error",
-   "detalle": "HTTP Error 429: Too Many Requests"
-  },
-  "https://www.nortecorrientes.com/207180-curuzu-cuatia-celebro-sus-216-anos-con-un-multitudinario-acto-encabezado": {
-   "url": "https://www.nortecorrientes.com/207180-curuzu-cuatia-celebro-sus-216-anos-con-un-multitudinario-acto-encabezado",
-   "estado": "error",
-   "detalle": "HTTP Error 429: Too Many Requests"
-  },
-  "https://munired.mcypcorrientes.gob.ar/noticia/provincia-paga-plus-de-refuerzo-de-noviembre": {
-   "url": "https://munired.mcypcorrientes.gob.ar/noticia/provincia-paga-plus-de-refuerzo-de-noviembre",
+  "https://www.perfil.com/noticias/nea/presupuesto-2027-proyectan-obras-clave-para-corrientes-y-juan-pablo-valdes-se-reune-con-diego-santilli.phtml": {
+   "url": "https://www.perfil.com/noticias/nea/presupuesto-2027-proyectan-obras-clave-para-corrientes-y-juan-pablo-valdes-se-reune-con-diego-santilli.phtml",
    "estado": 200,
-   "caracteres": 1152,
-   "archivo": "data/fuentes/web/munired_mcypcorrientes_gob_ar_noticia_provincia_paga_plus_de_refuerzo_de_noviembre.txt"
+   "caracteres": 5121,
+   "archivo": "data/fuentes/web/perfil_com_noticias_nea_presupuesto_2027_proyectan_obras_clave_para_corrientes_y_juan_pabl.txt"
   },
-  "https://www.diarioepoca.com/1391246-valdes-destaco-la-industrializacion-y-anuncio-obras-en-riachuelo": {
-   "url": "https://www.diarioepoca.com/1391246-valdes-destaco-la-industrializacion-y-anuncio-obras-en-riachuelo",
-   "estado": "error",
-   "detalle": "HTTP Error 404: NOT FOUND"
+  "https://ciudaddecorrientes.gov.ar/content/con-una-segunda-edici-n-multitudinaria-el-mercado-de-pulgas-se-consolid-en-la-agenda-de-la-ciudad": {
+   "url": "https://ciudaddecorrientes.gov.ar/content/con-una-segunda-edici-n-multitudinaria-el-mercado-de-pulgas-se-consolid-en-la-agenda-de-la-ciudad",
+   "estado": 200,
+   "caracteres": 4860,
+   "archivo": "data/fuentes/web/ciudaddecorrientes_gov_ar_content_con_una_segunda_edici_n_multitudinaria_el_mercado_de_pul.txt"
   },
-  "https://ciudaddecorrientes.gov.ar/noticias": {
-   "url": "https://ciudaddecorrientes.gov.ar/noticias",
+  "https://www.radiosudamericana.com/nota/politica/352642-Valdes-anuncio-un-aumento-del-10--para-estatales-de-Corrientes.htm": {
+   "url": "https://www.radiosudamericana.com/nota/politica/352642-Valdes-anuncio-un-aumento-del-10--para-estatales-de-Corrientes.htm",
+   "estado": 200,
+   "caracteres": 3650,
+   "archivo": "data/fuentes/web/radiosudamericana_com_nota_politica_352642_Valdes_anuncio_un_aumento_del_10_para_estatales.txt"
+  },
+  "https://www.republicadecorrientes.com/73927-tassano-estamos-trabajando-en-la-modernizacion-de-diputados": {
+   "url": "https://www.republicadecorrientes.com/73927-tassano-estamos-trabajando-en-la-modernizacion-de-diputados",
    "estado": "error",
    "detalle": "HTTP Error 429: Too Many Requests"
   },
-  "https://www.corrientes.gob.ar/prensa": {
-   "url": "https://www.corrientes.gob.ar/prensa",
-   "estado": "error",
-   "detalle": "HTTP Error 429: Too Many Requests"
+  "https://www.radiosudamericana.com/nota/politica/349956-Tassano-destaco-la-importancia-de-fortalecer-una-agenda-comun-para-el-desarrollo-del-Norte-Grande.htm": {
+   "url": "https://www.radiosudamericana.com/nota/politica/349956-Tassano-destaco-la-importancia-de-fortalecer-una-agenda-comun-para-el-desarrollo-del-Norte-Grande.htm",
+   "estado": 200,
+   "caracteres": 5706,
+   "archivo": "data/fuentes/web/radiosudamericana_com_nota_politica_349956_Tassano_destaco_la_importancia_de_fortalecer_un.txt"
+  },
+  "https://examedia.com.ar/portada/post/88102000": {
+   "url": "https://examedia.com.ar/portada/post/88102000",
+   "estado": 200,
+   "caracteres": 4583,
+   "archivo": "data/fuentes/web/examedia_com_ar_portada_post_88102000.txt"
   }
  },
  "portales": {
