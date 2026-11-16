@@ -1,8 +1,8 @@
 {
- "consultado": "16/11/2026, 00:42 h",
- "consultado_iso": "2026-11-16T00:42:17-03:00",
+ "consultado": "16/11/2026, 04:42 h",
+ "consultado_iso": "2026-11-16T04:42:50-03:00",
  "fuente": "Servicio Meteorológico Nacional (www.smn.gob.ar/alertas), leído desde una conexión de Corrientes",
  "resultado": "sin alertas para Corrientes",
  "alertas": [],
- "texto_pagina": "ALERTAS (www.smn.gob.ar/alertas): Fecha de emisión: 15/11/2026 19:45h. Mapa Lunes 16 / Martes 17 / Miércoles 18; el texto de la página no lista alertas para Corrientes.\nRESUMEN POR PROVINCIA: Información vigente desde las 00:00h de hoy lunes 16 hasta las 23:59 horas de mañana lunes 16 de noviembre de 2.026. Corrientes: ACP -, Tormenta -, Lluvia -, Nevada -, Viento -, Viento zonda -, Niebla -, Polvo -, Humo -, Ceniza - (sin alertas). Chaco, Misiones, Entre Ríos y Formosa: sin alertas.\nAVISOS A MUY CORTO PLAZO: uno vigente, ninguno para Corrientes: TORMENTAS SEVERAS CON LLUVIAS INTENSAS Y OCASIONAL CAIDA DE GRANIZO. Zonas: MENDOZA: La Paz. SAN LUIS: Juan M. de Pueyrredon. Emisión 15/11/2026 23:01h, validez dos horas."
+ "texto_pagina": "Resumen por provincia (smn.gob.ar/resumen_por_provincia): Información vigente desde las 00:00h de hoy lunes 16 hasta las 23:59 horas de mañana lunes 16 de noviembre de 2.026. Corrientes: ACP -, Tormenta -, Lluvia -, Nevada -, Viento -, Viento zonda -, Niebla -, Polvo -, Humo -, Ceniza - (sin fenómenos).\nMapa de alertas (smn.gob.ar/alertas): Fecha de emisión: 15/11/2026 19:45h. Corrientes no figura en el texto de la página.\nAvisos a muy corto plazo (smn.gob.ar/avisos_a_muy_corto_plazo): TORMENTAS FUERTES CON LLUVIAS INTENSAS Y CAIDA DE GRANIZO. Zonas: CORDOBA: Gral Roca. LA PAMPA: Chapaleufu - Maraco - Parera - Realico - Trenel. Fecha de emisión: 16/11/2026 a las 03:33h. Validez hasta: Dos (2) horas desde la emisión. Ningún aviso alcanza a Corrientes."
 }
