@@ -1,8 +1,8 @@
 {
  "estado_alertas": "VERIFICADO_CON_ALERTAS",
  "estado_verificado": {
-  "fecha": "16/11/2026, 03:10 h",
-  "fuente": "SMN y COE de Corrientes"
+  "fecha": "16/11/2026, 07:30 h",
+  "fuente": "COE de Corrientes (la página de alertas del SMN no respondió; el SMN leído desde Corrientes a las 04:42 h no informaba alertas vigentes para hoy)"
  },
  "met_archivo": {
   "nombre": "vigilancia_meteorologica_20261113_183508.json",
@@ -446,20 +446,12 @@
     "horas": 0
    },
    "manana": {
-    "mm": 0.0,
-    "horas": 0
+    "mm": 17.1,
+    "horas": 12
    },
-   "smn": "Sin alertas del SMN ni del COE para la Capital el domingo 15/11 ni el lunes 16/11 (alerta amarilla por tormentas prevista para el martes 17/11). Parte del SMN difundido por La Nación (17:31 h): hoy mayormente nublado, 0 % de probabilidad de lluvia por la tarde y la noche; mañana lunes mayormente nublado, 0 %.",
+   "smn": "Alerta amarilla por tormentas para toda la provincia el martes 17/11, de 03:00 a 15:00 h (COE, fuente SMN), con 30 a 70 mm. Parte del SMN difundido por La Nación (06:04 h): hoy mayormente nublado, 0 % de lluvia; mañana tormentas fuertes por la mañana (100 %) y chaparrones por la tarde y la noche (40 %).",
    "modelos": {
     "hoy": [
-     [
-      "Open-Meteo",
-      0.2
-     ],
-     [
-      "Meteored",
-      0.0
-     ],
      [
       "Modelo numérico del SMN",
       0.0
@@ -467,22 +459,22 @@
     ],
     "manana": [
      [
-      "Open-Meteo",
+      "Modelo numérico del SMN",
+      17.1
+     ],
+     [
+      "Open-Meteo (15/11)",
       1.0
      ],
      [
-      "Meteored",
+      "Meteored (15/11)",
       0.6
-     ],
-     [
-      "Modelo numérico del SMN",
-      0.0
      ]
     ]
    },
-   "criterio": "Hoy y mañana el parte del SMN prevé menos de 40 % de probabilidad de lluvia, por eso se usa el modelo más bajo: hoy 0,0 mm y mañana 0,0 mm (Open-Meteo prevé 0,2 y 1,0 mm; Meteored 0,0 y 0,6 mm; el modelo numérico del SMN, sin lluvia).",
-   "fuente": "Hoy 0,0 mm y mañana 0,0 mm. Modelos Open-Meteo (15/11, 18:33 h), Meteored y modelo numérico del SMN (el modelo puede diferir del pronóstico emitido). Estimación derivada, no una medición.",
-   "act": "15/11, 18:33 h"
+   "criterio": "Hoy el parte del SMN prevé 0 % de lluvia: 0,0 mm. Mañana el SMN prevé tormentas fuertes con 100 %: se usa el modelo más alto, el modelo numérico del SMN, con 17,1 mm. Open-Meteo y Meteored no se actualizaron en esta consulta (valores del 15/11). El rango de la alerta (30 a 70 mm) no se usa como pronóstico central. Reparto horario aproximado de los datos cada 3 horas del SMN.",
+   "fuente": "Hoy 0,0 mm y mañana 17.1 mm. Modelo numérico del SMN (16/11) y parte del SMN difundido por La Nación. Estimación derivada, no una medición.",
+   "act": "16/11, 07:30 h"
   },
   "Goya": {
    "hoy": {
@@ -1215,28 +1207,30 @@
    }
   ]
  },
- "pron_actualizado": "15/11/2026, 18:33 h",
+ "pron_actualizado": "16/11/2026, 07:30 h",
  "smn": [
   {
-   "id_oficial": null,
+   "id_oficial": "2026-0074-AT",
    "tipo": "alerta",
-   "aviso": "Alerta amarilla por tormentas del Servicio Meteorológico Nacional para el martes 17/11, en el norte y noroeste de Corrientes (zona de la Capital y Saladas) y en el noreste (zona de Ituzaingó). El domingo 15 y el lunes 16 no hay alertas en la provincia.",
+   "aviso": "Alerta amarilla por tormentas, difundida por el COE de Corrientes con fuente del Servicio Meteorológico Nacional, para toda la provincia el martes 17/11 desde las 03:00 h hasta las 15:00 h. Se esperan tormentas de variada intensidad, algunas localmente fuertes, con caída ocasional de granizo y actividad eléctrica frecuente. Lluvia acumulada entre 30 y 70 mm, que puede ser superada en forma localizada.",
    "nivel": "amarillo",
    "fenomeno": "tormenta",
-   "rango_mm": null,
-   "zonas": [
-    "Zona del norte y noroeste de Corrientes que incluye la Capital y Saladas",
-    "Zona del noreste de Corrientes que incluye Ituzaingó"
+   "rango_mm": [
+    30,
+    70
    ],
-   "desde": "17/11/2026",
-   "hasta": "17/11/2026",
-   "desde_iso": "2026-11-17T00:00:00-03:00",
-   "hasta_iso": "2026-11-17T23:59:00-03:00",
-   "emision": "15/11/2026, 06:02 h",
+   "zonas": [
+    "Toda la provincia de Corrientes"
+   ],
+   "desde": "17/11/2026, 03:00 h",
+   "hasta": "17/11/2026, 15:00 h",
+   "desde_iso": "2026-11-17T03:00:00-03:00",
+   "hasta_iso": "2026-11-17T15:00:00-03:00",
+   "emision": "16/11/2026, 06:53 h",
    "incluye_corrientes": true,
    "incluye_capital": true,
-   "url": "https://www.smn.gob.ar/alertas",
-   "origen": "Servicio Meteorológico Nacional, alerta prevista consultada el 15/11/2026 a las 12:45 h"
+   "url": "https://coe.corrientes.gob.ar/a/2026-0074-AT",
+   "origen": "COE de Corrientes (reporte 2026-0074-AT), consultado el 16/11/2026 a las 07:09 h"
   }
  ]
 }

@@ -1,14 +1,22 @@
 {
- "actualizado": "15/11/2026, 18:33 h",
+ "actualizado": "16/11/2026, 07:30 h",
  "explicacion": "Cada actualización suma registros: barrios afectados con la altura del río o la lluvia de ese día, obras terminadas, reportes de vecinos verificados y la comparación entre lo pronosticado y lo que ocurrió. Con esa comparación se detectan desvíos y se proponen ajustes a los cálculos, que revisa el autor del tablero.",
  "contadores": {
   "barrios_documentados": 87,
   "obras": 0,
   "reportes_verificados": 0,
   "comparaciones_rio": 0,
-  "comparaciones_lluvia": 4
+  "comparaciones_lluvia": 4,
+  "aprendizajes": 55
  },
  "aprendizajes": [
+  {
+   "fecha": "16/11/2026",
+   "tipo": "alerta",
+   "lugar": "Toda la provincia de Corrientes",
+   "dato": "El COE difundió una alerta amarilla por tormentas para toda la provincia el 17/11, de 03:00 a 15:00 h, con 30 a 70 mm posibles.",
+   "fuente": "COE de Corrientes (2026-0074-AT)"
+  },
   {
    "fecha": "15/11/2026",
    "tipo": "rio",

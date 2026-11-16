@@ -1,5 +1,5 @@
 {
- "actualizado": "15/11/2026, 18:33 h",
+ "actualizado": "16/11/2026, 07:30 h",
  "dias": {
   "2026-11-02": [
    0,
@@ -394,26 +394,26 @@
   "2026-11-17": [
    0.0,
    0.0,
-   0.05,
-   5.15,
-   1.05,
-   0.2,
+   0.0,
+   0.0,
+   0.83,
+   0.83,
+   0.83,
+   1.2,
+   1.2,
+   1.2,
    0.0,
    0.0,
    0.0,
    0.0,
    0.0,
    0.0,
-   0.0,
-   0.0,
-   0.0,
-   0.0,
-   0.3,
-   0.6,
-   0.15,
-   0.0,
-   0.0,
-   0.0,
+   3.6,
+   3.6,
+   3.6,
+   0.07,
+   0.07,
+   0.07,
    0.0,
    0.0
   ],
@@ -514,16 +514,16 @@
   "2026-11-17": {
    "nivel": "amarillo",
    "incluye_capital": true,
-   "zonas": "Zona del norte y noroeste de Corrientes que incluye la Capital y Saladas, y zona del noreste que incluye Ituzaingó",
-   "desde": "17/11/2026",
-   "hasta": "17/11/2026",
-   "desde_iso": "2026-11-17T00:00:00-03:00",
-   "hasta_iso": "2026-11-17T23:59:00-03:00",
-   "emision": "15/11/2026, 06:02 h",
-   "emision_iso": "2026-11-15T06:02:00-03:00",
-   "min": null,
-   "max": null,
-   "texto": "Alerta amarilla por tormentas del Servicio Meteorológico Nacional prevista para el martes 17/11, que incluye a la Capital. El SMN no publicó todavía el horario ni la cantidad de lluvia esperada. El COE de Corrientes aún no la difundió."
+   "zonas": "Toda la provincia de Corrientes",
+   "desde": "17/11/2026, 03:00 h",
+   "hasta": "17/11/2026, 15:00 h",
+   "desde_iso": "2026-11-17T03:00:00-03:00",
+   "hasta_iso": "2026-11-17T15:00:00-03:00",
+   "emision": "16/11/2026, 06:53 h",
+   "emision_iso": "2026-11-16T06:53:00-03:00",
+   "min": 30,
+   "max": 70,
+   "texto": "Alerta amarilla por tormentas difundida por el COE de Corrientes (2026-0074-AT), con fuente del Servicio Meteorológico Nacional, para toda la provincia, incluida la Capital, el martes 17/11 de 03:00 a 15:00 h. Se esperan tormentas de variada intensidad, algunas localmente fuertes, con 30 a 70 mm posibles."
   }
  },
  "rio": {
@@ -533,6 +533,23 @@
   "evacuacion": 7.0
  },
  "fuentes": [
+  {
+   "g": "Actualización del 16/11/2026, 07:30 h",
+   "l": [
+    [
+     "COE de Corrientes, alerta amarilla por tormentas 2026-0074-AT",
+     "https://coe.corrientes.gob.ar/a/2026-0074-AT"
+    ],
+    [
+     "Servicio Meteorológico Nacional, modelo numérico de pronóstico a 5 días",
+     "https://www.smn.gob.ar"
+    ],
+    [
+     "La Nación, clima en Corrientes (parte del SMN, 06:04 h)",
+     "https://www.lanacion.com.ar/clima/corrientes/"
+    ]
+   ]
+  },
   {
    "g": "Actualización del 15/11/2026, 09:15 h",
    "l": [
@@ -1046,19 +1063,32 @@
   },
   "2026-11-17": {
    "smn": {
-    "texto": "Parte del SMN difundido por La Nación (actualizado a las 07:08 h del 14/11): tormentas aisladas, 40 %.",
-    "mm": null,
+    "texto": "Parte del SMN difundido por La Nación (06:04 h del 16/11): tormentas fuertes por la mañana (100 %), chaparrones por la tarde y la noche (40 %).",
+    "mm": [
+     30,
+     70
+    ],
     "u": "https://www.lanacion.com.ar/clima/corrientes/"
    },
    "modelos": [
     {
-     "n": "Agrofy (Open-Meteo)",
-     "mm": 21.3,
-     "act": "14/11, 08:13 h"
+     "n": "Modelo numérico del SMN",
+     "mm": 17.1,
+     "act": "16/11"
+    },
+    {
+     "n": "Open-Meteo",
+     "mm": 1.0,
+     "act": "15/11, 18:33 h"
+    },
+    {
+     "n": "Meteored",
+     "mm": 0.6,
+     "act": "15/11, 18:33 h"
     }
    ],
-   "usado": 21.3,
-   "criterio": "Parte del SMN (La Nación, 07:08 h): tormentas aisladas, 40 %; el SMN prevé entre 40 y 69 % de probabilidad: se usa el promedio de los modelos (solo hay un modelo disponible para ese día): 21,3 mm. El modelo solo publica el total diario: el reparto horario es uniforme y no representa un horario real. Pronóstico de más de 48 h, de baja confiabilidad. Estimación derivada, no una medición."
+   "usado": 17.1,
+   "criterio": "El SMN prevé 70 % o más de probabilidad de tormentas: se usa el modelo más alto, el modelo numérico del SMN, con 17,1 mm. Reparto horario aproximado de los datos cada 3 horas. Estimación derivada, no una medición."
   },
   "2026-11-18": {
    "smn": {
