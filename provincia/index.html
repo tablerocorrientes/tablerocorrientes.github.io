@@ -259,7 +259,7 @@ function tcExtHTML(ext,ciudad,titulo,op){
 }
 var PFX={};try{PFX=JSON.parse(document.getElementById('pron-data').textContent)||{};}catch(e){}
 function renderExt(loc){var ex=PFX.extendido,cs=ex&&ex.ciudades||{},c=cs[loc.n]?loc.n:(loc.ref&&cs[loc.ref]?loc.ref:null);
-  $('extP').innerHTML=c?tcExtHTML(ex,c,'Próximos días en '+c+(c!==loc.n?' (ciudad de referencia para '+loc.n+')':''),{H:loc.altura,alerta:loc.alerta}):'';}
+  $('extP').innerHTML=c?tcExtHTML(ex,c,'Próximos días en '+loc.n+(c!==loc.n?' (pronóstico de '+c+', ciudad de referencia)':''),{H:loc.altura,alerta:loc.alerta}):'';}
 function render(){try{renderExt(LOCS[+$('loc').value]);}catch(e){}
   drawAlertP();
   var x=datos(), r=calc(x), n=nivel(r.cm);

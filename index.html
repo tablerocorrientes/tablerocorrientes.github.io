@@ -656,7 +656,7 @@ function tcExtHTML(ext,ciudad,titulo,op){
 }
 function tcExtLoc(n){var EX=PF&&PF.extendido,C=(EX&&EX.ciudades)||{},ciu=C[n]?n:(typeof LOCMAP!=='undefined'&&LOCMAP[n]&&C[LOCMAP[n][1]]?LOCMAP[n][1]:'Corrientes Capital');
   var pto=ciu==='Corrientes Capital'?'Corrientes':ciu,c=(D.puertos||[]).concat(D.puertos_uruguay||[]).filter(function(x){return x.puerto===pto;})[0];
-  var h=tcExtHTML(EX,ciu,'Próximos días en '+(ciu==='Corrientes Capital'?'la Capital':ciu)+(ciu!==n?' (ciudad de referencia para '+n+')':''),c?{H:c.altura,alerta:c.alerta}:{});var el=$('extC');if(el){el.innerHTML=h||'';el.style.display=h?'':'none';}}
+  var h=tcExtHTML(EX,ciu,'Próximos días en '+(ciu!==n?n:(ciu==='Corrientes Capital'?'la Capital':ciu))+(ciu!==n?' (pronóstico de '+ciu+', ciudad de referencia)':''),c?{H:c.altura,alerta:c.alerta}:{});var el=$('extC');if(el){el.innerHTML=h||'';el.style.display=h?'':'none';}}
 (function(){var s=document.getElementById('cmpSel');tcExtLoc(s?s.value:'Corrientes Capital');setTimeout(function(){var s2=document.getElementById('cmpSel');if(s2)tcExtLoc(s2.value);},0);document.addEventListener('change',function(e){if(e.target&&e.target.id==='cmpSel')tcExtLoc(e.target.value);});})();
 (function(){var HC=PF&&PF.horario_capital;if(!HC){$('sHC').textContent='Sin pronóstico horario cargado.';return;}
   var now=new Date(Date.now()-3*3600000),hoy=now.toISOString().slice(0,10),hh=now.getUTCHours()+now.getUTCMinutes()/60;
