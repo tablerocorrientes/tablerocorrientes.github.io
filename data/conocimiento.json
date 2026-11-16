@@ -1,5 +1,5 @@
 {
- "actualizado": "16/11/2026, 13:15 h",
+ "actualizado": "16/11/2026, 18:32 h",
  "explicacion": "Cada actualización suma registros: barrios afectados con la altura del río o la lluvia de ese día, obras terminadas, reportes de vecinos verificados y la comparación entre lo pronosticado y lo que ocurrió. Con esa comparación se detectan desvíos y se proponen ajustes a los cálculos, que revisa el autor del tablero.",
  "contadores": {
   "barrios_documentados": 87,
@@ -7,9 +7,16 @@
   "reportes_verificados": 0,
   "comparaciones_rio": 0,
   "comparaciones_lluvia": 4,
-  "aprendizajes": 57
+  "aprendizajes": 58
  },
  "aprendizajes": [
+  {
+   "fecha": "16/11/2026",
+   "tipo": "rio",
+   "lugar": "Corrientes Capital",
+   "dato": "El Paraná bajó a 6,46 m a las 12:00 h del 16/11 y quedó por debajo de la cota de alerta (6,50 m) por primera vez desde el 6/11.",
+   "fuente": "Prefectura Naval Argentina (rioparana.com.ar)"
+  },
   {
    "fecha": "16/11/2026",
    "tipo": "rio",

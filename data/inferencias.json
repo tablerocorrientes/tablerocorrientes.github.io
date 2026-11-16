@@ -1,14 +1,14 @@
 {
- "actualizado": "16/11/2026, 09:04 h",
+ "actualizado": "16/11/2026, 18:32 h",
  "aviso": "Inferencias propias del tablero, elaboradas con procesamiento lógico a partir de sus registros y de fuentes oficiales. No son avisos oficiales: ante una emergencia, siga las indicaciones de Defensa Civil y del SMN.",
  "vigentes": [
   {
    "id": "rio-parana-bajante",
    "tema": "🌊 Río Paraná",
-   "titulo": "El Paraná en la Capital llegó a la cota de alerta y sigue bajando despacio",
-   "texto": "Bajó de 7,00 m el 6/11 a 6,50 m hoy a las 08:00 h, unos 5 cm por día; en las últimas 24 horas bajó 7 cm. Aguas arriba también baja (Itatí 6,61 m, bajo su alerta; Ituzaingó 2,50 m). Si sigue este ritmo, quedaría por debajo de la alerta (6,50 m) entre hoy y mañana, como prevé el INA, aunque las tormentas del martes pueden frenar la bajante por unas horas.",
+   "titulo": "El Paraná en la Capital bajó de la cota de alerta y sigue bajando despacio",
+   "texto": "Bajó de 7,00 m el 6/11 a 6,46 m hoy a las 12:00 h, unos 5 cm por día; desde las 08:00 h bajó 4 cm y quedó por debajo de la alerta (6,50 m), como preveía el INA. Aguas arriba también baja (Itatí 6,61 m e Ituzaingó 2,50 m en la lectura de la mañana). Las tormentas del martes pueden frenar la bajante por unas horas, pero no se espera un repunte importante.",
    "base": [
-    "Alturas de Prefectura del 6 al 16/11 (Corrientes, Itatí, Ituzaingó), última a las 08:00 h del 16/11",
+    "Alturas de Prefectura del 6 al 16/11 (Corrientes, Itatí, Ituzaingó), última a las 12:00 h del 16/11",
     "Pronóstico del INA del 13/11: bajaría por debajo de la alerta en los próximos 7 días"
    ],
    "confianza": "alta",
@@ -20,11 +20,11 @@
    "id": "lluvia-17-11",
    "tema": "🌧️ Lluvia",
    "titulo": "Tormentas el martes con el río todavía alto en la Capital",
-   "texto": "Hay alerta amarilla por tormentas para toda la provincia el martes 17/11 de 03:00 a 15:00 h, con 30 a 70 mm posibles. Los modelos prevén menos para la Capital (17,1 mm el modelo del SMN y 6,9 mm Open-Meteo). Con el Paraná en 6,50 m, los desagües que descargan al río funcionan con menos capacidad, por lo que una tormenta fuerte en poco tiempo puede acumular agua en calles bajas.",
+   "texto": "Hay alerta amarilla por tormentas para toda la provincia el martes 17/11 de 03:00 a 15:00 h, con 30 a 70 mm posibles. Los modelos prevén menos para la Capital (17,1 mm el modelo del SMN y 6,9 mm Open-Meteo). Con el Paraná en 6,46 m, apenas bajo la alerta,, los desagües que descargan al río funcionan con menos capacidad, por lo que una tormenta fuerte en poco tiempo puede acumular agua en calles bajas.",
    "base": [
     "Alerta amarilla del COE 2026-0074-AT (fuente SMN)",
     "Modelo numérico del SMN y Open-Meteo, 16/11",
-    "Prefectura Naval Argentina, Corrientes 16/11 08:00 h"
+    "Prefectura Naval Argentina, Corrientes 16/11 12:00 h"
    ],
    "confianza": "media",
    "horizonte": "próximos 3 días",
@@ -79,6 +79,37 @@
  ],
  "historial": [
   {
+   "id": "lluvia-17-11",
+   "tema": "🌧️ Lluvia",
+   "titulo": "Tormentas el martes con el río todavía alto en la Capital",
+   "texto": "Hay alerta amarilla por tormentas para toda la provincia el martes 17/11 de 03:00 a 15:00 h, con 30 a 70 mm posibles. Los modelos prevén menos para la Capital (17,1 mm el modelo del SMN y 6,9 mm Open-Meteo). Con el Paraná en 6,46 m, apenas bajo la alerta,, los desagües que descargan al río funcionan con menos capacidad, por lo que una tormenta fuerte en poco tiempo puede acumular agua en calles bajas.",
+   "base": [
+    "Alerta amarilla del COE 2026-0074-AT (fuente SMN)",
+    "Modelo numérico del SMN y Open-Meteo, 16/11",
+    "Prefectura Naval Argentina, Corrientes 16/11 12:00 h"
+   ],
+   "confianza": "media",
+   "horizonte": "próximos 3 días",
+   "ambito": "global",
+   "localidad": "Corrientes Capital",
+   "fecha": "16/11/2026, 18:32 h"
+  },
+  {
+   "id": "rio-parana-bajante",
+   "tema": "🌊 Río Paraná",
+   "titulo": "El Paraná en la Capital bajó de la cota de alerta y sigue bajando despacio",
+   "texto": "Bajó de 7,00 m el 6/11 a 6,46 m hoy a las 12:00 h, unos 5 cm por día; desde las 08:00 h bajó 4 cm y quedó por debajo de la alerta (6,50 m), como preveía el INA. Aguas arriba también baja (Itatí 6,61 m e Ituzaingó 2,50 m en la lectura de la mañana). Las tormentas del martes pueden frenar la bajante por unas horas, pero no se espera un repunte importante.",
+   "base": [
+    "Alturas de Prefectura del 6 al 16/11 (Corrientes, Itatí, Ituzaingó), última a las 12:00 h del 16/11",
+    "Pronóstico del INA del 13/11: bajaría por debajo de la alerta en los próximos 7 días"
+   ],
+   "confianza": "alta",
+   "horizonte": "próximos 3 días",
+   "ambito": "global",
+   "localidad": "Corrientes Capital",
+   "fecha": "16/11/2026, 18:32 h"
+  },
+  {
    "id": "rio-parana-bajante",
    "tema": "🌊 Río Paraná",
    "titulo": "El Paraná en la Capital llegó a la cota de alerta y sigue bajando despacio",
@@ -91,7 +122,8 @@
    "horizonte": "próximos 3 días",
    "ambito": "global",
    "localidad": "Corrientes Capital",
-   "fecha": "16/11/2026"
+   "fecha": "16/11/2026",
+   "resultado": "Se cumplió: el 16/11 a las 12:00 h el Paraná marcó 6,46 m en Corrientes, por debajo de la alerta de 6,50 m (Prefectura Naval Argentina)."
   },
   {
    "id": "lluvia-17-11",

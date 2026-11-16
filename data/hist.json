@@ -1,6 +1,6 @@
 {
  "repositorio": "Lecturas oficiales registradas por las tareas del Tablero Ciudadano",
- "actualizado": "16/11/2026, 09:04 h",
+ "actualizado": "16/11/2026, 18:32 h",
  "series": [
   {
    "rio": "Paraná",
@@ -639,6 +639,11 @@
      "2026-11-16T08:00:00",
      6.55,
      "verificado"
+    ],
+    [
+     "2026-11-16T14:00:00",
+     6.49,
+     "verificado"
     ]
    ]
   },
@@ -883,6 +888,11 @@
     [
      "2026-11-16T08:00:00",
      6.5,
+     "verificado"
+    ],
+    [
+     "2026-11-16T12:00:00",
+     6.46,
      "verificado"
     ]
    ]
@@ -1204,6 +1214,11 @@
      "2026-11-16T08:00:00",
      6.19,
      "verificado"
+    ],
+    [
+     "2026-11-16T16:00:00",
+     6.15,
+     "verificado"
     ]
    ]
   },
@@ -1444,6 +1459,11 @@
      "2026-11-16T08:00:00",
      5.81,
      "verificado"
+    ],
+    [
+     "2026-11-16T16:00:00",
+     5.78,
+     "verificado"
     ]
    ]
   },
@@ -1527,6 +1547,11 @@
     ],
     [
      "2026-11-16T08:00:00",
+     5.47,
+     "verificado"
+    ],
+    [
+     "2026-11-16T16:00:00",
      5.47,
      "verificado"
     ]
@@ -2000,7 +2025,7 @@
   }
  ],
  "pron_aviso": "Valores difundidos por El Litoral a partir del pronóstico del INA. Son estimaciones, no mediciones, y pueden cambiar con las lluvias.",
- "verificacion": "Consulta del 16/11/2026, 09:04 h: Prefectura Naval Argentina, alturas del 16/11/2026 reproducidas por rioparana.com.ar (Corrientes, Paso de la Patria, Bella Vista, Goya y Esquina a las 08:00 h; solo fecha en Ituzaingó, Itá Ibaté, Itatí y Empedrado). La página de alturas de Prefectura no respondió. INA, informe diario del 13/11 (sin emisión nueva). Río Uruguay sin lectura nueva (Comisión Técnica Mixta de Salto Grande, último reporte leído del 13/11/2026 a las 07:00 h).",
+ "verificacion": "Consulta del 16/11/2026, 18:32 h: Prefectura Naval Argentina, alturas del 16/11/2026 reproducidas por rioparana.com.ar (Corrientes 6,46 m a las 12:00 h; Paso de la Patria 6,49 m a las 14:00 h; Bella Vista 6,15 m, Goya 5,78 m y Esquina 5,47 m a las 16:00 h). La página de alturas de Prefectura no respondió. Ituzaingó, Itá Ibaté, Itatí y Empedrado sin lectura nueva con hora distinta de la ya registrada. INA sin emisión nueva. Río Uruguay sin lectura nueva (Comisión Técnica Mixta de Salto Grande, último reporte leído del 13/11/2026 a las 07:00 h).",
  "observaciones": [
   "Empedrado, Esquina, Ituzaingó e Itá Ibaté tienen pocas lecturas (10 cada uno), todas de fecha solamente salvo la del 01/11 a las 00:00 h.",
   "Variación informada en el CSV que no coincide con la diferencia entre lecturas consecutivas (no se usa en los gráficos ni se corrigieron las alturas): Ituzaingó 2026-11-03: CSV -3 cm frente a -12 cm; Itá Ibaté 2026-11-03: CSV -6 cm frente a -10 cm; Itatí 2026-11-03: CSV -2 cm frente a -8 cm; Paso de la Patria 2026-11-03: CSV -6 cm frente a -8 cm; Empedrado 2026-11-03: CSV -6 cm frente a -11 cm; Goya 2026-11-01T00:00:00: CSV 12 cm frente a 14 cm; Goya 2026-11-03: CSV 1 cm frente a 3 cm; Esquina 2026-11-03: CSV 8 cm frente a 14 cm.",
