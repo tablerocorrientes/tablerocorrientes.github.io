@@ -109,6 +109,21 @@
    "url": "https://www.corrienteshoy.com/info-general/corrientes-se-viene-la-actualizacion-de-tasas-municipales-y-codigo-fiscal-para-2027.htm",
    "desde": "16/11/2026, 18:56 h",
    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "url": "https://elruido.org/uso-de-aviones-sanitarios-oficiales-un-secreto-bien-guardado-por-gobernadores/",
+   "desde": "16/11/2026, 19:31 h",
+   "error": ""
+  },
+  {
+   "url": "https://www.agenciahoy.com/informacion-general/en-pleno-ajuste-el-gobernador-de-corrientes-desembolsoacute-8-millones-de-doacutelares-por-un-avioacuten-usado.htm",
+   "desde": "16/11/2026, 19:31 h",
+   "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "url": "https://www.nortecorrientes.com/136756-en-pleno-ajuste-valdes-desembolsa-8-millones-de-dolares-por-un-avion-usado",
+   "desde": "16/11/2026, 19:31 h",
+   "error": "HTTP Error 429: Too Many Requests"
   }
  ]
 }

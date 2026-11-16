@@ -1,6 +1,6 @@
 {
- "consultado": "16/11/2026, 19:09 h",
- "consultado_iso": "2026-11-16T19:09-03:00",
+ "consultado": "16/11/2026, 19:31 h",
+ "consultado_iso": "2026-11-16T19:31-03:00",
  "paginas": {
   "smn_alertas": {
    "url": "https://www.smn.gob.ar/alertas",
@@ -51,7 +51,7 @@
   "lanacion_clima_corrientes": {
    "url": "https://www.lanacion.com.ar/clima/corrientes/",
    "estado": 200,
-   "caracteres": 8273,
+   "caracteres": 8222,
    "archivo": "data/fuentes/lanacion_clima_corrientes.txt"
   },
   "noaa_enso": {
@@ -134,6 +134,42 @@
    "estado": 200,
    "caracteres": 1993,
    "archivo": "data/fuentes/coe_a_2026_0071_AT.txt"
+  }
+ },
+ "pedidas": {
+  "https://elruido.org/uso-de-aviones-sanitarios-oficiales-un-secreto-bien-guardado-por-gobernadores/": {
+   "url": "https://elruido.org/uso-de-aviones-sanitarios-oficiales-un-secreto-bien-guardado-por-gobernadores/",
+   "estado": 202,
+   "caracteres": 0,
+   "archivo": "data/fuentes/web/elruido_org_uso_de_aviones_sanitarios_oficiales_un_secreto_bien_guardado_por_gobernadores.txt"
+  },
+  "https://www.agenciahoy.com/informacion-general/en-pleno-ajuste-el-gobernador-de-corrientes-desembolsoacute-8-millones-de-doacutelares-por-un-avioacuten-usado.htm": {
+   "url": "https://www.agenciahoy.com/informacion-general/en-pleno-ajuste-el-gobernador-de-corrientes-desembolsoacute-8-millones-de-doacutelares-por-un-avioacuten-usado.htm",
+   "estado": "error",
+   "detalle": "HTTP Error 429: Too Many Requests"
+  },
+  "http://surcorrentino.com.ar/vernota.asp?id_noticia=35224": {
+   "url": "http://surcorrentino.com.ar/vernota.asp?id_noticia=35224",
+   "estado": 200,
+   "caracteres": 2927,
+   "archivo": "data/fuentes/web/surcorrentino_com_ar_vernota_asp_id_noticia_35224.txt"
+  },
+  "https://www.nortecorrientes.com/136756-en-pleno-ajuste-valdes-desembolsa-8-millones-de-dolares-por-un-avion-usado": {
+   "url": "https://www.nortecorrientes.com/136756-en-pleno-ajuste-valdes-desembolsa-8-millones-de-dolares-por-un-avion-usado",
+   "estado": "error",
+   "detalle": "HTTP Error 429: Too Many Requests"
+  },
+  "https://www.infobae.com/politica/2023/03/16/susto-en-el-aire-para-el-gobernador-de-corrientes-su-avion-se-declaro-en-emergencia-mientras-estaba-en-vuelo/": {
+   "url": "https://www.infobae.com/politica/2023/03/16/susto-en-el-aire-para-el-gobernador-de-corrientes-su-avion-se-declaro-en-emergencia-mientras-estaba-en-vuelo/",
+   "estado": 200,
+   "caracteres": 9583,
+   "archivo": "data/fuentes/web/infobae_com_politica_2023_03_16_susto_en_el_aire_para_el_gobernador_de_corrientes_su_avion.txt"
+  },
+  "https://www.lanacion.com.ar/politica/se-declaro-en-emergencia-el-avion-del-gobernador-correntino-gustavo-valdes-con-el-a-bordo-nid16032023/": {
+   "url": "https://www.lanacion.com.ar/politica/se-declaro-en-emergencia-el-avion-del-gobernador-correntino-gustavo-valdes-con-el-a-bordo-nid16032023/",
+   "estado": 200,
+   "caracteres": 6747,
+   "archivo": "data/fuentes/web/lanacion_com_ar_politica_se_declaro_en_emergencia_el_avion_del_gobernador_correntino_gusta.txt"
   }
  },
  "portales": {
