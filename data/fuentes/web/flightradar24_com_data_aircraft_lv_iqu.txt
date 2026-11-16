@@ -1,0 +1,103 @@
+Fuente: https://www.flightradar24.com/data/aircraft/lv-iqu
+Consultado: 16/11/2026, 19:41 h
+
+LV-IQU - Cessna Citation XLS+ [560-6166] - Flightradar24
+Get the best flight tracking experience using our app. Open in app
+Map
+Misc
+Labels appear when there are less than 400 aircraft on map. The second to fourth row will appear only when the map is zoomed in.
+Map style
+Terrain Terrain
+Roadmap
+Greyscale
+Radar (blue)
+Radar (dark)
+Aubergine (dark)
+Satellite
+Hybrid
+Black/White
+Brightness
+Day/night line
+Personalized ads
+Show times in local airport time rather than UTC.
+Units
+Local airport time
+12-hour clock
+Temperature
+°C Celsius °C
+Farenheit °F
+Aircraft speed
+Knots Knots
+Km/h
+Mph
+Vertical speed
+Fpm Fpm
+M/s
+Wind speed
+Knots Knots
+Km/h
+Mph
+M/s
+Altitude
+Feet Feet
+Meters
+Distance
+Km Km
+Miles
+Nm
+Reset all settings
+Flight tracker map
+>
+Aviation data
+>
+Aircraft
+>
+LV-IQU
+Flight history for aircraft - LV-IQU
+AIRCRAFT Cessna Citation XLS+
+AIRLINE Argentina - Gobierno de la Provincia de Corrientes
+OPERATOR -
+TYPE CODE C56X
+Code -
+Code -
+MODE S E09455
+SERIAL NUMBER (MSN)
+AGE
+GREAT CIRCLE DISTANCE
+AVERAGE FLIGHT TIME
+ACTUAL FLIGHT TIME
+AVERAGE ARRIVAL DELAY
+FROM
+TO
+TIME UTC "> UTC
+Barometric altitude
+GPS ALTITUDE
+GROUND SPEED
+TRUE AIRSPEED
+VERTICAL SPEED
+INDICATED AIRSPEED
+TRACK
+SQUAWK
+AIRCRAFT
+REGISTRATION
+SERIAL NUMBER (MSN)
+FLIGHTS HISTORY   DATE FROM TO FLIGHT FLIGHT TIME STD ATD STA STATUS
+Sorry, but we could not find data for specified flight
+More than 7 days of LV-IQU history is available with an upgrade to a Silver (90 days), Gold (1 year), or Business (3 years) subscription.
+7-day FREE trial | Learn more
+Looking for even more aviation data?
+We have all your aviation data needs covered. The Flightradar24 API offers powerful endpoints to access real-time aircraft positions, comprehensive airline/airport, and historic flight data.
+Or check out our Data services page for information about flight events, estimated time of arrival data, flight schedules, and more.
+Discover the Flightradar24 API
+© 2026 Flightradar24 AB
+Contact us
+FAQ
+Careers
+Privacy
+Terms
+Manage Consent
+7-day FREE trial | Learn more Create free Flightradar24 account Learn more about subscriptions
+You have used up all of your 3D view sessions.
+Don't worry, you can get unlimited sessions with a Flightradar24 subscription.
+7-day free trial | Learn more Or you can watch a short video to get more free sessions!
+Watch now

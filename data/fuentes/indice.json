@@ -1,6 +1,6 @@
 {
- "consultado": "16/11/2026, 19:31 h",
- "consultado_iso": "2026-11-16T19:31-03:00",
+ "consultado": "16/11/2026, 19:41 h",
+ "consultado_iso": "2026-11-16T19:41-03:00",
  "paginas": {
   "smn_alertas": {
    "url": "https://www.smn.gob.ar/alertas",
@@ -137,39 +137,53 @@
   }
  },
  "pedidas": {
-  "https://elruido.org/uso-de-aviones-sanitarios-oficiales-un-secreto-bien-guardado-por-gobernadores/": {
-   "url": "https://elruido.org/uso-de-aviones-sanitarios-oficiales-un-secreto-bien-guardado-por-gobernadores/",
-   "estado": 202,
-   "caracteres": 0,
-   "archivo": "data/fuentes/web/elruido_org_uso_de_aviones_sanitarios_oficiales_un_secreto_bien_guardado_por_gobernadores.txt"
-  },
-  "https://www.agenciahoy.com/informacion-general/en-pleno-ajuste-el-gobernador-de-corrientes-desembolsoacute-8-millones-de-doacutelares-por-un-avioacuten-usado.htm": {
-   "url": "https://www.agenciahoy.com/informacion-general/en-pleno-ajuste-el-gobernador-de-corrientes-desembolsoacute-8-millones-de-doacutelares-por-un-avioacuten-usado.htm",
-   "estado": "error",
-   "detalle": "HTTP Error 429: Too Many Requests"
-  },
-  "http://surcorrentino.com.ar/vernota.asp?id_noticia=35224": {
-   "url": "http://surcorrentino.com.ar/vernota.asp?id_noticia=35224",
+  "https://aeropuertoformosa.blogspot.com/2019/03/lv-iqu-cessna-560xl-citation-xls-del.html": {
+   "url": "https://aeropuertoformosa.blogspot.com/2019/03/lv-iqu-cessna-560xl-citation-xls-del.html",
    "estado": 200,
-   "caracteres": 2927,
-   "archivo": "data/fuentes/web/surcorrentino_com_ar_vernota_asp_id_noticia_35224.txt"
+   "caracteres": 9811,
+   "archivo": "data/fuentes/web/aeropuertoformosa_blogspot_com_2019_03_lv_iqu_cessna_560xl_citation_xls_del_html.txt"
   },
-  "https://www.nortecorrientes.com/136756-en-pleno-ajuste-valdes-desembolsa-8-millones-de-dolares-por-un-avion-usado": {
-   "url": "https://www.nortecorrientes.com/136756-en-pleno-ajuste-valdes-desembolsa-8-millones-de-dolares-por-un-avion-usado",
-   "estado": "error",
-   "detalle": "HTTP Error 429: Too Many Requests"
-  },
-  "https://www.infobae.com/politica/2023/03/16/susto-en-el-aire-para-el-gobernador-de-corrientes-su-avion-se-declaro-en-emergencia-mientras-estaba-en-vuelo/": {
-   "url": "https://www.infobae.com/politica/2023/03/16/susto-en-el-aire-para-el-gobernador-de-corrientes-su-avion-se-declaro-en-emergencia-mientras-estaba-en-vuelo/",
+  "https://www.lacardigital.com.ar/la-provincia-consolida-su-flota-de-drones-y-suma-pilotos-para-operaciones-en-todo-el-territorio/": {
+   "url": "https://www.lacardigital.com.ar/la-provincia-consolida-su-flota-de-drones-y-suma-pilotos-para-operaciones-en-todo-el-territorio/",
    "estado": 200,
-   "caracteres": 9583,
-   "archivo": "data/fuentes/web/infobae_com_politica_2023_03_16_susto_en_el_aire_para_el_gobernador_de_corrientes_su_avion.txt"
+   "caracteres": 10294,
+   "archivo": "data/fuentes/web/lacardigital_com_ar_la_provincia_consolida_su_flota_de_drones_y_suma_pilotos_para_operacio.txt"
   },
-  "https://www.lanacion.com.ar/politica/se-declaro-en-emergencia-el-avion-del-gobernador-correntino-gustavo-valdes-con-el-a-bordo-nid16032023/": {
-   "url": "https://www.lanacion.com.ar/politica/se-declaro-en-emergencia-el-avion-del-gobernador-correntino-gustavo-valdes-con-el-a-bordo-nid16032023/",
+  "https://www.diarioellibertador.com.ar/corrientes-suma-drones-de-ultima-generacion-al-sistema-de-seguridad/": {
+   "url": "https://www.diarioellibertador.com.ar/corrientes-suma-drones-de-ultima-generacion-al-sistema-de-seguridad/",
    "estado": 200,
-   "caracteres": 6747,
-   "archivo": "data/fuentes/web/lanacion_com_ar_politica_se_declaro_en_emergencia_el_avion_del_gobernador_correntino_gusta.txt"
+   "caracteres": 5470,
+   "archivo": "data/fuentes/web/diarioellibertador_com_ar_corrientes_suma_drones_de_ultima_generacion_al_sistema_de_seguri.txt"
+  },
+  "https://www.lanacion.com.ar/economia/campo/en-corrientes-la-policia-usara-drones-para-el-patrullaje-de-los-campos-nid27102021/": {
+   "url": "https://www.lanacion.com.ar/economia/campo/en-corrientes-la-policia-usara-drones-para-el-patrullaje-de-los-campos-nid27102021/",
+   "estado": 200,
+   "caracteres": 7705,
+   "archivo": "data/fuentes/web/lanacion_com_ar_economia_campo_en_corrientes_la_policia_usara_drones_para_el_patrullaje_de.txt"
+  },
+  "https://www.novacorrientes.com/nota.asp?t=El-Sistema-Integral-de-Seguridad-suma-drones-de-ultima-generacion&id=37344&id_tiponota=11": {
+   "url": "https://www.novacorrientes.com/nota.asp?t=El-Sistema-Integral-de-Seguridad-suma-drones-de-ultima-generacion&id=37344&id_tiponota=11",
+   "estado": 200,
+   "caracteres": 5040,
+   "archivo": "data/fuentes/web/novacorrientes_com_nota_asp_t_El_Sistema_Integral_de_Seguridad_suma_drones_de_ultima_gener.txt"
+  },
+  "https://elquiddelacuestion.com.ar/la-provincia-recibio-drones-para-patrullaje-preventivo/": {
+   "url": "https://elquiddelacuestion.com.ar/la-provincia-recibio-drones-para-patrullaje-preventivo/",
+   "estado": 200,
+   "caracteres": 2733,
+   "archivo": "data/fuentes/web/elquiddelacuestion_com_ar_la_provincia_recibio_drones_para_patrullaje_preventivo.txt"
+  },
+  "http://diariolarepublica.com.ar/notix/noticia/00381/los-aviones-sanitarios-estn-a-disposicin-de-todos-los-correntinos-sin-excepcin.html": {
+   "url": "http://diariolarepublica.com.ar/notix/noticia/00381/los-aviones-sanitarios-estn-a-disposicin-de-todos-los-correntinos-sin-excepcin.html",
+   "estado": 200,
+   "caracteres": 7657,
+   "archivo": "data/fuentes/web/diariolarepublica_com_ar_notix_noticia_00381_los_aviones_sanitarios_estn_a_disposicin_de_t.txt"
+  },
+  "https://www.flightradar24.com/data/aircraft/lv-iqu": {
+   "url": "https://www.flightradar24.com/data/aircraft/lv-iqu",
+   "estado": 200,
+   "caracteres": 2310,
+   "archivo": "data/fuentes/web/flightradar24_com_data_aircraft_lv_iqu.txt"
   }
  },
  "portales": {
