@@ -1,6 +1,6 @@
 {
  "repositorio": "Lecturas oficiales registradas por las tareas del Tablero Ciudadano",
- "actualizado": "15/11/2026, 18:33 h",
+ "actualizado": "16/11/2026, 09:04 h",
  "series": [
   {
    "rio": "Paraná",
@@ -73,6 +73,11 @@
     [
      "2026-11-15T12:00:00",
      2.65,
+     "pendiente"
+    ],
+    [
+     "2026-11-16T12:00:00",
+     2.5,
      "pendiente"
     ]
    ]
@@ -148,6 +153,11 @@
     [
      "2026-11-15T12:00:00",
      5.22,
+     "pendiente"
+    ],
+    [
+     "2026-11-16T12:00:00",
+     5,
      "pendiente"
     ]
    ]
@@ -384,6 +394,11 @@
      "2026-11-15T12:00:00",
      6.79,
      "pendiente"
+    ],
+    [
+     "2026-11-16T12:00:00",
+     6.61,
+     "pendiente"
     ]
    ]
   },
@@ -618,6 +633,11 @@
     [
      "2026-11-15T18:00:00",
      6.65,
+     "verificado"
+    ],
+    [
+     "2026-11-16T08:00:00",
+     6.55,
      "verificado"
     ]
    ]
@@ -859,6 +879,11 @@
      "2026-11-15T18:00:00",
      6.55,
      "verificado"
+    ],
+    [
+     "2026-11-16T08:00:00",
+     6.5,
+     "verificado"
     ]
    ]
   },
@@ -933,6 +958,11 @@
     [
      "2026-11-15T12:00:00",
      5.8,
+     "pendiente"
+    ],
+    [
+     "2026-11-16T12:00:00",
+     5.75,
      "pendiente"
     ]
    ]
@@ -1169,6 +1199,11 @@
      "2026-11-15T18:00:00",
      6.2,
      "verificado"
+    ],
+    [
+     "2026-11-16T08:00:00",
+     6.19,
+     "verificado"
     ]
    ]
   },
@@ -1404,6 +1439,11 @@
      "2026-11-15T18:00:00",
      5.82,
      "verificado"
+    ],
+    [
+     "2026-11-16T08:00:00",
+     5.81,
+     "verificado"
     ]
    ]
   },
@@ -1483,6 +1523,11 @@
     [
      "2026-11-15T14:00:00",
      5.5,
+     "verificado"
+    ],
+    [
+     "2026-11-16T08:00:00",
+     5.47,
      "verificado"
     ]
    ]
@@ -1955,7 +2000,7 @@
   }
  ],
  "pron_aviso": "Valores difundidos por El Litoral a partir del pronóstico del INA. Son estimaciones, no mediciones, y pueden cambiar con las lluvias.",
- "verificacion": "Consulta del 15/11/2026, 18:33 h: Prefectura Naval Argentina, alturas del 15/11/2026 reproducidas por rioparana.com.ar (Corrientes, Paso de la Patria, Bella Vista y Goya a las 18:00 h; Esquina a las 14:00 h; solo fecha en Ituzaingó, Itá Ibaté, Itatí y Empedrado). INA, informe diario del 13/11 (sin emisión nueva). Río Uruguay sin lectura nueva (Comisión Técnica Mixta de Salto Grande, último reporte del 13/11/2026 a las 07:00 h).",
+ "verificacion": "Consulta del 16/11/2026, 09:04 h: Prefectura Naval Argentina, alturas del 16/11/2026 reproducidas por rioparana.com.ar (Corrientes, Paso de la Patria, Bella Vista, Goya y Esquina a las 08:00 h; solo fecha en Ituzaingó, Itá Ibaté, Itatí y Empedrado). La página de alturas de Prefectura no respondió. INA, informe diario del 13/11 (sin emisión nueva). Río Uruguay sin lectura nueva (Comisión Técnica Mixta de Salto Grande, último reporte leído del 13/11/2026 a las 07:00 h).",
  "observaciones": [
   "Empedrado, Esquina, Ituzaingó e Itá Ibaté tienen pocas lecturas (10 cada uno), todas de fecha solamente salvo la del 01/11 a las 00:00 h.",
   "Variación informada en el CSV que no coincide con la diferencia entre lecturas consecutivas (no se usa en los gráficos ni se corrigieron las alturas): Ituzaingó 2026-11-03: CSV -3 cm frente a -12 cm; Itá Ibaté 2026-11-03: CSV -6 cm frente a -10 cm; Itatí 2026-11-03: CSV -2 cm frente a -8 cm; Paso de la Patria 2026-11-03: CSV -6 cm frente a -8 cm; Empedrado 2026-11-03: CSV -6 cm frente a -11 cm; Goya 2026-11-01T00:00:00: CSV 12 cm frente a 14 cm; Goya 2026-11-03: CSV 1 cm frente a 3 cm; Esquina 2026-11-03: CSV 8 cm frente a 14 cm.",

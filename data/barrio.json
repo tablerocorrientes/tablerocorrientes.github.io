@@ -1,5 +1,5 @@
 {
- "actualizado": "16/11/2026, 07:30 h",
+ "actualizado": "16/11/2026, 09:04 h",
  "dias": {
   "2026-11-02": [
    0,
@@ -418,25 +418,25 @@
    0.0
   ],
   "2026-11-18": [
+   0.15,
    0.0,
-   0.0,
-   0.4,
-   0.3,
-   1.3,
+   0.05,
+   0.05,
+   0.37,
+   0.62,
+   1.42,
+   0.8,
+   2.85,
    2.6,
-   2.3,
-   0.3,
-   3.2,
-   4.9,
-   4.4,
-   9.0,
-   2.4,
-   0.2,
-   0.2,
-   0.1,
-   0.0,
-   0.0,
-   0.0,
+   3.33,
+   3.98,
+   1.08,
+   0.22,
+   0.02,
+   0.02,
+   0.05,
+   0.05,
+   0.05,
    0.0,
    0.0,
    0.0,
@@ -448,52 +448,78 @@
    0.0,
    0.0,
    0.0,
+   0.07,
+   0.07,
+   0.07,
    0.0,
    0.0,
    0.0,
-   0.0,
-   0.0,
-   0.0,
-   0.0,
-   0.0,
-   0.0,
-   0.0,
-   0.0,
-   0.0,
-   0.0,
-   0.0,
-   0.0,
-   0.0,
-   0.0,
-   0.0,
+   0.03,
+   0.03,
+   0.13,
+   0.2,
+   0.25,
+   0.25,
+   0.2,
+   0.2,
+   0.2,
+   0.05,
+   0.05,
+   0.05,
    0.1,
    0.1
   ],
   "2026-11-20": [
-   0.1,
-   2.1,
-   2.1,
-   2.1,
-   1.5,
-   1.5,
-   1.5,
-   11.4,
-   11.4,
-   11.4,
-   0.2,
-   0.2,
-   0.2,
-   0.1,
-   0.1,
-   0.1,
-   0.1,
-   0.1,
-   0.1,
+   0.3,
+   0.8,
+   0.8,
+   0.8,
+   0.8,
+   0.8,
+   0.8,
+   5.03,
+   5.03,
+   5.03,
+   1.55,
+   1.55,
+   1.55,
+   0.32,
+   0.32,
+   0.32,
+   0.0,
+   0.0,
+   0.0,
    0.0,
    0.0,
    0.0,
    0.0,
    0.0
+  ],
+  "2026-11-21": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.5,
+   0.5,
+   0.5,
+   3.0,
+   3.0,
+   3.0,
+   0.2,
+   0.2,
+   0.2,
+   0.1,
+   0.1
   ]
  },
  "alertas": {
@@ -527,12 +553,41 @@
   }
  },
  "rio": {
-  "altura": 6.55,
-  "actualizado": "15/11/2026, 18:00 h, Prefectura Naval Argentina (publicado por rioparana.com.ar)",
+  "altura": 6.5,
+  "actualizado": "16/11/2026, 08:00 h, Prefectura Naval Argentina (publicado por rioparana.com.ar)",
   "alerta": 6.5,
   "evacuacion": 7.0
  },
  "fuentes": [
+  {
+   "g": "Actualización del 16/11/2026, 09:04 h",
+   "l": [
+    [
+     "Servicio Meteorológico Nacional, alertas",
+     "https://www.smn.gob.ar/alertas"
+    ],
+    [
+     "COE de Corrientes, alerta amarilla por tormentas 2026-0074-AT",
+     "https://coe.corrientes.gob.ar/a/2026-0074-AT"
+    ],
+    [
+     "Servicio Meteorológico Nacional, modelo numérico de pronóstico a 5 días",
+     "https://www.smn.gob.ar"
+    ],
+    [
+     "Open-Meteo, modelo horario de lluvia",
+     "https://open-meteo.com"
+    ],
+    [
+     "La Nación, clima en Corrientes (parte del SMN, 08:05 h)",
+     "https://www.lanacion.com.ar/clima/corrientes/"
+    ],
+    [
+     "Prefectura Naval Argentina, alturas publicadas por rioparana.com.ar",
+     "https://www.rioparana.com.ar"
+    ]
+   ]
+  },
   {
    "g": "Actualización del 16/11/2026, 07:30 h",
    "l": [
@@ -1042,24 +1097,24 @@
   },
   "2026-11-16": {
    "smn": {
-    "texto": "Parte del SMN difundido por La Nación (actualizado a las 07:08 h del 14/11): mayormente nublado, 10 %.",
+    "texto": "Parte del SMN difundido por La Nación (actualizado a las 08:05 h del 16/11): hoy mayormente nublado, 0 % de lluvia. Alerta amarilla por tormentas del SMN para Corrientes hasta las 05:59 h del 17/11, sin departamentos detallados.",
     "mm": null,
     "u": "https://www.lanacion.com.ar/clima/corrientes/"
    },
    "modelos": [
     {
-     "n": "Agrofy (Open-Meteo)",
-     "mm": 3.4,
-     "act": "14/11, 08:13 h"
+     "n": "Modelo numérico del SMN",
+     "mm": 0.0,
+     "act": "16/11, 08:59 h"
     },
     {
-     "n": "Meteored",
-     "mm": 2.3,
-     "act": "14/11, 09:00 h"
+     "n": "Open-Meteo",
+     "mm": 0.1,
+     "act": "16/11, 08:59 h"
     }
    ],
-   "usado": 2.3,
-   "criterio": "Parte del SMN (La Nación, 07:08 h): mayormente nublado, 10 %; el SMN prevé menos de 40 % de probabilidad: se usa el modelo más bajo: 2,3 mm. Estimación derivada, no una medición."
+   "usado": 0.0,
+   "criterio": "El SMN prevé menos de 40 % de probabilidad: se usa el modelo más bajo: 0,0 mm. Estimación derivada, no una medición."
   },
   "2026-11-17": {
    "smn": {

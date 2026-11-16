@@ -1,5 +1,5 @@
 {
- "actualizado": "15/11/2026, 18:33 h",
+ "actualizado": "16/11/2026, 09:04 h",
  "explicacion": "Pronósticos extendidos emitidos cada día, para compararlos con la lluvia medida.",
  "registros": [
   {
@@ -83,6 +83,48 @@
    "emitido": "2026-11-15",
    "ciudad": "Corrientes Capital",
    "fecha": "2026-11-21",
+   "horizonte": 6,
+   "prob": 0
+  },
+  {
+   "emitido": "2026-11-16",
+   "ciudad": "Corrientes Capital",
+   "fecha": "2026-11-17",
+   "horizonte": 1,
+   "prob": 100
+  },
+  {
+   "emitido": "2026-11-16",
+   "ciudad": "Corrientes Capital",
+   "fecha": "2026-11-18",
+   "horizonte": 2,
+   "prob": 40
+  },
+  {
+   "emitido": "2026-11-16",
+   "ciudad": "Corrientes Capital",
+   "fecha": "2026-11-19",
+   "horizonte": 3,
+   "prob": 40
+  },
+  {
+   "emitido": "2026-11-16",
+   "ciudad": "Corrientes Capital",
+   "fecha": "2026-11-20",
+   "horizonte": 4,
+   "prob": 40
+  },
+  {
+   "emitido": "2026-11-16",
+   "ciudad": "Corrientes Capital",
+   "fecha": "2026-11-21",
+   "horizonte": 5,
+   "prob": 0
+  },
+  {
+   "emitido": "2026-11-16",
+   "ciudad": "Corrientes Capital",
+   "fecha": "2026-11-22",
    "horizonte": 6,
    "prob": 0
   }

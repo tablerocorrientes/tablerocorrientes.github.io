@@ -1,8 +1,8 @@
 {
  "estado_alertas": "VERIFICADO_CON_ALERTAS",
  "estado_verificado": {
-  "fecha": "16/11/2026, 07:30 h",
-  "fuente": "COE de Corrientes (la página de alertas del SMN no respondió; el SMN leído desde Corrientes a las 04:42 h no informaba alertas vigentes para hoy)"
+  "fecha": "16/11/2026, 08:41 h",
+  "fuente": "SMN (página de alertas consultada a las 08:41 h) y COE de Corrientes (consultado a las 08:56 h)"
  },
  "met_archivo": {
   "nombre": "vigilancia_meteorologica_20261113_183508.json",
@@ -11,17 +11,17 @@
   "fecha": "13/11/2026, 18:35 h"
  },
  "met_revision": "aae6c54b1ab7086a927cf2e4bb8e34a53a584e781ba42ff90ab9d653046ddc38",
- "actualizado": "15/11/2026, 18:33 h",
+ "actualizado": "16/11/2026, 09:04 h",
  "localidades": [
   {
    "n": "Corrientes Capital",
    "dep": "Capital",
    "ref": "Corrientes Capital",
    "rio": "Paraná",
-   "altura": 6.55,
+   "altura": 6.5,
    "alerta": 6.5,
    "evac": 7.0,
-   "reg": "15/11/2026, 18:00 h (Prefectura Naval Argentina, publicado por rioparana.com.ar)"
+   "reg": "16/11/2026, 08:00 h (Prefectura Naval Argentina, publicado por rioparana.com.ar)"
   },
   {
    "n": "Riachuelo",
@@ -33,10 +33,10 @@
    "dep": "Bella Vista",
    "ref": "Bella Vista",
    "rio": "Paraná",
-   "altura": 6.2,
+   "altura": 6.19,
    "alerta": 6.0,
    "evac": 6.4,
-   "reg": "15/11/2026, 18:00 h (Prefectura Naval Argentina, publicado por rioparana.com.ar)"
+   "reg": "16/11/2026, 08:00 h (Prefectura Naval Argentina, publicado por rioparana.com.ar)"
   },
   {
    "n": "Berón de Astrada",
@@ -88,10 +88,10 @@
    "dep": "Empedrado",
    "ref": "Corrientes Capital",
    "rio": "Paraná",
-   "altura": 5.82,
+   "altura": 5.75,
    "alerta": 6.5,
    "evac": 6.7,
-   "reg": "15/11/2026, solo fecha, hora no publicada (Prefectura Naval Argentina, publicado por rioparana.com.ar)"
+   "reg": "16/11/2026, solo fecha, hora no publicada (Prefectura Naval Argentina, publicado por rioparana.com.ar)"
   },
   {
    "n": "El Sombrero",
@@ -103,10 +103,10 @@
    "dep": "Esquina",
    "ref": "Esquina",
    "rio": "Paraná",
-   "altura": 5.5,
+   "altura": 5.47,
    "alerta": 5.0,
    "evac": 5.4,
-   "reg": "15/11/2026, 14:00 h (Prefectura Naval Argentina, publicado por rioparana.com.ar)"
+   "reg": "16/11/2026, 08:00 h (Prefectura Naval Argentina, publicado por rioparana.com.ar)"
   },
   {
    "n": "Pueblo Libertador",
@@ -138,10 +138,10 @@
    "dep": "General Paz",
    "ref": "Ituzaingó",
    "rio": "Paraná",
-   "altura": 5.0,
+   "altura": 5,
    "alerta": 7.0,
    "evac": 7.5,
-   "reg": "15/11/2026, solo fecha, hora no publicada (Prefectura Naval Argentina, publicado por rioparana.com.ar)"
+   "reg": "16/11/2026, solo fecha, hora no publicada (Prefectura Naval Argentina, publicado por rioparana.com.ar)"
   },
   {
    "n": "Lomas de Vallejos",
@@ -158,10 +158,10 @@
    "dep": "Goya",
    "ref": "Goya",
    "rio": "Paraná",
-   "altura": 5.82,
+   "altura": 5.81,
    "alerta": 5.2,
    "evac": 5.7,
-   "reg": "15/11/2026, 18:00 h (Prefectura Naval Argentina, publicado por rioparana.com.ar)"
+   "reg": "16/11/2026, 08:00 h (Prefectura Naval Argentina, publicado por rioparana.com.ar)"
   },
   {
    "n": "Colonia Carolina",
@@ -173,10 +173,10 @@
    "dep": "Itatí",
    "ref": "Corrientes Capital",
    "rio": "Paraná",
-   "altura": 6.79,
+   "altura": 6.61,
    "alerta": 6.8,
    "evac": 7.5,
-   "reg": "15/11/2026, solo fecha, hora no publicada (Prefectura Naval Argentina, publicado por rioparana.com.ar)"
+   "reg": "16/11/2026, solo fecha, hora no publicada (Prefectura Naval Argentina, publicado por rioparana.com.ar)"
   },
   {
    "n": "Ramada Paso",
@@ -191,7 +191,7 @@
    "altura": 2.5,
    "alerta": 3.5,
    "evac": 4.0,
-   "reg": "15/11/2026, solo fecha, hora no publicada (Prefectura Naval Argentina, publicado por rioparana.com.ar)"
+   "reg": "16/11/2026, solo fecha, hora no publicada (Prefectura Naval Argentina, publicado por rioparana.com.ar)"
   },
   {
    "n": "San Carlos",
@@ -333,10 +333,10 @@
    "dep": "San Cosme",
    "ref": "Corrientes Capital",
    "rio": "Paraná",
-   "altura": 6.65,
+   "altura": 6.55,
    "alerta": 6.5,
    "evac": 7.0,
-   "reg": "15/11/2026, 18:00 h (Prefectura Naval Argentina, publicado por rioparana.com.ar)"
+   "reg": "16/11/2026, 08:00 h (Prefectura Naval Argentina, publicado por rioparana.com.ar)"
   },
   {
    "n": "Santa Ana",
@@ -447,14 +447,18 @@
    },
    "manana": {
     "mm": 17.1,
-    "horas": 12
+    "horas": 9
    },
-   "smn": "Alerta amarilla por tormentas para toda la provincia el martes 17/11, de 03:00 a 15:00 h (COE, fuente SMN), con 30 a 70 mm. Parte del SMN difundido por La Nación (06:04 h): hoy mayormente nublado, 0 % de lluvia; mañana tormentas fuertes por la mañana (100 %) y chaparrones por la tarde y la noche (40 %).",
+   "smn": "Alerta amarilla por tormentas del SMN para Corrientes desde las 06:00 h de hoy hasta las 05:59 h del martes 17/11 (sin departamentos detallados) y alerta amarilla del COE (fuente SMN) para toda la provincia el martes 17/11 de 03:00 a 15:00 h, con 30 a 70 mm. Parte del SMN difundido por La Nación (08:05 h): hoy mayormente nublado, 0 % de lluvia; mañana tormentas fuertes por la mañana (100 %) y chaparrones por la tarde y la noche (40 %).",
    "modelos": {
     "hoy": [
      [
       "Modelo numérico del SMN",
       0.0
+     ],
+     [
+      "Open-Meteo",
+      0.1
      ]
     ],
     "manana": [
@@ -463,333 +467,81 @@
       17.1
      ],
      [
-      "Open-Meteo (15/11)",
-      1.0
-     ],
-     [
-      "Meteored (15/11)",
-      0.6
+      "Open-Meteo",
+      6.9
      ]
     ]
    },
-   "criterio": "Hoy el parte del SMN prevé 0 % de lluvia: 0,0 mm. Mañana el SMN prevé tormentas fuertes con 100 %: se usa el modelo más alto, el modelo numérico del SMN, con 17,1 mm. Open-Meteo y Meteored no se actualizaron en esta consulta (valores del 15/11). El rango de la alerta (30 a 70 mm) no se usa como pronóstico central. Reparto horario aproximado de los datos cada 3 horas del SMN.",
-   "fuente": "Hoy 0,0 mm y mañana 17.1 mm. Modelo numérico del SMN (16/11) y parte del SMN difundido por La Nación. Estimación derivada, no una medición.",
-   "act": "16/11, 07:30 h"
+   "criterio": "Hoy el parte del SMN prevé 0 % de lluvia: se usa el modelo más bajo, Modelo numérico del SMN, con 0,0 mm. Mañana el SMN prevé tormentas fuertes con 100 %: se usa el modelo más alto, Modelo numérico del SMN, con 17,1 mm. El rango de la alerta (30 a 70 mm) no se usa como pronóstico central. Reparto horario aproximado de los datos cada 3 horas del SMN.",
+   "fuente": "Hoy 0,0 mm y mañana 17,1 mm. Modelo numérico del SMN y Open-Meteo (16/11). Estimación derivada, no una medición.",
+   "act": "16/11, 09:04 h"
   },
   "Goya": {
    "hoy": {
-    "mm": 0.2,
-    "horas": 1
-   },
-   "manana": {
     "mm": 0.0,
     "horas": 0
    },
-   "smn": "Sin alerta del SMN ni del COE para Goya el domingo 15/11 ni el lunes 16/11 (consulta de las 18:33 h).",
+   "manana": {
+    "mm": 0.4,
+    "horas": 2
+   },
+   "smn": "Alerta amarilla por tormentas del SMN para Corrientes desde las 06:00 h de hoy hasta las 05:59 h del martes 17/11 (sin departamentos detallados) y alerta amarilla del COE (fuente SMN) para toda la provincia el martes 17/11 de 03:00 a 15:00 h, con 30 a 70 mm.",
    "modelos": {
     "hoy": [
      [
       "Open-Meteo",
-      0.2
+      0.0
      ]
     ],
     "manana": [
      [
       "Open-Meteo",
-      0.0
+      0.4
      ]
     ]
    },
-   "criterio": "Parte del SMN por ciudad con probabilidades no disponible para esta ciudad: se usa el promedio de los modelos disponibles (Open-Meteo): hoy 0,2 mm y mañana 0,0 mm.",
-   "fuente": "Modelo Open-Meteo (15/11, 18:33 h). Estimación derivada, no una medición.",
-   "act": "15/11, 18:33 h"
+   "criterio": "Parte del SMN por ciudad con probabilidades no disponible para esta ciudad: se usa el promedio de los modelos disponibles (Open-Meteo): hoy 0,0 mm y mañana 0,4 mm.",
+   "fuente": "Hoy 0,0 mm y mañana 0,4 mm. Open-Meteo (16/11). Estimación derivada, no una medición.",
+   "act": "16/11, 09:04 h"
   },
   "Esquina": {
    "hoy": {
-    "mm": 0.3,
-    "horas": 2
-   },
-   "manana": {
     "mm": 0.0,
     "horas": 0
    },
-   "smn": "Sin alerta del SMN ni del COE para Esquina el domingo 15/11 ni el lunes 16/11 (consulta de las 18:33 h).",
+   "manana": {
+    "mm": 1.4,
+    "horas": 6
+   },
+   "smn": "Alerta amarilla por tormentas del SMN para Corrientes desde las 06:00 h de hoy hasta las 05:59 h del martes 17/11 (sin departamentos detallados) y alerta amarilla del COE (fuente SMN) para toda la provincia el martes 17/11 de 03:00 a 15:00 h, con 30 a 70 mm.",
    "modelos": {
     "hoy": [
      [
       "Open-Meteo",
-      0.3
+      0.0
      ]
     ],
     "manana": [
      [
       "Open-Meteo",
-      0.0
+      1.4
      ]
     ]
    },
-   "criterio": "Parte del SMN por ciudad con probabilidades no disponible para esta ciudad: se usa el promedio de los modelos disponibles (Open-Meteo): hoy 0,3 mm y mañana 0,0 mm.",
-   "fuente": "Modelo Open-Meteo (15/11, 18:33 h). Estimación derivada, no una medición.",
-   "act": "15/11, 18:33 h"
+   "criterio": "Parte del SMN por ciudad con probabilidades no disponible para esta ciudad: se usa el promedio de los modelos disponibles (Open-Meteo): hoy 0,0 mm y mañana 1,4 mm.",
+   "fuente": "Hoy 0,0 mm y mañana 1,4 mm. Open-Meteo (16/11). Estimación derivada, no una medición.",
+   "act": "16/11, 09:04 h"
   },
   "Bella Vista": {
    "hoy": {
-    "mm": 0.2,
-    "horas": 2
-   },
-   "manana": {
-    "mm": 0.9,
-    "horas": 7
-   },
-   "smn": "Sin alerta del SMN ni del COE para Bella Vista el domingo 15/11 ni el lunes 16/11 (consulta de las 18:33 h).",
-   "modelos": {
-    "hoy": [
-     [
-      "Open-Meteo",
-      0.2
-     ]
-    ],
-    "manana": [
-     [
-      "Open-Meteo",
-      0.9
-     ]
-    ]
-   },
-   "criterio": "Parte del SMN por ciudad con probabilidades no disponible para esta ciudad: se usa el promedio de los modelos disponibles (Open-Meteo): hoy 0,2 mm y mañana 0,9 mm.",
-   "fuente": "Modelo Open-Meteo (15/11, 18:33 h). Estimación derivada, no una medición.",
-   "act": "15/11, 18:33 h"
-  },
-  "Mercedes": {
-   "hoy": {
-    "mm": 0.1,
-    "horas": 1
-   },
-   "manana": {
-    "mm": 2.0,
-    "horas": 10
-   },
-   "smn": "Sin alerta del SMN ni del COE para Mercedes el domingo 15/11 ni el lunes 16/11 (consulta de las 18:33 h).",
-   "modelos": {
-    "hoy": [
-     [
-      "Open-Meteo",
-      0.1
-     ]
-    ],
-    "manana": [
-     [
-      "Open-Meteo",
-      2.0
-     ]
-    ]
-   },
-   "criterio": "Parte del SMN por ciudad con probabilidades no disponible para esta ciudad: se usa el promedio de los modelos disponibles (Open-Meteo): hoy 0,1 mm y mañana 2,0 mm.",
-   "fuente": "Modelo Open-Meteo (15/11, 18:33 h). Estimación derivada, no una medición.",
-   "act": "15/11, 18:33 h"
-  },
-  "Curuzú Cuatiá": {
-   "hoy": {
-    "mm": 1.1,
-    "horas": 6
-   },
-   "manana": {
-    "mm": 0.8,
-    "horas": 5
-   },
-   "smn": "Sin alerta del SMN ni del COE para Curuzú Cuatiá el domingo 15/11 ni el lunes 16/11 (consulta de las 18:33 h).",
-   "modelos": {
-    "hoy": [
-     [
-      "Open-Meteo",
-      1.1
-     ]
-    ],
-    "manana": [
-     [
-      "Open-Meteo",
-      0.8
-     ]
-    ]
-   },
-   "criterio": "Parte del SMN por ciudad con probabilidades no disponible para esta ciudad: se usa el promedio de los modelos disponibles (Open-Meteo): hoy 1,1 mm y mañana 0,8 mm.",
-   "fuente": "Modelo Open-Meteo (15/11, 18:33 h). Estimación derivada, no una medición.",
-   "act": "15/11, 18:33 h"
-  },
-  "Paso de los Libres": {
-   "hoy": {
-    "mm": 0.3,
-    "horas": 4
-   },
-   "manana": {
-    "mm": 0.1,
-    "horas": 2
-   },
-   "smn": "Sin alerta del SMN ni del COE para Paso de los Libres el domingo 15/11 ni el lunes 16/11 (consulta de las 18:33 h).",
-   "modelos": {
-    "hoy": [
-     [
-      "Open-Meteo",
-      0.4
-     ],
-     [
-      "Modelo numérico del SMN",
-      0.2
-     ]
-    ],
-    "manana": [
-     [
-      "Open-Meteo",
-      0.2
-     ],
-     [
-      "Modelo numérico del SMN",
-      0.0
-     ]
-    ]
-   },
-   "criterio": "Parte del SMN por ciudad con probabilidades no disponible para esta ciudad: se usa el promedio de los modelos disponibles (Open-Meteo y el modelo numérico del SMN): hoy 0,3 mm y mañana 0,1 mm.",
-   "fuente": "Modelo Open-Meteo (15/11, 18:33 h) y el modelo numérico del SMN. Estimación derivada, no una medición.",
-   "act": "15/11, 18:33 h"
-  },
-  "Santo Tomé": {
-   "hoy": {
-    "mm": 0.2,
-    "horas": 2
-   },
-   "manana": {
-    "mm": 0.2,
-    "horas": 2
-   },
-   "smn": "Sin alerta del SMN ni del COE para Santo Tomé el domingo 15/11 ni el lunes 16/11 (consulta de las 18:33 h).",
-   "modelos": {
-    "hoy": [
-     [
-      "Open-Meteo",
-      0.2
-     ]
-    ],
-    "manana": [
-     [
-      "Open-Meteo",
-      0.2
-     ]
-    ]
-   },
-   "criterio": "Parte del SMN por ciudad con probabilidades no disponible para esta ciudad: se usa el promedio de los modelos disponibles (Open-Meteo): hoy 0,2 mm y mañana 0,2 mm.",
-   "fuente": "Modelo Open-Meteo (15/11, 18:33 h). Estimación derivada, no una medición.",
-   "act": "15/11, 18:33 h"
-  },
-  "Gobernador Virasoro": {
-   "hoy": {
-    "mm": 2.3,
-    "horas": 5
-   },
-   "manana": {
-    "mm": 0.6,
-    "horas": 5
-   },
-   "smn": "Sin alerta del SMN ni del COE para Gobernador Virasoro el domingo 15/11 ni el lunes 16/11 (consulta de las 18:33 h).",
-   "modelos": {
-    "hoy": [
-     [
-      "Open-Meteo",
-      2.3
-     ]
-    ],
-    "manana": [
-     [
-      "Open-Meteo",
-      0.6
-     ]
-    ]
-   },
-   "criterio": "Parte del SMN por ciudad con probabilidades no disponible para esta ciudad: se usa el promedio de los modelos disponibles (Open-Meteo): hoy 2,3 mm y mañana 0,6 mm.",
-   "fuente": "Modelo Open-Meteo (15/11, 18:33 h). Estimación derivada, no una medición.",
-   "act": "15/11, 18:33 h"
-  },
-  "Ituzaingó": {
-   "hoy": {
-    "mm": 0.9,
-    "horas": 6
-   },
-   "manana": {
-    "mm": 0.0,
-    "horas": 0
-   },
-   "smn": "Sin alerta del SMN ni del COE para Ituzaingó el domingo 15/11 ni el lunes 16/11 (consulta de las 18:33 h).",
-   "modelos": {
-    "hoy": [
-     [
-      "Open-Meteo",
-      1.6
-     ],
-     [
-      "Modelo numérico del SMN",
-      0.1
-     ]
-    ],
-    "manana": [
-     [
-      "Open-Meteo",
-      0.0
-     ],
-     [
-      "Modelo numérico del SMN",
-      0.0
-     ]
-    ]
-   },
-   "criterio": "Parte del SMN por ciudad con probabilidades no disponible para esta ciudad: se usa el promedio de los modelos disponibles (Open-Meteo y el modelo numérico del SMN): hoy 0,9 mm y mañana 0,0 mm.",
-   "fuente": "Modelo Open-Meteo (15/11, 18:33 h) y el modelo numérico del SMN. Estimación derivada, no una medición.",
-   "act": "15/11, 18:33 h"
-  },
-  "Monte Caseros": {
-   "hoy": {
-    "mm": 0.0,
-    "horas": 0
-   },
-   "manana": {
-    "mm": 0.2,
-    "horas": 4
-   },
-   "smn": "Sin alerta del SMN ni del COE para Monte Caseros el domingo 15/11 ni el lunes 16/11 (consulta de las 18:33 h).",
-   "modelos": {
-    "hoy": [
-     [
-      "Open-Meteo",
-      0.0
-     ],
-     [
-      "Modelo numérico del SMN",
-      0.0
-     ]
-    ],
-    "manana": [
-     [
-      "Open-Meteo",
-      0.4
-     ],
-     [
-      "Modelo numérico del SMN",
-      0.0
-     ]
-    ]
-   },
-   "criterio": "Parte del SMN por ciudad con probabilidades no disponible para esta ciudad: se usa el promedio de los modelos disponibles (Open-Meteo y el modelo numérico del SMN): hoy 0,0 mm y mañana 0,2 mm.",
-   "fuente": "Modelo Open-Meteo (15/11, 18:33 h) y el modelo numérico del SMN. Estimación derivada, no una medición.",
-   "act": "15/11, 18:33 h"
-  },
-  "Saladas": {
-   "hoy": {
     "mm": 0.5,
-    "horas": 5
+    "horas": 2
    },
    "manana": {
-    "mm": 0.7,
-    "horas": 5
+    "mm": 4.3,
+    "horas": 4
    },
-   "smn": "Sin alerta del SMN ni del COE para Saladas el domingo 15/11 ni el lunes 16/11 (consulta de las 18:33 h).",
+   "smn": "Alerta amarilla por tormentas del SMN para Corrientes desde las 06:00 h de hoy hasta las 05:59 h del martes 17/11 (sin departamentos detallados) y alerta amarilla del COE (fuente SMN) para toda la provincia el martes 17/11 de 03:00 a 15:00 h, con 30 a 70 mm.",
    "modelos": {
     "hoy": [
      [
@@ -800,13 +552,261 @@
     "manana": [
      [
       "Open-Meteo",
-      0.7
+      4.3
      ]
     ]
    },
-   "criterio": "Parte del SMN por ciudad con probabilidades no disponible para esta ciudad: se usa el promedio de los modelos disponibles (Open-Meteo): hoy 0,5 mm y mañana 0,7 mm.",
-   "fuente": "Modelo Open-Meteo (15/11, 18:33 h). Estimación derivada, no una medición.",
-   "act": "15/11, 18:33 h"
+   "criterio": "Parte del SMN por ciudad con probabilidades no disponible para esta ciudad: se usa el promedio de los modelos disponibles (Open-Meteo): hoy 0,5 mm y mañana 4,3 mm.",
+   "fuente": "Hoy 0,5 mm y mañana 4,3 mm. Open-Meteo (16/11). Estimación derivada, no una medición.",
+   "act": "16/11, 09:04 h"
+  },
+  "Mercedes": {
+   "hoy": {
+    "mm": 0.5,
+    "horas": 3
+   },
+   "manana": {
+    "mm": 12.6,
+    "horas": 11
+   },
+   "smn": "Alerta amarilla por tormentas del SMN para Corrientes desde las 06:00 h de hoy hasta las 05:59 h del martes 17/11 (sin departamentos detallados) y alerta amarilla del COE (fuente SMN) para toda la provincia el martes 17/11 de 03:00 a 15:00 h, con 30 a 70 mm.",
+   "modelos": {
+    "hoy": [
+     [
+      "Open-Meteo",
+      0.5
+     ]
+    ],
+    "manana": [
+     [
+      "Open-Meteo",
+      12.6
+     ]
+    ]
+   },
+   "criterio": "Parte del SMN por ciudad con probabilidades no disponible para esta ciudad: se usa el promedio de los modelos disponibles (Open-Meteo): hoy 0,5 mm y mañana 12,6 mm.",
+   "fuente": "Hoy 0,5 mm y mañana 12,6 mm. Open-Meteo (16/11). Estimación derivada, no una medición.",
+   "act": "16/11, 09:04 h"
+  },
+  "Curuzú Cuatiá": {
+   "hoy": {
+    "mm": 0.3,
+    "horas": 2
+   },
+   "manana": {
+    "mm": 7.2,
+    "horas": 10
+   },
+   "smn": "Alerta amarilla por tormentas del SMN para Corrientes desde las 06:00 h de hoy hasta las 05:59 h del martes 17/11 (sin departamentos detallados) y alerta amarilla del COE (fuente SMN) para toda la provincia el martes 17/11 de 03:00 a 15:00 h, con 30 a 70 mm.",
+   "modelos": {
+    "hoy": [
+     [
+      "Open-Meteo",
+      0.3
+     ]
+    ],
+    "manana": [
+     [
+      "Open-Meteo",
+      7.2
+     ]
+    ]
+   },
+   "criterio": "Parte del SMN por ciudad con probabilidades no disponible para esta ciudad: se usa el promedio de los modelos disponibles (Open-Meteo): hoy 0,3 mm y mañana 7,2 mm.",
+   "fuente": "Hoy 0,3 mm y mañana 7,2 mm. Open-Meteo (16/11). Estimación derivada, no una medición.",
+   "act": "16/11, 09:04 h"
+  },
+  "Paso de los Libres": {
+   "hoy": {
+    "mm": 0.1,
+    "horas": 0
+   },
+   "manana": {
+    "mm": 9.0,
+    "horas": 11
+   },
+   "smn": "Alerta amarilla por tormentas del SMN para Corrientes desde las 06:00 h de hoy hasta las 05:59 h del martes 17/11 (sin departamentos detallados) y alerta amarilla del COE (fuente SMN) para toda la provincia el martes 17/11 de 03:00 a 15:00 h, con 30 a 70 mm.",
+   "modelos": {
+    "hoy": [
+     [
+      "Modelo numérico del SMN",
+      0.0
+     ],
+     [
+      "Open-Meteo",
+      0.3
+     ]
+    ],
+    "manana": [
+     [
+      "Modelo numérico del SMN",
+      3.7
+     ],
+     [
+      "Open-Meteo",
+      14.3
+     ]
+    ]
+   },
+   "criterio": "Parte del SMN por ciudad con probabilidades no disponible para esta ciudad: se usa el promedio de los modelos disponibles (Modelo numérico del SMN y Open-Meteo): hoy 0,1 mm y mañana 9,0 mm.",
+   "fuente": "Hoy 0,1 mm y mañana 9,0 mm. Modelo numérico del SMN y Open-Meteo (16/11). Estimación derivada, no una medición.",
+   "act": "16/11, 09:04 h"
+  },
+  "Santo Tomé": {
+   "hoy": {
+    "mm": 0.0,
+    "horas": 0
+   },
+   "manana": {
+    "mm": 28.7,
+    "horas": 12
+   },
+   "smn": "Alerta amarilla por tormentas del SMN para Corrientes desde las 06:00 h de hoy hasta las 05:59 h del martes 17/11 (sin departamentos detallados) y alerta amarilla del COE (fuente SMN) para toda la provincia el martes 17/11 de 03:00 a 15:00 h, con 30 a 70 mm.",
+   "modelos": {
+    "hoy": [
+     [
+      "Open-Meteo",
+      0.0
+     ]
+    ],
+    "manana": [
+     [
+      "Open-Meteo",
+      28.7
+     ]
+    ]
+   },
+   "criterio": "Parte del SMN por ciudad con probabilidades no disponible para esta ciudad: se usa el promedio de los modelos disponibles (Open-Meteo): hoy 0,0 mm y mañana 28,7 mm.",
+   "fuente": "Hoy 0,0 mm y mañana 28,7 mm. Open-Meteo (16/11). Estimación derivada, no una medición.",
+   "act": "16/11, 09:04 h"
+  },
+  "Gobernador Virasoro": {
+   "hoy": {
+    "mm": 0.9,
+    "horas": 4
+   },
+   "manana": {
+    "mm": 29.5,
+    "horas": 14
+   },
+   "smn": "Alerta amarilla por tormentas del SMN para Corrientes desde las 06:00 h de hoy hasta las 05:59 h del martes 17/11 (sin departamentos detallados) y alerta amarilla del COE (fuente SMN) para toda la provincia el martes 17/11 de 03:00 a 15:00 h, con 30 a 70 mm.",
+   "modelos": {
+    "hoy": [
+     [
+      "Open-Meteo",
+      0.9
+     ]
+    ],
+    "manana": [
+     [
+      "Open-Meteo",
+      29.5
+     ]
+    ]
+   },
+   "criterio": "Parte del SMN por ciudad con probabilidades no disponible para esta ciudad: se usa el promedio de los modelos disponibles (Open-Meteo): hoy 0,9 mm y mañana 29,5 mm.",
+   "fuente": "Hoy 0,9 mm y mañana 29,5 mm. Open-Meteo (16/11). Estimación derivada, no una medición.",
+   "act": "16/11, 09:04 h"
+  },
+  "Ituzaingó": {
+   "hoy": {
+    "mm": 1.3,
+    "horas": 6
+   },
+   "manana": {
+    "mm": 14.4,
+    "horas": 11
+   },
+   "smn": "Alerta amarilla por tormentas del SMN para Corrientes desde las 06:00 h de hoy hasta las 05:59 h del martes 17/11 (sin departamentos detallados) y alerta amarilla del COE (fuente SMN) para toda la provincia el martes 17/11 de 03:00 a 15:00 h, con 30 a 70 mm.",
+   "modelos": {
+    "hoy": [
+     [
+      "Modelo numérico del SMN",
+      1.7
+     ],
+     [
+      "Open-Meteo",
+      0.9
+     ]
+    ],
+    "manana": [
+     [
+      "Modelo numérico del SMN",
+      20.3
+     ],
+     [
+      "Open-Meteo",
+      8.6
+     ]
+    ]
+   },
+   "criterio": "Parte del SMN por ciudad con probabilidades no disponible para esta ciudad: se usa el promedio de los modelos disponibles (Modelo numérico del SMN y Open-Meteo): hoy 1,3 mm y mañana 14,4 mm.",
+   "fuente": "Hoy 1,3 mm y mañana 14,4 mm. Modelo numérico del SMN y Open-Meteo (16/11). Estimación derivada, no una medición.",
+   "act": "16/11, 09:04 h"
+  },
+  "Monte Caseros": {
+   "hoy": {
+    "mm": 0.3,
+    "horas": 2
+   },
+   "manana": {
+    "mm": 9.3,
+    "horas": 11
+   },
+   "smn": "Alerta amarilla por tormentas del SMN para Corrientes desde las 06:00 h de hoy hasta las 05:59 h del martes 17/11 (sin departamentos detallados) y alerta amarilla del COE (fuente SMN) para toda la provincia el martes 17/11 de 03:00 a 15:00 h, con 30 a 70 mm.",
+   "modelos": {
+    "hoy": [
+     [
+      "Modelo numérico del SMN",
+      0.0
+     ],
+     [
+      "Open-Meteo",
+      0.6
+     ]
+    ],
+    "manana": [
+     [
+      "Modelo numérico del SMN",
+      2.5
+     ],
+     [
+      "Open-Meteo",
+      16.1
+     ]
+    ]
+   },
+   "criterio": "Parte del SMN por ciudad con probabilidades no disponible para esta ciudad: se usa el promedio de los modelos disponibles (Modelo numérico del SMN y Open-Meteo): hoy 0,3 mm y mañana 9,3 mm.",
+   "fuente": "Hoy 0,3 mm y mañana 9,3 mm. Modelo numérico del SMN y Open-Meteo (16/11). Estimación derivada, no una medición.",
+   "act": "16/11, 09:04 h"
+  },
+  "Saladas": {
+   "hoy": {
+    "mm": 1.2,
+    "horas": 8
+   },
+   "manana": {
+    "mm": 13.7,
+    "horas": 9
+   },
+   "smn": "Alerta amarilla por tormentas del SMN para Corrientes desde las 06:00 h de hoy hasta las 05:59 h del martes 17/11 (sin departamentos detallados) y alerta amarilla del COE (fuente SMN) para toda la provincia el martes 17/11 de 03:00 a 15:00 h, con 30 a 70 mm.",
+   "modelos": {
+    "hoy": [
+     [
+      "Open-Meteo",
+      1.2
+     ]
+    ],
+    "manana": [
+     [
+      "Open-Meteo",
+      13.7
+     ]
+    ]
+   },
+   "criterio": "Parte del SMN por ciudad con probabilidades no disponible para esta ciudad: se usa el promedio de los modelos disponibles (Open-Meteo): hoy 1,2 mm y mañana 13,7 mm.",
+   "fuente": "Hoy 1,2 mm y mañana 13,7 mm. Open-Meteo (16/11). Estimación derivada, no una medición.",
+   "act": "16/11, 09:04 h"
   }
  },
  "antecedentes": {
@@ -1207,8 +1207,28 @@
    }
   ]
  },
- "pron_actualizado": "16/11/2026, 07:30 h",
+ "pron_actualizado": "16/11/2026, 09:04 h",
  "smn": [
+  {
+   "id_oficial": null,
+   "tipo": "alerta",
+   "aviso": "Alerta amarilla por tormentas del Servicio Meteorológico Nacional para la provincia de Corrientes, vigente desde las 06:00 h del lunes 16/11 hasta las 05:59 h del martes 17/11. El resumen del SMN no detalla qué departamentos alcanza.",
+   "nivel": "amarillo",
+   "fenomeno": "tormenta",
+   "rango_mm": null,
+   "zonas": [
+    "Corrientes (el SMN no detalla los departamentos)"
+   ],
+   "desde": "16/11/2026, 06:00 h",
+   "hasta": "17/11/2026, 05:59 h",
+   "desde_iso": "2026-11-16T06:00:00-03:00",
+   "hasta_iso": "2026-11-17T05:59:00-03:00",
+   "emision": "16/11/2026, 08:09 h",
+   "incluye_corrientes": true,
+   "incluye_capital": null,
+   "url": "https://www.smn.gob.ar/alertas",
+   "origen": "Servicio Meteorológico Nacional, página de alertas consultada el 16/11/2026 a las 08:41 h"
+  },
   {
    "id_oficial": "2026-0074-AT",
    "tipo": "alerta",
