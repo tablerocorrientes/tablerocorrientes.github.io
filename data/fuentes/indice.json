@@ -1,6 +1,6 @@
 {
- "consultado": "16/11/2026, 19:41 h",
- "consultado_iso": "2026-11-16T19:41-03:00",
+ "consultado": "16/11/2026, 19:43 h",
+ "consultado_iso": "2026-11-16T19:43-03:00",
  "paginas": {
   "smn_alertas": {
    "url": "https://www.smn.gob.ar/alertas",
@@ -137,53 +137,47 @@
   }
  },
  "pedidas": {
-  "https://aeropuertoformosa.blogspot.com/2019/03/lv-iqu-cessna-560xl-citation-xls-del.html": {
-   "url": "https://aeropuertoformosa.blogspot.com/2019/03/lv-iqu-cessna-560xl-citation-xls-del.html",
-   "estado": 200,
-   "caracteres": 9811,
-   "archivo": "data/fuentes/web/aeropuertoformosa_blogspot_com_2019_03_lv_iqu_cessna_560xl_citation_xls_del_html.txt"
+  "https://www.jetphotos.com/registration/LV-IQU": {
+   "url": "https://www.jetphotos.com/registration/LV-IQU",
+   "estado": "error",
+   "detalle": "HTTP Error 429: Too Many Requests"
   },
-  "https://www.lacardigital.com.ar/la-provincia-consolida-su-flota-de-drones-y-suma-pilotos-para-operaciones-en-todo-el-territorio/": {
-   "url": "https://www.lacardigital.com.ar/la-provincia-consolida-su-flota-de-drones-y-suma-pilotos-para-operaciones-en-todo-el-territorio/",
-   "estado": 200,
-   "caracteres": 10294,
-   "archivo": "data/fuentes/web/lacardigital_com_ar_la_provincia_consolida_su_flota_de_drones_y_suma_pilotos_para_operacio.txt"
+  "https://www.spottinglog.com/aircraft/LV-IQU": {
+   "url": "https://www.spottinglog.com/aircraft/LV-IQU",
+   "estado": "error",
+   "detalle": "HTTP Error 429: Too Many Requests"
   },
-  "https://www.diarioellibertador.com.ar/corrientes-suma-drones-de-ultima-generacion-al-sistema-de-seguridad/": {
-   "url": "https://www.diarioellibertador.com.ar/corrientes-suma-drones-de-ultima-generacion-al-sistema-de-seguridad/",
+  "https://urgente24.com/actualidad/arde-corrientes-que-tiene-un-cessna-550-citation-ii-pero-no-aviones-hidrantes-n595602": {
+   "url": "https://urgente24.com/actualidad/arde-corrientes-que-tiene-un-cessna-550-citation-ii-pero-no-aviones-hidrantes-n595602",
    "estado": 200,
-   "caracteres": 5470,
-   "archivo": "data/fuentes/web/diarioellibertador_com_ar_corrientes_suma_drones_de_ultima_generacion_al_sistema_de_seguri.txt"
+   "caracteres": 13571,
+   "archivo": "data/fuentes/web/urgente24_com_actualidad_arde_corrientes_que_tiene_un_cessna_550_citation_ii_pero_no_avion.txt"
   },
-  "https://www.lanacion.com.ar/economia/campo/en-corrientes-la-policia-usara-drones-para-el-patrullaje-de-los-campos-nid27102021/": {
-   "url": "https://www.lanacion.com.ar/economia/campo/en-corrientes-la-policia-usara-drones-para-el-patrullaje-de-los-campos-nid27102021/",
-   "estado": 200,
-   "caracteres": 7705,
-   "archivo": "data/fuentes/web/lanacion_com_ar_economia_campo_en_corrientes_la_policia_usara_drones_para_el_patrullaje_de.txt"
+  "https://boletinoficial.corrientes.gob.ar/assets/articulo_adjuntos/7758/original/10-05-2023.pdf?1683814769=": {
+   "url": "https://boletinoficial.corrientes.gob.ar/assets/articulo_adjuntos/7758/original/10-05-2023.pdf?1683814769=",
+   "estado": "error",
+   "detalle": "HTTP Error 429: Too Many Requests"
   },
-  "https://www.novacorrientes.com/nota.asp?t=El-Sistema-Integral-de-Seguridad-suma-drones-de-ultima-generacion&id=37344&id_tiponota=11": {
-   "url": "https://www.novacorrientes.com/nota.asp?t=El-Sistema-Integral-de-Seguridad-suma-drones-de-ultima-generacion&id=37344&id_tiponota=11",
-   "estado": 200,
-   "caracteres": 5040,
-   "archivo": "data/fuentes/web/novacorrientes_com_nota_asp_t_El_Sistema_Integral_de_Seguridad_suma_drones_de_ultima_gener.txt"
+  "https://boletinoficial.corrientes.gob.ar/assets/articulo_adjuntos/5832/original/26-01-2021.pdf?1611749492=": {
+   "url": "https://boletinoficial.corrientes.gob.ar/assets/articulo_adjuntos/5832/original/26-01-2021.pdf?1611749492=",
+   "estado": "error",
+   "detalle": "HTTP Error 429: Too Many Requests"
   },
-  "https://elquiddelacuestion.com.ar/la-provincia-recibio-drones-para-patrullaje-preventivo/": {
-   "url": "https://elquiddelacuestion.com.ar/la-provincia-recibio-drones-para-patrullaje-preventivo/",
-   "estado": 200,
-   "caracteres": 2733,
-   "archivo": "data/fuentes/web/elquiddelacuestion_com_ar_la_provincia_recibio_drones_para_patrullaje_preventivo.txt"
+  "https://boletinoficial.corrientes.gob.ar/assets/articulo_adjuntos/3936/original/31-08-2018.pdf?1535985307=": {
+   "url": "https://boletinoficial.corrientes.gob.ar/assets/articulo_adjuntos/3936/original/31-08-2018.pdf?1535985307=",
+   "estado": "error",
+   "detalle": "HTTP Error 429: Too Many Requests"
   },
-  "http://diariolarepublica.com.ar/notix/noticia/00381/los-aviones-sanitarios-estn-a-disposicin-de-todos-los-correntinos-sin-excepcin.html": {
-   "url": "http://diariolarepublica.com.ar/notix/noticia/00381/los-aviones-sanitarios-estn-a-disposicin-de-todos-los-correntinos-sin-excepcin.html",
-   "estado": 200,
-   "caracteres": 7657,
-   "archivo": "data/fuentes/web/diariolarepublica_com_ar_notix_noticia_00381_los_aviones_sanitarios_estn_a_disposicin_de_t.txt"
+  "https://www.nortecorrientes.com/192480-la-policia-desplego-costosos-drones-en-la-busqueda-de-menor-desaparecido": {
+   "url": "https://www.nortecorrientes.com/192480-la-policia-desplego-costosos-drones-en-la-busqueda-de-menor-desaparecido",
+   "estado": "error",
+   "detalle": "HTTP Error 404: NOT FOUND"
   },
-  "https://www.flightradar24.com/data/aircraft/lv-iqu": {
-   "url": "https://www.flightradar24.com/data/aircraft/lv-iqu",
+  "https://aeropuertoformosa.blogspot.com/2018/12/visita-al-aeropuerto-de-corrientes.html": {
+   "url": "https://aeropuertoformosa.blogspot.com/2018/12/visita-al-aeropuerto-de-corrientes.html",
    "estado": 200,
-   "caracteres": 2310,
-   "archivo": "data/fuentes/web/flightradar24_com_data_aircraft_lv_iqu.txt"
+   "caracteres": 10507,
+   "archivo": "data/fuentes/web/aeropuertoformosa_blogspot_com_2018_12_visita_al_aeropuerto_de_corrientes_html.txt"
   }
  },
  "portales": {

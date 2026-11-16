@@ -124,6 +124,36 @@
    "url": "https://www.nortecorrientes.com/136756-en-pleno-ajuste-valdes-desembolsa-8-millones-de-dolares-por-un-avion-usado",
    "desde": "16/11/2026, 19:31 h",
    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "url": "https://www.jetphotos.com/registration/LV-IQU",
+   "desde": "16/11/2026, 19:43 h",
+   "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "url": "https://www.spottinglog.com/aircraft/LV-IQU",
+   "desde": "16/11/2026, 19:43 h",
+   "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "url": "https://boletinoficial.corrientes.gob.ar/assets/articulo_adjuntos/7758/original/10-05-2023.pdf?1683814769=",
+   "desde": "16/11/2026, 19:43 h",
+   "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "url": "https://boletinoficial.corrientes.gob.ar/assets/articulo_adjuntos/5832/original/26-01-2021.pdf?1611749492=",
+   "desde": "16/11/2026, 19:43 h",
+   "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "url": "https://boletinoficial.corrientes.gob.ar/assets/articulo_adjuntos/3936/original/31-08-2018.pdf?1535985307=",
+   "desde": "16/11/2026, 19:43 h",
+   "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "url": "https://www.nortecorrientes.com/192480-la-policia-desplego-costosos-drones-en-la-busqueda-de-menor-desaparecido",
+   "desde": "16/11/2026, 19:43 h",
+   "error": "HTTP Error 404: NOT FOUND"
   }
  ]
 }
