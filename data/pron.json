@@ -1,9 +1,9 @@
 {
- "actualizado": "16/11/2026, 11:20 h",
+ "actualizado": "16/11/2026, 13:15 h",
  "metodo": "estimación derivada de modelos y del parte del SMN",
  "estado_alertas": "VERIFICADO_CON_ALERTAS",
  "estado_verificado": {
-  "fecha": "16/11/2026, 11:20 h",
+  "fecha": "16/11/2026, 13:15 h",
   "fuente": "SMN y COE de Corrientes"
  },
  "met_archivo": {
@@ -17,22 +17,22 @@
   {
    "id_oficial": null,
    "tipo": "alerta",
-   "aviso": "Alerta amarilla por tormentas del Servicio Meteorológico Nacional para la provincia de Corrientes, vigente desde las 06:00 h del lunes 16/11 hasta las 05:59 h del martes 17/11. El resumen del SMN no detalla qué departamentos alcanza.",
+   "aviso": "Alerta amarilla por tormentas del Servicio Meteorológico Nacional para la provincia de Corrientes, vigente desde las 12:00 h del lunes 16/11 hasta las 11:59 h del martes 17/11. El resumen del SMN no detalla qué departamentos alcanza.",
    "nivel": "amarillo",
    "fenomeno": "tormenta",
    "rango_mm": null,
    "zonas": [
     "Corrientes (el SMN no detalla los departamentos)"
    ],
-   "desde": "16/11/2026, 06:00 h",
-   "hasta": "17/11/2026, 05:59 h",
-   "desde_iso": "2026-11-16T06:00:00-03:00",
-   "hasta_iso": "2026-11-17T05:59:00-03:00",
-   "emision": "16/11/2026, 08:09 h",
+   "desde": "16/11/2026, 12:00 h",
+   "hasta": "17/11/2026, 11:59 h",
+   "desde_iso": "2026-11-16T12:00:00-03:00",
+   "hasta_iso": "2026-11-17T11:59:00-03:00",
+   "emision": "16/11/2026, 09:51 h",
    "incluye_corrientes": true,
    "incluye_capital": null,
    "url": "https://www.smn.gob.ar/alertas",
-   "origen": "Servicio Meteorológico Nacional, página de alertas consultada el 16/11/2026 a las 08:41 h"
+   "origen": "Servicio Meteorológico Nacional, página de alertas consultada el 16/11/2026 a las 13:00 h"
   },
   {
    "id_oficial": "2026-0074-AT",
@@ -509,8 +509,8 @@
   ]
  },
  "horario_act": "16/11/2026, 09:04 h",
- "consultado": "16/11/2026, 11:20 h",
- "consulta_resultado": "sin cambios",
+ "consultado": "16/11/2026, 13:15 h",
+ "consulta_resultado": "datos nuevos",
  "extendido": {
   "actualizado": "16/11/2026, 13:13 h",
   "aviso": "Pronóstico extendido informativo. No se usa en los cálculos del simulador.",
