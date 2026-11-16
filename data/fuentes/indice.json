@@ -1,6 +1,6 @@
 {
- "consultado": "16/11/2026, 01:10 h",
- "consultado_iso": "2026-11-16T01:10-03:00",
+ "consultado": "16/11/2026, 03:10 h",
+ "consultado_iso": "2026-11-16T03:10-03:00",
  "paginas": {
   "smn_alertas": {
    "url": "https://www.smn.gob.ar/alertas",
@@ -39,7 +39,7 @@
   "rioparana_alturas": {
    "url": "https://www.rioparana.com.ar",
    "estado": 200,
-   "caracteres": 11254,
+   "caracteres": 11260,
    "archivo": "data/fuentes/rioparana_alturas.txt"
   },
   "prefectura_alturas": {
@@ -50,7 +50,7 @@
   "lanacion_clima_corrientes": {
    "url": "https://www.lanacion.com.ar/clima/corrientes/",
    "estado": 200,
-   "caracteres": 8278,
+   "caracteres": 8188,
    "archivo": "data/fuentes/lanacion_clima_corrientes.txt"
   },
   "noaa_enso": {
