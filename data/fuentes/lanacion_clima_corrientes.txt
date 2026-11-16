@@ -1,5 +1,5 @@
 Fuente: https://www.lanacion.com.ar/clima/corrientes/
-Consultado: 16/11/2026, 18:42 h
+Consultado: 16/11/2026, 18:56 h
 
 Clima en Corrientes y pronóstico del tiempo en LA NACION
 CERRAR
@@ -78,14 +78,8 @@ Kiosco LA NACION
 > LA NACION > Clima > Corrientes
 Clima de hoy en Corrientes
 Pronóstico del tiempo extendido para Corrientes
-Actualizado a las 16:45 hs.
+Actualizado a las 18:55 hs.
 Pronóstico del tiempo en Corrientes hoy
-Tarde
-Mayormente nublado
-34 ºc
-97%
-E 12Km/h
-0%
 Noche
 Mayormente nublado
 29 ºc
@@ -100,28 +94,34 @@ Tormentas fuertes
 E 12Km/h
 100%
 Tarde
-Chaparrones
+Tormentas
 31 ºc
 51%
 SE 22Km/h
-40%
+70%
 Noche
-Chaparrones
+Tormentas aisladas
 26 ºc
 77%
 E 12Km/h
 40%
 Pronóstico del tiempo en Corrientes el miércoles
 Mañana
-Mayormente nublado
-21 ºc
+Tormentas
+24 ºc
 87%
 SE 12Km/h
-10%
+40%
 Tarde
-Tormentas aisladas
+Tormentas fuertes
 31 ºc
 47%
+SE 22Km/h
+40%
+Noche
+Tormentas aisladas
+26 ºc
+85%
 SE 22Km/h
 40%
 Pronóstico del tiempo en Corrientes el jueves
@@ -148,7 +148,7 @@ Tarde
 Tormentas aisladas
 31 ºc
 82%
-S 22Km/h
+SE 22Km/h
 40%
 Pronóstico del tiempo en Corrientes el sábado
 Mañana
@@ -161,21 +161,34 @@ Tarde
 Mayormente nublado
 32 ºc
 47%
-NE 22Km/h
+E 12Km/h
 0%
 Pronóstico del tiempo en Corrientes el domingo
 Mañana
-Algo nublado
+Mayormente nublado
 21 ºc
--
-NE 22Km/h
-0%
+66%
+NE 12Km/h
+10%
 Tarde
 Parcialmente nublado
 31 ºc
--
+73%
 SE 22Km/h
 0%
+Pronóstico del tiempo en Corrientes el lunes
+Mañana
+Mayormente nublado
+17 ºc
+-
+SE 22Km/h
+10%
+Tarde
+Mayormente nublado
+28 ºc
+39%
+SE 22Km/h
+10%
 Referencias del clima
 Despejado (día)
 Despejado (noche)
@@ -306,8 +319,8 @@ Pronóstico del tiempo
 2 de noviembre de 2026
 VER MÁS NOTAS DE CORRIENTES
 Más leídas
-1 Cruzan calles, trepan árboles y llegan hasta las ventanas: las visitas que intrigan a City Bell
-2 Suspendieron por 30 días un operativo en una estancia de Lázaro Báez porque las ovejas están en período de parición
+1 Suspendieron por 30 días un operativo en una estancia de Lázaro Báez porque las ovejas están en período de parición
+2 Cruzan calles, trepan árboles y llegan hasta las ventanas: las visitas que intrigan a City Bell
 3 El Banco Central identificó otros US$15 millones en la ruta que investiga el dólar blue
 4 Así es la cárcel “El infierno”, que alojará a los narcos y sicarios más peligrosos del país
 Secciones

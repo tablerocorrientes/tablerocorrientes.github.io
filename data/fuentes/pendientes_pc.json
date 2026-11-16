@@ -104,6 +104,11 @@
    "url": "https://www.republicadecorrientes.com/73927-tassano-estamos-trabajando-en-la-modernizacion-de-diputados",
    "desde": "16/11/2026, 18:42 h",
    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "url": "https://www.corrienteshoy.com/info-general/corrientes-se-viene-la-actualizacion-de-tasas-municipales-y-codigo-fiscal-para-2027.htm",
+   "desde": "16/11/2026, 18:56 h",
+   "error": "HTTP Error 429: Too Many Requests"
   }
  ]
 }
