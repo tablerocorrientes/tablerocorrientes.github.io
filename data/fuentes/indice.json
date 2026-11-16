@@ -1,6 +1,6 @@
 {
- "consultado": "16/11/2026, 18:26 h",
- "consultado_iso": "2026-11-16T18:26-03:00",
+ "consultado": "16/11/2026, 18:39 h",
+ "consultado_iso": "2026-11-16T18:39-03:00",
  "paginas": {
   "smn_alertas": {
    "url": "https://www.smn.gob.ar/alertas",
@@ -34,13 +34,13 @@
   "ina_reporte_diario": {
    "url": "https://alerta.ina.gob.ar/a5/diario/reporte_diario",
    "estado": 200,
-   "caracteres": 15763,
+   "caracteres": 16089,
    "archivo": "data/fuentes/ina_reporte_diario.txt"
   },
   "rioparana_alturas": {
    "url": "https://www.rioparana.com.ar",
    "estado": 200,
-   "caracteres": 11348,
+   "caracteres": 11360,
    "archivo": "data/fuentes/rioparana_alturas.txt"
   },
   "prefectura_alturas": {
@@ -51,7 +51,7 @@
   "lanacion_clima_corrientes": {
    "url": "https://www.lanacion.com.ar/clima/corrientes/",
    "estado": 200,
-   "caracteres": 8108,
+   "caracteres": 8123,
    "archivo": "data/fuentes/lanacion_clima_corrientes.txt"
   },
   "noaa_enso": {
@@ -134,6 +134,118 @@
    "estado": 200,
    "caracteres": 1993,
    "archivo": "data/fuentes/coe_a_2026_0071_AT.txt"
+  }
+ },
+ "pedidas": {
+  "https://www.senadoctes.gov.ar/ordenes/2026/12-11-2026.pdf": {
+   "url": "https://www.senadoctes.gov.ar/ordenes/2026/12-11-2026.pdf",
+   "estado": 200,
+   "caracteres": 4287,
+   "archivo": "data/fuentes/web/senadoctes_gov_ar_ordenes_2026_12_11_2026_pdf.txt"
+  },
+  "https://www.senadoctes.gov.ar/informesordenes/2026/12-11-2026.pdf": {
+   "url": "https://www.senadoctes.gov.ar/informesordenes/2026/12-11-2026.pdf",
+   "estado": 200,
+   "caracteres": 6952,
+   "archivo": "data/fuentes/web/senadoctes_gov_ar_informesordenes_2026_12_11_2026_pdf.txt"
+  },
+  "https://www.senadoctes.gov.ar/taquigraficas/2026/12-11-2026.pdf": {
+   "url": "https://www.senadoctes.gov.ar/taquigraficas/2026/12-11-2026.pdf",
+   "estado": "error",
+   "detalle": "HTTP Error 429: Too Many Requests"
+  },
+  "https://www.senadoctes.gov.ar/ordenes/2026/11-11-2026.pdf": {
+   "url": "https://www.senadoctes.gov.ar/ordenes/2026/11-11-2026.pdf",
+   "estado": "error",
+   "detalle": "HTTP Error 429: Too Many Requests"
+  },
+  "https://www.senadoctes.gov.ar/ordenes/2026/13-11-2026.pdf": {
+   "url": "https://www.senadoctes.gov.ar/ordenes/2026/13-11-2026.pdf",
+   "estado": "error",
+   "detalle": "HTTP Error 429: Too Many Requests"
+  },
+  "https://www.senadoctes.gov.ar/ordenes/2026/05-11-2026.pdf": {
+   "url": "https://www.senadoctes.gov.ar/ordenes/2026/05-11-2026.pdf",
+   "estado": "error",
+   "detalle": "HTTP Error 429: Too Many Requests"
+  },
+  "https://www.senadoctes.gov.ar/informesordenes/2026/05-11-2026.pdf": {
+   "url": "https://www.senadoctes.gov.ar/informesordenes/2026/05-11-2026.pdf",
+   "estado": "error",
+   "detalle": "HTTP Error 429: Too Many Requests"
+  },
+  "https://hcdcorrientes.gov.ar/sesiones/informe-del-orden-del-dia/": {
+   "url": "https://hcdcorrientes.gov.ar/sesiones/informe-del-orden-del-dia/",
+   "estado": 200,
+   "caracteres": 11099,
+   "archivo": "data/fuentes/web/hcdcorrientes_gov_ar_sesiones_informe_del_orden_del_dia.txt"
+  },
+  "https://hcdcorrientes.gov.ar/sesion-18-media-sancion-para-el-plan-de-prevencion-de-la-ludopatia-online/": {
+   "url": "https://hcdcorrientes.gov.ar/sesion-18-media-sancion-para-el-plan-de-prevencion-de-la-ludopatia-online/",
+   "estado": 200,
+   "caracteres": 7948,
+   "archivo": "data/fuentes/web/hcdcorrientes_gov_ar_sesion_18_media_sancion_para_el_plan_de_prevencion_de_la_ludopatia_on.txt"
+  },
+  "https://www.radiodos.com.ar/217161-semana-crucial-en-el-senado-buscan-dar-media-sancion-a-la-ley-de-presupuesto-provincial": {
+   "url": "https://www.radiodos.com.ar/217161-semana-crucial-en-el-senado-buscan-dar-media-sancion-a-la-ley-de-presupuesto-provincial",
+   "estado": "error",
+   "detalle": "HTTP Error 404: NOT FOUND"
+  },
+  "https://www.radiodos.com.ar/217167-jp-valdes-hicimos-un-gran-esfuerzo-para-otorgar-un-10-de-aumento-%C2%A0": {
+   "url": "https://www.radiodos.com.ar/217167-jp-valdes-hicimos-un-gran-esfuerzo-para-otorgar-un-10-de-aumento-%C2%A0",
+   "estado": "error",
+   "detalle": "HTTP Error 429: Too Many Requests"
+  },
+  "https://www.radiodos.com.ar/217183-la-profesora-eliana-samaniego-confirmada-nueva-titular-del-consejo-de-educacion-de-corrientes": {
+   "url": "https://www.radiodos.com.ar/217183-la-profesora-eliana-samaniego-confirmada-nueva-titular-del-consejo-de-educacion-de-corrientes",
+   "estado": "error",
+   "detalle": "HTTP Error 429: Too Many Requests"
+  },
+  "https://www.nortecorrientes.com/207121-la-inflacion-de-octubre-fue-de-22-y-acumulo-331-en-doce-meses": {
+   "url": "https://www.nortecorrientes.com/207121-la-inflacion-de-octubre-fue-de-22-y-acumulo-331-en-doce-meses",
+   "estado": "error",
+   "detalle": "HTTP Error 429: Too Many Requests"
+  },
+  "https://www.nortecorrientes.com/207137-una-familia-necesita-1690000-para-no-ser-pobre": {
+   "url": "https://www.nortecorrientes.com/207137-una-familia-necesita-1690000-para-no-ser-pobre",
+   "estado": "error",
+   "detalle": "HTTP Error 404: NOT FOUND"
+  },
+  "https://www.nortecorrientes.com/207183-encuesta-electoral-empate-en-primera-vuelta-y-una-diferencia-llamativa-en-el-balotaje": {
+   "url": "https://www.nortecorrientes.com/207183-encuesta-electoral-empate-en-primera-vuelta-y-una-diferencia-llamativa-en-el-balotaje",
+   "estado": "error",
+   "detalle": "HTTP Error 429: Too Many Requests"
+  },
+  "https://www.nortecorrientes.com/207049-la-trastienda-busca-un-acuerdo-por-el-futuro-de-la-sala-teatral": {
+   "url": "https://www.nortecorrientes.com/207049-la-trastienda-busca-un-acuerdo-por-el-futuro-de-la-sala-teatral",
+   "estado": "error",
+   "detalle": "HTTP Error 429: Too Many Requests"
+  },
+  "https://www.nortecorrientes.com/207180-curuzu-cuatia-celebro-sus-216-anos-con-un-multitudinario-acto-encabezado": {
+   "url": "https://www.nortecorrientes.com/207180-curuzu-cuatia-celebro-sus-216-anos-con-un-multitudinario-acto-encabezado",
+   "estado": "error",
+   "detalle": "HTTP Error 429: Too Many Requests"
+  },
+  "https://munired.mcypcorrientes.gob.ar/noticia/provincia-paga-plus-de-refuerzo-de-noviembre": {
+   "url": "https://munired.mcypcorrientes.gob.ar/noticia/provincia-paga-plus-de-refuerzo-de-noviembre",
+   "estado": 200,
+   "caracteres": 1152,
+   "archivo": "data/fuentes/web/munired_mcypcorrientes_gob_ar_noticia_provincia_paga_plus_de_refuerzo_de_noviembre.txt"
+  },
+  "https://www.diarioepoca.com/1391246-valdes-destaco-la-industrializacion-y-anuncio-obras-en-riachuelo": {
+   "url": "https://www.diarioepoca.com/1391246-valdes-destaco-la-industrializacion-y-anuncio-obras-en-riachuelo",
+   "estado": "error",
+   "detalle": "HTTP Error 404: NOT FOUND"
+  },
+  "https://ciudaddecorrientes.gov.ar/noticias": {
+   "url": "https://ciudaddecorrientes.gov.ar/noticias",
+   "estado": "error",
+   "detalle": "HTTP Error 429: Too Many Requests"
+  },
+  "https://www.corrientes.gob.ar/prensa": {
+   "url": "https://www.corrientes.gob.ar/prensa",
+   "estado": "error",
+   "detalle": "HTTP Error 429: Too Many Requests"
   }
  },
  "portales": {
