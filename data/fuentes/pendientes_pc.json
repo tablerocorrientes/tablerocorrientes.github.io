@@ -1,24 +1,3 @@
 {
- "pendientes": [
-  {
-   "url": "https://news.agrofy.com.ar/altura-de-los-rios/paso-de-los-libres",
-   "desde": "16/11/2026, 08:59 h",
-   "error": "HTTP Error 429: Too Many Requests"
-  },
-  {
-   "url": "https://www.diarionorte.com/336617-el-parana-bajo-otros-cinco-centimetros-pero-aun-hay-2236-desplazados",
-   "desde": "16/11/2026, 08:59 h",
-   "error": "HTTP Error 429: Too Many Requests"
-  },
-  {
-   "url": "https://www.diarionorte.com/336563-el-parana-bajo-otros-10-centimetros-y-se-acerca-al-nivel-de-evacuacion",
-   "desde": "16/11/2026, 08:59 h",
-   "error": "HTTP Error 429: Too Many Requests"
-  },
-  {
-   "url": "https://www.radiodos.com.ar/216309-tras-leve-descenso-del-rio-parana-piden-a-los-evacuados-de-isla-apipe-que-no-regresen-a-sus-casas",
-   "desde": "16/11/2026, 08:59 h",
-   "error": "HTTP Error 429: Too Many Requests"
-  }
- ]
+ "pendientes": []
 }

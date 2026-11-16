@@ -1,25 +1,28 @@
 Fuente: https://news.agrofy.com.ar/altura-de-los-rios/paso-de-los-libres
-Consultado: 15/11/2026, 10:40 h
+Consultado: 16/11/2026, 12:45 h
 Leído desde la computadora del autor
 
 Altura del río Uruguay en Paso de los Libres hoy | Agrofy News
 
-La altura del río Uruguay en Paso de los Libres hoy es de 7,99 m (lectura del 13/11/2026), 13 cm más que el día anterior. El nivel de alerta es de 7,50 m, el de evacuación de 8,50 m y el de aguas bajas de 0,90 m.
-Actualizado el 13/11/2026. Los datos se actualizan una vez por día, alrededor de las 13 h.
-ALTURA ACTUAL: 7,99 m (13/11/2026)
-VARIACIÓN DIARIA: +0,13 m - Crece - anterior 7,86 m (12/11/2026)
-ESTADO: Alerta (Alerta: 7,50 m - Evacuación: 8,50 m - Aguas bajas: 0,90 m)
+Nivel del río Uruguay en el puerto de Paso de los Libres: última lectura, evolución histórica.
 
-Últimos 7 días (Fecha / Altura / Variación):
-13/11/2026  7,99 m  +0,13 m
-12/11/2026  7,86 m  +0,17 m
-11/11/2026  7,69 m  +0,19 m
-10/11/2026  7,50 m  +0,67 m
-09/11/2026  6,83 m  +0,70 m
-08/11/2026  6,13 m  +0,66 m
-07/11/2026  5,47 m  +0,35 m
+La altura del río Uruguay en Paso de los Libres hoy es de 6,99 m (lectura del 16/11/2026), 20 cm menos que el día anterior. El nivel de alerta es de 7,50 m, el de evacuación de 8,50 m y el de aguas bajas de 0,90 m.
+
+Actualizado el 16/11/2026.
+ALTURA ACTUAL: 6,99 m (16/11/2026)
+VARIACIÓN DIARIA: -0,20 m. Baja · anterior 7,19 m (15/11/2026)
+ESTADO: Normal
+Alerta: 7,50 m · Evacuación: 8,50 m · Aguas bajas: 0,90 m
+
+Últimos 7 días
+16/11/2026	6,99 m	-0,20 m
+15/11/2026	7,19 m	-0,49 m
+14/11/2026	7,68 m	-0,31 m
+13/11/2026	7,99 m	+0,13 m
+12/11/2026	7,86 m	+0,17 m
+11/11/2026	7,69 m	+0,19 m
+10/11/2026	7,50 m	+0,67 m
 
 Fuente: INA / Prefectura Naval Argentina
 
-Otros puertos del río Uruguay (última lectura mostrada en la página):
-Pepirí Miní 6,40 m; El Soberbio 4,80 m; Alba Posse 5,25 m; Panambí 4,15 m; San Javier 4,00 m; Puerto Concepción 9,15 m; Garruchos 6,71 m; Santo Tomé 8,90 m; Alvear 9,08 m; La Cruz 8,97 m; Yapeyú 8,40 m; Bompland 5,65 m; Monte Caseros 5,78 m; Mocoretá 8,78 m; Federación Embalse 34,66 m; Salto Grande Abajo 11,70 m; Salto Grande Arriba 34,56 m; Concordia 8,64 m; Colón 5,00 m; Concepción del Uruguay 3,90 m; Campichuelo 3,20 m; Gualeguaychú 2,14 m; Boca Gualeguaychú 2,00 m.
+Otros puertos del río Uruguay: Pepirí Miní 2,10 m; El Soberbio 2,50 m; Alba Posse 4,75 m; Panambí 4,40 m; San Javier 4,00 m; Puerto Concepción 4,46 m; Garruchos 6,13 m; Santo Tomé 7,28 m; Alvear 7,60 m; La Cruz 7,50 m; Yapeyú 7,20 m; Bompland 5,65 m; Monte Caseros 5,56 m; Mocoretá 9,20 m; Federación Embalse 35,15 m; Salto Grande Abajo 11,72 m; Salto Grande Arriba 35,04 m; Concordia 8,66 m; Colón 5,10 m; Concepción del Uruguay 4,00 m; Campichuelo 3,28 m; Gualeguaychú 2,22 m; Boca Gualeguaychú 2,12 m
