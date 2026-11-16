@@ -1,6 +1,6 @@
 {
- "consultado": "16/11/2026, 13:00 h",
- "consultado_iso": "2026-11-16T13:00:00-03:00",
+ "consultado": "16/11/2026, 16:40 h",
+ "consultado_iso": "2026-11-16T16:40:00-03:00",
  "fuente": "Servicio Meteorológico Nacional (www.smn.gob.ar/alertas), leído desde una conexión de Corrientes",
  "resultado": "con alertas",
  "alertas": [
@@ -8,12 +8,12 @@
    "tipo": "alerta",
    "nivel": "amarillo",
    "fenomeno": "tormenta",
-   "zonas": "Corrientes (el resumen por provincia no detalla departamentos)",
+   "zonas": "Provincia de Corrientes (el resumen por provincia del SMN no detalla departamentos)",
    "desde": "16/11/2026, 12:00 h",
    "hasta": "17/11/2026, 11:59 h",
    "emision": "16/11/2026, 09:51 h",
-   "texto": "Alerta amarillo por tormenta para la provincia de Corrientes (Resumen por provincia del SMN)."
+   "texto": "Resumen por provincia: Corrientes con \"Alerta amarillo por tormenta\" en la información vigente desde las 12:00 h del lunes 16 hasta las 11:59 h del martes 17 de noviembre de 2026. Sin otros fenómenos (lluvia, viento, niebla, etc.) para Corrientes."
   }
  ],
- "texto_pagina": "RESUMEN POR PROVINCIA (www.smn.gob.ar/resumen_por_provincia): Información vigente desde las 12:00h de hoy lunes 16 hasta las 11:59 horas de mañana martes 17 de noviembre de 2.026. Corrientes: Tormenta = Alerta amarillo por tormenta; ACP, Lluvia, Nevada, Viento, Viento zonda, Niebla, Polvo, Humo, Ceniza = sin alerta (-). ALERTAS (www.smn.gob.ar/alertas): Fecha de emisión: 16/11/2026 09:51h (mapa por zonas; el texto de la página no detalla departamentos de Corrientes). AVISOS A MUY CORTO PLAZO (www.smn.gob.ar/avisos_a_muy_corto_plazo): sin avisos para Corrientes. Vigente: TORMENTAS FUERTES CON LLUVIAS INTENSAS Y OCASIONAL CAIDA DE GRANIZO en CORDOBA: Gral Roca - Rio Cuarto; MENDOZA: Gral Alvear - La Paz - San Rafael; SAN LUIS: Gdor Dupuy - Gral Pedernera - Juan M. de Pueyrredon; LA PAMPA: Parera - Realico (emisión 16/11/2026 11:23h, validez 2 horas)."
+ "texto_pagina": "Alertas (www.smn.gob.ar/alertas): Fecha de emisión: 16/11/2026 09:51h. Mapa por días (lunes 16, martes 17, miércoles 18); el texto de la página no lista departamentos.\nResumen por provincia (www.smn.gob.ar/resumen_por_provincia): Información vigente desde las 12:00h de hoy lunes 16 hasta las 11:59 horas de mañana martes 17 de noviembre de 2.026. Corrientes: ACP -; Tormenta: Alerta amarillo por tormenta; Lluvia -; Nevada -; Viento -; Viento zonda -; Niebla -; Polvo -; Humo -; Ceniza -.\nAvisos a muy corto plazo (www.smn.gob.ar/avisos_a_muy_corto_plazo): avisos vigentes para Córdoba, San Luis y La Rioja (emitidos 15:01 h a 16:03 h); ninguno alcanza a la provincia de Corrientes."
 }
