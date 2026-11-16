@@ -1,5 +1,5 @@
 {
- "actualizado": "16/11/2026, 17:09 h",
+ "actualizado": "16/11/2026, 17:41 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
@@ -128,12 +128,12 @@
     null,
     null,
     null,
-    null,
+    0,
     null,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 12 h"
+   "ultimo": "0 mm a las 16 h"
   },
   {
    "localidad": "Colonia Carlos Pellegrini",
@@ -162,12 +162,12 @@
     null,
     null,
     null,
-    null,
+    0,
     null,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 12 h"
+   "ultimo": "0 mm a las 16 h"
   },
   {
    "localidad": "San Carlos",
@@ -197,11 +197,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 16 h"
+   "ultimo": "0 mm a las 17 h"
   },
   {
    "localidad": "Santa Lucía",
@@ -231,11 +231,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 16 h"
+   "ultimo": "0 mm a las 17 h"
   },
   {
    "localidad": "La Palmira",
@@ -872,7 +872,7 @@
     null,
     null,
     null,
-    null,
+    0,
     null,
     null,
     null,
@@ -881,7 +881,7 @@
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 08 h"
+   "ultimo": "0 mm a las 12 h"
   },
   {
    "localidad": "Paso de los Libres",
@@ -1080,12 +1080,12 @@
     null,
     null,
     null,
-    null,
+    0,
     null,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 12 h"
+   "ultimo": "0 mm a las 16 h"
   },
   {
    "localidad": "Caá Catí",
@@ -1149,11 +1149,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 16 h"
+   "ultimo": "0 mm a las 17 h"
   },
   {
    "localidad": "Itá Ibaté",
@@ -1454,12 +1454,12 @@
     null,
     null,
     null,
-    null,
+    0,
     null,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 12 h"
+   "ultimo": "0 mm a las 16 h"
   },
   {
    "localidad": "Santa Rosa",
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "16/11/2026, 17:09 h",
+ "consultado": "16/11/2026, 17:41 h",
  "consulta_resultado": "datos nuevos"
 }
