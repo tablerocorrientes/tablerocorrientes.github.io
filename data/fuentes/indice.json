@@ -1,6 +1,6 @@
 {
- "consultado": "15/11/2026, 19:52 h",
- "consultado_iso": "2026-11-15T19:52-03:00",
+ "consultado": "15/11/2026, 21:09 h",
+ "consultado_iso": "2026-11-15T21:09-03:00",
  "paginas": {
   "smn_alertas": {
    "url": "https://www.smn.gob.ar/alertas",
@@ -39,7 +39,7 @@
   "rioparana_alturas": {
    "url": "https://www.rioparana.com.ar",
    "estado": 200,
-   "caracteres": 11270,
+   "caracteres": 11269,
    "archivo": "data/fuentes/rioparana_alturas.txt"
   },
   "prefectura_alturas": {
@@ -127,48 +127,6 @@
    "estado": 200,
    "caracteres": 2167,
    "archivo": "data/fuentes/coe_a_2026_0070_AT.txt"
-  }
- },
- "pedidas": {
-  "https://www.ellitoral.com.ar/cultura/2026-11-15-0-9-0-corrientes-presento-oficialmente-el-carnaval-correntino-2027": {
-   "url": "https://www.ellitoral.com.ar/cultura/2026-11-15-0-9-0-corrientes-presento-oficialmente-el-carnaval-correntino-2027",
-   "estado": 200,
-   "caracteres": 4894,
-   "archivo": "data/fuentes/web/ellitoral_com_ar_cultura_2026_11_15_0_9_0_corrientes_presento_oficialmente_el_carnaval_cor.txt"
-  },
-  "https://examedia.com.ar/portada/post/88237418": {
-   "url": "https://examedia.com.ar/portada/post/88237418",
-   "estado": 200,
-   "caracteres": 5385,
-   "archivo": "data/fuentes/web/examedia_com_ar_portada_post_88237418.txt"
-  },
-  "https://elmonterizo.com/corrientes-ya-tiene-fechas-para-el-carnaval-2027-que-dijo-braillard-poccard-sobre-el-nino": {
-   "url": "https://elmonterizo.com/corrientes-ya-tiene-fechas-para-el-carnaval-2027-que-dijo-braillard-poccard-sobre-el-nino",
-   "estado": 200,
-   "caracteres": 5206,
-   "archivo": "data/fuentes/web/elmonterizo_com_corrientes_ya_tiene_fechas_para_el_carnaval_2027_que_dijo_braillard_poccar.txt"
-  },
-  "https://www.ellitoral.com.ar/cultura/2026-9-11-18-55-0-carnavales-correntinos-2027-confirmaron-las-fechas-y-construiran-un-multiespacio-en-el-nolo-alias": {
-   "url": "https://www.ellitoral.com.ar/cultura/2026-9-11-18-55-0-carnavales-correntinos-2027-confirmaron-las-fechas-y-construiran-un-multiespacio-en-el-nolo-alias",
-   "estado": 200,
-   "caracteres": 3005,
-   "archivo": "data/fuentes/web/ellitoral_com_ar_cultura_2026_9_11_18_55_0_carnavales_correntinos_2027_confirmaron_las_fec.txt"
-  },
-  "http://www.noticiasdelparana.com.ar/NuevaEdicion/2026/11/15/corrientes-presentaron-el-carnaval-2027-confirmaron-fechas-precios-y-beneficios-para-la-proxima-edicion/": {
-   "url": "http://www.noticiasdelparana.com.ar/NuevaEdicion/2026/11/15/corrientes-presentaron-el-carnaval-2027-confirmaron-fechas-precios-y-beneficios-para-la-proxima-edicion/",
-   "estado": 200,
-   "caracteres": 3538,
-   "archivo": "data/fuentes/web/noticiasdelparana_com_ar_NuevaEdicion_2026_11_15_corrientes_presentaron_el_carnaval_2027_c.txt"
-  },
-  "https://www.diarioepoca.com/1393782-el-intendente-polich-pidio-adherir-a-la-emergencia-hidrica": {
-   "url": "https://www.diarioepoca.com/1393782-el-intendente-polich-pidio-adherir-a-la-emergencia-hidrica",
-   "estado": "error",
-   "detalle": "HTTP Error 429: Too Many Requests"
-  },
-  "https://www.diarioepoca.com/1394817-polich-convoco-a-artistas-locales-para-imprimirle-identidad-correntina-al-escenario-urbano": {
-   "url": "https://www.diarioepoca.com/1394817-polich-convoco-a-artistas-locales-para-imprimirle-identidad-correntina-al-escenario-urbano",
-   "estado": "error",
-   "detalle": "HTTP Error 429: Too Many Requests"
   }
  },
  "portales": {
