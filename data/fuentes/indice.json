@@ -1,6 +1,6 @@
 {
- "consultado": "16/11/2026, 17:09 h",
- "consultado_iso": "2026-11-16T17:09-03:00",
+ "consultado": "16/11/2026, 17:13 h",
+ "consultado_iso": "2026-11-16T17:13-03:00",
  "paginas": {
   "smn_alertas": {
    "url": "https://www.smn.gob.ar/alertas",
@@ -136,6 +136,20 @@
    "archivo": "data/fuentes/coe_a_2026_0071_AT.txt"
   }
  },
+ "pedidas": {
+  "https://www.senadoctes.gov.ar/ordenes/2026/20-08-2026.pdf": {
+   "url": "https://www.senadoctes.gov.ar/ordenes/2026/20-08-2026.pdf",
+   "estado": 200,
+   "caracteres": 6034,
+   "archivo": "data/fuentes/web/senadoctes_gov_ar_ordenes_2026_20_08_2026_pdf.txt"
+  },
+  "https://hcdcorrientes.gov.ar/wp-content/uploads/2026/06/VERSION-DEL-3.6.2026-9a-R-9a-SO.pdf": {
+   "url": "https://hcdcorrientes.gov.ar/wp-content/uploads/2026/06/VERSION-DEL-3.6.2026-9a-R-9a-SO.pdf",
+   "estado": 200,
+   "caracteres": 122643,
+   "archivo": "data/fuentes/web/hcdcorrientes_gov_ar_wp_content_uploads_2026_06_VERSION_DEL_3_6_2026_9a_R_9a_SO_pdf.txt"
+  }
+ },
  "portales": {
   "munired_municipio_corrientes": {
    "url": "https://munired.mcypcorrientes.gob.ar/noticias/corrientes",
@@ -148,6 +162,18 @@
    "estado": 200,
    "notas": 8,
    "archivo": "data/fuentes/portales/munired_municipio_corrientes_p2.txt"
+  },
+  "diputados_corrientes": {
+   "url": "https://hcdcorrientes.gov.ar/",
+   "estado": 200,
+   "notas": 10,
+   "archivo": "data/fuentes/portales/diputados_corrientes.txt"
+  },
+  "senado_corrientes": {
+   "url": "https://www.senadoctes.gov.ar/",
+   "estado": 200,
+   "notas": 6,
+   "archivo": "data/fuentes/portales/senado_corrientes.txt"
   }
  }
 }
