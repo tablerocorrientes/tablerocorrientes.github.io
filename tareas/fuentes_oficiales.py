@@ -11,10 +11,26 @@ os.makedirs(OUT, exist_ok=True)
 AR = datetime.timezone(datetime.timedelta(hours=-3))
 ahora = datetime.datetime.now(AR)
 
+def _pdf_texto(b):
+    """Texto de un PDF (órdenes del día, versiones taquigráficas, boletines). Requiere pypdf."""
+    try:
+        import io
+        from pypdf import PdfReader
+        rd = PdfReader(io.BytesIO(b))
+        partes = []
+        for i, p in enumerate(rd.pages[:80]):
+            partes.append('[Página ' + str(i + 1) + ']\n' + (p.extract_text() or ''))
+        return '<!-- pdf -->' + '\n'.join(partes)
+    except Exception as e:
+        return '<!-- pdf -->PDF sin texto extraíble (' + str(e)[:120] + ')'
+
 def _get(url, headers, t):
     req = urllib.request.Request(url, headers=headers)
     with urllib.request.urlopen(req, timeout=t) as r:
-        return r.status, r.read().decode('utf-8', 'replace')
+        b = r.read()
+        if b[:5] == b'%PDF-':
+            return r.status, _pdf_texto(b)
+        return r.status, b.decode('utf-8', 'replace')
 
 NAV = dict(UA, **{'Referer': 'https://www.google.com/', 'Sec-Fetch-Mode': 'navigate', 'Sec-Fetch-Site': 'cross-site',
                   'Sec-Fetch-Dest': 'document', 'Upgrade-Insecure-Requests': '1', 'Cache-Control': 'no-cache'})
@@ -174,7 +190,10 @@ if pedidas:
             via = re.match(r'<!-- leído desde: (\S+) -->', h)
             if via:
                 r['leido_desde'] = via.group(1)
-            t = h[:60000] if h.lstrip()[:1] in '[{' else texto(h)
+            if h.startswith('<!-- pdf -->'):
+                t = h[len('<!-- pdf -->'):][:150000]
+            else:
+                t = h[:60000] if h.lstrip()[:1] in '[{' else texto(h)
             open(os.path.join(WEB, nombre + '.txt'), 'w', encoding='utf-8').write(
                 'Fuente: ' + u + '\nConsultado: ' + indice['consultado'] + '\n\n' + t)
             r.update(estado=st, caracteres=len(t), archivo='data/fuentes/web/' + nombre + '.txt')

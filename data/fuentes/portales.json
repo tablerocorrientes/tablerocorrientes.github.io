@@ -7,6 +7,8 @@
   {"nombre": "epoca_claudio_polich", "via": "pc", "url": "https://www.diarioepoca.com/t41116-claudio-polich", "descripcion": "Diario Época, tema Claudio Polich"},
   {"nombre": "epoca_jp_valdes", "via": "pc", "url": "https://www.diarioepoca.com/t68271-jp-valdes", "descripcion": "Diario Época, tema Juan Pablo Valdés"},
   {"nombre": "norte_corrientes", "via": "pc", "url": "https://www.nortecorrientes.com", "descripcion": "Norte Corrientes, portada"},
-  {"nombre": "radio_dos", "via": "pc", "url": "https://www.radiodos.com.ar", "descripcion": "Radio Dos, portada"}
+  {"nombre": "radio_dos", "via": "pc", "url": "https://www.radiodos.com.ar", "descripcion": "Radio Dos, portada"},
+  {"nombre": "diputados_corrientes", "via": "github", "url": "https://hcdcorrientes.gov.ar/", "descripcion": "Honorable Cámara de Diputados de Corrientes, portada de noticias (preside Eduardo Tassano)"},
+  {"nombre": "senado_corrientes", "via": "github", "url": "https://www.senadoctes.gov.ar/", "descripcion": "Honorable Cámara de Senadores de Corrientes, portada"}
  ]
 }

@@ -23,6 +23,7 @@ jobs:
         env:
           URLS: ${{ github.event.inputs.urls }}
         run: |
+          pip install -q pypdf || echo "pypdf no disponible: los PDF quedan sin texto"
           git config user.name "Tablero Ciudadano"
           git config user.email "tablerocorrientes@gmail.com"
           for i in 1 2 3; do
