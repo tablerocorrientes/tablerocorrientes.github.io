@@ -1,6 +1,6 @@
 {
- "consultado": "16/11/2026, 18:56 h",
- "consultado_iso": "2026-11-16T18:56-03:00",
+ "consultado": "16/11/2026, 19:09 h",
+ "consultado_iso": "2026-11-16T19:09-03:00",
  "paginas": {
   "smn_alertas": {
    "url": "https://www.smn.gob.ar/alertas",
@@ -34,7 +34,7 @@
   "ina_reporte_diario": {
    "url": "https://alerta.ina.gob.ar/a5/diario/reporte_diario",
    "estado": 200,
-   "caracteres": 16089,
+   "caracteres": 16123,
    "archivo": "data/fuentes/ina_reporte_diario.txt"
   },
   "rioparana_alturas": {
@@ -134,79 +134,6 @@
    "estado": 200,
    "caracteres": 1993,
    "archivo": "data/fuentes/coe_a_2026_0071_AT.txt"
-  }
- },
- "pedidas": {
-  "https://www.senadoctes.gov.ar/informesordenes/2026/15-10-2026.pdf": {
-   "url": "https://www.senadoctes.gov.ar/informesordenes/2026/15-10-2026.pdf",
-   "estado": 200,
-   "caracteres": 8756,
-   "archivo": "data/fuentes/web/senadoctes_gov_ar_informesordenes_2026_15_10_2026_pdf.txt"
-  },
-  "https://www.senadoctes.gov.ar/informesordenes/2026/01-10-2026.pdf": {
-   "url": "https://www.senadoctes.gov.ar/informesordenes/2026/01-10-2026.pdf",
-   "estado": 200,
-   "caracteres": 10321,
-   "archivo": "data/fuentes/web/senadoctes_gov_ar_informesordenes_2026_01_10_2026_pdf.txt"
-  },
-  "https://www.senadoctes.gov.ar/informesordenes/2026/17-09-2026.pdf": {
-   "url": "https://www.senadoctes.gov.ar/informesordenes/2026/17-09-2026.pdf",
-   "estado": 200,
-   "caracteres": 8659,
-   "archivo": "data/fuentes/web/senadoctes_gov_ar_informesordenes_2026_17_09_2026_pdf.txt"
-  },
-  "https://www.senadoctes.gov.ar/informesordenes/2026/03-09-2026.pdf": {
-   "url": "https://www.senadoctes.gov.ar/informesordenes/2026/03-09-2026.pdf",
-   "estado": 200,
-   "caracteres": 8267,
-   "archivo": "data/fuentes/web/senadoctes_gov_ar_informesordenes_2026_03_09_2026_pdf.txt"
-  },
-  "https://www.ellitoral.com.ar/actualidad/2026-11-12-18-23-0-el-senado-de-corrientes-dio-media-sancion-la-emergencia-climatica-e-hidrica-por-180-dias": {
-   "url": "https://www.ellitoral.com.ar/actualidad/2026-11-12-18-23-0-el-senado-de-corrientes-dio-media-sancion-la-emergencia-climatica-e-hidrica-por-180-dias",
-   "estado": 200,
-   "caracteres": 4442,
-   "archivo": "data/fuentes/web/ellitoral_com_ar_actualidad_2026_11_12_18_23_0_el_senado_de_corrientes_dio_media_sancion_l.txt"
-  },
-  "https://perfil.com/nea/el-senado-de-corrientes-dio-media-sancion-a-la-emergencia-climatica-e-hidrica-por-180-dias-aCUYl5L4WJHU": {
-   "url": "https://perfil.com/nea/el-senado-de-corrientes-dio-media-sancion-a-la-emergencia-climatica-e-hidrica-por-180-dias-aCUYl5L4WJHU",
-   "estado": 200,
-   "caracteres": 5983,
-   "archivo": "data/fuentes/web/perfil_com_nea_el_senado_de_corrientes_dio_media_sancion_a_la_emergencia_climatica_e_hidri.txt"
-  },
-  "https://examedia.com.ar/portada/post/88246424": {
-   "url": "https://examedia.com.ar/portada/post/88246424",
-   "estado": 200,
-   "caracteres": 6704,
-   "archivo": "data/fuentes/web/examedia_com_ar_portada_post_88246424.txt"
-  },
-  "https://examedia.com.ar/portada/post/88227467": {
-   "url": "https://examedia.com.ar/portada/post/88227467",
-   "estado": 200,
-   "caracteres": 4569,
-   "archivo": "data/fuentes/web/examedia_com_ar_portada_post_88227467.txt"
-  },
-  "https://www.corrienteshoy.com/info-general/corrientes-se-viene-la-actualizacion-de-tasas-municipales-y-codigo-fiscal-para-2027.htm": {
-   "url": "https://www.corrienteshoy.com/info-general/corrientes-se-viene-la-actualizacion-de-tasas-municipales-y-codigo-fiscal-para-2027.htm",
-   "estado": "error",
-   "detalle": "HTTP Error 429: Too Many Requests"
-  },
-  "https://www.diarioellibertador.com.ar/senado-aprobo-la-declaracion-de-emergencia-climatica-e-hidrica-provincial/": {
-   "url": "https://www.diarioellibertador.com.ar/senado-aprobo-la-declaracion-de-emergencia-climatica-e-hidrica-provincial/",
-   "estado": 200,
-   "caracteres": 4459,
-   "archivo": "data/fuentes/web/diarioellibertador_com_ar_senado_aprobo_la_declaracion_de_emergencia_climatica_e_hidrica_p.txt"
-  },
-  "https://elmonterizo.com/corrientes-bajo-emergencia-los-meteorologos-ya-avisaron-que-viene-y-el-senado-movio-ficha": {
-   "url": "https://elmonterizo.com/corrientes-bajo-emergencia-los-meteorologos-ya-avisaron-que-viene-y-el-senado-movio-ficha",
-   "estado": 200,
-   "caracteres": 5908,
-   "archivo": "data/fuentes/web/elmonterizo_com_corrientes_bajo_emergencia_los_meteorologos_ya_avisaron_que_viene_y_el_sen.txt"
-  },
-  "https://examedia.com.ar/portada/post/88230829": {
-   "url": "https://examedia.com.ar/portada/post/88230829",
-   "estado": 200,
-   "caracteres": 5767,
-   "archivo": "data/fuentes/web/examedia_com_ar_portada_post_88230829.txt"
   }
  },
  "portales": {
