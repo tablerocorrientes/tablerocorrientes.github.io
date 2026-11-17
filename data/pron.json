@@ -3,8 +3,8 @@
  "metodo": "estimación derivada de modelos y del parte del SMN",
  "estado_alertas": "VERIFICADO_CON_ALERTAS",
  "estado_verificado": {
-  "fecha": "17/11/2026, 03:12 h",
-  "fuente": "SMN y COE de Corrientes"
+  "fecha": "17/11/2026, 04:26 h",
+  "fuente": "COE de Corrientes"
  },
  "met_archivo": {
   "nombre": "vigilancia_meteorologica_20261113_183508.json",
@@ -529,7 +529,7 @@
   ]
  },
  "horario_act": "16/11/2026, 18:32 h",
- "consultado": "17/11/2026, 03:12 h",
+ "consultado": "17/11/2026, 04:26 h",
  "consulta_resultado": "sin cambios",
  "extendido": {
   "actualizado": "17/11/2026, 03:10 h",
