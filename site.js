@@ -215,7 +215,9 @@
   var LL=null;function medida(){if(!LL)LL=fetch('/data/lluvia.json',{cache:'no-cache'}).then(function(r){return r.ok?r.json():{};}).catch(function(){return {};});return LL;}
   window.tcInicioLluvia=function(dep,el,loc,cur){if(!el)return;var st=EST_DEP[nrm(dep)]||'CORRIENTES_AERO';Promise.all([modelo(),medida()]).then(function(R){var o=R[0],LM=R[1]||{};
     var E=(LM.estaciones||[]).filter(function(s){return loc&&String(s.localidad).indexOf(loc)===0;}),cols=LM.columnas||[],ya=null;
-    E.forEach(function(s){var v=s.valores||[];for(var k=v.length-1;k>=Math.max(0,v.length-3);k--){if(v[k]!=null&&v[k]>=0.2){if(!ya||v[k]>ya.mm)ya={mm:v[k],h:cols[k]||'',tot:v.reduce(function(a,x){return a+(x||0);},0)};break;}}});
+    /* indicador compuesto: mayor valor de cada hora entre las estaciones de la localidad (el mismo de los indicadores) */
+    var MX=[];E.forEach(function(s){(s.valores||[]).forEach(function(x,i){if(x!=null)MX[i]=Math.max(MX[i]==null?0:MX[i],+x);});});
+    var totC=MX.reduce(function(a,x){return a+(x||0);},0);for(var k=MX.length-1;k>=Math.max(0,MX.length-3);k--){if(MX[k]!=null&&MX[k]>=0.2){ya={mm:MX[k],h:cols[k]||'',tot:totC};break;}}
     var pre='';if(ya){var hy=parseInt(ya.h,10),dh=(new Date().getHours()-hy+24)%24;if(isNaN(hy)||dh>1){pre='🌧️ Llovieron <b>'+String(ya.mm).replace('.',',')+' mm en la hora de las '+String(ya.h).replace(' (en curso)','')+'</b> (estaciones del SNIH).<br>';ya=null;}}
     if(ya){el.innerHTML='🌧️ <b>'+(ya.mm<0.5?'LLOVIZNA':'LLUEVE')+' AHORA en '+loc+': '+String(ya.mm).replace('.',',')+' mm en la hora de las '+String(ya.h).replace(' (en curso)','')+'</b>, '+String(Math.round(ya.tot*10)/10).replace('.',',')+' mm en 24 h. <small>Lluvia medida por el SNIH, actualizada '+(LM.actualizado||'')+'.</small>';return;}
     if(cur){el.innerHTML=pre+'⛈️ <b>TORMENTA EN CURSO según el aviso oficial, hasta las '+cur+' h.</b> <small>La lluvia medida por las estaciones se incorpora en la próxima actualización.</small>';return;}
