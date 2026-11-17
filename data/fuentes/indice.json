@@ -1,6 +1,6 @@
 {
- "consultado": "17/11/2026, 11:16 h",
- "consultado_iso": "2026-11-17T11:16-03:00",
+ "consultado": "17/11/2026, 11:17 h",
+ "consultado_iso": "2026-11-17T11:17-03:00",
  "paginas": {
   "smn_alertas": {
    "url": "https://www.smn.gob.ar/alertas",
@@ -155,6 +155,31 @@
    "estado": 200,
    "caracteres": 2265,
    "archivo": "data/fuentes/coe_a_2026_0129_CP.txt"
+  }
+ },
+ "pedidas": {
+  "https://www.radiosudamericana.com/nota/sociedad/351176-Lluvias-en-la-Capital--no-se-registraron-anegamientos-durante-la-manana.htm": {
+   "url": "https://www.radiosudamericana.com/nota/sociedad/351176-Lluvias-en-la-Capital--no-se-registraron-anegamientos-durante-la-manana.htm",
+   "estado": 200,
+   "caracteres": 4685,
+   "archivo": "data/fuentes/web/radiosudamericana_com_nota_sociedad_351176_Lluvias_en_la_Capital_no_se_registraron_anegami.txt"
+  },
+  "https://www.diarioepoca.com/t6774-llueve-en-corrientes": {
+   "url": "https://www.diarioepoca.com/t6774-llueve-en-corrientes",
+   "estado": "error",
+   "detalle": "HTTP Error 404: NOT FOUND"
+  },
+  "https://24diez.com.ar/lluvias-en-la-ciudad-sin-anegamientos-y-con-operativo-preventivo-en-distintos-sectores/": {
+   "url": "https://24diez.com.ar/lluvias-en-la-ciudad-sin-anegamientos-y-con-operativo-preventivo-en-distintos-sectores/",
+   "estado": 200,
+   "caracteres": 5006,
+   "archivo": "data/fuentes/web/24diez_com_ar_lluvias_en_la_ciudad_sin_anegamientos_y_con_operativo_preventivo_en_distinto.txt"
+  },
+  "https://www.infobae.com/sociedad/2026/11/17/las-tormentas-afectaron-a-varias-provincias-granizo-calles-anegadas-actividad-electrica-y-rafagas-de-mas-de-100-kmh/": {
+   "url": "https://www.infobae.com/sociedad/2026/11/17/las-tormentas-afectaron-a-varias-provincias-granizo-calles-anegadas-actividad-electrica-y-rafagas-de-mas-de-100-kmh/",
+   "estado": 200,
+   "caracteres": 11095,
+   "archivo": "data/fuentes/web/infobae_com_sociedad_2026_11_17_las_tormentas_afectaron_a_varias_provincias_granizo_calles.txt"
   }
  },
  "portales": {
