@@ -7,9 +7,16 @@
   "reportes_verificados": 0,
   "comparaciones_rio": 2,
   "comparaciones_lluvia": 4,
-  "aprendizajes": 65
+  "aprendizajes": 66
  },
  "aprendizajes": [
+  {
+   "fecha": "17/11/2026",
+   "tipo": "observacion",
+   "lugar": "Corrientes Capital, Centro (Mendoza y Bolívar)",
+   "dato": "Con 11,5 mm en una hora y el Paraná en 6,36 m, un sector del Centro tuvo agua de cordón a cordón y bocas de tormenta que devolvían agua a la calle: señal de desagües colmados por el río alto. El simulador del Centro se calibró con este registro.",
+   "fuente": "Registro del autor del tablero con fotografías, 17/11/2026, 07:00 h"
+  },
   {
    "fecha": "17/11/2026",
    "tipo": "alerta",
@@ -511,5 +518,18 @@
   ],
   "simulador": []
  },
- "ajustes": []
+ "ajustes": [
+  {
+   "fecha": "17/11/2026",
+   "barrio": "Centro",
+   "tipo": "calibración por observación directa",
+   "observado": "Entre las 7 y las 9 h, agua de cordón a cordón en un sector del Centro y bocas de tormenta devolviendo agua hacia la calle en Mendoza esquina Bolívar (no en todo el Centro).",
+   "medido": "SNIH: 11,5 mm (estación Corrientes 13805) y 8,6 mm (ICAA) entre las 08 y las 09 h; Paraná en Corrientes 6,36 m.",
+   "modelo_antes": "0 cm, sin anegamiento",
+   "modelo_despues": "alrededor de 4 cm, agua en la calle",
+   "parametros": "concentración del escurrimiento en la calzada x5; capacidad efectiva de desagües al 15 % mientras llueve con el río en 6,36 m (efecto tapón), escalada desde 5,00 m; desborde de bocas de tormenta 10 % de la capacidad de diseño",
+   "fuente": "Registro y fotografías del autor del tablero, 17/11/2026, 07:00 h",
+   "estado": "aplicado en el simulador por barrio"
+  }
+ ]
 }
