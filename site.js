@@ -32,6 +32,11 @@
   '.tc-clamp{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}'+
   '.tc-more{display:inline-block;border:0;background:none;color:#1f6f8b;font:800 .8rem Archivo,system-ui,sans-serif;padding:2px 0 6px;cursor:pointer}'+
   '#tc-reset{position:fixed;right:12px;bottom:calc(14px + env(safe-area-inset-bottom,0px));z-index:60;border:0;border-radius:999px;padding:11px 16px;background:#0c3f52;color:#fff;font:800 .88rem Archivo,system-ui,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.3);cursor:pointer}#tc-reset[hidden]{display:none}'+
+  '.ag{border-radius:18px;padding:14px 16px;margin:10px 0;box-shadow:0 6px 20px rgba(0,0,0,.25);text-align:left}.ag-naranja,.ag-rojo{animation:agP 1.4s ease-in-out infinite}'+
+  '.ag-t{font:900 2rem/1.05 Archivo,system-ui,sans-serif;letter-spacing:.01em}.ag-s{font-weight:900;font-size:1rem;margin:4px 0 8px;letter-spacing:.03em}.ag-r{font-size:1rem;margin-top:6px;line-height:1.35}'+
+  '.ag-k{margin-top:10px;padding:8px 10px;border-radius:10px;background:rgba(0,0,0,.18);font-size:.86rem;line-height:1.35}.ag-o{margin:8px 0 0;padding-left:18px;font-size:.88rem}.ag-f{margin-top:8px;font-size:.72rem;opacity:.85}'+
+  '.ag-h{display:flex;align-items:flex-end;gap:2px;height:36px;margin-top:6px}.ag-h i{flex:1;background:currentColor;opacity:.85;border-radius:2px 2px 0 0}.ag-hx{display:flex;justify-content:space-between;font-size:.66rem;opacity:.8}'+
+  '@keyframes agP{0%,100%{box-shadow:0 0 0 0 rgba(239,125,18,.8)}50%{box-shadow:0 0 0 10px rgba(239,125,18,0)}}'+
   '#tc-inst{margin:8px 12px!important;padding:8px!important}'+
   '#tc-inst .tc-blink{cursor:pointer;list-style:none;display:flex;gap:10px;align-items:center;background:linear-gradient(90deg,#ff9f1c,#ffcf4a);color:#2a1600;border-radius:14px;padding:10px 12px;animation:tcPulso 1.6s ease-in-out infinite}'+
   '#tc-inst .tc-blink b{display:block;font-size:.92rem;letter-spacing:.02em}#tc-inst .tc-blink small{display:block;font-size:.78rem;opacity:1}'+
@@ -176,6 +181,42 @@
   function resumir(){[].forEach.call(document.querySelectorAll('p.s'),function(p){if(p.dataset.cl||p.closest('summary,#tc-rep,#tc-inst,.zbox'))return;var tx=(p.textContent||'').trim();if(tx.length<170)return;
     p.dataset.cl='1';p.classList.add('tc-clamp');var m=document.createElement('button');m.type='button';m.className='tc-more';m.textContent='Ver más ▾';p.parentNode.insertBefore(m,p.nextSibling);
     m.onclick=function(){var off=p.classList.toggle('tc-clamp');p.classList.toggle('tc-clamp-off',!off);m.textContent=off?'Ver más ▾':'Ver menos ▴';resetVis();};});}
+  /* Cartel grande de alerta meteorológica por localidad (simuladores) */
+  var REG={norte:['capital','san cosme','itati','beron de astrada','general paz','san luis del palmar','san miguel','ituzaingo'],noroeste:['capital','san cosme','empedrado','san luis del palmar','saladas','itati'],noreste:['ituzaingo','san miguel','santo tome'],
+    este:['santo tome','general alvear','san martin','paso de los libres','ituzaingo'],sureste:['monte caseros','paso de los libres','curuzu cuatia'],oeste:['empedrado','saladas','bella vista','san roque','lavalle','goya','esquina'],
+    suroeste:['goya','esquina','sauce'],sur:['esquina','sauce','curuzu cuatia','monte caseros','mercedes'],centro:['mburucuya','concepcion','saladas','san roque','mercedes','general paz','san luis del palmar']};
+  REG.sudeste=REG.sureste;REG.sudoeste=REG.suroeste;
+  function nrm(s){return String(s||'').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'');}
+  function alcanza(a,dep){var z=nrm([].concat(a.zonas||[]).join(' ; ')),d=nrm(dep);if(!z)z=nrm(a.aviso);
+    if(/toda la provincia|toda corrientes|todo el territorio/.test(z))return true;if(d&&z.indexOf(d)>=0)return true;
+    var w=z.split(/[^a-z]+/);for(var i=0;i<w.length;i++){var r=REG[w[i]];if(r&&d&&r.indexOf(d)>=0)return true;}
+    if(!/norte|sur|este|oeste|centro/.test(z)&&/provincia de corrientes|corrientes/.test(z))return true;return false;}
+  window.tcAlertaGrande=function(smn,dep,nombre,pron,ciudad){
+    var now=new Date(),S=(smn||[]).filter(function(a){if(a.incluye_corrientes===false)return false;var h=a.hasta_iso?Date.parse(a.hasta_iso):NaN;return isNaN(h)||h>now;}).filter(function(a){return alcanza(a,dep);});
+    if(!S.length)return '';var ORD={rojo:3,naranja:2,amarillo:1};S.sort(function(x,y){return (ORD[y.nivel]||0)-(ORD[x.nivel]||0)||Date.parse(x.desde_iso||0)-Date.parse(y.desde_iso||0);});
+    var a=S[0],COL={rojo:['#c0392b','#fff'],naranja:['#ef7d12','#fff'],amarillo:['#f6d55c','#2b2300']},c=COL[a.nivel]||COL.amarillo,DS=['domingo','lunes','martes','miércoles','jueves','viernes','sábado'];
+    var hh=function(x){return x.getHours()+(x.getMinutes()?':'+String(x.getMinutes()).padStart(2,'0'):'');},dn=function(x){var k=Math.round((new Date(x.getFullYear(),x.getMonth(),x.getDate())-new Date(now.getFullYear(),now.getMonth(),now.getDate()))/864e5);return (k===0?'hoy ':k===1?'mañana ':'')+DS[x.getDay()]+' '+x.getDate()+'/'+(x.getMonth()+1);};
+    var d=a.desde_iso?new Date(a.desde_iso):null,f=a.hasta_iso?new Date(a.hasta_iso):null,est='',cu='';
+    if(d&&f){cu=(d.toDateString()===f.toDateString()?dn(d)+', de '+hh(d)+' a '+hh(f)+' h':dn(d)+' '+hh(d)+' h a '+dn(f)+' '+hh(f)+' h');
+      if(now>=d){var r=Math.max(1,Math.round((f-now)/36e5));est='EN CURSO · termina en '+r+' h';}else{var q=Math.max(1,Math.round((d-now)/36e5));est='COMIENZA EN '+q+' H';}}
+    var tor=/torment/.test(nrm(a.fenomeno||a.aviso)),fen=a.fenomeno?(/torment/.test(nrm(a.fenomeno))?'tormentas':a.fenomeno):'tormentas';
+    var mm=null;S.forEach(function(x){if(x.rango_mm&&(!mm||x.rango_mm[1]>mm[1]))mm=x.rango_mm;});
+    var ex=pron&&pron.extendido&&pron.extendido.ciudades&&(pron.extendido.ciudades[ciudad]||pron.extendido.ciudades[nombre]),dia=null,key=(d&&now<d?d:now);key=key.getFullYear()+'-'+String(key.getMonth()+1).padStart(2,'0')+'-'+String(key.getDate()).padStart(2,'0');
+    if(ex&&ex.dias)dia=ex.dias.filter(function(x){return x.fecha===key;})[0];
+    var hor='';if(dep==='Capital'&&pron&&pron.horario_capital&&pron.horario_capital[key]){var v=pron.horario_capital[key],tot=v.reduce(function(s,x){return s+(x||0);},0);
+      if(tot>0.5){var mx=Math.max.apply(null,v),hs=[];v.forEach(function(x,i){if(x>=Math.max(0.5,mx*0.4))hs.push(i);});
+        hor='<div class="ag-r">🕒 Horas de mayor lluvia prevista: <b>'+(hs.length?hs[0]+' a '+(hs[hs.length-1]+1)+' h':'sin datos')+'</b></div><div class="ag-h">'+v.map(function(x,i){return '<i title="'+i+' h: '+(x||0)+' mm" style="height:'+Math.max(2,(x||0)/(mx||1)*34)+'px"></i>';}).join('')+'</div><div class="ag-hx"><span>0 h</span><span>12 h</span><span>23 h</span></div>';}}
+    var otras=S.slice(1).map(function(x){var a1=x.desde_iso?new Date(x.desde_iso):null,b1=x.hasta_iso?new Date(x.hasta_iso):null;return '<li>Alerta <b>'+({amarillo:'amarilla',naranja:'naranja',rojo:'roja'}[x.nivel]||x.nivel)+'</b>'+(a1&&b1?', '+dn(a1)+' de '+hh(a1)+' a '+hh(b1)+' h':'')+(x.rango_mm?', '+x.rango_mm[0]+' a '+x.rango_mm[1]+' mm':'')+'</li>';}).join('');
+    var z=[].concat(a.zonas||[]).join('; ');
+    return '<div class="ag ag-'+(a.nivel||'amarillo')+'" style="background:'+c[0]+';color:'+c[1]+'">'
+      +'<div class="ag-t">⚠️ ALERTA '+({amarillo:'AMARILLA',naranja:'NARANJA',rojo:'ROJA'}[a.nivel]||String(a.nivel||'').toUpperCase())+'</div><div class="ag-s">POR '+String(fen).toUpperCase()+(est?' · '+est:'')+'</div>'
+      +'<div class="ag-r">📍 Rige para <b>'+(nombre||'')+'</b>'+(dep?' (departamento '+dep+')':'')+'</div>'
+      +(cu?'<div class="ag-r">🕒 <b>'+cu+'</b></div>':'')
+      +(mm?'<div class="ag-r">'+(tor?'⛈️':'🌧️')+' Lluvia acumulada prevista: <b>'+mm[0]+' a '+mm[1]+' mm</b></div>':'')
+      +(dia?'<div class="ag-r">🌦️ Pronóstico: <b>'+dia.resumen+'</b>'+(dia.prob!=null?', '+dia.prob+' % de probabilidad':'')+'</div>':'')+hor
+      +(tor?'<div class="ag-k"><b>Ante tormentas:</b> no circule por calles anegadas, asegure objetos sueltos, no se refugie bajo árboles y desconecte artefactos eléctricos. Emergencias: 103.</div>':'')
+      +(otras?'<ul class="ag-o">'+otras+'</ul>':'')
+      +'<div class="ag-f">Fuente: '+(a.origen?String(a.origen).split(',')[0]:'SMN')+(z?'. Zona: '+z:'')+'</div></div>';};
   /* 5. Arranque */
   function iniciar(){
     estilo();menu();
