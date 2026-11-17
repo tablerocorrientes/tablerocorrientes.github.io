@@ -712,7 +712,7 @@ else{$('pron').innerHTML='<p class="s">Sin pronóstico cargado.</p>';}
     var daily=!R.hourly&&o.f,nf2=function(x){return nf(x,x<10?1:0);};
     if(daily){var e=R.end;for(var j=1;j<=36;j++)S.push({t:new Date(e.getTime()+j*36e5),obs:null,fc:null,past:false});}
     var N=S.length||1,bw=(X1-X0)/N,xs=function(i){return X0+i*bw;},nowI=S.filter(function(x){return x.past;}).length;
-    var mx=Math.max(2,Math.max.apply(null,S.map(function(x){return Math.max(x.obs||0,x.fc||0);})));var stM=[0.5,1,1.5,2,3,4,5,10].filter(function(z){return z*4>=mx;})[0]||20;mx=stM*4;
+    var mx=Math.max(2,Math.max.apply(null,S.map(function(x){return Math.max(x.obs||0,x.fc||0);})));var stM=[0.5,1,1.5,2,3,4,5,10].filter(function(z){return z*4>=mx*1.2;})[0]||20;mx=stM*4;
     var y=function(v){return BOT-(v/mx)*(BOT-TOP);};
     var iMO=-1,iMF=-1;S.forEach(function(x,i){if(x.past&&(x.obs||0)>0&&(iMO<0||x.obs>S[iMO].obs))iMO=i;if(!x.past&&(x.fc||0)>0&&(iMF<0||x.fc>S[iMF].fc))iMF=i;});var acO=0,acF=0,co=[],cf=[];S.forEach(function(x,i){if(x.past){acO+=+x.obs||0;co.push([i,acO]);}else{if(!cf.length)cf.push([i,acO]);acF=(cf.length?cf[cf.length-1][1]:acO)+(+x.fc||0);cf.push([i+1,acF]);}});
     var dayT=daily?[[o.f.hoy?+o.f.hoy.mm:null,0],[o.f.manana?+o.f.manana.mm:null,1]]:[];
