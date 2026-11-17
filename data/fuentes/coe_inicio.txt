@@ -1,7 +1,7 @@
 Fuente: https://coe.corrientes.gob.ar/
-Consultado: 17/11/2026, 07:03 h
+Consultado: 17/11/2026, 07:10 h
 
-8 alertas vigentes — COE Corrientes
+7 alertas vigentes — COE Corrientes
 Alertas del COE - Comando Operativo de Emergencias
 Instituto de
 Modernización e Innovación
@@ -14,7 +14,7 @@ Alertas hidrometeorológicas
 Avisos emitidos por el Comando Operativo de Emergencias de Corrientes por
 crecidas, tormentas, lluvias y vientos.
 Tocá una alerta para ver la pieza completa con el mapa del área alcanzada.
-Vigentes ahora 8
+Vigentes ahora 7
 Alerta Roja
 En curso
 Granizo · Tormentas
@@ -57,18 +57,17 @@ Tormentas
 General Alvear, Mercedes, San Martín
 Empezó martes 17/11 · 05:45 h
 Termina martes 17/11 · 07:45 h
-Alerta Roja
-En curso
-Tormentas
-Concepción, Curuzú Cuatiá, Mercedes, Paso de los Libres, San Roque
-Empezó martes 17/11 · 05:05 h
-Termina martes 17/11 · 07:05 h
 Canal oficial
 Recibí las alertas en tu teléfono
 Unirme por WhatsApp
 Escaneá el código o tocá el botón. Es un canal de sólo lectura
 para recibir y consultar los avisos del COE.
-Anteriores 69
+Anteriores 70
+Roja
+Tormentas
+Concepción, Curuzú Cuatiá, Mercedes, Paso de los Libres, San Roque
+17/11/2026
+05:05 a 07:05
 Amarilla
 Tormentas
 Berón de Astrada, Capital, Empedrado, General Paz, Itatí, Ituzaingó, Mburucuyá, Saladas, San Cosme, San Luis del Palmar, San Miguel
@@ -114,11 +113,6 @@ Lluvias intensas · Tormentas
 Ituzaingó
 04/11/2026
 12:42 a 14:42
-Roja
-Lluvias intensas · Tormentas
-Berón de Astrada, Capital, Concepción, Empedrado, General Paz, Itatí, Ituzaingó, Mburucuyá, San Cosme, San Luis del Palmar, San Miguel, Santo Tomé
-04/11/2026
-09:41 a 12:41
 ← Más recientes
 Página 1 de 7
 Más antiguas →
