@@ -475,7 +475,7 @@
  "consultado": "17/11/2026, 18:37 h",
  "consulta_resultado": "sin cambios",
  "extendido": {
-  "actualizado": "17/11/2026, 18:12 h",
+  "actualizado": "17/11/2026, 19:06 h",
   "aviso": "Pronóstico extendido informativo. No se usa en los cálculos del simulador.",
   "ciudades": {
    "Corrientes Capital": {
@@ -537,7 +537,7 @@
    "Goya": {
     "fuente": "Modelo Open-Meteo (estimación de modelo, no es el pronóstico oficial del SMN)",
     "url": "https://open-meteo.com",
-    "emision": "17/11/2026, 18:12 h",
+    "emision": "17/11/2026, 19:06 h",
     "dias": [
      {
       "fecha": "2026-11-18",
@@ -600,7 +600,7 @@
    "Esquina": {
     "fuente": "Modelo Open-Meteo (estimación de modelo, no es el pronóstico oficial del SMN)",
     "url": "https://open-meteo.com",
-    "emision": "17/11/2026, 18:12 h",
+    "emision": "17/11/2026, 19:06 h",
     "dias": [
      {
       "fecha": "2026-11-18",
@@ -663,7 +663,7 @@
    "Bella Vista": {
     "fuente": "Modelo Open-Meteo (estimación de modelo, no es el pronóstico oficial del SMN)",
     "url": "https://open-meteo.com",
-    "emision": "17/11/2026, 18:12 h",
+    "emision": "17/11/2026, 19:06 h",
     "dias": [
      {
       "fecha": "2026-11-18",
@@ -726,7 +726,7 @@
    "Mercedes": {
     "fuente": "Modelo Open-Meteo (estimación de modelo, no es el pronóstico oficial del SMN)",
     "url": "https://open-meteo.com",
-    "emision": "17/11/2026, 18:12 h",
+    "emision": "17/11/2026, 19:06 h",
     "dias": [
      {
       "fecha": "2026-11-18",
@@ -789,7 +789,7 @@
    "Curuzú Cuatiá": {
     "fuente": "Modelo Open-Meteo (estimación de modelo, no es el pronóstico oficial del SMN)",
     "url": "https://open-meteo.com",
-    "emision": "17/11/2026, 18:12 h",
+    "emision": "17/11/2026, 19:06 h",
     "dias": [
      {
       "fecha": "2026-11-18",
@@ -852,7 +852,7 @@
    "Paso de los Libres": {
     "fuente": "Modelo Open-Meteo (estimación de modelo, no es el pronóstico oficial del SMN)",
     "url": "https://open-meteo.com",
-    "emision": "17/11/2026, 18:12 h",
+    "emision": "17/11/2026, 19:06 h",
     "dias": [
      {
       "fecha": "2026-11-18",
@@ -915,7 +915,7 @@
    "Santo Tomé": {
     "fuente": "Modelo Open-Meteo (estimación de modelo, no es el pronóstico oficial del SMN)",
     "url": "https://open-meteo.com",
-    "emision": "17/11/2026, 18:12 h",
+    "emision": "17/11/2026, 19:06 h",
     "dias": [
      {
       "fecha": "2026-11-18",
@@ -978,7 +978,7 @@
    "Gobernador Virasoro": {
     "fuente": "Modelo Open-Meteo (estimación de modelo, no es el pronóstico oficial del SMN)",
     "url": "https://open-meteo.com",
-    "emision": "17/11/2026, 18:12 h",
+    "emision": "17/11/2026, 19:06 h",
     "dias": [
      {
       "fecha": "2026-11-18",
@@ -1041,7 +1041,7 @@
    "Ituzaingó": {
     "fuente": "Modelo Open-Meteo (estimación de modelo, no es el pronóstico oficial del SMN)",
     "url": "https://open-meteo.com",
-    "emision": "17/11/2026, 18:12 h",
+    "emision": "17/11/2026, 19:06 h",
     "dias": [
      {
       "fecha": "2026-11-18",
@@ -1104,7 +1104,7 @@
    "Monte Caseros": {
     "fuente": "Modelo Open-Meteo (estimación de modelo, no es el pronóstico oficial del SMN)",
     "url": "https://open-meteo.com",
-    "emision": "17/11/2026, 18:12 h",
+    "emision": "17/11/2026, 19:06 h",
     "dias": [
      {
       "fecha": "2026-11-18",
@@ -1167,7 +1167,7 @@
    "Saladas": {
     "fuente": "Modelo Open-Meteo (estimación de modelo, no es el pronóstico oficial del SMN)",
     "url": "https://open-meteo.com",
-    "emision": "17/11/2026, 18:12 h",
+    "emision": "17/11/2026, 19:06 h",
     "dias": [
      {
       "fecha": "2026-11-18",
