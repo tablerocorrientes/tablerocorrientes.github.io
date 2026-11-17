@@ -1,5 +1,5 @@
 {
- "actualizado": "17/11/2026, 20:10 h",
+ "actualizado": "17/11/2026, 20:27 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
@@ -197,11 +197,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 19 h"
+   "ultimo": "0 mm a las 20 h"
   },
   {
    "localidad": "Santa Lucía",
@@ -231,11 +231,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 19 h"
+   "ultimo": "0 mm a las 20 h"
   },
   {
    "localidad": "La Palmira",
@@ -673,11 +673,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 5.4,
-   "ultimo": "0 mm a las 19 h"
+   "ultimo": "0 mm a las 20 h"
   },
   {
    "localidad": "Gobernador Virasoro",
@@ -775,11 +775,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 19 h"
+   "ultimo": "0 mm a las 20 h"
   },
   {
    "localidad": "Mercedes",
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "17/11/2026, 20:10 h",
+ "consultado": "17/11/2026, 20:27 h",
  "consulta_resultado": "datos nuevos"
 }
