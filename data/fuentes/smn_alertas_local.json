@@ -1,29 +1,19 @@
 {
- "consultado": "17/11/2026, 08:40 h",
- "consultado_iso": "2026-11-17T08:40:00-03:00",
+ "consultado": "17/11/2026, 12:40 h",
+ "consultado_iso": "2026-11-17T12:40:00-03:00",
  "fuente": "Servicio Meteorológico Nacional (www.smn.gob.ar/alertas), leído desde una conexión de Corrientes",
  "resultado": "con alertas",
  "alertas": [
   {
    "tipo": "alerta",
-   "nivel": "naranja",
+   "nivel": "amarillo",
    "fenomeno": "tormenta",
    "zonas": "Corrientes (el resumen por provincia no detalla departamentos)",
-   "desde": "17/11/2026, 06:00 h",
-   "hasta": "18/11/2026, 05:59 h",
-   "emision": "17/11/2026, 06:03 h",
-   "texto": "Resumen por provincia del SMN: Corrientes con alerta naranja por tormenta y aviso a muy corto plazo vigente. Sin alertas por lluvia, viento, niebla u otros fenómenos."
-  },
-  {
-   "tipo": "aviso a muy corto plazo",
-   "nivel": null,
-   "fenomeno": "Tormentas fuertes con lluvias intensas, rafagas y ocasional caida de granizo",
-   "zonas": "Beron de Astrada - Gral Alvear - Gral Paz - Itati - Ituzaingo - San Cosme - San Luis del Palmar - San Martin - San Miguel - Santo Tome",
-   "desde": "17/11/2026, 08:01 h",
-   "hasta": "dos (2) horas desde la emisión",
-   "emision": "17/11/2026, 08:01 h",
-   "texto": "TORMENTAS FUERTES CON LLUVIAS INTENSAS, RAFAGAS Y OCASIONAL CAIDA DE GRANIZO. Detectados con radares meteorológicos (el aviso incluye también Apóstoles, Misiones)."
+   "desde": "17/11/2026, 12:00 h",
+   "hasta": "18/11/2026, 11:59 h",
+   "emision": "17/11/2026, 11:50 h",
+   "texto": "Resumen por provincia del SMN: Corrientes con alerta amarilla por tormenta. Sin aviso a muy corto plazo para Corrientes y sin alertas por lluvia, viento, niebla u otros fenómenos."
   }
  ],
- "texto_pagina": "Alertas (fecha de emisión: 17/11/2026 06:03h; mapa para martes 17, miércoles 18 y jueves 19). Resumen por provincia: Información vigente desde las 06:00h de hoy martes 17 hasta las 05:59 horas de mañana miércoles 18 de noviembre de 2.026. Corrientes: ACP: Aviso a muy corto plazo; Tormenta: Alerta naranja por tormenta; Lluvia, Nevada, Viento, Viento zonda, Niebla, Polvo, Humo, Ceniza: -. Avisos a muy corto plazo: TORMENTAS FUERTES CON LLUVIAS INTENSAS, RAFAGAS Y OCASIONAL CAIDA DE GRANIZO. Zonas: CORRIENTES: Beron de Astrada - Gral Alvear - Gral Paz - Itati - Ituzaingo - San Cosme - San Luis del Palmar - San Martin - San Miguel - Santo Tome. MISIONES: Apostoles. Fecha de emisión: 17/11/2026 a las 08:01h. Validez hasta: Dos (2) horas desde la emisión. Los fenómenos indicados en el ACP fueron detectados con radares meteorológicos. Otros avisos vigentes en la página (07:23h y 07:25h para Misiones; 08:07h para Formosa y Chaco) no alcanzan a Corrientes."
+ "texto_pagina": "Alertas (fecha de emisión: 17/11/2026 11:50h; mapa para martes 17, miércoles 18 y jueves 19). Resumen por provincia: Información vigente desde las 12:00h de hoy martes 17 hasta las 11:59 horas de mañana miércoles 18 de noviembre de 2.026. Corrientes: ACP: -; Tormenta: Alerta amarillo por tormenta; Lluvia, Nevada, Viento, Viento zonda, Niebla, Polvo, Humo, Ceniza: -. (Chaco, Formosa y Misiones: alerta naranja por tormenta y aviso a muy corto plazo.) Avisos a muy corto plazo vigentes en la página: 10:51h Formosa (Bermejo, Patiño) y Chaco (Gral Güemes); 11:23h Misiones (El Dorado, Gral Manuel Belgrano, Guaraní, Iguazú, Montecarlo, San Pedro); 11:50h Formosa (Patiño) y Chaco (Gral Güemes); 11:53h Formosa (Bermejo). Ninguno alcanza a Corrientes."
 }
