@@ -1,0 +1,62 @@
+{
+ "fecha": "2026-11-17",
+ "capturado": "17/11/2026, 03:12 h (reconstruido del historial del tablero)",
+ "pronostico_de": "17/11/2026, 03:12 h",
+ "explicacion": "Lluvia esperada para el día según el pronóstico vigente al comenzar el día, y alertas que lo cubrían. No se modifica durante el día.",
+ "ciudades": {
+  "Corrientes Capital": 17.1,
+  "Goya": 0.5,
+  "Esquina": 0.9,
+  "Bella Vista": 0.6,
+  "Mercedes": 10.4,
+  "Curuzú Cuatiá": 12.3,
+  "Paso de los Libres": 12.9,
+  "Santo Tomé": 17.2,
+  "Gobernador Virasoro": 14.6,
+  "Ituzaingó": 25.9,
+  "Monte Caseros": 6.7,
+  "Saladas": 5.8
+ },
+ "alertas": [
+  {
+   "nivel": "naranja",
+   "fenomeno": "tormenta",
+   "desde_iso": "2026-11-17T00:00:00-03:00",
+   "hasta_iso": "2026-11-17T23:59:00-03:00",
+   "zonas": [
+    "Centro, sur y oeste de Corrientes (el SMN no detalla los departamentos)"
+   ],
+   "rango_mm": null,
+   "incluye_capital": null,
+   "origen": "Servicio Meteorológico Nacional, página de alertas leída desde Corrientes el 17/11/2026 a las 00:42 h"
+  },
+  {
+   "nivel": "amarillo",
+   "fenomeno": "tormenta",
+   "desde_iso": "2026-11-17T00:00:00-03:00",
+   "hasta_iso": "2026-11-17T23:59:00-03:00",
+   "zonas": [
+    "Norte y este de Corrientes (el SMN no detalla los departamentos)"
+   ],
+   "rango_mm": null,
+   "incluye_capital": null,
+   "origen": "Servicio Meteorológico Nacional, página de alertas leída desde Corrientes el 17/11/2026 a las 00:42 h"
+  },
+  {
+   "nivel": "amarillo",
+   "fenomeno": "tormenta",
+   "desde_iso": "2026-11-17T03:00:00-03:00",
+   "hasta_iso": "2026-11-17T15:00:00-03:00",
+   "zonas": [
+    "Toda la provincia de Corrientes"
+   ],
+   "rango_mm": [
+    30,
+    70
+   ],
+   "incluye_capital": true,
+   "origen": "COE de Corrientes (reporte 2026-0074-AT), consultado el 17/11/2026 a las 01:10 h"
+  }
+ ],
+ "historial": []
+}

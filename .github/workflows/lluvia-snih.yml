@@ -18,12 +18,14 @@ jobs:
         with:
           fetch-depth: 1
       - name: Consultar el SNIH y actualizar lluvia.json y obs.json
-        run: python3 tareas/snih_lluvia.py || true
+        run: |
+          python3 tareas/esperado_dia.py || true
+          python3 tareas/snih_lluvia.py || true
       - name: Publicar si hubo cambios
         run: |
           git config user.name "Tablero Ciudadano"
           git config user.email "tablerocorrientes@gmail.com"
-          git add data/lluvia.json data/obs.json
+          git add data/esperado_dia.json data/lluvia.json data/obs.json
           if git diff --cached --quiet; then echo "Sin cambios"; exit 0; fi
           git commit -m "Lluvia SNIH (automática): actualiza lluvia.json y obs.json, $(TZ=America/Argentina/Buenos_Aires date '+%d/%m/%Y %H:%M') h"
           for i in 1 2 3; do

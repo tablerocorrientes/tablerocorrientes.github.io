@@ -291,6 +291,7 @@ a:focus-visible{outline:3px solid #e3ad1f;outline-offset:2px}
 <script type="application/json" id="evac-data" data-src="/data/evac.json"></script>
 <script type="application/json" id="aneg-data" data-src="/data/anegamientos_lluvia.json"></script>
 <script type="application/json" id="pron-data" data-src="/data/pron.json"></script>
+<script type="application/json" id="esp-data" data-src="/data/esperado_dia.json"></script>
 <script type="application/json" id="obras-data" data-src="/data/obras.json"></script>
 <script type="application/json" id="nino-data" data-src="/data/nino.json"></script>
 <script type="application/json" id="inf-data" data-src="/data/inferencias.json"></script>
@@ -747,10 +748,18 @@ else{$('pron').innerHTML='<p class="s">Sin pronóstico cargado.</p>';}
     var R=serie(o),now=new Date(),hoyO=0,hoyF=0,hayF=false,restoF=0;R.S.forEach(function(x){if(x.t.toDateString()===now.toDateString()){if(x.past){hoyO+=+x.obs||0;if(x.fc!=null){hoyF+=x.fc;hayF=true;}}else restoF+=+x.fc||0;}});
     var AL=window.tcAlertasDe?tcAlertasDe(PF.smn,o.n==='Corrientes Capital'?'Capital':o.n):[],vig=AL.some(function(a){return !a.desde_iso||Date.parse(a.desde_iso)<=now;});
     if(!R.hourly&&fh!=null)restoF=null;
-    var tile=function(c,t,v,sub){return '<div style="background:var(--bg);border-radius:12px;padding:8px 10px;border-left:4px solid '+c+'"><div style="font-size:.68rem;color:var(--soft);font-weight:800;letter-spacing:.03em">'+t+'</div><div style="font-size:1.35rem;font-weight:900;color:'+c+';line-height:1.15">'+v+'</div>'+(sub?'<div style="font-size:.74rem;color:var(--ink2);margin-top:2px">'+sub+'</div>':'')+'</div>';};
-    var t1=tile('var(--med)','CAYÓ HOY (DESDE LAS 0 H)',o.tm==null?'<span style="font-size:.95rem">sin datos</span>':(o.ref?'≈':'')+nf(hoyO,1)+' mm',o.tm==null?'':nf(o.tm,1)+' mm en las últimas 24 h');
-    var al0=AL.length>0,ok2=Math.abs(hoyO-hoyF)<=Math.max(2,hoyF*0.3);
-    var t2=hayF?tile(ok2?'var(--ok)':'#d08a2e','PRONÓSTICO FRENTE A LO CAÍDO',ok2?'Acertado':(hoyO>hoyF?'Llovió más de lo calculado':'Llovió menos de lo calculado'),(al0&&hoyO>hoyF?'<b>Las alertas oficiales sí anticipaban tormentas.</b> ':'')+'Los modelos por hora calculaban '+nf(hoyF,1)+' mm hasta ahora; cayeron '+nf(hoyO,1)+' mm.'):tile('var(--soft)','PRONÓSTICO FRENTE A LO CAÍDO','<span style="font-size:.95rem">Sin pronóstico por hora</span>','La comparación hora por hora está disponible para la Capital');
+    var tile=function(c,t,v,sub){return '<div style="background:var(--bg);border-radius:12px;padding:8px 10px;border-left:4px solid '+c+'"><div style="font-size:.68rem;color:var(--soft);font-weight:800;letter-spacing:.03em">'+t+'</div><div style="font-size:1.35rem;font-weight:900;color:'+c+';line-height:1.15">'+v+'</div>'+(sub?'<div style="font-size:.74rem;color:var(--ink2);margin-top:2px;line-height:1.35">'+sub+'</div>':'')+'</div>';};
+    var E={};try{E=JSON.parse(document.getElementById('esp-data').textContent)||{};}catch(e){}
+    var hoyK=now.getFullYear()+'-'+String(now.getMonth()+1).padStart(2,'0')+'-'+String(now.getDate()).padStart(2,'0'),eOk=E.fecha===hoyK;
+    var esp=eOk&&E.ciudades?(E.ciudades[o.n]!=null?E.ciudades[o.n]:(o.pref&&E.ciudades[o.pref]!=null?E.ciudades[o.pref]:null)):null;
+    var dep=o.n==='Corrientes Capital'?'Capital':o.n,rg=null,alH=[];(eOk?E.alertas||[]:[]).forEach(function(a){if(window.tcAlcanza&&tcAlcanza(a,dep)){alH.push(a);if(a.rango_mm&&(!rg||a.rango_mm[1]>rg[1]))rg=a.rango_mm;}});
+    var NMx={rojo:'roja',naranja:'naranja',amarillo:'amarilla'},ORDx={rojo:3,naranja:2,amarillo:1},alMax=alH.slice().sort(function(a,b){return (ORDx[b.nivel]||0)-(ORDx[a.nivel]||0);})[0];
+    var hh=now.getHours()+':'+String(now.getMinutes()).padStart(2,'0');
+    var t1=tile('var(--med)','LLOVIÓ HOY (HASTA LAS '+hh+' H)',o.tm==null?'<span style="font-size:.95rem">sin datos de la estación</span>':(o.ref?'≈':'')+nf(hoyO,1)+' mm',o.tm==null?'':nf(o.tm,1)+' mm en las últimas 24 h');
+    var subE='',difE='';
+    if(esp!=null||alMax){subE=(esp!=null?'Pronóstico vigente al comenzar el día ('+esc(String(E.pronostico_de||'').replace(/^\d+\/\d+\/\d+,\s*/,''))+')':'')+(alMax?(esp!=null?'. ':'')+'Alerta '+(NMx[alMax.nivel]||alMax.nivel)+' por tormentas'+(rg?', <b>'+rg[0]+' a '+rg[1]+' mm</b>':''):'')+'.';
+      if(o.tm!=null&&esp!=null){var df=hoyO-esp;difE='<div style="margin-top:4px;font-weight:800;color:'+(Math.abs(df)<=Math.max(1.5,esp*0.15)?'var(--ok)':'#d08a2e')+'">Diferencia: '+(df>0?'+':'')+nf(df,1)+' mm, '+(Math.abs(df)<=Math.max(1.5,esp*0.15)?'en línea con lo esperado':df>0?'llovió más de lo esperado':'llovió menos de lo esperado')+(rg?(hoyO<rg[0]?'; por debajo del rango de la alerta':hoyO>rg[1]?'; por encima del rango de la alerta':'; dentro del rango de la alerta'):'')+(now.getHours()<20?' (el día no terminó)':'')+'.</div>';}}
+    var t2=tile('#d08a2e','SE ESPERABA PARA HOY',esp!=null?nf(esp,1)+' mm':(rg?rg[0]+' a '+rg[1]+' mm':'<span style="font-size:.95rem">sin registro</span>'),subE+difE);
     var t3=tile('var(--prn)','RESTO DE HOY',(vig&&!(restoF>=0.5))?'<span style="font-size:1rem">Lluvias posibles</span>':(restoF==null?(fh==null?'—':nf(fh,1)+' mm <small style="font-size:.7rem">(total del día)</small>'):nf(restoF,1)+' mm'),vig?'Hay una alerta vigente: los modelos no siempre la cuantifican':'');
     var t4=tile('var(--prn)','MAÑANA, '+lab(1).toUpperCase(),fm==null?'—':nf(fm,1)+' mm','');
     $('cmpTot').innerHTML=t1+t2+t3+t4;
