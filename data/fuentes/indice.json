@@ -1,6 +1,6 @@
 {
- "consultado": "17/11/2026, 18:26 h",
- "consultado_iso": "2026-11-17T18:26-03:00",
+ "consultado": "17/11/2026, 18:31 h",
+ "consultado_iso": "2026-11-17T18:31-03:00",
  "paginas": {
   "smn_alertas": {
    "url": "https://www.smn.gob.ar/alertas",
@@ -51,7 +51,7 @@
   "lanacion_clima_corrientes": {
    "url": "https://www.lanacion.com.ar/clima/corrientes/",
    "estado": 200,
-   "caracteres": 8331,
+   "caracteres": 8298,
    "archivo": "data/fuentes/lanacion_clima_corrientes.txt"
   },
   "noaa_enso": {
@@ -77,18 +77,21 @@
   },
   "smn_datos_horarios_ayer": {
    "url": "https://ssl.smn.gob.ar/dpd/descarga_opendata.php?file=observaciones/datohorario20261116.txt",
-   "estado": "error",
-   "detalle": "HTTP Error 503: Service Unavailable"
+   "estado": 200,
+   "caracteres": 10199,
+   "archivo": "data/fuentes/smn_datos_horarios_ayer.txt"
   },
   "smn_pronostico_5_dias": {
    "url": "https://ssl.smn.gob.ar/dpd/descarga_opendata.php?file=pron5d/pron20261117.txt",
-   "estado": "error",
-   "detalle": "HTTP Error 503: Service Unavailable"
+   "estado": 200,
+   "caracteres": 17711,
+   "archivo": "data/fuentes/smn_pronostico_5_dias.txt"
   },
   "smn_pronostico_5_dias_ayer": {
    "url": "https://ssl.smn.gob.ar/dpd/descarga_opendata.php?file=pron5d/pron20261116.txt",
-   "estado": "error",
-   "detalle": "HTTP Error 503: Service Unavailable"
+   "estado": 200,
+   "caracteres": 17711,
+   "archivo": "data/fuentes/smn_pronostico_5_dias_ayer.txt"
   },
   "coe_2026_0076_AT": {
    "url": "https://coe.corrientes.gob.ar/a/2026-0076-AT",
@@ -133,6 +136,20 @@
    "archivo": "data/fuentes/coe_a_2026_0129_CP.txt"
   }
  },
+ "pedidas": {
+  "https://www.infobae.com/sociedad/2026/11/17/las-tormentas-afectaron-a-varias-provincias-granizo-calles-anegadas-actividad-electrica-y-rafagas-de-mas-de-100-kmh/": {
+   "url": "https://www.infobae.com/sociedad/2026/11/17/las-tormentas-afectaron-a-varias-provincias-granizo-calles-anegadas-actividad-electrica-y-rafagas-de-mas-de-100-kmh/",
+   "estado": 200,
+   "caracteres": 11261,
+   "archivo": "data/fuentes/web/infobae_com_sociedad_2026_11_17_las_tormentas_afectaron_a_varias_provincias_granizo_calles.txt"
+  },
+  "https://panoramapais.com/noticias/tormentas-severas-azotaron-el-centro-y-norte-del-pais-granizo-inundaciones-y-rafagas-de-mas-de-100-km-h/17/11/2026/": {
+   "url": "https://panoramapais.com/noticias/tormentas-severas-azotaron-el-centro-y-norte-del-pais-granizo-inundaciones-y-rafagas-de-mas-de-100-km-h/17/11/2026/",
+   "estado": 200,
+   "caracteres": 6935,
+   "archivo": "data/fuentes/web/panoramapais_com_noticias_tormentas_severas_azotaron_el_centro_y_norte_del_pais_granizo_in.txt"
+  }
+ },
  "portales": {
   "munired_municipio_corrientes": {
    "url": "https://munired.mcypcorrientes.gob.ar/noticias/corrientes",
@@ -142,8 +159,9 @@
   },
   "munired_municipio_corrientes_p2": {
    "url": "https://munired.mcypcorrientes.gob.ar/noticias/corrientes?page=2",
-   "estado": "error",
-   "detalle": "<urlopen error _ssl.c:1063: The handshake operation timed out>"
+   "estado": 200,
+   "notas": 8,
+   "archivo": "data/fuentes/portales/munired_municipio_corrientes_p2.txt"
   },
   "diputados_corrientes": {
    "url": "https://hcdcorrientes.gov.ar/",
@@ -157,5 +175,6 @@
    "notas": 6,
    "archivo": "data/fuentes/portales/senado_corrientes.txt"
   }
- }
+ },
+ "pedidas_consultado": "17/11/2026, 18:31 h"
 }
