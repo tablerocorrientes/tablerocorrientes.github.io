@@ -1,69 +1,9 @@
 {
  "pendientes": [
   {
-   "url": "https://www.corrientes.gob.ar/prensa",
-   "desde": "16/11/2026, 18:39 h",
-   "error": "HTTP Error 429: Too Many Requests"
-  },
-  {
-   "url": "https://www.senadoctes.gov.ar/ordenes/2026/19-11-2026.pdf",
-   "desde": "16/11/2026, 18:42 h",
-   "error": "HTTP Error 429: Too Many Requests"
-  },
-  {
-   "url": "https://www.diarioepoca.com/1395175-en-una-semana-el-papa-karina-una-suba-salarial-y-el-megaaserradero",
-   "desde": "16/11/2026, 18:42 h",
-   "error": "HTTP Error 429: Too Many Requests"
-  },
-  {
-   "url": "https://www.noticiero9.com.ar/35675-inundaciones-en-corrientes-vecinos-denuncian-total-ausencia-del-municipio",
-   "desde": "16/11/2026, 18:42 h",
-   "error": "HTTP Error 429: Too Many Requests"
-  },
-  {
-   "url": "https://www.republicadecorrientes.com/76630-valdes-inauguro-un-hogar-de-ancianos-pavimento-y-otras-obras-en-curuzu",
-   "desde": "16/11/2026, 18:42 h",
-   "error": "HTTP Error 404: NOT FOUND"
-  },
-  {
-   "url": "https://www.republicadecorrientes.com/73927-tassano-estamos-trabajando-en-la-modernizacion-de-diputados",
-   "desde": "16/11/2026, 18:42 h",
-   "error": "HTTP Error 429: Too Many Requests"
-  },
-  {
-   "url": "https://www.corrienteshoy.com/info-general/corrientes-se-viene-la-actualizacion-de-tasas-municipales-y-codigo-fiscal-para-2027.htm",
-   "desde": "16/11/2026, 18:56 h",
-   "error": "HTTP Error 429: Too Many Requests"
-  },
-  {
-   "url": "https://elruido.org/uso-de-aviones-sanitarios-oficiales-un-secreto-bien-guardado-por-gobernadores/",
-   "desde": "16/11/2026, 19:31 h",
-   "error": ""
-  },
-  {
-   "url": "https://www.agenciahoy.com/informacion-general/en-pleno-ajuste-el-gobernador-de-corrientes-desembolsoacute-8-millones-de-doacutelares-por-un-avioacuten-usado.htm",
-   "desde": "16/11/2026, 19:31 h",
-   "error": "HTTP Error 429: Too Many Requests"
-  },
-  {
-   "url": "https://www.nortecorrientes.com/136756-en-pleno-ajuste-valdes-desembolsa-8-millones-de-dolares-por-un-avion-usado",
-   "desde": "16/11/2026, 19:31 h",
-   "error": "HTTP Error 429: Too Many Requests"
-  },
-  {
-   "url": "https://www.jetphotos.com/registration/LV-IQU",
-   "desde": "16/11/2026, 19:43 h",
-   "error": "HTTP Error 429: Too Many Requests"
-  },
-  {
-   "url": "https://www.spottinglog.com/aircraft/LV-IQU",
-   "desde": "16/11/2026, 19:43 h",
-   "error": "HTTP Error 429: Too Many Requests"
-  },
-  {
    "url": "https://boletinoficial.corrientes.gob.ar/assets/articulo_adjuntos/7758/original/10-05-2023.pdf?1683814769=",
    "desde": "16/11/2026, 19:43 h",
-   "error": "HTTP Error 429: Too Many Requests"
+   "error": "PDF sin texto legible desde el navegador de la computadora del autor (17/11/2026, 00:42 h)"
   },
   {
    "url": "https://boletinoficial.corrientes.gob.ar/assets/articulo_adjuntos/5832/original/26-01-2021.pdf?1611749492=",
@@ -74,11 +14,6 @@
    "url": "https://boletinoficial.corrientes.gob.ar/assets/articulo_adjuntos/3936/original/31-08-2018.pdf?1535985307=",
    "desde": "16/11/2026, 19:43 h",
    "error": "HTTP Error 429: Too Many Requests"
-  },
-  {
-   "url": "https://www.nortecorrientes.com/192480-la-policia-desplego-costosos-drones-en-la-busqueda-de-menor-desaparecido",
-   "desde": "16/11/2026, 19:43 h",
-   "error": "HTTP Error 404: NOT FOUND"
   }
  ]
 }

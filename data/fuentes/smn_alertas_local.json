@@ -1,19 +1,29 @@
 {
- "consultado": "16/11/2026, 20:40 h",
- "consultado_iso": "2026-11-16T20:40:00-03:00",
+ "consultado": "17/11/2026, 00:42 h",
+ "consultado_iso": "2026-11-17T00:42:00-03:00",
  "fuente": "Servicio Meteorológico Nacional (www.smn.gob.ar/alertas), leído desde una conexión de Corrientes",
  "resultado": "con alertas",
  "alertas": [
   {
    "tipo": "alerta",
+   "nivel": "naranja",
+   "fenomeno": "tormenta",
+   "zonas": "Corrientes (resumen por provincia: 'Alerta naranja por tormenta'). En el mapa del SMN, 3 zonas de territorio correntino en naranja, con centros aproximados en lat -29,18 / lon -58,09; lat -30,27 / lon -57,79 y lat -29,33 / lon -59,14 (centro, sur y oeste de la provincia). El mapa no muestra los nombres de los departamentos.",
+   "desde": "17/11/2026, 00:00 h",
+   "hasta": "17/11/2026, 23:59 h",
+   "emision": "17/11/2026, 00:13 h",
+   "texto": "Nivel naranja - Preparate: se esperan fenómenos meteorológicos peligrosos para la sociedad, la vida, los bienes y el medio ambiente. Lluvia, viento, nevada y viento zonda: sin alerta."
+  },
+  {
+   "tipo": "alerta",
    "nivel": "amarillo",
    "fenomeno": "tormenta",
-   "zonas": "Provincia de Corrientes (el resumen por provincia del SMN no detalla departamentos)",
-   "desde": "16/11/2026, 18:00 h",
-   "hasta": "17/11/2026, 17:59 h",
-   "emision": "16/11/2026, 17:55 h",
-   "texto": "Resumen por provincia: Corrientes con \"Alerta amarillo por tormenta\" en la información vigente desde las 18:00 h del lunes 16 hasta las 17:59 h del martes 17 de noviembre de 2026. Sin otros fenómenos (ACP, lluvia, viento, niebla, etc.) para Corrientes."
+   "zonas": "En el mapa del SMN, 3 zonas de territorio correntino en amarillo, con centros aproximados en lat -27,86 / lon -58,17; lat -27,94 / lon -56,77 y lat -28,96 / lon -56,64 (norte y este de la provincia). El mapa no muestra los nombres de los departamentos.",
+   "desde": "17/11/2026, 00:00 h",
+   "hasta": "17/11/2026, 23:59 h",
+   "emision": "17/11/2026, 00:13 h",
+   "texto": "Nivel amarillo - Informate: posibles fenómenos meteorológicos con capacidad de daño y riesgo de interrupción momentánea de actividades cotidianas."
   }
  ],
- "texto_pagina": "Alertas (www.smn.gob.ar/alertas): Fecha de emisión: 16/11/2026 17:55h. Mapa por días (lunes 16, martes 17, miércoles 18); el texto de la página no lista departamentos.\nResumen por provincia (www.smn.gob.ar/resumen_por_provincia): Información vigente desde las 18:00h de hoy lunes 16 hasta las 17:59 horas de mañana martes 17 de noviembre de 2.026. Corrientes: ACP -; Tormenta: Alerta amarillo por tormenta; Lluvia -; Nevada -; Viento -; Viento zonda -; Niebla -; Polvo -; Humo -; Ceniza -.\nAvisos a muy corto plazo (www.smn.gob.ar/avisos_a_muy_corto_plazo): 7 avisos vigentes (emitidos 19:10 h a 20:21 h) para La Pampa, Santa Fe, Córdoba, Buenos Aires, La Rioja y San Luis; ninguno alcanza a la provincia de Corrientes."
+ "texto_pagina": "Alertas (www.smn.gob.ar/alertas): Fecha de emisión: 17/11/2026 00:13h. Mapa por zonas para Martes 17, Miércoles 18 y Jueves 19. Resumen por provincia (www.smn.gob.ar/resumen_por_provincia): Información vigente desde las 00:00h de hoy martes 17 hasta las 23:59 horas de mañana martes 17 de noviembre de 2.026. Corrientes: ACP -; Tormenta: Alerta naranja por tormenta; Lluvia -; Nevada -; Viento -; Viento zonda -; Niebla -; Polvo -; Humo -; Ceniza -. Zonas del mapa sobre Corrientes (texto emergente del SMN): 'Tormenta: Naranja' en 3 zonas (centro, sur y oeste) y 'Tormenta: Amarillo' en 3 zonas (norte y este); en todas, Lluvia, Nevada, Viento y Viento zonda: Sin alerta. Avisos a muy corto plazo (www.smn.gob.ar/avisos_a_muy_corto_plazo): 7 avisos vigentes emitidos entre las 22:47 h y las 23:47 h del 16/11/2026 (Catamarca, La Rioja, Córdoba, Entre Ríos, Buenos Aires y otras); ninguno incluye zonas de Corrientes."
 }
