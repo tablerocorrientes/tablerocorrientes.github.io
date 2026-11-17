@@ -1,6 +1,6 @@
 {
- "consultado": "17/11/2026, 12:40 h",
- "consultado_iso": "2026-11-17T12:40:00-03:00",
+ "consultado": "17/11/2026, 16:55 h",
+ "consultado_iso": "2026-11-17T16:55:00-03:00",
  "fuente": "Servicio Meteorológico Nacional (www.smn.gob.ar/alertas), leído desde una conexión de Corrientes",
  "resultado": "con alertas",
  "alertas": [
@@ -15,5 +15,5 @@
    "texto": "Resumen por provincia del SMN: Corrientes con alerta amarilla por tormenta. Sin aviso a muy corto plazo para Corrientes y sin alertas por lluvia, viento, niebla u otros fenómenos."
   }
  ],
- "texto_pagina": "Alertas (fecha de emisión: 17/11/2026 11:50h; mapa para martes 17, miércoles 18 y jueves 19). Resumen por provincia: Información vigente desde las 12:00h de hoy martes 17 hasta las 11:59 horas de mañana miércoles 18 de noviembre de 2.026. Corrientes: ACP: -; Tormenta: Alerta amarillo por tormenta; Lluvia, Nevada, Viento, Viento zonda, Niebla, Polvo, Humo, Ceniza: -. (Chaco, Formosa y Misiones: alerta naranja por tormenta y aviso a muy corto plazo.) Avisos a muy corto plazo vigentes en la página: 10:51h Formosa (Bermejo, Patiño) y Chaco (Gral Güemes); 11:23h Misiones (El Dorado, Gral Manuel Belgrano, Guaraní, Iguazú, Montecarlo, San Pedro); 11:50h Formosa (Patiño) y Chaco (Gral Güemes); 11:53h Formosa (Bermejo). Ninguno alcanza a Corrientes."
+ "texto_pagina": "Alertas (fecha de emisión: 17/11/2026 11:50h; mapa para martes 17, miércoles 18 y jueves 19). Resumen por provincia: Información vigente desde las 12:00h de hoy martes 17 hasta las 11:59 horas de mañana miércoles 18 de noviembre de 2.026. Corrientes: ACP: -; Tormenta: Alerta amarillo por tormenta; Lluvia, Nevada, Viento, Viento zonda, Niebla, Polvo, Humo, Ceniza: -. (Chaco: aviso a muy corto plazo y alerta naranja por tormenta; Misiones: alerta naranja por tormenta.) Avisos a muy corto plazo vigentes en la página (TORMENTAS FUERTES CON LLUVIAS INTENSAS, RAFAGAS Y CAIDA DE GRANIZO; validez dos horas desde la emisión): 15:14h Chaco (25 de Mayo, Cmte Fernandez, Ldor Gral S. Martin, Maipu, Pres de la Plaza, Quitilipi, Sargento Cabral); 15:18h Formosa (Patino, Pirane) y Chaco (25 de Mayo, Cmte Fernandez, Gral Guemes, Independencia, Ldor Gral S. Martin, Maipu, Quitilipi, Sargento Cabral); 15:43h Mendoza (Gral Alvear, San Rafael) y La Pampa (Chalileo, Chical Co). Ninguno alcanza a Corrientes."
 }
