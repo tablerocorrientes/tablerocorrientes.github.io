@@ -1,5 +1,5 @@
 {
- "actualizado": "17/11/2026, 13:11 h",
+ "actualizado": "17/11/2026, 13:34 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
@@ -197,11 +197,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 12 h"
+   "ultimo": "0 mm a las 13 h"
   },
   {
    "localidad": "Santa Lucía",
@@ -231,11 +231,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 12 h"
+   "ultimo": "0 mm a las 13 h"
   },
   {
    "localidad": "La Palmira",
@@ -1353,11 +1353,11 @@
     0,
     0,
     null,
-    null,
+    0,
     null
    ],
    "total": 13.4,
-   "ultimo": "0 mm a las 11 h"
+   "ultimo": "0 mm a las 13 h"
   },
   {
    "localidad": "San Isidro",
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "17/11/2026, 13:11 h",
+ "consultado": "17/11/2026, 13:34 h",
  "consulta_resultado": "datos nuevos"
 }
