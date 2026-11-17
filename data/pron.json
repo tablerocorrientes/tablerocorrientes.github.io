@@ -1,9 +1,9 @@
 {
- "actualizado": "16/11/2026, 19:12 h",
+ "actualizado": "16/11/2026, 21:15 h",
  "metodo": "estimación derivada de modelos y del parte del SMN",
  "estado_alertas": "VERIFICADO_CON_ALERTAS",
  "estado_verificado": {
-  "fecha": "16/11/2026, 19:12 h",
+  "fecha": "16/11/2026, 21:15 h",
   "fuente": "SMN y COE de Corrientes"
  },
  "met_archivo": {
@@ -17,22 +17,22 @@
   {
    "id_oficial": null,
    "tipo": "alerta",
-   "aviso": "Alerta amarilla por tormentas del Servicio Meteorológico Nacional para la provincia de Corrientes, vigente desde las 12:00 h del lunes 16/11 hasta las 11:59 h del martes 17/11. El resumen del SMN no detalla qué departamentos alcanza.",
+   "aviso": "Alerta amarilla por tormentas del Servicio Meteorológico Nacional para la provincia de Corrientes, vigente desde las 18:00 h del lunes 16/11 hasta las 17:59 h del martes 17/11. El resumen del SMN no detalla qué departamentos alcanza.",
    "nivel": "amarillo",
    "fenomeno": "tormenta",
    "rango_mm": null,
    "zonas": [
     "Corrientes (el SMN no detalla los departamentos)"
    ],
-   "desde": "16/11/2026, 12:00 h",
-   "hasta": "17/11/2026, 11:59 h",
-   "desde_iso": "2026-11-16T12:00:00-03:00",
-   "hasta_iso": "2026-11-17T11:59:00-03:00",
-   "emision": "16/11/2026, 09:51 h",
+   "desde": "16/11/2026, 18:00 h",
+   "hasta": "17/11/2026, 17:59 h",
+   "desde_iso": "2026-11-16T18:00:00-03:00",
+   "hasta_iso": "2026-11-17T17:59:00-03:00",
+   "emision": "16/11/2026, 17:55 h",
    "incluye_corrientes": true,
    "incluye_capital": null,
    "url": "https://www.smn.gob.ar/alertas",
-   "origen": "Servicio Meteorológico Nacional, página de alertas consultada el 16/11/2026 a las 13:00 h"
+   "origen": "Servicio Meteorológico Nacional, página de alertas consultada el 16/11/2026 a las 20:40 h"
   },
   {
    "id_oficial": "2026-0074-AT",
@@ -68,7 +68,7 @@
     "mm": 17.1,
     "horas": 9
    },
-   "smn": "Alerta amarilla por tormentas del SMN para Corrientes desde las 06:00 h de hoy hasta las 05:59 h del martes 17/11 (sin departamentos detallados) y alerta amarilla del COE (fuente SMN) para toda la provincia el martes 17/11 de 03:00 a 15:00 h, con 30 a 70 mm. Parte del SMN difundido por La Nación (16:45 h): hoy por la tarde y la noche mayormente nublado, 0 % de lluvia; mañana tormentas fuertes por la mañana (100 %) y chaparrones por la tarde y la noche (40 %).",
+   "smn": "Alerta amarilla por tormentas del SMN para Corrientes desde las 18:00 h de hoy hasta las 17:59 h del martes 17/11 (sin departamentos detallados) y alerta amarilla del COE (fuente SMN) para toda la provincia el martes 17/11 de 03:00 a 15:00 h, con 30 a 70 mm. Parte del SMN difundido por La Nación (16:45 h): hoy por la tarde y la noche mayormente nublado, 0 % de lluvia; mañana tormentas fuertes por la mañana (100 %) y chaparrones por la tarde y la noche (40 %).",
    "modelos": {
     "hoy": [
      [
@@ -509,8 +509,8 @@
   ]
  },
  "horario_act": "16/11/2026, 18:32 h",
- "consultado": "16/11/2026, 19:12 h",
- "consulta_resultado": "sin cambios",
+ "consultado": "16/11/2026, 21:15 h",
+ "consulta_resultado": "datos nuevos",
  "extendido": {
   "actualizado": "16/11/2026, 17:39 h",
   "aviso": "Pronóstico extendido informativo. No se usa en los cálculos del simulador.",

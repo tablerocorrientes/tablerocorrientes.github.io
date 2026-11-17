@@ -1,5 +1,5 @@
 {
- "actualizado": "16/11/2026, 18:32 h",
+ "actualizado": "16/11/2026, 21:15 h",
  "explicacion": "Cada actualización suma registros: barrios afectados con la altura del río o la lluvia de ese día, obras terminadas, reportes de vecinos verificados y la comparación entre lo pronosticado y lo que ocurrió. Con esa comparación se detectan desvíos y se proponen ajustes a los cálculos, que revisa el autor del tablero.",
  "contadores": {
   "barrios_documentados": 87,
@@ -7,9 +7,16 @@
   "reportes_verificados": 0,
   "comparaciones_rio": 0,
   "comparaciones_lluvia": 4,
-  "aprendizajes": 58
+  "aprendizajes": 59
  },
  "aprendizajes": [
+  {
+   "fecha": "16/11/2026",
+   "tipo": "alerta",
+   "lugar": "Provincia de Corrientes",
+   "dato": "El SMN actualizó su alerta amarilla por tormentas: rige desde las 18:00 h del 16/11 hasta las 17:59 h del 17/11, sin detallar departamentos.",
+   "fuente": "Servicio Meteorológico Nacional, 16/11/2026, 20:40 h"
+  },
   {
    "fecha": "16/11/2026",
    "tipo": "rio",

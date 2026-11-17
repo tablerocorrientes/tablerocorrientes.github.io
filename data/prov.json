@@ -1,7 +1,7 @@
 {
  "estado_alertas": "VERIFICADO_CON_ALERTAS",
  "estado_verificado": {
-  "fecha": "16/11/2026, 19:12 h",
+  "fecha": "16/11/2026, 21:15 h",
   "fuente": "SMN y COE de Corrientes"
  },
  "met_archivo": {
@@ -1212,22 +1212,22 @@
   {
    "id_oficial": null,
    "tipo": "alerta",
-   "aviso": "Alerta amarilla por tormentas del Servicio Meteorológico Nacional para la provincia de Corrientes, vigente desde las 12:00 h del lunes 16/11 hasta las 11:59 h del martes 17/11. El resumen del SMN no detalla qué departamentos alcanza.",
+   "aviso": "Alerta amarilla por tormentas del Servicio Meteorológico Nacional para la provincia de Corrientes, vigente desde las 18:00 h del lunes 16/11 hasta las 17:59 h del martes 17/11. El resumen del SMN no detalla qué departamentos alcanza.",
    "nivel": "amarillo",
    "fenomeno": "tormenta",
    "rango_mm": null,
    "zonas": [
     "Corrientes (el SMN no detalla los departamentos)"
    ],
-   "desde": "16/11/2026, 12:00 h",
-   "hasta": "17/11/2026, 11:59 h",
-   "desde_iso": "2026-11-16T12:00:00-03:00",
-   "hasta_iso": "2026-11-17T11:59:00-03:00",
-   "emision": "16/11/2026, 09:51 h",
+   "desde": "16/11/2026, 18:00 h",
+   "hasta": "17/11/2026, 17:59 h",
+   "desde_iso": "2026-11-16T18:00:00-03:00",
+   "hasta_iso": "2026-11-17T17:59:00-03:00",
+   "emision": "16/11/2026, 17:55 h",
    "incluye_corrientes": true,
    "incluye_capital": null,
    "url": "https://www.smn.gob.ar/alertas",
-   "origen": "Servicio Meteorológico Nacional, página de alertas consultada el 16/11/2026 a las 13:00 h"
+   "origen": "Servicio Meteorológico Nacional, página de alertas consultada el 16/11/2026 a las 20:40 h"
   },
   {
    "id_oficial": "2026-0074-AT",
