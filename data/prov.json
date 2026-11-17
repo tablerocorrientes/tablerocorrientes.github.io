@@ -1,8 +1,8 @@
 {
  "estado_alertas": "VERIFICADO_CON_ALERTAS",
  "estado_verificado": {
-  "fecha": "17/11/2026, 07:10 h",
-  "fuente": "SMN (leído desde Corrientes, 04:43 h) y COE de Corrientes (07:01 h)"
+  "fecha": "17/11/2026, 07:12 h",
+  "fuente": "SMN (leído desde Corrientes, 04:43 h) y COE de Corrientes (07:12 h)"
  },
  "met_archivo": {
   "nombre": "vigilancia_meteorologica_20261113_183508.json",
