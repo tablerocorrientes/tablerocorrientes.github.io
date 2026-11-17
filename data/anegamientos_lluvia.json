@@ -1,0 +1,23 @@
+{
+ "actualizado": "17/11/2026, 11:15 h",
+ "criterio": "Calles, barrios o zonas anegadas por LLUVIA (no por la crecida de los ríos). Se registra cada caso con fecha, hora, lugar, lluvia medida y fuente: Defensa Civil, municipios, medios y observaciones verificadas. Los días sin registros también quedan anotados en la bitácora.",
+ "registros": [
+  {
+   "fecha": "2026-11-17",
+   "hora": "07:00",
+   "localidad": "Corrientes Capital",
+   "zona": "Centro, sector de Mendoza y Bolívar",
+   "descripcion": "Agua de cordón a cordón en un sector del Centro (no en todo) y bocas de tormenta devolviendo agua hacia la calle.",
+   "lluvia": "11,5 mm entre las 8 y las 9 h (SNIH, estación 13805); Paraná en 6,36 m",
+   "fuente": "Observación con fotografías del autor del tablero",
+   "enlace": ""
+  }
+ ],
+ "bitacora": [
+  {
+   "fecha": "2026-11-17",
+   "localidad": "Corrientes Capital",
+   "nota": "Tormenta entre las 7 y las 9 h. Anegamiento en un sector del Centro (Mendoza y Bolívar). Pendiente: relevar partes de Defensa Civil y medios sobre otros barrios."
+  }
+ ]
+}
