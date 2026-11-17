@@ -1,6 +1,6 @@
 {
- "consultado": "17/11/2026, 13:35 h",
- "consultado_iso": "2026-11-17T13:35-03:00",
+ "consultado": "17/11/2026, 14:08 h",
+ "consultado_iso": "2026-11-17T14:08-03:00",
  "paginas": {
   "smn_alertas": {
    "url": "https://www.smn.gob.ar/alertas",
@@ -51,13 +51,14 @@
   "lanacion_clima_corrientes": {
    "url": "https://www.lanacion.com.ar/clima/corrientes/",
    "estado": 200,
-   "caracteres": 8220,
+   "caracteres": 8217,
    "archivo": "data/fuentes/lanacion_clima_corrientes.txt"
   },
   "noaa_enso": {
    "url": "https://cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc_Sp.html",
-   "estado": "error",
-   "detalle": "<urlopen error timed out>"
+   "estado": 200,
+   "caracteres": 4083,
+   "archivo": "data/fuentes/noaa_enso.txt"
   },
   "smn_datos_alertas": {
    "url": "https://ws.smn.gob.ar/alerts/type/AL",
