@@ -669,8 +669,8 @@ function tcProx(smn,llueve){
   var act=(smn||[]).some(function(a){if(a.incluye_corrientes===false)return false;var hs=a.hasta_iso?Date.parse(a.hasta_iso):NaN,ds=a.desde_iso?Date.parse(a.desde_iso):NaN;return (isNaN(hs)||hs>now)&&(isNaN(ds)||ds-now<864e5);});
   var activo=act||!!llueve;
   function f(d){return d?dia(d)+' '+hm(d):'';}
-  return {activo:activo,rio:f(sig(diarias)),lluvia:f(sig(c1)),pron:f(activo?sig(c2):sig(diarias)),
-    nota:activo?'<b style="color:#ffd27a">⚡ Frecuencia inteligente, modo alerta activo:</b> lluvia medida cada hora, alertas oficiales y pronóstico cada 2 horas, imagen satelital cada hora, mientras haya una alerta vigente o lluvia en curso.':'<b>⚡ Frecuencia inteligente, modo normal:</b> lluvia medida cada hora, ríos y pronóstico dos veces al día, alertas oficiales en tres controles diarios. Ante una alerta o lluvia, el sistema intensifica sus consultas en forma automática.'};
+  return {activo:activo,rio:f(sig(diarias)),lluvia:f(activo?sig([[0,0],[0,15],[0,30],[0,45]].concat([].concat.apply([],Array.from({length:24},function(_,h){return [[h,2],[h,17],[h,32],[h,47]];})))):sig(c1)),pron:f(activo?sig(c2):sig(diarias)),
+    nota:activo?'<b style="color:#ffd27a">⚡ Frecuencia inteligente, modo alerta activo:</b> lluvia medida, imagen satelital y fuentes oficiales cada 15 a 30 minutos, alertas y pronóstico verificados cada 2 horas, mientras haya una alerta vigente o lluvia en curso.':'<b>⚡ Frecuencia inteligente, modo normal:</b> lluvia medida cada hora, ríos y pronóstico dos veces al día, alertas oficiales en tres controles diarios. Ante una alerta o lluvia, el sistema intensifica sus consultas en forma automática.'};
 }
 function tcPd(s){var m=/(\d{1,2})\/(\d{1,2})\/(\d{4})\D+(\d{1,2}):(\d{2})/.exec(String(s||''));return m?new Date(+m[3],+m[2]-1,+m[1],+m[4],+m[5]):null;}
 function tcHm(d){return String(d.getHours()).padStart(2,'0')+':'+String(d.getMinutes()).padStart(2,'0')+' h';}
