@@ -1,5 +1,5 @@
 {
- "actualizado": "17/11/2026, 05:20 h",
+ "actualizado": "17/11/2026, 07:10 h",
  "dias": {
   "2026-11-02": [
    0,
@@ -538,18 +538,18 @@
    "texto": "Alerta naranja por tormentas del Servicio Meteorológico Nacional, difundida por el COE de Corrientes (2026-0022-NT), que incluyó a la Capital el sábado 14/11 desde las 06:52 h hasta las 12:00 h, con 80 a 120 mm posibles. Luego rigió una alerta amarilla (2026-0071-AT) hasta las 13:00 h y otra alerta amarilla (2026-0073-AT), también para la Capital, de 14:00 a 22:00 h, con 30 a 70 mm posibles. Desde las 22:00 h no hay alertas vigentes para la Capital."
   },
   "2026-11-17": {
-   "nivel": "amarillo",
+   "nivel": "rojo",
    "incluye_capital": true,
-   "zonas": "Toda la provincia de Corrientes",
-   "desde": "17/11/2026, 03:00 h",
-   "hasta": "17/11/2026, 15:00 h",
-   "desde_iso": "2026-11-17T03:00:00-03:00",
-   "hasta_iso": "2026-11-17T15:00:00-03:00",
-   "emision": "16/11/2026, 06:53 h",
-   "emision_iso": "2026-11-16T06:53:00-03:00",
+   "zonas": "Capital, Empedrado, San Cosme y San Luis del Palmar",
+   "desde": "17/11/2026, 06:25 h",
+   "hasta": "17/11/2026, 08:25 h",
+   "desde_iso": "2026-11-17T06:25:00-03:00",
+   "hasta_iso": "2026-11-17T08:25:00-03:00",
+   "emision": "17/11/2026, 06:38 h",
+   "emision_iso": "2026-11-17T06:38:00-03:00",
    "min": 30,
    "max": 70,
-   "texto": "Alerta amarilla por tormentas difundida por el COE de Corrientes (2026-0074-AT), con fuente del Servicio Meteorológico Nacional, para toda la provincia, incluida la Capital, el martes 17/11 de 03:00 a 15:00 h. Se esperan tormentas de variada intensidad, algunas localmente fuertes, con 30 a 70 mm posibles. El SMN además emitió el 17/11 a las 00:13 h una alerta naranja por tormentas para zonas del centro, sur y oeste de la provincia y una amarilla para el norte y este; no detalla departamentos, por lo que no se confirma que la naranja incluya a la Capital."
+   "texto": "Alerta roja (aviso a corto plazo) por lluvias intensas, ráfagas y tormentas difundida por el COE de Corrientes (2026-0130-CP), con fuente del Servicio Meteorológico Nacional, para Capital, Empedrado, San Cosme y San Luis del Palmar el martes 17/11 de 06:25 a 08:25 h. Además rige la alerta amarilla 2026-0075-AT para la Capital de 06:33 a 12:00 h, con 30 a 70 mm posibles, y la 2026-0074-AT de 03:00 a 15:00 h para toda la provincia."
   }
  },
  "rio": {
