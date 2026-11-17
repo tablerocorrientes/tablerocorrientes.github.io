@@ -1,5 +1,5 @@
 Fuente: https://coe.corrientes.gob.ar/
-Consultado: 17/11/2026, 01:10 h
+Consultado: 17/11/2026, 03:09 h
 
 1 alerta vigente — COE Corrientes
 Alertas del COE - Comando Operativo de Emergencias
@@ -14,12 +14,12 @@ Alertas hidrometeorológicas
 Avisos emitidos por el Comando Operativo de Emergencias de Corrientes por
 crecidas, tormentas, lluvias y vientos.
 Tocá una alerta para ver la pieza completa con el mapa del área alcanzada.
-Vigentes y por empezar 1
+Vigentes ahora 1
 Alerta Amarilla
-Todavía no empezó
+En curso
 Tormentas
 Toda la provincia
-Empieza martes 17/11 · 03:00 h
+Empezó martes 17/11 · 03:00 h
 Termina martes 17/11 · 15:00 h
 Canal oficial
 Recibí las alertas en tu teléfono
