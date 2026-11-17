@@ -1,6 +1,6 @@
 {
- "consultado": "17/11/2026, 18:11 h",
- "consultado_iso": "2026-11-17T18:11-03:00",
+ "consultado": "17/11/2026, 18:26 h",
+ "consultado_iso": "2026-11-17T18:26-03:00",
  "paginas": {
   "smn_alertas": {
    "url": "https://www.smn.gob.ar/alertas",
@@ -51,7 +51,7 @@
   "lanacion_clima_corrientes": {
    "url": "https://www.lanacion.com.ar/clima/corrientes/",
    "estado": 200,
-   "caracteres": 8198,
+   "caracteres": 8331,
    "archivo": "data/fuentes/lanacion_clima_corrientes.txt"
   },
   "noaa_enso": {
@@ -142,9 +142,8 @@
   },
   "munired_municipio_corrientes_p2": {
    "url": "https://munired.mcypcorrientes.gob.ar/noticias/corrientes?page=2",
-   "estado": 200,
-   "notas": 8,
-   "archivo": "data/fuentes/portales/munired_municipio_corrientes_p2.txt"
+   "estado": "error",
+   "detalle": "<urlopen error _ssl.c:1063: The handshake operation timed out>"
   },
   "diputados_corrientes": {
    "url": "https://hcdcorrientes.gov.ar/",
