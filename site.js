@@ -35,6 +35,7 @@
   '.ag{border-radius:18px;padding:14px 16px;margin:10px 0;box-shadow:0 6px 20px rgba(0,0,0,.25);text-align:left}.ag-naranja,.ag-rojo{animation:agP 1.4s ease-in-out infinite}'+
   '.ag-t{font:900 2rem/1.05 Archivo,system-ui,sans-serif;letter-spacing:.01em}.ag-s{font-weight:900;font-size:1rem;margin:4px 0 8px;letter-spacing:.03em}.ag-r{font-size:1rem;margin-top:6px;line-height:1.35}'+
   '.ag-k{margin-top:10px;padding:8px 10px;border-radius:10px;background:rgba(0,0,0,.18);font-size:.86rem;line-height:1.35}.ag-o{margin:8px 0 0;padding-left:18px;font-size:.88rem}.ag-f{margin-top:8px;font-size:.72rem;opacity:.85}'+
+  '.ag-ini small,.ag-r small{display:block;font-size:.72rem;opacity:.85;margin-top:2px}.ag-z{margin:10px 0;padding:10px 12px;border-radius:14px;background:var(--card,#fff);border:1px solid var(--line,#ccd);font-size:.86rem}.ag-zr{border-left:5px solid;padding:6px 8px;margin-top:8px;border-radius:6px;background:rgba(0,0,0,.03)}'+
   '.ag-h{display:flex;align-items:flex-end;gap:2px;height:36px;margin-top:6px}.ag-h i{flex:1;background:currentColor;opacity:.85;border-radius:2px 2px 0 0}.ag-hx{display:flex;justify-content:space-between;font-size:.66rem;opacity:.8}'+
   '@keyframes agP{0%,100%{box-shadow:0 0 0 0 rgba(239,125,18,.8)}50%{box-shadow:0 0 0 10px rgba(239,125,18,0)}}'+
   '#tc-inst{margin:8px 12px!important;padding:8px!important}'+
@@ -191,7 +192,18 @@
     if(/toda la provincia|toda corrientes|todo el territorio/.test(z))return true;if(d&&z.indexOf(d)>=0)return true;
     var w=z.split(/[^a-z]+/);for(var i=0;i<w.length;i++){var r=REG[w[i]];if(r&&d&&r.indexOf(d)>=0)return true;}
     if(!/norte|sur|este|oeste|centro/.test(z)&&/provincia de corrientes|corrientes/.test(z))return true;return false;}
-  window.tcAlertaGrande=function(smn,dep,nombre,pron,ciudad){
+  var EST_DEP={'ituzaingo':'ITUZAINGO','san miguel':'ITUZAINGO','santo tome':'ITUZAINGO','general alvear':'PASO_DE_LOS_LIBRES_AERO','san martin':'PASO_DE_LOS_LIBRES_AERO','paso de los libres':'PASO_DE_LOS_LIBRES_AERO','monte caseros':'MONTE_CASEROS_AERO','curuzu cuatia':'MONTE_CASEROS_AERO','mercedes':'MONTE_CASEROS_AERO','sauce':'MONTE_CASEROS_AERO'};
+  var EST_NOM={CORRIENTES_AERO:'Corrientes Aero',ITUZAINGO:'Ituzaingó',PASO_DE_LOS_LIBRES_AERO:'Paso de los Libres',MONTE_CASEROS_AERO:'Monte Caseros'};
+  var M5=null;function modelo(){if(!M5)M5=fetch('/data/fuentes/smn_pronostico_5_dias.txt',{cache:'no-cache'}).then(function(r){return r.ok?r.text():'';}).then(function(tx){var o={},cur=null,MS={ENE:0,FEB:1,MAR:2,ABR:3,MAY:4,JUN:5,JUL:6,AGO:7,SEP:8,SET:8,OCT:9,NOV:10,DIC:11};
+      tx.split('\n').forEach(function(l){var s=l.trim();if(/^[A-Z_]{4,}$/.test(s)){cur=s;o[cur]=[];return;}var m=/^(\d{2})\/([A-Z]{3})\/(\d{4})\s+(\d{2})Hs\.\s+\S+\s+\d+\s*\|\s*\d+\s+([\d.]+)/.exec(s);if(m&&cur&&MS[m[2]]!=null)o[cur].push({t:new Date(+m[3],MS[m[2]],+m[1],+m[4]),mm:+m[5]});});return o;}).catch(function(){return {};});return M5;}
+  window.tcInicioLluvia=function(dep,el){if(!el)return;var st=EST_DEP[nrm(dep)]||'CORRIENTES_AERO';modelo().then(function(o){var L=o[st]||[];if(!L.length){el.remove();return;}
+    var now=new Date(),fut=L.filter(function(x){return x.t>now;}),ini=null;for(var i=0;i<fut.length;i++){if(fut[i].mm>=0.5){ini=fut[i];break;}}
+    var lim=new Date(now.getTime()+864e5),t24=fut.filter(function(x){return x.t<=lim;}).reduce(function(s,x){return s+x.mm;},0);
+    var DS=['dom','lun','mar','mié','jue','vie','sáb'],dn=function(x){var k=Math.round((new Date(x.getFullYear(),x.getMonth(),x.getDate())-new Date(now.getFullYear(),now.getMonth(),now.getDate()))/864e5);return (k===0?'hoy':k===1?'mañana':'')+' '+DS[x.getDay()]+' '+x.getDate()+'/'+(x.getMonth()+1);};
+    if(ini){var a=new Date(ini.t.getTime()-3*36e5),mx=fut.slice(fut.indexOf(ini),fut.indexOf(ini)+4).reduce(function(m,x){return Math.max(m,x.mm);},0);
+      el.innerHTML='⏱️ <b>Inicio estimado de la lluvia: '+dn(ini.t)+', entre las '+a.getHours()+' y las '+(ini.t.getHours()||24)+' h</b>'+(mx>=5?', con el momento más intenso de hasta '+String(mx).replace('.',',')+' mm en 3 h':'')+'. <small>Modelo numérico del SMN, estación '+EST_NOM[st]+'; puede diferir de la alerta y de la tormenta real.</small>';}
+    else el.innerHTML='⏱️ <b>El modelo numérico del SMN no prevé lluvia significativa en las próximas horas</b> para la estación '+EST_NOM[st]+'. <small>Las tormentas de la alerta pueden ser aisladas y difíciles de anticipar en un horario: siga el radar.</small>';});};
+  window.tcAlertaGrande=function(smn,dep,nombre,pron,ciudad){setTimeout(function(){[].forEach.call(document.querySelectorAll('.ag-ini:empty'),function(el){tcInicioLluvia(el.getAttribute('data-dep'),el);});},50);
     var now=new Date(),S=(smn||[]).filter(function(a){if(a.incluye_corrientes===false)return false;var h=a.hasta_iso?Date.parse(a.hasta_iso):NaN;return isNaN(h)||h>now;}).filter(function(a){return alcanza(a,dep);});
     if(!S.length)return '';var ORD={rojo:3,naranja:2,amarillo:1};S.sort(function(x,y){return (ORD[y.nivel]||0)-(ORD[x.nivel]||0)||Date.parse(x.desde_iso||0)-Date.parse(y.desde_iso||0);});
     var a=S[0],COL={rojo:['#c0392b','#fff'],naranja:['#ef7d12','#fff'],amarillo:['#f6d55c','#2b2300']},c=COL[a.nivel]||COL.amarillo,DS=['domingo','lunes','martes','miércoles','jueves','viernes','sábado'];
@@ -211,12 +223,16 @@
     return '<div class="ag ag-'+(a.nivel||'amarillo')+'" style="background:'+c[0]+';color:'+c[1]+'">'
       +'<div class="ag-t">⚠️ ALERTA '+({amarillo:'AMARILLA',naranja:'NARANJA',rojo:'ROJA'}[a.nivel]||String(a.nivel||'').toUpperCase())+'</div><div class="ag-s">POR '+String(fen).toUpperCase()+(est?' · '+est:'')+'</div>'
       +'<div class="ag-r">📍 Rige para <b>'+(nombre||'')+'</b>'+(dep?' (departamento '+dep+')':'')+'</div>'
-      +(cu?'<div class="ag-r">🕒 <b>'+cu+'</b></div>':'')
+      +(cu?'<div class="ag-r">🕒 Vigencia de la alerta: <b>'+cu+'</b>'+(d&&now<d?' · <b>comienza a las '+hh(d)+' h</b>':'')+'</div>':'')+'<div class="ag-r ag-ini" data-dep="'+(dep||'')+'"></div>'
       +(mm?'<div class="ag-r">'+(tor?'⛈️':'🌧️')+' Lluvia acumulada prevista: <b>'+mm[0]+' a '+mm[1]+' mm</b></div>':'')
       +(dia?'<div class="ag-r">🌦️ Pronóstico: <b>'+dia.resumen+'</b>'+(dia.prob!=null?', '+dia.prob+' % de probabilidad':'')+'</div>':'')+hor
       +(tor?'<div class="ag-k"><b>Ante tormentas:</b> no circule por calles anegadas, asegure objetos sueltos, no se refugie bajo árboles y desconecte artefactos eléctricos. Emergencias: 103.</div>':'')
       +(otras?'<ul class="ag-o">'+otras+'</ul>':'')
       +'<div class="ag-f">Fuente: '+(a.origen?String(a.origen).split(',')[0]:'SMN')+(z?'. Zona: '+z:'')+'</div></div>';};
+  window.tcAlertasZonas=function(smn){var now=new Date(),S=(smn||[]).filter(function(a){if(a.incluye_corrientes===false)return false;var h=a.hasta_iso?Date.parse(a.hasta_iso):NaN;return isNaN(h)||h>now;});if(!S.length)return '';
+    var DS=['dom','lun','mar','mié','jue','vie','sáb'],hh=function(x){return x.getHours()+(x.getMinutes()?':'+String(x.getMinutes()).padStart(2,'0'):'');},C={rojo:'#c0392b',naranja:'#ef7d12',amarillo:'#e0b416'},N={rojo:'roja',naranja:'naranja',amarillo:'amarilla'};
+    return '<div class="ag-z"><b>Alertas vigentes por zona de la provincia</b>'+S.map(function(a){var d=a.desde_iso?new Date(a.desde_iso):null,f=a.hasta_iso?new Date(a.hasta_iso):null;var en=d&&now>=d;
+      return '<div class="ag-zr" style="border-left-color:'+(C[a.nivel]||C.amarillo)+'"><b>Alerta '+(N[a.nivel]||a.nivel)+'</b> por '+(a.fenomeno||'tormentas')+(d&&f?' · '+(en?'<b>en curso</b> desde las '+hh(d)+' h, hasta '+DS[f.getDay()]+' '+hh(f)+' h':'<b>comienza '+DS[d.getDay()]+' '+d.getDate()+'/'+(d.getMonth()+1)+' a las '+hh(d)+' h</b>, hasta las '+hh(f)+' h'):'')+(a.rango_mm?' · '+a.rango_mm[0]+' a '+a.rango_mm[1]+' mm':'')+'<br><small>📍 '+[].concat(a.zonas||[]).join('; ')+'</small></div>';}).join('')+'</div>';};
   /* 5. Arranque */
   function iniciar(){
     estilo();menu();
