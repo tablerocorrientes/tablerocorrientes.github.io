@@ -1,15 +1,16 @@
 {
- "actualizado": "17/11/2026, 09:09 h",
+ "actualizado": "17/11/2026, 18:37 h",
  "aviso": "Inferencias propias del tablero, elaboradas con procesamiento lógico a partir de sus registros y de fuentes oficiales. No son avisos oficiales: ante una emergencia, siga las indicaciones de Defensa Civil y del SMN.",
  "vigentes": [
   {
    "id": "rio-parana-bajante",
    "tema": "🌊 Río Paraná",
    "titulo": "El Paraná en la Capital sigue bajando despacio, bajo la cota de alerta",
-   "texto": "Marcó 6,36 m el 17/11, 10 cm menos que el 16/11 al mediodía, unos 5 a 10 cm por día. Aguas arriba también baja (Itatí 6,38 m, Ituzaingó 2,30 m). El INA prevé que siga oscilando o bajando despacio y luego se estabilice en valores altos para la época; las tormentas de hoy y mañana no alcanzan para cambiar esa tendencia.",
+   "texto": "Marcó 6,29 m a las 12:00 h del 17/11, 7 cm menos que en la lectura de la mañana y 17 cm menos que el 16/11 al mediodía: baja unos 5 a 10 cm por día. Aguas arriba también baja (Itatí 6,20 m, Paso de la Patria 6,33 m), aunque Ituzaingó subió levemente a 2,40 m. El INA prevé que siga oscilando o bajando despacio y luego se estabilice en valores altos para la época.",
    "base": [
     "Prefectura Naval Argentina (rioparana.com.ar), 16 y 17/11/2026",
-    "INA, reporte diario del 16/11/2026"
+    "INA, reporte diario del 16/11/2026",
+    "Prefectura Naval Argentina (rioparana.com.ar), lecturas del 17/11/2026 a las 12:00 y 14:00 h"
    ],
    "confianza": "alta",
    "horizonte": "próximos 3 días",
@@ -65,7 +66,7 @@
    "id": "evacuados-sin-regreso",
    "tema": "🏘️ Barrios",
    "titulo": "Aunque el río baja, las familias evacuadas todavía no vuelven a sus casas",
-   "texto": "Al 13/11 seguían fuera de sus casas unas 1.650 personas en cuatro localidades: Capital (690), Itatí (518), Paso de la Patria (228) e Isla Apipé (211). El Paraná baja unos 4 cm por día en la Capital, pero sigue sobre la alerta (6,68 m) y el INA anticipa posibles lluvias en la cuenca hacia fines de noviembre. Por eso es probable que el regreso sea lento y que las autoridades pidan esperar, como ya ocurrió en Isla Apipé.",
+   "texto": "Al 13/11 seguían fuera de sus casas unas 1.650 personas en cuatro localidades: Capital (690), Itatí (518), Paso de la Patria (228) e Isla Apipé (211). El Paraná baja unos 4 cm por día en la Capital, y marcó 6,29 m el 17/11, ya por debajo de la alerta (6,50 m), y el INA anticipa posibles lluvias en la cuenca hacia fines de noviembre. Por eso es probable que el regreso sea lento y que las autoridades pidan esperar, como ya ocurrió en Isla Apipé.",
    "base": [
     "Agencia Federal de Emergencias, cifras del 13/11 (Infobae)",
     "Prefectura Naval Argentina, Corrientes 6,68 m el 14/11",
@@ -79,6 +80,39 @@
   }
  ],
  "historial": [
+  {
+   "id": "evacuados-sin-regreso",
+   "tema": "🏘️ Barrios",
+   "titulo": "Aunque el río baja, las familias evacuadas todavía no vuelven a sus casas",
+   "texto": "Al 13/11 seguían fuera de sus casas unas 1.650 personas en cuatro localidades: Capital (690), Itatí (518), Paso de la Patria (228) e Isla Apipé (211). El Paraná baja unos 4 cm por día en la Capital, y marcó 6,29 m el 17/11, ya por debajo de la alerta (6,50 m), y el INA anticipa posibles lluvias en la cuenca hacia fines de noviembre. Por eso es probable que el regreso sea lento y que las autoridades pidan esperar, como ya ocurrió en Isla Apipé.",
+   "base": [
+    "Agencia Federal de Emergencias, cifras del 13/11 (Infobae)",
+    "Prefectura Naval Argentina, Corrientes 6,68 m el 14/11",
+    "INA, informe diario del 13/11",
+    "Intendente de Isla Apipé (El Monterizo, 11/11)"
+   ],
+   "confianza": "media",
+   "horizonte": "próximas semanas",
+   "ambito": "global",
+   "localidad": "Provincia de Corrientes",
+   "fecha": "17/11/2026, 18:37 h"
+  },
+  {
+   "id": "rio-parana-bajante",
+   "tema": "🌊 Río Paraná",
+   "titulo": "El Paraná en la Capital sigue bajando despacio, bajo la cota de alerta",
+   "texto": "Marcó 6,29 m a las 12:00 h del 17/11, 7 cm menos que en la lectura de la mañana y 17 cm menos que el 16/11 al mediodía: baja unos 5 a 10 cm por día. Aguas arriba también baja (Itatí 6,20 m, Paso de la Patria 6,33 m), aunque Ituzaingó subió levemente a 2,40 m. El INA prevé que siga oscilando o bajando despacio y luego se estabilice en valores altos para la época.",
+   "base": [
+    "Prefectura Naval Argentina (rioparana.com.ar), 16 y 17/11/2026",
+    "INA, reporte diario del 16/11/2026",
+    "Prefectura Naval Argentina (rioparana.com.ar), lecturas del 17/11/2026 a las 12:00 y 14:00 h"
+   ],
+   "confianza": "alta",
+   "horizonte": "próximos 3 días",
+   "ambito": "global",
+   "localidad": "Corrientes Capital",
+   "fecha": "17/11/2026, 18:37 h"
+  },
   {
    "id": "rio-uruguay-pico",
    "tema": "🌊 Río Uruguay",
