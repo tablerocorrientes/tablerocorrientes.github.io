@@ -1,7 +1,7 @@
 {
  "estado_alertas": "VERIFICADO_CON_ALERTAS",
  "estado_verificado": {
-  "fecha": "17/11/2026, 17:20 h",
+  "fecha": "17/11/2026, 19:20 h",
   "fuente": "SMN y COE de Corrientes"
  },
  "met_archivo": {
@@ -11,7 +11,7 @@
   "fecha": "13/11/2026, 18:35 h"
  },
  "met_revision": "aae6c54b1ab7086a927cf2e4bb8e34a53a584e781ba42ff90ab9d653046ddc38",
- "actualizado": "17/11/2026, 18:37 h",
+ "actualizado": "17/11/2026, 19:20 h",
  "localidades": [
   {
    "n": "Corrientes Capital",
@@ -449,7 +449,7 @@
     "mm": 30.7,
     "horas": 21
    },
-   "smn": "Alerta amarilla del SMN por tormenta para Corrientes (emitida a las 11:50 h) desde las 12:00 h del 17/11 hasta las 11:59 h del 18/11, sin departamentos detallados; la alerta naranja anterior fue reemplazada. COE de Corrientes (fuente SMN): alerta amarilla para la Capital el 18/11 de 05:00 a 12:00 h, con 30 a 70 mm; las alertas del COE del 17/11 vencieron a las 12:00 y 12:04 h. Parte del SMN difundido por La Nación (18:16 h del 17/11): esta noche tormentas aisladas (40 %); mañana miércoles tormentas fuertes por la mañana (70 %) y por la tarde (40 %) y chaparrones por la noche (40 %).",
+   "smn": "Alerta amarilla del SMN por tormenta para Corrientes (emitida a las 11:50 h) desde las 12:00 h del 17/11 hasta las 11:59 h del 18/11, sin departamentos detallados; la alerta naranja anterior fue reemplazada. COE de Corrientes (fuente SMN): alerta amarilla para la Capital el 18/11 de 05:00 a 12:00 h, con 30 a 70 mm; las alertas del COE del 17/11 vencieron a las 12:00 y 12:04 h. Parte del SMN difundido por La Nación (18:16 h del 17/11): esta noche tormentas aisladas (40 %); mañana miércoles tormentas fuertes por la mañana (70 %) y por la tarde (40 %) y chaparrones por la noche (40 %). A las 18:40 h el COE (fuente SMN) emitió una alerta naranja para la Capital y otros 23 departamentos el 18/11 de 06:00 a 13:00 h, con 70 a 120 mm y ráfagas de más de 90 km/h, y una alerta amarilla para Monte Caseros; sigue vigente la amarilla del COE de 05:00 a 12:00 h.",
    "modelos": {
     "hoy": [
      [
@@ -1214,6 +1214,75 @@
    "incluye_capital": true,
    "url": "https://coe.corrientes.gob.ar/a/2026-0076-AT",
    "origen": "COE de Corrientes (reporte 2026-0076-AT), consultado el 17/11/2026 a las 11:13 h"
+  },
+  {
+   "id_oficial": "2026-0024-NT",
+   "tipo": "alerta",
+   "aviso": "Alerta naranja por tormentas, difundida por el COE de Corrientes con fuente del Servicio Meteorológico Nacional, para Bella Vista, Berón de Astrada, Capital, Concepción, Curuzú Cuatiá, Empedrado, Esquina, General Alvear, General Paz, Goya, Itatí, Ituzaingó, Lavalle, Mburucuyá, Mercedes, Paso de los Libres, Saladas, San Cosme, San Luis del Palmar, San Martín, San Miguel, San Roque, Santo Tomé, Sauce el miércoles 18/11 de 06:00 a 13:00 h. Se esperan tormentas de variada intensidad, algunas localmente fuertes, con ocasional caída de granizo y ráfagas que podrían superar los 90 km/h. Lluvia acumulada entre 70 y 120 mm, que puede ser superada en forma localizada.",
+   "nivel": "naranja",
+   "fenomeno": "tormenta",
+   "rango_mm": [
+    70,
+    120
+   ],
+   "zonas": [
+    "Bella Vista",
+    "Berón de Astrada",
+    "Capital",
+    "Concepción",
+    "Curuzú Cuatiá",
+    "Empedrado",
+    "Esquina",
+    "General Alvear",
+    "General Paz",
+    "Goya",
+    "Itatí",
+    "Ituzaingó",
+    "Lavalle",
+    "Mburucuyá",
+    "Mercedes",
+    "Paso de los Libres",
+    "Saladas",
+    "San Cosme",
+    "San Luis del Palmar",
+    "San Martín",
+    "San Miguel",
+    "San Roque",
+    "Santo Tomé",
+    "Sauce"
+   ],
+   "desde": "18/11/2026, 06:00 h",
+   "hasta": "18/11/2026, 13:00 h",
+   "desde_iso": "2026-11-18T06:00:00-03:00",
+   "hasta_iso": "2026-11-18T13:00:00-03:00",
+   "emision": "17/11/2026, 18:40 h",
+   "incluye_corrientes": true,
+   "incluye_capital": true,
+   "url": "https://coe.corrientes.gob.ar/a/2026-0024-NT",
+   "origen": "COE de Corrientes (reporte 2026-0024-NT), consultado el 17/11/2026 a las 19:15 h"
+  },
+  {
+   "id_oficial": "2026-0077-AT",
+   "tipo": "alerta",
+   "aviso": "Alerta amarilla por tormentas, difundida por el COE de Corrientes con fuente del Servicio Meteorológico Nacional, para Monte Caseros el miércoles 18/11 de 06:00 a 13:00 h. Se esperan tormentas de variada intensidad, algunas localmente fuertes, con ocasional caída de granizo y actividad eléctrica frecuente. Lluvia acumulada entre 30 y 70 mm, que puede ser superada en forma localizada.",
+   "nivel": "amarillo",
+   "fenomeno": "tormenta",
+   "rango_mm": [
+    30,
+    70
+   ],
+   "zonas": [
+    "Monte Caseros"
+   ],
+   "desde": "18/11/2026, 06:00 h",
+   "hasta": "18/11/2026, 13:00 h",
+   "desde_iso": "2026-11-18T06:00:00-03:00",
+   "hasta_iso": "2026-11-18T13:00:00-03:00",
+   "emision": "17/11/2026, 18:44 h",
+   "incluye_corrientes": true,
+   "incluye_capital": false,
+   "url": "https://coe.corrientes.gob.ar/a/2026-0077-AT",
+   "origen": "COE de Corrientes (reporte 2026-0077-AT), consultado el 17/11/2026 a las 19:13 h"
   }
  ]
 }

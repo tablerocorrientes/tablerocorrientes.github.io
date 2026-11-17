@@ -1,5 +1,5 @@
 {
- "actualizado": "17/11/2026, 18:37 h",
+ "actualizado": "17/11/2026, 19:20 h",
  "explicacion": "Cada actualización suma registros: barrios afectados con la altura del río o la lluvia de ese día, obras terminadas, reportes de vecinos verificados y la comparación entre lo pronosticado y lo que ocurrió. Con esa comparación se detectan desvíos y se proponen ajustes a los cálculos, que revisa el autor del tablero.",
  "contadores": {
   "barrios_documentados": 87,
@@ -7,9 +7,16 @@
   "reportes_verificados": 0,
   "comparaciones_rio": 2,
   "comparaciones_lluvia": 4,
-  "aprendizajes": 68
+  "aprendizajes": 69
  },
  "aprendizajes": [
+  {
+   "fecha": "17/11/2026",
+   "tipo": "alerta",
+   "lugar": "Corrientes Capital",
+   "dato": "El COE emitió a las 18:40 h una alerta naranja por tormentas para la Capital y otros 23 departamentos, el 18/11 de 06:00 a 13:00 h, con 70 a 120 mm posibles y ráfagas de más de 90 km/h.",
+   "fuente": "COE de Corrientes (2026-0024-NT), con fuente del SMN"
+  },
   {
    "fecha": "17/11/2026",
    "tipo": "rio",
