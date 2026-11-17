@@ -1,6 +1,6 @@
 {
- "consultado": "17/11/2026, 04:26 h",
- "consultado_iso": "2026-11-17T04:26-03:00",
+ "consultado": "17/11/2026, 05:09 h",
+ "consultado_iso": "2026-11-17T05:09-03:00",
  "paginas": {
   "smn_alertas": {
    "url": "https://www.smn.gob.ar/alertas",
@@ -33,9 +33,8 @@
   },
   "ina_reporte_diario": {
    "url": "https://alerta.ina.gob.ar/a5/diario/reporte_diario",
-   "estado": 200,
-   "caracteres": 16123,
-   "archivo": "data/fuentes/ina_reporte_diario.txt"
+   "estado": "error",
+   "detalle": "<urlopen error [Errno -3] Temporary failure in name resolution>"
   },
   "rioparana_alturas": {
    "url": "https://www.rioparana.com.ar",
@@ -51,7 +50,7 @@
   "lanacion_clima_corrientes": {
    "url": "https://www.lanacion.com.ar/clima/corrientes/",
    "estado": 200,
-   "caracteres": 8163,
+   "caracteres": 8176,
    "archivo": "data/fuentes/lanacion_clima_corrientes.txt"
   },
   "noaa_enso": {
