@@ -1,19 +1,19 @@
 {
- "consultado": "17/11/2026, 16:55 h",
- "consultado_iso": "2026-11-17T16:55:00-03:00",
+ "consultado": "17/11/2026, 20:40 h",
+ "consultado_iso": "2026-11-17T20:40:00-03:00",
  "fuente": "Servicio Meteorológico Nacional (www.smn.gob.ar/alertas), leído desde una conexión de Corrientes",
  "resultado": "con alertas",
  "alertas": [
   {
    "tipo": "alerta",
-   "nivel": "amarillo",
+   "nivel": "naranja",
    "fenomeno": "tormenta",
    "zonas": "Corrientes (el resumen por provincia no detalla departamentos)",
-   "desde": "17/11/2026, 12:00 h",
-   "hasta": "18/11/2026, 11:59 h",
-   "emision": "17/11/2026, 11:50 h",
-   "texto": "Resumen por provincia del SMN: Corrientes con alerta amarilla por tormenta. Sin aviso a muy corto plazo para Corrientes y sin alertas por lluvia, viento, niebla u otros fenómenos."
+   "desde": "17/11/2026, 18:00 h",
+   "hasta": "18/11/2026, 17:59 h",
+   "emision": "17/11/2026, 17:50 h",
+   "texto": "Resumen por provincia del SMN: Corrientes con \"Alerta naranja por tormenta\". Sin aviso a muy corto plazo vigente (la página de avisos indica \"No hay avisos\") y sin alertas por lluvia, viento, niebla u otros fenómenos."
   }
  ],
- "texto_pagina": "Alertas (fecha de emisión: 17/11/2026 11:50h; mapa para martes 17, miércoles 18 y jueves 19). Resumen por provincia: Información vigente desde las 12:00h de hoy martes 17 hasta las 11:59 horas de mañana miércoles 18 de noviembre de 2.026. Corrientes: ACP: -; Tormenta: Alerta amarillo por tormenta; Lluvia, Nevada, Viento, Viento zonda, Niebla, Polvo, Humo, Ceniza: -. (Chaco: aviso a muy corto plazo y alerta naranja por tormenta; Misiones: alerta naranja por tormenta.) Avisos a muy corto plazo vigentes en la página (TORMENTAS FUERTES CON LLUVIAS INTENSAS, RAFAGAS Y CAIDA DE GRANIZO; validez dos horas desde la emisión): 15:14h Chaco (25 de Mayo, Cmte Fernandez, Ldor Gral S. Martin, Maipu, Pres de la Plaza, Quitilipi, Sargento Cabral); 15:18h Formosa (Patino, Pirane) y Chaco (25 de Mayo, Cmte Fernandez, Gral Guemes, Independencia, Ldor Gral S. Martin, Maipu, Quitilipi, Sargento Cabral); 15:43h Mendoza (Gral Alvear, San Rafael) y La Pampa (Chalileo, Chical Co). Ninguno alcanza a Corrientes."
+ "texto_pagina": "Alertas (fecha de emisión: 17/11/2026 17:50h; mapa para martes 17, miércoles 18 y jueves 19). Resumen por provincia: Información vigente desde las 18:00h de hoy martes 17 hasta las 17:59 horas de mañana miércoles 18 de noviembre de 2.026. Corrientes: ACP: -; Tormenta: Alerta naranja por tormenta; Lluvia, Nevada, Viento, Viento zonda, Niebla, Polvo, Humo, Ceniza: -. Avisos a muy corto plazo: \"No hay avisos\" (ninguno vigente, tampoco para Corrientes)."
 }
