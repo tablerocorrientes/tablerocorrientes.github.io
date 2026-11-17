@@ -1,6 +1,6 @@
 {
- "consultado": "17/11/2026, 07:10 h",
- "consultado_iso": "2026-11-17T07:10-03:00",
+ "consultado": "17/11/2026, 07:15 h",
+ "consultado_iso": "2026-11-17T07:15-03:00",
  "paginas": {
   "smn_alertas": {
    "url": "https://www.smn.gob.ar/alertas",
@@ -22,6 +22,7 @@
     "https://coe.corrientes.gob.ar/a/2026-0128-CP",
     "https://coe.corrientes.gob.ar/a/2026-0127-CP",
     "https://coe.corrientes.gob.ar/a/2026-0126-CP",
+    "https://coe.corrientes.gob.ar/a/2026-0076-AT",
     "https://coe.corrientes.gob.ar/a/2026-0075-AT",
     "https://coe.corrientes.gob.ar/a/2026-0073-AT",
     "https://coe.corrientes.gob.ar/a/2026-0072-AT",
@@ -34,7 +35,7 @@
     "https://coe.corrientes.gob.ar/a/2026-0020-NT"
    ],
    "estado": 200,
-   "caracteres": 4475,
+   "caracteres": 4879,
    "archivo": "data/fuentes/coe_inicio.txt"
   },
   "ina_reporte_diario": {
@@ -114,7 +115,7 @@
   "coe_": {
    "url": "https://coe.corrientes.gob.ar/",
    "estado": 200,
-   "caracteres": 4475,
+   "caracteres": 4879,
    "archivo": "data/fuentes/coe_.txt"
   },
   "coe_2026_0130_CP": {
