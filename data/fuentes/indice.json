@@ -1,6 +1,6 @@
 {
- "consultado": "17/11/2026, 18:31 h",
- "consultado_iso": "2026-11-17T18:31-03:00",
+ "consultado": "17/11/2026, 18:33 h",
+ "consultado_iso": "2026-11-17T18:33-03:00",
  "paginas": {
   "smn_alertas": {
    "url": "https://www.smn.gob.ar/alertas",
@@ -137,17 +137,10 @@
   }
  },
  "pedidas": {
-  "https://www.infobae.com/sociedad/2026/11/17/las-tormentas-afectaron-a-varias-provincias-granizo-calles-anegadas-actividad-electrica-y-rafagas-de-mas-de-100-kmh/": {
-   "url": "https://www.infobae.com/sociedad/2026/11/17/las-tormentas-afectaron-a-varias-provincias-granizo-calles-anegadas-actividad-electrica-y-rafagas-de-mas-de-100-kmh/",
-   "estado": 200,
-   "caracteres": 11261,
-   "archivo": "data/fuentes/web/infobae_com_sociedad_2026_11_17_las_tormentas_afectaron_a_varias_provincias_granizo_calles.txt"
-  },
-  "https://panoramapais.com/noticias/tormentas-severas-azotaron-el-centro-y-norte-del-pais-granizo-inundaciones-y-rafagas-de-mas-de-100-km-h/17/11/2026/": {
-   "url": "https://panoramapais.com/noticias/tormentas-severas-azotaron-el-centro-y-norte-del-pais-granizo-inundaciones-y-rafagas-de-mas-de-100-km-h/17/11/2026/",
-   "estado": 200,
-   "caracteres": 6935,
-   "archivo": "data/fuentes/web/panoramapais_com_noticias_tormentas_severas_azotaron_el_centro_y_norte_del_pais_granizo_in.txt"
+  "https://api.open-meteo.com/v1/forecast?latitude=-27.47,-29.14,-30.01,-28.51,-29.18,-29.79,-29.71,-28.55,-28.05,-27.59,-30.25,-28.25&longitude=-58.83,-59.26,-59.53,-59.04,-58.08,-58.05,-57.09,-56.04,-56.03,-56.69,-57.64,-58.62&hourly=precipitation&timezone=America%2FArgentina%2FBuenos_Aires&forecast_days=6": {
+   "url": "https://api.open-meteo.com/v1/forecast?latitude=-27.47,-29.14,-30.01,-28.51,-29.18,-29.79,-29.71,-28.55,-28.05,-27.59,-30.25,-28.25&longitude=-58.83,-59.26,-59.53,-59.04,-58.08,-58.05,-57.09,-56.04,-56.03,-56.69,-57.64,-58.62&hourly=precipitation&timezone=America%2FArgentina%2FBuenos_Aires&forecast_days=6",
+   "estado": "error",
+   "detalle": "HTTP Error 429: Too Many Requests"
   }
  },
  "portales": {
@@ -176,5 +169,5 @@
    "archivo": "data/fuentes/portales/senado_corrientes.txt"
   }
  },
- "pedidas_consultado": "17/11/2026, 18:31 h"
+ "pedidas_consultado": "17/11/2026, 18:33 h"
 }
