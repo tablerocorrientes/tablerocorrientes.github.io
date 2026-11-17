@@ -1,6 +1,6 @@
 {
- "consultado": "16/11/2026, 19:43 h",
- "consultado_iso": "2026-11-16T19:43-03:00",
+ "consultado": "16/11/2026, 21:09 h",
+ "consultado_iso": "2026-11-16T21:09-03:00",
  "paginas": {
   "smn_alertas": {
    "url": "https://www.smn.gob.ar/alertas",
@@ -40,7 +40,7 @@
   "rioparana_alturas": {
    "url": "https://www.rioparana.com.ar",
    "estado": 200,
-   "caracteres": 11360,
+   "caracteres": 11359,
    "archivo": "data/fuentes/rioparana_alturas.txt"
   },
   "prefectura_alturas": {
@@ -51,7 +51,7 @@
   "lanacion_clima_corrientes": {
    "url": "https://www.lanacion.com.ar/clima/corrientes/",
    "estado": 200,
-   "caracteres": 8222,
+   "caracteres": 8220,
    "archivo": "data/fuentes/lanacion_clima_corrientes.txt"
   },
   "noaa_enso": {
@@ -134,50 +134,6 @@
    "estado": 200,
    "caracteres": 1993,
    "archivo": "data/fuentes/coe_a_2026_0071_AT.txt"
-  }
- },
- "pedidas": {
-  "https://www.jetphotos.com/registration/LV-IQU": {
-   "url": "https://www.jetphotos.com/registration/LV-IQU",
-   "estado": "error",
-   "detalle": "HTTP Error 429: Too Many Requests"
-  },
-  "https://www.spottinglog.com/aircraft/LV-IQU": {
-   "url": "https://www.spottinglog.com/aircraft/LV-IQU",
-   "estado": "error",
-   "detalle": "HTTP Error 429: Too Many Requests"
-  },
-  "https://urgente24.com/actualidad/arde-corrientes-que-tiene-un-cessna-550-citation-ii-pero-no-aviones-hidrantes-n595602": {
-   "url": "https://urgente24.com/actualidad/arde-corrientes-que-tiene-un-cessna-550-citation-ii-pero-no-aviones-hidrantes-n595602",
-   "estado": 200,
-   "caracteres": 13571,
-   "archivo": "data/fuentes/web/urgente24_com_actualidad_arde_corrientes_que_tiene_un_cessna_550_citation_ii_pero_no_avion.txt"
-  },
-  "https://boletinoficial.corrientes.gob.ar/assets/articulo_adjuntos/7758/original/10-05-2023.pdf?1683814769=": {
-   "url": "https://boletinoficial.corrientes.gob.ar/assets/articulo_adjuntos/7758/original/10-05-2023.pdf?1683814769=",
-   "estado": "error",
-   "detalle": "HTTP Error 429: Too Many Requests"
-  },
-  "https://boletinoficial.corrientes.gob.ar/assets/articulo_adjuntos/5832/original/26-01-2021.pdf?1611749492=": {
-   "url": "https://boletinoficial.corrientes.gob.ar/assets/articulo_adjuntos/5832/original/26-01-2021.pdf?1611749492=",
-   "estado": "error",
-   "detalle": "HTTP Error 429: Too Many Requests"
-  },
-  "https://boletinoficial.corrientes.gob.ar/assets/articulo_adjuntos/3936/original/31-08-2018.pdf?1535985307=": {
-   "url": "https://boletinoficial.corrientes.gob.ar/assets/articulo_adjuntos/3936/original/31-08-2018.pdf?1535985307=",
-   "estado": "error",
-   "detalle": "HTTP Error 429: Too Many Requests"
-  },
-  "https://www.nortecorrientes.com/192480-la-policia-desplego-costosos-drones-en-la-busqueda-de-menor-desaparecido": {
-   "url": "https://www.nortecorrientes.com/192480-la-policia-desplego-costosos-drones-en-la-busqueda-de-menor-desaparecido",
-   "estado": "error",
-   "detalle": "HTTP Error 404: NOT FOUND"
-  },
-  "https://aeropuertoformosa.blogspot.com/2018/12/visita-al-aeropuerto-de-corrientes.html": {
-   "url": "https://aeropuertoformosa.blogspot.com/2018/12/visita-al-aeropuerto-de-corrientes.html",
-   "estado": 200,
-   "caracteres": 10507,
-   "archivo": "data/fuentes/web/aeropuertoformosa_blogspot_com_2018_12_visita_al_aeropuerto_de_corrientes_html.txt"
   }
  },
  "portales": {
