@@ -117,7 +117,7 @@ def main():
             cob[str(hh)] = 'solo ICAA' if a is not None else 'solo Corrientes 13805'
     uh = max(int(k) for k in reg) if reg else None
     mm = reg[str(uh)] if uh is not None else None
-    est = None if mm is None else ('seca' if mm < 0.5 else 'debil' if mm <= 2.5 else 'moderada' if mm <= 10 else 'fuerte')
+    est = None if mm is None else ('seca' if mm <= 0 else 'llovizna' if mm < 0.5 else 'debil' if mm <= 2.5 else 'moderada' if mm <= 10 else 'fuerte')
     O.update({'dia': dia.isoformat(), 'registros': reg, 'registros_icaa': ri, 'registros_13805': rc, 'cobertura': cob,
               'indicador': 'compuesto: máximo horario de ICAA y Corrientes 13805', 'ultima_hora': uh, 'mm': mm,
               'estado': est, 'ts': int(ahora.timestamp() * 1000),

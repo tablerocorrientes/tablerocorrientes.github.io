@@ -60,6 +60,7 @@
   '@keyframes tcPulso{0%,100%{box-shadow:0 0 0 0 rgba(255,159,28,.85);filter:brightness(1)}50%{box-shadow:0 0 0 8px rgba(255,159,28,0);filter:brightness(1.12)}}'+
   '@keyframes tcTit{to{visibility:hidden}}'+
   '#tc-inst .tc-dev .si{display:block;width:100%;box-sizing:border-box;margin:6px 0 2px;background:#0c3f52;color:#fff}#tc-inst .tc-msg{font-size:.8rem;color:#13262d;margin:4px 0 0}#tc-inst .tc-msg:empty{display:none}'+
+  '#tc-inst summary::after,#tc-inst summary::before{content:none!important}'+
   '#tc-inst-d{background:transparent!important;border:0!important;padding:0!important;margin:0!important;box-shadow:none!important;color:#fff}#tc-inst .tc-dev{color:#13262d}#tc-inst .tc-dev p{color:#4a5b61;font-size:.8rem;margin:0 0 4px}#tc-inst summary::-webkit-details-marker{display:none}#tc-inst small{opacity:.9}#tc-inst .si{margin-top:4px}'+
   '#tc-inst ol{margin:6px 0 10px;padding-left:20px;font-size:.88rem;line-height:1.5}'+
   '#tc-rep{background:#f6f8f8;color:#13262d;border:1px solid #c6d2d5;margin:16px 12px 24px}'+
@@ -213,9 +214,9 @@
   var LL=null;function medida(){if(!LL)LL=fetch('/data/lluvia.json',{cache:'no-cache'}).then(function(r){return r.ok?r.json():{};}).catch(function(){return {};});return LL;}
   window.tcInicioLluvia=function(dep,el,loc,cur){if(!el)return;var st=EST_DEP[nrm(dep)]||'CORRIENTES_AERO';Promise.all([modelo(),medida()]).then(function(R){var o=R[0],LM=R[1]||{};
     var E=(LM.estaciones||[]).filter(function(s){return loc&&String(s.localidad).indexOf(loc)===0;}),cols=LM.columnas||[],ya=null;
-    E.forEach(function(s){var v=s.valores||[];for(var k=v.length-1;k>=Math.max(0,v.length-3);k--){if(v[k]!=null&&v[k]>=0.5){if(!ya||v[k]>ya.mm)ya={mm:v[k],h:cols[k]||'',tot:v.reduce(function(a,x){return a+(x||0);},0)};break;}}});
+    E.forEach(function(s){var v=s.valores||[];for(var k=v.length-1;k>=Math.max(0,v.length-3);k--){if(v[k]!=null&&v[k]>=0.2){if(!ya||v[k]>ya.mm)ya={mm:v[k],h:cols[k]||'',tot:v.reduce(function(a,x){return a+(x||0);},0)};break;}}});
     var pre='';if(ya){var hy=parseInt(ya.h,10),dh=(new Date().getHours()-hy+24)%24;if(isNaN(hy)||dh>1){pre='🌧️ Llovieron <b>'+String(ya.mm).replace('.',',')+' mm en la hora de las '+String(ya.h).replace(' (en curso)','')+'</b> (estaciones del SNIH).<br>';ya=null;}}
-    if(ya){el.innerHTML='🌧️ <b>LLUEVE AHORA en '+loc+': '+String(ya.mm).replace('.',',')+' mm en la hora de las '+String(ya.h).replace(' (en curso)','')+'</b>, '+String(Math.round(ya.tot*10)/10).replace('.',',')+' mm en 24 h. <small>Lluvia medida por el SNIH, actualizada '+(LM.actualizado||'')+'.</small>';return;}
+    if(ya){el.innerHTML='🌧️ <b>'+(ya.mm<0.5?'LLOVIZNA':'LLUEVE')+' AHORA en '+loc+': '+String(ya.mm).replace('.',',')+' mm en la hora de las '+String(ya.h).replace(' (en curso)','')+'</b>, '+String(Math.round(ya.tot*10)/10).replace('.',',')+' mm en 24 h. <small>Lluvia medida por el SNIH, actualizada '+(LM.actualizado||'')+'.</small>';return;}
     if(cur){el.innerHTML=pre+'⛈️ <b>TORMENTA EN CURSO según el aviso oficial, hasta las '+cur+' h.</b> <small>La lluvia medida por las estaciones se incorpora en la próxima actualización.</small>';return;}
 var L=o[st]||[];if(!L.length){el.remove();return;}
     var now=new Date(),fut=L.filter(function(x){return x.t>now;}),ini=null;for(var i=0;i<fut.length;i++){if(fut[i].mm>=0.5){ini=fut[i];break;}}
