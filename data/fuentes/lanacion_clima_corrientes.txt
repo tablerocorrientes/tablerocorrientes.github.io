@@ -1,5 +1,5 @@
 Fuente: https://www.lanacion.com.ar/clima/corrientes/
-Consultado: 17/11/2026, 07:15 h
+Consultado: 17/11/2026, 08:57 h
 
 Clima en Corrientes y pronóstico del tiempo en LA NACION
 CERRAR
@@ -78,58 +78,58 @@ Kiosco LA NACION
 > LA NACION > Clima > Corrientes
 Clima de hoy en Corrientes
 Pronóstico del tiempo extendido para Corrientes
-Actualizado a las 05:35 hs.
+Actualizado a las 07:43 hs.
 Pronóstico del tiempo en Corrientes hoy
 Mañana
 Tormentas fuertes
-23 ºc
+27 ºc
 98%
-E 12Km/h
-100%
-Tarde
-Tormentas
-31 ºc
-51%
-SE 22Km/h
+S 12Km/h
 70%
+Tarde
+Chaparrones
+30 ºc
+51%
+SE 12Km/h
+40%
 Noche
-Tormentas aisladas
-26 ºc
+Mayormente nublado
+25 ºc
 77%
 E 12Km/h
-40%
+10%
 Pronóstico del tiempo en Corrientes mañana
 Mañana
-Tormentas
+Tormentas fuertes
 24 ºc
 87%
 SE 12Km/h
-40%
+70%
 Tarde
-Tormentas fuertes
+Tormentas aisladas
 31 ºc
 47%
 SE 22Km/h
 40%
 Noche
-Tormentas aisladas
+Chaparrones
 26 ºc
 85%
 SE 22Km/h
 40%
 Pronóstico del tiempo en Corrientes el jueves
 Mañana
-Chaparrones
+Mayormente nublado
 22 ºc
 68%
 SE 12Km/h
-40%
+10%
 Tarde
-Tormentas aisladas
+Mayormente nublado
 30 ºc
 49%
 E 22Km/h
-40%
+10%
 Pronóstico del tiempo en Corrientes el viernes
 Mañana
 Tormentas aisladas
@@ -314,8 +314,8 @@ VER MÁS NOTAS DE CORRIENTES
 Más leídas
 1 Agravaron la imputación contra el entrenador de rugby que golpeó a un médico en una pizzería y le agregaron un antecedente
 2 Havanna prepara su desembarco en China, tras un acuerdo con Lionel Messi
-3 Subastan ocho vagones del subte porteño fabricados en 1980 para que tengan “una segunda vida”
-4 Invirtió US$20 millones: una empresa familiar inauguró una planta para procesar 500 toneladas diarias de madera y exportar
+3 Cristina Kirchner designa a un peronista federal cercano a Sergio Massa para el Consejo de la Magistratura
+4 Hay alerta naranja y amarilla por tormentas, lluvias y vientos para este martes 17 de noviembre: las provincias afectadas
 Secciones
 Últimas noticias
 Política
