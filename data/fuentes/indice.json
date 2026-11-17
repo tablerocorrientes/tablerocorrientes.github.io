@@ -1,6 +1,6 @@
 {
- "consultado": "17/11/2026, 19:09 h",
- "consultado_iso": "2026-11-17T19:09-03:00",
+ "consultado": "17/11/2026, 19:13 h",
+ "consultado_iso": "2026-11-17T19:13-03:00",
  "paginas": {
   "smn_alertas": {
    "url": "https://www.smn.gob.ar/alertas",
@@ -36,7 +36,7 @@
   "ina_reporte_diario": {
    "url": "https://alerta.ina.gob.ar/a5/diario/reporte_diario",
    "estado": 200,
-   "caracteres": 15810,
+   "caracteres": 15853,
    "archivo": "data/fuentes/ina_reporte_diario.txt"
   },
   "rioparana_alturas": {
@@ -138,6 +138,24 @@
    "archivo": "data/fuentes/coe_a_2026_0129_CP.txt"
   }
  },
+ "pedidas": {
+  "https://coe.corrientes.gob.ar/a/2026-0077-AT": {
+   "url": "https://coe.corrientes.gob.ar/a/2026-0077-AT",
+   "estado": 200,
+   "caracteres": 1787,
+   "archivo": "data/fuentes/web/coe_corrientes_gob_ar_a_2026_0077_AT.txt"
+  },
+  "https://coe.corrientes.gob.ar/a/2026-0078-AT": {
+   "url": "https://coe.corrientes.gob.ar/a/2026-0078-AT",
+   "estado": "error",
+   "detalle": "HTTP Error 404: NOT FOUND"
+  },
+  "https://coe.corrientes.gob.ar/a/2026-0079-AT": {
+   "url": "https://coe.corrientes.gob.ar/a/2026-0079-AT",
+   "estado": "error",
+   "detalle": "HTTP Error 404: NOT FOUND"
+  }
+ },
  "portales": {
   "munired_municipio_corrientes": {
    "url": "https://munired.mcypcorrientes.gob.ar/noticias/corrientes",
@@ -164,12 +182,5 @@
    "archivo": "data/fuentes/portales/senado_corrientes.txt"
   }
  },
- "pedidas": {
-  "https://api.open-meteo.com/v1/forecast?latitude=-27.47,-29.14,-30.01,-28.51,-29.18,-29.79,-29.71,-28.55,-28.05,-27.59,-30.25,-28.25&longitude=-58.83,-59.26,-59.53,-59.04,-58.08,-58.05,-57.09,-56.04,-56.03,-56.69,-57.64,-58.62&hourly=precipitation&timezone=America%2FArgentina%2FBuenos_Aires&forecast_days=6": {
-   "url": "https://api.open-meteo.com/v1/forecast?latitude=-27.47,-29.14,-30.01,-28.51,-29.18,-29.79,-29.71,-28.55,-28.05,-27.59,-30.25,-28.25&longitude=-58.83,-59.26,-59.53,-59.04,-58.08,-58.05,-57.09,-56.04,-56.03,-56.69,-57.64,-58.62&hourly=precipitation&timezone=America%2FArgentina%2FBuenos_Aires&forecast_days=6",
-   "estado": "error",
-   "detalle": "HTTP Error 429: Too Many Requests"
-  }
- },
- "pedidas_consultado": "17/11/2026, 18:33 h"
+ "pedidas_consultado": "17/11/2026, 19:13 h"
 }
