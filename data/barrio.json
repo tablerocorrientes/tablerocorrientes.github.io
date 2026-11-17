@@ -1,5 +1,5 @@
 {
- "actualizado": "17/11/2026, 09:09 h",
+ "actualizado": "17/11/2026, 13:20 h",
  "dias": {
   "2026-11-02": [
    0,
@@ -1132,11 +1132,8 @@
   },
   "2026-11-17": {
    "smn": {
-    "texto": "Parte del SMN difundido por La Nación (07:43 h del 17/11): hoy tormentas fuertes por la mañana (70 %), chaparrones por la tarde (40 %) y mayormente nublado por la noche (10 %). Alerta naranja del SMN y amarilla del COE para la Capital hasta las 12:00 h, con 30 a 70 mm.",
-    "mm": [
-     30,
-     70
-    ],
+    "texto": "Parte del SMN difundido por La Nación (11:51 h del 17/11): hoy tormentas aisladas por la tarde (40 %) y mayormente nublado por la noche (10 %). Alerta amarilla del SMN para Corrientes hasta las 11:59 h del 18/11; la alerta del COE para la Capital de hoy venció a las 12:00 h.",
+    "mm": null,
     "u": "https://www.lanacion.com.ar/clima/corrientes/"
    },
    "modelos": [
