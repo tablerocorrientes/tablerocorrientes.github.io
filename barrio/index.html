@@ -197,6 +197,7 @@ footer b{display:block;color:var(--ink)}
 </div>
 
 <div id="kpiHoy"></div>
+<div id="graLluvia" class="kh" style="margin:12px 0"></div>
 <label for="barrio" class="note" style="display:block;margin:0 0 6px;color:var(--ink2)">Elija su barrio</label>
 <select id="barrio"></select>
 <div class="calz" role="radiogroup" aria-label="Tipo de calzada de su cuadra">
@@ -721,6 +722,7 @@ function tcCons(consultado,actualizado){var c=tcPd(consultado),u=tcPd(actualizad
     +'</div><a class="kh-l" href="#extB">Ver la proyección de la semana ›</a></div>';
   var ab=$('alertB');if(ab)box.appendChild(ab);
 })();
+if(window.tcLluviaComp)tcLluviaComp($('graLluvia'),{n:'Corrientes Capital',dep:'Capital'});
 /* Pronóstico extendido: solo informativo, no interviene en ningún cálculo */
 function tcExtHTML(ext,ciudad,titulo,op){
   op=op||{};if(!ext||!ext.ciudades)return '';var c=ext.ciudades[ciudad];if(!c||!c.dias||!c.dias.length)return '';
