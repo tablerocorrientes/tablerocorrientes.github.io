@@ -13,6 +13,19 @@
         .catch(function(){b.textContent='{}';});
     }));
   }
+  /* 1 bis. Alertas del SMN leídas desde Corrientes (tarea F): si son más recientes que el pronóstico publicado, reemplazan a las del SMN */
+  function fusionarSMN(){
+    var el=document.getElementById('pron-data');if(!el)return Promise.resolve();
+    return fetch('/data/fuentes/smn_alertas_local.json?v='+Math.floor(Date.now()/60000),{cache:'no-cache'}).then(function(r){return r.ok?r.json():null;}).then(function(L){
+      if(!L||!L.consultado_iso||!/alertas/.test(String(L.resultado||'')))return;var P;try{P=JSON.parse(el.textContent)||{};}catch(e){return;}
+      var pa=/(\d{2})\/(\d{2})\/(\d{4}),?\s*(\d{1,2}):(\d{2})/.exec(P.actualizado||''),tP=pa?Date.parse(pa[3]+'-'+pa[2]+'-'+pa[1]+'T'+String(pa[4]).padStart(2,'0')+':'+pa[5]+':00-03:00'):0,tL=Date.parse(L.consultado_iso);
+      if(!(tL>tP))return;
+      var iso=function(s){var m=/(\d{2})\/(\d{2})\/(\d{4}),?\s*(\d{1,2}):(\d{2})/.exec(s||'');return m?m[3]+'-'+m[2]+'-'+m[1]+'T'+String(m[4]).padStart(2,'0')+':'+m[5]+':00-03:00':null;};
+      var nuevas=(L.alertas||[]).filter(function(a){return a.nivel;}).map(function(a){return {nivel:String(a.nivel).toLowerCase(),fenomeno:a.fenomeno||'tormenta',zonas:[].concat(a.zonas||'Corrientes'),desde_iso:iso(a.desde),hasta_iso:iso(a.hasta),aviso:a.texto||'',incluye_corrientes:true,origen:'Servicio Meteorológico Nacional, página de alertas (emisión '+(a.emision||'')+', leída a las '+(L.consultado||'')+')'};});
+      P.smn=(P.smn||[]).filter(function(a){return !/^Servicio Meteorol/.test(String(a.origen||''));}).concat(nuevas);P.smn_local=L.consultado;
+      el.textContent=JSON.stringify(P);
+    }).catch(function(){});
+  }
   function ejecutarPagina(){
     var m=document.getElementById('main-js');if(!m)return;
     var s=document.createElement('script');s.textContent=m.textContent;document.body.appendChild(s);
@@ -247,7 +260,7 @@ var L=o[st]||[];if(!L.length){el.remove();return;}
     estilo();menu();
     guiaInicial();resumir();resetVis();setTimeout(resumir,1500);setTimeout(resumir,4000);window.addEventListener('hashchange',function(){if(location.hash==='#instalar')aviso(true);});var ib=document.getElementById('tc-inst-btn');if(ib){ib.hidden=false;ib.onclick=function(){aviso(true);};}
     if(esIOS||inApp)aviso(false);
-    cargarDatos().then(ejecutarPagina).then(function(){
+    cargarDatos().then(fusionarSMN).then(ejecutarPagina).then(function(){
       return Promise.all([fetch('/data/config.json',{cache:'no-cache'}).then(function(r){return r.json();}).catch(function(){return {};}),listas()]);
     }).then(function(r){reportes(r[0],r[1][0],r[1][1]);});
     if('serviceWorker' in navigator){navigator.serviceWorker.register('/sw.js',{updateViaCache:'none'}).then(function(reg){try{reg.update();}catch(e){}}).catch(function(){});
