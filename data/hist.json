@@ -1,6 +1,6 @@
 {
  "repositorio": "Lecturas oficiales registradas por las tareas del Tablero Ciudadano",
- "actualizado": "16/11/2026, 18:32 h",
+ "actualizado": "17/11/2026, 09:09 h",
  "series": [
   {
    "rio": "Paraná",
@@ -78,6 +78,11 @@
     [
      "2026-11-16T12:00:00",
      2.5,
+     "pendiente"
+    ],
+    [
+     "2026-11-17T12:00:00",
+     2.3,
      "pendiente"
     ]
    ]
@@ -158,6 +163,11 @@
     [
      "2026-11-16T12:00:00",
      5,
+     "pendiente"
+    ],
+    [
+     "2026-11-17T12:00:00",
+     4.76,
      "pendiente"
     ]
    ]
@@ -398,6 +408,11 @@
     [
      "2026-11-16T12:00:00",
      6.61,
+     "pendiente"
+    ],
+    [
+     "2026-11-17T12:00:00",
+     6.38,
      "pendiente"
     ]
    ]
@@ -644,6 +659,11 @@
      "2026-11-16T14:00:00",
      6.49,
      "verificado"
+    ],
+    [
+     "2026-11-17T12:00:00",
+     6.43,
+     "pendiente"
     ]
    ]
   },
@@ -894,6 +914,11 @@
      "2026-11-16T12:00:00",
      6.46,
      "verificado"
+    ],
+    [
+     "2026-11-17T12:00:00",
+     6.36,
+     "pendiente"
     ]
    ]
   },
@@ -973,6 +998,11 @@
     [
      "2026-11-16T12:00:00",
      5.75,
+     "pendiente"
+    ],
+    [
+     "2026-11-17T12:00:00",
+     5.69,
      "pendiente"
     ]
    ]
@@ -1219,6 +1249,11 @@
      "2026-11-16T16:00:00",
      6.15,
      "verificado"
+    ],
+    [
+     "2026-11-17T08:00:00",
+     6.14,
+     "verificado"
     ]
    ]
   },
@@ -1464,6 +1499,11 @@
      "2026-11-16T16:00:00",
      5.78,
      "verificado"
+    ],
+    [
+     "2026-11-17T08:00:00",
+     5.76,
+     "verificado"
     ]
    ]
   },
@@ -1553,6 +1593,11 @@
     [
      "2026-11-16T16:00:00",
      5.47,
+     "verificado"
+    ],
+    [
+     "2026-11-17T06:00:00",
+     5.46,
      "verificado"
     ]
    ]
@@ -1724,6 +1769,11 @@
      "2026-11-13T07:00:00",
      8.5,
      "verificado"
+    ],
+    [
+     "2026-11-16T12:00:00",
+     7.28,
+     "pendiente"
     ]
    ]
   },
@@ -1934,6 +1984,11 @@
      "2026-11-13T07:00:00",
      7.98,
      "verificado"
+    ],
+    [
+     "2026-11-16T12:00:00",
+     6.99,
+     "pendiente"
     ]
    ]
   },
@@ -1961,21 +2016,21 @@
  "pronosticos": [
   {
    "organismo": "INA",
-   "emision": "2026-11-13",
+   "emision": "2026-11-16",
    "rio": "Paraná",
    "horizonte_dias": 7,
    "tipo": "cualitativo",
-   "tendencia": "En Corrientes, el río seguiría alto en los próximos 7 días, con oscilaciones o un descenso lento, y bajaría por debajo del nivel de alerta (6,50 m). En Goya también bajaría de a poco, pero es muy probable que siga por encima de los niveles de alerta y de evacuación. Más adelante se mantendría en niveles altos para la época, porque hacia fines de noviembre podrían volver las lluvias en la cuenca",
-   "url": "https://alerta.ina.gob.ar/a5/diario/pdf/reporte_diario_2026-11-13.pdf"
+   "tendencia": "En Corrientes el río seguiría alto en los próximos 7 días, oscilando o bajando despacio, como lo marca la salida de agua de Yacyretá. En Goya y Esquina seguiría por encima de la evacuación unos 2 a 4 días más. Después se estabilizaría en valores altos para la época, y podría volver a subir si se confirman las lluvias previstas en Brasil y Paraguay.",
+   "url": "https://alerta.ina.gob.ar/a5/diario/reporte_diario"
   },
   {
    "organismo": "INA",
-   "emision": "2026-11-13",
+   "emision": "2026-11-16",
    "rio": "Uruguay",
-   "horizonte_dias": 7,
+   "horizonte_dias": 5,
    "tipo": "cualitativo",
-   "tendencia": "En Paso de los Libres, el río oscilaría por encima del nivel de alerta (7,50 m) durante 2 o 3 días y después empezaría a bajar, con pocas chances de una nueva crecida importante. En Santo Tomé seguiría bajando y se mantendría en niveles altos para la época, sin nuevas subidas previstas a corto plazo",
-   "url": "https://alerta.ina.gob.ar/a5/diario/pdf/reporte_diario_2026-11-13.pdf"
+   "tendencia": "En Paso de los Libres el río ya bajó de la alerta y seguiría bajando hasta quedar en valores normales altos. En Santo Tomé seguiría estable o con leve baja. Podría haber repuntes por lluvias en el norte de la cuenca, con pocas chances de superar la alerta.",
+   "url": "https://alerta.ina.gob.ar/a5/diario/reporte_diario"
   }
  ],
  "pron_num": [
@@ -2025,7 +2080,7 @@
   }
  ],
  "pron_aviso": "Valores difundidos por El Litoral a partir del pronóstico del INA. Son estimaciones, no mediciones, y pueden cambiar con las lluvias.",
- "verificacion": "Consulta del 16/11/2026, 18:32 h: Prefectura Naval Argentina, alturas del 16/11/2026 reproducidas por rioparana.com.ar (Corrientes 6,46 m a las 12:00 h; Paso de la Patria 6,49 m a las 14:00 h; Bella Vista 6,15 m, Goya 5,78 m y Esquina 5,47 m a las 16:00 h). La página de alturas de Prefectura no respondió. Ituzaingó, Itá Ibaté, Itatí y Empedrado sin lectura nueva con hora distinta de la ya registrada. INA sin emisión nueva. Río Uruguay sin lectura nueva (Comisión Técnica Mixta de Salto Grande, último reporte leído del 13/11/2026 a las 07:00 h).",
+ "verificacion": "Consulta del 17/11/2026, 09:09 h: Prefectura Naval Argentina, alturas del 17/11/2026 reproducidas por rioparana.com.ar (Bella Vista y Goya a las 08:00 h, Esquina a las 06:00 h; el resto sin hora publicada). La página de alturas de Prefectura no respondió. INA, reporte diario del 16/11/2026 (Paraná y Uruguay, pronóstico cualitativo; Santo Tomé y Paso de los Libres sin hora de observación). Sin reporte nuevo de la Comisión Técnica Mixta de Salto Grande.",
  "observaciones": [
   "Empedrado, Esquina, Ituzaingó e Itá Ibaté tienen pocas lecturas (10 cada uno), todas de fecha solamente salvo la del 01/11 a las 00:00 h.",
   "Variación informada en el CSV que no coincide con la diferencia entre lecturas consecutivas (no se usa en los gráficos ni se corrigieron las alturas): Ituzaingó 2026-11-03: CSV -3 cm frente a -12 cm; Itá Ibaté 2026-11-03: CSV -6 cm frente a -10 cm; Itatí 2026-11-03: CSV -2 cm frente a -8 cm; Paso de la Patria 2026-11-03: CSV -6 cm frente a -8 cm; Empedrado 2026-11-03: CSV -6 cm frente a -11 cm; Goya 2026-11-01T00:00:00: CSV 12 cm frente a 14 cm; Goya 2026-11-03: CSV 1 cm frente a 3 cm; Esquina 2026-11-03: CSV 8 cm frente a 14 cm.",

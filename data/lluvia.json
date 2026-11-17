@@ -1,10 +1,9 @@
 {
- "actualizado": "17/11/2026, 08:56 h",
+ "actualizado": "17/11/2026, 09:03 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
-  "16/11 09 h",
-  "10 h",
+  "16/11 10 h",
   "11 h",
   "12 h",
   "13 h",
@@ -27,11 +26,12 @@
   "06 h",
   "07 h",
   "08 h",
-  "09 h (en curso)"
+  "09 h",
+  "10 h (en curso)"
  ],
  "fuente": "Sistema Nacional de Información Hídrica (SNIH), Secretaría de Infraestructura y Política Hídrica; estaciones de la Red Hidrológica Nacional y redes asociadas (ICAA, INTA, Red Iberá). Datos crudos del sensor, sin validar.",
  "enlace": "https://snih.hidricosargentina.gob.ar/Filtros.aspx",
- "nota": "Ventana de 24 horas completas, de 09 h del 16/11 a 08 h del 17/11 (hora de Argentina), más la hora en curso como última columna, con los datos recibidos hasta el momento. El total suma solo las 24 horas completas. Las horas sin transmisión figuran como null, no como cero.",
+ "nota": "Ventana de 24 horas completas, de 10 h del 16/11 a 09 h del 17/11 (hora de Argentina), más la hora en curso como última columna, con los datos recibidos hasta el momento. El total suma solo las 24 horas completas. Las horas sin transmisión figuran como null, no como cero.",
  "estaciones": [
   {
    "localidad": "Corrientes Capital",
@@ -60,12 +60,12 @@
     0,
     0,
     0,
-    0,
     8.6,
+    0,
     null
    ],
    "total": 8.6,
-   "ultimo": "8,6 mm a las 08 h"
+   "ultimo": "0 mm a las 09 h"
   },
   {
    "localidad": "Corrientes Capital (estación 13805)",
@@ -93,9 +93,9 @@
     0,
     0,
     0,
-    0,
     0.25,
     11.25,
+    null,
     null
    ],
    "total": 11.5,
@@ -106,7 +106,6 @@
    "estacion": "Garruchos",
    "codigo": 13857,
    "valores": [
-    null,
     null,
     null,
     0,
@@ -130,6 +129,7 @@
     null,
     null,
     6.25,
+    null,
     null
    ],
    "total": 6.25,
@@ -142,7 +142,6 @@
    "valores": [
     null,
     null,
-    null,
     0,
     null,
     null,
@@ -160,6 +159,7 @@
     null,
     null,
     0,
+    null,
     null,
     null,
     null,
@@ -231,7 +231,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -242,7 +242,6 @@
    "estacion": "Estación La Palmira - Escuela N° 70",
    "codigo": 283902,
    "valores": [
-    0.2,
     0.2,
     0,
     0,
@@ -266,10 +265,11 @@
     0,
     0,
     3.4,
+    2,
     null
    ],
-   "total": 5.2,
-   "ultimo": "3,4 mm a las 08 h"
+   "total": 7.0,
+   "ultimo": "2 mm a las 09 h"
   },
   {
    "localidad": "Bella Vista",
@@ -670,10 +670,10 @@
     0,
     0,
     0,
-    0,
     1.6,
     1.2,
     1.6,
+    null,
     null
    ],
    "total": 4.4,
@@ -686,7 +686,6 @@
    "valores": [
     null,
     null,
-    null,
     0,
     null,
     null,
@@ -704,6 +703,7 @@
     null,
     null,
     0,
+    null,
     null,
     null,
     null,
@@ -775,7 +775,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -856,7 +856,6 @@
    "valores": [
     null,
     null,
-    null,
     0,
     null,
     null,
@@ -874,6 +873,7 @@
     null,
     null,
     0,
+    null,
     null,
     null,
     null,
@@ -1060,7 +1060,6 @@
    "valores": [
     null,
     null,
-    null,
     0,
     null,
     null,
@@ -1078,6 +1077,7 @@
     null,
     null,
     0,
+    null,
     null,
     null,
     null,
@@ -1115,7 +1115,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -1146,10 +1146,10 @@
     0,
     0,
     0,
-    0,
     1,
     1,
     0,
+    null,
     null
    ],
    "total": 2,
@@ -1183,7 +1183,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -1214,10 +1214,10 @@
     0,
     0,
     0,
-    0,
     0.8,
     2.0,
     0,
+    null,
     null
    ],
    "total": 2.8,
@@ -1244,7 +1244,6 @@
     0,
     0,
     0,
-    0,
     0.2,
     0,
     0,
@@ -1252,6 +1251,7 @@
     0,
     0.2,
     0,
+    null,
     null
    ],
    "total": 0.4,
@@ -1279,13 +1279,13 @@
     0,
     0,
     0,
-    0,
     1.4,
     5.4,
     0.8,
     0,
     0,
     0,
+    null,
     null
    ],
    "total": 7.6,
@@ -1312,7 +1312,6 @@
     0,
     0,
     0,
-    0,
     0.4,
     0,
     0,
@@ -1320,6 +1319,7 @@
     0.6,
     0,
     0,
+    null,
     null
    ],
    "total": 1.0,
@@ -1330,7 +1330,6 @@
    "estacion": "RMA08_PNI - Parque Nacional Iberá",
    "codigo": 220226,
    "valores": [
-    0,
     0,
     0,
     0,
@@ -1354,6 +1353,7 @@
     0,
     0.8,
     12.6,
+    null,
     null
    ],
    "total": 13.4,
@@ -1434,7 +1434,6 @@
    "valores": [
     null,
     null,
-    null,
     0,
     null,
     null,
@@ -1452,6 +1451,7 @@
     null,
     null,
     0,
+    null,
     null,
     null,
     null,
@@ -1556,8 +1556,8 @@
     0,
     0,
     0,
-    0,
     6.2,
+    null,
     null
    ],
    "total": 6.2,
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "17/11/2026, 08:56 h",
+ "consultado": "17/11/2026, 09:03 h",
  "consulta_resultado": "datos nuevos"
 }

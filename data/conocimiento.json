@@ -1,15 +1,43 @@
 {
- "actualizado": "17/11/2026, 07:10 h",
+ "actualizado": "17/11/2026, 09:09 h",
  "explicacion": "Cada actualización suma registros: barrios afectados con la altura del río o la lluvia de ese día, obras terminadas, reportes de vecinos verificados y la comparación entre lo pronosticado y lo que ocurrió. Con esa comparación se detectan desvíos y se proponen ajustes a los cálculos, que revisa el autor del tablero.",
  "contadores": {
   "barrios_documentados": 87,
   "obras": 0,
   "reportes_verificados": 0,
-  "comparaciones_rio": 0,
+  "comparaciones_rio": 2,
   "comparaciones_lluvia": 4,
-  "aprendizajes": 61
+  "aprendizajes": 65
  },
  "aprendizajes": [
+  {
+   "fecha": "17/11/2026",
+   "tipo": "alerta",
+   "lugar": "Corrientes Capital",
+   "dato": "El COE emitió una alerta amarilla por tormentas para la Capital y otros 23 departamentos el miércoles 18/11 de 05:00 a 12:00 h, con 30 a 70 mm posibles.",
+   "fuente": "COE de Corrientes (2026-0076-AT), 17/11/2026, 07:12 h"
+  },
+  {
+   "fecha": "17/11/2026",
+   "tipo": "lluvia",
+   "lugar": "Corrientes Capital",
+   "dato": "La tormenta de la mañana dejó 11,5 mm en la estación Corrientes (13805) y 8,6 mm en la del ICAA, casi todo entre las 08 y las 09 h, con el Paraná en 6,36 m.",
+   "fuente": "SNIH, 17/11/2026, 09:03 h"
+  },
+  {
+   "fecha": "17/11/2026",
+   "tipo": "rio",
+   "lugar": "Corrientes Capital",
+   "dato": "El Paraná en Corrientes marcó 6,36 m el 17/11, 10 cm menos que el 16/11 al mediodía, y sigue bajo la alerta de 6,50 m.",
+   "fuente": "Prefectura Naval Argentina (rioparana.com.ar), 17/11/2026"
+  },
+  {
+   "fecha": "17/11/2026",
+   "tipo": "rio",
+   "lugar": "Paso de los Libres",
+   "dato": "El río Uruguay en Paso de los Libres bajó a 6,99 m y salió del nivel de alerta (7,50 m).",
+   "fuente": "INA, reporte diario del 16/11/2026"
+  },
   {
    "fecha": "17/11/2026",
    "tipo": "alerta",
@@ -439,7 +467,22 @@
   }
  ],
  "verificaciones": {
-  "rio": [],
+  "rio": [
+   {
+    "fecha": "2026-11-17",
+    "puerto": "Corrientes",
+    "pronosticado": 6.6,
+    "real": 6.36,
+    "diferencia": -0.24
+   },
+   {
+    "fecha": "2026-11-17",
+    "puerto": "Goya",
+    "pronosticado": 5.81,
+    "real": 5.76,
+    "diferencia": -0.05
+   }
+  ],
   "lluvia": [
    {
     "fecha": "2026-11-14",

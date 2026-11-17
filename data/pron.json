@@ -1,10 +1,10 @@
 {
- "actualizado": "17/11/2026, 07:12 h",
+ "actualizado": "17/11/2026, 09:09 h",
  "metodo": "estimación derivada de modelos y del parte del SMN",
  "estado_alertas": "VERIFICADO_CON_ALERTAS",
  "estado_verificado": {
-  "fecha": "17/11/2026, 07:12 h",
-  "fuente": "SMN (leído desde Corrientes, 04:43 h) y COE de Corrientes (07:12 h)"
+  "fecha": "17/11/2026, 09:09 h",
+  "fuente": "SMN (leído desde Corrientes, 08:40 h) y COE de Corrientes (09:02 h)"
  },
  "met_archivo": {
   "nombre": "vigilancia_meteorologica_20261113_183508.json",
@@ -17,65 +17,51 @@
   {
    "id_oficial": null,
    "tipo": "alerta",
-   "aviso": "Alerta naranja por tormentas del Servicio Meteorológico Nacional para la provincia de Corrientes el martes 17/11, de 00:00 a 23:59 h. Alcanza zonas del centro, sur y oeste de la provincia; el SMN no detalla los departamentos.",
+   "aviso": "Alerta naranja por tormentas del Servicio Meteorológico Nacional para la provincia de Corrientes desde las 06:00 h del martes 17/11 hasta las 05:59 h del miércoles 18/11. El resumen por provincia no detalla los departamentos.",
    "nivel": "naranja",
    "fenomeno": "tormenta",
    "rango_mm": null,
    "zonas": [
-    "Centro, sur y oeste de Corrientes (el SMN no detalla los departamentos)"
+    "Corrientes (el SMN no detalla los departamentos en el resumen por provincia)"
    ],
-   "desde": "17/11/2026, 00:00 h",
-   "hasta": "17/11/2026, 23:59 h",
-   "desde_iso": "2026-11-17T00:00:00-03:00",
-   "hasta_iso": "2026-11-17T23:59:00-03:00",
-   "emision": "17/11/2026, 00:13 h",
+   "desde": "17/11/2026, 06:00 h",
+   "hasta": "18/11/2026, 05:59 h",
+   "desde_iso": "2026-11-17T06:00:00-03:00",
+   "hasta_iso": "2026-11-18T05:59:00-03:00",
+   "emision": "17/11/2026, 06:03 h",
    "incluye_corrientes": true,
    "incluye_capital": null,
    "url": "https://www.smn.gob.ar/alertas",
-   "origen": "Servicio Meteorológico Nacional, página de alertas leída desde Corrientes el 17/11/2026 a las 04:43 h"
+   "origen": "Servicio Meteorológico Nacional, página de alertas leída desde Corrientes el 17/11/2026 a las 08:40 h"
   },
   {
-   "id_oficial": null,
-   "tipo": "alerta",
-   "aviso": "Alerta amarilla por tormentas del Servicio Meteorológico Nacional para zonas del norte y este de Corrientes el martes 17/11, de 00:00 a 23:59 h. El SMN no detalla los departamentos.",
-   "nivel": "amarillo",
-   "fenomeno": "tormenta",
+   "id_oficial": "2026-0133-CP",
+   "tipo": "aviso a corto plazo",
+   "aviso": "Alerta roja (aviso a corto plazo) por tormentas, difundida por el COE de Corrientes con fuente del Servicio Meteorológico Nacional, para Berón de Astrada, General Alvear, General Paz, Itatí, Ituzaingó, San Cosme, San Luis del Palmar, San Martín, San Miguel y Santo Tomé el martes 17/11 de 08:01 a 10:01 h. Se esperan tormentas fuertes con lluvias intensas en poco tiempo, actividad eléctrica frecuente y ocasional caída de granizo. La Capital no figura entre los departamentos.",
+   "nivel": "rojo",
+   "fenomeno": "tormentas",
    "rango_mm": null,
    "zonas": [
-    "Norte y este de Corrientes (el SMN no detalla los departamentos)"
+    "Berón de Astrada",
+    "General Alvear",
+    "General Paz",
+    "Itatí",
+    "Ituzaingó",
+    "San Cosme",
+    "San Luis del Palmar",
+    "San Martín",
+    "San Miguel",
+    "Santo Tomé"
    ],
-   "desde": "17/11/2026, 00:00 h",
-   "hasta": "17/11/2026, 23:59 h",
-   "desde_iso": "2026-11-17T00:00:00-03:00",
-   "hasta_iso": "2026-11-17T23:59:00-03:00",
-   "emision": "17/11/2026, 00:13 h",
+   "desde": "17/11/2026, 08:01 h",
+   "hasta": "17/11/2026, 10:01 h",
+   "desde_iso": "2026-11-17T08:01:00-03:00",
+   "hasta_iso": "2026-11-17T10:01:00-03:00",
+   "emision": "17/11/2026, 08:30 h",
    "incluye_corrientes": true,
-   "incluye_capital": null,
-   "url": "https://www.smn.gob.ar/alertas",
-   "origen": "Servicio Meteorológico Nacional, página de alertas leída desde Corrientes el 17/11/2026 a las 04:43 h"
-  },
-  {
-   "id_oficial": "2026-0074-AT",
-   "tipo": "alerta",
-   "aviso": "Alerta amarilla por tormentas, difundida por el COE de Corrientes con fuente del Servicio Meteorológico Nacional, para toda la provincia el martes 17/11 desde las 03:00 h hasta las 15:00 h. Se esperan tormentas de variada intensidad, algunas localmente fuertes, con caída ocasional de granizo y actividad eléctrica frecuente. Lluvia acumulada entre 30 y 70 mm, que puede ser superada en forma localizada.",
-   "nivel": "amarillo",
-   "fenomeno": "tormenta",
-   "rango_mm": [
-    30,
-    70
-   ],
-   "zonas": [
-    "Toda la provincia de Corrientes"
-   ],
-   "desde": "17/11/2026, 03:00 h",
-   "hasta": "17/11/2026, 15:00 h",
-   "desde_iso": "2026-11-17T03:00:00-03:00",
-   "hasta_iso": "2026-11-17T15:00:00-03:00",
-   "emision": "16/11/2026, 06:53 h",
-   "incluye_corrientes": true,
-   "incluye_capital": true,
-   "url": "https://coe.corrientes.gob.ar/a/2026-0074-AT",
-   "origen": "COE de Corrientes (reporte 2026-0074-AT), consultado el 17/11/2026 a las 01:10 h"
+   "incluye_capital": false,
+   "url": "https://coe.corrientes.gob.ar/a/2026-0133-CP",
+   "origen": "COE de Corrientes (reporte 2026-0133-CP), consultado el 17/11/2026 a las 09:02 h; coincide con el aviso a muy corto plazo del SMN de las 08:01 h"
   },
   {
    "id_oficial": "2026-0075-AT",
@@ -107,7 +93,7 @@
    "incluye_corrientes": true,
    "incluye_capital": true,
    "url": "https://coe.corrientes.gob.ar/a/2026-0075-AT",
-   "origen": "COE de Corrientes (reporte 2026-0075-AT), consultado el 17/11/2026 a las 07:03 h"
+   "origen": "COE de Corrientes (reporte 2026-0075-AT), consultado el 17/11/2026 a las 09:02 h"
   },
   {
    "id_oficial": null,
@@ -141,121 +127,53 @@
    "incluye_corrientes": true,
    "incluye_capital": false,
    "url": "https://coe.corrientes.gob.ar/",
-   "origen": "COE de Corrientes, consultado el 17/11/2026 a las 07:01 h (listado de alertas vigentes)"
+   "origen": "COE de Corrientes, consultado el 17/11/2026 a las 09:02 h (listado de alertas vigentes)"
   },
   {
-   "id_oficial": "2026-0130-CP",
-   "tipo": "aviso a corto plazo",
-   "aviso": "Alerta roja (aviso a corto plazo) por lluvias intensas, ráfagas y tormentas, difundida por el COE de Corrientes con fuente del Servicio Meteorológico Nacional, para Capital, Empedrado, San Cosme y San Luis del Palmar el martes 17/11 desde las 06:25 h hasta las 08:25 h. Se esperan: Lluvias intensas, intensas precipitaciones en cortos períodos, tormentas algunas localmente fuertes, ocasional caída de granizo y actividad eléctrica frecuente. Incluye a la Capital.",
-   "nivel": "rojo",
-   "fenomeno": "lluvias intensas, ráfagas y tormentas",
-   "rango_mm": null,
-   "zonas": [
-    "Capital",
-    "Empedrado",
-    "San Cosme",
-    "San Luis del Palmar"
+   "id_oficial": "2026-0076-AT",
+   "tipo": "alerta",
+   "aviso": "Alerta amarilla por tormentas, difundida por el COE de Corrientes con fuente del Servicio Meteorológico Nacional, para Bella Vista, Berón de Astrada, Capital, Concepción, Curuzú Cuatiá, Empedrado, Esquina, General Alvear, General Paz, Goya, Itatí, Ituzaingó, Lavalle, Mburucuyá, Mercedes, Paso de los Libres, Saladas, San Cosme, San Luis del Palmar, San Martín, San Miguel, San Roque, Santo Tomé y Sauce el miércoles 18/11 de 05:00 a 12:00 h. Se esperan tormentas de variada intensidad, algunas localmente fuertes, con actividad eléctrica frecuente y ocasional caída de granizo. Lluvia acumulada entre 30 y 70 mm, que puede ser superada en forma localizada.",
+   "nivel": "amarillo",
+   "fenomeno": "tormenta",
+   "rango_mm": [
+    30,
+    70
    ],
-   "desde": "17/11/2026, 06:25 h",
-   "hasta": "17/11/2026, 08:25 h",
-   "desde_iso": "2026-11-17T06:25:00-03:00",
-   "hasta_iso": "2026-11-17T08:25:00-03:00",
-   "emision": "17/11/2026, 06:38 h",
-   "incluye_corrientes": true,
-   "incluye_capital": true,
-   "url": "https://coe.corrientes.gob.ar/a/2026-0130-CP",
-   "origen": "COE de Corrientes (reporte 2026-0130-CP), consultado el 17/11/2026 a las 07:01 h"
-  },
-  {
-   "id_oficial": "2026-0131-CP",
-   "tipo": "aviso a corto plazo",
-   "aviso": "Alerta roja (aviso a corto plazo) por lluvias intensas, ráfagas y tormentas, difundida por el COE de Corrientes con fuente del Servicio Meteorológico Nacional, para General Alvear, Ituzaingó, San Martín, San Miguel y Santo Tomé el martes 17/11 desde las 06:33 h hasta las 08:33 h. Se esperan: Lluvias intensas, tormentas algunas localmente fuertes, ocasional caída de granizo y actividad eléctrica frecuente. La Capital no figura entre los departamentos.",
-   "nivel": "rojo",
-   "fenomeno": "lluvias intensas, ráfagas y tormentas",
-   "rango_mm": null,
    "zonas": [
+    "Bella Vista",
+    "Berón de Astrada",
+    "Capital",
+    "Concepción",
+    "Curuzú Cuatiá",
+    "Empedrado",
+    "Esquina",
     "General Alvear",
+    "General Paz",
+    "Goya",
+    "Itatí",
     "Ituzaingó",
+    "Lavalle",
+    "Mburucuyá",
+    "Mercedes",
+    "Paso de los Libres",
+    "Saladas",
+    "San Cosme",
+    "San Luis del Palmar",
     "San Martín",
     "San Miguel",
-    "Santo Tomé"
+    "San Roque",
+    "Santo Tomé",
+    "Sauce"
    ],
-   "desde": "17/11/2026, 06:33 h",
-   "hasta": "17/11/2026, 08:33 h",
-   "desde_iso": "2026-11-17T06:33:00-03:00",
-   "hasta_iso": "2026-11-17T08:33:00-03:00",
-   "emision": "17/11/2026, 06:42 h",
+   "desde": "18/11/2026, 05:00 h",
+   "hasta": "18/11/2026, 12:00 h",
+   "desde_iso": "2026-11-18T05:00:00-03:00",
+   "hasta_iso": "2026-11-18T12:00:00-03:00",
+   "emision": "17/11/2026, 07:12 h",
    "incluye_corrientes": true,
-   "incluye_capital": false,
-   "url": "https://coe.corrientes.gob.ar/a/2026-0131-CP",
-   "origen": "COE de Corrientes (reporte 2026-0131-CP), consultado el 17/11/2026 a las 07:01 h"
-  },
-  {
-   "id_oficial": "2026-0132-CP",
-   "tipo": "aviso a corto plazo",
-   "aviso": "Alerta roja (aviso a corto plazo) por granizo y tormentas, difundida por el COE de Corrientes con fuente del Servicio Meteorológico Nacional, para Ituzaingó el martes 17/11 desde las 06:48 h hasta las 08:48 h. Se esperan: Ocasional caída de granizo, tormentas algunas localmente fuertes, lluvias intensas y actividad eléctrica frecuente. La Capital no figura entre los departamentos.",
-   "nivel": "rojo",
-   "fenomeno": "granizo y tormentas",
-   "rango_mm": null,
-   "zonas": [
-    "Ituzaingó"
-   ],
-   "desde": "17/11/2026, 06:48 h",
-   "hasta": "17/11/2026, 08:48 h",
-   "desde_iso": "2026-11-17T06:48:00-03:00",
-   "hasta_iso": "2026-11-17T08:48:00-03:00",
-   "emision": "17/11/2026, 07:00 h",
-   "incluye_corrientes": true,
-   "incluye_capital": false,
-   "url": "https://coe.corrientes.gob.ar/a/2026-0132-CP",
-   "origen": "COE de Corrientes (reporte 2026-0132-CP), consultado el 17/11/2026 a las 07:01 h"
-  },
-  {
-   "id_oficial": "2026-0129-CP",
-   "tipo": "aviso a corto plazo",
-   "aviso": "Alerta roja (aviso a corto plazo) por tormentas, difundida por el COE de Corrientes con fuente del Servicio Meteorológico Nacional, para Concepción, Ituzaingó, Mburucuyá, Saladas, San Miguel y San Roque el martes 17/11 desde las 05:48 h hasta las 07:48 h. Se esperan: Tormentas de variada intensidad, algunas localmente fuertes, ocasional caída de granizo y lluvias intensas. La Capital no figura entre los departamentos.",
-   "nivel": "rojo",
-   "fenomeno": "tormentas",
-   "rango_mm": null,
-   "zonas": [
-    "Concepción",
-    "Ituzaingó",
-    "Mburucuyá",
-    "Saladas",
-    "San Miguel",
-    "San Roque"
-   ],
-   "desde": "17/11/2026, 05:48 h",
-   "hasta": "17/11/2026, 07:48 h",
-   "desde_iso": "2026-11-17T05:48:00-03:00",
-   "hasta_iso": "2026-11-17T07:48:00-03:00",
-   "emision": "17/11/2026, 05:57 h",
-   "incluye_corrientes": true,
-   "incluye_capital": false,
-   "url": "https://coe.corrientes.gob.ar/a/2026-0129-CP",
-   "origen": "COE de Corrientes (reporte 2026-0129-CP), consultado el 17/11/2026 a las 07:01 h"
-  },
-  {
-   "id_oficial": "2026-0128-CP",
-   "tipo": "aviso a corto plazo",
-   "aviso": "Alerta roja (aviso a corto plazo) por tormentas, difundida por el COE de Corrientes con fuente del Servicio Meteorológico Nacional, para General Alvear, Mercedes y San Martín el martes 17/11 desde las 05:45 h hasta las 07:45 h. Se esperan: Tormentas de variada intensidad, algunas localmente fuertes, ocasional caída de granizo y lluvias intensas. La Capital no figura entre los departamentos.",
-   "nivel": "rojo",
-   "fenomeno": "tormentas",
-   "rango_mm": null,
-   "zonas": [
-    "General Alvear",
-    "Mercedes",
-    "San Martín"
-   ],
-   "desde": "17/11/2026, 05:45 h",
-   "hasta": "17/11/2026, 07:45 h",
-   "desde_iso": "2026-11-17T05:45:00-03:00",
-   "hasta_iso": "2026-11-17T07:45:00-03:00",
-   "emision": "17/11/2026, 05:54 h",
-   "incluye_corrientes": true,
-   "incluye_capital": false,
-   "url": "https://coe.corrientes.gob.ar/a/2026-0128-CP",
-   "origen": "COE de Corrientes (reporte 2026-0128-CP), consultado el 17/11/2026 a las 07:01 h"
+   "incluye_capital": true,
+   "url": "https://coe.corrientes.gob.ar/a/2026-0076-AT",
+   "origen": "COE de Corrientes (reporte 2026-0076-AT), consultado el 17/11/2026 a las 09:01 h"
   }
  ],
  "ciudades": {
@@ -268,7 +186,7 @@
     "mm": 30.7,
     "horas": 21
    },
-   "smn": "Alerta naranja del SMN por tormentas para el centro, sur y oeste de Corrientes y amarilla para el norte y este el martes 17/11 (sin departamentos detallados), y alerta amarilla del COE (fuente SMN) para toda la provincia el 17/11 de 03:00 a 15:00 h, con 30 a 70 mm. Parte del SMN difundido por La Nación (03:27 h del 17/11): hoy tormentas fuertes por la mañana (100 %), tormentas por la tarde (70 %) y aisladas por la noche (40 %); mañana chaparrones y tormentas con 40 % en los tres tramos. A las 07:01 h el COE de Corrientes registra alerta roja por lluvias intensas, ráfagas y tormentas para la Capital (06:25 a 08:25 h), y alerta amarilla (06:33 a 12:00 h) con 30 a 70 mm.",
+   "smn": "Alerta naranja del SMN por tormentas para Corrientes desde las 06:00 h del 17/11 hasta las 05:59 h del 18/11 (sin departamentos detallados). COE de Corrientes (fuente SMN): alerta amarilla para la Capital el 17/11 de 06:33 a 12:00 h y el 18/11 de 05:00 a 12:00 h, con 30 a 70 mm. Parte del SMN difundido por La Nación (07:43 h del 17/11): hoy tormentas fuertes por la mañana (70 %), chaparrones por la tarde (40 %) y mayormente nublado por la noche (10 %); mañana tormentas fuertes por la mañana (70 %), tormentas aisladas por la tarde (40 %) y chaparrones por la noche (40 %).",
    "modelos": {
     "hoy": [
      [
@@ -283,9 +201,9 @@
      ]
     ]
    },
-   "criterio": "Hoy el SMN prevé tormentas fuertes con 100 %: se usa el modelo más alto disponible, el modelo numérico del SMN, con 0,0 mm (Open-Meteo no respondió en esta consulta). Mañana el SMN prevé 40 %: se usa el promedio de los modelos disponibles, solo el modelo numérico del SMN, con 30,7 mm. El modelo numérico no refleja las tormentas del parte para hoy: el rango de la alerta (30 a 70 mm) no se usa como pronóstico central y se guarda aparte como escenario severo. Reparto horario aproximado de los datos cada 3 horas del SMN. Estimación derivada, no una medición.",
+   "criterio": "Hoy y mañana el SMN prevé tormentas fuertes con 70 %: se usa el modelo más alto disponible, el modelo numérico del SMN, con 0,0 mm hoy y 30,7 mm mañana (Open-Meteo no respondió en esta consulta). El modelo no reflejó las tormentas de esta mañana. El rango de las alertas (30 a 70 mm) no se usa como pronóstico central y se guarda aparte como escenario severo. Reparto horario aproximado de los datos cada 3 horas del SMN. Estimación derivada, no una medición.",
    "fuente": "Hoy 0,0 mm y mañana 30,7 mm. Modelo numérico del SMN (17/11, 05:09 h). Estimación derivada, no una medición.",
-   "act": "17/11, 05:20 h"
+   "act": "17/11, 09:09 h"
   },
   "Goya": {
    "hoy": {
@@ -677,35 +595,28 @@
   ]
  },
  "horario_act": "17/11/2026, 05:20 h",
- "consultado": "17/11/2026, 07:12 h",
- "consulta_resultado": "sin cambios",
+ "consultado": "17/11/2026, 09:09 h",
+ "consulta_resultado": "datos nuevos",
  "extendido": {
-  "actualizado": "17/11/2026, 07:00 h",
+  "actualizado": "17/11/2026, 09:09 h",
   "aviso": "Pronóstico extendido informativo. No se usa en los cálculos del simulador.",
   "ciudades": {
    "Corrientes Capital": {
     "fuente": "Servicio Meteorológico Nacional, publicado por La Nación",
     "url": "https://www.lanacion.com.ar/clima/corrientes/",
-    "emision": "16/11/2026, 16:45 h",
+    "emision": "17/11/2026, 07:43 h",
     "dias": [
      {
-      "fecha": "2026-11-17",
-      "resumen": "Tormentas fuertes por la mañana",
-      "prob": 100,
-      "tmin": 23,
-      "tmax": 31
-     },
-     {
       "fecha": "2026-11-18",
-      "resumen": "Tormentas aisladas por la tarde",
-      "prob": 40,
-      "tmin": 21,
+      "resumen": "Tormentas fuertes por la mañana",
+      "prob": 70,
+      "tmin": 24,
       "tmax": 31
      },
      {
       "fecha": "2026-11-19",
-      "resumen": "Chaparrones y tormentas aisladas",
-      "prob": 40,
+      "resumen": "Mayormente nublado",
+      "prob": 10,
       "tmin": 22,
       "tmax": 30
      },
@@ -718,17 +629,24 @@
      },
      {
       "fecha": "2026-11-21",
-      "resumen": "Mayormente nublado",
+      "resumen": "Parcialmente nublado",
       "prob": 0,
       "tmin": 22,
       "tmax": 32
      },
      {
       "fecha": "2026-11-22",
-      "resumen": "Parcialmente nublado",
-      "prob": 0,
+      "resumen": "Mayormente nublado",
+      "prob": 10,
       "tmin": 21,
       "tmax": 31
+     },
+     {
+      "fecha": "2026-11-23",
+      "resumen": "Mayormente nublado",
+      "prob": 10,
+      "tmin": 17,
+      "tmax": 28
      }
     ]
    },
@@ -1427,7 +1345,7 @@
    }
   },
   "fiabilidad": {
-   "actualizado": "16/11/2026, 09:04 h",
+   "actualizado": "17/11/2026, 09:09 h",
    "umbral": 0.7,
    "n_min": 20,
    "ventana_dias": 30,

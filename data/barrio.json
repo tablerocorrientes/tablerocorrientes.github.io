@@ -1,5 +1,5 @@
 {
- "actualizado": "17/11/2026, 07:10 h",
+ "actualizado": "17/11/2026, 09:09 h",
  "dias": {
   "2026-11-02": [
    0,
@@ -550,11 +550,25 @@
    "min": 30,
    "max": 70,
    "texto": "Alerta roja (aviso a corto plazo) por lluvias intensas, ráfagas y tormentas difundida por el COE de Corrientes (2026-0130-CP), con fuente del Servicio Meteorológico Nacional, para Capital, Empedrado, San Cosme y San Luis del Palmar el martes 17/11 de 06:25 a 08:25 h. Además rige la alerta amarilla 2026-0075-AT para la Capital de 06:33 a 12:00 h, con 30 a 70 mm posibles, y la 2026-0074-AT de 03:00 a 15:00 h para toda la provincia."
+  },
+  "2026-11-18": {
+   "nivel": "amarillo",
+   "incluye_capital": true,
+   "zonas": "Bella Vista, Berón de Astrada, Capital, Concepción, Curuzú Cuatiá, Empedrado, Esquina, General Alvear, General Paz, Goya, Itatí, Ituzaingó, Lavalle, Mburucuyá, Mercedes, Paso de los Libres, Saladas, San Cosme, San Luis del Palmar, San Martín, San Miguel, San Roque, Santo Tomé y Sauce",
+   "desde": "18/11/2026, 05:00 h",
+   "hasta": "18/11/2026, 12:00 h",
+   "desde_iso": "2026-11-18T05:00:00-03:00",
+   "hasta_iso": "2026-11-18T12:00:00-03:00",
+   "emision": "17/11/2026, 07:12 h",
+   "emision_iso": "2026-11-17T07:12:00-03:00",
+   "min": 30,
+   "max": 70,
+   "texto": "Alerta amarilla por tormentas difundida por el COE de Corrientes (2026-0076-AT), con fuente del Servicio Meteorológico Nacional, para la Capital y otros 23 departamentos el miércoles 18/11 de 05:00 a 12:00 h, con 30 a 70 mm posibles."
   }
  },
  "rio": {
-  "altura": 6.46,
-  "actualizado": "16/11/2026, 12:00 h, Prefectura Naval Argentina (publicado por rioparana.com.ar)",
+  "altura": 6.36,
+  "actualizado": "17/11/2026 (hora de observación no publicada), Prefectura Naval Argentina (publicado por rioparana.com.ar)",
   "alerta": 6.5,
   "evacuacion": 7.0
  },
@@ -1118,7 +1132,7 @@
   },
   "2026-11-17": {
    "smn": {
-    "texto": "Parte del SMN difundido por La Nación (03:27 h del 17/11): tormentas fuertes por la mañana (100 %), tormentas por la tarde (70 %) y aisladas por la noche (40 %).",
+    "texto": "Parte del SMN difundido por La Nación (07:43 h del 17/11): hoy tormentas fuertes por la mañana (70 %), chaparrones por la tarde (40 %) y mayormente nublado por la noche (10 %). Alerta naranja del SMN y amarilla del COE para la Capital hasta las 12:00 h, con 30 a 70 mm.",
     "mm": [
      30,
      70
@@ -1133,7 +1147,7 @@
     }
    ],
    "usado": 0.0,
-   "criterio": "El SMN prevé 70 % o más de probabilidad de tormentas: se usa el modelo más alto disponible, el modelo numérico del SMN, con 0,0 mm (Open-Meteo no respondió). El modelo no refleja las tormentas del parte: la alerta indica 30 a 70 mm como escenario severo. Reparto horario aproximado de los datos cada 3 horas. Estimación derivada, no una medición."
+   "criterio": "El SMN prevé 70 % de probabilidad de tormentas fuertes: se usa el modelo más alto disponible, el modelo numérico del SMN, con 0,0 mm (Open-Meteo no respondió). El modelo no reflejó las tormentas de la mañana; el rango de la alerta (30 a 70 mm) queda como escenario severo. Estimación derivada, no una medición."
   },
   "2026-11-18": {
    "smn": {
