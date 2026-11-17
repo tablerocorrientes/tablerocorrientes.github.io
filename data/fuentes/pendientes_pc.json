@@ -14,6 +14,11 @@
    "url": "https://boletinoficial.corrientes.gob.ar/assets/articulo_adjuntos/3936/original/31-08-2018.pdf?1535985307=",
    "desde": "16/11/2026, 19:43 h",
    "error": "PDF sin texto legible desde el navegador de la computadora del autor (17/11/2026, 04:43 h)"
+  },
+  {
+   "url": "https://api.open-meteo.com/v1/forecast?latitude=-27.47,-29.14,-30.01,-28.51,-29.18,-29.79,-29.71,-28.55,-28.05,-27.59,-30.25,-28.25&longitude=-58.83,-59.26,-59.53,-59.04,-58.08,-58.05,-57.09,-56.04,-56.03,-56.69,-57.64,-58.63&hourly=precipitation&timezone=America/Argentina/Buenos_Aires&forecast_days=3&models=best_match",
+   "desde": "17/11/2026, 05:12 h",
+   "error": "HTTP Error 429: Too Many Requests"
   }
  ]
 }
