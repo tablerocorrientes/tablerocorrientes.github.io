@@ -1,5 +1,5 @@
 {
- "actualizado": "17/11/2026, 09:12 h",
+ "actualizado": "17/11/2026, 09:33 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
@@ -72,34 +72,34 @@
    "estacion": "Corrientes",
    "codigo": 13805,
    "valores": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0.25,
-    11.25,
-    0,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
     null
    ],
-   "total": 11.5,
-   "ultimo": "0 mm a las 09 h"
+   "total": null,
+   "ultimo": "sin datos en las últimas 24 horas"
   },
   {
    "localidad": "Garruchos",
@@ -1080,12 +1080,12 @@
     null,
     null,
     null,
-    null,
+    0,
     null,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 04 h"
+   "ultimo": "0 mm a las 08 h"
   },
   {
    "localidad": "Caá Catí",
@@ -1454,12 +1454,12 @@
     null,
     null,
     null,
-    null,
+    3.5,
     null,
     null
    ],
-   "total": 0,
-   "ultimo": "0 mm a las 04 h"
+   "total": 3.5,
+   "ultimo": "3,5 mm a las 08 h"
   },
   {
    "localidad": "Santa Rosa",
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "17/11/2026, 09:12 h",
+ "consultado": "17/11/2026, 09:33 h",
  "consulta_resultado": "datos nuevos"
 }
