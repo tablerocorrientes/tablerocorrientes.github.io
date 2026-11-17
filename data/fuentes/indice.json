@@ -1,6 +1,6 @@
 {
- "consultado": "17/11/2026, 08:57 h",
- "consultado_iso": "2026-11-17T08:57-03:00",
+ "consultado": "17/11/2026, 09:01 h",
+ "consultado_iso": "2026-11-17T09:01-03:00",
  "paginas": {
   "smn_alertas": {
    "url": "https://www.smn.gob.ar/alertas",
@@ -179,6 +179,41 @@
    "estado": 200,
    "caracteres": 2237,
    "archivo": "data/fuentes/coe_a_2026_0128_CP.txt"
+  }
+ },
+ "pedidas": {
+  "https://coe.corrientes.gob.ar/a/2026-0076-AT": {
+   "url": "https://coe.corrientes.gob.ar/a/2026-0076-AT",
+   "estado": 200,
+   "caracteres": 2391,
+   "archivo": "data/fuentes/web/coe_corrientes_gob_ar_a_2026_0076_AT.txt"
+  },
+  "https://www.ellitoral.com.ar/sociedad/2026-11-15-16-24-0-supernino-corrientes-es-la-segunda-provincia-con-mas-personas-afectadas": {
+   "url": "https://www.ellitoral.com.ar/sociedad/2026-11-15-16-24-0-supernino-corrientes-es-la-segunda-provincia-con-mas-personas-afectadas",
+   "estado": 200,
+   "caracteres": 3938,
+   "archivo": "data/fuentes/web/ellitoral_com_ar_sociedad_2026_11_15_16_24_0_supernino_corrientes_es_la_segunda_provincia_.txt"
+  },
+  "https://www.infobae.com/sociedad/2026/11/16/el-nino-continua-golpeando-el-litoral-una-embarazada-de-mellizas-tuvo-que-ser-rescatada-por-prefectura/": {
+   "url": "https://www.infobae.com/sociedad/2026/11/16/el-nino-continua-golpeando-el-litoral-una-embarazada-de-mellizas-tuvo-que-ser-rescatada-por-prefectura/",
+   "estado": 200,
+   "caracteres": 10019,
+   "archivo": "data/fuentes/web/infobae_com_sociedad_2026_11_16_el_nino_continua_golpeando_el_litoral_una_embarazada_de_me.txt"
+  },
+  "https://news.agrofy.com.ar/clima/corrientes": {
+   "url": "https://news.agrofy.com.ar/clima/corrientes",
+   "estado": "error",
+   "detalle": "HTTP Error 429: Too Many Requests"
+  },
+  "https://www.meteored.com.ar/tiempo-en_Corrientes-America+Sur-Argentina-Corrientes--1-16934.html": {
+   "url": "https://www.meteored.com.ar/tiempo-en_Corrientes-America+Sur-Argentina-Corrientes--1-16934.html",
+   "estado": "error",
+   "detalle": "HTTP Error 429: Too Many Requests"
+  },
+  "https://news.agrofy.com.ar/altura-de-los-rios/rio-uruguay": {
+   "url": "https://news.agrofy.com.ar/altura-de-los-rios/rio-uruguay",
+   "estado": "error",
+   "detalle": "HTTP Error 429: Too Many Requests"
   }
  },
  "portales": {

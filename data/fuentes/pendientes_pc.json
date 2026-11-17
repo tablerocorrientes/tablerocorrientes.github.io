@@ -29,6 +29,21 @@
    "url": "https://www.meteored.com.ar/tiempo-en_Corrientes-America+Sur-Argentina-Corrientes-SARC-horas-16886.htm",
    "desde": "17/11/2026, 07:03 h",
    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "url": "https://news.agrofy.com.ar/clima/corrientes",
+   "desde": "17/11/2026, 09:01 h",
+   "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "url": "https://www.meteored.com.ar/tiempo-en_Corrientes-America+Sur-Argentina-Corrientes--1-16934.html",
+   "desde": "17/11/2026, 09:01 h",
+   "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "url": "https://news.agrofy.com.ar/altura-de-los-rios/rio-uruguay",
+   "desde": "17/11/2026, 09:01 h",
+   "error": "HTTP Error 429: Too Many Requests"
   }
  ]
 }
