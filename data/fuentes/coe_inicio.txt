@@ -1,7 +1,7 @@
 Fuente: https://coe.corrientes.gob.ar/
-Consultado: 17/11/2026, 05:12 h
+Consultado: 17/11/2026, 07:01 h
 
-1 alerta vigente — COE Corrientes
+8 alertas vigentes — COE Corrientes
 Alertas del COE - Comando Operativo de Emergencias
 Instituto de
 Modernización e Innovación
@@ -14,13 +14,55 @@ Alertas hidrometeorológicas
 Avisos emitidos por el Comando Operativo de Emergencias de Corrientes por
 crecidas, tormentas, lluvias y vientos.
 Tocá una alerta para ver la pieza completa con el mapa del área alcanzada.
-Vigentes ahora 1
+Vigentes ahora 8
+Alerta Roja
+En curso
+Granizo · Tormentas
+Ituzaingó
+Empezó martes 17/11 · 06:48 h
+Termina martes 17/11 · 08:48 h
 Alerta Amarilla
 En curso
 Tormentas
-Toda la provincia
-Empezó martes 17/11 · 03:00 h
-Termina martes 17/11 · 15:00 h
+Berón de Astrada, Capital, Empedrado, General Paz, Itatí, Mburucuyá, Monte Caseros, Saladas, San Cosme, San Luis del Palmar
+Empezó martes 17/11 · 06:33 h
+Termina martes 17/11 · 12:00 h
+Alerta Naranja
+En curso
+Tormentas
+Bella Vista, Concepción, Curuzú Cuatiá, Esquina, General Alvear, Goya, Ituzaingó, Lavalle, Mercedes, Paso de los Libres, San Martín, San Miguel, San Roque, Santo Tomé, Sauce
+Empezó martes 17/11 · 06:33 h
+Termina martes 17/11 · 12:00 h
+Alerta Roja
+En curso
+Lluvias intensas · Ràfagas · Tormentas
+General Alvear, Ituzaingó, San Martín, San Miguel, Santo Tomé
+Empezó martes 17/11 · 06:33 h
+Termina martes 17/11 · 08:33 h
+Alerta Roja
+En curso
+Lluvias intensas · Ràfagas · Tormentas
+Capital, Empedrado, San Cosme, San Luis del Palmar
+Empezó martes 17/11 · 06:25 h
+Termina martes 17/11 · 08:25 h
+Alerta Roja
+En curso
+Tormentas
+Concepción, Ituzaingó, Mburucuyá, Saladas, San Miguel, San Roque
+Empezó martes 17/11 · 05:48 h
+Termina martes 17/11 · 07:48 h
+Alerta Roja
+En curso
+Tormentas
+General Alvear, Mercedes, San Martín
+Empezó martes 17/11 · 05:45 h
+Termina martes 17/11 · 07:45 h
+Alerta Roja
+En curso
+Tormentas
+Concepción, Curuzú Cuatiá, Mercedes, Paso de los Libres, San Roque
+Empezó martes 17/11 · 05:05 h
+Termina martes 17/11 · 07:05 h
 Canal oficial
 Recibí las alertas en tu teléfono
 Unirme por WhatsApp

@@ -1,6 +1,6 @@
 {
- "consultado": "17/11/2026, 05:12 h",
- "consultado_iso": "2026-11-17T05:12-03:00",
+ "consultado": "17/11/2026, 07:01 h",
+ "consultado_iso": "2026-11-17T07:01-03:00",
  "paginas": {
   "smn_alertas": {
    "url": "https://www.smn.gob.ar/alertas",
@@ -15,20 +15,27 @@
   "coe_inicio": {
    "url": "https://coe.corrientes.gob.ar/",
    "enlaces": [
+    "https://coe.corrientes.gob.ar/a/2026-0132-CP",
+    "https://coe.corrientes.gob.ar/a/2026-0131-CP",
+    "https://coe.corrientes.gob.ar/a/2026-0130-CP",
+    "https://coe.corrientes.gob.ar/a/2026-0129-CP",
+    "https://coe.corrientes.gob.ar/a/2026-0128-CP",
+    "https://coe.corrientes.gob.ar/a/2026-0127-CP",
     "https://coe.corrientes.gob.ar/a/2026-0126-CP",
     "https://coe.corrientes.gob.ar/a/2026-0125-CP",
-    "https://coe.corrientes.gob.ar/a/2026-0074-AT",
+    "https://coe.corrientes.gob.ar/a/2026-0075-AT",
     "https://coe.corrientes.gob.ar/a/2026-0073-AT",
     "https://coe.corrientes.gob.ar/a/2026-0072-AT",
     "https://coe.corrientes.gob.ar/a/2026-0071-AT",
     "https://coe.corrientes.gob.ar/a/2026-0070-AT",
     "https://coe.corrientes.gob.ar/a/2026-0066-AT",
     "https://coe.corrientes.gob.ar/a/2026-0065-AT",
+    "https://coe.corrientes.gob.ar/a/2026-0023-NT",
     "https://coe.corrientes.gob.ar/a/2026-0022-NT",
     "https://coe.corrientes.gob.ar/a/2026-0020-NT"
    ],
    "estado": 200,
-   "caracteres": 3444,
+   "caracteres": 4733,
    "archivo": "data/fuentes/coe_inicio.txt"
   },
   "ina_reporte_diario": {
@@ -40,7 +47,7 @@
   "rioparana_alturas": {
    "url": "https://www.rioparana.com.ar",
    "estado": 200,
-   "caracteres": 11319,
+   "caracteres": 11320,
    "archivo": "data/fuentes/rioparana_alturas.txt"
   },
   "prefectura_alturas": {
@@ -51,7 +58,7 @@
   "lanacion_clima_corrientes": {
    "url": "https://www.lanacion.com.ar/clima/corrientes/",
    "estado": 200,
-   "caracteres": 8176,
+   "caracteres": 8215,
    "archivo": "data/fuentes/lanacion_clima_corrientes.txt"
   },
   "noaa_enso": {
@@ -96,51 +103,44 @@
   "coe_2026_0074_AT": {
    "url": "https://coe.corrientes.gob.ar/a/2026-0074-AT",
    "estado": 200,
-   "caracteres": 1774,
+   "caracteres": 1770,
    "archivo": "data/fuentes/coe_2026_0074_AT.txt"
   },
-  "coe_a_2026_0126_CP": {
-   "url": "https://coe.corrientes.gob.ar/a/2026-0126-CP",
+  "coe_a_2026_0132_CP": {
+   "url": "https://coe.corrientes.gob.ar/a/2026-0132-CP",
    "estado": 200,
-   "caracteres": 2122,
-   "archivo": "data/fuentes/coe_a_2026_0126_CP.txt"
+   "caracteres": 2137,
+   "archivo": "data/fuentes/coe_a_2026_0132_CP.txt"
   },
-  "coe_a_2026_0125_CP": {
-   "url": "https://coe.corrientes.gob.ar/a/2026-0125-CP",
+  "coe_a_2026_0131_CP": {
+   "url": "https://coe.corrientes.gob.ar/a/2026-0131-CP",
    "estado": 200,
-   "caracteres": 2053,
-   "archivo": "data/fuentes/coe_a_2026_0125_CP.txt"
+   "caracteres": 2263,
+   "archivo": "data/fuentes/coe_a_2026_0131_CP.txt"
   },
-  "coe_a_2026_0074_AT": {
-   "url": "https://coe.corrientes.gob.ar/a/2026-0074-AT",
+  "coe_a_2026_0130_CP": {
+   "url": "https://coe.corrientes.gob.ar/a/2026-0130-CP",
    "estado": 200,
-   "caracteres": 1774,
-   "archivo": "data/fuentes/coe_a_2026_0074_AT.txt"
+   "caracteres": 2252,
+   "archivo": "data/fuentes/coe_a_2026_0130_CP.txt"
   },
-  "coe_a_2026_0073_AT": {
-   "url": "https://coe.corrientes.gob.ar/a/2026-0073-AT",
+  "coe_a_2026_0129_CP": {
+   "url": "https://coe.corrientes.gob.ar/a/2026-0129-CP",
    "estado": 200,
-   "caracteres": 1901,
-   "archivo": "data/fuentes/coe_a_2026_0073_AT.txt"
+   "caracteres": 2269,
+   "archivo": "data/fuentes/coe_a_2026_0129_CP.txt"
   },
-  "coe_a_2026_0072_AT": {
-   "url": "https://coe.corrientes.gob.ar/a/2026-0072-AT",
+  "coe_a_2026_0128_CP": {
+   "url": "https://coe.corrientes.gob.ar/a/2026-0128-CP",
    "estado": 200,
-   "caracteres": 1811,
-   "archivo": "data/fuentes/coe_a_2026_0072_AT.txt"
+   "caracteres": 2241,
+   "archivo": "data/fuentes/coe_a_2026_0128_CP.txt"
   },
-  "coe_a_2026_0071_AT": {
-   "url": "https://coe.corrientes.gob.ar/a/2026-0071-AT",
+  "coe_a_2026_0127_CP": {
+   "url": "https://coe.corrientes.gob.ar/a/2026-0127-CP",
    "estado": 200,
-   "caracteres": 1993,
-   "archivo": "data/fuentes/coe_a_2026_0071_AT.txt"
-  }
- },
- "pedidas": {
-  "https://api.open-meteo.com/v1/forecast?latitude=-27.47,-29.14,-30.01,-28.51,-29.18,-29.79,-29.71,-28.55,-28.05,-27.59,-30.25,-28.25&longitude=-58.83,-59.26,-59.53,-59.04,-58.08,-58.05,-57.09,-56.04,-56.03,-56.69,-57.64,-58.63&hourly=precipitation&timezone=America/Argentina/Buenos_Aires&forecast_days=3&models=best_match": {
-   "url": "https://api.open-meteo.com/v1/forecast?latitude=-27.47,-29.14,-30.01,-28.51,-29.18,-29.79,-29.71,-28.55,-28.05,-27.59,-30.25,-28.25&longitude=-58.83,-59.26,-59.53,-59.04,-58.08,-58.05,-57.09,-56.04,-56.03,-56.69,-57.64,-58.63&hourly=precipitation&timezone=America/Argentina/Buenos_Aires&forecast_days=3&models=best_match",
-   "estado": "error",
-   "detalle": "HTTP Error 429: Too Many Requests"
+   "caracteres": 2271,
+   "archivo": "data/fuentes/coe_a_2026_0127_CP.txt"
   }
  },
  "portales": {
