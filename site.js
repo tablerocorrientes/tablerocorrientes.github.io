@@ -32,11 +32,12 @@
   '.tc-clamp{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}'+
   '.tc-more{display:inline-block;border:0;background:none;color:#1f6f8b;font:800 .8rem Archivo,system-ui,sans-serif;padding:2px 0 6px;cursor:pointer}'+
   '#tc-reset{position:fixed;right:12px;bottom:calc(14px + env(safe-area-inset-bottom,0px));z-index:60;border:0;border-radius:999px;padding:11px 16px;background:#0c3f52;color:#fff;font:800 .88rem Archivo,system-ui,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.3);cursor:pointer}#tc-reset[hidden]{display:none}'+
-  '.ag{border-radius:18px;padding:14px 16px;margin:10px 0;box-shadow:0 6px 20px rgba(0,0,0,.25);text-align:left}.ag-naranja,.ag-rojo{animation:agP 1.4s ease-in-out infinite}'+
+  '.ag{border-radius:18px;padding:14px 16px;margin:10px 0;box-shadow:0 6px 20px rgba(0,0,0,.25);text-align:left}.ag{animation:agP 1.4s ease-in-out infinite}.ag-amarillo{animation-name:agPa}.ag-t{animation:agT 1.1s ease-in-out infinite}'+
   '.ag-t{font:900 2rem/1.05 Archivo,system-ui,sans-serif;letter-spacing:.01em}.ag-s{font-weight:900;font-size:1rem;margin:4px 0 8px;letter-spacing:.03em}.ag-r{font-size:1rem;margin-top:6px;line-height:1.35}'+
   '.ag-k{margin-top:10px;padding:8px 10px;border-radius:10px;background:rgba(0,0,0,.18);font-size:.86rem;line-height:1.35}.ag-o{margin:8px 0 0;padding-left:18px;font-size:.88rem}.ag-f{margin-top:8px;font-size:.72rem;opacity:.85}'+
   '.ag-ini small,.ag-r small{display:block;font-size:.72rem;opacity:.85;margin-top:2px}.ag-z{margin:10px 0;padding:10px 12px;border-radius:14px;background:var(--card,#fff);border:1px solid var(--line,#ccd);font-size:.86rem}.ag-zr{border-left:5px solid;padding:6px 8px;margin-top:8px;border-radius:6px;background:rgba(0,0,0,.03)}'+
   '.ag-h{display:flex;align-items:flex-end;gap:2px;height:36px;margin-top:6px}.ag-h i{flex:1;background:currentColor;opacity:.85;border-radius:2px 2px 0 0}.ag-hx{display:flex;justify-content:space-between;font-size:.66rem;opacity:.8}'+
+  '@keyframes agPa{0%,100%{box-shadow:0 0 0 0 rgba(246,213,92,.9)}50%{box-shadow:0 0 0 12px rgba(246,213,92,0)}}@keyframes agT{0%,100%{opacity:1}50%{opacity:.35}}@media (prefers-reduced-motion:reduce){.ag,.ag-t{animation:none}}'+
   '@keyframes agP{0%,100%{box-shadow:0 0 0 0 rgba(239,125,18,.8)}50%{box-shadow:0 0 0 10px rgba(239,125,18,0)}}'+
   '#tc-inst{margin:8px 12px!important;padding:8px!important}'+
   '#tc-inst .tc-blink{cursor:pointer;list-style:none;display:flex;gap:10px;align-items:center;background:linear-gradient(90deg,#ff9f1c,#ffcf4a);color:#2a1600;border-radius:14px;padding:10px 12px;animation:tcPulso 1.6s ease-in-out infinite}'+
@@ -197,10 +198,11 @@
   var M5=null;function modelo(){if(!M5)M5=fetch('/data/fuentes/smn_pronostico_5_dias.txt',{cache:'no-cache'}).then(function(r){return r.ok?r.text():'';}).then(function(tx){var o={},cur=null,MS={ENE:0,FEB:1,MAR:2,ABR:3,MAY:4,JUN:5,JUL:6,AGO:7,SEP:8,SET:8,OCT:9,NOV:10,DIC:11};
       tx.split('\n').forEach(function(l){var s=l.trim();if(/^[A-Z_]{4,}$/.test(s)){cur=s;o[cur]=[];return;}var m=/^(\d{2})\/([A-Z]{3})\/(\d{4})\s+(\d{2})Hs\.\s+\S+\s+\d+\s*\|\s*\d+\s+([\d.]+)/.exec(s);if(m&&cur&&MS[m[2]]!=null)o[cur].push({t:new Date(+m[3],MS[m[2]],+m[1],+m[4]),mm:+m[5]});});return o;}).catch(function(){return {};});return M5;}
   var LL=null;function medida(){if(!LL)LL=fetch('/data/lluvia.json',{cache:'no-cache'}).then(function(r){return r.ok?r.json():{};}).catch(function(){return {};});return LL;}
-  window.tcInicioLluvia=function(dep,el,loc){if(!el)return;var st=EST_DEP[nrm(dep)]||'CORRIENTES_AERO';Promise.all([modelo(),medida()]).then(function(R){var o=R[0],LM=R[1]||{};
+  window.tcInicioLluvia=function(dep,el,loc,cur){if(!el)return;var st=EST_DEP[nrm(dep)]||'CORRIENTES_AERO';Promise.all([modelo(),medida()]).then(function(R){var o=R[0],LM=R[1]||{};
     var E=(LM.estaciones||[]).filter(function(s){return loc&&String(s.localidad).indexOf(loc)===0;}),cols=LM.columnas||[],ya=null;
     E.forEach(function(s){var v=s.valores||[];for(var k=v.length-1;k>=Math.max(0,v.length-3);k--){if(v[k]!=null&&v[k]>=0.5){if(!ya||v[k]>ya.mm)ya={mm:v[k],h:cols[k]||'',tot:v.reduce(function(a,x){return a+(x||0);},0)};break;}}});
     if(ya){el.innerHTML='🌧️ <b>LLUEVE AHORA en '+loc+': '+String(ya.mm).replace('.',',')+' mm en la hora de las '+String(ya.h).replace(' (en curso)','')+'</b>, '+String(Math.round(ya.tot*10)/10).replace('.',',')+' mm en 24 h. <small>Lluvia medida por el SNIH, actualizada '+(LM.actualizado||'')+'.</small>';return;}
+    if(cur){el.innerHTML='⛈️ <b>TORMENTA EN CURSO según el aviso oficial, hasta las '+cur+' h.</b> <small>La lluvia medida por las estaciones se incorpora en la próxima actualización.</small>';return;}
 var L=o[st]||[];if(!L.length){el.remove();return;}
     var now=new Date(),fut=L.filter(function(x){return x.t>now;}),ini=null;for(var i=0;i<fut.length;i++){if(fut[i].mm>=0.5){ini=fut[i];break;}}
     var lim=new Date(now.getTime()+864e5),t24=fut.filter(function(x){return x.t<=lim;}).reduce(function(s,x){return s+x.mm;},0);
@@ -208,13 +210,13 @@ var L=o[st]||[];if(!L.length){el.remove();return;}
     if(ini){var a=new Date(ini.t.getTime()-3*36e5),mx=fut.slice(fut.indexOf(ini),fut.indexOf(ini)+4).reduce(function(m,x){return Math.max(m,x.mm);},0);
       el.innerHTML='⏱️ <b>Inicio estimado de la lluvia: '+dn(ini.t)+', entre las '+a.getHours()+' y las '+(ini.t.getHours()||24)+' h</b>'+(mx>=5?', con el momento más intenso de hasta '+String(mx).replace('.',',')+' mm en 3 h':'')+'. <small>Modelo numérico del SMN, estación '+EST_NOM[st]+'; puede diferir de la alerta y de la tormenta real.</small>';}
     else el.innerHTML='⏱️ <b>El modelo numérico del SMN no prevé lluvia significativa en las próximas horas</b> para la estación '+EST_NOM[st]+'. <small>Las tormentas de la alerta pueden ser aisladas y difíciles de anticipar en un horario: siga el radar.</small>';});};
-  window.tcAlertaGrande=function(smn,dep,nombre,pron,ciudad){setTimeout(function(){[].forEach.call(document.querySelectorAll('.ag-ini:empty'),function(el){tcInicioLluvia(el.getAttribute('data-dep'),el,el.getAttribute('data-loc'));});},50);
+  window.tcAlertaGrande=function(smn,dep,nombre,pron,ciudad){setTimeout(function(){[].forEach.call(document.querySelectorAll('.ag-ini:empty'),function(el){tcInicioLluvia(el.getAttribute('data-dep'),el,el.getAttribute('data-loc'),el.getAttribute('data-cur'));});},50);
     var now=new Date(),S=(smn||[]).filter(function(a){if(a.incluye_corrientes===false)return false;var h=a.hasta_iso?Date.parse(a.hasta_iso):NaN;return isNaN(h)||h>now;}).filter(function(a){return alcanza(a,dep);});
     if(!S.length)return '';var ORD={rojo:3,naranja:2,amarillo:1};S.sort(function(x,y){return (ORD[y.nivel]||0)-(ORD[x.nivel]||0)||Date.parse(x.desde_iso||0)-Date.parse(y.desde_iso||0);});
     var a=S[0],COL={rojo:['#c0392b','#fff'],naranja:['#ef7d12','#fff'],amarillo:['#f6d55c','#2b2300']},c=COL[a.nivel]||COL.amarillo,DS=['domingo','lunes','martes','miércoles','jueves','viernes','sábado'];
     var hh=function(x){return x.getHours()+(x.getMinutes()?':'+String(x.getMinutes()).padStart(2,'0'):'');},dn=function(x){var k=Math.round((new Date(x.getFullYear(),x.getMonth(),x.getDate())-new Date(now.getFullYear(),now.getMonth(),now.getDate()))/864e5);return (k===0?'hoy ':k===1?'mañana ':'')+DS[x.getDay()]+' '+x.getDate()+'/'+(x.getMonth()+1);};
     var d=a.desde_iso?new Date(a.desde_iso):null,f=a.hasta_iso?new Date(a.hasta_iso):null,est='',cu='';
-    if(d&&f){cu=(d.toDateString()===f.toDateString()?dn(d)+', de '+hh(d)+' a '+hh(f)+' h':dn(d)+' '+hh(d)+' h a '+dn(f)+' '+hh(f)+' h');
+    if(d&&f){cu=(d.toDateString()===f.toDateString()?dn(d)+', de '+hh(d)+' a '+hh(f)+' h':dn(d)+' '+hh(d)+' h a '+dn(f)+' '+hh(f)+' h')+' · duración '+Math.round((f-d)/36e5)+' h';
       if(now>=d){var r=Math.max(1,Math.round((f-now)/36e5));est='EN CURSO · termina en '+r+' h';}else{var q=Math.max(1,Math.round((d-now)/36e5));est='COMIENZA EN '+q+' H';}}
     var tor=/torment/.test(nrm(a.fenomeno||a.aviso)),fen=a.fenomeno?(/torment/.test(nrm(a.fenomeno))?'tormentas':a.fenomeno):'tormentas';
     var mm=null;S.forEach(function(x){if(x.rango_mm&&(!mm||x.rango_mm[1]>mm[1]))mm=x.rango_mm;});
@@ -228,7 +230,7 @@ var L=o[st]||[];if(!L.length){el.remove();return;}
     return '<div class="ag ag-'+(a.nivel||'amarillo')+'" style="background:'+c[0]+';color:'+c[1]+'">'
       +'<div class="ag-t">⚠️ ALERTA '+({amarillo:'AMARILLA',naranja:'NARANJA',rojo:'ROJA'}[a.nivel]||String(a.nivel||'').toUpperCase())+'</div><div class="ag-s">POR '+String(fen).toUpperCase()+(est?' · '+est:'')+'</div>'
       +'<div class="ag-r">📍 Rige para <b>'+(nombre||'')+'</b>'+(dep?' (departamento '+dep+')':'')+'</div>'
-      +(cu?'<div class="ag-r">🕒 Vigencia de la alerta: <b>'+cu+'</b>'+(d&&now<d?' · <b>comienza a las '+hh(d)+' h</b>':'')+'</div>':'')+'<div class="ag-r ag-ini" data-dep="'+(dep||'')+'" data-loc="'+(nombre||'')+'"></div>'
+      +(cu?'<div class="ag-r">🕒 Vigencia de la alerta: <b>'+cu+'</b>'+(d&&now<d?' · <b>comienza a las '+hh(d)+' h</b>':'')+'</div>':'')+'<div class="ag-r ag-ini" data-dep="'+(dep||'')+'" data-loc="'+(nombre||'')+'" data-cur="'+(d&&f&&now>=d&&(f-d)<=12*36e5?hh(f):'')+'"></div>'
       +(mm?'<div class="ag-r">'+(tor?'⛈️':'🌧️')+' Lluvia acumulada prevista: <b>'+mm[0]+' a '+mm[1]+' mm</b></div>':'')
       +(dia?'<div class="ag-r">🌦️ Pronóstico: <b>'+dia.resumen+'</b>'+(dia.prob!=null?', '+dia.prob+' % de probabilidad':'')+'</div>':'')+hor
       +(tor?'<div class="ag-k"><b>Ante tormentas:</b> no circule por calles anegadas, asegure objetos sueltos, no se refugie bajo árboles y desconecte artefactos eléctricos. Emergencias: 103.</div>':'')

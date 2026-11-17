@@ -969,7 +969,7 @@ var LK=function(h,t){return ' <a href="'+h+'" style="color:#fff;font-weight:800;
   if(top){var zz=[].concat(top.zonas||[]).map(function(z){return String(z).replace(/^Zona del? /i,'').replace(/ de Corrientes/i,'').replace(/^(.*?) que incluye (?:a |la )?(.*)$/i,'$1 ($2)');});frases.push('Hay '+V.length+' alerta'+(V.length>1?'s':'')+' meteorológica'+(V.length>1?'s':'')+', la máxima de nivel <b>'+esc(String(top.nivel).toLowerCase())+'</b>'+(top.fenomeno?' por '+esc(top.fenomeno):'')+', para el <b>'+esc(alCorta(top).cuando)+'</b>'+(zz.length?'. Zonas: '+esc(zz.join('; ')):'')+(/Capital/.test(zz.join(' '))?'':(cap?', incluye a la Capital':', no incluye a la Capital'))+'.'+LK('#capAle','Alertas'));}else frases.push('No hay alertas meteorológicas vigentes para la provincia.');
   if(ev.valor!=null)frases.push('<b>'+nf(ev.valor)+' personas</b> estaban fuera de sus casas en toda la provincia, según el último parte de Defensa Civil ('+esc(ev.fecha||'')+').'+LK('#capEva','Evacuados'));
   var AGc=window.tcAlertaGrande?tcAlertaGrande((PF||{}).smn,'Capital','Corrientes Capital',PF||{},'Corrientes Capital'):'',AGz=window.tcAlertasZonas?tcAlertasZonas((PF||{}).smn):'';
-  var html=AGc+AGz+'<div class="sban" style="background:'+g[1]+'"><div class="sk">ESTADO DE SITUACIÓN EN LA PROVINCIA</div><div class="sv">'+g[0]+'</div><p>'+frases.map(function(f){return '<span style="display:block;margin-top:6px">• '+f+'</span>';}).join('')+'</p></div>';
+  var html=AGc+'<div id="satTop"></div>'+AGz+'<div class="sban" style="background:'+g[1]+'"><div class="sk">ESTADO DE SITUACIÓN EN LA PROVINCIA</div><div class="sv">'+g[0]+'</div><p>'+frases.map(function(f){return '<span style="display:block;margin-top:6px">• '+f+'</span>';}).join('')+'</p></div>';
   /* KPIs */
   var cl={rojo:'#d64545',naranja:'#f29c38',amarillo:'#e0b416'};
   var tiles=[];
@@ -999,7 +999,7 @@ var LK=function(h,t){return ' <a href="'+h+'" style="color:#fff;font-weight:800;
       +'<div class="tiles" style="margin-top:4px">'+I.map(function(k){return '<div class="tile" style="--tc:var(--prn)"><div class="tl">'+esc(k.t)+'</div><div class="tv" style="font-size:1.35rem">'+esc(k.v)+'</div><div class="td">'+esc(k.s)+'</div></div>';}).join('')+'</div>'
       +PR.map(function(q){return '<div style="margin-top:8px;font-size:.86rem;line-height:1.4"><b>'+esc(q.organismo)+'</b> <span style="color:var(--ink2);font-size:.76rem">('+esc(q.fecha)+')</span><br>'+esc(q.breve)+(q.url?' <a href="'+esc(q.url)+'" target="_blank" rel="noopener">fuente</a>':'')+'</div>';}).join('')
       +'<div style="margin-top:8px"><a href="#capNin" style="font-weight:800;color:var(--water);text-decoration:none">Ver el análisis completo de El Niño ›</a></div></div>';}
-  box.innerHTML=html;
+  box.innerHTML=html;var sfT=$('satFig'),stT=$('satTop');if(sfT&&stT&&!sfT.hidden)stT.appendChild(sfT);
   var zs=$('zsel');function zap(){var v=zs?zs.value:'*';[].forEach.call(document.querySelectorAll('#zl > details'),function(d){var n=d.getAttribute('data-n'),m=v==='*'||n===v;d.style.display=m?'':'none';d.open=v!=='*'&&n===v;});}if(zs){zs.onchange=function(){if(q)q.value='';zap();};zap();}
   var q=$('zq');if(q)q.addEventListener('input',function(){var v=q.value.trim().toLowerCase();if(!v){zap();return;}[].forEach.call(document.querySelectorAll('#zl > details'),function(d){var m=(d.getAttribute('data-q')||'').indexOf(v)>=0;d.style.display=m?'':'none';if(m)d.open=true;});});
 })();
