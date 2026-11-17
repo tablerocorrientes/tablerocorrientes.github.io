@@ -1,6 +1,6 @@
 {
- "consultado": "17/11/2026, 11:13 h",
- "consultado_iso": "2026-11-17T11:13-03:00",
+ "consultado": "17/11/2026, 11:16 h",
+ "consultado_iso": "2026-11-17T11:16-03:00",
  "paginas": {
   "smn_alertas": {
    "url": "https://www.smn.gob.ar/alertas",
@@ -96,11 +96,11 @@
    "caracteres": 17711,
    "archivo": "data/fuentes/smn_pronostico_5_dias_ayer.txt"
   },
-  "coe_2026_0133_CP": {
-   "url": "https://coe.corrientes.gob.ar/a/2026-0133-CP",
+  "coe_2026_0134_CP": {
+   "url": "https://coe.corrientes.gob.ar/a/2026-0134-CP",
    "estado": 200,
-   "caracteres": 1881,
-   "archivo": "data/fuentes/coe_2026_0133_CP.txt"
+   "caracteres": 1763,
+   "archivo": "data/fuentes/coe_2026_0134_CP.txt"
   },
   "coe_2026_0075_AT": {
    "url": "https://coe.corrientes.gob.ar/a/2026-0075-AT",
