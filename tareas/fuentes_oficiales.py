@@ -252,4 +252,15 @@ for pt in port:
     indice['portales'][pt['nombre']] = r
     print('portal', pt['nombre'], r.get('estado'), r.get('notas'))
 
+# Sin páginas pedidas en esta corrida (por ejemplo, la vigilancia automática): conservar las pedidas por la corrida anterior
+if not pedidas:
+    try:
+        _prev = json.load(open(os.path.join(OUT, 'indice.json'), encoding='utf-8'))
+        if _prev.get('pedidas'):
+            indice['pedidas'] = _prev['pedidas']
+            indice['pedidas_consultado'] = _prev.get('pedidas_consultado', _prev.get('consultado'))
+    except Exception:
+        pass
+else:
+    indice['pedidas_consultado'] = indice['consultado']
 json.dump(indice, open(os.path.join(OUT, 'indice.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
