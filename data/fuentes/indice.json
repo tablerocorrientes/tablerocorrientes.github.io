@@ -1,6 +1,6 @@
 {
- "consultado": "17/11/2026, 18:33 h",
- "consultado_iso": "2026-11-17T18:33-03:00",
+ "consultado": "17/11/2026, 18:47 h",
+ "consultado_iso": "2026-11-17T18:47-03:00",
  "paginas": {
   "smn_alertas": {
    "url": "https://www.smn.gob.ar/alertas",
@@ -23,12 +23,14 @@
     "https://coe.corrientes.gob.ar/a/2026-0129-CP",
     "https://coe.corrientes.gob.ar/a/2026-0128-CP",
     "https://coe.corrientes.gob.ar/a/2026-0127-CP",
+    "https://coe.corrientes.gob.ar/a/2026-0077-AT",
     "https://coe.corrientes.gob.ar/a/2026-0076-AT",
     "https://coe.corrientes.gob.ar/a/2026-0075-AT",
+    "https://coe.corrientes.gob.ar/a/2026-0024-NT",
     "https://coe.corrientes.gob.ar/a/2026-0023-NT"
    ],
    "estado": 200,
-   "caracteres": 3217,
+   "caracteres": 3740,
    "archivo": "data/fuentes/coe_inicio.txt"
   },
   "ina_reporte_diario": {
@@ -40,7 +42,7 @@
   "rioparana_alturas": {
    "url": "https://www.rioparana.com.ar",
    "estado": 200,
-   "caracteres": 11313,
+   "caracteres": 11312,
    "archivo": "data/fuentes/rioparana_alturas.txt"
   },
   "prefectura_alturas": {
@@ -136,13 +138,6 @@
    "archivo": "data/fuentes/coe_a_2026_0129_CP.txt"
   }
  },
- "pedidas": {
-  "https://api.open-meteo.com/v1/forecast?latitude=-27.47,-29.14,-30.01,-28.51,-29.18,-29.79,-29.71,-28.55,-28.05,-27.59,-30.25,-28.25&longitude=-58.83,-59.26,-59.53,-59.04,-58.08,-58.05,-57.09,-56.04,-56.03,-56.69,-57.64,-58.62&hourly=precipitation&timezone=America%2FArgentina%2FBuenos_Aires&forecast_days=6": {
-   "url": "https://api.open-meteo.com/v1/forecast?latitude=-27.47,-29.14,-30.01,-28.51,-29.18,-29.79,-29.71,-28.55,-28.05,-27.59,-30.25,-28.25&longitude=-58.83,-59.26,-59.53,-59.04,-58.08,-58.05,-57.09,-56.04,-56.03,-56.69,-57.64,-58.62&hourly=precipitation&timezone=America%2FArgentina%2FBuenos_Aires&forecast_days=6",
-   "estado": "error",
-   "detalle": "HTTP Error 429: Too Many Requests"
-  }
- },
  "portales": {
   "munired_municipio_corrientes": {
    "url": "https://munired.mcypcorrientes.gob.ar/noticias/corrientes",
@@ -167,6 +162,13 @@
    "estado": 200,
    "notas": 6,
    "archivo": "data/fuentes/portales/senado_corrientes.txt"
+  }
+ },
+ "pedidas": {
+  "https://api.open-meteo.com/v1/forecast?latitude=-27.47,-29.14,-30.01,-28.51,-29.18,-29.79,-29.71,-28.55,-28.05,-27.59,-30.25,-28.25&longitude=-58.83,-59.26,-59.53,-59.04,-58.08,-58.05,-57.09,-56.04,-56.03,-56.69,-57.64,-58.62&hourly=precipitation&timezone=America%2FArgentina%2FBuenos_Aires&forecast_days=6": {
+   "url": "https://api.open-meteo.com/v1/forecast?latitude=-27.47,-29.14,-30.01,-28.51,-29.18,-29.79,-29.71,-28.55,-28.05,-27.59,-30.25,-28.25&longitude=-58.83,-59.26,-59.53,-59.04,-58.08,-58.05,-57.09,-56.04,-56.03,-56.69,-57.64,-58.62&hourly=precipitation&timezone=America%2FArgentina%2FBuenos_Aires&forecast_days=6",
+   "estado": "error",
+   "detalle": "HTTP Error 429: Too Many Requests"
   }
  },
  "pedidas_consultado": "17/11/2026, 18:33 h"
