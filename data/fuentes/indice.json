@@ -1,6 +1,6 @@
 {
- "consultado": "17/11/2026, 11:17 h",
- "consultado_iso": "2026-11-17T11:17-03:00",
+ "consultado": "17/11/2026, 13:08 h",
+ "consultado_iso": "2026-11-17T13:08-03:00",
  "paginas": {
   "smn_alertas": {
    "url": "https://www.smn.gob.ar/alertas",
@@ -25,25 +25,22 @@
     "https://coe.corrientes.gob.ar/a/2026-0127-CP",
     "https://coe.corrientes.gob.ar/a/2026-0076-AT",
     "https://coe.corrientes.gob.ar/a/2026-0075-AT",
-    "https://coe.corrientes.gob.ar/a/2026-0073-AT",
-    "https://coe.corrientes.gob.ar/a/2026-0072-AT",
-    "https://coe.corrientes.gob.ar/a/2026-0071-AT",
     "https://coe.corrientes.gob.ar/a/2026-0023-NT"
    ],
    "estado": 200,
-   "caracteres": 3945,
+   "caracteres": 3217,
    "archivo": "data/fuentes/coe_inicio.txt"
   },
   "ina_reporte_diario": {
    "url": "https://alerta.ina.gob.ar/a5/diario/reporte_diario",
    "estado": 200,
-   "caracteres": 16123,
+   "caracteres": 15810,
    "archivo": "data/fuentes/ina_reporte_diario.txt"
   },
   "rioparana_alturas": {
    "url": "https://www.rioparana.com.ar",
    "estado": 200,
-   "caracteres": 11320,
+   "caracteres": 11315,
    "archivo": "data/fuentes/rioparana_alturas.txt"
   },
   "prefectura_alturas": {
@@ -54,14 +51,13 @@
   "lanacion_clima_corrientes": {
    "url": "https://www.lanacion.com.ar/clima/corrientes/",
    "estado": 200,
-   "caracteres": 8208,
+   "caracteres": 8220,
    "archivo": "data/fuentes/lanacion_clima_corrientes.txt"
   },
   "noaa_enso": {
    "url": "https://cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc_Sp.html",
-   "estado": 200,
-   "caracteres": 4083,
-   "archivo": "data/fuentes/noaa_enso.txt"
+   "estado": "error",
+   "detalle": "<urlopen error timed out>"
   },
   "smn_datos_alertas": {
    "url": "https://ws.smn.gob.ar/alerts/type/AL",
@@ -99,19 +95,19 @@
   "coe_2026_0134_CP": {
    "url": "https://coe.corrientes.gob.ar/a/2026-0134-CP",
    "estado": 200,
-   "caracteres": 1763,
+   "caracteres": 1759,
    "archivo": "data/fuentes/coe_2026_0134_CP.txt"
   },
   "coe_2026_0075_AT": {
    "url": "https://coe.corrientes.gob.ar/a/2026-0075-AT",
    "estado": 200,
-   "caracteres": 2231,
+   "caracteres": 2227,
    "archivo": "data/fuentes/coe_2026_0075_AT.txt"
   },
   "coe_": {
    "url": "https://coe.corrientes.gob.ar/",
    "estado": 200,
-   "caracteres": 3945,
+   "caracteres": 3217,
    "archivo": "data/fuentes/coe_.txt"
   },
   "coe_2026_0076_AT": {
@@ -123,7 +119,7 @@
   "coe_a_2026_0134_CP": {
    "url": "https://coe.corrientes.gob.ar/a/2026-0134-CP",
    "estado": 200,
-   "caracteres": 1763,
+   "caracteres": 1759,
    "archivo": "data/fuentes/coe_a_2026_0134_CP.txt"
   },
   "coe_a_2026_0133_CP": {
@@ -155,31 +151,6 @@
    "estado": 200,
    "caracteres": 2265,
    "archivo": "data/fuentes/coe_a_2026_0129_CP.txt"
-  }
- },
- "pedidas": {
-  "https://www.radiosudamericana.com/nota/sociedad/351176-Lluvias-en-la-Capital--no-se-registraron-anegamientos-durante-la-manana.htm": {
-   "url": "https://www.radiosudamericana.com/nota/sociedad/351176-Lluvias-en-la-Capital--no-se-registraron-anegamientos-durante-la-manana.htm",
-   "estado": 200,
-   "caracteres": 4685,
-   "archivo": "data/fuentes/web/radiosudamericana_com_nota_sociedad_351176_Lluvias_en_la_Capital_no_se_registraron_anegami.txt"
-  },
-  "https://www.diarioepoca.com/t6774-llueve-en-corrientes": {
-   "url": "https://www.diarioepoca.com/t6774-llueve-en-corrientes",
-   "estado": "error",
-   "detalle": "HTTP Error 404: NOT FOUND"
-  },
-  "https://24diez.com.ar/lluvias-en-la-ciudad-sin-anegamientos-y-con-operativo-preventivo-en-distintos-sectores/": {
-   "url": "https://24diez.com.ar/lluvias-en-la-ciudad-sin-anegamientos-y-con-operativo-preventivo-en-distintos-sectores/",
-   "estado": 200,
-   "caracteres": 5006,
-   "archivo": "data/fuentes/web/24diez_com_ar_lluvias_en_la_ciudad_sin_anegamientos_y_con_operativo_preventivo_en_distinto.txt"
-  },
-  "https://www.infobae.com/sociedad/2026/11/17/las-tormentas-afectaron-a-varias-provincias-granizo-calles-anegadas-actividad-electrica-y-rafagas-de-mas-de-100-kmh/": {
-   "url": "https://www.infobae.com/sociedad/2026/11/17/las-tormentas-afectaron-a-varias-provincias-granizo-calles-anegadas-actividad-electrica-y-rafagas-de-mas-de-100-kmh/",
-   "estado": 200,
-   "caracteres": 11095,
-   "archivo": "data/fuentes/web/infobae_com_sociedad_2026_11_17_las_tormentas_afectaron_a_varias_provincias_granizo_calles.txt"
   }
  },
  "portales": {
