@@ -1,6 +1,6 @@
 {
- "consultado": "17/11/2026, 04:43 h",
- "consultado_iso": "2026-11-17T04:43:38-03:00",
+ "consultado": "17/11/2026, 08:40 h",
+ "consultado_iso": "2026-11-17T08:40:00-03:00",
  "fuente": "Servicio Meteorológico Nacional (www.smn.gob.ar/alertas), leído desde una conexión de Corrientes",
  "resultado": "con alertas",
  "alertas": [
@@ -9,51 +9,21 @@
    "nivel": "naranja",
    "fenomeno": "tormenta",
    "zonas": "Corrientes (el resumen por provincia no detalla departamentos)",
-   "desde": "17/11/2026, 00:00 h",
-   "hasta": "17/11/2026, 23:59 h",
-   "emision": "17/11/2026, 00:13 h",
-   "texto": "Resumen por provincia del SMN: Corrientes con alerta naranja por tormenta y aviso a muy corto plazo vigente."
-  },
-  {
-   "tipo": "aviso a muy corto plazo",
-   "nivel": null,
-   "fenomeno": "Tormentas fuertes con lluvias intensas y ocasional caida de granizo",
-   "zonas": "Bella Vista - Curuzu Cuatia - Esquina - Goya - Lavalle - San Roque - Sauce",
-   "desde": "17/11/2026, 03:00 h",
-   "hasta": "dos (2) horas desde la emisión",
-   "emision": "17/11/2026, 03:00 h",
-   "texto": "TORMENTAS FUERTES CON LLUVIAS INTENSAS Y OCASIONAL CAIDA DE GRANIZO. Detectados con radares meteorológicos."
+   "desde": "17/11/2026, 06:00 h",
+   "hasta": "18/11/2026, 05:59 h",
+   "emision": "17/11/2026, 06:03 h",
+   "texto": "Resumen por provincia del SMN: Corrientes con alerta naranja por tormenta y aviso a muy corto plazo vigente. Sin alertas por lluvia, viento, niebla u otros fenómenos."
   },
   {
    "tipo": "aviso a muy corto plazo",
    "nivel": null,
    "fenomeno": "Tormentas fuertes con lluvias intensas, rafagas y ocasional caida de granizo",
-   "zonas": "Mercedes - Paso de los Libres - San Martin",
-   "desde": "17/11/2026, 03:32 h",
+   "zonas": "Beron de Astrada - Gral Alvear - Gral Paz - Itati - Ituzaingo - San Cosme - San Luis del Palmar - San Martin - San Miguel - Santo Tome",
+   "desde": "17/11/2026, 08:01 h",
    "hasta": "dos (2) horas desde la emisión",
-   "emision": "17/11/2026, 03:32 h",
-   "texto": "TORMENTAS FUERTES CON LLUVIAS INTENSAS, RAFAGAS Y OCASIONAL CAIDA DE GRANIZO. Detectados con radares meteorológicos."
-  },
-  {
-   "tipo": "aviso a muy corto plazo",
-   "nivel": null,
-   "fenomeno": "Tormentas fuertes con lluvias intensas, rafagas y ocasional caida de granizo",
-   "zonas": "Bella Vista - Concepcion - Empedrado - Mburucuya - Saladas - San Roque",
-   "desde": "17/11/2026, 04:03 h",
-   "hasta": "dos (2) horas desde la emisión",
-   "emision": "17/11/2026, 04:03 h",
-   "texto": "TORMENTAS FUERTES CON LLUVIAS INTENSAS, RAFAGAS Y OCASIONAL CAIDA DE GRANIZO. Detectados con radares meteorológicos."
-  },
-  {
-   "tipo": "aviso a muy corto plazo",
-   "nivel": null,
-   "fenomeno": "Tormentas fuertes con lluvias intensas, rafagas y ocasional caida de granizo",
-   "zonas": "Concepcion - Curuzu Cuatia - Mercedes - Paso de los Libres - San Roque",
-   "desde": "17/11/2026, 04:33 h",
-   "hasta": "dos (2) horas desde la emisión",
-   "emision": "17/11/2026, 04:33 h",
-   "texto": "TORMENTAS FUERTES CON LLUVIAS INTENSAS, RAFAGAS Y OCASIONAL CAIDA DE GRANIZO. Detectados con radares meteorológicos."
+   "emision": "17/11/2026, 08:01 h",
+   "texto": "TORMENTAS FUERTES CON LLUVIAS INTENSAS, RAFAGAS Y OCASIONAL CAIDA DE GRANIZO. Detectados con radares meteorológicos (el aviso incluye también Apóstoles, Misiones)."
   }
  ],
- "texto_pagina": "Alertas: fecha de emisión 17/11/2026 00:13h (mapa por días martes 17, miércoles 18, jueves 19).\nResumen por provincia: Información vigente desde las 00:00h de hoy martes 17 hasta las 23:59 horas del martes 17 de noviembre de 2026. Corrientes: ACP (aviso a muy corto plazo) vigente; Tormenta: alerta naranja por tormenta; Lluvia, Nevada, Viento, Viento zonda, Niebla, Polvo, Humo, Ceniza: sin alerta.\nAvisos a muy corto plazo que alcanzan a Corrientes:\n- TORMENTAS FUERTES CON LLUVIAS INTENSAS Y OCASIONAL CAIDA DE GRANIZO. Zonas: CORRIENTES: Bella Vista - Curuzu Cuatia - Esquina - Goya - Lavalle - San Roque - Sauce. (También otras provincias en algunos avisos.) Emisión: 17/11/2026, 03:00 h. Validez: dos (2) horas desde la emisión.\n- TORMENTAS FUERTES CON LLUVIAS INTENSAS, RAFAGAS Y OCASIONAL CAIDA DE GRANIZO. Zonas: CORRIENTES: Mercedes - Paso de los Libres - San Martin. (También otras provincias en algunos avisos.) Emisión: 17/11/2026, 03:32 h. Validez: dos (2) horas desde la emisión.\n- TORMENTAS FUERTES CON LLUVIAS INTENSAS, RAFAGAS Y OCASIONAL CAIDA DE GRANIZO. Zonas: CORRIENTES: Bella Vista - Concepcion - Empedrado - Mburucuya - Saladas - San Roque. (También otras provincias en algunos avisos.) Emisión: 17/11/2026, 04:03 h. Validez: dos (2) horas desde la emisión.\n- TORMENTAS FUERTES CON LLUVIAS INTENSAS, RAFAGAS Y OCASIONAL CAIDA DE GRANIZO. Zonas: CORRIENTES: Concepcion - Curuzu Cuatia - Mercedes - Paso de los Libres - San Roque. (También otras provincias en algunos avisos.) Emisión: 17/11/2026, 04:33 h. Validez: dos (2) horas desde la emisión."
+ "texto_pagina": "Alertas (fecha de emisión: 17/11/2026 06:03h; mapa para martes 17, miércoles 18 y jueves 19). Resumen por provincia: Información vigente desde las 06:00h de hoy martes 17 hasta las 05:59 horas de mañana miércoles 18 de noviembre de 2.026. Corrientes: ACP: Aviso a muy corto plazo; Tormenta: Alerta naranja por tormenta; Lluvia, Nevada, Viento, Viento zonda, Niebla, Polvo, Humo, Ceniza: -. Avisos a muy corto plazo: TORMENTAS FUERTES CON LLUVIAS INTENSAS, RAFAGAS Y OCASIONAL CAIDA DE GRANIZO. Zonas: CORRIENTES: Beron de Astrada - Gral Alvear - Gral Paz - Itati - Ituzaingo - San Cosme - San Luis del Palmar - San Martin - San Miguel - Santo Tome. MISIONES: Apostoles. Fecha de emisión: 17/11/2026 a las 08:01h. Validez hasta: Dos (2) horas desde la emisión. Los fenómenos indicados en el ACP fueron detectados con radares meteorológicos. Otros avisos vigentes en la página (07:23h y 07:25h para Misiones; 08:07h para Formosa y Chaco) no alcanzan a Corrientes."
 }
