@@ -1,5 +1,5 @@
 {
- "actualizado": "17/11/2026, 14:08 h",
+ "actualizado": "17/11/2026, 14:24 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
@@ -95,11 +95,11 @@
     0.25,
     0,
     0.25,
-    null,
+    0.5,
     null
    ],
-   "total": 12.0,
-   "ultimo": "0,25 mm a las 13 h"
+   "total": 12.5,
+   "ultimo": "0,5 mm a las 14 h"
   },
   {
    "localidad": "Garruchos",
@@ -197,11 +197,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 13 h"
+   "ultimo": "0 mm a las 14 h"
   },
   {
    "localidad": "Santa Lucía",
@@ -231,11 +231,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 13 h"
+   "ultimo": "0 mm a las 14 h"
   },
   {
    "localidad": "La Palmira",
@@ -673,11 +673,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 5.4,
-   "ultimo": "0 mm a las 13 h"
+   "ultimo": "0 mm a las 14 h"
   },
   {
    "localidad": "Gobernador Virasoro",
@@ -775,11 +775,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 13 h"
+   "ultimo": "0 mm a las 14 h"
   },
   {
    "localidad": "Mercedes",
@@ -1115,11 +1115,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 13 h"
+   "ultimo": "0 mm a las 14 h"
   },
   {
    "localidad": "Pueblo Libertador",
@@ -1149,11 +1149,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 2,
-   "ultimo": "0 mm a las 13 h"
+   "ultimo": "0 mm a las 14 h"
   },
   {
    "localidad": "Itá Ibaté",
@@ -1183,11 +1183,11 @@
     0,
     0,
     0.2,
-    null,
+    0,
     null
    ],
    "total": 7.4,
-   "ultimo": "0,2 mm a las 13 h"
+   "ultimo": "0 mm a las 14 h"
   },
   {
    "localidad": "Mburucuyá",
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "17/11/2026, 14:08 h",
+ "consultado": "17/11/2026, 14:24 h",
  "consulta_resultado": "datos nuevos"
 }
