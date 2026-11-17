@@ -1,6 +1,6 @@
 {
- "consultado": "17/11/2026, 19:13 h",
- "consultado_iso": "2026-11-17T19:13-03:00",
+ "consultado": "17/11/2026, 19:15 h",
+ "consultado_iso": "2026-11-17T19:15-03:00",
  "paginas": {
   "smn_alertas": {
    "url": "https://www.smn.gob.ar/alertas",
@@ -139,21 +139,17 @@
   }
  },
  "pedidas": {
-  "https://coe.corrientes.gob.ar/a/2026-0077-AT": {
-   "url": "https://coe.corrientes.gob.ar/a/2026-0077-AT",
+  "https://coe.corrientes.gob.ar/a/2026-0024-NT": {
+   "url": "https://coe.corrientes.gob.ar/a/2026-0024-NT",
    "estado": 200,
-   "caracteres": 1787,
-   "archivo": "data/fuentes/web/coe_corrientes_gob_ar_a_2026_0077_AT.txt"
+   "caracteres": 2058,
+   "archivo": "data/fuentes/web/coe_corrientes_gob_ar_a_2026_0024_NT.txt"
   },
-  "https://coe.corrientes.gob.ar/a/2026-0078-AT": {
-   "url": "https://coe.corrientes.gob.ar/a/2026-0078-AT",
-   "estado": "error",
-   "detalle": "HTTP Error 404: NOT FOUND"
-  },
-  "https://coe.corrientes.gob.ar/a/2026-0079-AT": {
-   "url": "https://coe.corrientes.gob.ar/a/2026-0079-AT",
-   "estado": "error",
-   "detalle": "HTTP Error 404: NOT FOUND"
+  "https://coe.corrientes.gob.ar/a/2026-0023-NT": {
+   "url": "https://coe.corrientes.gob.ar/a/2026-0023-NT",
+   "estado": 200,
+   "caracteres": 2278,
+   "archivo": "data/fuentes/web/coe_corrientes_gob_ar_a_2026_0023_NT.txt"
   }
  },
  "portales": {
@@ -182,5 +178,5 @@
    "archivo": "data/fuentes/portales/senado_corrientes.txt"
   }
  },
- "pedidas_consultado": "17/11/2026, 19:13 h"
+ "pedidas_consultado": "17/11/2026, 19:15 h"
 }

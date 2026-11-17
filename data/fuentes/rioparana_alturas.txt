@@ -1,5 +1,5 @@
 Fuente: https://www.rioparana.com.ar
-Consultado: 17/11/2026, 19:13 h
+Consultado: 17/11/2026, 19:15 h
 
 Alturas de Prefectura Naval Argentina reproducidas por rioparana.com.ar (servicio de datos api.rioparana.com.ar). Última lectura: 2026-11-17T21:00:00.000Z (hora UTC si termina en Z).
 
