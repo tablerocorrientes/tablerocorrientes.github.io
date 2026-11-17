@@ -1,7 +1,7 @@
 {
  "estado_alertas": "VERIFICADO_CON_ALERTAS",
  "estado_verificado": {
-  "fecha": "17/11/2026, 09:13 h",
+  "fecha": "17/11/2026, 11:20 h",
   "fuente": "SMN y COE de Corrientes"
  },
  "met_archivo": {
@@ -1198,33 +1198,24 @@
    "origen": "Servicio Meteorológico Nacional, página de alertas leída desde Corrientes el 17/11/2026 a las 08:40 h"
   },
   {
-   "id_oficial": "2026-0133-CP",
+   "id_oficial": "2026-0134-CP",
    "tipo": "aviso a corto plazo",
-   "aviso": "Alerta roja (aviso a corto plazo) por tormentas, difundida por el COE de Corrientes con fuente del Servicio Meteorológico Nacional, para Berón de Astrada, General Alvear, General Paz, Itatí, Ituzaingó, San Cosme, San Luis del Palmar, San Martín, San Miguel y Santo Tomé el martes 17/11 de 08:01 a 10:01 h. Se esperan tormentas fuertes con lluvias intensas en poco tiempo, actividad eléctrica frecuente y ocasional caída de granizo. La Capital no figura entre los departamentos.",
+   "aviso": "Alerta roja (aviso a corto plazo) por tormentas, difundida por el COE de Corrientes con fuente del Servicio Meteorológico Nacional, para Ituzaingó el martes 17/11 de 10:04 a 12:04 h. Se esperan tormentas de variada intensidad, algunas localmente fuertes, con lluvias intensas en cortos períodos, actividad eléctrica frecuente y ocasional caída de granizo. La Capital no figura entre los departamentos.",
    "nivel": "rojo",
    "fenomeno": "tormentas",
    "rango_mm": null,
    "zonas": [
-    "Berón de Astrada",
-    "General Alvear",
-    "General Paz",
-    "Itatí",
-    "Ituzaingó",
-    "San Cosme",
-    "San Luis del Palmar",
-    "San Martín",
-    "San Miguel",
-    "Santo Tomé"
+    "Ituzaingó"
    ],
-   "desde": "17/11/2026, 08:01 h",
-   "hasta": "17/11/2026, 10:01 h",
-   "desde_iso": "2026-11-17T08:01:00-03:00",
-   "hasta_iso": "2026-11-17T10:01:00-03:00",
-   "emision": "17/11/2026, 08:30 h",
+   "desde": "17/11/2026, 10:04 h",
+   "hasta": "17/11/2026, 12:04 h",
+   "desde_iso": "2026-11-17T10:04:00-03:00",
+   "hasta_iso": "2026-11-17T12:04:00-03:00",
+   "emision": "17/11/2026, 10:39 h",
    "incluye_corrientes": true,
    "incluye_capital": false,
-   "url": "https://coe.corrientes.gob.ar/a/2026-0133-CP",
-   "origen": "COE de Corrientes (reporte 2026-0133-CP), consultado el 17/11/2026 a las 09:02 h; coincide con el aviso a muy corto plazo del SMN de las 08:01 h"
+   "url": "https://coe.corrientes.gob.ar/a/2026-0134-CP",
+   "origen": "COE de Corrientes (reporte 2026-0134-CP), consultado el 17/11/2026 a las 11:13 h"
   },
   {
    "id_oficial": "2026-0075-AT",
@@ -1256,7 +1247,7 @@
    "incluye_corrientes": true,
    "incluye_capital": true,
    "url": "https://coe.corrientes.gob.ar/a/2026-0075-AT",
-   "origen": "COE de Corrientes (reporte 2026-0075-AT), consultado el 17/11/2026 a las 09:02 h"
+   "origen": "COE de Corrientes (reporte 2026-0075-AT), consultado el 17/11/2026 a las 11:13 h"
   },
   {
    "id_oficial": null,
@@ -1290,7 +1281,7 @@
    "incluye_corrientes": true,
    "incluye_capital": false,
    "url": "https://coe.corrientes.gob.ar/",
-   "origen": "COE de Corrientes, consultado el 17/11/2026 a las 09:02 h (listado de alertas vigentes)"
+   "origen": "COE de Corrientes, consultado el 17/11/2026 a las 11:13 h (listado de alertas vigentes)"
   },
   {
    "id_oficial": "2026-0076-AT",
@@ -1336,7 +1327,7 @@
    "incluye_corrientes": true,
    "incluye_capital": true,
    "url": "https://coe.corrientes.gob.ar/a/2026-0076-AT",
-   "origen": "COE de Corrientes (reporte 2026-0076-AT), consultado el 17/11/2026 a las 09:01 h"
+   "origen": "COE de Corrientes (reporte 2026-0076-AT), consultado el 17/11/2026 a las 11:13 h"
   }
  ]
 }
