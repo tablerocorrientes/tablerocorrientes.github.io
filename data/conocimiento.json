@@ -1,5 +1,5 @@
 {
- "actualizado": "17/11/2026, 09:09 h",
+ "actualizado": "17/11/2026, 13:17 h",
  "explicacion": "Cada actualización suma registros: barrios afectados con la altura del río o la lluvia de ese día, obras terminadas, reportes de vecinos verificados y la comparación entre lo pronosticado y lo que ocurrió. Con esa comparación se detectan desvíos y se proponen ajustes a los cálculos, que revisa el autor del tablero.",
  "contadores": {
   "barrios_documentados": 87,
@@ -7,9 +7,16 @@
   "reportes_verificados": 0,
   "comparaciones_rio": 2,
   "comparaciones_lluvia": 4,
-  "aprendizajes": 66
+  "aprendizajes": 67
  },
  "aprendizajes": [
+  {
+   "fecha": "17/11/2026",
+   "tipo": "alerta",
+   "lugar": "Provincia de Corrientes",
+   "dato": "El SMN reemplazó la alerta naranja por una alerta amarilla por tormenta, vigente desde las 12:00 h del 17/11 hasta las 11:59 h del 18/11; sigue la amarilla del COE para la Capital del 18/11 de 05:00 a 12:00 h.",
+   "fuente": "SMN, página de alertas leída desde Corrientes el 17/11/2026, 12:40 h, y COE de Corrientes (2026-0076-AT)"
+  },
   {
    "fecha": "17/11/2026",
    "tipo": "observacion",
