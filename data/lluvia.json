@@ -1,5 +1,5 @@
 {
- "actualizado": "16/11/2026, 23:09 h",
+ "actualizado": "16/11/2026, 23:29 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
@@ -61,45 +61,45 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 22 h"
+   "ultimo": "0 mm a las 23 h"
   },
   {
    "localidad": "Corrientes Capital (estación 13805)",
    "estacion": "Corrientes",
    "codigo": 13805,
    "valores": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
     null
    ],
-   "total": null,
-   "ultimo": "sin datos en las últimas 24 horas"
+   "total": 0,
+   "ultimo": "0 mm a las 23 h"
   },
   {
    "localidad": "Garruchos",
@@ -197,11 +197,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 22 h"
+   "ultimo": "0 mm a las 23 h"
   },
   {
    "localidad": "Santa Lucía",
@@ -231,11 +231,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 22 h"
+   "ultimo": "0 mm a las 23 h"
   },
   {
    "localidad": "La Palmira",
@@ -673,11 +673,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 22 h"
+   "ultimo": "0 mm a las 23 h"
   },
   {
    "localidad": "Gobernador Virasoro",
@@ -775,11 +775,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 22 h"
+   "ultimo": "0 mm a las 23 h"
   },
   {
    "localidad": "Mercedes",
@@ -1115,11 +1115,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 22 h"
+   "ultimo": "0 mm a las 23 h"
   },
   {
    "localidad": "Pueblo Libertador",
@@ -1149,11 +1149,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 22 h"
+   "ultimo": "0 mm a las 23 h"
   },
   {
    "localidad": "Itá Ibaté",
@@ -1183,11 +1183,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 22 h"
+   "ultimo": "0 mm a las 23 h"
   },
   {
    "localidad": "Mburucuyá",
@@ -1557,11 +1557,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 22 h"
+   "ultimo": "0 mm a las 23 h"
   },
   {
    "localidad": "El Sombrerito",
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "16/11/2026, 23:09 h",
+ "consultado": "16/11/2026, 23:29 h",
  "consulta_resultado": "datos nuevos"
 }
