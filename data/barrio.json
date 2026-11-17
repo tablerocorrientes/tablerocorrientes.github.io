@@ -1,5 +1,5 @@
 {
- "actualizado": "16/11/2026, 18:32 h",
+ "actualizado": "17/11/2026, 05:20 h",
  "dias": {
   "2026-11-02": [
    0,
@@ -396,50 +396,50 @@
    0.0,
    0.0,
    0.0,
-   0.83,
-   0.83,
-   0.83,
-   1.2,
-   1.2,
-   1.2,
    0.0,
    0.0,
    0.0,
    0.0,
    0.0,
    0.0,
-   3.6,
-   3.6,
-   3.6,
-   0.07,
-   0.07,
-   0.07,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
    0.0,
    0.0
   ],
   "2026-11-18": [
-   0.15,
    0.0,
-   0.05,
-   0.05,
-   0.37,
-   0.62,
-   1.42,
-   0.8,
-   2.85,
-   2.6,
-   3.33,
-   3.98,
-   1.08,
-   0.22,
-   0.02,
-   0.02,
-   0.05,
-   0.05,
-   0.05,
-   0.0,
-   0.0,
-   0.0,
+   0.1,
+   0.1,
+   0.1,
+   1.17,
+   1.17,
+   1.17,
+   7.87,
+   7.87,
+   7.87,
+   0.13,
+   0.13,
+   0.13,
+   0.87,
+   0.87,
+   0.87,
+   0.07,
+   0.07,
+   0.07,
+   0.03,
+   0.03,
+   0.03,
    0.0,
    0.0
   ],
@@ -448,26 +448,26 @@
    0.0,
    0.0,
    0.0,
-   0.07,
-   0.07,
-   0.07,
    0.0,
    0.0,
    0.0,
-   0.03,
-   0.03,
-   0.13,
-   0.2,
-   0.25,
-   0.25,
-   0.2,
-   0.2,
-   0.2,
-   0.05,
-   0.05,
-   0.05,
-   0.1,
-   0.1
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
   ],
   "2026-11-20": [
    0.3,
@@ -1118,7 +1118,7 @@
   },
   "2026-11-17": {
    "smn": {
-    "texto": "Parte del SMN difundido por La Nación (06:04 h del 16/11): tormentas fuertes por la mañana (100 %), chaparrones por la tarde y la noche (40 %).",
+    "texto": "Parte del SMN difundido por La Nación (03:27 h del 17/11): tormentas fuertes por la mañana (100 %), tormentas por la tarde (70 %) y aisladas por la noche (40 %).",
     "mm": [
      30,
      70
@@ -1128,38 +1128,28 @@
    "modelos": [
     {
      "n": "Modelo numérico del SMN",
-     "mm": 17.1,
-     "act": "16/11"
-    },
-    {
-     "n": "Open-Meteo",
-     "mm": 1.0,
-     "act": "15/11, 18:33 h"
-    },
-    {
-     "n": "Meteored",
-     "mm": 0.6,
-     "act": "15/11, 18:33 h"
+     "mm": 0.0,
+     "act": "17/11, 05:09 h"
     }
    ],
-   "usado": 17.1,
-   "criterio": "El SMN prevé 70 % o más de probabilidad de tormentas: se usa el modelo más alto, el modelo numérico del SMN, con 17,1 mm. Reparto horario aproximado de los datos cada 3 horas. Estimación derivada, no una medición."
+   "usado": 0.0,
+   "criterio": "El SMN prevé 70 % o más de probabilidad de tormentas: se usa el modelo más alto disponible, el modelo numérico del SMN, con 0,0 mm (Open-Meteo no respondió). El modelo no refleja las tormentas del parte: la alerta indica 30 a 70 mm como escenario severo. Reparto horario aproximado de los datos cada 3 horas. Estimación derivada, no una medición."
   },
   "2026-11-18": {
    "smn": {
-    "texto": "Parte del SMN difundido por La Nación (actualizado a las 07:08 h del 14/11): parcialmente nublado, 10 %.",
+    "texto": "Parte del SMN difundido por La Nación (03:27 h del 17/11): chaparrones y tormentas con 40 % de probabilidad en los tres tramos del día.",
     "mm": null,
     "u": "https://www.lanacion.com.ar/clima/corrientes/"
    },
    "modelos": [
     {
-     "n": "Agrofy (Open-Meteo)",
-     "mm": 61.7,
-     "act": "14/11, 08:13 h"
+     "n": "Modelo numérico del SMN",
+     "mm": 30.7,
+     "act": "17/11, 05:09 h"
     }
    ],
-   "usado": 61.7,
-   "criterio": "Parte del SMN (La Nación, 07:08 h): parcialmente nublado, 10 %; el SMN prevé menos de 40 % de probabilidad: se usa el modelo más bajo (solo hay un modelo disponible para ese día): 61,7 mm. El modelo solo publica el total diario: el reparto horario es uniforme y no representa un horario real. Pronóstico de más de 48 h, de baja confiabilidad. El modelo prevé mucha más lluvia que el parte del SMN, que indica 10 % de probabilidad: tomar este valor con mucha cautela. Estimación derivada, no una medición."
+   "usado": 30.7,
+   "criterio": "El SMN prevé 40 % de probabilidad: se usa el promedio de los modelos disponibles, solo el modelo numérico del SMN, con 30,7 mm. Reparto horario aproximado de los datos cada 3 horas. Estimación derivada, no una medición."
   },
   "2026-11-19": {
    "smn": {
