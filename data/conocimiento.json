@@ -1,5 +1,5 @@
 {
- "actualizado": "16/11/2026, 21:15 h",
+ "actualizado": "17/11/2026, 01:25 h",
  "explicacion": "Cada actualización suma registros: barrios afectados con la altura del río o la lluvia de ese día, obras terminadas, reportes de vecinos verificados y la comparación entre lo pronosticado y lo que ocurrió. Con esa comparación se detectan desvíos y se proponen ajustes a los cálculos, que revisa el autor del tablero.",
  "contadores": {
   "barrios_documentados": 87,
@@ -7,9 +7,16 @@
   "reportes_verificados": 0,
   "comparaciones_rio": 0,
   "comparaciones_lluvia": 4,
-  "aprendizajes": 59
+  "aprendizajes": 60
  },
  "aprendizajes": [
+  {
+   "fecha": "17/11/2026",
+   "tipo": "alerta",
+   "lugar": "Provincia de Corrientes",
+   "dato": "El SMN emitió a las 00:13 h una alerta naranja por tormentas para zonas del centro, sur y oeste de Corrientes y una amarilla para el norte y este, vigentes todo el 17/11; no detalla departamentos.",
+   "fuente": "Servicio Meteorológico Nacional, 17/11/2026, 00:42 h"
+  },
   {
    "fecha": "16/11/2026",
    "tipo": "alerta",

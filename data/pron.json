@@ -1,9 +1,9 @@
 {
- "actualizado": "16/11/2026, 23:11 h",
+ "actualizado": "17/11/2026, 01:25 h",
  "metodo": "estimación derivada de modelos y del parte del SMN",
  "estado_alertas": "VERIFICADO_CON_ALERTAS",
  "estado_verificado": {
-  "fecha": "16/11/2026, 23:29 h",
+  "fecha": "17/11/2026, 01:25 h",
   "fuente": "SMN y COE de Corrientes"
  },
  "met_archivo": {
@@ -17,22 +17,42 @@
   {
    "id_oficial": null,
    "tipo": "alerta",
-   "aviso": "Alerta amarilla por tormentas del Servicio Meteorológico Nacional para la provincia de Corrientes, vigente desde las 18:00 h del lunes 16/11 hasta las 17:59 h del martes 17/11. El resumen del SMN no detalla qué departamentos alcanza.",
+   "aviso": "Alerta naranja por tormentas del Servicio Meteorológico Nacional para la provincia de Corrientes el martes 17/11, de 00:00 a 23:59 h. Alcanza zonas del centro, sur y oeste de la provincia; el SMN no detalla los departamentos.",
+   "nivel": "naranja",
+   "fenomeno": "tormenta",
+   "rango_mm": null,
+   "zonas": [
+    "Centro, sur y oeste de Corrientes (el SMN no detalla los departamentos)"
+   ],
+   "desde": "17/11/2026, 00:00 h",
+   "hasta": "17/11/2026, 23:59 h",
+   "desde_iso": "2026-11-17T00:00:00-03:00",
+   "hasta_iso": "2026-11-17T23:59:00-03:00",
+   "emision": "17/11/2026, 00:13 h",
+   "incluye_corrientes": true,
+   "incluye_capital": null,
+   "url": "https://www.smn.gob.ar/alertas",
+   "origen": "Servicio Meteorológico Nacional, página de alertas leída desde Corrientes el 17/11/2026 a las 00:42 h"
+  },
+  {
+   "id_oficial": null,
+   "tipo": "alerta",
+   "aviso": "Alerta amarilla por tormentas del Servicio Meteorológico Nacional para zonas del norte y este de Corrientes el martes 17/11, de 00:00 a 23:59 h. El SMN no detalla los departamentos.",
    "nivel": "amarillo",
    "fenomeno": "tormenta",
    "rango_mm": null,
    "zonas": [
-    "Corrientes (el SMN no detalla los departamentos)"
+    "Norte y este de Corrientes (el SMN no detalla los departamentos)"
    ],
-   "desde": "16/11/2026, 18:00 h",
-   "hasta": "17/11/2026, 17:59 h",
-   "desde_iso": "2026-11-16T18:00:00-03:00",
-   "hasta_iso": "2026-11-17T17:59:00-03:00",
-   "emision": "16/11/2026, 17:55 h",
+   "desde": "17/11/2026, 00:00 h",
+   "hasta": "17/11/2026, 23:59 h",
+   "desde_iso": "2026-11-17T00:00:00-03:00",
+   "hasta_iso": "2026-11-17T23:59:00-03:00",
+   "emision": "17/11/2026, 00:13 h",
    "incluye_corrientes": true,
    "incluye_capital": null,
    "url": "https://www.smn.gob.ar/alertas",
-   "origen": "Servicio Meteorológico Nacional, página de alertas consultada el 16/11/2026 a las 20:40 h"
+   "origen": "Servicio Meteorológico Nacional, página de alertas leída desde Corrientes el 17/11/2026 a las 00:42 h"
   },
   {
    "id_oficial": "2026-0074-AT",
@@ -55,7 +75,7 @@
    "incluye_corrientes": true,
    "incluye_capital": true,
    "url": "https://coe.corrientes.gob.ar/a/2026-0074-AT",
-   "origen": "COE de Corrientes (reporte 2026-0074-AT), consultado el 16/11/2026 a las 07:09 h"
+   "origen": "COE de Corrientes (reporte 2026-0074-AT), consultado el 17/11/2026 a las 01:10 h"
   }
  ],
  "ciudades": {
@@ -509,8 +529,8 @@
   ]
  },
  "horario_act": "16/11/2026, 18:32 h",
- "consultado": "16/11/2026, 23:29 h",
- "consulta_resultado": "sin cambios",
+ "consultado": "17/11/2026, 01:25 h",
+ "consulta_resultado": "datos nuevos",
  "extendido": {
   "actualizado": "17/11/2026, 00:16 h",
   "aviso": "Pronóstico extendido informativo. No se usa en los cálculos del simulador.",
