@@ -1,285 +1,23 @@
 {
- "fecha": "2026-11-17",
- "capturado": "17/11/2026, 03:12 h (reconstruido del historial del tablero)",
- "pronostico_de": "17/11/2026, 03:12 h",
+ "fecha": "2026-11-18",
+ "capturado": "18/11/2026, 00:06 h",
+ "pronostico_de": "17/11/2026, 23:15 h",
  "explicacion": "Lluvia esperada para el día según el pronóstico vigente al comenzar el día, y alertas que lo cubrían. No se modifica durante el día.",
  "ciudades": {
-  "Corrientes Capital": 17.1,
-  "Goya": 0.5,
-  "Esquina": 0.9,
-  "Bella Vista": 0.6,
-  "Mercedes": 10.4,
-  "Curuzú Cuatiá": 12.3,
-  "Paso de los Libres": 12.9,
-  "Santo Tomé": 17.2,
-  "Gobernador Virasoro": 14.6,
-  "Ituzaingó": 25.9,
-  "Monte Caseros": 6.7,
-  "Saladas": 5.8
+  "Corrientes Capital": 30.7,
+  "Goya": 2.0,
+  "Esquina": 5.6,
+  "Bella Vista": 24.5,
+  "Mercedes": 11.7,
+  "Curuzú Cuatiá": 0.9,
+  "Paso de los Libres": 16.0,
+  "Santo Tomé": 17.1,
+  "Gobernador Virasoro": 19.0,
+  "Ituzaingó": 33.4,
+  "Monte Caseros": 2.1,
+  "Saladas": 35.0
  },
  "alertas": [
-  {
-   "nivel": "naranja",
-   "fenomeno": "tormenta",
-   "desde_iso": "2026-11-17T00:00:00-03:00",
-   "hasta_iso": "2026-11-17T23:59:00-03:00",
-   "zonas": [
-    "Centro, sur y oeste de Corrientes (el SMN no detalla los departamentos)"
-   ],
-   "rango_mm": null,
-   "incluye_capital": null,
-   "origen": "Servicio Meteorológico Nacional, página de alertas leída desde Corrientes el 17/11/2026 a las 00:42 h"
-  },
-  {
-   "nivel": "amarillo",
-   "fenomeno": "tormenta",
-   "desde_iso": "2026-11-17T00:00:00-03:00",
-   "hasta_iso": "2026-11-17T23:59:00-03:00",
-   "zonas": [
-    "Norte y este de Corrientes (el SMN no detalla los departamentos)"
-   ],
-   "rango_mm": null,
-   "incluye_capital": null,
-   "origen": "Servicio Meteorológico Nacional, página de alertas leída desde Corrientes el 17/11/2026 a las 00:42 h"
-  },
-  {
-   "nivel": "amarillo",
-   "fenomeno": "tormenta",
-   "desde_iso": "2026-11-17T03:00:00-03:00",
-   "hasta_iso": "2026-11-17T15:00:00-03:00",
-   "zonas": [
-    "Toda la provincia de Corrientes"
-   ],
-   "rango_mm": [
-    30,
-    70
-   ],
-   "incluye_capital": true,
-   "origen": "COE de Corrientes (reporte 2026-0074-AT), consultado el 17/11/2026 a las 01:10 h"
-  }
- ],
- "historial": [],
- "alertas_del_dia": [
-  {
-   "nivel": "naranja",
-   "fenomeno": "tormenta",
-   "desde_iso": "2026-11-17T00:00:00-03:00",
-   "hasta_iso": "2026-11-17T23:59:00-03:00",
-   "zonas": [
-    "Centro, sur y oeste de Corrientes (el SMN no detalla los departamentos)"
-   ],
-   "rango_mm": null,
-   "incluye_capital": null,
-   "origen": "Servicio Meteorológico Nacional, página de alertas leída desde Corrientes el 17/11/2026 a las 00:42 h"
-  },
-  {
-   "nivel": "amarillo",
-   "fenomeno": "tormenta",
-   "desde_iso": "2026-11-17T00:00:00-03:00",
-   "hasta_iso": "2026-11-17T23:59:00-03:00",
-   "zonas": [
-    "Norte y este de Corrientes (el SMN no detalla los departamentos)"
-   ],
-   "rango_mm": null,
-   "incluye_capital": null,
-   "origen": "Servicio Meteorológico Nacional, página de alertas leída desde Corrientes el 17/11/2026 a las 00:42 h"
-  },
-  {
-   "nivel": "amarillo",
-   "fenomeno": "tormenta",
-   "desde_iso": "2026-11-17T03:00:00-03:00",
-   "hasta_iso": "2026-11-17T15:00:00-03:00",
-   "zonas": [
-    "Toda la provincia de Corrientes"
-   ],
-   "rango_mm": [
-    30,
-    70
-   ],
-   "incluye_capital": true,
-   "origen": "COE de Corrientes (reporte 2026-0074-AT), consultado el 17/11/2026 a las 01:10 h"
-  },
-  {
-   "nivel": "amarillo",
-   "fenomeno": "tormenta",
-   "desde_iso": "2026-11-17T06:33:00-03:00",
-   "hasta_iso": "2026-11-17T12:00:00-03:00",
-   "zonas": [
-    "Berón de Astrada",
-    "Capital",
-    "Empedrado",
-    "General Paz",
-    "Itatí",
-    "Mburucuyá",
-    "Monte Caseros",
-    "Saladas",
-    "San Cosme",
-    "San Luis del Palmar"
-   ],
-   "rango_mm": [
-    30,
-    70
-   ],
-   "incluye_capital": true,
-   "origen": "COE de Corrientes (reporte 2026-0075-AT), consultado el 17/11/2026 a las 07:03 h"
-  },
-  {
-   "nivel": "naranja",
-   "fenomeno": "tormenta",
-   "desde_iso": "2026-11-17T06:33:00-03:00",
-   "hasta_iso": "2026-11-17T12:00:00-03:00",
-   "zonas": [
-    "Bella Vista",
-    "Concepción",
-    "Curuzú Cuatiá",
-    "Esquina",
-    "General Alvear",
-    "Goya",
-    "Ituzaingó",
-    "Lavalle",
-    "Mercedes",
-    "Paso de los Libres",
-    "San Martín",
-    "San Miguel",
-    "San Roque",
-    "Santo Tomé",
-    "Sauce"
-   ],
-   "rango_mm": null,
-   "incluye_capital": false,
-   "origen": "COE de Corrientes, consultado el 17/11/2026 a las 07:01 h (listado de alertas vigentes)"
-  },
-  {
-   "nivel": "rojo",
-   "fenomeno": "lluvias intensas, ráfagas y tormentas",
-   "desde_iso": "2026-11-17T06:25:00-03:00",
-   "hasta_iso": "2026-11-17T08:25:00-03:00",
-   "zonas": [
-    "Capital",
-    "Empedrado",
-    "San Cosme",
-    "San Luis del Palmar"
-   ],
-   "rango_mm": null,
-   "incluye_capital": true,
-   "origen": "COE de Corrientes (reporte 2026-0130-CP), consultado el 17/11/2026 a las 07:01 h"
-  },
-  {
-   "nivel": "rojo",
-   "fenomeno": "lluvias intensas, ráfagas y tormentas",
-   "desde_iso": "2026-11-17T06:33:00-03:00",
-   "hasta_iso": "2026-11-17T08:33:00-03:00",
-   "zonas": [
-    "General Alvear",
-    "Ituzaingó",
-    "San Martín",
-    "San Miguel",
-    "Santo Tomé"
-   ],
-   "rango_mm": null,
-   "incluye_capital": false,
-   "origen": "COE de Corrientes (reporte 2026-0131-CP), consultado el 17/11/2026 a las 07:01 h"
-  },
-  {
-   "nivel": "rojo",
-   "fenomeno": "granizo y tormentas",
-   "desde_iso": "2026-11-17T06:48:00-03:00",
-   "hasta_iso": "2026-11-17T08:48:00-03:00",
-   "zonas": [
-    "Ituzaingó"
-   ],
-   "rango_mm": null,
-   "incluye_capital": false,
-   "origen": "COE de Corrientes (reporte 2026-0132-CP), consultado el 17/11/2026 a las 07:01 h"
-  },
-  {
-   "nivel": "rojo",
-   "fenomeno": "tormentas",
-   "desde_iso": "2026-11-17T05:48:00-03:00",
-   "hasta_iso": "2026-11-17T07:48:00-03:00",
-   "zonas": [
-    "Concepción",
-    "Ituzaingó",
-    "Mburucuyá",
-    "Saladas",
-    "San Miguel",
-    "San Roque"
-   ],
-   "rango_mm": null,
-   "incluye_capital": false,
-   "origen": "COE de Corrientes (reporte 2026-0129-CP), consultado el 17/11/2026 a las 07:01 h"
-  },
-  {
-   "nivel": "rojo",
-   "fenomeno": "tormentas",
-   "desde_iso": "2026-11-17T05:45:00-03:00",
-   "hasta_iso": "2026-11-17T07:45:00-03:00",
-   "zonas": [
-    "General Alvear",
-    "Mercedes",
-    "San Martín"
-   ],
-   "rango_mm": null,
-   "incluye_capital": false,
-   "origen": "COE de Corrientes (reporte 2026-0128-CP), consultado el 17/11/2026 a las 07:01 h"
-  },
-  {
-   "nivel": "naranja",
-   "fenomeno": "tormenta",
-   "desde_iso": "2026-11-17T06:00:00-03:00",
-   "hasta_iso": "2026-11-18T05:59:00-03:00",
-   "zonas": [
-    "Corrientes (el SMN no detalla los departamentos en el resumen por provincia)"
-   ],
-   "rango_mm": null,
-   "incluye_capital": null,
-   "origen": "Servicio Meteorológico Nacional, página de alertas leída desde Corrientes el 17/11/2026 a las 08:40 h"
-  },
-  {
-   "nivel": "rojo",
-   "fenomeno": "tormentas",
-   "desde_iso": "2026-11-17T08:01:00-03:00",
-   "hasta_iso": "2026-11-17T10:01:00-03:00",
-   "zonas": [
-    "Berón de Astrada",
-    "General Alvear",
-    "General Paz",
-    "Itatí",
-    "Ituzaingó",
-    "San Cosme",
-    "San Luis del Palmar",
-    "San Martín",
-    "San Miguel",
-    "Santo Tomé"
-   ],
-   "rango_mm": null,
-   "incluye_capital": false,
-   "origen": "COE de Corrientes (reporte 2026-0133-CP), consultado el 17/11/2026 a las 09:02 h; coincide con el aviso a muy corto plazo del SMN de las 08:01 h"
-  },
-  {
-   "nivel": "rojo",
-   "fenomeno": "tormentas",
-   "desde_iso": "2026-11-17T10:04:00-03:00",
-   "hasta_iso": "2026-11-17T12:04:00-03:00",
-   "zonas": [
-    "Ituzaingó"
-   ],
-   "rango_mm": null,
-   "incluye_capital": false,
-   "origen": "COE de Corrientes (reporte 2026-0134-CP), consultado el 17/11/2026 a las 11:13 h"
-  },
-  {
-   "nivel": "amarillo",
-   "fenomeno": "tormenta",
-   "desde_iso": "2026-11-17T12:00:00-03:00",
-   "hasta_iso": "2026-11-18T11:59:00-03:00",
-   "zonas": [
-    "Corrientes (el SMN no detalla los departamentos en el resumen por provincia)"
-   ],
-   "rango_mm": null,
-   "incluye_capital": null,
-   "origen": "Servicio Meteorológico Nacional, página de alertas leída desde Corrientes el 17/11/2026 a las 12:40 h"
-  },
   {
    "nivel": "naranja",
    "fenomeno": "tormenta",
@@ -291,6 +29,497 @@
    "rango_mm": null,
    "incluye_capital": null,
    "origen": "Servicio Meteorológico Nacional, página de alertas leída desde Corrientes el 17/11/2026 a las 20:40 h"
+  },
+  {
+   "nivel": "amarillo",
+   "fenomeno": "tormenta",
+   "desde_iso": "2026-11-18T05:00:00-03:00",
+   "hasta_iso": "2026-11-18T12:00:00-03:00",
+   "zonas": [
+    "Bella Vista",
+    "Berón de Astrada",
+    "Capital",
+    "Concepción",
+    "Curuzú Cuatiá",
+    "Empedrado",
+    "Esquina",
+    "General Alvear",
+    "General Paz",
+    "Goya",
+    "Itatí",
+    "Ituzaingó",
+    "Lavalle",
+    "Mburucuyá",
+    "Mercedes",
+    "Paso de los Libres",
+    "Saladas",
+    "San Cosme",
+    "San Luis del Palmar",
+    "San Martín",
+    "San Miguel",
+    "San Roque",
+    "Santo Tomé",
+    "Sauce"
+   ],
+   "rango_mm": [
+    30,
+    70
+   ],
+   "incluye_capital": true,
+   "origen": "COE de Corrientes (reporte 2026-0076-AT), consultado el 17/11/2026 a las 11:13 h"
+  },
+  {
+   "nivel": "naranja",
+   "fenomeno": "tormenta",
+   "desde_iso": "2026-11-18T06:00:00-03:00",
+   "hasta_iso": "2026-11-18T13:00:00-03:00",
+   "zonas": [
+    "Bella Vista",
+    "Berón de Astrada",
+    "Capital",
+    "Concepción",
+    "Curuzú Cuatiá",
+    "Empedrado",
+    "Esquina",
+    "General Alvear",
+    "General Paz",
+    "Goya",
+    "Itatí",
+    "Ituzaingó",
+    "Lavalle",
+    "Mburucuyá",
+    "Mercedes",
+    "Paso de los Libres",
+    "Saladas",
+    "San Cosme",
+    "San Luis del Palmar",
+    "San Martín",
+    "San Miguel",
+    "San Roque",
+    "Santo Tomé",
+    "Sauce"
+   ],
+   "rango_mm": [
+    70,
+    120
+   ],
+   "incluye_capital": true,
+   "origen": "COE de Corrientes (reporte 2026-0024-NT), consultado el 17/11/2026 a las 19:15 h"
+  },
+  {
+   "nivel": "amarillo",
+   "fenomeno": "tormenta",
+   "desde_iso": "2026-11-18T06:00:00-03:00",
+   "hasta_iso": "2026-11-18T13:00:00-03:00",
+   "zonas": [
+    "Monte Caseros"
+   ],
+   "rango_mm": [
+    30,
+    70
+   ],
+   "incluye_capital": false,
+   "origen": "COE de Corrientes (reporte 2026-0077-AT), consultado el 17/11/2026 a las 19:13 h"
+  }
+ ],
+ "historial": [
+  {
+   "fecha": "2026-11-17",
+   "pronostico_de": "17/11/2026, 03:12 h",
+   "ciudades": {
+    "Corrientes Capital": 17.1,
+    "Goya": 0.5,
+    "Esquina": 0.9,
+    "Bella Vista": 0.6,
+    "Mercedes": 10.4,
+    "Curuzú Cuatiá": 12.3,
+    "Paso de los Libres": 12.9,
+    "Santo Tomé": 17.2,
+    "Gobernador Virasoro": 14.6,
+    "Ituzaingó": 25.9,
+    "Monte Caseros": 6.7,
+    "Saladas": 5.8
+   },
+   "alertas": [
+    {
+     "nivel": "naranja",
+     "fenomeno": "tormenta",
+     "desde_iso": "2026-11-17T00:00:00-03:00",
+     "hasta_iso": "2026-11-17T23:59:00-03:00",
+     "zonas": [
+      "Centro, sur y oeste de Corrientes (el SMN no detalla los departamentos)"
+     ],
+     "rango_mm": null,
+     "incluye_capital": null,
+     "origen": "Servicio Meteorológico Nacional, página de alertas leída desde Corrientes el 17/11/2026 a las 00:42 h"
+    },
+    {
+     "nivel": "amarillo",
+     "fenomeno": "tormenta",
+     "desde_iso": "2026-11-17T00:00:00-03:00",
+     "hasta_iso": "2026-11-17T23:59:00-03:00",
+     "zonas": [
+      "Norte y este de Corrientes (el SMN no detalla los departamentos)"
+     ],
+     "rango_mm": null,
+     "incluye_capital": null,
+     "origen": "Servicio Meteorológico Nacional, página de alertas leída desde Corrientes el 17/11/2026 a las 00:42 h"
+    },
+    {
+     "nivel": "amarillo",
+     "fenomeno": "tormenta",
+     "desde_iso": "2026-11-17T03:00:00-03:00",
+     "hasta_iso": "2026-11-17T15:00:00-03:00",
+     "zonas": [
+      "Toda la provincia de Corrientes"
+     ],
+     "rango_mm": [
+      30,
+      70
+     ],
+     "incluye_capital": true,
+     "origen": "COE de Corrientes (reporte 2026-0074-AT), consultado el 17/11/2026 a las 01:10 h"
+    }
+   ],
+   "alertas_del_dia": [
+    {
+     "nivel": "naranja",
+     "fenomeno": "tormenta",
+     "desde_iso": "2026-11-17T00:00:00-03:00",
+     "hasta_iso": "2026-11-17T23:59:00-03:00",
+     "zonas": [
+      "Centro, sur y oeste de Corrientes (el SMN no detalla los departamentos)"
+     ],
+     "rango_mm": null,
+     "incluye_capital": null,
+     "origen": "Servicio Meteorológico Nacional, página de alertas leída desde Corrientes el 17/11/2026 a las 00:42 h"
+    },
+    {
+     "nivel": "amarillo",
+     "fenomeno": "tormenta",
+     "desde_iso": "2026-11-17T00:00:00-03:00",
+     "hasta_iso": "2026-11-17T23:59:00-03:00",
+     "zonas": [
+      "Norte y este de Corrientes (el SMN no detalla los departamentos)"
+     ],
+     "rango_mm": null,
+     "incluye_capital": null,
+     "origen": "Servicio Meteorológico Nacional, página de alertas leída desde Corrientes el 17/11/2026 a las 00:42 h"
+    },
+    {
+     "nivel": "amarillo",
+     "fenomeno": "tormenta",
+     "desde_iso": "2026-11-17T03:00:00-03:00",
+     "hasta_iso": "2026-11-17T15:00:00-03:00",
+     "zonas": [
+      "Toda la provincia de Corrientes"
+     ],
+     "rango_mm": [
+      30,
+      70
+     ],
+     "incluye_capital": true,
+     "origen": "COE de Corrientes (reporte 2026-0074-AT), consultado el 17/11/2026 a las 01:10 h"
+    },
+    {
+     "nivel": "amarillo",
+     "fenomeno": "tormenta",
+     "desde_iso": "2026-11-17T06:33:00-03:00",
+     "hasta_iso": "2026-11-17T12:00:00-03:00",
+     "zonas": [
+      "Berón de Astrada",
+      "Capital",
+      "Empedrado",
+      "General Paz",
+      "Itatí",
+      "Mburucuyá",
+      "Monte Caseros",
+      "Saladas",
+      "San Cosme",
+      "San Luis del Palmar"
+     ],
+     "rango_mm": [
+      30,
+      70
+     ],
+     "incluye_capital": true,
+     "origen": "COE de Corrientes (reporte 2026-0075-AT), consultado el 17/11/2026 a las 07:03 h"
+    },
+    {
+     "nivel": "naranja",
+     "fenomeno": "tormenta",
+     "desde_iso": "2026-11-17T06:33:00-03:00",
+     "hasta_iso": "2026-11-17T12:00:00-03:00",
+     "zonas": [
+      "Bella Vista",
+      "Concepción",
+      "Curuzú Cuatiá",
+      "Esquina",
+      "General Alvear",
+      "Goya",
+      "Ituzaingó",
+      "Lavalle",
+      "Mercedes",
+      "Paso de los Libres",
+      "San Martín",
+      "San Miguel",
+      "San Roque",
+      "Santo Tomé",
+      "Sauce"
+     ],
+     "rango_mm": null,
+     "incluye_capital": false,
+     "origen": "COE de Corrientes, consultado el 17/11/2026 a las 07:01 h (listado de alertas vigentes)"
+    },
+    {
+     "nivel": "rojo",
+     "fenomeno": "lluvias intensas, ráfagas y tormentas",
+     "desde_iso": "2026-11-17T06:25:00-03:00",
+     "hasta_iso": "2026-11-17T08:25:00-03:00",
+     "zonas": [
+      "Capital",
+      "Empedrado",
+      "San Cosme",
+      "San Luis del Palmar"
+     ],
+     "rango_mm": null,
+     "incluye_capital": true,
+     "origen": "COE de Corrientes (reporte 2026-0130-CP), consultado el 17/11/2026 a las 07:01 h"
+    },
+    {
+     "nivel": "rojo",
+     "fenomeno": "lluvias intensas, ráfagas y tormentas",
+     "desde_iso": "2026-11-17T06:33:00-03:00",
+     "hasta_iso": "2026-11-17T08:33:00-03:00",
+     "zonas": [
+      "General Alvear",
+      "Ituzaingó",
+      "San Martín",
+      "San Miguel",
+      "Santo Tomé"
+     ],
+     "rango_mm": null,
+     "incluye_capital": false,
+     "origen": "COE de Corrientes (reporte 2026-0131-CP), consultado el 17/11/2026 a las 07:01 h"
+    },
+    {
+     "nivel": "rojo",
+     "fenomeno": "granizo y tormentas",
+     "desde_iso": "2026-11-17T06:48:00-03:00",
+     "hasta_iso": "2026-11-17T08:48:00-03:00",
+     "zonas": [
+      "Ituzaingó"
+     ],
+     "rango_mm": null,
+     "incluye_capital": false,
+     "origen": "COE de Corrientes (reporte 2026-0132-CP), consultado el 17/11/2026 a las 07:01 h"
+    },
+    {
+     "nivel": "rojo",
+     "fenomeno": "tormentas",
+     "desde_iso": "2026-11-17T05:48:00-03:00",
+     "hasta_iso": "2026-11-17T07:48:00-03:00",
+     "zonas": [
+      "Concepción",
+      "Ituzaingó",
+      "Mburucuyá",
+      "Saladas",
+      "San Miguel",
+      "San Roque"
+     ],
+     "rango_mm": null,
+     "incluye_capital": false,
+     "origen": "COE de Corrientes (reporte 2026-0129-CP), consultado el 17/11/2026 a las 07:01 h"
+    },
+    {
+     "nivel": "rojo",
+     "fenomeno": "tormentas",
+     "desde_iso": "2026-11-17T05:45:00-03:00",
+     "hasta_iso": "2026-11-17T07:45:00-03:00",
+     "zonas": [
+      "General Alvear",
+      "Mercedes",
+      "San Martín"
+     ],
+     "rango_mm": null,
+     "incluye_capital": false,
+     "origen": "COE de Corrientes (reporte 2026-0128-CP), consultado el 17/11/2026 a las 07:01 h"
+    },
+    {
+     "nivel": "naranja",
+     "fenomeno": "tormenta",
+     "desde_iso": "2026-11-17T06:00:00-03:00",
+     "hasta_iso": "2026-11-18T05:59:00-03:00",
+     "zonas": [
+      "Corrientes (el SMN no detalla los departamentos en el resumen por provincia)"
+     ],
+     "rango_mm": null,
+     "incluye_capital": null,
+     "origen": "Servicio Meteorológico Nacional, página de alertas leída desde Corrientes el 17/11/2026 a las 08:40 h"
+    },
+    {
+     "nivel": "rojo",
+     "fenomeno": "tormentas",
+     "desde_iso": "2026-11-17T08:01:00-03:00",
+     "hasta_iso": "2026-11-17T10:01:00-03:00",
+     "zonas": [
+      "Berón de Astrada",
+      "General Alvear",
+      "General Paz",
+      "Itatí",
+      "Ituzaingó",
+      "San Cosme",
+      "San Luis del Palmar",
+      "San Martín",
+      "San Miguel",
+      "Santo Tomé"
+     ],
+     "rango_mm": null,
+     "incluye_capital": false,
+     "origen": "COE de Corrientes (reporte 2026-0133-CP), consultado el 17/11/2026 a las 09:02 h; coincide con el aviso a muy corto plazo del SMN de las 08:01 h"
+    },
+    {
+     "nivel": "rojo",
+     "fenomeno": "tormentas",
+     "desde_iso": "2026-11-17T10:04:00-03:00",
+     "hasta_iso": "2026-11-17T12:04:00-03:00",
+     "zonas": [
+      "Ituzaingó"
+     ],
+     "rango_mm": null,
+     "incluye_capital": false,
+     "origen": "COE de Corrientes (reporte 2026-0134-CP), consultado el 17/11/2026 a las 11:13 h"
+    },
+    {
+     "nivel": "amarillo",
+     "fenomeno": "tormenta",
+     "desde_iso": "2026-11-17T12:00:00-03:00",
+     "hasta_iso": "2026-11-18T11:59:00-03:00",
+     "zonas": [
+      "Corrientes (el SMN no detalla los departamentos en el resumen por provincia)"
+     ],
+     "rango_mm": null,
+     "incluye_capital": null,
+     "origen": "Servicio Meteorológico Nacional, página de alertas leída desde Corrientes el 17/11/2026 a las 12:40 h"
+    },
+    {
+     "nivel": "naranja",
+     "fenomeno": "tormenta",
+     "desde_iso": "2026-11-17T18:00:00-03:00",
+     "hasta_iso": "2026-11-18T17:59:00-03:00",
+     "zonas": [
+      "Corrientes (el SMN no detalla los departamentos en el resumen por provincia)"
+     ],
+     "rango_mm": null,
+     "incluye_capital": null,
+     "origen": "Servicio Meteorológico Nacional, página de alertas leída desde Corrientes el 17/11/2026 a las 20:40 h"
+    }
+   ]
+  }
+ ],
+ "alertas_del_dia": [
+  {
+   "nivel": "naranja",
+   "fenomeno": "tormenta",
+   "desde_iso": "2026-11-17T18:00:00-03:00",
+   "hasta_iso": "2026-11-18T17:59:00-03:00",
+   "zonas": [
+    "Corrientes (el SMN no detalla los departamentos en el resumen por provincia)"
+   ],
+   "rango_mm": null,
+   "incluye_capital": null,
+   "origen": "Servicio Meteorológico Nacional, página de alertas leída desde Corrientes el 17/11/2026 a las 20:40 h"
+  },
+  {
+   "nivel": "amarillo",
+   "fenomeno": "tormenta",
+   "desde_iso": "2026-11-18T05:00:00-03:00",
+   "hasta_iso": "2026-11-18T12:00:00-03:00",
+   "zonas": [
+    "Bella Vista",
+    "Berón de Astrada",
+    "Capital",
+    "Concepción",
+    "Curuzú Cuatiá",
+    "Empedrado",
+    "Esquina",
+    "General Alvear",
+    "General Paz",
+    "Goya",
+    "Itatí",
+    "Ituzaingó",
+    "Lavalle",
+    "Mburucuyá",
+    "Mercedes",
+    "Paso de los Libres",
+    "Saladas",
+    "San Cosme",
+    "San Luis del Palmar",
+    "San Martín",
+    "San Miguel",
+    "San Roque",
+    "Santo Tomé",
+    "Sauce"
+   ],
+   "rango_mm": [
+    30,
+    70
+   ],
+   "incluye_capital": true,
+   "origen": "COE de Corrientes (reporte 2026-0076-AT), consultado el 17/11/2026 a las 11:13 h"
+  },
+  {
+   "nivel": "naranja",
+   "fenomeno": "tormenta",
+   "desde_iso": "2026-11-18T06:00:00-03:00",
+   "hasta_iso": "2026-11-18T13:00:00-03:00",
+   "zonas": [
+    "Bella Vista",
+    "Berón de Astrada",
+    "Capital",
+    "Concepción",
+    "Curuzú Cuatiá",
+    "Empedrado",
+    "Esquina",
+    "General Alvear",
+    "General Paz",
+    "Goya",
+    "Itatí",
+    "Ituzaingó",
+    "Lavalle",
+    "Mburucuyá",
+    "Mercedes",
+    "Paso de los Libres",
+    "Saladas",
+    "San Cosme",
+    "San Luis del Palmar",
+    "San Martín",
+    "San Miguel",
+    "San Roque",
+    "Santo Tomé",
+    "Sauce"
+   ],
+   "rango_mm": [
+    70,
+    120
+   ],
+   "incluye_capital": true,
+   "origen": "COE de Corrientes (reporte 2026-0024-NT), consultado el 17/11/2026 a las 19:15 h"
+  },
+  {
+   "nivel": "amarillo",
+   "fenomeno": "tormenta",
+   "desde_iso": "2026-11-18T06:00:00-03:00",
+   "hasta_iso": "2026-11-18T13:00:00-03:00",
+   "zonas": [
+    "Monte Caseros"
+   ],
+   "rango_mm": [
+    30,
+    70
+   ],
+   "incluye_capital": false,
+   "origen": "COE de Corrientes (reporte 2026-0077-AT), consultado el 17/11/2026 a las 19:13 h"
   }
  ]
 }
