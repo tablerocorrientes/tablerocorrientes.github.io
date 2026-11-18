@@ -1,5 +1,5 @@
 {
- "actualizado": "18/11/2026, 17:10 h",
+ "actualizado": "18/11/2026, 17:27 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
@@ -162,12 +162,12 @@
     null,
     null,
     null,
-    null,
+    10.75,
     null,
     null
    ],
-   "total": 9.75,
-   "ultimo": "8,25 mm a las 12 h"
+   "total": 20.5,
+   "ultimo": "10,75 mm a las 16 h"
   },
   {
    "localidad": "San Carlos",
@@ -231,11 +231,11 @@
     0,
     0.25,
     0,
-    null,
+    0,
     null
    ],
    "total": 0.5,
-   "ultimo": "0 mm a las 16 h"
+   "ultimo": "0 mm a las 17 h"
   },
   {
    "localidad": "La Palmira",
@@ -1115,11 +1115,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 16 h"
+   "ultimo": "0 mm a las 17 h"
   },
   {
    "localidad": "Pueblo Libertador",
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "18/11/2026, 17:10 h",
+ "consultado": "18/11/2026, 17:27 h",
  "consulta_resultado": "datos nuevos"
 }
