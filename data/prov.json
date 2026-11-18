@@ -1,8 +1,8 @@
 {
  "estado_alertas": "VERIFICADO_CON_ALERTAS",
  "estado_verificado": {
-  "fecha": "18/11/2026, 09:16 h",
-  "fuente": "SMN y COE de Corrientes"
+  "fecha": "18/11/2026, 11:20 h",
+  "fuente": "SMN (lectura de las 08:43 h) y COE de Corrientes (lectura de las 11:12 h)"
  },
  "met_archivo": {
   "nombre": "vigilancia_meteorologica_20261113_183508.json",
@@ -1166,89 +1166,92 @@
    "origen": "Servicio Meteorológico Nacional, página de alertas leída desde Corrientes el 18/11/2026 a las 08:43 h"
   },
   {
-   "id_oficial": "2026-0140-CP",
+   "id_oficial": "2026-0143-CP",
    "tipo": "aviso a corto plazo",
-   "aviso": "Aviso rojo a corto plazo por tormentas fuertes con lluvias intensas, ráfagas y ocasional caída de granizo, del Servicio Meteorológico Nacional difundido por el COE de Corrientes, para Berón de Astrada, Capital, Concepción, Empedrado, General Paz, Itatí, Mburucuyá, Saladas, San Cosme, San Luis del Palmar y San Miguel el miércoles 18/11 de 07:51 a 09:51 h. Fenómenos detectados por radar.",
+   "aviso": "Aviso rojo a corto plazo por tormentas fuertes con lluvias intensas, ráfagas y granizo, del Servicio Meteorológico Nacional difundido por el COE de Corrientes, para Concepción, Empedrado, General Paz, Mburucuyá, San Luis del Palmar y San Miguel el miércoles 18/11 de 10:57 a 11:57 h. No incluye la Capital.",
    "nivel": "rojo",
    "fenomeno": "tormenta",
+   "rango_mm": null,
+   "zonas": [
+    "Concepción",
+    "Empedrado",
+    "General Paz",
+    "Mburucuyá",
+    "San Luis del Palmar",
+    "San Miguel"
+   ],
+   "desde": "18/11/2026, 10:57 h",
+   "hasta": "18/11/2026, 11:57 h",
+   "desde_iso": "2026-11-18T10:57:00-03:00",
+   "hasta_iso": "2026-11-18T11:57:00-03:00",
+   "emision": "18/11/2026, 11:04 h",
+   "incluye_corrientes": true,
+   "incluye_capital": false,
+   "url": "https://coe.corrientes.gob.ar/a/2026-0143-CP",
+   "origen": "COE de Corrientes (fuente SMN), consultado el 18/11/2026 a las 11:12 h"
+  },
+  {
+   "id_oficial": "2026-0025-NT",
+   "tipo": "alerta naranja",
+   "aviso": "Alerta naranja por granizo, lluvias intensas, tormentas y vientos fuertes del Servicio Meteorológico Nacional difundida por el COE de Corrientes, para la Capital y otros 19 departamentos, desde las 09:40 h hasta las 20:00 h del 18/11. El COE publica una acumulación de 70 mm o más, que puede ser superada en forma localizada, con caída de granizo y actividad eléctrica frecuente.",
+   "nivel": "naranja",
+   "fenomeno": "granizo, lluvias intensas, tormentas y vientos",
    "rango_mm": null,
    "zonas": [
     "Berón de Astrada",
     "Capital",
     "Concepción",
+    "Curuzú Cuatiá",
     "Empedrado",
+    "General Alvear",
     "General Paz",
     "Itatí",
+    "Ituzaingó",
     "Mburucuyá",
+    "Mercedes",
+    "Paso de los Libres",
     "Saladas",
     "San Cosme",
     "San Luis del Palmar",
-    "San Miguel"
-   ],
-   "desde": "18/11/2026, 07:51 h",
-   "hasta": "18/11/2026, 09:51 h",
-   "desde_iso": "2026-11-18T07:51:00-03:00",
-   "hasta_iso": "2026-11-18T09:51:00-03:00",
-   "emision": "18/11/2026, 07:51 h",
-   "incluye_corrientes": true,
-   "incluye_capital": true,
-   "url": "https://coe.corrientes.gob.ar/a/2026-0140-CP",
-   "origen": "Servicio Meteorológico Nacional (lectura desde Corrientes de las 08:43 h) y COE de Corrientes (reporte 2026-0140-CP), consultado el 18/11/2026 a las 08:56 h"
-  },
-  {
-   "id_oficial": null,
-   "tipo": "aviso a corto plazo",
-   "aviso": "Aviso a muy corto plazo del Servicio Meteorológico Nacional por tormentas fuertes con lluvias intensas, ráfagas y ocasional caída de granizo para San Cosme, emitido a las 08:03 h del 18/11 y válido por dos horas. No incluye la Capital.",
-   "nivel": null,
-   "fenomeno": "tormenta",
-   "rango_mm": null,
-   "zonas": [
-    "San Cosme"
-   ],
-   "desde": "18/11/2026, 08:03 h",
-   "hasta": "18/11/2026, 10:03 h",
-   "desde_iso": "2026-11-18T08:03:00-03:00",
-   "hasta_iso": "2026-11-18T10:03:00-03:00",
-   "emision": "18/11/2026, 08:03 h",
-   "incluye_corrientes": true,
-   "incluye_capital": false,
-   "url": "https://www.smn.gob.ar/avisos_a_muy_corto_plazo",
-   "origen": "Servicio Meteorológico Nacional, página de alertas leída desde Corrientes el 18/11/2026 a las 08:43 h"
-  },
-  {
-   "id_oficial": null,
-   "tipo": "aviso a corto plazo",
-   "aviso": "Aviso a muy corto plazo del Servicio Meteorológico Nacional por tormentas fuertes con lluvias intensas, ráfagas y ocasional caída de granizo para Bella Vista, Concepción, Curuzú Cuatiá, Esquina, Goya, Ituzaingó, Lavalle, Mburucuyá, Mercedes, Monte Caseros, Paso de los Libres, Saladas, San Martín, San Miguel, San Roque y Sauce, emitido a las 08:09 h del 18/11 y válido por dos horas. No incluye la Capital.",
-   "nivel": null,
-   "fenomeno": "tormenta",
-   "rango_mm": null,
-   "zonas": [
-    "Bella Vista",
-    "Concepción",
-    "Curuzú Cuatiá",
-    "Esquina",
-    "Goya",
-    "Ituzaingó",
-    "Lavalle",
-    "Mburucuyá",
-    "Mercedes",
-    "Monte Caseros",
-    "Paso de los Libres",
-    "Saladas",
     "San Martín",
     "San Miguel",
     "San Roque",
+    "Santo Tomé",
     "Sauce"
    ],
-   "desde": "18/11/2026, 08:09 h",
-   "hasta": "18/11/2026, 10:09 h",
-   "desde_iso": "2026-11-18T08:09:00-03:00",
-   "hasta_iso": "2026-11-18T10:09:00-03:00",
-   "emision": "18/11/2026, 08:09 h",
+   "desde": "18/11/2026, 09:40 h",
+   "hasta": "18/11/2026, 20:00 h",
+   "desde_iso": "2026-11-18T09:40:00-03:00",
+   "hasta_iso": "2026-11-18T20:00:00-03:00",
+   "emision": "18/11/2026, 10:02 h",
+   "incluye_corrientes": true,
+   "incluye_capital": true,
+   "url": "https://coe.corrientes.gob.ar/a/2026-0025-NT",
+   "origen": "COE de Corrientes (fuente SMN), consultado el 18/11/2026 a las 11:12 h"
+  },
+  {
+   "id_oficial": "2026-0078-AT",
+   "tipo": "alerta amarilla",
+   "aviso": "Alerta amarilla por granizo, lluvias intensas, tormentas y vientos fuertes del Servicio Meteorológico Nacional difundida por el COE de Corrientes, para Bella Vista, Esquina, Goya, Lavalle y Monte Caseros, desde las 09:40 h hasta las 20:00 h del 18/11, con 30 a 70 mm posibles. No incluye la Capital.",
+   "nivel": "amarillo",
+   "fenomeno": "granizo, lluvias intensas, tormentas y vientos",
+   "rango_mm": null,
+   "zonas": [
+    "Bella Vista",
+    "Esquina",
+    "Goya",
+    "Lavalle",
+    "Monte Caseros"
+   ],
+   "desde": "18/11/2026, 09:40 h",
+   "hasta": "18/11/2026, 20:00 h",
+   "desde_iso": "2026-11-18T09:40:00-03:00",
+   "hasta_iso": "2026-11-18T20:00:00-03:00",
+   "emision": "18/11/2026, 10:00 h",
    "incluye_corrientes": true,
    "incluye_capital": false,
-   "url": "https://www.smn.gob.ar/avisos_a_muy_corto_plazo",
-   "origen": "Servicio Meteorológico Nacional, página de alertas leída desde Corrientes el 18/11/2026 a las 08:43 h"
+   "url": "https://coe.corrientes.gob.ar/a/2026-0078-AT",
+   "origen": "COE de Corrientes (fuente SMN), consultado el 18/11/2026 a las 11:12 h"
   },
   {
    "id_oficial": "2026-0024-NT",
@@ -1294,7 +1297,7 @@
    "incluye_corrientes": true,
    "incluye_capital": true,
    "url": "https://coe.corrientes.gob.ar/a/2026-0024-NT",
-   "origen": "COE de Corrientes (reporte 2026-0024-NT), consultado el 18/11/2026 a las 08:56 h"
+   "origen": "COE de Corrientes (reporte 2026-0024-NT), consultado el 18/11/2026 a las 11:12 h"
   },
   {
    "id_oficial": "2026-0076-AT",
@@ -1340,7 +1343,7 @@
    "incluye_corrientes": true,
    "incluye_capital": true,
    "url": "https://coe.corrientes.gob.ar/a/2026-0076-AT",
-   "origen": "COE de Corrientes (reporte 2026-0076-AT), consultado el 18/11/2026 a las 08:56 h"
+   "origen": "COE de Corrientes (reporte 2026-0076-AT), consultado el 18/11/2026 a las 11:12 h"
   },
   {
    "id_oficial": "2026-0077-AT",
@@ -1363,7 +1366,7 @@
    "incluye_corrientes": true,
    "incluye_capital": false,
    "url": "https://coe.corrientes.gob.ar/a/2026-0077-AT",
-   "origen": "COE de Corrientes (reporte 2026-0077-AT), consultado el 18/11/2026 a las 08:56 h"
+   "origen": "COE de Corrientes (reporte 2026-0077-AT), consultado el 18/11/2026 a las 11:12 h"
   }
  ]
 }

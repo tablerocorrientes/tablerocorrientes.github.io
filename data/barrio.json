@@ -582,14 +582,14 @@
    "incluye_capital": true,
    "zonas": "Bella Vista, Berón de Astrada, Capital, Concepción, Curuzú Cuatiá, Empedrado, Esquina, General Alvear, General Paz, Goya, Itatí, Ituzaingó, Lavalle, Mburucuyá, Mercedes, Paso de los Libres, Saladas, San Cosme, San Luis del Palmar, San Martín, San Miguel, San Roque, Santo Tomé y Sauce",
    "desde": "18/11/2026, 06:00 h",
-   "hasta": "18/11/2026, 13:00 h",
+   "hasta": "18/11/2026, 20:00 h",
    "desde_iso": "2026-11-18T06:00:00-03:00",
-   "hasta_iso": "2026-11-18T13:00:00-03:00",
+   "hasta_iso": "2026-11-18T20:00:00-03:00",
    "emision": "17/11/2026, 18:40 h",
    "emision_iso": "2026-11-17T18:40:00-03:00",
    "min": 70,
    "max": 120,
-   "texto": "Aviso rojo a corto plazo por tormentas fuertes con lluvias intensas, ráfagas y granizo para la Capital de 07:51 a 09:51 h (COE de Corrientes 2026-0140-CP, fuente SMN). Rige además la alerta naranja por tormentas 2026-0024-NT de 06:00 a 13:00 h, con 70 a 120 mm posibles y ráfagas de más de 90 km/h, y la alerta amarilla 2026-0076-AT de 05:00 a 12:00 h. El SMN extiende la alerta naranja para la provincia hasta las 05:59 h del jueves 19/11."
+   "texto": "Aviso rojo a corto plazo para la Capital (COE 2026-0142-CP, fuente SMN) de 09:30 a 10:30 h, ya vencido. Rige la alerta naranja por granizo, lluvias intensas, tormentas y vientos fuertes 2026-0025-NT hasta las 20:00 h (70 mm o más) y la naranja por tormentas 2026-0024-NT hasta las 13:00 h. El SMN extiende la alerta naranja para la provincia hasta las 05:59 h del jueves 19/11."
   }
  },
  "rio": {

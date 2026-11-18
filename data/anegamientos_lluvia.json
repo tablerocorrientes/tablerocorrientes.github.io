@@ -1,5 +1,5 @@
 {
- "actualizado": "18/11/2026, 09:05 h",
+ "actualizado": "18/11/2026, 11:20 h",
  "criterio": "Calles, barrios o zonas anegadas por LLUVIA (no por la crecida de los ríos). Se registra cada caso con fecha, hora, lugar, lluvia medida y fuente: Defensa Civil, municipios, medios y observaciones verificadas. Los días sin registros también quedan anotados en la bitácora.",
  "registros": [
   {
@@ -17,7 +17,7 @@
   {
    "fecha": "2026-11-18",
    "localidad": "Corrientes Capital",
-   "nota": "Relevamiento de las 09:05 h: alerta naranja por tormentas y aviso rojo a corto plazo para la Capital (07:51 a 09:51 h). Hasta las 09 h el SNIH midió 0,4 mm en la Capital (ICAA, entre las 08 y las 09 h), con el Paraná en 6,20 m. Sin partes de calles o barrios anegados por lluvia en Defensa Civil, la Municipalidad ni los medios consultados. La lluvia más fuerte de la provincia en 24 h fue en Mburucuyá (19,4 mm, Parque Nacional, SNIH)."
+   "nota": "Relevamiento de las 09:05 h: alerta naranja por tormentas y aviso rojo a corto plazo para la Capital (07:51 a 09:51 h). Hasta las 09 h el SNIH midió 0,4 mm en la Capital (ICAA, entre las 08 y las 09 h), con el Paraná en 6,20 m. Sin partes de calles o barrios anegados por lluvia en Defensa Civil, la Municipalidad ni los medios consultados. La lluvia más fuerte de la provincia en 24 h fue en Mburucuyá (19,4 mm, Parque Nacional, SNIH). Relevamiento de las 11:20 h: hasta las 11 h el SNIH acumuló 6,2 mm en la Capital (ICAA), con alerta naranja hasta las 20:00 h. Sin partes de calles o barrios anegados por lluvia en Defensa Civil, la Municipalidad ni los medios consultados."
   },
   {
    "fecha": "2026-11-17",
