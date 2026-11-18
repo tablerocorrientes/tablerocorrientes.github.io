@@ -219,9 +219,13 @@
     var E=(LM.estaciones||[]).filter(function(s){return loc&&String(s.localidad).indexOf(loc)===0;}),cols=LM.columnas||[],ya=null;
     /* indicador compuesto: mayor valor de cada hora entre las estaciones de la localidad (el mismo de los indicadores) */
     var MX=[];E.forEach(function(s){(s.valores||[]).forEach(function(x,i){if(x!=null)MX[i]=Math.max(MX[i]==null?0:MX[i],+x);});});
-    var totC=MX.reduce(function(a,x){return a+(x||0);},0);for(var k=MX.length-1;k>=Math.max(0,MX.length-3);k--){if(MX[k]!=null&&MX[k]>=0.2){ya={mm:MX[k],h:cols[k]||'',tot:totC};break;}}
-    var pre='';if(ya){var hy=parseInt(ya.h,10),dh=(new Date().getHours()-hy+24)%24;if(isNaN(hy)||dh>1){pre='🌧️ Llovieron <b>'+String(ya.mm).replace('.',',')+' mm en la hora de las '+String(ya.h).replace(' (en curso)','')+'</b> (estaciones del SNIH).<br>';ya=null;}}
-    if(ya){el.innerHTML='🌧️ <b>'+(ya.mm<0.5?'LLOVIZNA':'LLUEVE')+' AHORA en '+loc+': '+String(ya.mm).replace('.',',')+' mm en la hora de las '+String(ya.h).replace(' (en curso)','')+'</b>, '+String(Math.round(ya.tot*10)/10).replace('.',',')+' mm en 24 h. <small>Lluvia medida por el SNIH, actualizada '+(LM.actualizado||'')+'.</small>';return;}
+    /* regla: sigue lloviendo si el acumulado del día subió en la última hora cerrada; si se mantuvo, no llovió más */
+    var nw=new Date(),dd0=null,acD=0,kU=-1;cols.forEach(function(c,i){var m=/^\s*(\d{1,2})\/(\d{1,2})\s+(\d{1,2})/.exec(c),h;if(m){dd0=[+m[1],+m[2]];h=+m[3];}else{var m2=/^\s*(\d{1,2})/.exec(c);h=m2?+m2[1]:null;}if(!dd0||h==null||/en curso/.test(c))return;var t=new Date(nw.getFullYear(),dd0[1]-1,dd0[0],h-1);if(MX[i]==null)return;kU=i;if(t.toDateString()===nw.toDateString())acD+=MX[i];});
+    var fx=function(x){return String(Math.round(x*10)/10).replace('.',',');},pre='';
+    var hU=kU>=0?parseInt(String(cols[kU]).replace(/^\d+\/\d+\s+/,''),10):NaN,tU=isNaN(hU)?null:new Date(nw.getFullYear(),nw.getMonth(),nw.getDate(),hU);if(tU&&tU>nw)tU=new Date(tU.getTime()-864e5);
+    if(tU&&nw-tU<3*36e5){
+      if(MX[kU]>0&&!OMV){el.innerHTML='🌧️ <b>SIGUE LLOVIENDO en '+loc+(MX[kU]<0.5?' (llovizna)':'')+': +'+fx(MX[kU])+' mm entre las '+(hU-1)+' y las '+hU+' h</b>. Acumulado de hoy: <b>'+fx(acD)+' mm</b>. <small>Medición de las estaciones del SNIH, que publican al cerrar cada hora. Mientras dure la alerta el tiempo seguirá inestable y se irá reflejando hora por hora.</small>';return;}
+      if(!OMV&&acD>0)pre='☁️ <b>Sin lluvia en la última hora</b> (de '+(hU-1)+' a '+hU+' h): el acumulado de hoy en '+loc+' se mantiene en <b>'+fx(acD)+' mm</b>. <small>Mientras dure la alerta el tiempo seguirá inestable y se irá reflejando hora por hora.</small><br>';}
     if(OMV){var hd=new Date(Date.parse(OMV.desde));el.innerHTML=pre+'🌧️ <b>LLUEVE AHORA en '+loc+', desde las '+hd.getHours()+':'+String(hd.getMinutes()).padStart(2,'0')+' h</b> (observación directa). <small>Las estaciones publican la lluvia al cerrar cada hora; el dato medido se incorpora en la próxima actualización.</small>';return;}
     if(cur){el.innerHTML=pre+'⛈️ <b>TORMENTA EN CURSO según el aviso oficial, hasta las '+cur+' h.</b> <small>La lluvia medida por las estaciones se incorpora en la próxima actualización.</small>';return;}
 var L=o[st]||[];if(!L.length){el.remove();return;}

@@ -45,7 +45,7 @@ h1{font-stretch:78%;font-weight:800;font-size:clamp(1.75rem,8vw,2.5rem);line-hei
   background:radial-gradient(120% 80% at 80% 0%,#4d6a75 0%,rgba(77,106,117,0) 60%),linear-gradient(180deg,#1b2a31 0%,#29424c 55%,#1f6f8b 100%)}
 .rainbg{position:absolute;inset:0;width:100%;height:100%}
 .hero.m-sol{background:radial-gradient(90% 70% at 85% 10%,rgba(255,226,140,.55) 0%,rgba(255,226,140,0) 55%),linear-gradient(180deg,#1f6fa6 0%,#3d8fc2 55%,#6db3d6 100%)}
-.hero.m-noche{background:radial-gradient(80% 60% at 85% 12%,rgba(170,190,220,.25) 0%,rgba(170,190,220,0) 55%),linear-gradient(180deg,#0b1726 0%,#13263b 60%,#1b3550 100%)}
+.hero.m-nub{background:linear-gradient(180deg,#4d5d6b 0%,#6b7b88 55%,#8a98a3 100%)}.hero.m-nubn{background:linear-gradient(180deg,#141c25 0%,#222e3a 60%,#2d3b48 100%)}.hero.m-noche{background:radial-gradient(80% 60% at 85% 12%,rgba(170,190,220,.25) 0%,rgba(170,190,220,0) 55%),linear-gradient(180deg,#0b1726 0%,#13263b 60%,#1b3550 100%)}
 .rainbg .rays{transform-origin:470px 64px;animation:spin 60s linear infinite}
 .rainbg .cl{animation:drift 40s linear infinite alternate}
 .rainbg .tw{animation:tw 3.5s ease-in-out infinite alternate}
@@ -349,10 +349,14 @@ $('when').innerHTML=etiqueta(NOW.key).replace(/^./,function(c){return c.toUpperC
 (function(){
   var dd=D.dias[K0]||[], fv=(typeof tcFecha==='function')?tcFecha(D.actualizado):null, fviejo=fv!=null&&(Date.now()-fv)>12*3600000, r=(stale||fviejo)?null:(dd[HNOW]||0), ob=obsActiva();
   if(ob&&ob.manual)r=Math.max(r||0,2);else if(ob)r=(ob.estado==='seca'?0:ob.estado==='llovizna'?Math.max(0.2,+ob.mm||0):(ob.mm!=null?+ob.mm:5));
-  var mode=r===null?(NOW.h>=6&&NOW.h<19?'sol':'noche'):(r>=0.2?'lluvia':(HNOW>=6&&HNOW<19?'sol':'noche'));
+  var EL=estadoLluvia(),alH=!!(D.alertas&&D.alertas[K0]),dia=HNOW>=6&&HNOW<19;
+  var mode=EL?(EL.llueve?'lluvia':(alH?(dia?'nub':'nubn'):(dia?'sol':'noche'))):(r===null?(alH?(dia?'nub':'nubn'):(dia?'sol':'noche')):(r>=0.2?'lluvia':(alH?(dia?'nub':'nubn'):(dia?'sol':'noche'))));
+  if(EL&&!EL.manual)r=EL.llueve?Math.max(0.2,EL.mm):0;
   var hero=document.querySelector('.hero'), bg=$('rainbg'), g='';
-  hero.classList.remove('m-sol','m-noche'); if(mode!=='lluvia')hero.classList.add('m-'+mode);
+  hero.classList.remove('m-sol','m-noche','m-nub','m-nubn'); if(mode!=='lluvia')hero.classList.add('m-'+mode);
   if(mode==='lluvia') g=window.__rain();
+  else if(mode==='nub'||mode==='nubn'){var cl2=function(x,y,s,o){return '<g opacity="'+o+'" transform="translate('+x+' '+y+') scale('+s+')"><ellipse cx="0" cy="0" rx="52" ry="18" fill="#dfe5ea"/><ellipse cx="-20" cy="-12" rx="26" ry="19" fill="#dfe5ea"/><ellipse cx="16" cy="-16" rx="30" ry="22" fill="#dfe5ea"/></g>';};
+    g='<g class="cl">'+cl2(470,70,1.3,mode==='nub'?.55:.18)+cl2(300,110,1.1,mode==='nub'?.45:.14)+cl2(120,80,1.2,mode==='nub'?.4:.12)+cl2(540,200,1,mode==='nub'?.3:.1)+cl2(200,220,1.4,mode==='nub'?.25:.08)+'</g>';}
   else if(mode==='sol'){
     g='';
     var ry='';for(var i=0;i<12;i++){var a=i*Math.PI/6;ry+='<line x1="'+(470+Math.cos(a)*46).toFixed(1)+'" y1="'+(64+Math.sin(a)*46).toFixed(1)+'" x2="'+(470+Math.cos(a)*66).toFixed(1)+'" y2="'+(64+Math.sin(a)*66).toFixed(1)+'" stroke="#ffe08a" stroke-width="4" stroke-linecap="round" opacity=".85"/>';}
@@ -369,8 +373,12 @@ $('when').innerHTML=etiqueta(NOW.key).replace(/^./,function(c){return c.toUpperC
   var hoyTot=0;if(OBS&&OBS.dia===K0&&OBS.registros){Object.keys(OBS.registros).forEach(function(k){hoyTot+=+OBS.registros[k]||0;});}
   var obT=ob&&ob.manual?'Está lloviendo desde las '+new Date(ob.desde).getHours()+':'+String(new Date(ob.desde).getMinutes()).padStart(2,'0')+' h (observación directa; la estación aún no publicó la hora en curso)':ob&&ob.estado==='llovizna'?(ob.intermitente?'Llovizna intermitente':'Llovizna en curso: '+(+ob.mm).toLocaleString('es-AR',{maximumFractionDigits:2})+' mm en la última hora')+(hoyTot>0?'; '+hoyTot.toLocaleString('es-AR',{maximumFractionDigits:1})+' mm en el día':''):ob?(ob.estado==='seca'||(ob.mm!=null&&+ob.mm<=0)?(hoyTot>0?'Hoy llovieron '+hoyTot.toLocaleString('es-AR',{maximumFractionDigits:1})+' mm; sin lluvia en la última hora':'Sin lluvia registrada hoy'):'Lluvia registrada: '+(ob.mm!=null?(+ob.mm).toLocaleString('es-AR',{maximumFractionDigits:1})+' mm en la última hora':ob.estado)):'';
   var lastReg=(OBS&&OBS.dia===K0&&OBS.ts)?new Date(OBS.ts).toLocaleTimeString('es-AR',{hour:'2-digit',minute:'2-digit',hour12:false,timeZone:'America/Argentina/Cordoba'}):null;
-  var inest=(D.alertas&&D.alertas[K0])?'<br><span style="display:inline-block;margin-top:4px;font-size:.78rem;opacity:.95">⚠️ Tiempo muy inestable: lo que muestra el simulador puede no coincidir con lo que ocurre en su barrio en este momento. Se actualiza con la observación directa y con las mediciones de las estaciones, que se publican al cerrar cada hora.</span>':'';
-  $('when').innerHTML+=inest+'<br><span class="sky">'+(stale?'Pronóstico desactualizado':(ob?obT+' ('+hhmm+' h)':lbl+', estimado por pronóstico'+(lastReg?' (último registro de la estación: '+lastReg+' h)':' (sin registro de la estación)')))+'</span>';
+  var ELt=estadoLluvia(),fx1=function(x){return (+x).toLocaleString('es-AR',{maximumFractionDigits:1});};
+  var estTx=ELt&&!ELt.manual?(ELt.llueve?'🌧️ <b>Sigue lloviendo</b>'+(ELt.mm<0.5?' (llovizna)':'')+': +'+fx1(ELt.mm)+' mm entre las '+(ELt.h-1)+' y las '+ELt.h+' h. Acumulado de hoy: <b>'+fx1(ELt.acum)+' mm</b>.':'<b>Sin lluvia en la última hora</b> (de '+(ELt.h-1)+' a '+ELt.h+' h): el acumulado de hoy se mantiene en <b>'+fx1(ELt.acum)+' mm</b>.'):'';
+  var inest=(D.alertas&&D.alertas[K0])?'<br><span style="display:inline-block;margin-top:4px;font-size:.78rem;opacity:.95">⚠️ Mientras dure la alerta el tiempo seguirá inestable, y se irá reflejando hora por hora con las mediciones de las estaciones (se publican al cerrar cada hora) o con la observación directa. Lo que muestra el simulador puede no coincidir con lo que ocurre en su barrio en este momento.</span>':'';
+  $('when').innerHTML+=((ELt&&!ELt.manual&&!stale)?'':'<br><span class="sky">'+(stale?'Pronóstico desactualizado':(ob?obT+' ('+hhmm+' h)':lbl+', estimado por pronóstico'+(lastReg?' (último registro de la estación: '+lastReg+' h)':' (sin registro de la estación)')))+'</span>');
+  (function(){var sm=document.querySelector('.hero .sim');if(!sm)return;var bx=document.getElementById('estLL');if(!bx){bx=document.createElement('div');bx.id='estLL';bx.style.cssText='margin:10px 0 2px;padding:9px 12px;border-radius:12px;background:rgba(0,0,0,.28);color:#fff;font-size:.86rem;line-height:1.4;text-shadow:0 1px 2px rgba(0,0,0,.4)';sm.parentNode.insertBefore(bx,sm.nextSibling);}
+    bx.innerHTML=(estTx?'<div>'+estTx+'</div>':'')+(inest?'<div style="margin-top:'+(estTx?6:0)+'px;font-size:.78rem;opacity:.95">'+inest.replace(/^<br><span[^>]*>/,'').replace(/<\/span>$/,'')+'</div>':'');bx.style.display=(estTx||inest)?'':'none';})();
 })();
 $('td0').textContent=stale?etiqueta(K0).replace(/^./,function(c){return c.toUpperCase();}):'Hoy';
 $('td1').textContent=stale?etiqueta(K1).replace(/^./,function(c){return c.toUpperCase();}):'Mañana';
@@ -390,6 +398,10 @@ document.getElementById('pav').checked=!state.tierra;
 var INT={llovizna:0.3,debil:2,moderada:8,fuerte:20};
 /* OBS lo carga la tarea horaria con los registros de la estación ICAA publicados en el SNIH:
    {"dia":"AAAA-MM-DD","registros":{"0":0,"1":0.2,...},"ultima_hora":16,"mm":0.0,"estado":"seca|debil|moderada|fuerte","ts":ms,"fuente":"SNIH, estación ICAA"} */
+/* estado de la lluvia: sigue lloviendo si el acumulado del día subió en la última hora cerrada; paró si se mantuvo. La observación directa tiene prioridad */
+function estadoLluvia(){var J=null;try{J=JSON.parse(document.getElementById('obsman').textContent);}catch(e){}var M=window.tcObsVigente?tcObsVigente(J,'Corrientes Capital'):null;
+  if(M)return {llueve:true,manual:true,desde:Date.parse(M.desde)};var o=OBS;if(!o||o.dia!==K0||!o.registros||o.ultima_hora==null||!o.ts||Date.now()-o.ts>3*3600000)return null;
+  var h=+o.ultima_hora,ult=+o.registros[h]||0,ac=0;Object.keys(o.registros).forEach(function(k){ac+=+o.registros[k]||0;});return {llueve:ult>0,mm:ult,h:h,acum:Math.round(ac*10)/10,antes:Math.round((ac-ult)*10)/10};}
 function obsActiva(){var o=OBS,ok=!!(o&&o.ts);if(ok){var age=(Date.now()-o.ts)/3600000;if(age<0||age>4.75)ok=false;}
   var J=null;try{J=JSON.parse(document.getElementById('obsman').textContent);}catch(e){}var M=window.tcObsVigente?tcObsVigente(J,'Corrientes Capital'):null;
   if(M&&(!ok||o.estado==='seca'||!(+o.mm>0)))return {estado:'lluvia',mm:null,manual:true,desde:Date.parse(M.desde),ts:Date.now()};
