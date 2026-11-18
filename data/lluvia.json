@@ -1,10 +1,9 @@
 {
- "actualizado": "17/11/2026, 20:44 h",
+ "actualizado": "17/11/2026, 21:02 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
-  "16/11 21 h",
-  "22 h",
+  "16/11 22 h",
   "23 h",
   "17/11 00 h",
   "01 h",
@@ -27,18 +26,18 @@
   "18 h",
   "19 h",
   "20 h",
-  "21 h (en curso)"
+  "21 h",
+  "22 h (en curso)"
  ],
  "fuente": "Sistema Nacional de Información Hídrica (SNIH), Secretaría de Infraestructura y Política Hídrica; estaciones de la Red Hidrológica Nacional y redes asociadas (ICAA, INTA, Red Iberá). Datos crudos del sensor, sin validar.",
  "enlace": "https://snih.hidricosargentina.gob.ar/Filtros.aspx",
- "nota": "Ventana de 24 horas completas, de 21 h del 16/11 a 20 h del 17/11 (hora de Argentina), más la hora en curso como última columna, con los datos recibidos hasta el momento. El total suma solo las 24 horas completas. Las horas sin transmisión figuran como null, no como cero.",
+ "nota": "Ventana de 24 horas completas, de 22 h del 16/11 a 21 h del 17/11 (hora de Argentina), más la hora en curso como última columna, con los datos recibidos hasta el momento. El total suma solo las 24 horas completas. Las horas sin transmisión figuran como null, no como cero.",
  "estaciones": [
   {
    "localidad": "Corrientes Capital",
    "estacion": "ICAA",
    "codigo": 283906,
    "valores": [
-    0,
     0,
     0,
     0,
@@ -62,17 +61,17 @@
     0,
     0,
     0,
+    0,
     null
    ],
    "total": 9.6,
-   "ultimo": "0 mm a las 20 h"
+   "ultimo": "0 mm a las 21 h"
   },
   {
    "localidad": "Corrientes Capital (estación 13805)",
    "estacion": "Corrientes",
    "codigo": 13805,
    "valores": [
-    0,
     0,
     0,
     0,
@@ -96,6 +95,7 @@
     0,
     0,
     0,
+    null,
     null
    ],
    "total": 12.75,
@@ -106,7 +106,6 @@
    "estacion": "Garruchos",
    "codigo": 13857,
    "valores": [
-    null,
     null,
     null,
     0,
@@ -130,6 +129,7 @@
     null,
     null,
     null,
+    null,
     null
    ],
    "total": 10.75,
@@ -140,7 +140,6 @@
    "estacion": "Carlos Pellegrini",
    "codigo": 13826,
    "valores": [
-    null,
     null,
     null,
     0,
@@ -160,6 +159,7 @@
     null,
     null,
     0.25,
+    null,
     null,
     null,
     null,
@@ -197,7 +197,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -231,7 +231,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -242,7 +242,6 @@
    "estacion": "Estación La Palmira - Escuela N° 70",
    "codigo": 283902,
    "valores": [
-    0,
     0,
     0,
     0,
@@ -266,6 +265,7 @@
     0,
     0,
     0.2,
+    null,
     null
    ],
    "total": 6.8,
@@ -658,7 +658,6 @@
     0,
     0,
     0,
-    0,
     1.6,
     1.2,
     1.6,
@@ -674,6 +673,7 @@
     0,
     0,
     0,
+    null,
     null
    ],
    "total": 5.4,
@@ -684,7 +684,6 @@
    "estacion": "La Sirena",
    "codigo": 13811,
    "valores": [
-    null,
     null,
     null,
     0,
@@ -704,6 +703,7 @@
     null,
     null,
     0,
+    null,
     null,
     null,
     null,
@@ -775,7 +775,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -856,7 +856,6 @@
    "valores": [
     null,
     null,
-    null,
     0,
     null,
     null,
@@ -874,6 +873,7 @@
     null,
     null,
     0,
+    null,
     null,
     null,
     null,
@@ -1060,7 +1060,6 @@
    "valores": [
     null,
     null,
-    null,
     0,
     null,
     null,
@@ -1078,6 +1077,7 @@
     null,
     null,
     0,
+    null,
     null,
     null,
     null,
@@ -1115,7 +1115,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -1134,7 +1134,6 @@
     0,
     0,
     0,
-    0,
     1,
     1,
     0,
@@ -1150,6 +1149,7 @@
     0,
     0,
     0,
+    null,
     null
    ],
    "total": 2,
@@ -1160,7 +1160,6 @@
    "estacion": "Puerto Ita Ibate",
    "codigo": 283905,
    "valores": [
-    0,
     0,
     0,
     0,
@@ -1184,6 +1183,7 @@
     0,
     0,
     0,
+    null,
     null
    ],
    "total": 7.4,
@@ -1194,7 +1194,6 @@
    "estacion": "RMA04_PMB - Parque Nacional Mburucuyá",
    "codigo": 220246,
    "valores": [
-    0,
     0,
     0,
     0,
@@ -1218,6 +1217,7 @@
     0,
     0,
     0,
+    null,
     null
    ],
    "total": 3.0,
@@ -1232,7 +1232,6 @@
     0,
     0,
     0,
-    0,
     0.2,
     0,
     0,
@@ -1252,6 +1251,7 @@
     0,
     0,
     0,
+    null,
     null
    ],
    "total": 0.4,
@@ -1262,7 +1262,6 @@
    "estacion": "RMA08_BVI - Bella Vista",
    "codigo": 220262,
    "valores": [
-    0,
     0,
     0,
     0,
@@ -1286,6 +1285,7 @@
     0,
     0,
     0,
+    null,
     null
    ],
    "total": 7.6,
@@ -1296,7 +1296,6 @@
    "estacion": "RMA08_CC - Curuzú Cuatiá",
    "codigo": 220263,
    "valores": [
-    0,
     0,
     0,
     0,
@@ -1320,6 +1319,7 @@
     0,
     0,
     0,
+    null,
     null
    ],
    "total": 1.0,
@@ -1330,7 +1330,6 @@
    "estacion": "RMA08_PNI - Parque Nacional Iberá",
    "codigo": 220226,
    "valores": [
-    0,
     0,
     0,
     0,
@@ -1353,6 +1352,7 @@
     0,
     0,
     0,
+    null,
     null,
     null
    ],
@@ -1434,7 +1434,6 @@
    "valores": [
     null,
     null,
-    null,
     0,
     null,
     null,
@@ -1456,6 +1455,7 @@
     null,
     null,
     0,
+    null,
     null
    ],
    "total": 6.0,
@@ -1544,7 +1544,6 @@
     0,
     0,
     0,
-    0,
     6.2,
     6.8,
     2.4,
@@ -1558,6 +1557,7 @@
     0,
     0,
     0,
+    null,
     null
    ],
    "total": 15.6,
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "17/11/2026, 20:44 h",
+ "consultado": "17/11/2026, 21:02 h",
  "consulta_resultado": "datos nuevos"
 }
