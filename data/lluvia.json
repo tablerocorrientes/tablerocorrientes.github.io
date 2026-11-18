@@ -1,10 +1,9 @@
 {
- "actualizado": "18/11/2026, 08:57 h",
+ "actualizado": "18/11/2026, 09:20 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
-  "17/11 09 h",
-  "10 h",
+  "17/11 10 h",
   "11 h",
   "12 h",
   "13 h",
@@ -27,18 +26,18 @@
   "06 h",
   "07 h",
   "08 h",
-  "09 h (en curso)"
+  "09 h",
+  "10 h (en curso)"
  ],
  "fuente": "Sistema Nacional de Información Hídrica (SNIH), Secretaría de Infraestructura y Política Hídrica; estaciones de la Red Hidrológica Nacional y redes asociadas (ICAA, INTA, Red Iberá). Datos crudos del sensor, sin validar.",
  "enlace": "https://snih.hidricosargentina.gob.ar/Filtros.aspx",
- "nota": "Ventana de 24 horas completas, de 09 h del 17/11 a 08 h del 18/11 (hora de Argentina), más la hora en curso como última columna, con los datos recibidos hasta el momento. El total suma solo las 24 horas completas. Las horas sin transmisión figuran como null, no como cero.",
+ "nota": "Ventana de 24 horas completas, de 10 h del 17/11 a 09 h del 18/11 (hora de Argentina), más la hora en curso como última columna, con los datos recibidos hasta el momento. El total suma solo las 24 horas completas. Las horas sin transmisión figuran como null, no como cero.",
  "estaciones": [
   {
    "localidad": "Corrientes Capital",
    "estacion": "ICAA",
    "codigo": 283906,
    "valores": [
-    0,
     0,
     0.2,
     0,
@@ -62,17 +61,17 @@
     0,
     0,
     0.4,
+    0,
     null
    ],
    "total": 1.4,
-   "ultimo": "0,4 mm a las 08 h"
+   "ultimo": "0 mm a las 09 h"
   },
   {
    "localidad": "Corrientes Capital (estación 13805)",
    "estacion": "Corrientes",
    "codigo": 13805,
    "valores": [
-    0,
     0,
     0.25,
     0,
@@ -96,6 +95,7 @@
     null,
     null,
     null,
+    null,
     null
    ],
    "total": 1.25,
@@ -106,7 +106,6 @@
    "estacion": "Garruchos",
    "codigo": 13857,
    "valores": [
-    null,
     null,
     null,
     4.25,
@@ -130,6 +129,7 @@
     null,
     null,
     0,
+    null,
     null
    ],
    "total": 4.5,
@@ -142,7 +142,6 @@
    "valores": [
     null,
     null,
-    null,
     0.25,
     null,
     null,
@@ -160,6 +159,7 @@
     null,
     null,
     0,
+    null,
     null,
     null,
     null,
@@ -201,7 +201,7 @@
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 08 h"
+   "ultimo": "0 mm a las 09 h"
   },
   {
    "localidad": "Santa Lucía",
@@ -229,20 +229,19 @@
     0,
     0,
     0,
-    0,
     0.25,
+    0,
     0,
     null
    ],
    "total": 0.25,
-   "ultimo": "0 mm a las 08 h"
+   "ultimo": "0 mm a las 09 h"
   },
   {
    "localidad": "La Palmira",
    "estacion": "Estación La Palmira - Escuela N° 70",
    "codigo": 283902,
    "valores": [
-    2,
     0,
     0,
     0.2,
@@ -266,10 +265,11 @@
     1.4,
     1.6,
     0,
+    1.4,
     null
    ],
-   "total": 5.4,
-   "ultimo": "0 mm a las 08 h"
+   "total": 4.8,
+   "ultimo": "1,4 mm a las 09 h"
   },
   {
    "localidad": "Bella Vista",
@@ -650,8 +650,8 @@
    "estacion": "La Cruz - Corrientes",
    "codigo": 283909,
    "valores": [
-    0.8,
     0.2,
+    0,
     0,
     0,
     0,
@@ -676,15 +676,14 @@
     0,
     null
    ],
-   "total": 1.0,
-   "ultimo": "0 mm a las 08 h"
+   "total": 0.2,
+   "ultimo": "0 mm a las 09 h"
   },
   {
    "localidad": "Gobernador Virasoro",
    "estacion": "La Sirena",
    "codigo": 13811,
    "valores": [
-    null,
     null,
     null,
     1.75,
@@ -708,6 +707,7 @@
     null,
     null,
     0.75,
+    null,
     null
    ],
    "total": 2.5,
@@ -779,7 +779,7 @@
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 08 h"
+   "ultimo": "0 mm a las 09 h"
   },
   {
    "localidad": "Mercedes",
@@ -856,7 +856,6 @@
    "valores": [
     null,
     null,
-    null,
     0,
     null,
     null,
@@ -874,6 +873,7 @@
     null,
     null,
     0,
+    null,
     null,
     null,
     null,
@@ -1060,7 +1060,6 @@
    "valores": [
     null,
     null,
-    null,
     0,
     null,
     null,
@@ -1082,6 +1081,7 @@
     null,
     null,
     0,
+    null,
     null
    ],
    "total": 0,
@@ -1119,7 +1119,7 @@
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 08 h"
+   "ultimo": "0 mm a las 09 h"
   },
   {
    "localidad": "Pueblo Libertador",
@@ -1145,22 +1145,21 @@
     0,
     0,
     0,
-    0,
     0.25,
     0,
     0.25,
     0.25,
+    0,
     null
    ],
    "total": 0.75,
-   "ultimo": "0,25 mm a las 08 h"
+   "ultimo": "0 mm a las 09 h"
   },
   {
    "localidad": "Itá Ibaté",
    "estacion": "Puerto Ita Ibate",
    "codigo": 283905,
    "valores": [
-    7,
     0.2,
     0,
     0,
@@ -1184,17 +1183,17 @@
     0,
     0.6,
     0,
+    3,
     null
    ],
-   "total": 8.0,
-   "ultimo": "0 mm a las 08 h"
+   "total": 4.0,
+   "ultimo": "3 mm a las 09 h"
   },
   {
    "localidad": "Mburucuyá",
    "estacion": "RMA04_PMB - Parque Nacional Mburucuyá",
    "codigo": 220246,
    "valores": [
-    0.2,
     0,
     0,
     0,
@@ -1218,10 +1217,11 @@
     0.2,
     14.8,
     1.2,
+    0,
     null
    ],
-   "total": 19.4,
-   "ultimo": "1,2 mm a las 08 h"
+   "total": 19.2,
+   "ultimo": "0 mm a las 09 h"
   },
   {
    "localidad": "Bonpland",
@@ -1248,14 +1248,14 @@
     0,
     0,
     0,
-    0,
     0.6,
     0,
     0.2,
+    0,
     null
    ],
    "total": 0.8,
-   "ultimo": "0,2 mm a las 08 h"
+   "ultimo": "0 mm a las 09 h"
   },
   {
    "localidad": "Bella Vista",
@@ -1279,17 +1279,17 @@
     0,
     0,
     0,
-    0,
     0.2,
     0.2,
     0,
     4.2,
     0.2,
     0,
+    0,
     null
    ],
    "total": 4.8,
-   "ultimo": "0 mm a las 08 h"
+   "ultimo": "0 mm a las 09 h"
   },
   {
    "localidad": "Curuzú Cuatiá",
@@ -1315,22 +1315,21 @@
     0,
     0,
     0,
-    0,
     0.2,
     0.2,
     0.6,
     0,
+    0.2,
     null
    ],
-   "total": 1.0,
-   "ultimo": "0 mm a las 08 h"
+   "total": 1.2,
+   "ultimo": "0,2 mm a las 09 h"
   },
   {
    "localidad": "Parque Nacional Iberá",
    "estacion": "RMA08_PNI - Parque Nacional Iberá",
    "codigo": 220226,
    "valores": [
-    null,
     0,
     0,
     null,
@@ -1354,6 +1353,7 @@
     0.6,
     0,
     2.8,
+    null,
     null
    ],
    "total": 3.4,
@@ -1434,7 +1434,6 @@
    "valores": [
     null,
     null,
-    null,
     1.5,
     null,
     null,
@@ -1452,6 +1451,7 @@
     null,
     null,
     0,
+    null,
     null,
     null,
     null,
@@ -1534,7 +1534,6 @@
    "estacion": "Santo Tomé –Corrientes",
    "codigo": 283907,
    "valores": [
-    6.8,
     2.4,
     0.2,
     0,
@@ -1558,10 +1557,11 @@
     0,
     0,
     0,
+    0.2,
     null
    ],
-   "total": 9.4,
-   "ultimo": "0 mm a las 08 h"
+   "total": 2.8,
+   "ultimo": "0,2 mm a las 09 h"
   },
   {
    "localidad": "El Sombrerito",
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "18/11/2026, 08:57 h",
+ "consultado": "18/11/2026, 09:20 h",
  "consulta_resultado": "datos nuevos"
 }
