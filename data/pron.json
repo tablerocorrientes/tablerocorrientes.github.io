@@ -1,9 +1,9 @@
 {
- "actualizado": "17/11/2026, 19:20 h",
+ "actualizado": "17/11/2026, 21:09 h",
  "metodo": "estimación derivada de modelos y del parte del SMN",
  "estado_alertas": "VERIFICADO_CON_ALERTAS",
  "estado_verificado": {
-  "fecha": "17/11/2026, 19:20 h",
+  "fecha": "17/11/2026, 21:09 h",
   "fuente": "SMN y COE de Corrientes"
  },
  "met_archivo": {
@@ -17,22 +17,22 @@
   {
    "id_oficial": null,
    "tipo": "alerta",
-   "aviso": "Alerta amarilla por tormenta del Servicio Meteorológico Nacional para la provincia de Corrientes, emitida a las 11:50 h, vigente desde las 12:00 h del martes 17/11 hasta las 11:59 h del miércoles 18/11. El resumen por provincia no detalla los departamentos.",
-   "nivel": "amarillo",
+   "aviso": "Alerta naranja por tormenta del Servicio Meteorológico Nacional para la provincia de Corrientes, emitida a las 17:50 h, vigente desde las 18:00 h del martes 17/11 hasta las 17:59 h del miércoles 18/11. El resumen por provincia no detalla los departamentos. Sin avisos a muy corto plazo vigentes.",
+   "nivel": "naranja",
    "fenomeno": "tormenta",
    "rango_mm": null,
    "zonas": [
     "Corrientes (el SMN no detalla los departamentos en el resumen por provincia)"
    ],
-   "desde": "17/11/2026, 12:00 h",
-   "hasta": "18/11/2026, 11:59 h",
-   "desde_iso": "2026-11-17T12:00:00-03:00",
-   "hasta_iso": "2026-11-18T11:59:00-03:00",
-   "emision": "17/11/2026, 11:50 h",
+   "desde": "17/11/2026, 18:00 h",
+   "hasta": "18/11/2026, 17:59 h",
+   "desde_iso": "2026-11-17T18:00:00-03:00",
+   "hasta_iso": "2026-11-18T17:59:00-03:00",
+   "emision": "17/11/2026, 17:50 h",
    "incluye_corrientes": true,
    "incluye_capital": null,
    "url": "https://www.smn.gob.ar/alertas",
-   "origen": "Servicio Meteorológico Nacional, página de alertas leída desde Corrientes el 17/11/2026 a las 12:40 h"
+   "origen": "Servicio Meteorológico Nacional, página de alertas leída desde Corrientes el 17/11/2026 a las 20:40 h"
   },
   {
    "id_oficial": "2026-0076-AT",
@@ -541,7 +541,7 @@
   ]
  },
  "horario_act": "17/11/2026, 18:37 h",
- "consultado": "17/11/2026, 19:20 h",
+ "consultado": "17/11/2026, 21:09 h",
  "consulta_resultado": "datos nuevos",
  "extendido": {
   "actualizado": "17/11/2026, 20:12 h",
