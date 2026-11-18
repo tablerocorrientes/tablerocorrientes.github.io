@@ -213,7 +213,8 @@
   var M5=null;function modelo(){if(!M5)M5=fetch('/data/fuentes/smn_pronostico_5_dias.txt',{cache:'no-cache'}).then(function(r){return r.ok?r.text():'';}).then(function(tx){var o={},cur=null,MS={ENE:0,FEB:1,MAR:2,ABR:3,MAY:4,JUN:5,JUL:6,AGO:7,SEP:8,SET:8,OCT:9,NOV:10,DIC:11};
       tx.split('\n').forEach(function(l){var s=l.trim();if(/^[A-Z_]{4,}$/.test(s)){cur=s;o[cur]=[];return;}var m=/^(\d{2})\/([A-Z]{3})\/(\d{4})\s+(\d{2})Hs\.\s+\S+\s+\d+\s*\|\s*\d+\s+([\d.]+)/.exec(s);if(m&&cur&&MS[m[2]]!=null)o[cur].push({t:new Date(+m[3],MS[m[2]],+m[1],+m[4]),mm:+m[5]});});return o;}).catch(function(){return {};});return M5;}
   var OM=null;window.tcObsManual=function(){if(!OM)OM=fetch('/data/observacion_lluvia.json',{cache:'no-cache'}).then(function(r){return r.ok?r.json():{};}).catch(function(){return {};});return OM;};
-  window.tcObsVigente=function(J,loc){var n=Date.now();return ((J&&J.observaciones)||[]).filter(function(o){var d=Date.parse(o.desde);return o.localidad===loc&&d<=n&&n<(o.hasta?Date.parse(o.hasta):d+(+o.vigencia_horas||3)*36e5);}).pop()||null;};
+  /* la observación directa rige hasta que la estación publica una hora que ya la incluye (fin de esa hora posterior al inicio observado); desde ahí decide el registro horario */
+  window.tcObsVigente=function(J,loc,finUlt){var n=Date.now();return ((J&&J.observaciones)||[]).filter(function(o){var d=Date.parse(o.desde);if(finUlt&&finUlt>d)return false;return o.localidad===loc&&d<=n&&n<(o.hasta?Date.parse(o.hasta):d+(+o.vigencia_horas||3)*36e5);}).pop()||null;};
   var LL=null;function medida(){if(!LL)LL=fetch('/data/lluvia.json',{cache:'no-cache'}).then(function(r){return r.ok?r.json():{};}).catch(function(){return {};});return LL;}
   window.tcInicioLluvia=function(dep,el,loc,cur){if(!el)return;var st=EST_DEP[nrm(dep)]||'CORRIENTES_AERO';Promise.all([modelo(),medida(),tcObsManual()]).then(function(R){var o=R[0],LM=R[1]||{},OMV=tcObsVigente(R[2],loc);
     var E=(LM.estaciones||[]).filter(function(s){return loc&&String(s.localidad).indexOf(loc)===0;}),cols=LM.columnas||[],ya=null;
@@ -223,6 +224,7 @@
     var nw=new Date(),dd0=null,acD=0,kU=-1;cols.forEach(function(c,i){var m=/^\s*(\d{1,2})\/(\d{1,2})\s+(\d{1,2})/.exec(c),h;if(m){dd0=[+m[1],+m[2]];h=+m[3];}else{var m2=/^\s*(\d{1,2})/.exec(c);h=m2?+m2[1]:null;}if(!dd0||h==null||/en curso/.test(c))return;var t=new Date(nw.getFullYear(),dd0[1]-1,dd0[0],h-1);if(MX[i]==null)return;kU=i;if(t.toDateString()===nw.toDateString())acD+=MX[i];});
     var fx=function(x){return String(Math.round(x*10)/10).replace('.',',');},pre='';
     var hU=kU>=0?parseInt(String(cols[kU]).replace(/^\d+\/\d+\s+/,''),10):NaN,tU=isNaN(hU)?null:new Date(nw.getFullYear(),nw.getMonth(),nw.getDate(),hU);if(tU&&tU>nw)tU=new Date(tU.getTime()-864e5);
+    if(tU&&OMV)OMV=tcObsVigente(R[2],loc,tU.getTime());
     if(tU&&nw-tU<3*36e5){
       if(MX[kU]>0&&!OMV){el.innerHTML='🌧️ <b>'+(MX[kU]<0.5?'SIGUE LA LLOVIZNA':'SIGUE LLOVIENDO')+' en '+loc+': +'+fx(MX[kU])+' mm entre las '+(hU-1)+' y las '+hU+' h</b>. Acumulado de hoy: <b>'+fx(acD)+' mm</b>. <small>Medición de las estaciones del SNIH, que publican al cerrar cada hora. Mientras dure la alerta el tiempo seguirá inestable y se irá reflejando hora por hora.</small>';return;}
       if(!OMV&&acD>0)pre='☁️ <b>Sin lluvia en la última hora</b> (de '+(hU-1)+' a '+hU+' h): el acumulado de hoy en '+loc+' se mantiene en <b>'+fx(acD)+' mm</b>. <small>Mientras dure la alerta el tiempo seguirá inestable y se irá reflejando hora por hora.</small><br>';}

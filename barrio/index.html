@@ -399,12 +399,12 @@ var INT={llovizna:0.3,debil:2,moderada:8,fuerte:20};
 /* OBS lo carga la tarea horaria con los registros de la estación ICAA publicados en el SNIH:
    {"dia":"AAAA-MM-DD","registros":{"0":0,"1":0.2,...},"ultima_hora":16,"mm":0.0,"estado":"seca|debil|moderada|fuerte","ts":ms,"fuente":"SNIH, estación ICAA"} */
 /* estado de la lluvia: sigue lloviendo si el acumulado del día subió en la última hora cerrada; paró si se mantuvo. La observación directa tiene prioridad */
-function estadoLluvia(){var J=null;try{J=JSON.parse(document.getElementById('obsman').textContent);}catch(e){}var M=window.tcObsVigente?tcObsVigente(J,'Corrientes Capital'):null;
+function estadoLluvia(){var J=null;try{J=JSON.parse(document.getElementById('obsman').textContent);}catch(e){}var oU=OBS,fU=(oU&&oU.dia===K0&&oU.ultima_hora!=null)?new Date(new Date().getFullYear(),new Date().getMonth(),new Date().getDate(),+oU.ultima_hora).getTime():null,M=window.tcObsVigente?tcObsVigente(J,'Corrientes Capital',fU):null;
   if(M)return {llueve:true,manual:true,desde:Date.parse(M.desde),int:M.intensidad||'',mmh:+M.mm_h||2};var o=OBS;if(!o||o.dia!==K0||!o.registros||o.ultima_hora==null||!o.ts||Date.now()-o.ts>3*3600000)return null;
   var h=+o.ultima_hora,ult=+o.registros[h]||0,ac=0;Object.keys(o.registros).forEach(function(k){ac+=+o.registros[k]||0;});return {llueve:ult>0,mm:ult,h:h,acum:Math.round(ac*10)/10,antes:Math.round((ac-ult)*10)/10};}
 function obsActiva(){var o=OBS,ok=!!(o&&o.ts);if(ok){var age=(Date.now()-o.ts)/3600000;if(age<0||age>4.75)ok=false;}
-  var J=null;try{J=JSON.parse(document.getElementById('obsman').textContent);}catch(e){}var M=window.tcObsVigente?tcObsVigente(J,'Corrientes Capital'):null;
-  if(M&&(!ok||o.estado==='seca'||!(+o.mm>0)))return {estado:'lluvia',mm:null,manual:true,desde:Date.parse(M.desde),ts:Date.now()};
+  var M=estadoLluvia();M=M&&M.manual?M:null;
+  if(M)return {estado:'lluvia',mm:null,manual:true,desde:M.desde,ts:Date.now()};
   return ok?o:null;}
 function base(k){var r=(D.dias[k]||new Array(24).fill(0)).slice(), o=OBS;
   if(o&&o.dia===k&&o.registros&&!stale){Object.keys(o.registros).forEach(function(h){var v=o.registros[h],hh=+h-1;/* el dato de las h es la lluvia entre h-1 y h */if(v!=null&&hh>=0&&hh<HNOW)r[hh]=+v;});}
