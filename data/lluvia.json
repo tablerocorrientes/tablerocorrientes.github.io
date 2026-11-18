@@ -1,10 +1,9 @@
 {
- "actualizado": "18/11/2026, 15:46 h",
+ "actualizado": "18/11/2026, 16:03 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
-  "17/11 16 h",
-  "17 h",
+  "17/11 17 h",
   "18 h",
   "19 h",
   "20 h",
@@ -27,18 +26,18 @@
   "13 h",
   "14 h",
   "15 h",
-  "16 h (en curso)"
+  "16 h",
+  "17 h (en curso)"
  ],
  "fuente": "Sistema Nacional de Información Hídrica (SNIH), Secretaría de Infraestructura y Política Hídrica; estaciones de la Red Hidrológica Nacional y redes asociadas (ICAA, INTA, Red Iberá). Datos crudos del sensor, sin validar.",
  "enlace": "https://snih.hidricosargentina.gob.ar/Filtros.aspx",
- "nota": "Ventana de 24 horas completas, de 16 h del 17/11 a 15 h del 18/11 (hora de Argentina), más la hora en curso como última columna, con los datos recibidos hasta el momento. El total suma solo las 24 horas completas. Las horas sin transmisión figuran como null, no como cero.",
+ "nota": "Ventana de 24 horas completas, de 17 h del 17/11 a 16 h del 18/11 (hora de Argentina), más la hora en curso como última columna, con los datos recibidos hasta el momento. El total suma solo las 24 horas completas. Las horas sin transmisión figuran como null, no como cero.",
  "estaciones": [
   {
    "localidad": "Corrientes Capital",
    "estacion": "ICAA",
    "codigo": 283906,
    "valores": [
-    0,
     0.2,
     0,
     0,
@@ -62,17 +61,17 @@
     1.4,
     0.4,
     3.8,
+    2.4,
     null
    ],
-   "total": 12.4,
-   "ultimo": "3,8 mm a las 15 h"
+   "total": 14.8,
+   "ultimo": "2,4 mm a las 16 h"
   },
   {
    "localidad": "Corrientes Capital (estación 13805)",
    "estacion": "Corrientes",
    "codigo": 13805,
    "valores": [
-    0,
     0.25,
     0,
     0,
@@ -96,6 +95,7 @@
     1.5,
     0.25,
     3,
+    null,
     null
    ],
    "total": 10.25,
@@ -106,7 +106,6 @@
    "estacion": "Garruchos",
    "codigo": 13857,
    "valores": [
-    0.25,
     null,
     null,
     null,
@@ -130,9 +129,10 @@
     null,
     null,
     null,
+    null,
     null
    ],
-   "total": 1.25,
+   "total": 1,
    "ultimo": "1 mm a las 12 h"
   },
   {
@@ -140,7 +140,6 @@
    "estacion": "Carlos Pellegrini",
    "codigo": 13826,
    "valores": [
-    0.25,
     null,
     null,
     null,
@@ -164,9 +163,10 @@
     null,
     null,
     null,
+    null,
     null
    ],
-   "total": 10.0,
+   "total": 9.75,
    "ultimo": "8,25 mm a las 12 h"
   },
   {
@@ -197,7 +197,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -222,7 +222,6 @@
     0,
     0,
     0,
-    0,
     0.25,
     0,
     0,
@@ -232,6 +231,7 @@
     0,
     0,
     0.25,
+    null,
     null
    ],
    "total": 0.5,
@@ -242,7 +242,6 @@
    "estacion": "Estación La Palmira - Escuela N° 70",
    "codigo": 283902,
    "valores": [
-    0,
     0,
     0,
     0,
@@ -266,6 +265,7 @@
     0,
     0.2,
     0,
+    null,
     null
    ],
    "total": 4.8,
@@ -668,12 +668,12 @@
     0,
     0,
     0,
-    0,
     0.2,
     0,
     0,
     0.2,
     0,
+    null,
     null
    ],
    "total": 0.4,
@@ -684,7 +684,6 @@
    "estacion": "La Sirena",
    "codigo": 13811,
    "valores": [
-    0,
     null,
     null,
     null,
@@ -705,6 +704,7 @@
     null,
     null,
     1.25,
+    null,
     null,
     null,
     null,
@@ -775,7 +775,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -854,7 +854,6 @@
    "estacion": "Paso Cerrito",
    "codigo": 13849,
    "valores": [
-    0,
     null,
     null,
     null,
@@ -875,6 +874,7 @@
     null,
     null,
     2.25,
+    null,
     null,
     null,
     null,
@@ -1058,7 +1058,6 @@
    "estacion": "Portal Galarza",
    "codigo": 283904,
    "valores": [
-    0,
     null,
     null,
     null,
@@ -1079,6 +1078,7 @@
     null,
     null,
     0,
+    null,
     null,
     null,
     null,
@@ -1115,7 +1115,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -1126,7 +1126,6 @@
    "estacion": "Pueblo Libertador",
    "codigo": 13876,
    "valores": [
-    0,
     0,
     0,
     0,
@@ -1150,6 +1149,7 @@
     0.5,
     0,
     0,
+    null,
     null
    ],
    "total": 1.5,
@@ -1174,7 +1174,6 @@
     0,
     0,
     0,
-    0,
     0.6,
     0,
     3,
@@ -1184,6 +1183,7 @@
     0,
     0,
     0,
+    null,
     null
    ],
    "total": 3.8,
@@ -1194,7 +1194,6 @@
    "estacion": "RMA04_PMB - Parque Nacional Mburucuyá",
    "codigo": 220246,
    "valores": [
-    0,
     0,
     0,
     0,
@@ -1218,6 +1217,7 @@
     0,
     0,
     14.4,
+    null,
     null
    ],
    "total": 34.8,
@@ -1241,7 +1241,6 @@
     0,
     0,
     0,
-    0,
     0.6,
     0,
     0.2,
@@ -1252,6 +1251,7 @@
     0,
     0,
     0,
+    null,
     null
    ],
    "total": 1.8,
@@ -1262,7 +1262,6 @@
    "estacion": "RMA08_BVI - Bella Vista",
    "codigo": 220262,
    "valores": [
-    0,
     0,
     0,
     0,
@@ -1285,18 +1284,18 @@
     0.6,
     2.0,
     0,
-    0.2,
+    0.4,
+    null,
     null
    ],
-   "total": 9.6,
-   "ultimo": "0,2 mm a las 15 h"
+   "total": 9.8,
+   "ultimo": "0,4 mm a las 15 h"
   },
   {
    "localidad": "Curuzú Cuatiá",
    "estacion": "RMA08_CC - Curuzú Cuatiá",
    "codigo": 220263,
    "valores": [
-    0,
     0,
     0,
     0,
@@ -1320,6 +1319,7 @@
     0,
     0,
     0,
+    null,
     null
    ],
    "total": 1.6,
@@ -1330,7 +1330,6 @@
    "estacion": "RMA08_PNI - Parque Nacional Iberá",
    "codigo": 220226,
    "valores": [
-    0,
     0,
     0,
     0,
@@ -1353,11 +1352,12 @@
     0.2,
     null,
     0,
+    0,
     null,
     null
    ],
    "total": 3.6,
-   "ultimo": "0 mm a las 14 h"
+   "ultimo": "0 mm a las 15 h"
   },
   {
    "localidad": "San Isidro",
@@ -1432,7 +1432,6 @@
    "estacion": "San Roquito",
    "codigo": 13832,
    "valores": [
-    1,
     null,
     null,
     null,
@@ -1453,12 +1452,13 @@
     null,
     null,
     0.25,
+    null,
     null,
     null,
     null,
     null
    ],
-   "total": 1.5,
+   "total": 0.5,
    "ultimo": "0,25 mm a las 12 h"
   },
   {
@@ -1550,7 +1550,6 @@
     0,
     0,
     0,
-    0,
     0.2,
     0,
     0,
@@ -1558,6 +1557,7 @@
     0.8,
     0,
     0.4,
+    null,
     null
    ],
    "total": 1.6,
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "18/11/2026, 15:46 h",
+ "consultado": "18/11/2026, 16:03 h",
  "consulta_resultado": "datos nuevos"
 }

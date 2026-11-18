@@ -129,11 +129,11 @@ fecha,localidad,pronosticado_mm,llovido_mm,horas_medidas,hora_mas_lluviosa,alert
 2026-11-17,San Roquito,,6,6,07 a 08 h,naranja,,si
 2026-11-17,Santa Lucía,,0,24,,naranja,,
 2026-11-17,Santo Tomé,17.2,15.6,24,08 a 09 h,rojo,,si
-2026-11-18,Bella Vista,24.5,9.6,15,05 a 06 h,rojo,70 a 120,si
+2026-11-18,Bella Vista,24.5,9.8,15,05 a 06 h,rojo,70 a 120,si
 2026-11-18,Bonpland,,1.8,15,05 a 06 h,naranja,,
 2026-11-18,Caá Catí,,0,15,,naranja,,
 2026-11-18,Colonia Carlos Pellegrini,,9.75,3,11 a 12 h,naranja,,si
-2026-11-18,Corrientes Capital,30.7,12.3,15,10 a 11 h,rojo,70 a 120,si
+2026-11-18,Corrientes Capital,30.7,14.7,16,10 a 11 h,rojo,70 a 120,si
 2026-11-18,Curuzú Cuatiá,0.9,1.6,15,06 a 07 h,rojo,70 a 120,
 2026-11-18,Esquina,5.6,,,,rojo,70 a 120,
 2026-11-18,Garruchos,,1,3,11 a 12 h,naranja,,si
@@ -146,7 +146,7 @@ fecha,localidad,pronosticado_mm,llovido_mm,horas_medidas,hora_mas_lluviosa,alert
 2026-11-18,Mburucuyá,,34.8,15,06 a 07 h,rojo,70 a 120,si
 2026-11-18,Mercedes,11.7,0,15,,rojo,70 a 120,
 2026-11-18,Monte Caseros,2.1,,,,rojo,30 a 70,
-2026-11-18,Parque Nacional Iberá,,3.6,12,07 a 08 h,naranja,,si
+2026-11-18,Parque Nacional Iberá,,3.6,13,07 a 08 h,naranja,,si
 2026-11-18,Paso Cerrito,,5.25,3,07 a 08 h,naranja,,si
 2026-11-18,Paso de los Libres,16,,,,rojo,70 a 120,
 2026-11-18,Portal Galarza,,1.5,3,07 a 08 h,naranja,,si
