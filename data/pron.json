@@ -1,9 +1,9 @@
 {
- "actualizado": "17/11/2026, 21:09 h",
+ "actualizado": "17/11/2026, 23:15 h",
  "metodo": "estimación derivada de modelos y del parte del SMN",
  "estado_alertas": "VERIFICADO_CON_ALERTAS",
  "estado_verificado": {
-  "fecha": "17/11/2026, 21:09 h",
+  "fecha": "17/11/2026, 23:15 h",
   "fuente": "SMN y COE de Corrientes"
  },
  "met_archivo": {
@@ -541,8 +541,8 @@
   ]
  },
  "horario_act": "17/11/2026, 18:37 h",
- "consultado": "17/11/2026, 21:09 h",
- "consulta_resultado": "datos nuevos",
+ "consultado": "17/11/2026, 23:15 h",
+ "consulta_resultado": "sin cambios",
  "extendido": {
   "actualizado": "17/11/2026, 22:29 h",
   "aviso": "Pronóstico extendido informativo. No se usa en los cálculos del simulador.",
