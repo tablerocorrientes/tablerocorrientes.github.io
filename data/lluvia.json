@@ -1,5 +1,5 @@
 {
- "actualizado": "18/11/2026, 11:19 h",
+ "actualizado": "18/11/2026, 11:39 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
@@ -72,34 +72,34 @@
    "estacion": "Corrientes",
    "codigo": 13805,
    "valores": [
-    0,
-    0.25,
-    0.5,
-    0,
-    0,
-    0.25,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0.25,
-    0,
-    0,
-    5,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
     null
    ],
-   "total": 6.25,
-   "ultimo": "5 mm a las 11 h"
+   "total": null,
+   "ultimo": "sin datos en las últimas 24 horas"
   },
   {
    "localidad": "Garruchos",
@@ -1217,11 +1217,11 @@
     1.2,
     0,
     0,
-    0,
+    1,
     null
    ],
-   "total": 19.2,
-   "ultimo": "0 mm a las 11 h"
+   "total": 20.2,
+   "ultimo": "1 mm a las 11 h"
   },
   {
    "localidad": "Bonpland",
@@ -1285,11 +1285,11 @@
     0,
     0,
     0,
-    0,
+    0.6,
     null
    ],
-   "total": 4.8,
-   "ultimo": "0 mm a las 11 h"
+   "total": 5.4,
+   "ultimo": "0,6 mm a las 11 h"
   },
   {
    "localidad": "Curuzú Cuatiá",
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "18/11/2026, 11:19 h",
+ "consultado": "18/11/2026, 11:39 h",
  "consulta_resultado": "datos nuevos"
 }
