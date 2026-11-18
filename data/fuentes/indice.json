@@ -1,6 +1,6 @@
 {
- "consultado": "18/11/2026, 03:15 h",
- "consultado_iso": "2026-11-18T03:15-03:00",
+ "consultado": "18/11/2026, 03:48 h",
+ "consultado_iso": "2026-11-18T03:48-03:00",
  "paginas": {
   "smn_alertas": {
    "url": "https://www.smn.gob.ar/alertas",
@@ -53,7 +53,7 @@
   "lanacion_clima_corrientes": {
    "url": "https://www.lanacion.com.ar/clima/corrientes/",
    "estado": 200,
-   "caracteres": 8221,
+   "caracteres": 8242,
    "archivo": "data/fuentes/lanacion_clima_corrientes.txt"
   },
   "noaa_enso": {
@@ -86,7 +86,7 @@
   "smn_pronostico_5_dias": {
    "url": "https://ssl.smn.gob.ar/dpd/descarga_opendata.php?file=pron5d/pron20261118.txt",
    "estado": 200,
-   "caracteres": 44,
+   "caracteres": 323,
    "archivo": "data/fuentes/smn_pronostico_5_dias.txt"
   },
   "smn_pronostico_5_dias_ayer": {
