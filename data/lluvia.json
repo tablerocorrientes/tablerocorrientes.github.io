@@ -1,5 +1,5 @@
 {
- "actualizado": "18/11/2026, 00:44 h",
+ "actualizado": "18/11/2026, 00:55 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
@@ -129,11 +129,11 @@
     null,
     null,
     null,
-    null,
+    0,
     null
    ],
    "total": 10.75,
-   "ultimo": "0 mm a las 20 h"
+   "ultimo": "0 mm a las 00 h"
   },
   {
    "localidad": "Colonia Carlos Pellegrini",
@@ -707,11 +707,11 @@
     null,
     null,
     null,
-    null,
+    0,
     null
    ],
    "total": 21.5,
-   "ultimo": "0 mm a las 20 h"
+   "ultimo": "0 mm a las 00 h"
   },
   {
    "localidad": "Los Laureles",
@@ -877,11 +877,11 @@
     null,
     null,
     null,
-    null,
+    0,
     null
    ],
    "total": 5.0,
-   "ultimo": "0,25 mm a las 20 h"
+   "ultimo": "0 mm a las 00 h"
   },
   {
    "localidad": "Paso de los Libres",
@@ -1081,11 +1081,11 @@
     null,
     null,
     null,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 20 h"
+   "ultimo": "0 mm a las 00 h"
   },
   {
    "localidad": "Caá Catí",
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "18/11/2026, 00:44 h",
+ "consultado": "18/11/2026, 00:55 h",
  "consulta_resultado": "datos nuevos"
 }
