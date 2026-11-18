@@ -959,6 +959,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-18,07,Parque Nacional Iberá,RMA08_PNI - Parque Nacional Iberá,220226,2.8
 2026-11-18,09,Parque Nacional Iberá,RMA08_PNI - Parque Nacional Iberá,220226,0
 2026-11-18,10,Parque Nacional Iberá,RMA08_PNI - Parque Nacional Iberá,220226,0
+2026-11-18,11,Parque Nacional Iberá,RMA08_PNI - Parque Nacional Iberá,220226,0.2
 2026-11-01,23,Mburucuyá,RMA04_PMB - Parque Nacional Mburucuyá,220246,0
 2026-11-02,00,Mburucuyá,RMA04_PMB - Parque Nacional Mburucuyá,220246,0
 2026-11-02,01,Mburucuyá,RMA04_PMB - Parque Nacional Mburucuyá,220246,0
@@ -1280,7 +1281,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-18,08,Bonpland,RMA08_BPL - Bonpland,220261,0.2
 2026-11-18,09,Bonpland,RMA08_BPL - Bonpland,220261,0.4
 2026-11-18,10,Bonpland,RMA08_BPL - Bonpland,220261,0
-2026-11-18,11,Bonpland,RMA08_BPL - Bonpland,220261,0
+2026-11-18,11,Bonpland,RMA08_BPL - Bonpland,220261,0.2
 2026-11-01,23,Bella Vista,RMA08_BVI - Bella Vista,220262,0
 2026-11-02,00,Bella Vista,RMA08_BVI - Bella Vista,220262,0
 2026-11-02,01,Bella Vista,RMA08_BVI - Bella Vista,220262,0
@@ -1441,7 +1442,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-18,08,Bella Vista,RMA08_BVI - Bella Vista,220262,0
 2026-11-18,09,Bella Vista,RMA08_BVI - Bella Vista,220262,0
 2026-11-18,10,Bella Vista,RMA08_BVI - Bella Vista,220262,2
-2026-11-18,11,Bella Vista,RMA08_BVI - Bella Vista,220262,0.2
+2026-11-18,11,Bella Vista,RMA08_BVI - Bella Vista,220262,0.6
 2026-11-01,23,Curuzú Cuatiá,RMA08_CC - Curuzú Cuatiá,220263,0
 2026-11-02,00,Curuzú Cuatiá,RMA08_CC - Curuzú Cuatiá,220263,0
 2026-11-02,01,Curuzú Cuatiá,RMA08_CC - Curuzú Cuatiá,220263,0
@@ -1602,7 +1603,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-18,08,Curuzú Cuatiá,RMA08_CC - Curuzú Cuatiá,220263,0.4
 2026-11-18,09,Curuzú Cuatiá,RMA08_CC - Curuzú Cuatiá,220263,0
 2026-11-18,10,Curuzú Cuatiá,RMA08_CC - Curuzú Cuatiá,220263,0
-2026-11-18,11,Curuzú Cuatiá,RMA08_CC - Curuzú Cuatiá,220263,0
+2026-11-18,11,Curuzú Cuatiá,RMA08_CC - Curuzú Cuatiá,220263,0.2
 2026-11-01,23,La Palmira,Estación La Palmira - Escuela N° 70,283902,0
 2026-11-02,00,La Palmira,Estación La Palmira - Escuela N° 70,283902,0
 2026-11-02,01,La Palmira,Estación La Palmira - Escuela N° 70,283902,0
