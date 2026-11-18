@@ -236,6 +236,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-17,23,Colonia Carlos Pellegrini,Carlos Pellegrini,13826,0
 2026-11-18,03,Colonia Carlos Pellegrini,Carlos Pellegrini,13826,0
 2026-11-18,07,Colonia Carlos Pellegrini,Carlos Pellegrini,13826,1.5
+2026-11-18,11,Colonia Carlos Pellegrini,Carlos Pellegrini,13826,8.25
 2026-11-01,23,San Roquito,San Roquito,13832,0
 2026-11-02,03,San Roquito,San Roquito,13832,0
 2026-11-02,07,San Roquito,San Roquito,13832,0
@@ -475,6 +476,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-17,23,Paso Cerrito,Paso Cerrito,13849,0
 2026-11-18,03,Paso Cerrito,Paso Cerrito,13849,0
 2026-11-18,07,Paso Cerrito,Paso Cerrito,13849,3
+2026-11-18,11,Paso Cerrito,Paso Cerrito,13849,2.25
 2026-11-01,23,Garruchos,Garruchos,13857,0
 2026-11-02,03,Garruchos,Garruchos,13857,0
 2026-11-02,07,Garruchos,Garruchos,13857,0
@@ -1120,7 +1122,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-18,08,Mburucuyá,RMA04_PMB - Parque Nacional Mburucuyá,220246,0
 2026-11-18,09,Mburucuyá,RMA04_PMB - Parque Nacional Mburucuyá,220246,0
 2026-11-18,10,Mburucuyá,RMA04_PMB - Parque Nacional Mburucuyá,220246,1
-2026-11-18,11,Mburucuyá,RMA04_PMB - Parque Nacional Mburucuyá,220246,0
+2026-11-18,11,Mburucuyá,RMA04_PMB - Parque Nacional Mburucuyá,220246,0.2
 2026-11-01,23,Bonpland,RMA08_BPL - Bonpland,220261,0
 2026-11-02,00,Bonpland,RMA08_BPL - Bonpland,220261,0
 2026-11-02,01,Bonpland,RMA08_BPL - Bonpland,220261,0
@@ -1281,7 +1283,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-18,08,Bonpland,RMA08_BPL - Bonpland,220261,0.2
 2026-11-18,09,Bonpland,RMA08_BPL - Bonpland,220261,0.4
 2026-11-18,10,Bonpland,RMA08_BPL - Bonpland,220261,0
-2026-11-18,11,Bonpland,RMA08_BPL - Bonpland,220261,0.2
+2026-11-18,11,Bonpland,RMA08_BPL - Bonpland,220261,0.4
 2026-11-01,23,Bella Vista,RMA08_BVI - Bella Vista,220262,0
 2026-11-02,00,Bella Vista,RMA08_BVI - Bella Vista,220262,0
 2026-11-02,01,Bella Vista,RMA08_BVI - Bella Vista,220262,0
@@ -1905,12 +1907,12 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-17,12,Caá Catí,Predio Ferial Sociedad Rural de Gral. Paz - Caá Catï,283903,0
 2026-11-17,13,Caá Catí,Predio Ferial Sociedad Rural de Gral. Paz - Caá Catï,283903,0
 2026-11-17,14,Caá Catí,Predio Ferial Sociedad Rural de Gral. Paz - Caá Catï,283903,0
-2026-11-17,15,Caá Catí,Predio Ferial Sociedad Rural de Gral. Paz - Caá Catï,283903,0
+2026-11-17,15,Caá Catí,Predio Ferial Sociedad Rural de Gral. Paz - Caá Catï,283903,12
 2026-11-17,16,Caá Catí,Predio Ferial Sociedad Rural de Gral. Paz - Caá Catï,283903,0
 2026-11-17,17,Caá Catí,Predio Ferial Sociedad Rural de Gral. Paz - Caá Catï,283903,0
 2026-11-17,18,Caá Catí,Predio Ferial Sociedad Rural de Gral. Paz - Caá Catï,283903,0
 2026-11-17,19,Caá Catí,Predio Ferial Sociedad Rural de Gral. Paz - Caá Catï,283903,0
-2026-11-17,20,Caá Catí,Predio Ferial Sociedad Rural de Gral. Paz - Caá Catï,283903,0
+2026-11-17,20,Caá Catí,Predio Ferial Sociedad Rural de Gral. Paz - Caá Catï,283903,1
 2026-11-17,21,Caá Catí,Predio Ferial Sociedad Rural de Gral. Paz - Caá Catï,283903,0
 2026-11-17,22,Caá Catí,Predio Ferial Sociedad Rural de Gral. Paz - Caá Catï,283903,0
 2026-11-17,23,Caá Catí,Predio Ferial Sociedad Rural de Gral. Paz - Caá Catï,283903,0
@@ -2286,6 +2288,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-18,09,Corrientes Capital,ICAA,283906,0
 2026-11-18,10,Corrientes Capital,ICAA,283906,6.2
 2026-11-18,11,Corrientes Capital,ICAA,283906,0
+2026-11-18,12,Corrientes Capital,ICAA,283906,1.4
 2026-11-01,23,Santo Tomé,Santo Tomé –Corrientes,283907,0
 2026-11-02,00,Santo Tomé,Santo Tomé –Corrientes,283907,0
 2026-11-02,01,Santo Tomé,Santo Tomé –Corrientes,283907,0

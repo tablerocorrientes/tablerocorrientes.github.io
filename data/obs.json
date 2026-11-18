@@ -13,7 +13,8 @@
   "9": 0,
   "10": 0,
   "11": 6.2,
-  "12": 0
+  "12": 0,
+  "13": 1.4
  },
  "registros_icaa": {
   "0": 0,
@@ -28,7 +29,8 @@
   "9": 0,
   "10": 0,
   "11": 6.2,
-  "12": 0
+  "12": 0,
+  "13": 1.4
  },
  "registros_13805": {
   "0": 0,
@@ -46,10 +48,12 @@
   "12": 0
  },
  "indicador": "compuesto: máximo horario de ICAA y Corrientes 13805",
- "cobertura": {},
- "ultima_hora": 12,
- "mm": 0,
- "estado": "seca",
- "ts": 1795016837084,
+ "cobertura": {
+  "13": "solo ICAA"
+ },
+ "ultima_hora": 13,
+ "mm": 1.4,
+ "estado": "debil",
+ "ts": 1795017790946,
  "fuente": "SNIH, indicador compuesto (máximo horario de ICAA y Corrientes 13805)"
 }

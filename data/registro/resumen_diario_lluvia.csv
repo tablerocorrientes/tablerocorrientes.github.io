@@ -104,7 +104,7 @@ fecha,localidad,pronosticado_mm,llovido_mm,horas_medidas,hora_mas_lluviosa,alert
 2026-11-16,Santo Tomé,,0,24,,amarillo,,
 2026-11-17,Bella Vista,0.6,7.6,24,03 a 04 h,naranja,,si
 2026-11-17,Bonpland,,0.4,24,01 a 02 h,naranja,,
-2026-11-17,Caá Catí,,0,24,,naranja,,
+2026-11-17,Caá Catí,,13,24,15 a 16 h,naranja,,si
 2026-11-17,Colonia Carlos Pellegrini,,23,6,07 a 08 h,naranja,,si
 2026-11-17,Corrientes Capital,17.1,12.85,24,07 a 08 h,rojo,30 a 70,si
 2026-11-17,Curuzú Cuatiá,12.3,1,24,05 a 06 h,naranja,,
@@ -130,10 +130,10 @@ fecha,localidad,pronosticado_mm,llovido_mm,horas_medidas,hora_mas_lluviosa,alert
 2026-11-17,Santa Lucía,,0,24,,naranja,,
 2026-11-17,Santo Tomé,17.2,15.6,24,08 a 09 h,rojo,,si
 2026-11-18,Bella Vista,24.5,7.4,12,05 a 06 h,rojo,70 a 120,si
-2026-11-18,Bonpland,,1.6,12,05 a 06 h,naranja,,
+2026-11-18,Bonpland,,1.8,12,05 a 06 h,naranja,,
 2026-11-18,Caá Catí,,0,12,,naranja,,
-2026-11-18,Colonia Carlos Pellegrini,,1.5,2,07 a 08 h,naranja,,si
-2026-11-18,Corrientes Capital,30.7,6.6,12,10 a 11 h,rojo,70 a 120,si
+2026-11-18,Colonia Carlos Pellegrini,,9.75,3,11 a 12 h,naranja,,si
+2026-11-18,Corrientes Capital,30.7,8,13,10 a 11 h,rojo,70 a 120,si
 2026-11-18,Curuzú Cuatiá,0.9,1.6,12,06 a 07 h,rojo,70 a 120,
 2026-11-18,Esquina,5.6,,,,rojo,70 a 120,
 2026-11-18,Garruchos,,0,2,,naranja,,
@@ -143,11 +143,11 @@ fecha,localidad,pronosticado_mm,llovido_mm,horas_medidas,hora_mas_lluviosa,alert
 2026-11-18,Itá Ibaté,,3.8,12,08 a 09 h,naranja,,si
 2026-11-18,La Cruz,,0.2,12,10 a 11 h,naranja,,
 2026-11-18,La Palmira,,4.4,12,06 a 07 h,naranja,,si
-2026-11-18,Mburucuyá,,20.2,12,06 a 07 h,rojo,70 a 120,si
+2026-11-18,Mburucuyá,,20.4,12,06 a 07 h,rojo,70 a 120,si
 2026-11-18,Mercedes,11.7,0,12,,rojo,70 a 120,
 2026-11-18,Monte Caseros,2.1,,,,rojo,30 a 70,
 2026-11-18,Parque Nacional Iberá,,3.6,11,07 a 08 h,naranja,,si
-2026-11-18,Paso Cerrito,,3,2,07 a 08 h,naranja,,si
+2026-11-18,Paso Cerrito,,5.25,3,07 a 08 h,naranja,,si
 2026-11-18,Paso de los Libres,16,,,,rojo,70 a 120,
 2026-11-18,Portal Galarza,,1.5,2,07 a 08 h,naranja,,si
 2026-11-18,Pueblo Libertador,,1,12,04 a 05 h,naranja,,
