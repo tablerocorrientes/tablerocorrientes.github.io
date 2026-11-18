@@ -130,7 +130,7 @@ fecha,localidad,pronosticado_mm,llovido_mm,horas_medidas,hora_mas_lluviosa,alert
 2026-11-17,Santa Lucía,,0,24,,naranja,,
 2026-11-17,Santo Tomé,17.2,15.6,24,08 a 09 h,rojo,,si
 2026-11-18,Bella Vista,24.5,4.6,6,05 a 06 h,naranja,70 a 120,si
-2026-11-18,Bonpland,,0.2,6,05 a 06 h,naranja,,
+2026-11-18,Bonpland,,0.6,6,05 a 06 h,naranja,,
 2026-11-18,Caá Catí,,0,6,,naranja,,
 2026-11-18,Colonia Carlos Pellegrini,,0,1,,naranja,,
 2026-11-18,Corrientes Capital,30.7,0,6,,naranja,70 a 120,
@@ -142,10 +142,10 @@ fecha,localidad,pronosticado_mm,llovido_mm,horas_medidas,hora_mas_lluviosa,alert
 2026-11-18,Itá Ibaté,,0,6,,naranja,,
 2026-11-18,La Cruz,,0,6,,naranja,,
 2026-11-18,La Palmira,,1.4,6,05 a 06 h,naranja,,si
-2026-11-18,Mburucuyá,,3,6,04 a 05 h,naranja,70 a 120,si
+2026-11-18,Mburucuyá,,3.2,6,04 a 05 h,naranja,70 a 120,si
 2026-11-18,Mercedes,11.7,0,6,,naranja,70 a 120,
 2026-11-18,Monte Caseros,2.1,,,,naranja,30 a 70,
-2026-11-18,Parque Nacional Iberá,,0,5,,naranja,,
+2026-11-18,Parque Nacional Iberá,,0.6,6,05 a 06 h,naranja,,
 2026-11-18,Paso Cerrito,,0,1,,naranja,,
 2026-11-18,Paso de los Libres,16,,,,naranja,70 a 120,
 2026-11-18,Portal Galarza,,0,1,,naranja,,
