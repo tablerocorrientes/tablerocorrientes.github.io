@@ -24,6 +24,11 @@
    "url": "https://api.open-meteo.com/v1/forecast?latitude=-27.47,-29.14,-30.01,-28.51,-29.18,-29.79,-29.71,-28.55,-28.05,-27.59,-30.25,-28.25&longitude=-58.83,-59.26,-59.53,-59.04,-58.08,-58.05,-57.09,-56.04,-56.03,-56.69,-57.64,-58.63&hourly=precipitation&timezone=America/Argentina/Buenos_Aires&forecast_days=2&models=best_match",
    "desde": "18/11/2026, 05:16 h",
    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "url": "https://www.radiodos.com.ar/217211-comenzo-el-temporal-de-viento-y-lluvia-en-corrientes-y-pronostican-alerta-durante-toda-la-jornada",
+   "desde": "18/11/2026, 07:11 h",
+   "error": "HTTP Error 429: Too Many Requests"
   }
  ]
 }
