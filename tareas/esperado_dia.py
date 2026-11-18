@@ -94,6 +94,22 @@ def registrar_alertas(reg, P, hoy):
     return nuevo
 
 
+def archivar(reg):
+    """Guarda el día en el archivo permanente data/bitacora/AAAA-MM.json (no se recorta nunca)."""
+    f = reg.get('fecha')
+    if not f:
+        return
+    os.makedirs('data/bitacora', exist_ok=True)
+    ruta = 'data/bitacora/%s.json' % f[:7]
+    try:
+        A = json.load(open(ruta, encoding='utf-8'))
+    except Exception:
+        A = {'descripcion': 'Bitácora permanente del Tablero Ciudadano: por día, lluvia pronosticada al comenzar el día, lluvia medida hora por hora por localidad y alertas que cubrieron el día. Se conserva desde el primer registro hasta el final de El Niño.', 'dias': {}}
+    A['dias'][f] = {k: reg.get(k) for k in ('fecha', 'pronostico_de', 'ciudades', 'horario_capital', 'observado', 'alertas_del_dia') if reg.get(k) is not None}
+    A['dias'] = dict(sorted(A['dias'].items()))
+    json.dump(A, open(ruta, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+
+
 def main():
     ahora = datetime.now(ART)
     hoy = ahora.strftime('%Y-%m-%d')
@@ -108,10 +124,13 @@ def main():
     OBS = observado_por_dia()
     for hreg in (prev.get('historial') or [])[-3:]:
         sumar_observado(hreg, OBS)
+        archivar(hreg)
     if prev.get('fecha') == hoy:
         # mismo día: se suman las alertas nuevas que cubren el día y la lluvia medida
         a1 = registrar_alertas(prev, P, hoy)
-        if sumar_observado(prev, OBS) or a1 or True:
+        sumar_observado(prev, OBS)
+        archivar(prev)
+        if True:
             json.dump(prev, open(SALIDA, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
             print('Esperado del día: alertas y lluvia medida actualizadas')
         else:
@@ -151,6 +170,7 @@ def main():
     hist = prev.get('historial', [])
     if prev.get('fecha'):
         sumar_observado(prev, OBS)
+        archivar(prev)
         hist.append({k: prev.get(k) for k in ('fecha', 'pronostico_de', 'ciudades', 'alertas', 'alertas_del_dia', 'observado', 'horario_capital')})
     nuevo_reg = {
         'fecha': hoy,
@@ -159,12 +179,13 @@ def main():
         'explicacion': 'Lluvia esperada para el día según el pronóstico vigente al comenzar el día, y alertas que lo cubrían. No se modifica durante el día.',
         'ciudades': ciudades,
         'alertas': alertas,
-        'historial': hist[-45:],
+        'historial': hist[-21:],  # la página usa los últimos días; el registro completo está en data/bitacora/
     }
     if hc:
         nuevo_reg['horario_capital'] = [round(float(x or 0), 2) for x in hc]
     sumar_observado(nuevo_reg, OBS)
     registrar_alertas(nuevo_reg, P, hoy)
+    archivar(nuevo_reg)
     json.dump(nuevo_reg, open(SALIDA, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     print('Esperado del día registrado: ' + hoy + ' (Capital: %s mm)' % ciudades.get('Corrientes Capital'))
 
