@@ -394,7 +394,7 @@ function obsActiva(){var o=OBS,ok=!!(o&&o.ts);if(ok){var age=(Date.now()-o.ts)/3
   if(M&&(!ok||o.estado==='seca'||!(+o.mm>0)))return {estado:'lluvia',mm:null,manual:true,desde:Date.parse(M.desde),ts:Date.now()};
   return ok?o:null;}
 function base(k){var r=(D.dias[k]||new Array(24).fill(0)).slice(), o=OBS;
-  if(o&&o.dia===k&&o.registros&&!stale){Object.keys(o.registros).forEach(function(h){var v=o.registros[h];if(v!=null&&+h<=HNOW)r[+h]=+v;});}
+  if(o&&o.dia===k&&o.registros&&!stale){Object.keys(o.registros).forEach(function(h){var v=o.registros[h],hh=+h-1;/* el dato de las h es la lluvia entre h-1 y h */if(v!=null&&hh>=0&&hh<HNOW)r[hh]=+v;});}
   var a=obsActiva();
   if(a&&k===K0&&!stale){var v=a.mm!=null?+a.mm:(a.estado==='seca'?0:(INT[a.estado]||2));
     if(v<=0){r[HNOW]=0;} else {for(var j=HNOW;j<=Math.min(23,HNOW+1);j++)r[j]=Math.max(r[j],v);}}
@@ -600,7 +600,7 @@ function render(){
     vd=(i===0&&!stale?'Por el resto del día no se pronostica lluvia significativa':'No se pronostica lluvia significativa')+' para '+bn+'. ';
     vd+='Próxima lluvia: <b>'+cuando(proxima(i?K1:K0,i?0:(stale?0:HNOW)))+'</b>.';
   } else {
-    vd='Se esperan <b>'+nf(d.tot)+' mm</b>'+(i===0&&!stale?' desde ahora':'')+', entre las '+d.first+' y las '+(d.last+1)+' h, con un pico de '+nf(d.pk,1)+' mm por hora a las '+d.ph+' h. ';
+    var totTx=(i===0&&!stale&&d.r)?Math.max(0,d.tot-(+d.r[HNOW]||0)*new Date().getMinutes()/60):d.tot;vd='Se esperan <b>'+nf(totTx)+' mm</b>'+(i===0&&!stale?' desde ahora':'')+', entre las '+d.first+' y las '+(d.last+1)+' h, con un pico de '+nf(d.pk,1)+' mm por hora a las '+d.ph+' h. ';
     vd+= n===0?(cm>=0.3?'Quedaría menos de 1 cm, que el desagüe alcanza a evacuar.':'El desagüe alcanza a sacarla.'):'Con este pronóstico quedarían unos <b>'+nf(cm,1)+' cm</b> de agua en '+bn+(d.at>=0?' hacia las '+d.at+' h':'')+'.';
     if(n<3){var falta=(LIM-d.S)/d.C; vf='Para que el agua '+LIMT+' tendrían que caer unos <b>'+nf(Math.max(5,falta))+' mm más</b> de lo pronosticado.';
       var net=d.C*d.pk+R.back-R.capR; if(net>0&&d.pk>=2) {var hh=(LIM-d.S)/net; vf+=' Si la lluvia se sostuviera al ritmo de su pico, llegaría '+(hh<1.5?'en alrededor de una hora.':'en unas '+nf(hh)+' horas.');}}
@@ -713,7 +713,7 @@ function tcCons(consultado,actualizado){var c=tcPd(consultado),u=tcPd(actualizad
   var pd=function(d){return kd(d)===hoyK?'':kd(d)===manK?'mañana ':DS[d.getDay()]+' ';};
   var fa=function(a){var d=a.desde_iso?new Date(a.desde_iso):null,f=a.hasta_iso?new Date(a.hasta_iso):null;return '<span class="kh-al" style="background:'+(C[a.nivel]||C.amarillo)+';color:'+(a.nivel==='amarillo'?'#2b2300':'#fff')+'">'+(N[a.nivel]||a.nivel)+'</span> '+(d&&f?(d<=now?'hasta '+pd(f)+hh(f):pd(d)+'de '+hh(d)+' a '+hh(f)):'');};
   var t3=(vig.length?'<div class="kh-v" style="color:'+(C[vig[0].nivel]||C.amarillo)+'">'+vig.length+' vigente'+(vig.length>1?'s':'')+'</div><div class="kh-s">'+vig.map(fa).join('<br>')+'</div>':'<div class="kh-v" style="color:var(--ok)">Sin alertas</div>')+(pro.length?'<div class="kh-s"><b>Próximas:</b><br>'+pro.map(fa).join('<br>')+'</div>':'');
-  var H=PF.horario_capital||{},hoyH=H[hoyK]||[],resto=0,manH=H[manK]||[],mt=0,pico=[];for(var i=now.getHours()+1;i<24;i++)resto+=+hoyH[i]||0;manH.forEach(function(v){mt+=+v||0;});
+  var H=PF.horario_capital||{},hoyH=H[hoyK]||[],resto=0,manH=H[manK]||[],mt=0,pico=[];for(var i=now.getHours()+1;i<24;i++)resto+=+hoyH[i]||0;resto+=(+hoyH[now.getHours()]||0)*(1-now.getMinutes()/60);manH.forEach(function(v){mt+=+v||0;});
   var mx=Math.max.apply(null,manH.concat([0]));manH.forEach(function(v,i){if(v>=Math.max(0.5,mx*0.4))pico.push(i);});
   var EX=(PF.extendido&&PF.extendido.ciudades&&PF.extendido.ciudades['Corrientes Capital'])||{},dM=(EX.dias||[]).filter(function(x){return x.fecha===manK;})[0],dH=(EX.dias||[]).filter(function(x){return x.fecha===hoyK;})[0];
   var t4=(resto<0.5&&vig.length?'<div class="kh-v kh-p" style="font-size:1.2rem">🌦️ Tiempo inestable</div><div class="kh-s">Se alternarán lluvias intermitentes o lloviznas con momentos sin lluvia, según la alerta oficial vigente. Los modelos no cuantifican estas lluvias.':'<div class="kh-v kh-p">'+f1(resto)+' mm</div><div class="kh-s">'+(resto<0.5?'Los modelos no prevén más lluvia hasta la medianoche.':'Lluvia prevista desde ahora hasta la medianoche.'))+(dH?' '+dH.resumen+'.':'')+'</div>';
