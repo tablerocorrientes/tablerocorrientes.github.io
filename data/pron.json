@@ -540,7 +540,7 @@
  "consultado": "18/11/2026, 05:21 h",
  "consulta_resultado": "datos nuevos",
  "extendido": {
-  "actualizado": "18/11/2026, 04:24 h",
+  "actualizado": "18/11/2026, 05:32 h",
   "aviso": "Pronóstico extendido informativo. No se usa en los cálculos del simulador.",
   "ciudades": {
    "Corrientes Capital": {
@@ -602,29 +602,29 @@
    "Goya": {
     "fuente": "Modelo Open-Meteo (estimación de modelo, no es el pronóstico oficial del SMN)",
     "url": "https://open-meteo.com",
-    "emision": "18/11/2026, 04:24 h",
+    "emision": "18/11/2026, 05:32 h",
     "dias": [
      {
       "fecha": "2026-11-19",
-      "resumen": "Tormentas",
+      "resumen": "Nublado",
       "prob": 31,
-      "mm": 1.1,
-      "tmin": 18,
-      "tmax": 30
-     },
-     {
-      "fecha": "2026-11-20",
-      "resumen": "Chaparrones",
-      "prob": 63,
-      "mm": 3.4,
+      "mm": 0.0,
       "tmin": 20,
       "tmax": 30
      },
      {
+      "fecha": "2026-11-20",
+      "resumen": "Llovizna débil",
+      "prob": 63,
+      "mm": 0.1,
+      "tmin": 21,
+      "tmax": 30
+     },
+     {
       "fecha": "2026-11-21",
-      "resumen": "Nublado",
+      "resumen": "Llovizna débil",
       "prob": 17,
-      "mm": 0.0,
+      "mm": 1.5,
       "tmin": 20,
       "tmax": 32
      },
@@ -634,14 +634,14 @@
       "prob": 29,
       "mm": 0.0,
       "tmin": 20,
-      "tmax": 28
+      "tmax": 27
      },
      {
       "fecha": "2026-11-23",
-      "resumen": "Mayormente despejado",
+      "resumen": "Llovizna débil",
       "prob": 17,
-      "mm": 0.0,
-      "tmin": 18,
+      "mm": 0.9,
+      "tmin": 19,
       "tmax": 29
      },
      {
@@ -649,38 +649,38 @@
       "resumen": "Nublado",
       "prob": 16,
       "mm": 0.0,
-      "tmin": 21,
-      "tmax": 31
+      "tmin": 19,
+      "tmax": 32
      },
      {
       "fecha": "2026-11-25",
       "resumen": "Nublado",
       "prob": 5,
       "mm": 0.0,
-      "tmin": 18,
-      "tmax": 28
+      "tmin": 17,
+      "tmax": 27
      }
     ]
    },
    "Esquina": {
     "fuente": "Modelo Open-Meteo (estimación de modelo, no es el pronóstico oficial del SMN)",
     "url": "https://open-meteo.com",
-    "emision": "18/11/2026, 04:24 h",
+    "emision": "18/11/2026, 05:32 h",
     "dias": [
      {
       "fecha": "2026-11-19",
-      "resumen": "Nublado",
+      "resumen": "Llovizna débil",
       "prob": 37,
-      "mm": 0.0,
+      "mm": 0.1,
       "tmin": 19,
-      "tmax": 28
+      "tmax": 30
      },
      {
       "fecha": "2026-11-20",
-      "resumen": "Llovizna",
+      "resumen": "Nublado",
       "prob": 45,
-      "mm": 1.1,
-      "tmin": 19,
+      "mm": 0.0,
+      "tmin": 21,
       "tmax": 30
      },
      {
@@ -693,34 +693,34 @@
      },
      {
       "fecha": "2026-11-22",
-      "resumen": "Nublado",
+      "resumen": "Parcialmente nublado",
       "prob": 24,
       "mm": 0.0,
       "tmin": 19,
-      "tmax": 26
-     },
-     {
-      "fecha": "2026-11-23",
-      "resumen": "Llovizna débil",
-      "prob": 12,
-      "mm": 2.4,
-      "tmin": 17,
       "tmax": 28
      },
      {
-      "fecha": "2026-11-24",
+      "fecha": "2026-11-23",
       "resumen": "Nublado",
       "prob": 12,
       "mm": 0.0,
       "tmin": 19,
-      "tmax": 28
+      "tmax": 29
+     },
+     {
+      "fecha": "2026-11-24",
+      "resumen": "Llovizna débil",
+      "prob": 12,
+      "mm": 0.2,
+      "tmin": 19,
+      "tmax": 30
      },
      {
       "fecha": "2026-11-25",
-      "resumen": "Nublado",
+      "resumen": "Llovizna débil",
       "prob": 1,
-      "mm": 0.0,
-      "tmin": 17,
+      "mm": 0.4,
+      "tmin": 16,
       "tmax": 26
      }
     ]
@@ -728,109 +728,109 @@
    "Bella Vista": {
     "fuente": "Modelo Open-Meteo (estimación de modelo, no es el pronóstico oficial del SMN)",
     "url": "https://open-meteo.com",
-    "emision": "18/11/2026, 04:24 h",
+    "emision": "18/11/2026, 05:32 h",
     "dias": [
      {
       "fecha": "2026-11-19",
       "resumen": "Nublado",
       "prob": 23,
       "mm": 0.0,
-      "tmin": 17,
-      "tmax": 29
-     },
-     {
-      "fecha": "2026-11-20",
-      "resumen": "Chaparrones",
-      "prob": 59,
-      "mm": 7.2,
-      "tmin": 20,
+      "tmin": 19,
       "tmax": 30
      },
      {
+      "fecha": "2026-11-20",
+      "resumen": "Llovizna",
+      "prob": 59,
+      "mm": 0.9,
+      "tmin": 21,
+      "tmax": 28
+     },
+     {
       "fecha": "2026-11-21",
-      "resumen": "Nublado",
+      "resumen": "Llovizna",
       "prob": 20,
-      "mm": 0.0,
+      "mm": 3.9,
       "tmin": 20,
-      "tmax": 32
+      "tmax": 31
      },
      {
       "fecha": "2026-11-22",
-      "resumen": "Nublado",
+      "resumen": "Llovizna débil",
       "prob": 43,
-      "mm": 0.0,
+      "mm": 0.1,
       "tmin": 21,
       "tmax": 28
      },
      {
       "fecha": "2026-11-23",
-      "resumen": "Nublado",
+      "resumen": "Llovizna débil",
       "prob": 18,
+      "mm": 0.6,
+      "tmin": 19,
+      "tmax": 28
+     },
+     {
+      "fecha": "2026-11-24",
+      "resumen": "Parcialmente nublado",
+      "prob": 21,
       "mm": 0.0,
       "tmin": 18,
       "tmax": 29
      },
      {
-      "fecha": "2026-11-24",
-      "resumen": "Llovizna débil",
-      "prob": 21,
-      "mm": 0.6,
-      "tmin": 20,
-      "tmax": 29
-     },
-     {
       "fecha": "2026-11-25",
-      "resumen": "Nublado",
+      "resumen": "Llovizna débil",
       "prob": 7,
-      "mm": 0.0,
+      "mm": 0.6,
       "tmin": 16,
-      "tmax": 27
+      "tmax": 26
      }
     ]
    },
    "Mercedes": {
     "fuente": "Modelo Open-Meteo (estimación de modelo, no es el pronóstico oficial del SMN)",
     "url": "https://open-meteo.com",
-    "emision": "18/11/2026, 04:24 h",
+    "emision": "18/11/2026, 05:32 h",
     "dias": [
      {
       "fecha": "2026-11-19",
-      "resumen": "Chaparrones",
+      "resumen": "Nublado",
       "prob": 34,
-      "mm": 1.6,
-      "tmin": 16,
-      "tmax": 29
+      "mm": 0.0,
+      "tmin": 18,
+      "tmax": 30
      },
      {
       "fecha": "2026-11-20",
-      "resumen": "Llovizna",
+      "resumen": "Tormentas",
       "prob": 63,
-      "mm": 1.3,
-      "tmin": 19,
+      "mm": 3.5,
+      "tmin": 20,
       "tmax": 29
      },
      {
       "fecha": "2026-11-21",
       "resumen": "Llovizna",
       "prob": 27,
-      "mm": 2.8,
+      "mm": 2.9,
       "tmin": 19,
-      "tmax": 32
+      "tmax": 31
      },
      {
       "fecha": "2026-11-22",
-      "resumen": "Llovizna",
+      "resumen": "Llovizna débil",
       "prob": 35,
-      "mm": 0.5,
-      "tmin": 18,
-      "tmax": 26
+      "mm": 0.1,
+      "tmin": 19,
+      "tmax": 25
      },
      {
       "fecha": "2026-11-23",
       "resumen": "Nublado",
       "prob": 16,
       "mm": 0.0,
-      "tmin": 17,
+      "tmin": 18,
       "tmax": 28
      },
      {
@@ -839,7 +839,7 @@
       "prob": 11,
       "mm": 0.0,
       "tmin": 18,
-      "tmax": 29
+      "tmax": 30
      },
      {
       "fecha": "2026-11-25",
@@ -847,36 +847,36 @@
       "prob": 5,
       "mm": 0.0,
       "tmin": 15,
-      "tmax": 26
+      "tmax": 25
      }
     ]
    },
    "Curuzú Cuatiá": {
     "fuente": "Modelo Open-Meteo (estimación de modelo, no es el pronóstico oficial del SMN)",
     "url": "https://open-meteo.com",
-    "emision": "18/11/2026, 04:24 h",
+    "emision": "18/11/2026, 05:32 h",
     "dias": [
      {
       "fecha": "2026-11-19",
       "resumen": "Llovizna débil",
       "prob": 30,
-      "mm": 0.1,
-      "tmin": 17,
+      "mm": 0.3,
+      "tmin": 18,
       "tmax": 30
      },
      {
       "fecha": "2026-11-20",
-      "resumen": "Llovizna débil",
+      "resumen": "Llovizna",
       "prob": 53,
-      "mm": 0.2,
+      "mm": 0.5,
       "tmin": 19,
-      "tmax": 31
+      "tmax": 30
      },
      {
       "fecha": "2026-11-21",
-      "resumen": "Llovizna débil",
+      "resumen": "Chaparrones",
       "prob": 28,
-      "mm": 0.7,
+      "mm": 5.3,
       "tmin": 19,
       "tmax": 32
      },
@@ -884,88 +884,88 @@
       "fecha": "2026-11-22",
       "resumen": "Llovizna débil",
       "prob": 31,
-      "mm": 0.5,
+      "mm": 0.1,
       "tmin": 18,
-      "tmax": 26
+      "tmax": 27
      },
      {
       "fecha": "2026-11-23",
-      "resumen": "Parcialmente nublado",
+      "resumen": "Nublado",
       "prob": 14,
       "mm": 0.0,
-      "tmin": 16,
+      "tmin": 18,
       "tmax": 28
      },
      {
       "fecha": "2026-11-24",
-      "resumen": "Parcialmente nublado",
+      "resumen": "Nublado",
       "prob": 20,
       "mm": 0.0,
-      "tmin": 19,
-      "tmax": 30
+      "tmin": 18,
+      "tmax": 31
      },
      {
       "fecha": "2026-11-25",
       "resumen": "Nublado",
       "prob": 2,
       "mm": 0.0,
-      "tmin": 16,
-      "tmax": 27
+      "tmin": 15,
+      "tmax": 26
      }
     ]
    },
    "Paso de los Libres": {
     "fuente": "Modelo Open-Meteo (estimación de modelo, no es el pronóstico oficial del SMN)",
     "url": "https://open-meteo.com",
-    "emision": "18/11/2026, 04:24 h",
+    "emision": "18/11/2026, 05:32 h",
     "dias": [
      {
       "fecha": "2026-11-19",
-      "resumen": "Llovizna",
+      "resumen": "Niebla",
       "prob": 29,
-      "mm": 1.1,
-      "tmin": 18,
+      "mm": 0.0,
+      "tmin": 19,
       "tmax": 30
      },
      {
       "fecha": "2026-11-20",
-      "resumen": "Llovizna",
+      "resumen": "Llovizna débil",
       "prob": 43,
-      "mm": 0.9,
-      "tmin": 19,
-      "tmax": 31
+      "mm": 0.6,
+      "tmin": 20,
+      "tmax": 30
      },
      {
       "fecha": "2026-11-21",
-      "resumen": "Llovizna",
+      "resumen": "Tormentas",
       "prob": 31,
-      "mm": 2.0,
-      "tmin": 19,
+      "mm": 6.6,
+      "tmin": 20,
       "tmax": 32
      },
      {
       "fecha": "2026-11-22",
       "resumen": "Llovizna débil",
       "prob": 39,
-      "mm": 0.4,
+      "mm": 0.3,
       "tmin": 19,
-      "tmax": 26
+      "tmax": 27
      },
      {
       "fecha": "2026-11-23",
-      "resumen": "Parcialmente nublado",
+      "resumen": "Nublado",
       "prob": 16,
       "mm": 0.0,
-      "tmin": 17,
+      "tmin": 18,
       "tmax": 28
      },
      {
       "fecha": "2026-11-24",
-      "resumen": "Nublado",
+      "resumen": "Parcialmente nublado",
       "prob": 12,
       "mm": 0.0,
-      "tmin": 19,
-      "tmax": 29
+      "tmin": 18,
+      "tmax": 30
      },
      {
       "fecha": "2026-11-25",
@@ -973,154 +973,154 @@
       "prob": 4,
       "mm": 0.0,
       "tmin": 16,
-      "tmax": 26
+      "tmax": 25
      }
     ]
    },
    "Santo Tomé": {
     "fuente": "Modelo Open-Meteo (estimación de modelo, no es el pronóstico oficial del SMN)",
     "url": "https://open-meteo.com",
-    "emision": "18/11/2026, 04:24 h",
+    "emision": "18/11/2026, 05:32 h",
     "dias": [
      {
       "fecha": "2026-11-19",
-      "resumen": "Llovizna",
+      "resumen": "Llovizna intensa",
       "prob": 40,
-      "mm": 1.0,
-      "tmin": 19,
-      "tmax": 30
-     },
-     {
-      "fecha": "2026-11-20",
-      "resumen": "Tormentas",
-      "prob": 74,
-      "mm": 7.3,
-      "tmin": 20,
-      "tmax": 30
-     },
-     {
-      "fecha": "2026-11-21",
-      "resumen": "Tormentas",
-      "prob": 45,
-      "mm": 15.3,
-      "tmin": 21,
-      "tmax": 33
-     },
-     {
-      "fecha": "2026-11-22",
-      "resumen": "Tormentas",
-      "prob": 65,
-      "mm": 10.2,
-      "tmin": 22,
-      "tmax": 29
-     },
-     {
-      "fecha": "2026-11-23",
-      "resumen": "Mayormente despejado",
-      "prob": 22,
-      "mm": 0.0,
-      "tmin": 19,
-      "tmax": 29
-     },
-     {
-      "fecha": "2026-11-24",
-      "resumen": "Llovizna débil",
-      "prob": 39,
-      "mm": 2.4,
-      "tmin": 19,
-      "tmax": 30
-     },
-     {
-      "fecha": "2026-11-25",
-      "resumen": "Parcialmente nublado",
-      "prob": 14,
-      "mm": 0.0,
-      "tmin": 17,
-      "tmax": 28
-     }
-    ]
-   },
-   "Gobernador Virasoro": {
-    "fuente": "Modelo Open-Meteo (estimación de modelo, no es el pronóstico oficial del SMN)",
-    "url": "https://open-meteo.com",
-    "emision": "18/11/2026, 04:24 h",
-    "dias": [
-     {
-      "fecha": "2026-11-19",
-      "resumen": "Llovizna",
-      "prob": 44,
-      "mm": 3.3,
+      "mm": 2.5,
       "tmin": 20,
       "tmax": 31
      },
      {
       "fecha": "2026-11-20",
       "resumen": "Tormentas",
-      "prob": 84,
-      "mm": 10.6,
+      "prob": 74,
+      "mm": 32.8,
       "tmin": 20,
-      "tmax": 30
+      "tmax": 29
      },
      {
       "fecha": "2026-11-21",
       "resumen": "Tormentas con granizo",
-      "prob": 47,
-      "mm": 7.2,
+      "prob": 45,
+      "mm": 12.6,
       "tmin": 21,
       "tmax": 32
      },
      {
       "fecha": "2026-11-22",
-      "resumen": "Tormentas con granizo",
-      "prob": 71,
-      "mm": 13.5,
+      "resumen": "Tormentas",
+      "prob": 65,
+      "mm": 7.5,
       "tmin": 22,
+      "tmax": 28
+     },
+     {
+      "fecha": "2026-11-23",
+      "resumen": "Nublado",
+      "prob": 22,
+      "mm": 0.0,
+      "tmin": 19,
+      "tmax": 28
+     },
+     {
+      "fecha": "2026-11-24",
+      "resumen": "Llovizna",
+      "prob": 39,
+      "mm": 4.8,
+      "tmin": 20,
       "tmax": 29
+     },
+     {
+      "fecha": "2026-11-25",
+      "resumen": "Nublado",
+      "prob": 14,
+      "mm": 0.0,
+      "tmin": 17,
+      "tmax": 26
+     }
+    ]
+   },
+   "Gobernador Virasoro": {
+    "fuente": "Modelo Open-Meteo (estimación de modelo, no es el pronóstico oficial del SMN)",
+    "url": "https://open-meteo.com",
+    "emision": "18/11/2026, 05:32 h",
+    "dias": [
+     {
+      "fecha": "2026-11-19",
+      "resumen": "Llovizna débil",
+      "prob": 44,
+      "mm": 2.0,
+      "tmin": 20,
+      "tmax": 30
+     },
+     {
+      "fecha": "2026-11-20",
+      "resumen": "Tormentas con granizo",
+      "prob": 84,
+      "mm": 33.8,
+      "tmin": 20,
+      "tmax": 28
+     },
+     {
+      "fecha": "2026-11-21",
+      "resumen": "Chaparrones",
+      "prob": 47,
+      "mm": 6.6,
+      "tmin": 21,
+      "tmax": 31
+     },
+     {
+      "fecha": "2026-11-22",
+      "resumen": "Tormentas",
+      "prob": 71,
+      "mm": 25.5,
+      "tmin": 21,
+      "tmax": 28
      },
      {
       "fecha": "2026-11-23",
       "resumen": "Llovizna débil",
       "prob": 25,
-      "mm": 0.6,
-      "tmin": 18,
-      "tmax": 30
+      "mm": 0.1,
+      "tmin": 19,
+      "tmax": 28
      },
      {
       "fecha": "2026-11-24",
-      "resumen": "Llovizna débil",
+      "resumen": "Tormentas",
       "prob": 39,
-      "mm": 0.6,
-      "tmin": 19,
-      "tmax": 30
+      "mm": 24.6,
+      "tmin": 20,
+      "tmax": 29
      },
      {
       "fecha": "2026-11-25",
-      "resumen": "Despejado",
+      "resumen": "Nublado",
       "prob": 30,
       "mm": 0.0,
-      "tmin": 16,
-      "tmax": 28
+      "tmin": 17,
+      "tmax": 26
      }
     ]
    },
    "Ituzaingó": {
     "fuente": "Modelo Open-Meteo (estimación de modelo, no es el pronóstico oficial del SMN)",
     "url": "https://open-meteo.com",
-    "emision": "18/11/2026, 04:24 h",
+    "emision": "18/11/2026, 05:32 h",
     "dias": [
      {
       "fecha": "2026-11-19",
-      "resumen": "Tormentas",
+      "resumen": "Tormentas con granizo",
       "prob": 37,
-      "mm": 1.5,
+      "mm": 6.0,
       "tmin": 20,
-      "tmax": 29
+      "tmax": 31
      },
      {
       "fecha": "2026-11-20",
-      "resumen": "Tormentas",
+      "resumen": "Tormentas con granizo",
       "prob": 90,
-      "mm": 17.4,
+      "mm": 30.4,
       "tmin": 21,
       "tmax": 27
      },
@@ -1128,167 +1128,167 @@
       "fecha": "2026-11-21",
       "resumen": "Tormentas",
       "prob": 45,
-      "mm": 2.4,
+      "mm": 14.3,
       "tmin": 22,
-      "tmax": 31
+      "tmax": 30
      },
      {
       "fecha": "2026-11-22",
       "resumen": "Tormentas",
       "prob": 84,
-      "mm": 17.7,
+      "mm": 22.3,
       "tmin": 22,
-      "tmax": 30
+      "tmax": 29
      },
      {
       "fecha": "2026-11-23",
       "resumen": "Nublado",
       "prob": 33,
       "mm": 0.0,
-      "tmin": 19,
-      "tmax": 30
+      "tmin": 20,
+      "tmax": 29
      },
      {
       "fecha": "2026-11-24",
-      "resumen": "Llovizna débil",
+      "resumen": "Chaparrones",
       "prob": 49,
-      "mm": 1.2,
-      "tmin": 20,
-      "tmax": 30
+      "mm": 12.8,
+      "tmin": 21,
+      "tmax": 29
      },
      {
       "fecha": "2026-11-25",
-      "resumen": "Mayormente despejado",
+      "resumen": "Llovizna débil",
       "prob": 30,
-      "mm": 0.0,
+      "mm": 0.4,
       "tmin": 17,
-      "tmax": 29
+      "tmax": 26
      }
     ]
    },
    "Monte Caseros": {
     "fuente": "Modelo Open-Meteo (estimación de modelo, no es el pronóstico oficial del SMN)",
     "url": "https://open-meteo.com",
-    "emision": "18/11/2026, 04:24 h",
+    "emision": "18/11/2026, 05:32 h",
     "dias": [
      {
       "fecha": "2026-11-19",
-      "resumen": "Llovizna débil",
+      "resumen": "Chaparrones",
       "prob": 29,
-      "mm": 0.1,
+      "mm": 1.5,
       "tmin": 19,
-      "tmax": 28
+      "tmax": 29
      },
      {
       "fecha": "2026-11-20",
-      "resumen": "Nublado",
+      "resumen": "Chaparrones",
       "prob": 31,
-      "mm": 0.0,
+      "mm": 2.8,
       "tmin": 19,
       "tmax": 30
      },
      {
       "fecha": "2026-11-21",
-      "resumen": "Nublado",
+      "resumen": "Llovizna",
       "prob": 25,
-      "mm": 0.0,
+      "mm": 3.9,
       "tmin": 19,
-      "tmax": 31
+      "tmax": 32
      },
      {
       "fecha": "2026-11-22",
-      "resumen": "Llovizna débil",
+      "resumen": "Nublado",
       "prob": 26,
-      "mm": 1.2,
-      "tmin": 18,
-      "tmax": 26
+      "mm": 0.0,
+      "tmin": 19,
+      "tmax": 27
      },
      {
       "fecha": "2026-11-23",
-      "resumen": "Llovizna débil",
+      "resumen": "Nublado",
       "prob": 16,
-      "mm": 0.2,
-      "tmin": 17,
+      "mm": 0.0,
+      "tmin": 18,
       "tmax": 28
      },
      {
       "fecha": "2026-11-24",
-      "resumen": "Llovizna débil",
+      "resumen": "Mayormente despejado",
       "prob": 10,
-      "mm": 0.4,
-      "tmin": 19,
-      "tmax": 28
+      "mm": 0.0,
+      "tmin": 18,
+      "tmax": 30
      },
      {
       "fecha": "2026-11-25",
-      "resumen": "Nublado",
+      "resumen": "Mayormente despejado",
       "prob": 3,
       "mm": 0.0,
-      "tmin": 16,
-      "tmax": 26
+      "tmin": 15,
+      "tmax": 25
      }
     ]
    },
    "Saladas": {
     "fuente": "Modelo Open-Meteo (estimación de modelo, no es el pronóstico oficial del SMN)",
     "url": "https://open-meteo.com",
-    "emision": "18/11/2026, 04:24 h",
+    "emision": "18/11/2026, 05:32 h",
     "dias": [
      {
       "fecha": "2026-11-19",
-      "resumen": "Nublado",
+      "resumen": "Niebla",
       "prob": 24,
       "mm": 0.0,
-      "tmin": 17,
-      "tmax": 29
-     },
-     {
-      "fecha": "2026-11-20",
-      "resumen": "Llovizna",
-      "prob": 63,
-      "mm": 2.3,
-      "tmin": 20,
+      "tmin": 18,
       "tmax": 30
      },
      {
-      "fecha": "2026-11-21",
+      "fecha": "2026-11-20",
       "resumen": "Llovizna débil",
-      "prob": 26,
-      "mm": 0.6,
-      "tmin": 20,
-      "tmax": 32
-     },
-     {
-      "fecha": "2026-11-22",
-      "resumen": "Llovizna débil",
-      "prob": 46,
-      "mm": 0.6,
+      "prob": 63,
+      "mm": 1.8,
       "tmin": 22,
       "tmax": 28
      },
      {
+      "fecha": "2026-11-21",
+      "resumen": "Tormentas",
+      "prob": 26,
+      "mm": 6.6,
+      "tmin": 20,
+      "tmax": 31
+     },
+     {
+      "fecha": "2026-11-22",
+      "resumen": "Tormentas",
+      "prob": 46,
+      "mm": 4.8,
+      "tmin": 20,
+      "tmax": 28
+     },
+     {
       "fecha": "2026-11-23",
-      "resumen": "Nublado",
+      "resumen": "Llovizna débil",
       "prob": 21,
+      "mm": 0.3,
+      "tmin": 19,
+      "tmax": 28
+     },
+     {
+      "fecha": "2026-11-24",
+      "resumen": "Mayormente despejado",
+      "prob": 33,
       "mm": 0.0,
       "tmin": 19,
       "tmax": 29
      },
      {
-      "fecha": "2026-11-24",
-      "resumen": "Llovizna débil",
-      "prob": 33,
-      "mm": 1.2,
-      "tmin": 19,
-      "tmax": 28
-     },
-     {
       "fecha": "2026-11-25",
-      "resumen": "Despejado",
+      "resumen": "Nublado",
       "prob": 8,
       "mm": 0.0,
       "tmin": 16,
-      "tmax": 28
+      "tmax": 26
      }
     ]
    }

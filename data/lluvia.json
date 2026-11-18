@@ -1,5 +1,5 @@
 {
- "actualizado": "18/11/2026, 05:13 h",
+ "actualizado": "18/11/2026, 05:29 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
@@ -231,11 +231,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 04 h"
+   "ultimo": "0 mm a las 05 h"
   },
   {
    "localidad": "La Palmira",
@@ -706,12 +706,12 @@
     null,
     null,
     null,
-    null,
+    0,
     null,
     null
    ],
    "total": 21.5,
-   "ultimo": "0 mm a las 00 h"
+   "ultimo": "0 mm a las 04 h"
   },
   {
    "localidad": "Los Laureles",
@@ -876,12 +876,12 @@
     null,
     null,
     null,
-    null,
+    0,
     null,
     null
    ],
    "total": 5.0,
-   "ultimo": "0 mm a las 00 h"
+   "ultimo": "0 mm a las 04 h"
   },
   {
    "localidad": "Paso de los Libres",
@@ -1080,12 +1080,12 @@
     null,
     null,
     null,
-    null,
+    0,
     null,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 00 h"
+   "ultimo": "0 mm a las 04 h"
   },
   {
    "localidad": "Caá Catí",
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "18/11/2026, 05:13 h",
+ "consultado": "18/11/2026, 05:29 h",
  "consulta_resultado": "datos nuevos"
 }
