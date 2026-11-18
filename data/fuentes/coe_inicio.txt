@@ -1,5 +1,5 @@
 Fuente: https://coe.corrientes.gob.ar/
-Consultado: 18/11/2026, 18:07 h
+Consultado: 18/11/2026, 18:41 h
 
 4 alertas vigentes — COE Corrientes
 Alertas del COE - Comando Operativo de Emergencias
@@ -15,18 +15,18 @@ Avisos emitidos por el Comando Operativo de Emergencias de Corrientes por
 crecidas, tormentas, lluvias y vientos.
 Tocá una alerta para ver la pieza completa con el mapa del área alcanzada.
 Vigentes ahora 4
+Alerta Roja
+En curso
+Granizo · Lluvias intensas · Ràfagas · Tormentas
+Paso de los Libres, San Martín
+Empezó miércoles 18/11 · 18:18 h
+Termina miércoles 18/11 · 19:18 h
 Alerta Amarilla
 En curso
 Granizo · Lluvias intensas · Tormentas · Vientos fuertes
 Berón de Astrada, Capital, Empedrado, General Paz, Itatí, Ituzaingó, Mburucuyá, Saladas, San Cosme, San Luis del Palmar, San Miguel
 Empezó miércoles 18/11 · 17:27 h
 Termina jueves 19/11 · 23:59 h
-Alerta Roja
-En curso
-Granizo · Lluvias intensas · Ràfagas · Tormentas
-Capital, Empedrado, San Cosme, San Luis del Palmar
-Empezó miércoles 18/11 · 16:38 h
-Termina miércoles 18/11 · 18:38 h
 Alerta Naranja
 En curso
 Granizo · Lluvias intensas · Tormentas · Vientos fuertes
@@ -44,7 +44,12 @@ Recibí las alertas en tu teléfono
 Unirme por WhatsApp
 Escaneá el código o tocá el botón. Es un canal de sólo lectura
 para recibir y consultar los avisos del COE.
-Anteriores 96
+Anteriores 97
+Roja
+Granizo · Lluvias intensas · Ràfagas · Tormentas
+Capital, Empedrado, San Cosme, San Luis del Palmar
+18/11/2026
+16:38 a 18:38
 Roja
 Granizo · Lluvias intensas · Ràfagas · Tormentas
 Capital, Empedrado, Itatí, San Cosme, San Luis del Palmar
@@ -90,11 +95,6 @@ Granizo · Lluvias intensas · Ràfagas · Tormentas
 Berón de Astrada, Capital, Concepción, Empedrado, General Paz, Itatí, Mburucuyá, Saladas, San Cosme, San Luis del Palmar, San Miguel
 18/11/2026
 07:51 a 09:51
-Roja
-Tormentas
-Empedrado, General Paz, Mburucuyá, Saladas, San Luis del Palmar
-18/11/2026
-06:52 a 07:52
 ← Más recientes
 Página 1 de 10
 Más antiguas →
