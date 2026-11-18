@@ -1,5 +1,5 @@
 {
- "actualizado": "18/11/2026, 07:13 h",
+ "actualizado": "18/11/2026, 07:29 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
@@ -242,6 +242,19 @@
    "estacion": "Estación La Palmira - Escuela N° 70",
    "codigo": 283902,
    "valores": [
+    3.4,
+    2,
+    0,
+    0,
+    0.2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0.2,
     0,
     0,
     0,
@@ -251,25 +264,12 @@
     0,
     0,
     0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
+    1.4,
+    1.6,
     null
    ],
-   "total": 0,
-   "ultimo": "0 mm a las 07 h"
+   "total": 8.8,
+   "ultimo": "1,6 mm a las 07 h"
   },
   {
    "localidad": "Bella Vista",
@@ -1115,11 +1115,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 06 h"
+   "ultimo": "0 mm a las 07 h"
   },
   {
    "localidad": "Pueblo Libertador",
@@ -1217,11 +1217,11 @@
     0.4,
     2.6,
     0.2,
-    0,
+    14.8,
     null
    ],
-   "total": 3.4,
-   "ultimo": "0 mm a las 07 h"
+   "total": 18.2,
+   "ultimo": "14,8 mm a las 07 h"
   },
   {
    "localidad": "Bonpland",
@@ -1319,11 +1319,11 @@
     0,
     0.2,
     0.2,
-    0,
+    0.6,
     null
    ],
-   "total": 0.4,
-   "ultimo": "0 mm a las 07 h"
+   "total": 1.0,
+   "ultimo": "0,6 mm a las 07 h"
   },
   {
    "localidad": "Parque Nacional Iberá",
@@ -1353,11 +1353,11 @@
     0,
     0,
     0.6,
-    null,
+    0,
     null
    ],
    "total": 13.2,
-   "ultimo": "0,6 mm a las 06 h"
+   "ultimo": "0 mm a las 07 h"
   },
   {
    "localidad": "San Isidro",
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "18/11/2026, 07:13 h",
+ "consultado": "18/11/2026, 07:29 h",
  "consulta_resultado": "datos nuevos"
 }
