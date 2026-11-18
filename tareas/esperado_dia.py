@@ -39,7 +39,9 @@ def observado_por_dia(path='data/lluvia.json'):
             h = int(mh.group(1)) if mh else None
         if dia is None or h is None:
             fechas.append(None); continue
-        fechas.append(('%04d-%02d-%02d' % (anio, dia[1], dia[0]), h))
+        # el dato publicado con la hora h es la lluvia caída entre h-1 y h
+        t = datetime(anio, dia[1], dia[0], h) - timedelta(hours=1)
+        fechas.append((t.strftime('%Y-%m-%d'), t.hour))
     out = {}
     for est in L.get('estaciones') or []:
         loc = _base(est.get('localidad'))
