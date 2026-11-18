@@ -1,5 +1,5 @@
 {
- "actualizado": "18/11/2026, 14:09 h",
+ "actualizado": "18/11/2026, 14:25 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
@@ -197,11 +197,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 13 h"
+   "ultimo": "0 mm a las 14 h"
   },
   {
    "localidad": "Santa Lucía",
@@ -231,11 +231,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0.25,
-   "ultimo": "0 mm a las 13 h"
+   "ultimo": "0 mm a las 14 h"
   },
   {
    "localidad": "La Palmira",
@@ -673,11 +673,11 @@
     0.2,
     0,
     0,
-    null,
+    0.2,
     null
    ],
-   "total": 0.2,
-   "ultimo": "0 mm a las 13 h"
+   "total": 0.4,
+   "ultimo": "0,2 mm a las 14 h"
   },
   {
    "localidad": "Gobernador Virasoro",
@@ -775,11 +775,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 13 h"
+   "ultimo": "0 mm a las 14 h"
   },
   {
    "localidad": "Mercedes",
@@ -1149,11 +1149,11 @@
     0,
     0.25,
     0.5,
-    null,
+    0,
     null
    ],
    "total": 1.5,
-   "ultimo": "0,5 mm a las 13 h"
+   "ultimo": "0 mm a las 14 h"
   },
   {
    "localidad": "Itá Ibaté",
@@ -1353,11 +1353,11 @@
     0,
     0.2,
     null,
-    null,
+    0,
     null
    ],
    "total": 3.6,
-   "ultimo": "0,2 mm a las 12 h"
+   "ultimo": "0 mm a las 14 h"
   },
   {
    "localidad": "San Isidro",
@@ -1557,11 +1557,11 @@
     0,
     0.2,
     0.8,
-    null,
+    0,
     null
    ],
    "total": 1.2,
-   "ultimo": "0,8 mm a las 13 h"
+   "ultimo": "0 mm a las 14 h"
   },
   {
    "localidad": "El Sombrerito",
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "18/11/2026, 14:09 h",
+ "consultado": "18/11/2026, 14:25 h",
  "consulta_resultado": "datos nuevos"
 }
