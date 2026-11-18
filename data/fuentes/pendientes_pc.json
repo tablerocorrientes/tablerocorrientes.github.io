@@ -3,7 +3,7 @@
   {
    "url": "https://boletinoficial.corrientes.gob.ar/assets/articulo_adjuntos/7758/original/10-05-2023.pdf?1683814769=",
    "desde": "16/11/2026, 19:43 h",
-   "error": "PDF sin texto legible desde el navegador de la computadora del autor (18/11/2026, 04:40 h)"
+   "error": "PDF sin texto legible desde el navegador de la computadora del autor (18/11/2026, 07:36 h)"
   },
   {
    "url": "https://boletinoficial.corrientes.gob.ar/assets/articulo_adjuntos/5832/original/26-01-2021.pdf?1611749492=",
@@ -18,17 +18,12 @@
   {
    "url": "https://api.open-meteo.com/v1/forecast?latitude=-27.47,-29.14,-30.01,-28.51,-29.18,-29.79,-29.71,-28.55,-28.05,-27.59,-30.25,-28.25&longitude=-58.83,-59.26,-59.53,-59.04,-58.08,-58.05,-57.09,-56.04,-56.03,-56.69,-57.64,-58.62&hourly=precipitation&timezone=America%2FArgentina%2FBuenos_Aires&forecast_days=6",
    "desde": "17/11/2026, 18:33 h",
-   "error": "HTTP Error 429: Too Many Requests; el navegador de la computadora del autor no permitió abrir el sitio (18/11/2026, 04:40 h)"
+   "error": "HTTP Error 429: Too Many Requests; el navegador de la computadora del autor no permitió abrir el sitio (18/11/2026, 07:36 h)"
   },
   {
    "url": "https://api.open-meteo.com/v1/forecast?latitude=-27.47,-29.14,-30.01,-28.51,-29.18,-29.79,-29.71,-28.55,-28.05,-27.59,-30.25,-28.25&longitude=-58.83,-59.26,-59.53,-59.04,-58.08,-58.05,-57.09,-56.04,-56.03,-56.69,-57.64,-58.63&hourly=precipitation&timezone=America/Argentina/Buenos_Aires&forecast_days=2&models=best_match",
    "desde": "18/11/2026, 05:16 h",
-   "error": "HTTP Error 429: Too Many Requests"
-  },
-  {
-   "url": "https://www.radiodos.com.ar/217211-comenzo-el-temporal-de-viento-y-lluvia-en-corrientes-y-pronostican-alerta-durante-toda-la-jornada",
-   "desde": "18/11/2026, 07:11 h",
-   "error": "HTTP Error 429: Too Many Requests"
+   "error": "HTTP Error 429: Too Many Requests; el navegador de la computadora del autor no permitió abrir el sitio (18/11/2026, 07:36 h)"
   }
  ]
 }

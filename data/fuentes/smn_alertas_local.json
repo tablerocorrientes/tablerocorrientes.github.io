@@ -1,26 +1,20 @@
 {
- "consultado": "18/11/2026, 04:40 h",
- "consultado_iso": "2026-11-18T04:40:00-03:00",
+ "consultado": "18/11/2026, 07:36 h",
+ "consultado_iso": "2026-11-18T07:36:00-03:00",
  "fuente": "Servicio Meteorológico Nacional (www.smn.gob.ar/alertas), leído desde una conexión de Corrientes",
  "resultado": "con alertas",
  "alertas": [
   {
-   "tipo": "aviso a muy corto plazo",
-   "nivel": null,
-   "fenomeno": "Tormentas fuertes con lluvias intensas, ráfagas y ocasional caída de granizo",
+   "tipo": "alerta",
+   "nivel": "naranja",
+   "fenomeno": "Tormenta",
    "zonas": [
-    "Bella Vista",
-    "Concepcion",
-    "Empedrado",
-    "Mburucuya",
-    "Saladas",
-    "San Luis del Palmar",
-    "San Roque"
+    "Provincia de Corrientes (el resumen por provincia no detalla departamentos)"
    ],
-   "desde": "18/11/2026, 04:20 h",
-   "hasta": "18/11/2026, 05:20 h",
-   "emision": "18/11/2026, 04:20 h",
-   "texto": "Tormentas fuertes con lluvias intensas, ráfagas y ocasional caída de granizo, detectadas con radares meteorológicos. Validez: una hora desde la emisión. El texto del SMN no indica nivel de color."
+   "desde": "18/11/2026, 06:00 h",
+   "hasta": "19/11/2026, 05:59 h",
+   "emision": "18/11/2026, 06:24 h",
+   "texto": "Resumen por provincia del SMN: Corrientes con 'Alerta naranja por tormenta' y aviso a muy corto plazo vigente. Información vigente desde las 06:00 h del miércoles 18 hasta las 05:59 h del jueves 19 de noviembre de 2026."
   },
   {
    "tipo": "aviso a muy corto plazo",
@@ -29,14 +23,42 @@
    "zonas": [
     "Bella Vista",
     "Concepcion",
+    "Curuzu Cuatia",
+    "Esquina",
+    "Goya",
+    "Ituzaingo",
+    "Lavalle",
     "Mercedes",
-    "San Roque"
+    "Monte Caseros",
+    "Paso de los Libres",
+    "Saladas",
+    "San Miguel",
+    "San Roque",
+    "Sauce"
    ],
-   "desde": "18/11/2026, 04:22 h",
-   "hasta": "18/11/2026, 05:22 h",
-   "emision": "18/11/2026, 04:22 h",
-   "texto": "Tormentas fuertes con lluvias intensas, ráfagas y ocasional caída de granizo, detectadas con radares meteorológicos. Validez: una hora desde la emisión. El texto del SMN no indica nivel de color."
+   "desde": "18/11/2026, 06:16 h",
+   "hasta": "18/11/2026, 08:16 h",
+   "emision": "18/11/2026, 06:16 h",
+   "texto": "Tormentas fuertes con lluvias intensas, ráfagas y ocasional caída de granizo, detectadas con radares meteorológicos. Validez: dos horas desde la emisión. El texto del SMN no indica nivel de color."
+  },
+  {
+   "tipo": "aviso a muy corto plazo",
+   "nivel": null,
+   "fenomeno": "Tormentas fuertes con lluvias intensas y ocasional caída de granizo",
+   "zonas": [
+    "Concepcion",
+    "Empedrado",
+    "Gral Paz",
+    "Mburucuya",
+    "Saladas",
+    "San Luis del Palmar",
+    "San Miguel"
+   ],
+   "desde": "18/11/2026, 06:52 h",
+   "hasta": "18/11/2026, 07:52 h",
+   "emision": "18/11/2026, 06:52 h",
+   "texto": "Tormentas fuertes con lluvias intensas y ocasional caída de granizo (también San Fernando, Chaco), detectadas con radares meteorológicos. Validez: una hora desde la emisión. El texto del SMN no indica nivel de color."
   }
  ],
- "texto_pagina": "ALERTAS (www.smn.gob.ar/alertas): Fecha de emisión: 17/11/2026 17:50h. Mapa para Miércoles 18, Jueves 19 y Viernes 20; el texto de la página no detalla alertas por zona (el mapa no pudo leerse como texto). RESUMEN POR PROVINCIA: la fila de Corrientes no muestra texto en las columnas ACP, Tormenta, Lluvia, Nevada, Viento, Viento zonda, Niebla, Polvo, Humo, Ceniza (los indicadores son gráficos y no pudieron leerse). AVISOS A MUY CORTO PLAZO: TORMENTAS FUERTES CON LLUVIAS INTENSAS, RAFAGAS Y OCASIONAL CAIDA DE GRANIZO. Zonas: CHACO: San Fernando. SANTA FE: Gral Obligado. CORRIENTES: Bella Vista - Concepcion - Empedrado - Mburucuya - Saladas - San Luis del Palmar - San Roque. Fecha de emisión: 18/11/2026 a las 04:20h. Validez hasta: Una (1) hora desde la emisión. TORMENTAS FUERTES CON LLUVIAS INTENSAS, RAFAGAS Y OCASIONAL CAIDA DE GRANIZO. Zonas: CORRIENTES: Bella Vista - Concepcion - Mercedes - San Roque. Fecha de emisión: 18/11/2026 a las 04:22h. Validez hasta: Una (1) hora desde la emisión. Los fenómenos indicados en el ACP fueron detectados con radares meteorológicos."
+ "texto_pagina": "ALERTAS (www.smn.gob.ar/alertas): fecha de emisión 18/11/2026 06:24 h; mapa por días (miércoles 18, jueves 19, viernes 20) sin texto por zona en la página.\nRESUMEN POR PROVINCIA (www.smn.gob.ar/resumen_por_provincia): Información vigente desde las 06:00 h de hoy miércoles 18 hasta las 05:59 horas de mañana jueves 19 de noviembre de 2026. Corrientes: ACP = Aviso a muy corto plazo; Tormenta = Alerta naranja por tormenta; Lluvia, Nevada, Viento, Viento zonda, Niebla, Polvo, Humo, Ceniza: sin alerta (-).\nAVISOS A MUY CORTO PLAZO (www.smn.gob.ar/avisos_a_muy_corto_plazo):\n- TORMENTAS FUERTES CON LLUVIAS INTENSAS, RAFAGAS Y OCASIONAL CAIDA DE GRANIZO. Zonas: CORRIENTES: Bella Vista - Concepcion - Curuzu Cuatia - Esquina - Goya - Ituzaingo - Lavalle - Mercedes - Monte Caseros - Paso de los Libres - Saladas - San Miguel - San Roque - Sauce. Fecha de emisión: 18/11/2026 a las 06:16 h. Validez: dos (2) horas desde la emisión.\n- TORMENTAS FUERTES CON LLUVIAS INTENSAS Y OCASIONAL CAIDA DE GRANIZO. Zonas: CHACO: San Fernando. CORRIENTES: Concepcion - Empedrado - Gral Paz - Mburucuya - Saladas - San Luis del Palmar - San Miguel. Fecha de emisión: 18/11/2026 a las 06:52 h. Validez: una (1) hora desde la emisión.\nLos fenómenos indicados en el ACP fueron detectados con radares meteorológicos. (Otros avisos vigentes alcanzan solo a Chaco y Formosa.)"
 }
