@@ -750,7 +750,11 @@ else{$('pron').innerHTML='<p class="s">Sin pronóstico cargado.</p>';}
   var box=$('pron'),sel0=null;try{sel0=localStorage.getItem('tc_loc');}catch(e){}if(names.indexOf(sel0)<0)sel0='Corrientes Capital';
   var lista=box.innerHTML;
   box.innerHTML='<label style="display:block;font-weight:700;margin:4px 0">Elija su localidad</label><select id="cmpSel" style="width:100%;max-width:520px;font:inherit;font-size:1rem;padding:10px 12px;border-radius:12px;border:1px solid var(--line);background:var(--card);color:var(--ink)">'+names.map(function(n){return '<option>'+esc(n)+'</option>';}).join('')+'</select><div id="cmpTot" style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:10px 0"></div><div id="cmpG" style="cursor:zoom-in" title="Toque para ampliar"></div><p class="s" id="cmpN" style="margin:4px 0 0"></p><details class="x" style="margin-top:10px"><summary><div><b>Ver todas las ciudades en lista</b></div></summary>'+lista+'</details>';
+  var PROVL=null;fetch('/data/prov.json').then(function(r){return r.json();}).then(function(j){PROVL=(j&&j.localidades)||[];draw();}).catch(function(){});
   function draw(){var o=datos($('cmpSel').value);
+    if(window.tcLluviaComp){var cc=$('cmpComp');if(!cc){cc=document.createElement('div');cc.id='cmpComp';cc.style.marginTop='10px';$('cmpG').parentNode.insertBefore(cc,$('cmpG'));}$('cmpTot').style.display='none';$('cmpG').style.display='none';$('cmpN').style.display='none';
+      var lp=(PROVL||[]).filter(function(x){return x.n===o.n;})[0],stO=o.n==='Corrientes Capital'?null:findSt(o.ref||o.n);
+      tcLluviaComp(cc,{n:o.n,dep:lp?lp.dep:(o.n==='Corrientes Capital'?'Capital':o.n),ref:lp?lp.ref:o.pref,est:stO});return;}
     var fh=o.f&&o.f.hoy?+o.f.hoy.mm:null,fm=o.f&&o.f.manana?+o.f.manana.mm:null;
     var R=serie(o),now=new Date(),hoyO=0,hoyF=0,hayF=false,restoF=0;R.S.forEach(function(x){if(x.t.toDateString()===now.toDateString()){if(x.past){hoyO+=+x.obs||0;if(x.fc!=null){hoyF+=x.fc;hayF=true;}}else restoF+=+x.fc||0;}});
     var AL=window.tcAlertasDe?tcAlertasDe(PF.smn,o.n==='Corrientes Capital'?'Capital':o.n):[],vig=AL.some(function(a){return !a.desde_iso||Date.parse(a.desde_iso)<=now;});

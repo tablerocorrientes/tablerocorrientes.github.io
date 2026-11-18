@@ -7,11 +7,65 @@ cubrían con su rango de milímetros. Esa foto no se modifica durante el día: s
 para comparar, a cualquier hora, lo que se esperaba con lo que realmente llovió.
 Uso: python3 tareas/esperado_dia.py [pron.json alternativo]
 """
-import json, os, sys
+import json, os, re, sys
 from datetime import datetime, timedelta, timezone
 
 ART = timezone(timedelta(hours=-3))
 SALIDA = 'data/esperado_dia.json'
+
+
+def _base(n):
+    return re.sub(r'\s*\(.*\)\s*$', '', str(n or '')).strip()
+
+
+def observado_por_dia(path='data/lluvia.json'):
+    """Lluvia medida por hora, agrupada por día y localidad (máximo entre estaciones de la misma localidad)."""
+    try:
+        L = json.load(open(path, encoding='utf-8'))
+    except Exception:
+        return {}
+    cols = L.get('columnas') or []
+    m = re.search(r'(\d{4})', str(L.get('actualizado') or '')) 
+    anio = int(m.group(1)) if m else datetime.now(ART).year
+    fechas = []
+    dia = None
+    for c in cols:
+        md = re.match(r'\s*(\d{1,2})/(\d{1,2})\s+(\d{1,2})', str(c))
+        if md:
+            dia = (int(md.group(1)), int(md.group(2)))
+            h = int(md.group(3))
+        else:
+            mh = re.match(r'\s*(\d{1,2})', str(c))
+            h = int(mh.group(1)) if mh else None
+        if dia is None or h is None:
+            fechas.append(None); continue
+        fechas.append(('%04d-%02d-%02d' % (anio, dia[1], dia[0]), h))
+    out = {}
+    for est in L.get('estaciones') or []:
+        loc = _base(est.get('localidad'))
+        for i, v in enumerate(est.get('valores') or []):
+            if v is None or i >= len(fechas) or fechas[i] is None:
+                continue
+            f, h = fechas[i]
+            arr = out.setdefault(f, {}).setdefault(loc, [None] * 24)
+            arr[h] = max(float(v), arr[h] or 0.0)
+    return out
+
+
+def sumar_observado(reg, obs):
+    """Completa reg['observado'] (por localidad, 24 horas) con lo medido; nunca baja un valor ya registrado."""
+    d = obs.get(reg.get('fecha'))
+    if not d:
+        return False
+    tab = reg.setdefault('observado', {})
+    cambio = False
+    for loc, arr in d.items():
+        prev = tab.get(loc) or [None] * 24
+        for h, v in enumerate(arr):
+            if v is not None and (prev[h] is None or v > prev[h]):
+                prev[h] = round(v, 2); cambio = True
+        tab[loc] = prev
+    return cambio
 
 
 def registrar_alertas(reg, P, hoy):
@@ -49,11 +103,15 @@ def main():
         P = json.load(open(sys.argv[1] if len(sys.argv) > 1 else 'data/pron.json', encoding='utf-8'))
     except Exception as e:
         print('Esperado del día: sin pronóstico (%s)' % e); return
+    OBS = observado_por_dia()
+    for hreg in (prev.get('historial') or [])[-3:]:
+        sumar_observado(hreg, OBS)
     if prev.get('fecha') == hoy:
-        # mismo día: solo se suman al registro las alertas nuevas que cubren el día
-        if registrar_alertas(prev, P, hoy):
+        # mismo día: se suman las alertas nuevas que cubren el día y la lluvia medida
+        a1 = registrar_alertas(prev, P, hoy)
+        if sumar_observado(prev, OBS) or a1 or True:
             json.dump(prev, open(SALIDA, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
-            print('Esperado del día: alertas del día actualizadas')
+            print('Esperado del día: alertas y lluvia medida actualizadas')
         else:
             print('Esperado del día: ya registrado para ' + hoy)
         return
@@ -90,7 +148,8 @@ def main():
             alertas.append({k: a.get(k) for k in ('nivel', 'fenomeno', 'desde_iso', 'hasta_iso', 'zonas', 'rango_mm', 'incluye_capital', 'origen')})
     hist = prev.get('historial', [])
     if prev.get('fecha'):
-        hist.append({k: prev.get(k) for k in ('fecha', 'pronostico_de', 'ciudades', 'alertas', 'alertas_del_dia')})
+        sumar_observado(prev, OBS)
+        hist.append({k: prev.get(k) for k in ('fecha', 'pronostico_de', 'ciudades', 'alertas', 'alertas_del_dia', 'observado', 'horario_capital')})
     nuevo_reg = {
         'fecha': hoy,
         'capturado': ahora.strftime('%d/%m/%Y, %H:%M h'),
@@ -100,6 +159,9 @@ def main():
         'alertas': alertas,
         'historial': hist[-45:],
     }
+    if hc:
+        nuevo_reg['horario_capital'] = [round(float(x or 0), 2) for x in hc]
+    sumar_observado(nuevo_reg, OBS)
     registrar_alertas(nuevo_reg, P, hoy)
     json.dump(nuevo_reg, open(SALIDA, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     print('Esperado del día registrado: ' + hoy + ' (Capital: %s mm)' % ciudades.get('Corrientes Capital'))
