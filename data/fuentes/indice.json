@@ -1,6 +1,6 @@
 {
- "consultado": "18/11/2026, 11:12 h",
- "consultado_iso": "2026-11-18T11:12-03:00",
+ "consultado": "18/11/2026, 11:15 h",
+ "consultado_iso": "2026-11-18T11:15-03:00",
  "paginas": {
   "smn_alertas": {
    "url": "https://www.smn.gob.ar/alertas",
@@ -159,6 +159,20 @@
    "archivo": "data/fuentes/coe_a_2026_0138_CP.txt"
   }
  },
+ "pedidas": {
+  "https://coe.corrientes.gob.ar/a/2026-0025-NT": {
+   "url": "https://coe.corrientes.gob.ar/a/2026-0025-NT",
+   "estado": 200,
+   "caracteres": 2212,
+   "archivo": "data/fuentes/web/coe_corrientes_gob_ar_a_2026_0025_NT.txt"
+  },
+  "https://coe.corrientes.gob.ar/a/2026-0078-AT": {
+   "url": "https://coe.corrientes.gob.ar/a/2026-0078-AT",
+   "estado": 200,
+   "caracteres": 2018,
+   "archivo": "data/fuentes/web/coe_corrientes_gob_ar_a_2026_0078_AT.txt"
+  }
+ },
  "portales": {
   "munired_municipio_corrientes": {
    "url": "https://munired.mcypcorrientes.gob.ar/noticias/corrientes",
@@ -185,60 +199,5 @@
    "archivo": "data/fuentes/portales/senado_corrientes.txt"
   }
  },
- "pedidas": {
-  "https://www.radiodos.com.ar/217211-comenzo-el-temporal-de-viento-y-lluvia-en-corrientes-y-pronostican-alerta-durante-toda-la-jornada": {
-   "url": "https://www.radiodos.com.ar/217211-comenzo-el-temporal-de-viento-y-lluvia-en-corrientes-y-pronostican-alerta-durante-toda-la-jornada",
-   "estado": "error",
-   "detalle": "HTTP Error 404: NOT FOUND"
-  },
-  "https://www.infobae.com/sociedad/2026/11/17/las-tormentas-afectaron-a-varias-provincias-granizo-calles-anegadas-actividad-electrica-y-rafagas-de-mas-de-100-kmh/": {
-   "url": "https://www.infobae.com/sociedad/2026/11/17/las-tormentas-afectaron-a-varias-provincias-granizo-calles-anegadas-actividad-electrica-y-rafagas-de-mas-de-100-kmh/",
-   "estado": 200,
-   "caracteres": 11166,
-   "archivo": "data/fuentes/web/infobae_com_sociedad_2026_11_17_las_tormentas_afectaron_a_varias_provincias_granizo_calles.txt"
-  },
-  "https://www.infobae.com/sociedad/2026/11/16/alarma-por-la-crecida-del-rio-parana-hay-cientos-de-evacuados-y-crece-la-preocupacion-por-nuevas-tormentas/": {
-   "url": "https://www.infobae.com/sociedad/2026/11/16/alarma-por-la-crecida-del-rio-parana-hay-cientos-de-evacuados-y-crece-la-preocupacion-por-nuevas-tormentas/",
-   "estado": 200,
-   "caracteres": 11495,
-   "archivo": "data/fuentes/web/infobae_com_sociedad_2026_11_16_alarma_por_la_crecida_del_rio_parana_hay_cientos_de_evacua.txt"
-  },
-  "https://www.lanacion.com.ar/sociedad/super-nino-2026-en-argentina-en-vivo-el-rio-parana-sigue-creciendo-y-supero-el-nivel-de-evacuacion-nid16112026/": {
-   "url": "https://www.lanacion.com.ar/sociedad/super-nino-2026-en-argentina-en-vivo-el-rio-parana-sigue-creciendo-y-supero-el-nivel-de-evacuacion-nid16112026/",
-   "estado": 200,
-   "caracteres": 15411,
-   "archivo": "data/fuentes/web/lanacion_com_ar_sociedad_super_nino_2026_en_argentina_en_vivo_el_rio_parana_sigue_creciend.txt"
-  },
-  "https://corrientesaldia.info/2026/11/17/el-municipio-retiro-el-kiosco-caido-y-limpio-los-sumideros-en-capital/": {
-   "url": "https://corrientesaldia.info/2026/11/17/el-municipio-retiro-el-kiosco-caido-y-limpio-los-sumideros-en-capital/",
-   "estado": 200,
-   "caracteres": 7045,
-   "archivo": "data/fuentes/web/corrientesaldia_info_2026_11_17_el_municipio_retiro_el_kiosco_caido_y_limpio_los_sumideros.txt"
-  },
-  "https://ciudaddecorrientes.gov.ar/content/la-municipalidad-despliega-operativos-en-distintos-barrios-tras-las-intensas-lluvias": {
-   "url": "https://ciudaddecorrientes.gov.ar/content/la-municipalidad-despliega-operativos-en-distintos-barrios-tras-las-intensas-lluvias",
-   "estado": 200,
-   "caracteres": 4924,
-   "archivo": "data/fuentes/web/ciudaddecorrientes_gov_ar_content_la_municipalidad_despliega_operativos_en_distintos_barri.txt"
-  },
-  "https://www.meteored.com.ar/noticias/prediccion/crecida-del-rio-parana-yacyreta-anticipa-un-alivio-hacia-el-fin-de-semana-pero-persiste-la-alerta.html": {
-   "url": "https://www.meteored.com.ar/noticias/prediccion/crecida-del-rio-parana-yacyreta-anticipa-un-alivio-hacia-el-fin-de-semana-pero-persiste-la-alerta.html",
-   "estado": 200,
-   "caracteres": 6539,
-   "archivo": "data/fuentes/web/meteored_com_ar_noticias_prediccion_crecida_del_rio_parana_yacyreta_anticipa_un_alivio_hac.txt"
-  },
-  "https://www.tiempo.com/argentina/corrientes/por-horas": {
-   "url": "https://www.tiempo.com/argentina/corrientes/por-horas",
-   "estado": 200,
-   "caracteres": 23953,
-   "archivo": "data/fuentes/web/tiempo_com_argentina_corrientes_por_horas.txt"
-  },
-  "https://ruralnet.com.ar/pronostico-18-20-noviembre-tormentas-2026/": {
-   "url": "https://ruralnet.com.ar/pronostico-18-20-noviembre-tormentas-2026/",
-   "estado": 200,
-   "caracteres": 23474,
-   "archivo": "data/fuentes/web/ruralnet_com_ar_pronostico_18_20_noviembre_tormentas_2026.txt"
-  }
- },
- "pedidas_consultado": "18/11/2026, 09:01 h"
+ "pedidas_consultado": "18/11/2026, 11:15 h"
 }
