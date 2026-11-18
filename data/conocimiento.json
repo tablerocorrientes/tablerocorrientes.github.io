@@ -1,5 +1,5 @@
 {
- "actualizado": "18/11/2026, 05:21 h",
+ "actualizado": "18/11/2026, 07:09 h",
  "explicacion": "Cada actualización suma registros: barrios afectados con la altura del río o la lluvia de ese día, obras terminadas, reportes de vecinos verificados y la comparación entre lo pronosticado y lo que ocurrió. Con esa comparación se detectan desvíos y se proponen ajustes a los cálculos, que revisa el autor del tablero.",
  "contadores": {
   "barrios_documentados": 87,
@@ -7,9 +7,16 @@
   "reportes_verificados": 0,
   "comparaciones_rio": 2,
   "comparaciones_lluvia": 5,
-  "aprendizajes": 71
+  "aprendizajes": 72
  },
  "aprendizajes": [
+  {
+   "fecha": "18/11/2026",
+   "tipo": "alerta",
+   "lugar": "Bella Vista, Concepción, Curuzú Cuatiá, Empedrado, Esquina, General Paz, Goya, Ituzaingó, Lavalle, Mburucuyá, Mercedes, Monte Caseros, Paso de los Libres, Saladas, San Luis del Palmar, San Miguel, San Roque y Sauce",
+   "dato": "A las 07:09 h rigen dos avisos rojos a corto plazo por tormentas con lluvias intensas (hasta las 07:52 y las 08:16 h); no incluyen la Capital, que sigue con alertas naranja y amarilla hasta las 13:00 y 12:00 h.",
+   "fuente": "COE de Corrientes (2026-0138-CP y 2026-0139-CP), 18/11/2026"
+  },
   {
    "fecha": "18/11/2026",
    "tipo": "alerta",

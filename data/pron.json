@@ -1,10 +1,10 @@
 {
- "actualizado": "18/11/2026, 05:21 h",
+ "actualizado": "18/11/2026, 07:09 h",
  "metodo": "estimación derivada de modelos y del parte del SMN",
  "estado_alertas": "VERIFICADO_CON_ALERTAS",
  "estado_verificado": {
-  "fecha": "18/11/2026, 05:21 h",
-  "fuente": "SMN (lectura de las 04:40 h) y COE de Corrientes (05:10 h)"
+  "fecha": "18/11/2026, 07:09 h",
+  "fuente": "SMN (lectura de las 04:40 h) y COE de Corrientes (07:09 h)"
  },
  "met_archivo": {
   "nombre": "vigilancia_meteorologica_20261113_183508.json",
@@ -78,7 +78,7 @@
    "incluye_corrientes": true,
    "incluye_capital": true,
    "url": "https://coe.corrientes.gob.ar/a/2026-0076-AT",
-   "origen": "COE de Corrientes (reporte 2026-0076-AT), consultado el 18/11/2026 a las 05:10 h"
+   "origen": "COE de Corrientes (reporte 2026-0076-AT), consultado el 18/11/2026 a las 07:09 h"
   },
   {
    "id_oficial": "2026-0024-NT",
@@ -124,7 +124,7 @@
    "incluye_corrientes": true,
    "incluye_capital": true,
    "url": "https://coe.corrientes.gob.ar/a/2026-0024-NT",
-   "origen": "COE de Corrientes (reporte 2026-0024-NT), consultado el 18/11/2026 a las 05:10 h"
+   "origen": "COE de Corrientes (reporte 2026-0024-NT), consultado el 18/11/2026 a las 07:09 h"
   },
   {
    "id_oficial": "2026-0077-AT",
@@ -147,7 +147,64 @@
    "incluye_corrientes": true,
    "incluye_capital": false,
    "url": "https://coe.corrientes.gob.ar/a/2026-0077-AT",
-   "origen": "COE de Corrientes (reporte 2026-0077-AT), consultado el 18/11/2026 a las 05:10 h"
+   "origen": "COE de Corrientes (reporte 2026-0077-AT), consultado el 18/11/2026 a las 07:09 h"
+  },
+  {
+   "id_oficial": "2026-0138-CP",
+   "tipo": "aviso a corto plazo",
+   "aviso": "Aviso rojo a corto plazo por tormentas, difundido por el COE de Corrientes con fuente del Servicio Meteorológico Nacional, para Bella Vista, Concepción, Curuzú Cuatiá, Esquina, Goya, Ituzaingó, Lavalle, Mercedes, Monte Caseros, Paso de los Libres, Saladas, San Miguel, San Roque y Sauce el miércoles 18/11 de 06:16 a 08:16 h. Se esperan lluvias intensas en cortos períodos, tormentas de variada intensidad, algunas localmente fuertes, ocasional caída de granizo y actividad eléctrica frecuente. No incluye la Capital.",
+   "nivel": "rojo",
+   "fenomeno": "tormenta",
+   "rango_mm": null,
+   "zonas": [
+    "Bella Vista",
+    "Concepción",
+    "Curuzú Cuatiá",
+    "Esquina",
+    "Goya",
+    "Ituzaingó",
+    "Lavalle",
+    "Mercedes",
+    "Monte Caseros",
+    "Paso de los Libres",
+    "Saladas",
+    "San Miguel",
+    "San Roque",
+    "Sauce"
+   ],
+   "desde": "18/11/2026, 06:16 h",
+   "hasta": "18/11/2026, 08:16 h",
+   "desde_iso": "2026-11-18T06:16:00-03:00",
+   "hasta_iso": "2026-11-18T08:16:00-03:00",
+   "emision": "18/11/2026, 06:43 h",
+   "incluye_corrientes": true,
+   "incluye_capital": false,
+   "url": "https://coe.corrientes.gob.ar/a/2026-0138-CP",
+   "origen": "COE de Corrientes (reporte 2026-0138-CP), consultado el 18/11/2026 a las 07:09 h"
+  },
+  {
+   "id_oficial": "2026-0139-CP",
+   "tipo": "aviso a corto plazo",
+   "aviso": "Aviso rojo a corto plazo por tormentas, difundido por el COE de Corrientes con fuente del Servicio Meteorológico Nacional, para Empedrado, General Paz, Mburucuyá, Saladas y San Luis del Palmar el miércoles 18/11 de 06:52 a 07:52 h. Se esperan lluvias intensas en cortos períodos, tormentas de variada intensidad, algunas localmente fuertes, ocasional caída de granizo y actividad eléctrica frecuente. No incluye la Capital.",
+   "nivel": "rojo",
+   "fenomeno": "tormenta",
+   "rango_mm": null,
+   "zonas": [
+    "Empedrado",
+    "General Paz",
+    "Mburucuyá",
+    "Saladas",
+    "San Luis del Palmar"
+   ],
+   "desde": "18/11/2026, 06:52 h",
+   "hasta": "18/11/2026, 07:52 h",
+   "desde_iso": "2026-11-18T06:52:00-03:00",
+   "hasta_iso": "2026-11-18T07:52:00-03:00",
+   "emision": "18/11/2026, 07:09 h",
+   "incluye_corrientes": true,
+   "incluye_capital": false,
+   "url": "https://coe.corrientes.gob.ar/a/2026-0139-CP",
+   "origen": "COE de Corrientes (reporte 2026-0139-CP), consultado el 18/11/2026 a las 07:09 h"
   }
  ],
  "ciudades": {
@@ -160,7 +217,7 @@
     "mm": 0.0,
     "horas": 0
    },
-   "smn": "Alerta naranja del SMN por tormenta para toda la provincia de Corrientes durante el miércoles 18/11 (lectura del SMN de las 04:40 h). El COE de Corrientes (fuente SMN) mantiene para la Capital la alerta amarilla de 05:00 a 12:00 h, en curso, con 30 a 70 mm, y la alerta naranja de 06:00 a 13:00 h, con 70 a 120 mm y ráfagas de más de 90 km/h. A las 04:20 y 04:22 h el SMN emitió avisos a muy corto plazo por tormentas fuertes con lluvias intensas para Bella Vista, Concepción, Empedrado, Mburucuyá, Mercedes, Saladas, San Luis del Palmar y San Roque, que no incluyen la Capital y vencían a las 05:20 y 05:22 h. Parte del SMN difundido por La Nación (05:01 h): hoy tormentas fuertes por la mañana (70 %) y por la tarde (40 %) y chaparrones por la noche (40 %); mañana mayormente nublado (10 %).",
+   "smn": "Alerta naranja del SMN por tormenta para toda la provincia de Corrientes durante el miércoles 18/11 (lectura del SMN de las 04:40 h). El COE de Corrientes (fuente SMN) mantiene para la Capital la alerta amarilla de 05:00 a 12:00 h, en curso, con 30 a 70 mm, y la alerta naranja de 06:00 a 13:00 h, con 70 a 120 mm y ráfagas de más de 90 km/h. A las 07:09 h rigen además dos avisos rojos a corto plazo por tormentas (hasta las 07:52 y las 08:16 h) para otros departamentos, que no incluyen la Capital. Parte del SMN difundido por La Nación (07:02 h): hoy tormentas fuertes por la mañana (100 %) y por la tarde (70 %) y chaparrones por la noche (40 %); mañana mayormente nublado por la mañana (10 %) y con chaparrones y tormentas aisladas por la tarde y la noche (40 %).",
    "modelos": {
     "hoy": [
      [
@@ -169,7 +226,7 @@
      ],
      [
       "Modelo numérico del SMN",
-      21.8
+      20.0
      ]
     ],
     "manana": [
@@ -183,9 +240,9 @@
      ]
     ]
    },
-   "criterio": "Hoy el SMN prevé tormentas fuertes con 70 %: se usa el modelo más alto, Open-Meteo, con 27,2 mm (el modelo numérico del SMN da 21,8 mm). Mañana el SMN prevé menos de 40 % (10 %): se usa el modelo más bajo, el modelo numérico del SMN, con 0,0 mm (Open-Meteo da 3,4 mm). El rango de las alertas (70 a 120 mm) no se usa como pronóstico central y se guarda aparte como escenario severo. Reparto horario aproximado. Estimación derivada, no una medición.",
-   "fuente": "Hoy 27,2 mm y mañana 0,0 mm. Open-Meteo y modelo numérico del SMN (18/11, 05:21 h). Estimación derivada, no una medición.",
-   "act": "18/11, 05:21 h"
+   "criterio": "Hoy el SMN prevé tormentas fuertes con 100 % por la mañana y 70 % por la tarde: se usa el modelo más alto, Open-Meteo, con 27,2 mm (lectura de las 05:21 h, no se pudo renovar; el modelo numérico del SMN da 20,0 mm). Mañana el SMN prevé 10 % por la mañana y hasta 40 % por la tarde y la noche; los modelos dan 0,0 mm (SMN) y 3,4 mm (Open-Meteo, lectura de las 05:21 h), y se mantiene 0,0 mm hasta renovar los modelos. El rango de las alertas (70 a 120 mm) no se usa como pronóstico central y se guarda aparte como escenario severo. Reparto horario aproximado. Estimación derivada, no una medición.",
+   "fuente": "Hoy 27,2 mm y mañana 0,0 mm. Open-Meteo (05:21 h) y modelo numérico del SMN (18/11, 07:09 h). Estimación derivada, no una medición.",
+   "act": "18/11, 07:09 h"
   },
   "Goya": {
    "hoy": {
@@ -536,8 +593,8 @@
    0.0
   ]
  },
- "horario_act": "18/11/2026, 05:21 h",
- "consultado": "18/11/2026, 05:21 h",
+ "horario_act": "18/11/2026, 07:09 h",
+ "consultado": "18/11/2026, 07:13 h",
  "consulta_resultado": "datos nuevos",
  "extendido": {
   "actualizado": "18/11/2026, 06:25 h",

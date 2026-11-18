@@ -1,5 +1,5 @@
 {
- "actualizado": "18/11/2026, 05:21 h",
+ "actualizado": "18/11/2026, 07:09 h",
  "dias": {
   "2026-11-02": [
    0,
@@ -1203,7 +1203,7 @@
   },
   "2026-11-18": {
    "smn": {
-    "texto": "Alerta naranja del SMN por tormenta para toda la provincia de Corrientes durante el miércoles 18/11 (lectura del SMN de las 04:40 h). El COE de Corrientes (fuente SMN) mantiene para la Capital la alerta amarilla de 05:00 a 12:00 h, en curso, con 30 a 70 mm, y la alerta naranja de 06:00 a 13:00 h, con 70 a 120 mm y ráfagas de más de 90 km/h. A las 04:20 y 04:22 h el SMN emitió avisos a muy corto plazo por tormentas fuertes con lluvias intensas para Bella Vista, Concepción, Empedrado, Mburucuyá, Mercedes, Saladas, San Luis del Palmar y San Roque, que no incluyen la Capital y vencían a las 05:20 y 05:22 h. Parte del SMN difundido por La Nación (05:01 h): hoy tormentas fuertes por la mañana (70 %) y por la tarde (40 %) y chaparrones por la noche (40 %); mañana mayormente nublado (10 %).",
+    "texto": "Alerta naranja del SMN por tormenta para toda la provincia de Corrientes durante el miércoles 18/11 (lectura del SMN de las 04:40 h). El COE de Corrientes (fuente SMN) mantiene para la Capital la alerta amarilla de 05:00 a 12:00 h, en curso, con 30 a 70 mm, y la alerta naranja de 06:00 a 13:00 h, con 70 a 120 mm y ráfagas de más de 90 km/h. A las 07:09 h rigen además dos avisos rojos a corto plazo por tormentas (hasta las 07:52 y las 08:16 h) para otros departamentos, que no incluyen la Capital. Parte del SMN difundido por La Nación (07:02 h): hoy tormentas fuertes por la mañana (100 %) y por la tarde (70 %) y chaparrones por la noche (40 %); mañana mayormente nublado por la mañana (10 %) y con chaparrones y tormentas aisladas por la tarde y la noche (40 %).",
     "mm": [
      70,
      120
@@ -1218,12 +1218,12 @@
     },
     {
      "n": "Modelo numérico del SMN",
-     "mm": 21.8,
-     "act": "18/11, 05:21 h"
+     "mm": 20.0,
+     "act": "18/11, 07:09 h"
     }
    ],
    "usado": 27.2,
-   "criterio": "Con tormentas fuertes y 70 % según el parte del SMN se usa el modelo más alto, Open-Meteo, con 27,2 mm (modelo numérico del SMN: 21,8 mm). El rango de la alerta naranja (70 a 120 mm) no se usa como pronóstico central: queda como escenario severo. Estimación derivada, no una medición."
+   "criterio": "Con tormentas fuertes y 100 % por la mañana y 70 % por la tarde según el parte del SMN se usa el modelo más alto, Open-Meteo, con 27,2 mm (modelo numérico del SMN: 20,0 mm). El rango de la alerta naranja (70 a 120 mm) no se usa como pronóstico central: queda como escenario severo. Estimación derivada, no una medición."
   },
   "2026-11-19": {
    "smn": {
