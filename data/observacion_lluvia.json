@@ -1,0 +1,6 @@
+{
+ "descripcion": "Lluvia observada directamente (responsable del tablero o reportes confirmados) mientras las estaciones aún no la registran. Vence sola a las vigencia_horas o cuando la estación mide lluvia.",
+ "observaciones": [
+  {"localidad": "Corrientes Capital", "desde": "2026-11-18T07:28:00-03:00", "vigencia_horas": 3, "tipo": "lluvia", "fuente": "Observación directa en Corrientes Capital"}
+ ]
+}

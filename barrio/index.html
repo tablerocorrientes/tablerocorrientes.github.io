@@ -275,7 +275,7 @@ footer b{display:block;color:var(--ink)}
 <footer><b>Mag. Ing. Marcelo Cerdán</b>Analista Científico y Político Independiente</footer>
 </div>
 
-<script type="application/json" id="obs" data-src="/data/obs.json"></script>
+<script type="application/json" id="obs" data-src="/data/obs.json"></script><script type="application/json" id="obsman" data-src="/data/observacion_lluvia.json"></script>
 <script type="application/json" id="pron-data" data-src="/data/pron.json"></script>
 <script type="application/json" id="data" data-src="/data/barrio.json"></script>
 <script type="application/json" id="lluvia-c" data-src="/data/lluvia.json"></script>
@@ -348,7 +348,7 @@ if(stale){var s=$('stale');s.style.display='block';s.textContent='El pronóstico
 $('when').innerHTML=etiqueta(NOW.key).replace(/^./,function(c){return c.toUpperCase();})+'<br>'+String(NOW.h).padStart(2,'0')+':'+String(NOW.m).padStart(2,'0')+' h';
 (function(){
   var dd=D.dias[K0]||[], fv=(typeof tcFecha==='function')?tcFecha(D.actualizado):null, fviejo=fv!=null&&(Date.now()-fv)>12*3600000, r=(stale||fviejo)?null:(dd[HNOW]||0), ob=obsActiva();
-  if(ob)r=(ob.estado==='seca'?0:ob.estado==='llovizna'?Math.max(0.2,+ob.mm||0):(ob.mm!=null?+ob.mm:5));
+  if(ob&&ob.manual)r=Math.max(r||0,2);else if(ob)r=(ob.estado==='seca'?0:ob.estado==='llovizna'?Math.max(0.2,+ob.mm||0):(ob.mm!=null?+ob.mm:5));
   var mode=r===null?(NOW.h>=6&&NOW.h<19?'sol':'noche'):(r>=0.2?'lluvia':(HNOW>=6&&HNOW<19?'sol':'noche'));
   var hero=document.querySelector('.hero'), bg=$('rainbg'), g='';
   hero.classList.remove('m-sol','m-noche'); if(mode!=='lluvia')hero.classList.add('m-'+mode);
@@ -367,7 +367,7 @@ $('when').innerHTML=etiqueta(NOW.key).replace(/^./,function(c){return c.toUpperC
   var lbl={lluvia:'Lluvia ahora',sol:'Sin lluvia ahora',noche:'Sin lluvia ahora'}[mode];
   var hhmm=ob?new Date(ob.ts).toLocaleTimeString('es-AR',{hour:'2-digit',minute:'2-digit',hour12:false,timeZone:'America/Argentina/Cordoba'}):'';
   var hoyTot=0;if(OBS&&OBS.dia===K0&&OBS.registros){Object.keys(OBS.registros).forEach(function(k){hoyTot+=+OBS.registros[k]||0;});}
-  var obT=ob&&ob.estado==='llovizna'?(ob.intermitente?'Llovizna intermitente':'Llovizna en curso: '+(+ob.mm).toLocaleString('es-AR',{maximumFractionDigits:2})+' mm en la última hora')+(hoyTot>0?'; '+hoyTot.toLocaleString('es-AR',{maximumFractionDigits:1})+' mm en el día':''):ob?(ob.estado==='seca'||(ob.mm!=null&&+ob.mm<=0)?(hoyTot>0?'Hoy llovieron '+hoyTot.toLocaleString('es-AR',{maximumFractionDigits:1})+' mm; sin lluvia en la última hora':'Sin lluvia registrada hoy'):'Lluvia registrada: '+(ob.mm!=null?(+ob.mm).toLocaleString('es-AR',{maximumFractionDigits:1})+' mm en la última hora':ob.estado)):'';
+  var obT=ob&&ob.manual?'Está lloviendo desde las '+new Date(ob.desde).getHours()+':'+String(new Date(ob.desde).getMinutes()).padStart(2,'0')+' h (observación directa; la estación aún no publicó la hora en curso)':ob&&ob.estado==='llovizna'?(ob.intermitente?'Llovizna intermitente':'Llovizna en curso: '+(+ob.mm).toLocaleString('es-AR',{maximumFractionDigits:2})+' mm en la última hora')+(hoyTot>0?'; '+hoyTot.toLocaleString('es-AR',{maximumFractionDigits:1})+' mm en el día':''):ob?(ob.estado==='seca'||(ob.mm!=null&&+ob.mm<=0)?(hoyTot>0?'Hoy llovieron '+hoyTot.toLocaleString('es-AR',{maximumFractionDigits:1})+' mm; sin lluvia en la última hora':'Sin lluvia registrada hoy'):'Lluvia registrada: '+(ob.mm!=null?(+ob.mm).toLocaleString('es-AR',{maximumFractionDigits:1})+' mm en la última hora':ob.estado)):'';
   var lastReg=(OBS&&OBS.dia===K0&&OBS.ts)?new Date(OBS.ts).toLocaleTimeString('es-AR',{hour:'2-digit',minute:'2-digit',hour12:false,timeZone:'America/Argentina/Cordoba'}):null;
   $('when').innerHTML+='<br><span class="sky">'+(stale?'Pronóstico desactualizado':(ob?obT+' ('+hhmm+' h)':lbl+', estimado por pronóstico'+(lastReg?' (último registro de la estación: '+lastReg+' h)':' (sin registro de la estación)')))+'</span>';
 })();
@@ -389,7 +389,10 @@ document.getElementById('pav').checked=!state.tierra;
 var INT={llovizna:0.3,debil:2,moderada:8,fuerte:20};
 /* OBS lo carga la tarea horaria con los registros de la estación ICAA publicados en el SNIH:
    {"dia":"AAAA-MM-DD","registros":{"0":0,"1":0.2,...},"ultima_hora":16,"mm":0.0,"estado":"seca|debil|moderada|fuerte","ts":ms,"fuente":"SNIH, estación ICAA"} */
-function obsActiva(){var o=OBS; if(!o||!o.ts)return null; var age=(Date.now()-o.ts)/3600000; if(age<0||age>4.75)return null; return o;}
+function obsActiva(){var o=OBS,ok=!!(o&&o.ts);if(ok){var age=(Date.now()-o.ts)/3600000;if(age<0||age>4.75)ok=false;}
+  var J=null;try{J=JSON.parse(document.getElementById('obsman').textContent);}catch(e){}var M=window.tcObsVigente?tcObsVigente(J,'Corrientes Capital'):null;
+  if(M&&(!ok||o.estado==='seca'||!(+o.mm>0)))return {estado:'lluvia',mm:null,manual:true,desde:Date.parse(M.desde),ts:Date.now()};
+  return ok?o:null;}
 function base(k){var r=(D.dias[k]||new Array(24).fill(0)).slice(), o=OBS;
   if(o&&o.dia===k&&o.registros&&!stale){Object.keys(o.registros).forEach(function(h){var v=o.registros[h];if(v!=null&&+h<=HNOW)r[+h]=+v;});}
   var a=obsActiva();
