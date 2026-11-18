@@ -1,10 +1,10 @@
 {
- "actualizado": "17/11/2026, 23:15 h",
+ "actualizado": "18/11/2026, 01:10 h",
  "metodo": "estimación derivada de modelos y del parte del SMN",
  "estado_alertas": "VERIFICADO_CON_ALERTAS",
  "estado_verificado": {
-  "fecha": "17/11/2026, 23:26 h",
-  "fuente": "SMN y COE de Corrientes"
+  "fecha": "18/11/2026, 01:10 h",
+  "fuente": "SMN (leído desde Corrientes) y COE de Corrientes"
  },
  "met_archivo": {
   "nombre": "vigilancia_meteorologica_20261113_183508.json",
@@ -17,22 +17,22 @@
   {
    "id_oficial": null,
    "tipo": "alerta",
-   "aviso": "Alerta naranja por tormenta del Servicio Meteorológico Nacional para la provincia de Corrientes, emitida a las 17:50 h, vigente desde las 18:00 h del martes 17/11 hasta las 17:59 h del miércoles 18/11. El resumen por provincia no detalla los departamentos. Sin avisos a muy corto plazo vigentes.",
+   "aviso": "Alerta naranja por tormenta del Servicio Meteorológico Nacional para la provincia de Corrientes, emitida a las 17:50 h del 17/11, vigente desde las 00:00 h hasta las 23:59 h del miércoles 18/11. El resumen por provincia no detalla los departamentos. Sin avisos a muy corto plazo para Corrientes.",
    "nivel": "naranja",
    "fenomeno": "tormenta",
    "rango_mm": null,
    "zonas": [
     "Corrientes (el SMN no detalla los departamentos en el resumen por provincia)"
    ],
-   "desde": "17/11/2026, 18:00 h",
-   "hasta": "18/11/2026, 17:59 h",
-   "desde_iso": "2026-11-17T18:00:00-03:00",
-   "hasta_iso": "2026-11-18T17:59:00-03:00",
+   "desde": "18/11/2026, 00:00 h",
+   "hasta": "18/11/2026, 23:59 h",
+   "desde_iso": "2026-11-18T00:00:00-03:00",
+   "hasta_iso": "2026-11-18T23:59:00-03:00",
    "emision": "17/11/2026, 17:50 h",
    "incluye_corrientes": true,
    "incluye_capital": null,
    "url": "https://www.smn.gob.ar/alertas",
-   "origen": "Servicio Meteorológico Nacional, página de alertas leída desde Corrientes el 17/11/2026 a las 20:40 h"
+   "origen": "Servicio Meteorológico Nacional, página de alertas leída desde Corrientes el 18/11/2026 a las 00:43 h"
   },
   {
    "id_oficial": "2026-0076-AT",
@@ -541,8 +541,8 @@
   ]
  },
  "horario_act": "17/11/2026, 18:37 h",
- "consultado": "17/11/2026, 23:26 h",
- "consulta_resultado": "sin cambios",
+ "consultado": "18/11/2026, 01:10 h",
+ "consulta_resultado": "datos nuevos",
  "extendido": {
   "actualizado": "18/11/2026, 00:57 h",
   "aviso": "Pronóstico extendido informativo. No se usa en los cálculos del simulador.",

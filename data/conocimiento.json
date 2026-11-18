@@ -1,5 +1,5 @@
 {
- "actualizado": "17/11/2026, 21:09 h",
+ "actualizado": "18/11/2026, 01:10 h",
  "explicacion": "Cada actualización suma registros: barrios afectados con la altura del río o la lluvia de ese día, obras terminadas, reportes de vecinos verificados y la comparación entre lo pronosticado y lo que ocurrió. Con esa comparación se detectan desvíos y se proponen ajustes a los cálculos, que revisa el autor del tablero.",
  "contadores": {
   "barrios_documentados": 87,
@@ -7,9 +7,16 @@
   "reportes_verificados": 0,
   "comparaciones_rio": 2,
   "comparaciones_lluvia": 4,
-  "aprendizajes": 69
+  "aprendizajes": 70
  },
  "aprendizajes": [
+  {
+   "fecha": "18/11/2026",
+   "tipo": "alerta",
+   "lugar": "Corrientes",
+   "dato": "El SMN informa la alerta naranja por tormenta para toda la provincia como vigente durante todo el miércoles 18/11, de 00:00 a 23:59 h.",
+   "fuente": "SMN, página de alertas, leída el 18/11/2026 a las 00:43 h"
+  },
   {
    "fecha": "17/11/2026",
    "tipo": "alerta",
