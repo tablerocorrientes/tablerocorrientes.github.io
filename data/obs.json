@@ -1,13 +1,19 @@
 {
  "dia": "2026-11-18",
- "registros": {},
- "registros_icaa": {},
- "registros_13805": {},
+ "registros": {
+  "0": 0
+ },
+ "registros_icaa": {
+  "0": 0
+ },
+ "registros_13805": {
+  "0": 0
+ },
  "indicador": "compuesto: máximo horario de ICAA y Corrientes 13805",
  "cobertura": {},
- "ultima_hora": null,
- "mm": null,
- "estado": null,
- "ts": 1794971184672,
+ "ultima_hora": 0,
+ "mm": 0,
+ "estado": "seca",
+ "ts": 1794971434274,
  "fuente": "SNIH, indicador compuesto (máximo horario de ICAA y Corrientes 13805)"
 }

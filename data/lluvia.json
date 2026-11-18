@@ -1,5 +1,5 @@
 {
- "actualizado": "18/11/2026, 00:06 h",
+ "actualizado": "18/11/2026, 00:10 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
@@ -61,11 +61,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 9.6,
-   "ultimo": "0 mm a las 23 h"
+   "ultimo": "0 mm a las 00 h"
   },
   {
    "localidad": "Corrientes Capital (estación 13805)",
@@ -95,11 +95,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 12.75,
-   "ultimo": "0 mm a las 23 h"
+   "ultimo": "0 mm a las 00 h"
   },
   {
    "localidad": "Garruchos",
@@ -265,11 +265,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 6.8,
-   "ultimo": "0 mm a las 23 h"
+   "ultimo": "0 mm a las 00 h"
   },
   {
    "localidad": "Bella Vista",
@@ -1115,11 +1115,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 23 h"
+   "ultimo": "0 mm a las 00 h"
   },
   {
    "localidad": "Pueblo Libertador",
@@ -1183,11 +1183,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 7.4,
-   "ultimo": "0 mm a las 23 h"
+   "ultimo": "0 mm a las 00 h"
   },
   {
    "localidad": "Mburucuyá",
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "18/11/2026, 00:06 h",
+ "consultado": "18/11/2026, 00:10 h",
  "consulta_resultado": "datos nuevos"
 }
