@@ -1,6 +1,6 @@
 {
- "consultado": "18/11/2026, 05:14 h",
- "consultado_iso": "2026-11-18T05:14-03:00",
+ "consultado": "18/11/2026, 05:16 h",
+ "consultado_iso": "2026-11-18T05:16-03:00",
  "paginas": {
   "smn_alertas": {
    "url": "https://www.smn.gob.ar/alertas",
@@ -55,7 +55,7 @@
   "lanacion_clima_corrientes": {
    "url": "https://www.lanacion.com.ar/clima/corrientes/",
    "estado": 200,
-   "caracteres": 8195,
+   "caracteres": 8174,
    "archivo": "data/fuentes/lanacion_clima_corrientes.txt"
   },
   "noaa_enso": {
@@ -153,11 +153,10 @@
   }
  },
  "pedidas": {
-  "https://api.open-meteo.com/v1/forecast?latitude=-27.47&longitude=-58.83&hourly=precipitation&timezone=America%2FArgentina%2FCordoba&forecast_days=6": {
-   "url": "https://api.open-meteo.com/v1/forecast?latitude=-27.47&longitude=-58.83&hourly=precipitation&timezone=America%2FArgentina%2FCordoba&forecast_days=6",
-   "estado": 200,
-   "caracteres": 3750,
-   "archivo": "data/fuentes/web/api_open_meteo_com_v1_forecast_latitude_27_47_longitude_58_83_hourly_precipitation_timezon.txt"
+  "https://api.open-meteo.com/v1/forecast?latitude=-27.47,-29.14,-30.01,-28.51,-29.18,-29.79,-29.71,-28.55,-28.05,-27.59,-30.25,-28.25&longitude=-58.83,-59.26,-59.53,-59.04,-58.08,-58.05,-57.09,-56.04,-56.03,-56.69,-57.64,-58.63&hourly=precipitation&timezone=America/Argentina/Buenos_Aires&forecast_days=2&models=best_match": {
+   "url": "https://api.open-meteo.com/v1/forecast?latitude=-27.47,-29.14,-30.01,-28.51,-29.18,-29.79,-29.71,-28.55,-28.05,-27.59,-30.25,-28.25&longitude=-58.83,-59.26,-59.53,-59.04,-58.08,-58.05,-57.09,-56.04,-56.03,-56.69,-57.64,-58.63&hourly=precipitation&timezone=America/Argentina/Buenos_Aires&forecast_days=2&models=best_match",
+   "estado": "error",
+   "detalle": "HTTP Error 429: Too Many Requests"
   }
  },
  "portales": {
@@ -186,5 +185,5 @@
    "archivo": "data/fuentes/portales/senado_corrientes.txt"
   }
  },
- "pedidas_consultado": "18/11/2026, 05:14 h"
+ "pedidas_consultado": "18/11/2026, 05:16 h"
 }
