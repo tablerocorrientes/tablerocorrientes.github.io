@@ -1,15 +1,22 @@
 {
- "actualizado": "18/11/2026, 01:10 h",
+ "actualizado": "18/11/2026, 05:21 h",
  "explicacion": "Cada actualización suma registros: barrios afectados con la altura del río o la lluvia de ese día, obras terminadas, reportes de vecinos verificados y la comparación entre lo pronosticado y lo que ocurrió. Con esa comparación se detectan desvíos y se proponen ajustes a los cálculos, que revisa el autor del tablero.",
  "contadores": {
   "barrios_documentados": 87,
   "obras": 0,
   "reportes_verificados": 0,
   "comparaciones_rio": 2,
-  "comparaciones_lluvia": 4,
-  "aprendizajes": 70
+  "comparaciones_lluvia": 5,
+  "aprendizajes": 71
  },
  "aprendizajes": [
+  {
+   "fecha": "18/11/2026",
+   "tipo": "alerta",
+   "lugar": "Bella Vista, Concepción, Empedrado, Mburucuyá, Mercedes, Saladas, San Luis del Palmar y San Roque",
+   "dato": "El SMN emitió a las 04:20 y 04:22 h avisos rojos a muy corto plazo por tormentas fuertes con lluvias intensas y granizo, válidos una hora; no incluyen a la Capital.",
+   "fuente": "SMN y COE de Corrientes (2026-0135-CP y 2026-0136-CP), 18/11/2026"
+  },
   {
    "fecha": "18/11/2026",
    "tipo": "alerta",
@@ -519,6 +526,12 @@
    }
   ],
   "lluvia": [
+   {
+    "fecha": "2026-11-17",
+    "localidad": "Corrientes Capital",
+    "pronosticado_mm": 0.0,
+    "medido_mm": 9.6
+   },
    {
     "fecha": "2026-11-14",
     "localidad": "Corrientes Capital",

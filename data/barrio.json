@@ -1,5 +1,5 @@
 {
- "actualizado": "17/11/2026, 19:20 h",
+ "actualizado": "18/11/2026, 05:21 h",
  "dias": {
   "2026-11-02": [
    0,
@@ -419,27 +419,27 @@
   ],
   "2026-11-18": [
    0.0,
+   0.0,
+   0.0,
+   0.0,
    0.1,
+   1.6,
+   4.6,
+   4.8,
+   6.0,
+   2.1,
+   2.4,
+   0.6,
+   0.4,
+   1.0,
+   1.9,
+   1.1,
+   0.3,
+   0.2,
    0.1,
-   0.1,
-   1.17,
-   1.17,
-   1.17,
-   7.87,
-   7.87,
-   7.87,
-   0.13,
-   0.13,
-   0.13,
-   0.87,
-   0.87,
-   0.87,
-   0.07,
-   0.07,
-   0.07,
-   0.03,
-   0.03,
-   0.03,
+   0.0,
+   0.0,
+   0.0,
    0.0,
    0.0
   ],
@@ -470,22 +470,22 @@
    0.0
   ],
   "2026-11-20": [
-   0.3,
-   0.8,
-   0.8,
-   0.8,
-   0.8,
-   0.8,
-   0.8,
-   5.03,
-   5.03,
-   5.03,
-   1.55,
-   1.55,
-   1.55,
-   0.32,
-   0.32,
-   0.32,
+   0.0,
+   0.0,
+   0.15,
+   0.0,
+   0.12,
+   0.12,
+   0.07,
+   0.03,
+   0.53,
+   0.63,
+   0.62,
+   1.02,
+   0.92,
+   0.53,
+   0.18,
+   0.13,
    0.0,
    0.0,
    0.0,
@@ -506,20 +506,46 @@
    0.0,
    0.0,
    0.0,
+   0.05,
+   0.0,
+   0.65,
+   0.5,
+   3.15,
+   0.05,
+   0.0,
+   0.0,
+   0.0,
    0.0,
    0.0,
    0.0,
    0.5,
+   0.5
+  ],
+  "2026-11-22": [
    0.5,
-   0.5,
-   3.0,
-   3.0,
-   3.0,
-   0.2,
-   0.2,
-   0.2,
-   0.1,
-   0.1
+   1.9,
+   1.9,
+   1.9,
+   0.6,
+   0.6,
+   0.6,
+   0.15,
+   0.15,
+   0.15,
+   0.0,
+   0.0,
+   0.0,
+   0.25,
+   0.25,
+   0.25,
+   0.0,
+   0.0,
+   0.0,
+   0.07,
+   0.07,
+   0.07,
+   0.0,
+   0.0
   ]
  },
  "alertas": {
@@ -573,6 +599,35 @@
   "evacuacion": 7.0
  },
  "fuentes": [
+  {
+   "g": "Actualización del 18/11/2026, 05:21 h",
+   "l": [
+    [
+     "Servicio Meteorológico Nacional, alertas",
+     "https://www.smn.gob.ar/alertas"
+    ],
+    [
+     "COE de Corrientes, alertas vigentes",
+     "https://coe.corrientes.gob.ar/"
+    ],
+    [
+     "COE de Corrientes, alerta naranja por tormentas 2026-0024-NT",
+     "https://coe.corrientes.gob.ar/a/2026-0024-NT"
+    ],
+    [
+     "Servicio Meteorológico Nacional, modelo numérico de pronóstico a 5 días",
+     "https://www.smn.gob.ar"
+    ],
+    [
+     "Open-Meteo, modelo horario de lluvia",
+     "https://open-meteo.com"
+    ],
+    [
+     "La Nación, parte del SMN para Corrientes",
+     "https://www.lanacion.com.ar/clima/corrientes/"
+    ]
+   ]
+  },
   {
    "g": "Actualización del 16/11/2026, 09:04 h",
    "l": [
@@ -1148,35 +1203,111 @@
   },
   "2026-11-18": {
    "smn": {
-    "texto": "Parte del SMN difundido por La Nación (03:27 h del 17/11): chaparrones y tormentas con 40 % de probabilidad en los tres tramos del día.",
+    "texto": "Alerta naranja del SMN por tormenta para toda la provincia de Corrientes durante el miércoles 18/11 (lectura del SMN de las 04:40 h). El COE de Corrientes (fuente SMN) mantiene para la Capital la alerta amarilla de 05:00 a 12:00 h, en curso, con 30 a 70 mm, y la alerta naranja de 06:00 a 13:00 h, con 70 a 120 mm y ráfagas de más de 90 km/h. A las 04:20 y 04:22 h el SMN emitió avisos a muy corto plazo por tormentas fuertes con lluvias intensas para Bella Vista, Concepción, Empedrado, Mburucuyá, Mercedes, Saladas, San Luis del Palmar y San Roque, que no incluyen la Capital y vencían a las 05:20 y 05:22 h. Parte del SMN difundido por La Nación (05:01 h): hoy tormentas fuertes por la mañana (70 %) y por la tarde (40 %) y chaparrones por la noche (40 %); mañana mayormente nublado (10 %).",
+    "mm": [
+     70,
+     120
+    ],
+    "u": "https://www.lanacion.com.ar/clima/corrientes/"
+   },
+   "modelos": [
+    {
+     "n": "Open-Meteo",
+     "mm": 27.2,
+     "act": "18/11, 05:21 h"
+    },
+    {
+     "n": "Modelo numérico del SMN",
+     "mm": 21.8,
+     "act": "18/11, 05:21 h"
+    }
+   ],
+   "usado": 27.2,
+   "criterio": "Con tormentas fuertes y 70 % según el parte del SMN se usa el modelo más alto, Open-Meteo, con 27,2 mm (modelo numérico del SMN: 21,8 mm). El rango de la alerta naranja (70 a 120 mm) no se usa como pronóstico central: queda como escenario severo. Estimación derivada, no una medición."
+  },
+  "2026-11-19": {
+   "smn": {
+    "texto": "Parte del SMN difundido por La Nación (05:01 h del 18/11): mañana jueves mayormente nublado (10 %) por la mañana y por la tarde, parcialmente nublado por la noche (0 %). Sin alerta prevista para esa fecha.",
     "mm": null,
     "u": "https://www.lanacion.com.ar/clima/corrientes/"
    },
    "modelos": [
     {
      "n": "Modelo numérico del SMN",
-     "mm": 30.7,
-     "act": "17/11, 05:09 h"
+     "mm": 0.0,
+     "act": "18/11, 05:21 h"
+    },
+    {
+     "n": "Open-Meteo",
+     "mm": 3.4,
+     "act": "18/11, 05:21 h"
     }
    ],
-   "usado": 30.7,
-   "criterio": "El SMN prevé 40 % de probabilidad: se usa el promedio de los modelos disponibles, solo el modelo numérico del SMN, con 30,7 mm. Reparto horario aproximado de los datos cada 3 horas. Estimación derivada, no una medición."
+   "usado": 0.0,
+   "criterio": "Con 10 % de probabilidad de tormentas se usa el modelo más bajo, el modelo numérico del SMN, con 0,0 mm (Open-Meteo: 3,4 mm). Estimación derivada, no una medición."
   },
-  "2026-11-19": {
+  "2026-11-20": {
    "smn": {
-    "texto": "Parte del SMN difundido por La Nación (actualizado a las 07:08 h del 14/11): parcialmente nublado, 10 %.",
+    "texto": "Parte del SMN difundido por La Nación (05:01 h del 18/11): el viernes tormentas aisladas por la mañana y por la tarde (40 %).",
     "mm": null,
     "u": "https://www.lanacion.com.ar/clima/corrientes/"
    },
    "modelos": [
     {
-     "n": "Agrofy (Open-Meteo)",
-     "mm": 16.4,
-     "act": "14/11, 08:13 h"
+     "n": "Modelo numérico del SMN",
+     "mm": 0.9,
+     "act": "18/11, 05:21 h"
+    },
+    {
+     "n": "Open-Meteo",
+     "mm": 9.2,
+     "act": "18/11, 05:21 h"
     }
    ],
-   "usado": 16.4,
-   "criterio": "Parte del SMN (La Nación, 07:08 h): parcialmente nublado, 10 %; el SMN prevé menos de 40 % de probabilidad: se usa el modelo más bajo (solo hay un modelo disponible para ese día): 16,4 mm. El modelo solo publica el total diario: el reparto horario es uniforme y no representa un horario real. Pronóstico de más de 48 h, de baja confiabilidad. Estimación derivada, no una medición."
+   "usado": 5.0,
+   "criterio": "Para este horizonte la fiabilidad del pronóstico extendido aún no está habilitada: se usa el promedio de los dos modelos. Estimación derivada, no una medición."
+  },
+  "2026-11-21": {
+   "smn": {
+    "texto": "Parte del SMN difundido por La Nación (05:01 h del 18/11): el sábado parcialmente nublado (0 %).",
+    "mm": null,
+    "u": "https://www.lanacion.com.ar/clima/corrientes/"
+   },
+   "modelos": [
+    {
+     "n": "Modelo numérico del SMN",
+     "mm": 0.0,
+     "act": "18/11, 05:21 h"
+    },
+    {
+     "n": "Open-Meteo",
+     "mm": 10.8,
+     "act": "18/11, 05:21 h"
+    }
+   ],
+   "usado": 5.4,
+   "criterio": "Para este horizonte la fiabilidad del pronóstico extendido aún no está habilitada: se usa el promedio de los dos modelos. Estimación derivada, no una medición."
+  },
+  "2026-11-22": {
+   "smn": {
+    "texto": "Parte del SMN difundido por La Nación (05:01 h del 18/11): el domingo tormentas aisladas (40 %).",
+    "mm": null,
+    "u": "https://www.lanacion.com.ar/clima/corrientes/"
+   },
+   "modelos": [
+    {
+     "n": "Modelo numérico del SMN",
+     "mm": 0.4,
+     "act": "18/11, 05:21 h"
+    },
+    {
+     "n": "Open-Meteo",
+     "mm": 18.4,
+     "act": "18/11, 05:21 h"
+    }
+   ],
+   "usado": 9.4,
+   "criterio": "Para este horizonte la fiabilidad del pronóstico extendido aún no está habilitada: se usa el promedio de los dos modelos. Estimación derivada, no una medición."
   }
  },
  "estado_alertas": "VERIFICADO_CON_ALERTAS"
