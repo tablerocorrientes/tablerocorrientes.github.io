@@ -132,8 +132,8 @@ fecha,localidad,pronosticado_mm,llovido_mm,horas_medidas,hora_mas_lluviosa,alert
 2026-11-18,Bella Vista,24.5,4.8,10,05 a 06 h,rojo,70 a 120,si
 2026-11-18,Bonpland,,1.4,10,05 a 06 h,naranja,,
 2026-11-18,Caá Catí,,0,10,,naranja,,
-2026-11-18,Colonia Carlos Pellegrini,,0,1,,naranja,,
-2026-11-18,Corrientes Capital,30.7,0.4,10,07 a 08 h,rojo,70 a 120,
+2026-11-18,Colonia Carlos Pellegrini,,1.5,2,07 a 08 h,naranja,,si
+2026-11-18,Corrientes Capital,30.7,6.6,11,10 a 11 h,rojo,70 a 120,si
 2026-11-18,Curuzú Cuatiá,0.9,1.4,10,06 a 07 h,rojo,70 a 120,
 2026-11-18,Esquina,5.6,,,,rojo,70 a 120,
 2026-11-18,Garruchos,,0,2,,naranja,,
@@ -153,6 +153,6 @@ fecha,localidad,pronosticado_mm,llovido_mm,horas_medidas,hora_mas_lluviosa,alert
 2026-11-18,Pueblo Libertador,,0.75,10,04 a 05 h,naranja,,
 2026-11-18,Saladas,35,,,,rojo,70 a 120,
 2026-11-18,San Carlos,,0,10,,naranja,,
-2026-11-18,San Roquito,,0,1,,naranja,,
+2026-11-18,San Roquito,,0.25,2,07 a 08 h,naranja,,
 2026-11-18,Santa Lucía,,0.25,10,06 a 07 h,naranja,,
 2026-11-18,Santo Tomé,17.1,0.2,10,08 a 09 h,naranja,70 a 120,

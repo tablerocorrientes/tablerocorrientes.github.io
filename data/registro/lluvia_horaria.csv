@@ -233,6 +233,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-17,19,Colonia Carlos Pellegrini,Carlos Pellegrini,13826,0
 2026-11-17,23,Colonia Carlos Pellegrini,Carlos Pellegrini,13826,0
 2026-11-18,03,Colonia Carlos Pellegrini,Carlos Pellegrini,13826,0
+2026-11-18,07,Colonia Carlos Pellegrini,Carlos Pellegrini,13826,1.5
 2026-11-01,23,San Roquito,San Roquito,13832,0
 2026-11-02,03,San Roquito,San Roquito,13832,0
 2026-11-02,07,San Roquito,San Roquito,13832,0
@@ -270,6 +271,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-17,19,San Roquito,San Roquito,13832,0
 2026-11-17,23,San Roquito,San Roquito,13832,0
 2026-11-18,03,San Roquito,San Roquito,13832,0
+2026-11-18,07,San Roquito,San Roquito,13832,0.25
 2026-11-01,23,Santa Lucía,Santa Lucia,13836,0
 2026-11-02,00,Santa Lucía,Santa Lucia,13836,0
 2026-11-02,01,Santa Lucía,Santa Lucia,13836,0
@@ -2258,6 +2260,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-18,07,Corrientes Capital,ICAA,283906,0.4
 2026-11-18,08,Corrientes Capital,ICAA,283906,0
 2026-11-18,09,Corrientes Capital,ICAA,283906,0
+2026-11-18,10,Corrientes Capital,ICAA,283906,6.2
 2026-11-01,23,Santo Tomé,Santo Tomé –Corrientes,283907,0
 2026-11-02,00,Santo Tomé,Santo Tomé –Corrientes,283907,0
 2026-11-02,01,Santo Tomé,Santo Tomé –Corrientes,283907,0
