@@ -15,6 +15,7 @@ fecha_hora,rio,puerto,altura_m,alerta_m,evacuacion_m,estado,fuente
 2026-11-11T07:00,Uruguay,Alvear,9.14,9.5,11,verificado,CTM Salto Grande
 2026-11-12T07:00,Uruguay,Alvear,9.26,9.5,11,verificado,CTM Salto Grande
 2026-11-13T07:00,Uruguay,Alvear,9,9.5,11,verificado,CTM Salto Grande
+2026-11-14T07:00,Uruguay,Alvear,8.44,9.5,11.0,normal,CTM Salto Grande https://www.saltogrande.org/docs/hidrologia/CaudalesNiveles.pdf
 2026-10-01T01:20,Paraná,Bella Vista,4.41,6,6.4,verificado,CIM/UNL
 2026-10-02T06:05,Paraná,Bella Vista,4.34,6,6.4,verificado,CIM/UNL
 2026-10-03T06:59,Paraná,Bella Vista,4.26,6,6.4,verificado,CIM/UNL
@@ -176,6 +177,7 @@ fecha_hora,rio,puerto,altura_m,alerta_m,evacuacion_m,estado,fuente
 2026-11-11T07:00,Uruguay,Garruchos,10.82,12,14,verificado,CTM Salto Grande
 2026-11-12T07:00,Uruguay,Garruchos,8.4,12,14,verificado,CTM Salto Grande
 2026-11-13T07:00,Uruguay,Garruchos,6.37,12,14,verificado,CTM Salto Grande
+2026-11-14T07:00,Uruguay,Garruchos,6.52,12,14,normal,CTM Salto Grande https://www.saltogrande.org/docs/hidrologia/CaudalesNiveles.pdf
 2026-10-01T01:20,Paraná,Goya,4.18,5.2,5.7,verificado,CIM/UNL
 2026-10-02T06:05,Paraná,Goya,4.12,5.2,5.7,verificado,CIM/UNL
 2026-10-03T06:59,Paraná,Goya,4.1,5.2,5.7,verificado,CIM/UNL
@@ -393,6 +395,7 @@ fecha_hora,rio,puerto,altura_m,alerta_m,evacuacion_m,estado,fuente
 2026-11-12T07:00,Uruguay,Paso de los Libres,7.86,7.5,8.5,verificado,CTM Salto Grande
 2026-11-13,Uruguay,Paso de los Libres,7.99,,,verificado,"INA, reporte diario del 13/11, https://alerta.ina.gob.ar/a5/diario/pdf/reporte_diario_2026-11-13.pdf"
 2026-11-13T07:00,Uruguay,Paso de los Libres,7.98,7.5,8.5,verificado,CTM Salto Grande
+2026-11-14T07:00,Uruguay,Paso de los Libres,7.7,7.5,8.5,alerta,CTM Salto Grande https://www.saltogrande.org/docs/hidrologia/CaudalesNiveles.pdf
 2026-11-16T12:00,Uruguay,Paso de los Libres,6.99,7.5,8.5,pendiente,CTM Salto Grande
 2026-10-29T07:00,Uruguay,Santo Tomé,10.2,11.5,12.5,verificado,INA
 2026-10-30T07:00,Uruguay,Santo Tomé,8.9,11.5,12.5,verificado,INA
@@ -411,6 +414,7 @@ fecha_hora,rio,puerto,altura_m,alerta_m,evacuacion_m,estado,fuente
 2026-11-12T07:00,Uruguay,Santo Tomé,10.1,11.5,12.5,verificado,CTM Salto Grande
 2026-11-13,Uruguay,Santo Tomé,8.9,,,verificado,"INA, reporte diario del 13/11, https://alerta.ina.gob.ar/a5/diario/pdf/reporte_diario_2026-11-13.pdf"
 2026-11-13T07:00,Uruguay,Santo Tomé,8.5,11.5,12.5,verificado,CTM Salto Grande
+2026-11-14T07:00,Uruguay,Santo Tomé,7.88,11.5,12.5,normal,CTM Salto Grande https://www.saltogrande.org/docs/hidrologia/CaudalesNiveles.pdf
 2026-11-16T12:00,Uruguay,Santo Tomé,7.28,11.5,12.5,pendiente,CTM Salto Grande
 2026-11-01T00:00,Uruguay,Yapeyú,7.98,9.5,10.5,verificado,Prefectura Naval Argentina vía INA-SIyAH
 2026-11-13T12:00,Uruguay,Yapeyú,8.4,9.5,10.5,pendiente,Prefectura Naval Argentina vía INA-SIyAH

@@ -15,4 +15,6 @@ Tablas en formato CSV (se abren con Excel, Google Sheets o cualquier herramienta
 | `evacuados_total.csv` | Total provincial de personas fuera de sus casas | 16/10/2026 |
 | `resumen_diario_lluvia.csv` | Por día y localidad: pronosticado, llovido, hora más lluviosa, alerta máxima y si la alerta cubrió las horas de mayor lluvia | 12/11/2026 |
 
+La carpeta `historico_inicial/` conserva, sin cambios, las series de altura de los ríos Paraná y Uruguay recopiladas antes del sitio (desde el 01/10/2026), que también están incorporadas a `rios.csv`.
+
 Además, `data/bitacora/` guarda por mes el detalle diario completo (lluvia hora por hora, pronóstico al comenzar el día y alertas), y el historial de cambios del repositorio conserva cada versión de todos los archivos.

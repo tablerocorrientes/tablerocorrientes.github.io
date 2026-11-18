@@ -230,6 +230,23 @@ def de_bitacora(T, D):
             poner(T, 'resumen_diario_lluvia.csv', {'fecha': f, 'localidad': loc, 'pronosticado_mm': pron.get(loc), 'llovido_mm': tot, 'horas_medidas': n, 'hora_mas_lluviosa': ('%02d a %02d h' % (hm, hm + 1)) if hm is not None else '', 'alerta_maxima': amx.get('nivel') if amx else '', 'rango_alerta_mm': ('%s a %s' % tuple(rg)) if rg else '', 'alerta_cubrio_horas_de_mayor_lluvia': cub}, reemplazar=True)
 
 
+def de_historico_inicial(T):
+    """Series de ríos recopiladas antes del sitio (carpeta data/registro/historico_inicial)."""
+    d = os.path.join(DIR, 'historico_inicial')
+    if not os.path.isdir(d):
+        return
+    for fn in sorted(os.listdir(d)):
+        if not fn.endswith('.csv'):
+            continue
+        with open(os.path.join(d, fn), encoding='utf-8', newline='') as f:
+            for r in csv.DictReader(f):
+                try:
+                    alt = float(r.get('altura_m'))
+                except Exception:
+                    continue
+                poner(T, 'rios.csv', {'fecha_hora': str(r.get('fecha_hora_observacion', ''))[:16], 'rio': r.get('rio'), 'puerto': r.get('puerto'), 'altura_m': alt, 'alerta_m': r.get('cota_alerta_m'), 'evacuacion_m': r.get('cota_evacuacion_m'), 'estado': r.get('estado'), 'fuente': ((r.get('fuente') or '') + (' ' + r['url_fuente'] if r.get('url_fuente') else '')).strip()})
+
+
 ARCH = {'hist': 'data/hist.json', 'hist_propio': 'data/hist_propio.json', 'puertos': 'data/puertos.json', 'lluvia': 'data/lluvia.json', 'pron': 'data/pron.json', 'evac': 'data/evac.json', 'smn': 'data/fuentes/smn_alertas_local.json', 'esp': 'data/esperado_dia.json'}
 
 
@@ -281,6 +298,7 @@ def main():
         except Exception:
             pass
     procesar(T, D, datetime.now(ART).strftime('%Y-%m-%dT%H:%M'))
+    de_historico_inicial(T)
     de_bitacora(T, D)
     for n in TABLAS:
         guardar(n, T[n])
