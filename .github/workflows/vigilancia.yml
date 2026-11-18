@@ -32,11 +32,12 @@ jobs:
             for i in 1 2 3; do
               git fetch -q --depth 1 origin main && git reset -q --hard origin/main
               python3 tareas/esperado_dia.py || true
+              python3 tareas/registro.py || true
               python3 tareas/snih_lluvia.py || true
               python3 tareas/satelite.py || true
               if [ $((N % 2)) -eq 1 ]; then python3 tareas/fuentes_oficiales.py || true; fi
               if [ $((N % 4)) -eq 1 ]; then python3 tareas/extendido_ciudades.py || true; fi
-              git add data/esperado_dia.json data/bitacora data/lluvia.json data/obs.json data/sat.json assets/sat.jpg data/fuentes data/pron.json
+              git add data/esperado_dia.json data/bitacora data/registro data/lluvia.json data/obs.json data/sat.json assets/sat.jpg data/fuentes data/pron.json
               if git diff --cached --quiet; then echo "Ciclo $N: sin cambios"; break; fi
               git commit -qm "Vigilancia (automática): lluvia, satélite y fuentes oficiales, $(TZ=America/Argentina/Buenos_Aires date '+%d/%m/%Y %H:%M') h"
               git push -q origin HEAD:main && { echo "Ciclo $N publicado"; break; }
