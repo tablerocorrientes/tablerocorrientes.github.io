@@ -279,6 +279,18 @@
    "rango_mm": null,
    "incluye_capital": null,
    "origen": "Servicio Meteorológico Nacional, página de alertas leída desde Corrientes el 17/11/2026 a las 12:40 h"
+  },
+  {
+   "nivel": "naranja",
+   "fenomeno": "tormenta",
+   "desde_iso": "2026-11-17T18:00:00-03:00",
+   "hasta_iso": "2026-11-18T17:59:00-03:00",
+   "zonas": [
+    "Corrientes (el SMN no detalla los departamentos en el resumen por provincia)"
+   ],
+   "rango_mm": null,
+   "incluye_capital": null,
+   "origen": "Servicio Meteorológico Nacional, página de alertas leída desde Corrientes el 17/11/2026 a las 20:40 h"
   }
  ]
 }

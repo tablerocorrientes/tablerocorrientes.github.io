@@ -1,5 +1,5 @@
 {
- "actualizado": "17/11/2026, 21:02 h",
+ "actualizado": "17/11/2026, 21:18 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
@@ -95,11 +95,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 12.75,
-   "ultimo": "0 mm a las 20 h"
+   "ultimo": "0 mm a las 21 h"
   },
   {
    "localidad": "Garruchos",
@@ -128,12 +128,12 @@
     null,
     null,
     null,
-    null,
+    0,
     null,
     null
    ],
    "total": 10.75,
-   "ultimo": "0,25 mm a las 16 h"
+   "ultimo": "0 mm a las 20 h"
   },
   {
    "localidad": "Colonia Carlos Pellegrini",
@@ -162,12 +162,12 @@
     null,
     null,
     null,
-    null,
+    0,
     null,
     null
    ],
    "total": 23.0,
-   "ultimo": "0,25 mm a las 16 h"
+   "ultimo": "0 mm a las 20 h"
   },
   {
    "localidad": "San Carlos",
@@ -197,11 +197,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 20 h"
+   "ultimo": "0 mm a las 21 h"
   },
   {
    "localidad": "Santa Lucía",
@@ -231,11 +231,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 20 h"
+   "ultimo": "0 mm a las 21 h"
   },
   {
    "localidad": "La Palmira",
@@ -265,11 +265,11 @@
     0,
     0,
     0.2,
-    null,
+    0,
     null
    ],
    "total": 6.8,
-   "ultimo": "0,2 mm a las 20 h"
+   "ultimo": "0 mm a las 21 h"
   },
   {
    "localidad": "Bella Vista",
@@ -673,11 +673,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 5.4,
-   "ultimo": "0 mm a las 20 h"
+   "ultimo": "0 mm a las 21 h"
   },
   {
    "localidad": "Gobernador Virasoro",
@@ -706,12 +706,12 @@
     null,
     null,
     null,
-    null,
+    0,
     null,
     null
    ],
    "total": 21.5,
-   "ultimo": "0 mm a las 16 h"
+   "ultimo": "0 mm a las 20 h"
   },
   {
    "localidad": "Los Laureles",
@@ -775,11 +775,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 20 h"
+   "ultimo": "0 mm a las 21 h"
   },
   {
    "localidad": "Mercedes",
@@ -1080,12 +1080,12 @@
     null,
     null,
     null,
-    null,
+    0,
     null,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 16 h"
+   "ultimo": "0 mm a las 20 h"
   },
   {
    "localidad": "Caá Catí",
@@ -1115,11 +1115,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 20 h"
+   "ultimo": "0 mm a las 21 h"
   },
   {
    "localidad": "Pueblo Libertador",
@@ -1149,11 +1149,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 2,
-   "ultimo": "0 mm a las 20 h"
+   "ultimo": "0 mm a las 21 h"
   },
   {
    "localidad": "Itá Ibaté",
@@ -1183,11 +1183,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 7.4,
-   "ultimo": "0 mm a las 20 h"
+   "ultimo": "0 mm a las 21 h"
   },
   {
    "localidad": "Mburucuyá",
@@ -1217,11 +1217,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 3.0,
-   "ultimo": "0 mm a las 20 h"
+   "ultimo": "0 mm a las 21 h"
   },
   {
    "localidad": "Bonpland",
@@ -1251,11 +1251,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0.4,
-   "ultimo": "0 mm a las 20 h"
+   "ultimo": "0 mm a las 21 h"
   },
   {
    "localidad": "Bella Vista",
@@ -1285,11 +1285,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 7.6,
-   "ultimo": "0 mm a las 20 h"
+   "ultimo": "0 mm a las 21 h"
   },
   {
    "localidad": "Curuzú Cuatiá",
@@ -1319,11 +1319,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 1.0,
-   "ultimo": "0 mm a las 20 h"
+   "ultimo": "0 mm a las 21 h"
   },
   {
    "localidad": "Parque Nacional Iberá",
@@ -1557,11 +1557,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 15.6,
-   "ultimo": "0 mm a las 20 h"
+   "ultimo": "0 mm a las 21 h"
   },
   {
    "localidad": "El Sombrerito",
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "17/11/2026, 21:02 h",
+ "consultado": "17/11/2026, 21:18 h",
  "consulta_resultado": "datos nuevos"
 }
