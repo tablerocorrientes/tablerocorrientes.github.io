@@ -182,6 +182,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-17,19,Gobernador Virasoro,La Sirena,13811,0
 2026-11-17,23,Gobernador Virasoro,La Sirena,13811,0
 2026-11-18,03,Gobernador Virasoro,La Sirena,13811,0
+2026-11-18,07,Gobernador Virasoro,La Sirena,13811,0.75
 2026-11-01,23,Colonia Carlos Pellegrini,Carlos Pellegrini,13826,0
 2026-11-02,03,Colonia Carlos Pellegrini,Carlos Pellegrini,13826,0
 2026-11-02,07,Colonia Carlos Pellegrini,Carlos Pellegrini,13826,0.25
@@ -501,6 +502,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-17,19,Garruchos,Garruchos,13857,0
 2026-11-17,23,Garruchos,Garruchos,13857,0
 2026-11-18,03,Garruchos,Garruchos,13857,0
+2026-11-18,07,Garruchos,Garruchos,13857,0
 2026-11-01,23,San Carlos,San Carlos,13864,0
 2026-11-02,00,San Carlos,San Carlos,13864,0
 2026-11-02,01,San Carlos,San Carlos,13864,0
@@ -1911,6 +1913,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-17,19,Portal Galarza,Portal Galarza,283904,0
 2026-11-17,23,Portal Galarza,Portal Galarza,283904,0
 2026-11-18,03,Portal Galarza,Portal Galarza,283904,0
+2026-11-18,07,Portal Galarza,Portal Galarza,283904,0
 2026-11-01,23,Itá Ibaté,Puerto Ita Ibate,283905,0
 2026-11-02,00,Itá Ibaté,Puerto Ita Ibate,283905,0
 2026-11-02,01,Itá Ibaté,Puerto Ita Ibate,283905,0

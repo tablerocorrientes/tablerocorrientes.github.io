@@ -4122,6 +4122,79 @@
    "rango_mm": null,
    "incluye_capital": false,
    "origen": "COE de Corrientes (reporte 2026-0139-CP), consultado el 18/11/2026 a las 07:09 h"
+  },
+  {
+   "nivel": "naranja",
+   "fenomeno": "tormenta",
+   "desde_iso": "2026-11-18T06:00:00-03:00",
+   "hasta_iso": "2026-11-19T05:59:00-03:00",
+   "zonas": [
+    "Corrientes (el SMN no detalla los departamentos en el resumen por provincia)"
+   ],
+   "rango_mm": null,
+   "incluye_capital": null,
+   "origen": "Servicio Meteorológico Nacional, página de alertas leída desde Corrientes el 18/11/2026 a las 08:43 h"
+  },
+  {
+   "nivel": "rojo",
+   "fenomeno": "tormenta",
+   "desde_iso": "2026-11-18T07:51:00-03:00",
+   "hasta_iso": "2026-11-18T09:51:00-03:00",
+   "zonas": [
+    "Berón de Astrada",
+    "Capital",
+    "Concepción",
+    "Empedrado",
+    "General Paz",
+    "Itatí",
+    "Mburucuyá",
+    "Saladas",
+    "San Cosme",
+    "San Luis del Palmar",
+    "San Miguel"
+   ],
+   "rango_mm": null,
+   "incluye_capital": true,
+   "origen": "Servicio Meteorológico Nacional (lectura desde Corrientes de las 08:43 h) y COE de Corrientes (reporte 2026-0140-CP), consultado el 18/11/2026 a las 08:56 h"
+  },
+  {
+   "nivel": null,
+   "fenomeno": "tormenta",
+   "desde_iso": "2026-11-18T08:03:00-03:00",
+   "hasta_iso": "2026-11-18T10:03:00-03:00",
+   "zonas": [
+    "San Cosme"
+   ],
+   "rango_mm": null,
+   "incluye_capital": false,
+   "origen": "Servicio Meteorológico Nacional, página de alertas leída desde Corrientes el 18/11/2026 a las 08:43 h"
+  },
+  {
+   "nivel": null,
+   "fenomeno": "tormenta",
+   "desde_iso": "2026-11-18T08:09:00-03:00",
+   "hasta_iso": "2026-11-18T10:09:00-03:00",
+   "zonas": [
+    "Bella Vista",
+    "Concepción",
+    "Curuzú Cuatiá",
+    "Esquina",
+    "Goya",
+    "Ituzaingó",
+    "Lavalle",
+    "Mburucuyá",
+    "Mercedes",
+    "Monte Caseros",
+    "Paso de los Libres",
+    "Saladas",
+    "San Martín",
+    "San Miguel",
+    "San Roque",
+    "Sauce"
+   ],
+   "rango_mm": null,
+   "incluye_capital": false,
+   "origen": "Servicio Meteorológico Nacional, página de alertas leída desde Corrientes el 18/11/2026 a las 08:43 h"
   }
  ],
  "horario_capital": [
@@ -4601,7 +4674,7 @@
    null,
    null,
    null,
-   null,
+   0.75,
    null,
    null,
    null,
@@ -4653,7 +4726,7 @@
    null,
    null,
    null,
-   null,
+   0.0,
    null,
    null,
    null,
@@ -4679,7 +4752,7 @@
    null,
    null,
    null,
-   null,
+   0.0,
    null,
    null,
    null,
