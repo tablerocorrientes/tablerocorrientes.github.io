@@ -1,5 +1,5 @@
 {
- "actualizado": "18/11/2026, 15:13 h",
+ "actualizado": "18/11/2026, 15:46 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
@@ -1285,11 +1285,11 @@
     0.6,
     2.0,
     0,
-    0,
+    0.2,
     null
    ],
-   "total": 9.4,
-   "ultimo": "0 mm a las 15 h"
+   "total": 9.6,
+   "ultimo": "0,2 mm a las 15 h"
   },
   {
    "localidad": "Curuzú Cuatiá",
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "18/11/2026, 15:30 h",
- "consulta_resultado": "sin cambios"
+ "consultado": "18/11/2026, 15:46 h",
+ "consulta_resultado": "datos nuevos"
 }

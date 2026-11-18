@@ -1,6 +1,6 @@
 {
- "consultado": "18/11/2026, 15:14 h",
- "consultado_iso": "2026-11-18T15:14-03:00",
+ "consultado": "18/11/2026, 15:47 h",
+ "consultado_iso": "2026-11-18T15:47-03:00",
  "paginas": {
   "smn_alertas": {
    "url": "https://www.smn.gob.ar/alertas",
@@ -26,12 +26,11 @@
     "https://coe.corrientes.gob.ar/a/2026-0140-CP",
     "https://coe.corrientes.gob.ar/a/2026-0139-CP",
     "https://coe.corrientes.gob.ar/a/2026-0138-CP",
-    "https://coe.corrientes.gob.ar/a/2026-0137-CP",
     "https://coe.corrientes.gob.ar/a/2026-0078-AT",
     "https://coe.corrientes.gob.ar/a/2026-0025-NT"
    ],
    "estado": 200,
-   "caracteres": 4393,
+   "caracteres": 4143,
    "archivo": "data/fuentes/coe_inicio.txt"
   },
   "ina_reporte_diario": {
@@ -54,7 +53,7 @@
   "lanacion_clima_corrientes": {
    "url": "https://www.lanacion.com.ar/clima/corrientes/",
    "estado": 200,
-   "caracteres": 8064,
+   "caracteres": 8134,
    "archivo": "data/fuentes/lanacion_clima_corrientes.txt"
   },
   "noaa_enso": {
@@ -135,7 +134,7 @@
   "coe_a_2026_0148_CP": {
    "url": "https://coe.corrientes.gob.ar/a/2026-0148-CP",
    "estado": 200,
-   "caracteres": 2251,
+   "caracteres": 2247,
    "archivo": "data/fuentes/coe_a_2026_0148_CP.txt"
   },
   "coe_a_2026_0147_CP": {
