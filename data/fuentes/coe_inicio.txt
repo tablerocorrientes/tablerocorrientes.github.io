@@ -1,7 +1,7 @@
 Fuente: https://coe.corrientes.gob.ar/
-Consultado: 18/11/2026, 14:42 h
+Consultado: 18/11/2026, 15:14 h
 
-5 alertas vigentes — COE Corrientes
+4 alertas vigentes — COE Corrientes
 Alertas del COE - Comando Operativo de Emergencias
 Instituto de
 Modernización e Innovación
@@ -14,7 +14,7 @@ Alertas hidrometeorológicas
 Avisos emitidos por el Comando Operativo de Emergencias de Corrientes por
 crecidas, tormentas, lluvias y vientos.
 Tocá una alerta para ver la pieza completa con el mapa del área alcanzada.
-Vigentes ahora 5
+Vigentes ahora 4
 Alerta Roja
 En curso
 Granizo · Lluvias intensas · Ràfagas · Tormentas
@@ -22,13 +22,6 @@ Capital, Empedrado, Itatí, San Cosme, San Luis del Palmar
 Aviso a corto plazo por granizo, lluvias intensas, ràfagas y tormentas. Afecta a 5 departamentos de la provincia.
 Empezó miércoles 18/11 · 14:32 h
 Termina miércoles 18/11 · 15:32 h
-Alerta Roja
-En curso
-Granizo · Lluvias intensas · Ràfagas · Tormentas
-Capital, Empedrado, San Cosme, San Luis del Palmar
-Aviso a corto plazo por granizo, lluvias intensas, ràfagas y tormentas. Afecta a 4 departamentos de la provincia.
-Empezó miércoles 18/11 · 13:51 h
-Termina miércoles 18/11 · 14:51 h
 Alerta Roja
 En curso
 Granizo · Lluvias intensas · Tormentas
@@ -52,7 +45,12 @@ Recibí las alertas en tu teléfono
 Unirme por WhatsApp
 Escaneá el código o tocá el botón. Es un canal de sólo lectura
 para recibir y consultar los avisos del COE.
-Anteriores 93
+Anteriores 94
+Roja
+Granizo · Lluvias intensas · Ràfagas · Tormentas
+Capital, Empedrado, San Cosme, San Luis del Palmar
+18/11/2026
+13:51 a 14:51
 Roja
 Granizo · Lluvias intensas · Ràfagas · Tormentas
 Concepción, Curuzú Cuatiá, Esquina, Goya, Ituzaingó, Lavalle, Mercedes, Paso de los Libres, San Martín, San Roque, Sauce
@@ -98,11 +96,6 @@ Tormentas
 Bella Vista, Goya, Lavalle, San Roque
 18/11/2026
 05:37 a 06:37
-Roja
-Tormentas
-Bella Vista, Concepción, Mercedes, San Roque
-18/11/2026
-04:22 a 05:22
 ← Más recientes
 Página 1 de 10
 Más antiguas →
