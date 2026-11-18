@@ -4081,6 +4081,47 @@
    "rango_mm": null,
    "incluye_capital": null,
    "origen": "Servicio Meteorológico Nacional, página de alertas leída desde Corrientes el 18/11/2026 a las 00:43 h"
+  },
+  {
+   "nivel": "rojo",
+   "fenomeno": "tormenta",
+   "desde_iso": "2026-11-18T06:16:00-03:00",
+   "hasta_iso": "2026-11-18T08:16:00-03:00",
+   "zonas": [
+    "Bella Vista",
+    "Concepción",
+    "Curuzú Cuatiá",
+    "Esquina",
+    "Goya",
+    "Ituzaingó",
+    "Lavalle",
+    "Mercedes",
+    "Monte Caseros",
+    "Paso de los Libres",
+    "Saladas",
+    "San Miguel",
+    "San Roque",
+    "Sauce"
+   ],
+   "rango_mm": null,
+   "incluye_capital": false,
+   "origen": "COE de Corrientes (reporte 2026-0138-CP), consultado el 18/11/2026 a las 07:09 h"
+  },
+  {
+   "nivel": "rojo",
+   "fenomeno": "tormenta",
+   "desde_iso": "2026-11-18T06:52:00-03:00",
+   "hasta_iso": "2026-11-18T07:52:00-03:00",
+   "zonas": [
+    "Empedrado",
+    "General Paz",
+    "Mburucuyá",
+    "Saladas",
+    "San Luis del Palmar"
+   ],
+   "rango_mm": null,
+   "incluye_capital": false,
+   "origen": "COE de Corrientes (reporte 2026-0139-CP), consultado el 18/11/2026 a las 07:09 h"
   }
  ],
  "horario_capital": [
