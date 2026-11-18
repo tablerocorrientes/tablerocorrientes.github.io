@@ -1,7 +1,7 @@
 Fuente: https://coe.corrientes.gob.ar/
-Consultado: 18/11/2026, 11:20 h
+Consultado: 18/11/2026, 11:56 h
 
-6 alertas vigentes — COE Corrientes
+7 alertas vigentes — COE Corrientes
 Alertas del COE - Comando Operativo de Emergencias
 Instituto de
 Modernización e Innovación
@@ -14,13 +14,19 @@ Alertas hidrometeorológicas
 Avisos emitidos por el Comando Operativo de Emergencias de Corrientes por
 crecidas, tormentas, lluvias y vientos.
 Tocá una alerta para ver la pieza completa con el mapa del área alcanzada.
-Vigentes ahora 6
+Vigentes ahora 7
 Alerta Roja
 En curso
 Granizo · Lluvias intensas · Ràfagas · Tormentas
-Concepción, Empedrado, General Paz, Mburucuyá, San Luis del Palmar, San Miguel
-Empezó miércoles 18/11 · 10:57 h
-Termina miércoles 18/11 · 11:57 h
+Concepción, Curuzú Cuatiá, Esquina, Goya, Ituzaingó, Lavalle, Mercedes, Paso de los Libres, San Martín, San Roque, Sauce
+Empezó miércoles 18/11 · 11:39 h
+Termina miércoles 18/11 · 13:39 h
+Alerta Roja
+En curso
+Granizo · Lluvias intensas · Tormentas
+Concepción, Curuzú Cuatiá, Esquina, Goya, Ituzaingó, Lavalle, Mercedes, Paso de los Libres, San Martín, San Roque, Sauce
+Empezó miércoles 18/11 · 11:43 h
+Termina miércoles 18/11 · 13:40 h
 Alerta Naranja
 En curso
 Granizo · Lluvias intensas · Tormentas · Vientos fuertes
@@ -56,7 +62,12 @@ Recibí las alertas en tu teléfono
 Unirme por WhatsApp
 Escaneá el código o tocá el botón. Es un canal de sólo lectura
 para recibir y consultar los avisos del COE.
-Anteriores 87
+Anteriores 88
+Roja
+Granizo · Lluvias intensas · Ràfagas · Tormentas
+Concepción, Empedrado, General Paz, Mburucuyá, San Luis del Palmar, San Miguel
+18/11/2026
+10:57 a 11:57
 Roja
 Granizo · Lluvias intensas · Ràfagas · Tormentas
 Capital
@@ -102,11 +113,6 @@ Tormentas
 Ituzaingó
 17/11/2026
 10:04 a 12:04
-Roja
-Tormentas
-Berón de Astrada, General Alvear, General Paz, Itatí, Ituzaingó, San Cosme, San Luis del Palmar, San Martín, San Miguel, Santo Tomé
-17/11/2026
-08:01 a 10:01
 ← Más recientes
 Página 1 de 9
 Más antiguas →

@@ -1113,7 +1113,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-18,07,Mburucuyá,RMA04_PMB - Parque Nacional Mburucuyá,220246,1.2
 2026-11-18,08,Mburucuyá,RMA04_PMB - Parque Nacional Mburucuyá,220246,0
 2026-11-18,09,Mburucuyá,RMA04_PMB - Parque Nacional Mburucuyá,220246,0
-2026-11-18,10,Mburucuyá,RMA04_PMB - Parque Nacional Mburucuyá,220246,0
+2026-11-18,10,Mburucuyá,RMA04_PMB - Parque Nacional Mburucuyá,220246,1
 2026-11-01,23,Bonpland,RMA08_BPL - Bonpland,220261,0
 2026-11-02,00,Bonpland,RMA08_BPL - Bonpland,220261,0
 2026-11-02,01,Bonpland,RMA08_BPL - Bonpland,220261,0
@@ -1433,7 +1433,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-18,07,Bella Vista,RMA08_BVI - Bella Vista,220262,0
 2026-11-18,08,Bella Vista,RMA08_BVI - Bella Vista,220262,0
 2026-11-18,09,Bella Vista,RMA08_BVI - Bella Vista,220262,0
-2026-11-18,10,Bella Vista,RMA08_BVI - Bella Vista,220262,0
+2026-11-18,10,Bella Vista,RMA08_BVI - Bella Vista,220262,0.6
 2026-11-01,23,Curuzú Cuatiá,RMA08_CC - Curuzú Cuatiá,220263,0
 2026-11-02,00,Curuzú Cuatiá,RMA08_CC - Curuzú Cuatiá,220263,0
 2026-11-02,01,Curuzú Cuatiá,RMA08_CC - Curuzú Cuatiá,220263,0
