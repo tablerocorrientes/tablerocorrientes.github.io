@@ -1,5 +1,5 @@
 {
- "actualizado": "17/11/2026, 22:12 h",
+ "actualizado": "17/11/2026, 22:44 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
@@ -95,11 +95,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 12.75,
-   "ultimo": "0 mm a las 21 h"
+   "ultimo": "0 mm a las 22 h"
   },
   {
    "localidad": "Garruchos",
@@ -231,11 +231,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 21 h"
+   "ultimo": "0 mm a las 22 h"
   },
   {
    "localidad": "La Palmira",
@@ -673,11 +673,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 5.4,
-   "ultimo": "0 mm a las 21 h"
+   "ultimo": "0 mm a las 22 h"
   },
   {
    "localidad": "Gobernador Virasoro",
@@ -775,11 +775,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 21 h"
+   "ultimo": "0 mm a las 22 h"
   },
   {
    "localidad": "Mercedes",
@@ -1115,11 +1115,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 21 h"
+   "ultimo": "0 mm a las 22 h"
   },
   {
    "localidad": "Pueblo Libertador",
@@ -1149,11 +1149,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 2,
-   "ultimo": "0 mm a las 21 h"
+   "ultimo": "0 mm a las 22 h"
   },
   {
    "localidad": "Itá Ibaté",
@@ -1183,11 +1183,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 7.4,
-   "ultimo": "0 mm a las 21 h"
+   "ultimo": "0 mm a las 22 h"
   },
   {
    "localidad": "Mburucuyá",
@@ -1557,11 +1557,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 15.6,
-   "ultimo": "0 mm a las 21 h"
+   "ultimo": "0 mm a las 22 h"
   },
   {
    "localidad": "El Sombrerito",
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "17/11/2026, 22:28 h",
- "consulta_resultado": "sin cambios"
+ "consultado": "17/11/2026, 22:44 h",
+ "consulta_resultado": "datos nuevos"
 }
