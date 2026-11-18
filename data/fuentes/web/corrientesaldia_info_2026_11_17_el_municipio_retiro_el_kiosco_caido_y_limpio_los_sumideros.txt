@@ -1,0 +1,183 @@
+Fuente: https://corrientesaldia.info/2026/11/17/el-municipio-retiro-el-kiosco-caido-y-limpio-los-sumideros-en-capital/
+Consultado: 18/11/2026, 09:01 h
+
+El Municipio retiró el kiosco caído y limpió los sumideros en Capital - Corrientes al Día
+Ir al contenido
+Facebook
+Instagram
+Youtube
+Google Discover
+Corrientes
+{{current_weather.dt | momentjs( atts.date )}}
+{{current_weather.temp | temp}} ° {{units}}
+{{day.dt | momentjs(atts.date)}}
+{{day.temp | temp}} ° {{day.temp_min | temp}} ° {{units}}
+{{current_weather.temp | temp}} °
+Humidity: {{current_weather.humidity}}%
+Clouds: {{current_weather.clouds}}%
+Wind ({{current_weather.wind.deg}}) :
+{{current_weather.wind.speed}} {{units_wind}}
+{{current_weather.desc}}
+{{day.dt | momentjs(atts.date)}}
+{{day.temp | temp}}°
+{{day.temp_min | temp}} °
+Inicio
+Corrientes
+Actualidad
+Economía
+Educación
+Municipales
+Policiales
+Política
+Salud
+Sociedad
+El País
+Nacionales
+Regionales
+El Mundo
+Suplementos
+Ambiente
+Carnavales
+Espectáculos
+Cultura
+Deportes
+Empresas
+Rural
+Tecnología
+Turismo
+Variedades
+Agenda
+Datos Útiles
+Columnistas
+Nosotros
+Archivo
+Municipales
+El Municipio retiró el kiosco caído y limpió los sumideros en Capital
+Publicado en noviembre 17, 2026.
+Por Corrientes al Día
+La Municipalidad informó que la situación se normalizó tras una mañana con 12 milímetros de lluvia y ráfagas de hasta 30 km/h. Ante la persistencia de la inestabilidad, las cuadrillas trabajan en cuatro cruces de la ciudad para prevenir anegamientos.
+La Municipalidad de Corrientes mantiene desplegadas sus cuadrillas para limpiar sumideros y desobstruir bocas de tormenta tras las lluvias de este martes 17 de noviembre. Según el reporte municipal, las precipitaciones comenzaron alrededor de las 6.55, dejaron 12 milímetros de agua caída y estuvieron acompañadas por ráfagas de entre 25 y 30 kilómetros por hora.
+El subsecretario de Gestión Integral de Riesgos, José Pedro Ruiz, aseguró que la situación general de la capital «está normalizada» y confirmó que el personal municipal retiró de la calzada el puesto de diarios y revistas que cayó en Hipólito Yrigoyen, a metros de Mendoza. Con la lluvia todavía prevista, los equipos siguen trabajando para facilitar el escurrimiento del agua.
+Los operativos de limpieza se concentraron en cuatro cruces de Corrientes capital.
+Cuba y Sánchez de Bustamante.
+La Rioja y Plácido Martínez.
+Necochea y Costanera.
+Mendoza y avenida Juan Torres de Vera y Aragón.
+Alerta amarilla y atención ciudadana
+Según informó el Municipio, la ciudad continúa bajo alerta amarilla del Servicio Meteorológico Nacional por lluvias y tormentas fuertes, con condiciones inestables previstas hasta el miércoles 18 de noviembre.
+Ruiz pidió evitar sacar residuos a la vía pública para que no se tapen los desagües, circular con precaución si llueve con intensidad y limitar las salidas durante los momentos de mayor actividad eléctrica o ráfagas. Ante la caída de árboles u otros incidentes en la vía pública, los vecinos pueden comunicarse gratis con la línea municipal 147 .
+Agregar Corrientes al día en Google Discover
+Relacionado:
+alerta amarilla | Corrientes | lluvias y tormentas | Municipalidad de Corrientes
+Prev No te pierdas Estudiantes del Concejo de la Juventud de Paso de los Libres visitaron la Legislatura
+También podés ver Presentaron en Corrientes la biografía del músico italiano Amleto Viola Next
+Municipales
+Fiesta de la Tradición en Paso de los Libres: cuándo es y cuál es el programa
+Publicado en noviembre 17, 2026.
+Por Corrientes al Día La celebración será el domingo 22 de noviembre, de 8 a 21, en el predio de la Sociedad Rural. Habrá una cabalgata desde la Plaza del (...)
+SEGUIR LEYENDO
+Municipales
+El Mercado de Pulgas de Corrientes se hará todos los meses
+Publicado en noviembre 16, 2026.
+Por Corrientes al Día La feria reunió a más de 40 expositores frente al monumento a las Cautivas. El intendente Claudio Polich confirmó que tendrá una frecuencia mensual y adelantó (...)
+SEGUIR LEYENDO
+Municipales
+Tarifaria 2027 de Corrientes: el Concejo aprobó la primera lectura y convocó a audiencia pública
+Publicado en noviembre 16, 2026.
+Por Corrientes al Día El proyecto prevé una actualización promedio del 29% en los tributos municipales. La audiencia se realizará el martes 1 de diciembre a las 8 y la (...)
+SEGUIR LEYENDO
+Agregar Corrientes al día en Google Discover
+ACOMPAÑANOS
+Corrientes al Día es periodismo local serio y responsable, y queremos que siga siendo gratuito. Invitándonos un Cafecito nos ayudás un montón, porque entendemos que todo suma y que, juntos, las crisis son más fáciles de superar.
+Tu navegador no soporta la etiqueta de video.
+-->
+Tu navegador no soporta la etiqueta de video.
+ÚLTIMAS
+VIDEOS
+RELACIONADAS
+ÚLTIMAS
+Cultura
+Santo Tomé presentó la 60° Fiesta Nacional del Folklore Correntino
+Salud
+El Ministerio de Salud Pública recomienda medidas de prevención ante ofidios
+Actualidad
+Curuzú Cuatiá celebró sus 216 años con un multitudinario desfile
+Educación
+Eliana Samaniego fue confirmada al frente del Consejo General de Educación de Corrientes
+Municipales
+El Mercado de Pulgas de Corrientes se hará todos los meses
+VIDEOS
+Política
+Valdés defendió el aumento salarial del 10% y ratificó su rechazo a las PASO
+Policiales
+Corrientes: un camionero dio 1,89 g/L de alcohol en un control sobre la Ruta 14
+Policiales
+Violento ataque de motochorros a dos mujeres en Corrientes
+Espectáculos
+El correntino Richard Scofano ganó un Latin Grammy 2026
+Economía
+Anunciaron 10% de aumento salarial para empleados provinciales y créditos del Banco de Corrientes
+RELACIONADAS
+Cultura
+Santo Tomé presentó la 60° Fiesta Nacional del Folklore Correntino
+Salud
+El Ministerio de Salud Pública recomienda medidas de prevención ante ofidios
+Actualidad
+Curuzú Cuatiá celebró sus 216 años con un multitudinario desfile
+Educación
+Eliana Samaniego fue confirmada al frente del Consejo General de Educación de Corrientes
+Municipales
+El Mercado de Pulgas de Corrientes se hará todos los meses
+MÁS VISTAS
+Policiales
+Alvear: secuestraron ocho vacunos por irregularidades en sus marcas
+Municipales
+Tarifaria 2027 de Corrientes: el Concejo aprobó la primera lectura y convocó a audiencia pública
+Sociedad
+UNNE: becaria analizó la funcionalidad de espacios públicos en barrios de Resistencia
+Datos Útiles
+Abrieron las inscripciones UNNE 2027: cómo anotarse y qué documentos presentar
+Política
+Valdés inauguró obras en Curuzú Cuatiá por el 216° aniversario de la ciudad
+Agenda
+El Senado de Corrientes será sede de una muestra por los 119 años del Instituto Josefina Contte
+Policiales
+Paso de los Libres: motociclista sufrió heridas graves tras un choque en la Ruta 117
+Municipales
+La ciudad de Corrientes prepara puentes aéreos para proteger a los monos carayá
+">
+Copyright © 2026 Corrientes al día. Powered by ArgentoIA .
+Home
+Corrientes
+Actualidad
+Economía
+Educación
+Municipales
+Policiales
+Política
+Salud
+Sociedad
+El País
+Nacionales
+Regionales
+El Mundo
+Suplementos
+Ambiente
+Carnavales
+Espectáculos
+Cultura
+Deportes
+Empresas
+Rural
+Tecnología
+Turismo
+Variedades
+Agenda
+Datos Útiles
+Columnistas
+Nosotros
+Archivo
+Facebook
+Instagram
+Youtube
+Copyright © 2024 Corrientes al día. Un sitio que funciona dentro de la plataforma Tres Barbas .
