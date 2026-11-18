@@ -1,6 +1,6 @@
 {
  "repositorio": "Lecturas oficiales registradas por las tareas del Tablero Ciudadano",
- "actualizado": "17/11/2026, 18:37 h",
+ "actualizado": "18/11/2026, 09:05 h",
  "series": [
   {
    "rio": "Paraná",
@@ -89,6 +89,11 @@
      "2026-11-17T12:00:00",
      2.4,
      "verificado"
+    ],
+    [
+     "2026-11-18T12:00:00",
+     2.4,
+     "pendiente"
     ]
    ]
   },
@@ -179,6 +184,11 @@
      "2026-11-17T12:00:00",
      4.7,
      "verificado"
+    ],
+    [
+     "2026-11-18T12:00:00",
+     4.7,
+     "pendiente"
     ]
    ]
   },
@@ -429,6 +439,11 @@
      "2026-11-17T12:00:00",
      6.2,
      "verificado"
+    ],
+    [
+     "2026-11-18T12:00:00",
+     6.2,
+     "pendiente"
     ]
    ]
   },
@@ -684,6 +699,11 @@
      "2026-11-17T14:00:00",
      6.33,
      "verificado"
+    ],
+    [
+     "2026-11-18T12:00:00",
+     6.24,
+     "pendiente"
     ]
    ]
   },
@@ -944,6 +964,11 @@
      "2026-11-17T12:00:00",
      6.29,
      "verificado"
+    ],
+    [
+     "2026-11-18T12:00:00",
+     6.2,
+     "pendiente"
     ]
    ]
   },
@@ -1034,6 +1059,11 @@
      "2026-11-17T12:00:00",
      5.63,
      "verificado"
+    ],
+    [
+     "2026-11-18T12:00:00",
+     5.58,
+     "pendiente"
     ]
    ]
   },
@@ -1288,6 +1318,11 @@
     [
      "2026-11-17T16:00:00",
      6.1,
+     "verificado"
+    ],
+    [
+     "2026-11-18T08:00:00",
+     6.05,
      "verificado"
     ]
    ]
@@ -1544,6 +1579,11 @@
      "2026-11-17T18:00:00",
      5.76,
      "verificado"
+    ],
+    [
+     "2026-11-18T08:00:00",
+     5.76,
+     "verificado"
     ]
    ]
   },
@@ -1643,6 +1683,11 @@
     [
      "2026-11-17T16:00:00",
      5.45,
+     "verificado"
+    ],
+    [
+     "2026-11-18T06:00:00",
+     5.43,
      "verificado"
     ]
    ]
@@ -1818,6 +1863,11 @@
     [
      "2026-11-16T12:00:00",
      7.28,
+     "pendiente"
+    ],
+    [
+     "2026-11-17T12:00:00",
+     6.64,
      "pendiente"
     ]
    ]
@@ -2034,6 +2084,11 @@
      "2026-11-16T12:00:00",
      6.99,
      "pendiente"
+    ],
+    [
+     "2026-11-17T12:00:00",
+     6.59,
+     "pendiente"
     ]
    ]
   },
@@ -2061,20 +2116,20 @@
  "pronosticos": [
   {
    "organismo": "INA",
-   "emision": "2026-11-16",
+   "emision": "2026-11-17",
    "rio": "Paraná",
    "horizonte_dias": 7,
    "tipo": "cualitativo",
-   "tendencia": "En Corrientes el río seguiría alto en los próximos 7 días, oscilando o bajando despacio, como lo marca la salida de agua de Yacyretá. En Goya y Esquina seguiría por encima de la evacuación unos 2 a 4 días más. Después se estabilizaría en valores altos para la época, y podría volver a subir si se confirman las lluvias previstas en Brasil y Paraguay.",
+   "tendencia": "En Corrientes el río seguiría alto en los próximos 7 días, por encima de lo normal para la época, oscilando o bajando despacio según el agua que suelte Yacyretá. En Goya seguiría sobre la evacuación unos 2 a 3 días más. Después se estabilizaría en valores altos, y podría volver a subir si se confirman las lluvias previstas en Brasil y Paraguay (una nueva crecida podría salir de la cuenca alta desde el 21/11).",
    "url": "https://alerta.ina.gob.ar/a5/diario/reporte_diario"
   },
   {
    "organismo": "INA",
-   "emision": "2026-11-16",
+   "emision": "2026-11-17",
    "rio": "Uruguay",
    "horizonte_dias": 5,
    "tipo": "cualitativo",
-   "tendencia": "En Paso de los Libres el río ya bajó de la alerta y seguiría bajando hasta quedar en valores normales altos. En Santo Tomé seguiría estable o con leve baja. Podría haber repuntes por lluvias en el norte de la cuenca, con pocas chances de superar la alerta.",
+   "tendencia": "En Paso de los Libres el río terminó la alerta y seguiría bajando hasta quedar en valores normales altos. En Santo Tomé seguiría alto para la época, con posible repunte por lluvias en el norte de la cuenca, con pocas chances de superar la alerta.",
    "url": "https://alerta.ina.gob.ar/a5/diario/reporte_diario"
   }
  ],
@@ -2125,7 +2180,7 @@
   }
  ],
  "pron_aviso": "Valores difundidos por El Litoral a partir del pronóstico del INA. Son estimaciones, no mediciones, y pueden cambiar con las lluvias.",
- "verificacion": "Consulta del 17/11/2026, 18:37 h: Prefectura Naval Argentina, alturas reproducidas por rioparana.com.ar (lecturas del 17/11/2026 de las 12:00, 14:00 y 16:00 h). La página de alturas de Prefectura no respondió. INA, reporte diario sin emisión nueva.",
+ "verificacion": "Consulta del 18/11/2026, 09:05 h: Prefectura Naval Argentina, alturas reproducidas por rioparana.com.ar (lecturas del 18/11/2026; Bella Vista y Goya a las 08:00 h, Esquina a las 06:00 h, el resto sin hora publicada). La página de alturas de Prefectura no respondió. INA, reporte diario del 17/11/2026 (Santo Tomé y Paso de los Libres).",
  "observaciones": [
   "Empedrado, Esquina, Ituzaingó e Itá Ibaté tienen pocas lecturas (10 cada uno), todas de fecha solamente salvo la del 01/11 a las 00:00 h.",
   "Variación informada en el CSV que no coincide con la diferencia entre lecturas consecutivas (no se usa en los gráficos ni se corrigieron las alturas): Ituzaingó 2026-11-03: CSV -3 cm frente a -12 cm; Itá Ibaté 2026-11-03: CSV -6 cm frente a -10 cm; Itatí 2026-11-03: CSV -2 cm frente a -8 cm; Paso de la Patria 2026-11-03: CSV -6 cm frente a -8 cm; Empedrado 2026-11-03: CSV -6 cm frente a -11 cm; Goya 2026-11-01T00:00:00: CSV 12 cm frente a 14 cm; Goya 2026-11-03: CSV 1 cm frente a 3 cm; Esquina 2026-11-03: CSV 8 cm frente a 14 cm.",

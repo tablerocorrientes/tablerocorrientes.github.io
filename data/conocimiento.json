@@ -1,5 +1,5 @@
 {
- "actualizado": "18/11/2026, 07:09 h",
+ "actualizado": "18/11/2026, 09:05 h",
  "explicacion": "Cada actualización suma registros: barrios afectados con la altura del río o la lluvia de ese día, obras terminadas, reportes de vecinos verificados y la comparación entre lo pronosticado y lo que ocurrió. Con esa comparación se detectan desvíos y se proponen ajustes a los cálculos, que revisa el autor del tablero.",
  "contadores": {
   "barrios_documentados": 87,
@@ -7,9 +7,23 @@
   "reportes_verificados": 0,
   "comparaciones_rio": 2,
   "comparaciones_lluvia": 5,
-  "aprendizajes": 72
+  "aprendizajes": 74
  },
  "aprendizajes": [
+  {
+   "fecha": "18/11/2026",
+   "tipo": "rio",
+   "lugar": "Corrientes",
+   "dato": "El Paraná en Corrientes bajó a 6,20 m, 30 cm debajo de la alerta, mientras Goya (5,76 m) y Esquina (5,43 m) siguen apenas sobre la evacuación.",
+   "fuente": "Prefectura Naval Argentina vía rioparana.com.ar, 18/11/2026"
+  },
+  {
+   "fecha": "18/11/2026",
+   "tipo": "alerta",
+   "lugar": "Capital, Berón de Astrada, Concepción, Empedrado, General Paz, Itatí, Mburucuyá, Saladas, San Cosme, San Luis del Palmar y San Miguel",
+   "dato": "Aviso rojo a corto plazo por tormentas fuertes con lluvias intensas, ráfagas y granizo de 07:51 a 09:51 h, con el Paraná en Corrientes en 6,20 m; hasta las 09 h el SNIH midió 0,4 mm en la Capital.",
+   "fuente": "COE de Corrientes (2026-0140-CP) y SMN, 18/11/2026"
+  },
   {
    "fecha": "18/11/2026",
    "tipo": "alerta",
@@ -564,7 +578,33 @@
     "medido_mm": 0.0
    }
   ],
-  "simulador": []
+  "simulador": [],
+  "extendido": [
+   {
+    "fecha": "2026-11-17",
+    "localidad": "Corrientes Capital",
+    "horizonte": 1,
+    "prob": 100,
+    "medido_mm": 1.8,
+    "acierto": true
+   },
+   {
+    "fecha": "2026-11-17",
+    "localidad": "Corrientes Capital",
+    "horizonte": 2,
+    "prob": 70,
+    "medido_mm": 1.8,
+    "acierto": true
+   },
+   {
+    "fecha": "2026-11-17",
+    "localidad": "Corrientes Capital",
+    "horizonte": 3,
+    "prob": 40,
+    "medido_mm": 1.8,
+    "acierto": true
+   }
+  ]
  },
  "ajustes": [
   {

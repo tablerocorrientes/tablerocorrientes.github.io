@@ -1,16 +1,15 @@
 {
- "actualizado": "17/11/2026, 18:37 h",
+ "actualizado": "18/11/2026, 09:06 h",
  "aviso": "Inferencias propias del tablero, elaboradas con procesamiento lógico a partir de sus registros y de fuentes oficiales. No son avisos oficiales: ante una emergencia, siga las indicaciones de Defensa Civil y del SMN.",
  "vigentes": [
   {
    "id": "rio-parana-bajante",
    "tema": "🌊 Río Paraná",
-   "titulo": "El Paraná en la Capital sigue bajando despacio, bajo la cota de alerta",
-   "texto": "Marcó 6,29 m a las 12:00 h del 17/11, 7 cm menos que en la lectura de la mañana y 17 cm menos que el 16/11 al mediodía: baja unos 5 a 10 cm por día. Aguas arriba también baja (Itatí 6,20 m, Paso de la Patria 6,33 m), aunque Ituzaingó subió levemente a 2,40 m. El INA prevé que siga oscilando o bajando despacio y luego se estabilice en valores altos para la época.",
+   "titulo": "El Paraná en la Capital sigue bajando despacio, 30 cm debajo de la alerta",
+   "texto": "Marcó 6,20 m el 18/11, 9 cm menos que el 17/11 y 30 cm menos que el 16/11 a la mañana: baja unos 9 cm por día. Itatí (6,20 m) y Paso de la Patria (6,24 m) también bajan. El INA (17/11) prevé que siga oscilando o bajando despacio y luego se estabilice en valores altos, con chances de una nueva subida desde la cuenca alta a partir del 21/11.",
    "base": [
-    "Prefectura Naval Argentina (rioparana.com.ar), 16 y 17/11/2026",
-    "INA, reporte diario del 16/11/2026",
-    "Prefectura Naval Argentina (rioparana.com.ar), lecturas del 17/11/2026 a las 12:00 y 14:00 h"
+    "Prefectura Naval Argentina (rioparana.com.ar), 16 a 18/11/2026",
+    "INA, reporte diario del 17/11/2026"
    ],
    "confianza": "alta",
    "horizonte": "próximos 3 días",
@@ -18,18 +17,18 @@
    "localidad": "Corrientes Capital"
   },
   {
-   "id": "lluvia-17-11",
+   "id": "lluvia-18-11",
    "tema": "🌧️ Lluvia",
-   "titulo": "Tormentas hoy y mañana en la Capital, con el río todavía alto",
-   "texto": "La tormenta de esta mañana dejó entre 8,6 y 11,5 mm en la Capital según el SNIH. Hay alerta amarilla del COE para la Capital hasta las 12:00 h y otra para mañana miércoles de 05:00 a 12:00 h, con 30 a 70 mm posibles; el modelo del SMN prevé unos 31 mm mañana. Con el Paraná en 6,36 m, los desagües que descargan al río funcionan con menos capacidad y una lluvia fuerte en poco tiempo puede acumular agua en calles bajas.",
+   "titulo": "Alerta naranja y aviso rojo en la Capital, pero hasta las 9 h casi no llovió",
+   "texto": "Rige la alerta naranja por tormentas hasta las 13:00 h (70 a 120 mm posibles) y un aviso rojo a corto plazo de 07:51 a 09:51 h. Hasta las 09 h el SNIH midió solo 0,4 mm en la Capital, mientras en Mburucuyá cayeron 19,4 mm en 24 horas. Con el Paraná en 6,20 m, los desagües que descargan al río funcionan con menos capacidad: si llega una tormenta fuerte, puede acumularse agua en calles bajas.",
    "base": [
-    "SNIH, estaciones ICAA y Corrientes 13805, 17/11/2026",
-    "COE de Corrientes, 2026-0075-AT y 2026-0076-AT",
-    "Modelo numérico del SMN, 17/11",
-    "Prefectura Naval Argentina, 17/11"
+    "COE de Corrientes, 2026-0024-NT y 2026-0140-CP",
+    "SMN, alertas del 18/11/2026 (08:43 h)",
+    "SNIH, estaciones ICAA, Corrientes 13805 y Parque Nacional Mburucuyá",
+    "Prefectura Naval Argentina, 18/11/2026"
    ],
    "confianza": "media",
-   "horizonte": "próximos 3 días",
+   "horizonte": "hoy",
    "ambito": "global",
    "localidad": "Corrientes Capital"
   },
@@ -37,10 +36,10 @@
    "id": "rio-uruguay-pico",
    "tema": "🌊 Río Uruguay",
    "titulo": "El Uruguay en Paso de los Libres ya bajó de la alerta",
-   "texto": "Paso de los Libres pasó de 7,98 m el 13/11 a 6,99 m según el INA del 16/11, por debajo de la alerta (7,50 m): el pico de la crecida ya pasó, como se esperaba. Santo Tomé está en 7,28 m. El INA prevé que siga bajando, con pocas chances de volver a la alerta.",
+   "texto": "Paso de los Libres pasó de 7,98 m el 13/11 a 6,59 m según el INA del 17/11, 91 cm por debajo de la alerta (7,50 m). Santo Tomé bajó a 6,64 m. El INA prevé que siga bajando, con pocas chances de volver a la alerta.",
    "base": [
     "Comisión Técnica Mixta de Salto Grande, 13/11/2026",
-    "INA, reporte diario del 16/11/2026"
+    "INA, reportes diarios del 16 y 17/11/2026"
    ],
    "confianza": "alta",
    "horizonte": "próximos 3 días",
@@ -80,6 +79,53 @@
   }
  ],
  "historial": [
+  {
+   "id": "lluvia-18-11",
+   "tema": "🌧️ Lluvia",
+   "titulo": "Alerta naranja y aviso rojo en la Capital, pero hasta las 9 h casi no llovió",
+   "texto": "Rige la alerta naranja por tormentas hasta las 13:00 h (70 a 120 mm posibles) y un aviso rojo a corto plazo de 07:51 a 09:51 h. Hasta las 09 h el SNIH midió solo 0,4 mm en la Capital, mientras en Mburucuyá cayeron 19,4 mm en 24 horas. Con el Paraná en 6,20 m, los desagües que descargan al río funcionan con menos capacidad: si llega una tormenta fuerte, puede acumularse agua en calles bajas.",
+   "base": [
+    "COE de Corrientes, 2026-0024-NT y 2026-0140-CP",
+    "SMN, alertas del 18/11/2026 (08:43 h)",
+    "SNIH, estaciones ICAA, Corrientes 13805 y Parque Nacional Mburucuyá",
+    "Prefectura Naval Argentina, 18/11/2026"
+   ],
+   "confianza": "media",
+   "horizonte": "hoy",
+   "ambito": "global",
+   "localidad": "Corrientes Capital",
+   "fecha": "18/11/2026"
+  },
+  {
+   "id": "rio-uruguay-pico",
+   "tema": "🌊 Río Uruguay",
+   "titulo": "El Uruguay en Paso de los Libres ya bajó de la alerta",
+   "texto": "Paso de los Libres pasó de 7,98 m el 13/11 a 6,59 m según el INA del 17/11, 91 cm por debajo de la alerta (7,50 m). Santo Tomé bajó a 6,64 m. El INA prevé que siga bajando, con pocas chances de volver a la alerta.",
+   "base": [
+    "Comisión Técnica Mixta de Salto Grande, 13/11/2026",
+    "INA, reportes diarios del 16 y 17/11/2026"
+   ],
+   "confianza": "alta",
+   "horizonte": "próximos 3 días",
+   "ambito": "global",
+   "localidad": "Provincia",
+   "fecha": "18/11/2026"
+  },
+  {
+   "id": "rio-parana-bajante",
+   "tema": "🌊 Río Paraná",
+   "titulo": "El Paraná en la Capital sigue bajando despacio, 30 cm debajo de la alerta",
+   "texto": "Marcó 6,20 m el 18/11, 9 cm menos que el 17/11 y 30 cm menos que el 16/11 a la mañana: baja unos 9 cm por día. Itatí (6,20 m) y Paso de la Patria (6,24 m) también bajan. El INA (17/11) prevé que siga oscilando o bajando despacio y luego se estabilice en valores altos, con chances de una nueva subida desde la cuenca alta a partir del 21/11.",
+   "base": [
+    "Prefectura Naval Argentina (rioparana.com.ar), 16 a 18/11/2026",
+    "INA, reporte diario del 17/11/2026"
+   ],
+   "confianza": "alta",
+   "horizonte": "próximos 3 días",
+   "ambito": "global",
+   "localidad": "Corrientes Capital",
+   "fecha": "18/11/2026"
+  },
   {
    "id": "evacuados-sin-regreso",
    "tema": "🏘️ Barrios",

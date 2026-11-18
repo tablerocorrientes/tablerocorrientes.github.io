@@ -1,5 +1,5 @@
 {
- "actualizado": "17/11/2026, 18:37 h",
+ "actualizado": "18/11/2026, 09:05 h",
  "explicacion": "Pronósticos extendidos emitidos cada día, para compararlos con la lluvia medida.",
  "registros": [
   {
@@ -21,7 +21,11 @@
    "ciudad": "Corrientes Capital",
    "fecha": "2026-11-17",
    "horizonte": 3,
-   "prob": 40
+   "prob": 40,
+   "medido_mm": 1.8,
+   "llovio": true,
+   "pronostico_lluvia": true,
+   "acierto": true
   },
   {
    "emitido": "2026-11-14",
@@ -56,7 +60,11 @@
    "ciudad": "Corrientes Capital",
    "fecha": "2026-11-17",
    "horizonte": 2,
-   "prob": 70
+   "prob": 70,
+   "medido_mm": 1.8,
+   "llovio": true,
+   "pronostico_lluvia": true,
+   "acierto": true
   },
   {
    "emitido": "2026-11-15",
@@ -91,7 +99,11 @@
    "ciudad": "Corrientes Capital",
    "fecha": "2026-11-17",
    "horizonte": 1,
-   "prob": 100
+   "prob": 100,
+   "medido_mm": 1.8,
+   "llovio": true,
+   "pronostico_lluvia": true,
+   "acierto": true
   },
   {
    "emitido": "2026-11-16",
@@ -175,6 +187,48 @@
    "ciudad": "Corrientes Capital",
    "fecha": "2026-11-24",
    "horizonte": 7,
+   "prob": 40
+  },
+  {
+   "emitido": "2026-11-18",
+   "ciudad": "Corrientes Capital",
+   "fecha": "2026-11-19",
+   "horizonte": 1,
+   "prob": 40
+  },
+  {
+   "emitido": "2026-11-18",
+   "ciudad": "Corrientes Capital",
+   "fecha": "2026-11-20",
+   "horizonte": 2,
+   "prob": 40
+  },
+  {
+   "emitido": "2026-11-18",
+   "ciudad": "Corrientes Capital",
+   "fecha": "2026-11-21",
+   "horizonte": 3,
+   "prob": 0
+  },
+  {
+   "emitido": "2026-11-18",
+   "ciudad": "Corrientes Capital",
+   "fecha": "2026-11-22",
+   "horizonte": 4,
+   "prob": 40
+  },
+  {
+   "emitido": "2026-11-18",
+   "ciudad": "Corrientes Capital",
+   "fecha": "2026-11-23",
+   "horizonte": 5,
+   "prob": 10
+  },
+  {
+   "emitido": "2026-11-18",
+   "ciudad": "Corrientes Capital",
+   "fecha": "2026-11-24",
+   "horizonte": 6,
    "prob": 40
   }
  ]
