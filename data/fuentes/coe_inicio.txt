@@ -1,7 +1,7 @@
 Fuente: https://coe.corrientes.gob.ar/
-Consultado: 18/11/2026, 14:09 h
+Consultado: 18/11/2026, 14:42 h
 
-4 alertas vigentes — COE Corrientes
+5 alertas vigentes — COE Corrientes
 Alertas del COE - Comando Operativo de Emergencias
 Instituto de
 Modernización e Innovación
@@ -14,7 +14,14 @@ Alertas hidrometeorológicas
 Avisos emitidos por el Comando Operativo de Emergencias de Corrientes por
 crecidas, tormentas, lluvias y vientos.
 Tocá una alerta para ver la pieza completa con el mapa del área alcanzada.
-Vigentes ahora 4
+Vigentes ahora 5
+Alerta Roja
+En curso
+Granizo · Lluvias intensas · Ràfagas · Tormentas
+Capital, Empedrado, Itatí, San Cosme, San Luis del Palmar
+Aviso a corto plazo por granizo, lluvias intensas, ràfagas y tormentas. Afecta a 5 departamentos de la provincia.
+Empezó miércoles 18/11 · 14:32 h
+Termina miércoles 18/11 · 15:32 h
 Alerta Roja
 En curso
 Granizo · Lluvias intensas · Ràfagas · Tormentas

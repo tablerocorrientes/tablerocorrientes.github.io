@@ -1,6 +1,6 @@
 {
- "consultado": "18/11/2026, 14:09 h",
- "consultado_iso": "2026-11-18T14:09-03:00",
+ "consultado": "18/11/2026, 14:42 h",
+ "consultado_iso": "2026-11-18T14:42-03:00",
  "paginas": {
   "smn_alertas": {
    "url": "https://www.smn.gob.ar/alertas",
@@ -15,6 +15,7 @@
   "coe_inicio": {
    "url": "https://coe.corrientes.gob.ar/",
    "enlaces": [
+    "https://coe.corrientes.gob.ar/a/2026-0148-CP",
     "https://coe.corrientes.gob.ar/a/2026-0147-CP",
     "https://coe.corrientes.gob.ar/a/2026-0146-CP",
     "https://coe.corrientes.gob.ar/a/2026-0145-CP",
@@ -31,7 +32,7 @@
     "https://coe.corrientes.gob.ar/a/2026-0025-NT"
    ],
    "estado": 200,
-   "caracteres": 4341,
+   "caracteres": 4650,
    "archivo": "data/fuentes/coe_inicio.txt"
   },
   "ina_reporte_diario": {
@@ -43,7 +44,7 @@
   "rioparana_alturas": {
    "url": "https://www.rioparana.com.ar",
    "estado": 200,
-   "caracteres": 11334,
+   "caracteres": 11335,
    "archivo": "data/fuentes/rioparana_alturas.txt"
   },
   "prefectura_alturas": {
@@ -54,7 +55,7 @@
   "lanacion_clima_corrientes": {
    "url": "https://www.lanacion.com.ar/clima/corrientes/",
    "estado": 200,
-   "caracteres": 8062,
+   "caracteres": 8064,
    "archivo": "data/fuentes/lanacion_clima_corrientes.txt"
   },
   "noaa_enso": {
@@ -132,6 +133,12 @@
    "caracteres": 1783,
    "archivo": "data/fuentes/coe_2026_0077_AT.txt"
   },
+  "coe_a_2026_0148_CP": {
+   "url": "https://coe.corrientes.gob.ar/a/2026-0148-CP",
+   "estado": 200,
+   "caracteres": 2251,
+   "archivo": "data/fuentes/coe_a_2026_0148_CP.txt"
+  },
   "coe_a_2026_0147_CP": {
    "url": "https://coe.corrientes.gob.ar/a/2026-0147-CP",
    "estado": 200,
@@ -161,12 +168,6 @@
    "estado": 200,
    "caracteres": 2268,
    "archivo": "data/fuentes/coe_a_2026_0143_CP.txt"
-  },
-  "coe_a_2026_0142_CP": {
-   "url": "https://coe.corrientes.gob.ar/a/2026-0142-CP",
-   "estado": 200,
-   "caracteres": 2197,
-   "archivo": "data/fuentes/coe_a_2026_0142_CP.txt"
   }
  },
  "portales": {
