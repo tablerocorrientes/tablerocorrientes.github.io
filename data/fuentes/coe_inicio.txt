@@ -1,7 +1,7 @@
 Fuente: https://coe.corrientes.gob.ar/
-Consultado: 18/11/2026, 07:35 h
+Consultado: 18/11/2026, 08:08 h
 
-5 alertas vigentes — COE Corrientes
+4 alertas vigentes — COE Corrientes
 Alertas del COE - Comando Operativo de Emergencias
 Instituto de
 Modernización e Innovación
@@ -14,13 +14,7 @@ Alertas hidrometeorológicas
 Avisos emitidos por el Comando Operativo de Emergencias de Corrientes por
 crecidas, tormentas, lluvias y vientos.
 Tocá una alerta para ver la pieza completa con el mapa del área alcanzada.
-Vigentes ahora 5
-Alerta Roja
-En curso
-Tormentas
-Empedrado, General Paz, Mburucuyá, Saladas, San Luis del Palmar
-Empezó miércoles 18/11 · 06:52 h
-Termina miércoles 18/11 · 07:52 h
+Vigentes ahora 4
 Alerta Roja
 En curso
 Tormentas
@@ -50,7 +44,12 @@ Recibí las alertas en tu teléfono
 Unirme por WhatsApp
 Escaneá el código o tocá el botón. Es un canal de sólo lectura
 para recibir y consultar los avisos del COE.
-Anteriores 82
+Anteriores 83
+Roja
+Tormentas
+Empedrado, General Paz, Mburucuyá, Saladas, San Luis del Palmar
+18/11/2026
+06:52 a 07:52
 Roja
 Tormentas
 Bella Vista, Goya, Lavalle, San Roque
@@ -96,11 +95,6 @@ Lluvias intensas · Ràfagas · Tormentas
 General Alvear, Ituzaingó, San Martín, San Miguel, Santo Tomé
 17/11/2026
 06:33 a 08:33
-Roja
-Lluvias intensas · Ràfagas · Tormentas
-Capital, Empedrado, San Cosme, San Luis del Palmar
-17/11/2026
-06:25 a 08:25
 ← Más recientes
 Página 1 de 9
 Más antiguas →
