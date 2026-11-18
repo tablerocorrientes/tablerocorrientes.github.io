@@ -8,6 +8,15 @@
    "tipo": "lluvia",
    "fuente": "Observación directa en Corrientes Capital",
    "hasta": "2026-11-18T08:20:00-03:00"
+  },
+  {
+   "localidad": "Corrientes Capital",
+   "desde": "2026-11-18T10:15:00-03:00",
+   "vigencia_horas": 3,
+   "tipo": "lluvia",
+   "intensidad": "moderada",
+   "mm_h": 4,
+   "fuente": "Observación directa en Corrientes Capital"
   }
  ]
 }
