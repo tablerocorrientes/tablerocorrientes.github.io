@@ -1,5 +1,5 @@
 {
- "actualizado": "18/11/2026, 06:22 h",
+ "actualizado": "18/11/2026, 06:40 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
@@ -1217,11 +1217,11 @@
     0,
     0.4,
     2.6,
-    0,
+    0.2,
     null
    ],
-   "total": 5.2,
-   "ultimo": "0 mm a las 06 h"
+   "total": 5.4,
+   "ultimo": "0,2 mm a las 06 h"
   },
   {
    "localidad": "Bonpland",
@@ -1251,11 +1251,11 @@
     0,
     0,
     0,
-    0.2,
+    0.6,
     null
    ],
-   "total": 0.4,
-   "ultimo": "0,2 mm a las 06 h"
+   "total": 0.8,
+   "ultimo": "0,6 mm a las 06 h"
   },
   {
    "localidad": "Bella Vista",
@@ -1353,11 +1353,11 @@
     0,
     0,
     0,
-    null,
+    0.6,
     null
    ],
-   "total": 13.4,
-   "ultimo": "0 mm a las 05 h"
+   "total": 14.0,
+   "ultimo": "0,6 mm a las 06 h"
   },
   {
    "localidad": "San Isidro",
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "18/11/2026, 06:24 h",
- "consulta_resultado": "sin cambios"
+ "consultado": "18/11/2026, 06:40 h",
+ "consulta_resultado": "datos nuevos"
 }
