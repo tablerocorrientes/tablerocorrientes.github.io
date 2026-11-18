@@ -1,5 +1,5 @@
 Fuente: https://www.lanacion.com.ar/clima/corrientes/
-Consultado: 18/11/2026, 19:15 h
+Consultado: 18/11/2026, 19:48 h
 
 Clima en Corrientes y pronóstico del tiempo en LA NACION
 CERRAR
@@ -78,30 +78,24 @@ Kiosco LA NACION
 > LA NACION > Clima > Corrientes
 Clima de hoy en Corrientes
 Pronóstico del tiempo extendido para Corrientes
-Actualizado a las 17:22 hs.
+Actualizado a las 19:38 hs.
 Pronóstico del tiempo en Corrientes hoy
-Tarde
-Tormentas fuertes
-29 ºc
-47%
-SE 22Km/h
-70%
 Noche
-Chaparrones
-26 ºc
+Tormentas fuertes
+23 ºc
 85%
 SE 22Km/h
-40%
+70%
 Pronóstico del tiempo en Corrientes mañana
 Mañana
-Mayormente nublado
-26 ºc
+Chaparrones
+25 ºc
 68%
 SE 12Km/h
-10%
+40%
 Tarde
-Chaparrones
-30 ºc
+Tormentas aisladas
+28 ºc
 49%
 E 22Km/h
 40%
@@ -113,16 +107,22 @@ E 22Km/h
 40%
 Pronóstico del tiempo en Corrientes el viernes
 Mañana
-Tormentas aisladas
-22 ºc
+Tormentas fuertes
+25 ºc
 74%
 SE 22Km/h
-40%
+70%
 Tarde
 Tormentas aisladas
-31 ºc
+30 ºc
 82%
 SE 22Km/h
+40%
+Noche
+Tormentas aisladas
+25 ºc
+80%
+E 12Km/h
 40%
 Pronóstico del tiempo en Corrientes el sábado
 Mañana
@@ -136,7 +136,7 @@ Mayormente nublado
 32 ºc
 47%
 E 12Km/h
-0%
+10%
 Pronóstico del tiempo en Corrientes el domingo
 Mañana
 Tormentas aisladas
@@ -153,13 +153,13 @@ SE 22Km/h
 Pronóstico del tiempo en Corrientes el lunes
 Mañana
 Mayormente nublado
-17 ºc
+19 ºc
 82%
 SE 22Km/h
 10%
 Tarde
 Mayormente nublado
-28 ºc
+30 ºc
 39%
 SE 22Km/h
 10%
@@ -175,6 +175,19 @@ Lluvias aisladas
 32 ºc
 86%
 NE 12Km/h
+40%
+Pronóstico del tiempo en Corrientes el miércoles
+Mañana
+Tormentas aisladas
+19 ºc
+84%
+SE 22Km/h
+40%
+Tarde
+Chaparrones
+26 ºc
+32%
+SE 31Km/h
 40%
 Referencias del clima
 Despejado (día)
@@ -214,6 +227,12 @@ Santiago del Estero
 Tierra del Fuego
 Tucumán
 Últimas noticias del clima en Corrientes
+Clima en Monte Caseros hoy: cuál es el pronóstico del tiempo para el 19 de noviembre de 2026
+Pronóstico del tiempo
+18 de noviembre de 2026
+Clima en ciudad de Corrientes hoy: cuál es el pronóstico del tiempo para el 19 de noviembre de 2026
+Pronóstico del tiempo
+18 de noviembre de 2026
 Clima en ciudad de Corrientes hoy: cuál es el pronóstico del tiempo para el 18 de noviembre de 2026
 Pronóstico del tiempo
 18 de noviembre de 2026
@@ -298,18 +317,12 @@ Pronóstico del tiempo
 Clima en ciudad de Corrientes hoy: cuál es el pronóstico del tiempo para el 5 de noviembre de 2026
 Pronóstico del tiempo
 5 de noviembre de 2026
-Clima en Monte Caseros hoy: cuál es el pronóstico del tiempo para el 4 de noviembre de 2026
-Pronóstico del tiempo
-4 de noviembre de 2026
-Clima en ciudad de Corrientes hoy: cuál es el pronóstico del tiempo para el 4 de noviembre de 2026
-Pronóstico del tiempo
-4 de noviembre de 2026
 VER MÁS NOTAS DE CORRIENTES
 Más leídas
-1 Emma Thompson: del amor de juventud con Hugh Laurie y la traición de Kenneth Branagh al hombre que la ayudó a sanar
-2 Marcelo Tinelli habló sobre Ágata Lescano y confirmó que están de novios: “Estamos bien”
-3 El Deutsche Bank informó sobre US$60 millones vinculados a Carlos Wagner, el empresario líder del Club de la obra pública
-4 ¿Hablamos bien inglés? La posición de la Argentina en un ranking mundial y regional de dominio del idioma
+1 El Deutsche Bank informó sobre US$60 millones vinculados a Carlos Wagner, el empresario líder del Club de la obra pública
+2 ¿Hablamos bien inglés? La posición de la Argentina en un ranking mundial y regional de dominio del idioma
+3 De la corrida de 2019 a la crisis de 2025: por qué las PASO pueden desestabilizar al Gobierno
+4 Diputados: Llaryora y Pullaro dejaron al Gobierno sin quorum en medio de la disputa por el Consejo de la Magistratura
 Secciones
 Últimas noticias
 Política
