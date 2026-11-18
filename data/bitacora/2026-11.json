@@ -4617,6 +4617,70 @@
      "rango_mm": null,
      "incluye_capital": false,
      "origen": "Servicio Meteorológico Nacional, página de alertas leída desde Corrientes el 18/11/2026 a las 08:43 h"
+    },
+    {
+     "nivel": "rojo",
+     "fenomeno": "tormenta",
+     "desde_iso": "2026-11-18T10:57:00-03:00",
+     "hasta_iso": "2026-11-18T11:57:00-03:00",
+     "zonas": [
+      "Concepción",
+      "Empedrado",
+      "General Paz",
+      "Mburucuyá",
+      "San Luis del Palmar",
+      "San Miguel"
+     ],
+     "rango_mm": null,
+     "incluye_capital": false,
+     "origen": "COE de Corrientes (fuente SMN), consultado el 18/11/2026 a las 11:12 h"
+    },
+    {
+     "nivel": "naranja",
+     "fenomeno": "granizo, lluvias intensas, tormentas y vientos",
+     "desde_iso": "2026-11-18T09:40:00-03:00",
+     "hasta_iso": "2026-11-18T20:00:00-03:00",
+     "zonas": [
+      "Berón de Astrada",
+      "Capital",
+      "Concepción",
+      "Curuzú Cuatiá",
+      "Empedrado",
+      "General Alvear",
+      "General Paz",
+      "Itatí",
+      "Ituzaingó",
+      "Mburucuyá",
+      "Mercedes",
+      "Paso de los Libres",
+      "Saladas",
+      "San Cosme",
+      "San Luis del Palmar",
+      "San Martín",
+      "San Miguel",
+      "San Roque",
+      "Santo Tomé",
+      "Sauce"
+     ],
+     "rango_mm": null,
+     "incluye_capital": true,
+     "origen": "COE de Corrientes (fuente SMN), consultado el 18/11/2026 a las 11:12 h"
+    },
+    {
+     "nivel": "amarillo",
+     "fenomeno": "granizo, lluvias intensas, tormentas y vientos",
+     "desde_iso": "2026-11-18T09:40:00-03:00",
+     "hasta_iso": "2026-11-18T20:00:00-03:00",
+     "zonas": [
+      "Bella Vista",
+      "Esquina",
+      "Goya",
+      "Lavalle",
+      "Monte Caseros"
+     ],
+     "rango_mm": null,
+     "incluye_capital": false,
+     "origen": "COE de Corrientes (fuente SMN), consultado el 18/11/2026 a las 11:12 h"
     }
    ]
   }

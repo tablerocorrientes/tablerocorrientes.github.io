@@ -1,6 +1,6 @@
 {
- "consultado": "18/11/2026, 11:15 h",
- "consultado_iso": "2026-11-18T11:15-03:00",
+ "consultado": "18/11/2026, 11:20 h",
+ "consultado_iso": "2026-11-18T11:20-03:00",
  "paginas": {
   "smn_alertas": {
    "url": "https://www.smn.gob.ar/alertas",
@@ -98,11 +98,23 @@
    "caracteres": 17711,
    "archivo": "data/fuentes/smn_pronostico_5_dias_ayer.txt"
   },
-  "coe_2026_0140_CP": {
-   "url": "https://coe.corrientes.gob.ar/a/2026-0140-CP",
+  "coe_2026_0143_CP": {
+   "url": "https://coe.corrientes.gob.ar/a/2026-0143-CP",
    "estado": 200,
-   "caracteres": 2322,
-   "archivo": "data/fuentes/coe_2026_0140_CP.txt"
+   "caracteres": 2272,
+   "archivo": "data/fuentes/coe_2026_0143_CP.txt"
+  },
+  "coe_2026_0025_NT": {
+   "url": "https://coe.corrientes.gob.ar/a/2026-0025-NT",
+   "estado": 200,
+   "caracteres": 2212,
+   "archivo": "data/fuentes/coe_2026_0025_NT.txt"
+  },
+  "coe_2026_0078_AT": {
+   "url": "https://coe.corrientes.gob.ar/a/2026-0078-AT",
+   "estado": 200,
+   "caracteres": 2018,
+   "archivo": "data/fuentes/coe_2026_0078_AT.txt"
   },
   "coe_2026_0024_NT": {
    "url": "https://coe.corrientes.gob.ar/a/2026-0024-NT",
@@ -159,20 +171,6 @@
    "archivo": "data/fuentes/coe_a_2026_0138_CP.txt"
   }
  },
- "pedidas": {
-  "https://coe.corrientes.gob.ar/a/2026-0025-NT": {
-   "url": "https://coe.corrientes.gob.ar/a/2026-0025-NT",
-   "estado": 200,
-   "caracteres": 2212,
-   "archivo": "data/fuentes/web/coe_corrientes_gob_ar_a_2026_0025_NT.txt"
-  },
-  "https://coe.corrientes.gob.ar/a/2026-0078-AT": {
-   "url": "https://coe.corrientes.gob.ar/a/2026-0078-AT",
-   "estado": 200,
-   "caracteres": 2018,
-   "archivo": "data/fuentes/web/coe_corrientes_gob_ar_a_2026_0078_AT.txt"
-  }
- },
  "portales": {
   "munired_municipio_corrientes": {
    "url": "https://munired.mcypcorrientes.gob.ar/noticias/corrientes",
@@ -197,6 +195,20 @@
    "estado": 200,
    "notas": 6,
    "archivo": "data/fuentes/portales/senado_corrientes.txt"
+  }
+ },
+ "pedidas": {
+  "https://coe.corrientes.gob.ar/a/2026-0025-NT": {
+   "url": "https://coe.corrientes.gob.ar/a/2026-0025-NT",
+   "estado": 200,
+   "caracteres": 2212,
+   "archivo": "data/fuentes/web/coe_corrientes_gob_ar_a_2026_0025_NT.txt"
+  },
+  "https://coe.corrientes.gob.ar/a/2026-0078-AT": {
+   "url": "https://coe.corrientes.gob.ar/a/2026-0078-AT",
+   "estado": 200,
+   "caracteres": 2018,
+   "archivo": "data/fuentes/web/coe_corrientes_gob_ar_a_2026_0078_AT.txt"
   }
  },
  "pedidas_consultado": "18/11/2026, 11:15 h"
