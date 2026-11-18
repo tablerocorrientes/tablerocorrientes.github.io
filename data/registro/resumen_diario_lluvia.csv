@@ -131,18 +131,18 @@ fecha,localidad,pronosticado_mm,llovido_mm,horas_medidas,hora_mas_lluviosa,alert
 2026-11-17,Santo Tomé,17.2,15.6,24,08 a 09 h,rojo,,si
 2026-11-18,Bella Vista,24.5,4.8,7,05 a 06 h,rojo,70 a 120,si
 2026-11-18,Bonpland,,0.6,7,05 a 06 h,naranja,,
-2026-11-18,Caá Catí,,0,7,,naranja,,
+2026-11-18,Caá Catí,,0,8,,naranja,,
 2026-11-18,Colonia Carlos Pellegrini,,0,1,,naranja,,
-2026-11-18,Corrientes Capital,30.7,0,7,,naranja,70 a 120,
+2026-11-18,Corrientes Capital,30.7,0.4,8,07 a 08 h,naranja,70 a 120,
 2026-11-18,Curuzú Cuatiá,0.9,1,7,06 a 07 h,rojo,70 a 120,
 2026-11-18,Esquina,5.6,,,,rojo,70 a 120,
 2026-11-18,Garruchos,,0,1,,naranja,,
 2026-11-18,Gobernador Virasoro,19,0,1,,naranja,,
 2026-11-18,Goya,2,,,,rojo,70 a 120,
 2026-11-18,Ituzaingó,33.4,,,,rojo,70 a 120,
-2026-11-18,Itá Ibaté,,0.6,7,06 a 07 h,naranja,,
+2026-11-18,Itá Ibaté,,0.6,8,06 a 07 h,naranja,,
 2026-11-18,La Cruz,,0,7,,naranja,,
-2026-11-18,La Palmira,,3,7,06 a 07 h,naranja,,si
+2026-11-18,La Palmira,,3,8,06 a 07 h,naranja,,si
 2026-11-18,Mburucuyá,,18,7,06 a 07 h,rojo,70 a 120,si
 2026-11-18,Mercedes,11.7,0,7,,rojo,70 a 120,
 2026-11-18,Monte Caseros,2.1,,,,rojo,30 a 70,

@@ -19,9 +19,9 @@ jobs:
           fetch-depth: 1
       - name: Consultar el SNIH y actualizar lluvia.json y obs.json
         run: |
+          python3 tareas/snih_lluvia.py || true
           python3 tareas/esperado_dia.py || true
           python3 tareas/registro.py || true
-          python3 tareas/snih_lluvia.py || true
       - name: Publicar si hubo cambios
         run: |
           git config user.name "Tablero Ciudadano"
