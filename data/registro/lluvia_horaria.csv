@@ -202,6 +202,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-18,07,Gobernador Virasoro,La Sirena,13811,0.75
 2026-11-18,11,Gobernador Virasoro,La Sirena,13811,1.25
 2026-11-18,15,Gobernador Virasoro,La Sirena,13811,2.75
+2026-11-18,19,Gobernador Virasoro,La Sirena,13811,1
 2026-11-01,23,Colonia Carlos Pellegrini,Carlos Pellegrini,13826,0
 2026-11-02,03,Colonia Carlos Pellegrini,Carlos Pellegrini,13826,0
 2026-11-02,07,Colonia Carlos Pellegrini,Carlos Pellegrini,13826,0.25
@@ -249,6 +250,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-18,07,Colonia Carlos Pellegrini,Carlos Pellegrini,13826,1.5
 2026-11-18,11,Colonia Carlos Pellegrini,Carlos Pellegrini,13826,8.25
 2026-11-18,15,Colonia Carlos Pellegrini,Carlos Pellegrini,13826,10.75
+2026-11-18,19,Colonia Carlos Pellegrini,Carlos Pellegrini,13826,0
 2026-11-01,23,San Roquito,San Roquito,13832,0
 2026-11-02,03,San Roquito,San Roquito,13832,0
 2026-11-02,07,San Roquito,San Roquito,13832,0
@@ -289,6 +291,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-18,07,San Roquito,San Roquito,13832,0.25
 2026-11-18,11,San Roquito,San Roquito,13832,0.25
 2026-11-18,15,San Roquito,San Roquito,13832,0.25
+2026-11-18,19,San Roquito,San Roquito,13832,0.25
 2026-11-01,23,Santa Lucía,Santa Lucia,13836,0
 2026-11-02,00,Santa Lucía,Santa Lucia,13836,0
 2026-11-02,01,Santa Lucía,Santa Lucia,13836,0
@@ -547,6 +550,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-18,07,Garruchos,Garruchos,13857,0
 2026-11-18,11,Garruchos,Garruchos,13857,1
 2026-11-18,15,Garruchos,Garruchos,13857,0.5
+2026-11-18,19,Garruchos,Garruchos,13857,4
 2026-11-01,23,San Carlos,San Carlos,13864,0
 2026-11-02,00,San Carlos,San Carlos,13864,0
 2026-11-02,01,San Carlos,San Carlos,13864,0
@@ -1014,6 +1018,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-18,17,Parque Nacional Iberá,RMA08_PNI - Parque Nacional Iberá,220226,0
 2026-11-18,18,Parque Nacional Iberá,RMA08_PNI - Parque Nacional Iberá,220226,0
 2026-11-18,19,Parque Nacional Iberá,RMA08_PNI - Parque Nacional Iberá,220226,0
+2026-11-18,20,Parque Nacional Iberá,RMA08_PNI - Parque Nacional Iberá,220226,0
 2026-11-01,23,Mburucuyá,RMA04_PMB - Parque Nacional Mburucuyá,220246,0
 2026-11-02,00,Mburucuyá,RMA04_PMB - Parque Nacional Mburucuyá,220246,0
 2026-11-02,01,Mburucuyá,RMA04_PMB - Parque Nacional Mburucuyá,220246,0
