@@ -153,7 +153,7 @@ fecha,localidad,pronosticado_mm,llovido_mm,horas_medidas,hora_mas_lluviosa,alert
 2026-11-18,Pueblo Libertador,,1.5,24,12 a 13 h,naranja,,
 2026-11-18,Saladas,35,,,,rojo,70 a 120,
 2026-11-18,San Carlos,,0,24,,naranja,,
-2026-11-18,San Roquito,,1,5,07 a 08 h,naranja,,
+2026-11-18,San Roquito,,1.25,6,07 a 08 h,naranja,,
 2026-11-18,Santa Lucía,,0.5,24,06 a 07 h,naranja,,
 2026-11-18,Santo Tomé,17.1,6,24,15 a 16 h,naranja,70 a 120,si
 2026-11-19,Bella Vista,0.5,0,1,,naranja,,
@@ -171,6 +171,7 @@ fecha,localidad,pronosticado_mm,llovido_mm,horas_medidas,hora_mas_lluviosa,alert
 2026-11-19,Mburucuyá,,0,1,,naranja,,
 2026-11-19,Mercedes,0.1,0,1,,naranja,,
 2026-11-19,Monte Caseros,0.2,,,,naranja,,
+2026-11-19,Parque Nacional Iberá,,0,1,,naranja,,
 2026-11-19,Paso de los Libres,0.1,,,,naranja,,
 2026-11-19,Pueblo Libertador,,0,1,,naranja,,
 2026-11-19,Saladas,1,,,,naranja,,

@@ -4706,7 +4706,7 @@
      null,
      null,
      null,
-     null
+     0.25
     ],
     "Colonia Carlos Pellegrini": [
      null,
@@ -5247,6 +5247,32 @@
    null
   ],
   "Santo Tomé": [
+   0.0,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "Parque Nacional Iberá": [
    0.0,
    null,
    null,
