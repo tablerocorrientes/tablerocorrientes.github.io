@@ -1,5 +1,5 @@
 {
- "actualizado": "18/11/2026, 23:15 h",
+ "actualizado": "19/11/2026, 00:27 h",
  "metodo": "estimación derivada: promedio de modelos (Open-Meteo), calculado automáticamente; las tareas agregan el parte del SMN cuando corren",
  "estado_alertas": "VERIFICADO_CON_ALERTAS",
  "estado_verificado": {
@@ -241,30 +241,16 @@
  "ciudades": {
   "Corrientes Capital": {
    "hoy": {
-    "mm": 16.3,
-    "horas": 15
-   },
-   "manana": {
     "mm": 4.3,
     "horas": 5
+   },
+   "manana": {
+    "mm": 10.2,
+    "horas": 12
    },
    "smn": "Rigen para la Capital la alerta naranja del COE (fuente SMN) por granizo, lluvias intensas, tormentas y vientos fuertes hasta las 20:00 h (70 mm o más), la naranja por tormentas hasta las 13:00 h y la amarilla hasta las 12:00 h. El aviso rojo a corto plazo para la Capital (09:30 a 10:30 h) ya venció; a las 11:04 h el COE emitió otro aviso rojo para San Luis del Palmar, Empedrado y otros cinco departamentos, sin la Capital. El SMN mantiene la alerta naranja provincial hasta las 05:59 h del 19/11 (lectura de las 08:43 h). Parte del SMN difundido por La Nación (11:13 h): hoy tormentas fuertes por la mañana (100 %) y por la tarde (70 %) y chaparrones por la noche (40 %); mañana mayormente nublado por la mañana (10 %) y chaparrones y tormentas aisladas por la tarde y la noche (40 %).",
    "modelos": {
     "hoy": [
-     [
-      "GFS (NOAA)",
-      8.5
-     ],
-     [
-      "ICON (DWD)",
-      21.9
-     ],
-     [
-      "ECMWF",
-      18.6
-     ]
-    ],
-    "manana": [
      [
       "GFS (NOAA)",
       0.0
@@ -277,38 +263,38 @@
       "ECMWF",
       7.5
      ]
+    ],
+    "manana": [
+     [
+      "GFS (NOAA)",
+      0.4
+     ],
+     [
+      "ICON (DWD)",
+      11.3
+     ],
+     [
+      "ECMWF",
+      18.9
+     ]
     ]
    },
    "criterio": "Promedio de los modelos GFS (NOAA), ICON (DWD), ECMWF (Open-Meteo), calculado automáticamente. Estimación derivada, no una medición.",
-   "fuente": "Hoy 16,3 mm, mañana 4,3 mm, promedio de modelos (Open-Meteo, 18/11/2026, 23:15 h)",
-   "act": "18/11, 23:15 h"
+   "fuente": "Hoy 4,3 mm, mañana 10,2 mm, promedio de modelos (Open-Meteo, 19/11/2026, 00:27 h)",
+   "act": "19/11, 00:27 h"
   },
   "Goya": {
    "hoy": {
-    "mm": 6.7,
-    "horas": 11
-   },
-   "manana": {
     "mm": 0.3,
     "horas": 2
+   },
+   "manana": {
+    "mm": 1.5,
+    "horas": 4
    },
    "smn": "Alerta amarilla del SMN por tormenta para Corrientes desde las 12:00 h del 17/11 hasta las 11:59 h del 18/11, sin departamentos detallados. Alerta amarilla del COE de Corrientes (fuente SMN) que incluye a esta ciudad el miércoles 18/11 de 05:00 a 12:00 h, con 30 a 70 mm posibles.",
    "modelos": {
     "hoy": [
-     [
-      "GFS (NOAA)",
-      5.7
-     ],
-     [
-      "ICON (DWD)",
-      3.7
-     ],
-     [
-      "ECMWF",
-      10.8
-     ]
-    ],
-    "manana": [
      [
       "GFS (NOAA)",
       0.0
@@ -321,38 +307,38 @@
       "ECMWF",
       0.0
      ]
+    ],
+    "manana": [
+     [
+      "GFS (NOAA)",
+      1.1
+     ],
+     [
+      "ICON (DWD)",
+      3.0
+     ],
+     [
+      "ECMWF",
+      0.3
+     ]
     ]
    },
    "criterio": "Promedio de los modelos GFS (NOAA), ICON (DWD), ECMWF (Open-Meteo), calculado automáticamente. Estimación derivada, no una medición.",
-   "fuente": "Hoy 6,7 mm, mañana 0,3 mm, promedio de modelos (Open-Meteo, 18/11/2026, 23:15 h)",
-   "act": "18/11, 23:15 h"
+   "fuente": "Hoy 0,3 mm, mañana 1,5 mm, promedio de modelos (Open-Meteo, 19/11/2026, 00:27 h)",
+   "act": "19/11, 00:27 h"
   },
   "Esquina": {
    "hoy": {
-    "mm": 1.2,
-    "horas": 6
-   },
-   "manana": {
     "mm": 0.2,
     "horas": 0
+   },
+   "manana": {
+    "mm": 5.3,
+    "horas": 10
    },
    "smn": "Alerta amarilla del SMN por tormenta para Corrientes desde las 12:00 h del 17/11 hasta las 11:59 h del 18/11, sin departamentos detallados. Alerta amarilla del COE de Corrientes (fuente SMN) que incluye a esta ciudad el miércoles 18/11 de 05:00 a 12:00 h, con 30 a 70 mm posibles.",
    "modelos": {
     "hoy": [
-     [
-      "GFS (NOAA)",
-      2.8
-     ],
-     [
-      "ICON (DWD)",
-      0.7
-     ],
-     [
-      "ECMWF",
-      0.0
-     ]
-    ],
-    "manana": [
      [
       "GFS (NOAA)",
       0.0
@@ -365,38 +351,38 @@
       "ECMWF",
       0.6
      ]
+    ],
+    "manana": [
+     [
+      "GFS (NOAA)",
+      1.0
+     ],
+     [
+      "ICON (DWD)",
+      15.0
+     ],
+     [
+      "ECMWF",
+      0.0
+     ]
     ]
    },
    "criterio": "Promedio de los modelos GFS (NOAA), ICON (DWD), ECMWF (Open-Meteo), calculado automáticamente. Estimación derivada, no una medición.",
-   "fuente": "Hoy 1,2 mm, mañana 0,2 mm, promedio de modelos (Open-Meteo, 18/11/2026, 23:15 h)",
-   "act": "18/11, 23:15 h"
+   "fuente": "Hoy 0,2 mm, mañana 5,3 mm, promedio de modelos (Open-Meteo, 19/11/2026, 00:27 h)",
+   "act": "19/11, 00:27 h"
   },
   "Bella Vista": {
    "hoy": {
-    "mm": 13.5,
-    "horas": 15
-   },
-   "manana": {
     "mm": 0.5,
     "horas": 2
+   },
+   "manana": {
+    "mm": 2.9,
+    "horas": 11
    },
    "smn": "Alerta amarilla del SMN por tormenta para Corrientes desde las 12:00 h del 17/11 hasta las 11:59 h del 18/11, sin departamentos detallados. Alerta amarilla del COE de Corrientes (fuente SMN) que incluye a esta ciudad el miércoles 18/11 de 05:00 a 12:00 h, con 30 a 70 mm posibles.",
    "modelos": {
     "hoy": [
-     [
-      "GFS (NOAA)",
-      10.4
-     ],
-     [
-      "ICON (DWD)",
-      18.9
-     ],
-     [
-      "ECMWF",
-      11.1
-     ]
-    ],
-    "manana": [
      [
       "GFS (NOAA)",
       0.0
@@ -409,38 +395,38 @@
       "ECMWF",
       0.9
      ]
+    ],
+    "manana": [
+     [
+      "GFS (NOAA)",
+      0.5
+     ],
+     [
+      "ICON (DWD)",
+      5.7
+     ],
+     [
+      "ECMWF",
+      2.4
+     ]
     ]
    },
    "criterio": "Promedio de los modelos GFS (NOAA), ICON (DWD), ECMWF (Open-Meteo), calculado automáticamente. Estimación derivada, no una medición.",
-   "fuente": "Hoy 13,5 mm, mañana 0,5 mm, promedio de modelos (Open-Meteo, 18/11/2026, 23:15 h)",
-   "act": "18/11, 23:15 h"
+   "fuente": "Hoy 0,5 mm, mañana 2,9 mm, promedio de modelos (Open-Meteo, 19/11/2026, 00:27 h)",
+   "act": "19/11, 00:27 h"
   },
   "Mercedes": {
    "hoy": {
-    "mm": 6.8,
-    "horas": 13
-   },
-   "manana": {
     "mm": 0.1,
     "horas": 0
+   },
+   "manana": {
+    "mm": 4.6,
+    "horas": 12
    },
    "smn": "Alerta amarilla del SMN por tormenta para Corrientes desde las 12:00 h del 17/11 hasta las 11:59 h del 18/11, sin departamentos detallados. Alerta amarilla del COE de Corrientes (fuente SMN) que incluye a esta ciudad el miércoles 18/11 de 05:00 a 12:00 h, con 30 a 70 mm posibles.",
    "modelos": {
     "hoy": [
-     [
-      "GFS (NOAA)",
-      4.2
-     ],
-     [
-      "ICON (DWD)",
-      10.4
-     ],
-     [
-      "ECMWF",
-      5.7
-     ]
-    ],
-    "manana": [
      [
       "GFS (NOAA)",
       0.0
@@ -453,38 +439,38 @@
       "ECMWF",
       0.3
      ]
+    ],
+    "manana": [
+     [
+      "GFS (NOAA)",
+      2.1
+     ],
+     [
+      "ICON (DWD)",
+      9.7
+     ],
+     [
+      "ECMWF",
+      2.1
+     ]
     ]
    },
    "criterio": "Promedio de los modelos GFS (NOAA), ICON (DWD), ECMWF (Open-Meteo), calculado automáticamente. Estimación derivada, no una medición.",
-   "fuente": "Hoy 6,8 mm, mañana 0,1 mm, promedio de modelos (Open-Meteo, 18/11/2026, 23:15 h)",
-   "act": "18/11, 23:15 h"
+   "fuente": "Hoy 0,1 mm, mañana 4,6 mm, promedio de modelos (Open-Meteo, 19/11/2026, 00:27 h)",
+   "act": "19/11, 00:27 h"
   },
   "Curuzú Cuatiá": {
    "hoy": {
-    "mm": 1.7,
-    "horas": 7
-   },
-   "manana": {
     "mm": 0.8,
     "horas": 4
+   },
+   "manana": {
+    "mm": 6.2,
+    "horas": 9
    },
    "smn": "Alerta amarilla del SMN por tormenta para Corrientes desde las 12:00 h del 17/11 hasta las 11:59 h del 18/11, sin departamentos detallados. Alerta amarilla del COE de Corrientes (fuente SMN) que incluye a esta ciudad el miércoles 18/11 de 05:00 a 12:00 h, con 30 a 70 mm posibles.",
    "modelos": {
     "hoy": [
-     [
-      "GFS (NOAA)",
-      2.2
-     ],
-     [
-      "ICON (DWD)",
-      1.7
-     ],
-     [
-      "ECMWF",
-      1.2
-     ]
-    ],
-    "manana": [
      [
       "GFS (NOAA)",
       0.0
@@ -497,38 +483,38 @@
       "ECMWF",
       2.1
      ]
+    ],
+    "manana": [
+     [
+      "GFS (NOAA)",
+      1.9
+     ],
+     [
+      "ICON (DWD)",
+      16.1
+     ],
+     [
+      "ECMWF",
+      0.6
+     ]
     ]
    },
    "criterio": "Promedio de los modelos GFS (NOAA), ICON (DWD), ECMWF (Open-Meteo), calculado automáticamente. Estimación derivada, no una medición.",
-   "fuente": "Hoy 1,7 mm, mañana 0,8 mm, promedio de modelos (Open-Meteo, 18/11/2026, 23:15 h)",
-   "act": "18/11, 23:15 h"
+   "fuente": "Hoy 0,8 mm, mañana 6,2 mm, promedio de modelos (Open-Meteo, 19/11/2026, 00:27 h)",
+   "act": "19/11, 00:27 h"
   },
   "Paso de los Libres": {
    "hoy": {
-    "mm": 1.7,
-    "horas": 7
-   },
-   "manana": {
     "mm": 0.1,
     "horas": 1
+   },
+   "manana": {
+    "mm": 2.5,
+    "horas": 11
    },
    "smn": "Alerta amarilla del SMN por tormenta para Corrientes desde las 12:00 h del 17/11 hasta las 11:59 h del 18/11, sin departamentos detallados. Alerta amarilla del COE de Corrientes (fuente SMN) que incluye a esta ciudad el miércoles 18/11 de 05:00 a 12:00 h, con 30 a 70 mm posibles.",
    "modelos": {
     "hoy": [
-     [
-      "GFS (NOAA)",
-      1.6
-     ],
-     [
-      "ICON (DWD)",
-      1.9
-     ],
-     [
-      "ECMWF",
-      1.5
-     ]
-    ],
-    "manana": [
      [
       "GFS (NOAA)",
       0.0
@@ -541,38 +527,38 @@
       "ECMWF",
       0.0
      ]
+    ],
+    "manana": [
+     [
+      "GFS (NOAA)",
+      1.1
+     ],
+     [
+      "ICON (DWD)",
+      6.2
+     ],
+     [
+      "ECMWF",
+      0.3
+     ]
     ]
    },
    "criterio": "Promedio de los modelos GFS (NOAA), ICON (DWD), ECMWF (Open-Meteo), calculado automáticamente. Estimación derivada, no una medición.",
-   "fuente": "Hoy 1,7 mm, mañana 0,1 mm, promedio de modelos (Open-Meteo, 18/11/2026, 23:15 h)",
-   "act": "18/11, 23:15 h"
+   "fuente": "Hoy 0,1 mm, mañana 2,5 mm, promedio de modelos (Open-Meteo, 19/11/2026, 00:27 h)",
+   "act": "19/11, 00:27 h"
   },
   "Santo Tomé": {
    "hoy": {
-    "mm": 6.0,
-    "horas": 8
-   },
-   "manana": {
     "mm": 2.7,
     "horas": 10
+   },
+   "manana": {
+    "mm": 34.4,
+    "horas": 19
    },
    "smn": "Alerta amarilla del SMN por tormenta para Corrientes desde las 12:00 h del 17/11 hasta las 11:59 h del 18/11, sin departamentos detallados. Alerta amarilla del COE de Corrientes (fuente SMN) que incluye a esta ciudad el miércoles 18/11 de 05:00 a 12:00 h, con 30 a 70 mm posibles.",
    "modelos": {
     "hoy": [
-     [
-      "GFS (NOAA)",
-      10.5
-     ],
-     [
-      "ICON (DWD)",
-      3.0
-     ],
-     [
-      "ECMWF",
-      4.6
-     ]
-    ],
-    "manana": [
      [
       "GFS (NOAA)",
       0.3
@@ -585,38 +571,38 @@
       "ECMWF",
       7.0
      ]
+    ],
+    "manana": [
+     [
+      "GFS (NOAA)",
+      5.3
+     ],
+     [
+      "ICON (DWD)",
+      43.8
+     ],
+     [
+      "ECMWF",
+      54.1
+     ]
     ]
    },
    "criterio": "Promedio de los modelos GFS (NOAA), ICON (DWD), ECMWF (Open-Meteo), calculado automáticamente. Estimación derivada, no una medición.",
-   "fuente": "Hoy 6,0 mm, mañana 2,7 mm, promedio de modelos (Open-Meteo, 18/11/2026, 23:15 h)",
-   "act": "18/11, 23:15 h"
+   "fuente": "Hoy 2,7 mm, mañana 34,4 mm, promedio de modelos (Open-Meteo, 19/11/2026, 00:27 h)",
+   "act": "19/11, 00:27 h"
   },
   "Gobernador Virasoro": {
    "hoy": {
-    "mm": 11.3,
-    "horas": 11
-   },
-   "manana": {
     "mm": 4.5,
     "horas": 9
+   },
+   "manana": {
+    "mm": 33.8,
+    "horas": 19
    },
    "smn": "Alerta amarilla del SMN por tormenta para Corrientes desde las 12:00 h del 17/11 hasta las 11:59 h del 18/11, sin departamentos detallados. Alerta amarilla del COE de Corrientes (fuente SMN) que incluye a esta ciudad el miércoles 18/11 de 05:00 a 12:00 h, con 30 a 70 mm posibles.",
    "modelos": {
     "hoy": [
-     [
-      "GFS (NOAA)",
-      12.8
-     ],
-     [
-      "ICON (DWD)",
-      5.0
-     ],
-     [
-      "ECMWF",
-      16.2
-     ]
-    ],
-    "manana": [
      [
       "GFS (NOAA)",
       0.2
@@ -629,38 +615,38 @@
       "ECMWF",
       8.4
      ]
+    ],
+    "manana": [
+     [
+      "GFS (NOAA)",
+      12.7
+     ],
+     [
+      "ICON (DWD)",
+      29.8
+     ],
+     [
+      "ECMWF",
+      58.8
+     ]
     ]
    },
    "criterio": "Promedio de los modelos GFS (NOAA), ICON (DWD), ECMWF (Open-Meteo), calculado automáticamente. Estimación derivada, no una medición.",
-   "fuente": "Hoy 11,3 mm, mañana 4,5 mm, promedio de modelos (Open-Meteo, 18/11/2026, 23:15 h)",
-   "act": "18/11, 23:15 h"
+   "fuente": "Hoy 4,5 mm, mañana 33,8 mm, promedio de modelos (Open-Meteo, 19/11/2026, 00:27 h)",
+   "act": "19/11, 00:27 h"
   },
   "Ituzaingó": {
    "hoy": {
-    "mm": 12.2,
-    "horas": 14
-   },
-   "manana": {
     "mm": 3.1,
     "horas": 7
+   },
+   "manana": {
+    "mm": 27.4,
+    "horas": 19
    },
    "smn": "Alerta amarilla del SMN por tormenta para Corrientes desde las 12:00 h del 17/11 hasta las 11:59 h del 18/11, sin departamentos detallados. Alerta amarilla del COE de Corrientes (fuente SMN) que incluye a esta ciudad el miércoles 18/11 de 05:00 a 12:00 h, con 30 a 70 mm posibles.",
    "modelos": {
     "hoy": [
-     [
-      "GFS (NOAA)",
-      22.2
-     ],
-     [
-      "ICON (DWD)",
-      11.8
-     ],
-     [
-      "ECMWF",
-      2.6
-     ]
-    ],
-    "manana": [
      [
       "GFS (NOAA)",
       0.9
@@ -673,38 +659,38 @@
       "ECMWF",
       4.7
      ]
+    ],
+    "manana": [
+     [
+      "GFS (NOAA)",
+      10.6
+     ],
+     [
+      "ICON (DWD)",
+      22.4
+     ],
+     [
+      "ECMWF",
+      49.3
+     ]
     ]
    },
    "criterio": "Promedio de los modelos GFS (NOAA), ICON (DWD), ECMWF (Open-Meteo), calculado automáticamente. Estimación derivada, no una medición.",
-   "fuente": "Hoy 12,2 mm, mañana 3,1 mm, promedio de modelos (Open-Meteo, 18/11/2026, 23:15 h)",
-   "act": "18/11, 23:15 h"
+   "fuente": "Hoy 3,1 mm, mañana 27,4 mm, promedio de modelos (Open-Meteo, 19/11/2026, 00:27 h)",
+   "act": "19/11, 00:27 h"
   },
   "Monte Caseros": {
    "hoy": {
-    "mm": 0.7,
-    "horas": 2
+    "mm": 0.2,
+    "horas": 0
    },
    "manana": {
-    "mm": 0.2,
+    "mm": 0.1,
     "horas": 0
    },
    "smn": "Alerta amarilla del SMN por tormenta para Corrientes desde las 12:00 h del 17/11 hasta las 11:59 h del 18/11, sin departamentos detallados. La alerta amarilla del COE de Corrientes para el miércoles 18/11 de 05:00 a 12:00 h no incluye al departamento Monte Caseros.",
    "modelos": {
     "hoy": [
-     [
-      "GFS (NOAA)",
-      1.7
-     ],
-     [
-      "ICON (DWD)",
-      0.1
-     ],
-     [
-      "ECMWF",
-      0.3
-     ]
-    ],
-    "manana": [
      [
       "GFS (NOAA)",
       0.0
@@ -717,38 +703,38 @@
       "ECMWF",
       0.6
      ]
+    ],
+    "manana": [
+     [
+      "GFS (NOAA)",
+      0.1
+     ],
+     [
+      "ICON (DWD)",
+      0.2
+     ],
+     [
+      "ECMWF",
+      0.0
+     ]
     ]
    },
    "criterio": "Promedio de los modelos GFS (NOAA), ICON (DWD), ECMWF (Open-Meteo), calculado automáticamente. Estimación derivada, no una medición.",
-   "fuente": "Hoy 0,7 mm, mañana 0,2 mm, promedio de modelos (Open-Meteo, 18/11/2026, 23:15 h)",
-   "act": "18/11, 23:15 h"
+   "fuente": "Hoy 0,2 mm, mañana 0,1 mm, promedio de modelos (Open-Meteo, 19/11/2026, 00:27 h)",
+   "act": "19/11, 00:27 h"
   },
   "Saladas": {
    "hoy": {
-    "mm": 12.1,
-    "horas": 16
-   },
-   "manana": {
     "mm": 1.0,
     "horas": 4
+   },
+   "manana": {
+    "mm": 5.0,
+    "horas": 11
    },
    "smn": "Alerta amarilla del SMN por tormenta para Corrientes desde las 12:00 h del 17/11 hasta las 11:59 h del 18/11, sin departamentos detallados. Alerta amarilla del COE de Corrientes (fuente SMN) que incluye a esta ciudad el miércoles 18/11 de 05:00 a 12:00 h, con 30 a 70 mm posibles.",
    "modelos": {
     "hoy": [
-     [
-      "GFS (NOAA)",
-      11.1
-     ],
-     [
-      "ICON (DWD)",
-      15.9
-     ],
-     [
-      "ECMWF",
-      9.3
-     ]
-    ],
-    "manana": [
      [
       "GFS (NOAA)",
       0.0
@@ -761,40 +747,28 @@
       "ECMWF",
       2.7
      ]
+    ],
+    "manana": [
+     [
+      "GFS (NOAA)",
+      0.8
+     ],
+     [
+      "ICON (DWD)",
+      9.2
+     ],
+     [
+      "ECMWF",
+      5.1
+     ]
     ]
    },
    "criterio": "Promedio de los modelos GFS (NOAA), ICON (DWD), ECMWF (Open-Meteo), calculado automáticamente. Estimación derivada, no una medición.",
-   "fuente": "Hoy 12,1 mm, mañana 1,0 mm, promedio de modelos (Open-Meteo, 18/11/2026, 23:15 h)",
-   "act": "18/11, 23:15 h"
+   "fuente": "Hoy 1,0 mm, mañana 5,0 mm, promedio de modelos (Open-Meteo, 19/11/2026, 00:27 h)",
+   "act": "19/11, 00:27 h"
   }
  },
  "horario_capital": {
-  "2026-11-18": [
-   0.0,
-   0.0,
-   0.0,
-   0.1,
-   0.0,
-   0.13,
-   0.47,
-   1.9,
-   0.73,
-   1.63,
-   1.9,
-   2.7,
-   3.0,
-   1.03,
-   0.13,
-   0.83,
-   1.0,
-   0.63,
-   0.13,
-   0.0,
-   0.0,
-   0.0,
-   0.0,
-   0.0
-  ],
   "2026-11-19": [
    0.0,
    0.0,
@@ -846,13 +820,39 @@
    0.0,
    0.0,
    0.0
+  ],
+  "2026-11-21": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.03,
+   0.07,
+   0.03,
+   0.4,
+   0.2,
+   0.2,
+   0.23,
+   0.23,
+   0.23,
+   0.0,
+   0.0
   ]
  },
- "horario_act": "18/11/2026, 23:15 h",
+ "horario_act": "19/11/2026, 00:27 h",
  "consultado": "18/11/2026, 11:20 h",
  "consulta_resultado": "datos nuevos",
  "extendido": {
-  "actualizado": "18/11/2026, 23:15 h",
+  "actualizado": "19/11/2026, 00:27 h",
   "aviso": "Pronóstico extendido informativo. No se usa en los cálculos del simulador.",
   "ciudades": {
    "Corrientes Capital": {
@@ -907,16 +907,8 @@
    "Goya": {
     "fuente": "Modelo Open-Meteo (estimación de modelo, no es el pronóstico oficial del SMN)",
     "url": "https://open-meteo.com",
-    "emision": "18/11/2026, 23:15 h",
+    "emision": "19/11/2026, 00:27 h",
     "dias": [
-     {
-      "fecha": "2026-11-19",
-      "resumen": "Nublado",
-      "prob": 23,
-      "mm": 0.0,
-      "tmin": 19,
-      "tmax": 29
-     },
      {
       "fecha": "2026-11-20",
       "resumen": "Llovizna",
@@ -964,22 +956,22 @@
       "mm": 0.0,
       "tmin": 17,
       "tmax": 24
+     },
+     {
+      "fecha": "2026-11-26",
+      "resumen": "Nublado",
+      "prob": 7,
+      "mm": 0.0,
+      "tmin": 15,
+      "tmax": 26
      }
     ]
    },
    "Esquina": {
     "fuente": "Modelo Open-Meteo (estimación de modelo, no es el pronóstico oficial del SMN)",
     "url": "https://open-meteo.com",
-    "emision": "18/11/2026, 23:15 h",
+    "emision": "19/11/2026, 00:27 h",
     "dias": [
-     {
-      "fecha": "2026-11-19",
-      "resumen": "Llovizna",
-      "prob": 31,
-      "mm": 0.6,
-      "tmin": 19,
-      "tmax": 28
-     },
      {
       "fecha": "2026-11-20",
       "resumen": "Nublado",
@@ -1027,22 +1019,22 @@
       "mm": 0.0,
       "tmin": 15,
       "tmax": 23
+     },
+     {
+      "fecha": "2026-11-26",
+      "resumen": "Llovizna débil",
+      "prob": 2,
+      "mm": 0.2,
+      "tmin": 14,
+      "tmax": 25
      }
     ]
    },
    "Bella Vista": {
     "fuente": "Modelo Open-Meteo (estimación de modelo, no es el pronóstico oficial del SMN)",
     "url": "https://open-meteo.com",
-    "emision": "18/11/2026, 23:15 h",
+    "emision": "19/11/2026, 00:27 h",
     "dias": [
-     {
-      "fecha": "2026-11-19",
-      "resumen": "Llovizna débil",
-      "prob": 22,
-      "mm": 0.5,
-      "tmin": 20,
-      "tmax": 29
-     },
      {
       "fecha": "2026-11-20",
       "resumen": "Llovizna",
@@ -1090,22 +1082,22 @@
       "mm": 0.0,
       "tmin": 17,
       "tmax": 25
+     },
+     {
+      "fecha": "2026-11-26",
+      "resumen": "Llovizna débil",
+      "prob": 8,
+      "mm": 0.2,
+      "tmin": 15,
+      "tmax": 25
      }
     ]
    },
    "Mercedes": {
     "fuente": "Modelo Open-Meteo (estimación de modelo, no es el pronóstico oficial del SMN)",
     "url": "https://open-meteo.com",
-    "emision": "18/11/2026, 23:15 h",
+    "emision": "19/11/2026, 00:27 h",
     "dias": [
-     {
-      "fecha": "2026-11-19",
-      "resumen": "Nublado",
-      "prob": 28,
-      "mm": 0.0,
-      "tmin": 18,
-      "tmax": 28
-     },
      {
       "fecha": "2026-11-20",
       "resumen": "Llovizna",
@@ -1153,22 +1145,22 @@
       "mm": 0.0,
       "tmin": 16,
       "tmax": 24
+     },
+     {
+      "fecha": "2026-11-26",
+      "resumen": "Nublado",
+      "prob": 7,
+      "mm": 0.0,
+      "tmin": 15,
+      "tmax": 25
      }
     ]
    },
    "Curuzú Cuatiá": {
     "fuente": "Modelo Open-Meteo (estimación de modelo, no es el pronóstico oficial del SMN)",
     "url": "https://open-meteo.com",
-    "emision": "18/11/2026, 23:15 h",
+    "emision": "19/11/2026, 00:27 h",
     "dias": [
-     {
-      "fecha": "2026-11-19",
-      "resumen": "Chaparrones",
-      "prob": 32,
-      "mm": 2.5,
-      "tmin": 18,
-      "tmax": 28
-     },
      {
       "fecha": "2026-11-20",
       "resumen": "Llovizna débil",
@@ -1216,22 +1208,22 @@
       "mm": 0.0,
       "tmin": 16,
       "tmax": 24
+     },
+     {
+      "fecha": "2026-11-26",
+      "resumen": "Nublado",
+      "prob": 4,
+      "mm": 0.0,
+      "tmin": 14,
+      "tmax": 25
      }
     ]
    },
    "Paso de los Libres": {
     "fuente": "Modelo Open-Meteo (estimación de modelo, no es el pronóstico oficial del SMN)",
     "url": "https://open-meteo.com",
-    "emision": "18/11/2026, 23:15 h",
+    "emision": "19/11/2026, 00:27 h",
     "dias": [
-     {
-      "fecha": "2026-11-19",
-      "resumen": "Nublado",
-      "prob": 30,
-      "mm": 0.0,
-      "tmin": 20,
-      "tmax": 29
-     },
      {
       "fecha": "2026-11-20",
       "resumen": "Llovizna débil",
@@ -1279,22 +1271,22 @@
       "mm": 0.0,
       "tmin": 16,
       "tmax": 25
+     },
+     {
+      "fecha": "2026-11-26",
+      "resumen": "Nublado",
+      "prob": 2,
+      "mm": 0.0,
+      "tmin": 15,
+      "tmax": 25
      }
     ]
    },
    "Santo Tomé": {
     "fuente": "Modelo Open-Meteo (estimación de modelo, no es el pronóstico oficial del SMN)",
     "url": "https://open-meteo.com",
-    "emision": "18/11/2026, 23:15 h",
+    "emision": "19/11/2026, 00:27 h",
     "dias": [
-     {
-      "fecha": "2026-11-19",
-      "resumen": "Tormentas",
-      "prob": 35,
-      "mm": 7.8,
-      "tmin": 20,
-      "tmax": 30
-     },
      {
       "fecha": "2026-11-20",
       "resumen": "Tormentas",
@@ -1342,22 +1334,22 @@
       "mm": 0.0,
       "tmin": 18,
       "tmax": 26
+     },
+     {
+      "fecha": "2026-11-26",
+      "resumen": "Nublado",
+      "prob": 4,
+      "mm": 0.0,
+      "tmin": 16,
+      "tmax": 25
      }
     ]
    },
    "Gobernador Virasoro": {
     "fuente": "Modelo Open-Meteo (estimación de modelo, no es el pronóstico oficial del SMN)",
     "url": "https://open-meteo.com",
-    "emision": "18/11/2026, 23:15 h",
+    "emision": "19/11/2026, 00:27 h",
     "dias": [
-     {
-      "fecha": "2026-11-19",
-      "resumen": "Tormentas con granizo",
-      "prob": 51,
-      "mm": 5.3,
-      "tmin": 20,
-      "tmax": 30
-     },
      {
       "fecha": "2026-11-20",
       "resumen": "Tormentas con granizo",
@@ -1405,22 +1397,22 @@
       "mm": 0.0,
       "tmin": 17,
       "tmax": 26
+     },
+     {
+      "fecha": "2026-11-26",
+      "resumen": "Nublado",
+      "prob": 9,
+      "mm": 0.0,
+      "tmin": 16,
+      "tmax": 26
      }
     ]
    },
    "Ituzaingó": {
     "fuente": "Modelo Open-Meteo (estimación de modelo, no es el pronóstico oficial del SMN)",
     "url": "https://open-meteo.com",
-    "emision": "18/11/2026, 23:15 h",
+    "emision": "19/11/2026, 00:27 h",
     "dias": [
-     {
-      "fecha": "2026-11-19",
-      "resumen": "Chaparrones",
-      "prob": 47,
-      "mm": 4.5,
-      "tmin": 21,
-      "tmax": 30
-     },
      {
       "fecha": "2026-11-20",
       "resumen": "Tormentas con granizo",
@@ -1468,22 +1460,22 @@
       "mm": 0.0,
       "tmin": 17,
       "tmax": 27
+     },
+     {
+      "fecha": "2026-11-26",
+      "resumen": "Nublado",
+      "prob": 7,
+      "mm": 0.0,
+      "tmin": 16,
+      "tmax": 26
      }
     ]
    },
    "Monte Caseros": {
     "fuente": "Modelo Open-Meteo (estimación de modelo, no es el pronóstico oficial del SMN)",
     "url": "https://open-meteo.com",
-    "emision": "18/11/2026, 23:15 h",
+    "emision": "19/11/2026, 00:27 h",
     "dias": [
-     {
-      "fecha": "2026-11-19",
-      "resumen": "Nublado",
-      "prob": 43,
-      "mm": 0.0,
-      "tmin": 19,
-      "tmax": 28
-     },
      {
       "fecha": "2026-11-20",
       "resumen": "Nublado",
@@ -1531,22 +1523,22 @@
       "mm": 0.0,
       "tmin": 15,
       "tmax": 23
+     },
+     {
+      "fecha": "2026-11-26",
+      "resumen": "Nublado",
+      "prob": 2,
+      "mm": 0.0,
+      "tmin": 14,
+      "tmax": 25
      }
     ]
    },
    "Saladas": {
     "fuente": "Modelo Open-Meteo (estimación de modelo, no es el pronóstico oficial del SMN)",
     "url": "https://open-meteo.com",
-    "emision": "18/11/2026, 23:15 h",
+    "emision": "19/11/2026, 00:27 h",
     "dias": [
-     {
-      "fecha": "2026-11-19",
-      "resumen": "Llovizna intensa",
-      "prob": 30,
-      "mm": 3.3,
-      "tmin": 19,
-      "tmax": 28
-     },
      {
       "fecha": "2026-11-20",
       "resumen": "Tormentas con granizo",
@@ -1593,6 +1585,14 @@
       "prob": 7,
       "mm": 0.0,
       "tmin": 17,
+      "tmax": 25
+     },
+     {
+      "fecha": "2026-11-26",
+      "resumen": "Nublado",
+      "prob": 5,
+      "mm": 0.0,
+      "tmin": 16,
       "tmax": 25
      }
     ]
