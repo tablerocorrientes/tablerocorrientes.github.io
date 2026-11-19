@@ -476,6 +476,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-18,23,Santa Lucía,Santa Lucia,13836,0
 2026-11-19,00,Santa Lucía,Santa Lucia,13836,0
 2026-11-19,01,Santa Lucía,Santa Lucia,13836,0
+2026-11-19,02,Santa Lucía,Santa Lucia,13836,0
 2026-11-01,23,Paso Cerrito,Paso Cerrito,13849,0
 2026-11-02,03,Paso Cerrito,Paso Cerrito,13849,0
 2026-11-02,07,Paso Cerrito,Paso Cerrito,13849,0
@@ -742,6 +743,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-18,23,San Carlos,San Carlos,13864,0
 2026-11-19,00,San Carlos,San Carlos,13864,0
 2026-11-19,01,San Carlos,San Carlos,13864,0
+2026-11-19,02,San Carlos,San Carlos,13864,0
 2026-11-01,23,Pueblo Libertador,Pueblo Libertador,13876,0
 2026-11-02,00,Pueblo Libertador,Pueblo Libertador,13876,0
 2026-11-02,01,Pueblo Libertador,Pueblo Libertador,13876,0
@@ -888,6 +890,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-18,23,Pueblo Libertador,Pueblo Libertador,13876,0
 2026-11-19,00,Pueblo Libertador,Pueblo Libertador,13876,0
 2026-11-19,01,Pueblo Libertador,Pueblo Libertador,13876,0
+2026-11-19,02,Pueblo Libertador,Pueblo Libertador,13876,0
 2026-11-02,00,Parque Nacional Iberá,RMA08_PNI - Parque Nacional Iberá,220226,0
 2026-11-02,01,Parque Nacional Iberá,RMA08_PNI - Parque Nacional Iberá,220226,0
 2026-11-02,02,Parque Nacional Iberá,RMA08_PNI - Parque Nacional Iberá,220226,0
@@ -1753,6 +1756,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-18,23,Curuzú Cuatiá,RMA08_CC - Curuzú Cuatiá,220263,0
 2026-11-19,00,Curuzú Cuatiá,RMA08_CC - Curuzú Cuatiá,220263,0
 2026-11-19,01,Curuzú Cuatiá,RMA08_CC - Curuzú Cuatiá,220263,0
+2026-11-19,02,Curuzú Cuatiá,RMA08_CC - Curuzú Cuatiá,220263,0
 2026-11-01,23,La Palmira,Estación La Palmira - Escuela N° 70,283902,0
 2026-11-02,00,La Palmira,Estación La Palmira - Escuela N° 70,283902,0
 2026-11-02,01,La Palmira,Estación La Palmira - Escuela N° 70,283902,0
@@ -3026,3 +3030,4 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-18,23,La Cruz,La Cruz - Corrientes,283909,0
 2026-11-19,00,La Cruz,La Cruz - Corrientes,283909,0
 2026-11-19,01,La Cruz,La Cruz - Corrientes,283909,0
+2026-11-19,02,La Cruz,La Cruz - Corrientes,283909,0

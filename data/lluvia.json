@@ -1,5 +1,5 @@
 {
- "actualizado": "19/11/2026, 03:08 h",
+ "actualizado": "19/11/2026, 03:25 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
@@ -197,11 +197,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 02 h"
+   "ultimo": "0 mm a las 03 h"
   },
   {
    "localidad": "Santa Lucía",
@@ -231,11 +231,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0.5,
-   "ultimo": "0 mm a las 02 h"
+   "ultimo": "0 mm a las 03 h"
   },
   {
    "localidad": "La Palmira",
@@ -673,11 +673,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0.6,
-   "ultimo": "0 mm a las 02 h"
+   "ultimo": "0 mm a las 03 h"
   },
   {
    "localidad": "Gobernador Virasoro",
@@ -1149,11 +1149,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 1.5,
-   "ultimo": "0 mm a las 02 h"
+   "ultimo": "0 mm a las 03 h"
   },
   {
    "localidad": "Itá Ibaté",
@@ -1319,11 +1319,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 1.6,
-   "ultimo": "0 mm a las 02 h"
+   "ultimo": "0 mm a las 03 h"
   },
   {
    "localidad": "Parque Nacional Iberá",
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "19/11/2026, 03:08 h",
+ "consultado": "19/11/2026, 03:25 h",
  "consulta_resultado": "datos nuevos"
 }
