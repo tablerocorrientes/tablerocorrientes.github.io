@@ -165,6 +165,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-18,19,Corrientes Capital (estación 13805),Corrientes,13805,0
 2026-11-18,20,Corrientes Capital (estación 13805),Corrientes,13805,0
 2026-11-18,21,Corrientes Capital (estación 13805),Corrientes,13805,0
+2026-11-18,22,Corrientes Capital (estación 13805),Corrientes,13805,0
 2026-11-01,23,Gobernador Virasoro,La Sirena,13811,0
 2026-11-02,03,Gobernador Virasoro,La Sirena,13811,0
 2026-11-02,07,Gobernador Virasoro,La Sirena,13811,0
@@ -1879,6 +1880,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-18,19,La Palmira,Estación La Palmira - Escuela N° 70,283902,0
 2026-11-18,20,La Palmira,Estación La Palmira - Escuela N° 70,283902,0.2
 2026-11-18,21,La Palmira,Estación La Palmira - Escuela N° 70,283902,0
+2026-11-18,22,La Palmira,Estación La Palmira - Escuela N° 70,283902,0
 2026-11-01,23,Caá Catí,Predio Ferial Sociedad Rural de Gral. Paz - Caá Catï,283903,0
 2026-11-02,00,Caá Catí,Predio Ferial Sociedad Rural de Gral. Paz - Caá Catï,283903,0
 2026-11-02,01,Caá Catí,Predio Ferial Sociedad Rural de Gral. Paz - Caá Catï,283903,0
@@ -2050,6 +2052,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-18,19,Caá Catí,Predio Ferial Sociedad Rural de Gral. Paz - Caá Catï,283903,0
 2026-11-18,20,Caá Catí,Predio Ferial Sociedad Rural de Gral. Paz - Caá Catï,283903,0
 2026-11-18,21,Caá Catí,Predio Ferial Sociedad Rural de Gral. Paz - Caá Catï,283903,0
+2026-11-18,22,Caá Catí,Predio Ferial Sociedad Rural de Gral. Paz - Caá Catï,283903,0
 2026-11-01,23,Portal Galarza,Portal Galarza,283904,0
 2026-11-02,03,Portal Galarza,Portal Galarza,283904,0
 2026-11-02,07,Portal Galarza,Portal Galarza,283904,0
@@ -2262,6 +2265,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-18,19,Itá Ibaté,Puerto Ita Ibate,283905,0
 2026-11-18,20,Itá Ibaté,Puerto Ita Ibate,283905,0
 2026-11-18,21,Itá Ibaté,Puerto Ita Ibate,283905,0
+2026-11-18,22,Itá Ibaté,Puerto Ita Ibate,283905,0
 2026-11-01,23,Corrientes Capital,ICAA,283906,0
 2026-11-02,00,Corrientes Capital,ICAA,283906,0
 2026-11-02,01,Corrientes Capital,ICAA,283906,0
@@ -2433,6 +2437,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-18,19,Corrientes Capital,ICAA,283906,0
 2026-11-18,20,Corrientes Capital,ICAA,283906,0
 2026-11-18,21,Corrientes Capital,ICAA,283906,0
+2026-11-18,22,Corrientes Capital,ICAA,283906,0
 2026-11-01,23,Santo Tomé,Santo Tomé –Corrientes,283907,0
 2026-11-02,00,Santo Tomé,Santo Tomé –Corrientes,283907,0
 2026-11-02,01,Santo Tomé,Santo Tomé –Corrientes,283907,0
@@ -2604,6 +2609,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-18,19,Santo Tomé,Santo Tomé –Corrientes,283907,0
 2026-11-18,20,Santo Tomé,Santo Tomé –Corrientes,283907,0
 2026-11-18,21,Santo Tomé,Santo Tomé –Corrientes,283907,0
+2026-11-18,22,Santo Tomé,Santo Tomé –Corrientes,283907,0
 2026-11-01,23,Mercedes,Mercedes - Corrientes,283908,0
 2026-11-02,00,Mercedes,Mercedes - Corrientes,283908,0
 2026-11-02,01,Mercedes,Mercedes - Corrientes,283908,0
