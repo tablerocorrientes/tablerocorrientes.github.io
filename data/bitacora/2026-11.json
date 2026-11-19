@@ -3865,7 +3865,7 @@
      0.0,
      0.0,
      0.0,
-     null
+     0.0
     ],
     "San Carlos": [
      0.0,
@@ -3917,7 +3917,7 @@
      0.2,
      0.0,
      0.0,
-     null
+     0.0
     ],
     "La Cruz": [
      0.0,
@@ -4047,7 +4047,7 @@
      0.0,
      0.0,
      0.0,
-     null
+     0.0
     ],
     "Mburucuyá": [
      0.0,
@@ -4073,7 +4073,7 @@
      0.0,
      0.0,
      0.0,
-     null
+     0.0
     ],
     "Bonpland": [
      0.0,
@@ -4099,7 +4099,7 @@
      0.0,
      0.0,
      0.0,
-     null
+     0.0
     ],
     "Bella Vista": [
      0.0,
@@ -4125,7 +4125,7 @@
      0.0,
      0.0,
      0.0,
-     null
+     0.0
     ],
     "Curuzú Cuatiá": [
      0.0,
@@ -4151,7 +4151,7 @@
      0.0,
      0.0,
      0.0,
-     null
+     0.0
     ],
     "Santo Tomé": [
      0.0,
@@ -4177,7 +4177,7 @@
      0.0,
      0.0,
      0.0,
-     null
+     0.0
     ],
     "Santa Lucía": [
      0.0,
@@ -4681,6 +4681,64 @@
      "rango_mm": null,
      "incluye_capital": false,
      "origen": "COE de Corrientes (fuente SMN), consultado el 18/11/2026 a las 11:12 h"
+    }
+   ]
+  },
+  "2026-11-19": {
+   "fecha": "2026-11-19",
+   "pronostico_de": "18/11/2026, 23:15 h",
+   "ciudades": {
+    "Corrientes Capital": 4.3,
+    "Goya": 0.3,
+    "Esquina": 0.2,
+    "Bella Vista": 0.5,
+    "Mercedes": 0.1,
+    "Curuzú Cuatiá": 0.8,
+    "Paso de los Libres": 0.1,
+    "Santo Tomé": 2.7,
+    "Gobernador Virasoro": 4.5,
+    "Ituzaingó": 3.1,
+    "Monte Caseros": 0.2,
+    "Saladas": 1.0
+   },
+   "horario_capital": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.03,
+    0.03,
+    0.03,
+    1.13,
+    1.2,
+    1.23,
+    0.27,
+    0.13,
+    0.07,
+    0.07,
+    0.07,
+    0.07,
+    0.0,
+    0.0
+   ],
+   "alertas_del_dia": [
+    {
+     "nivel": "naranja",
+     "fenomeno": "tormenta",
+     "desde_iso": "2026-11-18T06:00:00-03:00",
+     "hasta_iso": "2026-11-19T05:59:00-03:00",
+     "zonas": [
+      "Corrientes (el SMN no detalla los departamentos en el resumen por provincia)"
+     ],
+     "rango_mm": null,
+     "incluye_capital": null,
+     "origen": "Servicio Meteorológico Nacional, página de alertas leída desde Corrientes el 18/11/2026 a las 08:43 h"
     }
    ]
   }
