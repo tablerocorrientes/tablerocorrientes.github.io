@@ -1,5 +1,5 @@
 {
- "actualizado": "18/11/2026, 23:30 h",
+ "actualizado": "18/11/2026, 23:51 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
@@ -231,11 +231,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0.5,
-   "ultimo": "0 mm a las 22 h"
+   "ultimo": "0 mm a las 23 h"
   },
   {
    "localidad": "La Palmira",
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "18/11/2026, 23:30 h",
+ "consultado": "18/11/2026, 23:51 h",
  "consulta_resultado": "datos nuevos"
 }
