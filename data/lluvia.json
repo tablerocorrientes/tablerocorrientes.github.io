@@ -1,5 +1,5 @@
 {
- "actualizado": "19/11/2026, 01:31 h",
+ "actualizado": "19/11/2026, 01:48 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
@@ -128,12 +128,12 @@
     null,
     null,
     null,
-    null,
+    0.5,
     null,
     null
    ],
-   "total": 5.5,
-   "ultimo": "4 mm a las 20 h"
+   "total": 6.0,
+   "ultimo": "0,5 mm a las 00 h"
   },
   {
    "localidad": "Colonia Carlos Pellegrini",
@@ -162,12 +162,12 @@
     null,
     null,
     null,
-    null,
+    0,
     null,
     null
    ],
    "total": 20.5,
-   "ultimo": "0 mm a las 20 h"
+   "ultimo": "0 mm a las 00 h"
   },
   {
    "localidad": "San Carlos",
@@ -706,12 +706,12 @@
     null,
     null,
     null,
-    null,
+    0,
     null,
     null
    ],
    "total": 5.75,
-   "ultimo": "1 mm a las 20 h"
+   "ultimo": "0 mm a las 00 h"
   },
   {
    "localidad": "Los Laureles",
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "19/11/2026, 01:31 h",
+ "consultado": "19/11/2026, 01:48 h",
  "consulta_resultado": "datos nuevos"
 }
