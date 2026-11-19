@@ -1,5 +1,5 @@
 {
- "actualizado": "19/11/2026, 05:07 h",
+ "actualizado": "19/11/2026, 05:23 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
@@ -95,11 +95,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 13.75,
-   "ultimo": "0 mm a las 04 h"
+   "ultimo": "0 mm a las 05 h"
   },
   {
    "localidad": "Garruchos",
@@ -197,11 +197,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 04 h"
+   "ultimo": "0 mm a las 05 h"
   },
   {
    "localidad": "Santa Lucía",
@@ -231,11 +231,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0.5,
-   "ultimo": "0 mm a las 04 h"
+   "ultimo": "0 mm a las 05 h"
   },
   {
    "localidad": "La Palmira",
@@ -673,11 +673,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0.6,
-   "ultimo": "0 mm a las 04 h"
+   "ultimo": "0 mm a las 05 h"
   },
   {
    "localidad": "Gobernador Virasoro",
@@ -775,11 +775,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 04 h"
+   "ultimo": "0 mm a las 05 h"
   },
   {
    "localidad": "Mercedes",
@@ -1149,11 +1149,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 1.25,
-   "ultimo": "0 mm a las 04 h"
+   "ultimo": "0 mm a las 05 h"
   },
   {
    "localidad": "Itá Ibaté",
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "19/11/2026, 05:07 h",
+ "consultado": "19/11/2026, 05:23 h",
  "consulta_resultado": "datos nuevos"
 }
