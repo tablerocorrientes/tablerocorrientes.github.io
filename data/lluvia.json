@@ -1,5 +1,5 @@
 {
- "actualizado": "18/11/2026, 23:08 h",
+ "actualizado": "18/11/2026, 23:13 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
@@ -197,11 +197,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 22 h"
+   "ultimo": "0 mm a las 23 h"
   },
   {
    "localidad": "Santa Lucía",
@@ -673,11 +673,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0.6,
-   "ultimo": "0 mm a las 22 h"
+   "ultimo": "0 mm a las 23 h"
   },
   {
    "localidad": "Gobernador Virasoro",
@@ -775,11 +775,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 22 h"
+   "ultimo": "0 mm a las 23 h"
   },
   {
    "localidad": "Mercedes",
@@ -1149,11 +1149,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 1.5,
-   "ultimo": "0 mm a las 22 h"
+   "ultimo": "0 mm a las 23 h"
   },
   {
    "localidad": "Itá Ibaté",
@@ -1217,11 +1217,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 34.8,
-   "ultimo": "0 mm a las 22 h"
+   "ultimo": "0 mm a las 23 h"
   },
   {
    "localidad": "Bonpland",
@@ -1251,11 +1251,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 1.8,
-   "ultimo": "0 mm a las 22 h"
+   "ultimo": "0 mm a las 23 h"
   },
   {
    "localidad": "Bella Vista",
@@ -1285,11 +1285,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 9.8,
-   "ultimo": "0 mm a las 22 h"
+   "ultimo": "0 mm a las 23 h"
   },
   {
    "localidad": "Curuzú Cuatiá",
@@ -1319,11 +1319,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 1.6,
-   "ultimo": "0 mm a las 22 h"
+   "ultimo": "0 mm a las 23 h"
   },
   {
    "localidad": "Parque Nacional Iberá",
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "18/11/2026, 23:08 h",
+ "consultado": "18/11/2026, 23:13 h",
  "consulta_resultado": "datos nuevos"
 }
