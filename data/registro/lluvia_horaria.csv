@@ -309,6 +309,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-19,23,Colonia Carlos Pellegrini,Carlos Pellegrini,13826,0
 2026-11-20,03,Colonia Carlos Pellegrini,Carlos Pellegrini,13826,0
 2026-11-20,07,Colonia Carlos Pellegrini,Carlos Pellegrini,13826,0.75
+2026-11-20,11,Colonia Carlos Pellegrini,Carlos Pellegrini,13826,0.25
 2026-11-01,23,San Roquito,San Roquito,13832,0
 2026-11-02,03,San Roquito,San Roquito,13832,0
 2026-11-02,07,San Roquito,San Roquito,13832,0
@@ -359,6 +360,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-19,23,San Roquito,San Roquito,13832,0
 2026-11-20,03,San Roquito,San Roquito,13832,0
 2026-11-20,07,San Roquito,San Roquito,13832,0
+2026-11-20,11,San Roquito,San Roquito,13832,2.25
 2026-11-01,23,Santa Lucía,Santa Lucia,13836,0
 2026-11-02,00,Santa Lucía,Santa Lucia,13836,0
 2026-11-02,01,Santa Lucía,Santa Lucia,13836,0
@@ -677,6 +679,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-19,23,Garruchos,Garruchos,13857,0
 2026-11-20,03,Garruchos,Garruchos,13857,0.25
 2026-11-20,07,Garruchos,Garruchos,13857,0
+2026-11-20,11,Garruchos,Garruchos,13857,0
 2026-11-01,23,San Carlos,San Carlos,13864,0
 2026-11-02,00,San Carlos,San Carlos,13864,0
 2026-11-02,01,San Carlos,San Carlos,13864,0
@@ -1261,6 +1264,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-20,09,Parque Nacional Iberá,RMA08_PNI - Parque Nacional Iberá,220226,1.8
 2026-11-20,10,Parque Nacional Iberá,RMA08_PNI - Parque Nacional Iberá,220226,0
 2026-11-20,11,Parque Nacional Iberá,RMA08_PNI - Parque Nacional Iberá,220226,0
+2026-11-20,12,Parque Nacional Iberá,RMA08_PNI - Parque Nacional Iberá,220226,0
 2026-11-01,23,Mburucuyá,RMA04_PMB - Parque Nacional Mburucuyá,220246,0
 2026-11-02,00,Mburucuyá,RMA04_PMB - Parque Nacional Mburucuyá,220246,0
 2026-11-02,01,Mburucuyá,RMA04_PMB - Parque Nacional Mburucuyá,220246,0
@@ -2571,6 +2575,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-19,23,Portal Galarza,Portal Galarza,283904,0
 2026-11-20,03,Portal Galarza,Portal Galarza,283904,0
 2026-11-20,07,Portal Galarza,Portal Galarza,283904,0
+2026-11-20,11,Portal Galarza,Portal Galarza,283904,0
 2026-11-01,23,Itá Ibaté,Puerto Ita Ibate,283905,0
 2026-11-02,00,Itá Ibaté,Puerto Ita Ibate,283905,0
 2026-11-02,01,Itá Ibaté,Puerto Ita Ibate,283905,0

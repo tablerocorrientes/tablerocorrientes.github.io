@@ -1,5 +1,5 @@
 {
- "actualizado": "20/11/2026, 13:21 h",
+ "actualizado": "20/11/2026, 13:37 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
@@ -128,12 +128,12 @@
     null,
     null,
     null,
-    null,
+    0,
     null,
     null
    ],
    "total": 0.75,
-   "ultimo": "0 mm a las 08 h"
+   "ultimo": "0 mm a las 12 h"
   },
   {
    "localidad": "Colonia Carlos Pellegrini",
@@ -162,12 +162,12 @@
     null,
     null,
     null,
-    null,
+    0.25,
     null,
     null
    ],
-   "total": 0.75,
-   "ultimo": "0,75 mm a las 08 h"
+   "total": 1.0,
+   "ultimo": "0,25 mm a las 12 h"
   },
   {
    "localidad": "San Carlos",
@@ -1080,12 +1080,12 @@
     null,
     null,
     null,
-    null,
+    0,
     null,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 08 h"
+   "ultimo": "0 mm a las 12 h"
   },
   {
    "localidad": "Caá Catí",
@@ -1353,11 +1353,11 @@
     1.8,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 2.2,
-   "ultimo": "0 mm a las 12 h"
+   "ultimo": "0 mm a las 13 h"
   },
   {
    "localidad": "San Isidro",
@@ -1454,12 +1454,12 @@
     null,
     null,
     null,
-    null,
+    2.25,
     null,
     null
    ],
-   "total": 0,
-   "ultimo": "0 mm a las 08 h"
+   "total": 2.25,
+   "ultimo": "2,25 mm a las 12 h"
   },
   {
    "localidad": "Santa Rosa",
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "20/11/2026, 13:21 h",
+ "consultado": "20/11/2026, 13:37 h",
  "consulta_resultado": "datos nuevos"
 }
