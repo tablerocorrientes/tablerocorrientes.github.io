@@ -619,6 +619,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-19,23,Paso Cerrito,Paso Cerrito,13849,0
 2026-11-20,03,Paso Cerrito,Paso Cerrito,13849,0
 2026-11-20,07,Paso Cerrito,Paso Cerrito,13849,2.25
+2026-11-20,11,Paso Cerrito,Paso Cerrito,13849,2.75
 2026-11-01,23,Garruchos,Garruchos,13857,0
 2026-11-02,03,Garruchos,Garruchos,13857,0
 2026-11-02,07,Garruchos,Garruchos,13857,0
@@ -2301,6 +2302,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-20,09,La Palmira,Estación La Palmira - Escuela N° 70,283902,34
 2026-11-20,10,La Palmira,Estación La Palmira - Escuela N° 70,283902,0
 2026-11-20,11,La Palmira,Estación La Palmira - Escuela N° 70,283902,0
+2026-11-20,12,La Palmira,Estación La Palmira - Escuela N° 70,283902,0.2
 2026-11-01,23,Caá Catí,Predio Ferial Sociedad Rural de Gral. Paz - Caá Catï,283903,0
 2026-11-02,00,Caá Catí,Predio Ferial Sociedad Rural de Gral. Paz - Caá Catï,283903,0
 2026-11-02,01,Caá Catí,Predio Ferial Sociedad Rural de Gral. Paz - Caá Catï,283903,0
@@ -2978,6 +2980,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-20,09,Corrientes Capital,ICAA,283906,1.2
 2026-11-20,10,Corrientes Capital,ICAA,283906,0
 2026-11-20,11,Corrientes Capital,ICAA,283906,0
+2026-11-20,12,Corrientes Capital,ICAA,283906,0.2
 2026-11-01,23,Santo Tomé,Santo Tomé –Corrientes,283907,0
 2026-11-02,00,Santo Tomé,Santo Tomé –Corrientes,283907,0
 2026-11-02,01,Santo Tomé,Santo Tomé –Corrientes,283907,0

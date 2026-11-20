@@ -1,7 +1,7 @@
 Fuente: https://coe.corrientes.gob.ar/
-Consultado: 20/11/2026, 12:31 h
+Consultado: 20/11/2026, 13:05 h
 
-3 alertas vigentes — COE Corrientes
+1 alerta vigente — COE Corrientes
 Alertas del COE - Comando Operativo de Emergencias
 Instituto de
 Modernización e Innovación
@@ -14,31 +14,24 @@ Alertas hidrometeorológicas
 Avisos emitidos por el Comando Operativo de Emergencias de Corrientes por
 crecidas, tormentas, lluvias y vientos.
 Tocá una alerta para ver la pieza completa con el mapa del área alcanzada.
-Vigentes ahora 3
+Vigentes ahora 1
 Alerta Amarilla
 En curso
 Tormentas
 Bella Vista, Concepción, Curuzú Cuatiá, Esquina, General Alvear, Goya, Lavalle, Mercedes, Monte Caseros, Paso de los Libres, San Martín, San Roque, Santo Tomé, Sauce
 Empezó viernes 20/11 · 09:00 h
 Termina viernes 20/11 · 22:00 h
-Alerta Naranja
-En curso
-Tormentas
-Berón de Astrada, Capital, Empedrado, General Paz, Itatí, Ituzaingó, Mburucuyá, Saladas, San Cosme, San Luis del Palmar, San Miguel
-Empezó viernes 20/11 · 09:00 h
-Termina viernes 20/11 · 13:00 h
-Alerta Naranja
-En curso
-Tormentas
-Ituzaingó, San Miguel
-Empezó viernes 20/11 · 06:00 h
-Termina viernes 20/11 · 13:00 h
 Canal oficial
 Recibí las alertas en tu teléfono
 Unirme por WhatsApp
 Escaneá el código o tocá el botón. Es un canal de sólo lectura
 para recibir y consultar los avisos del COE.
-Anteriores 113
+Anteriores 115
+Naranja
+Tormentas
+Berón de Astrada, Capital, Empedrado, General Paz, Itatí, Ituzaingó, Mburucuyá, Saladas, San Cosme, San Luis del Palmar, San Miguel
+20/11/2026
+09:00 a 13:00
 Roja
 Tormentas
 Ituzaingó, Santo Tomé
@@ -84,11 +77,6 @@ Granizo · Lluvias intensas · Tormentas
 Curuzú Cuatiá, Monte Caseros, Sauce
 20/11/2026
 01:46 a 02:46
-Roja
-Tormentas
-Esquina, Sauce
-20/11/2026
-01:19 a 03:19
 ← Más recientes
 Página 1 de 12
 Más antiguas →
