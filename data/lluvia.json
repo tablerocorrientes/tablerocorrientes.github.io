@@ -1,5 +1,5 @@
 {
- "actualizado": "20/11/2026, 12:14 h",
+ "actualizado": "20/11/2026, 12:30 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
@@ -1285,11 +1285,11 @@
     0,
     0.2,
     0,
-    0,
+    1,
     null
    ],
-   "total": 1.2,
-   "ultimo": "0 mm a las 12 h"
+   "total": 2.2,
+   "ultimo": "1 mm a las 12 h"
   },
   {
    "localidad": "Curuzú Cuatiá",
@@ -1353,11 +1353,11 @@
     0,
     1.8,
     0,
-    null,
+    0,
     null
    ],
    "total": 2.2,
-   "ultimo": "0 mm a las 11 h"
+   "ultimo": "0 mm a las 12 h"
   },
   {
    "localidad": "San Isidro",
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "20/11/2026, 12:14 h",
+ "consultado": "20/11/2026, 12:30 h",
  "consulta_resultado": "datos nuevos"
 }
