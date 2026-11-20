@@ -1,13 +1,8 @@
 {
- "actualizado": "19/11/2026, 18:01 h",
+ "actualizado": "19/11/2026, 23:21 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
-  "18/11 19 h",
-  "20 h",
-  "21 h",
-  "22 h",
-  "23 h",
   "19/11 00 h",
   "01 h",
   "02 h",
@@ -27,11 +22,16 @@
   "16 h",
   "17 h",
   "18 h",
-  "19 h (en curso)"
+  "19 h",
+  "20 h",
+  "21 h",
+  "22 h",
+  "23 h",
+  "20/11 00 h (en curso)"
  ],
  "fuente": "Sistema Nacional de Información Hídrica (SNIH), Secretaría de Infraestructura y Política Hídrica; estaciones de la Red Hidrológica Nacional y redes asociadas (ICAA, INTA, Red Iberá). Datos crudos del sensor, sin validar.",
  "enlace": "https://snih.hidricosargentina.gob.ar/Filtros.aspx",
- "nota": "Ventana de 24 horas completas, de 19 h del 18/11 a 18 h del 19/11 (hora de Argentina), más la hora en curso como última columna, con los datos recibidos hasta el momento. El total suma solo las 24 horas completas. Las horas sin transmisión figuran como null, no como cero.",
+ "nota": "Ventana de 24 horas completas, de 00 h del 19/11 a 23 h del 19/11 (hora de Argentina), más la hora en curso como última columna, con los datos recibidos hasta el momento. El total suma solo las 24 horas completas. Las horas sin transmisión figuran como null, no como cero.",
  "estaciones": [
   {
    "localidad": "Corrientes Capital",
@@ -65,7 +65,7 @@
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 18 h"
+   "ultimo": "0 mm a las 23 h"
   },
   {
    "localidad": "Corrientes Capital (estación 13805)",
@@ -95,22 +95,17 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 17 h"
+   "ultimo": "0 mm a las 23 h"
   },
   {
    "localidad": "Garruchos",
    "estacion": "Garruchos",
    "codigo": 13857,
    "valores": [
-    null,
-    4,
-    null,
-    null,
-    null,
     0.5,
     null,
     null,
@@ -130,17 +125,21 @@
     0.25,
     null,
     null,
+    null,
+    0.25,
+    null,
+    null,
+    null,
     null
    ],
-   "total": 5.5,
-   "ultimo": "0,25 mm a las 16 h"
+   "total": 1.75,
+   "ultimo": "0,25 mm a las 20 h"
   },
   {
    "localidad": "Colonia Carlos Pellegrini",
    "estacion": "Carlos Pellegrini",
    "codigo": 13826,
    "valores": [
-    null,
     0,
     null,
     null,
@@ -162,12 +161,13 @@
     null,
     null,
     0,
+    null,
     null,
     null,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 16 h"
+   "ultimo": "0 mm a las 20 h"
   },
   {
    "localidad": "San Carlos",
@@ -197,11 +197,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 17 h"
+   "ultimo": "0 mm a las 23 h"
   },
   {
    "localidad": "Santa Lucía",
@@ -231,22 +231,17 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 17 h"
+   "ultimo": "0 mm a las 23 h"
   },
   {
    "localidad": "La Palmira",
    "estacion": "Estación La Palmira - Escuela N° 70",
    "codigo": 283902,
    "valores": [
-    2.8,
-    0,
-    0.2,
-    0,
-    0,
     0,
     0,
     0,
@@ -265,11 +260,16 @@
     0,
     0,
     0,
-    null,
+    0.2,
+    0,
+    0.2,
+    0.4,
+    0,
+    0,
     null
    ],
-   "total": 3.4,
-   "ultimo": "0 mm a las 17 h"
+   "total": 1.2,
+   "ultimo": "0 mm a las 23 h"
   },
   {
    "localidad": "Bella Vista",
@@ -673,22 +673,17 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 17 h"
+   "ultimo": "0 mm a las 23 h"
   },
   {
    "localidad": "Gobernador Virasoro",
    "estacion": "La Sirena",
    "codigo": 13811,
    "valores": [
-    null,
-    1,
-    null,
-    null,
-    null,
     0,
     null,
     null,
@@ -705,13 +700,18 @@
     null,
     null,
     null,
+    0,
+    null,
+    null,
+    null,
+    0,
     null,
     null,
     null,
     null
    ],
-   "total": 1,
-   "ultimo": "0 mm a las 12 h"
+   "total": 0,
+   "ultimo": "0 mm a las 20 h"
   },
   {
    "localidad": "Los Laureles",
@@ -775,11 +775,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 17 h"
+   "ultimo": "0 mm a las 23 h"
   },
   {
    "localidad": "Mercedes",
@@ -854,11 +854,6 @@
    "estacion": "Paso Cerrito",
    "codigo": 13849,
    "valores": [
-    null,
-    0,
-    null,
-    null,
-    null,
     0,
     null,
     null,
@@ -876,6 +871,11 @@
     null,
     null,
     0,
+    null,
+    null,
+    null,
+    null,
+    null,
     null,
     null,
     null
@@ -1058,7 +1058,6 @@
    "estacion": "Portal Galarza",
    "codigo": 283904,
    "valores": [
-    null,
     0,
     null,
     null,
@@ -1079,13 +1078,14 @@
     null,
     null,
     null,
+    0,
     null,
     null,
     null,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 12 h"
+   "ultimo": "0 mm a las 20 h"
   },
   {
    "localidad": "Caá Catí",
@@ -1113,13 +1113,13 @@
     0,
     0,
     0,
-    null,
-    null,
-    null,
+    0,
+    0,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 15 h"
+   "ultimo": "0 mm a las 23 h"
   },
   {
    "localidad": "Pueblo Libertador",
@@ -1149,11 +1149,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 17 h"
+   "ultimo": "0 mm a las 23 h"
   },
   {
    "localidad": "Itá Ibaté",
@@ -1173,21 +1173,21 @@
     0,
     0,
     0,
-    0,
-    0,
-    0,
-    0,
-    0,
     0.2,
     0.4,
     0,
     0,
     0,
-    null,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
     null
    ],
    "total": 0.6,
-   "ultimo": "0 mm a las 17 h"
+   "ultimo": "0 mm a las 23 h"
   },
   {
    "localidad": "Mburucuyá",
@@ -1217,11 +1217,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 17 h"
+   "ultimo": "0 mm a las 23 h"
   },
   {
    "localidad": "Bonpland",
@@ -1251,11 +1251,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 17 h"
+   "ultimo": "0 mm a las 23 h"
   },
   {
    "localidad": "Bella Vista",
@@ -1285,11 +1285,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 17 h"
+   "ultimo": "0 mm a las 23 h"
   },
   {
    "localidad": "Curuzú Cuatiá",
@@ -1319,22 +1319,17 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 17 h"
+   "ultimo": "0 mm a las 23 h"
   },
   {
    "localidad": "Parque Nacional Iberá",
    "estacion": "RMA08_PNI - Parque Nacional Iberá",
    "codigo": 220226,
    "valores": [
-    0,
-    0,
-    0,
-    0,
-    0,
     0,
     0,
     0,
@@ -1354,10 +1349,15 @@
     0.4,
     0,
     null,
+    0,
+    null,
+    0,
+    0,
+    null,
     null
    ],
    "total": 0.6,
-   "ultimo": "0 mm a las 17 h"
+   "ultimo": "0 mm a las 22 h"
   },
   {
    "localidad": "San Isidro",
@@ -1432,11 +1432,6 @@
    "estacion": "San Roquito",
    "codigo": 13832,
    "valores": [
-    null,
-    0.25,
-    null,
-    null,
-    null,
     0.25,
     null,
     null,
@@ -1454,12 +1449,17 @@
     null,
     null,
     0,
+    null,
+    null,
+    null,
+    0,
+    null,
     null,
     null,
     null
    ],
-   "total": 0.5,
-   "ultimo": "0 mm a las 16 h"
+   "total": 0.25,
+   "ultimo": "0 mm a las 20 h"
   },
   {
    "localidad": "Santa Rosa",
@@ -1557,11 +1557,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 17 h"
+   "ultimo": "0 mm a las 23 h"
   },
   {
    "localidad": "El Sombrerito",
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "19/11/2026, 18:01 h",
+ "consultado": "19/11/2026, 23:21 h",
  "consulta_resultado": "datos nuevos"
 }
