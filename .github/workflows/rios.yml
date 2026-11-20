@@ -1,0 +1,41 @@
+name: Alturas de rios (Parana)
+on:
+  workflow_dispatch:
+  schedule:
+    # Argentina UTC-3: 09:00, 14:00 y 21:00
+    - cron: '0 12,17 * * *'
+    - cron: '0 0 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: escritura-datos
+  cancel-in-progress: false
+jobs:
+  alturas:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Consultar alturas y publicar
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'Tablero Ciudadano'
+          git config user.email 'tablerocorrientes@gmail.com'
+          for i in 1 2 3; do
+            git fetch -q origin main
+            git reset --hard origin/main
+            python3 tareas/actualizar_rios.py
+            git add data/puertos.json data/hist.json data/prov.json data/barrio.json
+            if git diff --cached --quiet; then
+              echo 'Sin cambios'; exit 0
+            fi
+            git commit -m "Alturas rios: $(TZ=America/Argentina/Buenos_Aires date '+%d/%m/%Y %H:%M')"
+            if git push origin HEAD:main; then exit 0; fi
+            echo 'Conflicto de concurrencia; reintentando con datos recientes'
+            sleep 15
+          done
+          exit 1
