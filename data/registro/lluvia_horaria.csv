@@ -206,6 +206,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-20,12,Corrientes Capital (estación 13805),Corrientes,13805,0
 2026-11-20,13,Corrientes Capital (estación 13805),Corrientes,13805,0
 2026-11-20,14,Corrientes Capital (estación 13805),Corrientes,13805,0
+2026-11-20,15,Corrientes Capital (estación 13805),Corrientes,13805,0
 2026-11-01,23,Gobernador Virasoro,La Sirena,13811,0
 2026-11-02,03,Gobernador Virasoro,La Sirena,13811,0
 2026-11-02,07,Gobernador Virasoro,La Sirena,13811,0
@@ -903,6 +904,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-20,12,San Carlos,San Carlos,13864,0
 2026-11-20,13,San Carlos,San Carlos,13864,0
 2026-11-20,14,San Carlos,San Carlos,13864,0
+2026-11-20,15,San Carlos,San Carlos,13864,0
 2026-11-01,23,Pueblo Libertador,Pueblo Libertador,13876,0
 2026-11-02,00,Pueblo Libertador,Pueblo Libertador,13876,0
 2026-11-02,01,Pueblo Libertador,Pueblo Libertador,13876,0
@@ -1494,6 +1496,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-20,12,Mburucuyá,RMA04_PMB - Parque Nacional Mburucuyá,220246,0
 2026-11-20,13,Mburucuyá,RMA04_PMB - Parque Nacional Mburucuyá,220246,0
 2026-11-20,14,Mburucuyá,RMA04_PMB - Parque Nacional Mburucuyá,220246,0
+2026-11-20,15,Mburucuyá,RMA04_PMB - Parque Nacional Mburucuyá,220246,0
 2026-11-01,23,Bonpland,RMA08_BPL - Bonpland,220261,0
 2026-11-02,00,Bonpland,RMA08_BPL - Bonpland,220261,0
 2026-11-02,01,Bonpland,RMA08_BPL - Bonpland,220261,0
@@ -1706,6 +1709,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-20,12,Bonpland,RMA08_BPL - Bonpland,220261,0
 2026-11-20,13,Bonpland,RMA08_BPL - Bonpland,220261,0
 2026-11-20,14,Bonpland,RMA08_BPL - Bonpland,220261,0
+2026-11-20,15,Bonpland,RMA08_BPL - Bonpland,220261,0
 2026-11-01,23,Bella Vista,RMA08_BVI - Bella Vista,220262,0
 2026-11-02,00,Bella Vista,RMA08_BVI - Bella Vista,220262,0
 2026-11-02,01,Bella Vista,RMA08_BVI - Bella Vista,220262,0
@@ -1918,6 +1922,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-20,12,Bella Vista,RMA08_BVI - Bella Vista,220262,0
 2026-11-20,13,Bella Vista,RMA08_BVI - Bella Vista,220262,0
 2026-11-20,14,Bella Vista,RMA08_BVI - Bella Vista,220262,0
+2026-11-20,15,Bella Vista,RMA08_BVI - Bella Vista,220262,0
 2026-11-01,23,Curuzú Cuatiá,RMA08_CC - Curuzú Cuatiá,220263,0
 2026-11-02,00,Curuzú Cuatiá,RMA08_CC - Curuzú Cuatiá,220263,0
 2026-11-02,01,Curuzú Cuatiá,RMA08_CC - Curuzú Cuatiá,220263,0
@@ -2130,6 +2135,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-20,12,Curuzú Cuatiá,RMA08_CC - Curuzú Cuatiá,220263,0
 2026-11-20,13,Curuzú Cuatiá,RMA08_CC - Curuzú Cuatiá,220263,0
 2026-11-20,14,Curuzú Cuatiá,RMA08_CC - Curuzú Cuatiá,220263,0
+2026-11-20,15,Curuzú Cuatiá,RMA08_CC - Curuzú Cuatiá,220263,0
 2026-11-01,23,La Palmira,Estación La Palmira - Escuela N° 70,283902,0
 2026-11-02,00,La Palmira,Estación La Palmira - Escuela N° 70,283902,0
 2026-11-02,01,La Palmira,Estación La Palmira - Escuela N° 70,283902,0
@@ -2342,6 +2348,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-20,12,La Palmira,Estación La Palmira - Escuela N° 70,283902,0.2
 2026-11-20,13,La Palmira,Estación La Palmira - Escuela N° 70,283902,0
 2026-11-20,14,La Palmira,Estación La Palmira - Escuela N° 70,283902,0.2
+2026-11-20,15,La Palmira,Estación La Palmira - Escuela N° 70,283902,0
 2026-11-01,23,Caá Catí,Predio Ferial Sociedad Rural de Gral. Paz - Caá Catï,283903,0
 2026-11-02,00,Caá Catí,Predio Ferial Sociedad Rural de Gral. Paz - Caá Catï,283903,0
 2026-11-02,01,Caá Catí,Predio Ferial Sociedad Rural de Gral. Paz - Caá Catï,283903,0
@@ -2554,6 +2561,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-20,12,Caá Catí,Predio Ferial Sociedad Rural de Gral. Paz - Caá Catï,283903,0
 2026-11-20,13,Caá Catí,Predio Ferial Sociedad Rural de Gral. Paz - Caá Catï,283903,0
 2026-11-20,14,Caá Catí,Predio Ferial Sociedad Rural de Gral. Paz - Caá Catï,283903,0
+2026-11-20,15,Caá Catí,Predio Ferial Sociedad Rural de Gral. Paz - Caá Catï,283903,0
 2026-11-01,23,Portal Galarza,Portal Galarza,283904,0
 2026-11-02,03,Portal Galarza,Portal Galarza,283904,0
 2026-11-02,07,Portal Galarza,Portal Galarza,283904,0
@@ -2817,6 +2825,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-20,12,Itá Ibaté,Puerto Ita Ibate,283905,0
 2026-11-20,13,Itá Ibaté,Puerto Ita Ibate,283905,0
 2026-11-20,14,Itá Ibaté,Puerto Ita Ibate,283905,0
+2026-11-20,15,Itá Ibaté,Puerto Ita Ibate,283905,0.2
 2026-11-01,23,Corrientes Capital,ICAA,283906,0
 2026-11-02,00,Corrientes Capital,ICAA,283906,0
 2026-11-02,01,Corrientes Capital,ICAA,283906,0
@@ -3029,6 +3038,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-20,12,Corrientes Capital,ICAA,283906,0.2
 2026-11-20,13,Corrientes Capital,ICAA,283906,0
 2026-11-20,14,Corrientes Capital,ICAA,283906,0
+2026-11-20,15,Corrientes Capital,ICAA,283906,0
 2026-11-01,23,Santo Tomé,Santo Tomé –Corrientes,283907,0
 2026-11-02,00,Santo Tomé,Santo Tomé –Corrientes,283907,0
 2026-11-02,01,Santo Tomé,Santo Tomé –Corrientes,283907,0
@@ -3241,6 +3251,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-20,12,Santo Tomé,Santo Tomé –Corrientes,283907,1.2
 2026-11-20,13,Santo Tomé,Santo Tomé –Corrientes,283907,0
 2026-11-20,14,Santo Tomé,Santo Tomé –Corrientes,283907,0
+2026-11-20,15,Santo Tomé,Santo Tomé –Corrientes,283907,0
 2026-11-01,23,Mercedes,Mercedes - Corrientes,283908,0
 2026-11-02,00,Mercedes,Mercedes - Corrientes,283908,0
 2026-11-02,01,Mercedes,Mercedes - Corrientes,283908,0
@@ -3453,6 +3464,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-20,12,Mercedes,Mercedes - Corrientes,283908,0
 2026-11-20,13,Mercedes,Mercedes - Corrientes,283908,0
 2026-11-20,14,Mercedes,Mercedes - Corrientes,283908,0
+2026-11-20,15,Mercedes,Mercedes - Corrientes,283908,0
 2026-11-01,23,La Cruz,La Cruz - Corrientes,283909,0
 2026-11-02,00,La Cruz,La Cruz - Corrientes,283909,0
 2026-11-02,01,La Cruz,La Cruz - Corrientes,283909,0
@@ -3665,3 +3677,4 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-20,12,La Cruz,La Cruz - Corrientes,283909,0
 2026-11-20,13,La Cruz,La Cruz - Corrientes,283909,0
 2026-11-20,14,La Cruz,La Cruz - Corrientes,283909,0
+2026-11-20,15,La Cruz,La Cruz - Corrientes,283909,0
