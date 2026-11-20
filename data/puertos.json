@@ -1,91 +1,91 @@
 {
- "actualizado": "18/11/2026, 09:05 h",
+ "actualizado": "20/11/2026, 10:29 h",
  "fecha_registro": "18/11/2026",
  "puertos": [
   {
    "puerto": "Ituzaingó",
-   "altura": 2.4,
-   "variacion": 0.0,
+   "altura": 2.3,
+   "variacion": -0.1,
    "alerta": 3.5,
    "evacuacion": 4,
-   "fuente": "Prefectura Naval Argentina, alturas reproducidas por rioparana.com.ar (18/11/2026, hora no publicada; variación respecto de la lectura del 17/11/2026, 12:00 h)",
-   "registro": "18/11/2026, hora no publicada"
+   "fuente": "Prefectura Naval Argentina, reproducida por rioparana.com.ar (20/11/2026, 00:00 h)",
+   "registro": "20/11/2026, 00:00 h"
   },
   {
    "puerto": "Itá Ibaté",
-   "altura": 4.7,
-   "variacion": 0.0,
+   "altura": 4.6,
+   "variacion": -0.1,
    "alerta": 7,
    "evacuacion": 7.5,
-   "fuente": "Prefectura Naval Argentina, alturas reproducidas por rioparana.com.ar (18/11/2026, hora no publicada; variación respecto de la lectura del 17/11/2026, 12:00 h)",
-   "registro": "18/11/2026, hora no publicada"
+   "fuente": "Prefectura Naval Argentina, reproducida por rioparana.com.ar (20/11/2026, 00:00 h)",
+   "registro": "20/11/2026, 00:00 h"
   },
   {
    "puerto": "Itatí",
-   "altura": 6.2,
-   "variacion": 0.0,
+   "altura": 6.04,
+   "variacion": -0.16,
    "alerta": 6.8,
    "evacuacion": 7.5,
-   "fuente": "Prefectura Naval Argentina, alturas reproducidas por rioparana.com.ar (18/11/2026, hora no publicada; variación respecto de la lectura del 17/11/2026, 12:00 h)",
-   "registro": "18/11/2026, hora no publicada"
+   "fuente": "Prefectura Naval Argentina, reproducida por rioparana.com.ar (20/11/2026, 00:00 h)",
+   "registro": "20/11/2026, 00:00 h"
   },
   {
    "puerto": "Paso de la Patria",
-   "altura": 6.24,
-   "variacion": -0.09,
+   "altura": 5.97,
+   "variacion": -0.27,
    "alerta": 6.5,
    "evacuacion": 7,
-   "fuente": "Prefectura Naval Argentina, alturas reproducidas por rioparana.com.ar (18/11/2026, hora no publicada; variación respecto de la lectura del 17/11/2026, 14:00 h)",
-   "registro": "18/11/2026, hora no publicada"
+   "fuente": "Prefectura Naval Argentina, reproducida por rioparana.com.ar (20/11/2026, 00:00 h)",
+   "registro": "20/11/2026, 00:00 h"
   },
   {
    "puerto": "Corrientes",
-   "altura": 6.2,
-   "variacion": -0.09,
+   "altura": 5.93,
+   "variacion": -0.27,
    "alerta": 6.5,
    "evacuacion": 7,
-   "fuente": "Prefectura Naval Argentina, alturas reproducidas por rioparana.com.ar (18/11/2026, hora no publicada; variación respecto de la lectura del 17/11/2026, 12:00 h)",
-   "registro": "18/11/2026, hora no publicada"
+   "fuente": "Prefectura Naval Argentina, reproducida por rioparana.com.ar (20/11/2026, 00:00 h)",
+   "registro": "20/11/2026, 00:00 h"
   },
   {
    "puerto": "Empedrado",
-   "altura": 5.58,
-   "variacion": -0.05,
+   "altura": 5.44,
+   "variacion": -0.14,
    "alerta": 6.5,
    "evacuacion": 6.7,
-   "fuente": "Prefectura Naval Argentina, alturas reproducidas por rioparana.com.ar (18/11/2026, hora no publicada; variación respecto de la lectura del 17/11/2026, 12:00 h)",
-   "registro": "18/11/2026, hora no publicada"
+   "fuente": "Prefectura Naval Argentina, reproducida por rioparana.com.ar (19/11/2026, 12:00 h)",
+   "registro": "19/11/2026, 12:00 h"
   },
   {
    "puerto": "Bella Vista",
-   "altura": 6.05,
-   "variacion": -0.05,
+   "altura": 5.98,
+   "variacion": -0.07,
    "alerta": 6,
    "evacuacion": 6.4,
-   "fuente": "Prefectura Naval Argentina, alturas reproducidas por rioparana.com.ar (18/11/2026, 08:00 h; variación respecto de la lectura del 17/11/2026, 16:00 h)",
-   "registro": "18/11/2026, 08:00 h"
+   "fuente": "Prefectura Naval Argentina, reproducida por rioparana.com.ar (20/11/2026, 00:00 h)",
+   "registro": "20/11/2026, 00:00 h"
   },
   {
    "puerto": "Goya",
-   "altura": 5.76,
-   "variacion": 0.0,
+   "altura": 5.68,
+   "variacion": -0.08,
    "alerta": 5.2,
    "evacuacion": 5.7,
-   "fuente": "Prefectura Naval Argentina, alturas reproducidas por rioparana.com.ar (18/11/2026, 08:00 h; variación respecto de la lectura del 17/11/2026, 18:00 h)",
-   "registro": "18/11/2026, 08:00 h"
+   "fuente": "Prefectura Naval Argentina, reproducida por rioparana.com.ar (20/11/2026, 06:00 h)",
+   "registro": "20/11/2026, 06:00 h"
   },
   {
    "puerto": "Esquina",
-   "altura": 5.43,
-   "variacion": -0.02,
+   "altura": 5.38,
+   "variacion": -0.05,
    "alerta": 5,
    "evacuacion": 5.4,
-   "fuente": "Prefectura Naval Argentina, alturas reproducidas por rioparana.com.ar (18/11/2026, 06:00 h; variación respecto de la lectura del 17/11/2026, 16:00 h)",
-   "registro": "18/11/2026, 06:00 h"
+   "fuente": "Prefectura Naval Argentina, reproducida por rioparana.com.ar (20/11/2026, 06:00 h)",
+   "registro": "20/11/2026, 06:00 h"
   }
  ],
  "nota": "Actualización del 18/11/2026, 09:05 h. Paraná, alturas de Prefectura Naval Argentina del 18/11/2026 reproducidas por rioparana.com.ar: Corrientes 6,20 m (−0,09 respecto de la lectura anterior, hora no publicada), por debajo de la cota de alerta de 6,50 m; Paso de la Patria 6,24 m e Itatí 6,20 m, también bajo su alerta; Empedrado 5,58 m e Itá Ibaté 4,70 m en bajante, e Ituzaingó 2,40 m. Aguas abajo siguen sobre la evacuación Goya (5,76 m a las 08:00 h; evacuación 5,70 m) y Esquina (5,43 m a las 06:00 h; evacuación 5,40 m), y Bella Vista sigue en alerta (6,05 m a las 08:00 h). El Instituto Nacional del Agua (17/11) prevé que en Corrientes el río siga alto, oscilando o bajando despacio durante los próximos 7 días. La página de alturas de Prefectura no respondió.",
- "ultimo_intento": "18/11/2026, 09:05 h",
+ "ultimo_intento": "20/11/2026, 10:29 h",
  "programada": true,
  "horarios": [
   "09:00",
@@ -1372,6 +1372,6 @@
  "nota_breve": "Paraná en Corrientes: 6,20 m (18/11), bajando y por debajo de la alerta (6,50 m). Goya y Esquina siguen apenas sobre la evacuación.",
  "uruguay_breve": "Paso de los Libres: 6,59 m (17/11), bajo la alerta (7,50 m) y en descenso. Santo Tomé 6,64 m. El INA no prevé superar la alerta.",
  "tapon_breve": "Alerta amarilla por tormentas el martes 17/11 de 3 a 15 h (30 a 70 mm). Con el río en 6,50 m, una lluvia fuerte puede superar la capacidad de los desagües.",
- "consultado": "18/11/2026, 09:05 h",
+ "consultado": "20/11/2026, 10:29 h",
  "consulta_resultado": "datos nuevos"
 }
