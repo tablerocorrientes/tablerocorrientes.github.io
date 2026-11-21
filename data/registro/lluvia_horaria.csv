@@ -379,6 +379,8 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-20,03,San Roquito,San Roquito,13832,0
 2026-11-20,07,San Roquito,San Roquito,13832,0
 2026-11-20,11,San Roquito,San Roquito,13832,2.25
+2026-11-20,15,San Roquito,San Roquito,13832,0.25
+2026-11-20,19,San Roquito,San Roquito,13832,0.5
 2026-11-01,23,Santa Lucía,Santa Lucia,13836,0
 2026-11-02,00,Santa Lucía,Santa Lucia,13836,0
 2026-11-02,01,Santa Lucía,Santa Lucia,13836,0
@@ -2409,6 +2411,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-20,18,La Palmira,Estación La Palmira - Escuela N° 70,283902,0.4
 2026-11-20,19,La Palmira,Estación La Palmira - Escuela N° 70,283902,0.2
 2026-11-20,20,La Palmira,Estación La Palmira - Escuela N° 70,283902,0
+2026-11-20,21,La Palmira,Estación La Palmira - Escuela N° 70,283902,0
 2026-11-01,23,Caá Catí,Predio Ferial Sociedad Rural de Gral. Paz - Caá Catï,283903,0
 2026-11-02,00,Caá Catí,Predio Ferial Sociedad Rural de Gral. Paz - Caá Catï,283903,0
 2026-11-02,01,Caá Catí,Predio Ferial Sociedad Rural de Gral. Paz - Caá Catï,283903,0

@@ -1,5 +1,5 @@
 {
- "actualizado": "20/11/2026, 18:56 h",
+ "actualizado": "20/11/2026, 22:03 h",
  "metodo": "estimación derivada: promedio de modelos (Open-Meteo), calculado automáticamente; las tareas agregan el parte del SMN cuando corren",
  "estado_alertas": "VERIFICADO_CON_ALERTAS",
  "estado_verificado": {
@@ -241,11 +241,11 @@
  "ciudades": {
   "Corrientes Capital": {
    "hoy": {
-    "mm": 11.5,
+    "mm": 11.6,
     "horas": 16
    },
    "manana": {
-    "mm": 0.2,
+    "mm": 0.5,
     "horas": 0
    },
    "smn": "Rigen para la Capital la alerta naranja del COE (fuente SMN) por granizo, lluvias intensas, tormentas y vientos fuertes hasta las 20:00 h (70 mm o más), la naranja por tormentas hasta las 13:00 h y la amarilla hasta las 12:00 h. El aviso rojo a corto plazo para la Capital (09:30 a 10:30 h) ya venció; a las 11:04 h el COE emitió otro aviso rojo para San Luis del Palmar, Empedrado y otros cinco departamentos, sin la Capital. El SMN mantiene la alerta naranja provincial hasta las 05:59 h del 19/11 (lectura de las 08:43 h). Parte del SMN difundido por La Nación (11:13 h): hoy tormentas fuertes por la mañana (100 %) y por la tarde (70 %) y chaparrones por la noche (40 %); mañana mayormente nublado por la mañana (10 %) y chaparrones y tormentas aisladas por la tarde y la noche (40 %).",
@@ -253,7 +253,7 @@
     "hoy": [
      [
       "GFS (NOAA)",
-      2.1
+      2.4
      ],
      [
       "ICON (DWD)",
@@ -267,7 +267,7 @@
     "manana": [
      [
       "GFS (NOAA)",
-      0.0
+      0.7
      ],
      [
       "ICON (DWD)",
@@ -280,8 +280,8 @@
     ]
    },
    "criterio": "Promedio de los modelos GFS (NOAA), ICON (DWD), ECMWF (Open-Meteo), calculado automáticamente. Estimación derivada, no una medición.",
-   "fuente": "Hoy 11,5 mm, mañana 0,2 mm, promedio de modelos (Open-Meteo, 20/11/2026, 18:56 h)",
-   "act": "20/11, 18:56 h"
+   "fuente": "Hoy 11,6 mm, mañana 0,5 mm, promedio de modelos (Open-Meteo, 20/11/2026, 22:03 h)",
+   "act": "20/11, 22:03 h"
   },
   "Goya": {
    "hoy": {
@@ -289,7 +289,7 @@
     "horas": 10
    },
    "manana": {
-    "mm": 0.6,
+    "mm": 0.5,
     "horas": 3
    },
    "smn": "Alerta amarilla del SMN por tormenta para Corrientes desde las 12:00 h del 17/11 hasta las 11:59 h del 18/11, sin departamentos detallados. Alerta amarilla del COE de Corrientes (fuente SMN) que incluye a esta ciudad el miércoles 18/11 de 05:00 a 12:00 h, con 30 a 70 mm posibles.",
@@ -311,7 +311,7 @@
     "manana": [
      [
       "GFS (NOAA)",
-      0.3
+      0.1
      ],
      [
       "ICON (DWD)",
@@ -324,8 +324,8 @@
     ]
    },
    "criterio": "Promedio de los modelos GFS (NOAA), ICON (DWD), ECMWF (Open-Meteo), calculado automáticamente. Estimación derivada, no una medición.",
-   "fuente": "Hoy 12,7 mm, mañana 0,6 mm, promedio de modelos (Open-Meteo, 20/11/2026, 18:56 h)",
-   "act": "20/11, 18:56 h"
+   "fuente": "Hoy 12,7 mm, mañana 0,5 mm, promedio de modelos (Open-Meteo, 20/11/2026, 22:03 h)",
+   "act": "20/11, 22:03 h"
   },
   "Esquina": {
    "hoy": {
@@ -333,7 +333,7 @@
     "horas": 11
    },
    "manana": {
-    "mm": 0.1,
+    "mm": 0.0,
     "horas": 0
    },
    "smn": "Alerta amarilla del SMN por tormenta para Corrientes desde las 12:00 h del 17/11 hasta las 11:59 h del 18/11, sin departamentos detallados. Alerta amarilla del COE de Corrientes (fuente SMN) que incluye a esta ciudad el miércoles 18/11 de 05:00 a 12:00 h, con 30 a 70 mm posibles.",
@@ -355,7 +355,7 @@
     "manana": [
      [
       "GFS (NOAA)",
-      0.2
+      0.1
      ],
      [
       "ICON (DWD)",
@@ -368,8 +368,8 @@
     ]
    },
    "criterio": "Promedio de los modelos GFS (NOAA), ICON (DWD), ECMWF (Open-Meteo), calculado automáticamente. Estimación derivada, no una medición.",
-   "fuente": "Hoy 7,5 mm, mañana 0,1 mm, promedio de modelos (Open-Meteo, 20/11/2026, 18:56 h)",
-   "act": "20/11, 18:56 h"
+   "fuente": "Hoy 7,5 mm, mañana 0,0 mm, promedio de modelos (Open-Meteo, 20/11/2026, 22:03 h)",
+   "act": "20/11, 22:03 h"
   },
   "Bella Vista": {
    "hoy": {
@@ -412,8 +412,8 @@
     ]
    },
    "criterio": "Promedio de los modelos GFS (NOAA), ICON (DWD), ECMWF (Open-Meteo), calculado automáticamente. Estimación derivada, no una medición.",
-   "fuente": "Hoy 9,3 mm, mañana 0,0 mm, promedio de modelos (Open-Meteo, 20/11/2026, 18:56 h)",
-   "act": "20/11, 18:56 h"
+   "fuente": "Hoy 9,3 mm, mañana 0,0 mm, promedio de modelos (Open-Meteo, 20/11/2026, 22:03 h)",
+   "act": "20/11, 22:03 h"
   },
   "Mercedes": {
    "hoy": {
@@ -456,8 +456,8 @@
     ]
    },
    "criterio": "Promedio de los modelos GFS (NOAA), ICON (DWD), ECMWF (Open-Meteo), calculado automáticamente. Estimación derivada, no una medición.",
-   "fuente": "Hoy 14,3 mm, mañana 0,3 mm, promedio de modelos (Open-Meteo, 20/11/2026, 18:56 h)",
-   "act": "20/11, 18:56 h"
+   "fuente": "Hoy 14,3 mm, mañana 0,3 mm, promedio de modelos (Open-Meteo, 20/11/2026, 22:03 h)",
+   "act": "20/11, 22:03 h"
   },
   "Curuzú Cuatiá": {
    "hoy": {
@@ -500,8 +500,8 @@
     ]
    },
    "criterio": "Promedio de los modelos GFS (NOAA), ICON (DWD), ECMWF (Open-Meteo), calculado automáticamente. Estimación derivada, no una medición.",
-   "fuente": "Hoy 8,9 mm, mañana 0,5 mm, promedio de modelos (Open-Meteo, 20/11/2026, 18:56 h)",
-   "act": "20/11, 18:56 h"
+   "fuente": "Hoy 8,9 mm, mañana 0,5 mm, promedio de modelos (Open-Meteo, 20/11/2026, 22:03 h)",
+   "act": "20/11, 22:03 h"
   },
   "Paso de los Libres": {
    "hoy": {
@@ -544,24 +544,24 @@
     ]
    },
    "criterio": "Promedio de los modelos GFS (NOAA), ICON (DWD), ECMWF (Open-Meteo), calculado automáticamente. Estimación derivada, no una medición.",
-   "fuente": "Hoy 14,9 mm, mañana 1,5 mm, promedio de modelos (Open-Meteo, 20/11/2026, 18:56 h)",
-   "act": "20/11, 18:56 h"
+   "fuente": "Hoy 14,9 mm, mañana 1,5 mm, promedio de modelos (Open-Meteo, 20/11/2026, 22:03 h)",
+   "act": "20/11, 22:03 h"
   },
   "Santo Tomé": {
    "hoy": {
-    "mm": 23.5,
-    "horas": 18
+    "mm": 23.4,
+    "horas": 17
    },
    "manana": {
-    "mm": 1.1,
-    "horas": 5
+    "mm": 1.8,
+    "horas": 6
    },
    "smn": "Alerta amarilla del SMN por tormenta para Corrientes desde las 12:00 h del 17/11 hasta las 11:59 h del 18/11, sin departamentos detallados. Alerta amarilla del COE de Corrientes (fuente SMN) que incluye a esta ciudad el miércoles 18/11 de 05:00 a 12:00 h, con 30 a 70 mm posibles.",
    "modelos": {
     "hoy": [
      [
       "GFS (NOAA)",
-      14.4
+      14.1
      ],
      [
       "ICON (DWD)",
@@ -575,7 +575,7 @@
     "manana": [
      [
       "GFS (NOAA)",
-      1.8
+      3.9
      ],
      [
       "ICON (DWD)",
@@ -588,8 +588,8 @@
     ]
    },
    "criterio": "Promedio de los modelos GFS (NOAA), ICON (DWD), ECMWF (Open-Meteo), calculado automáticamente. Estimación derivada, no una medición.",
-   "fuente": "Hoy 23,5 mm, mañana 1,1 mm, promedio de modelos (Open-Meteo, 20/11/2026, 18:56 h)",
-   "act": "20/11, 18:56 h"
+   "fuente": "Hoy 23,4 mm, mañana 1,8 mm, promedio de modelos (Open-Meteo, 20/11/2026, 22:03 h)",
+   "act": "20/11, 22:03 h"
   },
   "Gobernador Virasoro": {
    "hoy": {
@@ -597,8 +597,8 @@
     "horas": 19
    },
    "manana": {
-    "mm": 1.6,
-    "horas": 7
+    "mm": 2.5,
+    "horas": 8
    },
    "smn": "Alerta amarilla del SMN por tormenta para Corrientes desde las 12:00 h del 17/11 hasta las 11:59 h del 18/11, sin departamentos detallados. Alerta amarilla del COE de Corrientes (fuente SMN) que incluye a esta ciudad el miércoles 18/11 de 05:00 a 12:00 h, con 30 a 70 mm posibles.",
    "modelos": {
@@ -619,7 +619,7 @@
     "manana": [
      [
       "GFS (NOAA)",
-      3.3
+      5.8
      ],
      [
       "ICON (DWD)",
@@ -632,16 +632,16 @@
     ]
    },
    "criterio": "Promedio de los modelos GFS (NOAA), ICON (DWD), ECMWF (Open-Meteo), calculado automáticamente. Estimación derivada, no una medición.",
-   "fuente": "Hoy 19,8 mm, mañana 1,6 mm, promedio de modelos (Open-Meteo, 20/11/2026, 18:56 h)",
-   "act": "20/11, 18:56 h"
+   "fuente": "Hoy 19,8 mm, mañana 2,5 mm, promedio de modelos (Open-Meteo, 20/11/2026, 22:03 h)",
+   "act": "20/11, 22:03 h"
   },
   "Ituzaingó": {
    "hoy": {
-    "mm": 22.8,
+    "mm": 23.1,
     "horas": 18
    },
    "manana": {
-    "mm": 2.5,
+    "mm": 3.5,
     "horas": 9
    },
    "smn": "Alerta amarilla del SMN por tormenta para Corrientes desde las 12:00 h del 17/11 hasta las 11:59 h del 18/11, sin departamentos detallados. Alerta amarilla del COE de Corrientes (fuente SMN) que incluye a esta ciudad el miércoles 18/11 de 05:00 a 12:00 h, con 30 a 70 mm posibles.",
@@ -649,7 +649,7 @@
     "hoy": [
      [
       "GFS (NOAA)",
-      15.9
+      16.8
      ],
      [
       "ICON (DWD)",
@@ -663,7 +663,7 @@
     "manana": [
      [
       "GFS (NOAA)",
-      4.3
+      7.3
      ],
      [
       "ICON (DWD)",
@@ -676,8 +676,8 @@
     ]
    },
    "criterio": "Promedio de los modelos GFS (NOAA), ICON (DWD), ECMWF (Open-Meteo), calculado automáticamente. Estimación derivada, no una medición.",
-   "fuente": "Hoy 22,8 mm, mañana 2,5 mm, promedio de modelos (Open-Meteo, 20/11/2026, 18:56 h)",
-   "act": "20/11, 18:56 h"
+   "fuente": "Hoy 23,1 mm, mañana 3,5 mm, promedio de modelos (Open-Meteo, 20/11/2026, 22:03 h)",
+   "act": "20/11, 22:03 h"
   },
   "Monte Caseros": {
    "hoy": {
@@ -720,8 +720,8 @@
     ]
    },
    "criterio": "Promedio de los modelos GFS (NOAA), ICON (DWD), ECMWF (Open-Meteo), calculado automáticamente. Estimación derivada, no una medición.",
-   "fuente": "Hoy 2,7 mm, mañana 0,6 mm, promedio de modelos (Open-Meteo, 20/11/2026, 18:56 h)",
-   "act": "20/11, 18:56 h"
+   "fuente": "Hoy 2,7 mm, mañana 0,6 mm, promedio de modelos (Open-Meteo, 20/11/2026, 22:03 h)",
+   "act": "20/11, 22:03 h"
   },
   "Saladas": {
    "hoy": {
@@ -764,8 +764,8 @@
     ]
    },
    "criterio": "Promedio de los modelos GFS (NOAA), ICON (DWD), ECMWF (Open-Meteo), calculado automáticamente. Estimación derivada, no una medición.",
-   "fuente": "Hoy 17,1 mm, mañana 0,1 mm, promedio de modelos (Open-Meteo, 20/11/2026, 18:56 h)",
-   "act": "20/11, 18:56 h"
+   "fuente": "Hoy 17,1 mm, mañana 0,1 mm, promedio de modelos (Open-Meteo, 20/11/2026, 22:03 h)",
+   "act": "20/11, 22:03 h"
   }
  },
  "horario_capital": {
@@ -791,16 +791,16 @@
    0.0,
    0.0,
    0.0,
-   0.0,
-   0.0,
+   0.03,
+   0.07,
    0.0
   ],
   "2026-11-21": [
    0.0,
    0.0,
-   0.0,
-   0.0,
-   0.0,
+   0.03,
+   0.07,
+   0.07,
    0.0,
    0.0,
    0.0,
@@ -818,14 +818,14 @@
    0.0,
    0.0,
    0.0,
-   0.0,
-   0.0
+   0.03,
+   0.03
   ],
   "2026-11-22": [
    0.0,
    0.07,
    0.07,
-   0.17,
+   0.07,
    0.0,
    0.0,
    0.0,
@@ -848,11 +848,11 @@
    0.0
   ]
  },
- "horario_act": "20/11/2026, 18:56 h",
+ "horario_act": "20/11/2026, 22:03 h",
  "consultado": "18/11/2026, 11:20 h",
  "consulta_resultado": "datos nuevos",
  "extendido": {
-  "actualizado": "20/11/2026, 18:56 h",
+  "actualizado": "20/11/2026, 22:03 h",
   "aviso": "Pronóstico extendido informativo. No se usa en los cálculos del simulador.",
   "ciudades": {
    "Corrientes Capital": {
@@ -907,28 +907,28 @@
    "Goya": {
     "fuente": "Modelo Open-Meteo (estimación de modelo, no es el pronóstico oficial del SMN)",
     "url": "https://open-meteo.com",
-    "emision": "20/11/2026, 18:56 h",
+    "emision": "20/11/2026, 22:03 h",
     "dias": [
      {
       "fecha": "2026-11-21",
-      "resumen": "Llovizna débil",
-      "prob": 47,
-      "mm": 0.4,
-      "tmin": 20,
-      "tmax": 29
+      "resumen": "Nublado",
+      "prob": 22,
+      "mm": 0.0,
+      "tmin": 19,
+      "tmax": 30
      },
      {
       "fecha": "2026-11-22",
       "resumen": "Nublado",
-      "prob": 29,
+      "prob": 6,
       "mm": 0.0,
       "tmin": 20,
       "tmax": 28
      },
      {
       "fecha": "2026-11-23",
-      "resumen": "Nublado",
-      "prob": 16,
+      "resumen": "Parcialmente nublado",
+      "prob": 6,
       "mm": 0.0,
       "tmin": 18,
       "tmax": 29
@@ -936,7 +936,7 @@
      {
       "fecha": "2026-11-24",
       "resumen": "Llovizna débil",
-      "prob": 10,
+      "prob": 14,
       "mm": 0.1,
       "tmin": 19,
       "tmax": 29
@@ -946,21 +946,21 @@
       "resumen": "Nublado",
       "prob": 2,
       "mm": 0.0,
-      "tmin": 21,
-      "tmax": 29
+      "tmin": 20,
+      "tmax": 30
      },
      {
       "fecha": "2026-11-26",
       "resumen": "Nublado",
-      "prob": 20,
+      "prob": 8,
       "mm": 0.0,
       "tmin": 18,
-      "tmax": 28
+      "tmax": 29
      },
      {
       "fecha": "2026-11-27",
       "resumen": "Parcialmente nublado",
-      "prob": 23,
+      "prob": 19,
       "mm": 0.0,
       "tmin": 16,
       "tmax": 28
@@ -970,13 +970,13 @@
    "Esquina": {
     "fuente": "Modelo Open-Meteo (estimación de modelo, no es el pronóstico oficial del SMN)",
     "url": "https://open-meteo.com",
-    "emision": "20/11/2026, 18:56 h",
+    "emision": "20/11/2026, 22:03 h",
     "dias": [
      {
       "fecha": "2026-11-21",
       "resumen": "Llovizna débil",
-      "prob": 33,
-      "mm": 0.5,
+      "prob": 16,
+      "mm": 0.1,
       "tmin": 19,
       "tmax": 29
      },
@@ -991,15 +991,15 @@
      {
       "fecha": "2026-11-23",
       "resumen": "Llovizna débil",
-      "prob": 12,
-      "mm": 0.5,
+      "prob": 8,
+      "mm": 0.2,
       "tmin": 18,
       "tmax": 29
      },
      {
       "fecha": "2026-11-24",
       "resumen": "Nublado",
-      "prob": 8,
+      "prob": 12,
       "mm": 0.0,
       "tmin": 18,
       "tmax": 28
@@ -1010,12 +1010,12 @@
       "prob": 2,
       "mm": 0.0,
       "tmin": 20,
-      "tmax": 26
+      "tmax": 28
      },
      {
       "fecha": "2026-11-26",
       "resumen": "Nublado",
-      "prob": 13,
+      "prob": 15,
       "mm": 0.0,
       "tmin": 17,
       "tmax": 27
@@ -1023,7 +1023,7 @@
      {
       "fecha": "2026-11-27",
       "resumen": "Despejado",
-      "prob": 18,
+      "prob": 15,
       "mm": 0.0,
       "tmin": 16,
       "tmax": 27
@@ -1033,52 +1033,52 @@
    "Bella Vista": {
     "fuente": "Modelo Open-Meteo (estimación de modelo, no es el pronóstico oficial del SMN)",
     "url": "https://open-meteo.com",
-    "emision": "20/11/2026, 18:56 h",
+    "emision": "20/11/2026, 22:03 h",
     "dias": [
      {
       "fecha": "2026-11-21",
       "resumen": "Nublado",
-      "prob": 44,
+      "prob": 22,
       "mm": 0.0,
-      "tmin": 18,
-      "tmax": 30
+      "tmin": 19,
+      "tmax": 31
      },
      {
       "fecha": "2026-11-22",
-      "resumen": "Nublado",
-      "prob": 43,
+      "resumen": "Parcialmente nublado",
+      "prob": 18,
       "mm": 0.0,
       "tmin": 20,
       "tmax": 29
      },
      {
       "fecha": "2026-11-23",
-      "resumen": "Mayormente despejado",
-      "prob": 10,
-      "mm": 0.0,
+      "resumen": "Llovizna débil",
+      "prob": 4,
+      "mm": 0.1,
       "tmin": 18,
-      "tmax": 29
+      "tmax": 30
      },
      {
       "fecha": "2026-11-24",
       "resumen": "Nublado",
-      "prob": 18,
+      "prob": 12,
       "mm": 0.0,
-      "tmin": 19,
-      "tmax": 29
+      "tmin": 20,
+      "tmax": 30
      },
      {
       "fecha": "2026-11-25",
       "resumen": "Nublado",
-      "prob": 2,
+      "prob": 4,
       "mm": 0.0,
-      "tmin": 21,
+      "tmin": 20,
       "tmax": 29
      },
      {
       "fecha": "2026-11-26",
-      "resumen": "Mayormente despejado",
-      "prob": 22,
+      "resumen": "Nublado",
+      "prob": 11,
       "mm": 0.0,
       "tmin": 17,
       "tmax": 28
@@ -1086,7 +1086,7 @@
      {
       "fecha": "2026-11-27",
       "resumen": "Nublado",
-      "prob": 31,
+      "prob": 26,
       "mm": 0.0,
       "tmin": 16,
       "tmax": 26
@@ -1096,60 +1096,60 @@
    "Mercedes": {
     "fuente": "Modelo Open-Meteo (estimación de modelo, no es el pronóstico oficial del SMN)",
     "url": "https://open-meteo.com",
-    "emision": "20/11/2026, 18:56 h",
+    "emision": "20/11/2026, 22:03 h",
     "dias": [
      {
       "fecha": "2026-11-21",
-      "resumen": "Tormentas",
-      "prob": 57,
-      "mm": 2.5,
+      "resumen": "Parcialmente nublado",
+      "prob": 45,
+      "mm": 0.0,
       "tmin": 18,
-      "tmax": 28
+      "tmax": 29
      },
      {
       "fecha": "2026-11-22",
       "resumen": "Nublado",
-      "prob": 49,
+      "prob": 16,
       "mm": 0.0,
       "tmin": 19,
       "tmax": 28
      },
      {
       "fecha": "2026-11-23",
-      "resumen": "Mayormente despejado",
-      "prob": 14,
+      "resumen": "Parcialmente nublado",
+      "prob": 10,
       "mm": 0.0,
       "tmin": 17,
-      "tmax": 28
+      "tmax": 29
      },
      {
       "fecha": "2026-11-24",
-      "resumen": "Nublado",
-      "prob": 12,
+      "resumen": "Parcialmente nublado",
+      "prob": 10,
       "mm": 0.0,
       "tmin": 18,
-      "tmax": 28
+      "tmax": 29
      },
      {
       "fecha": "2026-11-25",
-      "resumen": "Llovizna débil",
+      "resumen": "Nublado",
       "prob": 2,
-      "mm": 0.3,
-      "tmin": 21,
-      "tmax": 28
+      "mm": 0.0,
+      "tmin": 20,
+      "tmax": 29
      },
      {
       "fecha": "2026-11-26",
-      "resumen": "Mayormente despejado",
-      "prob": 18,
+      "resumen": "Nublado",
+      "prob": 7,
       "mm": 0.0,
       "tmin": 16,
-      "tmax": 27
+      "tmax": 28
      },
      {
       "fecha": "2026-11-27",
       "resumen": "Nublado",
-      "prob": 24,
+      "prob": 16,
       "mm": 0.0,
       "tmin": 16,
       "tmax": 25
@@ -1159,20 +1159,20 @@
    "Curuzú Cuatiá": {
     "fuente": "Modelo Open-Meteo (estimación de modelo, no es el pronóstico oficial del SMN)",
     "url": "https://open-meteo.com",
-    "emision": "20/11/2026, 18:56 h",
+    "emision": "20/11/2026, 22:03 h",
     "dias": [
      {
       "fecha": "2026-11-21",
-      "resumen": "Llovizna",
-      "prob": 49,
-      "mm": 1.5,
+      "resumen": "Llovizna débil",
+      "prob": 27,
+      "mm": 0.2,
       "tmin": 18,
       "tmax": 28
      },
      {
       "fecha": "2026-11-22",
       "resumen": "Nublado",
-      "prob": 31,
+      "prob": 10,
       "mm": 0.0,
       "tmin": 19,
       "tmax": 27
@@ -1180,7 +1180,7 @@
      {
       "fecha": "2026-11-23",
       "resumen": "Mayormente despejado",
-      "prob": 10,
+      "prob": 6,
       "mm": 0.0,
       "tmin": 16,
       "tmax": 28
@@ -1188,31 +1188,31 @@
      {
       "fecha": "2026-11-24",
       "resumen": "Nublado",
-      "prob": 8,
+      "prob": 14,
       "mm": 0.0,
-      "tmin": 17,
+      "tmin": 18,
       "tmax": 28
      },
      {
       "fecha": "2026-11-25",
-      "resumen": "Nublado",
-      "prob": 4,
-      "mm": 0.0,
+      "resumen": "Llovizna débil",
+      "prob": 0,
+      "mm": 0.3,
       "tmin": 20,
       "tmax": 28
      },
      {
       "fecha": "2026-11-26",
       "resumen": "Nublado",
-      "prob": 11,
+      "prob": 5,
       "mm": 0.0,
       "tmin": 16,
-      "tmax": 26
+      "tmax": 28
      },
      {
       "fecha": "2026-11-27",
       "resumen": "Parcialmente nublado",
-      "prob": 20,
+      "prob": 14,
       "mm": 0.0,
       "tmin": 15,
       "tmax": 26
@@ -1222,39 +1222,39 @@
    "Paso de los Libres": {
     "fuente": "Modelo Open-Meteo (estimación de modelo, no es el pronóstico oficial del SMN)",
     "url": "https://open-meteo.com",
-    "emision": "20/11/2026, 18:56 h",
+    "emision": "20/11/2026, 22:03 h",
     "dias": [
      {
       "fecha": "2026-11-21",
-      "resumen": "Tormentas",
-      "prob": 52,
-      "mm": 6.1,
-      "tmin": 18,
-      "tmax": 29
+      "resumen": "Llovizna intensa",
+      "prob": 45,
+      "mm": 1.1,
+      "tmin": 19,
+      "tmax": 30
      },
      {
       "fecha": "2026-11-22",
       "resumen": "Nublado",
-      "prob": 49,
+      "prob": 20,
       "mm": 0.0,
-      "tmin": 19,
-      "tmax": 28
+      "tmin": 18,
+      "tmax": 29
      },
      {
       "fecha": "2026-11-23",
-      "resumen": "Parcialmente nublado",
-      "prob": 14,
+      "resumen": "Mayormente despejado",
+      "prob": 4,
       "mm": 0.0,
       "tmin": 17,
-      "tmax": 28
+      "tmax": 29
      },
      {
       "fecha": "2026-11-24",
-      "resumen": "Nublado",
-      "prob": 8,
+      "resumen": "Parcialmente nublado",
+      "prob": 6,
       "mm": 0.0,
       "tmin": 18,
-      "tmax": 28
+      "tmax": 30
      },
      {
       "fecha": "2026-11-25",
@@ -1262,20 +1262,20 @@
       "prob": 2,
       "mm": 0.0,
       "tmin": 20,
-      "tmax": 27
+      "tmax": 29
      },
      {
       "fecha": "2026-11-26",
       "resumen": "Nublado",
-      "prob": 9,
+      "prob": 2,
       "mm": 0.0,
       "tmin": 17,
-      "tmax": 26
+      "tmax": 27
      },
      {
       "fecha": "2026-11-27",
       "resumen": "Parcialmente nublado",
-      "prob": 16,
+      "prob": 14,
       "mm": 0.0,
       "tmin": 14,
       "tmax": 25
@@ -1285,52 +1285,52 @@
    "Santo Tomé": {
     "fuente": "Modelo Open-Meteo (estimación de modelo, no es el pronóstico oficial del SMN)",
     "url": "https://open-meteo.com",
-    "emision": "20/11/2026, 18:56 h",
+    "emision": "20/11/2026, 22:03 h",
     "dias": [
      {
       "fecha": "2026-11-21",
-      "resumen": "Llovizna intensa",
-      "prob": 84,
-      "mm": 1.6,
-      "tmin": 19,
+      "resumen": "Tormentas",
+      "prob": 65,
+      "mm": 3.5,
+      "tmin": 18,
       "tmax": 30
      },
      {
       "fecha": "2026-11-22",
-      "resumen": "Llovizna",
-      "prob": 94,
-      "mm": 1.3,
+      "resumen": "Llovizna débil",
+      "prob": 67,
+      "mm": 0.4,
       "tmin": 20,
-      "tmax": 29
+      "tmax": 30
      },
      {
       "fecha": "2026-11-23",
-      "resumen": "Parcialmente nublado",
-      "prob": 16,
-      "mm": 0.0,
+      "resumen": "Llovizna débil",
+      "prob": 11,
+      "mm": 0.3,
       "tmin": 18,
       "tmax": 30
      },
      {
       "fecha": "2026-11-24",
-      "resumen": "Llovizna débil",
-      "prob": 35,
-      "mm": 0.1,
+      "resumen": "Llovizna",
+      "prob": 25,
+      "mm": 1.7,
       "tmin": 20,
-      "tmax": 29
+      "tmax": 30
      },
      {
       "fecha": "2026-11-25",
       "resumen": "Nublado",
-      "prob": 4,
+      "prob": 8,
       "mm": 0.0,
-      "tmin": 21,
-      "tmax": 29
+      "tmin": 20,
+      "tmax": 30
      },
      {
       "fecha": "2026-11-26",
       "resumen": "Nublado",
-      "prob": 15,
+      "prob": 6,
       "mm": 0.0,
       "tmin": 18,
       "tmax": 27
@@ -1338,7 +1338,7 @@
      {
       "fecha": "2026-11-27",
       "resumen": "Nublado",
-      "prob": 30,
+      "prob": 26,
       "mm": 0.0,
       "tmin": 15,
       "tmax": 26
@@ -1348,39 +1348,39 @@
    "Gobernador Virasoro": {
     "fuente": "Modelo Open-Meteo (estimación de modelo, no es el pronóstico oficial del SMN)",
     "url": "https://open-meteo.com",
-    "emision": "20/11/2026, 18:56 h",
+    "emision": "20/11/2026, 22:03 h",
     "dias": [
      {
       "fecha": "2026-11-21",
       "resumen": "Llovizna",
-      "prob": 74,
-      "mm": 1.1,
-      "tmin": 19,
+      "prob": 63,
+      "mm": 3.5,
+      "tmin": 18,
       "tmax": 31
      },
      {
       "fecha": "2026-11-22",
       "resumen": "Tormentas",
-      "prob": 96,
-      "mm": 6.4,
+      "prob": 73,
+      "mm": 10.0,
       "tmin": 20,
-      "tmax": 30
+      "tmax": 29
      },
      {
       "fecha": "2026-11-23",
-      "resumen": "Parcialmente nublado",
-      "prob": 23,
+      "resumen": "Nublado",
+      "prob": 19,
       "mm": 0.0,
       "tmin": 18,
       "tmax": 31
      },
      {
       "fecha": "2026-11-24",
-      "resumen": "Llovizna débil",
-      "prob": 48,
-      "mm": 0.3,
+      "resumen": "Tormentas",
+      "prob": 42,
+      "mm": 17.1,
       "tmin": 20,
-      "tmax": 31
+      "tmax": 29
      },
      {
       "fecha": "2026-11-25",
@@ -1393,7 +1393,7 @@
      {
       "fecha": "2026-11-26",
       "resumen": "Nublado",
-      "prob": 19,
+      "prob": 4,
       "mm": 0.0,
       "tmin": 18,
       "tmax": 27
@@ -1401,7 +1401,7 @@
      {
       "fecha": "2026-11-27",
       "resumen": "Parcialmente nublado",
-      "prob": 35,
+      "prob": 31,
       "mm": 0.0,
       "tmin": 15,
       "tmax": 27
@@ -1411,52 +1411,52 @@
    "Ituzaingó": {
     "fuente": "Modelo Open-Meteo (estimación de modelo, no es el pronóstico oficial del SMN)",
     "url": "https://open-meteo.com",
-    "emision": "20/11/2026, 18:56 h",
+    "emision": "20/11/2026, 22:03 h",
     "dias": [
      {
       "fecha": "2026-11-21",
-      "resumen": "Tormentas",
-      "prob": 63,
-      "mm": 3.6,
-      "tmin": 20,
-      "tmax": 31
-     },
-     {
-      "fecha": "2026-11-22",
-      "resumen": "Tormentas",
-      "prob": 95,
-      "mm": 5.0,
-      "tmin": 21,
+      "resumen": "Llovizna",
+      "prob": 58,
+      "mm": 1.7,
+      "tmin": 19,
       "tmax": 30
      },
      {
+      "fecha": "2026-11-22",
+      "resumen": "Chaparrones",
+      "prob": 75,
+      "mm": 5.9,
+      "tmin": 21,
+      "tmax": 29
+     },
+     {
       "fecha": "2026-11-23",
-      "resumen": "Parcialmente nublado",
-      "prob": 19,
+      "resumen": "Nublado",
+      "prob": 16,
       "mm": 0.0,
       "tmin": 19,
       "tmax": 31
      },
      {
       "fecha": "2026-11-24",
-      "resumen": "Llovizna débil",
-      "prob": 55,
-      "mm": 1.5,
-      "tmin": 22,
-      "tmax": 30
-     },
-     {
-      "fecha": "2026-11-25",
-      "resumen": "Nublado",
-      "prob": 12,
-      "mm": 0.0,
+      "resumen": "Tormentas",
+      "prob": 51,
+      "mm": 8.4,
       "tmin": 21,
       "tmax": 29
      },
      {
+      "fecha": "2026-11-25",
+      "resumen": "Nublado",
+      "prob": 16,
+      "mm": 0.0,
+      "tmin": 21,
+      "tmax": 30
+     },
+     {
       "fecha": "2026-11-26",
       "resumen": "Nublado",
-      "prob": 23,
+      "prob": 6,
       "mm": 0.0,
       "tmin": 18,
       "tmax": 28
@@ -1474,60 +1474,60 @@
    "Monte Caseros": {
     "fuente": "Modelo Open-Meteo (estimación de modelo, no es el pronóstico oficial del SMN)",
     "url": "https://open-meteo.com",
-    "emision": "20/11/2026, 18:56 h",
+    "emision": "20/11/2026, 22:03 h",
     "dias": [
      {
       "fecha": "2026-11-21",
-      "resumen": "Llovizna intensa",
-      "prob": 41,
-      "mm": 1.5,
+      "resumen": "Llovizna",
+      "prob": 33,
+      "mm": 0.9,
       "tmin": 18,
       "tmax": 28
      },
      {
       "fecha": "2026-11-22",
       "resumen": "Nublado",
-      "prob": 29,
+      "prob": 18,
       "mm": 0.0,
-      "tmin": 18,
+      "tmin": 19,
       "tmax": 27
      },
      {
       "fecha": "2026-11-23",
       "resumen": "Parcialmente nublado",
-      "prob": 6,
+      "prob": 8,
       "mm": 0.0,
       "tmin": 17,
-      "tmax": 28
+      "tmax": 29
      },
      {
       "fecha": "2026-11-24",
       "resumen": "Nublado",
-      "prob": 6,
+      "prob": 10,
       "mm": 0.0,
-      "tmin": 17,
+      "tmin": 18,
       "tmax": 28
      },
      {
       "fecha": "2026-11-25",
       "resumen": "Nublado",
-      "prob": 2,
+      "prob": 0,
       "mm": 0.0,
       "tmin": 20,
-      "tmax": 27
+      "tmax": 28
      },
      {
       "fecha": "2026-11-26",
       "resumen": "Nublado",
-      "prob": 5,
+      "prob": 6,
       "mm": 0.0,
       "tmin": 17,
-      "tmax": 26
+      "tmax": 27
      },
      {
       "fecha": "2026-11-27",
       "resumen": "Despejado",
-      "prob": 11,
+      "prob": 10,
       "mm": 0.0,
       "tmin": 15,
       "tmax": 26
@@ -1537,28 +1537,28 @@
    "Saladas": {
     "fuente": "Modelo Open-Meteo (estimación de modelo, no es el pronóstico oficial del SMN)",
     "url": "https://open-meteo.com",
-    "emision": "20/11/2026, 18:56 h",
+    "emision": "20/11/2026, 22:03 h",
     "dias": [
      {
       "fecha": "2026-11-21",
-      "resumen": "Llovizna débil",
-      "prob": 58,
-      "mm": 0.2,
-      "tmin": 19,
+      "resumen": "Nublado",
+      "prob": 29,
+      "mm": 0.0,
+      "tmin": 18,
       "tmax": 31
      },
      {
       "fecha": "2026-11-22",
       "resumen": "Nublado",
-      "prob": 62,
+      "prob": 22,
       "mm": 0.0,
       "tmin": 20,
-      "tmax": 28
+      "tmax": 29
      },
      {
       "fecha": "2026-11-23",
-      "resumen": "Nublado",
-      "prob": 11,
+      "resumen": "Mayormente despejado",
+      "prob": 6,
       "mm": 0.0,
       "tmin": 18,
       "tmax": 30
@@ -1566,7 +1566,7 @@
      {
       "fecha": "2026-11-24",
       "resumen": "Nublado",
-      "prob": 16,
+      "prob": 10,
       "mm": 0.0,
       "tmin": 20,
       "tmax": 30
@@ -1574,15 +1574,15 @@
      {
       "fecha": "2026-11-25",
       "resumen": "Nublado",
-      "prob": 6,
+      "prob": 2,
       "mm": 0.0,
       "tmin": 20,
-      "tmax": 29
+      "tmax": 30
      },
      {
       "fecha": "2026-11-26",
       "resumen": "Nublado",
-      "prob": 20,
+      "prob": 10,
       "mm": 0.0,
       "tmin": 17,
       "tmax": 28
@@ -1590,7 +1590,7 @@
      {
       "fecha": "2026-11-27",
       "resumen": "Nublado",
-      "prob": 28,
+      "prob": 31,
       "mm": 0.0,
       "tmin": 16,
       "tmax": 25
