@@ -5882,6 +5882,51 @@
     ]
    },
    "alertas_del_dia": []
+  },
+  "2026-11-21": {
+   "fecha": "2026-11-21",
+   "pronostico_de": "21/11/2026, 00:30 h",
+   "ciudades": {
+    "Corrientes Capital": 0.6,
+    "Goya": 0.0,
+    "Esquina": 0.0,
+    "Bella Vista": 0.0,
+    "Mercedes": 0.0,
+    "Curuzú Cuatiá": 0.1,
+    "Paso de los Libres": 0.4,
+    "Santo Tomé": 2.1,
+    "Gobernador Virasoro": 3.4,
+    "Ituzaingó": 3.1,
+    "Monte Caseros": 0.3,
+    "Saladas": 0.0
+   },
+   "horario_capital": [
+    0.0,
+    0.0,
+    0.03,
+    0.07,
+    0.07,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.03,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.03,
+    0.03,
+    0.03,
+    0.13,
+    0.13
+   ],
+   "alertas_del_dia": []
   }
  }
 }
