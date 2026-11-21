@@ -1,5 +1,5 @@
 Fuente: https://ssl.smn.gob.ar/dpd/descarga_opendata.php?file=observaciones/datohorario20261119.txt
-Consultado: 20/11/2026, 22:03 h
+Consultado: 20/11/2026, 22:36 h
 
 FECHA     HORA  TEMP   HUM   PNM    DD    FF     NOMBRE                                             
          [HOA]  [�C]   [%]  [hPa]  [gr] [km/hr]                                                     
