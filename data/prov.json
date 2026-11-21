@@ -11,17 +11,17 @@
   "fecha": "13/11/2026, 18:35 h"
  },
  "met_revision": "aae6c54b1ab7086a927cf2e4bb8e34a53a584e781ba42ff90ab9d653046ddc38",
- "actualizado": "20/11/2026, 19:58 h",
+ "actualizado": "21/11/2026, 01:51 h",
  "localidades": [
   {
    "n": "Corrientes Capital",
    "dep": "Capital",
    "ref": "Corrientes Capital",
    "rio": "Paraná",
-   "altura": 5.9,
+   "altura": 5.85,
    "alerta": 6.5,
    "evac": 7.0,
-   "reg": "20/11/2026, 12:00 h (Prefectura Naval Argentina, vía rioparana.com.ar)"
+   "reg": "21/11/2026, 00:00 h (Prefectura Naval Argentina, vía rioparana.com.ar)"
   },
   {
    "n": "Riachuelo",
@@ -33,10 +33,10 @@
    "dep": "Bella Vista",
    "ref": "Bella Vista",
    "rio": "Paraná",
-   "altura": 5.98,
+   "altura": 5.96,
    "alerta": 6.0,
    "evac": 6.4,
-   "reg": "20/11/2026, 12:00 h (Prefectura Naval Argentina, vía rioparana.com.ar)"
+   "reg": "21/11/2026, 00:00 h (Prefectura Naval Argentina, vía rioparana.com.ar)"
   },
   {
    "n": "Berón de Astrada",
@@ -88,10 +88,10 @@
    "dep": "Empedrado",
    "ref": "Corrientes Capital",
    "rio": "Paraná",
-   "altura": 5.44,
+   "altura": 5.32,
    "alerta": 6.5,
    "evac": 6.7,
-   "reg": "19/11/2026, 12:00 h (Prefectura Naval Argentina, vía rioparana.com.ar)"
+   "reg": "21/11/2026, 00:00 h (Prefectura Naval Argentina, vía rioparana.com.ar)"
   },
   {
    "n": "El Sombrero",
@@ -103,10 +103,10 @@
    "dep": "Esquina",
    "ref": "Esquina",
    "rio": "Paraná",
-   "altura": 5.38,
+   "altura": 5.37,
    "alerta": 5.0,
    "evac": 5.4,
-   "reg": "20/11/2026, 18:00 h (Prefectura Naval Argentina, vía rioparana.com.ar)"
+   "reg": "21/11/2026, 00:00 h (Prefectura Naval Argentina, vía rioparana.com.ar)"
   },
   {
    "n": "Pueblo Libertador",
@@ -138,10 +138,10 @@
    "dep": "General Paz",
    "ref": "Ituzaingó",
    "rio": "Paraná",
-   "altura": 4.56,
+   "altura": 4.6,
    "alerta": 7.0,
    "evac": 7.5,
-   "reg": "20/11/2026, 12:00 h (Prefectura Naval Argentina, vía rioparana.com.ar)"
+   "reg": "21/11/2026, 00:00 h (Prefectura Naval Argentina, vía rioparana.com.ar)"
   },
   {
    "n": "Lomas de Vallejos",
@@ -161,7 +161,7 @@
    "altura": 5.63,
    "alerta": 5.2,
    "evac": 5.7,
-   "reg": "20/11/2026, 18:00 h (Prefectura Naval Argentina, vía rioparana.com.ar)"
+   "reg": "21/11/2026, 00:00 h (Prefectura Naval Argentina, vía rioparana.com.ar)"
   },
   {
    "n": "Colonia Carolina",
@@ -173,10 +173,10 @@
    "dep": "Itatí",
    "ref": "Corrientes Capital",
    "rio": "Paraná",
-   "altura": 6.01,
+   "altura": 5.98,
    "alerta": 6.8,
    "evac": 7.5,
-   "reg": "20/11/2026, 12:00 h (Prefectura Naval Argentina, vía rioparana.com.ar)"
+   "reg": "21/11/2026, 00:00 h (Prefectura Naval Argentina, vía rioparana.com.ar)"
   },
   {
    "n": "Ramada Paso",
@@ -188,10 +188,10 @@
    "dep": "Ituzaingó",
    "ref": "Ituzaingó",
    "rio": "Paraná",
-   "altura": 2.36,
+   "altura": 2.37,
    "alerta": 3.5,
    "evac": 4.0,
-   "reg": "20/11/2026, 12:00 h (Prefectura Naval Argentina, vía rioparana.com.ar)"
+   "reg": "21/11/2026, 00:00 h (Prefectura Naval Argentina, vía rioparana.com.ar)"
   },
   {
    "n": "San Carlos",
@@ -333,10 +333,10 @@
    "dep": "San Cosme",
    "ref": "Corrientes Capital",
    "rio": "Paraná",
-   "altura": 5.92,
+   "altura": 5.88,
    "alerta": 6.5,
    "evac": 7.0,
-   "reg": "20/11/2026, 12:00 h (Prefectura Naval Argentina, vía rioparana.com.ar)"
+   "reg": "21/11/2026, 00:00 h (Prefectura Naval Argentina, vía rioparana.com.ar)"
   },
   {
    "n": "Santa Ana",
