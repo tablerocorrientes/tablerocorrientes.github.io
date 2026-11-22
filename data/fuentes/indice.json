@@ -1,6 +1,6 @@
 {
- "consultado": "22/11/2026, 18:54 h",
- "consultado_iso": "2026-11-22T18:54-03:00",
+ "consultado": "22/11/2026, 18:57 h",
+ "consultado_iso": "2026-11-22T18:57-03:00",
  "paginas": {
   "smn_alertas": {
    "url": "https://www.smn.gob.ar/alertas",
@@ -50,7 +50,7 @@
   "lanacion_clima_corrientes": {
    "url": "https://www.lanacion.com.ar/clima/corrientes/",
    "estado": 200,
-   "caracteres": 8327,
+   "caracteres": 8296,
    "archivo": "data/fuentes/lanacion_clima_corrientes.txt"
   },
   "noaa_enso": {
@@ -130,154 +130,95 @@
   }
  },
  "pedidas": {
-  "https://www.perfil.com/noticias/amp/nea/es-ley-la-emergencia-climatica-e-hidrica-en-corrientes-por-el-impacto-de-el-nino-aFdt50K9QOAU.phtml": {
-   "url": "https://www.perfil.com/noticias/amp/nea/es-ley-la-emergencia-climatica-e-hidrica-en-corrientes-por-el-impacto-de-el-nino-aFdt50K9QOAU.phtml",
+  "https://www.ellitoral.com.ar/ciudad/2026-11-20-19-18-0-cerro-el-centro-de-evacuados-en-corrientes-y-el-60-de-los-autoevacuados-volvio-a-casa": {
+   "url": "https://www.ellitoral.com.ar/ciudad/2026-11-20-19-18-0-cerro-el-centro-de-evacuados-en-corrientes-y-el-60-de-los-autoevacuados-volvio-a-casa",
    "estado": 200,
-   "caracteres": 3558,
-   "archivo": "data/fuentes/web/perfil_com_noticias_amp_nea_es_ley_la_emergencia_climatica_e_hidrica_en_corrientes_por_el_.txt"
+   "caracteres": 4582,
+   "archivo": "data/fuentes/web/ellitoral_com_ar_ciudad_2026_11_20_19_18_0_cerro_el_centro_de_evacuados_en_corrientes_y_el.txt"
   },
-  "https://examedia.com.ar/portada/post/88263611": {
-   "url": "https://examedia.com.ar/portada/post/88263611",
+  "https://ciudaddecorrientes.gov.ar/content/el-municipio-acompa-el-regreso-los-hogares-ya-no-hay-evacuados-en-la-escuela-293": {
+   "url": "https://ciudaddecorrientes.gov.ar/content/el-municipio-acompa-el-regreso-los-hogares-ya-no-hay-evacuados-en-la-escuela-293",
    "estado": 200,
-   "caracteres": 10877,
-   "archivo": "data/fuentes/web/examedia_com_ar_portada_post_88263611.txt"
+   "caracteres": 5345,
+   "archivo": "data/fuentes/web/ciudaddecorrientes_gov_ar_content_el_municipio_acompa_el_regreso_los_hogares_ya_no_hay_eva.txt"
   },
-  "https://www.diarioellibertador.com.ar/diputados-convirtio-en-ley-la-emergencia-climatica-en-todo-el-territorio-provincial/": {
-   "url": "https://www.diarioellibertador.com.ar/diputados-convirtio-en-ley-la-emergencia-climatica-en-todo-el-territorio-provincial/",
+  "https://www.tiempopopular.com.ar/2026/11/19/corrientes-registra-mas-de-2-000-evacuados-por-las-inundaciones-y-advierten-que-la-situacion-podria-agravarse/": {
+   "url": "https://www.tiempopopular.com.ar/2026/11/19/corrientes-registra-mas-de-2-000-evacuados-por-las-inundaciones-y-advierten-que-la-situacion-podria-agravarse/",
    "estado": 200,
-   "caracteres": 6701,
-   "archivo": "data/fuentes/web/diarioellibertador_com_ar_diputados_convirtio_en_ley_la_emergencia_climatica_en_todo_el_te.txt"
+   "caracteres": 4464,
+   "archivo": "data/fuentes/web/tiempopopular_com_ar_2026_11_19_corrientes_registra_mas_de_2_000_evacuados_por_las_inundac.txt"
   },
-  "https://elmonterizo.com/corrientes-declaro-la-emergencia-climatica-las-siete-ciudades-que-quedaron-en-la-mira": {
-   "url": "https://elmonterizo.com/corrientes-declaro-la-emergencia-climatica-las-siete-ciudades-que-quedaron-en-la-mira",
+  "https://examedia.com.ar/portada/post/88250149": {
+   "url": "https://examedia.com.ar/portada/post/88250149",
    "estado": 200,
-   "caracteres": 4886,
-   "archivo": "data/fuentes/web/elmonterizo_com_corrientes_declaro_la_emergencia_climatica_las_siete_ciudades_que_quedaron.txt"
+   "caracteres": 5507,
+   "archivo": "data/fuentes/web/examedia_com_ar_portada_post_88250149.txt"
   },
-  "https://examedia.com.ar/portada/post/88271001": {
-   "url": "https://examedia.com.ar/portada/post/88271001",
+  "https://prensamercosur.org/2026/11/21/seamos-conscientes-mostraron-una-de-las-consecuencias-de-la-basura-en-las-calles/": {
+   "url": "https://prensamercosur.org/2026/11/21/seamos-conscientes-mostraron-una-de-las-consecuencias-de-la-basura-en-las-calles/",
    "estado": 200,
-   "caracteres": 5270,
-   "archivo": "data/fuentes/web/examedia_com_ar_portada_post_88271001.txt"
+   "caracteres": 7769,
+   "archivo": "data/fuentes/web/prensamercosur_org_2026_11_21_seamos_conscientes_mostraron_una_de_las_consecuencias_de_la_.txt"
   },
-  "https://www.ellitoral.com.ar/actualidad/2026-11-19-18-20-0-el-presupuesto-municipal-2027-de-corrientes-preve-recursos-por-mas-de-256-mil-millones": {
-   "url": "https://www.ellitoral.com.ar/actualidad/2026-11-19-18-20-0-el-presupuesto-municipal-2027-de-corrientes-preve-recursos-por-mas-de-256-mil-millones",
+  "https://prensamercosur.org/2026/11/18/valdes-defendio-el-aumento-y-se-refirio-al-gabinete/": {
+   "url": "https://prensamercosur.org/2026/11/18/valdes-defendio-el-aumento-y-se-refirio-al-gabinete/",
    "estado": 200,
-   "caracteres": 3746,
-   "archivo": "data/fuentes/web/ellitoral_com_ar_actualidad_2026_11_19_18_20_0_el_presupuesto_municipal_2027_de_corrientes.txt"
+   "caracteres": 9709,
+   "archivo": "data/fuentes/web/prensamercosur_org_2026_11_18_valdes_defendio_el_aumento_y_se_refirio_al_gabinete.txt"
   },
-  "https://examedia.com.ar/portada/post/88275298": {
-   "url": "https://examedia.com.ar/portada/post/88275298",
-   "estado": 200,
-   "caracteres": 3718,
-   "archivo": "data/fuentes/web/examedia_com_ar_portada_post_88275298.txt"
-  },
-  "https://examedia.com.ar/portada/post/88273778": {
-   "url": "https://examedia.com.ar/portada/post/88273778",
-   "estado": 200,
-   "caracteres": 6357,
-   "archivo": "data/fuentes/web/examedia_com_ar_portada_post_88273778.txt"
-  },
-  "https://examedia.com.ar/portada/post/88269489": {
-   "url": "https://examedia.com.ar/portada/post/88269489",
-   "estado": 200,
-   "caracteres": 6466,
-   "archivo": "data/fuentes/web/examedia_com_ar_portada_post_88269489.txt"
-  },
-  "https://www.radiosudamericana.com/nota/politica/352943-Piden-prorroga-de-la-emergencia-del-transporte-de-pasajeros.htm": {
-   "url": "https://www.radiosudamericana.com/nota/politica/352943-Piden-prorroga-de-la-emergencia-del-transporte-de-pasajeros.htm",
-   "estado": 200,
-   "caracteres": 6229,
-   "archivo": "data/fuentes/web/radiosudamericana_com_nota_politica_352943_Piden_prorroga_de_la_emergencia_del_transporte_.txt"
-  },
-  "https://www.republicadecorrientes.com/76726-el-concejo-avanzo-con-la-prorroga-de-la-emergencia-del-transporte-urbano": {
-   "url": "https://www.republicadecorrientes.com/76726-el-concejo-avanzo-con-la-prorroga-de-la-emergencia-del-transporte-urbano",
+  "https://www.corrienteshoy.com/info-general/el-municipio-de-la-capital-quiere-extender-por-un-anio-mas-la-emergencia-en-el-trasnporte-publico-de-pasajeros.htm": {
+   "url": "https://www.corrienteshoy.com/info-general/el-municipio-de-la-capital-quiere-extender-por-un-anio-mas-la-emergencia-en-el-trasnporte-publico-de-pasajeros.htm",
    "estado": "error",
    "detalle": "HTTP Error 404: NOT FOUND"
   },
-  "https://examedia.com.ar/portada/post/88272411": {
-   "url": "https://examedia.com.ar/portada/post/88272411",
-   "estado": 200,
-   "caracteres": 8582,
-   "archivo": "data/fuentes/web/examedia_com_ar_portada_post_88272411.txt"
+  "https://www.corrienteshoy.com/politica/en-paso-de-la-patria-valdes-anuncio-medidas-de-alivio-economico-y-nuevas-obras.htm": {
+   "url": "https://www.corrienteshoy.com/politica/en-paso-de-la-patria-valdes-anuncio-medidas-de-alivio-economico-y-nuevas-obras.htm",
+   "estado": "error",
+   "detalle": "HTTP Error 404: NOT FOUND"
   },
-  "https://www.ellitoral.com.ar/actualidad/2026-11-16-18-5-0-el-concejo-deliberante-de-corrientes-aprobo-en-primera-lectura-la-tarifaria-2027-con-una-suba-del-29": {
-   "url": "https://www.ellitoral.com.ar/actualidad/2026-11-16-18-5-0-el-concejo-deliberante-de-corrientes-aprobo-en-primera-lectura-la-tarifaria-2027-con-una-suba-del-29",
+  "https://www.momarandu.com/notix/noticia/69984_diputados-convierte-en-ley-la-declaracin-de-emergencia-climtica-e-hdrica-en-corrientes.htm": {
+   "url": "https://www.momarandu.com/notix/noticia/69984_diputados-convierte-en-ley-la-declaracin-de-emergencia-climtica-e-hdrica-en-corrientes.htm",
    "estado": 200,
-   "caracteres": 3353,
-   "archivo": "data/fuentes/web/ellitoral_com_ar_actualidad_2026_11_16_18_5_0_el_concejo_deliberante_de_corrientes_aprobo_.txt"
+   "caracteres": 7587,
+   "archivo": "data/fuentes/web/momarandu_com_notix_noticia_69984_diputados_convierte_en_ley_la_declaracin_de_emergencia_c.txt"
   },
-  "https://www.diarioellibertador.com.ar/tarifaria-2027-aprobaron-en-primera-lectura-y-llamaron-a-audiencia-publica/": {
-   "url": "https://www.diarioellibertador.com.ar/tarifaria-2027-aprobaron-en-primera-lectura-y-llamaron-a-audiencia-publica/",
+  "https://www.perfil.com/noticias/modo-fontevecchia/corrientes-salarios-por-debajo-de-la-linea-de-pobreza-con-docentes-y-policias-en-pie-de-guerra-modof.phtml": {
+   "url": "https://www.perfil.com/noticias/modo-fontevecchia/corrientes-salarios-por-debajo-de-la-linea-de-pobreza-con-docentes-y-policias-en-pie-de-guerra-modof.phtml",
    "estado": 200,
-   "caracteres": 5603,
-   "archivo": "data/fuentes/web/diarioellibertador_com_ar_tarifaria_2027_aprobaron_en_primera_lectura_y_llamaron_a_audienc.txt"
+   "caracteres": 11744,
+   "archivo": "data/fuentes/web/perfil_com_noticias_modo_fontevecchia_corrientes_salarios_por_debajo_de_la_linea_de_pobrez.txt"
   },
-  "https://www.ellitoral.com.ar/actualidad/2026-11-19-16-26-0-juan-pablo-valdes-confirmo-creditos-alivio-fiscal-y-obras-para-paso-de-la-patria": {
-   "url": "https://www.ellitoral.com.ar/actualidad/2026-11-19-16-26-0-juan-pablo-valdes-confirmo-creditos-alivio-fiscal-y-obras-para-paso-de-la-patria",
+  "https://perfil.com/nea/plus-unificado-de-corrientes-confirman-el-cronograma-de-pago-de-noviembre-para-estatales-y-jubilados-aLr5c2u85YP6": {
+   "url": "https://perfil.com/nea/plus-unificado-de-corrientes-confirman-el-cronograma-de-pago-de-noviembre-para-estatales-y-jubilados-aLr5c2u85YP6",
    "estado": 200,
-   "caracteres": 4649,
-   "archivo": "data/fuentes/web/ellitoral_com_ar_actualidad_2026_11_19_16_26_0_juan_pablo_valdes_confirmo_creditos_alivio_.txt"
+   "caracteres": 4113,
+   "archivo": "data/fuentes/web/perfil_com_nea_plus_unificado_de_corrientes_confirman_el_cronograma_de_pago_de_noviembre_p.txt"
   },
-  "https://examedia.com.ar/portada/post/88272742": {
-   "url": "https://examedia.com.ar/portada/post/88272742",
-   "estado": 200,
-   "caracteres": 6199,
-   "archivo": "data/fuentes/web/examedia_com_ar_portada_post_88272742.txt"
+  "https://www.diarioepoca.com/1395501-es-ley-la-declaracion-de-emergencia-climatica-e-hidrica-en-corrientes": {
+   "url": "https://www.diarioepoca.com/1395501-es-ley-la-declaracion-de-emergencia-climatica-e-hidrica-en-corrientes",
+   "estado": "error",
+   "detalle": "HTTP Error 404: NOT FOUND"
   },
-  "https://www.diarioellibertador.com.ar/valdes-anuncio-medidas-de-alivio-economico-y-ratifico-obras-en-paso-de-la-patria/": {
-   "url": "https://www.diarioellibertador.com.ar/valdes-anuncio-medidas-de-alivio-economico-y-ratifico-obras-en-paso-de-la-patria/",
-   "estado": 200,
-   "caracteres": 5684,
-   "archivo": "data/fuentes/web/diarioellibertador_com_ar_valdes_anuncio_medidas_de_alivio_economico_y_ratifico_obras_en_p.txt"
+  "https://www.diarioepoca.com/1395676-el-municipio-acompana-el-regreso-a-los-hogares-ya-no-hay-evacuados-en-la-escuela-293": {
+   "url": "https://www.diarioepoca.com/1395676-el-municipio-acompana-el-regreso-a-los-hogares-ya-no-hay-evacuados-en-la-escuela-293",
+   "estado": "error",
+   "detalle": "HTTP Error 404: NOT FOUND"
   },
-  "https://www.diarioellibertador.com.ar/presupuesto-tassano-anticipo-un-debate-clave/": {
-   "url": "https://www.diarioellibertador.com.ar/presupuesto-tassano-anticipo-un-debate-clave/",
-   "estado": 200,
-   "caracteres": 8039,
-   "archivo": "data/fuentes/web/diarioellibertador_com_ar_presupuesto_tassano_anticipo_un_debate_clave.txt"
+  "https://www.diarioepoca.com/1395688-servicios-para-el-feriado-del-lunes": {
+   "url": "https://www.diarioepoca.com/1395688-servicios-para-el-feriado-del-lunes",
+   "estado": "error",
+   "detalle": "HTTP Error 404: NOT FOUND"
   },
-  "https://www.diarioellibertador.com.ar/gustavo-valdes-y-hernan-lacunza-analizaron-el-presente-del-pais/": {
-   "url": "https://www.diarioellibertador.com.ar/gustavo-valdes-y-hernan-lacunza-analizaron-el-presente-del-pais/",
-   "estado": 200,
-   "caracteres": 5564,
-   "archivo": "data/fuentes/web/diarioellibertador_com_ar_gustavo_valdes_y_hernan_lacunza_analizaron_el_presente_del_pais.txt"
+  "https://www.republicadecorrientes.com/76721-valdes-anuncio-medidas-de-alivio-economico-y-nuevas-obras": {
+   "url": "https://www.republicadecorrientes.com/76721-valdes-anuncio-medidas-de-alivio-economico-y-nuevas-obras",
+   "estado": "error",
+   "detalle": "HTTP Error 404: NOT FOUND"
   },
-  "https://perfil.com/nea/gustavo-valdes-se-reunio-un-candidato-a-presidente-que-rechazo-la-suspension-de-las-paso-azCFa7F7WuNH": {
-   "url": "https://perfil.com/nea/gustavo-valdes-se-reunio-un-candidato-a-presidente-que-rechazo-la-suspension-de-las-paso-azCFa7F7WuNH",
+  "https://www.canal12misiones.com/informacion-general/el-nino-chaco-corrientes": {
+   "url": "https://www.canal12misiones.com/informacion-general/el-nino-chaco-corrientes",
    "estado": 200,
-   "caracteres": 5681,
-   "archivo": "data/fuentes/web/perfil_com_nea_gustavo_valdes_se_reunio_un_candidato_a_presidente_que_rechazo_la_suspensio.txt"
-  },
-  "http://www.ellitoral.com.ar/actualidad/2026-11-17-17-40-0-gustavo-valdes-dialogo-con-uno-de-los-dirigentes-que-quiere-competir-en-2027": {
-   "url": "http://www.ellitoral.com.ar/actualidad/2026-11-17-17-40-0-gustavo-valdes-dialogo-con-uno-de-los-dirigentes-que-quiere-competir-en-2027",
-   "estado": 200,
-   "caracteres": 1987,
-   "archivo": "data/fuentes/web/ellitoral_com_ar_actualidad_2026_11_17_17_40_0_gustavo_valdes_dialogo_con_uno_de_los_dirig.txt"
-  },
-  "https://www.ellitoral.com.ar/ciudad/2026-11-17-11-2-0-lluvias-en-corrientes-desplegaron-un-operativo-de-limpieza-para-evitar-anegamientos": {
-   "url": "https://www.ellitoral.com.ar/ciudad/2026-11-17-11-2-0-lluvias-en-corrientes-desplegaron-un-operativo-de-limpieza-para-evitar-anegamientos",
-   "estado": 200,
-   "caracteres": 2746,
-   "archivo": "data/fuentes/web/ellitoral_com_ar_ciudad_2026_11_17_11_2_0_lluvias_en_corrientes_desplegaron_un_operativo_d.txt"
-  },
-  "https://www.diarioellibertador.com.ar/tras-la-tormenta-las-cuadrillas-municipales-intensificaron-los-trabajos/": {
-   "url": "https://www.diarioellibertador.com.ar/tras-la-tormenta-las-cuadrillas-municipales-intensificaron-los-trabajos/",
-   "estado": 200,
-   "caracteres": 5607,
-   "archivo": "data/fuentes/web/diarioellibertador_com_ar_tras_la_tormenta_las_cuadrillas_municipales_intensificaron_los_t.txt"
-  },
-  "https://corrientesaldia.info/2026/11/19/corrientes-sanciono-la-ley-de-emergencia-climatica-e-hidrica-por-180-dias/": {
-   "url": "https://corrientesaldia.info/2026/11/19/corrientes-sanciono-la-ley-de-emergencia-climatica-e-hidrica-por-180-dias/",
-   "estado": 200,
-   "caracteres": 8527,
-   "archivo": "data/fuentes/web/corrientesaldia_info_2026_11_19_corrientes_sanciono_la_ley_de_emergencia_climatica_e_hidri.txt"
-  },
-  "https://corrientesdetarde.com/index.php/locales/corrientes-rechazo-la-prorroga-de-empresas-de-colectivos-que-pasara-con-el-servicio/": {
-   "url": "https://corrientesdetarde.com/index.php/locales/corrientes-rechazo-la-prorroga-de-empresas-de-colectivos-que-pasara-con-el-servicio/",
-   "estado": 200,
-   "caracteres": 3597,
-   "archivo": "data/fuentes/web/corrientesdetarde_com_index_php_locales_corrientes_rechazo_la_prorroga_de_empresas_de_cole.txt"
+   "caracteres": 6285,
+   "archivo": "data/fuentes/web/canal12misiones_com_informacion_general_el_nino_chaco_corrientes.txt"
   }
  },
  "portales": {
@@ -306,5 +247,5 @@
    "archivo": "data/fuentes/portales/senado_corrientes.txt"
   }
  },
- "pedidas_consultado": "22/11/2026, 18:54 h"
+ "pedidas_consultado": "22/11/2026, 18:57 h"
 }
