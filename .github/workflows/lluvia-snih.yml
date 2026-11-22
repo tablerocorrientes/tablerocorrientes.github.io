@@ -36,12 +36,9 @@ jobs:
             sleep 10
           done
           exit 1
-      - name: Encender la vigilancia si hay alerta o lluvia (reemplaza al disparador horario)
+      - name: Reencender el ciclo continuo si se detuvo (respaldo)
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          git fetch -q --depth 1 origin main && git reset -q --hard origin/main || true
-          if python3 tareas/vigilancia_condicion.py; then
-            ACT=$(gh run list --workflow vigilancia.yml --json status --jq '[.[]|select(.status=="in_progress" or .status=="queued")]|length' 2>/dev/null || echo 0)
-            if [ "$ACT" = "0" ]; then gh workflow run vigilancia.yml --ref main && echo "Vigilancia encendida"; else echo "Vigilancia ya en curso"; fi
-          else echo "Sin alerta ni lluvia: vigilancia no necesaria"; fi
+          ACT=$(gh run list --workflow vigilancia.yml --json status --jq '[.[]|select(.status=="in_progress" or .status=="queued")]|length' 2>/dev/null || echo 0)
+          if [ "$ACT" = "0" ]; then gh workflow run vigilancia.yml --ref main && echo "Ciclo continuo reencendido"; else echo "Ciclo continuo en curso"; fi

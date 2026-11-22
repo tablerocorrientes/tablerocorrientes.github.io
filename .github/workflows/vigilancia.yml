@@ -1,8 +1,12 @@
-name: Vigilancia durante alertas (lluvia, satélite, SMN y COE cada 15 minutos)
+name: Ciclo continuo del Tablero (lluvia, satélite, pronóstico, fuentes y ríos)
+# Proceso permanente: se mantiene encendido y se relanza solo antes de las 6 horas.
+# Con alerta o lluvia (modo intensivo): lluvia, satélite y esperado cada 15 min, fuentes oficiales cada 30 min,
+# pronóstico cada 60 min. Sin alerta: lluvia cada 30 min, fuentes y pronóstico cada 120 min. Ríos cada 3 horas.
+# Los horarios programados de este y de los otros flujos quedan como respaldo para reencenderlo.
 on:
   workflow_dispatch:
   schedule:
-    - cron: '17 */3 * * *'
+    - cron: '17 */2 * * *'
 permissions:
   contents: write
   actions: write
@@ -10,14 +14,14 @@ concurrency:
   group: vigilancia
   cancel-in-progress: false
 jobs:
-  vigilancia:
+  ciclo:
     runs-on: ubuntu-latest
-    timeout-minutes: 350
+    timeout-minutes: 360
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 1
-      - name: Ciclo de vigilancia
+      - name: Ciclo continuo
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -25,26 +29,30 @@ jobs:
           git config user.name "Tablero Ciudadano"
           git config user.email "tablerocorrientes@gmail.com"
           INICIO=$(date +%s); N=0
+          U_LL=0; U_FU=0; U_PR=0; U_RI=0
           while true; do
             git fetch -q --depth 1 origin main && git reset -q --hard origin/main
-            if ! python3 tareas/vigilancia_condicion.py; then echo "Fin de la vigilancia: sin alerta ni lluvia"; exit 0; fi
-            N=$((N+1))
+            AHORA=$(date +%s); N=$((N+1))
+            if python3 tareas/vigilancia_condicion.py >/dev/null; then MODO=intensivo; P_LL=840; P_FU=1740; P_PR=3540; else MODO=normal; P_LL=1740; P_FU=7140; P_PR=7140; fi
+            HACER_LL=$(( AHORA - U_LL >= P_LL )); HACER_FU=$(( AHORA - U_FU >= P_FU )); HACER_PR=$(( AHORA - U_PR >= P_PR )); HACER_RI=$(( AHORA - U_RI >= 10740 ))
             for i in 1 2 3; do
               git fetch -q --depth 1 origin main && git reset -q --hard origin/main
-              python3 tareas/snih_lluvia.py || true
+              if [ $HACER_LL = 1 ]; then python3 tareas/snih_lluvia.py || true; fi
               python3 tareas/satelite.py || true
-              if [ $((N % 2)) -eq 1 ]; then python3 tareas/fuentes_oficiales.py || true; fi
-              if [ $((N % 4)) -eq 1 ]; then python3 tareas/extendido_ciudades.py || true; python3 tareas/pronostico_modelos.py || true; fi
+              if [ $HACER_FU = 1 ]; then python3 tareas/fuentes_oficiales.py || true; fi
+              if [ $HACER_PR = 1 ]; then python3 tareas/extendido_ciudades.py || true; python3 tareas/pronostico_modelos.py || true; fi
+              if [ $HACER_RI = 1 ]; then python3 tareas/actualizar_rios.py || true; fi
               python3 tareas/esperado_dia.py || true
               python3 tareas/registro.py || true
-              git add data/esperado_dia.json data/bitacora data/registro data/lluvia.json data/obs.json data/sat.json assets/sat.jpg data/fuentes data/pron.json data/barrio.json data/prov.json
-              if git diff --cached --quiet; then echo "Ciclo $N: sin cambios"; break; fi
-              git commit -qm "Vigilancia (automática): lluvia, satélite y fuentes oficiales, $(TZ=America/Argentina/Buenos_Aires date '+%d/%m/%Y %H:%M') h"
-              git push -q origin HEAD:main && { echo "Ciclo $N publicado"; break; }
+              git add data/esperado_dia.json data/bitacora data/registro data/lluvia.json data/obs.json data/sat.json assets/sat.jpg data/fuentes data/pron.json data/barrio.json data/prov.json data/puertos.json data/hist.json
+              if git diff --cached --quiet; then echo "Ciclo $N ($MODO): sin cambios"; break; fi
+              git commit -qm "Ciclo continuo ($MODO): lluvia, satélite, pronóstico, fuentes y ríos, $(TZ=America/Argentina/Buenos_Aires date '+%d/%m/%Y %H:%M') h"
+              git push -q origin HEAD:main && { echo "Ciclo $N ($MODO) publicado"; break; }
               sleep 20
             done
-            if [ $(( $(date +%s) - INICIO )) -gt 19800 ]; then
-              echo "Casi 6 horas: se relanza la vigilancia"
+            [ $HACER_LL = 1 ] && U_LL=$AHORA; [ $HACER_FU = 1 ] && U_FU=$AHORA; [ $HACER_PR = 1 ] && U_PR=$AHORA; [ $HACER_RI = 1 ] && U_RI=$AHORA
+            if [ $(( $(date +%s) - INICIO )) -gt 20400 ]; then
+              echo "Casi 6 horas: se relanza el ciclo"
               gh workflow run vigilancia.yml --ref main || true
               exit 0
             fi

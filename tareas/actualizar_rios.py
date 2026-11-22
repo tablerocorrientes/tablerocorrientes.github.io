@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
-"""Actualiza lecturas del Paraná sin modificar pronósticos, alertas ni Uruguay.
-Fuente: API de Río Paraná que reproduce mediciones PNA.
+"""Actualiza lecturas del Paraná y del Uruguay sin modificar pronósticos ni alertas.
+Fuentes: API de Río Paraná que reproduce mediciones PNA (Paraná) y PDF diario de niveles de la
+Comisión Técnica Mixta de Salto Grande (Uruguay: Garruchos, Santo Tomé, Alvear y Paso de los Libres).
 Ejecutar desde la raíz del repositorio. --dry-run no escribe archivos.
 """
 import argparse
@@ -42,6 +43,63 @@ def parse_registro(s):
         if 'hora no publicada' in s: return None
         return dt.datetime.strptime(s[:16],'%d/%m/%Y, %H:%M').replace(tzinfo=AR)
     except (ValueError,TypeError): return None
+
+SG_PDF='https://www.saltogrande.org/docs/hidrologia/CaudalesNiveles.pdf'
+SG_PUERTOS=('Garruchos','Santo Tomé','Alvear','Paso de los Libres')
+
+def uruguay(p,h,v,dry_run=False):
+    """Río Uruguay: niveles de las 07:00 h publicados por la Comisión Técnica Mixta de Salto Grande (PDF diario)."""
+    import io,re
+    try:
+        from pypdf import PdfReader
+    except ImportError:
+        print('Uruguay: falta pypdf, sin cambios',file=sys.stderr); return []
+    try:
+        req=urllib.request.Request(SG_PDF,headers={'User-Agent':'TableroCiudadano/1.0'})
+        with urllib.request.urlopen(req,timeout=30) as res: txt='\n'.join(pg.extract_text() or '' for pg in PdfReader(io.BytesIO(res.read())).pages)
+    except Exception as exc:
+        print('Uruguay: Salto Grande sin respuesta:',exc,file=sys.stderr); return []
+    i=txt.find('Niveles Hora')
+    if i<0: print('Uruguay: formato no reconocido',file=sys.stderr); return []
+    bloque=txt[i:].split('\n')
+    fechas=re.findall(r'(\d{2})/(\d{2})/(\d{4})',bloque[1] if len(bloque)>1 else '')
+    if not fechas: return []
+    lect={}
+    for ln in bloque[2:]:
+        for pu in SG_PUERTOS:
+            if ln.startswith(pu+' '):
+                nums=re.findall(r'-?\d+(?:\.\d+)?',ln[len(pu):])
+                for (d,m,a),x in zip(fechas[-len(nums):],nums):
+                    try: val=float(x)
+                    except ValueError: continue
+                    if 0<val<30: lect.setdefault(pu,[]).append((dt.datetime(int(a),int(m),int(d),7,0,tzinfo=AR),round(val,2)))
+    hechos=[]
+    for pu,L in lect.items():
+        L.sort()
+        for serie in h['series']:
+            if serie.get('rio')=='Uruguay' and serie.get('puerto')==pu:
+                ya={le[0] for le in serie.get('lecturas',[]) if isinstance(le,list) and le}
+                for obs,val in L:
+                    marca=obs.strftime('%Y-%m-%dT%H:%M:%S')
+                    if marca not in ya: serie.setdefault('lecturas',[]).append([marca,val,'verificado'])
+                serie['lecturas'].sort(key=lambda le:le[0])
+        obs,val=L[-1]
+        reg=obs.strftime('%d/%m/%Y, %H:%M h')
+        for it in p.get('puertos_uruguay',[]):
+            if it.get('puerto')==pu:
+                previo=parse_registro(it.get('registro',''))
+                if previo and obs<=previo: break
+                ant=L[-2][1] if len(L)>1 else it.get('altura')
+                it['altura']=val
+                if isinstance(ant,(int,float)): it['variacion']=round(val-ant,2)
+                it['registro']=reg
+                it['fuente']='Comisión Técnica Mixta de Salto Grande, niveles del '+obs.strftime('%d/%m/%Y a las %H:%M h')
+                hechos.append(pu)
+        for loc in v.get('localidades',[]):
+            if loc.get('rio')=='Uruguay' and loc.get('n')==pu:
+                loc['altura']=val; loc['reg']=reg+' (Comisión Técnica Mixta de Salto Grande)'
+    print('Uruguay (Salto Grande):',', '.join(hechos) or 'sin lecturas nuevas')
+    return hechos
 
 def ejecutar(dry_run=False,archivo=None):
     ahora=dt.datetime.now(AR)
@@ -107,6 +165,7 @@ def ejecutar(dry_run=False,archivo=None):
             valor,obs,_=cambios['Corrientes']
             b['rio']['altura']=valor
             b['rio']['actualizado']=obs.strftime('%d/%m/%Y, %H:%M h')+', Prefectura Naval Argentina (vía rioparana.com.ar)'
+        novedades+=uruguay(p,h,v)
         p['consultado']=consulta
         p['ultimo_intento']=consulta
         p['consulta_resultado']='datos nuevos' if novedades else ('fuente sin respuesta' if errores else 'sin cambios')

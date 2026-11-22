@@ -1,42 +1,42 @@
 {
- "actualizado": "22/11/2026, 09:03 h",
+ "actualizado": "22/11/2026, 12:50 h",
  "fecha_registro": "22/11/2026",
  "puertos": [
   {
    "puerto": "Ituzaingó",
-   "altura": 2.37,
-   "variacion": 0.0,
+   "altura": 2.38,
+   "variacion": 0.01,
    "alerta": 3.5,
    "evacuacion": 4,
-   "fuente": "Prefectura Naval Argentina, reproducida por rioparana.com.ar (22/11/2026, 00:00 h)",
-   "registro": "22/11/2026, 00:00 h"
+   "fuente": "Prefectura Naval Argentina, reproducida por rioparana.com.ar (22/11/2026, 12:00 h)",
+   "registro": "22/11/2026, 12:00 h"
   },
   {
    "puerto": "Itá Ibaté",
    "altura": 4.58,
-   "variacion": -0.02,
+   "variacion": 0.0,
    "alerta": 7,
    "evacuacion": 7.5,
-   "fuente": "Prefectura Naval Argentina, reproducida por rioparana.com.ar (22/11/2026, 01:00 h)",
-   "registro": "22/11/2026, 01:00 h"
+   "fuente": "Prefectura Naval Argentina, reproducida por rioparana.com.ar (22/11/2026, 12:00 h)",
+   "registro": "22/11/2026, 12:00 h"
   },
   {
    "puerto": "Itatí",
-   "altura": 5.92,
-   "variacion": -0.06,
+   "altura": 5.88,
+   "variacion": -0.04,
    "alerta": 6.8,
    "evacuacion": 7.5,
-   "fuente": "Prefectura Naval Argentina, reproducida por rioparana.com.ar (22/11/2026, 00:00 h)",
-   "registro": "22/11/2026, 00:00 h"
+   "fuente": "Prefectura Naval Argentina, reproducida por rioparana.com.ar (22/11/2026, 12:00 h)",
+   "registro": "22/11/2026, 12:00 h"
   },
   {
    "puerto": "Paso de la Patria",
-   "altura": 5.8,
-   "variacion": -0.03,
+   "altura": 5.76,
+   "variacion": -0.04,
    "alerta": 6.5,
    "evacuacion": 7,
-   "fuente": "Prefectura Naval Argentina, reproducida por rioparana.com.ar (22/11/2026, 00:00 h)",
-   "registro": "22/11/2026, 00:00 h"
+   "fuente": "Prefectura Naval Argentina, reproducida por rioparana.com.ar (22/11/2026, 12:00 h)",
+   "registro": "22/11/2026, 12:00 h"
   },
   {
    "puerto": "Corrientes",
@@ -67,25 +67,25 @@
   },
   {
    "puerto": "Goya",
-   "altura": 5.58,
-   "variacion": -0.01,
+   "altura": 5.56,
+   "variacion": -0.02,
    "alerta": 5.2,
    "evacuacion": 5.7,
-   "fuente": "Prefectura Naval Argentina, reproducida por rioparana.com.ar (22/11/2026, 06:00 h)",
-   "registro": "22/11/2026, 06:00 h"
+   "fuente": "Prefectura Naval Argentina, reproducida por rioparana.com.ar (22/11/2026, 12:00 h)",
+   "registro": "22/11/2026, 12:00 h"
   },
   {
    "puerto": "Esquina",
-   "altura": 5.33,
-   "variacion": -0.02,
+   "altura": 5.32,
+   "variacion": -0.01,
    "alerta": 5,
    "evacuacion": 5.4,
-   "fuente": "Prefectura Naval Argentina, reproducida por rioparana.com.ar (22/11/2026, 00:00 h)",
-   "registro": "22/11/2026, 00:00 h"
+   "fuente": "Prefectura Naval Argentina, reproducida por rioparana.com.ar (22/11/2026, 12:00 h)",
+   "registro": "22/11/2026, 12:00 h"
   }
  ],
  "nota": "Actualización del 22/11/2026. Paraná, alturas de Prefectura Naval Argentina reproducidas por rioparana.com.ar: Corrientes 5,76 m (−0,05 m, 22/11 a las 00:00 h), 74 cm por debajo de la alerta de 6,50 m; Paso de la Patria 5,80 m e Itatí 5,92 m, bajo su alerta y en bajante; Empedrado 5,25 m, Itá Ibaté 4,58 m e Ituzaingó 2,37 m. Aguas abajo, Bella Vista 5,90 m (alerta 6,00 m), Goya 5,58 m (sobre la alerta de 5,20 m y bajo la evacuación de 5,70 m) y Esquina 5,33 m (sobre la alerta de 5,00 m). El INA (reporte del 20/11) prevé que el río siga bajando muy despacio unos días y luego pueda volver a subir desde el 26/11 por lluvias en la cuenca alta.",
- "ultimo_intento": "22/11/2026, 09:03 h",
+ "ultimo_intento": "22/11/2026, 12:50 h",
  "programada": true,
  "horarios": [
   "09:00",
@@ -1076,30 +1076,30 @@
  "puertos_uruguay": [
   {
    "puerto": "Garruchos",
-   "altura": 6.37,
-   "variacion": -2.03,
+   "altura": 4.93,
+   "variacion": -0.76,
    "alerta": 12.0,
    "evacuacion": 14.0,
-   "fuente": "Comisión Técnica Mixta de Salto Grande, niveles del 13/11/2026 a las 07:00 h",
-   "registro": "13/11/2026, 07:00 h"
+   "fuente": "Comisión Técnica Mixta de Salto Grande, niveles del 22/11/2026 a las 07:00 h",
+   "registro": "22/11/2026, 07:00 h"
   },
   {
    "puerto": "Santo Tomé",
-   "altura": 6.31,
-   "variacion": -0.33,
+   "altura": 6.32,
+   "variacion": -0.29,
    "alerta": 11.5,
    "evacuacion": 12.5,
-   "fuente": "Instituto Nacional del Agua, reporte diario del 20/11/2026 (variación respecto de la lectura anterior)",
-   "registro": "20/11/2026, hora no publicada"
+   "fuente": "Comisión Técnica Mixta de Salto Grande, niveles del 22/11/2026 a las 07:00 h",
+   "registro": "22/11/2026, 07:00 h"
   },
   {
    "puerto": "Alvear",
-   "altura": 9.0,
-   "variacion": -0.26,
+   "altura": 6.0,
+   "variacion": 0.0,
    "alerta": 9.5,
    "evacuacion": 11.0,
-   "fuente": "Comisión Técnica Mixta de Salto Grande, niveles del 13/11/2026 a las 07:00 h",
-   "registro": "13/11/2026, 07:00 h"
+   "fuente": "Comisión Técnica Mixta de Salto Grande, niveles del 22/11/2026 a las 07:00 h",
+   "registro": "22/11/2026, 07:00 h"
   },
   {
    "puerto": "La Cruz",
@@ -1121,12 +1121,12 @@
   },
   {
    "puerto": "Paso de los Libres",
-   "altura": 4.83,
-   "variacion": -1.76,
+   "altura": 5.12,
+   "variacion": 0.17,
    "alerta": 7.5,
    "evacuacion": 8.5,
-   "fuente": "Instituto Nacional del Agua, reporte diario del 20/11/2026 (variación respecto de la lectura anterior)",
-   "registro": "20/11/2026, hora no publicada"
+   "fuente": "Comisión Técnica Mixta de Salto Grande, niveles del 22/11/2026 a las 07:00 h",
+   "registro": "22/11/2026, 07:00 h"
   },
   {
    "puerto": "Bonpland",
@@ -1386,6 +1386,6 @@
  "nota_breve": "Paraná en Corrientes: 5,76 m (22/11), bajando y 74 cm debajo de la alerta (6,50 m). Goya y Esquina siguen sobre la alerta. El INA prevé un posible repunte desde el 26/11.",
  "uruguay_breve": "Paso de los Libres: 4,83 m y Santo Tomé: 6,31 m (20/11), bajo la alerta. El INA prevé una nueva subida desde el 26/11.",
  "tapon_breve": "Alerta amarilla por tormentas el martes 17/11 de 3 a 15 h (30 a 70 mm). Con el río en 6,50 m, una lluvia fuerte puede superar la capacidad de los desagües.",
- "consultado": "22/11/2026, 09:03 h",
+ "consultado": "22/11/2026, 12:50 h",
  "consulta_resultado": "datos nuevos"
 }

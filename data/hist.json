@@ -1,6 +1,6 @@
 {
  "repositorio": "Lecturas oficiales registradas por las tareas del Tablero Ciudadano",
- "actualizado": "22/11/2026, 09:03 h",
+ "actualizado": "22/11/2026, 12:50 h",
  "series": [
   {
    "rio": "Paraná",
@@ -118,6 +118,11 @@
     [
      "2026-11-22T00:00:00",
      2.37,
+     "verificado"
+    ],
+    [
+     "2026-11-22T12:00:00",
+     2.38,
      "verificado"
     ]
    ]
@@ -237,6 +242,11 @@
     ],
     [
      "2026-11-22T01:00:00",
+     4.58,
+     "verificado"
+    ],
+    [
+     "2026-11-22T12:00:00",
      4.58,
      "verificado"
     ]
@@ -518,6 +528,11 @@
     [
      "2026-11-22T00:00:00",
      5.92,
+     "verificado"
+    ],
+    [
+     "2026-11-22T12:00:00",
+     5.88,
      "verificado"
     ]
    ]
@@ -803,6 +818,11 @@
     [
      "2026-11-22T00:00:00",
      5.8,
+     "verificado"
+    ],
+    [
+     "2026-11-22T12:00:00",
+     5.76,
      "verificado"
     ]
    ]
@@ -1784,6 +1804,11 @@
      "2026-11-22T06:00:00",
      5.58,
      "verificado"
+    ],
+    [
+     "2026-11-22T12:00:00",
+     5.56,
+     "verificado"
     ]
    ]
   },
@@ -1914,6 +1939,11 @@
      "2026-11-22T00:00:00",
      5.33,
      "verificado"
+    ],
+    [
+     "2026-11-22T12:00:00",
+     5.32,
+     "verificado"
     ]
    ]
   },
@@ -1998,6 +2028,26 @@
     [
      "2026-11-13T07:00:00",
      6.37,
+     "verificado"
+    ],
+    [
+     "2026-11-19T07:00:00",
+     5.34,
+     "verificado"
+    ],
+    [
+     "2026-11-20T07:00:00",
+     5.45,
+     "verificado"
+    ],
+    [
+     "2026-11-21T07:00:00",
+     5.69,
+     "verificado"
+    ],
+    [
+     "2026-11-22T07:00:00",
+     4.93,
      "verificado"
     ]
    ]
@@ -2096,9 +2146,29 @@
      "pendiente"
     ],
     [
+     "2026-11-19T07:00:00",
+     5.68,
+     "verificado"
+    ],
+    [
+     "2026-11-20T07:00:00",
+     6.45,
+     "verificado"
+    ],
+    [
      "2026-11-20T12:00:00",
      6.31,
      "pendiente"
+    ],
+    [
+     "2026-11-21T07:00:00",
+     6.61,
+     "verificado"
+    ],
+    [
+     "2026-11-22T07:00:00",
+     6.32,
+     "verificado"
     ]
    ]
   },
@@ -2183,6 +2253,26 @@
     [
      "2026-11-13T07:00:00",
      9.0,
+     "verificado"
+    ],
+    [
+     "2026-11-19T07:00:00",
+     5.6,
+     "verificado"
+    ],
+    [
+     "2026-11-20T07:00:00",
+     5.62,
+     "verificado"
+    ],
+    [
+     "2026-11-21T07:00:00",
+     6.0,
+     "verificado"
+    ],
+    [
+     "2026-11-22T07:00:00",
+     6.0,
      "verificado"
     ]
    ]
@@ -2321,9 +2411,29 @@
      "pendiente"
     ],
     [
+     "2026-11-19T07:00:00",
+     5.26,
+     "verificado"
+    ],
+    [
+     "2026-11-20T07:00:00",
+     4.8,
+     "verificado"
+    ],
+    [
      "2026-11-20T12:00:00",
      4.83,
      "pendiente"
+    ],
+    [
+     "2026-11-21T07:00:00",
+     4.95,
+     "verificado"
+    ],
+    [
+     "2026-11-22T07:00:00",
+     5.12,
+     "verificado"
     ]
    ]
   },
@@ -2415,7 +2525,7 @@
   }
  ],
  "pron_aviso": "Valores difundidos por El Litoral a partir del pronóstico del INA. Son estimaciones, no mediciones, y pueden cambiar con las lluvias.",
- "verificacion": "Prefectura Naval Argentina, reproducida por rioparana.com.ar (Paraná, 22/11/2026); Instituto Nacional del Agua, reporte diario del 20/11/2026 (Uruguay)",
+ "verificacion": "Prefectura Naval Argentina, reproducida por rioparana.com.ar; observaciones fechadas por puerto",
  "observaciones": [
   "Empedrado, Esquina, Ituzaingó e Itá Ibaté tienen pocas lecturas (10 cada uno), todas de fecha solamente salvo la del 01/11 a las 00:00 h.",
   "Variación informada en el CSV que no coincide con la diferencia entre lecturas consecutivas (no se usa en los gráficos ni se corrigieron las alturas): Ituzaingó 2026-11-03: CSV -3 cm frente a -12 cm; Itá Ibaté 2026-11-03: CSV -6 cm frente a -10 cm; Itatí 2026-11-03: CSV -2 cm frente a -8 cm; Paso de la Patria 2026-11-03: CSV -6 cm frente a -8 cm; Empedrado 2026-11-03: CSV -6 cm frente a -11 cm; Goya 2026-11-01T00:00:00: CSV 12 cm frente a 14 cm; Goya 2026-11-03: CSV 1 cm frente a 3 cm; Esquina 2026-11-03: CSV 8 cm frente a 14 cm.",

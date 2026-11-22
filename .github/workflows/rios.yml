@@ -1,4 +1,4 @@
-name: Alturas de rios (Parana)
+name: Alturas de ríos (Paraná y Uruguay)
 on:
   workflow_dispatch:
   schedule:
@@ -19,6 +19,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Dependencias
+        run: pip install -q pypdf
       - name: Consultar alturas y publicar
         shell: bash
         run: |
