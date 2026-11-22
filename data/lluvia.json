@@ -1,5 +1,5 @@
 {
- "actualizado": "22/11/2026, 18:10 h",
+ "actualizado": "22/11/2026, 18:29 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
@@ -127,13 +127,13 @@
     null,
     null,
     null,
-    null,
+    0,
     null,
     null,
     null
    ],
    "total": 1.5,
-   "ultimo": "0 mm a las 12 h"
+   "ultimo": "0 mm a las 16 h"
   },
   {
    "localidad": "Colonia Carlos Pellegrini",
@@ -161,13 +161,13 @@
     null,
     null,
     null,
-    null,
+    0,
     null,
     null,
     null
    ],
    "total": 0.5,
-   "ultimo": "0 mm a las 12 h"
+   "ultimo": "0 mm a las 16 h"
   },
   {
    "localidad": "San Carlos",
@@ -197,11 +197,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 17 h"
+   "ultimo": "0 mm a las 18 h"
   },
   {
    "localidad": "Santa Lucía",
@@ -231,11 +231,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 17 h"
+   "ultimo": "0 mm a las 18 h"
   },
   {
    "localidad": "La Palmira",
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "22/11/2026, 18:10 h",
+ "consultado": "22/11/2026, 18:29 h",
  "consulta_resultado": "datos nuevos"
 }

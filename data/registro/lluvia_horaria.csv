@@ -390,6 +390,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-22,03,Colonia Carlos Pellegrini,Carlos Pellegrini,13826,0.5
 2026-11-22,07,Colonia Carlos Pellegrini,Carlos Pellegrini,13826,0
 2026-11-22,11,Colonia Carlos Pellegrini,Carlos Pellegrini,13826,0
+2026-11-22,15,Colonia Carlos Pellegrini,Carlos Pellegrini,13826,0
 2026-11-01,23,San Roquito,San Roquito,13832,0
 2026-11-02,03,San Roquito,San Roquito,13832,0
 2026-11-02,07,San Roquito,San Roquito,13832,0
@@ -714,6 +715,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-22,14,Santa Lucía,Santa Lucia,13836,0
 2026-11-22,15,Santa Lucía,Santa Lucia,13836,0
 2026-11-22,16,Santa Lucía,Santa Lucia,13836,0
+2026-11-22,17,Santa Lucía,Santa Lucia,13836,0
 2026-11-01,23,Paso Cerrito,Paso Cerrito,13849,0
 2026-11-02,03,Paso Cerrito,Paso Cerrito,13849,0
 2026-11-02,07,Paso Cerrito,Paso Cerrito,13849,0
@@ -848,6 +850,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-22,03,Garruchos,Garruchos,13857,0.25
 2026-11-22,07,Garruchos,Garruchos,13857,0
 2026-11-22,11,Garruchos,Garruchos,13857,0
+2026-11-22,15,Garruchos,Garruchos,13857,0
 2026-11-01,23,San Carlos,San Carlos,13864,0
 2026-11-02,00,San Carlos,San Carlos,13864,0
 2026-11-02,01,San Carlos,San Carlos,13864,0
@@ -1110,6 +1113,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-22,14,San Carlos,San Carlos,13864,0
 2026-11-22,15,San Carlos,San Carlos,13864,0
 2026-11-22,16,San Carlos,San Carlos,13864,0
+2026-11-22,17,San Carlos,San Carlos,13864,0
 2026-11-01,23,Pueblo Libertador,Pueblo Libertador,13876,0
 2026-11-02,00,Pueblo Libertador,Pueblo Libertador,13876,0
 2026-11-02,01,Pueblo Libertador,Pueblo Libertador,13876,0
