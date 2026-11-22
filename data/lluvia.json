@@ -1,10 +1,9 @@
 {
- "actualizado": "22/11/2026, 18:45 h",
+ "actualizado": "22/11/2026, 19:03 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
-  "21/11 19 h",
-  "20 h",
+  "21/11 20 h",
   "21 h",
   "22 h",
   "23 h",
@@ -27,11 +26,12 @@
   "16 h",
   "17 h",
   "18 h",
-  "19 h (en curso)"
+  "19 h",
+  "20 h (en curso)"
  ],
  "fuente": "Sistema Nacional de Información Hídrica (SNIH), Secretaría de Infraestructura y Política Hídrica; estaciones de la Red Hidrológica Nacional y redes asociadas (ICAA, INTA, Red Iberá). Datos crudos del sensor, sin validar.",
  "enlace": "https://snih.hidricosargentina.gob.ar/Filtros.aspx",
- "nota": "Ventana de 24 horas completas, de 19 h del 21/11 a 18 h del 22/11 (hora de Argentina), más la hora en curso como última columna, con los datos recibidos hasta el momento. El total suma solo las 24 horas completas. Las horas sin transmisión figuran como null, no como cero.",
+ "nota": "Ventana de 24 horas completas, de 20 h del 21/11 a 19 h del 22/11 (hora de Argentina), más la hora en curso como última columna, con los datos recibidos hasta el momento. El total suma solo las 24 horas completas. Las horas sin transmisión figuran como null, no como cero.",
  "estaciones": [
   {
    "localidad": "Corrientes Capital",
@@ -65,7 +65,7 @@
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 18 h"
+   "ultimo": "0 mm a las 19 h"
   },
   {
    "localidad": "Corrientes Capital (estación 13805)",
@@ -95,7 +95,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -106,7 +106,6 @@
    "estacion": "Garruchos",
    "codigo": 13857,
    "valores": [
-    null,
     0,
     null,
     null,
@@ -130,6 +129,7 @@
     0,
     null,
     null,
+    null,
     null
    ],
    "total": 1.5,
@@ -140,7 +140,6 @@
    "estacion": "Carlos Pellegrini",
    "codigo": 13826,
    "valores": [
-    null,
     0,
     null,
     null,
@@ -162,6 +161,7 @@
     null,
     null,
     0,
+    null,
     null,
     null,
     null
@@ -197,7 +197,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -231,7 +231,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -256,7 +256,6 @@
     0,
     0,
     0,
-    0,
     0.2,
     0,
     0,
@@ -266,6 +265,7 @@
     0,
     0,
     0,
+    null,
     null
    ],
    "total": 0.2,
@@ -656,7 +656,6 @@
     0,
     0,
     0,
-    0,
     0.4,
     0,
     0,
@@ -674,6 +673,7 @@
     0,
     0,
     0,
+    null,
     null
    ],
    "total": 0.4,
@@ -684,7 +684,6 @@
    "estacion": "La Sirena",
    "codigo": 13811,
    "valores": [
-    null,
     0,
     null,
     null,
@@ -694,6 +693,7 @@
     null,
     null,
     0,
+    null,
     null,
     null,
     null,
@@ -775,7 +775,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -854,7 +854,6 @@
    "estacion": "Paso Cerrito",
    "codigo": 13849,
    "valores": [
-    null,
     0,
     null,
     null,
@@ -876,6 +875,7 @@
     null,
     null,
     0,
+    null,
     null,
     null,
     null
@@ -1058,7 +1058,6 @@
    "estacion": "Portal Galarza",
    "codigo": 283904,
    "valores": [
-    null,
     0,
     null,
     null,
@@ -1080,6 +1079,7 @@
     null,
     null,
     0,
+    null,
     null,
     null,
     null
@@ -1115,7 +1115,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -1149,7 +1149,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -1183,7 +1183,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -1217,7 +1217,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -1228,7 +1228,6 @@
    "estacion": "RMA08_BPL - Bonpland",
    "codigo": 220261,
    "valores": [
-    0,
     0,
     0,
     0,
@@ -1252,6 +1251,7 @@
     0,
     0,
     0,
+    null,
     null
    ],
    "total": 0.6,
@@ -1285,7 +1285,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -1296,7 +1296,6 @@
    "estacion": "RMA08_CC - Curuzú Cuatiá",
    "codigo": 220263,
    "valores": [
-    0,
     0,
     0,
     0,
@@ -1320,6 +1319,7 @@
     0,
     0,
     0,
+    null,
     null
    ],
    "total": 0.8,
@@ -1353,7 +1353,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -1432,7 +1432,6 @@
    "estacion": "San Roquito",
    "codigo": 13832,
    "valores": [
-    null,
     0,
     null,
     null,
@@ -1449,6 +1448,7 @@
     null,
     null,
     null,
+    0.25,
     null,
     null,
     null,
@@ -1458,8 +1458,8 @@
     null,
     null
    ],
-   "total": 0.75,
-   "ultimo": "0,75 mm a las 08 h"
+   "total": 1.0,
+   "ultimo": "0,25 mm a las 12 h"
   },
   {
    "localidad": "Santa Rosa",
@@ -1557,7 +1557,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "22/11/2026, 18:49 h",
- "consulta_resultado": "sin cambios"
+ "consultado": "22/11/2026, 19:03 h",
+ "consulta_resultado": "datos nuevos"
 }
