@@ -422,12 +422,12 @@
  "centros": [
   {
    "n": "Corrientes Capital",
-   "centro": "Escuela N.º 293 Donato Álvarez, barrio Pujol. Primer centro oficial de la Capital, habilitado por el Municipio y el Gobierno provincial tras el reclamo de los vecinos del 22/10. El 30/10 Defensa Civil lo menciona como refugio principal de la Capital, con al menos seis comedores comunitarios de apoyo",
-   "personas": 64,
-   "estado": "habilitado",
-   "f": "26/10/2026",
-   "fuente": "Defensa Civil de Corrientes (El Monterizo, Prensa Mercosur)",
-   "u": "https://elmonterizo.com/crecio-el-parana-se-abrio-el-primer-refugio-en-la-capital-y-la-armada-desembarco-en-el-puerto"
+   "centro": "Escuela N.º 293 Donato Álvarez, barrio Pujol. Primer centro oficial de la Capital, habilitado tras el reclamo de los vecinos del 22/10. Cerrado por ahora el 20/11, al no quedar personas alojadas",
+   "personas": 0,
+   "estado": "cerrado",
+   "f": "20/11/2026",
+   "fuente": "LT7 Noticias, 20/11/2026: ya no quedan evacuados en la Escuela 293",
+   "u": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPMUpmamNpWnRSRFRNamR1Wk5zZUt3d1dMb0h6V3NIQUdPWEl6eW5HTnJfR3RFaWN4ODlaMkdHN3ZlcmdLQ0xfZFR6c19fUnJDQjNBM3lFaVRRVHA0N29pWkc3Rmx3OVpfT2Q3dklHa1RpNTMyVlg4eE9wMFdnWXozZlFfMGE2cGlOVE85OExlTm1UNkFCVl9rMklJQURSbE55anNyXzdTeXpjWWc3Szd0Nk5xd0RZbmItZEtpTGZHREh1MjVCWGNYcjlDdFJVWkE?oc=5"
   },
   {
    "n": "Paso de la Patria",
