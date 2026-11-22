@@ -22,6 +22,7 @@ jobs:
       - name: Descargar y publicar
         env:
           URLS: ${{ github.event.inputs.urls }}
+          SMN_RELEVO: ${{ secrets.SMN_RELEVO }}
         run: |
           pip install -q pypdf || echo "pypdf no disponible: los PDF quedan sin texto"
           pip install -q pillow || echo "Pillow no disponible: satélite sin cambios"

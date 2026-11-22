@@ -119,16 +119,34 @@ def leer_alerta(xml):
 
 def main():
     ahora = datetime.now(ART)
+    via = 'directa'
+    cache = {}
     try:
         canal = ET.fromstring(bajar(FEED))
     except Exception as e:
-        print('SMN (CAP) sin respuesta: %s. Se conserva la lectura anterior.' % e)
-        return 0
+        relevo = os.environ.get('SMN_RELEVO', '').strip()
+        if not relevo:
+            print('SMN (CAP) sin respuesta directa (%s) y sin relevo configurado. Se conserva la lectura anterior.' % e)
+            return 0
+        try:
+            j = json.loads(bajar(relevo + ('&' if '?' in relevo else '?') + 'modo=smn'))
+            canal = ET.fromstring(j['canal'].encode('utf-8'))
+            cache = j.get('items') or {}
+            via = 'relevo'
+        except Exception as e2:
+            print('SMN (CAP) sin respuesta, ni directa ni por el relevo (%s). Se conserva la lectura anterior.' % e2)
+            return 0
     enlaces = [it.findtext('link') for it in canal.iter('item') if it.findtext('link')]
     alertas, vistos = [], set()
     for u in enlaces:
         try:
-            a = leer_alerta(bajar(u))
+            if via == 'relevo':
+                if u not in cache:
+                    continue
+                xml = cache[u].encode('utf-8')
+            else:
+                xml = bajar(u)
+            a = leer_alerta(xml)
         except Exception as e:
             print('aviso: %s (%s)' % (u, e))
             continue
@@ -161,7 +179,7 @@ def main():
     os.makedirs(os.path.dirname(SALIDA), exist_ok=True)
     with open(SALIDA, 'w', encoding='utf-8') as f:
         json.dump(out, f, ensure_ascii=False, indent=1)
-    print('SMN (CAP): %d alertas o avisos para Corrientes, de %d publicados en el país' % (len(alertas), len(enlaces)))
+    print('SMN (CAP, lectura %s): %d alertas o avisos para Corrientes, de %d publicados en el país' % (via, len(alertas), len(enlaces)))
     return 0
 
 

@@ -24,6 +24,7 @@ jobs:
       - name: Ciclo continuo
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SMN_RELEVO: ${{ secrets.SMN_RELEVO }}
         run: |
           pip install -q pillow pypdf || true
           git config user.name "Tablero Ciudadano"
