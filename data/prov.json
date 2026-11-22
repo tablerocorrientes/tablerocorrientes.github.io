@@ -11,17 +11,17 @@
   "fecha": "13/11/2026, 18:35 h"
  },
  "met_revision": "aae6c54b1ab7086a927cf2e4bb8e34a53a584e781ba42ff90ab9d653046ddc38",
- "actualizado": "22/11/2026, 12:50 h",
+ "actualizado": "22/11/2026, 15:56 h",
  "localidades": [
   {
    "n": "Corrientes Capital",
    "dep": "Capital",
    "ref": "Corrientes Capital",
    "rio": "Paraná",
-   "altura": 5.76,
+   "altura": 5.74,
    "alerta": 6.5,
    "evac": 7.0,
-   "reg": "22/11/2026, 00:00 h (Prefectura Naval Argentina, vía rioparana.com.ar)"
+   "reg": "22/11/2026, 12:00 h (Prefectura Naval Argentina, vía rioparana.com.ar)"
   },
   {
    "n": "Riachuelo",
@@ -36,7 +36,7 @@
    "altura": 5.9,
    "alerta": 6.0,
    "evac": 6.4,
-   "reg": "22/11/2026, 00:00 h (Prefectura Naval Argentina, vía rioparana.com.ar)"
+   "reg": "22/11/2026, 12:00 h (Prefectura Naval Argentina, vía rioparana.com.ar)"
   },
   {
    "n": "Berón de Astrada",
@@ -91,7 +91,7 @@
    "altura": 5.25,
    "alerta": 6.5,
    "evac": 6.7,
-   "reg": "22/11/2026, 00:00 h (Prefectura Naval Argentina, vía rioparana.com.ar)"
+   "reg": "22/11/2026, 12:00 h (Prefectura Naval Argentina, vía rioparana.com.ar)"
   },
   {
    "n": "El Sombrero",
