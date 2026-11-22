@@ -1,5 +1,5 @@
 Fuente: https://www.lanacion.com.ar/clima/corrientes/
-Consultado: 20/11/2026, 22:36 h
+Consultado: 22/11/2026, 08:56 h
 
 Clima en Corrientes y pronóstico del tiempo en LA NACION
 CERRAR
@@ -78,56 +78,30 @@ Kiosco LA NACION
 > LA NACION > Clima > Corrientes
 Clima de hoy en Corrientes
 Pronóstico del tiempo extendido para Corrientes
-Actualizado a las 21:01 hs.
+Actualizado a las 07:49 hs.
 Pronóstico del tiempo en Corrientes hoy
-Noche
-Mayormente nublado
-24 ºc
-80%
-E 12Km/h
-10%
-Pronóstico del tiempo en Corrientes mañana
 Mañana
 Tormentas aisladas
-26 ºc
-62%
-E 22Km/h
-40%
-Tarde
-Tormentas
-31 ºc
-47%
-E 12Km/h
-70%
-Noche
-Tormentas aisladas
-26 ºc
-71%
-E 12Km/h
-70%
-Pronóstico del tiempo en Corrientes el domingo
-Mañana
-Tormentas
 26 ºc
 66%
-NE 12Km/h
+SE 22Km/h
 70%
 Tarde
-Tormentas aisladas
+Mayormente nublado
 31 ºc
 73%
 SE 22Km/h
-40%
+10%
 Noche
-Algo nublado
+Parcialmente nublado
 25 ºc
 65%
 SE 31Km/h
 0%
-Pronóstico del tiempo en Corrientes el lunes
+Pronóstico del tiempo en Corrientes mañana
 Mañana
 Parcialmente nublado
-19 ºc
+23 ºc
 82%
 SE 22Km/h
 0%
@@ -137,19 +111,25 @@ Mayormente nublado
 39%
 SE 22Km/h
 0%
+Noche
+Mayormente nublado
+26 ºc
+62%
+SE 22Km/h
+0%
 Pronóstico del tiempo en Corrientes el martes
 Mañana
-Mayormente nublado
+Tormentas fuertes
 21 ºc
 58%
-NE 22Km/h
-10%
+S 22Km/h
+70%
 Tarde
-Tormentas aisladas
+Tormentas fuertes
 32 ºc
 86%
 SE 12Km/h
-40%
+70%
 Pronóstico del tiempo en Corrientes el miércoles
 Mañana
 Mayormente nublado
@@ -180,15 +160,28 @@ Pronóstico del tiempo en Corrientes el viernes
 Mañana
 Mayormente nublado
 19 ºc
--
+76%
 E 12Km/h
 10%
 Tarde
 Tormentas aisladas
-28 ºc
+29 ºc
 97%
 E 22Km/h
 40%
+Pronóstico del tiempo en Corrientes el sábado
+Mañana
+Parcialmente nublado
+21 ºc
+-
+E 12Km/h
+0%
+Tarde
+Parcialmente nublado
+33 ºc
+37%
+SE 22Km/h
+0%
 Referencias del clima
 Despejado (día)
 Despejado (noche)
@@ -227,12 +220,18 @@ Santiago del Estero
 Tierra del Fuego
 Tucumán
 Últimas noticias del clima en Corrientes
+Clima en Monte Caseros hoy: cuál es el pronóstico del tiempo para el 22 de noviembre de 2026
+Pronóstico del tiempo
+22 de noviembre de 2026
+Clima en ciudad de Corrientes hoy: cuál es el pronóstico del tiempo para el 22 de noviembre de 2026
+Pronóstico del tiempo
+22 de noviembre de 2026
 Clima en Monte Caseros hoy: cuál es el pronóstico del tiempo para el 21 de noviembre de 2026
 Pronóstico del tiempo
-20 de noviembre de 2026
+21 de noviembre de 2026
 Clima en ciudad de Corrientes hoy: cuál es el pronóstico del tiempo para el 21 de noviembre de 2026
 Pronóstico del tiempo
-20 de noviembre de 2026
+21 de noviembre de 2026
 Clima en ciudad de Corrientes hoy: cuál es el pronóstico del tiempo para el 20 de noviembre de 2026
 Pronóstico del tiempo
 20 de noviembre de 2026
@@ -311,18 +310,12 @@ Pronóstico del tiempo
 Clima en ciudad de Corrientes hoy: cuál es el pronóstico del tiempo para el 8 de noviembre de 2026
 Pronóstico del tiempo
 8 de noviembre de 2026
-Clima en ciudad de Corrientes hoy: cuál es el pronóstico del tiempo para el 7 de noviembre de 2026
-Pronóstico del tiempo
-7 de noviembre de 2026
-Clima en Monte Caseros hoy: cuál es el pronóstico del tiempo para el 7 de noviembre de 2026
-Pronóstico del tiempo
-7 de noviembre de 2026
 VER MÁS NOTAS DE CORRIENTES
 Más leídas
-1 Nadia Márquez busca ser la candidata a gobernadora de Milei en Neuquén, pero la ley de ficha limpia le impediría competir
-2 Talerico pidió el juicio político de los camaristas de Casación Borinsky y Barroetaveña, cuestionados por la Corte
-3 Nelson Castro respondió a las críticas que recibió por su cobertura de la visita del papa León XIV a Perú
-4 Colombia pone en marcha el proceso para aplicar la eutanasia a los hipopótamos de Pablo Escobar
+1 Insólito homenaje de la Facultad de Ciencias Sociales de la UBA al exjefe guerrillero Mario Roberto Santucho
+2 Inter Miami, con Lionel Messi como titular, fue goleado por Columbus Crew en los playoffs de la MLS Cup
+3 El Niño y La Niña: un estudio argentino descubrió patrones de recurrencia y planteó una hipótesis hasta 2030
+4 Un pueblo inglés votó a favor de su “independencia” del Reino Unido
 Secciones
 Últimas noticias
 Política

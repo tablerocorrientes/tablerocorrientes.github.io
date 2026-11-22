@@ -1,6 +1,6 @@
 {
- "consultado": "20/11/2026, 22:36 h",
- "consultado_iso": "2026-11-20T22:36-03:00",
+ "consultado": "22/11/2026, 08:56 h",
+ "consultado_iso": "2026-11-22T08:56-03:00",
  "paginas": {
   "smn_alertas": {
    "url": "https://www.smn.gob.ar/alertas",
@@ -20,14 +20,15 @@
     "https://coe.corrientes.gob.ar/a/2026-0160-CP",
     "https://coe.corrientes.gob.ar/a/2026-0159-CP",
     "https://coe.corrientes.gob.ar/a/2026-0158-CP",
-    "https://coe.corrientes.gob.ar/a/2026-0157-CP",
-    "https://coe.corrientes.gob.ar/a/2026-0156-CP",
+    "https://coe.corrientes.gob.ar/a/2026-0087-AT",
+    "https://coe.corrientes.gob.ar/a/2026-0086-AT",
+    "https://coe.corrientes.gob.ar/a/2026-0085-AT",
     "https://coe.corrientes.gob.ar/a/2026-0084-AT",
     "https://coe.corrientes.gob.ar/a/2026-0083-AT",
     "https://coe.corrientes.gob.ar/a/2026-0027-NT"
    ],
    "estado": 200,
-   "caracteres": 3093,
+   "caracteres": 3522,
    "archivo": "data/fuentes/coe_inicio.txt"
   },
   "ina_reporte_diario": {
@@ -39,7 +40,7 @@
   "rioparana_alturas": {
    "url": "https://www.rioparana.com.ar",
    "estado": 200,
-   "caracteres": 11286,
+   "caracteres": 11282,
    "archivo": "data/fuentes/rioparana_alturas.txt"
   },
   "prefectura_alturas": {
@@ -50,7 +51,7 @@
   "lanacion_clima_corrientes": {
    "url": "https://www.lanacion.com.ar/clima/corrientes/",
    "estado": 200,
-   "caracteres": 8339,
+   "caracteres": 8226,
    "archivo": "data/fuentes/lanacion_clima_corrientes.txt"
   },
   "noaa_enso": {
@@ -75,58 +76,22 @@
    "detalle": "HTTP Error 503: Service Unavailable"
   },
   "smn_datos_horarios_ayer": {
-   "url": "https://ssl.smn.gob.ar/dpd/descarga_opendata.php?file=observaciones/datohorario20261119.txt",
+   "url": "https://ssl.smn.gob.ar/dpd/descarga_opendata.php?file=observaciones/datohorario20261121.txt",
    "estado": 200,
    "caracteres": 10301,
    "archivo": "data/fuentes/smn_datos_horarios_ayer.txt"
   },
   "smn_pronostico_5_dias": {
-   "url": "https://ssl.smn.gob.ar/dpd/descarga_opendata.php?file=pron5d/pron20261120.txt",
+   "url": "https://ssl.smn.gob.ar/dpd/descarga_opendata.php?file=pron5d/pron20261122.txt",
    "estado": 200,
    "caracteres": 17711,
    "archivo": "data/fuentes/smn_pronostico_5_dias.txt"
   },
   "smn_pronostico_5_dias_ayer": {
-   "url": "https://ssl.smn.gob.ar/dpd/descarga_opendata.php?file=pron5d/pron20261119.txt",
+   "url": "https://ssl.smn.gob.ar/dpd/descarga_opendata.php?file=pron5d/pron20261121.txt",
    "estado": 200,
    "caracteres": 17711,
    "archivo": "data/fuentes/smn_pronostico_5_dias_ayer.txt"
-  },
-  "coe_2026_0143_CP": {
-   "url": "https://coe.corrientes.gob.ar/a/2026-0143-CP",
-   "estado": 200,
-   "caracteres": 2268,
-   "archivo": "data/fuentes/coe_2026_0143_CP.txt"
-  },
-  "coe_2026_0025_NT": {
-   "url": "https://coe.corrientes.gob.ar/a/2026-0025-NT",
-   "estado": 200,
-   "caracteres": 2208,
-   "archivo": "data/fuentes/coe_2026_0025_NT.txt"
-  },
-  "coe_2026_0078_AT": {
-   "url": "https://coe.corrientes.gob.ar/a/2026-0078-AT",
-   "estado": 200,
-   "caracteres": 2014,
-   "archivo": "data/fuentes/coe_2026_0078_AT.txt"
-  },
-  "coe_2026_0024_NT": {
-   "url": "https://coe.corrientes.gob.ar/a/2026-0024-NT",
-   "estado": 200,
-   "caracteres": 2054,
-   "archivo": "data/fuentes/coe_2026_0024_NT.txt"
-  },
-  "coe_2026_0076_AT": {
-   "url": "https://coe.corrientes.gob.ar/a/2026-0076-AT",
-   "estado": 200,
-   "caracteres": 2387,
-   "archivo": "data/fuentes/coe_2026_0076_AT.txt"
-  },
-  "coe_2026_0077_AT": {
-   "url": "https://coe.corrientes.gob.ar/a/2026-0077-AT",
-   "estado": 200,
-   "caracteres": 1783,
-   "archivo": "data/fuentes/coe_2026_0077_AT.txt"
   },
   "coe_a_2026_0162_CP": {
    "url": "https://coe.corrientes.gob.ar/a/2026-0162-CP",
@@ -158,11 +123,11 @@
    "caracteres": 2097,
    "archivo": "data/fuentes/coe_a_2026_0158_CP.txt"
   },
-  "coe_a_2026_0157_CP": {
-   "url": "https://coe.corrientes.gob.ar/a/2026-0157-CP",
+  "coe_a_2026_0087_AT": {
+   "url": "https://coe.corrientes.gob.ar/a/2026-0087-AT",
    "estado": 200,
-   "caracteres": 2125,
-   "archivo": "data/fuentes/coe_a_2026_0157_CP.txt"
+   "caracteres": 2020,
+   "archivo": "data/fuentes/coe_a_2026_0087_AT.txt"
   }
  },
  "portales": {
