@@ -1,6 +1,6 @@
 {
- "consultado": "22/11/2026, 18:57 h",
- "consultado_iso": "2026-11-22T18:57-03:00",
+ "consultado": "22/11/2026, 19:24 h",
+ "consultado_iso": "2026-11-22T19:24-03:00",
  "paginas": {
   "smn_alertas": {
    "url": "https://www.smn.gob.ar/alertas",
@@ -129,6 +129,32 @@
    "archivo": "data/fuentes/coe_a_2026_0086_AT.txt"
   }
  },
+ "portales": {
+  "munired_municipio_corrientes": {
+   "url": "https://munired.mcypcorrientes.gob.ar/noticias/corrientes",
+   "estado": 200,
+   "notas": 8,
+   "archivo": "data/fuentes/portales/munired_municipio_corrientes.txt"
+  },
+  "munired_municipio_corrientes_p2": {
+   "url": "https://munired.mcypcorrientes.gob.ar/noticias/corrientes?page=2",
+   "estado": 200,
+   "notas": 8,
+   "archivo": "data/fuentes/portales/munired_municipio_corrientes_p2.txt"
+  },
+  "diputados_corrientes": {
+   "url": "https://hcdcorrientes.gov.ar/",
+   "estado": 200,
+   "notas": 10,
+   "archivo": "data/fuentes/portales/diputados_corrientes.txt"
+  },
+  "senado_corrientes": {
+   "url": "https://www.senadoctes.gov.ar/",
+   "estado": 200,
+   "notas": 6,
+   "archivo": "data/fuentes/portales/senado_corrientes.txt"
+  }
+ },
  "pedidas": {
   "https://www.ellitoral.com.ar/ciudad/2026-11-20-19-18-0-cerro-el-centro-de-evacuados-en-corrientes-y-el-60-de-los-autoevacuados-volvio-a-casa": {
    "url": "https://www.ellitoral.com.ar/ciudad/2026-11-20-19-18-0-cerro-el-centro-de-evacuados-en-corrientes-y-el-60-de-los-autoevacuados-volvio-a-casa",
@@ -219,32 +245,6 @@
    "estado": 200,
    "caracteres": 6285,
    "archivo": "data/fuentes/web/canal12misiones_com_informacion_general_el_nino_chaco_corrientes.txt"
-  }
- },
- "portales": {
-  "munired_municipio_corrientes": {
-   "url": "https://munired.mcypcorrientes.gob.ar/noticias/corrientes",
-   "estado": 200,
-   "notas": 8,
-   "archivo": "data/fuentes/portales/munired_municipio_corrientes.txt"
-  },
-  "munired_municipio_corrientes_p2": {
-   "url": "https://munired.mcypcorrientes.gob.ar/noticias/corrientes?page=2",
-   "estado": 200,
-   "notas": 8,
-   "archivo": "data/fuentes/portales/munired_municipio_corrientes_p2.txt"
-  },
-  "diputados_corrientes": {
-   "url": "https://hcdcorrientes.gov.ar/",
-   "estado": 200,
-   "notas": 10,
-   "archivo": "data/fuentes/portales/diputados_corrientes.txt"
-  },
-  "senado_corrientes": {
-   "url": "https://www.senadoctes.gov.ar/",
-   "estado": 200,
-   "notas": 6,
-   "archivo": "data/fuentes/portales/senado_corrientes.txt"
   }
  },
  "pedidas_consultado": "22/11/2026, 18:57 h"
