@@ -1,6 +1,6 @@
 {
- "consultado": "22/11/2026, 09:00 h",
- "consultado_iso": "2026-11-22T09:00-03:00",
+ "consultado": "22/11/2026, 12:53 h",
+ "consultado_iso": "2026-11-22T12:53-03:00",
  "paginas": {
   "smn_alertas": {
    "url": "https://www.smn.gob.ar/alertas",
@@ -39,7 +39,7 @@
   "rioparana_alturas": {
    "url": "https://www.rioparana.com.ar",
    "estado": 200,
-   "caracteres": 11282,
+   "caracteres": 11255,
    "archivo": "data/fuentes/rioparana_alturas.txt"
   },
   "prefectura_alturas": {
@@ -50,7 +50,7 @@
   "lanacion_clima_corrientes": {
    "url": "https://www.lanacion.com.ar/clima/corrientes/",
    "estado": 200,
-   "caracteres": 8226,
+   "caracteres": 8172,
    "archivo": "data/fuentes/lanacion_clima_corrientes.txt"
   },
   "noaa_enso": {
@@ -129,6 +129,32 @@
    "archivo": "data/fuentes/coe_a_2026_0086_AT.txt"
   }
  },
+ "portales": {
+  "munired_municipio_corrientes": {
+   "url": "https://munired.mcypcorrientes.gob.ar/noticias/corrientes",
+   "estado": 200,
+   "notas": 8,
+   "archivo": "data/fuentes/portales/munired_municipio_corrientes.txt"
+  },
+  "munired_municipio_corrientes_p2": {
+   "url": "https://munired.mcypcorrientes.gob.ar/noticias/corrientes?page=2",
+   "estado": 200,
+   "notas": 8,
+   "archivo": "data/fuentes/portales/munired_municipio_corrientes_p2.txt"
+  },
+  "diputados_corrientes": {
+   "url": "https://hcdcorrientes.gov.ar/",
+   "estado": 200,
+   "notas": 10,
+   "archivo": "data/fuentes/portales/diputados_corrientes.txt"
+  },
+  "senado_corrientes": {
+   "url": "https://www.senadoctes.gov.ar/",
+   "estado": 200,
+   "notas": 6,
+   "archivo": "data/fuentes/portales/senado_corrientes.txt"
+  }
+ },
  "pedidas": {
   "https://www.diarioepoca.com/1394439-jp-valdes-y-polich-destacaron-el-impacto-de-la-megaobra-de-desague-concluida-sobre-el-pirayui": {
    "url": "https://www.diarioepoca.com/1394439-jp-valdes-y-polich-destacaron-el-impacto-de-la-megaobra-de-desague-concluida-sobre-el-pirayui",
@@ -186,32 +212,6 @@
    "url": "https://news.agrofy.com.ar/altura-de-los-rios/corrientes",
    "estado": "error",
    "detalle": "HTTP Error 404: NOT FOUND"
-  }
- },
- "portales": {
-  "munired_municipio_corrientes": {
-   "url": "https://munired.mcypcorrientes.gob.ar/noticias/corrientes",
-   "estado": 200,
-   "notas": 8,
-   "archivo": "data/fuentes/portales/munired_municipio_corrientes.txt"
-  },
-  "munired_municipio_corrientes_p2": {
-   "url": "https://munired.mcypcorrientes.gob.ar/noticias/corrientes?page=2",
-   "estado": 200,
-   "notas": 8,
-   "archivo": "data/fuentes/portales/munired_municipio_corrientes_p2.txt"
-  },
-  "diputados_corrientes": {
-   "url": "https://hcdcorrientes.gov.ar/",
-   "estado": 200,
-   "notas": 10,
-   "archivo": "data/fuentes/portales/diputados_corrientes.txt"
-  },
-  "senado_corrientes": {
-   "url": "https://www.senadoctes.gov.ar/",
-   "estado": 200,
-   "notas": 6,
-   "archivo": "data/fuentes/portales/senado_corrientes.txt"
   }
  },
  "pedidas_consultado": "22/11/2026, 09:00 h"
