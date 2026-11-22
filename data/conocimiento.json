@@ -1,5 +1,5 @@
 {
- "actualizado": "22/11/2026, 18:30 h",
+ "actualizado": "22/11/2026, 19:30 h",
  "explicacion": "Cada actualización suma registros: barrios afectados con la altura del río o la lluvia de ese día, obras terminadas, reportes de vecinos verificados y la comparación entre lo pronosticado y lo que ocurrió. Con esa comparación se detectan desvíos y se proponen ajustes a los cálculos, que revisa el autor del tablero.",
  "contadores": {
   "barrios_documentados": 87,
@@ -10,6 +10,13 @@
   "aprendizajes": 76
  },
  "aprendizajes": [
+  {
+   "fecha": "22/11/2026",
+   "tipo": "alerta",
+   "lugar": "Corrientes Capital",
+   "dato": "El SMN emitió una alerta amarilla por tormentas para el 24/11 de 09:00 a 20:59 h, con 30 a 70 mm posibles.",
+   "fuente": "SMN, canal oficial de alertas"
+  },
   {
    "fecha": "22/11/2026",
    "tipo": "rio",

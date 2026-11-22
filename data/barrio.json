@@ -762,6 +762,20 @@
    "min": 30,
    "max": 70,
    "texto": "Alerta amarilla por tormentas del COE (2026-0087-AT, fuente SMN) de 03:00 a 08:59 h, con 30 a 70 mm posibles. Ya terminó: hasta las 08 h el SNIH no midió lluvia en la Capital."
+  },
+  "2026-11-24": {
+   "nivel": "amarillo",
+   "incluye_capital": true,
+   "zonas": "Berón de Astrada, Capital, Empedrado, General Paz, Itatí, Ituzaingó, Mburucuyá, Saladas, San Cosme, San Luis del Palmar, San Miguel",
+   "desde": "24/11/2026, 09:00 h",
+   "hasta": "24/11/2026, 20:59 h",
+   "desde_iso": "2026-11-24T09:00:00-03:00",
+   "hasta_iso": "2026-11-24T20:59:59-03:00",
+   "emision": "22/11/2026, 20:57 h",
+   "emision_iso": null,
+   "min": 30,
+   "max": 70,
+   "texto": "Alerta amarilla por tormentas del Servicio Meteorológico Nacional para la Capital el martes 24/11 de 09:00 a 20:59 h, con 30 a 70 mm posibles, que pueden ser superados en forma puntual."
   }
  },
  "rio": {
@@ -1495,5 +1509,5 @@
    "criterio": "El SMN prevé tormentas aisladas (no fuertes): se usa el promedio de los modelos de Open-Meteo. Estimación derivada, no una medición."
   }
  },
- "estado_alertas": "VERIFICADO_SIN_ALERTAS"
+ "estado_alertas": "VERIFICADO_CON_ALERTAS"
 }
