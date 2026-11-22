@@ -1,0 +1,184 @@
+Fuente: https://corrientesaldia.info/2026/11/19/corrientes-sanciono-la-ley-de-emergencia-climatica-e-hidrica-por-180-dias/
+Consultado: 22/11/2026, 18:54 h
+
+Corrientes sancionó la ley de emergencia climática e hídrica por 180 días - Corrientes al Día
+Ir al contenido
+Facebook
+Instagram
+Youtube
+Google Discover
+Corrientes
+{{current_weather.dt | momentjs( atts.date )}}
+{{current_weather.temp | temp}} ° {{units}}
+{{day.dt | momentjs(atts.date)}}
+{{day.temp | temp}} ° {{day.temp_min | temp}} ° {{units}}
+{{current_weather.temp | temp}} °
+Humidity: {{current_weather.humidity}}%
+Clouds: {{current_weather.clouds}}%
+Wind ({{current_weather.wind.deg}}) :
+{{current_weather.wind.speed}} {{units_wind}}
+{{current_weather.desc}}
+{{day.dt | momentjs(atts.date)}}
+{{day.temp | temp}}°
+{{day.temp_min | temp}} °
+Inicio
+Corrientes
+Actualidad
+Economía
+Educación
+Municipales
+Policiales
+Política
+Salud
+Sociedad
+El País
+Nacionales
+Regionales
+El Mundo
+Suplementos
+Ambiente
+Carnavales
+Espectáculos
+Cultura
+Deportes
+Empresas
+Rural
+Tecnología
+Turismo
+Variedades
+Agenda
+Datos Útiles
+Columnistas
+Nosotros
+Archivo
+Actualidad
+Corrientes sancionó la ley de emergencia climática e hídrica por 180 días
+Publicado en noviembre 19, 2026.
+Por Corrientes al Día
+La declaración abarca todo el territorio provincial y podrá prorrogarse por otros 180 días si persisten los eventos críticos asociados a El Niño. La norma quedó sancionada en Diputados y pasó al Poder Ejecutivo para su promulgación.
+La Cámara de Diputados de Corrientes dio sanción definitiva a la ley de emergencia climática e hídrica durante su 19.ª sesión, presidida por Eduardo Tassano . La iniciativa, que ya contaba con la aprobación del Senado, contempla los efectos que los eventos climáticos e hídricos puedan tener sobre la población, los recursos naturales, la producción, el suministro de energía y las vías de comunicación.
+Durante el debate, el diputado Norberto Ast señaló que los pronósticos anticipan la continuidad de las lluvias en las altas cuencas, con un panorama que podría extenderse hasta abril de 2027. En ese contexto, puso el foco en la situación de las localidades ribereñas y mencionó a Ituzaingó, Itatí, Paso de la Patria, Empedrado, Bella Vista, Goya y Esquina.
+Ricardo Leconte, por su parte, explicó que, aunque suele oponerse a las declaraciones de emergencia, decidió acompañar la medida por el riesgo de inundaciones y los posibles daños en viviendas, caminos y establecimientos rurales. “Tenemos que actuar con celeridad”, sostuvo.
+Media sanción para regular las llamadas en las cárceles de Corrientes
+En la misma sesión, Diputados aprobó y giró al Senado un proyecto que regula las comunicaciones telefónicas de las personas alojadas en cárceles provinciales. La propuesta, impulsada por Lorena Lazaroff con aportes de Leconte, establece cómo se podrán realizar las llamadas autorizadas a familiares, allegados, abogados y representantes de instituciones dedicadas a la reinserción social.
+El texto prohíbe el ingreso, la tenencia y el uso sin autorización de celulares y otros dispositivos de comunicación inalámbrica, también prevé instalar sistemas para detectar y bloquear equipos no autorizados en todas las unidades penitenciarias. Las llamadas permitidas se realizarían mediante teléfonos fijos, con horarios y límites de duración, bajo supervisión del Servicio Penitenciario.
+Lazaroff explicó que la iniciativa busca prevenir estafas, amenazas y extorsiones realizadas mediante teléfonos ingresados de manera ilícita a los establecimientos penitenciarios.
+El Senado tratará la regulación de armas de letalidad reducida
+También obtuvo media sanción el proyecto de Leconte que fija las condiciones para la dotación, portación y uso de armas de letalidad reducida por parte de las fuerzas de seguridad provinciales. La iniciativa contempla un catálogo de equipos homologados por el Ministerio de Seguridad y mecanismos de registro de las intervenciones.
+El legislador presentó estos dispositivos como una opción intermedia en el uso de la fuerza para el personal policial y penitenciario. La propuesta quedó en manos del Senado para su tratamiento.
+La Cámara también distinguió a Jaime Meza , del diario El Libertador , quien obtuvo el primer premio de ADEPA 2026 en la categoría Periodismo de Investigación. Su trabajo, Del hambre al negocio: cómo el abigeato se convirtió en una “industria criminal” , aborda la organización del robo de ganado y sus consecuencias para los productores y las comunidades rurales.
+Agregar Corrientes al día en Google Discover
+Relacionado:
+Corrientes | diputados de corrientes | emergencia climática | portada
+Prev No te pierdas Demoraron a un hombre con tobillera electrónica por disturbios en Corrientes
+También podés ver Un automovilista huyó tras embestir a una moto en Corrientes Next
+Actualidad
+El Niño continuará durante el verano y advierten sobre los niveles del río Paraná
+Publicado en noviembre 19, 2026.
+El Informe elaborado por equipos de la Universidad Federal de Santa María y la Facultad de Ingeniería de la UNNE, actualiza el seguimiento del fenómeno El Niño 2026-2027. También reúne (...)
+SEGUIR LEYENDO
+Actualidad
+Valdés propuso a Horacio Ortega para integrar el Superior Tribunal de Justicia de Corrientes
+Publicado en noviembre 19, 2026.
+Por Corrientes al Día El gobernador Juan Pablo Valdés pidió al Senado provincial que preste acuerdo para designar al actual fiscal de Estado, Horacio David Ortega, como miembro del Superior (...)
+SEGUIR LEYENDO
+Actualidad
+Diputados dio media sanción al bloqueo de celulares en las cárceles de Corrientes
+Publicado en noviembre 19, 2026.
+Por Corrientes al Día La Cámara de Diputados de Corrientes dio media sanción a un proyecto que prevé detectar y bloquear celulares no autorizados en todas las cárceles provinciales. La (...)
+SEGUIR LEYENDO
+Agregar Corrientes al día en Google Discover
+ACOMPAÑANOS
+Corrientes al Día es periodismo local serio y responsable, y queremos que siga siendo gratuito. Invitándonos un Cafecito nos ayudás un montón, porque entendemos que todo suma y que, juntos, las crisis son más fáciles de superar.
+Tu navegador no soporta la etiqueta de video.
+-->
+Tu navegador no soporta la etiqueta de video.
+ÚLTIMAS
+VIDEOS
+RELACIONADAS
+ÚLTIMAS
+Deportes
+Leandro Paredes se desmayó tras la final de la Copa Sudamericana
+Datos Útiles
+Feriado: cómo funcionarán los servicios municipales en Capital
+Policiales
+Corrientes: un muerto tras el choque frontal entre dos camiones
+Policiales
+Una persona falleció tras el choque de un camión y una camioneta en la Ruta 12
+Educación
+Cuento con Derechos, el libro que escribieron estudiantes de más de 40 escuelas de Corrientes
+VIDEOS
+Policiales
+Una persona falleció tras el choque de un camión y una camioneta en la Ruta 12
+Deportes
+Pantalla gigante en La Unidad para ver el partido de Boca vs. Atlético Mineiro
+Actualidad
+Alerta naranja por tormentas en casi todo Corrientes y fuerte granizada en Goya
+Policiales
+Explotó un tanque de combustible en Virasoro
+Policiales
+Investigan a un policía de Corrientes por atropellar a una motociclista y huir
+RELACIONADAS
+Datos Útiles
+Feriado: cómo funcionarán los servicios municipales en Capital
+Policiales
+Corrientes: un muerto tras el choque frontal entre dos camiones
+Policiales
+Una persona falleció tras el choque de un camión y una camioneta en la Ruta 12
+Educación
+Cuento con Derechos, el libro que escribieron estudiantes de más de 40 escuelas de Corrientes
+Educación
+Educa Emprende 2026 en Corrientes: los proyectos ganadores de la primera feria provincial
+MÁS VISTAS
+Agenda
+Qué hacer el fin de semana largo en Corrientes
+Municipales
+Volvieron a sus casas las últimas familias evacuadas en la Escuela 293 de Capital
+Salud
+La UNNE puso en debate el uso responsable de los antimicrobianos
+Columnistas
+La ansiedad del poder: ahora, son todas batallas por la supervivencia (*)
+Policiales
+Una nena está en terapia intensiva tras caer a una pileta rural en Corrientes
+Policiales
+Tras persecución, secuestraron dos camionetas cargadas de cigarrillos ilegales en Corrientes
+Municipales
+Cayeron 67 mm en tres días y se mantienen activas las cuadrillas municipales en Capital
+Economía
+Comienza el pago de sueldos de noviembre para estatales correntinos
+">
+Copyright © 2026 Corrientes al día. Powered by ArgentoIA .
+Home
+Corrientes
+Actualidad
+Economía
+Educación
+Municipales
+Policiales
+Política
+Salud
+Sociedad
+El País
+Nacionales
+Regionales
+El Mundo
+Suplementos
+Ambiente
+Carnavales
+Espectáculos
+Cultura
+Deportes
+Empresas
+Rural
+Tecnología
+Turismo
+Variedades
+Agenda
+Datos Útiles
+Columnistas
+Nosotros
+Archivo
+Facebook
+Instagram
+Youtube
+Copyright © 2024 Corrientes al día. Un sitio que funciona dentro de la plataforma Tres Barbas .
