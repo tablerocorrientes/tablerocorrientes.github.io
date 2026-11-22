@@ -11,7 +11,7 @@
   "fecha": "13/11/2026, 18:35 h"
  },
  "met_revision": "aae6c54b1ab7086a927cf2e4bb8e34a53a584e781ba42ff90ab9d653046ddc38",
- "actualizado": "21/11/2026, 15:50 h",
+ "actualizado": "22/11/2026, 01:08 h",
  "localidades": [
   {
    "n": "Corrientes Capital",
@@ -36,7 +36,7 @@
    "altura": 5.9,
    "alerta": 6.0,
    "evac": 6.4,
-   "reg": "21/11/2026, 12:00 h (Prefectura Naval Argentina, vía rioparana.com.ar)"
+   "reg": "22/11/2026, 00:00 h (Prefectura Naval Argentina, vía rioparana.com.ar)"
   },
   {
    "n": "Berón de Astrada",
@@ -103,10 +103,10 @@
    "dep": "Esquina",
    "ref": "Esquina",
    "rio": "Paraná",
-   "altura": 5.35,
+   "altura": 5.33,
    "alerta": 5.0,
    "evac": 5.4,
-   "reg": "21/11/2026, 12:00 h (Prefectura Naval Argentina, vía rioparana.com.ar)"
+   "reg": "22/11/2026, 00:00 h (Prefectura Naval Argentina, vía rioparana.com.ar)"
   },
   {
    "n": "Pueblo Libertador",
@@ -161,7 +161,7 @@
    "altura": 5.6,
    "alerta": 5.2,
    "evac": 5.7,
-   "reg": "21/11/2026, 12:00 h (Prefectura Naval Argentina, vía rioparana.com.ar)"
+   "reg": "21/11/2026, 18:00 h (Prefectura Naval Argentina, vía rioparana.com.ar)"
   },
   {
    "n": "Colonia Carolina",
@@ -173,10 +173,10 @@
    "dep": "Itatí",
    "ref": "Corrientes Capital",
    "rio": "Paraná",
-   "altura": 5.98,
+   "altura": 5.92,
    "alerta": 6.8,
    "evac": 7.5,
-   "reg": "21/11/2026, 12:00 h (Prefectura Naval Argentina, vía rioparana.com.ar)"
+   "reg": "22/11/2026, 00:00 h (Prefectura Naval Argentina, vía rioparana.com.ar)"
   },
   {
    "n": "Ramada Paso",
@@ -333,10 +333,10 @@
    "dep": "San Cosme",
    "ref": "Corrientes Capital",
    "rio": "Paraná",
-   "altura": 5.83,
+   "altura": 5.8,
    "alerta": 6.5,
    "evac": 7.0,
-   "reg": "21/11/2026, 12:00 h (Prefectura Naval Argentina, vía rioparana.com.ar)"
+   "reg": "22/11/2026, 00:00 h (Prefectura Naval Argentina, vía rioparana.com.ar)"
   },
   {
    "n": "Santa Ana",

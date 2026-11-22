@@ -1,6 +1,6 @@
 {
  "repositorio": "Lecturas oficiales registradas por las tareas del Tablero Ciudadano",
- "actualizado": "21/11/2026, 15:50 h",
+ "actualizado": "22/11/2026, 01:08 h",
  "series": [
   {
    "rio": "Paraná",
@@ -504,6 +504,11 @@
      "2026-11-21T12:00:00",
      5.98,
      "verificado"
+    ],
+    [
+     "2026-11-22T00:00:00",
+     5.92,
+     "verificado"
     ]
    ]
   },
@@ -783,6 +788,11 @@
     [
      "2026-11-21T12:00:00",
      5.83,
+     "verificado"
+    ],
+    [
+     "2026-11-22T00:00:00",
+     5.8,
      "verificado"
     ]
    ]
@@ -1459,6 +1469,11 @@
      "2026-11-21T12:00:00",
      5.9,
      "verificado"
+    ],
+    [
+     "2026-11-22T00:00:00",
+     5.9,
+     "verificado"
     ]
    ]
   },
@@ -1739,6 +1754,11 @@
      "2026-11-21T12:00:00",
      5.6,
      "verificado"
+    ],
+    [
+     "2026-11-21T18:00:00",
+     5.6,
+     "verificado"
     ]
    ]
   },
@@ -1863,6 +1883,11 @@
     [
      "2026-11-21T12:00:00",
      5.35,
+     "verificado"
+    ],
+    [
+     "2026-11-22T00:00:00",
+     5.33,
      "verificado"
     ]
    ]
