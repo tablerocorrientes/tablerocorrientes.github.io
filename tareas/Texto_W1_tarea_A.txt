@@ -1,5 +1,7 @@
 TAREA A, ACTUALIZACIÓN COMPLETA DEL SITIO WEB: RÍOS, ALERTAS, PRONÓSTICO, LLUVIA, EVACUADOS Y NOVEDADES
 
+PASO 0, CONDICIÓN DE CORRIDA (solo tarea A, hacerlo ANTES que todo lo demás): ejecutar python3 /tmp/sitio/tareas/condicion_a.py . Si imprime "OMITIR", terminar enseguida con la línea "Sin alerta ni lluvia: corrida de día alterno omitida", sin leer nada más, sin escribir y sin notificar. Si imprime "CORRER", seguir con todo el texto. Corre siempre con alerta o aviso del SMN vigente o próximo, o con lluvia fuerte en la Capital; sin eso, día por medio. Las tareas B y D no aplican este paso.
+
 REGLAS COMUNES PARA EL SITIO WEB (obligatorio)
 - Sitio: https://tablerocorrientes.github.io. Repositorio de GitHub: tablerocorrientes/tablerocorrientes.github.io, rama main. Las páginas son fijas: esta tarea SOLO escribe archivos de la carpeta data/ (y assets/sat.jpg cuando corresponda). Nunca modificar index.html, barrio/, provincia/, site.js, sw.js, tareas/ ni otros archivos del sitio.
 - Acceso: por git, sin clave. La sesión ya tiene permiso sobre este repositorio. No usar la API de GitHub con clave, no pedir claves y no intentar otras vías si git falla: informar el error.
