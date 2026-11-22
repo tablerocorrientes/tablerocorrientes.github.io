@@ -1,6 +1,6 @@
 {
- "actualizado": "22/11/2026, 01:08 h",
- "fecha_registro": "18/11/2026",
+ "actualizado": "22/11/2026, 09:03 h",
+ "fecha_registro": "22/11/2026",
  "puertos": [
   {
    "puerto": "Ituzaingó",
@@ -8,17 +8,17 @@
    "variacion": 0.0,
    "alerta": 3.5,
    "evacuacion": 4,
-   "fuente": "Prefectura Naval Argentina, reproducida por rioparana.com.ar (21/11/2026, 12:00 h)",
-   "registro": "21/11/2026, 12:00 h"
+   "fuente": "Prefectura Naval Argentina, reproducida por rioparana.com.ar (22/11/2026, 00:00 h)",
+   "registro": "22/11/2026, 00:00 h"
   },
   {
    "puerto": "Itá Ibaté",
-   "altura": 4.6,
-   "variacion": 0.0,
+   "altura": 4.58,
+   "variacion": -0.02,
    "alerta": 7,
    "evacuacion": 7.5,
-   "fuente": "Prefectura Naval Argentina, reproducida por rioparana.com.ar (21/11/2026, 12:00 h)",
-   "registro": "21/11/2026, 12:00 h"
+   "fuente": "Prefectura Naval Argentina, reproducida por rioparana.com.ar (22/11/2026, 01:00 h)",
+   "registro": "22/11/2026, 01:00 h"
   },
   {
    "puerto": "Itatí",
@@ -40,21 +40,21 @@
   },
   {
    "puerto": "Corrientes",
-   "altura": 5.81,
-   "variacion": -0.04,
+   "altura": 5.76,
+   "variacion": -0.05,
    "alerta": 6.5,
    "evacuacion": 7,
-   "fuente": "Prefectura Naval Argentina, reproducida por rioparana.com.ar (21/11/2026, 12:00 h)",
-   "registro": "21/11/2026, 12:00 h"
+   "fuente": "Prefectura Naval Argentina, reproducida por rioparana.com.ar (22/11/2026, 00:00 h)",
+   "registro": "22/11/2026, 00:00 h"
   },
   {
    "puerto": "Empedrado",
-   "altura": 5.28,
-   "variacion": -0.04,
+   "altura": 5.25,
+   "variacion": -0.03,
    "alerta": 6.5,
    "evacuacion": 6.7,
-   "fuente": "Prefectura Naval Argentina, reproducida por rioparana.com.ar (21/11/2026, 12:00 h)",
-   "registro": "21/11/2026, 12:00 h"
+   "fuente": "Prefectura Naval Argentina, reproducida por rioparana.com.ar (22/11/2026, 00:00 h)",
+   "registro": "22/11/2026, 00:00 h"
   },
   {
    "puerto": "Bella Vista",
@@ -67,12 +67,12 @@
   },
   {
    "puerto": "Goya",
-   "altura": 5.6,
-   "variacion": 0.0,
+   "altura": 5.58,
+   "variacion": -0.01,
    "alerta": 5.2,
    "evacuacion": 5.7,
-   "fuente": "Prefectura Naval Argentina, reproducida por rioparana.com.ar (21/11/2026, 18:00 h)",
-   "registro": "21/11/2026, 18:00 h"
+   "fuente": "Prefectura Naval Argentina, reproducida por rioparana.com.ar (22/11/2026, 06:00 h)",
+   "registro": "22/11/2026, 06:00 h"
   },
   {
    "puerto": "Esquina",
@@ -84,8 +84,8 @@
    "registro": "22/11/2026, 00:00 h"
   }
  ],
- "nota": "Actualización del 18/11/2026, 09:05 h. Paraná, alturas de Prefectura Naval Argentina del 18/11/2026 reproducidas por rioparana.com.ar: Corrientes 6,20 m (−0,09 respecto de la lectura anterior, hora no publicada), por debajo de la cota de alerta de 6,50 m; Paso de la Patria 6,24 m e Itatí 6,20 m, también bajo su alerta; Empedrado 5,58 m e Itá Ibaté 4,70 m en bajante, e Ituzaingó 2,40 m. Aguas abajo siguen sobre la evacuación Goya (5,76 m a las 08:00 h; evacuación 5,70 m) y Esquina (5,43 m a las 06:00 h; evacuación 5,40 m), y Bella Vista sigue en alerta (6,05 m a las 08:00 h). El Instituto Nacional del Agua (17/11) prevé que en Corrientes el río siga alto, oscilando o bajando despacio durante los próximos 7 días. La página de alturas de Prefectura no respondió.",
- "ultimo_intento": "22/11/2026, 01:08 h",
+ "nota": "Actualización del 22/11/2026. Paraná, alturas de Prefectura Naval Argentina reproducidas por rioparana.com.ar: Corrientes 5,76 m (−0,05 m, 22/11 a las 00:00 h), 74 cm por debajo de la alerta de 6,50 m; Paso de la Patria 5,80 m e Itatí 5,92 m, bajo su alerta y en bajante; Empedrado 5,25 m, Itá Ibaté 4,58 m e Ituzaingó 2,37 m. Aguas abajo, Bella Vista 5,90 m (alerta 6,00 m), Goya 5,58 m (sobre la alerta de 5,20 m y bajo la evacuación de 5,70 m) y Esquina 5,33 m (sobre la alerta de 5,00 m). El INA (reporte del 20/11) prevé que el río siga bajando muy despacio unos días y luego pueda volver a subir desde el 26/11 por lluvias en la cuenca alta.",
+ "ultimo_intento": "22/11/2026, 09:03 h",
  "programada": true,
  "horarios": [
   "09:00",
@@ -93,6 +93,20 @@
   "21:00"
  ],
  "partes_oficiales": [
+  {
+   "fecha": "21/11/2026, 18:01 h",
+   "organismo": "COE de Corrientes (aviso del Servicio Meteorológico Nacional)",
+   "resumen": "Alerta amarilla por tormentas 2026-0087-AT para el domingo 22/11 de 03:00 a 08:59 h en Capital y otros 19 departamentos (Berón de Astrada, Concepción, Curuzú Cuatiá, Empedrado, General Alvear, General Paz, Itatí, Ituzaingó, Mburucuyá, Mercedes, Paso de los Libres, Saladas, San Cosme, San Luis del Palmar, San Martín, San Miguel, San Roque, Santo Tomé y Sauce). Se esperaban tormentas de variada intensidad, algunas fuertes, con granizo ocasional y entre 30 y 70 mm. Ya terminó.",
+   "enlace": "https://coe.corrientes.gob.ar/a/2026-0087-AT",
+   "breve": "Alerta amarilla por tormentas para la Capital y 19 departamentos el domingo 22/11 de 03 a 09 h (30 a 70 mm). Ya terminó."
+  },
+  {
+   "fecha": "20/11/2026, 07:18 h",
+   "organismo": "COE de Corrientes (aviso del Servicio Meteorológico Nacional)",
+   "resumen": "El viernes 20/11 el COE emitió varios avisos rojos a corto plazo por tormentas fuertes: para Capital, Empedrado, Saladas, San Cosme y San Luis del Palmar de 07:03 a 09:03 h (2026-0158-CP), y luego para otros departamentos del centro, norte y este de la provincia hasta las 11:13 h. Rigió además una alerta naranja para la Capital de 09:00 a 13:00 h.",
+   "enlace": "https://coe.corrientes.gob.ar/a/2026-0158-CP",
+   "breve": "El 20/11 hubo avisos rojos por tormentas fuertes en la Capital (07 a 09 h) y en buena parte de la provincia, ya vencidos."
+  },
   {
    "fecha": "17/11/2026, 07:12 h",
    "organismo": "COE de Corrientes (aviso del Servicio Meteorológico Nacional)",
@@ -1071,12 +1085,12 @@
   },
   {
    "puerto": "Santo Tomé",
-   "altura": 6.64,
-   "variacion": -0.64,
+   "altura": 6.31,
+   "variacion": -0.33,
    "alerta": 11.5,
    "evacuacion": 12.5,
-   "fuente": "Instituto Nacional del Agua, reporte diario del 17/11/2026 (variación respecto de la lectura anterior)",
-   "registro": "17/11/2026, hora no publicada"
+   "fuente": "Instituto Nacional del Agua, reporte diario del 20/11/2026 (variación respecto de la lectura anterior)",
+   "registro": "20/11/2026, hora no publicada"
   },
   {
    "puerto": "Alvear",
@@ -1107,12 +1121,12 @@
   },
   {
    "puerto": "Paso de los Libres",
-   "altura": 6.59,
-   "variacion": -0.4,
+   "altura": 4.83,
+   "variacion": -1.76,
    "alerta": 7.5,
    "evacuacion": 8.5,
-   "fuente": "Instituto Nacional del Agua, reporte diario del 17/11/2026 (variación respecto de la lectura anterior)",
-   "registro": "17/11/2026, hora no publicada"
+   "fuente": "Instituto Nacional del Agua, reporte diario del 20/11/2026 (variación respecto de la lectura anterior)",
+   "registro": "20/11/2026, hora no publicada"
   },
   {
    "puerto": "Bonpland",
@@ -1133,7 +1147,7 @@
    "registro": "13/11/2026 (hora no publicada)"
   }
  ],
- "uruguay_nota": "Actualización del 18/11/2026, 09:05 h. Instituto Nacional del Agua, reporte diario del 17/11/2026: Paso de los Libres 6,59 m, por debajo de su alerta de 7,50 m y en descenso; Santo Tomé 6,64 m, lejos de su alerta de 11,50 m. Sin reporte nuevo de la Comisión Técnica Mixta de Salto Grande: Alvear 9,00 m y Garruchos 6,37 m el 13/11 a las 07:00 h. El INA prevé que el río siga bajando en Paso de los Libres y con pocas chances de superar la alerta.",
+ "uruguay_nota": "Actualización del 22/11/2026. Instituto Nacional del Agua, reporte diario del 20/11/2026: Paso de los Libres 4,83 m, lejos de su alerta de 7,50 m; Santo Tomé 6,31 m, bajo su alerta de 11,50 m. Sin reporte nuevo de la Comisión Técnica Mixta de Salto Grande (Alvear 9,00 m y Garruchos 6,37 m el 13/11). El INA prevé que el río suba en Santo Tomé y pueda acercarse a la alerta hacia el 26/11, y un posible repunte en Paso de los Libres desde el 26/11.",
  "pasos_fecha": "12/11/2026, 18:54 h",
  "pasos": [
   {
@@ -1369,9 +1383,9 @@
  "alertas": [],
  "alertas_fecha": "14/11/2026, 09:12 h",
  "eby_resumen_anteriores": "Entre el 24/10 y el 3/11 la EBY informó caudales de hasta unos 34.500 m³/s, el doble de lo habitual (octubre fue el mes más caudaloso de la serie 1971-2025), con Ituzaingó por encima de 4 m. El paso Ituzaingó–Ayolas estuvo cerrado desde el 12/10 y reabrió el 7/11. La EBY advirtió que El Niño podría extenderse hasta los primeros meses de 2027.",
- "nota_breve": "Paraná en Corrientes: 6,20 m (18/11), bajando y por debajo de la alerta (6,50 m). Goya y Esquina siguen apenas sobre la evacuación.",
- "uruguay_breve": "Paso de los Libres: 6,59 m (17/11), bajo la alerta (7,50 m) y en descenso. Santo Tomé 6,64 m. El INA no prevé superar la alerta.",
+ "nota_breve": "Paraná en Corrientes: 5,76 m (22/11), bajando y 74 cm debajo de la alerta (6,50 m). Goya y Esquina siguen sobre la alerta. El INA prevé un posible repunte desde el 26/11.",
+ "uruguay_breve": "Paso de los Libres: 4,83 m y Santo Tomé: 6,31 m (20/11), bajo la alerta. El INA prevé una nueva subida desde el 26/11.",
  "tapon_breve": "Alerta amarilla por tormentas el martes 17/11 de 3 a 15 h (30 a 70 mm). Con el río en 6,50 m, una lluvia fuerte puede superar la capacidad de los desagües.",
- "consultado": "22/11/2026, 01:08 h",
+ "consultado": "22/11/2026, 09:03 h",
  "consulta_resultado": "datos nuevos"
 }

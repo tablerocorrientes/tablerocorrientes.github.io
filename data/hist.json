@@ -1,6 +1,6 @@
 {
  "repositorio": "Lecturas oficiales registradas por las tareas del Tablero Ciudadano",
- "actualizado": "22/11/2026, 01:08 h",
+ "actualizado": "22/11/2026, 09:03 h",
  "series": [
   {
    "rio": "Paraná",
@@ -112,6 +112,11 @@
     ],
     [
      "2026-11-21T12:00:00",
+     2.37,
+     "verificado"
+    ],
+    [
+     "2026-11-22T00:00:00",
      2.37,
      "verificado"
     ]
@@ -228,6 +233,11 @@
     [
      "2026-11-21T12:00:00",
      4.6,
+     "verificado"
+    ],
+    [
+     "2026-11-22T01:00:00",
+     4.58,
      "verificado"
     ]
    ]
@@ -1079,6 +1089,11 @@
      "2026-11-21T12:00:00",
      5.81,
      "verificado"
+    ],
+    [
+     "2026-11-22T00:00:00",
+     5.76,
+     "verificado"
     ]
    ]
   },
@@ -1188,6 +1203,11 @@
     [
      "2026-11-21T12:00:00",
      5.28,
+     "verificado"
+    ],
+    [
+     "2026-11-22T00:00:00",
+     5.25,
      "verificado"
     ]
    ]
@@ -1759,6 +1779,11 @@
      "2026-11-21T18:00:00",
      5.6,
      "verificado"
+    ],
+    [
+     "2026-11-22T06:00:00",
+     5.58,
+     "verificado"
     ]
    ]
   },
@@ -2069,6 +2094,11 @@
      "2026-11-17T12:00:00",
      6.64,
      "pendiente"
+    ],
+    [
+     "2026-11-20T12:00:00",
+     6.31,
+     "pendiente"
     ]
    ]
   },
@@ -2289,6 +2319,11 @@
      "2026-11-17T12:00:00",
      6.59,
      "pendiente"
+    ],
+    [
+     "2026-11-20T12:00:00",
+     4.83,
+     "pendiente"
     ]
    ]
   },
@@ -2316,20 +2351,20 @@
  "pronosticos": [
   {
    "organismo": "INA",
-   "emision": "2026-11-17",
+   "emision": "2026-11-20",
    "rio": "Paraná",
    "horizonte_dias": 7,
    "tipo": "cualitativo",
-   "tendencia": "En Corrientes el río seguiría alto en los próximos 7 días, por encima de lo normal para la época, oscilando o bajando despacio según el agua que suelte Yacyretá. En Goya seguiría sobre la evacuación unos 2 a 3 días más. Después se estabilizaría en valores altos, y podría volver a subir si se confirman las lluvias previstas en Brasil y Paraguay (una nueva crecida podría salir de la cuenca alta desde el 21/11).",
+   "tendencia": "En Corrientes el río seguiría bajando muy despacio durante unos 4 días, con valores todavía más altos que lo normal para la época. Después se estabilizaría y podría volver a subir desde el 26/11, por las lluvias previstas en Brasil, Paraguay y Misiones. En Goya seguiría sobre la alerta.",
    "url": "https://alerta.ina.gob.ar/a5/diario/reporte_diario"
   },
   {
    "organismo": "INA",
-   "emision": "2026-11-17",
+   "emision": "2026-11-20",
    "rio": "Uruguay",
-   "horizonte_dias": 5,
+   "horizonte_dias": 7,
    "tipo": "cualitativo",
-   "tendencia": "En Paso de los Libres el río terminó la alerta y seguiría bajando hasta quedar en valores normales altos. En Santo Tomé seguiría alto para la época, con posible repunte por lluvias en el norte de la cuenca, con pocas chances de superar la alerta.",
+   "tendencia": "En Santo Tomé el río subiría por las lluvias en el norte de la cuenca y podría acercarse a la alerta (11,50 m) hacia el 26/11. En Paso de los Libres seguiría estable, con un posible repunte desde el 26/11 que podría acercarlo a la alerta (7,50 m) desde el 27/11.",
    "url": "https://alerta.ina.gob.ar/a5/diario/reporte_diario"
   }
  ],
@@ -2380,7 +2415,7 @@
   }
  ],
  "pron_aviso": "Valores difundidos por El Litoral a partir del pronóstico del INA. Son estimaciones, no mediciones, y pueden cambiar con las lluvias.",
- "verificacion": "Prefectura Naval Argentina, reproducida por rioparana.com.ar; observaciones fechadas por puerto",
+ "verificacion": "Prefectura Naval Argentina, reproducida por rioparana.com.ar (Paraná, 22/11/2026); Instituto Nacional del Agua, reporte diario del 20/11/2026 (Uruguay)",
  "observaciones": [
   "Empedrado, Esquina, Ituzaingó e Itá Ibaté tienen pocas lecturas (10 cada uno), todas de fecha solamente salvo la del 01/11 a las 00:00 h.",
   "Variación informada en el CSV que no coincide con la diferencia entre lecturas consecutivas (no se usa en los gráficos ni se corrigieron las alturas): Ituzaingó 2026-11-03: CSV -3 cm frente a -12 cm; Itá Ibaté 2026-11-03: CSV -6 cm frente a -10 cm; Itatí 2026-11-03: CSV -2 cm frente a -8 cm; Paso de la Patria 2026-11-03: CSV -6 cm frente a -8 cm; Empedrado 2026-11-03: CSV -6 cm frente a -11 cm; Goya 2026-11-01T00:00:00: CSV 12 cm frente a 14 cm; Goya 2026-11-03: CSV 1 cm frente a 3 cm; Esquina 2026-11-03: CSV 8 cm frente a 14 cm.",

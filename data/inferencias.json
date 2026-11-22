@@ -1,15 +1,15 @@
 {
- "actualizado": "18/11/2026, 09:06 h",
+ "actualizado": "22/11/2026, 09:03 h",
  "aviso": "Inferencias propias del tablero, elaboradas con procesamiento lógico a partir de sus registros y de fuentes oficiales. No son avisos oficiales: ante una emergencia, siga las indicaciones de Defensa Civil y del SMN.",
  "vigentes": [
   {
    "id": "rio-parana-bajante",
    "tema": "🌊 Río Paraná",
-   "titulo": "El Paraná en la Capital sigue bajando despacio, 30 cm debajo de la alerta",
-   "texto": "Marcó 6,20 m el 18/11, 9 cm menos que el 17/11 y 30 cm menos que el 16/11 a la mañana: baja unos 9 cm por día. Itatí (6,20 m) y Paso de la Patria (6,24 m) también bajan. El INA (17/11) prevé que siga oscilando o bajando despacio y luego se estabilice en valores altos, con chances de una nueva subida desde la cuenca alta a partir del 21/11.",
+   "titulo": "El Paraná en la Capital sigue bajando despacio, 74 cm debajo de la alerta",
+   "texto": "Marcó 5,76 m el 22/11, frente a 5,93 m el 20/11 y 6,20 m el 18/11: baja unos 5 a 8 cm por día. Itatí (5,92 m) y Paso de la Patria (5,80 m) también bajan. El INA (20/11) prevé que siga bajando muy despacio unos 4 días y que pueda volver a subir desde el 26/11 por lluvias en la cuenca alta.",
    "base": [
-    "Prefectura Naval Argentina (rioparana.com.ar), 16 a 18/11/2026",
-    "INA, reporte diario del 17/11/2026"
+    "Prefectura Naval Argentina (rioparana.com.ar), 18 a 22/11/2026",
+    "INA, reporte diario del 20/11/2026"
    ],
    "confianza": "alta",
    "horizonte": "próximos 3 días",
@@ -17,34 +17,46 @@
    "localidad": "Corrientes Capital"
   },
   {
-   "id": "lluvia-18-11",
-   "tema": "🌧️ Lluvia",
-   "titulo": "Alerta naranja y aviso rojo en la Capital, pero hasta las 9 h casi no llovió",
-   "texto": "Rige la alerta naranja por tormentas hasta las 13:00 h (70 a 120 mm posibles) y un aviso rojo a corto plazo de 07:51 a 09:51 h. Hasta las 09 h el SNIH midió solo 0,4 mm en la Capital, mientras en Mburucuyá cayeron 19,4 mm en 24 horas. Con el Paraná en 6,20 m, los desagües que descargan al río funcionan con menos capacidad: si llega una tormenta fuerte, puede acumularse agua en calles bajas.",
+   "id": "rio-parana-repunte",
+   "tema": "🌊 Río Paraná",
+   "titulo": "Puede haber un nuevo repunte del Paraná a fines de noviembre",
+   "texto": "El INA prevé lluvias abundantes en el Alto Paraná, el Iguazú y la cuenca propia de Yacyretá, con nuevas crecidas desde el 21 y 22/11 aguas arriba. Con la demora habitual hasta Corrientes, el río podría dejar de bajar y repuntar desde el 26/11. Con 5,76 m hoy, hay margen hasta la alerta (6,50 m), pero conviene seguir los partes.",
    "base": [
-    "COE de Corrientes, 2026-0024-NT y 2026-0140-CP",
-    "SMN, alertas del 18/11/2026 (08:43 h)",
-    "SNIH, estaciones ICAA, Corrientes 13805 y Parque Nacional Mburucuyá",
-    "Prefectura Naval Argentina, 18/11/2026"
+    "INA, reporte diario del 20/11/2026",
+    "Prefectura Naval Argentina, 22/11/2026"
    ],
    "confianza": "media",
-   "horizonte": "hoy",
+   "horizonte": "próximas semanas",
    "ambito": "global",
    "localidad": "Corrientes Capital"
   },
   {
    "id": "rio-uruguay-pico",
    "tema": "🌊 Río Uruguay",
-   "titulo": "El Uruguay en Paso de los Libres ya bajó de la alerta",
-   "texto": "Paso de los Libres pasó de 7,98 m el 13/11 a 6,59 m según el INA del 17/11, 91 cm por debajo de la alerta (7,50 m). Santo Tomé bajó a 6,64 m. El INA prevé que siga bajando, con pocas chances de volver a la alerta.",
+   "titulo": "El Uruguay bajó, pero el INA prevé una nueva subida desde el 26/11",
+   "texto": "El 20/11 Paso de los Libres marcó 4,83 m y Santo Tomé 6,31 m, ambos bajo la alerta. El INA prevé lluvias en el norte de la cuenca: Santo Tomé podría acercarse a la alerta (11,50 m) hacia el 26/11 y Paso de los Libres repuntar desde esa fecha.",
    "base": [
-    "Comisión Técnica Mixta de Salto Grande, 13/11/2026",
-    "INA, reportes diarios del 16 y 17/11/2026"
+    "INA, reporte diario del 20/11/2026"
+   ],
+   "confianza": "media",
+   "horizonte": "próximas semanas",
+   "ambito": "global",
+   "localidad": "Paso de los Libres"
+  },
+  {
+   "id": "lluvia-alerta-sin-lluvia",
+   "tema": "🌧️ Lluvia",
+   "titulo": "La alerta de esta madrugada no dejó lluvia en la Capital",
+   "texto": "La alerta amarilla del COE preveía entre 30 y 70 mm de 03 a 09 h, pero las dos estaciones de la Capital midieron 0 mm en 24 horas y el máximo de la provincia fue 1,75 mm en Garruchos. Para el martes 24/11 el SMN prevé tormentas fuertes (70 %).",
+   "base": [
+    "COE de Corrientes, alerta 2026-0087-AT",
+    "SNIH, lluvia de las últimas 24 h",
+    "SMN, publicado por La Nación (22/11, 07:49 h)"
    ],
    "confianza": "alta",
    "horizonte": "próximos 3 días",
    "ambito": "global",
-   "localidad": "Provincia"
+   "localidad": "Corrientes Capital"
   },
   {
    "id": "nino-transitoria",
@@ -79,6 +91,66 @@
   }
  ],
  "historial": [
+  {
+   "id": "lluvia-alerta-sin-lluvia",
+   "tema": "🌧️ Lluvia",
+   "titulo": "La alerta de esta madrugada no dejó lluvia en la Capital",
+   "texto": "La alerta amarilla del COE preveía entre 30 y 70 mm de 03 a 09 h, pero las dos estaciones de la Capital midieron 0 mm en 24 horas y el máximo de la provincia fue 1,75 mm en Garruchos. Para el martes 24/11 el SMN prevé tormentas fuertes (70 %).",
+   "base": [
+    "COE de Corrientes, alerta 2026-0087-AT",
+    "SNIH, lluvia de las últimas 24 h",
+    "SMN, publicado por La Nación (22/11, 07:49 h)"
+   ],
+   "confianza": "alta",
+   "horizonte": "próximos 3 días",
+   "ambito": "global",
+   "localidad": "Corrientes Capital",
+   "fecha": "22/11/2026"
+  },
+  {
+   "id": "rio-uruguay-pico",
+   "tema": "🌊 Río Uruguay",
+   "titulo": "El Uruguay bajó, pero el INA prevé una nueva subida desde el 26/11",
+   "texto": "El 20/11 Paso de los Libres marcó 4,83 m y Santo Tomé 6,31 m, ambos bajo la alerta. El INA prevé lluvias en el norte de la cuenca: Santo Tomé podría acercarse a la alerta (11,50 m) hacia el 26/11 y Paso de los Libres repuntar desde esa fecha.",
+   "base": [
+    "INA, reporte diario del 20/11/2026"
+   ],
+   "confianza": "media",
+   "horizonte": "próximas semanas",
+   "ambito": "global",
+   "localidad": "Paso de los Libres",
+   "fecha": "22/11/2026"
+  },
+  {
+   "id": "rio-parana-repunte",
+   "tema": "🌊 Río Paraná",
+   "titulo": "Puede haber un nuevo repunte del Paraná a fines de noviembre",
+   "texto": "El INA prevé lluvias abundantes en el Alto Paraná, el Iguazú y la cuenca propia de Yacyretá, con nuevas crecidas desde el 21 y 22/11 aguas arriba. Con la demora habitual hasta Corrientes, el río podría dejar de bajar y repuntar desde el 26/11. Con 5,76 m hoy, hay margen hasta la alerta (6,50 m), pero conviene seguir los partes.",
+   "base": [
+    "INA, reporte diario del 20/11/2026",
+    "Prefectura Naval Argentina, 22/11/2026"
+   ],
+   "confianza": "media",
+   "horizonte": "próximas semanas",
+   "ambito": "global",
+   "localidad": "Corrientes Capital",
+   "fecha": "22/11/2026"
+  },
+  {
+   "id": "rio-parana-bajante",
+   "tema": "🌊 Río Paraná",
+   "titulo": "El Paraná en la Capital sigue bajando despacio, 74 cm debajo de la alerta",
+   "texto": "Marcó 5,76 m el 22/11, frente a 5,93 m el 20/11 y 6,20 m el 18/11: baja unos 5 a 8 cm por día. Itatí (5,92 m) y Paso de la Patria (5,80 m) también bajan. El INA (20/11) prevé que siga bajando muy despacio unos 4 días y que pueda volver a subir desde el 26/11 por lluvias en la cuenca alta.",
+   "base": [
+    "Prefectura Naval Argentina (rioparana.com.ar), 18 a 22/11/2026",
+    "INA, reporte diario del 20/11/2026"
+   ],
+   "confianza": "alta",
+   "horizonte": "próximos 3 días",
+   "ambito": "global",
+   "localidad": "Corrientes Capital",
+   "fecha": "22/11/2026"
+  },
   {
    "id": "lluvia-18-11",
    "tema": "🌧️ Lluvia",

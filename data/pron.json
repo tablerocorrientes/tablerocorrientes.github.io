@@ -1,10 +1,10 @@
 {
- "actualizado": "22/11/2026, 07:13 h",
- "metodo": "estimación derivada: promedio de modelos (Open-Meteo), calculado automáticamente; las tareas agregan el parte del SMN cuando corren",
- "estado_alertas": "NO_VERIFICADO",
+ "actualizado": "22/11/2026, 09:03 h",
+ "metodo": "estimación derivada de modelos y del parte del SMN",
+ "estado_alertas": "VERIFICADO_SIN_ALERTAS",
  "estado_verificado": {
-  "fecha": "18/11/2026, 11:20 h",
-  "fuente": "SMN (lectura de las 08:43 h) y COE de Corrientes (lectura de las 11:12 h)"
+  "fecha": "22/11/2026, 09:03 h",
+  "fuente": "COE de Corrientes (lectura de las 08:56 h): la última alerta para la provincia terminó a las 08:59 h y no hay alertas por empezar"
  },
  "met_archivo": {
   "nombre": "vigilancia_meteorologica_20261113_183508.json",
@@ -21,10 +21,10 @@
     "horas": 1
    },
    "manana": {
-    "mm": 1.0,
-    "horas": 3
+    "mm": 0.0,
+    "horas": 0
    },
-   "smn": "Rigen para la Capital la alerta naranja del COE (fuente SMN) por granizo, lluvias intensas, tormentas y vientos fuertes hasta las 20:00 h (70 mm o más), la naranja por tormentas hasta las 13:00 h y la amarilla hasta las 12:00 h. El aviso rojo a corto plazo para la Capital (09:30 a 10:30 h) ya venció; a las 11:04 h el COE emitió otro aviso rojo para San Luis del Palmar, Empedrado y otros cinco departamentos, sin la Capital. El SMN mantiene la alerta naranja provincial hasta las 05:59 h del 19/11 (lectura de las 08:43 h). Parte del SMN difundido por La Nación (11:13 h): hoy tormentas fuertes por la mañana (100 %) y por la tarde (70 %) y chaparrones por la noche (40 %); mañana mayormente nublado por la mañana (10 %) y chaparrones y tormentas aisladas por la tarde y la noche (40 %).",
+   "smn": "Parte del SMN difundido por La Nación (07:49 h del 22/11): hoy tormentas aisladas por la mañana (70 %), mayormente nublado por la tarde (10 %) y parcialmente nublado por la noche (0 %); mañana lunes sin lluvia prevista (0 %); martes tormentas fuertes (70 %). La alerta amarilla por tormentas del COE terminó a las 08:59 h.",
    "modelos": {
     "hoy": [
      [
@@ -55,9 +55,9 @@
      ]
     ]
    },
-   "criterio": "Promedio de los modelos GFS (NOAA), ICON (DWD), ECMWF (Open-Meteo), calculado automáticamente. Estimación derivada, no una medición.",
-   "fuente": "Hoy 0,4 mm, mañana 1,0 mm, promedio de modelos (Open-Meteo, 22/11/2026, 07:13 h)",
-   "act": "22/11, 07:13 h"
+   "criterio": "Hoy: promedio de los modelos (el SMN prevé tormentas aisladas, no fuertes). Mañana: el SMN prevé 0 % de lluvia, se usa el modelo más bajo. Estimación derivada, no una medición.",
+   "fuente": "Hoy 0,4 mm (promedio de modelos), mañana 0,0 mm (modelo más bajo), con el parte del SMN del 22/11/2026, 07:49 h",
+   "act": "22/11, 09:03 h"
   },
   "Goya": {
    "hoy": {
@@ -585,17 +585,17 @@
    0.0,
    0.0,
    0.0,
-   0.07,
-   0.07,
-   0.07,
-   0.23,
-   0.23,
-   0.23,
    0.0,
    0.0,
    0.0,
-   0.03,
-   0.03
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
   ],
   "2026-11-24": [
    0.03,
@@ -624,59 +624,59 @@
    0.0
   ]
  },
- "horario_act": "22/11/2026, 07:13 h",
- "consultado": "22/11/2026, 07:08 h",
- "consulta_resultado": "sin alerta ni lluvia",
+ "horario_act": "22/11/2026, 09:03 h",
+ "consultado": "22/11/2026, 09:03 h",
+ "consulta_resultado": "datos nuevos",
  "extendido": {
-  "actualizado": "22/11/2026, 07:13 h",
+  "actualizado": "22/11/2026, 09:03 h",
   "aviso": "Pronóstico extendido informativo. No se usa en los cálculos del simulador.",
   "ciudades": {
    "Corrientes Capital": {
     "fuente": "Servicio Meteorológico Nacional, publicado por La Nación",
     "url": "https://www.lanacion.com.ar/clima/corrientes/",
-    "emision": "18/11/2026, 07:02 h",
+    "emision": "22/11/2026, 07:49 h",
     "dias": [
      {
-      "fecha": "2026-11-19",
-      "resumen": "Chaparrones y tormentas aisladas",
-      "prob": 40,
-      "tmin": 25,
+      "fecha": "2026-11-23",
+      "resumen": "Parcial a mayormente nublado",
+      "prob": 0,
+      "tmin": 23,
       "tmax": 30
      },
      {
-      "fecha": "2026-11-20",
-      "resumen": "Tormentas aisladas",
-      "prob": 40,
-      "tmin": 22,
-      "tmax": 31
-     },
-     {
-      "fecha": "2026-11-21",
-      "resumen": "Parcialmente nublado",
-      "prob": 0,
-      "tmin": 22,
+      "fecha": "2026-11-24",
+      "resumen": "Tormentas fuertes",
+      "prob": 70,
+      "tmin": 21,
       "tmax": 32
      },
      {
-      "fecha": "2026-11-22",
-      "resumen": "Tormentas aisladas",
-      "prob": 40,
-      "tmin": 21,
-      "tmax": 31
-     },
-     {
-      "fecha": "2026-11-23",
+      "fecha": "2026-11-25",
       "resumen": "Mayormente nublado",
       "prob": 10,
-      "tmin": 17,
-      "tmax": 28
+      "tmin": 19,
+      "tmax": 26
      },
      {
-      "fecha": "2026-11-24",
-      "resumen": "Lluvias aisladas por la tarde",
-      "prob": 40,
+      "fecha": "2026-11-26",
+      "resumen": "Mayormente nublado",
+      "prob": 0,
       "tmin": 20,
-      "tmax": 32
+      "tmax": 27
+     },
+     {
+      "fecha": "2026-11-27",
+      "resumen": "Tormentas aisladas por la tarde",
+      "prob": 40,
+      "tmin": 19,
+      "tmax": 29
+     },
+     {
+      "fecha": "2026-11-28",
+      "resumen": "Parcialmente nublado",
+      "prob": 0,
+      "tmin": 21,
+      "tmax": 33
      }
     ]
    },
@@ -1375,7 +1375,7 @@
    }
   },
   "fiabilidad": {
-   "actualizado": "18/11/2026, 09:05 h",
+   "actualizado": "22/11/2026, 09:03 h",
    "umbral": 0.7,
    "n_min": 20,
    "ventana_dias": 30,
@@ -1394,25 +1394,24 @@
      "habilitado": false
     },
     "3": {
+     "n": 2,
+     "aciertos": 2,
+     "tasa": 1.0,
+     "habilitado": false
+    },
+    "4": {
      "n": 1,
      "aciertos": 1,
      "tasa": 1.0,
      "habilitado": false
     },
-    "4": {
-     "n": 0,
-     "aciertos": 0,
-     "tasa": null,
-     "habilitado": false
-    },
     "5": {
-     "n": 0,
-     "aciertos": 0,
-     "tasa": null,
+     "n": 1,
+     "aciertos": 1,
+     "tasa": 1.0,
      "habilitado": false
     }
    }
   }
- },
- "estado_alertas_nota": "alerta vencida sin reconfirmación"
+ }
 }

@@ -1,5 +1,5 @@
 {
- "actualizado": "18/11/2026, 11:20 h",
+ "actualizado": "22/11/2026, 09:03 h",
  "criterio": "Calles, barrios o zonas anegadas por LLUVIA (no por la crecida de los ríos). Se registra cada caso con fecha, hora, lugar, lluvia medida y fuente: Defensa Civil, municipios, medios y observaciones verificadas. Los días sin registros también quedan anotados en la bitácora.",
  "registros": [
   {
@@ -14,6 +14,11 @@
   }
  ],
  "bitacora": [
+  {
+   "fecha": "2026-11-22",
+   "localidad": "Corrientes Capital",
+   "nota": "Relevamiento de las 09:03 h: rigió la alerta amarilla por tormentas del COE de 03:00 a 08:59 h, pero el SNIH no midió lluvia en la Capital (ICAA y estación 13805) en las últimas 24 h, con el Paraná en 5,76 m. Sin partes de calles o barrios anegados por lluvia en Defensa Civil, la Municipalidad ni los medios consultados."
+  },
   {
    "fecha": "2026-11-18",
    "localidad": "Corrientes Capital",

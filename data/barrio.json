@@ -1,5 +1,5 @@
 {
- "actualizado": "22/11/2026, 07:13 h",
+ "actualizado": "22/11/2026, 09:03 h",
  "dias": {
   "2026-11-02": [
    0,
@@ -561,17 +561,17 @@
    0.0,
    0.0,
    0.0,
-   0.07,
-   0.07,
-   0.07,
-   0.23,
-   0.23,
-   0.23,
    0.0,
    0.0,
    0.0,
-   0.03,
-   0.03
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
   ],
   "2026-11-24": [
    0.03,
@@ -720,11 +720,53 @@
    "min": 70,
    "max": 120,
    "texto": "Aviso rojo a corto plazo para la Capital (COE 2026-0142-CP, fuente SMN) de 09:30 a 10:30 h, ya vencido. Rige la alerta naranja por granizo, lluvias intensas, tormentas y vientos fuertes 2026-0025-NT hasta las 20:00 h (70 mm o más) y la naranja por tormentas 2026-0024-NT hasta las 13:00 h. El SMN extiende la alerta naranja para la provincia hasta las 05:59 h del jueves 19/11."
+  },
+  "2026-11-20": {
+   "nivel": "rojo",
+   "incluye_capital": true,
+   "zonas": "Capital, Empedrado, Saladas, San Cosme y San Luis del Palmar",
+   "desde": "20/11/2026, 07:03 h",
+   "hasta": "20/11/2026, 09:03 h",
+   "desde_iso": "2026-11-20T07:03:00-03:00",
+   "hasta_iso": "2026-11-20T09:03:00-03:00",
+   "emision": "20/11/2026, 07:18 h",
+   "emision_iso": "2026-11-20T07:18:00-03:00",
+   "min": null,
+   "max": null,
+   "texto": "Aviso rojo a corto plazo por tormentas para la Capital (COE 2026-0158-CP, fuente SMN) de 07:03 a 09:03 h, y alerta naranja por tormentas de 09:00 a 13:00 h. Ya vencidos."
+  },
+  "2026-11-21": {
+   "nivel": "amarillo",
+   "incluye_capital": true,
+   "zonas": "Berón de Astrada, Capital, Empedrado, General Paz, Itatí, Ituzaingó, Mburucuyá, Saladas, San Cosme, San Luis del Palmar y San Miguel",
+   "desde": "21/11/2026, 00:00 h",
+   "hasta": "21/11/2026, 06:00 h",
+   "desde_iso": "2026-11-21T00:00:00-03:00",
+   "hasta_iso": "2026-11-21T06:00:00-03:00",
+   "emision": null,
+   "emision_iso": null,
+   "min": null,
+   "max": null,
+   "texto": "Alerta amarilla por tormentas del COE (fuente SMN) para la Capital de 00:00 a 06:00 h. Ya vencida."
+  },
+  "2026-11-22": {
+   "nivel": "amarillo",
+   "incluye_capital": true,
+   "zonas": "Berón de Astrada, Capital, Concepción, Curuzú Cuatiá, Empedrado, General Alvear, General Paz, Itatí, Ituzaingó, Mburucuyá, Mercedes, Paso de los Libres, Saladas, San Cosme, San Luis del Palmar, San Martín, San Miguel, San Roque, Santo Tomé y Sauce",
+   "desde": "22/11/2026, 03:00 h",
+   "hasta": "22/11/2026, 08:59 h",
+   "desde_iso": "2026-11-22T03:00:00-03:00",
+   "hasta_iso": "2026-11-22T08:59:00-03:00",
+   "emision": "21/11/2026, 18:01 h",
+   "emision_iso": "2026-11-21T18:01:00-03:00",
+   "min": 30,
+   "max": 70,
+   "texto": "Alerta amarilla por tormentas del COE (2026-0087-AT, fuente SMN) de 03:00 a 08:59 h, con 30 a 70 mm posibles. Ya terminó: hasta las 08 h el SNIH no midió lluvia en la Capital."
   }
  },
  "rio": {
-  "altura": 5.81,
-  "actualizado": "21/11/2026, 12:00 h, Prefectura Naval Argentina (vía rioparana.com.ar)",
+  "altura": 5.76,
+  "actualizado": "22/11/2026, 00:00 h, Prefectura Naval Argentina (vía rioparana.com.ar)",
   "alerta": 6.5,
   "evacuacion": 7.0
  },
@@ -1420,26 +1462,38 @@
   },
   "2026-11-22": {
    "smn": {
-    "texto": "Parte del SMN difundido por La Nación (05:01 h del 18/11): el domingo tormentas aisladas (40 %).",
-    "mm": null,
+    "texto": "Parte del SMN difundido por La Nación (07:49 h): tormentas aisladas por la mañana (70 %), mayormente nublado por la tarde (10 %). Alerta amarilla del COE de 03:00 a 08:59 h, con 30 a 70 mm (escenario severo, no se usa como pronóstico central).",
+    "mm": [
+     30,
+     70
+    ],
     "u": "https://www.lanacion.com.ar/clima/corrientes/"
    },
    "modelos": [
     {
-     "n": "Modelo numérico del SMN",
-     "mm": 0.4,
-     "act": "18/11, 05:21 h"
+     "n": "GFS (NOAA) (Open-Meteo)",
+     "mm": 0.9,
+     "act": "22/11, 07:13 h"
     },
     {
-     "n": "Open-Meteo",
-     "mm": 18.4,
-     "act": "18/11, 05:21 h"
+     "n": "ICON (DWD) (Open-Meteo)",
+     "mm": 0.4,
+     "act": "22/11, 07:13 h"
+    },
+    {
+     "n": "ECMWF (Open-Meteo)",
+     "mm": 0.0,
+     "act": "22/11, 07:13 h"
+    },
+    {
+     "n": "Modelo numérico del SMN",
+     "mm": 1.9,
+     "act": "22/11, 08:56 h"
     }
    ],
-   "usado": 9.4,
-   "criterio": "Para este horizonte la fiabilidad del pronóstico extendido aún no está habilitada: se usa el promedio de los dos modelos. Estimación derivada, no una medición."
+   "usado": 0.4,
+   "criterio": "El SMN prevé tormentas aisladas (no fuertes): se usa el promedio de los modelos de Open-Meteo. Estimación derivada, no una medición."
   }
  },
- "estado_alertas": "NO_VERIFICADO",
- "estado_alertas_nota": "alerta vencida sin reconfirmación"
+ "estado_alertas": "VERIFICADO_SIN_ALERTAS"
 }
