@@ -44,6 +44,76 @@
    "url": "https://news.agrofy.com.ar/altura-de-los-rios/corrientes",
    "desde": "22/11/2026, 09:00 h",
    "error": "HTTP Error 404: NOT FOUND"
+  },
+  {
+   "url": "https://www.senadoctes.gov.ar/informesordenes/2026/19-11-2026.pdf",
+   "desde": "22/11/2026, 18:50 h",
+   "error": "HTTP Error 404: NOT FOUND"
+  },
+  {
+   "url": "https://www.senadoctes.gov.ar/ordenes/2026/19-11-2026.pdf",
+   "desde": "22/11/2026, 18:50 h",
+   "error": "HTTP Error 404: NOT FOUND"
+  },
+  {
+   "url": "https://www.senadoctes.gov.ar/taquigraficas/2026/12-11-2026.pdf",
+   "desde": "22/11/2026, 18:50 h",
+   "error": "HTTP Error 404: NOT FOUND"
+  },
+  {
+   "url": "https://www.nortecorrientes.com/207207-tarifaria-2027-los-tributos-municipales-aumentaran-un-29",
+   "desde": "22/11/2026, 18:50 h",
+   "error": "HTTP Error 404: NOT FOUND"
+  },
+  {
+   "url": "https://www.nortecorrientes.com/207205-los-docentes-en-pie-de-guerra-apuran-reuniones-y-evaluan-medidas-de-fuerza",
+   "desde": "22/11/2026, 18:50 h",
+   "error": "HTTP Error 404: NOT FOUND"
+  },
+  {
+   "url": "https://www.nortecorrientes.com/207201-judiciales-tambien-tendran-un-10-de-aumento",
+   "desde": "22/11/2026, 18:50 h",
+   "error": "HTTP Error 404: NOT FOUND"
+  },
+  {
+   "url": "https://www.nortecorrientes.com/207208-se-aplicara-una-suba-en-las-tarifas-de-luz-que-golpeara-incluso-a-los-subsi",
+   "desde": "22/11/2026, 18:50 h",
+   "error": "HTTP Error 404: NOT FOUND"
+  },
+  {
+   "url": "https://www.radiodos.com.ar/217268-salarios-municipales-piden-abrir-la-discusion-paritaria-para-recupera",
+   "desde": "22/11/2026, 18:50 h",
+   "error": "HTTP Error 404: NOT FOUND"
+  },
+  {
+   "url": "https://www.radiodos.com.ar/217264-corrientes-fue-una-de-las-pocas-provincias-que-logro-destrabar-atn",
+   "desde": "22/11/2026, 18:50 h",
+   "error": "HTTP Error 404: NOT FOUND"
+  },
+  {
+   "url": "https://www.radiodos.com.ar/217265-gustavo-valdes-se-reunio-con-hernan-lacunza",
+   "desde": "22/11/2026, 18:50 h",
+   "error": "HTTP Error 404: NOT FOUND"
+  },
+  {
+   "url": "https://www.radiodos.com.ar/217237-veda-extendida-15-anos%C2%A0-una-propuesta-desde-la-ciencia-qu",
+   "desde": "22/11/2026, 18:50 h",
+   "error": "<urlopen error [Errno 111] Connection refused>"
+  },
+  {
+   "url": "https://ciudaddecorrientes.gov.ar/noticias",
+   "desde": "22/11/2026, 18:50 h",
+   "error": "<urlopen error _ssl.c:1063: The handshake operation timed out>"
+  },
+  {
+   "url": "https://www.corrientes.gob.ar/prensa",
+   "desde": "22/11/2026, 18:50 h",
+   "error": "HTTP Error 404: NOT FOUND"
+  },
+  {
+   "url": "https://www.diarioepoca.com/1395430-samaniego-asumio-en-el-consejo-de-educacion-tras-la-salida-de-rollet",
+   "desde": "22/11/2026, 18:50 h",
+   "error": "HTTP Error 404: NOT FOUND"
   }
  ]
 }

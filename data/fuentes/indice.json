@@ -1,6 +1,6 @@
 {
- "consultado": "22/11/2026, 18:48 h",
- "consultado_iso": "2026-11-22T18:48-03:00",
+ "consultado": "22/11/2026, 18:50 h",
+ "consultado_iso": "2026-11-22T18:50-03:00",
  "paginas": {
   "smn_alertas": {
    "url": "https://www.smn.gob.ar/alertas",
@@ -129,6 +129,120 @@
    "archivo": "data/fuentes/coe_a_2026_0086_AT.txt"
   }
  },
+ "pedidas": {
+  "https://hcdcorrientes.gov.ar/sesion-19-es-ley-la-declaracion-de-emergencia-climatica-e-hidrica-en-la-provincia/": {
+   "url": "https://hcdcorrientes.gov.ar/sesion-19-es-ley-la-declaracion-de-emergencia-climatica-e-hidrica-en-la-provincia/",
+   "estado": 200,
+   "caracteres": 9484,
+   "archivo": "data/fuentes/web/hcdcorrientes_gov_ar_sesion_19_es_ley_la_declaracion_de_emergencia_climatica_e_hidrica_en_.txt"
+  },
+  "https://hcdcorrientes.gov.ar/sesiones/informe-del-orden-del-dia/": {
+   "url": "https://hcdcorrientes.gov.ar/sesiones/informe-del-orden-del-dia/",
+   "estado": 200,
+   "caracteres": 11117,
+   "archivo": "data/fuentes/web/hcdcorrientes_gov_ar_sesiones_informe_del_orden_del_dia.txt"
+  },
+  "https://hcdcorrientes.gov.ar/sesiones/orden-del-dia/": {
+   "url": "https://hcdcorrientes.gov.ar/sesiones/orden-del-dia/",
+   "estado": 200,
+   "caracteres": 11522,
+   "archivo": "data/fuentes/web/hcdcorrientes_gov_ar_sesiones_orden_del_dia.txt"
+  },
+  "https://www.senadoctes.gov.ar/informesordenes/2026/19-11-2026.pdf": {
+   "url": "https://www.senadoctes.gov.ar/informesordenes/2026/19-11-2026.pdf",
+   "estado": "error",
+   "detalle": "HTTP Error 404: NOT FOUND"
+  },
+  "https://www.senadoctes.gov.ar/ordenes/2026/19-11-2026.pdf": {
+   "url": "https://www.senadoctes.gov.ar/ordenes/2026/19-11-2026.pdf",
+   "estado": "error",
+   "detalle": "HTTP Error 404: NOT FOUND"
+  },
+  "https://www.senadoctes.gov.ar/taquigraficas/2026/12-11-2026.pdf": {
+   "url": "https://www.senadoctes.gov.ar/taquigraficas/2026/12-11-2026.pdf",
+   "estado": "error",
+   "detalle": "HTTP Error 404: NOT FOUND"
+  },
+  "https://munired.mcypcorrientes.gob.ar/noticia/coordinan-la-distribucion-de-donaciones-del-neike-solidario-para-los-afectados-por-el-fenomeno-de-el-nino": {
+   "url": "https://munired.mcypcorrientes.gob.ar/noticia/coordinan-la-distribucion-de-donaciones-del-neike-solidario-para-los-afectados-por-el-fenomeno-de-el-nino",
+   "estado": 200,
+   "caracteres": 3510,
+   "archivo": "data/fuentes/web/munired_mcypcorrientes_gob_ar_noticia_coordinan_la_distribucion_de_donaciones_del_neike_so.txt"
+  },
+  "https://munired.mcypcorrientes.gob.ar/noticia/entre-este-24-y-el-30-los-agentes-provinciales-perciben-haberes-de-noviembre": {
+   "url": "https://munired.mcypcorrientes.gob.ar/noticia/entre-este-24-y-el-30-los-agentes-provinciales-perciben-haberes-de-noviembre",
+   "estado": 200,
+   "caracteres": 1154,
+   "archivo": "data/fuentes/web/munired_mcypcorrientes_gob_ar_noticia_entre_este_24_y_el_30_los_agentes_provinciales_perci.txt"
+  },
+  "https://munired.mcypcorrientes.gob.ar/noticia/lanzan-el-nande-week-correntino-2026-con-descuentos-promociones-y-3-millones-en-premios": {
+   "url": "https://munired.mcypcorrientes.gob.ar/noticia/lanzan-el-nande-week-correntino-2026-con-descuentos-promociones-y-3-millones-en-premios",
+   "estado": 200,
+   "caracteres": 2792,
+   "archivo": "data/fuentes/web/munired_mcypcorrientes_gob_ar_noticia_lanzan_el_nande_week_correntino_2026_con_descuentos_.txt"
+  },
+  "https://munired.mcypcorrientes.gob.ar/noticia/corrientes-abrira-las-preinscripciones-para-los-centros-de-desarrollo-infantil-del-ciclo-2027": {
+   "url": "https://munired.mcypcorrientes.gob.ar/noticia/corrientes-abrira-las-preinscripciones-para-los-centros-de-desarrollo-infantil-del-ciclo-2027",
+   "estado": 200,
+   "caracteres": 1713,
+   "archivo": "data/fuentes/web/munired_mcypcorrientes_gob_ar_noticia_corrientes_abrira_las_preinscripciones_para_los_cent.txt"
+  },
+  "https://www.nortecorrientes.com/207207-tarifaria-2027-los-tributos-municipales-aumentaran-un-29": {
+   "url": "https://www.nortecorrientes.com/207207-tarifaria-2027-los-tributos-municipales-aumentaran-un-29",
+   "estado": "error",
+   "detalle": "HTTP Error 404: NOT FOUND"
+  },
+  "https://www.nortecorrientes.com/207205-los-docentes-en-pie-de-guerra-apuran-reuniones-y-evaluan-medidas-de-fuerza": {
+   "url": "https://www.nortecorrientes.com/207205-los-docentes-en-pie-de-guerra-apuran-reuniones-y-evaluan-medidas-de-fuerza",
+   "estado": "error",
+   "detalle": "HTTP Error 404: NOT FOUND"
+  },
+  "https://www.nortecorrientes.com/207201-judiciales-tambien-tendran-un-10-de-aumento": {
+   "url": "https://www.nortecorrientes.com/207201-judiciales-tambien-tendran-un-10-de-aumento",
+   "estado": "error",
+   "detalle": "HTTP Error 404: NOT FOUND"
+  },
+  "https://www.nortecorrientes.com/207208-se-aplicara-una-suba-en-las-tarifas-de-luz-que-golpeara-incluso-a-los-subsi": {
+   "url": "https://www.nortecorrientes.com/207208-se-aplicara-una-suba-en-las-tarifas-de-luz-que-golpeara-incluso-a-los-subsi",
+   "estado": "error",
+   "detalle": "HTTP Error 404: NOT FOUND"
+  },
+  "https://www.radiodos.com.ar/217268-salarios-municipales-piden-abrir-la-discusion-paritaria-para-recupera": {
+   "url": "https://www.radiodos.com.ar/217268-salarios-municipales-piden-abrir-la-discusion-paritaria-para-recupera",
+   "estado": "error",
+   "detalle": "HTTP Error 404: NOT FOUND"
+  },
+  "https://www.radiodos.com.ar/217264-corrientes-fue-una-de-las-pocas-provincias-que-logro-destrabar-atn": {
+   "url": "https://www.radiodos.com.ar/217264-corrientes-fue-una-de-las-pocas-provincias-que-logro-destrabar-atn",
+   "estado": "error",
+   "detalle": "HTTP Error 404: NOT FOUND"
+  },
+  "https://www.radiodos.com.ar/217265-gustavo-valdes-se-reunio-con-hernan-lacunza": {
+   "url": "https://www.radiodos.com.ar/217265-gustavo-valdes-se-reunio-con-hernan-lacunza",
+   "estado": "error",
+   "detalle": "HTTP Error 404: NOT FOUND"
+  },
+  "https://www.radiodos.com.ar/217237-veda-extendida-15-anos%C2%A0-una-propuesta-desde-la-ciencia-qu": {
+   "url": "https://www.radiodos.com.ar/217237-veda-extendida-15-anos%C2%A0-una-propuesta-desde-la-ciencia-qu",
+   "estado": "error",
+   "detalle": "<urlopen error [Errno 111] Connection refused>"
+  },
+  "https://ciudaddecorrientes.gov.ar/noticias": {
+   "url": "https://ciudaddecorrientes.gov.ar/noticias",
+   "estado": "error",
+   "detalle": "<urlopen error _ssl.c:1063: The handshake operation timed out>"
+  },
+  "https://www.corrientes.gob.ar/prensa": {
+   "url": "https://www.corrientes.gob.ar/prensa",
+   "estado": "error",
+   "detalle": "HTTP Error 404: NOT FOUND"
+  },
+  "https://www.diarioepoca.com/1395430-samaniego-asumio-en-el-consejo-de-educacion-tras-la-salida-de-rollet": {
+   "url": "https://www.diarioepoca.com/1395430-samaniego-asumio-en-el-consejo-de-educacion-tras-la-salida-de-rollet",
+   "estado": "error",
+   "detalle": "HTTP Error 404: NOT FOUND"
+  }
+ },
  "portales": {
   "munired_municipio_corrientes": {
    "url": "https://munired.mcypcorrientes.gob.ar/noticias/corrientes",
@@ -155,64 +269,5 @@
    "archivo": "data/fuentes/portales/senado_corrientes.txt"
   }
  },
- "pedidas": {
-  "https://www.diarioepoca.com/1394439-jp-valdes-y-polich-destacaron-el-impacto-de-la-megaobra-de-desague-concluida-sobre-el-pirayui": {
-   "url": "https://www.diarioepoca.com/1394439-jp-valdes-y-polich-destacaron-el-impacto-de-la-megaobra-de-desague-concluida-sobre-el-pirayui",
-   "estado": "error",
-   "detalle": "HTTP Error 404: NOT FOUND"
-  },
-  "https://www.diarioepoca.com/1393741-polich-superviso-obra-de-600-metros-de-nuevos-desagues-pluviales": {
-   "url": "https://www.diarioepoca.com/1393741-polich-superviso-obra-de-600-metros-de-nuevos-desagues-pluviales",
-   "estado": "error",
-   "detalle": "HTTP Error 404: NOT FOUND"
-  },
-  "https://www.meteored.com.ar/noticias/prediccion/argentina-tiempo-pronostico-alerta-lluvias-crecida-litoral-fin-de-semana-el-nino-noviembre.html": {
-   "url": "https://www.meteored.com.ar/noticias/prediccion/argentina-tiempo-pronostico-alerta-lluvias-crecida-litoral-fin-de-semana-el-nino-noviembre.html",
-   "estado": 200,
-   "caracteres": 6900,
-   "archivo": "data/fuentes/web/meteored_com_ar_noticias_prediccion_argentina_tiempo_pronostico_alerta_lluvias_crecida_lit.txt"
-  },
-  "https://www.meteored.com.ar/noticias/prediccion/actualizacion-de-la-crecida-del-rio-parana-9-puertos-superan-el-nivel-de-evacuacion-y-hay-pronostico-de-nuevas-lluvias.html": {
-   "url": "https://www.meteored.com.ar/noticias/prediccion/actualizacion-de-la-crecida-del-rio-parana-9-puertos-superan-el-nivel-de-evacuacion-y-hay-pronostico-de-nuevas-lluvias.html",
-   "estado": 200,
-   "caracteres": 7427,
-   "archivo": "data/fuentes/web/meteored_com_ar_noticias_prediccion_actualizacion_de_la_crecida_del_rio_parana_9_puertos_s.txt"
-  },
-  "https://www.elonce.com/uid-893342": {
-   "url": "https://www.elonce.com/uid-893342",
-   "estado": 200,
-   "caracteres": 12463,
-   "archivo": "data/fuentes/web/elonce_com_uid_893342.txt"
-  },
-  "https://www.elonce.com/uid-893371": {
-   "url": "https://www.elonce.com/uid-893371",
-   "estado": 200,
-   "caracteres": 11198,
-   "archivo": "data/fuentes/web/elonce_com_uid_893371.txt"
-  },
-  "https://economis.com.ar/?p=337181": {
-   "url": "https://economis.com.ar/?p=337181",
-   "estado": 200,
-   "caracteres": 6100,
-   "archivo": "data/fuentes/web/economis_com_ar_p_337181.txt"
-  },
-  "https://www.letrap.com.ar/el-rio-parana-comienza-estabilizarse-pero-yacyreta-advierte-el-riesgo-nuevas-crecidas-n5427795": {
-   "url": "https://www.letrap.com.ar/el-rio-parana-comienza-estabilizarse-pero-yacyreta-advierte-el-riesgo-nuevas-crecidas-n5427795",
-   "estado": 200,
-   "caracteres": 5724,
-   "archivo": "data/fuentes/web/letrap_com_ar_el_rio_parana_comienza_estabilizarse_pero_yacyreta_advierte_el_riesgo_nuevas.txt"
-  },
-  "https://www.conclusion.com.ar/?p=1469303": {
-   "url": "https://www.conclusion.com.ar/?p=1469303",
-   "estado": 200,
-   "caracteres": 6165,
-   "archivo": "data/fuentes/web/conclusion_com_ar_p_1469303.txt"
-  },
-  "https://news.agrofy.com.ar/altura-de-los-rios/corrientes": {
-   "url": "https://news.agrofy.com.ar/altura-de-los-rios/corrientes",
-   "estado": "error",
-   "detalle": "HTTP Error 404: NOT FOUND"
-  }
- },
- "pedidas_consultado": "22/11/2026, 09:00 h"
+ "pedidas_consultado": "22/11/2026, 18:50 h"
 }
