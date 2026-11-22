@@ -26,6 +26,14 @@ REGLAS COMUNES PARA EL SITIO WEB (obligatorio)
 
 Frecuencia: tarea A, diaria a las 08:55, en la nube. Es la actualización completa del día y la que detecta nuevas alertas por la mañana (la tarea B, de las 18:30, usa el Texto W1B, más corto).
 
+LO QUE YA HACE GITHUB (desde el 22/11/2026; NO repetirlo en esta tarea, para ahorrar consumo): el ciclo continuo de GitHub actualiza solo, sin Claude: las lecturas de los ríos Paraná (Prefectura) y Uruguay (Salto Grande) en data/puertos.json, data/hist.json y data/prov.json; la lluvia medida (data/lluvia.json y data/obs.json); la imagen satelital; el pronóstico por modelos de las 12 ciudades y de la Capital hora por hora (data/pron.json, data/barrio.json, data/prov.json); el pronóstico extendido; las fuentes oficiales descargadas en data/fuentes/; la prensa (notas con "auto": true); la bitácora y el registro. Por lo tanto, en esta corrida:
+- Punto 1 (RÍOS): NO consultar ni escribir lecturas; hacer solo el punto 1 e (pronóstico hidrológico del INA, con data/fuentes/ina_reporte_diario.txt) y los textos breves de los ríos ("nota_breve", "uruguay_breve", "tapon_breve") si cambiaron los datos.
+- Punto 2 (ALERTAS): leer primero con código data/fuentes/ (COE y data/fuentes/smn_alertas_local.json); buscar en la web solo si faltan o tienen más de 3 horas.
+- Punto 3 (PRONÓSTICO): NO recalcular por modelos; solo agregar el parte del SMN por ciudad y aplicar el criterio de escenario (modelo más alto o más bajo) cuando corresponda, como indica el punto 2 del Texto W3.
+- Puntos 3 bis, 4, 4 bis y 6 (extendido, lluvia, verificación del extendido e imagen satelital): NO hacerlos.
+- Prensa: solo revisar las notas automáticas (ver punto 5).
+Lo que SÍ hace esta tarea: alertas interpretadas, pronóstico hidrológico del INA, evacuados y partes oficiales (incluida la EBY), obras y zonas anegadas, El Niño, reportes de los vecinos, inferencias, conocimiento y textos breves.
+
 1. RÍOS (archivos data/puertos.json, data/hist.json, data/prov.json y data/barrio.json):
    a. Consultar directamente el último parte oficial de alturas: Prefectura Naval Argentina (contenidosweb.prefecturanaval.gob.ar/alturas, o su reproducción en rioparana.com.ar), CIM/UNL e INA-SIyAH para el Paraná, y CTM Salto Grande para el Uruguay. Para cada puerto: altura, variación, fecha y hora de observación (o "hora no publicada"), fuente y enlace.
    b. data/puertos.json: actualizar "puertos" y "puertos_uruguay" (altura, variación, registro con fecha y hora, fuente), "nota", "uruguay_nota", "actualizado" y "ultimo_intento".
