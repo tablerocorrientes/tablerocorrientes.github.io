@@ -37,7 +37,7 @@ jobs:
             HACER_LL=$(( AHORA - U_LL >= P_LL )); HACER_FU=$(( AHORA - U_FU >= P_FU )); HACER_PR=$(( AHORA - U_PR >= P_PR )); HACER_RI=$(( AHORA - U_RI >= 10740 ))
             for i in 1 2 3; do
               git fetch -q --depth 1 origin main && git reset -q --hard origin/main
-              if [ $HACER_LL = 1 ]; then python3 tareas/snih_lluvia.py || true; fi
+              if [ $HACER_LL = 1 ]; then python3 tareas/snih_lluvia.py || true; python3 tareas/smn_cap.py || true; fi
               python3 tareas/satelite.py || true
               if [ $HACER_FU = 1 ]; then python3 tareas/fuentes_oficiales.py || true; fi
               if [ $HACER_PR = 1 ]; then python3 tareas/extendido_ciudades.py || true; python3 tareas/pronostico_modelos.py || true; fi

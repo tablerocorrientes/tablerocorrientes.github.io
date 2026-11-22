@@ -1,49 +1,38 @@
 {
- "consultado": "18/11/2026, 08:43 h",
- "consultado_iso": "2026-11-18T08:43:40-03:00",
- "fuente": "Servicio Meteorológico Nacional (www.smn.gob.ar/alertas), leído desde una conexión de Corrientes",
+ "consultado": "22/11/2026, 13:01 h",
+ "consultado_iso": "2026-11-22T13:01:42-03:00",
+ "fuente": "Servicio Meteorológico Nacional, canal oficial de alertas y avisos (CAP)",
  "resultado": "con alertas",
  "alertas": [
   {
    "tipo": "alerta",
-   "nivel": "naranja",
-   "fenomeno": "tormenta",
-   "zonas": "Corrientes (provincia; la tabla del SMN no detalla departamentos)",
-   "desde": "18/11/2026, 06:00 h",
-   "hasta": "19/11/2026, 05:59 h",
-   "emision": "18/11/2026, 06:24 h",
-   "texto": "Resumen por provincia del SMN: Corrientes con alerta naranja por tormenta y aviso a muy corto plazo vigente."
-  },
-  {
-   "tipo": "aviso a muy corto plazo",
-   "nivel": null,
-   "fenomeno": "tormentas fuertes con lluvias intensas, ráfagas y ocasional caída de granizo",
-   "zonas": "Beron de Astrada - Concepcion - Corrientes - Empedrado - Gral Paz - Itati - Mburucuya - Saladas - San Cosme - San Luis del Palmar - San Miguel",
-   "desde": "18/11/2026, 07:51 h",
-   "hasta": "dos horas desde la emisión",
-   "emision": "18/11/2026, 07:51 h",
-   "texto": "Tormentas fuertes con lluvias intensas, ráfagas y ocasional caída de granizo, detectadas con radares meteorológicos."
-  },
-  {
-   "tipo": "aviso a muy corto plazo",
-   "nivel": null,
-   "fenomeno": "tormentas fuertes con lluvias intensas, ráfagas y ocasional caída de granizo",
-   "zonas": "San Cosme",
-   "desde": "18/11/2026, 08:03 h",
-   "hasta": "dos horas desde la emisión",
-   "emision": "18/11/2026, 08:03 h",
-   "texto": "Tormentas fuertes con lluvias intensas, ráfagas y ocasional caída de granizo, detectadas con radares meteorológicos."
-  },
-  {
-   "tipo": "aviso a muy corto plazo",
-   "nivel": null,
-   "fenomeno": "tormentas fuertes con lluvias intensas, ráfagas y ocasional caída de granizo",
-   "zonas": "Bella Vista - Concepcion - Curuzu Cuatia - Esquina - Goya - Ituzaingo - Lavalle - Mburucuya - Mercedes - Monte Caseros - Paso de los Libres - Saladas - San Martin - San Miguel - San Roque - Sauce",
-   "desde": "18/11/2026, 08:09 h",
-   "hasta": "dos horas desde la emisión",
-   "emision": "18/11/2026, 08:09 h",
-   "texto": "Tormentas fuertes con lluvias intensas, ráfagas y ocasional caída de granizo, detectadas con radares meteorológicos."
+   "nivel": "amarillo",
+   "fenomeno": "tormentas",
+   "zonas": "Berón de Astrada - Capital - Empedrado - General Paz - Itatí - Ituzaingó - Mburucuyá - Saladas - San Cosme - San Luis del Palmar - San Miguel",
+   "departamentos": [
+    "Berón de Astrada",
+    "Capital",
+    "Empedrado",
+    "General Paz",
+    "Itatí",
+    "Ituzaingó",
+    "Mburucuyá",
+    "Saladas",
+    "San Cosme",
+    "San Luis del Palmar",
+    "San Miguel"
+   ],
+   "incluye_capital": true,
+   "desde": "24/11/2026, 09:00 h",
+   "hasta": "24/11/2026, 20:59 h",
+   "desde_iso": "2026-11-24T09:00:00-03:00",
+   "hasta_iso": "2026-11-24T20:59:59-03:00",
+   "emision": "22/11/2026, 09:00 h",
+   "rango_mm": [
+    30,
+    70
+   ],
+   "texto": "Tormentas. El área será afectada por tormentas aisladas, algunas fuertes o localmente severas. Las mismas podrán estar acompañadas por abundantes precipitaciones en cortos períodos, frecuente actividad eléctrica, ocasional caída de granizo y ráfagas intensas. Se esperan valores de precipitación acumulada entre 30 y 70 mm, que pueden ser superados en forma puntual."
   }
- ],
- "texto_pagina": "Resumen por provincia: información vigente desde las 06:00 h de hoy miércoles 18 hasta las 05:59 h de mañana jueves 19 de noviembre de 2026. Corrientes: ACP (aviso a muy corto plazo) vigente; Tormenta: alerta naranja. Lluvia, nevada, viento, viento zonda, niebla, polvo, humo, ceniza: sin alerta. Alertas: fecha de emisión 18/11/2026 06:24 h.\nAvisos a muy corto plazo: TORMENTAS FUERTES CON LLUVIAS INTENSAS, RAFAGAS Y OCASIONAL CAIDA DE GRANIZO.\nZonas CORRIENTES: Beron de Astrada - Concepcion - Corrientes - Empedrado - Gral Paz - Itati - Mburucuya - Saladas - San Cosme - San Luis del Palmar - San Miguel. Emisión: 18/11/2026, 07:51 h. Validez: dos (2) horas desde la emisión.\nZonas CORRIENTES: San Cosme. Emisión: 18/11/2026, 08:03 h. Validez: dos (2) horas desde la emisión.\nZonas CORRIENTES: Bella Vista - Concepcion - Curuzu Cuatia - Esquina - Goya - Ituzaingo - Lavalle - Mburucuya - Mercedes - Monte Caseros - Paso de los Libres - Saladas - San Martin - San Miguel - San Roque - Sauce. Emisión: 18/11/2026, 08:09 h. Validez: dos (2) horas desde la emisión.\nLos fenómenos indicados en el ACP fueron detectados con radares meteorológicos."
+ ]
 }

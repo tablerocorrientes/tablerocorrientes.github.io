@@ -30,6 +30,7 @@ jobs:
           for i in 1 2 3; do
             git fetch -q --depth 1 origin main && git reset -q --hard origin/main
             python3 tareas/fuentes_oficiales.py || exit 1
+            python3 tareas/smn_cap.py || true
             python3 tareas/satelite.py
             python3 tareas/esperado_dia.py || true
             python3 tareas/registro.py || true
