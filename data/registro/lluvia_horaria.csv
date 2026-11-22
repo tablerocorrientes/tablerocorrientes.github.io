@@ -704,6 +704,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-22,09,Santa Lucía,Santa Lucia,13836,0
 2026-11-22,10,Santa Lucía,Santa Lucia,13836,0
 2026-11-22,11,Santa Lucía,Santa Lucia,13836,0
+2026-11-22,12,Santa Lucía,Santa Lucia,13836,0
 2026-11-01,23,Paso Cerrito,Paso Cerrito,13849,0
 2026-11-02,03,Paso Cerrito,Paso Cerrito,13849,0
 2026-11-02,07,Paso Cerrito,Paso Cerrito,13849,0
@@ -1093,6 +1094,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-22,09,San Carlos,San Carlos,13864,0
 2026-11-22,10,San Carlos,San Carlos,13864,0
 2026-11-22,11,San Carlos,San Carlos,13864,0
+2026-11-22,12,San Carlos,San Carlos,13864,0
 2026-11-01,23,Pueblo Libertador,Pueblo Libertador,13876,0
 2026-11-02,00,Pueblo Libertador,Pueblo Libertador,13876,0
 2026-11-02,01,Pueblo Libertador,Pueblo Libertador,13876,0
@@ -1321,6 +1323,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-22,09,Pueblo Libertador,Pueblo Libertador,13876,0
 2026-11-22,10,Pueblo Libertador,Pueblo Libertador,13876,0
 2026-11-22,11,Pueblo Libertador,Pueblo Libertador,13876,0
+2026-11-22,12,Pueblo Libertador,Pueblo Libertador,13876,0
 2026-11-02,00,Parque Nacional Iberá,RMA08_PNI - Parque Nacional Iberá,220226,0
 2026-11-02,01,Parque Nacional Iberá,RMA08_PNI - Parque Nacional Iberá,220226,0
 2026-11-02,02,Parque Nacional Iberá,RMA08_PNI - Parque Nacional Iberá,220226,0
@@ -3946,6 +3949,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-22,09,Santo Tomé,Santo Tomé –Corrientes,283907,0
 2026-11-22,10,Santo Tomé,Santo Tomé –Corrientes,283907,0
 2026-11-22,11,Santo Tomé,Santo Tomé –Corrientes,283907,0
+2026-11-22,12,Santo Tomé,Santo Tomé –Corrientes,283907,0
 2026-11-01,23,Mercedes,Mercedes - Corrientes,283908,0
 2026-11-02,00,Mercedes,Mercedes - Corrientes,283908,0
 2026-11-02,01,Mercedes,Mercedes - Corrientes,283908,0
@@ -4203,6 +4207,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-22,09,Mercedes,Mercedes - Corrientes,283908,0
 2026-11-22,10,Mercedes,Mercedes - Corrientes,283908,0
 2026-11-22,11,Mercedes,Mercedes - Corrientes,283908,0
+2026-11-22,12,Mercedes,Mercedes - Corrientes,283908,0
 2026-11-01,23,La Cruz,La Cruz - Corrientes,283909,0
 2026-11-02,00,La Cruz,La Cruz - Corrientes,283909,0
 2026-11-02,01,La Cruz,La Cruz - Corrientes,283909,0
@@ -4460,3 +4465,4 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-22,09,La Cruz,La Cruz - Corrientes,283909,0
 2026-11-22,10,La Cruz,La Cruz - Corrientes,283909,0
 2026-11-22,11,La Cruz,La Cruz - Corrientes,283909,0
+2026-11-22,12,La Cruz,La Cruz - Corrientes,283909,0
