@@ -1414,5 +1414,6 @@
    "criterio": "Para este horizonte la fiabilidad del pronóstico extendido aún no está habilitada: se usa el promedio de los dos modelos. Estimación derivada, no una medición."
   }
  },
- "estado_alertas": "VERIFICADO_CON_ALERTAS"
+ "estado_alertas": "NO_VERIFICADO",
+ "estado_alertas_nota": "alerta vencida sin reconfirmación"
 }
