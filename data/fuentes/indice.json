@@ -1,6 +1,6 @@
 {
- "consultado": "22/11/2026, 08:56 h",
- "consultado_iso": "2026-11-22T08:56-03:00",
+ "consultado": "22/11/2026, 09:00 h",
+ "consultado_iso": "2026-11-22T09:00-03:00",
  "paginas": {
   "smn_alertas": {
    "url": "https://www.smn.gob.ar/alertas",
@@ -19,7 +19,6 @@
     "https://coe.corrientes.gob.ar/a/2026-0161-CP",
     "https://coe.corrientes.gob.ar/a/2026-0160-CP",
     "https://coe.corrientes.gob.ar/a/2026-0159-CP",
-    "https://coe.corrientes.gob.ar/a/2026-0158-CP",
     "https://coe.corrientes.gob.ar/a/2026-0087-AT",
     "https://coe.corrientes.gob.ar/a/2026-0086-AT",
     "https://coe.corrientes.gob.ar/a/2026-0085-AT",
@@ -28,7 +27,7 @@
     "https://coe.corrientes.gob.ar/a/2026-0027-NT"
    ],
    "estado": 200,
-   "caracteres": 3522,
+   "caracteres": 3441,
    "archivo": "data/fuentes/coe_inicio.txt"
   },
   "ina_reporte_diario": {
@@ -117,17 +116,76 @@
    "caracteres": 2093,
    "archivo": "data/fuentes/coe_a_2026_0159_CP.txt"
   },
-  "coe_a_2026_0158_CP": {
-   "url": "https://coe.corrientes.gob.ar/a/2026-0158-CP",
-   "estado": 200,
-   "caracteres": 2097,
-   "archivo": "data/fuentes/coe_a_2026_0158_CP.txt"
-  },
   "coe_a_2026_0087_AT": {
    "url": "https://coe.corrientes.gob.ar/a/2026-0087-AT",
    "estado": 200,
-   "caracteres": 2020,
+   "caracteres": 2016,
    "archivo": "data/fuentes/coe_a_2026_0087_AT.txt"
+  },
+  "coe_a_2026_0086_AT": {
+   "url": "https://coe.corrientes.gob.ar/a/2026-0086-AT",
+   "estado": 200,
+   "caracteres": 1901,
+   "archivo": "data/fuentes/coe_a_2026_0086_AT.txt"
+  }
+ },
+ "pedidas": {
+  "https://www.diarioepoca.com/1394439-jp-valdes-y-polich-destacaron-el-impacto-de-la-megaobra-de-desague-concluida-sobre-el-pirayui": {
+   "url": "https://www.diarioepoca.com/1394439-jp-valdes-y-polich-destacaron-el-impacto-de-la-megaobra-de-desague-concluida-sobre-el-pirayui",
+   "estado": "error",
+   "detalle": "HTTP Error 404: NOT FOUND"
+  },
+  "https://www.diarioepoca.com/1393741-polich-superviso-obra-de-600-metros-de-nuevos-desagues-pluviales": {
+   "url": "https://www.diarioepoca.com/1393741-polich-superviso-obra-de-600-metros-de-nuevos-desagues-pluviales",
+   "estado": "error",
+   "detalle": "HTTP Error 404: NOT FOUND"
+  },
+  "https://www.meteored.com.ar/noticias/prediccion/argentina-tiempo-pronostico-alerta-lluvias-crecida-litoral-fin-de-semana-el-nino-noviembre.html": {
+   "url": "https://www.meteored.com.ar/noticias/prediccion/argentina-tiempo-pronostico-alerta-lluvias-crecida-litoral-fin-de-semana-el-nino-noviembre.html",
+   "estado": 200,
+   "caracteres": 6900,
+   "archivo": "data/fuentes/web/meteored_com_ar_noticias_prediccion_argentina_tiempo_pronostico_alerta_lluvias_crecida_lit.txt"
+  },
+  "https://www.meteored.com.ar/noticias/prediccion/actualizacion-de-la-crecida-del-rio-parana-9-puertos-superan-el-nivel-de-evacuacion-y-hay-pronostico-de-nuevas-lluvias.html": {
+   "url": "https://www.meteored.com.ar/noticias/prediccion/actualizacion-de-la-crecida-del-rio-parana-9-puertos-superan-el-nivel-de-evacuacion-y-hay-pronostico-de-nuevas-lluvias.html",
+   "estado": 200,
+   "caracteres": 7427,
+   "archivo": "data/fuentes/web/meteored_com_ar_noticias_prediccion_actualizacion_de_la_crecida_del_rio_parana_9_puertos_s.txt"
+  },
+  "https://www.elonce.com/uid-893342": {
+   "url": "https://www.elonce.com/uid-893342",
+   "estado": 200,
+   "caracteres": 12463,
+   "archivo": "data/fuentes/web/elonce_com_uid_893342.txt"
+  },
+  "https://www.elonce.com/uid-893371": {
+   "url": "https://www.elonce.com/uid-893371",
+   "estado": 200,
+   "caracteres": 11198,
+   "archivo": "data/fuentes/web/elonce_com_uid_893371.txt"
+  },
+  "https://economis.com.ar/?p=337181": {
+   "url": "https://economis.com.ar/?p=337181",
+   "estado": 200,
+   "caracteres": 6100,
+   "archivo": "data/fuentes/web/economis_com_ar_p_337181.txt"
+  },
+  "https://www.letrap.com.ar/el-rio-parana-comienza-estabilizarse-pero-yacyreta-advierte-el-riesgo-nuevas-crecidas-n5427795": {
+   "url": "https://www.letrap.com.ar/el-rio-parana-comienza-estabilizarse-pero-yacyreta-advierte-el-riesgo-nuevas-crecidas-n5427795",
+   "estado": 200,
+   "caracteres": 5724,
+   "archivo": "data/fuentes/web/letrap_com_ar_el_rio_parana_comienza_estabilizarse_pero_yacyreta_advierte_el_riesgo_nuevas.txt"
+  },
+  "https://www.conclusion.com.ar/?p=1469303": {
+   "url": "https://www.conclusion.com.ar/?p=1469303",
+   "estado": 200,
+   "caracteres": 6165,
+   "archivo": "data/fuentes/web/conclusion_com_ar_p_1469303.txt"
+  },
+  "https://news.agrofy.com.ar/altura-de-los-rios/corrientes": {
+   "url": "https://news.agrofy.com.ar/altura-de-los-rios/corrientes",
+   "estado": "error",
+   "detalle": "HTTP Error 404: NOT FOUND"
   }
  },
  "portales": {
@@ -156,19 +214,5 @@
    "archivo": "data/fuentes/portales/senado_corrientes.txt"
   }
  },
- "pedidas": {
-  "https://coe.corrientes.gob.ar/a/2026-0025-NT": {
-   "url": "https://coe.corrientes.gob.ar/a/2026-0025-NT",
-   "estado": 200,
-   "caracteres": 2212,
-   "archivo": "data/fuentes/web/coe_corrientes_gob_ar_a_2026_0025_NT.txt"
-  },
-  "https://coe.corrientes.gob.ar/a/2026-0078-AT": {
-   "url": "https://coe.corrientes.gob.ar/a/2026-0078-AT",
-   "estado": 200,
-   "caracteres": 2018,
-   "archivo": "data/fuentes/web/coe_corrientes_gob_ar_a_2026_0078_AT.txt"
-  }
- },
- "pedidas_consultado": "18/11/2026, 11:15 h"
+ "pedidas_consultado": "22/11/2026, 09:00 h"
 }
