@@ -1,7 +1,7 @@
 """Descarga de solo lectura de las páginas oficiales de alertas (SMN y COE de Corrientes).
 Guarda el texto en data/fuentes/ para que las tareas lo lean sin depender del navegador web.
 Lo ejecuta la automatización "Fuentes oficiales" de GitHub."""
-import json, re, html, datetime, urllib.request, os
+import json, re, html, datetime, urllib.request, urllib.parse, os
 
 UA = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36 (Tablero Ciudadano de Corrientes)',
       'Accept': 'text/html,application/json;q=0.9,*/*;q=0.8', 'Accept-Language': 'es-AR,es;q=0.9'}
@@ -55,7 +55,27 @@ def bajar(url, t=30, alternativas=False):
                 return st, ('<!-- leído desde: ' + u + ' -->') + h
         except Exception as e2:
             err = e2
+    h = relevo(url, t)
+    if h:
+        return 200, h
     raise err
+
+def relevo(url, t=40):
+    """Lectura mediante el relevo de Google (secreto SMN_RELEVO) para sitios que rechazan a GitHub."""
+    base = os.environ.get('SMN_RELEVO', '').strip()
+    if not base:
+        return None
+    try:
+        q = base + ('&' if '?' in base else '?') + 'u=' + urllib.parse.quote(url, safe='')
+        with urllib.request.urlopen(urllib.request.Request(q, headers=UA), timeout=t + 30) as r:
+            j = json.loads(r.read().decode('utf-8', 'replace'))
+        if j.get('b64'):
+            import base64
+            return _pdf_texto(base64.b64decode(j['b64']))
+        h = j.get('texto') or ''
+        return ('<!-- leído mediante el relevo de Google -->' + h) if len(h) > 500 else None
+    except Exception:
+        return None
 
 CTES = ('CORRIENTES', 'PASO DE LOS LIBRES', 'PASO_DE_LOS_LIBRES', 'MONTE CASEROS', 'MONTE_CASEROS',
         'ITUZAINGO', 'MERCEDES', 'GOYA', 'SANTO TOME', 'SANTO_TOME', 'CURUZU', 'ESQUINA', 'BELLA VISTA', 'RESISTENCIA')
@@ -238,14 +258,14 @@ PD = os.path.join(OUT, 'portales')
 os.makedirs(PD, exist_ok=True)
 indice['portales'] = {}
 for pt in port:
-    if pt.get('via') != 'github':
+    if pt.get('via') != 'github' and not os.environ.get('SMN_RELEVO'):
         continue
     r = {'url': pt['url']}
     try:
-        st, h = bajar(pt['url'])
+        st, h = bajar(pt['url'], alternativas=(pt.get('via') != 'github'))
         filas = enlaces(h, pt['url'])
         open(os.path.join(PD, pt['nombre'] + '.txt'), 'w', encoding='utf-8').write(
-            'Portada: ' + pt['url'] + '\nConsultado: ' + indice['consultado'] + '\nLeído por GitHub\n\n' + '\n'.join(filas))
+            'Portada: ' + pt['url'] + '\nConsultado: ' + indice['consultado'] + '\n' + ('Leído por GitHub' if pt.get('via') == 'github' else 'Leído por GitHub mediante el relevo de Google') + '\n\n' + '\n'.join(filas))
         r.update(estado=st, notas=len(filas), archivo='data/fuentes/portales/' + pt['nombre'] + '.txt')
     except Exception as e:
         r.update(estado='error', detalle=str(e)[:200])

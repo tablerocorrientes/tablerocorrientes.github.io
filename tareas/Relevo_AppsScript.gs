@@ -1,12 +1,16 @@
 /**
  * RELEVO DEL TABLERO CIUDADANO (Google Apps Script)
  * Lee desde los servidores de Google las páginas que rechazan a los servidores de GitHub
- * (alertas y avisos del SMN en formato CAP) y se las entrega a la automatización del Tablero.
+ * (alertas y avisos del SMN en formato CAP y portales de noticias de Corrientes) y se las entrega
+ * a la automatización del Tablero.
  * Solo atiende pedidos con la clave y solo a los sitios permitidos.
  */
 var CLAVE = 'CAMBIAR_POR_UNA_CLAVE_LARGA';
 var CANAL_SMN = 'https://ssl.smn.gob.ar/CAP/AR.php';
-var PERMITIDOS = ['ssl.smn.gob.ar', 'www.smn.gob.ar'];
+var PERMITIDOS = ['ssl.smn.gob.ar', 'www.smn.gob.ar',
+  'www.diarioepoca.com', 'diarioepoca.com', 'www.nortecorrientes.com', 'nortecorrientes.com',
+  'www.radiodos.com.ar', 'radiodos.com.ar', 'www.13maxnoticias.com', '13maxnoticias.com',
+  'www.perfil.com', 'www.ellitoral.com.ar', 'www.corrienteshoy.com', 'boletinoficial.corrientes.gob.ar'];
 
 function doGet(e) {
   var p = (e && e.parameter) || {};
@@ -14,7 +18,10 @@ function doGet(e) {
   if (p.modo === 'smn') return salida_(smn_());
   var u = String(p.u || ''), m = u.match(/^https:\/\/([^\/]+)/);
   if (!m || PERMITIDOS.indexOf(m[1]) < 0) return salida_({error: 'sitio no permitido'});
-  return salida_({u: u, texto: bajar_(u)});
+  var r = UrlFetchApp.fetch(u, {muteHttpExceptions: true, followRedirects: true, headers: {'User-Agent': 'Mozilla/5.0'}});
+  var tipo = String(r.getHeaders()['Content-Type'] || '');
+  if (tipo.indexOf('pdf') >= 0) return salida_({u: u, b64: Utilities.base64Encode(r.getBlob().getBytes())});
+  return salida_({u: u, estado: r.getResponseCode(), texto: r.getContentText('UTF-8')});
 }
 
 function smn_() {
