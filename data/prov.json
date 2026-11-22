@@ -11,7 +11,7 @@
   "fecha": "13/11/2026, 18:35 h"
  },
  "met_revision": "aae6c54b1ab7086a927cf2e4bb8e34a53a584e781ba42ff90ab9d653046ddc38",
- "actualizado": "22/11/2026, 15:56 h",
+ "actualizado": "22/11/2026, 18:48 h",
  "localidades": [
   {
    "n": "Corrientes Capital",
@@ -158,10 +158,10 @@
    "dep": "Goya",
    "ref": "Goya",
    "rio": "Paraná",
-   "altura": 5.56,
+   "altura": 5.55,
    "alerta": 5.2,
    "evac": 5.7,
-   "reg": "22/11/2026, 12:00 h (Prefectura Naval Argentina, vía rioparana.com.ar)"
+   "reg": "22/11/2026, 18:00 h (Prefectura Naval Argentina, vía rioparana.com.ar)"
   },
   {
    "n": "Colonia Carolina",
@@ -505,7 +505,7 @@
     "horas": 0
    },
    "manana": {
-    "mm": 0.0,
+    "mm": 0.1,
     "horas": 0
    },
    "smn": "Alerta amarilla del SMN por tormenta para Corrientes desde las 12:00 h del 17/11 hasta las 11:59 h del 18/11, sin departamentos detallados. Alerta amarilla del COE de Corrientes (fuente SMN) que incluye a esta ciudad el miércoles 18/11 de 05:00 a 12:00 h, con 30 a 70 mm posibles.",
@@ -597,7 +597,7 @@
     "horas": 4
    },
    "manana": {
-    "mm": 0.0,
+    "mm": 0.1,
     "horas": 0
    },
    "smn": "Alerta amarilla del SMN por tormenta para Corrientes desde las 12:00 h del 17/11 hasta las 11:59 h del 18/11, sin departamentos detallados. Alerta amarilla del COE de Corrientes (fuente SMN) que incluye a esta ciudad el miércoles 18/11 de 05:00 a 12:00 h, con 30 a 70 mm posibles.",
@@ -699,8 +699,8 @@
     "horas": 2
    },
    "manana": {
-    "mm": 0.0,
-    "horas": 0
+    "mm": 0.2,
+    "horas": 1
    },
    "smn": "Alerta amarilla del SMN por tormenta para Corrientes desde las 12:00 h del 17/11 hasta las 11:59 h del 18/11, sin departamentos detallados. La alerta amarilla del COE de Corrientes para el miércoles 18/11 de 05:00 a 12:00 h no incluye al departamento Monte Caseros.",
    "modelos": {
@@ -1143,6 +1143,6 @@
    }
   ]
  },
- "pron_actualizado": "22/11/2026, 18:30 h",
+ "pron_actualizado": "22/11/2026, 18:48 h",
  "smn": []
 }

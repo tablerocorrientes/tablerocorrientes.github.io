@@ -1,5 +1,5 @@
 Fuente: https://www.lanacion.com.ar/clima/corrientes/
-Consultado: 22/11/2026, 18:30 h
+Consultado: 22/11/2026, 18:48 h
 
 Clima en Corrientes y pronóstico del tiempo en LA NACION
 CERRAR
@@ -78,14 +78,8 @@ Kiosco LA NACION
 > LA NACION > Clima > Corrientes
 Clima de hoy en Corrientes
 Pronóstico del tiempo extendido para Corrientes
-Actualizado a las 16:29 hs.
+Actualizado a las 18:42 hs.
 Pronóstico del tiempo en Corrientes hoy
-Tarde
-Mayormente nublado
-31 ºc
-73%
-SE 22Km/h
-10%
 Noche
 Parcialmente nublado
 25 ºc
@@ -100,11 +94,11 @@ Parcialmente nublado
 SE 22Km/h
 0%
 Tarde
-Mayormente nublado
-30 ºc
+Tormentas aisladas
+33 ºc
 39%
 SE 22Km/h
-0%
+40%
 Noche
 Mayormente nublado
 26 ºc
@@ -114,7 +108,7 @@ SE 22Km/h
 Pronóstico del tiempo en Corrientes el martes
 Mañana
 Tormentas fuertes
-21 ºc
+26 ºc
 58%
 S 22Km/h
 70%
@@ -124,6 +118,12 @@ Tormentas fuertes
 86%
 SE 12Km/h
 70%
+Noche
+Mayormente nublado
+24 ºc
+85%
+E 22Km/h
+10%
 Pronóstico del tiempo en Corrientes el miércoles
 Mañana
 Mayormente nublado
@@ -142,13 +142,13 @@ Mañana
 Mayormente nublado
 20 ºc
 50%
-NE 22Km/h
+E 31Km/h
 0%
 Tarde
 Mayormente nublado
 27 ºc
 28%
-NE 22Km/h
+E 22Km/h
 0%
 Pronóstico del tiempo en Corrientes el viernes
 Mañana
@@ -161,19 +161,32 @@ Tarde
 Tormentas aisladas
 29 ºc
 97%
-E 22Km/h
+SE 31Km/h
 40%
 Pronóstico del tiempo en Corrientes el sábado
 Mañana
 Parcialmente nublado
-21 ºc
--
-E 12Km/h
+20 ºc
+76%
+SE 22Km/h
 0%
 Tarde
 Parcialmente nublado
 33 ºc
 37%
+SE 22Km/h
+0%
+Pronóstico del tiempo en Corrientes el domingo
+Mañana
+Parcialmente nublado
+18 ºc
+-
+SE 22Km/h
+0%
+Tarde
+Algo nublado
+31 ºc
+49%
 SE 22Km/h
 0%
 Referencias del clima
@@ -307,9 +320,9 @@ Pronóstico del tiempo
 VER MÁS NOTAS DE CORRIENTES
 Más leídas
 1 ADN del crimen. La belleza de la Naturaleza fue una trampa mortal para una turista suiza
-2 Leandro Paredes se desmayó en plena entrevista tras la consagración de Boca en la Sudamericana
-3 Calendario Anses: cuándo cobro la jubilación de noviembre si mi DNI termina en 8
-4 La espectacular maniobra de Colapinto para pasar a los dos McLaren juntos en el Gran Premio de Las Vegas
+2 Mariano Chihade, el marido de Mariana Fabbiani, recibió el alta médica tras ser operado del cerebro
+3 Briatore celebró el resurgimiento de Alpine en Las Vegas y elogió a Colapinto: “Tanto Pierre como Franco hicieron un gran trabajo”
+4 Calendario Anses: cuándo cobro la jubilación de noviembre si mi DNI termina en 8
 Secciones
 Últimas noticias
 Política
