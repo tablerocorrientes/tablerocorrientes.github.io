@@ -1,5 +1,5 @@
 Fuente: https://www.lanacion.com.ar/clima/corrientes/
-Consultado: 23/11/2026, 17:31 h
+Consultado: 23/11/2026, 18:06 h
 
 Clima en Corrientes y pronóstico del tiempo en LA NACION
 CERRAR
@@ -78,14 +78,8 @@ Kiosco LA NACION
 > LA NACION > Clima > Corrientes
 Clima de hoy en Corrientes
 Pronóstico del tiempo extendido para Corrientes
-Actualizado a las 15:59 hs.
+Actualizado a las 18:00 hs.
 Pronóstico del tiempo en Corrientes hoy
-Tarde
-Tormentas aisladas
-33 ºc
-39%
-SE 22Km/h
-40%
 Noche
 Mayormente nublado
 26 ºc
@@ -97,33 +91,39 @@ Mañana
 Tormentas fuertes
 26 ºc
 58%
-S 22Km/h
+S 31Km/h
 70%
 Tarde
 Tormentas fuertes
 32 ºc
 86%
-SE 12Km/h
+SE 22Km/h
 70%
 Noche
 Mayormente nublado
 24 ºc
 85%
-E 22Km/h
+NE 22Km/h
 10%
 Pronóstico del tiempo en Corrientes el miércoles
 Mañana
 Mayormente nublado
-19 ºc
+22 ºc
 84%
 SE 31Km/h
 10%
 Tarde
 Mayormente nublado
-26 ºc
+27 ºc
 32%
 SE 31Km/h
 10%
+Noche
+Parcialmente nublado
+23 ºc
+67%
+E 31Km/h
+0%
 Pronóstico del tiempo en Corrientes el jueves
 Mañana
 Parcialmente nublado
@@ -133,22 +133,22 @@ E 31Km/h
 0%
 Tarde
 Mayormente nublado
-27 ºc
+29 ºc
 28%
 E 22Km/h
 0%
 Pronóstico del tiempo en Corrientes el viernes
 Mañana
-Mayormente nublado
+Nublado
 19 ºc
 76%
-E 12Km/h
+S 31Km/h
 10%
 Tarde
 Tormentas aisladas
 29 ºc
 97%
-SE 31Km/h
+E 31Km/h
 40%
 Pronóstico del tiempo en Corrientes el sábado
 Mañana
@@ -167,14 +167,27 @@ Pronóstico del tiempo en Corrientes el domingo
 Mañana
 Parcialmente nublado
 18 ºc
--
+73%
 SE 22Km/h
 0%
 Tarde
-Algo nublado
+Parcialmente nublado
 31 ºc
 49%
 SE 22Km/h
+0%
+Pronóstico del tiempo en Corrientes el lunes
+Mañana
+Parcialmente nublado
+22 ºc
+-
+E 12Km/h
+0%
+Tarde
+Parcialmente nublado
+33 ºc
+42%
+E 12Km/h
 0%
 Referencias del clima
 Despejado (día)
@@ -306,10 +319,10 @@ Pronóstico del tiempo
 9 de noviembre de 2026
 VER MÁS NOTAS DE CORRIENTES
 Más leídas
-1 Otra noche de colección para Victor Wembanyama, con número imposibles de creer para la NBA
-2 Colapinto, otra vez en clase turista: lo filmaron al volver del GP de Las Vegas con el casco en la mano
-3 River no se detiene y le apunta al arquero marroquí Bono ante la eventual salida de Santiago Beltrán
-4 Juana Viale viajó a El Salvador y sorprendió con su habilidad en el surf: “Increíble”
+1 Un corredor festejó antes de cruzar la línea de llegada y se desató la polémica
+2 La decana de Ciencias Sociales que defendió el homenaje a Santucho es militante kirchnerista e hija de un montonero desaparecido
+3 Qué dice la psicología sobre las personas que se alteran durante una conversación
+4 Otra noche de colección para Victor Wembanyama, con número imposibles de creer para la NBA
 Secciones
 Últimas noticias
 Política

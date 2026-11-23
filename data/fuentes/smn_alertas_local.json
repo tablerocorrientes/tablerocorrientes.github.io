@@ -1,6 +1,6 @@
 {
- "consultado": "23/11/2026, 17:48 h",
- "consultado_iso": "2026-11-23T17:48:35-03:00",
+ "consultado": "23/11/2026, 18:05 h",
+ "consultado_iso": "2026-11-23T18:05:01-03:00",
  "fuente": "Servicio Meteorológico Nacional, canal oficial de alertas y avisos (CAP)",
  "resultado": "con alertas",
  "alertas": [
@@ -8,30 +8,127 @@
    "tipo": "alerta",
    "nivel": "amarillo",
    "fenomeno": "tormentas",
-   "zonas": "Berón de Astrada - Capital - Empedrado - General Alvear - General Paz - Itatí - Ituzaingó - Mburucuyá - Paso de los Libres - Saladas - San Cosme - San Luis del Palmar - San Martín - San Miguel - Santo Tomé",
+   "zonas": "Bella Vista - Esquina - Goya - Lavalle - Monte Caseros",
+   "departamentos": [
+    "Bella Vista",
+    "Esquina",
+    "Goya",
+    "Lavalle",
+    "Monte Caseros"
+   ],
+   "incluye_capital": false,
+   "desde": "24/11/2026, 03:00 h",
+   "hasta": "24/11/2026, 14:59 h",
+   "desde_iso": "2026-11-24T03:00:00-03:00",
+   "hasta_iso": "2026-11-24T14:59:59-03:00",
+   "emision": "23/11/2026, 20:44 h",
+   "rango_mm": [
+    30,
+    70
+   ],
+   "texto": "Tormentas. El área será afectada por tormentas aisladas, algunas fuertes o localmente severas. Las mismas podrán estar acompañadas por abundantes precipitaciones en cortos períodos, frecuente actividad eléctrica, ocasional caída de granizo y ráfagas intensas. Se esperan valores de precipitación acumulada entre 30 y 70 mm, que pueden ser superados en forma puntual."
+  },
+  {
+   "tipo": "alerta",
+   "nivel": "amarillo",
+   "fenomeno": "tormentas",
+   "zonas": "Concepción - Curuzú Cuatiá - Mercedes - San Roque - Sauce",
+   "departamentos": [
+    "Concepción",
+    "Curuzú Cuatiá",
+    "Mercedes",
+    "San Roque",
+    "Sauce"
+   ],
+   "incluye_capital": false,
+   "desde": "24/11/2026, 03:00 h",
+   "hasta": "24/11/2026, 20:59 h",
+   "desde_iso": "2026-11-24T03:00:00-03:00",
+   "hasta_iso": "2026-11-24T20:59:59-03:00",
+   "emision": "23/11/2026, 20:44 h",
+   "rango_mm": [
+    30,
+    70
+   ],
+   "texto": "Tormentas. El área será afectada por tormentas aisladas, algunas fuertes o localmente severas. Las mismas podrán estar acompañadas por abundantes precipitaciones en cortos períodos, frecuente actividad eléctrica, ocasional caída de granizo y ráfagas intensas. Se esperan valores de precipitación acumulada entre 30 y 70 mm, que pueden ser superados en forma puntual."
+  },
+  {
+   "tipo": "alerta",
+   "nivel": "naranja",
+   "fenomeno": "tormentas",
+   "zonas": "Berón de Astrada - Capital - Empedrado - General Paz - Itatí - Ituzaingó - Mburucuyá - Saladas - San Cosme - San Luis del Palmar - San Miguel",
    "departamentos": [
     "Berón de Astrada",
     "Capital",
     "Empedrado",
-    "General Alvear",
     "General Paz",
     "Itatí",
     "Ituzaingó",
     "Mburucuyá",
-    "Paso de los Libres",
     "Saladas",
     "San Cosme",
     "San Luis del Palmar",
-    "San Martín",
-    "San Miguel",
-    "Santo Tomé"
+    "San Miguel"
    ],
    "incluye_capital": true,
+   "desde": "24/11/2026, 09:00 h",
+   "hasta": "24/11/2026, 14:59 h",
+   "desde_iso": "2026-11-24T09:00:00-03:00",
+   "hasta_iso": "2026-11-24T14:59:59-03:00",
+   "emision": "23/11/2026, 20:44 h",
+   "rango_mm": [
+    70,
+    100
+   ],
+   "texto": "Tormentas. El área será afectada por tormentas aisladas fuertes y/o severas. Las mismas podrán estar acompañadas por abundantes precipitaciones, granizo de diversos tamaños, ráfagas que podrán alcanzar los 90 km/h y frecuente actividad eléctrica. Se esperan valores de precipitación acumulada entre 70 y 100 mm que pueden ser superados de manera puntual."
+  },
+  {
+   "tipo": "alerta",
+   "nivel": "amarillo",
+   "fenomeno": "tormentas",
+   "zonas": "General Alvear - Paso de los Libres - San Martín - Santo Tomé",
+   "departamentos": [
+    "General Alvear",
+    "Paso de los Libres",
+    "San Martín",
+    "Santo Tomé"
+   ],
+   "incluye_capital": false,
    "desde": "24/11/2026, 09:00 h",
    "hasta": "24/11/2026, 20:59 h",
    "desde_iso": "2026-11-24T09:00:00-03:00",
    "hasta_iso": "2026-11-24T20:59:59-03:00",
-   "emision": "23/11/2026, 11:56 h",
+   "emision": "23/11/2026, 20:44 h",
+   "rango_mm": [
+    30,
+    70
+   ],
+   "texto": "Tormentas. El área será afectada por tormentas aisladas, algunas fuertes o localmente severas. Las mismas podrán estar acompañadas por abundantes precipitaciones en cortos períodos, frecuente actividad eléctrica, ocasional caída de granizo y ráfagas intensas. Se esperan valores de precipitación acumulada entre 30 y 70 mm, que pueden ser superados en forma puntual."
+  },
+  {
+   "tipo": "alerta",
+   "nivel": "amarillo",
+   "fenomeno": "tormentas",
+   "zonas": "Berón de Astrada - Capital - Empedrado - General Paz - Itatí - Ituzaingó - Mburucuyá - Saladas - San Cosme - San Luis del Palmar - San Miguel",
+   "departamentos": [
+    "Berón de Astrada",
+    "Capital",
+    "Empedrado",
+    "General Paz",
+    "Itatí",
+    "Ituzaingó",
+    "Mburucuyá",
+    "Saladas",
+    "San Cosme",
+    "San Luis del Palmar",
+    "San Miguel"
+   ],
+   "incluye_capital": true,
+   "desde": "24/11/2026, 15:00 h",
+   "hasta": "24/11/2026, 20:59 h",
+   "desde_iso": "2026-11-24T15:00:00-03:00",
+   "hasta_iso": "2026-11-24T20:59:59-03:00",
+   "emision": "23/11/2026, 20:44 h",
    "rango_mm": [
     30,
     70
