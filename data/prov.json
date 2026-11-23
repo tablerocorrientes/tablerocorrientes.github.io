@@ -442,8 +442,8 @@
  "pronostico": {
   "Corrientes Capital": {
    "hoy": {
-    "mm": 0.8,
-    "horas": 2
+    "mm": 1.3,
+    "horas": 4
    },
    "manana": {
     "mm": 0.2,
@@ -482,8 +482,8 @@
     "horas": 1
    },
    "manana": {
-    "mm": 0.5,
-    "horas": 2
+    "mm": 0.2,
+    "horas": 1
    },
    "smn": "Alerta amarilla del SMN por tormenta para Corrientes desde las 12:00 h del 17/11 hasta las 11:59 h del 18/11, sin departamentos detallados. Alerta amarilla del COE de Corrientes (fuente SMN) que incluye a esta ciudad el miércoles 18/11 de 05:00 a 12:00 h, con 30 a 70 mm posibles.",
    "modelos": {
@@ -528,8 +528,8 @@
     "horas": 1
    },
    "manana": {
-    "mm": 0.2,
-    "horas": 1
+    "mm": 0.0,
+    "horas": 0
    },
    "smn": "Alerta amarilla del SMN por tormenta para Corrientes desde las 12:00 h del 17/11 hasta las 11:59 h del 18/11, sin departamentos detallados. Alerta amarilla del COE de Corrientes (fuente SMN) que incluye a esta ciudad el miércoles 18/11 de 05:00 a 12:00 h, con 30 a 70 mm posibles.",
    "modelos": {
@@ -551,8 +551,8 @@
     "horas": 1
    },
    "manana": {
-    "mm": 0.3,
-    "horas": 2
+    "mm": 0.0,
+    "horas": 0
    },
    "smn": "Alerta amarilla del SMN por tormenta para Corrientes desde las 12:00 h del 17/11 hasta las 11:59 h del 18/11, sin departamentos detallados. Alerta amarilla del COE de Corrientes (fuente SMN) que incluye a esta ciudad el miércoles 18/11 de 05:00 a 12:00 h, con 30 a 70 mm posibles.",
    "modelos": {
@@ -667,12 +667,12 @@
   },
   "Ituzaingó": {
    "hoy": {
-    "mm": 6.5,
-    "horas": 15
+    "mm": 6.4,
+    "horas": 14
    },
    "manana": {
-    "mm": 0.5,
-    "horas": 2
+    "mm": 1.3,
+    "horas": 5
    },
    "smn": "Alerta amarilla del SMN por tormenta para Corrientes desde las 12:00 h del 17/11 hasta las 11:59 h del 18/11, sin departamentos detallados. Alerta amarilla del COE de Corrientes (fuente SMN) que incluye a esta ciudad el miércoles 18/11 de 05:00 a 12:00 h, con 30 a 70 mm posibles.",
    "modelos": {
@@ -1143,7 +1143,7 @@
    }
   ]
  },
- "pron_actualizado": "22/11/2026, 20:46 h",
+ "pron_actualizado": "22/11/2026, 21:05 h",
  "smn": [
   {
    "id_oficial": "SMN-tormentas-amarilla-2026-11-24-este",
