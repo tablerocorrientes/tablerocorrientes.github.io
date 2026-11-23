@@ -653,6 +653,14 @@
  "prensa": [
   {
    "fecha": "23/11/2026",
+   "medio": "Identidad Correntina",
+   "titulo": "PRONÓSTICO Rige una doble alerta naranja y amarilla por tormentas fuertes para este martes en Corrientes",
+   "enlace": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNZWRFTld4bTJkSHJLdUtMRm4xMWRmc3JGVEhqbjkwaTZkLUprbjRmVDFQUUhXeHB3dlFpWjhub0RuOUh5cGlQeXI4VUxNQzJScG8xdXVOTlMzQThUVTJRbllQdEswY3BkYXZvX1o0eG5jX1gxTUpfenJlYlF3ZGM1RENEeWEzNk9WYnh0TlladWQ0QmI4WGg1UEJiSHl1ZFhRcmxzMzlsZXlrbktjWmNMSnI5NVVOUVBsUldTRDY1dFVuUmdrdU9BUTVJeG9vbU05UFU4c0lJQ3ItTExWamtxbFh0bGpLRWNJQS1BR0xHdGRMZXVh?oc=5",
+   "breve": "PRONÓSTICO Rige una doble alerta naranja y amarilla por tormentas fuertes para este martes en Corrientes",
+   "auto": true
+  },
+  {
+   "fecha": "23/11/2026",
    "medio": "El Litoral | Novedades de Corrientes",
    "titulo": "Rige una doble alerta naranja y amarilla por tormentas fuertes para este martes en Corrientes",
    "enlace": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPc0llMFRwdW5yWXVoNkZpZ1JKZXltb0RBbU9qdkJ2cnQwR1lTYWNnUHl6YnpITXV0R3lNdjdhWG14MDZvOWZ5TXpveUZnYWpubk5hbUluQkZfVkxCTEtNUmtFQjhsQU1Bd2JXcHBLaGFDRjdETmtwbFRJWGdGbTd5OTMwcGVXdEdrejJCTjZhSGI1X29YLTFyNXloS1gxcmViZTJIVEdvYk1SY090WEhhSVpGeTA0T3AzdlZiTmtUa05oaGp4ZVhRVEtzWnRiMjRKTUh2XzE2d2lRS3ZGMDIySHF1c1M?oc=5",
@@ -1081,13 +1089,6 @@
    "titulo": "Inundaciones, evacuados y aislados: las imágenes del caos que provocó El Niño en Neuquén, Chaco y Corrientes",
    "resumen": "El COE habla de más de 550 evacuados y autoevacuados en Corrientes. En Paso de los Libres el agua del Uruguay (7,88 m) llegó a la calle y al paseo costero. Un temporal con lluvia intensa, granizo y ráfagas afectó sobre todo zonas rurales de Goya, Lavalle, Perugorría y Santa Lucía. Vialidad Nacional trabaja en desagües de las rutas 118 y 14 e interviene en las rutas 12 y 123.",
    "enlace": "https://www.infobae.com/sociedad/2026/10/24/inundaciones-evacuados-y-aislados-las-imagenes-del-caos-que-provoco-el-nino-en-neuquen-chaco-y-corrientes/"
-  },
-  {
-   "medio": "El Tribuno (nacional)",
-   "fecha": "24/10/2026, 23:02 h",
-   "titulo": "La crecida del Paraná y del río Uruguay provoca más evacuados en Chaco y Corrientes",
-   "resumen": "Paraná en 7,43 m en la capital, más de 8 m en Itatí y 7,79 m en Paso de la Patria; más de 550 evacuados y autoevacuados en la provincia. Las lluvias abundantes en las cuencas altas, sobre todo en Brasil, y la operación de Itaipú y Yacyretá explican la crecida.",
-   "enlace": "https://www.eltribuno.com/nacionales/2026-10-24-23-2-0-videos-crecida-de-los-rios-e-inundaciones-las-causas-de-la-emergencia-en-chaco-y-corrientes"
   }
  ],
  "puertos_uruguay": [
@@ -1405,7 +1406,7 @@
  "tapon_breve": "Alerta por tormentas para la Capital el martes 24/11: naranja de 9 a 15 h (70 a 100 mm), luego amarilla de 15 a 21 h (30 a 70 mm). Con el río en 5,65 m, una lluvia fuerte puede superar la capacidad de los desagües.",
  "consultado": "23/11/2026, 18:10 h",
  "consulta_resultado": "sin cambios",
- "prensa_actualizada": "23/11/2026, 19:55 h",
+ "prensa_actualizada": "23/11/2026, 20:29 h",
  "ina_parana_breve": "El INA prevé un posible repunte desde el 26/11.",
  "ina_uruguay_breve": "El INA prevé acercarse a la alerta en Santo Tomé el 26/11."
 }

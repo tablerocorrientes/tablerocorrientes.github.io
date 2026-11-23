@@ -788,6 +788,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-23,16,Santa Lucía,Santa Lucia,13836,0
 2026-11-23,17,Santa Lucía,Santa Lucia,13836,0
 2026-11-23,18,Santa Lucía,Santa Lucia,13836,0
+2026-11-23,19,Santa Lucía,Santa Lucia,13836,0
 2026-11-01,23,Paso Cerrito,Paso Cerrito,13849,0
 2026-11-02,03,Paso Cerrito,Paso Cerrito,13849,0
 2026-11-02,07,Paso Cerrito,Paso Cerrito,13849,0
@@ -933,6 +934,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-23,07,Garruchos,Garruchos,13857,0.25
 2026-11-23,11,Garruchos,Garruchos,13857,0
 2026-11-23,15,Garruchos,Garruchos,13857,0
+2026-11-23,19,Garruchos,Garruchos,13857,0
 2026-11-01,23,San Carlos,San Carlos,13864,0
 2026-11-02,00,San Carlos,San Carlos,13864,0
 2026-11-02,01,San Carlos,San Carlos,13864,0
@@ -1221,6 +1223,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-23,16,San Carlos,San Carlos,13864,0
 2026-11-23,17,San Carlos,San Carlos,13864,0
 2026-11-23,18,San Carlos,San Carlos,13864,0
+2026-11-23,19,San Carlos,San Carlos,13864,0
 2026-11-01,23,Pueblo Libertador,Pueblo Libertador,13876,0
 2026-11-02,00,Pueblo Libertador,Pueblo Libertador,13876,0
 2026-11-02,01,Pueblo Libertador,Pueblo Libertador,13876,0
@@ -1480,6 +1483,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-23,16,Pueblo Libertador,Pueblo Libertador,13876,0
 2026-11-23,17,Pueblo Libertador,Pueblo Libertador,13876,0
 2026-11-23,18,Pueblo Libertador,Pueblo Libertador,13876,0
+2026-11-23,19,Pueblo Libertador,Pueblo Libertador,13876,0
 2026-11-02,00,Parque Nacional Iberá,RMA08_PNI - Parque Nacional Iberá,220226,0
 2026-11-02,01,Parque Nacional Iberá,RMA08_PNI - Parque Nacional Iberá,220226,0
 2026-11-02,02,Parque Nacional Iberá,RMA08_PNI - Parque Nacional Iberá,220226,0
@@ -3554,6 +3558,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-23,07,Portal Galarza,Portal Galarza,283904,0
 2026-11-23,11,Portal Galarza,Portal Galarza,283904,0
 2026-11-23,15,Portal Galarza,Portal Galarza,283904,0
+2026-11-23,19,Portal Galarza,Portal Galarza,283904,0
 2026-11-01,23,Itá Ibaté,Puerto Ita Ibate,283905,0
 2026-11-02,00,Itá Ibaté,Puerto Ita Ibate,283905,0
 2026-11-02,01,Itá Ibaté,Puerto Ita Ibate,283905,0
@@ -4709,6 +4714,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-23,16,Mercedes,Mercedes - Corrientes,283908,0
 2026-11-23,17,Mercedes,Mercedes - Corrientes,283908,0
 2026-11-23,18,Mercedes,Mercedes - Corrientes,283908,0
+2026-11-23,19,Mercedes,Mercedes - Corrientes,283908,0
 2026-11-01,23,La Cruz,La Cruz - Corrientes,283909,0
 2026-11-02,00,La Cruz,La Cruz - Corrientes,283909,0
 2026-11-02,01,La Cruz,La Cruz - Corrientes,283909,0
