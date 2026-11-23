@@ -1,6 +1,6 @@
 {
- "consultado": "23/11/2026, 18:11 h",
- "consultado_iso": "2026-11-23T18:11-03:00",
+ "consultado": "23/11/2026, 18:44 h",
+ "consultado_iso": "2026-11-23T18:44-03:00",
  "paginas": {
   "smn_alertas": {
    "url": "https://www.smn.gob.ar/alertas",
@@ -19,6 +19,7 @@
     "https://coe.corrientes.gob.ar/a/2026-0161-CP",
     "https://coe.corrientes.gob.ar/a/2026-0160-CP",
     "https://coe.corrientes.gob.ar/a/2026-0159-CP",
+    "https://coe.corrientes.gob.ar/a/2026-0089-AT",
     "https://coe.corrientes.gob.ar/a/2026-0088-AT",
     "https://coe.corrientes.gob.ar/a/2026-0087-AT",
     "https://coe.corrientes.gob.ar/a/2026-0086-AT",
@@ -29,7 +30,7 @@
     "https://coe.corrientes.gob.ar/a/2026-0027-NT"
    ],
    "estado": 200,
-   "caracteres": 3913,
+   "caracteres": 4185,
    "archivo": "data/fuentes/coe_inicio.txt"
   },
   "ina_reporte_diario": {
@@ -52,7 +53,7 @@
   "lanacion_clima_corrientes": {
    "url": "https://www.lanacion.com.ar/clima/corrientes/",
    "estado": 200,
-   "caracteres": 8308,
+   "caracteres": 8258,
    "archivo": "data/fuentes/lanacion_clima_corrientes.txt"
   },
   "noaa_enso": {
@@ -94,6 +95,12 @@
    "caracteres": 17711,
    "archivo": "data/fuentes/smn_pronostico_5_dias_ayer.txt"
   },
+  "coe_": {
+   "url": "https://coe.corrientes.gob.ar/",
+   "estado": 200,
+   "caracteres": 4185,
+   "archivo": "data/fuentes/coe_.txt"
+  },
   "coe_a_2026_0162_CP": {
    "url": "https://coe.corrientes.gob.ar/a/2026-0162-CP",
    "estado": 200,
@@ -118,17 +125,17 @@
    "caracteres": 2093,
    "archivo": "data/fuentes/coe_a_2026_0159_CP.txt"
   },
+  "coe_a_2026_0089_AT": {
+   "url": "https://coe.corrientes.gob.ar/a/2026-0089-AT",
+   "estado": 200,
+   "caracteres": 1915,
+   "archivo": "data/fuentes/coe_a_2026_0089_AT.txt"
+  },
   "coe_a_2026_0088_AT": {
    "url": "https://coe.corrientes.gob.ar/a/2026-0088-AT",
    "estado": 200,
    "caracteres": 1965,
    "archivo": "data/fuentes/coe_a_2026_0088_AT.txt"
-  },
-  "coe_a_2026_0087_AT": {
-   "url": "https://coe.corrientes.gob.ar/a/2026-0087-AT",
-   "estado": 200,
-   "caracteres": 2016,
-   "archivo": "data/fuentes/coe_a_2026_0087_AT.txt"
   }
  },
  "portales": {
