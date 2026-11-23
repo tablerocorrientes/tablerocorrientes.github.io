@@ -1,5 +1,5 @@
 {
- "actualizado": "23/11/2026, 00:33 h",
+ "actualizado": "23/11/2026, 00:50 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
@@ -129,11 +129,11 @@
     null,
     null,
     null,
-    null,
+    0,
     null
    ],
    "total": 0.5,
-   "ultimo": "0,25 mm a las 20 h"
+   "ultimo": "0 mm a las 00 h"
   },
   {
    "localidad": "Colonia Carlos Pellegrini",
@@ -1081,11 +1081,11 @@
     null,
     null,
     null,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 20 h"
+   "ultimo": "0 mm a las 00 h"
   },
   {
    "localidad": "Caá Catí",
@@ -1353,11 +1353,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 23 h"
+   "ultimo": "0 mm a las 00 h"
   },
   {
    "localidad": "San Isidro",
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "23/11/2026, 00:33 h",
+ "consultado": "23/11/2026, 00:50 h",
  "consulta_resultado": "datos nuevos"
 }
