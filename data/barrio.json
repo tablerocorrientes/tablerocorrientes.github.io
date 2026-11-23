@@ -1,5 +1,5 @@
 {
- "actualizado": "23/11/2026, 18:10 h",
+ "actualizado": "23/11/2026, 18:20 h",
  "dias": {
   "2026-11-02": [
    0,
@@ -574,23 +574,23 @@
    0.03
   ],
   "2026-11-24": [
-   0.03,
-   1.17,
-   1.57,
-   2.57,
-   1.1,
-   1.23,
-   1.4,
-   5.07,
-   5.13,
-   4.57,
+   0.05,
+   1.76,
+   2.36,
+   3.86,
+   1.65,
+   1.85,
+   2.1,
+   7.62,
+   7.71,
+   6.87,
+   1.2,
+   7.02,
+   3.91,
+   3.31,
+   0.86,
    0.8,
-   4.67,
-   2.6,
-   2.2,
-   0.57,
-   0.53,
-   0.03,
+   0.05,
    0.0,
    0.0,
    0.0,
@@ -790,18 +790,18 @@
    "texto": "Alerta amarilla por tormentas del COE (2026-0087-AT, fuente SMN) de 03:00 a 08:59 h, con 30 a 70 mm posibles. Ya terminó: hasta las 08 h el SNIH no midió lluvia en la Capital."
   },
   "2026-11-24": {
-   "nivel": "amarillo",
+   "nivel": "naranja",
    "incluye_capital": true,
-   "zonas": "Berón de Astrada, Capital, Empedrado, General Alvear, General Paz, Itatí, Ituzaingó, Mburucuyá, Paso de los Libres, Saladas, San Cosme, San Luis del Palmar, San Martín, San Miguel, Santo Tomé",
-   "desde": "24/11/2026, 09:00 h",
-   "hasta": "24/11/2026, 20:59 h",
-   "desde_iso": "2026-11-24T09:00:00-03:00",
-   "hasta_iso": "2026-11-24T20:59:59-03:00",
-   "emision": "23/11/2026, 11:56 h",
+   "zonas": "Berón de Astrada, Capital, Empedrado, General Paz, Itatí, Ituzaingó, Mburucuyá, Saladas, San Cosme, San Luis del Palmar, San Miguel",
+   "desde": "24/11/2026, 06:00 h",
+   "hasta": "24/11/2026, 13:00 h",
+   "desde_iso": "2026-11-24T06:00:00-03:00",
+   "hasta_iso": "2026-11-24T13:00:00-03:00",
+   "emision": "23/11/2026, 18:11 h (consulta)",
    "emision_iso": null,
-   "min": 30,
-   "max": 70,
-   "texto": "Alerta amarilla por tormentas del Servicio Meteorológico Nacional para la Capital el martes 24/11 de 09:00 a 20:59 h, con 30 a 70 mm posibles, que pueden ser superados en forma puntual (emitida el 23/11 a las 11:56 h)."
+   "min": 70,
+   "max": 100,
+   "texto": "Alerta naranja por tormentas para la Capital el martes 24/11 de 06:00 a 13:00 h, con 70 a 100 mm posibles, que pueden ser superados en forma puntual (COE de Corrientes con fuente SMN, leída a las 18:11 h). Además rige una alerta amarilla de 06:00 a 23:00 h, con 30 a 70 mm."
   }
  },
  "rio": {
@@ -1533,6 +1533,35 @@
    ],
    "usado": 0.4,
    "criterio": "El SMN prevé tormentas aisladas (no fuertes): se usa el promedio de los modelos de Open-Meteo. Estimación derivada, no una medición."
+  },
+  "2026-11-24": {
+   "smn": {
+    "texto": "Parte del SMN difundido por La Nación (18:00 h del 23/11): mañana martes tormentas fuertes por la mañana y la tarde (70 %). Alerta naranja por tormentas para la Capital el 24/11 de 06:00 a 13:00 h (70 a 100 mm posibles) y alerta amarilla de 06:00 a 23:00 h (30 a 70 mm), según el COE con fuente SMN.",
+    "mm": [
+     70,
+     100
+    ],
+    "u": "https://www.lanacion.com.ar/clima/corrientes/"
+   },
+   "modelos": [
+    {
+     "n": "GFS (NOAA)",
+     "mm": 26.2,
+     "act": "23/11, 18:10 h"
+    },
+    {
+     "n": "ICON (DWD)",
+     "mm": 26.6,
+     "act": "23/11, 18:10 h"
+    },
+    {
+     "n": "ECMWF",
+     "mm": 52.9,
+     "act": "23/11, 18:10 h"
+    }
+   ],
+   "usado": 52.9,
+   "criterio": "Mañana el SMN prevé tormentas fuertes con 70 %: se usa el modelo más alto, ECMWF, con 52,9 mm (el promedio de los modelos es 35,2 mm). Estimación derivada, no una medición. El rango de la alerta (70 a 100 mm) es el escenario severo y no se usa como pronóstico central."
   }
  },
  "estado_alertas": "VERIFICADO_CON_ALERTAS"
