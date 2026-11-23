@@ -1,10 +1,10 @@
 {
- "actualizado": "23/11/2026, 08:50 h",
+ "actualizado": "23/11/2026, 09:15 h",
  "metodo": "estimación derivada: promedio de modelos (Open-Meteo), calculado automáticamente; las tareas agregan el parte del SMN cuando corren",
  "estado_alertas": "VERIFICADO_CON_ALERTAS",
  "estado_verificado": {
-  "fecha": "23/11/2026, 08:57 h",
-  "fuente": "SMN, canal oficial de alertas y avisos (lectura de las 08:57 h), y COE de Corrientes (08:56 h)"
+  "fecha": "23/11/2026, 09:15 h",
+  "fuente": "SMN, canal oficial de alertas (lectura de las 09:06 h), y COE de Corrientes (08:56 h)"
  },
  "met_archivo": {
   "nombre": "vigilancia_meteorologica_20261113_183508.json",
@@ -15,7 +15,7 @@
  "met_revision": "aae6c54b1ab7086a927cf2e4bb8e34a53a584e781ba42ff90ab9d653046ddc38",
  "smn": [
   {
-   "id_oficial": "SMN-tormentas-amarilla-2026-11-24-este",
+   "id_oficial": "SMN-tormentas-amarilla-2026-11-24-emision-1156",
    "tipo": "alerta",
    "aviso": "Alerta amarilla por tormentas",
    "nivel": "amarillo",
@@ -24,37 +24,16 @@
     30,
     70
    ],
-   "zonas": "General Alvear - Paso de los Libres - San Martín - Santo Tomé",
-   "desde": "24/11/2026, 09:00 h",
-   "hasta": "24/11/2026, 14:59 h",
-   "desde_iso": "2026-11-24T09:00:00-03:00",
-   "hasta_iso": "2026-11-24T14:59:59-03:00",
-   "emision": "22/11/2026, 20:58 h",
-   "incluye_corrientes": true,
-   "incluye_capital": false,
-   "url": "https://www.smn.gob.ar/alertas",
-   "origen": "SMN, canal oficial de alertas (leído a las 08:57 h)"
-  },
-  {
-   "id_oficial": "SMN-tormentas-amarilla-2026-11-24-capital",
-   "tipo": "alerta",
-   "aviso": "Alerta amarilla por tormentas",
-   "nivel": "amarillo",
-   "fenomeno": "tormentas",
-   "rango_mm": [
-    30,
-    70
-   ],
-   "zonas": "Berón de Astrada - Capital - Empedrado - General Paz - Itatí - Ituzaingó - Mburucuyá - Saladas - San Cosme - San Luis del Palmar - San Miguel",
+   "zonas": "Berón de Astrada - Capital - Empedrado - General Alvear - General Paz - Itatí - Ituzaingó - Mburucuyá - Paso de los Libres - Saladas - San Cosme - San Luis del Palmar - San Martín - San Miguel - Santo Tomé",
    "desde": "24/11/2026, 09:00 h",
    "hasta": "24/11/2026, 20:59 h",
    "desde_iso": "2026-11-24T09:00:00-03:00",
    "hasta_iso": "2026-11-24T20:59:59-03:00",
-   "emision": "22/11/2026, 20:57 h",
+   "emision": "23/11/2026, 11:56 h",
    "incluye_corrientes": true,
    "incluye_capital": true,
    "url": "https://www.smn.gob.ar/alertas",
-   "origen": "SMN, canal oficial de alertas (leído a las 08:57 h)"
+   "origen": "SMN, canal oficial de alertas (leído a las 09:06 h)"
   }
  ],
  "ciudades": {
@@ -64,10 +43,10 @@
     "horas": 0
    },
    "manana": {
-    "mm": 28.2,
+    "mm": 37.2,
     "horas": 18
    },
-   "smn": "Parte del SMN difundido por La Nación (07:49 h del 22/11): hoy tormentas aisladas por la mañana (70 %), mayormente nublado por la tarde (10 %) y parcialmente nublado por la noche (0 %); mañana lunes sin lluvia prevista (0 %); martes tormentas fuertes (70 %). La alerta amarilla por tormentas del COE terminó a las 08:59 h.",
+   "smn": "Parte del SMN difundido por La Nación (07:49 h del 22/11): mañana martes tormentas fuertes (70 %). Alerta amarilla del SMN por tormentas para el martes 24/11 de 09:00 a 20:59 h, con 30 a 70 mm posibles (emitida el 23/11 a las 11:56 h).",
    "modelos": {
     "hoy": [
      [
@@ -98,9 +77,9 @@
      ]
     ]
    },
-   "criterio": "Promedio de los modelos GFS (NOAA), ICON (DWD), ECMWF (Open-Meteo), calculado automáticamente. Estimación derivada, no una medición.",
+   "criterio": "Con tormentas fuertes y 70 % en el parte del SMN para mañana, se usa el modelo más alto (ECMWF, 37,2 mm). Hoy, promedio de GFS, ICON y ECMWF. Estimación derivada, no una medición.",
    "fuente": "Hoy 0,1 mm, mañana 28,2 mm, promedio de modelos (Open-Meteo, 23/11/2026, 08:50 h)",
-   "act": "23/11, 08:50 h"
+   "act": "23/11, 09:15 h"
   },
   "Goya": {
    "hoy": {
@@ -668,8 +647,8 @@
   ]
  },
  "horario_act": "23/11/2026, 08:50 h",
- "consultado": "23/11/2026, 09:00 h",
- "consulta_resultado": "sin alerta ni lluvia",
+ "consultado": "23/11/2026, 09:15 h",
+ "consulta_resultado": "datos nuevos",
  "extendido": {
   "actualizado": "23/11/2026, 08:49 h",
   "aviso": "Pronóstico extendido informativo. No se usa en los cálculos del simulador.",

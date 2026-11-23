@@ -792,16 +792,16 @@
   "2026-11-24": {
    "nivel": "amarillo",
    "incluye_capital": true,
-   "zonas": "Berón de Astrada, Capital, Empedrado, General Paz, Itatí, Ituzaingó, Mburucuyá, Saladas, San Cosme, San Luis del Palmar, San Miguel",
+   "zonas": "Berón de Astrada, Capital, Empedrado, General Alvear, General Paz, Itatí, Ituzaingó, Mburucuyá, Paso de los Libres, Saladas, San Cosme, San Luis del Palmar, San Martín, San Miguel, Santo Tomé",
    "desde": "24/11/2026, 09:00 h",
    "hasta": "24/11/2026, 20:59 h",
    "desde_iso": "2026-11-24T09:00:00-03:00",
    "hasta_iso": "2026-11-24T20:59:59-03:00",
-   "emision": "22/11/2026, 20:57 h",
+   "emision": "23/11/2026, 11:56 h",
    "emision_iso": null,
    "min": 30,
    "max": 70,
-   "texto": "Alerta amarilla por tormentas del Servicio Meteorológico Nacional para la Capital el martes 24/11 de 09:00 a 20:59 h, con 30 a 70 mm posibles, que pueden ser superados en forma puntual."
+   "texto": "Alerta amarilla por tormentas del Servicio Meteorológico Nacional para la Capital el martes 24/11 de 09:00 a 20:59 h, con 30 a 70 mm posibles, que pueden ser superados en forma puntual (emitida el 23/11 a las 11:56 h)."
   }
  },
  "rio": {
