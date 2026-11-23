@@ -1,6 +1,6 @@
 {
- "consultado": "22/11/2026, 22:13 h",
- "consultado_iso": "2026-11-22T22:13-03:00",
+ "consultado": "22/11/2026, 22:48 h",
+ "consultado_iso": "2026-11-22T22:48-03:00",
  "paginas": {
   "smn_alertas": {
    "url": "https://www.smn.gob.ar/alertas",
@@ -50,7 +50,7 @@
   "lanacion_clima_corrientes": {
    "url": "https://www.lanacion.com.ar/clima/corrientes/",
    "estado": 200,
-   "caracteres": 8329,
+   "caracteres": 8358,
    "archivo": "data/fuentes/lanacion_clima_corrientes.txt"
   },
   "noaa_enso": {
