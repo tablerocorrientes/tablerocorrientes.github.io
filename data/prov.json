@@ -11,7 +11,7 @@
   "fecha": "13/11/2026, 18:35 h"
  },
  "met_revision": "aae6c54b1ab7086a927cf2e4bb8e34a53a584e781ba42ff90ab9d653046ddc38",
- "actualizado": "22/11/2026, 21:57 h",
+ "actualizado": "23/11/2026, 00:35 h",
  "localidades": [
   {
    "n": "Corrientes Capital",
@@ -33,10 +33,10 @@
    "dep": "Bella Vista",
    "ref": "Bella Vista",
    "rio": "Paraná",
-   "altura": 5.9,
+   "altura": 5.89,
    "alerta": 6.0,
    "evac": 6.4,
-   "reg": "22/11/2026, 12:00 h (Prefectura Naval Argentina, vía rioparana.com.ar)"
+   "reg": "23/11/2026, 00:00 h (Prefectura Naval Argentina, vía rioparana.com.ar)"
   },
   {
    "n": "Berón de Astrada",
@@ -88,10 +88,10 @@
    "dep": "Empedrado",
    "ref": "Corrientes Capital",
    "rio": "Paraná",
-   "altura": 5.25,
+   "altura": 5.18,
    "alerta": 6.5,
    "evac": 6.7,
-   "reg": "22/11/2026, 12:00 h (Prefectura Naval Argentina, vía rioparana.com.ar)"
+   "reg": "23/11/2026, 00:00 h (Prefectura Naval Argentina, vía rioparana.com.ar)"
   },
   {
    "n": "El Sombrero",
@@ -103,10 +103,10 @@
    "dep": "Esquina",
    "ref": "Esquina",
    "rio": "Paraná",
-   "altura": 5.31,
+   "altura": 5.3,
    "alerta": 5.0,
    "evac": 5.4,
-   "reg": "22/11/2026, 18:00 h (Prefectura Naval Argentina, vía rioparana.com.ar)"
+   "reg": "23/11/2026, 00:00 h (Prefectura Naval Argentina, vía rioparana.com.ar)"
   },
   {
    "n": "Pueblo Libertador",
@@ -141,7 +141,7 @@
    "altura": 4.58,
    "alerta": 7.0,
    "evac": 7.5,
-   "reg": "22/11/2026, 12:00 h (Prefectura Naval Argentina, vía rioparana.com.ar)"
+   "reg": "23/11/2026, 00:00 h (Prefectura Naval Argentina, vía rioparana.com.ar)"
   },
   {
    "n": "Lomas de Vallejos",
@@ -173,10 +173,10 @@
    "dep": "Itatí",
    "ref": "Corrientes Capital",
    "rio": "Paraná",
-   "altura": 5.88,
+   "altura": 5.89,
    "alerta": 6.8,
    "evac": 7.5,
-   "reg": "22/11/2026, 12:00 h (Prefectura Naval Argentina, vía rioparana.com.ar)"
+   "reg": "23/11/2026, 00:00 h (Prefectura Naval Argentina, vía rioparana.com.ar)"
   },
   {
    "n": "Ramada Paso",
@@ -188,10 +188,10 @@
    "dep": "Ituzaingó",
    "ref": "Ituzaingó",
    "rio": "Paraná",
-   "altura": 2.38,
+   "altura": 1.97,
    "alerta": 3.5,
    "evac": 4.0,
-   "reg": "22/11/2026, 12:00 h (Prefectura Naval Argentina, vía rioparana.com.ar)"
+   "reg": "23/11/2026, 00:00 h (Prefectura Naval Argentina, vía rioparana.com.ar)"
   },
   {
    "n": "San Carlos",
@@ -1143,7 +1143,7 @@
    }
   ]
  },
- "pron_actualizado": "23/11/2026, 00:33 h",
+ "pron_actualizado": "23/11/2026, 00:35 h",
  "smn": [
   {
    "id_oficial": "SMN-tormentas-amarilla-2026-11-24-este",
