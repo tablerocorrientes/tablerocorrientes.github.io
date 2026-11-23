@@ -653,6 +653,14 @@
  "prensa": [
   {
    "fecha": "22/11/2026",
+   "medio": "El Litoral | Novedades de Corrientes",
+   "titulo": "Semana inestable en Corrientes: cuándo se esperan lluvias y tormentas",
+   "enlace": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPQjAzNnlDZVdfY1l0NUFjc0MxR09iN1hTTk5hRmxxaWd4cHJoWTFxOWdrZUM1Z0hlVzRVWHAzX3UxaTN3TW5pZ3Jia1dSd3J4dnhYbThheDFFMU1xdlpDNy1TSTNxVDNaWjRjd3I1U29EMjh5d2dMM1NuZjNJa0RZT3RZN3FlMVY2blpNTFRkOWgzeklWeTlWU3NzNndFWVBFMEFtX09jUHpKSlhRejUtS3hhUy1YZVd1Zmo3bmFiLU95dTg?oc=5",
+   "breve": "Semana inestable en Corrientes: cuándo se esperan lluvias y tormentas",
+   "auto": true
+  },
+  {
+   "fecha": "22/11/2026",
    "medio": "VirasoroVirtual",
    "titulo": "Corrientes: semana inestable con lluvias y tormentas el martes",
    "enlace": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRmV6X0RvWmhKNkI3VllXZXQ4Z1dVbHB0eW9tVVhJdDdXc2xqUTcydGdSQlRoWmxCSEwtN0J4bW9Nby10UzFCWW9vNTh4SnM5SHdCTVdtZHN4Vzk0QV9zcWZ6Smtzb3RHQTFDSlR4cG1mOWc4Z0c1RXBQM1BHWWhRMkdCS0V5VlZQRmlhUmVzUFJxUDlGaXdIUmNHeTFiVllHTUE?oc=5",
@@ -1074,13 +1082,6 @@
    "titulo": "El río Paraná rompió las defensas de Paso de la Patria e inundó tres barrios",
    "resumen": "La rotura del terraplén se produjo con el hidrómetro local en 7,63 m y anegó los barrios Don Julián, La Isla y Pescadores. Unas 650 personas dejaron sus casas en la provincia; en Itatí, casi 200 fueron a centros de evacuación. En Goya se espera el pico entre el 22 y el 27 de octubre, con más de seis metros.",
    "enlace": "https://www.lanacion.com.ar/sociedad/el-rio-parana-rompio-las-defensas-de-una-importante-ciudad-turistica-e-inundo-tres-barrios-nid21102026/"
-  },
-  {
-   "medio": "Elonce",
-   "fecha": "21/10/2026",
-   "titulo": "La crecida del Paraná rompió una defensa en Paso de la Patria y el agua inundó varios barrios",
-   "resumen": "En la ciudad de Corrientes, con el río en 7,07 m, el agua ingresó a viviendas del barrio Anahí, en el sector norte; se restringió el acceso a Punta San Sebastián.",
-   "enlace": "https://www.elonce.com/sociedad/la-crecida-del-rio-parana-rompio-una-defensa-en-una-ciudad-turistica-de-corrientes-y-el-agua-inundo-varios-barrios.htm"
   }
  ],
  "puertos_uruguay": [
@@ -1398,5 +1399,5 @@
  "tapon_breve": "Alerta amarilla por tormentas el martes 17/11 de 3 a 15 h (30 a 70 mm). Con el río en 6,50 m, una lluvia fuerte puede superar la capacidad de los desagües.",
  "consultado": "23/11/2026, 01:50 h",
  "consulta_resultado": "datos nuevos",
- "prensa_actualizada": "22/11/2026, 19:21 h"
+ "prensa_actualizada": "23/11/2026, 03:24 h"
 }
