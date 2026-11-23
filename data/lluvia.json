@@ -1,10 +1,9 @@
 {
- "actualizado": "23/11/2026, 08:48 h",
+ "actualizado": "23/11/2026, 09:05 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
-  "22/11 09 h",
-  "10 h",
+  "22/11 10 h",
   "11 h",
   "12 h",
   "13 h",
@@ -27,11 +26,12 @@
   "06 h",
   "07 h",
   "08 h",
-  "09 h (en curso)"
+  "09 h",
+  "10 h (en curso)"
  ],
  "fuente": "Sistema Nacional de Información Hídrica (SNIH), Secretaría de Infraestructura y Política Hídrica; estaciones de la Red Hidrológica Nacional y redes asociadas (ICAA, INTA, Red Iberá). Datos crudos del sensor, sin validar.",
  "enlace": "https://snih.hidricosargentina.gob.ar/Filtros.aspx",
- "nota": "Ventana de 24 horas completas, de 09 h del 22/11 a 08 h del 23/11 (hora de Argentina), más la hora en curso como última columna, con los datos recibidos hasta el momento. El total suma solo las 24 horas completas. Las horas sin transmisión figuran como null, no como cero.",
+ "nota": "Ventana de 24 horas completas, de 10 h del 22/11 a 09 h del 23/11 (hora de Argentina), más la hora en curso como última columna, con los datos recibidos hasta el momento. El total suma solo las 24 horas completas. Las horas sin transmisión figuran como null, no como cero.",
  "estaciones": [
   {
    "localidad": "Corrientes Capital",
@@ -65,7 +65,7 @@
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 08 h"
+   "ultimo": "0 mm a las 09 h"
   },
   {
    "localidad": "Corrientes Capital (estación 13805)",
@@ -95,7 +95,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -106,7 +106,6 @@
    "estacion": "Garruchos",
    "codigo": 13857,
    "valores": [
-    null,
     null,
     null,
     0,
@@ -129,11 +128,12 @@
     null,
     null,
     null,
+    0.25,
     null,
     null
    ],
-   "total": 0.25,
-   "ultimo": "0 mm a las 04 h"
+   "total": 0.5,
+   "ultimo": "0,25 mm a las 08 h"
   },
   {
    "localidad": "Colonia Carlos Pellegrini",
@@ -142,7 +142,6 @@
    "valores": [
     null,
     null,
-    null,
     0,
     null,
     null,
@@ -164,6 +163,7 @@
     null,
     null,
     0,
+    null,
     null
    ],
    "total": 0,
@@ -197,7 +197,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -231,7 +231,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -242,7 +242,6 @@
    "estacion": "Estación La Palmira - Escuela N° 70",
    "codigo": 283902,
    "valores": [
-    0,
     0.2,
     0,
     0,
@@ -263,13 +262,14 @@
     0,
     0,
     0.2,
+    0,
     0,
     0,
     0,
     null
    ],
    "total": 0.6,
-   "ultimo": "0 mm a las 08 h"
+   "ultimo": "0 mm a las 09 h"
   },
   {
    "localidad": "Bella Vista",
@@ -673,7 +673,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -690,7 +690,6 @@
     null,
     null,
     null,
-    null,
     0,
     null,
     null,
@@ -704,6 +703,7 @@
     null,
     null,
     0,
+    null,
     null,
     null,
     null,
@@ -775,7 +775,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -856,7 +856,6 @@
    "valores": [
     null,
     null,
-    null,
     0,
     null,
     null,
@@ -866,6 +865,7 @@
     null,
     null,
     0,
+    null,
     null,
     null,
     null,
@@ -1060,7 +1060,6 @@
    "valores": [
     null,
     null,
-    null,
     0,
     null,
     null,
@@ -1082,6 +1081,7 @@
     null,
     null,
     0,
+    null,
     null
    ],
    "total": 0,
@@ -1115,7 +1115,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -1149,7 +1149,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -1183,7 +1183,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -1217,7 +1217,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -1251,7 +1251,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -1285,7 +1285,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -1319,7 +1319,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -1352,7 +1352,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null,
     null
    ],
@@ -1434,7 +1434,6 @@
    "valores": [
     null,
     null,
-    null,
     0.25,
     null,
     null,
@@ -1452,6 +1451,7 @@
     null,
     null,
     0.25,
+    null,
     null,
     null,
     null,
@@ -1557,7 +1557,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "23/11/2026, 08:48 h",
+ "consultado": "23/11/2026, 09:05 h",
  "consulta_resultado": "datos nuevos"
 }
