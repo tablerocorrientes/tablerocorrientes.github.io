@@ -1,5 +1,5 @@
 {
- "actualizado": "23/11/2026, 07:20 h",
+ "actualizado": "23/11/2026, 07:37 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
@@ -866,7 +866,7 @@
     null,
     null,
     null,
-    null,
+    0,
     null,
     null,
     null,
@@ -881,7 +881,7 @@
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 16 h"
+   "ultimo": "0 mm a las 20 h"
   },
   {
    "localidad": "Paso de los Libres",
@@ -1353,11 +1353,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 06 h"
+   "ultimo": "0 mm a las 07 h"
   },
   {
    "localidad": "San Isidro",
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "23/11/2026, 07:20 h",
+ "consultado": "23/11/2026, 07:37 h",
  "consulta_resultado": "datos nuevos"
 }
