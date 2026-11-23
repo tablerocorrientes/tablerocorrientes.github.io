@@ -653,6 +653,14 @@
  "prensa": [
   {
    "fecha": "23/11/2026",
+   "medio": "www.actualidadparana.com.ar",
+   "titulo": "Calor y posibles lluvias para este lunes feriado en Corrientes",
+   "enlace": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE91T2IyU2dZb1RNRW9tNmtRSUlLYnNlU0VmeVdsOGxBQjNleFo1aTNzV0dSU3JwZkpzOV8xZy1xb1BNRWVrVEZyYWEzSjhrdEpfVjlsMkJIMHZDTjQ?oc=5",
+   "breve": "Calor y posibles lluvias para este lunes feriado en Corrientes",
+   "auto": true
+  },
+  {
+   "fecha": "23/11/2026",
    "medio": "República de Corrientes",
    "titulo": "Alertas meteorológicas en el celular: cómo avanza el sistema de avisos en Corrientes",
    "enlace": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNQ2gxM2tkV3NwNy1GMDA0WFR3MWcxLU8wU0kzdWh4VTRqZjNPaS10TmF1YWpQQ0FINjctQ255OHNua3hUOUlaVGIwd2ppRUpNd0RMUmVDOWltaTBzVHJpRG9HYWh1TUZWdEFSOTl5RjRabDBGZEhSbEIxbWpfc2ZTLU5pWXRGazJvMnlvN1p6OWZRRExWYVUzSEZ4R2ZKem5BWk1KY0YzdEtILXgtN2tENnFseUIxQzZ4LTNRWVcyWXZFWEd0SlE?oc=5",
@@ -1076,13 +1084,6 @@
    "titulo": "Otra ciudad correntina en el sur está en alerta ante la creciente del río",
    "resumen": "En Esquina el Paraná llegó a 4,71 m, creciendo unos 12 cm por día; faltan 29 cm para la alerta de 5 m.",
    "enlace": "https://www.corrienteshoy.com/info-general/otra-ciudad-correntina-en-el-sur-esta-en-alerta-ante-la-creciente-del-rio.htm"
-  },
-  {
-   "medio": "Misiones Online",
-   "fecha": "21/10/2026",
-   "titulo": "El Paraná continúa estacionado sobre el nivel de evacuación en Itatí",
-   "resumen": "Con 8,28 m, hay caminos de acceso, sectores productivos y viviendas costeras anegados; continúan los traslados preventivos de personas y ganado.",
-   "enlace": "https://misionesonline.net/2026/10/21/corrientes-parana-evacuacion-itati/"
   }
  ],
  "puertos_uruguay": [
@@ -1400,5 +1401,5 @@
  "tapon_breve": "Alerta amarilla por tormentas el martes 17/11 de 3 a 15 h (30 a 70 mm). Con el río en 6,50 m, una lluvia fuerte puede superar la capacidad de los desagües.",
  "consultado": "23/11/2026, 09:40 h",
  "consulta_resultado": "datos nuevos",
- "prensa_actualizada": "23/11/2026, 05:04 h"
+ "prensa_actualizada": "23/11/2026, 09:57 h"
 }
