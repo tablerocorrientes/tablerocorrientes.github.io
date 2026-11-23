@@ -1,10 +1,10 @@
 {
- "actualizado": "23/11/2026, 11:06 h",
+ "actualizado": "23/11/2026, 12:12 h",
  "metodo": "estimación derivada: promedio de modelos (Open-Meteo), calculado automáticamente; las tareas agregan el parte del SMN cuando corren",
  "estado_alertas": "VERIFICADO_CON_ALERTAS",
  "estado_verificado": {
-  "fecha": "23/11/2026, 09:15 h",
-  "fuente": "SMN, canal oficial de alertas (lectura de las 09:06 h), y COE de Corrientes (08:56 h)"
+  "fecha": "23/11/2026, 12:12 h",
+  "fuente": "SMN (lectura de las 11:56 h) y COE de Corrientes (11:39 h)"
  },
  "met_archivo": {
   "nombre": "vigilancia_meteorologica_20261113_183508.json",
@@ -647,8 +647,8 @@
   ]
  },
  "horario_act": "23/11/2026, 11:06 h",
- "consultado": "23/11/2026, 09:15 h",
- "consulta_resultado": "datos nuevos",
+ "consultado": "23/11/2026, 12:12 h",
+ "consulta_resultado": "sin cambios",
  "extendido": {
   "actualizado": "23/11/2026, 11:06 h",
   "aviso": "Pronóstico extendido informativo. No se usa en los cálculos del simulador.",
