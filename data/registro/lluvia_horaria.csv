@@ -751,6 +751,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-23,02,Santa Lucía,Santa Lucia,13836,0
 2026-11-23,03,Santa Lucía,Santa Lucia,13836,0
 2026-11-23,04,Santa Lucía,Santa Lucia,13836,0
+2026-11-23,05,Santa Lucía,Santa Lucia,13836,0
 2026-11-01,23,Paso Cerrito,Paso Cerrito,13849,0
 2026-11-02,03,Paso Cerrito,Paso Cerrito,13849,0
 2026-11-02,07,Paso Cerrito,Paso Cerrito,13849,0
@@ -1163,6 +1164,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-23,02,San Carlos,San Carlos,13864,0
 2026-11-23,03,San Carlos,San Carlos,13864,0
 2026-11-23,04,San Carlos,San Carlos,13864,0
+2026-11-23,05,San Carlos,San Carlos,13864,0
 2026-11-01,23,Pueblo Libertador,Pueblo Libertador,13876,0
 2026-11-02,00,Pueblo Libertador,Pueblo Libertador,13876,0
 2026-11-02,01,Pueblo Libertador,Pueblo Libertador,13876,0
@@ -4758,3 +4760,4 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-23,02,La Cruz,La Cruz - Corrientes,283909,0
 2026-11-23,03,La Cruz,La Cruz - Corrientes,283909,0
 2026-11-23,04,La Cruz,La Cruz - Corrientes,283909,0
+2026-11-23,05,La Cruz,La Cruz - Corrientes,283909,0
