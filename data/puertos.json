@@ -653,6 +653,22 @@
  "prensa": [
   {
    "fecha": "23/11/2026",
+   "medio": "Agrofy News",
+   "titulo": "Altura del río Paraná hoy: Rosario, Santa Fe, Corrientes y más puertos",
+   "enlace": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1MTW9RX0RQdXV4LWdtX2tvNEpaY29BQUlXZjlLUWFsVnlGdEh4ZzhEMXZKc3h5enRiQVFQZnAwWFJfd2Rmd2Z3ZGtwOVVjOEd5TmFiaUhWdjNRUjhqbkNDcDFHdkhTTEk?oc=5",
+   "breve": "Altura del río Paraná hoy: Rosario, Santa Fe, Corrientes y más puertos",
+   "auto": true
+  },
+  {
+   "fecha": "21/11/2026",
+   "medio": "Corrientes Hoy",
+   "titulo": "Corrientes ya no tiene más evacuados. De la escuela a sus casas",
+   "enlace": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMFJQdUF3RGZJbHEzT3IzSzhXb09vM3otRDdyYTFZbV9XZzlqSG9xNFpjT0xIMUhoMUUzT1hscW1ucThUc09BOWY3ZXZZNEZTMWF6ODZPZTktUjlNSmY4U3BVTk5EckliQVIyN0pXbXhMUUF2eDM5cWw4ZUg3YlgwU3RpNFQ2Y1VIaWRZWENPM2FTdUxMNFFXSjRqNTJUVkw0ak5aMWZLSVhLcFpmRXc?oc=5",
+   "breve": "Corrientes ya no tiene más evacuados. De la escuela a sus casas",
+   "auto": true
+  },
+  {
+   "fecha": "23/11/2026",
    "medio": "www.actualidadparana.com.ar",
    "titulo": "Calor y posibles lluvias para este lunes feriado en Corrientes",
    "enlace": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE91T2IyU2dZb1RNRW9tNmtRSUlLYnNlU0VmeVdsOGxBQjNleFo1aTNzV0dSU3JwZkpzOV8xZy1xb1BNRWVrVEZyYWEzSjhrdEpfVjlsMkJIMHZDTjQ?oc=5",
@@ -1070,20 +1086,6 @@
    "titulo": "Alerta naranja por tormentas fuertes: prevén lluvias intensas y caída de granizo",
    "resumen": "El COE emitió alerta naranja desde la medianoche del jueves para 20 departamentos, con 60 a 100 mm.",
    "enlace": "https://examedia.com.ar/portada/post/88095676"
-  },
-  {
-   "medio": "El Litoral",
-   "fecha": "21/10/2026, 16:26 h",
-   "titulo": "Crecida de los ríos Paraná y Uruguay: ya hay más de 1.000 personas afectadas en Corrientes",
-   "resumen": "Defensa Civil informó 1.084 afectados, entre evacuados y autoevacuados.",
-   "enlace": "https://www.ellitoral.com.ar/sociedad/2026-10-21-16-26-0-crecida-de-los-rios-parana-y-uruguay-ya-hay-mas-de-1-000-personas-afectadas-en-corrientes"
-  },
-  {
-   "medio": "Corrientes Hoy",
-   "fecha": "21/10/2026",
-   "titulo": "Otra ciudad correntina en el sur está en alerta ante la creciente del río",
-   "resumen": "En Esquina el Paraná llegó a 4,71 m, creciendo unos 12 cm por día; faltan 29 cm para la alerta de 5 m.",
-   "enlace": "https://www.corrienteshoy.com/info-general/otra-ciudad-correntina-en-el-sur-esta-en-alerta-ante-la-creciente-del-rio.htm"
   }
  ],
  "puertos_uruguay": [
@@ -1401,5 +1403,5 @@
  "tapon_breve": "Alerta amarilla por tormentas el martes 17/11 de 3 a 15 h (30 a 70 mm). Con el río en 6,50 m, una lluvia fuerte puede superar la capacidad de los desagües.",
  "consultado": "23/11/2026, 12:21 h",
  "consulta_resultado": "datos nuevos",
- "prensa_actualizada": "23/11/2026, 09:57 h"
+ "prensa_actualizada": "23/11/2026, 14:42 h"
 }
