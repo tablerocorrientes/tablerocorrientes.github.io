@@ -1,32 +1,32 @@
 Fuente: https://news.agrofy.com.ar/altura-de-los-rios/corrientes
-Consultado: 15/11/2026, 11:43 h
+Consultado: 23/11/2026, 13:18 h
 Leído desde la computadora del autor
 
 Altura del río Paraná en Corrientes hoy | Agrofy News
 
 Nivel del río Paraná en el puerto de Corrientes: última lectura, evolución histórica y pronóstico del Instituto Nacional del Agua.
 
-La altura del río Paraná en Corrientes hoy es de 6,73 m (lectura del 13/11/2026), 6 cm menos que el día anterior. El nivel de alerta es de 6,50 m, el de evacuación de 7,00 m y el de aguas bajas de 1,83 m.
+La altura del río Paraná en Corrientes hoy es de 5,76 m (lectura del 22/11/2026), 9 cm menos que el día anterior. El nivel de alerta es de 6,50 m, el de evacuación de 7,00 m y el de aguas bajas de 1,83 m.
 
-Actualizado el 13/11/2026. Los datos se actualizan una vez por día, alrededor de las 13 h.
-ALTURA ACTUAL: 6,73 m (13/11/2026)
-VARIACIÓN DIARIA: -0,06 m. Baja, anterior 6,79 m (12/11/2026)
-ESTADO: Alerta. Alerta: 6,50 m · Evacuación: 7,00 m · Aguas bajas: 1,83 m
+Actualizado el 22/11/2026.
+ALTURA ACTUAL: 5,76 m (22/11/2026)
+VARIACIÓN DIARIA: -0,09 m. Baja · anterior 5,85 m (21/11/2026)
+ESTADO: Normal. Alerta: 6,50 m · Evacuación: 7,00 m · Aguas bajas: 1,83 m
 
-Últimos 7 días
-13/11/2026  6,73 m  -0,06 m
-12/11/2026  6,79 m  -0,05 m
-11/11/2026  6,84 m  -0,03 m
-10/11/2026  6,87 m  -0,04 m
-09/11/2026  6,91 m  -0,04 m
-08/11/2026  6,95 m  -0,05 m
-07/11/2026  7,00 m  sin cambios
+Últimos 7 días (Fecha | Altura | Variación)
+22/11/2026 | 5,76 m | -0,09 m
+21/11/2026 | 5,85 m | -0,08 m
+20/11/2026 | 5,93 m | -0,15 m
+19/11/2026 | 6,08 m | -0,12 m
+18/11/2026 | 6,20 m | -0,16 m
+17/11/2026 | 6,36 m | -0,14 m
+16/11/2026 | 6,50 m | -0,10 m
 
-Pronóstico del INA (emitido el 13/11/2026): Inferior / Medio / Superior
-13/11/2026  6,73 / 6,73 / 6,73 m
-17/11/2026  6,00 / 6,38 / 6,70 m
-24/11/2026  5,40 / 5,79 / 6,20 m
+Pronóstico del INA, emitido el 20/11/2026 (Fecha | Inferior | Medio | Superior)
+20/11/2026 | 5,93 m | 5,93 m | 5,93 m
+24/11/2026 | 5,40 m | 5,72 m | 6,20 m
+01/12/2026 | 5,70 m | 6,08 m | 6,50 m
 
 Fuente: INA / Prefectura Naval Argentina
 
-Otros puertos del río Paraná (según la página): Itatí 7,06 m; Paso de la Patria 6,89 m; Itá Ibaté 5,62 m; Ituzaingó 3,25 m; Empedrado 5,88 m; Bella Vista 6,26 m; Goya 5,87 m; Esquina 5,51 m; Santa Ana 8,98 m; Posadas 10,10 m.
+Otros puertos del río Paraná: Puerto Iguazú 21,30 m; Libertad 19,70 m; El Dorado 15,10 m; Libertador 11,67 m; Itatí 5,92 m; Paso de la Patria 5,80 m; Santa Ana 8,34 m; Posadas 10,20 m; Itá Ibaté 4,58 m; Ituzaingó 2,37 m; Empedrado 5,25 m; Bella Vista 5,90 m; Goya 5,58 m; Esquina 5,32 m; La Paz 6,14 m.
