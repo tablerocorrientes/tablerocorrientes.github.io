@@ -11,7 +11,7 @@
   "fecha": "13/11/2026, 18:35 h"
  },
  "met_revision": "aae6c54b1ab7086a927cf2e4bb8e34a53a584e781ba42ff90ab9d653046ddc38",
- "actualizado": "22/11/2026, 18:48 h",
+ "actualizado": "22/11/2026, 21:57 h",
  "localidades": [
   {
    "n": "Corrientes Capital",
@@ -103,10 +103,10 @@
    "dep": "Esquina",
    "ref": "Esquina",
    "rio": "Paraná",
-   "altura": 5.32,
+   "altura": 5.31,
    "alerta": 5.0,
    "evac": 5.4,
-   "reg": "22/11/2026, 12:00 h (Prefectura Naval Argentina, vía rioparana.com.ar)"
+   "reg": "22/11/2026, 18:00 h (Prefectura Naval Argentina, vía rioparana.com.ar)"
   },
   {
    "n": "Pueblo Libertador",
