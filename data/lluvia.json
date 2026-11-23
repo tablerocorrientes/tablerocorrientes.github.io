@@ -1,5 +1,5 @@
 {
- "actualizado": "22/11/2026, 21:20 h",
+ "actualizado": "22/11/2026, 21:37 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
@@ -128,12 +128,12 @@
     null,
     null,
     null,
-    null,
+    0.25,
     null,
     null
    ],
-   "total": 1.5,
-   "ultimo": "0 mm a las 16 h"
+   "total": 1.75,
+   "ultimo": "0,25 mm a las 20 h"
   },
   {
    "localidad": "Colonia Carlos Pellegrini",
@@ -162,12 +162,12 @@
     null,
     null,
     null,
-    null,
+    0,
     null,
     null
    ],
    "total": 0.5,
-   "ultimo": "0 mm a las 16 h"
+   "ultimo": "0 mm a las 20 h"
   },
   {
    "localidad": "San Carlos",
@@ -694,7 +694,7 @@
     null,
     null,
     null,
-    null,
+    0,
     null,
     null,
     null,
@@ -711,7 +711,7 @@
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 04 h"
+   "ultimo": "0 mm a las 08 h"
   },
   {
    "localidad": "Los Laureles",
@@ -1080,12 +1080,12 @@
     null,
     null,
     null,
-    null,
+    0,
     null,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 16 h"
+   "ultimo": "0 mm a las 20 h"
   },
   {
    "localidad": "Caá Catí",
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "22/11/2026, 21:20 h",
+ "consultado": "22/11/2026, 21:37 h",
  "consulta_resultado": "datos nuevos"
 }
