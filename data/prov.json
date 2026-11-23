@@ -11,7 +11,7 @@
   "fecha": "13/11/2026, 18:35 h"
  },
  "met_revision": "aae6c54b1ab7086a927cf2e4bb8e34a53a584e781ba42ff90ab9d653046ddc38",
- "actualizado": "23/11/2026, 09:40 h",
+ "actualizado": "23/11/2026, 12:21 h",
  "localidades": [
   {
    "n": "Corrientes Capital",
@@ -103,10 +103,10 @@
    "dep": "Esquina",
    "ref": "Esquina",
    "rio": "Paraná",
-   "altura": 5.29,
+   "altura": 5.28,
    "alerta": 5.0,
    "evac": 5.4,
-   "reg": "23/11/2026, 06:00 h (Prefectura Naval Argentina, vía rioparana.com.ar)"
+   "reg": "23/11/2026, 12:00 h (Prefectura Naval Argentina, vía rioparana.com.ar)"
   },
   {
    "n": "Pueblo Libertador",
@@ -1143,7 +1143,7 @@
    }
   ]
  },
- "pron_actualizado": "23/11/2026, 12:19 h",
+ "pron_actualizado": "23/11/2026, 12:21 h",
  "smn": [
   {
    "id_oficial": "SMN-tormentas-amarilla-2026-11-24-emision-1156",
