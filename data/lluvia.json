@@ -1,5 +1,5 @@
 {
- "actualizado": "23/11/2026, 05:19 h",
+ "actualizado": "23/11/2026, 05:36 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
@@ -128,12 +128,12 @@
     null,
     null,
     null,
-    null,
+    0,
     null,
     null
    ],
    "total": 0.5,
-   "ultimo": "0 mm a las 00 h"
+   "ultimo": "0 mm a las 04 h"
   },
   {
    "localidad": "Colonia Carlos Pellegrini",
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "23/11/2026, 05:19 h",
+ "consultado": "23/11/2026, 05:36 h",
  "consulta_resultado": "datos nuevos"
 }
