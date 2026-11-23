@@ -3,8 +3,8 @@
  "metodo": "estimación derivada: promedio de modelos (Open-Meteo), calculado automáticamente; las tareas agregan el parte del SMN cuando corren",
  "estado_alertas": "VERIFICADO_CON_ALERTAS",
  "estado_verificado": {
-  "fecha": "22/11/2026, 19:30 h",
-  "fuente": "SMN, canal oficial de alertas y avisos (lectura de las 19:28 h)"
+  "fecha": "23/11/2026, 08:57 h",
+  "fuente": "SMN, canal oficial de alertas y avisos (lectura de las 08:57 h), y COE de Corrientes (08:56 h)"
  },
  "met_archivo": {
   "nombre": "vigilancia_meteorologica_20261113_183508.json",
@@ -33,7 +33,7 @@
    "incluye_corrientes": true,
    "incluye_capital": false,
    "url": "https://www.smn.gob.ar/alertas",
-   "origen": "SMN, canal oficial de alertas (leído a las 19:28 h)"
+   "origen": "SMN, canal oficial de alertas (leído a las 08:57 h)"
   },
   {
    "id_oficial": "SMN-tormentas-amarilla-2026-11-24-capital",
@@ -54,7 +54,7 @@
    "incluye_corrientes": true,
    "incluye_capital": true,
    "url": "https://www.smn.gob.ar/alertas",
-   "origen": "SMN, canal oficial de alertas (leído a las 19:28 h)"
+   "origen": "SMN, canal oficial de alertas (leído a las 08:57 h)"
   }
  ],
  "ciudades": {
@@ -668,7 +668,7 @@
   ]
  },
  "horario_act": "23/11/2026, 08:50 h",
- "consultado": "23/11/2026, 06:10 h",
+ "consultado": "23/11/2026, 09:00 h",
  "consulta_resultado": "sin alerta ni lluvia",
  "extendido": {
   "actualizado": "23/11/2026, 08:49 h",

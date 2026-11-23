@@ -1164,7 +1164,7 @@
    "incluye_corrientes": true,
    "incluye_capital": false,
    "url": "https://www.smn.gob.ar/alertas",
-   "origen": "SMN, canal oficial de alertas (leído a las 19:28 h)"
+   "origen": "SMN, canal oficial de alertas (leído a las 08:57 h)"
   },
   {
    "id_oficial": "SMN-tormentas-amarilla-2026-11-24-capital",
@@ -1185,7 +1185,7 @@
    "incluye_corrientes": true,
    "incluye_capital": true,
    "url": "https://www.smn.gob.ar/alertas",
-   "origen": "SMN, canal oficial de alertas (leído a las 19:28 h)"
+   "origen": "SMN, canal oficial de alertas (leído a las 08:57 h)"
   }
  ]
 }
