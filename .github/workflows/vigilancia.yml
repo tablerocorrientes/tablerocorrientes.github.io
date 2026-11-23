@@ -43,6 +43,7 @@ jobs:
               if [ $HACER_FU = 1 ]; then python3 tareas/fuentes_oficiales.py || true; python3 tareas/prensa_auto.py || true; fi
               if [ $HACER_PR = 1 ]; then python3 tareas/extendido_ciudades.py || true; python3 tareas/pronostico_modelos.py || true; fi
               if [ $HACER_RI = 1 ]; then python3 tareas/actualizar_rios.py || true; fi
+              python3 tareas/resumenes_rios.py || true
               python3 tareas/esperado_dia.py || true
               python3 tareas/registro.py || true
               git add data/esperado_dia.json data/bitacora data/registro data/lluvia.json data/obs.json data/sat.json assets/sat.jpg data/fuentes data/pron.json data/barrio.json data/prov.json data/puertos.json data/hist.json
