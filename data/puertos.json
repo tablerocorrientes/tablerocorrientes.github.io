@@ -652,6 +652,14 @@
  "prensa_fecha": "14/11/2026, 09:12 h",
  "prensa": [
   {
+   "fecha": "23/11/2026",
+   "medio": "El Litoral | Novedades de Corrientes",
+   "titulo": "Rige una doble alerta naranja y amarilla por tormentas fuertes para este martes en Corrientes",
+   "enlace": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPc0llMFRwdW5yWXVoNkZpZ1JKZXltb0RBbU9qdkJ2cnQwR1lTYWNnUHl6YnpITXV0R3lNdjdhWG14MDZvOWZ5TXpveUZnYWpubk5hbUluQkZfVkxCTEtNUmtFQjhsQU1Bd2JXcHBLaGFDRjdETmtwbFRJWGdGbTd5OTMwcGVXdEdrejJCTjZhSGI1X29YLTFyNXloS1gxcmViZTJIVEdvYk1SY090WEhhSVpGeTA0T3AzdlZiTmtUa05oaGp4ZVhRVEtzWnRiMjRKTUh2XzE2d2lRS3ZGMDIySHF1c1M?oc=5",
+   "breve": "Rige una doble alerta naranja y amarilla por tormentas fuertes para este martes en Corrientes",
+   "auto": true
+  },
+  {
    "fecha": "22/11/2026",
    "medio": "República de Corrientes",
    "titulo": "Proyectan una nueva crecida del río Paraná en Goya",
@@ -1080,13 +1088,6 @@
    "titulo": "La crecida del Paraná y del río Uruguay provoca más evacuados en Chaco y Corrientes",
    "resumen": "Paraná en 7,43 m en la capital, más de 8 m en Itatí y 7,79 m en Paso de la Patria; más de 550 evacuados y autoevacuados en la provincia. Las lluvias abundantes en las cuencas altas, sobre todo en Brasil, y la operación de Itaipú y Yacyretá explican la crecida.",
    "enlace": "https://www.eltribuno.com/nacionales/2026-10-24-23-2-0-videos-crecida-de-los-rios-e-inundaciones-las-causas-de-la-emergencia-en-chaco-y-corrientes"
-  },
-  {
-   "medio": "AIRE de Santa Fe",
-   "fecha": "23/10/2026, 06:40 h",
-   "titulo": "Qué anticipa para Santa Fe que el río Paraná supere los niveles de alerta y evacuación en Corrientes y Reconquista",
-   "resumen": "El Paraná llegó a 7,45 m en Corrientes el jueves 22. El INA proyecta 4,56 m en Santa Fe el 27/10 y 4,92 m el 3/11, por debajo de la alerta.",
-   "enlace": "https://www.airedesantafe.com.ar/santa-fe/que-anticipa-santa-fe-que-el-rio-parana-supere-los-niveles-alerta-y-evacuacion-corrientes-y-reconquista-n674101"
   }
  ],
  "puertos_uruguay": [
@@ -1404,5 +1405,5 @@
  "tapon_breve": "Alerta amarilla por tormentas el martes 17/11 de 3 a 15 h (30 a 70 mm). Con el río en 6,50 m, una lluvia fuerte puede superar la capacidad de los desagües.",
  "consultado": "23/11/2026, 18:10 h",
  "consulta_resultado": "sin cambios",
- "prensa_actualizada": "23/11/2026, 18:10 h"
+ "prensa_actualizada": "23/11/2026, 19:55 h"
 }
