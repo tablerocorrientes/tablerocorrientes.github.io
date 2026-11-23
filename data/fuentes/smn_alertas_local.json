@@ -1,6 +1,6 @@
 {
- "consultado": "23/11/2026, 06:48 h",
- "consultado_iso": "2026-11-23T06:48:02-03:00",
+ "consultado": "23/11/2026, 07:04 h",
+ "consultado_iso": "2026-11-23T07:04:11-03:00",
  "fuente": "Servicio Meteorológico Nacional, canal oficial de alertas y avisos (CAP)",
  "resultado": "con alertas",
  "alertas": [
@@ -20,7 +20,7 @@
    "hasta": "24/11/2026, 14:59 h",
    "desde_iso": "2026-11-24T09:00:00-03:00",
    "hasta_iso": "2026-11-24T14:59:59-03:00",
-   "emision": "23/11/2026, 03:36 h",
+   "emision": "23/11/2026, 09:27 h",
    "rango_mm": [
     30,
     70
@@ -50,7 +50,7 @@
    "hasta": "24/11/2026, 20:59 h",
    "desde_iso": "2026-11-24T09:00:00-03:00",
    "hasta_iso": "2026-11-24T20:59:59-03:00",
-   "emision": "23/11/2026, 03:36 h",
+   "emision": "23/11/2026, 09:27 h",
    "rango_mm": [
     30,
     70
