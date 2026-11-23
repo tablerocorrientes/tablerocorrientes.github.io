@@ -1,6 +1,6 @@
 {
- "consultado": "23/11/2026, 13:14 h",
- "consultado_iso": "2026-11-23T13:14:56-03:00",
+ "consultado": "23/11/2026, 13:31 h",
+ "consultado_iso": "2026-11-23T13:31:46-03:00",
  "fuente": "Servicio Meteorológico Nacional, canal oficial de alertas y avisos (CAP)",
  "resultado": "con alertas",
  "alertas": [
@@ -38,24 +38,5 @@
    ],
    "texto": "Tormentas. El área será afectada por tormentas aisladas, algunas fuertes o localmente severas. Las mismas podrán estar acompañadas por abundantes precipitaciones en cortos períodos, frecuente actividad eléctrica, ocasional caída de granizo y ráfagas intensas. Se esperan valores de precipitación acumulada entre 30 y 70 mm, que pueden ser superados en forma puntual."
   }
- ],
- "lectura_local": {
-  "consultado": "23/11/2026, 13:18 h",
-  "consultado_iso": "2026-11-23T13:18:31-03:00",
-  "fuente": "Servicio Meteorológico Nacional (www.smn.gob.ar/alertas), leído desde una conexión de Corrientes",
-  "resultado": "con alertas",
-  "alertas": [
-   {
-    "tipo": "alerta",
-    "nivel": "amarillo",
-    "fenomeno": "tormenta",
-    "zonas": "Provincia de Corrientes (la tabla Resumen por provincia no detalla departamentos; el mapa de alertas no muestra texto por zona)",
-    "desde": "23/11/2026, 12:00 h",
-    "hasta": "24/11/2026, 11:59 h",
-    "emision": "23/11/2026, 08:58 h",
-    "texto": "Resumen por provincia: Corrientes con \"Alerta amarillo por tormenta\" en la información vigente desde las 12:00 h del lunes 23 hasta las 11:59 h del martes 24 de noviembre de 2026. Sin alertas por lluvia, viento, nevada, niebla, polvo, humo ni ceniza, y sin avisos a muy corto plazo para Corrientes."
-   }
-  ],
-  "texto_pagina": "Alertas: Fecha de emisión: 23/11/2026 08:58h. Días: Lunes 23, Martes 24, Miércoles 25 (mapa sin texto por zona).\nResumen por provincia: Información vigente desde las 12:00h de hoy lunes 23 hasta las 11:59 horas de mañana martes 24 de noviembre de 2.026. Corrientes: ACP -, Tormenta: Alerta amarillo por tormenta, Lluvia -, Nevada -, Viento -, Viento zonda -, Niebla -, Polvo -, Humo -, Ceniza -.\nAvisos a muy corto plazo vigentes (ninguno para Corrientes): TORMENTAS FUERTES CON LLUVIAS INTENSAS Y OCASIONAL CAIDA DE GRANIZO. Zonas: CORDOBA: Rio Cuarto. SAN LUIS: Gral Pedernera. Emisión 23/11/2026 11:10h, validez dos horas. TORMENTAS FUERTES CON LLUVIAS INTENSAS. Zonas: SAN LUIS: Gdor Dupuy. LA PAMPA: Parera - Realico - Trenel. Emisión 23/11/2026 12:01h, validez dos horas."
- }
+ ]
 }

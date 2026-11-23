@@ -45,15 +45,14 @@
   "9": 0,
   "10": 0,
   "11": 0,
-  "12": 0
+  "12": 0,
+  "13": 0
  },
  "indicador": "compuesto: máximo horario de ICAA y Corrientes 13805",
- "cobertura": {
-  "13": "solo ICAA"
- },
+ "cobertura": {},
  "ultima_hora": 13,
  "mm": 0,
  "estado": "seca",
- "ts": 1795450439915,
+ "ts": 1795451450056,
  "fuente": "SNIH, indicador compuesto (máximo horario de ICAA y Corrientes 13805)"
 }
