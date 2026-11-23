@@ -340,6 +340,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-22,15,Gobernador Virasoro,La Sirena,13811,0
 2026-11-22,19,Gobernador Virasoro,La Sirena,13811,0
 2026-11-23,03,Gobernador Virasoro,La Sirena,13811,0
+2026-11-23,07,Gobernador Virasoro,La Sirena,13811,0
 2026-11-01,23,Colonia Carlos Pellegrini,Carlos Pellegrini,13826,0
 2026-11-02,03,Colonia Carlos Pellegrini,Carlos Pellegrini,13826,0
 2026-11-02,07,Colonia Carlos Pellegrini,Carlos Pellegrini,13826,0.25
@@ -482,6 +483,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-22,19,San Roquito,San Roquito,13832,0
 2026-11-22,23,San Roquito,San Roquito,13832,0
 2026-11-23,03,San Roquito,San Roquito,13832,0.25
+2026-11-23,07,San Roquito,San Roquito,13832,0
 2026-11-01,23,Santa Lucía,Santa Lucia,13836,0
 2026-11-02,00,Santa Lucía,Santa Lucia,13836,0
 2026-11-02,01,Santa Lucía,Santa Lucia,13836,0
@@ -828,6 +830,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-22,11,Paso Cerrito,Paso Cerrito,13849,0
 2026-11-22,15,Paso Cerrito,Paso Cerrito,13849,0
 2026-11-22,19,Paso Cerrito,Paso Cerrito,13849,0
+2026-11-23,07,Paso Cerrito,Paso Cerrito,13849,0
 2026-11-01,23,Garruchos,Garruchos,13857,0
 2026-11-02,03,Garruchos,Garruchos,13857,0
 2026-11-02,07,Garruchos,Garruchos,13857,0
@@ -3992,6 +3995,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-23,07,Corrientes Capital,ICAA,283906,0
 2026-11-23,08,Corrientes Capital,ICAA,283906,0
 2026-11-23,09,Corrientes Capital,ICAA,283906,0
+2026-11-23,10,Corrientes Capital,ICAA,283906,0
 2026-11-01,23,Santo Tomé,Santo Tomé –Corrientes,283907,0
 2026-11-02,00,Santo Tomé,Santo Tomé –Corrientes,283907,0
 2026-11-02,01,Santo Tomé,Santo Tomé –Corrientes,283907,0
