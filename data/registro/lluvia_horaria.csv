@@ -814,6 +814,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-24,01,Santa Lucía,Santa Lucia,13836,0
 2026-11-24,02,Santa Lucía,Santa Lucia,13836,0
 2026-11-24,03,Santa Lucía,Santa Lucia,13836,0
+2026-11-24,04,Santa Lucía,Santa Lucia,13836,0
 2026-11-01,23,Paso Cerrito,Paso Cerrito,13849,0
 2026-11-02,03,Paso Cerrito,Paso Cerrito,13849,0
 2026-11-02,07,Paso Cerrito,Paso Cerrito,13849,0
@@ -1530,6 +1531,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-24,01,Pueblo Libertador,Pueblo Libertador,13876,0
 2026-11-24,02,Pueblo Libertador,Pueblo Libertador,13876,0.25
 2026-11-24,03,Pueblo Libertador,Pueblo Libertador,13876,0.5
+2026-11-24,04,Pueblo Libertador,Pueblo Libertador,13876,1.25
 2026-11-02,00,Parque Nacional Iberá,RMA08_PNI - Parque Nacional Iberá,220226,0
 2026-11-02,01,Parque Nacional Iberá,RMA08_PNI - Parque Nacional Iberá,220226,0
 2026-11-02,02,Parque Nacional Iberá,RMA08_PNI - Parque Nacional Iberá,220226,0
