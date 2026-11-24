@@ -1,9 +1,8 @@
 {
- "actualizado": "23/11/2026, 22:45 h",
+ "actualizado": "23/11/2026, 23:01 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
-  "22/11 23 h",
   "23/11 00 h",
   "01 h",
   "02 h",
@@ -27,11 +26,12 @@
   "20 h",
   "21 h",
   "22 h",
-  "23 h (en curso)"
+  "23 h",
+  "24/11 00 h (en curso)"
  ],
  "fuente": "Sistema Nacional de Información Hídrica (SNIH), Secretaría de Infraestructura y Política Hídrica; estaciones de la Red Hidrológica Nacional y redes asociadas (ICAA, INTA, Red Iberá). Datos crudos del sensor, sin validar.",
  "enlace": "https://snih.hidricosargentina.gob.ar/Filtros.aspx",
- "nota": "Ventana de 24 horas completas, de 23 h del 22/11 a 22 h del 23/11 (hora de Argentina), más la hora en curso como última columna, con los datos recibidos hasta el momento. El total suma solo las 24 horas completas. Las horas sin transmisión figuran como null, no como cero.",
+ "nota": "Ventana de 24 horas completas, de 00 h del 23/11 a 23 h del 23/11 (hora de Argentina), más la hora en curso como última columna, con los datos recibidos hasta el momento. El total suma solo las 24 horas completas. Las horas sin transmisión figuran como null, no como cero.",
  "estaciones": [
   {
    "localidad": "Corrientes Capital",
@@ -65,7 +65,7 @@
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 22 h"
+   "ultimo": "0 mm a las 23 h"
   },
   {
    "localidad": "Corrientes Capital (estación 13805)",
@@ -95,7 +95,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -106,7 +106,6 @@
    "estacion": "Garruchos",
    "codigo": 13857,
    "valores": [
-    null,
     0,
     null,
     null,
@@ -130,6 +129,7 @@
     0,
     null,
     null,
+    null,
     null
    ],
    "total": 0.25,
@@ -140,7 +140,6 @@
    "estacion": "Carlos Pellegrini",
    "codigo": 13826,
    "valores": [
-    null,
     0,
     null,
     null,
@@ -162,6 +161,7 @@
     null,
     null,
     0,
+    null,
     null,
     null,
     null
@@ -197,7 +197,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -231,7 +231,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -247,7 +247,6 @@
     0,
     0,
     0,
-    0,
     0.2,
     0,
     0,
@@ -266,6 +265,7 @@
     0.2,
     0,
     0,
+    null,
     null
    ],
    "total": 0.4,
@@ -673,7 +673,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -688,7 +688,6 @@
     null,
     null,
     null,
-    null,
     0,
     null,
     null,
@@ -706,6 +705,7 @@
     null,
     null,
     0,
+    null,
     null,
     null,
     null
@@ -775,7 +775,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -862,7 +862,6 @@
     null,
     null,
     null,
-    null,
     0,
     null,
     null,
@@ -876,6 +875,7 @@
     null,
     null,
     0,
+    null,
     null,
     null,
     null
@@ -1058,7 +1058,6 @@
    "estacion": "Portal Galarza",
    "codigo": 283904,
    "valores": [
-    null,
     0,
     null,
     null,
@@ -1080,6 +1079,7 @@
     null,
     null,
     0,
+    null,
     null,
     null,
     null
@@ -1115,7 +1115,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -1148,8 +1148,8 @@
     0,
     0,
     0,
-    0,
     0.75,
+    null,
     null
    ],
    "total": 0.75,
@@ -1183,7 +1183,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -1217,7 +1217,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -1251,7 +1251,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -1285,7 +1285,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -1319,7 +1319,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -1338,7 +1338,6 @@
     0,
     0,
     0,
-    0,
     null,
     0,
     0,
@@ -1354,6 +1353,7 @@
     0,
     0,
     0,
+    null,
     null
    ],
    "total": 0,
@@ -1432,7 +1432,6 @@
    "estacion": "San Roquito",
    "codigo": 13832,
    "valores": [
-    null,
     0,
     null,
     null,
@@ -1454,6 +1453,7 @@
     null,
     null,
     0.25,
+    null,
     null,
     null,
     null
@@ -1557,7 +1557,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "23/11/2026, 22:45 h",
+ "consultado": "23/11/2026, 23:01 h",
  "consulta_resultado": "datos nuevos"
 }
