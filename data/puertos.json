@@ -652,6 +652,14 @@
  "prensa_fecha": "14/11/2026, 09:12 h",
  "prensa": [
   {
+   "fecha": "24/11/2026",
+   "medio": "Diario El Libertador de Corrientes",
+   "titulo": "Ante las lluvias lanzan plan preventivo contra el dengue en Corrientes",
+   "enlace": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNX0NVbTQ5b2FGV2NvT0EwT25sWmxZQjB5dV9GMlJkVnlyaGsybXNZWGJZcFhlaUxYdWRJXzVtMXdVb1lUbDFEZnJNMDNvcWM2ZWFFMW5KUzNwWXh0WDVUNG1yRmptNjc0ODJtbzJFc0J6UG02blQtRVgyYU5tSWRKbjFRaEYwSHJuRVIwOWJwRElsMVVjYjB1TWR4MGNTbExtdk10R0U2b2hIUUNwcnF3?oc=5",
+   "breve": "Ante las lluvias lanzan plan preventivo contra el dengue en Corrientes",
+   "auto": true
+  },
+  {
    "fecha": "23/11/2026",
    "medio": "Agrofy News",
    "titulo": "Altura del río Paraná en Corrientes hoy",
@@ -1098,13 +1106,6 @@
    "titulo": "Defensa Civil mantiene la alerta por la onda de crecida aguas abajo",
    "resumen": "Los evacuados bajaron de unos 700 a 440 y los autoevacuados superan los 1.000. La onda se concentra entre la Capital y Esquina, con niveles altos y descenso lento. En la Capital, la Escuela N.º 293 es el refugio principal. No se informan barrios o zonas anegadas nuevas.",
    "enlace": "https://examedia.com.ar/portada/post/88147066"
-  },
-  {
-   "medio": "La Nación",
-   "fecha": "29/10/2026",
-   "titulo": "Altura de los ríos en la Argentina, según Prefectura: situación y niveles de alerta hoy, jueves 29 de octubre",
-   "resumen": "Con el Paraná en Corrientes en 7,36 m, Ituzaingó baja a 3,95 m y Paso de los Libres, sobre el Uruguay, sube a 8,03 m, cerca de su evacuación de 8,50 m. No se informan barrios o zonas anegadas nuevas.",
-   "enlace": "https://www.lanacion.com.ar/sociedad/altura-de-los-rios-en-la-argentina-segun-prefectura-esta-es-la-situacion-y-los-niveles-de-alerta-hoy-nid29102026/"
   }
  ],
  "puertos_uruguay": [
@@ -1422,7 +1423,7 @@
  "tapon_breve": "Alerta por tormentas para la Capital el martes 24/11: naranja de 9 a 15 h (70 a 100 mm), luego amarilla de 15 a 21 h (30 a 70 mm). Con el río en 5,63 m, una lluvia fuerte puede superar la capacidad de los desagües.",
  "consultado": "24/11/2026, 11:37 h",
  "consulta_resultado": "datos nuevos",
- "prensa_actualizada": "24/11/2026, 12:51 h",
+ "prensa_actualizada": "24/11/2026, 13:30 h",
  "ina_parana_breve": "El INA prevé un posible repunte desde el 26/11.",
  "ina_uruguay_breve": "El INA prevé acercarse a la alerta en Santo Tomé el 26/11."
 }
