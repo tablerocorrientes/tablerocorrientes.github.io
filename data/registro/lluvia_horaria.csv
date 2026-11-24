@@ -359,6 +359,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-23,11,Gobernador Virasoro,La Sirena,13811,0
 2026-11-23,15,Gobernador Virasoro,La Sirena,13811,0
 2026-11-23,19,Gobernador Virasoro,La Sirena,13811,0
+2026-11-23,23,Gobernador Virasoro,La Sirena,13811,0
 2026-11-01,23,Colonia Carlos Pellegrini,Carlos Pellegrini,13826,0
 2026-11-02,03,Colonia Carlos Pellegrini,Carlos Pellegrini,13826,0
 2026-11-02,07,Colonia Carlos Pellegrini,Carlos Pellegrini,13826,0.25
@@ -437,6 +438,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-23,11,Colonia Carlos Pellegrini,Carlos Pellegrini,13826,0
 2026-11-23,15,Colonia Carlos Pellegrini,Carlos Pellegrini,13826,0
 2026-11-23,19,Colonia Carlos Pellegrini,Carlos Pellegrini,13826,0
+2026-11-23,23,Colonia Carlos Pellegrini,Carlos Pellegrini,13826,0
 2026-11-01,23,San Roquito,San Roquito,13832,0
 2026-11-02,03,San Roquito,San Roquito,13832,0
 2026-11-02,07,San Roquito,San Roquito,13832,0
@@ -874,6 +876,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-23,11,Paso Cerrito,Paso Cerrito,13849,0
 2026-11-23,15,Paso Cerrito,Paso Cerrito,13849,0
 2026-11-23,19,Paso Cerrito,Paso Cerrito,13849,0
+2026-11-23,23,Paso Cerrito,Paso Cerrito,13849,0
 2026-11-01,23,Garruchos,Garruchos,13857,0
 2026-11-02,03,Garruchos,Garruchos,13857,0
 2026-11-02,07,Garruchos,Garruchos,13857,0
@@ -950,6 +953,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-23,11,Garruchos,Garruchos,13857,0
 2026-11-23,15,Garruchos,Garruchos,13857,0
 2026-11-23,19,Garruchos,Garruchos,13857,0
+2026-11-23,23,Garruchos,Garruchos,13857,0
 2026-11-01,23,San Carlos,San Carlos,13864,0
 2026-11-02,00,San Carlos,San Carlos,13864,0
 2026-11-02,01,San Carlos,San Carlos,13864,0
@@ -2372,7 +2376,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-23,21,Bonpland,RMA08_BPL - Bonpland,220261,0
 2026-11-23,22,Bonpland,RMA08_BPL - Bonpland,220261,0
 2026-11-23,23,Bonpland,RMA08_BPL - Bonpland,220261,0
-2026-11-24,00,Bonpland,RMA08_BPL - Bonpland,220261,0
+2026-11-24,00,Bonpland,RMA08_BPL - Bonpland,220261,0.6
 2026-11-01,23,Bella Vista,RMA08_BVI - Bella Vista,220262,0
 2026-11-02,00,Bella Vista,RMA08_BVI - Bella Vista,220262,0
 2026-11-02,01,Bella Vista,RMA08_BVI - Bella Vista,220262,0
@@ -2960,7 +2964,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-23,21,Curuzú Cuatiá,RMA08_CC - Curuzú Cuatiá,220263,0
 2026-11-23,22,Curuzú Cuatiá,RMA08_CC - Curuzú Cuatiá,220263,0
 2026-11-23,23,Curuzú Cuatiá,RMA08_CC - Curuzú Cuatiá,220263,0
-2026-11-24,00,Curuzú Cuatiá,RMA08_CC - Curuzú Cuatiá,220263,1.4
+2026-11-24,00,Curuzú Cuatiá,RMA08_CC - Curuzú Cuatiá,220263,1.6
 2026-11-01,23,La Palmira,Estación La Palmira - Escuela N° 70,283902,0
 2026-11-02,00,La Palmira,Estación La Palmira - Escuela N° 70,283902,0
 2026-11-02,01,La Palmira,Estación La Palmira - Escuela N° 70,283902,0

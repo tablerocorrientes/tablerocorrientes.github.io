@@ -7781,7 +7781,7 @@
      null,
      null,
      null,
-     null
+     0.0
     ],
     "Portal Galarza": [
      null,
@@ -7833,7 +7833,7 @@
      null,
      null,
      null,
-     null
+     0.0
     ],
     "Gobernador Virasoro": [
      null,
@@ -7859,7 +7859,7 @@
      null,
      null,
      null,
-     null
+     0.0
     ],
     "Paso Cerrito": [
      null,
@@ -7885,7 +7885,7 @@
      null,
      null,
      null,
-     null
+     0.0
     ]
    },
    "horario_capital": [
@@ -8167,7 +8167,7 @@
    null
   ],
   "Bonpland": [
-   0.0,
+   0.6,
    null,
    null,
    null,
@@ -8219,7 +8219,7 @@
    null
   ],
   "Curuzú Cuatiá": [
-   1.4,
+   1.6,
    null,
    null,
    null,

@@ -1,10 +1,9 @@
 {
- "actualizado": "24/11/2026, 01:34 h",
+ "actualizado": "24/11/2026, 02:01 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
-  "23/11 02 h",
-  "03 h",
+  "23/11 03 h",
   "04 h",
   "05 h",
   "06 h",
@@ -27,11 +26,12 @@
   "23 h",
   "24/11 00 h",
   "01 h",
-  "02 h (en curso)"
+  "02 h",
+  "03 h (en curso)"
  ],
  "fuente": "Sistema Nacional de Información Hídrica (SNIH), Secretaría de Infraestructura y Política Hídrica; estaciones de la Red Hidrológica Nacional y redes asociadas (ICAA, INTA, Red Iberá). Datos crudos del sensor, sin validar.",
  "enlace": "https://snih.hidricosargentina.gob.ar/Filtros.aspx",
- "nota": "Ventana de 24 horas completas, de 02 h del 23/11 a 01 h del 24/11 (hora de Argentina), más la hora en curso como última columna, con los datos recibidos hasta el momento. El total suma solo las 24 horas completas. Las horas sin transmisión figuran como null, no como cero.",
+ "nota": "Ventana de 24 horas completas, de 03 h del 23/11 a 02 h del 24/11 (hora de Argentina), más la hora en curso como última columna, con los datos recibidos hasta el momento. El total suma solo las 24 horas completas. Las horas sin transmisión figuran como null, no como cero.",
  "estaciones": [
   {
    "localidad": "Corrientes Capital",
@@ -61,7 +61,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -95,7 +95,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -106,7 +106,6 @@
    "estacion": "Garruchos",
    "codigo": 13857,
    "valores": [
-    null,
     null,
     0,
     null,
@@ -128,12 +127,13 @@
     null,
     null,
     null,
+    0,
     null,
     null,
     null
    ],
    "total": 0.25,
-   "ultimo": "0 mm a las 20 h"
+   "ultimo": "0 mm a las 00 h"
   },
   {
    "localidad": "Colonia Carlos Pellegrini",
@@ -141,7 +141,6 @@
    "codigo": 13826,
    "valores": [
     null,
-    null,
     0,
     null,
     null,
@@ -162,12 +161,13 @@
     null,
     null,
     null,
+    0,
     null,
     null,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 20 h"
+   "ultimo": "0 mm a las 00 h"
   },
   {
    "localidad": "San Carlos",
@@ -197,7 +197,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -231,7 +231,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -244,7 +244,6 @@
    "valores": [
     0,
     0,
-    0,
     0.2,
     0,
     0,
@@ -266,6 +265,7 @@
     0,
     0,
     0,
+    null,
     null
    ],
    "total": 0.4,
@@ -673,7 +673,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -685,7 +685,6 @@
    "codigo": 13811,
    "valores": [
     null,
-    null,
     0,
     null,
     null,
@@ -706,12 +705,13 @@
     null,
     null,
     null,
+    0,
     null,
     null,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 20 h"
+   "ultimo": "0 mm a las 00 h"
   },
   {
    "localidad": "Los Laureles",
@@ -774,7 +774,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null,
     null
    ],
@@ -859,7 +859,6 @@
     null,
     null,
     null,
-    null,
     0,
     null,
     null,
@@ -876,12 +875,13 @@
     null,
     null,
     null,
+    0,
     null,
     null,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 20 h"
+   "ultimo": "0 mm a las 00 h"
   },
   {
    "localidad": "Paso de los Libres",
@@ -1059,7 +1059,6 @@
    "codigo": 283904,
    "valores": [
     null,
-    null,
     0,
     null,
     null,
@@ -1081,6 +1080,7 @@
     null,
     null,
     0,
+    null,
     null,
     null
    ],
@@ -1115,7 +1115,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -1145,11 +1145,11 @@
     0,
     0,
     0,
-    0,
     0.75,
     2.25,
     0.25,
     0.5,
+    null,
     null
    ],
    "total": 3.75,
@@ -1183,7 +1183,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -1217,7 +1217,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -1250,12 +1250,12 @@
     0,
     0,
     0,
-    0,
-    0,
+    0.6,
+    null,
     null
    ],
-   "total": 0,
-   "ultimo": "0 mm a las 01 h"
+   "total": 0.6,
+   "ultimo": "0,6 mm a las 01 h"
   },
   {
    "localidad": "Bella Vista",
@@ -1285,7 +1285,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -1318,12 +1318,12 @@
     0,
     0,
     0,
-    0,
-    1.4,
+    1.6,
+    null,
     null
    ],
-   "total": 1.4,
-   "ultimo": "1,4 mm a las 01 h"
+   "total": 1.6,
+   "ultimo": "1,6 mm a las 01 h"
   },
   {
    "localidad": "Parque Nacional Iberá",
@@ -1335,7 +1335,6 @@
     0,
     0,
     0,
-    0,
     null,
     0,
     0,
@@ -1354,6 +1353,7 @@
     0,
     0,
     0,
+    null,
     null
    ],
    "total": 0,
@@ -1433,7 +1433,6 @@
    "codigo": 13832,
    "valores": [
     null,
-    null,
     0,
     null,
     null,
@@ -1455,6 +1454,7 @@
     null,
     null,
     0,
+    null,
     null,
     null
    ],
@@ -1557,7 +1557,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "24/11/2026, 01:34 h",
+ "consultado": "24/11/2026, 02:01 h",
  "consulta_resultado": "datos nuevos"
 }
