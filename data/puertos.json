@@ -653,6 +653,22 @@
  "prensa": [
   {
    "fecha": "24/11/2026",
+   "medio": "https://www.noticiero9.com.ar/",
+   "titulo": "Corrientes presentó su plan contra el dengue ante las lluvias y las inundaciones",
+   "enlace": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQalRpdkw0UmdyZkhSM2MyUmVsbDh3VjZ6bHpjVG5VV2pjWVRsQVBsVWtRU3hvUW9GSVE0dDdobXptRmVfTnBFZlA5cFczd0RWWlVZZk9JWVhRa1ZOc1A2aEY3WU1oajlIX1ZzbExqMEJqckV0LU9idkRNZzJlYnJIYlFrUDNBWThWV1BvZ3RiN2NDTnJlVGo1SndvWUtjN0xjbVktOWRTSU0tQnJ6OTg3YkYxZkpYbFk?oc=5",
+   "breve": "Corrientes presentó su plan contra el dengue ante las lluvias y las inundaciones",
+   "auto": true
+  },
+  {
+   "fecha": "24/11/2026",
+   "medio": "infogoya.com",
+   "titulo": "Corrientes Capital: más de 80 mm de lluvia, árboles caídos y alertas por tormentas fuertes",
+   "enlace": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNMkpUdXdUc3M4Y0JhdkRmWUhOMnpGVmNhUzVXZkZId0lPNEFQbFNYVzNtRldCT2RFUU1kdzNRRGFhdG56ZmV6OHBhSU9TZWc4TGVfSDJHWGM5M1U3X0ZFMV92Q1pUMl9WMUZTOGg0a2xhTFVWSThla19XM1RiaTdNMGlKRTh3Y1REMlJSUFEySUVXZw?oc=5",
+   "breve": "Corrientes Capital: más de 80 mm de lluvia, árboles caídos y alertas por tormentas fuertes",
+   "auto": true
+  },
+  {
+   "fecha": "24/11/2026",
    "medio": "Radio Infinita Goya",
    "titulo": "Lluvias en Corrientes: cayeron más de 72 milímetros",
    "enlace": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQQUhxWjhsdWtaLU5GMlR3QXR2eWU5c3VMbEJ4U09haEJiRWxiWWxXV3g4NlhQNUgtMlo3OWl1enB6ZU03eWg2QkphRjRZNTZ2bERHVjlNeDZvUTVuQXkwdTdlTXA3enlEWTczM0ZGZUhyVW5ual9HTXZQTzJUWHVVRTR3Q0cwMlZLRGtlRlJxeDBqWXdDV3g4bDFCek90c1E?oc=5",
@@ -1093,20 +1109,6 @@
    "titulo": "Tras semanas críticas, el Paraná da un alivio: a qué altura podría llegar en Corrientes",
    "resumen": "Más de 1.600 evacuados y autoevacuados en la provincia. Proyección del INA al 10/11: Corrientes entre 5,10 y 6,00 m. Advierten por nuevas subas posibles por lluvias en la cuenca del Paraguay. No se informan barrios o zonas anegadas nuevas.",
    "enlace": "https://examedia.com.ar/portada/post/88156949"
-  },
-  {
-   "medio": "Examedia (TN24)",
-   "fecha": "01/11/2026",
-   "titulo": "El Paraná comienza a bajar en Corrientes, pero advierten que podrían registrarse nuevas crecidas",
-   "resumen": "Con el Paraná en 7,23 m, estacionado, sobre la evacuación de 7,00 m. Más de 1.600 evacuados y autoevacuados en la provincia. El INA prevé 5,10 a 6,00 m en Corrientes hacia el 10/11 y advierte por posibles nuevas subas entre 7 y 15 días después de las lluvias en la cuenca media del Paraguay. No se informan barrios o zonas anegadas nuevas.",
-   "enlace": "https://examedia.com.ar/portada/post/88157648"
-  },
-  {
-   "medio": "Corrientes Hoy",
-   "fecha": "31/10/2026",
-   "titulo": "Domingo nublado y con algunos chaparrones en Corrientes",
-   "resumen": "Parte del SMN: domingo 1/11 con 20 a 31 °C, tormentas aisladas por la tarde y 40 a 70 % de probabilidad de lluvia por la noche.",
-   "enlace": "https://www.corrienteshoy.com/info-general/domingo-nublado-y-con-algunos-chaparrones-en-corrientes.htm"
   }
  ],
  "puertos_uruguay": [
@@ -1424,7 +1426,7 @@
  "tapon_breve": "Alerta por tormentas para la Capital el martes 24/11: amarilla de 20 a 21 h (30 a 70 mm). Con el río en 5,67 m, una lluvia fuerte puede superar la capacidad de los desagües.",
  "consultado": "24/11/2026, 19:02 h",
  "consulta_resultado": "sin cambios",
- "prensa_actualizada": "24/11/2026, 15:52 h",
+ "prensa_actualizada": "24/11/2026, 19:33 h",
  "ina_parana_breve": "El INA prevé un posible repunte desde el 26/11.",
  "ina_uruguay_breve": "El INA prevé acercarse a la alerta en Santo Tomé el 26/11."
 }
