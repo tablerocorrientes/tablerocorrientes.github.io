@@ -1,5 +1,5 @@
 {
- "actualizado": "24/11/2026, 02:01 h",
+ "actualizado": "24/11/2026, 02:07 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
@@ -61,11 +61,11 @@
     0,
     0,
     0,
-    null,
+    4.2,
     null
    ],
-   "total": 0,
-   "ultimo": "0 mm a las 01 h"
+   "total": 4.2,
+   "ultimo": "4,2 mm a las 02 h"
   },
   {
    "localidad": "Corrientes Capital (estación 13805)",
@@ -265,11 +265,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0.4,
-   "ultimo": "0 mm a las 01 h"
+   "ultimo": "0 mm a las 02 h"
   },
   {
    "localidad": "Bella Vista",
@@ -1115,11 +1115,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 01 h"
+   "ultimo": "0 mm a las 02 h"
   },
   {
    "localidad": "Pueblo Libertador",
@@ -1183,11 +1183,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 01 h"
+   "ultimo": "0 mm a las 02 h"
   },
   {
    "localidad": "Mburucuyá",
@@ -1557,11 +1557,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 01 h"
+   "ultimo": "0 mm a las 02 h"
   },
   {
    "localidad": "El Sombrerito",
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "24/11/2026, 02:01 h",
+ "consultado": "24/11/2026, 02:07 h",
  "consulta_resultado": "datos nuevos"
 }
