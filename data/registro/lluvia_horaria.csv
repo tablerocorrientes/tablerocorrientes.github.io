@@ -508,6 +508,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-23,11,San Roquito,San Roquito,13832,0
 2026-11-23,15,San Roquito,San Roquito,13832,0
 2026-11-23,19,San Roquito,San Roquito,13832,0.25
+2026-11-23,23,San Roquito,San Roquito,13832,0
 2026-11-01,23,Santa Lucía,Santa Lucia,13836,0
 2026-11-02,00,Santa Lucía,Santa Lucia,13836,0
 2026-11-02,01,Santa Lucía,Santa Lucia,13836,0
@@ -801,6 +802,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-23,21,Santa Lucía,Santa Lucia,13836,0
 2026-11-23,22,Santa Lucía,Santa Lucia,13836,0
 2026-11-23,23,Santa Lucía,Santa Lucia,13836,0
+2026-11-24,00,Santa Lucía,Santa Lucia,13836,0
 2026-11-01,23,Paso Cerrito,Paso Cerrito,13849,0
 2026-11-02,03,Paso Cerrito,Paso Cerrito,13849,0
 2026-11-02,07,Paso Cerrito,Paso Cerrito,13849,0
@@ -1506,6 +1508,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-23,21,Pueblo Libertador,Pueblo Libertador,13876,0.75
 2026-11-23,22,Pueblo Libertador,Pueblo Libertador,13876,2.25
 2026-11-23,23,Pueblo Libertador,Pueblo Libertador,13876,0.25
+2026-11-24,00,Pueblo Libertador,Pueblo Libertador,13876,0.5
 2026-11-02,00,Parque Nacional Iberá,RMA08_PNI - Parque Nacional Iberá,220226,0
 2026-11-02,01,Parque Nacional Iberá,RMA08_PNI - Parque Nacional Iberá,220226,0
 2026-11-02,02,Parque Nacional Iberá,RMA08_PNI - Parque Nacional Iberá,220226,0
@@ -1781,6 +1784,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-23,21,Parque Nacional Iberá,RMA08_PNI - Parque Nacional Iberá,220226,0
 2026-11-23,22,Parque Nacional Iberá,RMA08_PNI - Parque Nacional Iberá,220226,0
 2026-11-23,23,Parque Nacional Iberá,RMA08_PNI - Parque Nacional Iberá,220226,0
+2026-11-24,00,Parque Nacional Iberá,RMA08_PNI - Parque Nacional Iberá,220226,0
 2026-11-01,23,Mburucuyá,RMA04_PMB - Parque Nacional Mburucuyá,220246,0
 2026-11-02,00,Mburucuyá,RMA04_PMB - Parque Nacional Mburucuyá,220246,0
 2026-11-02,01,Mburucuyá,RMA04_PMB - Parque Nacional Mburucuyá,220246,0
@@ -2956,7 +2960,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-23,21,Curuzú Cuatiá,RMA08_CC - Curuzú Cuatiá,220263,0
 2026-11-23,22,Curuzú Cuatiá,RMA08_CC - Curuzú Cuatiá,220263,0
 2026-11-23,23,Curuzú Cuatiá,RMA08_CC - Curuzú Cuatiá,220263,0
-2026-11-24,00,Curuzú Cuatiá,RMA08_CC - Curuzú Cuatiá,220263,0.6
+2026-11-24,00,Curuzú Cuatiá,RMA08_CC - Curuzú Cuatiá,220263,1.4
 2026-11-01,23,La Palmira,Estación La Palmira - Escuela N° 70,283902,0
 2026-11-02,00,La Palmira,Estación La Palmira - Escuela N° 70,283902,0
 2026-11-02,01,La Palmira,Estación La Palmira - Escuela N° 70,283902,0
@@ -3616,6 +3620,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-23,11,Portal Galarza,Portal Galarza,283904,0
 2026-11-23,15,Portal Galarza,Portal Galarza,283904,0
 2026-11-23,19,Portal Galarza,Portal Galarza,283904,0
+2026-11-23,23,Portal Galarza,Portal Galarza,283904,0
 2026-11-01,23,Itá Ibaté,Puerto Ita Ibate,283905,0
 2026-11-02,00,Itá Ibaté,Puerto Ita Ibate,283905,0
 2026-11-02,01,Itá Ibaté,Puerto Ita Ibate,283905,0
@@ -5084,3 +5089,4 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-23,21,La Cruz,La Cruz - Corrientes,283909,0
 2026-11-23,22,La Cruz,La Cruz - Corrientes,283909,0
 2026-11-23,23,La Cruz,La Cruz - Corrientes,283909,0
+2026-11-24,00,La Cruz,La Cruz - Corrientes,283909,0

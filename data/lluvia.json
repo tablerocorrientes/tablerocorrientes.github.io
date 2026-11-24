@@ -1,5 +1,5 @@
 {
- "actualizado": "24/11/2026, 01:11 h",
+ "actualizado": "24/11/2026, 01:34 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
@@ -231,11 +231,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 00 h"
+   "ultimo": "0 mm a las 01 h"
   },
   {
    "localidad": "La Palmira",
@@ -673,11 +673,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 00 h"
+   "ultimo": "0 mm a las 01 h"
   },
   {
    "localidad": "Gobernador Virasoro",
@@ -1080,12 +1080,12 @@
     null,
     null,
     null,
-    null,
+    0,
     null,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 20 h"
+   "ultimo": "0 mm a las 00 h"
   },
   {
    "localidad": "Caá Catí",
@@ -1149,11 +1149,11 @@
     0.75,
     2.25,
     0.25,
-    null,
+    0.5,
     null
    ],
-   "total": 3.25,
-   "ultimo": "0,25 mm a las 00 h"
+   "total": 3.75,
+   "ultimo": "0,5 mm a las 01 h"
   },
   {
    "localidad": "Itá Ibaté",
@@ -1319,11 +1319,11 @@
     0,
     0,
     0,
-    0.6,
+    1.4,
     null
    ],
-   "total": 0.6,
-   "ultimo": "0,6 mm a las 01 h"
+   "total": 1.4,
+   "ultimo": "1,4 mm a las 01 h"
   },
   {
    "localidad": "Parque Nacional Iberá",
@@ -1353,11 +1353,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 00 h"
+   "ultimo": "0 mm a las 01 h"
   },
   {
    "localidad": "San Isidro",
@@ -1454,12 +1454,12 @@
     null,
     null,
     null,
-    null,
+    0,
     null,
     null
    ],
    "total": 0.5,
-   "ultimo": "0,25 mm a las 20 h"
+   "ultimo": "0 mm a las 00 h"
   },
   {
    "localidad": "Santa Rosa",
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "24/11/2026, 01:11 h",
+ "consultado": "24/11/2026, 01:34 h",
  "consulta_resultado": "datos nuevos"
 }
