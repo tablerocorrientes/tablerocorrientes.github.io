@@ -1,7 +1,17 @@
 {
- "actualizado": "24/11/2026, 12:12 h",
+ "actualizado": "24/11/2026, 15:20 h",
  "criterio": "Calles, barrios o zonas anegadas por LLUVIA (no por la crecida de los ríos). Se registra cada caso con fecha, hora, lugar, lluvia medida y fuente: Defensa Civil, municipios, medios y observaciones verificadas. Los días sin registros también quedan anotados en la bitácora.",
  "registros": [
+  {
+   "fecha": "2026-11-24",
+   "hora": "08:45",
+   "localidad": "Corrientes Capital",
+   "zona": "Distintos sectores de la ciudad (sin calles precisadas)",
+   "descripcion": "La tormenta dejó calles anegadas y complicaciones para circular; la Municipalidad desplegó cuadrillas para desobstruir desagües.",
+   "lluvia": "72,64 mm hasta las 8:45 h según el parte municipal; el SNIH midió 27 mm entre las 03 y las 04 h",
+   "fuente": "El Litoral y Diario 1588, 24/11/2026",
+   "enlace": "https://www.ellitoral.com.ar/ciudad/2026-11-24-10-12-0-lluvias-en-corrientes-cayeron-mas-de-72-milimetros-y-desplegaron-cuadrillas-municipales"
+  },
   {
    "fecha": "2026-11-17",
    "hora": "07:00",
@@ -33,6 +43,11 @@
    "fecha": "2026-11-17",
    "localidad": "Corrientes Capital",
    "nota": "Tormenta entre las 7 y las 9 h, con 11,5 mm entre las 8 y las 9 h (SNIH, estación 13805). Anegamiento en un sector del Centro (Mendoza y Bolívar), según observación con fotografías del autor del tablero. Relevamiento de las 13:17 h: hasta ahora ni la Municipalidad, ni Defensa Civil, ni los medios consultados publicaron partes con otros barrios o calles anegados por la lluvia de hoy. Con la llovizna en curso desde cerca de las 12:30 h no se encontraron partes nuevos de anegamientos. Se vuelve a revisar en la próxima corrida. Relevamiento de las 15:25 h: sin partes nuevos de anegamientos por la lluvia de hoy. Relevamiento de las 18:37 h: en el día se midieron entre 9,6 mm (ICAA) y 12,75 mm (estación 13805) según el SNIH, con el Paraná en 6,29 m; sin partes nuevos de anegamientos por lluvia en Defensa Civil, la Municipalidad ni los medios consultados. Relevamiento de las 19:20 h: la Municipalidad informó (Radio Dos, 17/11) que la ciudad está normalizada tras la tormenta de la mañana, con limpieza preventiva de sumideros; el viento levantó un kiosco de revistas en Yrigoyen y Mendoza. Sin partes nuevos de calles o barrios anegados. Relevamiento de las 21:09 h: sin partes nuevos de calles o barrios anegados por la lluvia de hoy; el SMN elevó a naranja la alerta por tormenta para toda la provincia hasta las 17:59 h del 18/11. Relevamiento de las 23:15 h: sin partes nuevos de anegamientos por la lluvia de hoy. Relevamiento de las 01:10 h del 18/11: sin partes nuevos de anegamientos; rige la alerta naranja por tormentas del COE para la Capital de 06:00 a 13:00 h. Relevamiento de las 07:11 h del 18/11: sin partes nuevos de anegamientos; hasta las 06 h de hoy no se registró lluvia en la Capital (SNIH) y rigen las alertas naranja (06:00 a 13:00 h) y amarilla (05:00 a 12:00 h) del COE."
+  },
+  {
+   "fecha": "2026-11-24",
+   "localidad": "Corrientes Capital",
+   "nota": "Relevamiento de las 15:20 h: llovieron 72,64 mm hasta las 8:45 h (parte municipal) y el SNIH acumuló cerca de 80 mm entre las 02 y las 11 h, sin lluvia medida desde las 12 h. La Municipalidad informó calles anegadas en distintos sectores, sin precisar barrios, y trabaja con cuadrillas en desagües (El Litoral, 24/11). Rige alerta amarilla hasta las 20:59 h."
   }
  ]
 }

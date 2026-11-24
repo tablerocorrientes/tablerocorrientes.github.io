@@ -1,5 +1,5 @@
 {
- "actualizado": "24/11/2026, 09:15 h",
+ "actualizado": "24/11/2026, 15:20 h",
  "explicacion": "Cada actualización suma registros: barrios afectados con la altura del río o la lluvia de ese día, obras terminadas, reportes de vecinos verificados y la comparación entre lo pronosticado y lo que ocurrió. Con esa comparación se detectan desvíos y se proponen ajustes a los cálculos, que revisa el autor del tablero.",
  "contadores": {
   "barrios_documentados": 87,
@@ -7,9 +7,16 @@
   "reportes_verificados": 0,
   "comparaciones_rio": 2,
   "comparaciones_lluvia": 5,
-  "aprendizajes": 79
+  "aprendizajes": 80
  },
  "aprendizajes": [
+  {
+   "fecha": "2026-11-24",
+   "tipo": "lluvia",
+   "lugar": "Corrientes Capital",
+   "dato": "La Municipalidad informó 72,64 mm hasta las 8:45 h, con calles anegadas en distintos sectores y cuadrillas desobstruyendo desagües.",
+   "fuente": "El Litoral, 24/11/2026"
+  },
   {
    "fecha": "2026-11-24",
    "tipo": "lluvia",
