@@ -7708,7 +7708,7 @@
    "observado": {
     "Corrientes Capital": [
      0.0,
-     4.2,
+     9.0,
      null,
      null,
      null,
@@ -7734,7 +7734,7 @@
     ],
     "San Carlos": [
      0.0,
-     null,
+     0.0,
      null,
      null,
      null,
@@ -7838,7 +7838,7 @@
     ],
     "Mburucuyá": [
      0.0,
-     null,
+     0.0,
      null,
      null,
      null,
@@ -7864,7 +7864,7 @@
     ],
     "Bonpland": [
      0.6,
-     null,
+     0.0,
      null,
      null,
      null,
@@ -7890,7 +7890,7 @@
     ],
     "Bella Vista": [
      0.0,
-     null,
+     0.0,
      null,
      null,
      null,
@@ -7916,7 +7916,7 @@
     ],
     "Curuzú Cuatiá": [
      1.6,
-     null,
+     0.0,
      null,
      null,
      null,
@@ -7968,7 +7968,7 @@
     ],
     "Santa Lucía": [
      0.0,
-     null,
+     0.0,
      null,
      null,
      null,
@@ -7994,7 +7994,7 @@
     ],
     "La Cruz": [
      0.0,
-     null,
+     0.0,
      null,
      null,
      null,
@@ -8020,7 +8020,7 @@
     ],
     "Pueblo Libertador": [
      0.5,
-     null,
+     0.0,
      null,
      null,
      null,
@@ -8047,6 +8047,32 @@
     "Parque Nacional Iberá": [
      0.0,
      null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "Mercedes": [
+     null,
+     0.0,
      null,
      null,
      null,

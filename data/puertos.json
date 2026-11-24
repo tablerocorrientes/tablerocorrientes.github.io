@@ -652,6 +652,38 @@
  "prensa_fecha": "14/11/2026, 09:12 h",
  "prensa": [
   {
+   "fecha": "24/11/2026",
+   "medio": "www.actualidadparana.com.ar",
+   "titulo": "Ituzaingó y el resto del norte de Corrientes con lluvias abundantes, actividad eléctrica, granizo y ráfagas fuertes este martes",
+   "enlace": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1VeE1GVngyS3hhXzh5SURUNXhubWV2c3JkV2MwTTdqbFVld2tpQTk2bVNsQmhIWlp5aS1URm9tSFhxYVBqa0ZkYUFnMWlKSU5kT3lPbkZtSnRpZXM?oc=5",
+   "breve": "Ituzaingó y el resto del norte de Corrientes con lluvias abundantes, actividad eléctrica, granizo y ráfagas fuertes este martes",
+   "auto": true
+  },
+  {
+   "fecha": "24/11/2026",
+   "medio": "Diario Época Corrientes",
+   "titulo": "Corrientes: siguen 1.300 desplazados y esperan un repunte del río Paraná",
+   "enlace": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOUlVsZ2dXMDJNcTM1blktRnRjNzRUQmkydFRxVXpIdWhXNjNtR1RNZl9VMmZqVTRCSDE4R1FuQkhHR2FuYzBWSktJUW5KVmg3TU5yR1o0OVJ3NUlYdV9BcGxBTjM4VnVUMzJ3REp2TVp3UVY0M2p6YUV6T09KYlh2TC1EUlhacXF5d2NQYnE4ZVVQZzVYVHRXcHpnTVNwNUFfbkI0bkF6dm9WUQ?oc=5",
+   "breve": "Corrientes: siguen 1.300 desplazados y esperan un repunte del río Paraná",
+   "auto": true
+  },
+  {
+   "fecha": "23/11/2026",
+   "medio": "Corrientes Hoy",
+   "titulo": "Doble alerta por tormentas para este martes en Corrientes",
+   "enlace": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPYlFOMEFMLWk4Q0hrUkR0REp1dG81THdZeTFrcTdTMEItSS1TZmpuSUFlbzhHZl84ZUNXMUZkbGpnN3FHUExsUEg5NjMyMlRweE4tWk9jR2U3c3pEVGYtNnlHWTNYektCcHNORUUwd0tBVzlNLUdHaGM3SXNfMGt1eGthSm1BLTJTeWZPNmpDOU5xeEo2WFVfd2dGRWJ1S2I3QktiNktLZw?oc=5",
+   "breve": "Doble alerta por tormentas para este martes en Corrientes",
+   "auto": true
+  },
+  {
+   "fecha": "22/11/2026",
+   "medio": "Noticias del paraná",
+   "titulo": "CORRIENTES: La Provincia Ya No Tiene Más Evacuados. De La Escuela A Sus Casas",
+   "enlace": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQUWFfUkNXZm80TnJMQ24ya2gzTU9IVHVMSU45VDl6cjR1T0NzWVFvN0ptdTdJSmV0ZWJ5S2VKeEEtT3Fmemw0bDVvNFozc2REQ1ZnZGpHeURLc0ZoNm5HaFRMbkFRa1ZxUkoyaldqNWZMOUdHU3FLTmdWWVQyVU5HWHhRZ0I4QmhUU0g3ZlV5SEVtQ0JNUEVrM0NlWTRFZE15d1hRRFpkUHpfdkMtVkJfUzVfTWFxbDVUZVdqVFpvaDVLNHVhbVJ6ZnVVbG1pOWFidGc?oc=5",
+   "breve": "CORRIENTES: La Provincia Ya No Tiene Más Evacuados. De La Escuela A Sus Casas",
+   "auto": true
+  },
+  {
    "fecha": "21/11/2026",
    "medio": "www.examedia.com.ar",
    "titulo": "Advierten por tormentas fuertes en Corrientes: hay alerta amarilla para este fin de semana | El Litoral",
@@ -1063,34 +1095,6 @@
    "titulo": "El Niño: la crecida del Paraná mantiene cerrado Yacyretá y vuelve a subir el Uruguay",
    "resumen": "Replica los datos de la EBY y de Prefectura: cruces cerrados con Paraguay en Misiones y con Brasil sobre el Uruguay, onda de crecida del Uruguay avanzando hacia el sur y Salto Grande reduciendo su embalse.",
    "enlace": "https://examedia.com.ar/portada/post/88122479"
-  },
-  {
-   "medio": "Diario de Cuyo (nacional)",
-   "fecha": "26/10/2026",
-   "titulo": "El Niño golpea a Chaco, Corrientes y Misiones: aumenta la cantidad de evacuados y el Paraná sube su nivel",
-   "resumen": "El COE de Corrientes registra más de 550 evacuados y autoevacuados; el INA midió el Paraná en 7,37 m en Corrientes el 24/10. Una imagen satelital muestra que la superficie cubierta por agua en el valle correntino del Paraná creció 53,4 % entre septiembre y octubre (unas 69.089 hectáreas).",
-   "enlace": "https://www.diariodecuyo.com.ar/argentina/el-nino-golpea-chaco-corrientes-y-misiones-aumenta-la-cantidad-evacuados-y-el-parana-sube-su-nivel-n6586836"
-  },
-  {
-   "medio": "Noticias de la Calle",
-   "fecha": "25/10/2026",
-   "titulo": "Más de 1.400 evacuados en Corrientes y la Armada se sumó al operativo de asistencia",
-   "resumen": "1.452 personas fuera de sus hogares (767 evacuados y 685 autoevacuados). Itatí concentra 475 evacuados, la Capital 588 autoevacuados y la isla Apipé 114 evacuados. El barrio Pujol, en la Capital, aloja un centro de contención en la Escuela N.º 293.",
-   "enlace": "https://www.noticiasdelacalle.com.ar/noticias/2026/10/25/203175-mas-de-1400-evacuados-en-corrientes-y-la-armada-se-sumo-al-operativo-de-asistencia"
-  },
-  {
-   "medio": "El Litoral (Corrientes)",
-   "fecha": "25/10/2026",
-   "titulo": "De la lluvia al calor: así estará el tiempo en Corrientes esta semana",
-   "resumen": "Según el SMN, lunes y martes parcialmente nublados, con máximas de 24 °C; el viernes, mayormente soleado y con muy baja probabilidad de lluvia, con 29 °C.",
-   "enlace": "https://www.ellitoral.com.ar/sociedad/2026-10-25-14-25-0-de-la-lluvia-al-calor-asi-estara-el-tiempo-en-corrientes-esta-semana"
-  },
-  {
-   "medio": "Infobae (nacional)",
-   "fecha": "24/10/2026",
-   "titulo": "Vuelven las lluvias al AMBA, mientras crece la preocupación por las alertas por tormentas en el Litoral",
-   "resumen": "El SMN emitió un aviso naranja por tormentas que incluyó a Corrientes el sábado 24/10 y pidió estar atentos a los avisos oficiales en las comunidades que todavía enfrentan la crecida.",
-   "enlace": "https://www.infobae.com/sociedad/2026/10/24/vuelven-las-lluvias-al-amba-mientras-crece-la-preocupacion-por-las-alertas-por-tormentas-en-el-litoral/"
   }
  ],
  "puertos_uruguay": [
@@ -1408,7 +1412,7 @@
  "tapon_breve": "Alerta por tormentas para la Capital el martes 24/11: naranja de 9 a 15 h (70 a 100 mm), luego amarilla de 15 a 21 h (30 a 70 mm). Con el río en 5,65 m, una lluvia fuerte puede superar la capacidad de los desagües.",
  "consultado": "23/11/2026, 23:58 h",
  "consulta_resultado": "sin cambios",
- "prensa_actualizada": "23/11/2026, 22:14 h",
+ "prensa_actualizada": "24/11/2026, 02:32 h",
  "ina_parana_breve": "El INA prevé un posible repunte desde el 26/11.",
  "ina_uruguay_breve": "El INA prevé acercarse a la alerta en Santo Tomé el 26/11."
 }
