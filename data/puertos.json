@@ -652,6 +652,14 @@
  "prensa_fecha": "14/11/2026, 09:12 h",
  "prensa": [
   {
+   "fecha": "21/11/2026",
+   "medio": "www.examedia.com.ar",
+   "titulo": "Advierten por tormentas fuertes en Corrientes: hay alerta amarilla para este fin de semana | El Litoral",
+   "enlace": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBnYmE3Q294T0p5a0MxbVpKUVJ6aGY5TFFUMzQxVGtyMVhpVTRlVkJKeFY5X0xzWllvZXFvN3o2LWdzQ0V0c0FwSlVxdVVaZWZtdjAzbUJlWWhhOVVOUmc?oc=5",
+   "breve": "Advierten por tormentas fuertes en Corrientes: hay alerta amarilla para este fin de semana | El Litoral",
+   "auto": true
+  },
+  {
    "fecha": "22/11/2026",
    "medio": "República de Corrientes",
    "titulo": "Prevén una nueva crecida del río Paraná en Goya",
@@ -1083,13 +1091,6 @@
    "titulo": "Vuelven las lluvias al AMBA, mientras crece la preocupación por las alertas por tormentas en el Litoral",
    "resumen": "El SMN emitió un aviso naranja por tormentas que incluyó a Corrientes el sábado 24/10 y pidió estar atentos a los avisos oficiales en las comunidades que todavía enfrentan la crecida.",
    "enlace": "https://www.infobae.com/sociedad/2026/10/24/vuelven-las-lluvias-al-amba-mientras-crece-la-preocupacion-por-las-alertas-por-tormentas-en-el-litoral/"
-  },
-  {
-   "medio": "Infobae (nacional)",
-   "fecha": "25/10/2026",
-   "titulo": "El Niño: había 1.800 los evacuados en Chaco, Misiones fue afectada por fuertes tormentas y Santa Fe prevé otra suba del Paraná",
-   "resumen": "El INA midió el Paraná en 7,37 m en Corrientes, sobre la cota de evacuación de 7 m, con descenso diario y categoría de aguas altas. La nota informa 1.790 desplazados en Chaco y 141 en Misiones.",
-   "enlace": "https://www.infobae.com/sociedad/2026/10/25/el-nino-habia-1800-los-evacuados-en-chaco-misiones-fue-afectada-por-fuertes-tormentas-y-santa-fe-preve-otra-suba-del-parana/"
   }
  ],
  "puertos_uruguay": [
@@ -1407,7 +1408,7 @@
  "tapon_breve": "Alerta por tormentas para la Capital el martes 24/11: naranja de 9 a 15 h (70 a 100 mm), luego amarilla de 15 a 21 h (30 a 70 mm). Con el río en 5,65 m, una lluvia fuerte puede superar la capacidad de los desagües.",
  "consultado": "23/11/2026, 21:19 h",
  "consulta_resultado": "datos nuevos",
- "prensa_actualizada": "23/11/2026, 21:02 h",
+ "prensa_actualizada": "23/11/2026, 22:14 h",
  "ina_parana_breve": "El INA prevé un posible repunte desde el 26/11.",
  "ina_uruguay_breve": "El INA prevé acercarse a la alerta en Santo Tomé el 26/11."
 }
