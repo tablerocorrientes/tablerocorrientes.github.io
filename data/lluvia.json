@@ -1,5 +1,5 @@
 {
- "actualizado": "24/11/2026, 07:11 h",
+ "actualizado": "24/11/2026, 07:28 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
@@ -231,11 +231,11 @@
     0,
     0,
     0,
-    null,
+    0.25,
     null
    ],
-   "total": 0,
-   "ultimo": "0 mm a las 06 h"
+   "total": 0.25,
+   "ultimo": "0,25 mm a las 07 h"
   },
   {
    "localidad": "La Palmira",
@@ -1149,11 +1149,11 @@
     0.5,
     1.25,
     0,
-    null,
+    0.5,
     null
    ],
-   "total": 5.75,
-   "ultimo": "0 mm a las 06 h"
+   "total": 6.25,
+   "ultimo": "0,5 mm a las 07 h"
   },
   {
    "localidad": "Itá Ibaté",
@@ -1353,11 +1353,11 @@
     6.6,
     16.6,
     0,
-    null,
+    0,
     null
    ],
    "total": 23.2,
-   "ultimo": "0 mm a las 06 h"
+   "ultimo": "0 mm a las 07 h"
   },
   {
    "localidad": "San Isidro",
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "24/11/2026, 07:11 h",
+ "consultado": "24/11/2026, 07:28 h",
  "consulta_resultado": "datos nuevos"
 }
