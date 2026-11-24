@@ -820,14 +820,14 @@
    "incluye_capital": true,
    "zonas": "Capital, Empedrado, Saladas y San Luis del Palmar",
    "desde": "24/11/2026, 07:40 h",
-   "hasta": "24/11/2026, 09:40 h",
+   "hasta": "24/11/2026, 10:35 h",
    "desde_iso": "2026-11-24T07:40:00-03:00",
-   "hasta_iso": "2026-11-24T09:40:00-03:00",
+   "hasta_iso": "2026-11-24T10:35:00-03:00",
    "emision": "24/11/2026, 07:49 h",
    "emision_iso": "2026-11-24T07:49:00-03:00",
    "min": null,
    "max": null,
-   "texto": "Alerta roja (aviso a corto plazo) por lluvias intensas y tormentas, difundida por el COE de Corrientes (2026-0167-CP) con fuente del SMN, para la Capital el martes 24/11 de 07:40 a 09:40 h. Además rige una alerta naranja por tormentas hasta las 13:00 h y una amarilla hasta las 23:00 h (COE, lectura de las 08:39 h)."
+   "texto": "Alerta roja (aviso a corto plazo) por lluvias intensas y tormentas, difundida por el COE de Corrientes (2026-0167-CP y 2026-0169-CP) con fuente del SMN, para la Capital el martes 24/11 de 07:40 a 10:35 h, ya vencida. Rige la alerta naranja por tormentas del SMN hasta las 14:59 h (70 a 100 mm posibles) y una amarilla de 15:00 a 20:59 h (lectura del SMN de las 11:53 h)."
   }
  },
  "rio": {
