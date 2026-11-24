@@ -1,6 +1,6 @@
 {
- "consultado": "24/11/2026, 15:10 h",
- "consultado_iso": "2026-11-24T15:10-03:00",
+ "consultado": "24/11/2026, 15:17 h",
+ "consultado_iso": "2026-11-24T15:17-03:00",
  "paginas": {
   "smn_alertas": {
    "url": "https://www.smn.gob.ar/alertas",
@@ -131,25 +131,6 @@
    "archivo": "data/fuentes/coe_a_2026_0164_CP.txt"
   }
  },
- "pedidas": {
-  "https://www.ellitoral.com.ar/ciudad/2026-11-24-10-12-0-lluvias-en-corrientes-cayeron-mas-de-72-milimetros-y-desplegaron-cuadrillas-municipales": {
-   "url": "https://www.ellitoral.com.ar/ciudad/2026-11-24-10-12-0-lluvias-en-corrientes-cayeron-mas-de-72-milimetros-y-desplegaron-cuadrillas-municipales",
-   "estado": 200,
-   "caracteres": 2122,
-   "archivo": "data/fuentes/web/ellitoral_com_ar_ciudad_2026_11_24_10_12_0_lluvias_en_corrientes_cayeron_mas_de_72_milimet.txt"
-  },
-  "https://diario1588.com/?p=272219": {
-   "url": "https://diario1588.com/?p=272219",
-   "estado": 200,
-   "caracteres": 3856,
-   "archivo": "data/fuentes/web/diario1588_com_p_272219.txt"
-  },
-  "https://www.corrienteshoy.com/info-general/desagues-tapados-y-72-milimetros-caidos-en-la-capital-correntina.htm": {
-   "url": "https://www.corrienteshoy.com/info-general/desagues-tapados-y-72-milimetros-caidos-en-la-capital-correntina.htm",
-   "estado": "error",
-   "detalle": "HTTP Error 404: NOT FOUND"
-  }
- },
  "portales": {
   "munired_municipio_corrientes": {
    "url": "https://munired.mcypcorrientes.gob.ar/noticias/corrientes",
@@ -174,6 +155,25 @@
    "estado": 200,
    "notas": 6,
    "archivo": "data/fuentes/portales/senado_corrientes.txt"
+  }
+ },
+ "pedidas": {
+  "https://www.ellitoral.com.ar/ciudad/2026-11-24-10-12-0-lluvias-en-corrientes-cayeron-mas-de-72-milimetros-y-desplegaron-cuadrillas-municipales": {
+   "url": "https://www.ellitoral.com.ar/ciudad/2026-11-24-10-12-0-lluvias-en-corrientes-cayeron-mas-de-72-milimetros-y-desplegaron-cuadrillas-municipales",
+   "estado": 200,
+   "caracteres": 2122,
+   "archivo": "data/fuentes/web/ellitoral_com_ar_ciudad_2026_11_24_10_12_0_lluvias_en_corrientes_cayeron_mas_de_72_milimet.txt"
+  },
+  "https://diario1588.com/?p=272219": {
+   "url": "https://diario1588.com/?p=272219",
+   "estado": 200,
+   "caracteres": 3856,
+   "archivo": "data/fuentes/web/diario1588_com_p_272219.txt"
+  },
+  "https://www.corrienteshoy.com/info-general/desagues-tapados-y-72-milimetros-caidos-en-la-capital-correntina.htm": {
+   "url": "https://www.corrienteshoy.com/info-general/desagues-tapados-y-72-milimetros-caidos-en-la-capital-correntina.htm",
+   "estado": "error",
+   "detalle": "HTTP Error 404: NOT FOUND"
   }
  },
  "pedidas_consultado": "24/11/2026, 15:10 h"
