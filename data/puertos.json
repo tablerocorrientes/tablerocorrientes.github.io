@@ -652,6 +652,14 @@
  "prensa_fecha": "14/11/2026, 09:12 h",
  "prensa": [
   {
+   "fecha": "23/11/2026",
+   "medio": "Agrofy News",
+   "titulo": "Altura del río Paraná en Corrientes hoy",
+   "enlace": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5TVS04WV9ZOGtYZElmd0tlT3dYWUQtTEFsZ040UFFVWF9NbU55a0gtOVF4c1M3MWNOTXkxTlRhZzl0RV9iWjc2RFdmVzFsS0N3TnIxYkg3NWpmNUFnQ2J5UWF3VWhrZEE?oc=5",
+   "breve": "Altura del río Paraná en Corrientes hoy",
+   "auto": true
+  },
+  {
    "fecha": "24/11/2026",
    "medio": "El Litoral | Novedades de Corrientes",
    "titulo": "Lluvias en Corrientes: cayeron más de 72 milímetros y desplegaron cuadrillas municipales",
@@ -1097,13 +1105,6 @@
    "titulo": "Altura de los ríos en la Argentina, según Prefectura: situación y niveles de alerta hoy, jueves 29 de octubre",
    "resumen": "Con el Paraná en Corrientes en 7,36 m, Ituzaingó baja a 3,95 m y Paso de los Libres, sobre el Uruguay, sube a 8,03 m, cerca de su evacuación de 8,50 m. No se informan barrios o zonas anegadas nuevas.",
    "enlace": "https://www.lanacion.com.ar/sociedad/altura-de-los-rios-en-la-argentina-segun-prefectura-esta-es-la-situacion-y-los-niveles-de-alerta-hoy-nid29102026/"
-  },
-  {
-   "medio": "Acción (accion.coop)",
-   "fecha": "29/10/2026",
-   "titulo": "Tregua del río Paraná",
-   "resumen": "Según el informe de Yacyretá, el caudal que ingresa al embalse se desacelera; se proyecta que Ituzaingó baje a entre 4,10 y 4,30 m y no se esperan lluvias significativas en la cuenca alta hasta el 30/10. La franja costera sigue anegada y bajo parámetros de emergencia.",
-   "enlace": "https://accion.coop/2026/10/29/las-ultimas/tregua-del-rio-parana/"
   }
  ],
  "puertos_uruguay": [
@@ -1421,7 +1422,7 @@
  "tapon_breve": "Alerta por tormentas para la Capital el martes 24/11: naranja de 9 a 15 h (70 a 100 mm), luego amarilla de 15 a 21 h (30 a 70 mm). Con el río en 5,63 m, una lluvia fuerte puede superar la capacidad de los desagües.",
  "consultado": "24/11/2026, 11:37 h",
  "consulta_resultado": "datos nuevos",
- "prensa_actualizada": "24/11/2026, 12:15 h",
+ "prensa_actualizada": "24/11/2026, 12:51 h",
  "ina_parana_breve": "El INA prevé un posible repunte desde el 26/11.",
  "ina_uruguay_breve": "El INA prevé acercarse a la alerta en Santo Tomé el 26/11."
 }
