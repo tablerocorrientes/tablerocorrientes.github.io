@@ -1,5 +1,5 @@
 {
- "actualizado": "24/11/2026, 07:28 h",
+ "actualizado": "24/11/2026, 07:45 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
@@ -1217,11 +1217,11 @@
     0.4,
     0,
     0.4,
-    0,
+    1.0,
     null
    ],
-   "total": 9.2,
-   "ultimo": "0 mm a las 07 h"
+   "total": 10.2,
+   "ultimo": "1 mm a las 07 h"
   },
   {
    "localidad": "Bonpland",
@@ -1285,11 +1285,11 @@
     0,
     0.4,
     3.4,
-    2.4,
+    5.6,
     null
    ],
-   "total": 6.2,
-   "ultimo": "2,4 mm a las 07 h"
+   "total": 9.4,
+   "ultimo": "5,6 mm a las 07 h"
   },
   {
    "localidad": "Curuzú Cuatiá",
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "24/11/2026, 07:28 h",
+ "consultado": "24/11/2026, 07:45 h",
  "consulta_resultado": "datos nuevos"
 }
