@@ -1798,6 +1798,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-23,23,Parque Nacional Iberá,RMA08_PNI - Parque Nacional Iberá,220226,0
 2026-11-24,00,Parque Nacional Iberá,RMA08_PNI - Parque Nacional Iberá,220226,0
 2026-11-24,01,Parque Nacional Iberá,RMA08_PNI - Parque Nacional Iberá,220226,0
+2026-11-24,02,Parque Nacional Iberá,RMA08_PNI - Parque Nacional Iberá,220226,0
 2026-11-01,23,Mburucuyá,RMA04_PMB - Parque Nacional Mburucuyá,220246,0
 2026-11-02,00,Mburucuyá,RMA04_PMB - Parque Nacional Mburucuyá,220246,0
 2026-11-02,01,Mburucuyá,RMA04_PMB - Parque Nacional Mburucuyá,220246,0
@@ -2093,7 +2094,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-23,23,Mburucuyá,RMA04_PMB - Parque Nacional Mburucuyá,220246,0
 2026-11-24,00,Mburucuyá,RMA04_PMB - Parque Nacional Mburucuyá,220246,0
 2026-11-24,01,Mburucuyá,RMA04_PMB - Parque Nacional Mburucuyá,220246,0
-2026-11-24,02,Mburucuyá,RMA04_PMB - Parque Nacional Mburucuyá,220246,2
+2026-11-24,02,Mburucuyá,RMA04_PMB - Parque Nacional Mburucuyá,220246,8.4
 2026-11-01,23,Bonpland,RMA08_BPL - Bonpland,220261,0
 2026-11-02,00,Bonpland,RMA08_BPL - Bonpland,220261,0
 2026-11-02,01,Bonpland,RMA08_BPL - Bonpland,220261,0
@@ -2981,7 +2982,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-23,23,Curuzú Cuatiá,RMA08_CC - Curuzú Cuatiá,220263,0
 2026-11-24,00,Curuzú Cuatiá,RMA08_CC - Curuzú Cuatiá,220263,1.6
 2026-11-24,01,Curuzú Cuatiá,RMA08_CC - Curuzú Cuatiá,220263,0
-2026-11-24,02,Curuzú Cuatiá,RMA08_CC - Curuzú Cuatiá,220263,1.6
+2026-11-24,02,Curuzú Cuatiá,RMA08_CC - Curuzú Cuatiá,220263,5.8
 2026-11-01,23,La Palmira,Estación La Palmira - Escuela N° 70,283902,0
 2026-11-02,00,La Palmira,Estación La Palmira - Escuela N° 70,283902,0
 2026-11-02,01,La Palmira,Estación La Palmira - Escuela N° 70,283902,0
@@ -3278,6 +3279,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-24,00,La Palmira,Estación La Palmira - Escuela N° 70,283902,0
 2026-11-24,01,La Palmira,Estación La Palmira - Escuela N° 70,283902,0
 2026-11-24,02,La Palmira,Estación La Palmira - Escuela N° 70,283902,0
+2026-11-24,03,La Palmira,Estación La Palmira - Escuela N° 70,283902,34.2
 2026-11-01,23,Caá Catí,Predio Ferial Sociedad Rural de Gral. Paz - Caá Catï,283903,0
 2026-11-02,00,Caá Catí,Predio Ferial Sociedad Rural de Gral. Paz - Caá Catï,283903,0
 2026-11-02,01,Caá Catí,Predio Ferial Sociedad Rural de Gral. Paz - Caá Catï,283903,0
@@ -4238,6 +4240,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-24,00,Corrientes Capital,ICAA,283906,0
 2026-11-24,01,Corrientes Capital,ICAA,283906,4.2
 2026-11-24,02,Corrientes Capital,ICAA,283906,27
+2026-11-24,03,Corrientes Capital,ICAA,283906,1.2
 2026-11-01,23,Santo Tomé,Santo Tomé –Corrientes,283907,0
 2026-11-02,00,Santo Tomé,Santo Tomé –Corrientes,283907,0
 2026-11-02,01,Santo Tomé,Santo Tomé –Corrientes,283907,0
