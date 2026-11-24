@@ -1,5 +1,5 @@
 {
- "actualizado": "24/11/2026, 04:35 h",
+ "actualizado": "24/11/2026, 04:53 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
@@ -1217,11 +1217,11 @@
     0,
     0,
     8.4,
-    0.2,
+    0.4,
     null
    ],
-   "total": 8.6,
-   "ultimo": "0,2 mm a las 04 h"
+   "total": 8.8,
+   "ultimo": "0,4 mm a las 04 h"
   },
   {
    "localidad": "Bonpland",
@@ -1251,11 +1251,11 @@
     0.6,
     0.2,
     0,
-    0,
+    0.6,
     null
    ],
-   "total": 0.8,
-   "ultimo": "0 mm a las 04 h"
+   "total": 1.4,
+   "ultimo": "0,6 mm a las 04 h"
   },
   {
    "localidad": "Bella Vista",
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "24/11/2026, 04:35 h",
+ "consultado": "24/11/2026, 04:53 h",
  "consulta_resultado": "datos nuevos"
 }
