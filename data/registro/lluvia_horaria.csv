@@ -1835,6 +1835,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-24,05,Parque Nacional Iberá,RMA08_PNI - Parque Nacional Iberá,220226,0
 2026-11-24,06,Parque Nacional Iberá,RMA08_PNI - Parque Nacional Iberá,220226,0
 2026-11-24,07,Parque Nacional Iberá,RMA08_PNI - Parque Nacional Iberá,220226,0.2
+2026-11-24,08,Parque Nacional Iberá,RMA08_PNI - Parque Nacional Iberá,220226,1.8
 2026-11-01,23,Mburucuyá,RMA04_PMB - Parque Nacional Mburucuyá,220246,0
 2026-11-02,00,Mburucuyá,RMA04_PMB - Parque Nacional Mburucuyá,220246,0
 2026-11-02,01,Mburucuyá,RMA04_PMB - Parque Nacional Mburucuyá,220246,0
@@ -2136,7 +2137,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-24,05,Mburucuyá,RMA04_PMB - Parque Nacional Mburucuyá,220246,0.4
 2026-11-24,06,Mburucuyá,RMA04_PMB - Parque Nacional Mburucuyá,220246,1
 2026-11-24,07,Mburucuyá,RMA04_PMB - Parque Nacional Mburucuyá,220246,0.4
-2026-11-24,08,Mburucuyá,RMA04_PMB - Parque Nacional Mburucuyá,220246,0
+2026-11-24,08,Mburucuyá,RMA04_PMB - Parque Nacional Mburucuyá,220246,2
 2026-11-01,23,Bonpland,RMA08_BPL - Bonpland,220261,0
 2026-11-02,00,Bonpland,RMA08_BPL - Bonpland,220261,0
 2026-11-02,01,Bonpland,RMA08_BPL - Bonpland,220261,0
