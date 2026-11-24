@@ -1,5 +1,5 @@
 {
- "actualizado": "23/11/2026, 22:12 h",
+ "actualizado": "23/11/2026, 22:29 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
@@ -231,11 +231,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 21 h"
+   "ultimo": "0 mm a las 22 h"
   },
   {
    "localidad": "La Palmira",
@@ -1149,11 +1149,11 @@
     0,
     0,
     0,
-    null,
+    0.75,
     null
    ],
-   "total": 0,
-   "ultimo": "0 mm a las 21 h"
+   "total": 0.75,
+   "ultimo": "0,75 mm a las 22 h"
   },
   {
    "localidad": "Itá Ibaté",
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "23/11/2026, 22:12 h",
+ "consultado": "23/11/2026, 22:29 h",
  "consulta_resultado": "datos nuevos"
 }
