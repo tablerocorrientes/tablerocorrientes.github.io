@@ -816,18 +816,18 @@
    "texto": "Alerta amarilla por tormentas del COE (2026-0087-AT, fuente SMN) de 03:00 a 08:59 h, con 30 a 70 mm posibles. Ya terminó: hasta las 08 h el SNIH no midió lluvia en la Capital."
   },
   "2026-11-24": {
-   "nivel": "naranja",
+   "nivel": "rojo",
    "incluye_capital": true,
-   "zonas": "Berón de Astrada, Capital, Empedrado, General Paz, Itatí, Ituzaingó, Mburucuyá, Saladas, San Cosme, San Luis del Palmar, San Miguel",
-   "desde": "24/11/2026, 09:00 h",
-   "hasta": "24/11/2026, 14:59 h",
-   "desde_iso": "2026-11-24T09:00:00-03:00",
-   "hasta_iso": "2026-11-24T14:59:59-03:00",
-   "emision": "23/11/2026, 20:44 h",
-   "emision_iso": null,
-   "min": 70,
-   "max": 100,
-   "texto": "Alerta naranja por tormentas para la Capital el martes 24/11 de 09:00 a 14:59 h, con 70 a 100 mm posibles, que pueden ser superados en forma puntual (SMN, emisión del 23/11 a las 20:44 h). Luego rige una alerta amarilla de 15:00 a 20:59 h, con 30 a 70 mm."
+   "zonas": "Capital, Empedrado, Saladas y San Luis del Palmar",
+   "desde": "24/11/2026, 07:40 h",
+   "hasta": "24/11/2026, 09:40 h",
+   "desde_iso": "2026-11-24T07:40:00-03:00",
+   "hasta_iso": "2026-11-24T09:40:00-03:00",
+   "emision": "24/11/2026, 07:49 h",
+   "emision_iso": "2026-11-24T07:49:00-03:00",
+   "min": null,
+   "max": null,
+   "texto": "Alerta roja (aviso a corto plazo) por lluvias intensas y tormentas, difundida por el COE de Corrientes (2026-0167-CP) con fuente del SMN, para la Capital el martes 24/11 de 07:40 a 09:40 h. Además rige una alerta naranja por tormentas hasta las 13:00 h y una amarilla hasta las 23:00 h (COE, lectura de las 08:39 h)."
   }
  },
  "rio": {

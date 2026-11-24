@@ -1,5 +1,5 @@
 {
- "actualizado": "24/11/2026, 03:15 h",
+ "actualizado": "24/11/2026, 09:15 h",
  "criterio": "Calles, barrios o zonas anegadas por LLUVIA (no por la crecida de los ríos). Se registra cada caso con fecha, hora, lugar, lluvia medida y fuente: Defensa Civil, municipios, medios y observaciones verificadas. Los días sin registros también quedan anotados en la bitácora.",
  "registros": [
   {
@@ -17,7 +17,7 @@
   {
    "fecha": "2026-11-24",
    "localidad": "Corrientes Capital",
-   "nota": "Relevamiento de las 03:15 h: el SNIH midió 9 mm en la Capital entre las 02 y las 03 h (indicador compuesto ICAA y estación 13805). Rige alerta naranja por tormentas de 09:00 a 14:59 h, con 70 a 100 mm posibles. Sin partes de calles o barrios anegados por lluvia en las fuentes oficiales leídas hasta el momento; se vuelve a relevar en la próxima corrida."
+   "nota": "Relevamiento de las 09:15 h: el SNIH midió 13,6 mm en la Capital entre las 08 y las 09 h y 27 mm entre las 03 y las 04 h (indicador compuesto ICAA y estación 13805). Rige alerta roja por lluvias intensas y tormentas hasta las 09:40 h (COE). Sin partes de calles o barrios anegados por lluvia en las fuentes oficiales leídas hasta el momento; se vuelve a relevar en la próxima corrida."
   },
   {
    "fecha": "2026-11-22",
