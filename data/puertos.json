@@ -652,6 +652,14 @@
  "prensa_fecha": "14/11/2026, 09:12 h",
  "prensa": [
   {
+   "fecha": "22/11/2026",
+   "medio": "República de Corrientes",
+   "titulo": "Prevén una nueva crecida del río Paraná en Goya",
+   "enlace": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPOGlNZHNxM2xCVFVrUUlKNVZUWG85NVNYcmZrVVktR2I1bEoySXkzMWl2SUh5WkpqLTMxNW16T3ppS3BEQ2c0eVozQlpnZ1dReDM0VjFkS3hWd0RNRHA1c1RQaWU0QjYtVmRCZllHSTgzdklFNlNJdkxvSUtLVlRWeDR5b2dtYVJzbjV0XzEyZ3A0cUtKWGc?oc=5",
+   "breve": "Prevén una nueva crecida del río Paraná en Goya",
+   "auto": true
+  },
+  {
    "fecha": "23/11/2026",
    "medio": "Identidad Correntina",
    "titulo": "PRONÓSTICO Rige una doble alerta naranja y amarilla por tormentas fuertes para este martes en Corrientes",
@@ -1082,13 +1090,6 @@
    "titulo": "El Niño: había 1.800 los evacuados en Chaco, Misiones fue afectada por fuertes tormentas y Santa Fe prevé otra suba del Paraná",
    "resumen": "El INA midió el Paraná en 7,37 m en Corrientes, sobre la cota de evacuación de 7 m, con descenso diario y categoría de aguas altas. La nota informa 1.790 desplazados en Chaco y 141 en Misiones.",
    "enlace": "https://www.infobae.com/sociedad/2026/10/25/el-nino-habia-1800-los-evacuados-en-chaco-misiones-fue-afectada-por-fuertes-tormentas-y-santa-fe-preve-otra-suba-del-parana/"
-  },
-  {
-   "medio": "Infobae (nacional)",
-   "fecha": "24/10/2026",
-   "titulo": "Inundaciones, evacuados y aislados: las imágenes del caos que provocó El Niño en Neuquén, Chaco y Corrientes",
-   "resumen": "El COE habla de más de 550 evacuados y autoevacuados en Corrientes. En Paso de los Libres el agua del Uruguay (7,88 m) llegó a la calle y al paseo costero. Un temporal con lluvia intensa, granizo y ráfagas afectó sobre todo zonas rurales de Goya, Lavalle, Perugorría y Santa Lucía. Vialidad Nacional trabaja en desagües de las rutas 118 y 14 e interviene en las rutas 12 y 123.",
-   "enlace": "https://www.infobae.com/sociedad/2026/10/24/inundaciones-evacuados-y-aislados-las-imagenes-del-caos-que-provoco-el-nino-en-neuquen-chaco-y-corrientes/"
   }
  ],
  "puertos_uruguay": [
@@ -1406,7 +1407,7 @@
  "tapon_breve": "Alerta por tormentas para la Capital el martes 24/11: naranja de 9 a 15 h (70 a 100 mm), luego amarilla de 15 a 21 h (30 a 70 mm). Con el río en 5,65 m, una lluvia fuerte puede superar la capacidad de los desagües.",
  "consultado": "23/11/2026, 20:33 h",
  "consulta_resultado": "datos nuevos",
- "prensa_actualizada": "23/11/2026, 20:29 h",
+ "prensa_actualizada": "23/11/2026, 21:02 h",
  "ina_parana_breve": "El INA prevé un posible repunte desde el 26/11.",
  "ina_uruguay_breve": "El INA prevé acercarse a la alerta en Santo Tomé el 26/11."
 }
