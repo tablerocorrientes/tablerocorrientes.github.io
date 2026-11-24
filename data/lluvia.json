@@ -1,5 +1,5 @@
 {
- "actualizado": "24/11/2026, 18:25 h",
+ "actualizado": "24/11/2026, 18:42 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
@@ -1453,13 +1453,13 @@
     null,
     null,
     null,
-    null,
+    0,
     null,
     null,
     null
    ],
    "total": 0.75,
-   "ultimo": "0,5 mm a las 12 h"
+   "ultimo": "0 mm a las 16 h"
   },
   {
    "localidad": "Santa Rosa",
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "24/11/2026, 18:25 h",
+ "consultado": "24/11/2026, 18:42 h",
  "consulta_resultado": "datos nuevos"
 }
