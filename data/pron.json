@@ -1,5 +1,5 @@
 {
- "actualizado": "24/11/2026, 04:55 h",
+ "actualizado": "24/11/2026, 05:49 h",
  "metodo": "estimación derivada: promedio de modelos (Open-Meteo), calculado automáticamente; las tareas agregan el parte del SMN cuando corren",
  "estado_alertas": "VERIFICADO_CON_ALERTAS",
  "estado_verificado": {
@@ -180,8 +180,8 @@
     ]
    },
    "criterio": "Promedio de los modelos GFS (NOAA), ICON (DWD), ECMWF (Open-Meteo), calculado automáticamente. Estimación derivada, no una medición.",
-   "fuente": "Hoy 22,1 mm, mañana 0,0 mm, promedio de modelos (Open-Meteo, 24/11/2026, 04:55 h)",
-   "act": "24/11, 04:55 h"
+   "fuente": "Hoy 22,1 mm, mañana 0,0 mm, promedio de modelos (Open-Meteo, 24/11/2026, 05:49 h)",
+   "act": "24/11, 05:49 h"
   },
   "Goya": {
    "hoy": {
@@ -224,8 +224,8 @@
     ]
    },
    "criterio": "Promedio de los modelos GFS (NOAA), ICON (DWD), ECMWF (Open-Meteo), calculado automáticamente. Estimación derivada, no una medición.",
-   "fuente": "Hoy 11,5 mm, mañana 0,4 mm, promedio de modelos (Open-Meteo, 24/11/2026, 04:55 h)",
-   "act": "24/11, 04:55 h"
+   "fuente": "Hoy 11,5 mm, mañana 0,4 mm, promedio de modelos (Open-Meteo, 24/11/2026, 05:49 h)",
+   "act": "24/11, 05:49 h"
   },
   "Esquina": {
    "hoy": {
@@ -268,8 +268,8 @@
     ]
    },
    "criterio": "Promedio de los modelos GFS (NOAA), ICON (DWD), ECMWF (Open-Meteo), calculado automáticamente. Estimación derivada, no una medición.",
-   "fuente": "Hoy 7,8 mm, mañana 0,0 mm, promedio de modelos (Open-Meteo, 24/11/2026, 04:55 h)",
-   "act": "24/11, 04:55 h"
+   "fuente": "Hoy 7,8 mm, mañana 0,0 mm, promedio de modelos (Open-Meteo, 24/11/2026, 05:49 h)",
+   "act": "24/11, 05:49 h"
   },
   "Bella Vista": {
    "hoy": {
@@ -312,8 +312,8 @@
     ]
    },
    "criterio": "Promedio de los modelos GFS (NOAA), ICON (DWD), ECMWF (Open-Meteo), calculado automáticamente. Estimación derivada, no una medición.",
-   "fuente": "Hoy 9,1 mm, mañana 0,1 mm, promedio de modelos (Open-Meteo, 24/11/2026, 04:55 h)",
-   "act": "24/11, 04:55 h"
+   "fuente": "Hoy 9,1 mm, mañana 0,1 mm, promedio de modelos (Open-Meteo, 24/11/2026, 05:49 h)",
+   "act": "24/11, 05:49 h"
   },
   "Mercedes": {
    "hoy": {
@@ -356,8 +356,8 @@
     ]
    },
    "criterio": "Promedio de los modelos GFS (NOAA), ICON (DWD), ECMWF (Open-Meteo), calculado automáticamente. Estimación derivada, no una medición.",
-   "fuente": "Hoy 9,0 mm, mañana 0,0 mm, promedio de modelos (Open-Meteo, 24/11/2026, 04:55 h)",
-   "act": "24/11, 04:55 h"
+   "fuente": "Hoy 9,0 mm, mañana 0,0 mm, promedio de modelos (Open-Meteo, 24/11/2026, 05:49 h)",
+   "act": "24/11, 05:49 h"
   },
   "Curuzú Cuatiá": {
    "hoy": {
@@ -400,8 +400,8 @@
     ]
    },
    "criterio": "Promedio de los modelos GFS (NOAA), ICON (DWD), ECMWF (Open-Meteo), calculado automáticamente. Estimación derivada, no una medición.",
-   "fuente": "Hoy 7,0 mm, mañana 0,0 mm, promedio de modelos (Open-Meteo, 24/11/2026, 04:55 h)",
-   "act": "24/11, 04:55 h"
+   "fuente": "Hoy 7,0 mm, mañana 0,0 mm, promedio de modelos (Open-Meteo, 24/11/2026, 05:49 h)",
+   "act": "24/11, 05:49 h"
   },
   "Paso de los Libres": {
    "hoy": {
@@ -444,8 +444,8 @@
     ]
    },
    "criterio": "Promedio de los modelos GFS (NOAA), ICON (DWD), ECMWF (Open-Meteo), calculado automáticamente. Estimación derivada, no una medición.",
-   "fuente": "Hoy 6,3 mm, mañana 0,0 mm, promedio de modelos (Open-Meteo, 24/11/2026, 04:55 h)",
-   "act": "24/11, 04:55 h"
+   "fuente": "Hoy 6,3 mm, mañana 0,0 mm, promedio de modelos (Open-Meteo, 24/11/2026, 05:49 h)",
+   "act": "24/11, 05:49 h"
   },
   "Santo Tomé": {
    "hoy": {
@@ -488,8 +488,8 @@
     ]
    },
    "criterio": "Promedio de los modelos GFS (NOAA), ICON (DWD), ECMWF (Open-Meteo), calculado automáticamente. Estimación derivada, no una medición.",
-   "fuente": "Hoy 37,2 mm, mañana 0,7 mm, promedio de modelos (Open-Meteo, 24/11/2026, 04:55 h)",
-   "act": "24/11, 04:55 h"
+   "fuente": "Hoy 37,2 mm, mañana 0,7 mm, promedio de modelos (Open-Meteo, 24/11/2026, 05:49 h)",
+   "act": "24/11, 05:49 h"
   },
   "Gobernador Virasoro": {
    "hoy": {
@@ -532,8 +532,8 @@
     ]
    },
    "criterio": "Promedio de los modelos GFS (NOAA), ICON (DWD), ECMWF (Open-Meteo), calculado automáticamente. Estimación derivada, no una medición.",
-   "fuente": "Hoy 50,4 mm, mañana 4,8 mm, promedio de modelos (Open-Meteo, 24/11/2026, 04:55 h)",
-   "act": "24/11, 04:55 h"
+   "fuente": "Hoy 50,4 mm, mañana 4,8 mm, promedio de modelos (Open-Meteo, 24/11/2026, 05:49 h)",
+   "act": "24/11, 05:49 h"
   },
   "Ituzaingó": {
    "hoy": {
@@ -576,8 +576,8 @@
     ]
    },
    "criterio": "Promedio de los modelos GFS (NOAA), ICON (DWD), ECMWF (Open-Meteo), calculado automáticamente. Estimación derivada, no una medición.",
-   "fuente": "Hoy 57,6 mm, mañana 4,8 mm, promedio de modelos (Open-Meteo, 24/11/2026, 04:55 h)",
-   "act": "24/11, 04:55 h"
+   "fuente": "Hoy 57,6 mm, mañana 4,8 mm, promedio de modelos (Open-Meteo, 24/11/2026, 05:49 h)",
+   "act": "24/11, 05:49 h"
   },
   "Monte Caseros": {
    "hoy": {
@@ -620,8 +620,8 @@
     ]
    },
    "criterio": "Promedio de los modelos GFS (NOAA), ICON (DWD), ECMWF (Open-Meteo), calculado automáticamente. Estimación derivada, no una medición.",
-   "fuente": "Hoy 2,0 mm, mañana 0,0 mm, promedio de modelos (Open-Meteo, 24/11/2026, 04:55 h)",
-   "act": "24/11, 04:55 h"
+   "fuente": "Hoy 2,0 mm, mañana 0,0 mm, promedio de modelos (Open-Meteo, 24/11/2026, 05:49 h)",
+   "act": "24/11, 05:49 h"
   },
   "Saladas": {
    "hoy": {
@@ -664,8 +664,8 @@
     ]
    },
    "criterio": "Promedio de los modelos GFS (NOAA), ICON (DWD), ECMWF (Open-Meteo), calculado automáticamente. Estimación derivada, no una medición.",
-   "fuente": "Hoy 11,2 mm, mañana 0,0 mm, promedio de modelos (Open-Meteo, 24/11/2026, 04:55 h)",
-   "act": "24/11, 04:55 h"
+   "fuente": "Hoy 11,2 mm, mañana 0,0 mm, promedio de modelos (Open-Meteo, 24/11/2026, 05:49 h)",
+   "act": "24/11, 05:49 h"
   }
  },
  "horario_capital": {
@@ -748,11 +748,11 @@
    0.0
   ]
  },
- "horario_act": "24/11/2026, 04:55 h",
+ "horario_act": "24/11/2026, 05:49 h",
  "consultado": "24/11/2026, 03:15 h",
  "consulta_resultado": "datos nuevos",
  "extendido": {
-  "actualizado": "24/11/2026, 04:55 h",
+  "actualizado": "24/11/2026, 05:49 h",
   "aviso": "Pronóstico extendido informativo. No se usa en los cálculos del simulador.",
   "ciudades": {
    "Corrientes Capital": {
@@ -807,7 +807,7 @@
    "Goya": {
     "fuente": "Modelo Open-Meteo (estimación de modelo, no es el pronóstico oficial del SMN)",
     "url": "https://open-meteo.com",
-    "emision": "24/11/2026, 04:55 h",
+    "emision": "24/11/2026, 05:49 h",
     "dias": [
      {
       "fecha": "2026-11-25",
@@ -870,7 +870,7 @@
    "Esquina": {
     "fuente": "Modelo Open-Meteo (estimación de modelo, no es el pronóstico oficial del SMN)",
     "url": "https://open-meteo.com",
-    "emision": "24/11/2026, 04:55 h",
+    "emision": "24/11/2026, 05:49 h",
     "dias": [
      {
       "fecha": "2026-11-25",
@@ -933,7 +933,7 @@
    "Bella Vista": {
     "fuente": "Modelo Open-Meteo (estimación de modelo, no es el pronóstico oficial del SMN)",
     "url": "https://open-meteo.com",
-    "emision": "24/11/2026, 04:55 h",
+    "emision": "24/11/2026, 05:49 h",
     "dias": [
      {
       "fecha": "2026-11-25",
@@ -996,7 +996,7 @@
    "Mercedes": {
     "fuente": "Modelo Open-Meteo (estimación de modelo, no es el pronóstico oficial del SMN)",
     "url": "https://open-meteo.com",
-    "emision": "24/11/2026, 04:55 h",
+    "emision": "24/11/2026, 05:49 h",
     "dias": [
      {
       "fecha": "2026-11-25",
@@ -1059,7 +1059,7 @@
    "Curuzú Cuatiá": {
     "fuente": "Modelo Open-Meteo (estimación de modelo, no es el pronóstico oficial del SMN)",
     "url": "https://open-meteo.com",
-    "emision": "24/11/2026, 04:55 h",
+    "emision": "24/11/2026, 05:49 h",
     "dias": [
      {
       "fecha": "2026-11-25",
@@ -1122,7 +1122,7 @@
    "Paso de los Libres": {
     "fuente": "Modelo Open-Meteo (estimación de modelo, no es el pronóstico oficial del SMN)",
     "url": "https://open-meteo.com",
-    "emision": "24/11/2026, 04:55 h",
+    "emision": "24/11/2026, 05:49 h",
     "dias": [
      {
       "fecha": "2026-11-25",
@@ -1185,7 +1185,7 @@
    "Santo Tomé": {
     "fuente": "Modelo Open-Meteo (estimación de modelo, no es el pronóstico oficial del SMN)",
     "url": "https://open-meteo.com",
-    "emision": "24/11/2026, 04:55 h",
+    "emision": "24/11/2026, 05:49 h",
     "dias": [
      {
       "fecha": "2026-11-25",
@@ -1248,7 +1248,7 @@
    "Gobernador Virasoro": {
     "fuente": "Modelo Open-Meteo (estimación de modelo, no es el pronóstico oficial del SMN)",
     "url": "https://open-meteo.com",
-    "emision": "24/11/2026, 04:55 h",
+    "emision": "24/11/2026, 05:49 h",
     "dias": [
      {
       "fecha": "2026-11-25",
@@ -1311,7 +1311,7 @@
    "Ituzaingó": {
     "fuente": "Modelo Open-Meteo (estimación de modelo, no es el pronóstico oficial del SMN)",
     "url": "https://open-meteo.com",
-    "emision": "24/11/2026, 04:55 h",
+    "emision": "24/11/2026, 05:49 h",
     "dias": [
      {
       "fecha": "2026-11-25",
@@ -1374,7 +1374,7 @@
    "Monte Caseros": {
     "fuente": "Modelo Open-Meteo (estimación de modelo, no es el pronóstico oficial del SMN)",
     "url": "https://open-meteo.com",
-    "emision": "24/11/2026, 04:55 h",
+    "emision": "24/11/2026, 05:49 h",
     "dias": [
      {
       "fecha": "2026-11-25",
@@ -1437,7 +1437,7 @@
    "Saladas": {
     "fuente": "Modelo Open-Meteo (estimación de modelo, no es el pronóstico oficial del SMN)",
     "url": "https://open-meteo.com",
-    "emision": "24/11/2026, 04:55 h",
+    "emision": "24/11/2026, 05:49 h",
     "dias": [
      {
       "fecha": "2026-11-25",
