@@ -652,6 +652,14 @@
  "prensa_fecha": "14/11/2026, 09:12 h",
  "prensa": [
   {
+   "fecha": "23/11/2026",
+   "medio": "Corrientes al Día",
+   "titulo": "Alerta naranja y amarilla por tormentas para este martes en Corrientes",
+   "enlace": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQMDBsMHVRX0REVEtCZWQ5b1JtVTYtT09xRUFPc0NPSGVxcVNkYXJjTlRJMWh3Z1JBcmVkUDB5N0JSSFN2Sk9MUmgxX1drY0QzbkJVcmdoeURGbjdBNEF2UVF4RnFpVWFpbDBtcEE5NDZVcUVhY3lRZktwLW01SHcxNmVxMjF3d0l5QVQ4Wmdyc05KRUt2WnhjemxsdFNCTHZEaUhSVVREdVhXR0U4VTNQUQ?oc=5",
+   "breve": "Alerta naranja y amarilla por tormentas para este martes en Corrientes",
+   "auto": true
+  },
+  {
    "fecha": "24/11/2026",
    "medio": "www.actualidadparana.com.ar",
    "titulo": "Ituzaingó y el resto del norte de Corrientes con lluvias abundantes, actividad eléctrica, granizo y ráfagas fuertes este martes",
@@ -1088,13 +1096,6 @@
    "titulo": "El Niño: el paso por Yacyretá continúa cerrado por el nivel del Paraná mientras la creciente volvió al río Uruguay",
    "resumen": "El paso Ituzaingó–Ayolas sigue cerrado al menos hasta el viernes 30/10, según la EBY. El Paraná está sobre los parámetros de evacuación en Ituzaingó, Itá Ibaté, Itatí, Paso de la Patria y la Capital; Bella Vista, Goya y Esquina, en alerta. La isla Apipé está inundada en un 50 %, partida en dos y con la ruta cortada, con más de 100 evacuados según el intendente. En el Uruguay hay niveles altos entre Puerto Concepción y Paso de los Libres, sin localidades en alerta ni evacuación.",
    "enlace": "https://www.infobae.com/sociedad/2026/10/26/el-nino-el-paso-por-yacyreta-continua-cerrado-por-el-nivel-del-parana-mientras-la-creciente-volvio-al-rio-uruguay/"
-  },
-  {
-   "medio": "Examedia (Todojujuy)",
-   "fecha": "26/10/2026",
-   "titulo": "El Niño: la crecida del Paraná mantiene cerrado Yacyretá y vuelve a subir el Uruguay",
-   "resumen": "Replica los datos de la EBY y de Prefectura: cruces cerrados con Paraguay en Misiones y con Brasil sobre el Uruguay, onda de crecida del Uruguay avanzando hacia el sur y Salto Grande reduciendo su embalse.",
-   "enlace": "https://examedia.com.ar/portada/post/88122479"
   }
  ],
  "puertos_uruguay": [
@@ -1412,7 +1413,7 @@
  "tapon_breve": "Alerta por tormentas para la Capital el martes 24/11: naranja de 9 a 15 h (70 a 100 mm), luego amarilla de 15 a 21 h (30 a 70 mm). Con el río en 5,63 m, una lluvia fuerte puede superar la capacidad de los desagües.",
  "consultado": "24/11/2026, 03:12 h",
  "consulta_resultado": "datos nuevos",
- "prensa_actualizada": "24/11/2026, 02:32 h",
+ "prensa_actualizada": "24/11/2026, 03:47 h",
  "ina_parana_breve": "El INA prevé un posible repunte desde el 26/11.",
  "ina_uruguay_breve": "El INA prevé acercarse a la alerta en Santo Tomé el 26/11."
 }

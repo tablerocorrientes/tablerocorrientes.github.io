@@ -1,5 +1,5 @@
 {
- "actualizado": "24/11/2026, 03:28 h",
+ "actualizado": "24/11/2026, 03:44 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
@@ -1217,11 +1217,11 @@
     0,
     0,
     0,
-    0,
+    2,
     null
    ],
-   "total": 0,
-   "ultimo": "0 mm a las 03 h"
+   "total": 2,
+   "ultimo": "2 mm a las 03 h"
   },
   {
    "localidad": "Bonpland",
@@ -1319,11 +1319,11 @@
     0,
     1.6,
     0,
-    0,
+    1.6,
     null
    ],
-   "total": 1.6,
-   "ultimo": "0 mm a las 03 h"
+   "total": 3.2,
+   "ultimo": "1,6 mm a las 03 h"
   },
   {
    "localidad": "Parque Nacional Iberá",
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "24/11/2026, 03:28 h",
+ "consultado": "24/11/2026, 03:44 h",
  "consulta_resultado": "datos nuevos"
 }
