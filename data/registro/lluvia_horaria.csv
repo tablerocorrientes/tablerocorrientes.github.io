@@ -365,6 +365,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-23,15,Gobernador Virasoro,La Sirena,13811,0
 2026-11-23,19,Gobernador Virasoro,La Sirena,13811,0
 2026-11-23,23,Gobernador Virasoro,La Sirena,13811,0
+2026-11-24,03,Gobernador Virasoro,La Sirena,13811,0
 2026-11-01,23,Colonia Carlos Pellegrini,Carlos Pellegrini,13826,0
 2026-11-02,03,Colonia Carlos Pellegrini,Carlos Pellegrini,13826,0
 2026-11-02,07,Colonia Carlos Pellegrini,Carlos Pellegrini,13826,0.25
@@ -1816,6 +1817,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-24,02,Parque Nacional Iberá,RMA08_PNI - Parque Nacional Iberá,220226,0
 2026-11-24,03,Parque Nacional Iberá,RMA08_PNI - Parque Nacional Iberá,220226,6.6
 2026-11-24,04,Parque Nacional Iberá,RMA08_PNI - Parque Nacional Iberá,220226,16.6
+2026-11-24,05,Parque Nacional Iberá,RMA08_PNI - Parque Nacional Iberá,220226,0
 2026-11-01,23,Mburucuyá,RMA04_PMB - Parque Nacional Mburucuyá,220246,0
 2026-11-02,00,Mburucuyá,RMA04_PMB - Parque Nacional Mburucuyá,220246,0
 2026-11-02,01,Mburucuyá,RMA04_PMB - Parque Nacional Mburucuyá,220246,0
