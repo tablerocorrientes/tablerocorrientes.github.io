@@ -1,8 +1,8 @@
 {
  "estado_alertas": "VERIFICADO_CON_ALERTAS",
  "estado_verificado": {
-  "fecha": "24/11/2026, 00:15 h",
-  "fuente": "SMN (lectura directa de las 21:10 h) y COE de Corrientes (lectura de las 21:09 h)"
+  "fecha": "24/11/2026, 03:15 h",
+  "fuente": "SMN (lectura directa de las 02:51 h) y COE de Corrientes (lectura de las 03:09 h)"
  },
  "met_archivo": {
   "nombre": "vigilancia_meteorologica_20261113_183508.json",
@@ -1249,6 +1249,24 @@
    "incluye_capital": true,
    "url": "https://www.smn.gob.ar/alertas",
    "origen": "SMN, canal oficial de alertas (lectura directa del 23/11/2026, 21:10 h); coincide con el COE de Corrientes"
+  },
+  {
+   "id_oficial": "SMN-aviso-corto-plazo-naranja-2026-11-24-0417",
+   "tipo": "aviso a muy corto plazo",
+   "aviso": "Aviso naranja a muy corto plazo por tormentas fuertes",
+   "nivel": "naranja",
+   "fenomeno": "tormentas fuertes",
+   "rango_mm": null,
+   "zonas": "Curuzú Cuatiá - Mercedes - Monte Caseros - Paso de los Libres - Sauce",
+   "desde": "24/11/2026, 04:17 h",
+   "hasta": "24/11/2026, 07:17 h",
+   "desde_iso": "2026-11-24T04:17:00-03:00",
+   "hasta_iso": "2026-11-24T07:17:00-03:00",
+   "emision": "24/11/2026, 04:17 h",
+   "incluye_corrientes": true,
+   "incluye_capital": false,
+   "url": "https://www.smn.gob.ar/alertas",
+   "origen": "SMN, canal oficial de alertas (lectura directa del 24/11/2026, 02:51 h); el COE de Corrientes lo difunde como alerta roja"
   }
  ]
 }
