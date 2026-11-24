@@ -1,5 +1,5 @@
 {
- "actualizado": "24/11/2026, 15:20 h",
+ "actualizado": "24/11/2026, 18:20 h",
  "criterio": "Calles, barrios o zonas anegadas por LLUVIA (no por la crecida de los ríos). Se registra cada caso con fecha, hora, lugar, lluvia medida y fuente: Defensa Civil, municipios, medios y observaciones verificadas. Los días sin registros también quedan anotados en la bitácora.",
  "registros": [
   {
@@ -27,7 +27,7 @@
   {
    "fecha": "2026-11-24",
    "localidad": "Corrientes Capital",
-   "nota": "Relevamiento de las 12:12 h: el SNIH midió 79 mm acumulados en la Capital entre las 00 y las 12 h del 24/11 (27 mm entre las 03 y las 04 h, 13,6 mm entre las 08 y las 09 h y 15 mm entre las 09 y las 10 h; indicador compuesto ICAA y estación 13805). Las alertas rojas del COE ya vencieron; rige alerta naranja por tormentas del SMN hasta las 14:59 h. Sin partes de calles o barrios anegados por lluvia en las fuentes oficiales ni en la búsqueda de medios; se vuelve a relevar en la próxima corrida."
+   "nota": "Relevamiento de las 12:12 h: el SNIH midió 79 mm acumulados en la Capital entre las 00 y las 12 h del 24/11 (27 mm entre las 03 y las 04 h, 13,6 mm entre las 08 y las 09 h y 15 mm entre las 09 y las 10 h; indicador compuesto ICAA y estación 13805). Las alertas rojas del COE ya vencieron; rige alerta naranja por tormentas del SMN hasta las 14:59 h. Sin partes de calles o barrios anegados por lluvia en las fuentes oficiales ni en la búsqueda de medios; se vuelve a relevar en la próxima corrida. Relevamiento de las 18:20 h: sin lluvia medida desde las 12 h; sin partes nuevos de calles o barrios anegados en Defensa Civil, la Municipalidad ni los medios consultados. Rige la alerta amarilla por tormentas hasta las 20:59 h y el COE la mantiene hasta las 23:00 h."
   },
   {
    "fecha": "2026-11-22",
@@ -47,7 +47,7 @@
   {
    "fecha": "2026-11-24",
    "localidad": "Corrientes Capital",
-   "nota": "Relevamiento de las 15:20 h: llovieron 72,64 mm hasta las 8:45 h (parte municipal) y el SNIH acumuló cerca de 80 mm entre las 02 y las 11 h, sin lluvia medida desde las 12 h. La Municipalidad informó calles anegadas en distintos sectores, sin precisar barrios, y trabaja con cuadrillas en desagües (El Litoral, 24/11). Rige alerta amarilla hasta las 20:59 h."
+   "nota": "Relevamiento de las 15:20 h: llovieron 72,64 mm hasta las 8:45 h (parte municipal) y el SNIH acumuló cerca de 80 mm entre las 02 y las 11 h, sin lluvia medida desde las 12 h. La Municipalidad informó calles anegadas en distintos sectores, sin precisar barrios, y trabaja con cuadrillas en desagües (El Litoral, 24/11). Rige alerta amarilla hasta las 20:59 h. Relevamiento de las 18:20 h: sin lluvia medida desde las 12 h; sin partes nuevos de calles o barrios anegados en Defensa Civil, la Municipalidad ni los medios consultados. Rige la alerta amarilla por tormentas hasta las 20:59 h y el COE la mantiene hasta las 23:00 h."
   }
  ]
 }
