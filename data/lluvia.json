@@ -1,5 +1,5 @@
 {
- "actualizado": "24/11/2026, 05:26 h",
+ "actualizado": "24/11/2026, 05:44 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
@@ -1251,11 +1251,11 @@
     0.2,
     0,
     0.6,
-    0,
+    0.4,
     null
    ],
-   "total": 1.4,
-   "ultimo": "0 mm a las 05 h"
+   "total": 1.8,
+   "ultimo": "0,4 mm a las 05 h"
   },
   {
    "localidad": "Bella Vista",
@@ -1285,11 +1285,11 @@
     0,
     0,
     0,
-    0,
+    0.4,
     null
    ],
-   "total": 0,
-   "ultimo": "0 mm a las 05 h"
+   "total": 0.4,
+   "ultimo": "0,4 mm a las 05 h"
   },
   {
    "localidad": "Curuzú Cuatiá",
@@ -1353,11 +1353,11 @@
     0,
     0,
     6.6,
-    null,
+    16.6,
     null
    ],
-   "total": 6.6,
-   "ultimo": "6,6 mm a las 04 h"
+   "total": 23.2,
+   "ultimo": "16,6 mm a las 05 h"
   },
   {
    "localidad": "San Isidro",
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "24/11/2026, 05:26 h",
+ "consultado": "24/11/2026, 05:44 h",
  "consulta_resultado": "datos nuevos"
 }

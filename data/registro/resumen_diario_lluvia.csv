@@ -291,8 +291,8 @@ fecha,localidad,pronosticado_mm,llovido_mm,horas_medidas,hora_mas_lluviosa,alert
 2026-11-23,San Roquito,,0.75,6,03 a 04 h,,,
 2026-11-23,Santa Lucía,,0,24,,,,
 2026-11-23,Santo Tomé,0,0,24,,,,
-2026-11-24,Bella Vista,10.7,0,5,,amarillo,30 a 70,
-2026-11-24,Bonpland,,1.4,5,00 a 01 h,,,
+2026-11-24,Bella Vista,10.7,0.4,5,04 a 05 h,amarillo,30 a 70,
+2026-11-24,Bonpland,,1.8,5,00 a 01 h,,,
 2026-11-24,Caá Catí,,0,5,,,,
 2026-11-24,Colonia Carlos Pellegrini,,1.25,1,03 a 04 h,,,
 2026-11-24,Corrientes Capital,31.2,37.4,5,02 a 03 h,naranja,70 a 100,no
@@ -308,7 +308,7 @@ fecha,localidad,pronosticado_mm,llovido_mm,horas_medidas,hora_mas_lluviosa,alert
 2026-11-24,Mburucuyá,,8.8,5,02 a 03 h,naranja,70 a 100,no
 2026-11-24,Mercedes,7.8,0,4,,naranja,30 a 70,
 2026-11-24,Monte Caseros,0.1,,,,naranja,30 a 70,
-2026-11-24,Parque Nacional Iberá,,6.6,4,03 a 04 h,,,
+2026-11-24,Parque Nacional Iberá,,23.2,5,04 a 05 h,,,
 2026-11-24,Paso de los Libres,4.5,,,,naranja,30 a 70,
 2026-11-24,Portal Galarza,,0,1,,,,
 2026-11-24,Pueblo Libertador,,2.5,5,04 a 05 h,,,
