@@ -292,8 +292,8 @@ fecha,localidad,pronosticado_mm,llovido_mm,horas_medidas,hora_mas_lluviosa,alert
 2026-11-23,Santa Lucía,,0,24,,,,
 2026-11-23,Santo Tomé,0,0,24,,,,
 2026-11-24,Bella Vista,10.7,9.4,10,06 a 07 h,amarillo,30 a 70,si
-2026-11-24,Bonpland,,2,10,00 a 01 h,,,
-2026-11-24,Caá Catí,,0,9,,,,
+2026-11-24,Bonpland,,2.2,10,00 a 01 h,,,
+2026-11-24,Caá Catí,,0,10,,,,
 2026-11-24,Colonia Carlos Pellegrini,,9.5,2,07 a 08 h,,,
 2026-11-24,Corrientes Capital,31.2,78.95,10,02 a 03 h,rojo,70 a 100,no
 2026-11-24,Curuzú Cuatiá,3.7,8.6,10,02 a 03 h,naranja,30 a 70,si
@@ -303,18 +303,18 @@ fecha,localidad,pronosticado_mm,llovido_mm,horas_medidas,hora_mas_lluviosa,alert
 2026-11-24,Goya,11.8,,,,amarillo,30 a 70,
 2026-11-24,Ituzaingó,64.3,,,,rojo,70 a 100,
 2026-11-24,Itá Ibaté,,46.2,10,05 a 06 h,,,
-2026-11-24,La Cruz,,1.4,9,02 a 03 h,,,
+2026-11-24,La Cruz,,2,10,09 a 10 h,,,
 2026-11-24,La Palmira,,59.4,10,03 a 04 h,,,
 2026-11-24,Mburucuyá,,13,10,02 a 03 h,rojo,70 a 100,no
-2026-11-24,Mercedes,7.8,0,8,,naranja,30 a 70,
+2026-11-24,Mercedes,7.8,0,9,,naranja,30 a 70,
 2026-11-24,Monte Caseros,0.1,,,,naranja,30 a 70,
 2026-11-24,Parque Nacional Iberá,,25.2,9,04 a 05 h,,,
 2026-11-24,Paso Cerrito,,3.25,2,07 a 08 h,,,
 2026-11-24,Paso de los Libres,4.5,,,,naranja,30 a 70,
 2026-11-24,Portal Galarza,,0,2,,,,
-2026-11-24,Pueblo Libertador,,3.25,9,04 a 05 h,,,
+2026-11-24,Pueblo Libertador,,3.25,10,04 a 05 h,,,
 2026-11-24,Saladas,18.9,,,,rojo,70 a 100,
-2026-11-24,San Carlos,,0,9,,,,
+2026-11-24,San Carlos,,0,10,,,,
 2026-11-24,San Roquito,,0,2,,,,
-2026-11-24,Santa Lucía,,0.25,9,06 a 07 h,,,
+2026-11-24,Santa Lucía,,0.25,10,06 a 07 h,,,
 2026-11-24,Santo Tomé,26.7,8.8,10,07 a 08 h,rojo,30 a 70,si

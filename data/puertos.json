@@ -653,6 +653,14 @@
  "prensa": [
   {
    "fecha": "24/11/2026",
+   "medio": "Perfil",
+   "titulo": "Corrientes alista un sistema de alertas al celular para advertir por fenómenos meteorológicos severos",
+   "enlace": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPZ2duMkptbXVhVHhTUEtEeUVsOXJYWG1NTDlraVVzVkNrcDk1OUk2R1dEb055bTdkazFxR19SRVRPYlVlTk1yWUNhejBNcV9aSms4bnZGVmVXOUNBYVZvMzlRanJEZ0FsNzVpSmVVaW1Za3RXdFhjdEV0d2RWd1duSW9kdVVNaU52YmZxQlUtOWxrdDd5QllDZFptS3JFai1XdzVyNW5BLWlyN1VMN0xwT2VfeXlxTVlWNWxmY3NwMDdlLUxlTWxJdjFWcFNYY012UlpwVzNST1A?oc=5",
+   "breve": "Corrientes alista un sistema de alertas al celular para advertir por fenómenos meteorológicos severos",
+   "auto": true
+  },
+  {
+   "fecha": "24/11/2026",
    "medio": "Los Primeros TV",
    "titulo": "Fenómeno El Niño: 4.000 personas siguen evacuadas en Corrientes y Chaco por la lenta baja del Paraná",
    "enlace": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQQnUxajdtQUJCaDNqTEVMQTFHakpmb3VlWEdTSEV5d0d1UUJuOHJESzd2SGlfWjU3eTFvYXl4X2RhejRGWWtwNVU1OW9wSlF0bjMteWVrd1hEZE5OWmRtQlREWTBRTm94ZlFVWXJUUG11S3dEMmt2aGpEMW5RaXF5ZXVMbXBvd3hkZ1hKbFNfN25JRG8xdnFmcG0tVDZ6bWZsSVcyaUlicE5jT3VpNDNVUDhjeklvVHZYR2Q4aElhYVZIWlAwNDlxcVhlZTZhcV90N25WWXBtSGNWUzFQVWtRTnhIN01aQkRkLXZ2eVpjUkJHdlVIdE80?oc=5",
@@ -1092,13 +1100,6 @@
    "titulo": "Inundaciones en Corrientes: confirman una nueva onda de crecida del río Paraná para el 3 de noviembre",
    "resumen": "Defensa Civil de la Provincia anticipa una nueva onda de crecida, con cerca de 7,60 a 7,70 m en la Capital y más de 8 m en Paso de la Patria e Itatí; Goya rozaría su escala de evacuación. En la Capital, una escuela del barrio Pujol funciona como centro de evacuados, con unas 30 familias asistidas. Los municipios costeros siguen en alerta roja.",
    "enlace": "https://perfil.com/nea/inundaciones-en-corrientes-confirman-una-nueva-onda-de-crecida-del-rio-parana-para-el-3-de-noviembre-aNdJK9S4Q8y5"
-  },
-  {
-   "medio": "Corrientes Hoy",
-   "fecha": "27/10/2026",
-   "titulo": "Para la semana que viene se espera otra creciente del Río Paraná",
-   "resumen": "Según Defensa Civil de la Provincia, la nueva onda llegaría alrededor del 3/11, quizás similar a la anterior, con el río cerca de 7,60 a 7,70 m en la Capital y más de 8 m en Itatí y Paso de la Patria.",
-   "enlace": "https://www.corrienteshoy.com/info-general/para-la-semana-que-viene-se-espera-otra-creciente-del-rio-parana.htm"
   }
  ],
  "puertos_uruguay": [
@@ -1416,7 +1417,7 @@
  "tapon_breve": "Alerta por tormentas para la Capital el martes 24/11: naranja de 9 a 15 h (70 a 100 mm), luego naranja de 11 a 13 h, luego amarilla de 15 a 21 h (30 a 70 mm). Con el río en 5,63 m, una lluvia fuerte puede superar la capacidad de los desagües.",
  "consultado": "24/11/2026, 08:56 h",
  "consulta_resultado": "datos nuevos",
- "prensa_actualizada": "24/11/2026, 09:51 h",
+ "prensa_actualizada": "24/11/2026, 10:25 h",
  "ina_parana_breve": "El INA prevé un posible repunte desde el 26/11.",
  "ina_uruguay_breve": "El INA prevé acercarse a la alerta en Santo Tomé el 26/11."
 }
