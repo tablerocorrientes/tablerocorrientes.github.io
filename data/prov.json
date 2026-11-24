@@ -442,8 +442,8 @@
  "pronostico": {
   "Corrientes Capital": {
    "hoy": {
-    "mm": 21.8,
-    "horas": 16
+    "mm": 23.0,
+    "horas": 18
    },
    "manana": {
     "mm": 0.0,
@@ -478,8 +478,8 @@
   },
   "Goya": {
    "hoy": {
-    "mm": 10.2,
-    "horas": 11
+    "mm": 10.4,
+    "horas": 10
    },
    "manana": {
     "mm": 0.1,
@@ -501,7 +501,7 @@
   },
   "Esquina": {
    "hoy": {
-    "mm": 10.5,
+    "mm": 10.4,
     "horas": 9
    },
    "manana": {
@@ -524,8 +524,8 @@
   },
   "Bella Vista": {
    "hoy": {
-    "mm": 10.2,
-    "horas": 11
+    "mm": 10.5,
+    "horas": 10
    },
    "manana": {
     "mm": 0.1,
@@ -547,8 +547,8 @@
   },
   "Mercedes": {
    "hoy": {
-    "mm": 12.8,
-    "horas": 11
+    "mm": 12.9,
+    "horas": 12
    },
    "manana": {
     "mm": 0.0,
@@ -593,8 +593,8 @@
   },
   "Paso de los Libres": {
    "hoy": {
-    "mm": 6.9,
-    "horas": 8
+    "mm": 7.4,
+    "horas": 12
    },
    "manana": {
     "mm": 0.0,
@@ -621,12 +621,12 @@
   },
   "Santo Tomé": {
    "hoy": {
-    "mm": 40.4,
-    "horas": 16
+    "mm": 38.3,
+    "horas": 17
    },
    "manana": {
-    "mm": 0.7,
-    "horas": 3
+    "mm": 0.2,
+    "horas": 0
    },
    "smn": "Alerta amarilla del SMN por tormenta para Corrientes desde las 12:00 h del 17/11 hasta las 11:59 h del 18/11, sin departamentos detallados. Alerta amarilla del COE de Corrientes (fuente SMN) que incluye a esta ciudad el miércoles 18/11 de 05:00 a 12:00 h, con 30 a 70 mm posibles.",
    "modelos": {
@@ -644,11 +644,11 @@
   },
   "Gobernador Virasoro": {
    "hoy": {
-    "mm": 56.9,
+    "mm": 45.2,
     "horas": 21
    },
    "manana": {
-    "mm": 4.8,
+    "mm": 4.9,
     "horas": 6
    },
    "smn": "Alerta amarilla del SMN por tormenta para Corrientes desde las 12:00 h del 17/11 hasta las 11:59 h del 18/11, sin departamentos detallados. Alerta amarilla del COE de Corrientes (fuente SMN) que incluye a esta ciudad el miércoles 18/11 de 05:00 a 12:00 h, con 30 a 70 mm posibles.",
@@ -667,7 +667,7 @@
   },
   "Ituzaingó": {
    "hoy": {
-    "mm": 60.5,
+    "mm": 53.0,
     "horas": 20
    },
    "manana": {
@@ -723,7 +723,7 @@
   },
   "Saladas": {
    "hoy": {
-    "mm": 11.8,
+    "mm": 12.3,
     "horas": 11
    },
    "manana": {
@@ -1143,7 +1143,7 @@
    }
   ]
  },
- "pron_actualizado": "24/11/2026, 08:04 h",
+ "pron_actualizado": "24/11/2026, 09:17 h",
  "smn": [
   {
    "id_oficial": "COE-2026-0168-CP",
