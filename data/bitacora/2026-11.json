@@ -7709,7 +7709,7 @@
     "Corrientes Capital": [
      0.0,
      9.0,
-     null,
+     27.0,
      null,
      null,
      null,
@@ -7735,7 +7735,7 @@
     "San Carlos": [
      0.0,
      0.0,
-     null,
+     0.0,
      null,
      null,
      null,
@@ -7761,7 +7761,7 @@
     "La Palmira": [
      0.0,
      0.0,
-     null,
+     0.0,
      null,
      null,
      null,
@@ -7787,7 +7787,7 @@
     "Caá Catí": [
      0.0,
      0.0,
-     null,
+     0.0,
      null,
      null,
      null,
@@ -7813,7 +7813,7 @@
     "Itá Ibaté": [
      0.0,
      0.0,
-     null,
+     0.0,
      null,
      null,
      null,
@@ -7839,7 +7839,7 @@
     "Mburucuyá": [
      0.0,
      0.0,
-     null,
+     0.0,
      null,
      null,
      null,
@@ -7865,7 +7865,7 @@
     "Bonpland": [
      0.6,
      0.2,
-     null,
+     0.0,
      null,
      null,
      null,
@@ -7891,7 +7891,7 @@
     "Bella Vista": [
      0.0,
      0.0,
-     null,
+     0.0,
      null,
      null,
      null,
@@ -7917,7 +7917,7 @@
     "Curuzú Cuatiá": [
      1.6,
      0.0,
-     null,
+     0.0,
      null,
      null,
      null,
@@ -7943,7 +7943,7 @@
     "Santo Tomé": [
      0.0,
      0.0,
-     null,
+     0.0,
      null,
      null,
      null,
@@ -7995,7 +7995,7 @@
     "La Cruz": [
      0.0,
      0.0,
-     null,
+     0.4,
      null,
      null,
      null,
@@ -8073,7 +8073,7 @@
     "Mercedes": [
      null,
      0.0,
-     null,
+     0.0,
      null,
      null,
      null,
@@ -8162,6 +8162,16 @@
      ],
      "incluye_capital": true,
      "origen": "SMN, canal oficial de alertas (lectura directa del 23/11/2026, 21:10 h); coincide con el COE de Corrientes"
+    },
+    {
+     "nivel": "naranja",
+     "fenomeno": "tormentas fuertes",
+     "desde_iso": "2026-11-24T04:17:00-03:00",
+     "hasta_iso": "2026-11-24T07:17:00-03:00",
+     "zonas": "Curuzú Cuatiá - Mercedes - Monte Caseros - Paso de los Libres - Sauce",
+     "rango_mm": null,
+     "incluye_capital": false,
+     "origen": "SMN, canal oficial de alertas (lectura directa del 24/11/2026, 02:51 h); el COE de Corrientes lo difunde como alerta roja"
     }
    ]
   }

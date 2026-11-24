@@ -3,23 +3,26 @@
  "registros": {
   "0": 0,
   "1": 0,
-  "2": 9
+  "2": 9,
+  "3": 27
  },
  "registros_icaa": {
   "0": 0,
   "1": 0,
-  "2": 4.2
+  "2": 4.2,
+  "3": 27
  },
  "registros_13805": {
   "0": 0,
   "1": 0,
-  "2": 9
+  "2": 9,
+  "3": 19.75
  },
  "indicador": "compuesto: máximo horario de ICAA y Corrientes 13805",
  "cobertura": {},
- "ultima_hora": 2,
- "mm": 9,
- "estado": "moderada",
- "ts": 1795499430394,
+ "ultima_hora": 3,
+ "mm": 27,
+ "estado": "fuerte",
+ "ts": 1795500669802,
  "fuente": "SNIH, indicador compuesto (máximo horario de ICAA y Corrientes 13805)"
 }
