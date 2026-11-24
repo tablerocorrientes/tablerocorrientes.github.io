@@ -1,5 +1,5 @@
 {
- "actualizado": "24/11/2026, 06:04 h",
+ "actualizado": "24/11/2026, 06:20 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
@@ -95,11 +95,11 @@
     19.75,
     0.5,
     0,
-    null,
+    0.5,
     null
    ],
-   "total": 29.25,
-   "ultimo": "0 mm a las 05 h"
+   "total": 29.75,
+   "ultimo": "0,5 mm a las 06 h"
   },
   {
    "localidad": "Garruchos",
@@ -197,11 +197,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 05 h"
+   "ultimo": "0 mm a las 06 h"
   },
   {
    "localidad": "Santa Lucía",
@@ -231,11 +231,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 05 h"
+   "ultimo": "0 mm a las 06 h"
   },
   {
    "localidad": "La Palmira",
@@ -673,11 +673,11 @@
     0.4,
     0.2,
     0,
-    null,
+    0.2,
     null
    ],
-   "total": 0.6,
-   "ultimo": "0 mm a las 05 h"
+   "total": 0.8,
+   "ultimo": "0,2 mm a las 06 h"
   },
   {
    "localidad": "Gobernador Virasoro",
@@ -775,11 +775,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 05 h"
+   "ultimo": "0 mm a las 06 h"
   },
   {
    "localidad": "Mercedes",
@@ -1115,11 +1115,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 05 h"
+   "ultimo": "0 mm a las 06 h"
   },
   {
    "localidad": "Pueblo Libertador",
@@ -1149,11 +1149,11 @@
     0.25,
     0.5,
     1.25,
-    null,
+    0,
     null
    ],
    "total": 5.75,
-   "ultimo": "1,25 mm a las 05 h"
+   "ultimo": "0 mm a las 06 h"
   },
   {
    "localidad": "Itá Ibaté",
@@ -1183,11 +1183,11 @@
     0,
     0,
     5,
-    null,
+    20.2,
     null
    ],
-   "total": 5,
-   "ultimo": "5 mm a las 05 h"
+   "total": 25.2,
+   "ultimo": "20,2 mm a las 06 h"
   },
   {
    "localidad": "Mburucuyá",
@@ -1217,11 +1217,11 @@
     8.4,
     0.4,
     0,
-    null,
+    0,
     null
    ],
    "total": 8.8,
-   "ultimo": "0 mm a las 05 h"
+   "ultimo": "0 mm a las 06 h"
   },
   {
    "localidad": "Bonpland",
@@ -1251,11 +1251,11 @@
     0,
     0.6,
     0.4,
-    null,
+    0,
     null
    ],
    "total": 1.8,
-   "ultimo": "0,4 mm a las 05 h"
+   "ultimo": "0 mm a las 06 h"
   },
   {
    "localidad": "Bella Vista",
@@ -1285,11 +1285,11 @@
     0,
     0,
     0.4,
-    null,
+    3.2,
     null
    ],
-   "total": 0.4,
-   "ultimo": "0,4 mm a las 05 h"
+   "total": 3.6,
+   "ultimo": "3,2 mm a las 06 h"
   },
   {
    "localidad": "Curuzú Cuatiá",
@@ -1319,11 +1319,11 @@
     5.8,
     0.6,
     0.4,
-    null,
+    0,
     null
    ],
    "total": 8.4,
-   "ultimo": "0,4 mm a las 05 h"
+   "ultimo": "0 mm a las 06 h"
   },
   {
    "localidad": "Parque Nacional Iberá",
@@ -1557,11 +1557,11 @@
     0,
     0.8,
     0.2,
-    null,
+    0.2,
     null
    ],
-   "total": 1.0,
-   "ultimo": "0,2 mm a las 05 h"
+   "total": 1.2,
+   "ultimo": "0,2 mm a las 06 h"
   },
   {
    "localidad": "El Sombrerito",
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "24/11/2026, 06:04 h",
+ "consultado": "24/11/2026, 06:20 h",
  "consulta_resultado": "datos nuevos"
 }
