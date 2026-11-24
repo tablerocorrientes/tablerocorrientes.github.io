@@ -1,7 +1,7 @@
 Fuente: https://coe.corrientes.gob.ar/
-Consultado: 24/11/2026, 10:24 h
+Consultado: 24/11/2026, 10:57 h
 
-6 alertas vigentes — COE Corrientes
+5 alertas vigentes — COE Corrientes
 Alertas del COE - Comando Operativo de Emergencias
 Instituto de
 Modernización e Innovación
@@ -14,13 +14,7 @@ Alertas hidrometeorológicas
 Avisos emitidos por el Comando Operativo de Emergencias de Corrientes por
 crecidas, tormentas, lluvias y vientos.
 Tocá una alerta para ver la pieza completa con el mapa del área alcanzada.
-Vigentes ahora 6
-Alerta Roja
-En curso
-Lluvias intensas · Tormentas
-Capital, San Cosme
-Empezó martes 24/11 · 08:35 h
-Termina martes 24/11 · 10:35 h
+Vigentes ahora 5
 Alerta Amarilla
 En curso
 Tormentas
@@ -56,7 +50,12 @@ Recibí las alertas en tu teléfono
 Unirme por WhatsApp
 Escaneá el código o tocá el botón. Es un canal de sólo lectura
 para recibir y consultar los avisos del COE.
-Anteriores 126
+Anteriores 127
+Roja
+Lluvias intensas · Tormentas
+Capital, San Cosme
+24/11/2026
+08:35 a 10:35
 Roja
 Lluvias intensas · Tormentas
 Berón de Astrada, Concepción, Empedrado, General Paz, Ituzaingó, Mburucuyá, Saladas, San Luis del Palmar, San Miguel, San Roque, Santo Tomé
@@ -102,11 +101,6 @@ Tormentas
 Concepción, Curuzú Cuatiá, General Alvear, Mercedes, Monte Caseros, Paso de los Libres, San Martín, San Roque, Santo Tomé, Sauce
 21/11/2026
 06:02 a 22:00
-Amarilla
-Tormentas
-Bella Vista, Berón de Astrada, Capital, Concepción, Curuzú Cuatiá, Empedrado, Esquina, General Alvear, General Paz, Goya, Itatí, Ituzaingó, Lavalle, Mburucuyá, Mercedes, Paso de los Libres, Saladas, San Cosme, San Luis del Palmar, San Martín, San Miguel, San Roque, Santo Tomé, Sauce
-20/11/2026
-12:48 a 22:00
 ← Más recientes
 Página 1 de 13
 Más antiguas →

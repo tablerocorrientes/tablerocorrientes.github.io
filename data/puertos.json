@@ -653,6 +653,22 @@
  "prensa": [
   {
    "fecha": "24/11/2026",
+   "medio": "Diario 13 San Juan",
+   "titulo": "El Niño en el Litoral: 4.000 evacuados siguen fuera de sus casas en Corrientes y Chaco",
+   "enlace": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQQUNfTWhkOV9JSmVmaGl1SEtyMGpZRjhab1dxMG1NM2RLT0lzUE1YVnpuZ2xpVmdVTGR5WHhqUkgyWS1BYXJ2S1U3N3BxRVVuZTEyTWJFeDNLdk5PYnUteFczQjV6ekJmOFE3TnR4b2ZoZlFSMWg5aTJ1eUxacWU4M2kzcXZURFdid09hbVpqWG9NWjh3UGdoODNvQk9FTDlVcGwyRTlPSlJ4WGVsOW9VOWIzLTFVTng3MXpMZGVjMEotMFlFbHpDOFFhaVcwV20tekhBeXJxbDhGXzY2UjNmLVZGMDZRZ9IB9AFBVV95cUxQVHQtLUhqVGRpUEU0ejNmQW5zaFZUX1JMVkRwMnk5VlhBa2E5YUJRa2xITVhySDdWczBPckxTWlJBSzZESGZ2LU1DNWdNNmJ3RHllbUpxSXBPOEJseDUxWG5xUEpCRW14bGR5M2k0a2txdXRJZTB0bDJsRS1NejV1QVNKdmJxTFFJR2QwWlJaR2tPTXZjNmJoR2hQN1VQeHJYQ3dqcXEzb1V0dnZkSnc3SGN2NVJZTTRTN2ZaQlJDQTg4VHlJSG42dGo5TVFjdkF3R3lBX2hianZyVWVoMG9uRmJESEZ4ZVJSN2pDY084WmYxM3Nk?oc=5",
+   "breve": "El Niño en el Litoral: 4.000 evacuados siguen fuera de sus casas en Corrientes y Chaco",
+   "auto": true
+  },
+  {
+   "fecha": "24/11/2026",
+   "medio": "TN",
+   "titulo": "Hay alerta naranja por tormentas para este martes 24 de noviembre en Corrientes: las zonas afectadas",
+   "enlace": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQX1BWLWd3WmJRNmxRTnZsNFlObXVTNUU0X08xcVBnelloVFZQbUpyS2hkemcwNC1Za0JXLWlJVm90aV9wOVQ2OGJ5VUhrbkdBbDhlMHNtaDVISTFNeV9kbF9jRVRwRDV4dy1vMzBuRkQ5YjZZOUtwSzZhZWJaQmVJUzhQejdqTTRWYmJhWElKMFRxcDM2T0o4N3o0ZVdiUHFKR283eGdWUEpnckVrUU9PMmtoMU5tNnRTOXp6bHhrZ3VfMXFMWWs0S2F2LXRMMnF3UXo4SXhZREVjaknSAe8BQVVfeXFMTjVjYWZTVDZvNUVQUEVNcFIxeXByVzdKY2I3aExxUDBtUXM1UUdRRHhTQXMySlg5RFlMcjBUeDh6Uk1IR3JBUFdRS1FHOHVMNFFHQy1QYTVRR2VmcEpabHFJQmh0b2R0U1AtODRyTzlaMGRWemNUdFFxd0FZU29yTXBNRmxnT291blBpaGpRZmNUZk1NNnp3cTQ4dEQ5dWtQQ3l4UVdHTFctOU5uVzFNSmZsUnVyTFJmcmh4UDZGaUJ2RkFtWW5KcW90WV9xc3FjekZ5ZjdCTnAtNHJhM2FiTmlGd3hIR1ppX0hkRW1TT2c?oc=5",
+   "breve": "Hay alerta naranja por tormentas para este martes 24 de noviembre en Corrientes: las zonas afectadas",
+   "auto": true
+  },
+  {
+   "fecha": "24/11/2026",
    "medio": "Perfil",
    "titulo": "Corrientes alista un sistema de alertas al celular para advertir por fenómenos meteorológicos severos",
    "enlace": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPZ2duMkptbXVhVHhTUEtEeUVsOXJYWG1NTDlraVVzVkNrcDk1OUk2R1dEb055bTdkazFxR19SRVRPYlVlTk1yWUNhejBNcV9aSms4bnZGVmVXOUNBYVZvMzlRanJEZ0FsNzVpSmVVaW1Za3RXdFhjdEV0d2RWd1duSW9kdVVNaU52YmZxQlUtOWxrdDd5QllDZFptS3JFai1XdzVyNW5BLWlyN1VMN0xwT2VfeXlxTVlWNWxmY3NwMDdlLUxlTWxJdjFWcFNYY012UlpwVzNST1A?oc=5",
@@ -1086,20 +1102,6 @@
    "titulo": "El Niño: Chaco tiene más de 2200 afectados por las inundaciones y en Corrientes se reportaron otros 1500",
    "resumen": "Defensa Civil de Corrientes informa unas 1.500 personas afectadas: 440 evacuadas y 1.056 autoevacuadas. Las zonas más complejas son Isla Apipé, Itatí y Paso de la Patria. El INA prevé niveles altos con tendencia a descender en el corto plazo y lluvias superiores a lo normal desde el 1/11, con posibles nuevos repuntes en 7 a 15 días. Paso de los Libres, en alerta por un repunte del río Uruguay.",
    "enlace": "https://www.infobae.com/sociedad/2026/10/28/el-nino-chaco-tiene-mas-de-2200-afectados-por-las-inundaciones-y-en-corrientes-se-reportaron-otros-1500/"
-  },
-  {
-   "medio": "La Nación",
-   "fecha": "27/10/2026",
-   "titulo": "Pueblo sitiado: ya son más de 150 las familias evacuadas en Paso de la Patria y anticipan una nueva onda de crecida",
-   "resumen": "Con el río en 7,74 m según Prefectura, más de 150 familias se autoevacuaron en Paso de la Patria y el municipio evacuó a cuatro más. Cerca del 40 % del pueblo está inundado: barrios Don Julián, La Isla y Pescadores, la zona de La Rioja y 8 de Diciembre, las playas Punta Mitre y Pelícano y la zona sur por el desborde del arroyo Guajó. El intendente espera 8,00 a 8,10 m y advierte que a 8,50 m el pueblo podría quedar incomunicado.",
-   "enlace": "https://www.lanacion.com.ar/sociedad/pueblo-sitiado-ya-son-mas-de-150-las-familias-evacuadas-en-paso-de-la-patria-y-anticipan-una-nueva-nid27102026/"
-  },
-  {
-   "medio": "Perfil",
-   "fecha": "27/10/2026",
-   "titulo": "Inundaciones en Corrientes: confirman una nueva onda de crecida del río Paraná para el 3 de noviembre",
-   "resumen": "Defensa Civil de la Provincia anticipa una nueva onda de crecida, con cerca de 7,60 a 7,70 m en la Capital y más de 8 m en Paso de la Patria e Itatí; Goya rozaría su escala de evacuación. En la Capital, una escuela del barrio Pujol funciona como centro de evacuados, con unas 30 familias asistidas. Los municipios costeros siguen en alerta roja.",
-   "enlace": "https://perfil.com/nea/inundaciones-en-corrientes-confirman-una-nueva-onda-de-crecida-del-rio-parana-para-el-3-de-noviembre-aNdJK9S4Q8y5"
   }
  ],
  "puertos_uruguay": [
@@ -1417,7 +1419,7 @@
  "tapon_breve": "Alerta por tormentas para la Capital el martes 24/11: naranja de 9 a 15 h (70 a 100 mm), luego naranja de 11 a 13 h, luego amarilla de 15 a 21 h (30 a 70 mm). Con el río en 5,63 m, una lluvia fuerte puede superar la capacidad de los desagües.",
  "consultado": "24/11/2026, 08:56 h",
  "consulta_resultado": "datos nuevos",
- "prensa_actualizada": "24/11/2026, 10:25 h",
+ "prensa_actualizada": "24/11/2026, 10:58 h",
  "ina_parana_breve": "El INA prevé un posible repunte desde el 26/11.",
  "ina_uruguay_breve": "El INA prevé acercarse a la alerta en Santo Tomé el 26/11."
 }
