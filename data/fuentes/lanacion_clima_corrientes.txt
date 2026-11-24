@@ -1,5 +1,5 @@
 Fuente: https://www.lanacion.com.ar/clima/corrientes/
-Consultado: 24/11/2026, 17:18 h
+Consultado: 24/11/2026, 17:52 h
 
 Clima en Corrientes y pronóstico del tiempo en LA NACION
 CERRAR
@@ -78,20 +78,20 @@ Kiosco LA NACION
 > LA NACION > Clima > Corrientes
 Clima de hoy en Corrientes
 Pronóstico del tiempo extendido para Corrientes
-Actualizado a las 15:41 hs.
+Actualizado a las 17:53 hs.
 Pronóstico del tiempo en Corrientes hoy
 Tarde
 Tormentas fuertes
-32 ºc
+27 ºc
 86%
 SE 22Km/h
 70%
 Noche
-Tormentas aisladas
+Mayormente nublado
 24 ºc
 85%
 NE 22Km/h
-40%
+10%
 Pronóstico del tiempo en Corrientes mañana
 Mañana
 Mayormente nublado
@@ -101,7 +101,7 @@ SE 31Km/h
 10%
 Tarde
 Mayormente nublado
-27 ºc
+28 ºc
 32%
 SE 31Km/h
 10%
@@ -114,7 +114,7 @@ E 31Km/h
 Pronóstico del tiempo en Corrientes el jueves
 Mañana
 Parcialmente nublado
-20 ºc
+23 ºc
 50%
 E 31Km/h
 0%
@@ -122,6 +122,12 @@ Tarde
 Mayormente nublado
 29 ºc
 28%
+E 31Km/h
+0%
+Noche
+Parcialmente nublado
+25 ºc
+78%
 E 22Km/h
 0%
 Pronóstico del tiempo en Corrientes el viernes
@@ -139,7 +145,7 @@ E 31Km/h
 40%
 Pronóstico del tiempo en Corrientes el sábado
 Mañana
-Parcialmente nublado
+Mayormente nublado
 19 ºc
 76%
 SE 22Km/h
@@ -149,7 +155,7 @@ Parcialmente nublado
 33 ºc
 37%
 SE 22Km/h
-0%
+10%
 Pronóstico del tiempo en Corrientes el domingo
 Mañana
 Parcialmente nublado
@@ -159,7 +165,7 @@ SE 22Km/h
 0%
 Tarde
 Parcialmente nublado
-31 ºc
+32 ºc
 49%
 SE 22Km/h
 0%
@@ -167,13 +173,26 @@ Pronóstico del tiempo en Corrientes el lunes
 Mañana
 Parcialmente nublado
 22 ºc
--
+69%
 E 12Km/h
 0%
 Tarde
 Parcialmente nublado
-33 ºc
+35 ºc
 42%
+E 12Km/h
+0%
+Pronóstico del tiempo en Corrientes el martes
+Mañana
+Parcialmente nublado
+22 ºc
+-
+SO 2Km/h
+0%
+Tarde
+Parcialmente nublado
+35 ºc
+39%
 E 12Km/h
 0%
 Referencias del clima
@@ -309,7 +328,7 @@ Más leídas
 1 Federico Bal inauguró la temporada de pileta con un video de Evelyn Botto: “Las curvas del verano”
 2 Crisis místicas, visiones del demonio, y “ese no saber decir que no” a los argentinos: un libro revela el mundo íntimo de Francisco
 3 Es argentino y creó un sistema de entrenamiento en el que no es necesario terminar exhausto para ver resultados
-4 Fernando Gago y Verónica Laffitte festejaron el primer año de su hijo y un detalle xeneize se robó toda la atención
+4 “Le teníamos miedo”: la quinta de un pintor enigmático que hoy es uno de los centros culturales más relevantes de zona norte
 Secciones
 Últimas noticias
 Política
