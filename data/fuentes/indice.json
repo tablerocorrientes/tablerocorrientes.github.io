@@ -1,6 +1,6 @@
 {
- "consultado": "24/11/2026, 14:37 h",
- "consultado_iso": "2026-11-24T14:37-03:00",
+ "consultado": "24/11/2026, 15:10 h",
+ "consultado_iso": "2026-11-24T15:10-03:00",
  "paginas": {
   "smn_alertas": {
    "url": "https://www.smn.gob.ar/alertas",
@@ -41,7 +41,7 @@
   "rioparana_alturas": {
    "url": "https://www.rioparana.com.ar",
    "estado": 200,
-   "caracteres": 11249,
+   "caracteres": 11263,
    "archivo": "data/fuentes/rioparana_alturas.txt"
   },
   "prefectura_alturas": {
@@ -52,7 +52,7 @@
   "lanacion_clima_corrientes": {
    "url": "https://www.lanacion.com.ar/clima/corrientes/",
    "estado": 200,
-   "caracteres": 8231,
+   "caracteres": 8249,
    "archivo": "data/fuentes/lanacion_clima_corrientes.txt"
   },
   "noaa_enso": {
@@ -131,6 +131,25 @@
    "archivo": "data/fuentes/coe_a_2026_0164_CP.txt"
   }
  },
+ "pedidas": {
+  "https://www.ellitoral.com.ar/ciudad/2026-11-24-10-12-0-lluvias-en-corrientes-cayeron-mas-de-72-milimetros-y-desplegaron-cuadrillas-municipales": {
+   "url": "https://www.ellitoral.com.ar/ciudad/2026-11-24-10-12-0-lluvias-en-corrientes-cayeron-mas-de-72-milimetros-y-desplegaron-cuadrillas-municipales",
+   "estado": 200,
+   "caracteres": 2122,
+   "archivo": "data/fuentes/web/ellitoral_com_ar_ciudad_2026_11_24_10_12_0_lluvias_en_corrientes_cayeron_mas_de_72_milimet.txt"
+  },
+  "https://diario1588.com/?p=272219": {
+   "url": "https://diario1588.com/?p=272219",
+   "estado": 200,
+   "caracteres": 3856,
+   "archivo": "data/fuentes/web/diario1588_com_p_272219.txt"
+  },
+  "https://www.corrienteshoy.com/info-general/desagues-tapados-y-72-milimetros-caidos-en-la-capital-correntina.htm": {
+   "url": "https://www.corrienteshoy.com/info-general/desagues-tapados-y-72-milimetros-caidos-en-la-capital-correntina.htm",
+   "estado": "error",
+   "detalle": "HTTP Error 404: NOT FOUND"
+  }
+ },
  "portales": {
   "munired_municipio_corrientes": {
    "url": "https://munired.mcypcorrientes.gob.ar/noticias/corrientes",
@@ -157,97 +176,5 @@
    "archivo": "data/fuentes/portales/senado_corrientes.txt"
   }
  },
- "pedidas": {
-  "https://www.ellitoral.com.ar/ciudad/2026-11-20-19-18-0-cerro-el-centro-de-evacuados-en-corrientes-y-el-60-de-los-autoevacuados-volvio-a-casa": {
-   "url": "https://www.ellitoral.com.ar/ciudad/2026-11-20-19-18-0-cerro-el-centro-de-evacuados-en-corrientes-y-el-60-de-los-autoevacuados-volvio-a-casa",
-   "estado": 200,
-   "caracteres": 4582,
-   "archivo": "data/fuentes/web/ellitoral_com_ar_ciudad_2026_11_20_19_18_0_cerro_el_centro_de_evacuados_en_corrientes_y_el.txt"
-  },
-  "https://ciudaddecorrientes.gov.ar/content/el-municipio-acompa-el-regreso-los-hogares-ya-no-hay-evacuados-en-la-escuela-293": {
-   "url": "https://ciudaddecorrientes.gov.ar/content/el-municipio-acompa-el-regreso-los-hogares-ya-no-hay-evacuados-en-la-escuela-293",
-   "estado": 200,
-   "caracteres": 5345,
-   "archivo": "data/fuentes/web/ciudaddecorrientes_gov_ar_content_el_municipio_acompa_el_regreso_los_hogares_ya_no_hay_eva.txt"
-  },
-  "https://www.tiempopopular.com.ar/2026/11/19/corrientes-registra-mas-de-2-000-evacuados-por-las-inundaciones-y-advierten-que-la-situacion-podria-agravarse/": {
-   "url": "https://www.tiempopopular.com.ar/2026/11/19/corrientes-registra-mas-de-2-000-evacuados-por-las-inundaciones-y-advierten-que-la-situacion-podria-agravarse/",
-   "estado": 200,
-   "caracteres": 4464,
-   "archivo": "data/fuentes/web/tiempopopular_com_ar_2026_11_19_corrientes_registra_mas_de_2_000_evacuados_por_las_inundac.txt"
-  },
-  "https://examedia.com.ar/portada/post/88250149": {
-   "url": "https://examedia.com.ar/portada/post/88250149",
-   "estado": 200,
-   "caracteres": 5507,
-   "archivo": "data/fuentes/web/examedia_com_ar_portada_post_88250149.txt"
-  },
-  "https://prensamercosur.org/2026/11/21/seamos-conscientes-mostraron-una-de-las-consecuencias-de-la-basura-en-las-calles/": {
-   "url": "https://prensamercosur.org/2026/11/21/seamos-conscientes-mostraron-una-de-las-consecuencias-de-la-basura-en-las-calles/",
-   "estado": 200,
-   "caracteres": 7769,
-   "archivo": "data/fuentes/web/prensamercosur_org_2026_11_21_seamos_conscientes_mostraron_una_de_las_consecuencias_de_la_.txt"
-  },
-  "https://prensamercosur.org/2026/11/18/valdes-defendio-el-aumento-y-se-refirio-al-gabinete/": {
-   "url": "https://prensamercosur.org/2026/11/18/valdes-defendio-el-aumento-y-se-refirio-al-gabinete/",
-   "estado": 200,
-   "caracteres": 9709,
-   "archivo": "data/fuentes/web/prensamercosur_org_2026_11_18_valdes_defendio_el_aumento_y_se_refirio_al_gabinete.txt"
-  },
-  "https://www.corrienteshoy.com/info-general/el-municipio-de-la-capital-quiere-extender-por-un-anio-mas-la-emergencia-en-el-trasnporte-publico-de-pasajeros.htm": {
-   "url": "https://www.corrienteshoy.com/info-general/el-municipio-de-la-capital-quiere-extender-por-un-anio-mas-la-emergencia-en-el-trasnporte-publico-de-pasajeros.htm",
-   "estado": "error",
-   "detalle": "HTTP Error 404: NOT FOUND"
-  },
-  "https://www.corrienteshoy.com/politica/en-paso-de-la-patria-valdes-anuncio-medidas-de-alivio-economico-y-nuevas-obras.htm": {
-   "url": "https://www.corrienteshoy.com/politica/en-paso-de-la-patria-valdes-anuncio-medidas-de-alivio-economico-y-nuevas-obras.htm",
-   "estado": "error",
-   "detalle": "HTTP Error 404: NOT FOUND"
-  },
-  "https://www.momarandu.com/notix/noticia/69984_diputados-convierte-en-ley-la-declaracin-de-emergencia-climtica-e-hdrica-en-corrientes.htm": {
-   "url": "https://www.momarandu.com/notix/noticia/69984_diputados-convierte-en-ley-la-declaracin-de-emergencia-climtica-e-hdrica-en-corrientes.htm",
-   "estado": 200,
-   "caracteres": 7587,
-   "archivo": "data/fuentes/web/momarandu_com_notix_noticia_69984_diputados_convierte_en_ley_la_declaracin_de_emergencia_c.txt"
-  },
-  "https://www.perfil.com/noticias/modo-fontevecchia/corrientes-salarios-por-debajo-de-la-linea-de-pobreza-con-docentes-y-policias-en-pie-de-guerra-modof.phtml": {
-   "url": "https://www.perfil.com/noticias/modo-fontevecchia/corrientes-salarios-por-debajo-de-la-linea-de-pobreza-con-docentes-y-policias-en-pie-de-guerra-modof.phtml",
-   "estado": 200,
-   "caracteres": 11744,
-   "archivo": "data/fuentes/web/perfil_com_noticias_modo_fontevecchia_corrientes_salarios_por_debajo_de_la_linea_de_pobrez.txt"
-  },
-  "https://perfil.com/nea/plus-unificado-de-corrientes-confirman-el-cronograma-de-pago-de-noviembre-para-estatales-y-jubilados-aLr5c2u85YP6": {
-   "url": "https://perfil.com/nea/plus-unificado-de-corrientes-confirman-el-cronograma-de-pago-de-noviembre-para-estatales-y-jubilados-aLr5c2u85YP6",
-   "estado": 200,
-   "caracteres": 4113,
-   "archivo": "data/fuentes/web/perfil_com_nea_plus_unificado_de_corrientes_confirman_el_cronograma_de_pago_de_noviembre_p.txt"
-  },
-  "https://www.diarioepoca.com/1395501-es-ley-la-declaracion-de-emergencia-climatica-e-hidrica-en-corrientes": {
-   "url": "https://www.diarioepoca.com/1395501-es-ley-la-declaracion-de-emergencia-climatica-e-hidrica-en-corrientes",
-   "estado": "error",
-   "detalle": "HTTP Error 404: NOT FOUND"
-  },
-  "https://www.diarioepoca.com/1395676-el-municipio-acompana-el-regreso-a-los-hogares-ya-no-hay-evacuados-en-la-escuela-293": {
-   "url": "https://www.diarioepoca.com/1395676-el-municipio-acompana-el-regreso-a-los-hogares-ya-no-hay-evacuados-en-la-escuela-293",
-   "estado": "error",
-   "detalle": "HTTP Error 404: NOT FOUND"
-  },
-  "https://www.diarioepoca.com/1395688-servicios-para-el-feriado-del-lunes": {
-   "url": "https://www.diarioepoca.com/1395688-servicios-para-el-feriado-del-lunes",
-   "estado": "error",
-   "detalle": "HTTP Error 404: NOT FOUND"
-  },
-  "https://www.republicadecorrientes.com/76721-valdes-anuncio-medidas-de-alivio-economico-y-nuevas-obras": {
-   "url": "https://www.republicadecorrientes.com/76721-valdes-anuncio-medidas-de-alivio-economico-y-nuevas-obras",
-   "estado": "error",
-   "detalle": "HTTP Error 404: NOT FOUND"
-  },
-  "https://www.canal12misiones.com/informacion-general/el-nino-chaco-corrientes": {
-   "url": "https://www.canal12misiones.com/informacion-general/el-nino-chaco-corrientes",
-   "estado": 200,
-   "caracteres": 6285,
-   "archivo": "data/fuentes/web/canal12misiones_com_informacion_general_el_nino_chaco_corrientes.txt"
-  }
- },
- "pedidas_consultado": "22/11/2026, 18:57 h"
+ "pedidas_consultado": "24/11/2026, 15:10 h"
 }
