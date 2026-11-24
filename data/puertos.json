@@ -653,6 +653,14 @@
  "prensa": [
   {
    "fecha": "24/11/2026",
+   "medio": "LT7Noticias",
+   "titulo": "Tormenta en Corrientes: durante la mañana llovieron 80 mm sobre la ciudad",
+   "enlace": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNLUxZSFROX3ZzcWVEM2RDY3JMV0xJU0VjUC03V0FFcnhTUkxLUU1VeEFpcWNicXRhZ3hSWGZmYUtyTkpKQzU1MXhBMk42REVmVEpJX21Zb3FxSFFkR240MnJvRUFVSU00Ml9jVmZIekNtTXkzWXB0aUxyUHp0TnNSX21HSEFkcHozNVo3TEdVam5nMm5oTF9ScFpmWk00WGNCZkdBbl9USU10QQ?oc=5",
+   "breve": "Tormenta en Corrientes: durante la mañana llovieron 80 mm sobre la ciudad",
+   "auto": true
+  },
+  {
+   "fecha": "24/11/2026",
    "medio": "Diario 13 San Juan",
    "titulo": "El Niño en el Litoral: 4.000 evacuados siguen fuera de sus casas en Corrientes y Chaco",
    "enlace": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQQUNfTWhkOV9JSmVmaGl1SEtyMGpZRjhab1dxMG1NM2RLT0lzUE1YVnpuZ2xpVmdVTGR5WHhqUkgyWS1BYXJ2S1U3N3BxRVVuZTEyTWJFeDNLdk5PYnUteFczQjV6ekJmOFE3TnR4b2ZoZlFSMWg5aTJ1eUxacWU4M2kzcXZURFdid09hbVpqWG9NWjh3UGdoODNvQk9FTDlVcGwyRTlPSlJ4WGVsOW9VOWIzLTFVTng3MXpMZGVjMEotMFlFbHpDOFFhaVcwV20tekhBeXJxbDhGXzY2UjNmLVZGMDZRZ9IB9AFBVV95cUxQVHQtLUhqVGRpUEU0ejNmQW5zaFZUX1JMVkRwMnk5VlhBa2E5YUJRa2xITVhySDdWczBPckxTWlJBSzZESGZ2LU1DNWdNNmJ3RHllbUpxSXBPOEJseDUxWG5xUEpCRW14bGR5M2k0a2txdXRJZTB0bDJsRS1NejV1QVNKdmJxTFFJR2QwWlJaR2tPTXZjNmJoR2hQN1VQeHJYQ3dqcXEzb1V0dnZkSnc3SGN2NVJZTTRTN2ZaQlJDQTg4VHlJSG42dGo5TVFjdkF3R3lBX2hianZyVWVoMG9uRmJESEZ4ZVJSN2pDY084WmYxM3Nk?oc=5",
@@ -1095,13 +1103,6 @@
    "titulo": "El río Paraná daría una tregua tras superar marcas históricas, pero la alerta continúa",
    "resumen": "Yacyretá prevé un alivio gradual hacia el fin de semana, con Ituzaingó entre 4,10 y 4,30 m y sin lluvias significativas en la cuenca alta hasta el 30/10, aunque mantiene la alerta y advierte por El Niño entre noviembre y enero.",
    "enlace": "https://perfil.com/ciencia-y-tecnologia/crecida-del-rio-parana-yacyreta-preve-alivio-pero-hay-alerta-aYrPv0r29aOF"
-  },
-  {
-   "medio": "Infobae",
-   "fecha": "28/10/2026",
-   "titulo": "El Niño: Chaco tiene más de 2200 afectados por las inundaciones y en Corrientes se reportaron otros 1500",
-   "resumen": "Defensa Civil de Corrientes informa unas 1.500 personas afectadas: 440 evacuadas y 1.056 autoevacuadas. Las zonas más complejas son Isla Apipé, Itatí y Paso de la Patria. El INA prevé niveles altos con tendencia a descender en el corto plazo y lluvias superiores a lo normal desde el 1/11, con posibles nuevos repuntes en 7 a 15 días. Paso de los Libres, en alerta por un repunte del río Uruguay.",
-   "enlace": "https://www.infobae.com/sociedad/2026/10/28/el-nino-chaco-tiene-mas-de-2200-afectados-por-las-inundaciones-y-en-corrientes-se-reportaron-otros-1500/"
   }
  ],
  "puertos_uruguay": [
@@ -1419,7 +1420,7 @@
  "tapon_breve": "Alerta por tormentas para la Capital el martes 24/11: naranja de 9 a 15 h (70 a 100 mm), luego naranja de 11 a 13 h, luego amarilla de 15 a 21 h (30 a 70 mm). Con el río en 5,63 m, una lluvia fuerte puede superar la capacidad de los desagües.",
  "consultado": "24/11/2026, 08:56 h",
  "consulta_resultado": "datos nuevos",
- "prensa_actualizada": "24/11/2026, 10:58 h",
+ "prensa_actualizada": "24/11/2026, 11:32 h",
  "ina_parana_breve": "El INA prevé un posible repunte desde el 26/11.",
  "ina_uruguay_breve": "El INA prevé acercarse a la alerta en Santo Tomé el 26/11."
 }

@@ -1,5 +1,5 @@
 Fuente: https://www.lanacion.com.ar/clima/corrientes/
-Consultado: 24/11/2026, 10:57 h
+Consultado: 24/11/2026, 11:31 h
 
 Clima en Corrientes y pronóstico del tiempo en LA NACION
 CERRAR
@@ -78,7 +78,7 @@ Kiosco LA NACION
 > LA NACION > Clima > Corrientes
 Clima de hoy en Corrientes
 Pronóstico del tiempo extendido para Corrientes
-Actualizado a las 09:03 hs.
+Actualizado a las 11:13 hs.
 Pronóstico del tiempo en Corrientes hoy
 Mañana
 Tormentas fuertes
@@ -93,11 +93,11 @@ Tormentas fuertes
 SE 22Km/h
 70%
 Noche
-Mayormente nublado
+Tormentas aisladas
 24 ºc
 85%
 NE 22Km/h
-10%
+40%
 Pronóstico del tiempo en Corrientes mañana
 Mañana
 Mayormente nublado
@@ -314,8 +314,8 @@ VER MÁS NOTAS DE CORRIENTES
 Más leídas
 1 La decana de Ciencias Sociales que defendió el homenaje a Santucho es militante kirchnerista e hija de un montonero desaparecido
 2 “Se hicieron los vivos”: realizaron maniobras peligrosas en Pinamar, los delató el color de la camioneta y la perdieron
-3 Viajar sin fundir el bolsillo: cuándo comprar pasajes, cómo pagar en el exterior y cómo armar el presupuesto
-4 Misterio en Morón: un ladrón de 16 años murió baleado en un asalto y no se sabe si le disparó un cómplice o un tirador anónimo
+3 Misterio en Morón: un ladrón de 16 años murió baleado en un asalto y no se sabe si le disparó un cómplice o un tirador anónimo
+4 Habló el hijo de Mario Santucho y defendió el homenaje a su padre en la UBA
 Secciones
 Últimas noticias
 Política

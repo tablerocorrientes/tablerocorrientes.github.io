@@ -442,8 +442,8 @@
  "pronostico": {
   "Corrientes Capital": {
    "hoy": {
-    "mm": 23.0,
-    "horas": 18
+    "mm": 23.5,
+    "horas": 16
    },
    "manana": {
     "mm": 0.0,
@@ -478,11 +478,11 @@
   },
   "Goya": {
    "hoy": {
-    "mm": 10.4,
+    "mm": 11.5,
     "horas": 10
    },
    "manana": {
-    "mm": 0.1,
+    "mm": 0.0,
     "horas": 0
    },
    "smn": "Alerta amarilla del SMN por tormenta para Corrientes desde las 12:00 h del 17/11 hasta las 11:59 h del 18/11, sin departamentos detallados. Alerta amarilla del COE de Corrientes (fuente SMN) que incluye a esta ciudad el miércoles 18/11 de 05:00 a 12:00 h, con 30 a 70 mm posibles.",
@@ -501,7 +501,7 @@
   },
   "Esquina": {
    "hoy": {
-    "mm": 10.4,
+    "mm": 10.7,
     "horas": 9
    },
    "manana": {
@@ -524,11 +524,11 @@
   },
   "Bella Vista": {
    "hoy": {
-    "mm": 10.5,
-    "horas": 10
+    "mm": 9.9,
+    "horas": 11
    },
    "manana": {
-    "mm": 0.1,
+    "mm": 0.0,
     "horas": 0
    },
    "smn": "Alerta amarilla del SMN por tormenta para Corrientes desde las 12:00 h del 17/11 hasta las 11:59 h del 18/11, sin departamentos detallados. Alerta amarilla del COE de Corrientes (fuente SMN) que incluye a esta ciudad el miércoles 18/11 de 05:00 a 12:00 h, con 30 a 70 mm posibles.",
@@ -547,11 +547,11 @@
   },
   "Mercedes": {
    "hoy": {
-    "mm": 12.9,
+    "mm": 14.3,
     "horas": 12
    },
    "manana": {
-    "mm": 0.0,
+    "mm": 0.1,
     "horas": 0
    },
    "smn": "Alerta amarilla del SMN por tormenta para Corrientes desde las 12:00 h del 17/11 hasta las 11:59 h del 18/11, sin departamentos detallados. Alerta amarilla del COE de Corrientes (fuente SMN) que incluye a esta ciudad el miércoles 18/11 de 05:00 a 12:00 h, con 30 a 70 mm posibles.",
@@ -570,8 +570,8 @@
   },
   "Curuzú Cuatiá": {
    "hoy": {
-    "mm": 10.2,
-    "horas": 9
+    "mm": 8.1,
+    "horas": 8
    },
    "manana": {
     "mm": 0.0,
@@ -593,7 +593,7 @@
   },
   "Paso de los Libres": {
    "hoy": {
-    "mm": 7.4,
+    "mm": 8.6,
     "horas": 12
    },
    "manana": {
@@ -621,7 +621,7 @@
   },
   "Santo Tomé": {
    "hoy": {
-    "mm": 38.3,
+    "mm": 27.8,
     "horas": 17
    },
    "manana": {
@@ -644,12 +644,12 @@
   },
   "Gobernador Virasoro": {
    "hoy": {
-    "mm": 45.2,
-    "horas": 21
+    "mm": 26.3,
+    "horas": 16
    },
    "manana": {
-    "mm": 4.9,
-    "horas": 6
+    "mm": 0.1,
+    "horas": 0
    },
    "smn": "Alerta amarilla del SMN por tormenta para Corrientes desde las 12:00 h del 17/11 hasta las 11:59 h del 18/11, sin departamentos detallados. Alerta amarilla del COE de Corrientes (fuente SMN) que incluye a esta ciudad el miércoles 18/11 de 05:00 a 12:00 h, con 30 a 70 mm posibles.",
    "modelos": {
@@ -667,12 +667,12 @@
   },
   "Ituzaingó": {
    "hoy": {
-    "mm": 53.0,
-    "horas": 20
+    "mm": 50.5,
+    "horas": 16
    },
    "manana": {
-    "mm": 4.8,
-    "horas": 7
+    "mm": 0.0,
+    "horas": 0
    },
    "smn": "Alerta amarilla del SMN por tormenta para Corrientes desde las 12:00 h del 17/11 hasta las 11:59 h del 18/11, sin departamentos detallados. Alerta amarilla del COE de Corrientes (fuente SMN) que incluye a esta ciudad el miércoles 18/11 de 05:00 a 12:00 h, con 30 a 70 mm posibles.",
    "modelos": {
@@ -695,7 +695,7 @@
   },
   "Monte Caseros": {
    "hoy": {
-    "mm": 2.9,
+    "mm": 3.0,
     "horas": 9
    },
    "manana": {
@@ -723,7 +723,7 @@
   },
   "Saladas": {
    "hoy": {
-    "mm": 12.3,
+    "mm": 12.1,
     "horas": 11
    },
    "manana": {
@@ -1143,7 +1143,7 @@
    }
   ]
  },
- "pron_actualizado": "24/11/2026, 10:25 h",
+ "pron_actualizado": "24/11/2026, 11:34 h",
  "smn": [
   {
    "id_oficial": "COE-2026-0168-CP",
