@@ -11,7 +11,7 @@
   "fecha": "13/11/2026, 18:35 h"
  },
  "met_revision": "aae6c54b1ab7086a927cf2e4bb8e34a53a584e781ba42ff90ab9d653046ddc38",
- "actualizado": "24/11/2026, 08:56 h",
+ "actualizado": "24/11/2026, 11:37 h",
  "localidades": [
   {
    "n": "Corrientes Capital",
@@ -121,7 +121,7 @@
    "altura": 5.92,
    "alerta": 9.5,
    "evac": 11.0,
-   "reg": "23/11/2026, 07:00 h (Comisión Técnica Mixta de Salto Grande)"
+   "reg": "24/11/2026, 07:00 h (Comisión Técnica Mixta de Salto Grande)"
   },
   {
    "n": "Estación Torrent",
@@ -293,10 +293,10 @@
    "dep": "Paso de los Libres",
    "ref": "Paso de los Libres",
    "rio": "Uruguay",
-   "altura": 5.13,
+   "altura": 5.04,
    "alerta": 7.5,
    "evac": 8.5,
-   "reg": "23/11/2026, 07:00 h (Comisión Técnica Mixta de Salto Grande)"
+   "reg": "24/11/2026, 07:00 h (Comisión Técnica Mixta de Salto Grande)"
   },
   {
    "n": "Bonpland",
@@ -413,10 +413,10 @@
    "dep": "Santo Tomé",
    "ref": "Santo Tomé",
    "rio": "Uruguay",
-   "altura": 6.02,
+   "altura": 6.58,
    "alerta": 11.5,
    "evac": 12.5,
-   "reg": "23/11/2026, 07:00 h (Comisión Técnica Mixta de Salto Grande)"
+   "reg": "24/11/2026, 07:00 h (Comisión Técnica Mixta de Salto Grande)"
   },
   {
    "n": "Gobernador Virasoro",
@@ -428,10 +428,10 @@
    "dep": "Santo Tomé",
    "ref": "Santo Tomé",
    "rio": "Uruguay",
-   "altura": 4.9,
+   "altura": 6.7,
    "alerta": 12.0,
    "evac": 14.0,
-   "reg": "23/11/2026, 07:00 h (Comisión Técnica Mixta de Salto Grande)"
+   "reg": "24/11/2026, 07:00 h (Comisión Técnica Mixta de Salto Grande)"
   },
   {
    "n": "Sauce",
@@ -1143,7 +1143,7 @@
    }
   ]
  },
- "pron_actualizado": "24/11/2026, 11:34 h",
+ "pron_actualizado": "24/11/2026, 11:37 h",
  "smn": [
   {
    "id_oficial": "COE-2026-0168-CP",

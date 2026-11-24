@@ -1,5 +1,5 @@
 {
- "actualizado": "24/11/2026, 08:56 h",
+ "actualizado": "24/11/2026, 11:37 h",
  "fecha_registro": "22/11/2026",
  "puertos": [
   {
@@ -85,7 +85,7 @@
   }
  ],
  "nota": "Actualización del 22/11/2026. Paraná, alturas de Prefectura Naval Argentina reproducidas por rioparana.com.ar: Corrientes 5,76 m (−0,05 m, 22/11 a las 00:00 h), 74 cm por debajo de la alerta de 6,50 m; Paso de la Patria 5,80 m e Itatí 5,92 m, bajo su alerta y en bajante; Empedrado 5,25 m, Itá Ibaté 4,58 m e Ituzaingó 2,37 m. Aguas abajo, Bella Vista 5,90 m (alerta 6,00 m), Goya 5,58 m (sobre la alerta de 5,20 m y bajo la evacuación de 5,70 m) y Esquina 5,33 m (sobre la alerta de 5,00 m). El INA (reporte del 20/11) prevé que el río siga bajando muy despacio unos días y luego pueda volver a subir desde el 26/11 por lluvias en la cuenca alta.",
- "ultimo_intento": "24/11/2026, 08:56 h",
+ "ultimo_intento": "24/11/2026, 11:37 h",
  "programada": true,
  "horarios": [
   "09:00",
@@ -1108,30 +1108,30 @@
  "puertos_uruguay": [
   {
    "puerto": "Garruchos",
-   "altura": 4.9,
-   "variacion": -0.03,
+   "altura": 6.7,
+   "variacion": 1.8,
    "alerta": 12.0,
    "evacuacion": 14.0,
-   "fuente": "Comisión Técnica Mixta de Salto Grande, niveles del 23/11/2026 a las 07:00 h",
-   "registro": "23/11/2026, 07:00 h"
+   "fuente": "Comisión Técnica Mixta de Salto Grande, niveles del 24/11/2026 a las 07:00 h",
+   "registro": "24/11/2026, 07:00 h"
   },
   {
    "puerto": "Santo Tomé",
-   "altura": 6.02,
-   "variacion": -0.3,
+   "altura": 6.58,
+   "variacion": 0.56,
    "alerta": 11.5,
    "evacuacion": 12.5,
-   "fuente": "Comisión Técnica Mixta de Salto Grande, niveles del 23/11/2026 a las 07:00 h",
-   "registro": "23/11/2026, 07:00 h"
+   "fuente": "Comisión Técnica Mixta de Salto Grande, niveles del 24/11/2026 a las 07:00 h",
+   "registro": "24/11/2026, 07:00 h"
   },
   {
    "puerto": "Alvear",
    "altura": 5.92,
-   "variacion": -0.08,
+   "variacion": 0.0,
    "alerta": 9.5,
    "evacuacion": 11.0,
-   "fuente": "Comisión Técnica Mixta de Salto Grande, niveles del 23/11/2026 a las 07:00 h",
-   "registro": "23/11/2026, 07:00 h"
+   "fuente": "Comisión Técnica Mixta de Salto Grande, niveles del 24/11/2026 a las 07:00 h",
+   "registro": "24/11/2026, 07:00 h"
   },
   {
    "puerto": "La Cruz",
@@ -1153,12 +1153,12 @@
   },
   {
    "puerto": "Paso de los Libres",
-   "altura": 5.13,
-   "variacion": 0.01,
+   "altura": 5.04,
+   "variacion": -0.09,
    "alerta": 7.5,
    "evacuacion": 8.5,
-   "fuente": "Comisión Técnica Mixta de Salto Grande, niveles del 23/11/2026 a las 07:00 h",
-   "registro": "23/11/2026, 07:00 h"
+   "fuente": "Comisión Técnica Mixta de Salto Grande, niveles del 24/11/2026 a las 07:00 h",
+   "registro": "24/11/2026, 07:00 h"
   },
   {
    "puerto": "Bonpland",
@@ -1416,9 +1416,9 @@
  "alertas_fecha": "14/11/2026, 09:12 h",
  "eby_resumen_anteriores": "Entre el 24/10 y el 3/11 la EBY informó caudales de hasta unos 34.500 m³/s, el doble de lo habitual (octubre fue el mes más caudaloso de la serie 1971-2025), con Ituzaingó por encima de 4 m. El paso Ituzaingó–Ayolas estuvo cerrado desde el 12/10 y reabrió el 7/11. La EBY advirtió que El Niño podría extenderse hasta los primeros meses de 2027.",
  "nota_breve": "Paraná en Corrientes: 5,63 m (24/11, 00:00 h), bajando y 87 cm debajo de la alerta (6,50 m). Goya y Esquina siguen sobre la alerta. El INA prevé un posible repunte desde el 26/11.",
- "uruguay_breve": "Al 23/11, 07:00 h: Santo Tomé 6,02 m (bajó 30 cm) y Paso de los Libres 5,13 m, ambos bajo la alerta (Salto Grande). El INA prevé acercarse a la alerta en Santo Tomé el 26/11.",
- "tapon_breve": "Alerta por tormentas para la Capital el martes 24/11: naranja de 9 a 15 h (70 a 100 mm), luego naranja de 11 a 13 h, luego amarilla de 15 a 21 h (30 a 70 mm). Con el río en 5,63 m, una lluvia fuerte puede superar la capacidad de los desagües.",
- "consultado": "24/11/2026, 08:56 h",
+ "uruguay_breve": "Al 24/11, 07:00 h: Santo Tomé 6,58 m (subió 56 cm) y Paso de los Libres 5,04 m, ambos bajo la alerta (Salto Grande). El INA prevé acercarse a la alerta en Santo Tomé el 26/11.",
+ "tapon_breve": "Alerta por tormentas para la Capital el martes 24/11: naranja de 9 a 15 h (70 a 100 mm), luego amarilla de 15 a 21 h (30 a 70 mm). Con el río en 5,63 m, una lluvia fuerte puede superar la capacidad de los desagües.",
+ "consultado": "24/11/2026, 11:37 h",
  "consulta_resultado": "datos nuevos",
  "prensa_actualizada": "24/11/2026, 11:32 h",
  "ina_parana_breve": "El INA prevé un posible repunte desde el 26/11.",
