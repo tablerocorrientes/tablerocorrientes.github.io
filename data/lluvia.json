@@ -1,5 +1,5 @@
 {
- "actualizado": "24/11/2026, 09:32 h",
+ "actualizado": "24/11/2026, 09:48 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
@@ -128,12 +128,12 @@
     null,
     null,
     null,
-    null,
+    1.25,
     null,
     null
    ],
-   "total": 0,
-   "ultimo": "0 mm a las 04 h"
+   "total": 1.25,
+   "ultimo": "1,25 mm a las 08 h"
   },
   {
    "localidad": "Colonia Carlos Pellegrini",
@@ -162,12 +162,12 @@
     null,
     null,
     null,
-    null,
+    8.25,
     null,
     null
    ],
-   "total": 1.25,
-   "ultimo": "1,25 mm a las 04 h"
+   "total": 9.5,
+   "ultimo": "8,25 mm a las 08 h"
   },
   {
    "localidad": "San Carlos",
@@ -1080,12 +1080,12 @@
     null,
     null,
     null,
-    null,
+    0,
     null,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 04 h"
+   "ultimo": "0 mm a las 08 h"
   },
   {
    "localidad": "Caá Catí",
@@ -1319,11 +1319,11 @@
     0,
     0,
     0,
-    0,
+    0.2,
     null
    ],
-   "total": 8.4,
-   "ultimo": "0 mm a las 09 h"
+   "total": 8.6,
+   "ultimo": "0,2 mm a las 09 h"
   },
   {
    "localidad": "Parque Nacional Iberá",
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "24/11/2026, 09:32 h",
+ "consultado": "24/11/2026, 09:48 h",
  "consulta_resultado": "datos nuevos"
 }

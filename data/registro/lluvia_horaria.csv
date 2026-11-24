@@ -450,6 +450,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-23,19,Colonia Carlos Pellegrini,Carlos Pellegrini,13826,0
 2026-11-23,23,Colonia Carlos Pellegrini,Carlos Pellegrini,13826,0
 2026-11-24,03,Colonia Carlos Pellegrini,Carlos Pellegrini,13826,1.25
+2026-11-24,07,Colonia Carlos Pellegrini,Carlos Pellegrini,13826,8.25
 2026-11-01,23,San Roquito,San Roquito,13832,0
 2026-11-02,03,San Roquito,San Roquito,13832,0
 2026-11-02,07,San Roquito,San Roquito,13832,0
@@ -977,6 +978,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-23,19,Garruchos,Garruchos,13857,0
 2026-11-23,23,Garruchos,Garruchos,13857,0
 2026-11-24,03,Garruchos,Garruchos,13857,0
+2026-11-24,07,Garruchos,Garruchos,13857,1.25
 2026-11-01,23,San Carlos,San Carlos,13864,0
 2026-11-02,00,San Carlos,San Carlos,13864,0
 2026-11-02,01,San Carlos,San Carlos,13864,0
@@ -3043,7 +3045,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-24,05,Curuzú Cuatiá,RMA08_CC - Curuzú Cuatiá,220263,0
 2026-11-24,06,Curuzú Cuatiá,RMA08_CC - Curuzú Cuatiá,220263,0
 2026-11-24,07,Curuzú Cuatiá,RMA08_CC - Curuzú Cuatiá,220263,0
-2026-11-24,08,Curuzú Cuatiá,RMA08_CC - Curuzú Cuatiá,220263,0
+2026-11-24,08,Curuzú Cuatiá,RMA08_CC - Curuzú Cuatiá,220263,0.2
 2026-11-01,23,La Palmira,Estación La Palmira - Escuela N° 70,283902,0
 2026-11-02,00,La Palmira,Estación La Palmira - Escuela N° 70,283902,0
 2026-11-02,01,La Palmira,Estación La Palmira - Escuela N° 70,283902,0
@@ -3721,6 +3723,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-23,19,Portal Galarza,Portal Galarza,283904,0
 2026-11-23,23,Portal Galarza,Portal Galarza,283904,0
 2026-11-24,03,Portal Galarza,Portal Galarza,283904,0
+2026-11-24,07,Portal Galarza,Portal Galarza,283904,0
 2026-11-01,23,Itá Ibaté,Puerto Ita Ibate,283905,0
 2026-11-02,00,Itá Ibaté,Puerto Ita Ibate,283905,0
 2026-11-02,01,Itá Ibaté,Puerto Ita Ibate,283905,0
