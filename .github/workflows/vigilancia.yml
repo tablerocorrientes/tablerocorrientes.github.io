@@ -36,6 +36,7 @@ jobs:
             AHORA=$(date +%s); N=$((N+1))
             if python3 tareas/vigilancia_condicion.py >/dev/null; then MODO=intensivo; P_LL=840; P_FU=1740; P_PR=3540; else MODO=normal; P_LL=1740; P_FU=7140; P_PR=7140; fi
             HACER_LL=$(( AHORA - U_LL >= P_LL )); HACER_FU=$(( AHORA - U_FU >= P_FU )); HACER_PR=$(( AHORA - U_PR >= P_PR )); HACER_RI=$(( AHORA - U_RI >= 10740 ))
+            DIA=$(TZ=America/Argentina/Buenos_Aires date +%F); if [ "$DIA" != "${U_DIA:-}" ]; then HACER_PR=1; HACER_LL=1; fi; U_DIA=$DIA
             for i in 1 2 3; do
               git fetch -q --depth 1 origin main && git reset -q --hard origin/main
               if [ $HACER_LL = 1 ]; then python3 tareas/snih_lluvia.py || true; python3 tareas/smn_cap.py || true; fi
