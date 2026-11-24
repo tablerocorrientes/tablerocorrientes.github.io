@@ -442,7 +442,7 @@
  "pronostico": {
   "Corrientes Capital": {
    "hoy": {
-    "mm": 22.1,
+    "mm": 21.8,
     "horas": 16
    },
    "manana": {
@@ -478,12 +478,12 @@
   },
   "Goya": {
    "hoy": {
-    "mm": 11.5,
+    "mm": 10.2,
     "horas": 11
    },
    "manana": {
-    "mm": 0.4,
-    "horas": 2
+    "mm": 0.1,
+    "horas": 0
    },
    "smn": "Alerta amarilla del SMN por tormenta para Corrientes desde las 12:00 h del 17/11 hasta las 11:59 h del 18/11, sin departamentos detallados. Alerta amarilla del COE de Corrientes (fuente SMN) que incluye a esta ciudad el miércoles 18/11 de 05:00 a 12:00 h, con 30 a 70 mm posibles.",
    "modelos": {
@@ -501,8 +501,8 @@
   },
   "Esquina": {
    "hoy": {
-    "mm": 7.8,
-    "horas": 10
+    "mm": 10.5,
+    "horas": 9
    },
    "manana": {
     "mm": 0.0,
@@ -524,7 +524,7 @@
   },
   "Bella Vista": {
    "hoy": {
-    "mm": 9.1,
+    "mm": 10.2,
     "horas": 11
    },
    "manana": {
@@ -547,8 +547,8 @@
   },
   "Mercedes": {
    "hoy": {
-    "mm": 9.0,
-    "horas": 10
+    "mm": 12.8,
+    "horas": 11
    },
    "manana": {
     "mm": 0.0,
@@ -570,7 +570,7 @@
   },
   "Curuzú Cuatiá": {
    "hoy": {
-    "mm": 7.0,
+    "mm": 10.2,
     "horas": 9
    },
    "manana": {
@@ -593,8 +593,8 @@
   },
   "Paso de los Libres": {
    "hoy": {
-    "mm": 6.3,
-    "horas": 6
+    "mm": 6.9,
+    "horas": 8
    },
    "manana": {
     "mm": 0.0,
@@ -621,7 +621,7 @@
   },
   "Santo Tomé": {
    "hoy": {
-    "mm": 37.2,
+    "mm": 40.4,
     "horas": 16
    },
    "manana": {
@@ -644,7 +644,7 @@
   },
   "Gobernador Virasoro": {
    "hoy": {
-    "mm": 50.4,
+    "mm": 56.9,
     "horas": 21
    },
    "manana": {
@@ -667,7 +667,7 @@
   },
   "Ituzaingó": {
    "hoy": {
-    "mm": 57.6,
+    "mm": 60.5,
     "horas": 20
    },
    "manana": {
@@ -695,8 +695,8 @@
   },
   "Monte Caseros": {
    "hoy": {
-    "mm": 2.0,
-    "horas": 6
+    "mm": 2.9,
+    "horas": 9
    },
    "manana": {
     "mm": 0.0,
@@ -723,7 +723,7 @@
   },
   "Saladas": {
    "hoy": {
-    "mm": 11.2,
+    "mm": 11.8,
     "horas": 11
    },
    "manana": {
@@ -1143,7 +1143,7 @@
    }
   ]
  },
- "pron_actualizado": "24/11/2026, 05:49 h",
+ "pron_actualizado": "24/11/2026, 06:56 h",
  "smn": [
   {
    "id_oficial": "SMN-tormentas-amarillo-2026-11-24-03-bell-a",

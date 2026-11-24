@@ -653,6 +653,14 @@
  "prensa": [
   {
    "fecha": "24/11/2026",
+   "medio": "LT7Noticias",
+   "titulo": "Martes con doble alerta por tormentas y ráfagas fuertes: el tiempo este 24 de noviembre en Corrientes",
+   "enlace": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPMmk4TjlhQmNfUVdhWG1lQjZWX1FhME1tSjIwaXVENHdBbnF1bVhyNGk1TVFZUjBYcHNBRmFmSmRxRjl3cmVvMU82bnB1YVQtcU1Kdl9NcExDVzdIYmgyWHJyY1REUThFcFFXNXdlajdKb0c2Q0RkRzRUU0ptUXR1YTUtQmVxR2hOMGlabm4zekhHZ1h5eTh5NHdDX0xMTHRNWWJBZjVaOVBOUzJETGZFbmEzcEphSlNYUEZUbUxwVTNCMjZvRXFHTjBpU0s5dUU?oc=5",
+   "breve": "Martes con doble alerta por tormentas y ráfagas fuertes: el tiempo este 24 de noviembre en Corrientes",
+   "auto": true
+  },
+  {
+   "fecha": "24/11/2026",
    "medio": "Clarin.com",
    "titulo": "Fenómeno El Niño: 4 mil personas siguen sin poder volver a sus casas en Corrientes y Chaco y qué esperan para las próximas semanas",
    "enlace": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPd0k0c0ZRUjdlVzBGXzhJQkotOE1NdUlxc09qdl81eUJicWdhSHNyR05vS21FZDBsVm10ZUJJUFJNdldHLXEwSVhEVVpFeVFFSEtSYjVFQzZGNVhYWmNMR0FOVzZ3Ylc0VWJuQkd2NEtRTFBrNFZvYVBFRDNEempJZDV3d3V6RkZnQ2J1dXB3aVdxRU50VGhOTmp2WGt6c2ZxZzFFMjJOM3JUa21CVWhFYno1YjJtT0N1SGZZbHVjSWpoQ1hacHF2MnR1LXF6WjJlTHB2RXdqb2oxNVVKazRj?oc=5",
@@ -1090,13 +1098,6 @@
    "titulo": "El río Paraná podría subir a la costanera en noviembre",
    "resumen": "Con el Paraná en 7,35 m en el puerto de la Capital, el INA (informe del 23/10) proyecta entre 7,50 y 7,80 m en una semana, y una nueva onda de crecida para el 3/11 que podría superar por algunos centímetros el último pico. El especialista Juan José Neiff, de la UNNE, no descartó que el agua llegue a la avenida Costanera. Si hubiera lluvias torrenciales en las cuencas, el escenario podría agravarse.",
    "enlace": "https://examedia.com.ar/portada/post/88125987"
-  },
-  {
-   "medio": "Prensa Mercosur",
-   "fecha": "26/10/2026",
-   "titulo": "Crecida del Paraná: ya son más de 1.400 desplazados en la provincia",
-   "resumen": "Se mantienen 1.452 personas fuera de sus hogares (767 evacuados y 685 autoevacuados). En la Capital, 64 personas en la Escuela N.º 293 del barrio Pujol y unos 588 autoevacuados, con los sectores más bajos anegados. En Paso de la Patria, 24 evacuados y 86 autoevacuados, con el río en 7,71 m; la presión sobre el arroyo Guajó amenaza los barrios Señorans, Rincón y El Lirio y el polideportivo municipal funciona como refugio preventivo. Itatí, 475 evacuados, con un nuevo refugio en preparación; Isla Apipé, 114 evacuados.",
-   "enlace": "https://prensamercosur.org/2026/10/26/crecida-del-parana-ya-son-mas-de-1-400-desplazados-en-la-provincia/"
   }
  ],
  "puertos_uruguay": [
@@ -1414,7 +1415,7 @@
  "tapon_breve": "Alerta por tormentas para la Capital el martes 24/11: naranja de 9 a 15 h (70 a 100 mm), luego amarilla de 15 a 21 h (30 a 70 mm). Con el río en 5,63 m, una lluvia fuerte puede superar la capacidad de los desagües.",
  "consultado": "24/11/2026, 05:49 h",
  "consulta_resultado": "sin cambios",
- "prensa_actualizada": "24/11/2026, 06:22 h",
+ "prensa_actualizada": "24/11/2026, 06:56 h",
  "ina_parana_breve": "El INA prevé un posible repunte desde el 26/11.",
  "ina_uruguay_breve": "El INA prevé acercarse a la alerta en Santo Tomé el 26/11."
 }
