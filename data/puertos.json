@@ -653,6 +653,14 @@
  "prensa": [
   {
    "fecha": "24/11/2026",
+   "medio": "El Litoral | Novedades de Corrientes",
+   "titulo": "Lluvias en Corrientes: cayeron más de 72 milímetros y desplegaron cuadrillas municipales",
+   "enlace": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQcG1DdFhKS1A4RjBCLVFpNWI5amxZbzJlNlBoaExCV2hLeDVMOURJNHp1dWdzSzlkVk1GWVNWWWpuSG5YZWRZbU9lb1QxejNibDAwUXRzRWg0S3VqMk1rWk93TDdSMFk3SW1wX1Q0eVdsRld2Q2p4TnJ3WTJsVHhydDVBUmE3WGVubDdSUUY3eE5jZmtpLTRnLTl5U0pYN0RacV9KZmE1cFRBS2NRVlhRVF8xR2MzdWxhczhBeFp6MUxJazdNMzE1MmdQUGZFMWpXVC1Ra05qc2hXUQ?oc=5",
+   "breve": "Lluvias en Corrientes: cayeron más de 72 milímetros y desplegaron cuadrillas municipales",
+   "auto": true
+  },
+  {
+   "fecha": "24/11/2026",
    "medio": "LT7Noticias",
    "titulo": "Tormenta en Corrientes: durante la mañana llovieron 80 mm sobre la ciudad",
    "enlace": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNLUxZSFROX3ZzcWVEM2RDY3JMV0xJU0VjUC03V0FFcnhTUkxLUU1VeEFpcWNicXRhZ3hSWGZmYUtyTkpKQzU1MXhBMk42REVmVEpJX21Zb3FxSFFkR240MnJvRUFVSU00Ml9jVmZIekNtTXkzWXB0aUxyUHp0TnNSX21HSEFkcHozNVo3TEdVam5nMm5oTF9ScFpmWk00WGNCZkdBbl9USU10QQ?oc=5",
@@ -1096,13 +1104,6 @@
    "titulo": "Tregua del río Paraná",
    "resumen": "Según el informe de Yacyretá, el caudal que ingresa al embalse se desacelera; se proyecta que Ituzaingó baje a entre 4,10 y 4,30 m y no se esperan lluvias significativas en la cuenca alta hasta el 30/10. La franja costera sigue anegada y bajo parámetros de emergencia.",
    "enlace": "https://accion.coop/2026/10/29/las-ultimas/tregua-del-rio-parana/"
-  },
-  {
-   "medio": "Perfil",
-   "fecha": "28/10/2026",
-   "titulo": "El río Paraná daría una tregua tras superar marcas históricas, pero la alerta continúa",
-   "resumen": "Yacyretá prevé un alivio gradual hacia el fin de semana, con Ituzaingó entre 4,10 y 4,30 m y sin lluvias significativas en la cuenca alta hasta el 30/10, aunque mantiene la alerta y advierte por El Niño entre noviembre y enero.",
-   "enlace": "https://perfil.com/ciencia-y-tecnologia/crecida-del-rio-parana-yacyreta-preve-alivio-pero-hay-alerta-aYrPv0r29aOF"
   }
  ],
  "puertos_uruguay": [
@@ -1420,7 +1421,7 @@
  "tapon_breve": "Alerta por tormentas para la Capital el martes 24/11: naranja de 9 a 15 h (70 a 100 mm), luego amarilla de 15 a 21 h (30 a 70 mm). Con el río en 5,63 m, una lluvia fuerte puede superar la capacidad de los desagües.",
  "consultado": "24/11/2026, 11:37 h",
  "consulta_resultado": "datos nuevos",
- "prensa_actualizada": "24/11/2026, 11:32 h",
+ "prensa_actualizada": "24/11/2026, 12:15 h",
  "ina_parana_breve": "El INA prevé un posible repunte desde el 26/11.",
  "ina_uruguay_breve": "El INA prevé acercarse a la alerta en Santo Tomé el 26/11."
 }
