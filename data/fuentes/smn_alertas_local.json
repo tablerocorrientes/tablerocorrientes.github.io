@@ -1,6 +1,6 @@
 {
- "consultado": "24/11/2026, 04:03 h",
- "consultado_iso": "2026-11-24T04:03:30-03:00",
+ "consultado": "24/11/2026, 04:36 h",
+ "consultado_iso": "2026-11-24T04:36:28-03:00",
  "fuente": "Servicio Meteorológico Nacional, canal oficial de alertas y avisos (CAP)",
  "resultado": "con alertas",
  "alertas": [
@@ -51,27 +51,6 @@
     70
    ],
    "texto": "Tormentas. El área será afectada por tormentas aisladas, algunas fuertes o localmente severas. Las mismas podrán estar acompañadas por abundantes precipitaciones en cortos períodos, frecuente actividad eléctrica, ocasional caída de granizo y ráfagas intensas. Se esperan valores de precipitación acumulada entre 30 y 70 mm, que pueden ser superados en forma puntual."
-  },
-  {
-   "tipo": "aviso a muy corto plazo",
-   "nivel": "naranja",
-   "fenomeno": "tormentas fuertes",
-   "zonas": "Curuzú Cuatiá - Mercedes - Monte Caseros - Paso de los Libres - Sauce",
-   "departamentos": [
-    "Curuzú Cuatiá",
-    "Mercedes",
-    "Monte Caseros",
-    "Paso de los Libres",
-    "Sauce"
-   ],
-   "incluye_capital": false,
-   "desde": "24/11/2026, 04:17 h",
-   "hasta": "24/11/2026, 07:17 h",
-   "desde_iso": "2026-11-24T04:17:00-03:00",
-   "hasta_iso": "2026-11-24T07:17:00-03:00",
-   "emision": "24/11/2026, 04:17 h",
-   "rango_mm": null,
-   "texto": "AVISO NARANJA POR TORMENTAS FUERTES CON LLUVIAS INTENSAS, RAFAGAS Y OCASIONAL CAIDA DE GRANIZO. TORMENTAS FUERTES CON LLUVIAS INTENSAS, RAFAGAS Y OCASIONAL CAIDA DE GRANIZO"
   },
   {
    "tipo": "aviso a muy corto plazo",
