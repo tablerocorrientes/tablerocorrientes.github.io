@@ -653,6 +653,14 @@
  "prensa": [
   {
    "fecha": "24/11/2026",
+   "medio": "Argentar Noticias",
+   "titulo": "Baja el río Paraná, pero unas 4.000 personas siguen evacuadas en Corrientes y Chaco",
+   "enlace": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPS0ZNU0JEY3BIUThXRWhNMVIxUGtrd3FzUzdrSkYzYVBuS2pqX2pNYUNNRWU2RkwyVGxJMWdRTkt1SUNBdlJVZU1IUDZ1TFNwVm9jYWV5ZnNDekgwZHhtZHE3YXdrUVlENkJ5bUF0QXQzcDFxNG5iTGNvWnhna1pkcVl5NmVhSTV4MkZ6WVJfWThFMThpdF9JZkpMLUxYUmYyZmJDZFZoLXBMbUZHeGNWdE5OWEgtZw?oc=5",
+   "breve": "Baja el río Paraná, pero unas 4.000 personas siguen evacuadas en Corrientes y Chaco",
+   "auto": true
+  },
+  {
+   "fecha": "24/11/2026",
    "medio": "https://www.noticiero9.com.ar/",
    "titulo": "Corrientes presentó su plan contra el dengue ante las lluvias y las inundaciones",
    "enlace": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQalRpdkw0UmdyZkhSM2MyUmVsbDh3VjZ6bHpjVG5VV2pjWVRsQVBsVWtRU3hvUW9GSVE0dDdobXptRmVfTnBFZlA5cFczd0RWWlVZZk9JWVhRa1ZOc1A2aEY3WU1oajlIX1ZzbExqMEJqckV0LU9idkRNZzJlYnJIYlFrUDNBWThWV1BvZ3RiN2NDTnJlVGo1SndvWUtjN0xjbVktOWRTSU0tQnJ6OTg3YkYxZkpYbFk?oc=5",
@@ -1102,13 +1110,6 @@
    "titulo": "Clima en Corrientes: pronóstico de la semana",
    "resumen": "Lunes 2/11 con tormentas fuertes por la mañana y la tarde; martes 3/11 con tormentas aisladas y fuertes por la noche; miércoles 4/11 con tormentas fuertes; desde el jueves 5/11 mejora, sin lluvia hasta el domingo 8/11.",
    "enlace": "https://www.lanacion.com.ar/clima/corrientes/"
-  },
-  {
-   "medio": "El Litoral Corrientes (Examedia)",
-   "fecha": "31/10/2026",
-   "titulo": "Tras semanas críticas, el Paraná da un alivio: a qué altura podría llegar en Corrientes",
-   "resumen": "Más de 1.600 evacuados y autoevacuados en la provincia. Proyección del INA al 10/11: Corrientes entre 5,10 y 6,00 m. Advierten por nuevas subas posibles por lluvias en la cuenca del Paraguay. No se informan barrios o zonas anegadas nuevas.",
-   "enlace": "https://examedia.com.ar/portada/post/88156949"
   }
  ],
  "puertos_uruguay": [
@@ -1426,7 +1427,7 @@
  "tapon_breve": "Alerta por tormentas para la Capital el martes 24/11: amarilla de 20 a 21 h (30 a 70 mm). Con el río en 5,67 m, una lluvia fuerte puede superar la capacidad de los desagües.",
  "consultado": "24/11/2026, 19:02 h",
  "consulta_resultado": "sin cambios",
- "prensa_actualizada": "24/11/2026, 19:33 h",
+ "prensa_actualizada": "24/11/2026, 20:06 h",
  "ina_parana_breve": "El INA prevé un posible repunte desde el 26/11.",
  "ina_uruguay_breve": "El INA prevé acercarse a la alerta en Santo Tomé el 26/11."
 }

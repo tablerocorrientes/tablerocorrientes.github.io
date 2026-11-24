@@ -1,7 +1,7 @@
 Fuente: https://coe.corrientes.gob.ar/
-Consultado: 24/11/2026, 19:32 h
+Consultado: 24/11/2026, 20:05 h
 
-2 alertas vigentes — COE Corrientes
+1 alerta vigente — COE Corrientes
 Alertas del COE - Comando Operativo de Emergencias
 Instituto de
 Modernización e Innovación
@@ -14,13 +14,7 @@ Alertas hidrometeorológicas
 Avisos emitidos por el Comando Operativo de Emergencias de Corrientes por
 crecidas, tormentas, lluvias y vientos.
 Tocá una alerta para ver la pieza completa con el mapa del área alcanzada.
-Vigentes ahora 2
-Alerta Amarilla
-En curso
-Tormentas
-Bella Vista, Concepción, Curuzú Cuatiá, Esquina, General Alvear, Goya, Lavalle, Mercedes, Monte Caseros, Paso de los Libres, San Martín, San Roque, Santo Tomé, Sauce
-Empezó martes 24/11 · 00:00 h
-Termina martes 24/11 · 20:00 h
+Vigentes ahora 1
 Alerta Amarilla
 En curso
 Tormentas
@@ -32,7 +26,7 @@ Recibí las alertas en tu teléfono
 Unirme por WhatsApp
 Escaneá el código o tocá el botón. Es un canal de sólo lectura
 para recibir y consultar los avisos del COE.
-Anteriores 130
+Anteriores 131
 Roja
 Lluvias intensas · Tormentas
 Capital, San Cosme
@@ -78,13 +72,13 @@ Tormentas
 Curuzú Cuatiá, Mercedes, Monte Caseros, Paso de los Libres, Sauce
 24/11/2026
 01:17 a 04:17
-Naranja
+Amarilla
 Tormentas
-Berón de Astrada, Capital, Empedrado, General Paz, Itatí, Ituzaingó, Mburucuyá, Saladas, San Cosme, San Luis del Palmar, San Miguel
+Bella Vista, Concepción, Curuzú Cuatiá, Esquina, General Alvear, Goya, Lavalle, Mercedes, Monte Caseros, Paso de los Libres, San Martín, San Roque, Santo Tomé, Sauce
 23/11/2026
-06:00 a 13:00
+00:00 a 20:00
 ← Más recientes
-Página 1 de 13
+Página 1 de 14
 Más antiguas →
 Canal oficial
 Recibí las alertas en tu teléfono
