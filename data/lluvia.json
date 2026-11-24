@@ -1,5 +1,5 @@
 {
- "actualizado": "24/11/2026, 08:01 h",
+ "actualizado": "24/11/2026, 08:19 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
@@ -95,11 +95,11 @@
     0,
     0.5,
     3.5,
-    null,
+    9,
     null
    ],
-   "total": 33.25,
-   "ultimo": "3,5 mm a las 07 h"
+   "total": 42.25,
+   "ultimo": "9 mm a las 08 h"
   },
   {
    "localidad": "Garruchos",
@@ -197,11 +197,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 07 h"
+   "ultimo": "0 mm a las 08 h"
   },
   {
    "localidad": "Santa Lucía",
@@ -231,11 +231,11 @@
     0,
     0,
     0.25,
-    null,
+    0,
     null
    ],
    "total": 0.25,
-   "ultimo": "0,25 mm a las 07 h"
+   "ultimo": "0 mm a las 08 h"
   },
   {
    "localidad": "La Palmira",
@@ -673,11 +673,11 @@
     0,
     0.2,
     0.4,
-    null,
+    0,
     null
    ],
    "total": 1.2,
-   "ultimo": "0,4 mm a las 07 h"
+   "ultimo": "0 mm a las 08 h"
   },
   {
    "localidad": "Gobernador Virasoro",
@@ -707,11 +707,11 @@
     null,
     null,
     null,
-    null,
+    10.75,
     null
    ],
-   "total": 0,
-   "ultimo": "0 mm a las 04 h"
+   "total": 10.75,
+   "ultimo": "10,75 mm a las 08 h"
   },
   {
    "localidad": "Los Laureles",
@@ -775,11 +775,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 07 h"
+   "ultimo": "0 mm a las 08 h"
   },
   {
    "localidad": "Mercedes",
@@ -873,7 +873,7 @@
     null,
     null,
     null,
-    null,
+    0,
     null,
     null,
     null,
@@ -881,7 +881,7 @@
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 00 h"
+   "ultimo": "0 mm a las 04 h"
   },
   {
    "localidad": "Paso de los Libres",
@@ -1115,11 +1115,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 07 h"
+   "ultimo": "0 mm a las 08 h"
   },
   {
    "localidad": "Pueblo Libertador",
@@ -1149,11 +1149,11 @@
     1.25,
     0,
     0.5,
-    null,
+    0.25,
     null
    ],
-   "total": 6.25,
-   "ultimo": "0,5 mm a las 07 h"
+   "total": 6.5,
+   "ultimo": "0,25 mm a las 08 h"
   },
   {
    "localidad": "Itá Ibaté",
@@ -1183,11 +1183,11 @@
     5,
     20.2,
     4,
-    null,
+    0.4,
     null
    ],
-   "total": 29.2,
-   "ultimo": "4 mm a las 07 h"
+   "total": 29.6,
+   "ultimo": "0,4 mm a las 08 h"
   },
   {
    "localidad": "Mburucuyá",
@@ -1217,11 +1217,11 @@
     0,
     0.4,
     1.0,
-    null,
+    0,
     null
    ],
    "total": 10.2,
-   "ultimo": "1 mm a las 07 h"
+   "ultimo": "0 mm a las 08 h"
   },
   {
    "localidad": "Bonpland",
@@ -1251,11 +1251,11 @@
     0.4,
     0.2,
     0,
-    null,
+    0,
     null
    ],
    "total": 2.0,
-   "ultimo": "0 mm a las 07 h"
+   "ultimo": "0 mm a las 08 h"
   },
   {
    "localidad": "Bella Vista",
@@ -1285,11 +1285,11 @@
     0.4,
     3.4,
     5.6,
-    null,
+    0,
     null
    ],
    "total": 9.4,
-   "ultimo": "5,6 mm a las 07 h"
+   "ultimo": "0 mm a las 08 h"
   },
   {
    "localidad": "Curuzú Cuatiá",
@@ -1319,11 +1319,11 @@
     0.4,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 8.4,
-   "ultimo": "0 mm a las 07 h"
+   "ultimo": "0 mm a las 08 h"
   },
   {
    "localidad": "Parque Nacional Iberá",
@@ -1353,11 +1353,11 @@
     16.6,
     0,
     0,
-    null,
+    0.2,
     null
    ],
-   "total": 23.2,
-   "ultimo": "0 mm a las 07 h"
+   "total": 23.4,
+   "ultimo": "0,2 mm a las 08 h"
   },
   {
    "localidad": "San Isidro",
@@ -1455,11 +1455,11 @@
     null,
     null,
     null,
-    null,
+    0,
     null
    ],
    "total": 0.25,
-   "ultimo": "0 mm a las 04 h"
+   "ultimo": "0 mm a las 08 h"
   },
   {
    "localidad": "Santa Rosa",
@@ -1557,11 +1557,11 @@
     0.2,
     0.2,
     1.2,
-    null,
+    3.2,
     null
    ],
-   "total": 2.4,
-   "ultimo": "1,2 mm a las 07 h"
+   "total": 5.6,
+   "ultimo": "3,2 mm a las 08 h"
   },
   {
    "localidad": "El Sombrerito",
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "24/11/2026, 08:01 h",
+ "consultado": "24/11/2026, 08:19 h",
  "consulta_resultado": "datos nuevos"
 }
