@@ -1,5 +1,5 @@
 {
- "actualizado": "24/11/2026, 18:14 h",
+ "actualizado": "24/11/2026, 18:25 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
@@ -1353,11 +1353,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 25.4,
-   "ultimo": "0 mm a las 17 h"
+   "ultimo": "0 mm a las 18 h"
   },
   {
    "localidad": "San Isidro",
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "24/11/2026, 18:14 h",
+ "consultado": "24/11/2026, 18:25 h",
  "consulta_resultado": "datos nuevos"
 }
