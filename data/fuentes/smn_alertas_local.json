@@ -1,6 +1,6 @@
 {
- "consultado": "24/11/2026, 02:51 h",
- "consultado_iso": "2026-11-24T02:51:28-03:00",
+ "consultado": "24/11/2026, 03:28 h",
+ "consultado_iso": "2026-11-24T03:28:57-03:00",
  "fuente": "Servicio Meteorológico Nacional, canal oficial de alertas y avisos (CAP)",
  "resultado": "con alertas",
  "alertas": [
@@ -70,6 +70,31 @@
    "desde_iso": "2026-11-24T04:17:00-03:00",
    "hasta_iso": "2026-11-24T07:17:00-03:00",
    "emision": "24/11/2026, 04:17 h",
+   "rango_mm": null,
+   "texto": "AVISO NARANJA POR TORMENTAS FUERTES CON LLUVIAS INTENSAS, RAFAGAS Y OCASIONAL CAIDA DE GRANIZO. TORMENTAS FUERTES CON LLUVIAS INTENSAS, RAFAGAS Y OCASIONAL CAIDA DE GRANIZO"
+  },
+  {
+   "tipo": "aviso a muy corto plazo",
+   "nivel": "naranja",
+   "fenomeno": "tormentas fuertes",
+   "zonas": "Berón de Astrada - Concepción - Empedrado - General Paz - Itatí - Mburucuyá - San Cosme - San Luis del Palmar - San Miguel",
+   "departamentos": [
+    "Berón de Astrada",
+    "Concepción",
+    "Empedrado",
+    "General Paz",
+    "Itatí",
+    "Mburucuyá",
+    "San Cosme",
+    "San Luis del Palmar",
+    "San Miguel"
+   ],
+   "incluye_capital": false,
+   "desde": "24/11/2026, 06:05 h",
+   "hasta": "24/11/2026, 08:05 h",
+   "desde_iso": "2026-11-24T06:05:00-03:00",
+   "hasta_iso": "2026-11-24T08:05:00-03:00",
+   "emision": "24/11/2026, 06:05 h",
    "rango_mm": null,
    "texto": "AVISO NARANJA POR TORMENTAS FUERTES CON LLUVIAS INTENSAS, RAFAGAS Y OCASIONAL CAIDA DE GRANIZO. TORMENTAS FUERTES CON LLUVIAS INTENSAS, RAFAGAS Y OCASIONAL CAIDA DE GRANIZO"
   },
