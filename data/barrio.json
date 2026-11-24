@@ -793,15 +793,15 @@
    "nivel": "naranja",
    "incluye_capital": true,
    "zonas": "Berón de Astrada, Capital, Empedrado, General Paz, Itatí, Ituzaingó, Mburucuyá, Saladas, San Cosme, San Luis del Palmar, San Miguel",
-   "desde": "24/11/2026, 06:00 h",
-   "hasta": "24/11/2026, 13:00 h",
-   "desde_iso": "2026-11-24T06:00:00-03:00",
-   "hasta_iso": "2026-11-24T13:00:00-03:00",
-   "emision": "23/11/2026, 18:11 h (consulta)",
+   "desde": "24/11/2026, 09:00 h",
+   "hasta": "24/11/2026, 14:59 h",
+   "desde_iso": "2026-11-24T09:00:00-03:00",
+   "hasta_iso": "2026-11-24T14:59:59-03:00",
+   "emision": "23/11/2026, 20:44 h",
    "emision_iso": null,
    "min": 70,
    "max": 100,
-   "texto": "Alerta naranja por tormentas para la Capital el martes 24/11 de 06:00 a 13:00 h, con 70 a 100 mm posibles, que pueden ser superados en forma puntual (COE de Corrientes con fuente SMN, leída a las 18:11 h). Además rige una alerta amarilla de 06:00 a 23:00 h, con 30 a 70 mm."
+   "texto": "Alerta naranja por tormentas para la Capital el martes 24/11 de 09:00 a 14:59 h, con 70 a 100 mm posibles, que pueden ser superados en forma puntual (SMN, emisión del 23/11 a las 20:44 h). Luego rige una alerta amarilla de 15:00 a 20:59 h, con 30 a 70 mm."
   }
  },
  "rio": {
