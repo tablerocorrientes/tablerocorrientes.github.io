@@ -653,6 +653,14 @@
  "prensa": [
   {
    "fecha": "24/11/2026",
+   "medio": "DataClave",
+   "titulo": "Inundaciones en Corrientes y Chaco: casi 4.000 personas evacuadas y alerta por nueva crecida del Paraná",
+   "enlace": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNNFdnUlBzM0hDLUdLMVZvQnIwdEFsT3lDVUR4akJHTUZOb2xWazBZWFFOM0FMakR5RkdXOGdCeFJySjZTd2xBSncwYnNhd1dVandYV3FUNVBYZlU4Yl95Nmt0U2p1aHlYQXhrSURCSFVsVWQyYkU3NkJ6LUFlNHFkMVRydm5STzdUV01SMDFXaVhNRFNRNXVNNmxoYXlObWxtTGJEdkRDQW5yMzZ6WTA0S01SajVac3lEbkdjN0o5V29PMmpuTzNiM3p5VTQtY2pIUnhTSDJrV3h1VzJHcmdMaTlDLWRMcVl6WEx4N1RYSEU5U3duRDJBSVF5dVBXQdIBjAJBVV95cUxQTnhBcDhQdFpaZjZiaXJQVExyWHIzTUVFYXA4SExNUmJGZUR2azZnb05UUTZqTTRQMGZMSWo5d0hmdktycWluMjBXaFZzTUExY1NSNWxVcnpSSGIzM1VVdkp5Q2lac293QjctWUl6MW9WMS1kUVJHTnNXZWc4eDVTQTk5YkNxVGVfUUN3Y0dQQzBXRTRDMVJRN19sQUUtZ3RhdE9VMDlxdDhwSEUyQnlEOERaeHBTM3Y5Q25UQlAyQlh1LUJNbUQ2Z29ZZXRiT0xrUXVxNTc3b25VaF96UGVpbGFfWGVSV0V6bXRnTzdnbGM3Z3FUTFpxOXktRjlJVmRyV196aVhOSUxPSHBy?oc=5",
+   "breve": "Inundaciones en Corrientes y Chaco: casi 4.000 personas evacuadas y alerta por nueva crecida del Paraná",
+   "auto": true
+  },
+  {
+   "fecha": "24/11/2026",
    "medio": "Argentar Noticias",
    "titulo": "Baja el río Paraná, pero unas 4.000 personas siguen evacuadas en Corrientes y Chaco",
    "enlace": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPS0ZNU0JEY3BIUThXRWhNMVIxUGtrd3FzUzdrSkYzYVBuS2pqX2pNYUNNRWU2RkwyVGxJMWdRTkt1SUNBdlJVZU1IUDZ1TFNwVm9jYWV5ZnNDekgwZHhtZHE3YXdrUVlENkJ5bUF0QXQzcDFxNG5iTGNvWnhna1pkcVl5NmVhSTV4MkZ6WVJfWThFMThpdF9JZkpMLUxYUmYyZmJDZFZoLXBMbUZHeGNWdE5OWEgtZw?oc=5",
@@ -1103,13 +1111,6 @@
    "titulo": "Hay alerta amarilla por tormentas para este lunes 2 de noviembre: las provincias afectadas",
    "resumen": "El SMN incluye al norte de Corrientes en el aviso amarillo por tormentas, con 20 a 50 mm, granizo, ráfagas y actividad eléctrica. La nota no detalla departamentos ni horarios.",
    "enlace": "https://www.lanacion.com.ar/sociedad/hay-alerta-amarilla-por-tormentas-para-este-lunes-2-de-noviembre-las-provincias-afectadas-nid01112026/"
-  },
-  {
-   "medio": "La Nación (parte del SMN)",
-   "fecha": "02/11/2026",
-   "titulo": "Clima en Corrientes: pronóstico de la semana",
-   "resumen": "Lunes 2/11 con tormentas fuertes por la mañana y la tarde; martes 3/11 con tormentas aisladas y fuertes por la noche; miércoles 4/11 con tormentas fuertes; desde el jueves 5/11 mejora, sin lluvia hasta el domingo 8/11.",
-   "enlace": "https://www.lanacion.com.ar/clima/corrientes/"
   }
  ],
  "puertos_uruguay": [
@@ -1427,7 +1428,7 @@
  "tapon_breve": "Sin alerta del SMN para la Capital en las próximas 48 horas. Con el río en 5,67 m, el riesgo de anegamiento depende de la intensidad de la lluvia.",
  "consultado": "24/11/2026, 20:23 h",
  "consulta_resultado": "sin cambios",
- "prensa_actualizada": "24/11/2026, 20:06 h",
+ "prensa_actualizada": "24/11/2026, 22:45 h",
  "ina_parana_breve": "El INA prevé un posible repunte desde el 26/11.",
  "ina_uruguay_breve": "El INA prevé acercarse a la alerta en Santo Tomé el 26/11."
 }
