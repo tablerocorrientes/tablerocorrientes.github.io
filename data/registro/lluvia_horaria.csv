@@ -909,6 +909,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-25,12,Santa Lucía,Santa Lucia,13836,0
 2026-11-25,13,Santa Lucía,Santa Lucia,13836,0
 2026-11-25,14,Santa Lucía,Santa Lucia,13836,0
+2026-11-25,15,Santa Lucía,Santa Lucia,13836,0
 2026-11-01,23,Paso Cerrito,Paso Cerrito,13849,0
 2026-11-02,03,Paso Cerrito,Paso Cerrito,13849,0
 2026-11-02,07,Paso Cerrito,Paso Cerrito,13849,0
@@ -1407,6 +1408,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-25,12,San Carlos,San Carlos,13864,0
 2026-11-25,13,San Carlos,San Carlos,13864,0
 2026-11-25,14,San Carlos,San Carlos,13864,0
+2026-11-25,15,San Carlos,San Carlos,13864,0
 2026-11-01,23,Pueblo Libertador,Pueblo Libertador,13876,0
 2026-11-02,00,Pueblo Libertador,Pueblo Libertador,13876,0
 2026-11-02,01,Pueblo Libertador,Pueblo Libertador,13876,0
@@ -1710,6 +1712,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-25,12,Pueblo Libertador,Pueblo Libertador,13876,0
 2026-11-25,13,Pueblo Libertador,Pueblo Libertador,13876,0
 2026-11-25,14,Pueblo Libertador,Pueblo Libertador,13876,0
+2026-11-25,15,Pueblo Libertador,Pueblo Libertador,13876,0
 2026-11-02,00,Parque Nacional Iberá,RMA08_PNI - Parque Nacional Iberá,220226,0
 2026-11-02,01,Parque Nacional Iberá,RMA08_PNI - Parque Nacional Iberá,220226,0
 2026-11-02,02,Parque Nacional Iberá,RMA08_PNI - Parque Nacional Iberá,220226,0
@@ -5433,6 +5436,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-25,12,Mercedes,Mercedes - Corrientes,283908,0
 2026-11-25,13,Mercedes,Mercedes - Corrientes,283908,0
 2026-11-25,14,Mercedes,Mercedes - Corrientes,283908,0
+2026-11-25,15,Mercedes,Mercedes - Corrientes,283908,0
 2026-11-01,23,La Cruz,La Cruz - Corrientes,283909,0
 2026-11-02,00,La Cruz,La Cruz - Corrientes,283909,0
 2026-11-02,01,La Cruz,La Cruz - Corrientes,283909,0
@@ -5765,3 +5769,4 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-25,12,La Cruz,La Cruz - Corrientes,283909,0
 2026-11-25,13,La Cruz,La Cruz - Corrientes,283909,0
 2026-11-25,14,La Cruz,La Cruz - Corrientes,283909,0
+2026-11-25,15,La Cruz,La Cruz - Corrientes,283909,0
