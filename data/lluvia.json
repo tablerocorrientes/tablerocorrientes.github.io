@@ -1,5 +1,5 @@
 {
- "actualizado": "25/11/2026, 17:36 h",
+ "actualizado": "25/11/2026, 17:52 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
@@ -876,12 +876,12 @@
     null,
     null,
     null,
-    null,
+    0,
     null,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 12 h"
+   "ultimo": "0 mm a las 16 h"
   },
   {
    "localidad": "Paso de los Libres",
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "25/11/2026, 17:36 h",
+ "consultado": "25/11/2026, 17:52 h",
  "consulta_resultado": "datos nuevos"
 }
