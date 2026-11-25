@@ -599,8 +599,7 @@
     "puerto": "Corrientes",
     "pronosticado": 6.14,
     "real": 5.67,
-    "diferencia": -0.47,
-    "nota": "El INA publicó un rango de 5,40 a 6,14 m; el valor real quedó dentro del rango."
+    "diferencia": -0.47
    },
    {
     "fecha": "2026-11-17",
