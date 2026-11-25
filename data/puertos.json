@@ -1,5 +1,5 @@
 {
- "actualizado": "25/11/2026, 02:04 h",
+ "actualizado": "25/11/2026, 03:09 h",
  "fecha_registro": "22/11/2026",
  "puertos": [
   {
@@ -8,8 +8,8 @@
    "variacion": 0.0,
    "alerta": 3.5,
    "evacuacion": 4,
-   "fuente": "Prefectura Naval Argentina, reproducida por rioparana.com.ar (24/11/2026, 12:00 h)",
-   "registro": "24/11/2026, 12:00 h"
+   "fuente": "Prefectura Naval Argentina, reproducida por rioparana.com.ar (25/11/2026, 00:00 h)",
+   "registro": "25/11/2026, 00:00 h"
   },
   {
    "puerto": "Itá Ibaté",
@@ -31,30 +31,30 @@
   },
   {
    "puerto": "Paso de la Patria",
-   "altura": 5.69,
-   "variacion": 0.01,
+   "altura": 5.72,
+   "variacion": 0.03,
    "alerta": 6.5,
    "evacuacion": 7,
-   "fuente": "Prefectura Naval Argentina, reproducida por rioparana.com.ar (24/11/2026, 12:00 h)",
-   "registro": "24/11/2026, 12:00 h"
+   "fuente": "Prefectura Naval Argentina, reproducida por rioparana.com.ar (25/11/2026, 00:00 h)",
+   "registro": "25/11/2026, 00:00 h"
   },
   {
    "puerto": "Corrientes",
    "altura": 5.67,
-   "variacion": 0.04,
+   "variacion": 0.0,
    "alerta": 6.5,
    "evacuacion": 7,
-   "fuente": "Prefectura Naval Argentina, reproducida por rioparana.com.ar (24/11/2026, 12:00 h)",
-   "registro": "24/11/2026, 12:00 h"
+   "fuente": "Prefectura Naval Argentina, reproducida por rioparana.com.ar (25/11/2026, 00:00 h)",
+   "registro": "25/11/2026, 00:00 h"
   },
   {
    "puerto": "Empedrado",
    "altura": 5.08,
-   "variacion": -0.01,
+   "variacion": 0.0,
    "alerta": 6.5,
    "evacuacion": 6.7,
-   "fuente": "Prefectura Naval Argentina, reproducida por rioparana.com.ar (24/11/2026, 12:00 h)",
-   "registro": "24/11/2026, 12:00 h"
+   "fuente": "Prefectura Naval Argentina, reproducida por rioparana.com.ar (25/11/2026, 00:00 h)",
+   "registro": "25/11/2026, 00:00 h"
   },
   {
    "puerto": "Bella Vista",
@@ -76,16 +76,16 @@
   },
   {
    "puerto": "Esquina",
-   "altura": 5.26,
-   "variacion": 0.0,
+   "altura": 5.24,
+   "variacion": -0.02,
    "alerta": 5,
    "evacuacion": 5.4,
-   "fuente": "Prefectura Naval Argentina, reproducida por rioparana.com.ar (24/11/2026, 12:00 h)",
-   "registro": "24/11/2026, 12:00 h"
+   "fuente": "Prefectura Naval Argentina, reproducida por rioparana.com.ar (25/11/2026, 00:00 h)",
+   "registro": "25/11/2026, 00:00 h"
   }
  ],
  "nota": "Actualización del 22/11/2026. Paraná, alturas de Prefectura Naval Argentina reproducidas por rioparana.com.ar: Corrientes 5,76 m (−0,05 m, 22/11 a las 00:00 h), 74 cm por debajo de la alerta de 6,50 m; Paso de la Patria 5,80 m e Itatí 5,92 m, bajo su alerta y en bajante; Empedrado 5,25 m, Itá Ibaté 4,58 m e Ituzaingó 2,37 m. Aguas abajo, Bella Vista 5,90 m (alerta 6,00 m), Goya 5,58 m (sobre la alerta de 5,20 m y bajo la evacuación de 5,70 m) y Esquina 5,33 m (sobre la alerta de 5,00 m). El INA (reporte del 20/11) prevé que el río siga bajando muy despacio unos días y luego pueda volver a subir desde el 26/11 por lluvias en la cuenca alta.",
- "ultimo_intento": "25/11/2026, 02:04 h",
+ "ultimo_intento": "25/11/2026, 03:09 h",
  "programada": true,
  "horarios": [
   "09:00",
@@ -1410,7 +1410,7 @@
  "nota_breve": "Paraná en Corrientes: 5,67 m (24/11, 12:00 h), subiendo y 83 cm debajo de la alerta (6,50 m). Goya y Esquina siguen sobre la alerta. El INA prevé un posible repunte desde el 26/11.",
  "uruguay_breve": "Al 24/11, 07:00 h: Santo Tomé 6,58 m (subió 56 cm) y Paso de los Libres 5,04 m, ambos bajo la alerta (Salto Grande). El INA prevé acercarse a la alerta en Santo Tomé el 26/11.",
  "tapon_breve": "Sin alerta del SMN para la Capital en las próximas 48 horas. Con el río en 5,67 m, el riesgo de anegamiento depende de la intensidad de la lluvia.",
- "consultado": "25/11/2026, 02:04 h",
+ "consultado": "25/11/2026, 03:09 h",
  "consulta_resultado": "datos nuevos",
  "prensa_actualizada": "25/11/2026, 00:08 h",
  "ina_parana_breve": "El INA prevé un posible repunte desde el 26/11.",
