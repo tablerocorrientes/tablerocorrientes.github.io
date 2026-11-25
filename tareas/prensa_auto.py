@@ -15,9 +15,9 @@ ART = timezone(timedelta(hours=-3))
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 P = os.path.join(RAIZ, 'data', 'puertos.json')
 CONSULTAS = ['crecida río Paraná Corrientes', 'evacuados Corrientes', 'anegamiento lluvia Corrientes',
-             'Defensa Civil Corrientes', 'Yacyretá caudal', 'río Uruguay crecida Corrientes', 'El Niño Corrientes lluvias']
-TEMA = re.compile(r'evacu|crecid|rio parana|rio uruguay|anega|inund|lluvia|tormenta|temporal|defensa civil|yacyret|caudal|el nino|alerta|desborde|sudestada|altura del rio|repunte|bajante|autoevacu', re.I)
-LUGAR = re.compile(r'corrientes|itati|goya|esquina|bella vista|paso de la patria|empedrado|san cosme|ituzaingo|santo tome|paso de los libres|monte caseros|apipe|lavalle|saladas|alvear|la cruz|yapeyu|riachuelo|santa ana', re.I)
+             'Defensa Civil Corrientes', 'Yacyretá caudal', 'Yacyretá alerta hidrológico', 'Entidad Binacional Yacyretá río Paraná', 'río Uruguay crecida Corrientes', 'El Niño Corrientes lluvias']
+TEMA = re.compile(r'evacu|crecid|rio parana|rio uruguay|anega|inund|lluvia|tormenta|temporal|defensa civil|caudal|hidrolog|repunte|el nino|alerta|desborde|sudestada|altura del rio|repunte|bajante|autoevacu', re.I)
+LUGAR = re.compile(r'corrientes|yacyret|ayolas|itati|goya|esquina|bella vista|paso de la patria|empedrado|san cosme|ituzaingo|santo tome|paso de los libres|monte caseros|apipe|lavalle|saladas|alvear|la cruz|yapeyu|riachuelo|santa ana', re.I)
 FUERA = re.compile(r'momarandu com|futbol|torneo|clasific|velez|boca|river|basquet|horoscopo|receta|novela|farandula', re.I)
 
 

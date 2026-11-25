@@ -94,6 +94,13 @@
  ],
  "partes_oficiales": [
   {
+   "fecha": "24/11/2026",
+   "organismo": "Entidad Binacional Yacyretá (EBY), informe hidrológico (difundido por Corrientes Hoy, Examedia, Elonce y EntreMedios)",
+   "resumen": "La EBY informó que el caudal del río Paraná sigue un 54 % por encima del promedio histórico de noviembre, aunque bajó respecto de octubre. Prevé relativa estabilidad durante los próximos diez días, pero advirtió que por El Niño podrían repetirse pulsos de crecida de manera intermitente hasta marzo de 2027. Las represas de la cuenca tienen entre 61 % y 63 % de reserva, por lo que todavía pueden almacenar agua si llueve. En Ituzaingó el río marcó 2,35 m, por debajo de la alerta de 3,50 m.",
+   "enlace": "https://examedia.com.ar/portada/post/88298780",
+   "breve": "Yacyretá prevé diez días de relativa calma, con el caudal 54 % sobre lo normal, y advierte posibles repuntes hasta marzo de 2027."
+  },
+  {
    "fecha": "22/11/2026, 19:28 h",
    "organismo": "Servicio Meteorológico Nacional",
    "resumen": "Alerta amarilla por tormentas para el martes 24/11 de 09:00 a 20:59 h en la Capital, Empedrado, Itatí, Ituzaingó, San Cosme y otros departamentos, con 30 a 70 mm posibles. Otra alerta amarilla, de 09:00 a 14:59 h, alcanza a General Alvear, Paso de los Libres, San Martín y Santo Tomé.",
@@ -653,6 +660,46 @@
  "prensa": [
   {
    "fecha": "24/11/2026",
+   "medio": "Elonce.com",
+   "titulo": "Creciente del río Paraná: desde Yacyretá advierten que podría haber repuntes hasta marzo",
+   "enlace": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxORmNCQTVWdzkyWmJwazh3Xzh1TVJaNVRSOHlSekdGZTUxU3drZzFBQXdQbXZoZm9LLS1jb0ZMRFI0SFVtcmFRcW52QnhYM3lQd3JXTXI2ZGlTMkZPZGV1VGhfZ01uc2c4NUQ0QUdGWENscTlmZnlOa3JMZ2NWdHc5OHhRUlBzNHhleGVHM0dMNkVkXzdjRGI4UERPTFY5OHZRZDE0YTJ3WnhUemFaMWhmUHlJSVRSRm9uMHFtSTB6RDTSAboBQVVfeXFMTWs5dFowYjFPRzVaT2o3RW45UndVeExpWnJzSkhCX04yX2ZVbDkySlpDbW1GZDlYa0NWZHFtNVBNVWE3b1hmako2VEMwY3VqVXJURnI2cEZhYnk0RFVjSnl3Z0xvYVJYZVZQN2kxMlNtMFcweUp4aEwwQkxNbjBPTWdKY1AyUFYtWXdTYzNUdk85SU5CMmwyajF5QnRGamFidXczenE0WDNVLUJ1NmpIbkhWU3FxZ1ZybDdB?oc=5",
+   "breve": "Creciente del río Paraná: desde Yacyretá advierten que podría haber repuntes hasta marzo",
+   "auto": true
+  },
+  {
+   "fecha": "24/11/2026",
+   "medio": "Corrientes Hoy",
+   "titulo": "Yacyretá emitió un informe hidrológico para los próximos días",
+   "enlace": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPNm1BRUNuWXBydmhUS1NXaTBISDZEaDBkbHlUYlc4M3pvOTFaQVF5RjBiN0tOeDJjc2JOeWJvLUxWT1M5Q2pyaVl6MjNXZ2VpMzg0WEdPdzNiclg5cndUUDFHYm1NWThTMlFEVVBVSkY3WWVKZks5Q2lHX2VVTXM0S3YtYzM1Si1Sc0ZMeVNIVUZXdWRVYVVIUFdlN2ZSeW9RM3NKUlRZWVZNX3RpRGVPMl9ORXpxTFlLT0ZNZzgwQklDcnFUaUNSRUxEY2Nadw?oc=5",
+   "breve": "Yacyretá emitió un informe hidrológico para los próximos días",
+   "auto": true
+  },
+  {
+   "fecha": "24/11/2026",
+   "medio": "Bichos de Campo",
+   "titulo": "Después del octubre más caudaloso desde 1971, el Paraná da un respiro en Yacyretá, pero advierten que las crecidas seguirán hasta marzo",
+   "enlace": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPRTJyTzV1endENmdFWWtvNkRQbWQzRHBSbVBGTkNCT0FWSHBJSmxEM093aFpCa3hyM1hWZnFoWmxmYmFSVUJMSTR5ZVRNc3c4bWtmUHhTNkduLThISFl3YngwZ0x5cFg2dFZvSkw1amsyT1VMMGhaX0JKZmw3VHFJZW9CMU95MVE4SGdMQ0lWSC1vYjhKUFZMcFdkX3AweTlaOGgxazVCdnpDeXFEZm84T2tId0thMld3b2lST2pUMy1hNWd3TlRRdEk1ZW5ZazBLbkhaM3lxdWllN3Uwd3FaNXFBcl9UOUtiYXBzandpejQ2Q0trYk9jSURlaGk?oc=5",
+   "breve": "Después del octubre más caudaloso desde 1971, el Paraná da un respiro en Yacyretá, pero advierten que las crecidas seguirán hasta marzo",
+   "auto": true
+  },
+  {
+   "fecha": "23/11/2026",
+   "medio": "La Nación",
+   "titulo": "Hidrólogo de Yacyretá expone en la NASA avances sobre el pronóstico del río Paraná",
+   "enlace": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNUnE5Y0xnenBkTHBabE9HWW1XMV9GMTMycWlfU3E4OFl1a2E3UmhPdThnc3RQc3hkTHBraE12SUdobDB2dkdCaUxqM1pEZ0dCRk45Z1VVcGJkeEJhbjREM19kWGgyTDJfNHRUNE1fWGhYNjJNa3l0c214MEV1Zm5KYjB2VnpRZlc3Uy1fNnZJbGNzUFdkZ3pEbFBnZmpQYVk4a1hkeDlkTUVuZFlwQXRoM0ZyQmtNc1lfRVpmUmtZNWZGcmpJZ1E?oc=5",
+   "breve": "Hidrólogo de Yacyretá expone en la NASA avances sobre el pronóstico del río Paraná",
+   "auto": true
+  },
+  {
+   "fecha": "23/11/2026",
+   "medio": "República de Corrientes",
+   "titulo": "Yacyretá opera a plena capacidad y advierte que podrían repetirse las crecidas del Paraná hasta marzo",
+   "enlace": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOeGZsQTFYQVZTelowck02UFFidmplNjlnV0lGWmN2cHBpSnVrcVNJcUd3Wl9jZURHaTZOZlBESXNRLXp4clR2YWtyY3pZLTJab1BHM1BqdnB2TXZtX1JpRXFmQy12NGhwQ3c4ajAxcDdXRDFicTFvWHBqRlZ5Zm02Y2E3QkhpcE5pMUIxR1F0eXdva3g2dDJOaFBua3RsX0xtRTljZU10ajU5MzcwVUtOYTJUbGwxbXhLOUxtSTVmUmxjenEzNWFCYnhTY0FJa3planBLanJDbjF2QkdEaUE?oc=5",
+   "breve": "Yacyretá opera a plena capacidad y advierte que podrían repetirse las crecidas del Paraná hasta marzo",
+   "auto": true
+  },
+  {
+   "fecha": "24/11/2026",
    "medio": "DataClave",
    "titulo": "Inundaciones en Corrientes y Chaco: casi 4.000 personas evacuadas y alerta por nueva crecida del Paraná",
    "enlace": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNNFdnUlBzM0hDLUdLMVZvQnIwdEFsT3lDVUR4akJHTUZOb2xWazBZWFFOM0FMakR5RkdXOGdCeFJySjZTd2xBSncwYnNhd1dVandYV3FUNVBYZlU4Yl95Nmt0U2p1aHlYQXhrSURCSFVsVWQyYkU3NkJ6LUFlNHFkMVRydm5STzdUV01SMDFXaVhNRFNRNXVNNmxoYXlObWxtTGJEdkRDQW5yMzZ6WTA0S01SajVac3lEbkdjN0o5V29PMmpuTzNiM3p5VTQtY2pIUnhTSDJrV3h1VzJHcmdMaTlDLWRMcVl6WEx4N1RYSEU5U3duRDJBSVF5dVBXQdIBjAJBVV95cUxQTnhBcDhQdFpaZjZiaXJQVExyWHIzTUVFYXA4SExNUmJGZUR2azZnb05UUTZqTTRQMGZMSWo5d0hmdktycWluMjBXaFZzTUExY1NSNWxVcnpSSGIzM1VVdkp5Q2lac293QjctWUl6MW9WMS1kUVJHTnNXZWc4eDVTQTk5YkNxVGVfUUN3Y0dQQzBXRTRDMVJRN19sQUUtZ3RhdE9VMDlxdDhwSEUyQnlEOERaeHBTM3Y5Q25UQlAyQlh1LUJNbUQ2Z29ZZXRiT0xrUXVxNTc3b25VaF96UGVpbGFfWGVSV0V6bXRnTzdnbGM3Z3FUTFpxOXktRjlJVmRyV196aVhOSUxPSHBy?oc=5",
@@ -1048,69 +1095,6 @@
    "titulo": "El Paraná se estaciona y Corrientes tiene 1.967 evacuados por la crecida",
    "resumen": "Según el relevamiento de Defensa Civil, 444 personas evacuadas y 1.523 autoevacuadas: Capital 675, isla Apipé 185, Itatí 518, Paso de la Patria 228, zona del puerto de Goya 157, Esquina 58, San Isidro 50, Cruz de los Milagros 40, Santa Lucía 21, Ituzaingó 17 y Bella Vista 16. No informa barrios o zonas anegadas nuevas.",
    "enlace": "https://www.eschaco.com/vernota.asp?id_noticia=133997"
-  },
-  {
-   "medio": "Infobae",
-   "fecha": "06/11/2026",
-   "titulo": "El Niño: la crecida del río Uruguay obligó a cerrar cuatro pasos fluviales a Brasil",
-   "resumen": "El Uruguay vuelve a crecer por lluvias en la cuenca alta y la apertura de compuertas de Itá y Foz do Chapecó; el INA estima muy probable que el tramo San Javier a Santo Tomé pase a alerta. En Corrientes, unas 1.500 personas dejaron sus hogares, en su mayoría de la isla Apipé; Defensa Civil habla de situación controlada. La Capital, Bella Vista y Goya siguen con evacuados.",
-   "enlace": "https://www.infobae.com/politica/2026/11/06/el-nino-la-crecida-del-rio-uruguay-obligo-a-cerrar-cuatro-pasos-fluviales-a-brasil/"
-  },
-  {
-   "medio": "El Litoral",
-   "fecha": "08/11/2026",
-   "titulo": "El río Paraná llegó a los 4,75 m en Santa Fe: qué dice el último pronóstico del INA",
-   "resumen": "Contexto aguas abajo: el hidrómetro de Santa Fe marcó 4,75 m el domingo 8/11 mañana, con subas diarias desde mediados de septiembre; el INA proyecta 4,72 m para el 10/11 y 4,77 m para el 17/11 (normal, bajo alerta). Reconquista, 5,90 m el 6/11, en evacuación. La nota no incluye pronóstico para Corrientes.",
-   "enlace": "https://www.ellitoral.com/area-metropolitana/rio-parana-crecida-santafe-fenomeno-nino-puerto-hidrometro-domingo-8-noviembre-ina-prefectura_0_rYKFCpLIf4.html"
-  },
-  {
-   "medio": "Examedia (Diario Época)",
-   "fecha": "03/11/2026",
-   "titulo": "Los ríos dan tregua pero prevén dos días de tormentas severas",
-   "resumen": "Los niveles de los ríos Paraná y Uruguay bajarían hacia la segunda quincena de noviembre. El SMN pronostica tormentas fuertes hoy y mañana en gran parte de la provincia, con inestabilidad hasta el jueves. La EBY prevé un caudal afluente de cerca de 29.000 m³/s. La nota no informa alturas por puerto ni cifras de evacuados.",
-   "enlace": "https://examedia.com.ar/portada/post/88169121"
-  },
-  {
-   "medio": "Examedia",
-   "fecha": "03/11/2026",
-   "titulo": "Alerta naranja por tormentas en Corrientes: hay 23 departamentos bajo advertencia",
-   "resumen": "Alerta naranja para 24 departamentos incluidos en la lista, con 40 a 80 mm, ráfagas de más de 90 km/h y granizo ocasional, desde las 7 h del martes 3/11 y el miércoles 4/11. La Capital figura entre los departamentos alcanzados.",
-   "enlace": "https://examedia.com.ar/portada/post/88167825"
-  },
-  {
-   "medio": "Examedia",
-   "fecha": "03/11/2026",
-   "titulo": "Hay alerta naranja y amarilla por tormentas, lluvias y vientos para este martes 3 de noviembre: las provincias afectadas",
-   "resumen": "El SMN mantiene aviso amarillo por tormentas, con 20 a 40 mm, que incluye a Corrientes; el naranja del martes alcanza a San Luis, Córdoba y La Pampa. La nota no detalla departamentos de Corrientes. No se informan barrios o zonas anegadas.",
-   "enlace": "https://examedia.com.ar/portada/post/88168653"
-  },
-  {
-   "medio": "Infobae",
-   "fecha": "02/11/2026",
-   "titulo": "El Niño: Yacyretá mantiene interrumpido el paso entre Argentina y Paraguay y se incrementa la cantidad de autoevacuados en Corrientes",
-   "resumen": "Los evacuados en centros bajaron de 741 a 409 y los autoevacuados subieron de 726 a 1.278. En la Capital, Itatí, Paso de la Patria, Bella Vista, Goya y Esquina las aguas siguen en nivel de evacuación; Ituzaingó está en alerta. La EBY prorrogó el cierre del paso hasta el 6/11.",
-   "enlace": "https://www.infobae.com/politica/2026/11/02/el-nino-yacyreta-mantiene-interrumpido-el-paso-entre-argentina-y-paraguay-y-se-incrementa-la-cantidad-de-auto-evacuados-en-corrientes/"
-  },
-  {
-   "medio": "El Monterizo",
-   "fecha": "02/11/2026",
-   "titulo": "El Paraná bajó, pero en Corrientes hay 220 personas más fuera de sus casas",
-   "resumen": "Con datos de Defensa Civil: 1.687 desplazados (1.467 una semana antes). Paso de la Patria sube de 110 a 228, Itatí de 475 a 518, la Capital de 652 a 672 y la isla Apipé de 114 a 119 evacuados. El río llegó a 7,15 m en la Capital.",
-   "enlace": "https://elmonterizo.com/el-parana-bajo-pero-en-corrientes-hay-220-personas-mas-fuera-de-sus-casas"
-  },
-  {
-   "medio": "infogoya.com",
-   "fecha": "02/11/2026",
-   "titulo": "El Paraná se estabiliza en 6,09 metros en Goya",
-   "resumen": "El COE monitorea la zona costera y asiste a familias afectadas; el 1/11 reforzó las defensas cerca del puerto y 34 familias estaban autoevacuadas. El INA proyecta una posible baja hacia el 10/11.",
-   "enlace": "https://infogoya.com/parana-estable-6-09-metros-goya-coe/"
-  },
-  {
-   "medio": "La Nación",
-   "fecha": "02/11/2026",
-   "titulo": "Hay alerta amarilla por tormentas para este lunes 2 de noviembre: las provincias afectadas",
-   "resumen": "El SMN incluye al norte de Corrientes en el aviso amarillo por tormentas, con 20 a 50 mm, granizo, ráfagas y actividad eléctrica. La nota no detalla departamentos ni horarios.",
-   "enlace": "https://www.lanacion.com.ar/sociedad/hay-alerta-amarilla-por-tormentas-para-este-lunes-2-de-noviembre-las-provincias-afectadas-nid01112026/"
   }
  ],
  "puertos_uruguay": [
@@ -1428,7 +1412,7 @@
  "tapon_breve": "Sin alerta del SMN para la Capital en las próximas 48 horas. Con el río en 5,67 m, el riesgo de anegamiento depende de la intensidad de la lluvia.",
  "consultado": "24/11/2026, 23:10 h",
  "consulta_resultado": "datos nuevos",
- "prensa_actualizada": "24/11/2026, 22:45 h",
+ "prensa_actualizada": "25/11/2026, 00:08 h",
  "ina_parana_breve": "El INA prevé un posible repunte desde el 26/11.",
  "ina_uruguay_breve": "El INA prevé acercarse a la alerta en Santo Tomé el 26/11."
 }
