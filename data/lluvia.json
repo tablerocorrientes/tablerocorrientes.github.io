@@ -1,5 +1,5 @@
 {
- "actualizado": "24/11/2026, 21:26 h",
+ "actualizado": "24/11/2026, 21:57 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
@@ -1080,12 +1080,12 @@
     null,
     null,
     null,
-    null,
+    0,
     null,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 16 h"
+   "ultimo": "0 mm a las 20 h"
   },
   {
    "localidad": "Caá Catí",
@@ -1353,11 +1353,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 25.4,
-   "ultimo": "0 mm a las 20 h"
+   "ultimo": "0 mm a las 21 h"
   },
   {
    "localidad": "San Isidro",
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "24/11/2026, 21:26 h",
+ "consultado": "24/11/2026, 21:57 h",
  "consulta_resultado": "datos nuevos"
 }
