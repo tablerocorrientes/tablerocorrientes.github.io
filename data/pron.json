@@ -1,7 +1,7 @@
 {
  "actualizado": "24/11/2026, 20:40 h",
  "metodo": "estimación derivada: promedio de modelos (Open-Meteo), calculado automáticamente; las tareas agregan el parte del SMN cuando corren",
- "estado_alertas": "VERIFICADO_CON_ALERTAS",
+ "estado_alertas": "NO_VERIFICADO",
  "estado_verificado": {
   "fecha": "24/11/2026, 18:20 h",
   "fuente": "SMN (lectura del 24/11/2026, 18:13 h) y COE de Corrientes"
@@ -13,29 +13,7 @@
   "fecha": "13/11/2026, 18:35 h"
  },
  "met_revision": "aae6c54b1ab7086a927cf2e4bb8e34a53a584e781ba42ff90ab9d653046ddc38",
- "smn": [
-  {
-   "id_oficial": "SMN-amarillo-2026-11-24T1500",
-   "tipo": "alerta",
-   "aviso": "Alerta amarillo por tormentas",
-   "nivel": "amarillo",
-   "fenomeno": "tormentas",
-   "rango_mm": [
-    30,
-    70
-   ],
-   "zonas": "Berón de Astrada - Capital - Concepción - Curuzú Cuatiá - Empedrado - General Alvear - General Paz - Itatí - Ituzaingó - Mburucuyá - Mercedes - Paso de los Libres - Saladas - San Cosme - San Luis del Palmar - San Martín - San Miguel - San Roque - Santo Tomé - Sauce",
-   "desde": "24/11/2026, 15:00 h",
-   "hasta": "24/11/2026, 20:59 h",
-   "desde_iso": "2026-11-24T15:00:00-03:00",
-   "hasta_iso": "2026-11-24T20:59:59-03:00",
-   "emision": "24/11/2026, 09:13 h",
-   "incluye_corrientes": true,
-   "incluye_capital": true,
-   "url": "https://www.smn.gob.ar/alertas",
-   "origen": "SMN, lectura del 24/11/2026, 11:53 h"
-  }
- ],
+ "smn": [],
  "ciudades": {
   "Corrientes Capital": {
    "hoy": {
@@ -647,8 +625,8 @@
   ]
  },
  "horario_act": "24/11/2026, 20:40 h",
- "consultado": "24/11/2026, 18:20 h",
- "consulta_resultado": "sin cambios",
+ "consultado": "24/11/2026, 21:10 h",
+ "consulta_resultado": "sin alerta ni lluvia",
  "extendido": {
   "actualizado": "24/11/2026, 20:40 h",
   "aviso": "Pronóstico extendido informativo. No se usa en los cálculos del simulador.",
@@ -1435,5 +1413,6 @@
     }
    }
   }
- }
+ },
+ "nota_alertas": "alerta vencida sin reconfirmación"
 }
