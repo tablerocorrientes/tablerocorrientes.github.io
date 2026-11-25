@@ -644,7 +644,7 @@
   },
   "Gobernador Virasoro": {
    "hoy": {
-    "mm": 0.2,
+    "mm": 0.3,
     "horas": 0
    },
    "manana": {
@@ -1143,7 +1143,7 @@
    }
   ]
  },
- "pron_actualizado": "25/11/2026, 06:57 h",
+ "pron_actualizado": "25/11/2026, 09:03 h",
  "smn": [],
  "nota_alertas": "alerta vencida sin reconfirmación"
 }
