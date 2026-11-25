@@ -291,30 +291,42 @@ fecha,localidad,pronosticado_mm,llovido_mm,horas_medidas,hora_mas_lluviosa,alert
 2026-11-23,San Roquito,,0.75,6,03 a 04 h,,,
 2026-11-23,Santa Lucía,,0,24,,,,
 2026-11-23,Santo Tomé,0,0,24,,,,
-2026-11-24,Bella Vista,10.7,9.4,23,06 a 07 h,amarillo,30 a 70,si
-2026-11-24,Bonpland,,2.2,23,00 a 01 h,,,
-2026-11-24,Caá Catí,,0,23,,,,
+2026-11-24,Bella Vista,10.7,9.4,24,06 a 07 h,amarillo,30 a 70,si
+2026-11-24,Bonpland,,2.2,24,00 a 01 h,,,
+2026-11-24,Caá Catí,,0,24,,,,
 2026-11-24,Colonia Carlos Pellegrini,,14.5,5,07 a 08 h,,,
-2026-11-24,Corrientes Capital,31.2,79.35,23,02 a 03 h,rojo,70 a 100,no
-2026-11-24,Curuzú Cuatiá,3.7,8.6,23,02 a 03 h,naranja,70 a 100,si
+2026-11-24,Corrientes Capital,31.2,79.35,24,02 a 03 h,rojo,70 a 100,no
+2026-11-24,Curuzú Cuatiá,3.7,8.6,24,02 a 03 h,naranja,70 a 100,si
 2026-11-24,Esquina,8.2,,,,amarillo,30 a 70,
 2026-11-24,Garruchos,,2,5,07 a 08 h,,,
 2026-11-24,Gobernador Virasoro,44.5,11.75,5,07 a 08 h,,,
 2026-11-24,Goya,11.8,,,,amarillo,30 a 70,
 2026-11-24,Ituzaingó,64.3,,,,rojo,70 a 100,
-2026-11-24,Itá Ibaté,,53.6,23,05 a 06 h,,,
-2026-11-24,La Cruz,,2,23,09 a 10 h,,,
-2026-11-24,La Palmira,,71.2,23,03 a 04 h,,,
-2026-11-24,Mburucuyá,,13,23,02 a 03 h,rojo,70 a 100,no
-2026-11-24,Mercedes,7.8,0,22,,naranja,70 a 100,
+2026-11-24,Itá Ibaté,,53.6,24,05 a 06 h,,,
+2026-11-24,La Cruz,,2,24,09 a 10 h,,,
+2026-11-24,La Palmira,,71.2,24,03 a 04 h,,,
+2026-11-24,Mburucuyá,,13,24,02 a 03 h,rojo,70 a 100,no
+2026-11-24,Mercedes,7.8,0,23,,naranja,70 a 100,
 2026-11-24,Monte Caseros,0.1,,,,naranja,30 a 70,
 2026-11-24,Parque Nacional Iberá,,25.4,23,04 a 05 h,,,
 2026-11-24,Paso Cerrito,,3.25,4,07 a 08 h,,,
 2026-11-24,Paso de los Libres,4.5,,,,naranja,70 a 100,
 2026-11-24,Portal Galarza,,0,5,,,,
-2026-11-24,Pueblo Libertador,,3.5,23,04 a 05 h,,,
+2026-11-24,Pueblo Libertador,,4,23,04 a 05 h,,,
 2026-11-24,Saladas,18.9,,,,rojo,70 a 100,
-2026-11-24,San Carlos,,0,23,,,,
+2026-11-24,San Carlos,,0,24,,,,
 2026-11-24,San Roquito,,0.5,5,11 a 12 h,,,
 2026-11-24,Santa Lucía,,0.25,23,06 a 07 h,,,
-2026-11-24,Santo Tomé,26.7,9.4,23,07 a 08 h,rojo,70 a 100,si
+2026-11-24,Santo Tomé,26.7,9.4,24,07 a 08 h,rojo,70 a 100,si
+2026-11-25,Bella Vista,0,,,,,,
+2026-11-25,Corrientes Capital,0,,,,,,
+2026-11-25,Curuzú Cuatiá,0,,,,,,
+2026-11-25,Esquina,0,,,,,,
+2026-11-25,Gobernador Virasoro,0,,,,,,
+2026-11-25,Goya,0.1,,,,,,
+2026-11-25,Ituzaingó,0,,,,,,
+2026-11-25,Mercedes,0,,,,,,
+2026-11-25,Monte Caseros,0,,,,,,
+2026-11-25,Paso de los Libres,0,,,,,,
+2026-11-25,Saladas,0,,,,,,
+2026-11-25,Santo Tomé,0,,,,,,
