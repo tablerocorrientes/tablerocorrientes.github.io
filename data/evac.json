@@ -1,9 +1,9 @@
 {
- "actualizado": "25/11/2026, 10:55 h",
+ "actualizado": "25/11/2026, 11:30 h",
  "total": {
-  "fecha": "06/11/2026",
-  "texto": "1.967 evacuados y autoevacuados en la provincia (444 evacuados y 1.523 autoevacuados), según Defensa Civil",
-  "valor": 1967
+  "fecha": "23/11/2026",
+  "texto": "1.381 evacuados y autoevacuados en la provincia (318 evacuados y 1.063 autoevacuados), según Defensa Civil; el 15/11 eran 1.909",
+  "valor": 1381
  },
  "serie": [
   {
@@ -46,9 +46,13 @@
   {
    "f": "06/11",
    "v": 1967
+  },
+  {
+   "f": "23/11",
+   "v": 1381
   }
  ],
- "fuente": "Defensa Civil de Corrientes, partes difundidos por El Litoral, EsChaco, El Monterizo e Infobae. Último parte: 06/11/2026 (1.967 personas: 444 evacuadas y 1.523 autoevacuadas; por localidad suman 442 evacuados). Verificación del 08/11/2026, 18:52 h: sin parte posterior hallado; no se hallaron cambios en los centros de evacuados. Verificación del 11/11/2026, 18:56 h: sin parte posterior hallado; no se hallaron cambios en los centros de evacuados. Verificación del 25/11/2026, 10:55 h: sin parte provincial posterior al 06/11 hallado; Infobae (24/11) informa unas 1.300 personas desplazadas en la provincia según Defensa Civil, cerca de 500 regresaron en la última semana, y Itatí, Paso de la Patria y barrios costeros de la Capital siguen muy comprometidos.",
+ "fuente": "Defensa Civil de Corrientes, partes difundidos por El Litoral, EsChaco, El Monterizo e Infobae. Último informe: 23/11/2026 (1.381 personas: 318 evacuadas y 1.063 autoevacuadas), difundido por Diario Época. Verificación del 25/11/2026, 11:30 h.",
  "historial": [
   {
    "f": "16/10/2026",
@@ -417,6 +421,102 @@
    "auto": 58,
    "fuente": "Defensa Civil de Corrientes (relevamiento del 6/11 difundido por El Litoral y EsChaco)",
    "u": "https://www.eschaco.com/vernota.asp?id_noticia=133997"
+  },
+  {
+   "f": "23/11/2026",
+   "n": "Corrientes Capital",
+   "evac": 0,
+   "auto": 348,
+   "fuente": "Defensa Civil de Corrientes, informe al 23/11/2026 (Diario Época, vía Examedia, 25/11/2026)",
+   "u": "https://examedia.com.ar/portada/post/88292998"
+  },
+  {
+   "f": "23/11/2026",
+   "n": "Itatí",
+   "evac": 179,
+   "auto": 249,
+   "fuente": "Defensa Civil de Corrientes, informe al 23/11/2026 (Diario Época, vía Examedia, 25/11/2026)",
+   "u": "https://examedia.com.ar/portada/post/88292998"
+  },
+  {
+   "f": "23/11/2026",
+   "n": "Paso de la Patria",
+   "evac": 1,
+   "auto": 116,
+   "fuente": "Defensa Civil de Corrientes, informe al 23/11/2026 (Diario Época, vía Examedia, 25/11/2026)",
+   "u": "https://examedia.com.ar/portada/post/88292998"
+  },
+  {
+   "f": "23/11/2026",
+   "n": "Isla Apipé",
+   "evac": 109,
+   "auto": 0,
+   "fuente": "Defensa Civil de Corrientes, informe al 23/11/2026 (Diario Época, vía Examedia, 25/11/2026)",
+   "u": "https://examedia.com.ar/portada/post/88292998"
+  },
+  {
+   "f": "23/11/2026",
+   "n": "Goya (zona del puerto)",
+   "evac": 0,
+   "auto": 165,
+   "fuente": "Defensa Civil de Corrientes, informe al 23/11/2026 (Diario Época, vía Examedia, 25/11/2026)",
+   "u": "https://examedia.com.ar/portada/post/88292998"
+  },
+  {
+   "f": "23/11/2026",
+   "n": "Ituzaingó",
+   "evac": 17,
+   "auto": 0,
+   "fuente": "Defensa Civil de Corrientes, informe al 23/11/2026 (Diario Época, vía Examedia, 25/11/2026)",
+   "u": "https://examedia.com.ar/portada/post/88292998"
+  },
+  {
+   "f": "23/11/2026",
+   "n": "Yahapé",
+   "evac": 2,
+   "auto": 0,
+   "fuente": "Defensa Civil de Corrientes, informe al 23/11/2026 (Diario Época, vía Examedia, 25/11/2026)",
+   "u": "https://examedia.com.ar/portada/post/88292998"
+  },
+  {
+   "f": "23/11/2026",
+   "n": "Santa Lucía",
+   "evac": 0,
+   "auto": 21,
+   "fuente": "Defensa Civil de Corrientes, informe al 23/11/2026 (Diario Época, vía Examedia, 25/11/2026)",
+   "u": "https://examedia.com.ar/portada/post/88292998"
+  },
+  {
+   "f": "23/11/2026",
+   "n": "Cruz de los Milagros",
+   "evac": 0,
+   "auto": 40,
+   "fuente": "Defensa Civil de Corrientes, informe al 23/11/2026 (Diario Época, vía Examedia, 25/11/2026)",
+   "u": "https://examedia.com.ar/portada/post/88292998"
+  },
+  {
+   "f": "23/11/2026",
+   "n": "Bella Vista",
+   "evac": 0,
+   "auto": 16,
+   "fuente": "Defensa Civil de Corrientes, informe al 23/11/2026 (Diario Época, vía Examedia, 25/11/2026)",
+   "u": "https://examedia.com.ar/portada/post/88292998"
+  },
+  {
+   "f": "23/11/2026",
+   "n": "San Isidro",
+   "evac": 0,
+   "auto": 50,
+   "fuente": "Defensa Civil de Corrientes, informe al 23/11/2026 (Diario Época, vía Examedia, 25/11/2026)",
+   "u": "https://examedia.com.ar/portada/post/88292998"
+  },
+  {
+   "f": "23/11/2026",
+   "n": "Esquina",
+   "evac": 0,
+   "auto": 58,
+   "fuente": "Defensa Civil de Corrientes, informe al 23/11/2026 (Diario Época, vía Examedia, 25/11/2026)",
+   "u": "https://examedia.com.ar/portada/post/88292998"
   }
  ],
  "centros": [
@@ -471,7 +571,7 @@
    "n": "Corrientes Capital",
    "estado": "en regreso",
    "evac": 0,
-   "auto": null,
+   "auto": 348,
    "familias": null,
    "zonas": [
     "Las Tomateras",
@@ -500,14 +600,14 @@
     "Pujol"
    ],
    "centros": [],
-   "detalle": "El 20/11 se informó que ya no quedan personas alojadas en la Escuela N.º 293 Donato Álvarez (barrio Pujol), único centro de evacuados de la Capital, y que el 60 % de las familias autoevacuadas regresó a sus casas. Antes, el 13/11, la Agencia Federal de Emergencias había informado 690 vecinos con sus casas anegadas, y el último parte de Defensa Civil (06/11) registró 42 evacuados y 633 autoevacuados (202 familias). El 24/11 Infobae señaló que los barrios costeros de la Capital siguen muy comprometidos.",
-   "breve": "El 20/11 cerró el centro de evacuados de la Escuela 293 y el 60 % de los autoevacuados ya volvió a su casa.",
-   "f": "20/11/2026",
-   "f_iso": "2026-11-20",
-   "fuente": "LT7 Noticias, 20/11/2026 (también Actualidad Paraná y Momarandú)",
-   "u": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPMUpmamNpWnRSRFRNamR1Wk5zZUt3d1dMb0h6V3NIQUdPWEl6eW5HTnJfR3RFaWN4ODlaMkdHN3ZlcmdLQ0xfZFR6c19fUnJDQjNBM3lFaVRRVHA0N29pWkc3Rmx3OVpfT2Q3dklHa1RpNTMyVlg4eE9wMFdnWXozZlFfMGE2cGlOVE85OExlTm1UNkFCVl9rMklJQURSbE55anNyXzdTeXpjWWc3Szd0Nk5xd0RZbmItZEtpTGZHREh1MjVCWGNYcjlDdFJVWkE?oc=5",
-   "tipo": "prensa",
-   "personas": 690,
+   "detalle": "Defensa Civil informó 0 evacuados oficiales (el 15/11 eran 34) y 348 autoevacuados. Antes: El 20/11 se informó que ya no quedan personas alojadas en la Escuela N.º 293 Donato Álvarez (barrio Pujol), único centro de evacuados de la Capital, y que el 60 % de las familias autoevacuadas regresó a sus casas. Antes, el 13/11, la Agencia Federal de Emergencias había informado 690 vecinos con sus",
+   "breve": "Defensa Civil informó 0 evacuados oficiales (el 15/11 eran 34) y 348 autoevacuados.",
+   "f": "23/11/2026",
+   "f_iso": "2026-11-23",
+   "fuente": "Defensa Civil de Corrientes, informe al 23/11/2026 (Diario Época, vía Examedia, 25/11/2026)",
+   "u": "https://examedia.com.ar/portada/post/88292998",
+   "tipo": "oficial",
+   "personas": 348,
    "fuentes_zonas": [
     {
      "zona": "Zona norte y zona sur, incluida La Tosquera",
@@ -783,14 +883,23 @@
      "familias": null,
      "fuente": "LT7 Noticias: cierre del centro de la Escuela 293 y regreso del 60 % de los autoevacuados",
      "u": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPMUpmamNpWnRSRFRNamR1Wk5zZUt3d1dMb0h6V3NIQUdPWEl6eW5HTnJfR3RFaWN4ODlaMkdHN3ZlcmdLQ0xfZFR6c19fUnJDQjNBM3lFaVRRVHA0N29pWkc3Rmx3OVpfT2Q3dklHa1RpNTMyVlg4eE9wMFdnWXozZlFfMGE2cGlOVE85OExlTm1UNkFCVl9rMklJQURSbE55anNyXzdTeXpjWWc3Szd0Nk5xd0RZbmItZEtpTGZHREh1MjVCWGNYcjlDdFJVWkE?oc=5"
+    },
+    {
+     "f": "23/11/2026",
+     "f_iso": "2026-11-23",
+     "evac": 0,
+     "auto": 348,
+     "familias": null,
+     "fuente": "Defensa Civil de Corrientes, informe al 23/11/2026 (Diario Época, vía Examedia, 25/11/2026)",
+     "u": "https://examedia.com.ar/portada/post/88292998"
     }
    ]
   },
   {
    "n": "Itatí",
    "estado": "con evacuados",
-   "evac": null,
-   "auto": null,
+   "evac": 179,
+   "auto": 249,
    "familias": null,
    "zonas": [
     "Barrio Ibiray (Yvirá Í)",
@@ -801,14 +910,14 @@
     "Casa del Promesero",
     "Hospedaje Taba Cué"
    ],
-   "detalle": "El 13/11 la Agencia Federal de Emergencias informó 518 personas evacuadas o autoevacuadas en Itatí, la misma cifra del último parte de Defensa Civil (06/11: 190 evacuados y 328 autoevacuados, 123 familias). El 24/11 Infobae informó que la localidad sigue muy comprometida por la crecida, sin nueva cifra.",
-   "breve": "518 personas fuera de sus casas al 13/11. Es la localidad con más evacuados de la provincia.",
-   "f": "24/11/2026",
-   "f_iso": "2026-11-24",
-   "fuente": "Infobae (24/11/2026), según relevamientos de Defensa Civil de Corrientes, difundido por DataClave",
-   "u": "https://www.dataclave.com.ar/en-general/inundaciones-en-corrientes-y-chaco--casi-4-000-personas-evacuadas-y-alerta-por-nueva-crecida-del-parana_a6b05b5d7cf2ab53c0e24e6aa",
-   "tipo": "prensa",
-   "personas": 518,
+   "detalle": "Defensa Civil informó 429 personas afectadas: 179 evacuados y 249 autoevacuados, sin cambios en siete días. Antes: El 13/11 la Agencia Federal de Emergencias informó 518 personas evacuadas o autoevacuadas en Itatí, la misma cifra del último parte de Defensa Civil (06/11: 190 evacuados y 328 autoevacuados, 123 familias). El 24/11 Infobae informó que la localidad sigue muy comprometida por la crecida, sin nueva ci",
+   "breve": "Defensa Civil informó 429 personas afectadas: 179 evacuados y 249 autoevacuados, sin cambios en siete días.",
+   "f": "23/11/2026",
+   "f_iso": "2026-11-23",
+   "fuente": "Defensa Civil de Corrientes, informe al 23/11/2026 (Diario Época, vía Examedia, 25/11/2026)",
+   "u": "https://examedia.com.ar/portada/post/88292998",
+   "tipo": "oficial",
+   "personas": 429,
    "linea": [
     {
      "f": "16/10/2026",
@@ -908,6 +1017,15 @@
      "familias": null,
      "fuente": "Agencia Federal de Emergencias (Infobae)",
      "u": "https://www.infobae.com/sociedad/2026/11/13/el-nino-diez-ciudades-del-litoral-continuan-con-el-agua-en-niveles-de-evacuacion-y-son-mas-de-4500-las-personas-afectadas/"
+    },
+    {
+     "f": "23/11/2026",
+     "f_iso": "2026-11-23",
+     "evac": 179,
+     "auto": 249,
+     "familias": null,
+     "fuente": "Defensa Civil de Corrientes, informe al 23/11/2026 (Diario Época, vía Examedia, 25/11/2026)",
+     "u": "https://examedia.com.ar/portada/post/88292998"
     }
    ],
    "fuentes_zonas": [
@@ -934,8 +1052,8 @@
   {
    "n": "Paso de la Patria",
    "estado": "con evacuados",
-   "evac": null,
-   "auto": null,
+   "evac": 1,
+   "auto": 116,
    "familias": null,
    "zonas": [
     "Don Julián",
@@ -953,14 +1071,14 @@
     "Escuela Secundaria",
     "Polideportivo municipal"
    ],
-   "detalle": "El 13/11 la Agencia Federal de Emergencias informó 228 personas evacuadas o autoevacuadas, la misma cifra del parte de Defensa Civil del 06/11 (8 evacuados y 220 autoevacuados, 68 familias). Los barrios Don Julián, La Isla y Pescadores quedaron bajo el agua tras la rotura de un terraplén (27/10). El 24/11 Infobae informó que la localidad sigue muy comprometida por la crecida, sin nueva cifra.",
-   "breve": "228 personas fuera de sus casas al 13/11; los barrios más afectados son Don Julián, La Isla y Pescadores.",
-   "f": "24/11/2026",
-   "f_iso": "2026-11-24",
-   "fuente": "Infobae (24/11/2026), según relevamientos de Defensa Civil de Corrientes, difundido por DataClave",
-   "u": "https://www.dataclave.com.ar/en-general/inundaciones-en-corrientes-y-chaco--casi-4-000-personas-evacuadas-y-alerta-por-nueva-crecida-del-parana_a6b05b5d7cf2ab53c0e24e6aa",
-   "tipo": "prensa",
-   "personas": 228,
+   "detalle": "Defensa Civil informó 1 evacuado y 116 autoevacuados; el 15/11 eran 8 y 220. Antes: El 13/11 la Agencia Federal de Emergencias informó 228 personas evacuadas o autoevacuadas, la misma cifra del parte de Defensa Civil del 06/11 (8 evacuados y 220 autoevacuados, 68 familias). Los barrios Don Julián, La Isla y Pescadores quedaron bajo el agua tras la rotura de un terraplén (27/10). El",
+   "breve": "Defensa Civil informó 1 evacuado y 116 autoevacuados; el 15/11 eran 8 y 220.",
+   "f": "23/11/2026",
+   "f_iso": "2026-11-23",
+   "fuente": "Defensa Civil de Corrientes, informe al 23/11/2026 (Diario Época, vía Examedia, 25/11/2026)",
+   "u": "https://examedia.com.ar/portada/post/88292998",
+   "tipo": "oficial",
+   "personas": 117,
    "linea": [
     {
      "f": "18/10/2026",
@@ -1035,6 +1153,15 @@
      "familias": null,
      "fuente": "Agencia Federal de Emergencias (Infobae)",
      "u": "https://www.infobae.com/sociedad/2026/11/13/el-nino-diez-ciudades-del-litoral-continuan-con-el-agua-en-niveles-de-evacuacion-y-son-mas-de-4500-las-personas-afectadas/"
+    },
+    {
+     "f": "23/11/2026",
+     "f_iso": "2026-11-23",
+     "evac": 1,
+     "auto": 116,
+     "familias": null,
+     "fuente": "Defensa Civil de Corrientes, informe al 23/11/2026 (Diario Época, vía Examedia, 25/11/2026)",
+     "u": "https://examedia.com.ar/portada/post/88292998"
     }
    ],
    "fuentes_zonas": [
@@ -1085,7 +1212,7 @@
   {
    "n": "Isla Apipé",
    "estado": "con evacuados",
-   "evac": null,
+   "evac": 109,
    "auto": null,
    "familias": null,
    "zonas": [
@@ -1096,14 +1223,14 @@
     "Viviendas municipales",
     "Capilla de Isla Apipé Chico"
    ],
-   "detalle": "El 13/11 la Agencia Federal de Emergencias informó 211 personas evacuadas o autoevacuadas en Isla Apipé (Defensa Civil, 06/11: 185 evacuados, 94 familias). Aunque el río bajó, el intendente pidió que las familias no regresen todavía porque se prevé una nueva suba.",
-   "breve": "211 personas fuera de sus casas al 13/11. El intendente pidió no regresar todavía.",
-   "f": "13/11/2026",
-   "f_iso": "2026-11-13",
-   "fuente": "Agencia Federal de Emergencias (Infobae); pedido del intendente según El Monterizo (11/11)",
-   "u": "https://www.infobae.com/sociedad/2026/11/13/el-nino-diez-ciudades-del-litoral-continuan-con-el-agua-en-niveles-de-evacuacion-y-son-mas-de-4500-las-personas-afectadas/",
-   "tipo": "prensa",
-   "personas": 211,
+   "detalle": "Defensa Civil informó 109 evacuados; 86 personas volvieron a sus casas en la última semana. Antes: El 13/11 la Agencia Federal de Emergencias informó 211 personas evacuadas o autoevacuadas en Isla Apipé (Defensa Civil, 06/11: 185 evacuados, 94 familias). Aunque el río bajó, el intendente pidió que las familias no regresen todavía porque se prevé una nueva suba.",
+   "breve": "Defensa Civil informó 109 evacuados; 86 personas volvieron a sus casas en la última semana.",
+   "f": "23/11/2026",
+   "f_iso": "2026-11-23",
+   "fuente": "Defensa Civil de Corrientes, informe al 23/11/2026 (Diario Época, vía Examedia, 25/11/2026)",
+   "u": "https://examedia.com.ar/portada/post/88292998",
+   "tipo": "oficial",
+   "personas": 109,
    "linea": [
     {
      "f": "14/10/2026",
@@ -1185,6 +1312,15 @@
      "familias": null,
      "fuente": "Agencia Federal de Emergencias (Infobae)",
      "u": "https://www.infobae.com/sociedad/2026/11/13/el-nino-diez-ciudades-del-litoral-continuan-con-el-agua-en-niveles-de-evacuacion-y-son-mas-de-4500-las-personas-afectadas/"
+    },
+    {
+     "f": "23/11/2026",
+     "f_iso": "2026-11-23",
+     "evac": 109,
+     "auto": null,
+     "familias": null,
+     "fuente": "Defensa Civil de Corrientes, informe al 23/11/2026 (Diario Época, vía Examedia, 25/11/2026)",
+     "u": "https://examedia.com.ar/portada/post/88292998"
     }
    ],
    "fuentes_zonas": [
@@ -1205,8 +1341,8 @@
   {
    "n": "Goya",
    "estado": "con evacuados",
-   "evac": null,
-   "auto": null,
+   "evac": 0,
+   "auto": 165,
    "familias": 97,
    "zonas": [
     "Zona del puerto y Puerto Boca",
@@ -1217,13 +1353,13 @@
     "Paraje Las Piedras"
    ],
    "centros": [],
-   "detalle": "El Comando Operativo de Emergencias de Goya informó 97 familias autoevacuadas el 10/11 a las 20 h, con el río en 5,95 m y estacionario. La Municipalidad entregó 90 casillas de emergencia y el Ejército colocó un puente en el paraje Soledad. Defensa Civil (06/11) ubicaba a los autoevacuados en la zona del puerto.",
-   "breve": "97 familias autoevacuadas al 10/11, con el río en 5,95 m. Se entregaron 90 casillas de emergencia.",
-   "f": "10/11/2026",
-   "f_iso": "2026-11-10",
-   "fuente": "COE de Goya (Municipalidad), difundido por InfoGoya y El Litoral",
-   "u": "https://infogoya.com/coe-goya-rio-97-familias-autoevacuadas/",
-   "tipo": "municipal",
+   "detalle": "Defensa Civil informó 165 autoevacuados en la zona del puerto; el 15/11 eran 157. Antes: El Comando Operativo de Emergencias de Goya informó 97 familias autoevacuadas el 10/11 a las 20 h, con el río en 5,95 m y estacionario. La Municipalidad entregó 90 casillas de emergencia y el Ejército colocó un puente en el paraje Soledad. Defensa Civil (06/11) ubicaba a los autoevacuados en la zona",
+   "breve": "Defensa Civil informó 165 autoevacuados en la zona del puerto; el 15/11 eran 157.",
+   "f": "23/11/2026",
+   "f_iso": "2026-11-23",
+   "fuente": "Defensa Civil de Corrientes, informe al 23/11/2026 (Diario Época, vía Examedia, 25/11/2026)",
+   "u": "https://examedia.com.ar/portada/post/88292998",
+   "tipo": "oficial",
    "linea": [
     {
      "f": "31/10/2026",
@@ -1308,6 +1444,15 @@
      "familias": 97,
      "fuente": "COE de Goya (InfoGoya)",
      "u": "https://infogoya.com/coe-goya-rio-97-familias-autoevacuadas/"
+    },
+    {
+     "f": "23/11/2026",
+     "f_iso": "2026-11-23",
+     "evac": null,
+     "auto": 165,
+     "familias": null,
+     "fuente": "Defensa Civil de Corrientes, informe al 23/11/2026 (Diario Época, vía Examedia, 25/11/2026)",
+     "u": "https://examedia.com.ar/portada/post/88292998"
     }
    ],
    "fuentes_zonas": [
@@ -1347,7 +1492,8 @@
      "f": "07/11/2026",
      "u": "https://www.ellitoral.com.ar/interior/2026-11-8-8-35-0-aunque-el-rio-parana-descendio-ya-son-92-las-familias-autoevacuadas-en-goya"
     }
-   ]
+   ],
+   "personas": 165
   },
   {
    "n": "Ituzaingó",
@@ -1364,12 +1510,12 @@
     "Salón de usos múltiples y albergue del Club San Martín",
     "Casas de familiares y salón de usos múltiples"
    ],
-   "detalle": "Último parte de Defensa Civil de Corrientes (06/11): 17 evacuados (4 familias). No se halló un dato más nuevo.",
-   "breve": "17 evacuados (4 familias) según Defensa Civil (06/11).",
-   "f": "06/11/2026",
-   "f_iso": "2026-11-06",
-   "fuente": "Defensa Civil de Corrientes (El Litoral)",
-   "u": "https://www.ellitoral.com.ar/sociedad/2026-11-5-19-39-0-el-parana-se-estaciona-y-corrientes-tiene-1-967-evacuados-por-la-crecida",
+   "detalle": "Defensa Civil informó 17 evacuados, sin cambios. Antes: Último parte de Defensa Civil de Corrientes (06/11): 17 evacuados (4 familias). No se halló un dato más nuevo.",
+   "breve": "Defensa Civil informó 17 evacuados, sin cambios.",
+   "f": "23/11/2026",
+   "f_iso": "2026-11-23",
+   "fuente": "Defensa Civil de Corrientes, informe al 23/11/2026 (Diario Época, vía Examedia, 25/11/2026)",
+   "u": "https://examedia.com.ar/portada/post/88292998",
    "tipo": "oficial",
    "linea": [
     {
@@ -1427,6 +1573,15 @@
      "familias": 4,
      "fuente": "Defensa Civil de Corrientes (El Litoral)",
      "u": "https://www.ellitoral.com.ar/sociedad/2026-11-5-19-39-0-el-parana-se-estaciona-y-corrientes-tiene-1-967-evacuados-por-la-crecida"
+    },
+    {
+     "f": "23/11/2026",
+     "f_iso": "2026-11-23",
+     "evac": 17,
+     "auto": null,
+     "familias": null,
+     "fuente": "Defensa Civil de Corrientes, informe al 23/11/2026 (Diario Época, vía Examedia, 25/11/2026)",
+     "u": "https://examedia.com.ar/portada/post/88292998"
     }
    ],
    "fuentes_zonas": [
@@ -1448,7 +1603,8 @@
      "f": "16/10/2026",
      "u": "https://www.diarioellibertador.com.ar/crecida-rio-itati-evacuados-ituzaingo/"
     }
-   ]
+   ],
+   "personas": 17
   },
   {
    "n": "Esquina",
@@ -1463,12 +1619,12 @@
    "centros": [
     "Espacio municipal con 96 camas"
    ],
-   "detalle": "Último parte de Defensa Civil de Corrientes (06/11): 58 autoevacuados (35 familias). No se halló un dato más nuevo.",
-   "breve": "58 autoevacuados (35 familias) según Defensa Civil (06/11).",
-   "f": "06/11/2026",
-   "f_iso": "2026-11-06",
-   "fuente": "Defensa Civil de Corrientes (El Litoral)",
-   "u": "https://www.ellitoral.com.ar/sociedad/2026-11-5-19-39-0-el-parana-se-estaciona-y-corrientes-tiene-1-967-evacuados-por-la-crecida",
+   "detalle": "Defensa Civil informó 58 autoevacuados, sin cambios. Antes: Último parte de Defensa Civil de Corrientes (06/11): 58 autoevacuados (35 familias). No se halló un dato más nuevo.",
+   "breve": "Defensa Civil informó 58 autoevacuados, sin cambios.",
+   "f": "23/11/2026",
+   "f_iso": "2026-11-23",
+   "fuente": "Defensa Civil de Corrientes, informe al 23/11/2026 (Diario Época, vía Examedia, 25/11/2026)",
+   "u": "https://examedia.com.ar/portada/post/88292998",
    "tipo": "oficial",
    "linea": [
     {
@@ -1488,6 +1644,15 @@
      "familias": 35,
      "fuente": "Defensa Civil de Corrientes (El Litoral)",
      "u": "https://www.ellitoral.com.ar/sociedad/2026-11-5-19-39-0-el-parana-se-estaciona-y-corrientes-tiene-1-967-evacuados-por-la-crecida"
+    },
+    {
+     "f": "23/11/2026",
+     "f_iso": "2026-11-23",
+     "evac": null,
+     "auto": 58,
+     "familias": null,
+     "fuente": "Defensa Civil de Corrientes, informe al 23/11/2026 (Diario Época, vía Examedia, 25/11/2026)",
+     "u": "https://examedia.com.ar/portada/post/88292998"
     }
    ],
    "fuentes_zonas": [
@@ -1503,7 +1668,8 @@
      "f": "noviembre de 2026",
      "u": "https://elmonterizo.com/el-rio-paso-la-marca-de-evacuacion-y-las-lanchas-no-llegaron-a-las-islas"
     }
-   ]
+   ],
+   "personas": 58
   },
   {
    "n": "San Isidro",
@@ -1516,12 +1682,12 @@
     "Costanera del paraje Stella Maris (agua en accesos y patios)"
    ],
    "centros": [],
-   "detalle": "Último parte de Defensa Civil de Corrientes (06/11): 50 autoevacuados (10 familias). No se halló un dato más nuevo.",
-   "breve": "50 autoevacuados (10 familias) según Defensa Civil (06/11).",
-   "f": "06/11/2026",
-   "f_iso": "2026-11-06",
-   "fuente": "Defensa Civil de Corrientes (El Litoral)",
-   "u": "https://www.ellitoral.com.ar/sociedad/2026-11-5-19-39-0-el-parana-se-estaciona-y-corrientes-tiene-1-967-evacuados-por-la-crecida",
+   "detalle": "Defensa Civil informó 50 autoevacuados, sin cambios. Antes: Último parte de Defensa Civil de Corrientes (06/11): 50 autoevacuados (10 familias). No se halló un dato más nuevo.",
+   "breve": "Defensa Civil informó 50 autoevacuados, sin cambios.",
+   "f": "23/11/2026",
+   "f_iso": "2026-11-23",
+   "fuente": "Defensa Civil de Corrientes, informe al 23/11/2026 (Diario Época, vía Examedia, 25/11/2026)",
+   "u": "https://examedia.com.ar/portada/post/88292998",
    "tipo": "oficial",
    "linea": [
     {
@@ -1542,6 +1708,15 @@
      "familias": 10,
      "fuente": "Defensa Civil de Corrientes (El Litoral)",
      "u": "https://www.ellitoral.com.ar/sociedad/2026-11-5-19-39-0-el-parana-se-estaciona-y-corrientes-tiene-1-967-evacuados-por-la-crecida"
+    },
+    {
+     "f": "23/11/2026",
+     "f_iso": "2026-11-23",
+     "evac": null,
+     "auto": 50,
+     "familias": null,
+     "fuente": "Defensa Civil de Corrientes, informe al 23/11/2026 (Diario Época, vía Examedia, 25/11/2026)",
+     "u": "https://examedia.com.ar/portada/post/88292998"
     }
    ],
    "fuentes_zonas": [
@@ -1557,7 +1732,8 @@
      "f": "05/11/2026",
      "u": "https://www.diarioellibertador.com.ar/goya-crecida-parana-63-familias-evacuadas-zona-puerto-aislados-ruta-82/"
     }
-   ]
+   ],
+   "personas": 50
   },
   {
    "n": "Cruz de los Milagros",
@@ -1567,12 +1743,12 @@
    "familias": 7,
    "zonas": [],
    "centros": [],
-   "detalle": "Último parte de Defensa Civil de Corrientes (06/11): 40 autoevacuados (7 familias). No se halló un dato más nuevo.",
-   "breve": "40 autoevacuados (7 familias) según Defensa Civil (06/11).",
-   "f": "06/11/2026",
-   "f_iso": "2026-11-06",
-   "fuente": "Defensa Civil de Corrientes (El Litoral)",
-   "u": "https://www.ellitoral.com.ar/sociedad/2026-11-5-19-39-0-el-parana-se-estaciona-y-corrientes-tiene-1-967-evacuados-por-la-crecida",
+   "detalle": "Defensa Civil informó 40 autoevacuados, sin cambios. Antes: Último parte de Defensa Civil de Corrientes (06/11): 40 autoevacuados (7 familias). No se halló un dato más nuevo.",
+   "breve": "Defensa Civil informó 40 autoevacuados, sin cambios.",
+   "f": "23/11/2026",
+   "f_iso": "2026-11-23",
+   "fuente": "Defensa Civil de Corrientes, informe al 23/11/2026 (Diario Época, vía Examedia, 25/11/2026)",
+   "u": "https://examedia.com.ar/portada/post/88292998",
    "tipo": "oficial",
    "linea": [
     {
@@ -1611,8 +1787,18 @@
      "familias": 7,
      "fuente": "Defensa Civil de Corrientes (El Litoral)",
      "u": "https://www.ellitoral.com.ar/sociedad/2026-11-5-19-39-0-el-parana-se-estaciona-y-corrientes-tiene-1-967-evacuados-por-la-crecida"
+    },
+    {
+     "f": "23/11/2026",
+     "f_iso": "2026-11-23",
+     "evac": null,
+     "auto": 40,
+     "familias": null,
+     "fuente": "Defensa Civil de Corrientes, informe al 23/11/2026 (Diario Época, vía Examedia, 25/11/2026)",
+     "u": "https://examedia.com.ar/portada/post/88292998"
     }
-   ]
+   ],
+   "personas": 40
   },
   {
    "n": "Santa Lucía",
@@ -1622,12 +1808,12 @@
    "familias": 5,
    "zonas": [],
    "centros": [],
-   "detalle": "Último parte de Defensa Civil de Corrientes (06/11): 21 autoevacuados (5 familias). No se halló un dato más nuevo.",
-   "breve": "21 autoevacuados (5 familias) según Defensa Civil (06/11).",
-   "f": "06/11/2026",
-   "f_iso": "2026-11-06",
-   "fuente": "Defensa Civil de Corrientes (El Litoral)",
-   "u": "https://www.ellitoral.com.ar/sociedad/2026-11-5-19-39-0-el-parana-se-estaciona-y-corrientes-tiene-1-967-evacuados-por-la-crecida",
+   "detalle": "Defensa Civil informó 21 autoevacuados, sin cambios. Antes: Último parte de Defensa Civil de Corrientes (06/11): 21 autoevacuados (5 familias). No se halló un dato más nuevo.",
+   "breve": "Defensa Civil informó 21 autoevacuados, sin cambios.",
+   "f": "23/11/2026",
+   "f_iso": "2026-11-23",
+   "fuente": "Defensa Civil de Corrientes, informe al 23/11/2026 (Diario Época, vía Examedia, 25/11/2026)",
+   "u": "https://examedia.com.ar/portada/post/88292998",
    "tipo": "oficial",
    "linea": [
     {
@@ -1665,8 +1851,18 @@
      "familias": 5,
      "fuente": "Defensa Civil de Corrientes (El Litoral)",
      "u": "https://www.ellitoral.com.ar/sociedad/2026-11-5-19-39-0-el-parana-se-estaciona-y-corrientes-tiene-1-967-evacuados-por-la-crecida"
+    },
+    {
+     "f": "23/11/2026",
+     "f_iso": "2026-11-23",
+     "evac": null,
+     "auto": 21,
+     "familias": null,
+     "fuente": "Defensa Civil de Corrientes, informe al 23/11/2026 (Diario Época, vía Examedia, 25/11/2026)",
+     "u": "https://examedia.com.ar/portada/post/88292998"
     }
-   ]
+   ],
+   "personas": 21
   },
   {
    "n": "Bella Vista",
@@ -1676,12 +1872,12 @@
    "familias": 4,
    "zonas": [],
    "centros": [],
-   "detalle": "Último parte de Defensa Civil de Corrientes (06/11): 16 autoevacuados (4 familias). No se halló un dato más nuevo.",
-   "breve": "16 autoevacuados (4 familias) según Defensa Civil (06/11).",
-   "f": "06/11/2026",
-   "f_iso": "2026-11-06",
-   "fuente": "Defensa Civil de Corrientes (El Litoral)",
-   "u": "https://www.ellitoral.com.ar/sociedad/2026-11-5-19-39-0-el-parana-se-estaciona-y-corrientes-tiene-1-967-evacuados-por-la-crecida",
+   "detalle": "Defensa Civil informó 16 autoevacuados, sin cambios. Antes: Último parte de Defensa Civil de Corrientes (06/11): 16 autoevacuados (4 familias). No se halló un dato más nuevo.",
+   "breve": "Defensa Civil informó 16 autoevacuados, sin cambios.",
+   "f": "23/11/2026",
+   "f_iso": "2026-11-23",
+   "fuente": "Defensa Civil de Corrientes, informe al 23/11/2026 (Diario Época, vía Examedia, 25/11/2026)",
+   "u": "https://examedia.com.ar/portada/post/88292998",
    "tipo": "oficial",
    "linea": [
     {
@@ -1711,8 +1907,18 @@
      "familias": 4,
      "fuente": "Defensa Civil de Corrientes (El Litoral)",
      "u": "https://www.ellitoral.com.ar/sociedad/2026-11-5-19-39-0-el-parana-se-estaciona-y-corrientes-tiene-1-967-evacuados-por-la-crecida"
+    },
+    {
+     "f": "23/11/2026",
+     "f_iso": "2026-11-23",
+     "evac": null,
+     "auto": 16,
+     "familias": null,
+     "fuente": "Defensa Civil de Corrientes, informe al 23/11/2026 (Diario Época, vía Examedia, 25/11/2026)",
+     "u": "https://examedia.com.ar/portada/post/88292998"
     }
-   ]
+   ],
+   "personas": 16
   },
   {
    "n": "Paso de los Libres",
@@ -1794,12 +2000,12 @@
    "familias": 1,
    "zonas": [],
    "centros": [],
-   "detalle": "Defensa Civil de Corrientes registró 2 evacuados de una familia, alojados en casa de familiares (16/10 y 02/11). No se halló un dato más nuevo.",
-   "breve": "2 evacuados (una familia) según Defensa Civil (02/11).",
-   "f": "02/11/2026",
-   "f_iso": "2026-11-02",
-   "fuente": "Defensa Civil de Corrientes (El Monterizo)",
-   "u": "https://elmonterizo.com/el-parana-bajo-pero-en-corrientes-hay-220-personas-mas-fuera-de-sus-casas",
+   "detalle": "Defensa Civil informó 2 evacuados, sin cambios. Antes: Defensa Civil de Corrientes registró 2 evacuados de una familia, alojados en casa de familiares (16/10 y 02/11). No se halló un dato más nuevo.",
+   "breve": "Defensa Civil informó 2 evacuados, sin cambios.",
+   "f": "23/11/2026",
+   "f_iso": "2026-11-23",
+   "fuente": "Defensa Civil de Corrientes, informe al 23/11/2026 (Diario Época, vía Examedia, 25/11/2026)",
+   "u": "https://examedia.com.ar/portada/post/88292998",
    "tipo": "oficial",
    "linea": [
     {
@@ -1819,8 +2025,18 @@
      "familias": null,
      "fuente": "Defensa Civil de Corrientes (El Monterizo)",
      "u": "https://elmonterizo.com/el-parana-bajo-pero-en-corrientes-hay-220-personas-mas-fuera-de-sus-casas"
+    },
+    {
+     "f": "23/11/2026",
+     "f_iso": "2026-11-23",
+     "evac": 2,
+     "auto": null,
+     "familias": null,
+     "fuente": "Defensa Civil de Corrientes, informe al 23/11/2026 (Diario Época, vía Examedia, 25/11/2026)",
+     "u": "https://examedia.com.ar/portada/post/88292998"
     }
-   ]
+   ],
+   "personas": 2
   },
   {
    "n": "San Cosme",

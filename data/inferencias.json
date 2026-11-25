@@ -1,5 +1,5 @@
 {
- "actualizado": "25/11/2026, 10:55 h",
+ "actualizado": "25/11/2026, 11:30 h",
  "aviso": "Inferencias propias del tablero, elaboradas con procesamiento lógico a partir de sus registros y de fuentes oficiales. No son avisos oficiales: ante una emergencia, siga las indicaciones de Defensa Civil y del SMN.",
  "vigentes": [
   {
@@ -78,9 +78,9 @@
    "id": "evacuados-sin-regreso",
    "tema": "🏘️ Barrios",
    "titulo": "Aunque el río baja, las familias evacuadas todavía no vuelven a sus casas",
-   "texto": "Al 24/11, Infobae informó unas 1.300 personas desplazadas en Corrientes según Defensa Civil, con cerca de 500 regresos en la última semana. Itatí, Paso de la Patria y barrios costeros de la Capital siguen muy comprometidos, y se espera un nuevo repunte del río.",
+   "texto": "Según Defensa Civil, al 23/11 seguían fuera de sus casas 1.381 personas (318 evacuadas y 1.063 autoevacuadas), 528 menos que el 15/11. Itatí (429), Capital (348 autoevacuados) y Paso de la Patria (117) lideran, y se espera un nuevo repunte del río hacia el 1/12.",
    "base": [
-    "Infobae, 24/11/2026 (vía DataClave)",
+    "Defensa Civil de Corrientes, informe al 23/11 (Diario Época vía Examedia)",
     "INA, reporte diario del 24/11/2026"
    ],
    "confianza": "media",
@@ -90,6 +90,21 @@
   }
  ],
  "historial": [
+  {
+   "id": "evacuados-sin-regreso",
+   "tema": "🏘️ Barrios",
+   "titulo": "Aunque el río baja, las familias evacuadas todavía no vuelven a sus casas",
+   "texto": "Según Defensa Civil, al 23/11 seguían fuera de sus casas 1.381 personas (318 evacuadas y 1.063 autoevacuadas), 528 menos que el 15/11. Itatí (429), Capital (348 autoevacuados) y Paso de la Patria (117) lideran, y se espera un nuevo repunte del río hacia el 1/12.",
+   "base": [
+    "Defensa Civil de Corrientes, informe al 23/11 (Diario Época vía Examedia)",
+    "INA, reporte diario del 24/11/2026"
+   ],
+   "confianza": "media",
+   "horizonte": "próximas semanas",
+   "ambito": "global",
+   "localidad": "Provincia de Corrientes",
+   "fecha": "25/11/2026"
+  },
   {
    "id": "evacuados-sin-regreso",
    "tema": "🏘️ Barrios",

@@ -1,5 +1,5 @@
 {
- "actualizado": "25/11/2026, 10:55 h",
+ "actualizado": "25/11/2026, 11:30 h",
  "explicacion": "Cada actualización suma registros: barrios afectados con la altura del río o la lluvia de ese día, obras terminadas, reportes de vecinos verificados y la comparación entre lo pronosticado y lo que ocurrió. Con esa comparación se detectan desvíos y se proponen ajustes a los cálculos, que revisa el autor del tablero.",
  "contadores": {
   "barrios_documentados": 87,
@@ -7,9 +7,16 @@
   "reportes_verificados": 0,
   "comparaciones_rio": 3,
   "comparaciones_lluvia": 5,
-  "aprendizajes": 82
+  "aprendizajes": 83
  },
  "aprendizajes": [
+  {
+   "fecha": "2026-11-25",
+   "tipo": "evacuacion",
+   "lugar": "Provincia de Corrientes",
+   "dato": "El informe de Defensa Civil al 23/11 registró 1.381 evacuados y autoevacuados (318 y 1.063), contra 1.909 el 15/11, con el Paraná en 5,65 m en la Capital.",
+   "fuente": "Defensa Civil de Corrientes, informe al 23/11/2026 (Diario Época, vía Examedia, 25/11/2026)"
+  },
   {
    "fecha": "2026-11-25",
    "tipo": "evacuacion",
