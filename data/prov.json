@@ -11,17 +11,17 @@
   "fecha": "13/11/2026, 18:35 h"
  },
  "met_revision": "aae6c54b1ab7086a927cf2e4bb8e34a53a584e781ba42ff90ab9d653046ddc38",
- "actualizado": "25/11/2026, 13:38 h",
+ "actualizado": "25/11/2026, 16:30 h",
  "localidades": [
   {
    "n": "Corrientes Capital",
    "dep": "Capital",
    "ref": "Corrientes Capital",
    "rio": "Paraná",
-   "altura": 5.67,
+   "altura": 5.66,
    "alerta": 6.5,
    "evac": 7.0,
-   "reg": "25/11/2026, 00:00 h (Prefectura Naval Argentina, vía rioparana.com.ar)"
+   "reg": "25/11/2026, 12:00 h (Prefectura Naval Argentina, vía rioparana.com.ar)"
   },
   {
    "n": "Riachuelo",
@@ -1143,7 +1143,7 @@
    }
   ]
  },
- "pron_actualizado": "25/11/2026, 15:53 h",
+ "pron_actualizado": "25/11/2026, 16:29 h",
  "smn": [],
  "nota_alertas": "alerta vencida sin reconfirmación"
 }
