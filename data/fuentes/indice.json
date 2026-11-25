@@ -1,6 +1,6 @@
 {
- "consultado": "25/11/2026, 10:34 h",
- "consultado_iso": "2026-11-25T10:34-03:00",
+ "consultado": "25/11/2026, 10:38 h",
+ "consultado_iso": "2026-11-25T10:38-03:00",
  "paginas": {
   "smn_alertas": {
    "url": "https://www.smn.gob.ar/alertas",
@@ -129,6 +129,29 @@
    "archivo": "data/fuentes/coe_a_2026_0164_CP.txt"
   }
  },
+ "pedidas": {
+  "https://www.diarioepoca.com/1395909-corrientes-siguen-1300-desplazados-y-esperan-un-repunte-del-rio-parana": {
+   "url": "https://www.diarioepoca.com/1395909-corrientes-siguen-1300-desplazados-y-esperan-un-repunte-del-rio-parana",
+   "estado": "error",
+   "detalle": "HTTP Error 404: NOT FOUND"
+  },
+  "https://www.radiodos.com.ar/217560-creciente-se-espera-un-repunte-del-rio-parana-y-mas-de-1300-personas-continuan-desplazadas": {
+   "url": "https://www.radiodos.com.ar/217560-creciente-se-espera-un-repunte-del-rio-parana-y-mas-de-1300-personas-continuan-desplazadas",
+   "estado": "error",
+   "detalle": "HTTP Error 404: NOT FOUND"
+  },
+  "https://www.dataclave.com.ar/en-general/inundaciones-en-corrientes-y-chaco--casi-4-000-personas-evacuadas-y-alerta-por-nueva-crecida-del-parana_a6b05b5d7cf2ab53c0e24e6aa": {
+   "url": "https://www.dataclave.com.ar/en-general/inundaciones-en-corrientes-y-chaco--casi-4-000-personas-evacuadas-y-alerta-por-nueva-crecida-del-parana_a6b05b5d7cf2ab53c0e24e6aa",
+   "estado": 200,
+   "caracteres": 6187,
+   "archivo": "data/fuentes/web/dataclave_com_ar_en_general_inundaciones_en_corrientes_y_chaco_casi_4_000_personas_evacuad.txt"
+  },
+  "https://www.diarioepoca.com/1394115-pese-al-leve-retroceso-del-parana-subio-el-numero-de-desplazados": {
+   "url": "https://www.diarioepoca.com/1394115-pese-al-leve-retroceso-del-parana-subio-el-numero-de-desplazados",
+   "estado": "error",
+   "detalle": "HTTP Error 404: NOT FOUND"
+  }
+ },
  "portales": {
   "munired_municipio_corrientes": {
    "url": "https://munired.mcypcorrientes.gob.ar/noticias/corrientes",
@@ -161,24 +184,5 @@
    "archivo": "data/fuentes/portales/eby_noticias.txt"
   }
  },
- "pedidas": {
-  "https://www.ellitoral.com.ar/ciudad/2026-11-24-10-12-0-lluvias-en-corrientes-cayeron-mas-de-72-milimetros-y-desplegaron-cuadrillas-municipales": {
-   "url": "https://www.ellitoral.com.ar/ciudad/2026-11-24-10-12-0-lluvias-en-corrientes-cayeron-mas-de-72-milimetros-y-desplegaron-cuadrillas-municipales",
-   "estado": 200,
-   "caracteres": 2122,
-   "archivo": "data/fuentes/web/ellitoral_com_ar_ciudad_2026_11_24_10_12_0_lluvias_en_corrientes_cayeron_mas_de_72_milimet.txt"
-  },
-  "https://diario1588.com/?p=272219": {
-   "url": "https://diario1588.com/?p=272219",
-   "estado": 200,
-   "caracteres": 3856,
-   "archivo": "data/fuentes/web/diario1588_com_p_272219.txt"
-  },
-  "https://www.corrienteshoy.com/info-general/desagues-tapados-y-72-milimetros-caidos-en-la-capital-correntina.htm": {
-   "url": "https://www.corrienteshoy.com/info-general/desagues-tapados-y-72-milimetros-caidos-en-la-capital-correntina.htm",
-   "estado": "error",
-   "detalle": "HTTP Error 404: NOT FOUND"
-  }
- },
- "pedidas_consultado": "24/11/2026, 15:10 h"
+ "pedidas_consultado": "25/11/2026, 10:38 h"
 }
