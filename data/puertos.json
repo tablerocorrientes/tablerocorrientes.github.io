@@ -659,6 +659,30 @@
  "prensa_fecha": "14/11/2026, 09:12 h",
  "prensa": [
   {
+   "fecha": "25/11/2026",
+   "medio": "Diario Primera Hora",
+   "titulo": "VUELVE A CRECER EL RÍO URUGUAY SOBRE LAS COSTAS DE CORRIENTES",
+   "enlace": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRkVNbzNPVDdtOGpwSnNOc1dxWV9ham1hVWxEaGJzeEpuZnkwU2dtTDhEbUt6SzBRZkhDZ1dwSk9SS3hpbXoxZjRYTEp5Q3hHUnVuWVBjMTgxcGVPZ1dFWHJtU3haY2RxakdCMDNVcFlNVXB2U0ZBdjFtRnpyNGJ0ZlJ1d19VVmRvU2FlTXppNmV5VnlkSlEtNGJ6NEZwalg5N0xBRDR0RC1vODRkUV9sZ1VLT0JrZw?oc=5",
+   "breve": "VUELVE A CRECER EL RÍO URUGUAY SOBRE LAS COSTAS DE CORRIENTES",
+   "auto": true
+  },
+  {
+   "fecha": "25/11/2026",
+   "medio": "Corrientes Hoy",
+   "titulo": "Limpian del paseo inferior de la Costanera de Goya tras la bajante del Paraná",
+   "enlace": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZkZfQnRZYWRMbERtSlJXaE90SDNUdWp6cFJLU2ZQU09ZX1p3Nk80Zk9SNzVjcEVHZ3FLeW1LVlo5MkN0VFFwaFVxWDl2T0wzZ08yem5aU3dDOWZMYzlTVEY2RWhmVS1WUUNWM1FHYXdFSmtqQ3dyNHUweFRhaC05NHY1bmJyakN4OGk0SXUtek9ZcGpTRWZwYm5XV2FIRnpWdkVtM1ZYNTAyMGpoakp2MDhDb29MRW1UU3U2REl1cjlsQQ?oc=5",
+   "breve": "Limpian del paseo inferior de la Costanera de Goya tras la bajante del Paraná",
+   "auto": true
+  },
+  {
+   "fecha": "25/11/2026",
+   "medio": "CHACODIAPORDIA.COM",
+   "titulo": "Yacyretá registró en octubre el mayor caudal afluente medio mensual histórico para este mes",
+   "enlace": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOM0c2WEhaWVg3a1lpQ2U3ZGp4Q1lxbkVzeDlWeGIxWnV2UXk1SzhhQmc0c2pvdU9NTHNxaUI0QVE1Sjg1bEp2MGlHN0FWTTctdjlsM2pVcm12OUg2b3JYMXNXQTBVaEdEcXpZdXc2aE5qWnRFZWN6TUp4NEZHdXNmTkpwXzNGQ0FRd2Jmazl5NmphMkpyUGRpeXB0UndVdHN5dWNheV92WGFkT2tCYmpka1NVTnB0UmlnRzg4?oc=5",
+   "breve": "Yacyretá registró en octubre el mayor caudal afluente medio mensual histórico para este mes",
+   "auto": true
+  },
+  {
    "fecha": "24/11/2026",
    "medio": "Elonce.com",
    "titulo": "Creciente del río Paraná: desde Yacyretá advierten que podría haber repuntes hasta marzo",
@@ -1412,7 +1436,7 @@
  "tapon_breve": "Sin alerta del SMN para la Capital en las próximas 48 horas. Con el río en 5,67 m, el riesgo de anegamiento depende de la intensidad de la lluvia.",
  "consultado": "25/11/2026, 10:44 h",
  "consulta_resultado": "datos nuevos",
- "prensa_actualizada": "25/11/2026, 00:08 h",
+ "prensa_actualizada": "25/11/2026, 12:52 h",
  "ina_parana_breve": "El INA prevé un río casi estable en Corrientes, con posible suba lenta después.",
  "ina_uruguay_breve": "El INA prevé que Santo Tomé se acerque a la alerta entre el 25/11 y el 30/11, y Paso de los Libres la supere desde el 28/11."
 }

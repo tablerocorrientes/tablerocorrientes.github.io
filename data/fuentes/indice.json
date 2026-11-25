@@ -1,6 +1,6 @@
 {
- "consultado": "25/11/2026, 11:19 h",
- "consultado_iso": "2026-11-25T11:19-03:00",
+ "consultado": "25/11/2026, 12:51 h",
+ "consultado_iso": "2026-11-25T12:51-03:00",
  "paginas": {
   "smn_alertas": {
    "url": "https://www.smn.gob.ar/alertas",
@@ -39,7 +39,7 @@
   "rioparana_alturas": {
    "url": "https://www.rioparana.com.ar",
    "estado": 200,
-   "caracteres": 11255,
+   "caracteres": 11236,
    "archivo": "data/fuentes/rioparana_alturas.txt"
   },
   "prefectura_alturas": {
@@ -50,7 +50,7 @@
   "lanacion_clima_corrientes": {
    "url": "https://www.lanacion.com.ar/clima/corrientes/",
    "estado": 200,
-   "caracteres": 8282,
+   "caracteres": 8249,
    "archivo": "data/fuentes/lanacion_clima_corrientes.txt"
   },
   "noaa_enso": {
@@ -129,20 +129,6 @@
    "archivo": "data/fuentes/coe_a_2026_0164_CP.txt"
   }
  },
- "pedidas": {
-  "https://examedia.com.ar/portada/post/88292998": {
-   "url": "https://examedia.com.ar/portada/post/88292998",
-   "estado": 200,
-   "caracteres": 7996,
-   "archivo": "data/fuentes/web/examedia_com_ar_portada_post_88292998.txt"
-  },
-  "https://diario1588.com/?p=272206": {
-   "url": "https://diario1588.com/?p=272206",
-   "estado": 200,
-   "caracteres": 5821,
-   "archivo": "data/fuentes/web/diario1588_com_p_272206.txt"
-  }
- },
  "portales": {
   "munired_municipio_corrientes": {
    "url": "https://munired.mcypcorrientes.gob.ar/noticias/corrientes",
@@ -173,6 +159,20 @@
    "estado": 200,
    "notas": 6,
    "archivo": "data/fuentes/portales/eby_noticias.txt"
+  }
+ },
+ "pedidas": {
+  "https://examedia.com.ar/portada/post/88292998": {
+   "url": "https://examedia.com.ar/portada/post/88292998",
+   "estado": 200,
+   "caracteres": 7996,
+   "archivo": "data/fuentes/web/examedia_com_ar_portada_post_88292998.txt"
+  },
+  "https://diario1588.com/?p=272206": {
+   "url": "https://diario1588.com/?p=272206",
+   "estado": 200,
+   "caracteres": 5821,
+   "archivo": "data/fuentes/web/diario1588_com_p_272206.txt"
   }
  },
  "pedidas_consultado": "25/11/2026, 11:19 h"
