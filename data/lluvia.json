@@ -1,9 +1,8 @@
 {
- "actualizado": "24/11/2026, 22:28 h",
+ "actualizado": "24/11/2026, 23:00 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
-  "23/11 23 h",
   "24/11 00 h",
   "01 h",
   "02 h",
@@ -27,18 +26,18 @@
   "20 h",
   "21 h",
   "22 h",
-  "23 h (en curso)"
+  "23 h",
+  "25/11 00 h (en curso)"
  ],
  "fuente": "Sistema Nacional de Información Hídrica (SNIH), Secretaría de Infraestructura y Política Hídrica; estaciones de la Red Hidrológica Nacional y redes asociadas (ICAA, INTA, Red Iberá). Datos crudos del sensor, sin validar.",
  "enlace": "https://snih.hidricosargentina.gob.ar/Filtros.aspx",
- "nota": "Ventana de 24 horas completas, de 23 h del 23/11 a 22 h del 24/11 (hora de Argentina), más la hora en curso como última columna, con los datos recibidos hasta el momento. El total suma solo las 24 horas completas. Las horas sin transmisión figuran como null, no como cero.",
+ "nota": "Ventana de 24 horas completas, de 00 h del 24/11 a 23 h del 24/11 (hora de Argentina), más la hora en curso como última columna, con los datos recibidos hasta el momento. El total suma solo las 24 horas completas. Las horas sin transmisión figuran como null, no como cero.",
  "estaciones": [
   {
    "localidad": "Corrientes Capital",
    "estacion": "ICAA",
    "codigo": 283906,
    "valores": [
-    0,
     0,
     0,
     4.2,
@@ -62,6 +61,7 @@
     0,
     0,
     0,
+    null,
     null
    ],
    "total": 74.4,
@@ -72,7 +72,6 @@
    "estacion": "Corrientes",
    "codigo": 13805,
    "valores": [
-    0,
     0,
     0,
     9,
@@ -96,6 +95,7 @@
     0,
     0,
     0,
+    null,
     null
    ],
    "total": 62.75,
@@ -106,7 +106,6 @@
    "estacion": "Garruchos",
    "codigo": 13857,
    "valores": [
-    null,
     0,
     null,
     null,
@@ -130,6 +129,7 @@
     0.25,
     null,
     null,
+    null,
     null
    ],
    "total": 2.0,
@@ -140,7 +140,6 @@
    "estacion": "Carlos Pellegrini",
    "codigo": 13826,
    "valores": [
-    null,
     0,
     null,
     null,
@@ -162,6 +161,7 @@
     null,
     null,
     0,
+    null,
     null,
     null,
     null
@@ -197,7 +197,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -208,7 +208,6 @@
    "estacion": "Santa Lucia",
    "codigo": 13836,
    "valores": [
-    0,
     0,
     0,
     0,
@@ -232,6 +231,7 @@
     0,
     0,
     0,
+    null,
     null
    ],
    "total": 0.25,
@@ -242,7 +242,6 @@
    "estacion": "Estación La Palmira - Escuela N° 70",
    "codigo": 283902,
    "valores": [
-    0,
     0,
     0,
     0,
@@ -266,6 +265,7 @@
     0,
     0,
     0,
+    null,
     null
    ],
    "total": 71.2,
@@ -653,7 +653,6 @@
     0,
     0,
     0,
-    0,
     0.4,
     0.2,
     0,
@@ -674,6 +673,7 @@
     0,
     0,
     0,
+    null,
     null
    ],
    "total": 2.0,
@@ -684,7 +684,6 @@
    "estacion": "La Sirena",
    "codigo": 13811,
    "valores": [
-    null,
     0,
     null,
     null,
@@ -706,6 +705,7 @@
     null,
     null,
     0,
+    null,
     null,
     null,
     null
@@ -753,7 +753,6 @@
    "codigo": 283908,
    "valores": [
     0,
-    0,
     null,
     0,
     0,
@@ -776,6 +775,7 @@
     0,
     0,
     0,
+    null,
     null
    ],
    "total": 0,
@@ -854,7 +854,6 @@
    "estacion": "Paso Cerrito",
    "codigo": 13849,
    "valores": [
-    null,
     0,
     null,
     null,
@@ -872,6 +871,7 @@
     null,
     null,
     0,
+    null,
     null,
     null,
     null,
@@ -1058,7 +1058,6 @@
    "estacion": "Portal Galarza",
    "codigo": 283904,
    "valores": [
-    null,
     0,
     null,
     null,
@@ -1080,6 +1079,7 @@
     null,
     null,
     0,
+    null,
     null,
     null,
     null
@@ -1115,7 +1115,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -1126,7 +1126,6 @@
    "estacion": "Pueblo Libertador",
    "codigo": 13876,
    "valores": [
-    2.25,
     0.25,
     0.5,
     0,
@@ -1150,9 +1149,10 @@
     0,
     0,
     0,
+    null,
     null
    ],
-   "total": 6.0,
+   "total": 3.75,
    "ultimo": "0 mm a las 22 h"
   },
   {
@@ -1160,7 +1160,6 @@
    "estacion": "Puerto Ita Ibate",
    "codigo": 283905,
    "valores": [
-    0,
     0,
     0,
     0,
@@ -1184,6 +1183,7 @@
     0,
     0,
     0,
+    null,
     null
    ],
    "total": 53.6,
@@ -1194,7 +1194,6 @@
    "estacion": "RMA04_PMB - Parque Nacional Mburucuyá",
    "codigo": 220246,
    "valores": [
-    0,
     0,
     0,
     0,
@@ -1218,6 +1217,7 @@
     0,
     0,
     0,
+    null,
     null
    ],
    "total": 13.0,
@@ -1228,7 +1228,6 @@
    "estacion": "RMA08_BPL - Bonpland",
    "codigo": 220261,
    "valores": [
-    0,
     0,
     0.6,
     0.2,
@@ -1252,6 +1251,7 @@
     0,
     0,
     0,
+    null,
     null
    ],
    "total": 2.2,
@@ -1262,7 +1262,6 @@
    "estacion": "RMA08_BVI - Bella Vista",
    "codigo": 220262,
    "valores": [
-    0,
     0,
     0,
     0,
@@ -1286,6 +1285,7 @@
     0,
     0,
     0,
+    null,
     null
    ],
    "total": 9.4,
@@ -1296,7 +1296,6 @@
    "estacion": "RMA08_CC - Curuzú Cuatiá",
    "codigo": 220263,
    "valores": [
-    0,
     0,
     1.6,
     0,
@@ -1320,6 +1319,7 @@
     0,
     0,
     0,
+    null,
     null
    ],
    "total": 8.6,
@@ -1330,7 +1330,6 @@
    "estacion": "RMA08_PNI - Parque Nacional Iberá",
    "codigo": 220226,
    "valores": [
-    0,
     0,
     0,
     0,
@@ -1353,11 +1352,12 @@
     0,
     0,
     0,
+    0,
     null,
     null
    ],
    "total": 25.4,
-   "ultimo": "0 mm a las 21 h"
+   "ultimo": "0 mm a las 22 h"
   },
   {
    "localidad": "San Isidro",
@@ -1432,7 +1432,6 @@
    "estacion": "San Roquito",
    "codigo": 13832,
    "valores": [
-    null,
     0,
     null,
     null,
@@ -1454,6 +1453,7 @@
     null,
     null,
     0,
+    null,
     null,
     null,
     null
@@ -1538,7 +1538,6 @@
     0,
     0,
     0,
-    0,
     0.8,
     0.2,
     0.2,
@@ -1558,6 +1557,7 @@
     0,
     0,
     0,
+    null,
     null
    ],
    "total": 9.4,
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "24/11/2026, 22:28 h",
+ "consultado": "24/11/2026, 23:00 h",
  "consulta_resultado": "datos nuevos"
 }
