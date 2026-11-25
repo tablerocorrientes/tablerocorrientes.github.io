@@ -1,5 +1,5 @@
 {
- "actualizado": "22/11/2026, 09:03 h",
+ "actualizado": "25/11/2026, 10:55 h",
  "aviso": "Inferencias propias del tablero, elaboradas con procesamiento lógico a partir de sus registros y de fuentes oficiales. No son avisos oficiales: ante una emergencia, siga las indicaciones de Defensa Civil y del SMN.",
  "vigentes": [
   {
@@ -19,11 +19,12 @@
   {
    "id": "rio-parana-repunte",
    "tema": "🌊 Río Paraná",
-   "titulo": "Puede haber un nuevo repunte del Paraná a fines de noviembre",
-   "texto": "El INA prevé lluvias abundantes en el Alto Paraná, el Iguazú y la cuenca propia de Yacyretá, con nuevas crecidas desde el 21 y 22/11 aguas arriba. Con la demora habitual hasta Corrientes, el río podría dejar de bajar y repuntar desde el 26/11. Con 5,76 m hoy, hay margen hasta la alerta (6,50 m), pero conviene seguir los partes.",
+   "titulo": "El Paraná en Corrientes se mantendría estable y podría subir despacio",
+   "texto": "El INA (24/11) prevé estabilidad en los próximos 7 días y después estabilidad o un ascenso gradual, por lluvias en la cuenca y la onda del río Paraguay. Hoy marca 5,67 m, a 0,83 m de la alerta (6,50 m). Yacyretá advierte repuntes posibles hasta marzo.",
    "base": [
-    "INA, reporte diario del 20/11/2026",
-    "Prefectura Naval Argentina, 22/11/2026"
+    "INA, reporte diario del 24/11/2026",
+    "Prefectura Naval Argentina, 25/11/2026",
+    "Yacyretá (EBY), informe del 24/11/2026"
    ],
    "confianza": "media",
    "horizonte": "próximas semanas",
@@ -33,10 +34,10 @@
   {
    "id": "rio-uruguay-pico",
    "tema": "🌊 Río Uruguay",
-   "titulo": "El Uruguay bajó, pero el INA prevé una nueva subida desde el 26/11",
-   "texto": "El 20/11 Paso de los Libres marcó 4,83 m y Santo Tomé 6,31 m, ambos bajo la alerta. El INA prevé lluvias en el norte de la cuenca: Santo Tomé podría acercarse a la alerta (11,50 m) hacia el 26/11 y Paso de los Libres repuntar desde esa fecha.",
+   "titulo": "El Uruguay subiría: el INA prevé alerta en Santo Tomé y en Paso de los Libres",
+   "texto": "El INA (24/11) prevé que Santo Tomé se acerque o supere la alerta (11,50 m) entre el 25/11 y el 30/11, y que Paso de los Libres la supere desde el 28/11 (7,50 m), con posible evacuación (8,50 m) entre el 1/12 y el 4/12. El 24/11 marcaban 5,98 m y 5,07 m.",
    "base": [
-    "INA, reporte diario del 20/11/2026"
+    "INA, reporte diario del 24/11/2026"
    ],
    "confianza": "media",
    "horizonte": "próximas semanas",
@@ -77,12 +78,10 @@
    "id": "evacuados-sin-regreso",
    "tema": "🏘️ Barrios",
    "titulo": "Aunque el río baja, las familias evacuadas todavía no vuelven a sus casas",
-   "texto": "Al 13/11 seguían fuera de sus casas unas 1.650 personas en cuatro localidades: Capital (690), Itatí (518), Paso de la Patria (228) e Isla Apipé (211). El Paraná baja unos 4 cm por día en la Capital, y marcó 6,29 m el 17/11, ya por debajo de la alerta (6,50 m), y el INA anticipa posibles lluvias en la cuenca hacia fines de noviembre. Por eso es probable que el regreso sea lento y que las autoridades pidan esperar, como ya ocurrió en Isla Apipé.",
+   "texto": "Al 24/11, Infobae informó unas 1.300 personas desplazadas en Corrientes según Defensa Civil, con cerca de 500 regresos en la última semana. Itatí, Paso de la Patria y barrios costeros de la Capital siguen muy comprometidos, y se espera un nuevo repunte del río.",
    "base": [
-    "Agencia Federal de Emergencias, cifras del 13/11 (Infobae)",
-    "Prefectura Naval Argentina, Corrientes 6,68 m el 14/11",
-    "INA, informe diario del 13/11",
-    "Intendente de Isla Apipé (El Monterizo, 11/11)"
+    "Infobae, 24/11/2026 (vía DataClave)",
+    "INA, reporte diario del 24/11/2026"
    ],
    "confianza": "media",
    "horizonte": "próximas semanas",
@@ -91,6 +90,51 @@
   }
  ],
  "historial": [
+  {
+   "id": "evacuados-sin-regreso",
+   "tema": "🏘️ Barrios",
+   "titulo": "Aunque el río baja, las familias evacuadas todavía no vuelven a sus casas",
+   "texto": "Al 24/11, Infobae informó unas 1.300 personas desplazadas en Corrientes según Defensa Civil, con cerca de 500 regresos en la última semana. Itatí, Paso de la Patria y barrios costeros de la Capital siguen muy comprometidos, y se espera un nuevo repunte del río.",
+   "base": [
+    "Infobae, 24/11/2026 (vía DataClave)",
+    "INA, reporte diario del 24/11/2026"
+   ],
+   "confianza": "media",
+   "horizonte": "próximas semanas",
+   "ambito": "global",
+   "localidad": "Provincia de Corrientes",
+   "fecha": "25/11/2026"
+  },
+  {
+   "id": "rio-uruguay-pico",
+   "tema": "🌊 Río Uruguay",
+   "titulo": "El Uruguay subiría: el INA prevé alerta en Santo Tomé y en Paso de los Libres",
+   "texto": "El INA (24/11) prevé que Santo Tomé se acerque o supere la alerta (11,50 m) entre el 25/11 y el 30/11, y que Paso de los Libres la supere desde el 28/11 (7,50 m), con posible evacuación (8,50 m) entre el 1/12 y el 4/12. El 24/11 marcaban 5,98 m y 5,07 m.",
+   "base": [
+    "INA, reporte diario del 24/11/2026"
+   ],
+   "confianza": "media",
+   "horizonte": "próximas semanas",
+   "ambito": "global",
+   "localidad": "Paso de los Libres",
+   "fecha": "25/11/2026"
+  },
+  {
+   "id": "rio-parana-repunte",
+   "tema": "🌊 Río Paraná",
+   "titulo": "El Paraná en Corrientes se mantendría estable y podría subir despacio",
+   "texto": "El INA (24/11) prevé estabilidad en los próximos 7 días y después estabilidad o un ascenso gradual, por lluvias en la cuenca y la onda del río Paraguay. Hoy marca 5,67 m, a 0,83 m de la alerta (6,50 m). Yacyretá advierte repuntes posibles hasta marzo.",
+   "base": [
+    "INA, reporte diario del 24/11/2026",
+    "Prefectura Naval Argentina, 25/11/2026",
+    "Yacyretá (EBY), informe del 24/11/2026"
+   ],
+   "confianza": "media",
+   "horizonte": "próximas semanas",
+   "ambito": "global",
+   "localidad": "Corrientes Capital",
+   "fecha": "25/11/2026"
+  },
   {
    "id": "lluvia-alerta-sin-lluvia",
    "tema": "🌧️ Lluvia",

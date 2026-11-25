@@ -1,5 +1,5 @@
 {
- "estado_alertas": "NO_VERIFICADO",
+ "estado_alertas": "VERIFICADO_SIN_ALERTAS",
  "estado_verificado": {
   "fecha": "24/11/2026, 18:20 h",
   "fuente": "SMN (lectura del 24/11/2026, 18:13 h) y COE de Corrientes"

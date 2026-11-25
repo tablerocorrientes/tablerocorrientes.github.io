@@ -1,5 +1,5 @@
 {
- "actualizado": "22/11/2026, 20:05 h",
+ "actualizado": "25/11/2026, 10:55 h",
  "total": {
   "fecha": "06/11/2026",
   "texto": "1.967 evacuados y autoevacuados en la provincia (444 evacuados y 1.523 autoevacuados), según Defensa Civil",
@@ -48,7 +48,7 @@
    "v": 1967
   }
  ],
- "fuente": "Defensa Civil de Corrientes, partes difundidos por El Litoral, EsChaco, El Monterizo e Infobae. Último parte: 06/11/2026 (1.967 personas: 444 evacuadas y 1.523 autoevacuadas; por localidad suman 442 evacuados). Verificación del 08/11/2026, 18:52 h: sin parte posterior hallado; no se hallaron cambios en los centros de evacuados. Verificación del 11/11/2026, 18:56 h: sin parte posterior hallado; no se hallaron cambios en los centros de evacuados.",
+ "fuente": "Defensa Civil de Corrientes, partes difundidos por El Litoral, EsChaco, El Monterizo e Infobae. Último parte: 06/11/2026 (1.967 personas: 444 evacuadas y 1.523 autoevacuadas; por localidad suman 442 evacuados). Verificación del 08/11/2026, 18:52 h: sin parte posterior hallado; no se hallaron cambios en los centros de evacuados. Verificación del 11/11/2026, 18:56 h: sin parte posterior hallado; no se hallaron cambios en los centros de evacuados. Verificación del 25/11/2026, 10:55 h: sin parte provincial posterior al 06/11 hallado; Infobae (24/11) informa unas 1.300 personas desplazadas en la provincia según Defensa Civil, cerca de 500 regresaron en la última semana, y Itatí, Paso de la Patria y barrios costeros de la Capital siguen muy comprometidos.",
  "historial": [
   {
    "f": "16/10/2026",
@@ -500,7 +500,7 @@
     "Pujol"
    ],
    "centros": [],
-   "detalle": "El 20/11 se informó que ya no quedan personas alojadas en la Escuela N.º 293 Donato Álvarez (barrio Pujol), único centro de evacuados de la Capital, y que el 60 % de las familias autoevacuadas regresó a sus casas. Antes, el 13/11, la Agencia Federal de Emergencias había informado 690 vecinos con sus casas anegadas, y el último parte de Defensa Civil (06/11) registró 42 evacuados y 633 autoevacuados (202 familias).",
+   "detalle": "El 20/11 se informó que ya no quedan personas alojadas en la Escuela N.º 293 Donato Álvarez (barrio Pujol), único centro de evacuados de la Capital, y que el 60 % de las familias autoevacuadas regresó a sus casas. Antes, el 13/11, la Agencia Federal de Emergencias había informado 690 vecinos con sus casas anegadas, y el último parte de Defensa Civil (06/11) registró 42 evacuados y 633 autoevacuados (202 familias). El 24/11 Infobae señaló que los barrios costeros de la Capital siguen muy comprometidos.",
    "breve": "El 20/11 cerró el centro de evacuados de la Escuela 293 y el 60 % de los autoevacuados ya volvió a su casa.",
    "f": "20/11/2026",
    "f_iso": "2026-11-20",
@@ -801,12 +801,12 @@
     "Casa del Promesero",
     "Hospedaje Taba Cué"
    ],
-   "detalle": "El 13/11 la Agencia Federal de Emergencias informó 518 personas evacuadas o autoevacuadas en Itatí, la misma cifra del último parte de Defensa Civil (06/11: 190 evacuados y 328 autoevacuados, 123 familias).",
+   "detalle": "El 13/11 la Agencia Federal de Emergencias informó 518 personas evacuadas o autoevacuadas en Itatí, la misma cifra del último parte de Defensa Civil (06/11: 190 evacuados y 328 autoevacuados, 123 familias). El 24/11 Infobae informó que la localidad sigue muy comprometida por la crecida, sin nueva cifra.",
    "breve": "518 personas fuera de sus casas al 13/11. Es la localidad con más evacuados de la provincia.",
-   "f": "13/11/2026",
-   "f_iso": "2026-11-13",
-   "fuente": "Agencia Federal de Emergencias (Infobae)",
-   "u": "https://www.infobae.com/sociedad/2026/11/13/el-nino-diez-ciudades-del-litoral-continuan-con-el-agua-en-niveles-de-evacuacion-y-son-mas-de-4500-las-personas-afectadas/",
+   "f": "24/11/2026",
+   "f_iso": "2026-11-24",
+   "fuente": "Infobae (24/11/2026), según relevamientos de Defensa Civil de Corrientes, difundido por DataClave",
+   "u": "https://www.dataclave.com.ar/en-general/inundaciones-en-corrientes-y-chaco--casi-4-000-personas-evacuadas-y-alerta-por-nueva-crecida-del-parana_a6b05b5d7cf2ab53c0e24e6aa",
    "tipo": "prensa",
    "personas": 518,
    "linea": [
@@ -953,12 +953,12 @@
     "Escuela Secundaria",
     "Polideportivo municipal"
    ],
-   "detalle": "El 13/11 la Agencia Federal de Emergencias informó 228 personas evacuadas o autoevacuadas, la misma cifra del parte de Defensa Civil del 06/11 (8 evacuados y 220 autoevacuados, 68 familias). Los barrios Don Julián, La Isla y Pescadores quedaron bajo el agua tras la rotura de un terraplén (27/10).",
+   "detalle": "El 13/11 la Agencia Federal de Emergencias informó 228 personas evacuadas o autoevacuadas, la misma cifra del parte de Defensa Civil del 06/11 (8 evacuados y 220 autoevacuados, 68 familias). Los barrios Don Julián, La Isla y Pescadores quedaron bajo el agua tras la rotura de un terraplén (27/10). El 24/11 Infobae informó que la localidad sigue muy comprometida por la crecida, sin nueva cifra.",
    "breve": "228 personas fuera de sus casas al 13/11; los barrios más afectados son Don Julián, La Isla y Pescadores.",
-   "f": "13/11/2026",
-   "f_iso": "2026-11-13",
-   "fuente": "Agencia Federal de Emergencias (Infobae); barrios según La Nación (27/10)",
-   "u": "https://www.infobae.com/sociedad/2026/11/13/el-nino-diez-ciudades-del-litoral-continuan-con-el-agua-en-niveles-de-evacuacion-y-son-mas-de-4500-las-personas-afectadas/",
+   "f": "24/11/2026",
+   "f_iso": "2026-11-24",
+   "fuente": "Infobae (24/11/2026), según relevamientos de Defensa Civil de Corrientes, difundido por DataClave",
+   "u": "https://www.dataclave.com.ar/en-general/inundaciones-en-corrientes-y-chaco--casi-4-000-personas-evacuadas-y-alerta-por-nueva-crecida-del-parana_a6b05b5d7cf2ab53c0e24e6aa",
    "tipo": "prensa",
    "personas": 228,
    "linea": [

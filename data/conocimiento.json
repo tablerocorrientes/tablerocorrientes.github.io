@@ -1,15 +1,29 @@
 {
- "actualizado": "24/11/2026, 15:20 h",
+ "actualizado": "25/11/2026, 10:55 h",
  "explicacion": "Cada actualización suma registros: barrios afectados con la altura del río o la lluvia de ese día, obras terminadas, reportes de vecinos verificados y la comparación entre lo pronosticado y lo que ocurrió. Con esa comparación se detectan desvíos y se proponen ajustes a los cálculos, que revisa el autor del tablero.",
  "contadores": {
   "barrios_documentados": 87,
   "obras": 0,
   "reportes_verificados": 0,
-  "comparaciones_rio": 2,
+  "comparaciones_rio": 3,
   "comparaciones_lluvia": 5,
-  "aprendizajes": 80
+  "aprendizajes": 82
  },
  "aprendizajes": [
+  {
+   "fecha": "2026-11-25",
+   "tipo": "evacuacion",
+   "lugar": "Provincia de Corrientes",
+   "dato": "Con el Paraná en 5,67 m en la Capital, Infobae informó unas 1.300 personas desplazadas en la provincia según Defensa Civil, y que Itatí, Paso de la Patria y barrios costeros de la Capital siguen muy comprometidos.",
+   "fuente": "Infobae (24/11/2026), según relevamientos de Defensa Civil de Corrientes, difundido por DataClave"
+  },
+  {
+   "fecha": "2026-11-25",
+   "tipo": "rio",
+   "lugar": "Río Uruguay",
+   "dato": "El INA prevé que Paso de los Libres supere la alerta (7,50 m) desde el 28/11 y llegue al nivel de evacuación (8,50 m) entre el 1/12 y el 4/12.",
+   "fuente": "INA, reporte diario del 24/11/2026"
+  },
   {
    "fecha": "2026-11-24",
    "tipo": "lluvia",
@@ -573,6 +587,14 @@
  ],
  "verificaciones": {
   "rio": [
+   {
+    "fecha": "2026-11-24",
+    "puerto": "Corrientes",
+    "pronosticado": 6.14,
+    "real": 5.67,
+    "diferencia": -0.47,
+    "nota": "El INA publicó un rango de 5,40 a 6,14 m; el valor real quedó dentro del rango."
+   },
    {
     "fecha": "2026-11-17",
     "puerto": "Corrientes",
