@@ -1,6 +1,6 @@
 {
- "consultado": "25/11/2026, 17:36 h",
- "consultado_iso": "2026-11-25T17:36-03:00",
+ "consultado": "25/11/2026, 19:43 h",
+ "consultado_iso": "2026-11-25T19:43-03:00",
  "paginas": {
   "smn_alertas": {
    "url": "https://www.smn.gob.ar/alertas",
@@ -33,7 +33,7 @@
   "ina_reporte_diario": {
    "url": "https://alerta.ina.gob.ar/a5/diario/reporte_diario",
    "estado": 200,
-   "caracteres": 16184,
+   "caracteres": 16193,
    "archivo": "data/fuentes/ina_reporte_diario.txt"
   },
   "rioparana_alturas": {
@@ -50,7 +50,7 @@
   "lanacion_clima_corrientes": {
    "url": "https://www.lanacion.com.ar/clima/corrientes/",
    "estado": 200,
-   "caracteres": 8218,
+   "caracteres": 8399,
    "archivo": "data/fuentes/lanacion_clima_corrientes.txt"
   },
   "noaa_enso": {

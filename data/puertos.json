@@ -659,6 +659,22 @@
  "prensa_fecha": "14/11/2026, 09:12 h",
  "prensa": [
   {
+   "fecha": "25/11/2026",
+   "medio": "LT7Noticias",
+   "titulo": "Yacyretá abrió nuevamente las 18 compuertas y emitió una alerta hidrológica por la crecida del Paraná",
+   "enlace": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQUFJ2WEQ2Vk5QMk5pZlpHa1dDNnRLZnJ4RUNTY1ZoNlZ2cjZnYWVRalFIZHhnTjdGTVJrUFdXUS1WTEJQLV93NUw2TVhTWVRpRllJVzlvVVJUei0wZnYtaUZqclJoSjh3U2lCeldacEtVbWd3UER2TUQ1S2lXeWtEM1JtMTdZYXkwd0ZyWTZJTjlQN2lvQ1dBdmFzQkdrWXJFSTRMa1ZFcElRS3N1cHptY1RhczhnamdBOHJNck92MVcycjZYTU5yQkppX3oxNWhs?oc=5",
+   "breve": "Yacyretá abrió nuevamente las 18 compuertas y emitió una alerta hidrológica por la crecida del Paraná",
+   "auto": true
+  },
+  {
+   "fecha": "25/11/2026",
+   "medio": "Diario El Libertador de Corrientes",
+   "titulo": "Yacyretá abrió las 18 compuertas tras registrar caudales récord",
+   "enlace": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNdy1RMlpQQ19ES3hVVGl1VDhld0s2N3BoelM3WjRGNGZVdG9BejBQQmF6cXd6UWpQYXZneEkxV2d2YWRNbnBqY3BvdUVhMWxlQ1VBa2FnSi0wajVmNWswSlNreV9MMmZ3YWF1TXktanFKbDdLM3pFZXhVTG9fUmNsMlphR2hjUjNhQUR3bHlkREllLTBzNzhoa3FFUkZ2Wmk5UlpiZA?oc=5",
+   "breve": "Yacyretá abrió las 18 compuertas tras registrar caudales récord",
+   "auto": true
+  },
+  {
    "fecha": "24/11/2026",
    "medio": "El Cronista",
    "titulo": "Se aproxima una tormenta este martes 24 de noviembre: habrá lluvias de hasta 100 mm, ráfagas de hasta 90 km/h y posible caída de granizo en Misiones y Corrientes",
@@ -1115,20 +1131,6 @@
    "titulo": "Lluvias intensas y posible caída de granizo: dónde rige la alerta amarilla este miércoles",
    "resumen": "El SMN mantiene alerta amarilla por tormentas en cinco provincias, entre ellas sectores de Corrientes durante la mañana y la tarde, con 20 a 50 mm, actividad eléctrica, granizo y ráfagas. No informa daños ni barrios anegados en Corrientes.",
    "enlace": "https://www.ellitoral.com/nacionales/serviciometeorologiconacional-alertaamarilla-tormentas-lluviasintensas-smn-granizo-precipitaciones_0_SMcVOr9AQj.html"
-  },
-  {
-   "medio": "El Litoral (Corrientes)",
-   "fecha": "10/11/2026",
-   "titulo": "El río Uruguay crece y la Municipalidad de Paso de los Libres cerró su costanera",
-   "resumen": "Según el último reporte de Prefectura, el Uruguay llegó a 7,43 m en Paso de los Libres, a 7 cm de la alerta (7,50 m), con ascenso de 1 cm por hora, por lluvias en la alta cuenca. La Municipalidad cerró en forma preventiva los accesos a la costanera (calles Coronel López, Amado Bonpland y Plácido Martínez); Defensa Civil mantiene guardias (103). En Yapeyú y La Cruz se registraron subas de 25 a 43 cm. No informa evacuados ni barrios anegados.",
-   "enlace": "https://www.ellitoral.com.ar/interior/2026-11-10-11-23-0-el-rio-uruguay-marco-crece-y-la-municipalidad-de-paso-de-los-libres-cerro-su-costanera"
-  },
-  {
-   "medio": "El Cronista",
-   "fecha": "10/11/2026",
-   "titulo": "Se aproximan tormentas este miércoles 11 de noviembre: habrá lluvias con actividad eléctrica en la provincia de Corrientes",
-   "resumen": "Según el pronóstico del SMN, el miércoles 11 habrá inestabilidad con lluvias y tormentas en Monte Caseros, Curuzú Cuatiá, Paso de los Libres, Goya, Mercedes, Empedrado e Ituzaingó, con mejora durante la noche. La nota no menciona alertas oficiales ni milímetros.",
-   "enlace": "https://www.cronista.com/informacion-gral/se-aproximan-tormentas-este-miercoles-11-de-noviembre-habra-lluvias-con-actividad-electrica-en-la-provincia-de-corrientes/"
   }
  ],
  "puertos_uruguay": [
@@ -1446,7 +1448,7 @@
  "tapon_breve": "Sin alerta del SMN para la Capital en las próximas 48 horas. Con el río en 5,66 m, el riesgo de anegamiento depende de la intensidad de la lluvia.",
  "consultado": "25/11/2026, 19:27 h",
  "consulta_resultado": "datos nuevos",
- "prensa_actualizada": "25/11/2026, 15:53 h",
+ "prensa_actualizada": "25/11/2026, 19:44 h",
  "ina_parana_breve": "El INA prevé un río casi estable en Corrientes, con posible suba lenta después.",
  "ina_uruguay_breve": "El INA prevé que Santo Tomé se acerque a la alerta entre el 25/11 y el 30/11, y Paso de los Libres la supere desde el 28/11."
 }

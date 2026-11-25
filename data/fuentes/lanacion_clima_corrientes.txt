@@ -1,5 +1,5 @@
 Fuente: https://www.lanacion.com.ar/clima/corrientes/
-Consultado: 25/11/2026, 17:36 h
+Consultado: 25/11/2026, 19:43 h
 
 Clima en Corrientes y pronóstico del tiempo en LA NACION
 CERRAR
@@ -78,14 +78,8 @@ Kiosco LA NACION
 > LA NACION > Clima > Corrientes
 Clima de hoy en Corrientes
 Pronóstico del tiempo extendido para Corrientes
-Actualizado a las 16:01 hs.
+Actualizado a las 18:17 hs.
 Pronóstico del tiempo en Corrientes hoy
-Tarde
-Mayormente nublado
-30 ºc
-32%
-SE 31Km/h
-10%
 Noche
 Parcialmente nublado
 23 ºc
@@ -113,16 +107,22 @@ E 22Km/h
 0%
 Pronóstico del tiempo en Corrientes el viernes
 Mañana
-Nublado
-19 ºc
+Chaparrones
+21 ºc
 76%
 S 31Km/h
-10%
+70%
 Tarde
 Tormentas aisladas
 29 ºc
 97%
 E 31Km/h
+70%
+Noche
+Chaparrones
+19 ºc
+93%
+E 22Km/h
 40%
 Pronóstico del tiempo en Corrientes el sábado
 Mañana
@@ -142,13 +142,13 @@ Mañana
 Parcialmente nublado
 18 ºc
 73%
-SE 22Km/h
+SE 12Km/h
 0%
 Tarde
 Parcialmente nublado
 32 ºc
 49%
-SE 22Km/h
+SE 12Km/h
 0%
 Pronóstico del tiempo en Corrientes el lunes
 Mañana
@@ -161,21 +161,34 @@ Tarde
 Parcialmente nublado
 35 ºc
 42%
-E 12Km/h
+SE 12Km/h
 0%
 Pronóstico del tiempo en Corrientes el martes
 Mañana
-Parcialmente nublado
+Mayormente nublado
 22 ºc
--
-SO 2Km/h
+70%
+N 12Km/h
 0%
 Tarde
-Parcialmente nublado
+Mayormente nublado
 35 ºc
 39%
-E 12Km/h
-0%
+SO 22Km/h
+10%
+Pronóstico del tiempo en Corrientes el miércoles
+Mañana
+Mayormente nublado
+22 ºc
+-
+S 22Km/h
+10%
+Tarde
+Mayormente nublado
+33 ºc
+41%
+SE 22Km/h
+10%
 Referencias del clima
 Despejado (día)
 Despejado (noche)
@@ -214,6 +227,12 @@ Santiago del Estero
 Tierra del Fuego
 Tucumán
 Últimas noticias del clima en Corrientes
+Clima en Monte Caseros hoy: cuál es el pronóstico del tiempo para el 26 de noviembre de 2026
+Pronóstico del tiempo
+25 de noviembre de 2026
+Clima en ciudad de Corrientes hoy: cuál es el pronóstico del tiempo para el 26 de noviembre de 2026
+Pronóstico del tiempo
+25 de noviembre de 2026
 Clima en ciudad de Corrientes hoy: cuál es el pronóstico del tiempo para el 25 de noviembre de 2026
 Pronóstico del tiempo
 25 de noviembre de 2026
@@ -298,17 +317,11 @@ Pronóstico del tiempo
 Clima en Monte Caseros hoy: cuál es el pronóstico del tiempo para el 12 de noviembre de 2026
 Pronóstico del tiempo
 12 de noviembre de 2026
-Clima en Monte Caseros hoy: cuál es el pronóstico del tiempo para el 11 de noviembre de 2026
-Pronóstico del tiempo
-11 de noviembre de 2026
-Clima en ciudad de Corrientes hoy: cuál es el pronóstico del tiempo para el 11 de noviembre de 2026
-Pronóstico del tiempo
-11 de noviembre de 2026
 VER MÁS NOTAS DE CORRIENTES
 Más leídas
-1 Bullrich, sobre la posible reelección de Milei: “No creo que baste con decir que todo mejorará en 2028″
-2 La defensa de la “Toretto” sostuvo que la joven cometió un homicidio por imprudencia, pidió la pena mínima y culpó a la prensa de “caricaturizarla”
-3 Eligieron las calles “más cool” del mundo y una está en la ciudad de Buenos Aires
+1 La defensa de la “Toretto” sostuvo que la joven cometió un homicidio por imprudencia, pidió la pena mínima y culpó a la prensa de “caricaturizarla”
+2 “Yo voy a matar al Papa”: procesaron al vecino de Pilar que amenazó con un atentado contra León XIV en su visita al país
+3 Tras la presión de la Iglesia, oficialismo y oposición acordaron avanzar con la ley contra la ludopatía
 4 Horacio Verbitsky fue indagado en la causa por el Vacunatorio VIP y se defendió de las acusaciones
 Secciones
 Últimas noticias

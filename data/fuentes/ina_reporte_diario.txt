@@ -1,5 +1,5 @@
 Fuente: https://alerta.ina.gob.ar/a5/diario/reporte_diario
-Consultado: 25/11/2026, 17:36 h
+Consultado: 25/11/2026, 19:43 h
 
 Reporte diario - Cuenca del Plata - INA - SLHi
 Buscar en el sitio
@@ -92,6 +92,7 @@ Paraná
 5,00
 5,25
 aguas medias altas
+Atención
 San Fernando
 Lujan
 1,82
