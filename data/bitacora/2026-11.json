@@ -8120,7 +8120,7 @@
      null,
      null,
      null,
-     null
+     0.25
     ],
     "Colonia Carlos Pellegrini": [
      null,
@@ -8146,7 +8146,7 @@
      null,
      null,
      null,
-     null
+     0.5
     ],
     "Portal Galarza": [
      null,
@@ -8832,6 +8832,32 @@
      null
     ],
     "Santo Tomé": [
+     0.0,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "Parque Nacional Iberá": [
      0.0,
      null,
      null,

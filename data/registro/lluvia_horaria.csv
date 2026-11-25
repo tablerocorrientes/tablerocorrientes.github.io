@@ -474,6 +474,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-24,11,Colonia Carlos Pellegrini,Carlos Pellegrini,13826,5
 2026-11-24,15,Colonia Carlos Pellegrini,Carlos Pellegrini,13826,0
 2026-11-24,19,Colonia Carlos Pellegrini,Carlos Pellegrini,13826,0
+2026-11-24,23,Colonia Carlos Pellegrini,Carlos Pellegrini,13826,0.5
 2026-11-01,23,San Roquito,San Roquito,13832,0
 2026-11-02,03,San Roquito,San Roquito,13832,0
 2026-11-02,07,San Roquito,San Roquito,13832,0
@@ -1027,6 +1028,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-24,11,Garruchos,Garruchos,13857,0.25
 2026-11-24,15,Garruchos,Garruchos,13857,0.25
 2026-11-24,19,Garruchos,Garruchos,13857,0.25
+2026-11-24,23,Garruchos,Garruchos,13857,0.25
 2026-11-01,23,San Carlos,San Carlos,13864,0
 2026-11-02,00,San Carlos,San Carlos,13864,0
 2026-11-02,01,San Carlos,San Carlos,13864,0
@@ -1933,6 +1935,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-24,21,Parque Nacional Iberá,RMA08_PNI - Parque Nacional Iberá,220226,0
 2026-11-24,22,Parque Nacional Iberá,RMA08_PNI - Parque Nacional Iberá,220226,0
 2026-11-24,23,Parque Nacional Iberá,RMA08_PNI - Parque Nacional Iberá,220226,0
+2026-11-25,00,Parque Nacional Iberá,RMA08_PNI - Parque Nacional Iberá,220226,0
 2026-11-01,23,Mburucuyá,RMA04_PMB - Parque Nacional Mburucuyá,220246,0
 2026-11-02,00,Mburucuyá,RMA04_PMB - Parque Nacional Mburucuyá,220246,0
 2026-11-02,01,Mburucuyá,RMA04_PMB - Parque Nacional Mburucuyá,220246,0
