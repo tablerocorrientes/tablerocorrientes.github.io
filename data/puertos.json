@@ -659,6 +659,14 @@
  "prensa_fecha": "14/11/2026, 09:12 h",
  "prensa": [
   {
+   "fecha": "25/11/2026",
+   "medio": "Corrientes Hoy",
+   "titulo": "Inundaciones y lluvias en el sur de Brasil aumentan caudal de agua en el Río Uruguay en Corrientes y Misiones",
+   "enlace": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOWlFob3hVakJpMldqTVU2MFBFb3E1T3g2Y0ZGNmZ0OTY1cGh3dWxNVDNUVkRoTkZqdXE1WFNXZ0hCOHFZRzVXbmJSQmJwTkJ0QWhGMDAwVWxUNk8tZktJeThYRGxzUGhsUWpsMjdZVU5qV0N2UUNUMTh6bFN1S0ZhZ1FzTG1EYVF6MzhKNzFVNjgtSEZhMnBEVTB3WWE5T1BpOUJDQWVuWnZrbnRiLUJYNnBLWFFEcDBmbE5jT0FUYWpSODdpNm84eDBla3lIRzA4TTdsUE5aTXZsZ2JUU0hWMTZBSmdxaS1SWDIxeA?oc=5",
+   "breve": "Inundaciones y lluvias en el sur de Brasil aumentan caudal de agua en el Río Uruguay en Corrientes y Misiones",
+   "auto": true
+  },
+  {
    "fecha": "23/11/2026",
    "medio": "www.actualidadparana.com.ar",
    "titulo": "El Paraná superó el nivel de evacuación entre Corrientes y Santa Fe y actúan fuerzas de seguridad federales",
@@ -1120,13 +1128,6 @@
    "titulo": "La crecida se va del norte de Corrientes pero desembarca en el sur: ya son casi 2000 los que dejaron sus casas",
    "resumen": "Reproduce el relevamiento de Defensa Civil (1.967 personas: 444 evacuadas y 1.523 autoevacuadas). El sur es el nuevo foco: zona del puerto de Goya 157 autoevacuados, San Isidro 50 y Esquina 58 por el río Corriente; en el norte el agua baja en Ituzaingó, Santa Lucía, Cruz de los Milagros y Bella Vista. No informa barrios anegados nuevos.",
    "enlace": "https://elmonterizo.com/la-crecida-se-va-del-norte-de-corrientes-pero-desembarca-en-el-sur-ya-son-casi-2000-los-que-dejaron-sus-casas"
-  },
-  {
-   "medio": "EsChaco (El Litoral)",
-   "fecha": "06/11/2026",
-   "titulo": "El Paraná se estaciona y Corrientes tiene 1.967 evacuados por la crecida",
-   "resumen": "Según el relevamiento de Defensa Civil, 444 personas evacuadas y 1.523 autoevacuadas: Capital 675, isla Apipé 185, Itatí 518, Paso de la Patria 228, zona del puerto de Goya 157, Esquina 58, San Isidro 50, Cruz de los Milagros 40, Santa Lucía 21, Ituzaingó 17 y Bella Vista 16. No informa barrios o zonas anegadas nuevas.",
-   "enlace": "https://www.eschaco.com/vernota.asp?id_noticia=133997"
   }
  ],
  "puertos_uruguay": [
@@ -1444,7 +1445,7 @@
  "tapon_breve": "Sin alerta del SMN para la Capital en las próximas 48 horas. Con el río en 5,67 m, el riesgo de anegamiento depende de la intensidad de la lluvia.",
  "consultado": "25/11/2026, 13:38 h",
  "consulta_resultado": "datos nuevos",
- "prensa_actualizada": "25/11/2026, 14:42 h",
+ "prensa_actualizada": "25/11/2026, 15:19 h",
  "ina_parana_breve": "El INA prevé un río casi estable en Corrientes, con posible suba lenta después.",
  "ina_uruguay_breve": "El INA prevé que Santo Tomé se acerque a la alerta entre el 25/11 y el 30/11, y Paso de los Libres la supere desde el 28/11."
 }
