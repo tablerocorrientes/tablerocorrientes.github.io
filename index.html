@@ -201,6 +201,12 @@ a:focus-visible{outline:3px solid #e3ad1f;outline-offset:2px}
 <div class="sec"><h2>Mapa de calor de la lluvia REGISTRADA, últimas 24 horas</h2><p class="s"><b>Lluvia ya caída, medida por las estaciones del SNIH. No es pronóstico</b> (el pronóstico está en su propio cuadro más abajo). Cada casilla es una hora; cuanto más oscuro, más lluvia.</p><div id="heatI"></div><div class="hm" id="heat"></div>
   <div class="leg"><span><i style="background:var(--track)"></i>0 mm</span><span><i style="background:#b7dbe7"></i>hasta 2</span><span><i style="background:#5aa6bf"></i>2 a 10</span><span><i style="background:#1f6f8b"></i>10 a 20</span><span><i style="background:#0b3a4a"></i>más de 20</span><span>Casilla punteada: sin dato</span></div></div>
 
+<div class="sec" id="lhSec"><h2>Histórico de lluvia REGISTRADA, por localidad y por día</h2><p class="s"><b>Lluvia ya caída, medida por las estaciones del SNIH</b>, guardada desde el 12/11/2026 hasta el final de El Niño. Elija la localidad; toque un día del gráfico (o elíjalo en la lista) para ver la lluvia hora por hora.</p>
+  <select id="lhLoc" class="psel" aria-label="Localidad del histórico"></select>
+  <p class="s" id="lhR1" style="font-weight:700;color:var(--ink)"></p><div id="lhDias" style="overflow-x:auto"></div>
+  <select id="lhDia" class="psel" aria-label="Día del histórico" style="margin-top:10px"></select>
+  <p class="s" id="lhR2" style="font-weight:700;color:var(--ink)"></p><div id="lhHoras"></div>
+  <p class="s" style="margin-top:6px">Cada barra horaria es la lluvia entre esa hora y la siguiente (07 = de 7 a 8 h). Las horas sin transmisión de la estación se marcan con un recuadro punteado: no significan que no llovió. Los datos completos se pueden descargar en <a href="/data/registro/lluvia_horaria.csv" style="color:var(--water)">lluvia_horaria.csv</a> y <a href="/data/registro/resumen_diario_lluvia.csv" style="color:var(--water)">resumen_diario_lluvia.csv</a> (se abren con Excel o Google Sheets).</p></div>
   <div class="bsrc"><b id="fMed">Última actualización: sin datos.</b><br><b>Fuente:</b> Sistema Nacional de Información Hídrica (SNIH), Secretaría de Infraestructura y Política Hídrica de la Nación; estaciones del ICAA, INTA y Red Iberá. Datos crudos del sensor.</div>
 </div>
 
@@ -242,12 +248,13 @@ a:focus-visible{outline:3px solid #e3ad1f;outline-offset:2px}
 </div></section>
 
 <section class="cap" id="capEva"><h2 class="capt"><span aria-hidden="true">🏠</span>Evacuados</h2><div class="capb">
-<div class="sec"><h2>Personas evacuadas y autoevacuadas</h2><p class="s" id="sE"></p>
+<div class="sec"><h2>Personas evacuadas y autoevacuadas</h2>
   <div id="evTot" style="display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin:2px 0 10px"></div>
-  <div class="seg" id="evSeg" role="tablist" style="display:flex;gap:6px;margin:0 0 8px;flex-wrap:wrap"><button data-m="ult" aria-pressed="true">Último parte por localidad</button><button data-m="acum" aria-pressed="false">Acumulado de partes de Defensa Civil</button></div>
+  <div class="seg" id="evSeg" role="tablist" style="display:flex;gap:6px;margin:0 0 8px;flex-wrap:wrap"><button data-m="ahora" aria-pressed="true">Ahora, por localidad</button><button data-m="acum" aria-pressed="false">Acumulado de la emergencia</button><button data-m="hist" aria-pressed="false">Histórico de una localidad</button></div>
+  <p class="s" id="sE"></p>
   <div id="evac"></div>
-  <div class="leg"><span><i style="background:var(--bad)"></i>Evacuados (en centros)</span><span><i style="background:var(--warn)"></i>Autoevacuados</span></div>
-  <div id="evSitW" style="display:none"><p class="s" style="margin-top:12px;font-weight:700;color:var(--ink)">Situación actual por localidad</p><div id="evSit"></div></div>
+  <div class="leg" id="evLeg"><span><i style="background:var(--bad)"></i>Evacuados (en centros)</span><span><i style="background:var(--warn)"></i>Autoevacuados</span></div>
+  <div id="evSitW" style="display:none"><p class="s" style="margin-top:12px;font-weight:700;color:var(--ink)">Zonas, barrios y fuentes de cada localidad</p><div id="evSit"></div></div>
   <p class="s" style="margin-top:12px;font-weight:700;color:var(--ink)">Centros de evacuados informados</p><div id="centros"></div>
   <p class="s" style="margin-top:10px">Evolución del total provincial</p><svg id="evserie" viewBox="0 0 320 120" role="img" aria-label="Evolución de personas evacuadas"></svg>
   <p class="s" id="eF" style="margin-top:6px"></p></div>
@@ -570,26 +577,87 @@ if(est.length){var cols2=L.columnas||[],rows2=[];
   heatDraw();}
 else $('heat').innerHTML='<p class="s">Sin registros cargados.</p>';
 
+/* histórico de lluvia registrada por localidad y día */
+(function(){var box=$('lhDias');if(!box)return;var DB={},lsel=$('lhLoc'),dsel=$('lhDia'),loc='Corrientes Capital',dia='';try{loc=localStorage.getItem('tc_lhloc')||loc;}catch(e){}
+  var dm=function(f){return f.slice(8,10)+'/'+f.slice(5,7);};
+  fetch('/data/registro/lluvia_horaria.csv?v='+Math.floor(Date.now()/600000),{cache:'no-cache'}).then(function(r){return r.ok?r.text():'';}).then(function(tx){
+    tx.split(/\r?\n/).slice(1).forEach(function(l){var c=l.split(',');if(c.length<6||!/^\d{4}-\d{2}-\d{2}$/.test(c[0]))return;var n=c[2],h=+c[1],v=c[5]===''?null:+c[5];if(isNaN(h)||h<0||h>23)return;var d=(DB[n]=DB[n]||{}),a=(d[c[0]]=d[c[0]]||[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]);if(v!=null&&!isNaN(v))a[h]=v;});
+    var noms=Object.keys(DB).sort(function(a,b){return a==='Corrientes Capital'?-1:b==='Corrientes Capital'?1:a.localeCompare(b,'es');});
+    if(!noms.length){box.innerHTML='<p class="s">Sin registros cargados.</p>';return;}if(noms.indexOf(loc)<0)loc=noms[0];
+    lsel.innerHTML=noms.map(function(n){return '<option'+(n===loc?' selected':'')+'>'+esc(n)+'</option>';}).join('');
+    lsel.addEventListener('change',function(){loc=lsel.value;dia='';try{localStorage.setItem('tc_lhloc',loc);}catch(e){}dibD();});
+    dsel.addEventListener('change',function(){dia=dsel.value;dibD();});
+    dibD();});
+  function tot(a){var s=0,k=0;a.forEach(function(v){if(v!=null){s+=v;k++;}});return {s:Math.round(s*10)/10,k:k};}
+  function dibD(){var d=DB[loc]||{},F=Object.keys(d).filter(function(f){return tot(d[f]).k>0;}).sort();if(!F.length){box.innerHTML='<p class="s">Sin registros para esta localidad.</p>';return;}
+    if(F.indexOf(dia)<0)dia=F[F.length-1];
+    var T=F.map(function(f){return tot(d[f]);}),mx=Math.max.apply(null,T.map(function(x){return x.s;}).concat([1])),bw=24,W=Math.max(320,F.length*bw+24),g='',acc=0,ll=0;
+    F.forEach(function(f,i){var x=12+i*bw,v=T[i].s,hh=v/mx*80,sel=f===dia;acc+=v;if(v>=0.1)ll++;
+      g+='<g data-f="'+f+'" style="cursor:pointer"><rect x="'+x+'" y="4" width="'+(bw-2)+'" height="112" fill="'+(sel?'color-mix(in srgb,var(--water) 14%,transparent)':'transparent')+'"/><rect x="'+(x+3)+'" y="'+(96-hh).toFixed(1)+'" width="'+(bw-8)+'" height="'+Math.max(hh,v>0?1:0).toFixed(1)+'" rx="2" fill="'+(sel?'var(--ink)':'var(--water)')+'"/>'+(v>0?'<text x="'+(x+bw/2-1)+'" y="'+(92-hh).toFixed(1)+'" text-anchor="middle" font-size="7.5" font-weight="700" fill="var(--ink)" font-family="Archivo,sans-serif">'+nf(v,v<10?1:0)+'</text>':'')+'<text x="'+(x+bw/2-1)+'" y="108" text-anchor="middle" font-size="7.5" fill="'+(sel?'var(--ink)':'var(--soft)')+'" font-weight="'+(sel?'800':'400')+'" font-family="Archivo,sans-serif">'+dm(f)+'</text>'+(T[i].k<24?'<text x="'+(x+bw/2-1)+'" y="116" text-anchor="middle" font-size="6.5" fill="var(--soft)" font-family="Archivo,sans-serif">'+T[i].k+' h</text>':'')+'</g>';});
+    g+='<line x1="8" y1="96.5" x2="'+(W-6)+'" y2="96.5" stroke="var(--line)"/>';
+    box.innerHTML='<svg viewBox="0 0 '+W+' 120" style="width:'+W+'px;max-width:none;height:auto" role="img" aria-label="Lluvia registrada por día en '+esc(loc)+'">'+g+'</svg>';
+    box.scrollLeft=box.scrollWidth;
+    Array.prototype.forEach.call(box.querySelectorAll('g[data-f]'),function(el){el.addEventListener('click',function(){dia=el.getAttribute('data-f');dibD();});});
+    $('lhR1').textContent='Lluvia por día en '+loc+': '+nf(Math.round(acc*10)/10,1)+' mm en '+F.length+' días registrados ('+dm(F[0])+' a '+dm(F[F.length-1])+'), con lluvia en '+ll+' de ellos. Bajo la fecha se indica cuando la estación transmitió menos de 24 horas.';
+    dsel.innerHTML=F.slice().reverse().map(function(f){var t=tot(d[f]);return '<option value="'+f+'"'+(f===dia?' selected':'')+'>'+dm(f)+'/'+f.slice(0,4)+': '+nf(t.s,1)+' mm'+(t.k<24?' ('+t.k+' h con dato)':'')+'</option>';}).join('');
+    dibH(d[dia]);}
+  function dibH(a){var mx=Math.max.apply(null,a.map(function(v){return v||0;}).concat([2])),g='',bw=12.6,t=tot(a),pk=-1;
+    a.forEach(function(v,h){if(v!=null&&(pk<0||v>a[pk]))pk=h;var x=12+h*bw,hh=(v||0)/mx*78;
+      g+=v==null?'<rect x="'+(x+1)+'" y="18" width="'+(bw-2.5)+'" height="78" fill="none" stroke="var(--line)" stroke-dasharray="3 2"/>':'<rect x="'+(x+1)+'" y="'+(96-hh).toFixed(1)+'" width="'+(bw-2.5)+'" height="'+Math.max(hh,v>0?1:0).toFixed(1)+'" rx="1.5" fill="'+(v>=10?'#0b3a4a':v>=2?'#1f6f8b':'#5aa6bf')+'"/>'+(v>=0.1?'<text x="'+(x+bw/2)+'" y="'+(92-hh).toFixed(1)+'" text-anchor="middle" font-size="6.5" font-weight="700" fill="var(--ink)" font-family="Archivo,sans-serif">'+nf(v,v<10?1:0)+'</text>':'');
+      if(h%3===0)g+='<text x="'+(x+bw/2)+'" y="108" text-anchor="middle" font-size="7.5" fill="var(--soft)" font-family="Archivo,sans-serif">'+(h<10?'0':'')+h+'</text>';});
+    g+='<line x1="8" y1="96.5" x2="316" y2="96.5" stroke="var(--line)"/><text x="316" y="118" text-anchor="end" font-size="7" fill="var(--soft)" font-family="Archivo,sans-serif">hora del día</text>';
+    $('lhHoras').innerHTML='<svg viewBox="0 0 320 120" role="img" aria-label="Lluvia hora por hora del '+dm(dia)+' en '+esc(loc)+'">'+g+'</svg>';
+    $('lhR2').textContent='Lluvia hora por hora del '+dm(dia)+'/'+dia.slice(0,4)+' en '+loc+': '+nf(t.s,1)+' mm'+(t.s>0&&pk>=0?', la hora más lluviosa fue de '+pk+' a '+(pk+1)+' h ('+nf(a[pk],1)+' mm)':', sin lluvia registrada')+(t.k<24?'. La estación transmitió '+t.k+' de 24 horas':'')+'.';}
+})();
 /* evacuados */
 var EV=null,PF=null;try{EV=JSON.parse(document.getElementById('evac-data').textContent);}catch(e){}try{PF=JSON.parse(document.getElementById('pron-data').textContent);}catch(e){}
 function fkey(f){var m=/(\d{1,2})\/(\d{1,2})\/(\d{4})/.exec(f||'');return m?(+m[3])*10000+(+m[2])*100+(+m[1])+(/noche/.test(f)?0.5:0):0;}
-var evMode='ult';
+var evMode='ahora',evLoc='Corrientes Capital';try{evLoc=localStorage.getItem('tc_evloc')||evLoc;}catch(e){}
+function evN(n){n=String(n||'');return n==='Capital'?'Corrientes Capital':n;}
+function evOf(){return ((EV&&EV.historial)||[]).filter(function(r){return !/Municipalidad|municipio/i.test(r.fuente||'');}).map(function(r){var o={};for(var k in r)o[k]=r[k];o.n=evN(r.n);return o;});}
+function evBar(e,a,mx){var W=200,we=(e||0)/mx*W,wa=(a||0)/mx*W;return '<svg viewBox="0 0 200 14" aria-hidden="true"><rect x="0" y="3" width="200" height="8" rx="4" fill="var(--track)"/><rect x="0" y="3" width="'+we.toFixed(1)+'" height="8" fill="var(--bad)"/><rect x="'+we.toFixed(1)+'" y="3" width="'+wa.toFixed(1)+'" height="8" fill="var(--warn)"/></svg>';}
+function evV(x){return x==null?'s/d':nf(x);}
 function drawEvac(){
-  var H=((EV&&EV.historial)||[]).filter(function(r){return !/Municipalidad|municipio/i.test(r.fuente||'');});if(!H.length){$('evac').innerHTML='<p class="s">Sin datos cargados.</p>';return;}
-  var by={};H.forEach(function(r){(by[r.n]=by[r.n]||[]).push(r);});
-  var rows=Object.keys(by).map(function(n){var list=by[n].slice().sort(function(a,b){return fkey(a.f)-fkey(b.f);});
-    if(evMode==='acum'){return {n:n,evac:list.reduce(function(s,r){return s+r.evac;},0),auto:list.reduce(function(s,r){return s+r.auto;},0),f:list.length===1?'1 informe, '+list[0].f.replace(/\/2026.*/,''):list.length+' informes, '+list[0].f.replace(/\/2026.*/,'')+' a '+list[list.length-1].f.replace(/\/2026.*/,'')};}
-    return list[list.length-1];});
-  rows.sort(function(a,b){return (b.evac+b.auto)-(a.evac+a.auto);});
-  var mx=Math.max.apply(null,rows.map(function(r){return r.evac+r.auto;})),h='',se=0,sa=0;
-  rows.forEach(function(r,ix){se+=r.evac;sa+=r.auto;var W=200,we=r.evac/mx*W,wa=r.auto/mx*W;
-    if(ix===6)h+='<details class="mas2"><summary><b>Ver las otras '+(rows.length-6)+' localidades</b></summary>';
-    h+='<div class="row" style="grid-template-columns:110px 1fr 78px"><div class="nm">'+esc(r.n)+'<small>'+esc(r.f.replace('/2026',''))+'</small></div><svg viewBox="0 0 200 14" aria-label="'+esc(r.n)+'"><rect x="0" y="3" width="200" height="8" rx="4" fill="var(--track)"/><rect x="0" y="3" width="'+we.toFixed(1)+'" height="8" fill="var(--bad)"/><rect x="'+we.toFixed(1)+'" y="3" width="'+wa.toFixed(1)+'" height="8" fill="var(--warn)"/></svg><div class="val">'+nf(r.evac+r.auto)+'<small style="color:var(--soft)">'+nf(r.evac)+' ev. / '+nf(r.auto)+' auto.</small></div></div>';});
-  if(EV&&EV.total){var tt=EV.total,m=/(\d[\d.]*)\s*evacuados\s*y\s*(\d[\d.]*)\s*autoevacuados/i.exec(tt.texto||'');$('evTot').innerHTML='<span style="font-stretch:80%;font-weight:800;font-size:2.4rem;line-height:1;color:var(--bad)">'+nf(tt.valor)+'</span><span style="font-size:.85rem;color:var(--ink2)"><b style="color:var(--ink)">personas fuera de su casa en la provincia</b><br>'+(m?'<span style="color:var(--bad);font-weight:700">'+m[1]+' evacuados</span> y <span style="color:var(--warn);font-weight:700">'+m[2]+' autoevacuados</span>, ':'')+'según el último informe oficial ('+esc(tt.fecha)+')</span>';}
-  if(rows.length>6)h+='</details>';
-  $('evac').innerHTML=h+(evMode==='acum'?'<div class="row" style="grid-template-columns:110px 1fr 78px;border-top:2px solid var(--ink)"><div class="nm">Total provincial</div><div></div><div class="val">'+nf(se+sa)+'<small style="color:var(--soft)">'+nf(se)+' ev. / '+nf(sa)+' auto.</small></div></div>':'');
-  $('sE').textContent=evMode==='ult'?'Detalle por localidad según el último informe de Defensa Civil de cada una (fecha bajo el nombre). Cada persona se cuenta una sola vez.':evMode==='acum'?'Suma de todos los partes de Defensa Civil publicados desde el 16/10, por localidad. Cada parte se suma completo, por lo que una misma persona puede figurar en más de un parte; el total actual es el número grande de arriba.':evMode==='ult'?'Situación según el último informe oficial con detalle de cada localidad (fecha bajo el nombre). '+(EV.total?EV.total.texto+' ('+EV.total.fecha+').':'')
-    :'Mayor número de personas fuera de su casa al mismo tiempo en cada localidad durante la emergencia, según los informes oficiales. No es una suma de informes: evita contar dos veces a la misma familia.';
+  if(EV&&EV.total){var tt=EV.total,m=/(\d[\d.]*)\s*evacuados\s*y\s*(\d[\d.]*)\s*autoevacuados/i.exec(tt.texto||'');$('evTot').innerHTML='<span style="font-stretch:80%;font-weight:800;font-size:2.4rem;line-height:1;color:var(--bad)">'+nf(tt.valor)+'</span><span style="font-size:.85rem;color:var(--ink2)"><b style="color:var(--ink)">personas fuera de su casa en la provincia, ahora</b><br>'+(m?'<span style="color:var(--bad);font-weight:700">'+m[1]+' evacuados</span> y <span style="color:var(--warn);font-weight:700">'+m[2]+' autoevacuados</span>, ':'')+'según el último informe oficial ('+esc(tt.fecha)+')</span>';}
+  var H=evOf(),h='',hoy=Date.now();$('evLeg').style.display=evMode==='hist'?'none':'';$('evSitW').style.display=evMode==='ahora'&&EV&&EV.situacion&&EV.situacion.length?'':'none';
+  if(evMode==='ahora'){
+    var L=((EV&&EV.situacion)||[]).map(function(r){var tot=r.personas!=null?r.personas:(r.evac!=null||r.auto!=null)?(r.evac||0)+(r.auto||0):null;return {n:r.n,estado:r.estado||'sin dato',evac:r.evac,auto:r.auto,tot:tot,f:r.f||'',fi:r.f_iso||''};});
+    if(!L.length){$('evac').innerHTML='<p class="s">Sin datos cargados.</p>';return;}
+    var OR={'con evacuados':0,'en regreso':1,'sin evacuados':2};L.sort(function(x,y){return ((y.tot||0)-(x.tot||0))||((OR[x.estado]||3)-(OR[y.estado]||3));});
+    var mx=Math.max.apply(null,L.map(function(r){return r.tot||0;}).concat([1])),se=0,sa=0,st=0;
+    L.forEach(function(r){var d=Date.parse(r.fi),dd=isNaN(d)?null:Math.floor((hoy-d)/864e5),cl=r.estado==='con evacuados'?'p-bad':r.estado==='en regreso'?'p-warn':r.estado==='sin evacuados'?'p-ok':'p-n';se+=r.evac||0;sa+=r.auto||0;st+=r.tot||0;
+      var e=r.evac,a=r.auto;if(e==null&&a==null&&r.tot!=null){a=r.tot;}
+      h+='<div class="row" style="grid-template-columns:118px 1fr 92px"><div class="nm">'+esc(r.n)+'<small><span class="pill '+cl+'" style="font-size:.6rem;padding:1px 6px">'+esc(r.estado)+'</span> '+esc(r.f.replace('/2026',''))+(dd!=null&&dd>5?' <b style="color:var(--bad)">(hace '+dd+' días)</b>':'')+'</small></div>'+evBar(e,a,mx)+'<div class="val">'+(r.tot==null?'s/d':nf(r.tot))+'<small style="color:var(--soft)">'+evV(r.evac)+' ev. / '+evV(r.auto)+' auto.</small></div></div>';});
+    h+='<div class="row" style="grid-template-columns:118px 1fr 92px;border-top:2px solid var(--ink)"><div class="nm">Suma de localidades<small>último dato de cada una</small></div><div></div><div class="val">'+nf(st)+'<small style="color:var(--soft)">'+nf(se)+' ev. / '+nf(sa)+' auto.</small></div></div>';
+    $('sE').innerHTML='<b>Cuántas personas están fuera de su casa ahora en cada localidad</b>, según el último dato oficial de cada una (fecha bajo el nombre). Cada persona se cuenta una sola vez. La suma puede diferir del total provincial de arriba si algunas localidades tienen datos de otra fecha.';
+  } else if(evMode==='acum'){
+    if(!H.length){$('evac').innerHTML='<p class="s">Sin datos cargados.</p>';return;}
+    var by={};H.forEach(function(r){(by[r.n]=by[r.n]||[]).push(r);});
+    var R=Object.keys(by).map(function(n){var l=by[n].slice().sort(function(a,b){return fkey(a.f)-fkey(b.f);}),p=l[0];l.forEach(function(r){if((r.evac||0)+(r.auto||0)>(p.evac||0)+(p.auto||0))p=r;});return {n:n,p:p,k:l.length,f0:l[0].f,f1:l[l.length-1].f};});
+    R.sort(function(a,b){return ((b.p.evac||0)+(b.p.auto||0))-((a.p.evac||0)+(a.p.auto||0));});
+    var mx2=Math.max.apply(null,R.map(function(r){return (r.p.evac||0)+(r.p.auto||0);}).concat([1]));
+    R.forEach(function(r){var v=(r.p.evac||0)+(r.p.auto||0);h+='<div class="row" style="grid-template-columns:118px 1fr 92px"><div class="nm">'+esc(r.n)+'<small>máximo el '+esc(r.p.f.replace('/2026',''))+', '+r.k+(r.k===1?' parte':' partes')+' ('+esc(r.f0.replace(/\/2026.*/,''))+(r.k>1?' a '+esc(r.f1.replace(/\/2026.*/,'')):'')+')</small></div>'+evBar(r.p.evac,r.p.auto,mx2)+'<div class="val">'+nf(v)+'<small style="color:var(--soft)">'+evV(r.p.evac)+' ev. / '+evV(r.p.auto)+' auto.</small></div></div>';});
+    var S=(EV&&EV.serie)||[],pk=null;S.forEach(function(s){if(!pk||s.v>pk.v)pk=s;});
+    if(pk)h+='<div class="row" style="grid-template-columns:118px 1fr 92px;border-top:2px solid var(--ink)"><div class="nm">Máximo provincial<small>el '+esc(pk.f)+'</small></div><div></div><div class="val">'+(pk.aprox?'+':'')+nf(pk.v)+'</div></div>';
+    $('sE').innerHTML='<b>Cuánto afectó la emergencia a cada localidad desde el 16/10.</b> Se muestra el mayor número de personas fuera de su casa al mismo tiempo, con su fecha, y cuántos partes de Defensa Civil hubo. No se suman los partes entre sí, porque la misma familia figura en varios partes y se contaría más de una vez.';
+  } else {
+    var T={};H.forEach(function(r){(T[r.n]=T[r.n]||[]).push({f:r.f,evac:r.evac,auto:r.auto,fuente:r.fuente,u:r.u});});
+    ((EV&&EV.situacion)||[]).forEach(function(s){(s.linea||[]).forEach(function(x){var lst=(T[s.n]=T[s.n]||[]);if(!lst.some(function(y){return y.f.slice(0,10)===String(x.f).slice(0,10);}))lst.push({f:x.f,evac:x.evac,auto:x.auto,personas:x.personas,fuente:x.fuente,u:x.u,mun:true});});});
+    var noms=Object.keys(T).sort(function(a,b){return a==='Corrientes Capital'?-1:b==='Corrientes Capital'?1:a.localeCompare(b,'es');});if(noms.indexOf(evLoc)<0)evLoc=noms[0];
+    var l=(T[evLoc]||[]).slice().sort(function(a,b){return fkey(a.f)-fkey(b.f);});
+    h='<select id="evLocS" class="psel" aria-label="Localidad">'+noms.map(function(n){return '<option'+(n===evLoc?' selected':'')+'>'+esc(n)+'</option>';}).join('')+'</select>';
+    var tv=function(r){return r.personas!=null?r.personas:(r.evac!=null||r.auto!=null)?(r.evac||0)+(r.auto||0):null;},P=l.filter(function(r){return tv(r)!=null;});
+    if(P.length){var top=Math.max.apply(null,P.map(tv).concat([1]))*1.18,W=Math.max(320,P.length*46),X=function(i){return 28+i*((W-44)/Math.max(1,P.length-1));},Y=function(v){return 100-v/top*82;},g='';
+      g+='<line x1="16" y1="100.5" x2="'+(W-8)+'" y2="100.5" stroke="var(--line)"/>';
+      g+='<polyline fill="none" stroke="var(--warn)" stroke-width="2.5" points="'+P.map(function(r,i){return X(i).toFixed(1)+','+Y(tv(r)).toFixed(1);}).join(' ')+'"/>';
+      g+='<polyline fill="none" stroke="var(--bad)" stroke-width="2" stroke-dasharray="4 3" points="'+P.map(function(r,i){return r.evac==null?'':X(i).toFixed(1)+','+Y(r.evac).toFixed(1);}).filter(Boolean).join(' ')+'"/>';
+      P.forEach(function(r,i){g+='<circle cx="'+X(i).toFixed(1)+'" cy="'+Y(tv(r)).toFixed(1)+'" r="3.5" fill="var(--warn)"/><text x="'+X(i).toFixed(1)+'" y="'+(Y(tv(r))-7).toFixed(1)+'" text-anchor="middle" font-size="9" font-weight="700" fill="var(--ink)" font-family="Archivo,sans-serif">'+nf(tv(r))+'</text><text x="'+X(i).toFixed(1)+'" y="114" text-anchor="middle" font-size="8" fill="var(--soft)" font-family="Archivo,sans-serif">'+esc(String(r.f).slice(0,5))+'</text>';});
+      h+='<div style="overflow-x:auto"><svg viewBox="0 0 '+W+' 120" style="width:'+W+'px;max-width:none;height:auto" role="img" aria-label="Evolución de personas fuera de su casa en '+esc(evLoc)+'">'+g+'</svg></div><div class="leg"><span><i style="background:var(--warn)"></i>Personas fuera de su casa (total)</span><span><i style="background:var(--bad)"></i>De ellas, en centros de evacuados (línea punteada)</span></div>';}
+    h+='<div style="margin-top:8px">'+l.slice().reverse().map(function(r){var v=tv(r);return '<div style="display:flex;gap:8px;align-items:baseline;border-top:1px solid var(--line);padding:6px 0;font-size:.84rem"><b style="flex:0 0 74px">'+esc(String(r.f).slice(0,10))+'</b><span style="flex:1">'+(v==null?'sin cifra':'<b>'+nf(v)+'</b> personas')+(r.evac!=null||r.auto!=null?' ('+evV(r.evac)+' evacuados, '+evV(r.auto)+' autoevacuados)':'')+'<span class="meta">'+esc(r.fuente||'')+(r.u?' <a href="'+esc(r.u)+'" target="_blank" rel="noopener" style="color:var(--water)">Fuente</a>':'')+'</span></span></div>';}).join('')+'</div>';
+    $('sE').innerHTML='<b>Todos los datos publicados para una localidad, día por día</b>, con su fuente. Elija la localidad en la lista.';
+  }
+  $('evac').innerHTML=h;
+  var sc=$('evac').querySelector('div[style*="overflow-x"]');if(sc)sc.scrollLeft=sc.scrollWidth;var s=document.getElementById('evLocS');if(s)s.addEventListener('change',function(){evLoc=s.value;try{localStorage.setItem('tc_evloc',evLoc);}catch(e){}drawEvac();});
 }
 Array.prototype.forEach.call(document.querySelectorAll('#evSeg button'),function(b){b.addEventListener('click',function(){evMode=b.dataset.m;Array.prototype.forEach.call(document.querySelectorAll('#evSeg button'),function(x){x.setAttribute('aria-pressed',x===b?'true':'false');});drawEvac();});});
 if(EV){drawEvac();
@@ -601,7 +669,7 @@ if(EV){drawEvac();
 } else {$('evac').innerHTML='<p class="s">Sin datos cargados.</p>';}
 
 /* situación actual por localidad: zonas y barrios evacuados, estado y fecha del dato */
-(function(){var L=(EV&&EV.situacion)||[];if(!L.length)return;$('evSitW').style.display='';
+(function(){var L=(EV&&EV.situacion)||[];if(!L.length)return;$('evSitW').style.display=evMode==='ahora'?'':'none';
   var hoy=Date.now(),ED={'con evacuados':['p-bad',0],'en regreso':['p-warn',1],'sin evacuados':['p-ok',2]};
   var dias=function(r){var t=Date.parse(r.f_iso||'');return isNaN(t)?null:Math.floor((hoy-t)/864e5);};
   var ord=L.slice().sort(function(a,b){var ea=(ED[a.estado]||['',3])[1],eb=(ED[b.estado]||['',3])[1];var tot=function(r){return r.personas!=null?r.personas:(r.evac||0)+(r.auto||0);};return ea-eb||tot(b)-tot(a);});
