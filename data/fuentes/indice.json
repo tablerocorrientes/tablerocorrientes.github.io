@@ -1,6 +1,6 @@
 {
- "consultado": "25/11/2026, 14:41 h",
- "consultado_iso": "2026-11-25T14:41-03:00",
+ "consultado": "25/11/2026, 15:10 h",
+ "consultado_iso": "2026-11-25T15:10-03:00",
  "paginas": {
   "smn_alertas": {
    "url": "https://www.smn.gob.ar/alertas",
@@ -39,7 +39,7 @@
   "rioparana_alturas": {
    "url": "https://www.rioparana.com.ar",
    "estado": 200,
-   "caracteres": 11235,
+   "caracteres": 11238,
    "archivo": "data/fuentes/rioparana_alturas.txt"
   },
   "prefectura_alturas": {
@@ -50,7 +50,7 @@
   "lanacion_clima_corrientes": {
    "url": "https://www.lanacion.com.ar/clima/corrientes/",
    "estado": 200,
-   "caracteres": 8125,
+   "caracteres": 8167,
    "archivo": "data/fuentes/lanacion_clima_corrientes.txt"
   },
   "noaa_enso": {
@@ -62,35 +62,33 @@
   "smn_datos_alertas": {
    "url": "https://ws.smn.gob.ar/alerts/type/AL",
    "estado": "error",
-   "detalle": "HTTP Error 503: Service Unavailable"
+   "detalle": "HTTP Error 404: Not Found"
   },
   "smn_datos_avisos_cp": {
    "url": "https://ws.smn.gob.ar/alerts/type/AC",
    "estado": "error",
-   "detalle": "HTTP Error 503: Service Unavailable"
+   "detalle": "HTTP Error 404: Not Found"
   },
   "smn_datos_tiempo_presente": {
    "url": "https://ws.smn.gob.ar/map_items/weather",
-   "estado": "error",
-   "detalle": "HTTP Error 503: Service Unavailable"
+   "estado": 200,
+   "caracteres": 60000,
+   "archivo": "data/fuentes/smn_datos_tiempo_presente.txt"
   },
   "smn_datos_horarios_ayer": {
    "url": "https://ssl.smn.gob.ar/dpd/descarga_opendata.php?file=observaciones/datohorario20261124.txt",
-   "estado": 200,
-   "caracteres": 10301,
-   "archivo": "data/fuentes/smn_datos_horarios_ayer.txt"
+   "estado": "error",
+   "detalle": "HTTP Error 503: Service Unavailable"
   },
   "smn_pronostico_5_dias": {
    "url": "https://ssl.smn.gob.ar/dpd/descarga_opendata.php?file=pron5d/pron20261125.txt",
-   "estado": 200,
-   "caracteres": 17711,
-   "archivo": "data/fuentes/smn_pronostico_5_dias.txt"
+   "estado": "error",
+   "detalle": "HTTP Error 503: Service Unavailable"
   },
   "smn_pronostico_5_dias_ayer": {
    "url": "https://ssl.smn.gob.ar/dpd/descarga_opendata.php?file=pron5d/pron20261124.txt",
-   "estado": 200,
-   "caracteres": 17711,
-   "archivo": "data/fuentes/smn_pronostico_5_dias_ayer.txt"
+   "estado": "error",
+   "detalle": "HTTP Error 503: Service Unavailable"
   },
   "coe_a_2026_0169_CP": {
    "url": "https://coe.corrientes.gob.ar/a/2026-0169-CP",
