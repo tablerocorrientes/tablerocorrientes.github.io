@@ -1,5 +1,5 @@
 {
- "actualizado": "25/11/2026, 04:32 h",
+ "actualizado": "25/11/2026, 04:48 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
@@ -163,11 +163,11 @@
     null,
     null,
     null,
-    null,
+    0,
     null
    ],
    "total": 13.75,
-   "ultimo": "0,5 mm a las 00 h"
+   "ultimo": "0 mm a las 04 h"
   },
   {
    "localidad": "San Carlos",
@@ -1081,11 +1081,11 @@
     null,
     null,
     null,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 00 h"
+   "ultimo": "0 mm a las 04 h"
   },
   {
    "localidad": "Caá Catí",
@@ -1353,11 +1353,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 18.8,
-   "ultimo": "0 mm a las 03 h"
+   "ultimo": "0 mm a las 04 h"
   },
   {
    "localidad": "San Isidro",
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "25/11/2026, 04:32 h",
+ "consultado": "25/11/2026, 04:48 h",
  "consulta_resultado": "datos nuevos"
 }
