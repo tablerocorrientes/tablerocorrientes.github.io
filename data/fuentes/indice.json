@@ -1,6 +1,6 @@
 {
- "consultado": "25/11/2026, 10:38 h",
- "consultado_iso": "2026-11-25T10:38-03:00",
+ "consultado": "25/11/2026, 10:43 h",
+ "consultado_iso": "2026-11-25T10:43-03:00",
  "paginas": {
   "smn_alertas": {
    "url": "https://www.smn.gob.ar/alertas",
@@ -129,29 +129,6 @@
    "archivo": "data/fuentes/coe_a_2026_0164_CP.txt"
   }
  },
- "pedidas": {
-  "https://www.diarioepoca.com/1395909-corrientes-siguen-1300-desplazados-y-esperan-un-repunte-del-rio-parana": {
-   "url": "https://www.diarioepoca.com/1395909-corrientes-siguen-1300-desplazados-y-esperan-un-repunte-del-rio-parana",
-   "estado": "error",
-   "detalle": "HTTP Error 404: NOT FOUND"
-  },
-  "https://www.radiodos.com.ar/217560-creciente-se-espera-un-repunte-del-rio-parana-y-mas-de-1300-personas-continuan-desplazadas": {
-   "url": "https://www.radiodos.com.ar/217560-creciente-se-espera-un-repunte-del-rio-parana-y-mas-de-1300-personas-continuan-desplazadas",
-   "estado": "error",
-   "detalle": "HTTP Error 404: NOT FOUND"
-  },
-  "https://www.dataclave.com.ar/en-general/inundaciones-en-corrientes-y-chaco--casi-4-000-personas-evacuadas-y-alerta-por-nueva-crecida-del-parana_a6b05b5d7cf2ab53c0e24e6aa": {
-   "url": "https://www.dataclave.com.ar/en-general/inundaciones-en-corrientes-y-chaco--casi-4-000-personas-evacuadas-y-alerta-por-nueva-crecida-del-parana_a6b05b5d7cf2ab53c0e24e6aa",
-   "estado": 200,
-   "caracteres": 6187,
-   "archivo": "data/fuentes/web/dataclave_com_ar_en_general_inundaciones_en_corrientes_y_chaco_casi_4_000_personas_evacuad.txt"
-  },
-  "https://www.diarioepoca.com/1394115-pese-al-leve-retroceso-del-parana-subio-el-numero-de-desplazados": {
-   "url": "https://www.diarioepoca.com/1394115-pese-al-leve-retroceso-del-parana-subio-el-numero-de-desplazados",
-   "estado": "error",
-   "detalle": "HTTP Error 404: NOT FOUND"
-  }
- },
  "portales": {
   "munired_municipio_corrientes": {
    "url": "https://munired.mcypcorrientes.gob.ar/noticias/corrientes",
@@ -182,6 +159,29 @@
    "estado": 200,
    "notas": 6,
    "archivo": "data/fuentes/portales/eby_noticias.txt"
+  }
+ },
+ "pedidas": {
+  "https://www.diarioepoca.com/1395909-corrientes-siguen-1300-desplazados-y-esperan-un-repunte-del-rio-parana": {
+   "url": "https://www.diarioepoca.com/1395909-corrientes-siguen-1300-desplazados-y-esperan-un-repunte-del-rio-parana",
+   "estado": "error",
+   "detalle": "HTTP Error 404: NOT FOUND"
+  },
+  "https://www.radiodos.com.ar/217560-creciente-se-espera-un-repunte-del-rio-parana-y-mas-de-1300-personas-continuan-desplazadas": {
+   "url": "https://www.radiodos.com.ar/217560-creciente-se-espera-un-repunte-del-rio-parana-y-mas-de-1300-personas-continuan-desplazadas",
+   "estado": "error",
+   "detalle": "HTTP Error 404: NOT FOUND"
+  },
+  "https://www.dataclave.com.ar/en-general/inundaciones-en-corrientes-y-chaco--casi-4-000-personas-evacuadas-y-alerta-por-nueva-crecida-del-parana_a6b05b5d7cf2ab53c0e24e6aa": {
+   "url": "https://www.dataclave.com.ar/en-general/inundaciones-en-corrientes-y-chaco--casi-4-000-personas-evacuadas-y-alerta-por-nueva-crecida-del-parana_a6b05b5d7cf2ab53c0e24e6aa",
+   "estado": 200,
+   "caracteres": 6187,
+   "archivo": "data/fuentes/web/dataclave_com_ar_en_general_inundaciones_en_corrientes_y_chaco_casi_4_000_personas_evacuad.txt"
+  },
+  "https://www.diarioepoca.com/1394115-pese-al-leve-retroceso-del-parana-subio-el-numero-de-desplazados": {
+   "url": "https://www.diarioepoca.com/1394115-pese-al-leve-retroceso-del-parana-subio-el-numero-de-desplazados",
+   "estado": "error",
+   "detalle": "HTTP Error 404: NOT FOUND"
   }
  },
  "pedidas_consultado": "25/11/2026, 10:38 h"
