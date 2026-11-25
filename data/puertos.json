@@ -659,6 +659,14 @@
  "prensa_fecha": "14/11/2026, 09:12 h",
  "prensa": [
   {
+   "fecha": "24/11/2026",
+   "medio": "El Cronista",
+   "titulo": "Se aproxima una tormenta este martes 24 de noviembre: habrá lluvias de hasta 100 mm, ráfagas de hasta 90 km/h y posible caída de granizo en Misiones y Corrientes",
+   "enlace": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxPTG43NHdnVFlfZnFHU2IzUE5TdEt6aWR1R2d5bEpsTnZ6bVBQd19hVDVmMnc2ZlA3WDJ5YWNreHNvak1tVnVFZ1I2WUtnVEtqZGpBMjR0Y2dOSEtsVkZwbjZ1X2tzSFdzdmVROUxCbHlqanlacUxiaV9WUVBfSkV4RFhYV0xiRXdGMWVjdnM1VDVNYlFkYkJyN2dWdC1GUWNDNDR2b1RnZE1Jb0hnY195TGJuZUtpZWs5elVzQzN4MUxtb3JCOVNKazBxN1hKcktZeThqRGtpbi0yZFVDVkpvV3VWbkxnMFVDN1QtVWJyaWhKS1ptZmNNXzExRkZBRVBsSXJ0MHpSMzIzaHhIUjUzRTZzdmxDTFR3Z2ZkUnNvWEUxa0tYQk5nMNIBwwJBVV95cUxQbmktSkFlR0tDeTBxOGZEU1FycGlHNFMzb0FqNTdhUGJ3bmxqTGVKbzZhZ19MS2k4blU4cHNhemhaN19PazUzeU5HejJLYVI5aExrWlBwU1VHdGQwVDR5Z1RVNGpfZHlFMEdheE9sbHVNdU5fRk9hT1BWdHVVX01NTG9NOUthSUVkZ3hoUXRLeHRpN2xGeXdhOXpTbmV2Wi0yZlZqY1o0YU84aVFkc3Z2VkdRSEg1Y2Nlb2t4bE9JOU5SU0hUdEhiMHZDMkU1dlU0dVpOOEJ0NWg1bld0OGtrODVIdlo4bVNMc0xYYUtMZzZFU1p3Q2RGMVYxMGJXQmJ3ckJoUm4ybkxlUGpXZmRyamdFWE9sU1RxZDdpRmJGSVczX0N6RVV6WS02Wk1ydEhMSHFfRGFjOEw5bXp1bmh4cEF2cw?oc=5",
+   "breve": "Se aproxima una tormenta este martes 24 de noviembre: habrá lluvias de hasta 100 mm, ráfagas de hasta 90 km/h y posible caída de granizo en Misiones y Corrientes",
+   "auto": true
+  },
+  {
    "fecha": "25/11/2026",
    "medio": "Corrientes Hoy",
    "titulo": "Inundaciones y lluvias en el sur de Brasil aumentan caudal de agua en el Río Uruguay en Corrientes y Misiones",
@@ -1121,13 +1129,6 @@
    "titulo": "Se aproximan tormentas este miércoles 11 de noviembre: habrá lluvias con actividad eléctrica en la provincia de Corrientes",
    "resumen": "Según el pronóstico del SMN, el miércoles 11 habrá inestabilidad con lluvias y tormentas en Monte Caseros, Curuzú Cuatiá, Paso de los Libres, Goya, Mercedes, Empedrado e Ituzaingó, con mejora durante la noche. La nota no menciona alertas oficiales ni milímetros.",
    "enlace": "https://www.cronista.com/informacion-gral/se-aproximan-tormentas-este-miercoles-11-de-noviembre-habra-lluvias-con-actividad-electrica-en-la-provincia-de-corrientes/"
-  },
-  {
-   "medio": "El Monterizo",
-   "fecha": "08/11/2026",
-   "titulo": "La crecida se va del norte de Corrientes pero desembarca en el sur: ya son casi 2000 los que dejaron sus casas",
-   "resumen": "Reproduce el relevamiento de Defensa Civil (1.967 personas: 444 evacuadas y 1.523 autoevacuadas). El sur es el nuevo foco: zona del puerto de Goya 157 autoevacuados, San Isidro 50 y Esquina 58 por el río Corriente; en el norte el agua baja en Ituzaingó, Santa Lucía, Cruz de los Milagros y Bella Vista. No informa barrios anegados nuevos.",
-   "enlace": "https://elmonterizo.com/la-crecida-se-va-del-norte-de-corrientes-pero-desembarca-en-el-sur-ya-son-casi-2000-los-que-dejaron-sus-casas"
   }
  ],
  "puertos_uruguay": [
@@ -1445,7 +1446,7 @@
  "tapon_breve": "Sin alerta del SMN para la Capital en las próximas 48 horas. Con el río en 5,67 m, el riesgo de anegamiento depende de la intensidad de la lluvia.",
  "consultado": "25/11/2026, 13:38 h",
  "consulta_resultado": "datos nuevos",
- "prensa_actualizada": "25/11/2026, 15:19 h",
+ "prensa_actualizada": "25/11/2026, 15:53 h",
  "ina_parana_breve": "El INA prevé un río casi estable en Corrientes, con posible suba lenta después.",
  "ina_uruguay_breve": "El INA prevé que Santo Tomé se acerque a la alerta entre el 25/11 y el 30/11, y Paso de los Libres la supere desde el 28/11."
 }
