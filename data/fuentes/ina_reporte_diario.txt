@@ -1,5 +1,5 @@
 Fuente: https://alerta.ina.gob.ar/a5/diario/reporte_diario
-Consultado: 25/11/2026, 12:51 h
+Consultado: 25/11/2026, 14:41 h
 
 Reporte diario - Cuenca del Plata - INA - SLHi
 Buscar en el sitio
@@ -16,12 +16,12 @@ Alerta Hidrológico Cuenca del Plata
 Reporte diario
 Alerta Hidrológico Cuenca del Plata
 Reporte hidrometeorológico diario de la Cuenca del Plata
-Fecha de actualización: 24/11/2026
+Fecha de actualización: 25/11/2026
 Versión PDF
 Situación meteorológica
 Precipitación acumulada semanal
 Pronóstico a 7 días
-Las previsiones numéricas de precipitación para los próximos siete días indican el probable desarrollo de eventos de precipitación distribuidos sobre el cuadrante noreste de la Cuenca del Plata . En el sector del Alto Paraná se prevén lluvias con montos medios areales moderados con núcleos abundantes sobre las cuencas de los ríos Grande y Tieté , correspondiente al sector regulado , mientras que en el sector no regulado se esperan precipitaciones con montos areales moderados . Asimismo, sobre la cuenca del río Iguazú , la cuenca propia de Yacyretá , el incremental Yacyretá - Corrientes , así como en el tramo medio y superior del río Uruguay , se prevén lluvias con acumulados moderados a ligeramente abundantes . En cuanto al río Paraguay , se esperan lluvias con acumulados de precipitación moderados con núcleos ligeramente abundantes o abundantes sobre el tramo inferior . Finalmente, en el resto de la Cuenca del Plata se espera la persistencia de condiciones de precipitación poco significativas o deficitarias.
+Las previsiones numéricas de precipitación para los próximos siete días indican el probable desarrollo de eventos de precipitación distribuidos sobre el cuadrante noreste de la Cuenca del Plata . En el sector del Alto Paraná se prevén lluvias con montos medios areales moderados con núcleos abundantes sobre el incremental Porto Primavera y la cuenca del río Tieté , correspondiente al sector regulado , mientras que en el sector no regulado se esperan precipitaciones con montos areales moderados a ligeramente abundantes . Asimismo, sobre la cuenca del río Iguazú , la cuenca propia de Yacyretá , el incremental Yacyretá - Corrientes , así como en el tramo medio y superior del río Uruguay , se prevén lluvias con acumulados moderados a ligeramente abundantes . En cuanto al río Paraguay , se esperan lluvias con acumulados de precipitación moderados con núcleos ligeramente abundantes sobre la cuenca alta (zona del Pantanal) y la vertiente oriental de los tramos medio e inferior . Finalmente, en el resto de la Cuenca del Plata se espera la persistencia de condiciones de precipitación poco significativas o deficitarias.
 Situación hidrológica
 Condición hídrica de los principales cursos de la Cuenca del Plata en territorio Argentino en base a la última observación de nivel o caudal en estaciones de referencia. Se calcula la frecuencia de superación (%) en el periodo 1991-2020 y se clasifica en 5 categorías. Adicionalmente se indica superación de niveles de alerta y evacuación.
 Estación
@@ -35,119 +35,120 @@ Paraná
 21,00
 25,00
 28,00
-aguas medias altas
+aguas medias altas/altas
 Corrientes
 Paraná
-5,63
+5,67
 6,50
 7,00
-aguas medias altas
+aguas medias altas/altas
+Atención
 Barranqueras
 Paraná
-5,54
+5,56
 6,00
 6,50
-aguas medias altas
+aguas medias altas/altas
+Atención
 Goya
 Paraná
-5,47
+5,44
 5,20
 5,70
 aguas medias altas
 Reconquista
 Paraná
-5,32
+5,27
 5,10
 5,30
 aguas medias altas
 La Paz
 Paraná
-6,06
+6,05
 5,80
 6,15
 aguas medias altas
 Paraná
 Paraná
-5,59
+5,55
 4,70
 5,00
 aguas medias altas/altas
 Santa Fe
 Paraná
-5,80
+5,77
 5,30
 5,70
 aguas medias altas
 Victoria
 Paraná/Delta
-5,30
+5,36
 4,60
 5,90
 aguas medias altas
 Rosario
 Paraná
-4,99
+4,95
 5,00
 5,25
 aguas medias altas
-Atención
 San Fernando
 Lujan
-1,16
+1,82
 3,00
 3,50
-aguas medias altas
+aguas medias altas/altas
 Puerto Pilcomayo
 Paraguay
-2,70
+2,96
 5,35
 6,00
 aguas medias bajas/medias
 Puerto Formosa
 Paraguay
-4,48
+4,52
 7,80
 8,30
 aguas medias
 San Javier
 Uruguay
-5,05
+6,00
 8,00
 10,00
-aguas medias altas/altas
+aguas altas
 Atención
 Santo Tomé
 Uruguay
-5,98
+8,05
 11,50
 12,50
-aguas medias altas /altas
+aguas altas
 Atención
 Paso de los Libres
 Uruguay
-5,07
+5,04
 7,50
 8,50
-aguas medias altas /altas
+aguas medias altas/alas
 Atención
 Concordia
 Uruguay
-6,22
+6,46
 11,00
 12,50
-aguas medias/medias altas
+aguas medias altas
 Concepción del Uruguay
 Uruguay
-2,70
+2,68
 5,30
 6,30
-aguas medias/medias altas
+aguas medias altas
 Boca Gualeguaychú
 Uruguay
-1,60
+1,70
 2,90
 3,10
-aguas medias
+aguas medias/medias altas
 Estación
 Río
 Caudal (m 3 /s)
@@ -167,48 +168,48 @@ Paraná
 25000
 aguas medias altas
 Andresito
-Iguazu
-4258
+Iguazú
+2874
 5000
 6500
-aguas medias altas/altas
+aguas altas
 Confluencia
 Paraná
-17758
+16374
 25000
 30000
-aguas medias altas
+aguas medias altas/altas
 Yacyretá afluente
 Paraná
-22300
+21700
 25000
 30000
-aguas medias altas
+aguas altas
 Yacyretá efluente
 Paraná
-22000
+22200
 25000
 30000
-aguas medias altas
+aguas altas
 aguas altas
 aguas medias altas
 aguas medias
 aguas medias bajas
 aguas bajas
 SISTEMA PARAGUAY - IGUAZÚ - PARANÁ:
-- El Alto Paraná en Guairá se observó oscilante en aguas medias altas , todavía por encima de lo normal para la época del año, en asociación al repunte en curso de la afluencia en ruta desde el sector no regulado y su efecto compensatorio sobre el patrón actual de la descarga en Porto Primavera - Rosana. A corto plazo, se prevé que continúe al menos oscilante en aguas medias altas, en vista de la normalización en el aporte de base del sector regulado y la previsión de lluvias durante los próximos días sobre el sector no regulado, favorables para sostener en ascenso la afluencia en ruta. En consecuencia, se prevé que sostenga al menos la estabilización actual o inclusive exhiba incrementos de punta, en principio en aguas medias altas. En asociación, la erogación en Itaipú se observó oscilante en aguas medias altas , con estabilización de los caudales vertidos para el control del nivel del embalse. En sintonía con la perspectiva en la afluencia, a corto plazo se espera que la descarga continúe oscilante en aguas medias altas, todavía por encima de lo normal para la época del año.
-- El río Iguazú en Andresito se observó oscilante/en ascenso en aguas medias altas/altas , en asociación a leves incrementos de la afluencia en ruta por efecto de las últimas lluvias en la región. Por otro lado, el nivel hidrométrico en Puerto Iguazú se observó oscilante en aguas medias altas . A corto plazo, se prevé que continúe oscilante en aguas medias altas/altas, con chances de nuevos incrementos de punta más notorios o inclusive un nuevo tránsito de onda de crecida en aguas altas , en sintonía con la previsión de lluvias ligeramente abundantes en la región y el bajo déficit hídrico precedente.
-- El río Paraguay se observó con estabilización de base en aguas medias bajas en Puerto Pilcomayo y con leve descenso/estabilización en aguas medias en Formosa . En sintonía con las lluvias abundantes registradas en el tramo medio e inferior , se prevé el tránsito de una onda de crecida en aguas medias/medias altas . En consecuencia, a corto plazo se prevé que persista el ascenso hacia aguas medias observado actualmente en Puerto Pilcomayo, y se imponga tendencia de ascenso hacia aguas medias/medias altas en Formosa, todavía con posibilidad de eventos de precipitación abundantes en el tramo inferior durante los próximos 7 días, favorables para la amplificación del tránsito en curso desde el tramo medio. En plazo extendido, continuaría en ascenso hacia la culminación, sosteniendo el incremento del aporte de base hacia aguas abajo (valores normales/por encima de lo normal para la época del año).
-- En Yacyretá , la afluencia se observó oscilante/estable en aguas medias altas , en asociación al patrón en los aportes aguas arriba y el gradual retorno de condiciones favorables de precipitación sobre la cuenca propia. Durante los próximos 4 días se prevé que al menos continúe oscilante con amplitud acotada en aguas medias altas, todavía con chances de un nuevo repunte en aguas medias/altas hacia mayor plazo, en asociación a la previsión sobre las principales áreas generadoras de escorrentía. En asociación, la erogación se observó oscilante/estable en aguas medias altas , sosteniendo recuperación de base y con derrame todavía por encima de lo normal para la época del año. Actualmente, exhibe recuperación de base y oscilaciones acotadas en aguas medias altas , todavía sosteniendo el derrame en valores por encima de lo normal para la época del año. Durante los próximos 4  días al menos se proyecta que al menos persista oscilante/estable en aguas medias altas, todavía manteniendo el aporte significativo de volumen aguas abajo, así como es probable que exhiba un nuevo repunte en aguas medias altas/altas.
-- El río Paraná en Corrientes - La Paz se observa oscilante/leve descenso en Corrientes-Goya , en asociación a la fase de descenso del tránsito de onda de crecida en aguas medias altas/altas en curso, por efecto del último incremento en la erogación de Yacyretá, en asociación a la persistencia de condiciones húmedas sobre las principales áreas generadoras de caudal. Actualmente, en Corrientes-Barranqueras se registran marcas en aguas medias altas . Durante los próximos  7  días se prevé gradual estabilización en aguas medias altas en las secciones superiores, en sintonía con el patrón observado y previsto en la descarga de Yacyretá. A continuación, continuaría oscilante en aguas medias altas, con perspectiva al menos de persitir estable o echibir gradual ascenso, todavía con posibilidad de nuevos repuntes, en vista de la previsión de condiciones favorables de precipitación en las principales áreas generadoras de caudal, en combinación con el tránsito de onda del río Paraguay en curso. Por otro lado, en Goya/Reconquista - La Paz se registran marcas en aguas medias altas ,  con excedencia del nivel de Alerta en Goya y La Paz, y excedencia de los niveles de Alerta y Evacuación en Reconquista . Este sector del tramo se espera que persista oscilante/leve descenso en aguas medias altas, estabilizando progresivamente hacia plazo extendido y con chances de nuevos repuntes hacia mayor plazo, todavía con elevada probabilidad de sostenerse por encima de los niveles de Alerta y con pronta finalización de Evacuación en Reconquista.
-- Aguas abajo, sobre Santa Fe/Paraná - Rosario , se observa iniciando la fase de descenso en Santa Fe/Paraná y oscilante en punta en Rosario , con marcas en aguas medias altas ( medias altas/altas en Paraná ), por encima de lo normal para la época del año por efecto del tránsito en curso. Actualmente, en Santa Fe/Paraná se observa excedencia de los niveles de Alerta y Evacuación , mientras que en Rosario sostiene aproximación al nivel de Alerta . Durante los próximos 7 días se prevé que continúe con gradual descenso en aguas medias altas en las  secciones superiores ( medias altas/altas en Paraná ), todavía con permanencia por encima de marcas de Evacuación o Alerta, con perspectiva en plazo de 7 - 14 días de continuar al menos oscilante/con leve descenso en aguas medias altas, estabilizando gradualmente en aguas medias altas, todavía en niveles por encima de lo normal. En mayor plazo todavía es probable un nuevo repunte, en asociación a la perspectiva actual sobre Corrientes - La Paz. Actualmente , en Rosario se registra en fase de ascenso gradual ascenso hacia la culminación, todavía con probabilidad de excedencia del nivel de Alerta . Asimismo, es probable que los tiempos de traslado de la onda de crecida se incrementen así como los tiempos de residencia , dado el significativo volumen en tránsito y el aporte sostenido desde las áreas generadoras de caudal, así como su perspectiva. Por lo tanto, se sugiere seguir la evolución de los pronósticos numéricos y perspectivas, así como la actualización de las fechas de excedencia de los niveles de Alerta y Evacuación en el tramo.
+- El Alto Paraná en Guairá se observó oscilante en aguas medias altas , todavía por encima de lo normal para la época del año, en asociación al repunte en curso de la afluencia en ruta desde el sector no regulado y su efecto compensatorio sobre el patrón actual de la descarga en Porto Primavera - Rosana. A corto plazo, se prevé que continúe al menos oscilante en aguas medias altas, en vista de la normalización en el aporte de base del sector regulado y la previsión de lluvias durante los próximos días sobre el sector no regulado, favorables para sostener en ascenso la afluencia en ruta. En consecuencia, se prevé que sostenga al menos la estabilización actual o inclusive exhiba incrementos de punta, en principio  en aguas medias altas. En asociación, la erogación en Itaipú se observó oscilante en aguas medias altas , con estabilización de los caudales vertidos para el control del nivel del embalse. En sintonía con la perspectiva en la afluencia, a corto plazo se espera que la descarga continúe oscilante en aguas medias altas, todavía por encima de lo normal para la época del año.
+- El río Iguazú en Andresito se observó oscilante/en ascenso en aguas medias altas/altas , en asociación a leves incrementos de la afluencia en ruta por efecto de las últimas lluvias en la región. Actualmente, exhibe el tránsito de una onda de crecida en aguas altas , con motivo de las lluvias significativas registradas ayer en la región y el bajo déficit hídrico precedente. Por otro lado, el nivel hidrométrico en Puerto Iguazú se observó oscilante en aguas medias altas . Prontamente, se espera la culminación del tránsito en curso en aguas altas, todavía con posibilidad de repuntes acoplados que sostenga un aporte significativo hacia aguas abajo, en vista de la previsión de lluvias durante los próximos días.
+- El río Paraguay se observó con estabilización de base en aguas medias bajas en Puerto Pilcomayo y con leve descenso/estabilización en aguas medias en Formosa . En sintonía con las lluvias abundantes registradas en el tramo medio e inferior , se prevé el tránsito de una onda de crecida en aguas medias/medias altas . En consecuencia, a corto plazo se prevé que persista el ascenso hacia aguas medias observado actualmente en Puerto Pilcomayo, y se imponga tendencia de ascenso hacia aguas medias/medias altas en Formosa, todavía con posibilidad de eventos de precipitación moderados en el tramo medio durante los próximos 7 días, favorables para la amplificación del tránsito en curso. En plazo extendido, continuaría en ascenso hacia la culminación, sosteniendo el incremento del aporte de base hacia aguas abajo (valores normales/por encima de lo normal para la época del año).
+- En Yacyretá , la afluencia se observó oscilante/estable en aguas medias altas . Actualmente, exhibe incremento de punta en aguas medias altas/altas , por efecto de un repunte de la afluencia en ruta desde la cuenca propia en asociación a las lluvias registradas ayer en la región. Durante los próximos 4 días , se proyecta oscilante/en ascenso en aguas medias altas/altas, en vista del tránsito en curso desde el río Iguazú y la culminación del aporte desde la cuenca propia, todavía con posibilidad de nuevos repuntes hacia mayor plazo puesta la previsión sobre las principales áreas generadoras de escorrentía. Por otro lado, la erogación se observó oscilante/estable en aguas medias altas , sosteniendo recuperación de base y con derrame todavía por encima de lo normal para la época del año. Durante los próximos 4  días al menos se proyecta incremento de punta en rango inferior de aguas altas , manteniendo el aporte significativo de volumen aguas abajo, en sintonía con la previsión en la afluencia.
+- El río Paraná en Corrientes - La Paz se observa oscilante/leve descenso en Corrientes-Goya , en asociación a la fase de descenso del tránsito de onda de crecida en aguas medias altas/altas en curso, por efecto del último incremento en la erogación de Yacyretá, en asociación a la persistencia de condiciones húmedas sobre las principales áreas generadoras de caudal. Actualmente, en Corrientes-Barranqueras se registran marcas en aguas medias altas . Durante los próximos 5 días se prevé estabilización en aguas medias altas en las secciones superiores, con oscilaciones debidas a efectos locales. A continuación, se espera un nuevo repunte hacia aguas medias altas/altas , actualmente con chances de aproximación/excedencia del nivel de Alerta a partir del 2/12, con motivo de la erogación proyectada en Yacyretá en asociación al tránsito de onda del río Iguazú en curso y el incremento del aporte desde la cuenca propia, en combinación con el tránsito de onda del río Paraguay en curso. Por otro lado, en Goya/Reconquista - La Paz se registran marcas en aguas medias altas ,  con excedencia del nivel de Alerta . Este sector del tramo se espera que persista oscilante/leve descenso en aguas medias altas, estabilizando progresivamente hacia plazo extendido y, de ahí, nuevamente en ascenso hacia aguas medias altas/altas , en sintonía con la perspectiva aguas arriba, con probabilidad de aproximación/excedencia del nivel de Evacuación en plazo extendido.
+- Aguas abajo, sobre Santa Fe/Paraná - Rosario , se observa iniciando la fase de descenso en Santa Fe/Paraná y oscilante en punta en Rosario , con marcas en aguas medias altas ( medias altas/altas en Paraná ), por encima de lo normal para la época del año por efecto del tránsito en curso. Actualmente, en Santa Fe/Paraná se observa excedencia de los niveles de Alerta y Evacuación , mientras que en Rosario sostiene aproximación al nivel de Alerta . Durante los próximos 7 días se prevé que continúe con gradual descenso en aguas medias altas en las  secciones superiores ( medias altas/altas en Paraná ), todavía con permanencia por encima de marcas de Evacuación o Alerta, con perspectiva en plazo de 7 - 14 días de continuar al menos oscilante/con leve descenso en aguas medias altas, estabilizando gradualmente en aguas medias altas, todavía en niveles por encima de lo normal. En mayor plazo todavía se prevé un nuevo repunte, en asociación a la perspectiva actual sobre Corrientes - La Paz. Actualmente , en Rosario se registra en fase de ascenso gradual ascenso hacia la culminación, todavía con probabilidad de excedencia del nivel de Alerta . Asimismo, es probable que los tiempos de traslado de la onda de crecida se incrementen así como los tiempos de residencia , dado el significativo volumen en tránsito y el nuevo repunte desde las áreas generadoras de caudal, así como la persistencia de lluvias por encima de lo normal para la época del año al menos durante la primera década de diciembre. Por lo tanto, se sugiere seguir la evolución de los pronósticos numéricos y perspectivas, así como la actualización de las fechas de excedencia de los niveles de Alerta y Evacuación en el tramo.
 - Sobre el tramo San Pedro - Escobar , en asociación a la condición persistente aguas arriba , se observa sostenida normalización de los niveles de base y gradual aproximación del nivel hidrométrico a valores por encima de lo normal para la época del año en las secciones superiores. A corto plazo, se prevé que persista la tendencia ascendente de los valores mínimos observada durante noviembre, situándose eventualmente por encima de los valores normales para la época del año en plazo extendido , en vista de la perspectiva en el tramo medio.
 SISTEMA URUGUAY:
-- En el tramo medio de l río Uruguay se observa con base estable en aguas medias altas . En la ruta San Javier - Santo Tomé se observa repunte en aguas medias altas, en asociación al escenario meteorológico positivo desarrollado sobre la cuenca superior. Por la misma, se prevé que persista en ascenso, todavía con probabilidad de puntas en aguas altas, y aproximación o excedencia del nivel de Alerta entre el 25/11 y el 30/11 . Aguas abajo, el nivel hidrométrico en la estación de Paso de los Libres continúa estable en rango límite aguas medias altas/medias . A ctualmente se prevé un repunte en corto plazo, con probabilidad de superar el umbral de Alerta a partir del 28/11 , y chances de alcanzar nivel de Evacuación entre el 1/12 y 4/12. Así, se consolida un escenario altamente susceptible a la producción de excedentes hídricos ante eventos de precipitación abundantes sobre la cuenca alta y media. En conclusión, persisten condiciones favorables para un escenario hidrometeorológico sostenido en valores elevados, con frecuentes crecidas en rango de aguas medias altas/altas, próximas a los umbrales de Alerta y Evacuación.
-- La afluencia a Salto Grande se observa estabilizada en aguas medias, en asociación con las observaciones hidrológicas aguas arriba, puesto la escasez de precipitaciones sobre la cuenca incremental. En asociación, la erogación opera en valores estables, en rango límite aguas medias altas/medias, todavía con vertedero abierto. Se prevé relativa estabilidad en aguas medias, con posible repunte en plazo de 5 a 7 días, en vista del traslado de caudal desde el sector medio.
-- Sobre el tramo inferior el nivel se observó con leve tendencia descendente aguas medias , actualmente estabilizándose . La ruta Concordia - Concepción del Uruguay se observa relativamente estable, en valores límites de aguas medias/medias altas, en estrecha asociación con la descarga del embalse. En sintonía, sobre la desembocadura del Gualeguaychú las alturas se observaron con descenso en aguas medias y leves oscilaciones en aguas medias altas . Para el corto plazo se observaría gradual estabilización de base en rango actual, con posterior repunte en aguas medias altas, puesto la previsión de tránsito de crecida sobre la afluencia a Salto Grande
+- En el tramo medio de l río Uruguay se observa repunte en aguas medias altas, sobre una tendencia de base en aumento. La sección de San Javier exhibe ascenso en aguas altas, por tránsito de crecida desde el tramo superior. A su vez, en Santo Tomé se observa repunte en aguas medias altas . Se prevé que persista en ascenso , todavía con probabilidad de puntas en aguas altas, y aproximación y leve excedencia del nivel de Alerta entre el 26/11 y el 30/11 . En plazo extendido, permanecería oscilante en punta, por encima del umbral de aguas altas. Por otra parte, el nivel hidrométrico en la estación de Paso de los Libres continúa estable en aguas medias altas, con leve ascenso en asociación con el traslado de crecida desde el sector superior. Se prevé repunte en aguas medias altas , con probabilidad de superar el umbral de Alerta a partir del 30/11 , y chances de alcanzar nivel de Evacuación entre el 1/12 y 4/12. Así, se consolida un escenario altamente susceptible a la producción de excedentes hídricos ante eventos de precipitación abundantes sobre la cuenca alta y media. En conclusión, persisten condiciones favorables para un escenario hidrometeorológico sostenido en valores elevados, con frecuentes crecidas en rango de aguas medias altas/altas, próximas a los umbrales de Alerta y Evacuación.
+- La afluencia a Salto Grande continúa en aguas medias, en asociación con las observaciones hidrológicas aguas arriba, puesto la escasez de precipitaciones sobre la cuenca incremental. En asociación, la erogación opera en valores estables, en rango límite aguas medias altas/medias, todavía con vertedero abierto. Se prevé relativa estabilidad en aguas medias, con repuntes esporádicos en aguas medias altas, mientras que en plazo extendido se observaría ascenso , en vista del traslado de caudal desde el sector medio, permaneciendo mayormente en aguas medias altas .
+- Sobre el tramo inferior el nivel se observa con leve descenso en aguas medias . La sección de Concordia se observa relativamente estable, con un incipiente repunte en aguas medias altas, mientras que la sección de Concepción del Uruguay continúa con disminución en aguas medias . En sintonía, sobre la desembocadura del Gualeguaychú las alturas se observan con descenso, con oscilaciones en rango de aguas medias . Para el corto plazo se observaría gradual estabilización de base en rango actual, con posterior repunte en aguas medias altas, puesto la previsión de tránsito de crecida sobre la afluencia a Salto Grande
 FRENTE DEL DELTA:
-- En la proximidad al estuario del Río de la Plata, las alturas en la estación de San Fernando sobre el brazo Luján se observan con leve descenso, con mínimas en aguas bajas y puntas en aguas medias altas. En los próximos 2 días se observaría ascenso, con puntas probables en aguas altas para el 25/11. En plazo extendido se observaría en descenso, con mayor persistencia en aguas medias bajas.
+- En la proximidad al estuario del Río de la Plata, las alturas en la estación de San Fernando sobre el brazo Luján se observan en ascenso, con puntas en aguas altas. En los próximos 2 días se observaría con puntas en aguas altas y mayor persistencia en aguas medias altas. En plazo extendido se observaría en descenso, con mayor mínimas en aguas bajas y mayor persistencia en aguas medias bajas.
 Gráficos de nivel observado y previsión
 Paraná - Corrientes
 Paraná - Barranqueras

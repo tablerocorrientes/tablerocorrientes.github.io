@@ -659,6 +659,14 @@
  "prensa_fecha": "14/11/2026, 09:12 h",
  "prensa": [
   {
+   "fecha": "23/11/2026",
+   "medio": "www.actualidadparana.com.ar",
+   "titulo": "El Paraná superó el nivel de evacuación entre Corrientes y Santa Fe y actúan fuerzas de seguridad federales",
+   "enlace": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE41N2VSLWd2dzMxd1VidUs3UVV4UHNoTGZSNEs5WVBBRWVGZVVRS0lLOHM3UTRaMGtlQmtTNVU3Tm14ejNqQTd3RGtERS05Y3JvNEFBaTM3QVA5eW8?oc=5",
+   "breve": "El Paraná superó el nivel de evacuación entre Corrientes y Santa Fe y actúan fuerzas de seguridad federales",
+   "auto": true
+  },
+  {
    "fecha": "25/11/2026",
    "medio": "Diario Primera Hora",
    "titulo": "VUELVE A CRECER EL RÍO URUGUAY SOBRE LAS COSTAS DE CORRIENTES",
@@ -1436,7 +1444,7 @@
  "tapon_breve": "Sin alerta del SMN para la Capital en las próximas 48 horas. Con el río en 5,67 m, el riesgo de anegamiento depende de la intensidad de la lluvia.",
  "consultado": "25/11/2026, 13:38 h",
  "consulta_resultado": "datos nuevos",
- "prensa_actualizada": "25/11/2026, 12:52 h",
+ "prensa_actualizada": "25/11/2026, 14:42 h",
  "ina_parana_breve": "El INA prevé un río casi estable en Corrientes, con posible suba lenta después.",
  "ina_uruguay_breve": "El INA prevé que Santo Tomé se acerque a la alerta entre el 25/11 y el 30/11, y Paso de los Libres la supere desde el 28/11."
 }
