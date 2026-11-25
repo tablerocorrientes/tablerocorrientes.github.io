@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 /tmp/sitio/tareas/condicion_a.py)",
+      "Bash(python3 /tmp/sitio/tareas/snih_lluvia.py)",
+      "Bash(python3 tareas/condicion_a.py)",
+      "Bash(python3 tareas/snih_lluvia.py)",
+      "Bash(git clone --depth 1 https://github.com/tablerocorrientes/tablerocorrientes.github.io /tmp/sitio)",
+      "Bash(git -C /tmp/sitio pull --rebase)",
+      "Bash(gh api -X POST repos/tablerocorrientes/tablerocorrientes.github.io/actions/workflows/fuentes-oficiales.yml/dispatches *)",
+      "Bash(gh api repos/tablerocorrientes/tablerocorrientes.github.io/actions/workflows/fuentes-oficiales.yml/runs?per_page=1)"
+    ]
+  }
+}
