@@ -613,7 +613,7 @@ else $('heat').innerHTML='<p class="s">Sin registros cargados.</p>';
 var EV=null,PF=null;try{EV=JSON.parse(document.getElementById('evac-data').textContent);}catch(e){}try{PF=JSON.parse(document.getElementById('pron-data').textContent);}catch(e){}
 function fkey(f){var m=/(\d{1,2})\/(\d{1,2})\/(\d{4})/.exec(f||'');return m?(+m[3])*10000+(+m[2])*100+(+m[1])+(/noche/.test(f)?0.5:0):0;}
 var evMode='ahora',evLoc='Corrientes Capital';try{evLoc=localStorage.getItem('tc_evloc')||evLoc;}catch(e){}
-function evN(n){n=String(n||'');return n==='Capital'?'Corrientes Capital':n;}
+function evN(n){n=String(n||'');return n==='Capital'?'Corrientes Capital':/^Goya\b/.test(n)?'Goya':n;}
 function evOf(){return ((EV&&EV.historial)||[]).filter(function(r){return !/Municipalidad|municipio/i.test(r.fuente||'');}).map(function(r){var o={};for(var k in r)o[k]=r[k];o.n=evN(r.n);return o;});}
 function evBar(e,a,mx){var W=200,we=(e||0)/mx*W,wa=(a||0)/mx*W;return '<svg viewBox="0 0 200 14" aria-hidden="true"><rect x="0" y="3" width="200" height="8" rx="4" fill="var(--track)"/><rect x="0" y="3" width="'+we.toFixed(1)+'" height="8" fill="var(--bad)"/><rect x="'+we.toFixed(1)+'" y="3" width="'+wa.toFixed(1)+'" height="8" fill="var(--warn)"/></svg>';}
 function evV(x){return x==null?'s/d':nf(x);}
