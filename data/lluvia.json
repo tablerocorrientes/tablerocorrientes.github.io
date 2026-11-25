@@ -1,5 +1,5 @@
 {
- "actualizado": "24/11/2026, 23:00 h",
+ "actualizado": "24/11/2026, 23:02 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
@@ -61,11 +61,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 74.4,
-   "ultimo": "0 mm a las 22 h"
+   "ultimo": "0 mm a las 23 h"
   },
   {
    "localidad": "Corrientes Capital (estación 13805)",
@@ -265,11 +265,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 71.2,
-   "ultimo": "0 mm a las 22 h"
+   "ultimo": "0 mm a las 23 h"
   },
   {
    "localidad": "Bella Vista",
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "24/11/2026, 23:00 h",
+ "consultado": "24/11/2026, 23:02 h",
  "consulta_resultado": "datos nuevos"
 }
