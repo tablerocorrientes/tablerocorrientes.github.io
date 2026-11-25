@@ -1,47 +1,7 @@
 {
- "consultado": "24/11/2026, 20:56 h",
- "consultado_iso": "2026-11-24T20:56:24-03:00",
+ "consultado": "24/11/2026, 21:27 h",
+ "consultado_iso": "2026-11-24T21:27:24-03:00",
  "fuente": "Servicio Meteorológico Nacional, canal oficial de alertas y avisos (CAP)",
- "resultado": "con alertas",
- "alertas": [
-  {
-   "tipo": "aviso a muy corto plazo",
-   "nivel": "amarillo",
-   "fenomeno": "tormentas",
-   "zonas": "Berón de Astrada - Capital - Concepción - Curuzú Cuatiá - Empedrado - General Alvear - General Paz - Itatí - Ituzaingó - Mburucuyá - Mercedes - Paso de los Libres - Saladas - San Cosme - San Luis del Palmar - San Martín - San Miguel - San Roque - Santo Tomé - Sauce",
-   "departamentos": [
-    "Berón de Astrada",
-    "Capital",
-    "Concepción",
-    "Curuzú Cuatiá",
-    "Empedrado",
-    "General Alvear",
-    "General Paz",
-    "Itatí",
-    "Ituzaingó",
-    "Mburucuyá",
-    "Mercedes",
-    "Paso de los Libres",
-    "Saladas",
-    "San Cosme",
-    "San Luis del Palmar",
-    "San Martín",
-    "San Miguel",
-    "San Roque",
-    "Santo Tomé",
-    "Sauce"
-   ],
-   "incluye_capital": true,
-   "desde": "24/11/2026, 20:29 h",
-   "hasta": "24/11/2026, 20:59 h",
-   "desde_iso": "2026-11-24T20:29:44-03:00",
-   "hasta_iso": "2026-11-24T20:59:59-03:00",
-   "emision": "24/11/2026, 20:29 h",
-   "rango_mm": [
-    30,
-    70
-   ],
-   "texto": "Tormentas. El área será afectada por tormentas aisladas, algunas fuertes o localmente severas. Las mismas podrán estar acompañadas por abundantes precipitaciones en cortos períodos, frecuente actividad eléctrica, ocasional caída de granizo y ráfagas intensas. Se esperan valores de precipitación acumulada entre 30 y 70 mm, que pueden ser superados en forma puntual."
-  }
- ]
+ "resultado": "sin alertas para Corrientes",
+ "alertas": []
 }
