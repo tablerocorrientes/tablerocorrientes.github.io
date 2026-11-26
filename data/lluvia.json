@@ -1,5 +1,5 @@
 {
- "actualizado": "26/11/2026, 06:09 h",
+ "actualizado": "26/11/2026, 06:42 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
@@ -197,11 +197,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 05 h"
+   "ultimo": "0 mm a las 06 h"
   },
   {
    "localidad": "Santa Lucía",
@@ -231,11 +231,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 05 h"
+   "ultimo": "0 mm a las 06 h"
   },
   {
    "localidad": "La Palmira",
@@ -673,11 +673,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 05 h"
+   "ultimo": "0 mm a las 06 h"
   },
   {
    "localidad": "Gobernador Virasoro",
@@ -705,13 +705,13 @@
     null,
     null,
     null,
-    null,
+    0,
     null,
     null,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 00 h"
+   "ultimo": "0 mm a las 04 h"
   },
   {
    "localidad": "Los Laureles",
@@ -775,11 +775,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 05 h"
+   "ultimo": "0 mm a las 06 h"
   },
   {
    "localidad": "Mercedes",
@@ -875,13 +875,13 @@
     null,
     null,
     null,
-    null,
+    0,
     null,
     null,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 00 h"
+   "ultimo": "0 mm a las 04 h"
   },
   {
    "localidad": "Paso de los Libres",
@@ -1149,11 +1149,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 05 h"
+   "ultimo": "0 mm a las 06 h"
   },
   {
    "localidad": "Itá Ibaté",
@@ -1353,11 +1353,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 05 h"
+   "ultimo": "0 mm a las 06 h"
   },
   {
    "localidad": "San Isidro",
@@ -1453,13 +1453,13 @@
     null,
     null,
     null,
-    null,
+    0.25,
     null,
     null,
     null
    ],
-   "total": 0,
-   "ultimo": "0 mm a las 00 h"
+   "total": 0.25,
+   "ultimo": "0,25 mm a las 04 h"
   },
   {
    "localidad": "Santa Rosa",
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "26/11/2026, 06:09 h",
+ "consultado": "26/11/2026, 06:42 h",
  "consulta_resultado": "datos nuevos"
 }

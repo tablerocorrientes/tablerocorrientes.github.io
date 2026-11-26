@@ -425,6 +425,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-25,15,Gobernador Virasoro,La Sirena,13811,0
 2026-11-25,19,Gobernador Virasoro,La Sirena,13811,0
 2026-11-25,23,Gobernador Virasoro,La Sirena,13811,0
+2026-11-26,03,Gobernador Virasoro,La Sirena,13811,0
 2026-11-01,23,Colonia Carlos Pellegrini,Carlos Pellegrini,13826,0
 2026-11-02,03,Colonia Carlos Pellegrini,Carlos Pellegrini,13826,0
 2026-11-02,07,Colonia Carlos Pellegrini,Carlos Pellegrini,13826,0.25
@@ -601,6 +602,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-25,15,San Roquito,San Roquito,13832,0
 2026-11-25,19,San Roquito,San Roquito,13832,0
 2026-11-25,23,San Roquito,San Roquito,13832,0
+2026-11-26,03,San Roquito,San Roquito,13832,0.25
 2026-11-01,23,Santa Lucía,Santa Lucia,13836,0
 2026-11-02,00,Santa Lucía,Santa Lucia,13836,0
 2026-11-02,01,Santa Lucía,Santa Lucia,13836,0
@@ -947,6 +949,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-26,02,Santa Lucía,Santa Lucia,13836,0
 2026-11-26,03,Santa Lucía,Santa Lucia,13836,0
 2026-11-26,04,Santa Lucía,Santa Lucia,13836,0
+2026-11-26,05,Santa Lucía,Santa Lucia,13836,0
 2026-11-01,23,Paso Cerrito,Paso Cerrito,13849,0
 2026-11-02,03,Paso Cerrito,Paso Cerrito,13849,0
 2026-11-02,07,Paso Cerrito,Paso Cerrito,13849,0
@@ -1030,6 +1033,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-25,15,Paso Cerrito,Paso Cerrito,13849,0
 2026-11-25,19,Paso Cerrito,Paso Cerrito,13849,0
 2026-11-25,23,Paso Cerrito,Paso Cerrito,13849,0
+2026-11-26,03,Paso Cerrito,Paso Cerrito,13849,0
 2026-11-01,23,Garruchos,Garruchos,13857,0
 2026-11-02,03,Garruchos,Garruchos,13857,0
 2026-11-02,07,Garruchos,Garruchos,13857,0
@@ -1466,6 +1470,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-26,02,San Carlos,San Carlos,13864,0
 2026-11-26,03,San Carlos,San Carlos,13864,0
 2026-11-26,04,San Carlos,San Carlos,13864,0
+2026-11-26,05,San Carlos,San Carlos,13864,0
 2026-11-01,23,Pueblo Libertador,Pueblo Libertador,13876,0
 2026-11-02,00,Pueblo Libertador,Pueblo Libertador,13876,0
 2026-11-02,01,Pueblo Libertador,Pueblo Libertador,13876,0
@@ -1783,6 +1788,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-26,02,Pueblo Libertador,Pueblo Libertador,13876,0
 2026-11-26,03,Pueblo Libertador,Pueblo Libertador,13876,0
 2026-11-26,04,Pueblo Libertador,Pueblo Libertador,13876,0
+2026-11-26,05,Pueblo Libertador,Pueblo Libertador,13876,0
 2026-11-02,00,Parque Nacional Iberá,RMA08_PNI - Parque Nacional Iberá,220226,0
 2026-11-02,01,Parque Nacional Iberá,RMA08_PNI - Parque Nacional Iberá,220226,0
 2026-11-02,02,Parque Nacional Iberá,RMA08_PNI - Parque Nacional Iberá,220226,0
@@ -2111,6 +2117,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-26,02,Parque Nacional Iberá,RMA08_PNI - Parque Nacional Iberá,220226,0
 2026-11-26,03,Parque Nacional Iberá,RMA08_PNI - Parque Nacional Iberá,220226,0
 2026-11-26,04,Parque Nacional Iberá,RMA08_PNI - Parque Nacional Iberá,220226,0
+2026-11-26,05,Parque Nacional Iberá,RMA08_PNI - Parque Nacional Iberá,220226,0
 2026-11-01,23,Mburucuyá,RMA04_PMB - Parque Nacional Mburucuyá,220246,0
 2026-11-02,00,Mburucuyá,RMA04_PMB - Parque Nacional Mburucuyá,220246,0
 2026-11-02,01,Mburucuyá,RMA04_PMB - Parque Nacional Mburucuyá,220246,0
@@ -5664,6 +5671,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-26,02,Mercedes,Mercedes - Corrientes,283908,0
 2026-11-26,03,Mercedes,Mercedes - Corrientes,283908,0
 2026-11-26,04,Mercedes,Mercedes - Corrientes,283908,0
+2026-11-26,05,Mercedes,Mercedes - Corrientes,283908,0
 2026-11-01,23,La Cruz,La Cruz - Corrientes,283909,0
 2026-11-02,00,La Cruz,La Cruz - Corrientes,283909,0
 2026-11-02,01,La Cruz,La Cruz - Corrientes,283909,0
@@ -6010,3 +6018,4 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-26,02,La Cruz,La Cruz - Corrientes,283909,0
 2026-11-26,03,La Cruz,La Cruz - Corrientes,283909,0
 2026-11-26,04,La Cruz,La Cruz - Corrientes,283909,0
+2026-11-26,05,La Cruz,La Cruz - Corrientes,283909,0
