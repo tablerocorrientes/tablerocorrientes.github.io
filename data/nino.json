@@ -1,5 +1,5 @@
 {
- "actualizado": "22/11/2026, 09:03 h",
+ "actualizado": "26/11/2026, 00:06 h",
  "breve": "El Niño es fuerte y sigue creciendo. Sería de los más intensos desde 1950 y empezaría a debilitarse a comienzos de 2027. Para el Litoral se esperan lluvias por encima de lo normal hasta enero.",
  "fases": [
   {
@@ -29,6 +29,11 @@
    "t": "Pacífico (Niño 3.4)",
    "v": "+2,5 °C",
    "s": "sobre lo normal, NOAA 12/11"
+  },
+  {
+   "t": "Pacífico, semana más reciente",
+   "v": "+3,3 a +3,4 °C",
+   "s": "índice semanal Niño 3.4: +3,3 °C (IRI, 14/10) y +3,4 °C, récord de la serie (Meteored, 02/11)"
   },
   {
    "t": "Evento histórico",
