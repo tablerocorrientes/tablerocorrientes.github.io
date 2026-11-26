@@ -504,6 +504,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-25,07,Colonia Carlos Pellegrini,Carlos Pellegrini,13826,0
 2026-11-25,11,Colonia Carlos Pellegrini,Carlos Pellegrini,13826,0
 2026-11-25,15,Colonia Carlos Pellegrini,Carlos Pellegrini,13826,0
+2026-11-25,19,Colonia Carlos Pellegrini,Carlos Pellegrini,13826,0
 2026-11-01,23,San Roquito,San Roquito,13832,0
 2026-11-02,03,San Roquito,San Roquito,13832,0
 2026-11-02,07,San Roquito,San Roquito,13832,0
@@ -1006,6 +1007,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-25,07,Paso Cerrito,Paso Cerrito,13849,0
 2026-11-25,11,Paso Cerrito,Paso Cerrito,13849,0
 2026-11-25,15,Paso Cerrito,Paso Cerrito,13849,0
+2026-11-25,19,Paso Cerrito,Paso Cerrito,13849,0
 2026-11-01,23,Garruchos,Garruchos,13857,0
 2026-11-02,03,Garruchos,Garruchos,13857,0
 2026-11-02,07,Garruchos,Garruchos,13857,0
@@ -1093,6 +1095,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-25,07,Garruchos,Garruchos,13857,0.25
 2026-11-25,11,Garruchos,Garruchos,13857,0
 2026-11-25,15,Garruchos,Garruchos,13857,0.25
+2026-11-25,19,Garruchos,Garruchos,13857,0.25
 2026-11-01,23,San Carlos,San Carlos,13864,0
 2026-11-02,00,San Carlos,San Carlos,13864,0
 2026-11-02,01,San Carlos,San Carlos,13864,0
@@ -3750,6 +3753,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-25,18,La Palmira,Estación La Palmira - Escuela N° 70,283902,0
 2026-11-25,19,La Palmira,Estación La Palmira - Escuela N° 70,283902,0
 2026-11-25,20,La Palmira,Estación La Palmira - Escuela N° 70,283902,0
+2026-11-25,21,La Palmira,Estación La Palmira - Escuela N° 70,283902,0
 2026-11-01,23,Caá Catí,Predio Ferial Sociedad Rural de Gral. Paz - Caá Catï,283903,0
 2026-11-02,00,Caá Catí,Predio Ferial Sociedad Rural de Gral. Paz - Caá Catï,283903,0
 2026-11-02,01,Caá Catí,Predio Ferial Sociedad Rural de Gral. Paz - Caá Catï,283903,0
@@ -4170,6 +4174,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-25,07,Portal Galarza,Portal Galarza,283904,0
 2026-11-25,11,Portal Galarza,Portal Galarza,283904,0
 2026-11-25,15,Portal Galarza,Portal Galarza,283904,0
+2026-11-25,19,Portal Galarza,Portal Galarza,283904,0
 2026-11-01,23,Itá Ibaté,Puerto Ita Ibate,283905,0
 2026-11-02,00,Itá Ibaté,Puerto Ita Ibate,283905,0
 2026-11-02,01,Itá Ibaté,Puerto Ita Ibate,283905,0
@@ -4508,6 +4513,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-25,18,Itá Ibaté,Puerto Ita Ibate,283905,0
 2026-11-25,19,Itá Ibaté,Puerto Ita Ibate,283905,0
 2026-11-25,20,Itá Ibaté,Puerto Ita Ibate,283905,0
+2026-11-25,21,Itá Ibaté,Puerto Ita Ibate,283905,0
 2026-11-01,23,Corrientes Capital,ICAA,283906,0
 2026-11-02,00,Corrientes Capital,ICAA,283906,0
 2026-11-02,01,Corrientes Capital,ICAA,283906,0
@@ -4846,6 +4852,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-25,18,Corrientes Capital,ICAA,283906,0
 2026-11-25,19,Corrientes Capital,ICAA,283906,0
 2026-11-25,20,Corrientes Capital,ICAA,283906,0
+2026-11-25,21,Corrientes Capital,ICAA,283906,0
 2026-11-01,23,Santo Tomé,Santo Tomé –Corrientes,283907,0
 2026-11-02,00,Santo Tomé,Santo Tomé –Corrientes,283907,0
 2026-11-02,01,Santo Tomé,Santo Tomé –Corrientes,283907,0
@@ -5184,6 +5191,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-25,18,Santo Tomé,Santo Tomé –Corrientes,283907,0
 2026-11-25,19,Santo Tomé,Santo Tomé –Corrientes,283907,0
 2026-11-25,20,Santo Tomé,Santo Tomé –Corrientes,283907,0
+2026-11-25,21,Santo Tomé,Santo Tomé –Corrientes,283907,0
 2026-11-01,23,Mercedes,Mercedes - Corrientes,283908,0
 2026-11-02,00,Mercedes,Mercedes - Corrientes,283908,0
 2026-11-02,01,Mercedes,Mercedes - Corrientes,283908,0
