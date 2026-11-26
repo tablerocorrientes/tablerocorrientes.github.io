@@ -1,10 +1,9 @@
 {
- "actualizado": "26/11/2026, 08:52 h",
+ "actualizado": "26/11/2026, 09:27 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
-  "25/11 09 h",
-  "10 h",
+  "25/11 10 h",
   "11 h",
   "12 h",
   "13 h",
@@ -27,11 +26,12 @@
   "06 h",
   "07 h",
   "08 h",
-  "09 h (en curso)"
+  "09 h",
+  "10 h (en curso)"
  ],
  "fuente": "Sistema Nacional de Información Hídrica (SNIH), Secretaría de Infraestructura y Política Hídrica; estaciones de la Red Hidrológica Nacional y redes asociadas (ICAA, INTA, Red Iberá). Datos crudos del sensor, sin validar.",
  "enlace": "https://snih.hidricosargentina.gob.ar/Filtros.aspx",
- "nota": "Ventana de 24 horas completas, de 09 h del 25/11 a 08 h del 26/11 (hora de Argentina), más la hora en curso como última columna, con los datos recibidos hasta el momento. El total suma solo las 24 horas completas. Las horas sin transmisión figuran como null, no como cero.",
+ "nota": "Ventana de 24 horas completas, de 10 h del 25/11 a 09 h del 26/11 (hora de Argentina), más la hora en curso como última columna, con los datos recibidos hasta el momento. El total suma solo las 24 horas completas. Las horas sin transmisión figuran como null, no como cero.",
  "estaciones": [
   {
    "localidad": "Corrientes Capital",
@@ -65,7 +65,7 @@
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 08 h"
+   "ultimo": "0 mm a las 09 h"
   },
   {
    "localidad": "Corrientes Capital (estación 13805)",
@@ -76,8 +76,8 @@
     0,
     0,
     0,
-    0,
     0.25,
+    0,
     0,
     0,
     0,
@@ -99,7 +99,7 @@
     null
    ],
    "total": 0.25,
-   "ultimo": "0 mm a las 08 h"
+   "ultimo": "0 mm a las 09 h"
   },
   {
    "localidad": "Garruchos",
@@ -108,7 +108,6 @@
    "valores": [
     null,
     null,
-    null,
     0,
     null,
     null,
@@ -126,6 +125,7 @@
     null,
     null,
     0,
+    null,
     null,
     null,
     null,
@@ -142,7 +142,6 @@
    "valores": [
     null,
     null,
-    null,
     0,
     null,
     null,
@@ -164,6 +163,7 @@
     null,
     null,
     0,
+    null,
     null
    ],
    "total": 0,
@@ -201,7 +201,7 @@
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 08 h"
+   "ultimo": "0 mm a las 09 h"
   },
   {
    "localidad": "Santa Lucía",
@@ -235,7 +235,7 @@
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 08 h"
+   "ultimo": "0 mm a las 09 h"
   },
   {
    "localidad": "La Palmira",
@@ -269,7 +269,7 @@
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 08 h"
+   "ultimo": "0 mm a las 09 h"
   },
   {
    "localidad": "Bella Vista",
@@ -677,7 +677,7 @@
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 08 h"
+   "ultimo": "0 mm a las 09 h"
   },
   {
    "localidad": "Gobernador Virasoro",
@@ -686,7 +686,6 @@
    "valores": [
     null,
     null,
-    null,
     0,
     null,
     null,
@@ -704,6 +703,7 @@
     null,
     null,
     0,
+    null,
     null,
     null,
     null,
@@ -779,7 +779,7 @@
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 08 h"
+   "ultimo": "0 mm a las 09 h"
   },
   {
    "localidad": "Mercedes",
@@ -856,7 +856,6 @@
    "valores": [
     null,
     null,
-    null,
     0,
     null,
     null,
@@ -874,6 +873,7 @@
     null,
     null,
     0,
+    null,
     null,
     null,
     null,
@@ -1060,7 +1060,6 @@
    "valores": [
     null,
     null,
-    null,
     0,
     null,
     null,
@@ -1078,6 +1077,7 @@
     null,
     null,
     0,
+    null,
     null,
     null,
     null,
@@ -1119,7 +1119,7 @@
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 08 h"
+   "ultimo": "0 mm a las 09 h"
   },
   {
    "localidad": "Pueblo Libertador",
@@ -1153,7 +1153,7 @@
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 08 h"
+   "ultimo": "0 mm a las 09 h"
   },
   {
    "localidad": "Itá Ibaté",
@@ -1187,7 +1187,7 @@
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 08 h"
+   "ultimo": "0 mm a las 09 h"
   },
   {
    "localidad": "Mburucuyá",
@@ -1221,7 +1221,7 @@
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 08 h"
+   "ultimo": "0 mm a las 09 h"
   },
   {
    "localidad": "Bonpland",
@@ -1255,7 +1255,7 @@
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 08 h"
+   "ultimo": "0 mm a las 09 h"
   },
   {
    "localidad": "Bella Vista",
@@ -1289,7 +1289,7 @@
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 08 h"
+   "ultimo": "0 mm a las 09 h"
   },
   {
    "localidad": "Curuzú Cuatiá",
@@ -1323,7 +1323,7 @@
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 08 h"
+   "ultimo": "0 mm a las 09 h"
   },
   {
    "localidad": "Parque Nacional Iberá",
@@ -1353,7 +1353,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -1434,7 +1434,6 @@
    "valores": [
     null,
     null,
-    null,
     0,
     null,
     null,
@@ -1456,6 +1455,7 @@
     null,
     null,
     0,
+    null,
     null
    ],
    "total": 0.25,
@@ -1561,7 +1561,7 @@
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 08 h"
+   "ultimo": "0 mm a las 09 h"
   },
   {
    "localidad": "El Sombrerito",
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "26/11/2026, 08:52 h",
+ "consultado": "26/11/2026, 09:27 h",
  "consulta_resultado": "datos nuevos"
 }
