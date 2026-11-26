@@ -667,6 +667,30 @@
  "prensa": [
   {
    "fecha": "26/11/2026",
+   "medio": "ABC Color",
+   "titulo": "EBY alerta sobre una nueva crecida del río Paraná en Ayolas",
+   "enlace": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPUkVXbVA1bFNTUHVwX1FhZnp4U2F3WXpvQTNGUFNwRTlzc1VMQ0dRZzl1VlU5QV92dTczVWxQSlliQm9YTFU5NlVoVmZpZlpyZUNfQThfQlZYUWtIWGRvbXBYektFVHJhYk9KOTBmT3oxNS0yMEVsN3VyMTdibFFUZUtxaExVYTlqTVYxTktqemx1WHBvcmI1djRISzU0aURQNHc?oc=5",
+   "breve": "EBY alerta sobre una nueva crecida del río Paraná en Ayolas",
+   "auto": true
+  },
+  {
+   "fecha": "26/11/2026",
+   "medio": "Flipr.news",
+   "titulo": "Yacyretá abrió 18 compuertas y emitió alerta por la creciente del Paraná",
+   "enlace": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOeHVmT3VXNGx2T214SjZjOGRNZ0t5clZkaVhLZUd0Y1d2TlRnY3kzTk9aQmgwTVh4RzEzQURCZ1pvMDdWeHVoR3I2aV9RcFBFZ1FJcS1OSUYzaTZOdFdOSUVzc2sxdTRTWmh0NHhPelM2VnVSaFFxRXd3X3FDeW9YVk9TYjNMR3ZqVWxzRjFlOUtianZ1eERCOGFBYng5SmhJRTNVMjVaQ1B0eWQ0RHRTYWljVlhIQUk?oc=5",
+   "breve": "Yacyretá abrió 18 compuertas y emitió alerta por la creciente del Paraná",
+   "auto": true
+  },
+  {
+   "fecha": "26/11/2026",
+   "medio": "El Litoral | Novedades de Corrientes",
+   "titulo": "Corrientes: un hombre murió ahogado en el río Paraná",
+   "enlace": "https://news.google.com/rss/articles/CBMizgFBVV95cUxObjNzdlAzSUQzY2p6UERDcTh1RFZFYklQWkxQbndIZW55NDFhOWxWU1JnY1ZYT0pyanVKQmwwZXE2NDQ4YjVwQl81R1F5UkNtVnQzcXBQb0Q0MlNBLWFYaTA3cEpGeFVfLWdEYVBieTRYMzBGMXYtNWhiellPaGoxSWlqY29aeEg5N2dOS1JOWEhaT3ByRFhiY2pMVEhuVUpMZklPMnNSX2M5bjhSaFJhbE5lRkZ2OThmNFlTcGhsUlJNT0Z2LUIyTlJFYTlwZw?oc=5",
+   "breve": "Corrientes: un hombre murió ahogado en el río Paraná",
+   "auto": true
+  },
+  {
+   "fecha": "26/11/2026",
    "medio": "Mirador Provincial",
    "titulo": "Corrientes: Prefectura rescató a un ciervo que era arrastrado por la crecida del río Paraná",
    "enlace": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOVW1YRU8tTWc2SkZYeW5kZFNvUVVTSEkyUUtNMFU3bW02Nk5scUo5SmNXV1NsQTkwRHVLWnNvYV8weUI2dHJ5dUhoRjFKUVBidkNFZlo5Ul9YVjBUNUhtV0JNMzRoeHRDcGUzYll1V3d5dXZIZklwQjlubnVVclRBdWx3TTctbEtuSUF5RENZUVZ0N2Y0c04yMlBRYUd4bmJwWGVOM202VXNjb19KSS1wcTNJd3RCZHI2dHdVVmhCYlpzWVNOaDRVSWNvZ1RBdjNLUFE?oc=5",
@@ -1120,30 +1144,6 @@
    "enlace": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPZ2duMkptbXVhVHhTUEtEeUVsOXJYWG1NTDlraVVzVkNrcDk1OUk2R1dEb055bTdkazFxR19SRVRPYlVlTk1yWUNhejBNcV9aSms4bnZGVmVXOUNBYVZvMzlRanJEZ0FsNzVpSmVVaW1Za3RXdFhjdEV0d2RWd1duSW9kdVVNaU52YmZxQlUtOWxrdDd5QllDZFptS3JFai1XdzVyNW5BLWlyN1VMN0xwT2VfeXlxTVlWNWxmY3NwMDdlLUxlTWxJdjFWcFNYY012UlpwVzNST1A?oc=5",
    "breve": "Corrientes alista un sistema de alertas al celular para advertir por fenómenos meteorológicos severos",
    "auto": true
-  },
-  {
-   "fecha": "24/11/2026",
-   "medio": "Los Primeros TV",
-   "titulo": "Fenómeno El Niño: 4.000 personas siguen evacuadas en Corrientes y Chaco por la lenta baja del Paraná",
-   "enlace": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQQnUxajdtQUJCaDNqTEVMQTFHakpmb3VlWEdTSEV5d0d1UUJuOHJESzd2SGlfWjU3eTFvYXl4X2RhejRGWWtwNVU1OW9wSlF0bjMteWVrd1hEZE5OWmRtQlREWTBRTm94ZlFVWXJUUG11S3dEMmt2aGpEMW5RaXF5ZXVMbXBvd3hkZ1hKbFNfN25JRG8xdnFmcG0tVDZ6bWZsSVcyaUlicE5jT3VpNDNVUDhjeklvVHZYR2Q4aElhYVZIWlAwNDlxcVhlZTZhcV90N25WWXBtSGNWUzFQVWtRTnhIN01aQkRkLXZ2eVpjUkJHdlVIdE80?oc=5",
-   "breve": "Fenómeno El Niño: 4.000 personas siguen evacuadas en Corrientes y Chaco por la lenta baja del Paraná",
-   "auto": true
-  },
-  {
-   "fecha": "24/11/2026",
-   "medio": "LT7Noticias",
-   "titulo": "Martes con doble alerta por tormentas y ráfagas fuertes: el tiempo este 24 de noviembre en Corrientes",
-   "enlace": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPMmk4TjlhQmNfUVdhWG1lQjZWX1FhME1tSjIwaXVENHdBbnF1bVhyNGk1TVFZUjBYcHNBRmFmSmRxRjl3cmVvMU82bnB1YVQtcU1Kdl9NcExDVzdIYmgyWHJyY1REUThFcFFXNXdlajdKb0c2Q0RkRzRUU0ptUXR1YTUtQmVxR2hOMGlabm4zekhHZ1h5eTh5NHdDX0xMTHRNWWJBZjVaOVBOUzJETGZFbmEzcEphSlNYUEZUbUxwVTNCMjZvRXFHTjBpU0s5dUU?oc=5",
-   "breve": "Martes con doble alerta por tormentas y ráfagas fuertes: el tiempo este 24 de noviembre en Corrientes",
-   "auto": true
-  },
-  {
-   "fecha": "24/11/2026",
-   "medio": "Clarin.com",
-   "titulo": "Fenómeno El Niño: 4 mil personas siguen sin poder volver a sus casas en Corrientes y Chaco y qué esperan para las próximas semanas",
-   "enlace": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPd0k0c0ZRUjdlVzBGXzhJQkotOE1NdUlxc09qdl81eUJicWdhSHNyR05vS21FZDBsVm10ZUJJUFJNdldHLXEwSVhEVVpFeVFFSEtSYjVFQzZGNVhYWmNMR0FOVzZ3Ylc0VWJuQkd2NEtRTFBrNFZvYVBFRDNEempJZDV3d3V6RkZnQ2J1dXB3aVdxRU50VGhOTmp2WGt6c2ZxZzFFMjJOM3JUa21CVWhFYno1YjJtT0N1SGZZbHVjSWpoQ1hacHF2MnR1LXF6WjJlTHB2RXdqb2oxNVVKazRj?oc=5",
-   "breve": "Fenómeno El Niño: 4 mil personas siguen sin poder volver a sus casas en Corrientes y Chaco y qué esperan para las próximas semanas",
-   "auto": true
   }
  ],
  "puertos_uruguay": [
@@ -1461,7 +1461,7 @@
  "tapon_breve": "Sin alerta del SMN para la Capital en las próximas 48 horas. Con el río en 5,64 m, el riesgo de anegamiento depende de la intensidad de la lluvia.",
  "consultado": "26/11/2026, 15:34 h",
  "consulta_resultado": "datos nuevos",
- "prensa_actualizada": "26/11/2026, 15:34 h",
+ "prensa_actualizada": "26/11/2026, 17:41 h",
  "ina_parana_breve": "El INA prevé el río casi estable en Corrientes unos 5 días y un nuevo repunte que podría acercarse a la alerta desde el 2/12.",
  "ina_uruguay_breve": "El INA prevé que Santo Tomé se acerque a la alerta entre el 26/11 y el 30/11, y Paso de los Libres la supere desde el 30/11."
 }
