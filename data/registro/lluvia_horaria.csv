@@ -350,6 +350,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-26,12,Corrientes Capital (estación 13805),Corrientes,13805,0
 2026-11-26,13,Corrientes Capital (estación 13805),Corrientes,13805,0
 2026-11-26,14,Corrientes Capital (estación 13805),Corrientes,13805,0
+2026-11-26,15,Corrientes Capital (estación 13805),Corrientes,13805,0
 2026-11-01,23,Gobernador Virasoro,La Sirena,13811,0
 2026-11-02,03,Gobernador Virasoro,La Sirena,13811,0
 2026-11-02,07,Gobernador Virasoro,La Sirena,13811,0
@@ -973,6 +974,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-26,12,Santa Lucía,Santa Lucia,13836,0
 2026-11-26,13,Santa Lucía,Santa Lucia,13836,0
 2026-11-26,14,Santa Lucía,Santa Lucia,13836,0
+2026-11-26,15,Santa Lucía,Santa Lucia,13836,0
 2026-11-01,23,Paso Cerrito,Paso Cerrito,13849,0
 2026-11-02,03,Paso Cerrito,Paso Cerrito,13849,0
 2026-11-02,07,Paso Cerrito,Paso Cerrito,13849,0
@@ -1507,6 +1509,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-26,12,San Carlos,San Carlos,13864,0
 2026-11-26,13,San Carlos,San Carlos,13864,0
 2026-11-26,14,San Carlos,San Carlos,13864,0
+2026-11-26,15,San Carlos,San Carlos,13864,0
 2026-11-01,23,Pueblo Libertador,Pueblo Libertador,13876,0
 2026-11-02,00,Pueblo Libertador,Pueblo Libertador,13876,0
 2026-11-02,01,Pueblo Libertador,Pueblo Libertador,13876,0
@@ -1834,6 +1837,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-26,12,Pueblo Libertador,Pueblo Libertador,13876,0
 2026-11-26,13,Pueblo Libertador,Pueblo Libertador,13876,0
 2026-11-26,14,Pueblo Libertador,Pueblo Libertador,13876,0
+2026-11-26,15,Pueblo Libertador,Pueblo Libertador,13876,0
 2026-11-02,00,Parque Nacional Iberá,RMA08_PNI - Parque Nacional Iberá,220226,0
 2026-11-02,01,Parque Nacional Iberá,RMA08_PNI - Parque Nacional Iberá,220226,0
 2026-11-02,02,Parque Nacional Iberá,RMA08_PNI - Parque Nacional Iberá,220226,0
@@ -2172,6 +2176,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-26,12,Parque Nacional Iberá,RMA08_PNI - Parque Nacional Iberá,220226,0
 2026-11-26,13,Parque Nacional Iberá,RMA08_PNI - Parque Nacional Iberá,220226,0
 2026-11-26,14,Parque Nacional Iberá,RMA08_PNI - Parque Nacional Iberá,220226,0
+2026-11-26,15,Parque Nacional Iberá,RMA08_PNI - Parque Nacional Iberá,220226,0
 2026-11-01,23,Mburucuyá,RMA04_PMB - Parque Nacional Mburucuyá,220246,0
 2026-11-02,00,Mburucuyá,RMA04_PMB - Parque Nacional Mburucuyá,220246,0
 2026-11-02,01,Mburucuyá,RMA04_PMB - Parque Nacional Mburucuyá,220246,0
@@ -2528,6 +2533,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-26,12,Mburucuyá,RMA04_PMB - Parque Nacional Mburucuyá,220246,0
 2026-11-26,13,Mburucuyá,RMA04_PMB - Parque Nacional Mburucuyá,220246,0
 2026-11-26,14,Mburucuyá,RMA04_PMB - Parque Nacional Mburucuyá,220246,0
+2026-11-26,15,Mburucuyá,RMA04_PMB - Parque Nacional Mburucuyá,220246,0
 2026-11-01,23,Bonpland,RMA08_BPL - Bonpland,220261,0
 2026-11-02,00,Bonpland,RMA08_BPL - Bonpland,220261,0
 2026-11-02,01,Bonpland,RMA08_BPL - Bonpland,220261,0
@@ -2884,6 +2890,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-26,12,Bonpland,RMA08_BPL - Bonpland,220261,0
 2026-11-26,13,Bonpland,RMA08_BPL - Bonpland,220261,0
 2026-11-26,14,Bonpland,RMA08_BPL - Bonpland,220261,0
+2026-11-26,15,Bonpland,RMA08_BPL - Bonpland,220261,0
 2026-11-01,23,Bella Vista,RMA08_BVI - Bella Vista,220262,0
 2026-11-02,00,Bella Vista,RMA08_BVI - Bella Vista,220262,0
 2026-11-02,01,Bella Vista,RMA08_BVI - Bella Vista,220262,0
@@ -3240,6 +3247,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-26,12,Bella Vista,RMA08_BVI - Bella Vista,220262,0
 2026-11-26,13,Bella Vista,RMA08_BVI - Bella Vista,220262,0
 2026-11-26,14,Bella Vista,RMA08_BVI - Bella Vista,220262,0
+2026-11-26,15,Bella Vista,RMA08_BVI - Bella Vista,220262,0
 2026-11-01,23,Curuzú Cuatiá,RMA08_CC - Curuzú Cuatiá,220263,0
 2026-11-02,00,Curuzú Cuatiá,RMA08_CC - Curuzú Cuatiá,220263,0
 2026-11-02,01,Curuzú Cuatiá,RMA08_CC - Curuzú Cuatiá,220263,0
@@ -3596,6 +3604,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-26,12,Curuzú Cuatiá,RMA08_CC - Curuzú Cuatiá,220263,0
 2026-11-26,13,Curuzú Cuatiá,RMA08_CC - Curuzú Cuatiá,220263,0
 2026-11-26,14,Curuzú Cuatiá,RMA08_CC - Curuzú Cuatiá,220263,0
+2026-11-26,15,Curuzú Cuatiá,RMA08_CC - Curuzú Cuatiá,220263,0
 2026-11-01,23,La Palmira,Estación La Palmira - Escuela N° 70,283902,0
 2026-11-02,00,La Palmira,Estación La Palmira - Escuela N° 70,283902,0
 2026-11-02,01,La Palmira,Estación La Palmira - Escuela N° 70,283902,0
@@ -4309,6 +4318,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-26,12,Caá Catí,Predio Ferial Sociedad Rural de Gral. Paz - Caá Catï,283903,0
 2026-11-26,13,Caá Catí,Predio Ferial Sociedad Rural de Gral. Paz - Caá Catï,283903,0
 2026-11-26,14,Caá Catí,Predio Ferial Sociedad Rural de Gral. Paz - Caá Catï,283903,0
+2026-11-26,15,Caá Catí,Predio Ferial Sociedad Rural de Gral. Paz - Caá Catï,283903,0
 2026-11-01,23,Portal Galarza,Portal Galarza,283904,0
 2026-11-02,03,Portal Galarza,Portal Galarza,283904,0
 2026-11-02,07,Portal Galarza,Portal Galarza,283904,0
@@ -4752,6 +4762,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-26,12,Itá Ibaté,Puerto Ita Ibate,283905,0
 2026-11-26,13,Itá Ibaté,Puerto Ita Ibate,283905,0
 2026-11-26,14,Itá Ibaté,Puerto Ita Ibate,283905,0
+2026-11-26,15,Itá Ibaté,Puerto Ita Ibate,283905,0
 2026-11-01,23,Corrientes Capital,ICAA,283906,0
 2026-11-02,00,Corrientes Capital,ICAA,283906,0
 2026-11-02,01,Corrientes Capital,ICAA,283906,0
@@ -5465,6 +5476,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-26,12,Santo Tomé,Santo Tomé –Corrientes,283907,0
 2026-11-26,13,Santo Tomé,Santo Tomé –Corrientes,283907,0
 2026-11-26,14,Santo Tomé,Santo Tomé –Corrientes,283907,0
+2026-11-26,15,Santo Tomé,Santo Tomé –Corrientes,283907,0
 2026-11-01,23,Mercedes,Mercedes - Corrientes,283908,0
 2026-11-02,00,Mercedes,Mercedes - Corrientes,283908,0
 2026-11-02,01,Mercedes,Mercedes - Corrientes,283908,0
@@ -5820,6 +5832,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-26,12,Mercedes,Mercedes - Corrientes,283908,0
 2026-11-26,13,Mercedes,Mercedes - Corrientes,283908,0
 2026-11-26,14,Mercedes,Mercedes - Corrientes,283908,0
+2026-11-26,15,Mercedes,Mercedes - Corrientes,283908,0
 2026-11-01,23,La Cruz,La Cruz - Corrientes,283909,0
 2026-11-02,00,La Cruz,La Cruz - Corrientes,283909,0
 2026-11-02,01,La Cruz,La Cruz - Corrientes,283909,0
@@ -6176,3 +6189,4 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-26,12,La Cruz,La Cruz - Corrientes,283909,0
 2026-11-26,13,La Cruz,La Cruz - Corrientes,283909,0
 2026-11-26,14,La Cruz,La Cruz - Corrientes,283909,0
+2026-11-26,15,La Cruz,La Cruz - Corrientes,283909,0
