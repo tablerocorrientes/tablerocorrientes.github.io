@@ -1,5 +1,5 @@
 {
- "actualizado": "26/11/2026, 08:16 h",
+ "actualizado": "26/11/2026, 08:52 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
@@ -163,11 +163,11 @@
     null,
     null,
     null,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 04 h"
+   "ultimo": "0 mm a las 08 h"
   },
   {
    "localidad": "San Carlos",
@@ -1353,11 +1353,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 07 h"
+   "ultimo": "0 mm a las 08 h"
   },
   {
    "localidad": "San Isidro",
@@ -1455,11 +1455,11 @@
     null,
     null,
     null,
-    null,
+    0,
     null
    ],
    "total": 0.25,
-   "ultimo": "0,25 mm a las 04 h"
+   "ultimo": "0 mm a las 08 h"
   },
   {
    "localidad": "Santa Rosa",
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "26/11/2026, 08:16 h",
+ "consultado": "26/11/2026, 08:52 h",
  "consulta_resultado": "datos nuevos"
 }
