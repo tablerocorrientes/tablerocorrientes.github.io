@@ -41,13 +41,13 @@ jobs:
               git fetch -q --depth 1 origin main && git reset -q --hard origin/main
               if [ $HACER_LL = 1 ]; then python3 tareas/snih_lluvia.py || true; python3 tareas/smn_cap.py || true; fi
               python3 tareas/satelite.py || true
-              if [ $HACER_FU = 1 ]; then python3 tareas/fuentes_oficiales.py || true; python3 tareas/prensa_auto.py || true; fi
+              if [ $HACER_FU = 1 ]; then python3 tareas/fuentes_oficiales.py || true; python3 tareas/nino_auto.py || true; python3 tareas/prensa_auto.py || true; fi
               if [ $HACER_PR = 1 ]; then python3 tareas/extendido_ciudades.py || true; python3 tareas/pronostico_modelos.py || true; fi
               if [ $HACER_RI = 1 ]; then python3 tareas/actualizar_rios.py || true; fi
               python3 tareas/resumenes_rios.py || true
               python3 tareas/esperado_dia.py || true
               python3 tareas/registro.py || true
-              git add data/esperado_dia.json data/bitacora data/registro data/lluvia.json data/obs.json data/sat.json assets/sat.jpg data/fuentes data/pron.json data/barrio.json data/prov.json data/puertos.json data/hist.json
+              git add data/esperado_dia.json data/bitacora data/registro data/lluvia.json data/obs.json data/sat.json assets/sat.jpg data/fuentes data/pron.json data/barrio.json data/prov.json data/puertos.json data/hist.json data/nino.json
               if git diff --cached --quiet; then echo "Ciclo $N ($MODO): sin cambios"; break; fi
               git commit -qm "Ciclo continuo ($MODO): lluvia, satélite, pronóstico, fuentes y ríos, $(TZ=America/Argentina/Buenos_Aires date '+%d/%m/%Y %H:%M') h"
               git push -q origin HEAD:main && { echo "Ciclo $N ($MODO) publicado"; break; }
