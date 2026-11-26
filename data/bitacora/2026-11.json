@@ -8985,7 +8985,7 @@
      null,
      null,
      null,
-     null
+     0.0
     ],
     "San Roquito": [
      null,
@@ -9011,7 +9011,7 @@
      null,
      null,
      null,
-     null
+     0.0
     ],
     "Gobernador Virasoro": [
      null,
@@ -9037,7 +9037,7 @@
      null,
      null,
      null,
-     null
+     0.0
     ]
    },
    "alertas_del_dia": []
@@ -9088,7 +9088,7 @@
    "observado": {
     "Corrientes Capital": [
      0.0,
-     null,
+     0.0,
      null,
      null,
      null,
@@ -9114,7 +9114,7 @@
     ],
     "La Palmira": [
      0.0,
-     null,
+     0.0,
      null,
      null,
      null,
@@ -9218,7 +9218,7 @@
     ],
     "Mercedes": [
      0.0,
-     null,
+     0.0,
      null,
      null,
      null,
@@ -9244,7 +9244,7 @@
     ],
     "Caá Catí": [
      0.0,
-     null,
+     0.0,
      null,
      null,
      null,
@@ -9296,7 +9296,7 @@
     ],
     "Itá Ibaté": [
      0.0,
-     null,
+     0.0,
      null,
      null,
      null,
@@ -9425,6 +9425,32 @@
      null
     ],
     "Santo Tomé": [
+     0.0,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "Parque Nacional Iberá": [
      0.0,
      null,
      null,
