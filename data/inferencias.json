@@ -1,15 +1,15 @@
 {
- "actualizado": "25/11/2026, 11:30 h",
+ "actualizado": "26/11/2026, 09:10 h",
  "aviso": "Inferencias propias del tablero, elaboradas con procesamiento lógico a partir de sus registros y de fuentes oficiales. No son avisos oficiales: ante una emergencia, siga las indicaciones de Defensa Civil y del SMN.",
  "vigentes": [
   {
    "id": "rio-parana-bajante",
    "tema": "🌊 Río Paraná",
-   "titulo": "El Paraná en la Capital sigue bajando despacio, 74 cm debajo de la alerta",
-   "texto": "Marcó 5,76 m el 22/11, frente a 5,93 m el 20/11 y 6,20 m el 18/11: baja unos 5 a 8 cm por día. Itatí (5,92 m) y Paso de la Patria (5,80 m) también bajan. El INA (20/11) prevé que siga bajando muy despacio unos 4 días y que pueda volver a subir desde el 26/11 por lluvias en la cuenca alta.",
+   "titulo": "El Paraná en la Capital se mantiene estable, 85 cm debajo de la alerta",
+   "texto": "Marcó 5,65 m el 26/11, con lecturas entre 5,63 m y 5,68 m desde el 23/11: ya no baja y está casi quieto. Está 85 cm debajo de la alerta (6,50 m) y 1,35 m debajo de la evacuación (7,00 m). El INA (25/11) prevé que siga casi estable unos 5 días.",
    "base": [
-    "Prefectura Naval Argentina (rioparana.com.ar), 18 a 22/11/2026",
-    "INA, reporte diario del 20/11/2026"
+    "Prefectura Naval Argentina (rioparana.com.ar), 23 a 26/11/2026",
+    "INA, reporte diario del 25/11/2026"
    ],
    "confianza": "alta",
    "horizonte": "próximos 3 días",
@@ -19,12 +19,11 @@
   {
    "id": "rio-parana-repunte",
    "tema": "🌊 Río Paraná",
-   "titulo": "El Paraná en Corrientes se mantendría estable y podría subir despacio",
-   "texto": "El INA (24/11) prevé estabilidad en los próximos 7 días y después estabilidad o un ascenso gradual, por lluvias en la cuenca y la onda del río Paraguay. Hoy marca 5,67 m, a 0,83 m de la alerta (6,50 m). Yacyretá advierte repuntes posibles hasta marzo.",
+   "titulo": "El Paraná en Corrientes podría acercarse a la alerta desde el 2/12",
+   "texto": "El INA (25/11) prevé un nuevo repunte con chances de acercarse o superar la alerta (6,50 m) desde el 2/12, por la mayor descarga de Yacyretá, la onda del Iguazú y la crecida del Paraguay. Yacyretá abrió de nuevo sus 18 compuertas el 25/11 y espera 25.000 a 26.000 m³/s; en Ituzaingó prevé entre 2,80 y 3,20 m, bajo la alerta de 3,50 m. Hoy el río está en 5,65 m en la Capital.",
    "base": [
-    "INA, reporte diario del 24/11/2026",
-    "Prefectura Naval Argentina, 25/11/2026",
-    "Yacyretá (EBY), informe del 24/11/2026"
+    "INA, reporte diario del 25/11/2026",
+    "EBY, alerta hidrológico del 25/11/2026 (El Litoral)"
    ],
    "confianza": "media",
    "horizonte": "próximas semanas",
@@ -35,9 +34,9 @@
    "id": "rio-uruguay-pico",
    "tema": "🌊 Río Uruguay",
    "titulo": "El Uruguay subiría: el INA prevé alerta en Santo Tomé y en Paso de los Libres",
-   "texto": "El INA (24/11) prevé que Santo Tomé se acerque o supere la alerta (11,50 m) entre el 25/11 y el 30/11, y que Paso de los Libres la supere desde el 28/11 (7,50 m), con posible evacuación (8,50 m) entre el 1/12 y el 4/12. El 24/11 marcaban 5,98 m y 5,07 m.",
+   "texto": "Santo Tomé marca 8,05 m y el INA (25/11) prevé que se acerque o supere levemente la alerta (11,50 m) entre el 26/11 y el 30/11. En Paso de los Libres, hoy en 5,04 m, el INA prevé que supere la alerta (7,50 m) desde el 30/11 y que pueda llegar a la evacuación (8,50 m) entre el 1/12 y el 4/12.",
    "base": [
-    "INA, reporte diario del 24/11/2026"
+    "INA, reporte diario del 25/11/2026"
    ],
    "confianza": "media",
    "horizonte": "próximas semanas",
@@ -45,17 +44,17 @@
    "localidad": "Paso de los Libres"
   },
   {
-   "id": "lluvia-alerta-sin-lluvia",
+   "id": "lluvia-sin-alertas",
    "tema": "🌧️ Lluvia",
-   "titulo": "La alerta de esta madrugada no dejó lluvia en la Capital",
-   "texto": "La alerta amarilla del COE preveía entre 30 y 70 mm de 03 a 09 h, pero las dos estaciones de la Capital midieron 0 mm en 24 horas y el máximo de la provincia fue 1,75 mm en Garruchos. Para el martes 24/11 el SMN prevé tormentas fuertes (70 %).",
+   "titulo": "Sin alertas vigentes y sin lluvia en la Capital en las últimas 24 horas",
+   "texto": "El SMN y el COE no tienen alertas vigentes para Corrientes (lectura de las 08:57 h). La estación ICAA de la Capital no midió lluvia en las últimas 24 horas, después de la tormenta del 24/11 que dejó cerca de 80 mm.",
    "base": [
-    "COE de Corrientes, alerta 2026-0087-AT",
-    "SNIH, lluvia de las últimas 24 h",
-    "SMN, publicado por La Nación (22/11, 07:49 h)"
+    "SMN, canal oficial de alertas, 26/11/2026",
+    "COE de Corrientes, 26/11/2026",
+    "SNIH, estación ICAA"
    ],
    "confianza": "alta",
-   "horizonte": "próximos 3 días",
+   "horizonte": "hoy",
    "ambito": "global",
    "localidad": "Corrientes Capital"
   },
@@ -90,6 +89,66 @@
   }
  ],
  "historial": [
+  {
+   "fecha": "2026-11-26",
+   "id": "lluvia-sin-alertas",
+   "tema": "🌧️ Lluvia",
+   "titulo": "Sin alertas vigentes y sin lluvia en la Capital en las últimas 24 horas",
+   "texto": "El SMN y el COE no tienen alertas vigentes para Corrientes (lectura de las 08:57 h). La estación ICAA de la Capital no midió lluvia en las últimas 24 horas, después de la tormenta del 24/11 que dejó cerca de 80 mm.",
+   "base": [
+    "SMN, canal oficial de alertas, 26/11/2026",
+    "COE de Corrientes, 26/11/2026",
+    "SNIH, estación ICAA"
+   ],
+   "confianza": "alta",
+   "horizonte": "hoy",
+   "ambito": "global",
+   "localidad": "Corrientes Capital"
+  },
+  {
+   "fecha": "2026-11-26",
+   "id": "rio-uruguay-pico",
+   "tema": "🌊 Río Uruguay",
+   "titulo": "El Uruguay subiría: el INA prevé alerta en Santo Tomé y en Paso de los Libres",
+   "texto": "Santo Tomé marca 8,05 m y el INA (25/11) prevé que se acerque o supere levemente la alerta (11,50 m) entre el 26/11 y el 30/11. En Paso de los Libres, hoy en 5,04 m, el INA prevé que supere la alerta (7,50 m) desde el 30/11 y que pueda llegar a la evacuación (8,50 m) entre el 1/12 y el 4/12.",
+   "base": [
+    "INA, reporte diario del 25/11/2026"
+   ],
+   "confianza": "media",
+   "horizonte": "próximas semanas",
+   "ambito": "global",
+   "localidad": "Paso de los Libres"
+  },
+  {
+   "fecha": "2026-11-26",
+   "id": "rio-parana-repunte",
+   "tema": "🌊 Río Paraná",
+   "titulo": "El Paraná en Corrientes podría acercarse a la alerta desde el 2/12",
+   "texto": "El INA (25/11) prevé un nuevo repunte con chances de acercarse o superar la alerta (6,50 m) desde el 2/12, por la mayor descarga de Yacyretá, la onda del Iguazú y la crecida del Paraguay. Yacyretá abrió de nuevo sus 18 compuertas el 25/11 y espera 25.000 a 26.000 m³/s; en Ituzaingó prevé entre 2,80 y 3,20 m, bajo la alerta de 3,50 m. Hoy el río está en 5,65 m en la Capital.",
+   "base": [
+    "INA, reporte diario del 25/11/2026",
+    "EBY, alerta hidrológico del 25/11/2026 (El Litoral)"
+   ],
+   "confianza": "media",
+   "horizonte": "próximas semanas",
+   "ambito": "global",
+   "localidad": "Corrientes Capital"
+  },
+  {
+   "fecha": "2026-11-26",
+   "id": "rio-parana-bajante",
+   "tema": "🌊 Río Paraná",
+   "titulo": "El Paraná en la Capital se mantiene estable, 85 cm debajo de la alerta",
+   "texto": "Marcó 5,65 m el 26/11, con lecturas entre 5,63 m y 5,68 m desde el 23/11: ya no baja y está casi quieto. Está 85 cm debajo de la alerta (6,50 m) y 1,35 m debajo de la evacuación (7,00 m). El INA (25/11) prevé que siga casi estable unos 5 días.",
+   "base": [
+    "Prefectura Naval Argentina (rioparana.com.ar), 23 a 26/11/2026",
+    "INA, reporte diario del 25/11/2026"
+   ],
+   "confianza": "alta",
+   "horizonte": "próximos 3 días",
+   "ambito": "global",
+   "localidad": "Corrientes Capital"
+  },
   {
    "id": "evacuados-sin-regreso",
    "tema": "🏘️ Barrios",

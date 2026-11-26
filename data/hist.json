@@ -2921,20 +2921,20 @@
  "pronosticos": [
   {
    "organismo": "INA",
-   "emision": "2026-11-24",
+   "emision": "2026-11-25",
    "rio": "Paraná",
    "horizonte_dias": 7,
    "tipo": "cualitativo",
-   "tendencia": "En Corrientes el río se mantendría casi estable en los próximos 7 días, con valores todavía más altos que lo normal para la época. Después seguiría estable o podría subir de a poco, por las lluvias previstas en la cuenca y la onda de crecida del río Paraguay. En Goya seguiría sobre el nivel de alerta.",
+   "tendencia": "En Corrientes el río se mantendría casi estable durante 5 días, todavía por encima de lo normal para la época. Después volvería a subir y podría acercarse o superar el nivel de alerta (6,50 m) a partir del 2/12, por el agua que descargaría Yacyretá, las lluvias en la cuenca y la crecida del río Paraguay. En Goya seguiría sobre el nivel de alerta.",
    "url": "https://alerta.ina.gob.ar/a5/diario/reporte_diario"
   },
   {
    "organismo": "INA",
-   "emision": "2026-11-24",
+   "emision": "2026-11-25",
    "rio": "Uruguay",
    "horizonte_dias": 7,
    "tipo": "cualitativo",
-   "tendencia": "En Santo Tomé el río seguiría subiendo y podría acercarse o superar el nivel de alerta (11,50 m) entre el 25/11 y el 30/11. En Paso de los Libres se espera un repunte que podría superar la alerta (7,50 m) desde el 28/11 y llegar al nivel de evacuación (8,50 m) entre el 1/12 y el 4/12.",
+   "tendencia": "En Santo Tomé el río seguiría subiendo y podría acercarse o superar levemente el nivel de alerta (11,50 m) entre el 26/11 y el 30/11. En Paso de los Libres se espera un repunte que podría superar la alerta (7,50 m) desde el 30/11 y llegar al nivel de evacuación (8,50 m) entre el 1/12 y el 4/12.",
    "url": "https://alerta.ina.gob.ar/a5/diario/reporte_diario"
   }
  ],
