@@ -1,5 +1,5 @@
 {
- "actualizado": "26/11/2026, 09:10 h",
+ "actualizado": "26/11/2026, 09:40 h",
  "breve": "El Niño es fuerte y sigue creciendo. Sería de los más intensos desde 1950 y empezaría a debilitarse a comienzos de 2027. Para el Litoral se esperan lluvias por encima de lo normal hasta enero.",
  "fases": [
   {
@@ -75,6 +75,13 @@
    "fecha": "06/11/2026",
    "breve": "El Niño se debilitaría entre febrero y abril de 2027, con un posible segundo máximo cerca de junio de 2027. Es la proyección de un modelo, no un pronóstico oficial.",
    "url": "https://news.agrofy.com.ar/noticia/216961/nino-podria-tener-segundo-pico-junio-2027-algo-nunca-visto-significa-campo"
+  },
+  {
+   "organismo": "ECMWF, modelo estacional europeo (difundido por Meteored)",
+   "fecha": "02/11/2026",
+   "breve": "El modelo ubica el núcleo de lluvias extra sobre Misiones, Corrientes, Formosa y el este chaqueño en noviembre, con más de 50 mm sobre lo normal. El pico de lluvias llegaría entre enero y febrero de 2027. Es una proyección de modelo, no un pronóstico oficial.",
+   "url": "https://www.meteored.com.ar/noticias/prediccion/litoral-pampa-humeda-y-cuyo-bajo-la-lupa-te-contamos-donde-pegaran-las-lluvias-de-este-el-nino-record-hasta-abril.html",
+   "via": "Meteored"
   },
   {
    "organismo": "Servicio Meteorológico Nacional (SMN)",
