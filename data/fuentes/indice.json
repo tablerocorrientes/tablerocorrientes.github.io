@@ -1,6 +1,6 @@
 {
- "consultado": "26/11/2026, 08:59 h",
- "consultado_iso": "2026-11-26T08:59-03:00",
+ "consultado": "26/11/2026, 09:44 h",
+ "consultado_iso": "2026-11-26T09:44-03:00",
  "paginas": {
   "smn_alertas": {
    "url": "https://www.smn.gob.ar/alertas",
@@ -50,7 +50,7 @@
   "lanacion_clima_corrientes": {
    "url": "https://www.lanacion.com.ar/clima/corrientes/",
    "estado": 200,
-   "caracteres": 8219,
+   "caracteres": 8209,
    "archivo": "data/fuentes/lanacion_clima_corrientes.txt"
   },
   "noaa_enso": {
@@ -130,37 +130,6 @@
    "archivo": "data/fuentes/coe_a_2026_0164_CP.txt"
   }
  },
- "pedidas": {
-  "https://www.ellitoral.com.ar/sociedad/2026-11-25-18-26-0-yacyreta-abrio-nuevamente-las-18-compuertas-del-vertedero-principal": {
-   "url": "https://www.ellitoral.com.ar/sociedad/2026-11-25-18-26-0-yacyreta-abrio-nuevamente-las-18-compuertas-del-vertedero-principal",
-   "estado": 200,
-   "caracteres": 3908,
-   "archivo": "data/fuentes/web/ellitoral_com_ar_sociedad_2026_11_25_18_26_0_yacyreta_abrio_nuevamente_las_18_compuertas_d.txt"
-  },
-  "https://www.eby.gov.py/alerta-hidrologico-n07-noviembre/": {
-   "url": "https://www.eby.gov.py/alerta-hidrologico-n07-noviembre/",
-   "estado": 200,
-   "caracteres": 6420,
-   "archivo": "data/fuentes/web/eby_gov_py_alerta_hidrologico_n07_noviembre.txt"
-  },
-  "https://examedia.com.ar/portada/post/88307200": {
-   "url": "https://examedia.com.ar/portada/post/88307200",
-   "estado": 200,
-   "caracteres": 4093,
-   "archivo": "data/fuentes/web/examedia_com_ar_portada_post_88307200.txt"
-  },
-  "https://www.apfdigital.com.ar/noticias/2026/11/26/480696-yacyreta-volvio-a-abrir-compuertas-y-emitio-una-alerta-hidrologica-por-la-crecida-del-parana": {
-   "url": "https://www.apfdigital.com.ar/noticias/2026/11/26/480696-yacyreta-volvio-a-abrir-compuertas-y-emitio-una-alerta-hidrologica-por-la-crecida-del-parana",
-   "estado": 200,
-   "caracteres": 6090,
-   "archivo": "data/fuentes/web/apfdigital_com_ar_noticias_2026_11_26_480696_yacyreta_volvio_a_abrir_compuertas_y_emitio_u.txt"
-  },
-  "https://www.diarioepoca.com/1395909-corrientes-siguen-1300-desplazados-y-esperan-un-repunte-del-rio-parana": {
-   "url": "https://www.diarioepoca.com/1395909-corrientes-siguen-1300-desplazados-y-esperan-un-repunte-del-rio-parana",
-   "estado": "error",
-   "detalle": "HTTP Error 404: NOT FOUND"
-  }
- },
  "portales": {
   "munired_municipio_corrientes": {
    "url": "https://munired.mcypcorrientes.gob.ar/noticias/corrientes",
@@ -191,6 +160,37 @@
    "estado": 200,
    "notas": 6,
    "archivo": "data/fuentes/portales/eby_noticias.txt"
+  }
+ },
+ "pedidas": {
+  "https://www.ellitoral.com.ar/sociedad/2026-11-25-18-26-0-yacyreta-abrio-nuevamente-las-18-compuertas-del-vertedero-principal": {
+   "url": "https://www.ellitoral.com.ar/sociedad/2026-11-25-18-26-0-yacyreta-abrio-nuevamente-las-18-compuertas-del-vertedero-principal",
+   "estado": 200,
+   "caracteres": 3908,
+   "archivo": "data/fuentes/web/ellitoral_com_ar_sociedad_2026_11_25_18_26_0_yacyreta_abrio_nuevamente_las_18_compuertas_d.txt"
+  },
+  "https://www.eby.gov.py/alerta-hidrologico-n07-noviembre/": {
+   "url": "https://www.eby.gov.py/alerta-hidrologico-n07-noviembre/",
+   "estado": 200,
+   "caracteres": 6420,
+   "archivo": "data/fuentes/web/eby_gov_py_alerta_hidrologico_n07_noviembre.txt"
+  },
+  "https://examedia.com.ar/portada/post/88307200": {
+   "url": "https://examedia.com.ar/portada/post/88307200",
+   "estado": 200,
+   "caracteres": 4093,
+   "archivo": "data/fuentes/web/examedia_com_ar_portada_post_88307200.txt"
+  },
+  "https://www.apfdigital.com.ar/noticias/2026/11/26/480696-yacyreta-volvio-a-abrir-compuertas-y-emitio-una-alerta-hidrologica-por-la-crecida-del-parana": {
+   "url": "https://www.apfdigital.com.ar/noticias/2026/11/26/480696-yacyreta-volvio-a-abrir-compuertas-y-emitio-una-alerta-hidrologica-por-la-crecida-del-parana",
+   "estado": 200,
+   "caracteres": 6090,
+   "archivo": "data/fuentes/web/apfdigital_com_ar_noticias_2026_11_26_480696_yacyreta_volvio_a_abrir_compuertas_y_emitio_u.txt"
+  },
+  "https://www.diarioepoca.com/1395909-corrientes-siguen-1300-desplazados-y-esperan-un-repunte-del-rio-parana": {
+   "url": "https://www.diarioepoca.com/1395909-corrientes-siguen-1300-desplazados-y-esperan-un-repunte-del-rio-parana",
+   "estado": "error",
+   "detalle": "HTTP Error 404: NOT FOUND"
   }
  },
  "pedidas_consultado": "26/11/2026, 08:59 h"

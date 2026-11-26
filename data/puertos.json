@@ -85,7 +85,7 @@
   }
  ],
  "nota": "Actualización del 22/11/2026. Paraná, alturas de Prefectura Naval Argentina reproducidas por rioparana.com.ar: Corrientes 5,76 m (−0,05 m, 22/11 a las 00:00 h), 74 cm por debajo de la alerta de 6,50 m; Paso de la Patria 5,80 m e Itatí 5,92 m, bajo su alerta y en bajante; Empedrado 5,25 m, Itá Ibaté 4,58 m e Ituzaingó 2,37 m. Aguas abajo, Bella Vista 5,90 m (alerta 6,00 m), Goya 5,58 m (sobre la alerta de 5,20 m y bajo la evacuación de 5,70 m) y Esquina 5,33 m (sobre la alerta de 5,00 m). El INA (reporte del 20/11) prevé que el río siga bajando muy despacio unos días y luego pueda volver a subir desde el 26/11 por lluvias en la cuenca alta.",
- "ultimo_intento": "26/11/2026, 07:15 h",
+ "ultimo_intento": "26/11/2026, 09:45 h",
  "programada": true,
  "horarios": [
   "09:00",
@@ -667,6 +667,38 @@
  "prensa": [
   {
    "fecha": "26/11/2026",
+   "medio": "www.diarioya.ar",
+   "titulo": "Crecida del Paraná e impulso energético: Yacyretá lideró la generación del país y puso en marcha la ampliación en Aña Cuá",
+   "enlace": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQdVNNYkNYYVA0SlJaaEVLZlc1Y2d3SzVXblVtVlV4SThXa3FQRWJLanFwTThTa0FELWg4a0FiUzZfMGotY29pbFhFVWdQdHJIZXF5ZmNWMURiRnN6ZGluaVBsb2Y1bXhTWlh5dFB4MjRvSWYzRDRWWTdoMWo3SkVyRGtvMTdXZGpYMHNINXQxREZTcFpnWUdSS1FfdU9wRkdMVi1QcmtHVGozUUxYMWZ1UUJNLTFCU1lBOUQ3dy1vdS0zVDEtYWJYTWUxYkxVcDF3aHVHSXJTUTc2Tk5RQ0E?oc=5",
+   "breve": "Crecida del Paraná e impulso energético: Yacyretá lideró la generación del país y puso en marcha la ampliación en Aña Cuá",
+   "auto": true
+  },
+  {
+   "fecha": "26/11/2026",
+   "medio": "Perfil",
+   "titulo": "Alerta en Corrientes: Yacyretá abrió nuevamente sus 18 compuertas y sube el río Paraná en Ituzaingó",
+   "enlace": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQcS1JX09TaTI2RlM4Ni1MZzZ6UHM0MHltdnBVUXFTbmJOdFhwemVFZ1FmR2lvd3lGU3JMekxzRkN2cWxlOHJuZW9WaEczV053UDlkSU9rek5NRWI1RGZJZWZWRE11NWRob3YtMmhkNzcxOXV0RExCVkFGYXV2clM4OVV1X1EtRnVkVjJZd2FqME1ZclJhMlM3WFljZFpqUUJweGZrcWpMaVFoZG5DYnJJcEtkcV95cG51ZEY2Ym5ySkZ3RF9xbTBUVG1SbDU3NGNBQW1hMw?oc=5",
+   "breve": "Alerta en Corrientes: Yacyretá abrió nuevamente sus 18 compuertas y sube el río Paraná en Ituzaingó",
+   "auto": true
+  },
+  {
+   "fecha": "26/11/2026",
+   "medio": "Corrientes Hoy",
+   "titulo": "El río Uruguay crece en toda la ribera de Corrientes",
+   "enlace": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQWGFOc0RTaDBYNHN2T0FJblhBNjV0ZkIyQjUzeWNMdy1GUWFIaUxSZ2tfSkFPQVpGeUJHTmJxMllBeEpvdkoxZTlnSTR6OXNjZDRXMUs3WWhJR2RJRzctb1pvdjZjZG1TX0pxU1IyNndrX2N4R0xZZnpDWXVRa3hkeUFrNFJVRHh1dDBMaUJYMU5Za1E1N0JTbHpiUFNrX05h?oc=5",
+   "breve": "El río Uruguay crece en toda la ribera de Corrientes",
+   "auto": true
+  },
+  {
+   "fecha": "26/11/2026",
+   "medio": "Diario Época Corrientes",
+   "titulo": "Yacyretá prevé una crecida de los caudales del Paraná para los próximos días",
+   "enlace": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNV0d3YWRHTE8xQjVqZXlIdVJVQ0EyWFJGMklORDhoWEhyLUl4NWg4TG9VUFo2N3dmb2NZRXJhem9pZHhMOXQ4UFdVTVptX2VHMnFrOGJWLV9tMTExLW9VcjFWOEFaY3hveDlONkRqSTg0MmEzTGtPaUF3aFBYRVpXSnVuNk0walpUZXJLRWNBUnV4dXA1UWZ2bG52MTNpWHpibW1kMl9tVnJnZDM2WGh2N093?oc=5",
+   "breve": "Yacyretá prevé una crecida de los caudales del Paraná para los próximos días",
+   "auto": true
+  },
+  {
+   "fecha": "26/11/2026",
    "medio": "Elonce.com",
    "titulo": "Yacyretá volvió a abrir compuertas y emitió una alerta hidrológica por la crecida del Paraná",
    "enlace": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUmtOT1pFR1J2eFhfMWhLcU5vcHVNclBPS2VIMWgwMklKeXhrNF8xVWtqM201d2pCdEhTUUZqcDRmNnpBLTFmNkhoMnU4ZnVObVJOb3ZyMDFxYkpraVY5QnhTTlNFYjZmSnBzTVU1ZUVfcEx3TjliS1hSR2hNRmtSX0htc1h5RHZyYzlJUDZUWWVwbWFONGd1QUJTdW1LdW9nMGNFb1dBYXpJc3pMMGpuaHlUNkhycmVxMjUxTTdfQ1TSAcABQVVfeXFMT1JrTk9aRUdSdnhYXzFoS3FOb3B1TXJQT0tlSDFoMDJJSnl4azRfMVVrajNtNXdqQnRIU1FGanA0ZjZ6QS0xZjZIaDJ1OGZ1Tm1STm92cjAxcWJKa2lWOUJ4U05TRWI2Zkpwc01VNWVFX3BMd045YktYUkdoTUZrUl9IbXNYeUR2cmM5SVA2VFllcG1hTjRndUFCU3VtS3VvZzBjRW9XQWF6SXN6TDBqbmh5VDZIcnJlcTI1MU03X0NU?oc=5",
@@ -1112,38 +1144,6 @@
    "enlace": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNM3ltbGtCY2d3TjBmcGxRUENJMkVYazZvNkxXdHI4cHdXbURfUzh1NkFwWjZVSHlNR01ocnFUTEN1cnVhOE5HVmktclNOdzFzRGgxU3dlSWVEZWFHdGtZQUtETjl0MlBFaEtsSkpXaEttQXpHaUZ6Vm8zcTZORE81eFZJdE9KU3BlYndNVUpESnFpTEtzTGotdDFwejVLb1BiUkc5WEF0R1NzYVN3aTRCMy1LRXFCVV9pc0JiUGVoZ3JueGV0ZWptRDZxRWdCSjZ1d1ZuRWdyY0ZHN1U4dnU0?oc=5",
    "breve": "Proyectan una nueva crecida de los ríos en Corrientes: cómo serán los niveles en diciembre",
    "auto": true
-  },
-  {
-   "fecha": "21/11/2026",
-   "medio": "Agrofy News",
-   "titulo": "Altura del río Paraná en Esquina hoy",
-   "enlace": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1iYXZwcHBEYnpsWjdRVDQ0bVZSRFNuV0ZvT2JERW9xTGhtOGNnS3dESEZ1Y0h4dXJFeW1NcjRMNkRqT09PR0dNOWFnV2Fza21zZW1oZDlkb0NsR3E0c0NMTFZSRQ?oc=5",
-   "breve": "Altura del río Paraná en Esquina hoy",
-   "auto": true
-  },
-  {
-   "fecha": "21/11/2026",
-   "medio": "Momarandu Corrientes",
-   "titulo": "No quedan evacuados en la Escuela 293 de Corrientes",
-   "enlace": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOdno3c3E5WkV5aTdPWUdKRHhTTkhqUE9jb19KenBPOFdUVTJIcnR5QVdDekVKUzRHZ1ZCUTlDRFo0ZFVrcUZPZGtDYl9kMWgzRVdSZ2Z5TnBtUDdJUk9VSV9YOVNCY1pDSUNCUEl6NFIwT0hVcXF2czBBc204U29WN2E2enU0VEVsMnhNTDBIUWlJZUpxUzVXNDctRGpvUk91elh1c2xn?oc=5",
-   "breve": "No quedan evacuados en la Escuela 293 de Corrientes",
-   "auto": true
-  },
-  {
-   "fecha": "20/11/2026",
-   "medio": "Norte Corrientes",
-   "titulo": "Corrientes acumuló 67 mm de lluvia, pero no registró inconvenientes graves",
-   "enlace": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWWhKRC00dDBSYUh6ZUtiYzRlejRQV0xYZFdYbWxuaUNkQVVReXBPS0gxX2g2OUFZMmtFZTZvRndwOWhiWWV3eDVfSkNTTXZCZTRqUk44MTJtQkE1TktyZ2lINUl0MlRIVTRra2pQR1pZcllqRUlFNzZweHRiZE9OU1hRakFxN29WcGFYLWw5b3dycDM1cC1wY3NDT293bXZGY09ab3NnTGVmUjlkOGdXR3lB?oc=5",
-   "breve": "Corrientes acumuló 67 mm de lluvia, pero no registró inconvenientes graves",
-   "auto": true
-  },
-  {
-   "fecha": "20/11/2026",
-   "medio": "www.actualidadparana.com.ar",
-   "titulo": "Cerró el centro de evacuados en Corrientes y el 60% de los autoevacuados volvió a casa",
-   "enlace": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBpUGpsbWFzZnBCQnlyei1aNWVRdEhIWE5iRlU5VkI3NGxCNllCeHFMY3dGVk9rVHZiUjEwWDBMLXVUOVJUdDI0WXJwNktGOXNnemJiVWlkbkZqYmc?oc=5",
-   "breve": "Cerró el centro de evacuados en Corrientes y el 60% de los autoevacuados volvió a casa",
-   "auto": true
   }
  ],
  "puertos_uruguay": [
@@ -1459,9 +1459,9 @@
  "nota_breve": "Paraná en Corrientes: 5,65 m (26/11, 00:00 h), estable y 85 cm debajo de la alerta (6,50 m). Goya y Esquina siguen sobre la alerta. El INA prevé el río casi estable en Corrientes unos 5 días y un nuevo repunte que podría acercarse a la alerta desde el 2/12.",
  "uruguay_breve": "Al 25/11, 07:00 h: Santo Tomé 8,50 m (subió 192 cm) y Paso de los Libres 5,16 m (subió 12 cm), ambos bajo la alerta (Salto Grande). El INA prevé que Santo Tomé se acerque a la alerta entre el 26/11 y el 30/11, y Paso de los Libres la supere desde el 30/11.",
  "tapon_breve": "Sin alerta del SMN para la Capital en las próximas 48 horas. Con el río en 5,65 m, el riesgo de anegamiento depende de la intensidad de la lluvia.",
- "consultado": "26/11/2026, 09:10 h",
- "consulta_resultado": "datos nuevos",
- "prensa_actualizada": "26/11/2026, 08:19 h",
+ "consultado": "26/11/2026, 09:45 h",
+ "consulta_resultado": "sin cambios",
+ "prensa_actualizada": "26/11/2026, 09:45 h",
  "ina_parana_breve": "El INA prevé el río casi estable en Corrientes unos 5 días y un nuevo repunte que podría acercarse a la alerta desde el 2/12.",
  "ina_uruguay_breve": "El INA prevé que Santo Tomé se acerque a la alerta entre el 26/11 y el 30/11, y Paso de los Libres la supere desde el 30/11."
 }
