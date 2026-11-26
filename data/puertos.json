@@ -660,6 +660,38 @@
  "prensa": [
   {
    "fecha": "25/11/2026",
+   "medio": "www.actualidadparana.com.ar",
+   "titulo": "Anticipan lluvias y altas temperaturas para el fin de semana en Corrientes",
+   "enlace": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBfS2xRSHpQUjk3SUs4WUhJVTFUSmwweXotb3k2V1NRR0xXWl9GRVhGU3J4X3k1OTBQbWRjY2s0Ul9JbW5hUlBhVWJGYzNEOUhNWmZzMWNDeFlETDg?oc=5",
+   "breve": "Anticipan lluvias y altas temperaturas para el fin de semana en Corrientes",
+   "auto": true
+  },
+  {
+   "fecha": "25/11/2026",
+   "medio": "econojournal.com.ar",
+   "titulo": "El Niño: por qué la crecida del Paraná no se traduce en un aumento proporcional de la generación de Yacyretá",
+   "enlace": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNdl9DSWRTUGtOb3N1RUM1RlRjUWI5OGhRZTkxLXVnWU9sUmFPNldoN3pBT2pvQ3JoWmdaZnJNZWVnTDd0U2lFMHZDUy11MVJJcXZtRzBMbXg0bk4tbUJpMU5rZ1dtTF9zeHFvUXBFYnA3UWplUmpQQ080TTBFV2I3Y19XcERlT25sNXlGbTdvQmx0djVraGo2NkV4QUJGYzVTUjhrbWNfSXdZeE56anBxbGkxZ1VvSk9OVVRyYUZOOXhYclV3OWxIU2J1d2M4T3VHTFBIcFNxN3hVa0Fx?oc=5",
+   "breve": "El Niño: por qué la crecida del Paraná no se traduce en un aumento proporcional de la generación de Yacyretá",
+   "auto": true
+  },
+  {
+   "fecha": "25/11/2026",
+   "medio": "Economis",
+   "titulo": "Yacyretá anticipa una nueva crecida del Paraná: Ayolas seguirá en niveles de alerta e inundabilidad",
+   "enlace": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA0b0Rma00yN3pHeDlFTVA3ZWxyaU9UWEdnamdUZnQ0S1NGeUZLTGxGNHpteG5CR0RTN2hYWlBnUnRfdkRYOFlGT3kzUXNEeUs4RXQxZlJrV2tTNTdMeVl4RnRBZ0tGU0dYR201STM3NFFkSV9iNHV2VmVIWQ?oc=5",
+   "breve": "Yacyretá anticipa una nueva crecida del Paraná: Ayolas seguirá en niveles de alerta e inundabilidad",
+   "auto": true
+  },
+  {
+   "fecha": "24/11/2026",
+   "medio": "El Litoral | Novedades de Corrientes",
+   "titulo": "Las lluvias dejaron hasta 95 milímetros en un solo día en Corrientes: en qué zonas",
+   "enlace": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPVUZlRHRrX2d2TF9oekM3QTB2U3FxMDQ3Rkt6MHJfdHVHejl2eGNWT0ozTXNYcFFXbXFBMU15MmtTaHUyem5jN3VyX05UVzY0Vk9pTUUzSWlraGJZeElzaEtOYnlUQ1NacUU0WXVBWXhuOERleXc2VTNQOWlBMTlyQzA3dEk5MWRra1JGcWVQbFRLUjJ4cUhJZ2ZNVUFscHVCTHZyenduVmpwWnNBcmlWUGIwaThoTEhBYmFqMl9DQU94RUgtZFktYlA1b0VhRkJzUzU5b1YycHhLVGdJY2U0?oc=5",
+   "breve": "Las lluvias dejaron hasta 95 milímetros en un solo día en Corrientes: en qué zonas",
+   "auto": true
+  },
+  {
+   "fecha": "25/11/2026",
    "medio": "LT7Noticias",
    "titulo": "Yacyretá abrió nuevamente las 18 compuertas y emitió una alerta hidrológica por la crecida del Paraná",
    "enlace": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQUFJ2WEQ2Vk5QMk5pZlpHa1dDNnRLZnJ4RUNTY1ZoNlZ2cjZnYWVRalFIZHhnTjdGTVJrUFdXUS1WTEJQLV93NUw2TVhTWVRpRllJVzlvVVJUei0wZnYtaUZqclJoSjh3U2lCeldacEtVbWd3UER2TUQ1S2lXeWtEM1JtMTdZYXkwd0ZyWTZJTjlQN2lvQ1dBdmFzQkdrWXJFSTRMa1ZFcElRS3N1cHptY1RhczhnamdBOHJNck92MVcycjZYTU5yQkppX3oxNWhs?oc=5",
@@ -1103,34 +1135,6 @@
    "titulo": "La Costanera libreña permanece cerrada y el río Uruguay superó los 7,80 metros",
    "resumen": "Prefectura informó 7,89 m en Paso de los Libres al mediodía del jueves, en fase creciente (alerta 7,50 m, evacuación 8,50 m). Siguen cerrados los accesos a la costanera en Coronel López, Amado Bonpland y Plácido Martínez; en Santo Tomé el paseo costero Papa Francisco está cerrado por limpieza. No informa evacuados.",
    "enlace": "https://www.diarioellibertador.com.ar/crecida-rio-uruguay-alerta-cierre-costanera-paso-de-los-libres/"
-  },
-  {
-   "medio": "Diario El Libertador",
-   "fecha": "12/11/2026",
-   "titulo": "El Gobierno nacional relevó la situación hídrica en la provincia",
-   "resumen": "Informe de la AFE: 4.547 personas evacuadas en 25 localidades de cuatro provincias; en Corrientes, 2.005 (468 evacuados y 1.537 autoevacuados). No informa centros de evacuados ni barrios anegados.",
-   "enlace": "https://www.diarioellibertador.com.ar/el-gobierno-nacional-relevo-la-situacion-hidrica-en-la-provincia/"
-  },
-  {
-   "medio": "El Argentino Diario",
-   "fecha": "12/11/2026",
-   "titulo": "Alerta amarilla por tormentas y viento en cinco provincias, y aviso naranja en Formosa",
-   "resumen": "Las alertas del SMN del jueves 12 (actualizadas a las 09:14 h) y las previstas para el viernes 13 y el sábado 14 no incluyen a Corrientes.",
-   "enlace": "https://elargentinodiario.com.ar/zona-destacada/12/11/2026/alerta-amarilla-por-tormentas-y-viento-en-cinco-provincias-y-aviso-naranja-en-formosa/"
-  },
-  {
-   "medio": "Corrientes de Tarde",
-   "fecha": "11/11/2026",
-   "titulo": "Miércoles caluroso con alerta por tormentas: ¿cómo estará el clima este 11 de noviembre en Corrientes?",
-   "resumen": "Reproduce el parte del SMN: alerta amarilla por tormentas para la tarde del miércoles en Berón de Astrada, Capital, Empedrado, General Paz, Itatí, Mburucuyá, Saladas, San Cosme y San Luis del Palmar, con 20 a 50 mm. En la Capital, tormentas fuertes por la tarde (40 % a 70 %) y aisladas por la noche; el jueves 12, tormentas aisladas en la madrugada y la noche, con 23 a 33 °C. No informa barrios anegados.",
-   "enlace": "https://corrientesdetarde.com/index.php/locales/miercoles-caluroso-con-alerta-por-tormentas-como-estara-el-clima-este-11-de-noviembre-en-corrientes/"
-  },
-  {
-   "medio": "El Litoral (Santa Fe)",
-   "fecha": "11/11/2026",
-   "titulo": "Lluvias intensas y posible caída de granizo: dónde rige la alerta amarilla este miércoles",
-   "resumen": "El SMN mantiene alerta amarilla por tormentas en cinco provincias, entre ellas sectores de Corrientes durante la mañana y la tarde, con 20 a 50 mm, actividad eléctrica, granizo y ráfagas. No informa daños ni barrios anegados en Corrientes.",
-   "enlace": "https://www.ellitoral.com/nacionales/serviciometeorologiconacional-alertaamarilla-tormentas-lluviasintensas-smn-granizo-precipitaciones_0_SMcVOr9AQj.html"
   }
  ],
  "puertos_uruguay": [
@@ -1448,7 +1452,7 @@
  "tapon_breve": "Sin alerta del SMN para la Capital en las próximas 48 horas. Con el río en 5,66 m, el riesgo de anegamiento depende de la intensidad de la lluvia.",
  "consultado": "25/11/2026, 19:27 h",
  "consulta_resultado": "datos nuevos",
- "prensa_actualizada": "25/11/2026, 19:44 h",
+ "prensa_actualizada": "25/11/2026, 21:50 h",
  "ina_parana_breve": "El INA prevé un río casi estable en Corrientes, con posible suba lenta después.",
  "ina_uruguay_breve": "El INA prevé que Santo Tomé se acerque a la alerta entre el 25/11 y el 30/11, y Paso de los Libres la supere desde el 28/11."
 }
