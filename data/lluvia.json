@@ -1,10 +1,9 @@
 {
- "actualizado": "26/11/2026, 00:14 h",
+ "actualizado": "26/11/2026, 01:05 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
-  "25/11 01 h",
-  "02 h",
+  "25/11 02 h",
   "03 h",
   "04 h",
   "05 h",
@@ -27,11 +26,12 @@
   "22 h",
   "23 h",
   "26/11 00 h",
-  "01 h (en curso)"
+  "01 h",
+  "02 h (en curso)"
  ],
  "fuente": "Sistema Nacional de Información Hídrica (SNIH), Secretaría de Infraestructura y Política Hídrica; estaciones de la Red Hidrológica Nacional y redes asociadas (ICAA, INTA, Red Iberá). Datos crudos del sensor, sin validar.",
  "enlace": "https://snih.hidricosargentina.gob.ar/Filtros.aspx",
- "nota": "Ventana de 24 horas completas, de 01 h del 25/11 a 00 h del 26/11 (hora de Argentina), más la hora en curso como última columna, con los datos recibidos hasta el momento. El total suma solo las 24 horas completas. Las horas sin transmisión figuran como null, no como cero.",
+ "nota": "Ventana de 24 horas completas, de 02 h del 25/11 a 01 h del 26/11 (hora de Argentina), más la hora en curso como última columna, con los datos recibidos hasta el momento. El total suma solo las 24 horas completas. Las horas sin transmisión figuran como null, no como cero.",
  "estaciones": [
   {
    "localidad": "Corrientes Capital",
@@ -65,7 +65,7 @@
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 00 h"
+   "ultimo": "0 mm a las 01 h"
   },
   {
    "localidad": "Corrientes Capital (estación 13805)",
@@ -84,7 +84,6 @@
     0,
     0,
     0,
-    0,
     0.25,
     0,
     0,
@@ -96,6 +95,7 @@
     0,
     0,
     0,
+    null,
     null
    ],
    "total": 0.25,
@@ -108,7 +108,6 @@
    "valores": [
     null,
     null,
-    null,
     0,
     null,
     null,
@@ -126,6 +125,7 @@
     null,
     null,
     0.25,
+    null,
     null,
     null,
     null,
@@ -142,7 +142,6 @@
    "valores": [
     null,
     null,
-    null,
     0,
     null,
     null,
@@ -160,6 +159,7 @@
     null,
     null,
     0,
+    null,
     null,
     null,
     null,
@@ -197,7 +197,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -231,7 +231,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -269,7 +269,7 @@
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 00 h"
+   "ultimo": "0 mm a las 01 h"
   },
   {
    "localidad": "Bella Vista",
@@ -673,7 +673,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -686,7 +686,6 @@
    "valores": [
     null,
     null,
-    null,
     0,
     null,
     null,
@@ -704,6 +703,7 @@
     null,
     null,
     0,
+    null,
     null,
     null,
     null,
@@ -775,7 +775,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -856,7 +856,6 @@
    "valores": [
     null,
     null,
-    null,
     0,
     null,
     null,
@@ -874,6 +873,7 @@
     null,
     null,
     0,
+    null,
     null,
     null,
     null,
@@ -1060,7 +1060,6 @@
    "valores": [
     null,
     null,
-    null,
     0,
     null,
     null,
@@ -1078,6 +1077,7 @@
     null,
     null,
     0,
+    null,
     null,
     null,
     null,
@@ -1115,7 +1115,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -1149,7 +1149,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -1183,7 +1183,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -1217,7 +1217,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -1251,7 +1251,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -1285,7 +1285,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -1319,7 +1319,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -1357,7 +1357,7 @@
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 23 h"
+   "ultimo": "0 mm a las 00 h"
   },
   {
    "localidad": "San Isidro",
@@ -1434,7 +1434,6 @@
    "valores": [
     null,
     null,
-    null,
     0,
     null,
     null,
@@ -1452,6 +1451,7 @@
     null,
     null,
     0,
+    null,
     null,
     null,
     null,
@@ -1557,7 +1557,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "26/11/2026, 00:34 h",
- "consulta_resultado": "sin cambios"
+ "consultado": "26/11/2026, 01:05 h",
+ "consulta_resultado": "datos nuevos"
 }

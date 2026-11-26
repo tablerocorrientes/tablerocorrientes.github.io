@@ -8881,7 +8881,7 @@
      0.0,
      0.0,
      0.0,
-     null
+     0.0
     ],
     "Colonia Carlos Pellegrini": [
      null,
@@ -9085,6 +9085,60 @@
     0.03,
     0.03
    ],
+   "observado": {
+    "Corrientes Capital": [
+     0.0,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "La Palmira": [
+     0.0,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ]
+   },
    "alertas_del_dia": []
   }
  }
