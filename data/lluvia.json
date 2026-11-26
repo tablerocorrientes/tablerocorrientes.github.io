@@ -1,5 +1,5 @@
 {
- "actualizado": "26/11/2026, 16:03 h",
+ "actualizado": "26/11/2026, 16:04 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
@@ -265,11 +265,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0.2,
-   "ultimo": "0 mm a las 15 h"
+   "ultimo": "0 mm a las 16 h"
   },
   {
    "localidad": "Bella Vista",
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "26/11/2026, 16:03 h",
+ "consultado": "26/11/2026, 16:04 h",
  "consulta_resultado": "datos nuevos"
 }
