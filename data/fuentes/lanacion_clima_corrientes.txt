@@ -1,5 +1,5 @@
 Fuente: https://www.lanacion.com.ar/clima/corrientes/
-Consultado: 26/11/2026, 17:40 h
+Consultado: 26/11/2026, 19:40 h
 
 Clima en Corrientes y pronóstico del tiempo en LA NACION
 CERRAR
@@ -78,16 +78,10 @@ Kiosco LA NACION
 > LA NACION > Clima > Corrientes
 Clima de hoy en Corrientes
 Pronóstico del tiempo extendido para Corrientes
-Actualizado a las 17:22 hs.
+Actualizado a las 19:41 hs.
 Pronóstico del tiempo en Corrientes hoy
-Tarde
-Mayormente nublado
-30 ºc
-28%
-E 31Km/h
-10%
 Noche
-Parcialmente nublado
+Mayormente nublado
 25 ºc
 78%
 E 22Km/h
@@ -95,26 +89,26 @@ E 22Km/h
 Pronóstico del tiempo en Corrientes mañana
 Mañana
 Tormentas
-21 ºc
+22 ºc
 76%
-S 31Km/h
+SE 22Km/h
 70%
 Tarde
-Tormentas aisladas
+Tormentas
 29 ºc
 97%
 E 31Km/h
 70%
 Noche
 Chaparrones
-19 ºc
+21 ºc
 93%
-E 22Km/h
+E 12Km/h
 40%
 Pronóstico del tiempo en Corrientes el sábado
 Mañana
-Mayormente nublado
-19 ºc
+Parcialmente nublado
+22 ºc
 76%
 SE 22Km/h
 0%
@@ -124,31 +118,37 @@ Parcialmente nublado
 37%
 SE 22Km/h
 10%
+Noche
+Parcialmente nublado
+22 ºc
+77%
+NE 22Km/h
+10%
 Pronóstico del tiempo en Corrientes el domingo
 Mañana
 Parcialmente nublado
-18 ºc
+19 ºc
 73%
-SE 12Km/h
+E 12Km/h
 0%
 Tarde
 Parcialmente nublado
 32 ºc
 49%
-SE 12Km/h
+E 12Km/h
 0%
 Pronóstico del tiempo en Corrientes el lunes
 Mañana
 Parcialmente nublado
 22 ºc
 69%
-E 12Km/h
+NE 12Km/h
 0%
 Tarde
 Parcialmente nublado
 35 ºc
 42%
-SE 12Km/h
+NE 12Km/h
 0%
 Pronóstico del tiempo en Corrientes el martes
 Mañana
@@ -158,23 +158,36 @@ Mayormente nublado
 N 12Km/h
 0%
 Tarde
-Mayormente nublado
+Tormentas aisladas
 35 ºc
 39%
 SO 22Km/h
-10%
+40%
 Pronóstico del tiempo en Corrientes el miércoles
 Mañana
 Mayormente nublado
 22 ºc
--
-S 22Km/h
-10%
+80%
+NE 12Km/h
+0%
 Tarde
 Mayormente nublado
 33 ºc
 41%
-SE 22Km/h
+N 12Km/h
+10%
+Pronóstico del tiempo en Corrientes el jueves
+Mañana
+Mayormente nublado
+24 ºc
+-
+N 12Km/h
+10%
+Tarde
+Mayormente nublado
+30 ºc
+52%
+N 12Km/h
 10%
 Referencias del clima
 Despejado (día)
@@ -214,10 +227,16 @@ Santiago del Estero
 Tierra del Fuego
 Tucumán
 Últimas noticias del clima en Corrientes
-Clima en ciudad de Corrientes hoy: cuál es el pronóstico del tiempo para el 26 de noviembre de 2026
+Clima en Monte Caseros hoy: cuál es el pronóstico del tiempo para el 27 de noviembre de 2026
+Pronóstico del tiempo
+26 de noviembre de 2026
+Clima en ciudad de Corrientes hoy: cuál es el pronóstico del tiempo para el 27 de noviembre de 2026
 Pronóstico del tiempo
 26 de noviembre de 2026
 Clima en Monte Caseros hoy: cuál es el pronóstico del tiempo para el 26 de noviembre de 2026
+Pronóstico del tiempo
+26 de noviembre de 2026
+Clima en ciudad de Corrientes hoy: cuál es el pronóstico del tiempo para el 26 de noviembre de 2026
 Pronóstico del tiempo
 26 de noviembre de 2026
 Clima en ciudad de Corrientes hoy: cuál es el pronóstico del tiempo para el 25 de noviembre de 2026
@@ -280,10 +299,10 @@ Pronóstico del tiempo
 Clima en Monte Caseros hoy: cuál es el pronóstico del tiempo para el 16 de noviembre de 2026
 Pronóstico del tiempo
 16 de noviembre de 2026
-Clima en ciudad de Corrientes hoy: cuál es el pronóstico del tiempo para el 15 de noviembre de 2026
+Clima en Monte Caseros hoy: cuál es el pronóstico del tiempo para el 15 de noviembre de 2026
 Pronóstico del tiempo
 15 de noviembre de 2026
-Clima en Monte Caseros hoy: cuál es el pronóstico del tiempo para el 15 de noviembre de 2026
+Clima en ciudad de Corrientes hoy: cuál es el pronóstico del tiempo para el 15 de noviembre de 2026
 Pronóstico del tiempo
 15 de noviembre de 2026
 Clima en Monte Caseros hoy: cuál es el pronóstico del tiempo para el 14 de noviembre de 2026
@@ -298,18 +317,12 @@ Pronóstico del tiempo
 Clima en Monte Caseros hoy: cuál es el pronóstico del tiempo para el 13 de noviembre de 2026
 Pronóstico del tiempo
 13 de noviembre de 2026
-Clima en ciudad de Corrientes hoy: cuál es el pronóstico del tiempo para el 12 de noviembre de 2026
-Pronóstico del tiempo
-12 de noviembre de 2026
-Clima en Monte Caseros hoy: cuál es el pronóstico del tiempo para el 12 de noviembre de 2026
-Pronóstico del tiempo
-12 de noviembre de 2026
 VER MÁS NOTAS DE CORRIENTES
 Más leídas
 1 Tensión en la General Paz tras un choque: uno de los conductores estaba armado con un revólver .357 Magnum y lo redujeron con una Taser
-2 Una empresa francesa busca instalar un camping en Parque Nacional Iguazú: las negociaciones con el Gobierno
-3 El desarrollador que construye departamentos de los que se puede salir en barco a Punta del Este trajo una marca de yates al país
-4 Tini Stoessel y Rodrigo De Paul, en su primera entrevista juntos: la reconciliación, la boda y el deseo de formar una familia
+2 El desarrollador que construye departamentos de los que se puede salir en barco a Punta del Este trajo una marca de yates al país
+3 Tini Stoessel y Rodrigo De Paul, en su primera entrevista juntos: la reconciliación, la boda y el deseo de formar una familia
+4 Claudio Zuchovicki, sobre el dólar en 2027: “No veo el motivo por el cual se dispare”
 Secciones
 Últimas noticias
 Política
