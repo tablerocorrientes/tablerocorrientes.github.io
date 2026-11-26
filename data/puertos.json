@@ -660,6 +660,22 @@
  "prensa": [
   {
    "fecha": "26/11/2026",
+   "medio": "Elonce.com",
+   "titulo": "Yacyretá volvió a abrir compuertas y emitió una alerta hidrológica por la crecida del Paraná",
+   "enlace": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUmtOT1pFR1J2eFhfMWhLcU5vcHVNclBPS2VIMWgwMklKeXhrNF8xVWtqM201d2pCdEhTUUZqcDRmNnpBLTFmNkhoMnU4ZnVObVJOb3ZyMDFxYkpraVY5QnhTTlNFYjZmSnBzTVU1ZUVfcEx3TjliS1hSR2hNRmtSX0htc1h5RHZyYzlJUDZUWWVwbWFONGd1QUJTdW1LdW9nMGNFb1dBYXpJc3pMMGpuaHlUNkhycmVxMjUxTTdfQ1TSAcABQVVfeXFMT1JrTk9aRUdSdnhYXzFoS3FOb3B1TXJQT0tlSDFoMDJJSnl4azRfMVVrajNtNXdqQnRIU1FGanA0ZjZ6QS0xZjZIaDJ1OGZ1Tm1STm92cjAxcWJKa2lWOUJ4U05TRWI2Zkpwc01VNWVFX3BMd045YktYUkdoTUZrUl9IbXNYeUR2cmM5SVA2VFllcG1hTjRndUFCU3VtS3VvZzBjRW9XQWF6SXN6TDBqbmh5VDZIcnJlcTI1MU03X0NU?oc=5",
+   "breve": "Yacyretá volvió a abrir compuertas y emitió una alerta hidrológica por la crecida del Paraná",
+   "auto": true
+  },
+  {
+   "fecha": "24/11/2026",
+   "medio": "entreriosya",
+   "titulo": "Creciente del río Paraná: La dura advertencia desde Yacyretá hasta el mes de marzo",
+   "enlace": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPLTJfdHlpRWsxcnVlTjNEc2w4VmZYal92eFZ3YnotcHVYaDBpME9ZMXFqZmRPWTlWVHpyVHlSYnowcURyaGRLSXp4NTU3a1ZCNERxNExhdEFjWTBLTklkQ0FCejQwRUppOTJVRUtVZC1WczJKNXNuQ2JaTFdzQTIyR0otWFR1bjFua0Y1RGs2d05oRWZ5d1llTVN2WjJzTHNCRDU1cU5ETURVV2xMSUE?oc=5",
+   "breve": "Creciente del río Paraná: La dura advertencia desde Yacyretá hasta el mes de marzo",
+   "auto": true
+  },
+  {
+   "fecha": "26/11/2026",
    "medio": "Vietnam.vn",
    "titulo": "Quang Ngai sufre lluvias torrenciales que provocan graves inundaciones en muchas zonas residenciales, con fuertes corrientes.",
    "enlace": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOSHduRzZFbXpDMktFQklzcjhSV1lMVnhWd291THNGX0tCWDNBbzE5eWpYeVlkQ1RJWFMtR0pOQ2hXQlpQejhqY093dkRMOS1iY29fNXJ0OUZWZHVxSTNFTFZuMVF6Y0htWUhFMEJzeTl1MnN4WDMxTmh1NTBadnZJdUFnLWRYN0syQW5KMlduQ1RBTDdGaWxn?oc=5",
@@ -1121,22 +1137,6 @@
    "enlace": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBpUGpsbWFzZnBCQnlyei1aNWVRdEhIWE5iRlU5VkI3NGxCNllCeHFMY3dGVk9rVHZiUjEwWDBMLXVUOVJUdDI0WXJwNktGOXNnemJiVWlkbkZqYmc?oc=5",
    "breve": "Cerró el centro de evacuados en Corrientes y el 60% de los autoevacuados volvió a casa",
    "auto": true
-  },
-  {
-   "fecha": "20/11/2026",
-   "medio": "LT7Noticias",
-   "titulo": "Corrientes: ya no quedan evacuados en la Escuela 293 y el 60% de los autoevacuados regresó a sus casas",
-   "enlace": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPMUpmamNpWnRSRFRNamR1Wk5zZUt3d1dMb0h6V3NIQUdPWEl6eW5HTnJfR3RFaWN4ODlaMkdHN3ZlcmdLQ0xfZFR6c19fUnJDQjNBM3lFaVRRVHA0N29pWkc3Rmx3OVpfT2Q3dklHa1RpNTMyVlg4eE9wMFdnWXozZlFfMGE2cGlOVE85OExlTm1UNkFCVl9rMklJQURSbE55anNyXzdTeXpjWWc3Szd0Nk5xd0RZbmItZEtpTGZHREh1MjVCWGNYcjlDdFJVWkE?oc=5",
-   "breve": "Corrientes: ya no quedan evacuados en la Escuela 293 y el 60% de los autoevacuados regresó a sus casas",
-   "auto": true
-  },
-  {
-   "medio": "Infobae",
-   "fecha": "14/11/2026",
-   "titulo": "Crecida del río Paraná: Santa Fe se encuentra al límite de la evacuación y ya son más de 4.500 afectados en el Litoral",
-   "resumen": "Según la Agencia Federal de Emergencias, hay al menos 4.547 personas evacuadas o autoevacuadas en el Litoral; en Corrientes, 2.005 afectados, con unos 690 vecinos de la Capital con viviendas anegadas, 518 en Itatí, 228 en Paso de la Patria y 211 en la isla Apipé. Goya y Esquina siguen sobre su nivel de evacuación.",
-   "enlace": "https://www.infobae.com/sociedad/2026/11/14/crecida-del-rio-parana-santa-fe-se-encuentra-al-limite-de-la-evacuacion-y-ya-son-mas-de-4500-afectados-en-el-litoral/",
-   "breve": "En Corrientes hay 2.005 afectados por la crecida, según la Agencia Federal de Emergencias; en la Capital, unos 690 vecinos con viviendas anegadas."
   }
  ],
  "puertos_uruguay": [
@@ -1454,7 +1454,7 @@
  "tapon_breve": "Sin alerta del SMN para la Capital en las próximas 48 horas. Con el río en 5,65 m, el riesgo de anegamiento depende de la intensidad de la lluvia.",
  "consultado": "26/11/2026, 07:15 h",
  "consulta_resultado": "datos nuevos",
- "prensa_actualizada": "26/11/2026, 04:04 h",
+ "prensa_actualizada": "26/11/2026, 08:19 h",
  "ina_parana_breve": "El INA prevé un río casi estable en Corrientes, con posible suba lenta después.",
  "ina_uruguay_breve": "El INA prevé que Santo Tomé se acerque a la alerta entre el 25/11 y el 30/11, y Paso de los Libres la supere desde el 28/11."
 }
