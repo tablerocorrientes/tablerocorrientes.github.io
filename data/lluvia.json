@@ -1,5 +1,5 @@
 {
- "actualizado": "26/11/2026, 18:11 h",
+ "actualizado": "26/11/2026, 18:42 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
@@ -127,13 +127,13 @@
     null,
     null,
     null,
-    null,
+    0,
     null,
     null,
     null
    ],
    "total": 0.5,
-   "ultimo": "0 mm a las 12 h"
+   "ultimo": "0 mm a las 16 h"
   },
   {
    "localidad": "Colonia Carlos Pellegrini",
@@ -161,13 +161,13 @@
     null,
     null,
     null,
-    null,
+    0,
     null,
     null,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 12 h"
+   "ultimo": "0 mm a las 16 h"
   },
   {
    "localidad": "San Carlos",
@@ -231,11 +231,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 17 h"
+   "ultimo": "0 mm a las 18 h"
   },
   {
    "localidad": "La Palmira",
@@ -1149,11 +1149,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 17 h"
+   "ultimo": "0 mm a las 18 h"
   },
   {
    "localidad": "Itá Ibaté",
@@ -1319,11 +1319,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 17 h"
+   "ultimo": "0 mm a las 18 h"
   },
   {
    "localidad": "Parque Nacional Iberá",
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "26/11/2026, 18:11 h",
+ "consultado": "26/11/2026, 18:42 h",
  "consulta_resultado": "datos nuevos"
 }
