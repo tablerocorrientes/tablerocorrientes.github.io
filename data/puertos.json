@@ -1,5 +1,5 @@
 {
- "actualizado": "26/11/2026, 12:54 h",
+ "actualizado": "26/11/2026, 15:34 h",
  "fecha_registro": "22/11/2026",
  "puertos": [
   {
@@ -40,21 +40,21 @@
   },
   {
    "puerto": "Corrientes",
-   "altura": 5.65,
+   "altura": 5.64,
    "variacion": -0.01,
    "alerta": 6.5,
    "evacuacion": 7,
-   "fuente": "Prefectura Naval Argentina, reproducida por rioparana.com.ar (26/11/2026, 00:00 h)",
-   "registro": "26/11/2026, 00:00 h"
+   "fuente": "Prefectura Naval Argentina, reproducida por rioparana.com.ar (26/11/2026, 12:00 h)",
+   "registro": "26/11/2026, 12:00 h"
   },
   {
    "puerto": "Empedrado",
    "altura": 5.11,
-   "variacion": 0.03,
+   "variacion": 0.0,
    "alerta": 6.5,
    "evacuacion": 6.7,
-   "fuente": "Prefectura Naval Argentina, reproducida por rioparana.com.ar (26/11/2026, 00:00 h)",
-   "registro": "26/11/2026, 00:00 h"
+   "fuente": "Prefectura Naval Argentina, reproducida por rioparana.com.ar (26/11/2026, 12:00 h)",
+   "registro": "26/11/2026, 12:00 h"
   },
   {
    "puerto": "Bella Vista",
@@ -85,7 +85,7 @@
   }
  ],
  "nota": "Actualización del 22/11/2026. Paraná, alturas de Prefectura Naval Argentina reproducidas por rioparana.com.ar: Corrientes 5,76 m (−0,05 m, 22/11 a las 00:00 h), 74 cm por debajo de la alerta de 6,50 m; Paso de la Patria 5,80 m e Itatí 5,92 m, bajo su alerta y en bajante; Empedrado 5,25 m, Itá Ibaté 4,58 m e Ituzaingó 2,37 m. Aguas abajo, Bella Vista 5,90 m (alerta 6,00 m), Goya 5,58 m (sobre la alerta de 5,20 m y bajo la evacuación de 5,70 m) y Esquina 5,33 m (sobre la alerta de 5,00 m). El INA (reporte del 20/11) prevé que el río siga bajando muy despacio unos días y luego pueda volver a subir desde el 26/11 por lluvias en la cuenca alta.",
- "ultimo_intento": "26/11/2026, 12:54 h",
+ "ultimo_intento": "26/11/2026, 15:34 h",
  "programada": true,
  "horarios": [
   "09:00",
@@ -667,6 +667,22 @@
  "prensa": [
   {
    "fecha": "26/11/2026",
+   "medio": "Mirador Provincial",
+   "titulo": "Corrientes: Prefectura rescató a un ciervo que era arrastrado por la crecida del río Paraná",
+   "enlace": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOVW1YRU8tTWc2SkZYeW5kZFNvUVVTSEkyUUtNMFU3bW02Nk5scUo5SmNXV1NsQTkwRHVLWnNvYV8weUI2dHJ5dUhoRjFKUVBidkNFZlo5Ul9YVjBUNUhtV0JNMzRoeHRDcGUzYll1V3d5dXZIZklwQjlubnVVclRBdWx3TTctbEtuSUF5RENZUVZ0N2Y0c04yMlBRYUd4bmJwWGVOM202VXNjb19KSS1wcTNJd3RCZHI2dHdVVmhCYlpzWVNOaDRVSWNvZ1RBdjNLUFE?oc=5",
+   "breve": "Corrientes: Prefectura rescató a un ciervo que era arrastrado por la crecida del río Paraná",
+   "auto": true
+  },
+  {
+   "fecha": "26/11/2026",
+   "medio": "Opinando San Nicolás",
+   "titulo": "Yacyretá abrió las 18 compuertas y alertó por la crecida del Paraná",
+   "enlace": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPQWJjd3RSamh4UDNlTG56aUZSTTJTWUY0ZE5aTTZxRU5xbEV6SjR2d0NtLWdWS2pnYlYwQmR5MWFzQV9HcXlaUy16dDF0WF9RUktoUWtRV1VCX2xncjZOTlZXaFdiRlNTYkRVQjBmY1MwdDBxN3VsY0J5WnFHQnFrRTJnVlhxTG5zTEJvd1hsMldHam54bldSMQ?oc=5",
+   "breve": "Yacyretá abrió las 18 compuertas y alertó por la crecida del Paraná",
+   "auto": true
+  },
+  {
+   "fecha": "26/11/2026",
    "medio": "MinutoUno",
    "titulo": "Video: rescatan a un ciervo en Corrientes en plena crecida del río Paraná",
    "enlace": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQdk1ReHNEMXFscUJyeUtjdzgyTXMxQl9ZWXlodWtNZzk4UnR4TG5td3g4ZUVhN1lzU041Tm4zcFdmX283aVRvOEt3bzdrX012UnozRzhsVlVXUXgzRFhneFBpd0RiVGNtLXdhZ2lDOEFCU2dLd2xxSTdoZXZ3cHZHV3NVS29rdy1rV3R3cy04QmhCQm5uR1pKV2NqdUZSakdfTFlYamVFVld0LWlH0gGsAUFVX3lxTFB2TVF4c0QxcWxxQnJ5S2N3ODJNczFCX1lZeWh1a01nOThSdHhMbm13eDhlRWE3WXNTTjVObjNwV2ZfbzdpVG84S3dvN2tfTXZSejNHOGxWVVdReDNEWGd4UGl3RGJUY20td2FnaUM4QUJTZ0t3bHFJN2hldndwdkdXc1VLb2t3LWtXdHdzLThCaEJCbm5HWkpXY2p1RlJqR19MWVhqZUVWV3QtaUc?oc=5",
@@ -1128,22 +1144,6 @@
    "enlace": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPd0k0c0ZRUjdlVzBGXzhJQkotOE1NdUlxc09qdl81eUJicWdhSHNyR05vS21FZDBsVm10ZUJJUFJNdldHLXEwSVhEVVpFeVFFSEtSYjVFQzZGNVhYWmNMR0FOVzZ3Ylc0VWJuQkd2NEtRTFBrNFZvYVBFRDNEempJZDV3d3V6RkZnQ2J1dXB3aVdxRU50VGhOTmp2WGt6c2ZxZzFFMjJOM3JUa21CVWhFYno1YjJtT0N1SGZZbHVjSWpoQ1hacHF2MnR1LXF6WjJlTHB2RXdqb2oxNVVKazRj?oc=5",
    "breve": "Fenómeno El Niño: 4 mil personas siguen sin poder volver a sus casas en Corrientes y Chaco y qué esperan para las próximas semanas",
    "auto": true
-  },
-  {
-   "fecha": "23/11/2026",
-   "medio": "Corrientes al Día",
-   "titulo": "Alerta naranja y amarilla por tormentas para este martes en Corrientes",
-   "enlace": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQMDBsMHVRX0REVEtCZWQ5b1JtVTYtT09xRUFPc0NPSGVxcVNkYXJjTlRJMWh3Z1JBcmVkUDB5N0JSSFN2Sk9MUmgxX1drY0QzbkJVcmdoeURGbjdBNEF2UVF4RnFpVWFpbDBtcEE5NDZVcUVhY3lRZktwLW01SHcxNmVxMjF3d0l5QVQ4Wmdyc05KRUt2WnhjemxsdFNCTHZEaUhSVVREdVhXR0U4VTNQUQ?oc=5",
-   "breve": "Alerta naranja y amarilla por tormentas para este martes en Corrientes",
-   "auto": true
-  },
-  {
-   "fecha": "24/11/2026",
-   "medio": "www.actualidadparana.com.ar",
-   "titulo": "Ituzaingó y el resto del norte de Corrientes con lluvias abundantes, actividad eléctrica, granizo y ráfagas fuertes este martes",
-   "enlace": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1VeE1GVngyS3hhXzh5SURUNXhubWV2c3JkV2MwTTdqbFVld2tpQTk2bVNsQmhIWlp5aS1URm9tSFhxYVBqa0ZkYUFnMWlKSU5kT3lPbkZtSnRpZXM?oc=5",
-   "breve": "Ituzaingó y el resto del norte de Corrientes con lluvias abundantes, actividad eléctrica, granizo y ráfagas fuertes este martes",
-   "auto": true
   }
  ],
  "puertos_uruguay": [
@@ -1456,12 +1456,12 @@
  "alertas": [],
  "alertas_fecha": "14/11/2026, 09:12 h",
  "eby_resumen_anteriores": "Entre el 24/10 y el 3/11 la EBY informó caudales de hasta unos 34.500 m³/s, el doble de lo habitual (octubre fue el mes más caudaloso de la serie 1971-2025), con Ituzaingó por encima de 4 m. El paso Ituzaingó–Ayolas estuvo cerrado desde el 12/10 y reabrió el 7/11. La EBY advirtió que El Niño podría extenderse hasta los primeros meses de 2027.",
- "nota_breve": "Paraná en Corrientes: 5,65 m (26/11, 00:00 h), estable y 85 cm debajo de la alerta (6,50 m). Goya y Esquina siguen sobre la alerta. El INA prevé el río casi estable en Corrientes unos 5 días y un nuevo repunte que podría acercarse a la alerta desde el 2/12.",
+ "nota_breve": "Paraná en Corrientes: 5,64 m (26/11, 12:00 h), estable y 86 cm debajo de la alerta (6,50 m). Goya y Esquina siguen sobre la alerta. El INA prevé el río casi estable en Corrientes unos 5 días y un nuevo repunte que podría acercarse a la alerta desde el 2/12.",
  "uruguay_breve": "Al 26/11, 07:00 h: Santo Tomé 9,60 m (subió 110 cm) y Paso de los Libres 5,80 m (subió 64 cm), ambos bajo la alerta (Salto Grande). El INA prevé que Santo Tomé se acerque a la alerta entre el 26/11 y el 30/11, y Paso de los Libres la supere desde el 30/11.",
- "tapon_breve": "Sin alerta del SMN para la Capital en las próximas 48 horas. Con el río en 5,65 m, el riesgo de anegamiento depende de la intensidad de la lluvia.",
- "consultado": "26/11/2026, 12:54 h",
+ "tapon_breve": "Sin alerta del SMN para la Capital en las próximas 48 horas. Con el río en 5,64 m, el riesgo de anegamiento depende de la intensidad de la lluvia.",
+ "consultado": "26/11/2026, 15:34 h",
  "consulta_resultado": "datos nuevos",
- "prensa_actualizada": "26/11/2026, 13:58 h",
+ "prensa_actualizada": "26/11/2026, 15:34 h",
  "ina_parana_breve": "El INA prevé el río casi estable en Corrientes unos 5 días y un nuevo repunte que podría acercarse a la alerta desde el 2/12.",
  "ina_uruguay_breve": "El INA prevé que Santo Tomé se acerque a la alerta entre el 26/11 y el 30/11, y Paso de los Libres la supere desde el 30/11."
 }

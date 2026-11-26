@@ -159,6 +159,7 @@ fecha_hora,rio,puerto,altura_m,alerta_m,evacuacion_m,estado,fuente
 2026-11-25T00:00,Paraná,Corrientes,5.67,6.5,7,verificado,CIM/UNL; CIM/UNL (PNA); Prefectura Naval Argentina vía INA-SIyAH
 2026-11-25T12:00,Paraná,Corrientes,5.66,6.5,7,verificado,CIM/UNL; CIM/UNL (PNA); Prefectura Naval Argentina vía INA-SIyAH
 2026-11-26T00:00,Paraná,Corrientes,5.65,6.5,7,verificado,CIM/UNL; CIM/UNL (PNA); Prefectura Naval Argentina vía INA-SIyAH
+2026-11-26T12:00,Paraná,Corrientes,5.64,6.5,7,verificado,CIM/UNL; CIM/UNL (PNA); Prefectura Naval Argentina vía INA-SIyAH
 2026-11-01T00:00,Paraná,Empedrado,6.2,6.5,6.7,verificado,Prefectura Naval Argentina vía INA-SIyAH
 2026-11-03,Paraná,Empedrado,6.09,6.5,6.7,pendiente,Prefectura Naval Argentina vía INA-SIyAH
 2026-11-04,Paraná,Empedrado,6.07,6.5,6.7,pendiente,CIM/UNL (PNA); Prefectura Naval Argentina vía INA-SIyAH
@@ -192,6 +193,7 @@ fecha_hora,rio,puerto,altura_m,alerta_m,evacuacion_m,estado,fuente
 2026-11-24T12:00,Paraná,Empedrado,5.08,6.5,6.7,verificado,CIM/UNL (PNA); Prefectura Naval Argentina vía INA-SIyAH
 2026-11-25T00:00,Paraná,Empedrado,5.08,6.5,6.7,verificado,CIM/UNL (PNA); Prefectura Naval Argentina vía INA-SIyAH
 2026-11-26T00:00,Paraná,Empedrado,5.11,6.5,6.7,verificado,CIM/UNL (PNA); Prefectura Naval Argentina vía INA-SIyAH
+2026-11-26T12:00,Paraná,Empedrado,5.11,6.5,6.7,verificado,CIM/UNL (PNA); Prefectura Naval Argentina vía INA-SIyAH
 2026-11-01T00:00,Paraná,Esquina,5.36,5,5.4,verificado,Prefectura Naval Argentina vía INA-SIyAH
 2026-11-03,Paraná,Esquina,5.5,5,5.4,pendiente,Prefectura Naval Argentina vía INA-SIyAH
 2026-11-04,Paraná,Esquina,5.55,5,5.4,pendiente,CIM/UNL (PNA); Prefectura Naval Argentina vía INA-SIyAH
