@@ -1,10 +1,9 @@
 {
- "actualizado": "25/11/2026, 23:45 h",
+ "actualizado": "26/11/2026, 00:01 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
-  "25/11 00 h",
-  "01 h",
+  "25/11 01 h",
   "02 h",
   "03 h",
   "04 h",
@@ -27,11 +26,12 @@
   "21 h",
   "22 h",
   "23 h",
-  "26/11 00 h (en curso)"
+  "26/11 00 h",
+  "01 h (en curso)"
  ],
  "fuente": "Sistema Nacional de Información Hídrica (SNIH), Secretaría de Infraestructura y Política Hídrica; estaciones de la Red Hidrológica Nacional y redes asociadas (ICAA, INTA, Red Iberá). Datos crudos del sensor, sin validar.",
  "enlace": "https://snih.hidricosargentina.gob.ar/Filtros.aspx",
- "nota": "Ventana de 24 horas completas, de 00 h del 25/11 a 23 h del 25/11 (hora de Argentina), más la hora en curso como última columna, con los datos recibidos hasta el momento. El total suma solo las 24 horas completas. Las horas sin transmisión figuran como null, no como cero.",
+ "nota": "Ventana de 24 horas completas, de 01 h del 25/11 a 00 h del 26/11 (hora de Argentina), más la hora en curso como última columna, con los datos recibidos hasta el momento. El total suma solo las 24 horas completas. Las horas sin transmisión figuran como null, no como cero.",
  "estaciones": [
   {
    "localidad": "Corrientes Capital",
@@ -61,7 +61,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -85,7 +85,6 @@
     0,
     0,
     0,
-    0,
     0.25,
     0,
     0,
@@ -96,6 +95,7 @@
     0,
     0,
     0,
+    null,
     null
    ],
    "total": 0.25,
@@ -106,7 +106,6 @@
    "estacion": "Garruchos",
    "codigo": 13857,
    "valores": [
-    0.25,
     null,
     null,
     null,
@@ -127,12 +126,13 @@
     null,
     null,
     0.25,
+    null,
     null,
     null,
     null,
     null
    ],
-   "total": 1.0,
+   "total": 0.75,
    "ultimo": "0,25 mm a las 20 h"
   },
   {
@@ -140,7 +140,6 @@
    "estacion": "Carlos Pellegrini",
    "codigo": 13826,
    "valores": [
-    0.5,
     null,
     null,
     null,
@@ -161,12 +160,13 @@
     null,
     null,
     0,
+    null,
     null,
     null,
     null,
     null
    ],
-   "total": 0.5,
+   "total": 0,
    "ultimo": "0 mm a las 20 h"
   },
   {
@@ -197,7 +197,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -231,7 +231,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -265,7 +265,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -673,7 +673,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -684,7 +684,6 @@
    "estacion": "La Sirena",
    "codigo": 13811,
    "valores": [
-    0,
     null,
     null,
     null,
@@ -705,6 +704,7 @@
     null,
     null,
     0,
+    null,
     null,
     null,
     null,
@@ -775,7 +775,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -854,7 +854,6 @@
    "estacion": "Paso Cerrito",
    "codigo": 13849,
    "valores": [
-    0,
     null,
     null,
     null,
@@ -875,6 +874,7 @@
     null,
     null,
     0,
+    null,
     null,
     null,
     null,
@@ -1058,7 +1058,6 @@
    "estacion": "Portal Galarza",
    "codigo": 283904,
    "valores": [
-    0,
     null,
     null,
     null,
@@ -1079,6 +1078,7 @@
     null,
     null,
     0,
+    null,
     null,
     null,
     null,
@@ -1115,7 +1115,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -1149,7 +1149,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -1183,7 +1183,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -1217,7 +1217,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -1251,7 +1251,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -1285,7 +1285,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -1319,7 +1319,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -1353,7 +1353,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -1432,7 +1432,6 @@
    "estacion": "San Roquito",
    "codigo": 13832,
    "valores": [
-    0.25,
     null,
     null,
     null,
@@ -1453,12 +1452,13 @@
     null,
     null,
     0,
+    null,
     null,
     null,
     null,
     null
    ],
-   "total": 0.25,
+   "total": 0,
    "ultimo": "0 mm a las 20 h"
   },
   {
@@ -1557,7 +1557,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "25/11/2026, 23:45 h",
+ "consultado": "26/11/2026, 00:01 h",
  "consulta_resultado": "datos nuevos"
 }
