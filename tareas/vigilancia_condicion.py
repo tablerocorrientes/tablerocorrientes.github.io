@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """¿Hay que mantener la vigilancia intensiva? Sale con código 0 si hay una alerta
-vigente para Corrientes (pronóstico publicado o lectura del SMN desde Corrientes)
+vigente para Corrientes (pronóstico publicado o lectura del SMN por su canal oficial CAP)
 o si las estaciones registraron lluvia en las últimas 3 horas; 1 en caso contrario."""
 import json, re, sys, time
 from datetime import datetime, timezone, timedelta

@@ -1,3 +1,5 @@
+*** TAREA F ANULADA (25/11/2026): no se ejecuta. Sus funciones las cumple GitHub: las alertas del SMN las lee el ciclo continuo por el canal CAP (tareas/smn_cap.py) y las notas que GitHub no descarga se buscan reproducidas en otro medio. Se conserva solo como referencia histórica. ***
+
 TAREA F, ALERTAS DEL SMN DESDE LA COMPUTADORA DEL AUTOR (cada 2 horas, solo si la computadora está encendida)
 
 Propósito: el sitio del SMN rechaza las consultas que llegan desde servidores en la nube, pero responde a una conexión común de Corrientes. Esta tarea usa la computadora del autor para leer las alertas del SMN de primera mano y dejarlas en el repositorio. Si la computadora está apagada o no responde, la tarea termina sin escribir nada y sin notificar: el tablero sigue funcionando con el COE.

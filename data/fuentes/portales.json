@@ -1,5 +1,5 @@
 {
- "nota": "Portadas de noticias que alimentan el Radar de gestión y las tareas del tablero. 'github': las descarga la automatización Fuentes oficiales en cada corrida. 'pc': las lee la tarea F desde el navegador de la computadora del autor (los sitios rechazan las descargas desde servidores).",
+ "nota": "Portadas de noticias que alimentan el Radar de gestión y las tareas del tablero. 'github': las descarga la automatización Fuentes oficiales en cada corrida. 'pc': antes las leía la tarea F desde la computadora del autor; la tarea F está anulada y esas portadas ya no se renuevan (el Radar busca esas notas reproducidas en otro medio).",
  "portales": [
   {
    "nombre": "munired_municipio_corrientes",

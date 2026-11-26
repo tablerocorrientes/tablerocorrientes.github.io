@@ -259,7 +259,7 @@ def procesar(T, D, visto):
     for a in ((D.get('smn') or {}).get('alertas') or []):
         try:
             d = fecha_ddmmaaaa(a.get('desde')); h = fecha_ddmmaaaa(a.get('hasta'))
-            alerta(T, {'nivel': a.get('nivel'), 'fenomeno': a.get('fenomeno'), 'desde_iso': (d + ':00-03:00') if d and 'T' in d else d, 'hasta_iso': (h + ':00-03:00') if h and 'T' in h else h, 'zonas': a.get('zonas'), 'origen': 'Servicio Meteorológico Nacional (página de alertas leída desde Corrientes)'}, visto)
+            alerta(T, {'nivel': a.get('nivel'), 'fenomeno': a.get('fenomeno'), 'desde_iso': (d + ':00-03:00') if d and 'T' in d else d, 'hasta_iso': (h + ':00-03:00') if h and 'T' in h else h, 'zonas': a.get('zonas'), 'origen': 'Servicio Meteorológico Nacional (canal oficial de alertas)'}, visto)
         except Exception:
             pass
     E = D.get('esp') or {}

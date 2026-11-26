@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Alertas y avisos del SMN para Corrientes, leídos del canal oficial CAP del SMN (estándar internacional
-de alertas, https://ssl.smn.gob.ar/CAP/AR.php). Reemplaza la lectura desde la computadora del autor.
+de alertas, https://ssl.smn.gob.ar/CAP/AR.php). Reemplazó a la tarea F, que leía las alertas desde la computadora del autor (anulada).
 
 Cada alerta trae su polígono: se marca qué departamentos de Corrientes cubre comprobando si la ciudad
 cabecera de cada departamento queda dentro del polígono. Los avisos a muy corto plazo traen además los

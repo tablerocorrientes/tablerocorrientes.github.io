@@ -222,7 +222,7 @@ if pedidas:
         indice['pedidas'][u] = r
         print('pedida', u, r.get('estado'))
 
-# Notas que no se pudieron descargar: quedan pendientes para que la tarea F las lea desde la PC del autor
+# Notas que no se pudieron descargar: quedan pendientes (la tarea F, que las leía desde la PC del autor, está anulada: el archivo se conserva como registro)
 if pedidas:
     pp = os.path.join(OUT, 'pendientes_pc.json')
     try:
