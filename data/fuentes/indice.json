@@ -1,6 +1,6 @@
 {
- "consultado": "26/11/2026, 08:56 h",
- "consultado_iso": "2026-11-26T08:56-03:00",
+ "consultado": "26/11/2026, 08:58 h",
+ "consultado_iso": "2026-11-26T08:58-03:00",
  "paginas": {
   "smn_alertas": {
    "url": "https://www.smn.gob.ar/alertas",
@@ -130,6 +130,56 @@
    "archivo": "data/fuentes/coe_a_2026_0164_CP.txt"
   }
  },
+ "pedidas": {
+  "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUmtOT1pFR1J2eFhfMWhLcU5vcHVNclBPS2VIMWgwMklKeXhrNF8xVWtqM201d2pCdEhTUUZqcDRmNnpBLTFmNkhoMnU4ZnVObVJOb3ZyMDFxYkpraVY5QnhTTlNFYjZmSnBzTVU1ZUVfcEx3TjliS1hSR2hNRmtSX0htc1h5RHZyYzlJUDZUWWVwbWFONGd1QUJTdW1LdW9nMGNFb1dBYXpJc3pMMGpuaHlUNkhycmVxMjUxTTdfQ1TSAcABQVVfeXFMT1JrTk9aRUdSdnhYXzFoS3FOb3B1TXJQT0tlSDFoMDJJSnl4azRfMVVrajNtNXdqQnRIU1FGanA0ZjZ6QS0xZjZIaDJ1OGZ1Tm1STm92cjAxcWJKa2lWOUJ4U05TRWI2Zkpwc01VNWVFX3BMd045YktYUkdoTUZrUl9IbXNYeUR2cmM5SVA2VFllcG1hTjRndUFCU3VtS3VvZzBjRW9XQWF6SXN6TDBqbmh5VDZIcnJlcTI1MU03X0NU?oc=5": {
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUmtOT1pFR1J2eFhfMWhLcU5vcHVNclBPS2VIMWgwMklKeXhrNF8xVWtqM201d2pCdEhTUUZqcDRmNnpBLTFmNkhoMnU4ZnVObVJOb3ZyMDFxYkpraVY5QnhTTlNFYjZmSnBzTVU1ZUVfcEx3TjliS1hSR2hNRmtSX0htc1h5RHZyYzlJUDZUWWVwbWFONGd1QUJTdW1LdW9nMGNFb1dBYXpJc3pMMGpuaHlUNkhycmVxMjUxTTdfQ1TSAcABQVVfeXFMT1JrTk9aRUdSdnhYXzFoS3FOb3B1TXJQT0tlSDFoMDJJSnl4azRfMVVrajNtNXdqQnRIU1FGanA0ZjZ6QS0xZjZIaDJ1OGZ1Tm1STm92cjAxcWJKa2lWOUJ4U05TRWI2Zkpwc01VNWVFX3BMd045YktYUkdoTUZrUl9IbXNYeUR2cmM5SVA2VFllcG1hTjRndUFCU3VtS3VvZzBjRW9XQWF6SXN6TDBqbmh5VDZIcnJlcTI1MU03X0NU?oc=5",
+   "estado": 200,
+   "caracteres": 15,
+   "archivo": "data/fuentes/web/news_google_com_rss_articles_CBMiwAFBVV95cUxPUmtOT1pFR1J2eFhfMWhLcU5vcHVNclBPS2VIMWgwMklKe.txt"
+  },
+  "https://news.google.com/rss/articles/CBMie0FVX3lxTFA0b0Rma00yN3pHeDlFTVA3ZWxyaU9UWEdnamdUZnQ0S1NGeUZLTGxGNHpteG5CR0RTN2hYWlBnUnRfdkRYOFlGT3kzUXNEeUs4RXQxZlJrV2tTNTdMeVl4RnRBZ0tGU0dYR201STM3NFFkSV9iNHV2VmVIWQ?oc=5": {
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA0b0Rma00yN3pHeDlFTVA3ZWxyaU9UWEdnamdUZnQ0S1NGeUZLTGxGNHpteG5CR0RTN2hYWlBnUnRfdkRYOFlGT3kzUXNEeUs4RXQxZlJrV2tTNTdMeVl4RnRBZ0tGU0dYR201STM3NFFkSV9iNHV2VmVIWQ?oc=5",
+   "estado": 200,
+   "caracteres": 15,
+   "archivo": "data/fuentes/web/news_google_com_rss_articles_CBMie0FVX3lxTFA0b0Rma00yN3pHeDlFTVA3ZWxyaU9UWEdnamdUZnQ0S1NGe.txt"
+  },
+  "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQUFJ2WEQ2Vk5QMk5pZlpHa1dDNnRLZnJ4RUNTY1ZoNlZ2cjZnYWVRalFIZHhnTjdGTVJrUFdXUS1WTEJQLV93NUw2TVhTWVRpRllJVzlvVVJUei0wZnYtaUZqclJoSjh3U2lCeldacEtVbWd3UER2TUQ1S2lXeWtEM1JtMTdZYXkwd0ZyWTZJTjlQN2lvQ1dBdmFzQkdrWXJFSTRMa1ZFcElRS3N1cHptY1RhczhnamdBOHJNck92MVcycjZYTU5yQkppX3oxNWhs?oc=5": {
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQUFJ2WEQ2Vk5QMk5pZlpHa1dDNnRLZnJ4RUNTY1ZoNlZ2cjZnYWVRalFIZHhnTjdGTVJrUFdXUS1WTEJQLV93NUw2TVhTWVRpRllJVzlvVVJUei0wZnYtaUZqclJoSjh3U2lCeldacEtVbWd3UER2TUQ1S2lXeWtEM1JtMTdZYXkwd0ZyWTZJTjlQN2lvQ1dBdmFzQkdrWXJFSTRMa1ZFcElRS3N1cHptY1RhczhnamdBOHJNck92MVcycjZYTU5yQkppX3oxNWhs?oc=5",
+   "estado": 200,
+   "caracteres": 15,
+   "archivo": "data/fuentes/web/news_google_com_rss_articles_CBMi0AFBVV95cUxQUFJ2WEQ2Vk5QMk5pZlpHa1dDNnRLZnJ4RUNTY1ZoNlZ2c.txt"
+  },
+  "https://news.google.com/rss/articles/CBMitgFBVV95cUxPS0ZNU0JEY3BIUThXRWhNMVIxUGtrd3FzUzdrSkYzYVBuS2pqX2pNYUNNRWU2RkwyVGxJMWdRTkt1SUNBdlJVZU1IUDZ1TFNwVm9jYWV5ZnNDekgwZHhtZHE3YXdrUVlENkJ5bUF0QXQzcDFxNG5iTGNvWnhna1pkcVl5NmVhSTV4MkZ6WVJfWThFMThpdF9JZkpMLUxYUmYyZmJDZFZoLXBMbUZHeGNWdE5OWEgtZw?oc=5": {
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPS0ZNU0JEY3BIUThXRWhNMVIxUGtrd3FzUzdrSkYzYVBuS2pqX2pNYUNNRWU2RkwyVGxJMWdRTkt1SUNBdlJVZU1IUDZ1TFNwVm9jYWV5ZnNDekgwZHhtZHE3YXdrUVlENkJ5bUF0QXQzcDFxNG5iTGNvWnhna1pkcVl5NmVhSTV4MkZ6WVJfWThFMThpdF9JZkpMLUxYUmYyZmJDZFZoLXBMbUZHeGNWdE5OWEgtZw?oc=5",
+   "estado": 200,
+   "caracteres": 15,
+   "archivo": "data/fuentes/web/news_google_com_rss_articles_CBMitgFBVV95cUxPS0ZNU0JEY3BIUThXRWhNMVIxUGtrd3FzUzdrSkYzYVBuS.txt"
+  },
+  "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOUlVsZ2dXMDJNcTM1blktRnRjNzRUQmkydFRxVXpIdWhXNjNtR1RNZl9VMmZqVTRCSDE4R1FuQkhHR2FuYzBWSktJUW5KVmg3TU5yR1o0OVJ3NUlYdV9BcGxBTjM4VnVUMzJ3REp2TVp3UVY0M2p6YUV6T09KYlh2TC1EUlhacXF5d2NQYnE4ZVVQZzVYVHRXcHpnTVNwNUFfbkI0bkF6dm9WUQ?oc=5": {
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOUlVsZ2dXMDJNcTM1blktRnRjNzRUQmkydFRxVXpIdWhXNjNtR1RNZl9VMmZqVTRCSDE4R1FuQkhHR2FuYzBWSktJUW5KVmg3TU5yR1o0OVJ3NUlYdV9BcGxBTjM4VnVUMzJ3REp2TVp3UVY0M2p6YUV6T09KYlh2TC1EUlhacXF5d2NQYnE4ZVVQZzVYVHRXcHpnTVNwNUFfbkI0bkF6dm9WUQ?oc=5",
+   "estado": 200,
+   "caracteres": 15,
+   "archivo": "data/fuentes/web/news_google_com_rss_articles_CBMiqgFBVV95cUxOUlVsZ2dXMDJNcTM1blktRnRjNzRUQmkydFRxVXpIdWhXN.txt"
+  },
+  "https://www.elonce.com/uid-890682": {
+   "url": "https://www.elonce.com/uid-890682",
+   "estado": 200,
+   "caracteres": 8263,
+   "archivo": "data/fuentes/web/elonce_com_uid_890682.txt"
+  },
+  "https://www.elonce.com/uid-889762": {
+   "url": "https://www.elonce.com/uid-889762",
+   "estado": 200,
+   "caracteres": 7815,
+   "archivo": "data/fuentes/web/elonce_com_uid_889762.txt"
+  },
+  "https://www.elonce.com/uid-889636": {
+   "url": "https://www.elonce.com/uid-889636",
+   "estado": 200,
+   "caracteres": 7357,
+   "archivo": "data/fuentes/web/elonce_com_uid_889636.txt"
+  }
+ },
  "portales": {
   "munired_municipio_corrientes": {
    "url": "https://munired.mcypcorrientes.gob.ar/noticias/corrientes",
@@ -162,55 +212,5 @@
    "archivo": "data/fuentes/portales/eby_noticias.txt"
   }
  },
- "pedidas": {
-  "https://news.agrofy.com.ar/noticia/216961/nino-podria-tener-segundo-pico-junio-2027-algo-nunca-visto-significa-campo": {
-   "url": "https://news.agrofy.com.ar/noticia/216961/nino-podria-tener-segundo-pico-junio-2027-algo-nunca-visto-significa-campo",
-   "estado": "error",
-   "detalle": "HTTP Error 404: NOT FOUND"
-  },
-  "https://www.conclusion.com.ar/info-general/el-nino-podria-intensificarse-entre-diciembre-y-enero-2027-que-zonas-seran-las-mas-afectadas/11/2026/": {
-   "url": "https://www.conclusion.com.ar/info-general/el-nino-podria-intensificarse-entre-diciembre-y-enero-2027-que-zonas-seran-las-mas-afectadas/11/2026/",
-   "estado": 200,
-   "caracteres": 5177,
-   "archivo": "data/fuentes/web/conclusion_com_ar_info_general_el_nino_podria_intensificarse_entre_diciembre_y_enero_2027_.txt"
-  },
-  "https://www.perfil.com/noticias/amp/clima/el-fenomeno-de-el-nino-alcanzara-su-pico-en-diciembre-con-records-historicos-de-intensidad-a50.phtml": {
-   "url": "https://www.perfil.com/noticias/amp/clima/el-fenomeno-de-el-nino-alcanzara-su-pico-en-diciembre-con-records-historicos-de-intensidad-a50.phtml",
-   "leido_desde": "https://web.archive.org/web/2026id_/https://www.perfil.com/noticias/amp/clima/el-fenomeno-de-el-nino-alcanzara-su-pico-en-diciembre-con-records-historicos-de-intensidad-a50.phtml",
-   "estado": 200,
-   "caracteres": 4347,
-   "archivo": "data/fuentes/web/perfil_com_noticias_amp_clima_el_fenomeno_de_el_nino_alcanzara_su_pico_en_diciembre_con_re.txt"
-  },
-  "https://www.perfil.com/noticias/amp/clima/la-omm-aseguro-que-el-nino-a50-se-extenderaal-menos-hasta-febrero-del-2027.phtml": {
-   "url": "https://www.perfil.com/noticias/amp/clima/la-omm-aseguro-que-el-nino-a50-se-extenderaal-menos-hasta-febrero-del-2027.phtml",
-   "estado": 200,
-   "caracteres": 4380,
-   "archivo": "data/fuentes/web/perfil_com_noticias_amp_clima_la_omm_aseguro_que_el_nino_a50_se_extenderaal_menos_hasta_fe.txt"
-  },
-  "https://www.meteored.com.ar/noticias/prediccion/litoral-pampa-humeda-y-cuyo-bajo-la-lupa-te-contamos-donde-pegaran-las-lluvias-de-este-el-nino-record-hasta-abril.html": {
-   "url": "https://www.meteored.com.ar/noticias/prediccion/litoral-pampa-humeda-y-cuyo-bajo-la-lupa-te-contamos-donde-pegaran-las-lluvias-de-este-el-nino-record-hasta-abril.html",
-   "estado": 200,
-   "caracteres": 5265,
-   "archivo": "data/fuentes/web/meteored_com_ar_noticias_prediccion_litoral_pampa_humeda_y_cuyo_bajo_la_lupa_te_contamos_d.txt"
-  },
-  "https://diariopanorama.com/noticia/571642/nino-argentina-cuando-se-produciria-fase-mas-intensa-zonas-serian-mas-afectadas": {
-   "url": "https://diariopanorama.com/noticia/571642/nino-argentina-cuando-se-produciria-fase-mas-intensa-zonas-serian-mas-afectadas",
-   "estado": 200,
-   "caracteres": 5127,
-   "archivo": "data/fuentes/web/diariopanorama_com_noticia_571642_nino_argentina_cuando_se_produciria_fase_mas_intensa_zon.txt"
-  },
-  "https://iri.columbia.edu/our-expertise/climate/forecasts/enso/current/": {
-   "url": "https://iri.columbia.edu/our-expertise/climate/forecasts/enso/current/",
-   "estado": 200,
-   "caracteres": 25953,
-   "archivo": "data/fuentes/web/iri_columbia_edu_our_expertise_climate_forecasts_enso_current.txt"
-  },
-  "https://www.bom.gov.au/climate/ahead/outlooks/archive/20261022-outlook.shtml": {
-   "url": "https://www.bom.gov.au/climate/ahead/outlooks/archive/20261022-outlook.shtml",
-   "estado": 200,
-   "caracteres": 8067,
-   "archivo": "data/fuentes/web/bom_gov_au_climate_ahead_outlooks_archive_20261022_outlook_shtml.txt"
-  }
- },
- "pedidas_consultado": "25/11/2026, 23:17 h"
+ "pedidas_consultado": "26/11/2026, 08:58 h"
 }
