@@ -1,5 +1,5 @@
 Fuente: https://ssl.smn.gob.ar/dpd/descarga_opendata.php?file=pron5d/pron20261126.txt
-Consultado: 26/11/2026, 11:49 h
+Consultado: 26/11/2026, 13:57 h
 
 ************************************************************************************************
 Producto basado en un modelo de pronóstico numérico del tiempo, 
