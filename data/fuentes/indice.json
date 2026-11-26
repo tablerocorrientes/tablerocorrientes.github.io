@@ -1,6 +1,6 @@
 {
- "consultado": "26/11/2026, 08:58 h",
- "consultado_iso": "2026-11-26T08:58-03:00",
+ "consultado": "26/11/2026, 08:59 h",
+ "consultado_iso": "2026-11-26T08:59-03:00",
  "paginas": {
   "smn_alertas": {
    "url": "https://www.smn.gob.ar/alertas",
@@ -131,53 +131,34 @@
   }
  },
  "pedidas": {
-  "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUmtOT1pFR1J2eFhfMWhLcU5vcHVNclBPS2VIMWgwMklKeXhrNF8xVWtqM201d2pCdEhTUUZqcDRmNnpBLTFmNkhoMnU4ZnVObVJOb3ZyMDFxYkpraVY5QnhTTlNFYjZmSnBzTVU1ZUVfcEx3TjliS1hSR2hNRmtSX0htc1h5RHZyYzlJUDZUWWVwbWFONGd1QUJTdW1LdW9nMGNFb1dBYXpJc3pMMGpuaHlUNkhycmVxMjUxTTdfQ1TSAcABQVVfeXFMT1JrTk9aRUdSdnhYXzFoS3FOb3B1TXJQT0tlSDFoMDJJSnl4azRfMVVrajNtNXdqQnRIU1FGanA0ZjZ6QS0xZjZIaDJ1OGZ1Tm1STm92cjAxcWJKa2lWOUJ4U05TRWI2Zkpwc01VNWVFX3BMd045YktYUkdoTUZrUl9IbXNYeUR2cmM5SVA2VFllcG1hTjRndUFCU3VtS3VvZzBjRW9XQWF6SXN6TDBqbmh5VDZIcnJlcTI1MU03X0NU?oc=5": {
-   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUmtOT1pFR1J2eFhfMWhLcU5vcHVNclBPS2VIMWgwMklKeXhrNF8xVWtqM201d2pCdEhTUUZqcDRmNnpBLTFmNkhoMnU4ZnVObVJOb3ZyMDFxYkpraVY5QnhTTlNFYjZmSnBzTVU1ZUVfcEx3TjliS1hSR2hNRmtSX0htc1h5RHZyYzlJUDZUWWVwbWFONGd1QUJTdW1LdW9nMGNFb1dBYXpJc3pMMGpuaHlUNkhycmVxMjUxTTdfQ1TSAcABQVVfeXFMT1JrTk9aRUdSdnhYXzFoS3FOb3B1TXJQT0tlSDFoMDJJSnl4azRfMVVrajNtNXdqQnRIU1FGanA0ZjZ6QS0xZjZIaDJ1OGZ1Tm1STm92cjAxcWJKa2lWOUJ4U05TRWI2Zkpwc01VNWVFX3BMd045YktYUkdoTUZrUl9IbXNYeUR2cmM5SVA2VFllcG1hTjRndUFCU3VtS3VvZzBjRW9XQWF6SXN6TDBqbmh5VDZIcnJlcTI1MU03X0NU?oc=5",
+  "https://www.ellitoral.com.ar/sociedad/2026-11-25-18-26-0-yacyreta-abrio-nuevamente-las-18-compuertas-del-vertedero-principal": {
+   "url": "https://www.ellitoral.com.ar/sociedad/2026-11-25-18-26-0-yacyreta-abrio-nuevamente-las-18-compuertas-del-vertedero-principal",
    "estado": 200,
-   "caracteres": 15,
-   "archivo": "data/fuentes/web/news_google_com_rss_articles_CBMiwAFBVV95cUxPUmtOT1pFR1J2eFhfMWhLcU5vcHVNclBPS2VIMWgwMklKe.txt"
+   "caracteres": 3908,
+   "archivo": "data/fuentes/web/ellitoral_com_ar_sociedad_2026_11_25_18_26_0_yacyreta_abrio_nuevamente_las_18_compuertas_d.txt"
   },
-  "https://news.google.com/rss/articles/CBMie0FVX3lxTFA0b0Rma00yN3pHeDlFTVA3ZWxyaU9UWEdnamdUZnQ0S1NGeUZLTGxGNHpteG5CR0RTN2hYWlBnUnRfdkRYOFlGT3kzUXNEeUs4RXQxZlJrV2tTNTdMeVl4RnRBZ0tGU0dYR201STM3NFFkSV9iNHV2VmVIWQ?oc=5": {
-   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA0b0Rma00yN3pHeDlFTVA3ZWxyaU9UWEdnamdUZnQ0S1NGeUZLTGxGNHpteG5CR0RTN2hYWlBnUnRfdkRYOFlGT3kzUXNEeUs4RXQxZlJrV2tTNTdMeVl4RnRBZ0tGU0dYR201STM3NFFkSV9iNHV2VmVIWQ?oc=5",
+  "https://www.eby.gov.py/alerta-hidrologico-n07-noviembre/": {
+   "url": "https://www.eby.gov.py/alerta-hidrologico-n07-noviembre/",
    "estado": 200,
-   "caracteres": 15,
-   "archivo": "data/fuentes/web/news_google_com_rss_articles_CBMie0FVX3lxTFA0b0Rma00yN3pHeDlFTVA3ZWxyaU9UWEdnamdUZnQ0S1NGe.txt"
+   "caracteres": 6420,
+   "archivo": "data/fuentes/web/eby_gov_py_alerta_hidrologico_n07_noviembre.txt"
   },
-  "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQUFJ2WEQ2Vk5QMk5pZlpHa1dDNnRLZnJ4RUNTY1ZoNlZ2cjZnYWVRalFIZHhnTjdGTVJrUFdXUS1WTEJQLV93NUw2TVhTWVRpRllJVzlvVVJUei0wZnYtaUZqclJoSjh3U2lCeldacEtVbWd3UER2TUQ1S2lXeWtEM1JtMTdZYXkwd0ZyWTZJTjlQN2lvQ1dBdmFzQkdrWXJFSTRMa1ZFcElRS3N1cHptY1RhczhnamdBOHJNck92MVcycjZYTU5yQkppX3oxNWhs?oc=5": {
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQUFJ2WEQ2Vk5QMk5pZlpHa1dDNnRLZnJ4RUNTY1ZoNlZ2cjZnYWVRalFIZHhnTjdGTVJrUFdXUS1WTEJQLV93NUw2TVhTWVRpRllJVzlvVVJUei0wZnYtaUZqclJoSjh3U2lCeldacEtVbWd3UER2TUQ1S2lXeWtEM1JtMTdZYXkwd0ZyWTZJTjlQN2lvQ1dBdmFzQkdrWXJFSTRMa1ZFcElRS3N1cHptY1RhczhnamdBOHJNck92MVcycjZYTU5yQkppX3oxNWhs?oc=5",
+  "https://examedia.com.ar/portada/post/88307200": {
+   "url": "https://examedia.com.ar/portada/post/88307200",
    "estado": 200,
-   "caracteres": 15,
-   "archivo": "data/fuentes/web/news_google_com_rss_articles_CBMi0AFBVV95cUxQUFJ2WEQ2Vk5QMk5pZlpHa1dDNnRLZnJ4RUNTY1ZoNlZ2c.txt"
+   "caracteres": 4093,
+   "archivo": "data/fuentes/web/examedia_com_ar_portada_post_88307200.txt"
   },
-  "https://news.google.com/rss/articles/CBMitgFBVV95cUxPS0ZNU0JEY3BIUThXRWhNMVIxUGtrd3FzUzdrSkYzYVBuS2pqX2pNYUNNRWU2RkwyVGxJMWdRTkt1SUNBdlJVZU1IUDZ1TFNwVm9jYWV5ZnNDekgwZHhtZHE3YXdrUVlENkJ5bUF0QXQzcDFxNG5iTGNvWnhna1pkcVl5NmVhSTV4MkZ6WVJfWThFMThpdF9JZkpMLUxYUmYyZmJDZFZoLXBMbUZHeGNWdE5OWEgtZw?oc=5": {
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPS0ZNU0JEY3BIUThXRWhNMVIxUGtrd3FzUzdrSkYzYVBuS2pqX2pNYUNNRWU2RkwyVGxJMWdRTkt1SUNBdlJVZU1IUDZ1TFNwVm9jYWV5ZnNDekgwZHhtZHE3YXdrUVlENkJ5bUF0QXQzcDFxNG5iTGNvWnhna1pkcVl5NmVhSTV4MkZ6WVJfWThFMThpdF9JZkpMLUxYUmYyZmJDZFZoLXBMbUZHeGNWdE5OWEgtZw?oc=5",
+  "https://www.apfdigital.com.ar/noticias/2026/11/26/480696-yacyreta-volvio-a-abrir-compuertas-y-emitio-una-alerta-hidrologica-por-la-crecida-del-parana": {
+   "url": "https://www.apfdigital.com.ar/noticias/2026/11/26/480696-yacyreta-volvio-a-abrir-compuertas-y-emitio-una-alerta-hidrologica-por-la-crecida-del-parana",
    "estado": 200,
-   "caracteres": 15,
-   "archivo": "data/fuentes/web/news_google_com_rss_articles_CBMitgFBVV95cUxPS0ZNU0JEY3BIUThXRWhNMVIxUGtrd3FzUzdrSkYzYVBuS.txt"
+   "caracteres": 6090,
+   "archivo": "data/fuentes/web/apfdigital_com_ar_noticias_2026_11_26_480696_yacyreta_volvio_a_abrir_compuertas_y_emitio_u.txt"
   },
-  "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOUlVsZ2dXMDJNcTM1blktRnRjNzRUQmkydFRxVXpIdWhXNjNtR1RNZl9VMmZqVTRCSDE4R1FuQkhHR2FuYzBWSktJUW5KVmg3TU5yR1o0OVJ3NUlYdV9BcGxBTjM4VnVUMzJ3REp2TVp3UVY0M2p6YUV6T09KYlh2TC1EUlhacXF5d2NQYnE4ZVVQZzVYVHRXcHpnTVNwNUFfbkI0bkF6dm9WUQ?oc=5": {
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOUlVsZ2dXMDJNcTM1blktRnRjNzRUQmkydFRxVXpIdWhXNjNtR1RNZl9VMmZqVTRCSDE4R1FuQkhHR2FuYzBWSktJUW5KVmg3TU5yR1o0OVJ3NUlYdV9BcGxBTjM4VnVUMzJ3REp2TVp3UVY0M2p6YUV6T09KYlh2TC1EUlhacXF5d2NQYnE4ZVVQZzVYVHRXcHpnTVNwNUFfbkI0bkF6dm9WUQ?oc=5",
-   "estado": 200,
-   "caracteres": 15,
-   "archivo": "data/fuentes/web/news_google_com_rss_articles_CBMiqgFBVV95cUxOUlVsZ2dXMDJNcTM1blktRnRjNzRUQmkydFRxVXpIdWhXN.txt"
-  },
-  "https://www.elonce.com/uid-890682": {
-   "url": "https://www.elonce.com/uid-890682",
-   "estado": 200,
-   "caracteres": 8263,
-   "archivo": "data/fuentes/web/elonce_com_uid_890682.txt"
-  },
-  "https://www.elonce.com/uid-889762": {
-   "url": "https://www.elonce.com/uid-889762",
-   "estado": 200,
-   "caracteres": 7815,
-   "archivo": "data/fuentes/web/elonce_com_uid_889762.txt"
-  },
-  "https://www.elonce.com/uid-889636": {
-   "url": "https://www.elonce.com/uid-889636",
-   "estado": 200,
-   "caracteres": 7357,
-   "archivo": "data/fuentes/web/elonce_com_uid_889636.txt"
+  "https://www.diarioepoca.com/1395909-corrientes-siguen-1300-desplazados-y-esperan-un-repunte-del-rio-parana": {
+   "url": "https://www.diarioepoca.com/1395909-corrientes-siguen-1300-desplazados-y-esperan-un-repunte-del-rio-parana",
+   "estado": "error",
+   "detalle": "HTTP Error 404: NOT FOUND"
   }
  },
  "portales": {
@@ -212,5 +193,5 @@
    "archivo": "data/fuentes/portales/eby_noticias.txt"
   }
  },
- "pedidas_consultado": "26/11/2026, 08:58 h"
+ "pedidas_consultado": "26/11/2026, 08:59 h"
 }
