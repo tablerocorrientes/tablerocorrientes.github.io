@@ -1,10 +1,9 @@
 {
- "actualizado": "25/11/2026, 20:39 h",
+ "actualizado": "25/11/2026, 21:01 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
-  "24/11 21 h",
-  "22 h",
+  "24/11 22 h",
   "23 h",
   "25/11 00 h",
   "01 h",
@@ -27,11 +26,12 @@
   "18 h",
   "19 h",
   "20 h",
-  "21 h (en curso)"
+  "21 h",
+  "22 h (en curso)"
  ],
  "fuente": "Sistema Nacional de Información Hídrica (SNIH), Secretaría de Infraestructura y Política Hídrica; estaciones de la Red Hidrológica Nacional y redes asociadas (ICAA, INTA, Red Iberá). Datos crudos del sensor, sin validar.",
  "enlace": "https://snih.hidricosargentina.gob.ar/Filtros.aspx",
- "nota": "Ventana de 24 horas completas, de 21 h del 24/11 a 20 h del 25/11 (hora de Argentina), más la hora en curso como última columna, con los datos recibidos hasta el momento. El total suma solo las 24 horas completas. Las horas sin transmisión figuran como null, no como cero.",
+ "nota": "Ventana de 24 horas completas, de 22 h del 24/11 a 21 h del 25/11 (hora de Argentina), más la hora en curso como última columna, con los datos recibidos hasta el momento. El total suma solo las 24 horas completas. Las horas sin transmisión figuran como null, no como cero.",
  "estaciones": [
   {
    "localidad": "Corrientes Capital",
@@ -61,7 +61,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -88,7 +88,6 @@
     0,
     0,
     0,
-    0,
     0.25,
     0,
     0,
@@ -96,6 +95,7 @@
     0,
     0,
     0,
+    null,
     null
    ],
    "total": 0.25,
@@ -108,7 +108,6 @@
    "valores": [
     null,
     null,
-    null,
     0.25,
     null,
     null,
@@ -126,6 +125,7 @@
     null,
     null,
     0.25,
+    null,
     null,
     null,
     null,
@@ -140,7 +140,6 @@
    "estacion": "Carlos Pellegrini",
    "codigo": 13826,
    "valores": [
-    null,
     null,
     null,
     0.5,
@@ -160,6 +159,7 @@
     null,
     null,
     0,
+    null,
     null,
     null,
     null,
@@ -197,7 +197,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -231,7 +231,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -265,7 +265,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -673,7 +673,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -686,7 +686,6 @@
    "valores": [
     null,
     null,
-    null,
     0,
     null,
     null,
@@ -707,11 +706,12 @@
     null,
     null,
     null,
+    0,
     null,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 16 h"
+   "ultimo": "0 mm a las 20 h"
   },
   {
    "localidad": "Los Laureles",
@@ -775,7 +775,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -856,7 +856,6 @@
    "valores": [
     null,
     null,
-    null,
     0,
     null,
     null,
@@ -874,6 +873,7 @@
     null,
     null,
     0,
+    null,
     null,
     null,
     null,
@@ -1060,7 +1060,6 @@
    "valores": [
     null,
     null,
-    null,
     0,
     null,
     null,
@@ -1078,6 +1077,7 @@
     null,
     null,
     0,
+    null,
     null,
     null,
     null,
@@ -1115,7 +1115,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -1149,7 +1149,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -1183,7 +1183,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -1217,7 +1217,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -1251,7 +1251,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -1285,7 +1285,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -1319,7 +1319,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -1353,7 +1353,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -1434,7 +1434,6 @@
    "valores": [
     null,
     null,
-    null,
     0.25,
     null,
     null,
@@ -1455,11 +1454,12 @@
     null,
     null,
     null,
+    0,
     null,
     null
    ],
    "total": 0.25,
-   "ultimo": "0 mm a las 16 h"
+   "ultimo": "0 mm a las 20 h"
   },
   {
    "localidad": "Santa Rosa",
@@ -1557,7 +1557,7 @@
     0,
     0,
     0,
-    0,
+    null,
     null
    ],
    "total": 0,
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "25/11/2026, 20:39 h",
+ "consultado": "25/11/2026, 21:01 h",
  "consulta_resultado": "datos nuevos"
 }
