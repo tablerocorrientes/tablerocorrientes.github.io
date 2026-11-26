@@ -660,6 +660,14 @@
  "prensa": [
   {
    "fecha": "25/11/2026",
+   "medio": "El Territorio",
+   "titulo": "Yacyretá advierte sobre un nuevo repunte en la altura del rio Paraná",
+   "enlace": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNVERXZE5aV1ZYdFA3ckVkNmd4c1JENkE3cnJkOGlJYWIwZ1RJRFBCSmZ3V3FwS2ZwTlExNlZNTFowUFRxZU9MT2xyX0R4Y3RSbDdwMEVBV2x4dzZQR2haLWFRSkhSRDVmVVFYcVR4OE9MaU9UdkJ0TkE1Mm81ZVREWThSelliXzUtMTdoeXNMQjJmazh4T0JvQm9LRHYySU9ZR2JfVnhVZHVmMmQtelhOcEJqV3lMQ3lvN19tYV9hbERobDlOaGfSAcsBQVVfeXFMT19TLWhFY1JSNWN2bnhGSjVNdkJfQ1EzcVk5ZVhNLUJNZ0p1TFlMZmh6N01ZUzhSdTFETWltUlJKSFNMYVNVeGpERnJuNy1LYXdQdjhLWkhEblZUZUp2cmQ1Yk9PclJZWDZSSEktR3dPb3hnZFNvajF1T0ZsLUJveEdlS0NkOGVLejhjRmhBTk5CYlZEZU5XQXhrelZ6MXBHdkVTTHRhZHA3VGtiN3RKZ0FTQXhDUE5aTnVubWVfSXRUOFhKQUtvY3U0UW8?oc=5",
+   "breve": "Yacyretá advierte sobre un nuevo repunte en la altura del rio Paraná",
+   "auto": true
+  },
+  {
+   "fecha": "25/11/2026",
    "medio": "www.actualidadparana.com.ar",
    "titulo": "Anticipan lluvias y altas temperaturas para el fin de semana en Corrientes",
    "enlace": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBfS2xRSHpQUjk3SUs4WUhJVTFUSmwweXotb3k2V1NRR0xXWl9GRVhGU3J4X3k1OTBQbWRjY2s0Ul9JbW5hUlBhVWJGYzNEOUhNWmZzMWNDeFlETDg?oc=5",
@@ -1128,13 +1136,6 @@
    "titulo": "Inundaciones en Corrientes: Karina Milei visitó el Comando Operativo de Emergencias provincial junto a Juan Pablo Valdés",
    "resumen": "Según el relevamiento de la AFE presentado en el COE, hay 2.005 personas afectadas en Corrientes (468 evacuadas y 1.537 autoevacuadas): Capital 687, Itatí 518, Paso de la Patria 228 e isla Apipé 211. El Paraná marcó 6,87 m en la Capital, sobre la alerta y bajo la evacuación. No informa barrios anegados nuevos.",
    "enlace": "https://www.infobae.com/politica/2026/11/12/inundaciones-en-corrientes-karina-milei-visito-el-comando-operativo-de-emergencias-provincial-junto-a-juan-pablo-valdes/"
-  },
-  {
-   "medio": "Diario El Libertador",
-   "fecha": "12/11/2026",
-   "titulo": "La Costanera libreña permanece cerrada y el río Uruguay superó los 7,80 metros",
-   "resumen": "Prefectura informó 7,89 m en Paso de los Libres al mediodía del jueves, en fase creciente (alerta 7,50 m, evacuación 8,50 m). Siguen cerrados los accesos a la costanera en Coronel López, Amado Bonpland y Plácido Martínez; en Santo Tomé el paseo costero Papa Francisco está cerrado por limpieza. No informa evacuados.",
-   "enlace": "https://www.diarioellibertador.com.ar/crecida-rio-uruguay-alerta-cierre-costanera-paso-de-los-libres/"
   }
  ],
  "puertos_uruguay": [
@@ -1452,7 +1453,7 @@
  "tapon_breve": "Sin alerta del SMN para la Capital en las próximas 48 horas. Con el río en 5,66 m, el riesgo de anegamiento depende de la intensidad de la lluvia.",
  "consultado": "25/11/2026, 22:12 h",
  "consulta_resultado": "datos nuevos",
- "prensa_actualizada": "25/11/2026, 21:50 h",
+ "prensa_actualizada": "26/11/2026, 00:19 h",
  "ina_parana_breve": "El INA prevé un río casi estable en Corrientes, con posible suba lenta después.",
  "ina_uruguay_breve": "El INA prevé que Santo Tomé se acerque a la alerta entre el 25/11 y el 30/11, y Paso de los Libres la supere desde el 28/11."
 }

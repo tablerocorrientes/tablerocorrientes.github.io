@@ -1,6 +1,6 @@
 {
- "consultado": "25/11/2026, 23:17 h",
- "consultado_iso": "2026-11-25T23:17-03:00",
+ "consultado": "26/11/2026, 00:18 h",
+ "consultado_iso": "2026-11-26T00:18-03:00",
  "paginas": {
   "smn_alertas": {
    "url": "https://www.smn.gob.ar/alertas",
@@ -50,7 +50,7 @@
   "lanacion_clima_corrientes": {
    "url": "https://www.lanacion.com.ar/clima/corrientes/",
    "estado": 200,
-   "caracteres": 8332,
+   "caracteres": 8346,
    "archivo": "data/fuentes/lanacion_clima_corrientes.txt"
   },
   "noaa_enso": {
@@ -76,19 +76,19 @@
    "archivo": "data/fuentes/smn_datos_tiempo_presente.txt"
   },
   "smn_datos_horarios_ayer": {
-   "url": "https://ssl.smn.gob.ar/dpd/descarga_opendata.php?file=observaciones/datohorario20261124.txt",
+   "url": "https://ssl.smn.gob.ar/dpd/descarga_opendata.php?file=observaciones/datohorario20261125.txt",
    "estado": 200,
-   "caracteres": 10301,
+   "caracteres": 58,
    "archivo": "data/fuentes/smn_datos_horarios_ayer.txt"
   },
   "smn_pronostico_5_dias": {
-   "url": "https://ssl.smn.gob.ar/dpd/descarga_opendata.php?file=pron5d/pron20261125.txt",
+   "url": "https://ssl.smn.gob.ar/dpd/descarga_opendata.php?file=pron5d/pron20261126.txt",
    "estado": 200,
-   "caracteres": 17711,
+   "caracteres": 44,
    "archivo": "data/fuentes/smn_pronostico_5_dias.txt"
   },
   "smn_pronostico_5_dias_ayer": {
-   "url": "https://ssl.smn.gob.ar/dpd/descarga_opendata.php?file=pron5d/pron20261124.txt",
+   "url": "https://ssl.smn.gob.ar/dpd/descarga_opendata.php?file=pron5d/pron20261125.txt",
    "estado": 200,
    "caracteres": 17711,
    "archivo": "data/fuentes/smn_pronostico_5_dias_ayer.txt"
@@ -128,6 +128,38 @@
    "estado": 200,
    "caracteres": 2152,
    "archivo": "data/fuentes/coe_a_2026_0164_CP.txt"
+  }
+ },
+ "portales": {
+  "munired_municipio_corrientes": {
+   "url": "https://munired.mcypcorrientes.gob.ar/noticias/corrientes",
+   "estado": 200,
+   "notas": 8,
+   "archivo": "data/fuentes/portales/munired_municipio_corrientes.txt"
+  },
+  "munired_municipio_corrientes_p2": {
+   "url": "https://munired.mcypcorrientes.gob.ar/noticias/corrientes?page=2",
+   "estado": 200,
+   "notas": 8,
+   "archivo": "data/fuentes/portales/munired_municipio_corrientes_p2.txt"
+  },
+  "diputados_corrientes": {
+   "url": "https://hcdcorrientes.gov.ar/",
+   "estado": 200,
+   "notas": 10,
+   "archivo": "data/fuentes/portales/diputados_corrientes.txt"
+  },
+  "senado_corrientes": {
+   "url": "https://www.senadoctes.gov.ar/",
+   "estado": 200,
+   "notas": 6,
+   "archivo": "data/fuentes/portales/senado_corrientes.txt"
+  },
+  "eby_noticias": {
+   "url": "https://www.eby.gov.py/",
+   "estado": 200,
+   "notas": 6,
+   "archivo": "data/fuentes/portales/eby_noticias.txt"
   }
  },
  "pedidas": {
@@ -178,38 +210,6 @@
    "estado": 200,
    "caracteres": 8067,
    "archivo": "data/fuentes/web/bom_gov_au_climate_ahead_outlooks_archive_20261022_outlook_shtml.txt"
-  }
- },
- "portales": {
-  "munired_municipio_corrientes": {
-   "url": "https://munired.mcypcorrientes.gob.ar/noticias/corrientes",
-   "estado": 200,
-   "notas": 8,
-   "archivo": "data/fuentes/portales/munired_municipio_corrientes.txt"
-  },
-  "munired_municipio_corrientes_p2": {
-   "url": "https://munired.mcypcorrientes.gob.ar/noticias/corrientes?page=2",
-   "estado": 200,
-   "notas": 8,
-   "archivo": "data/fuentes/portales/munired_municipio_corrientes_p2.txt"
-  },
-  "diputados_corrientes": {
-   "url": "https://hcdcorrientes.gov.ar/",
-   "estado": 200,
-   "notas": 10,
-   "archivo": "data/fuentes/portales/diputados_corrientes.txt"
-  },
-  "senado_corrientes": {
-   "url": "https://www.senadoctes.gov.ar/",
-   "estado": 200,
-   "notas": 6,
-   "archivo": "data/fuentes/portales/senado_corrientes.txt"
-  },
-  "eby_noticias": {
-   "url": "https://www.eby.gov.py/",
-   "estado": 200,
-   "notas": 6,
-   "archivo": "data/fuentes/portales/eby_noticias.txt"
   }
  },
  "pedidas_consultado": "25/11/2026, 23:17 h"
