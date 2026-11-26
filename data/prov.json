@@ -11,7 +11,7 @@
   "fecha": "13/11/2026, 18:35 h"
  },
  "met_revision": "aae6c54b1ab7086a927cf2e4bb8e34a53a584e781ba42ff90ab9d653046ddc38",
- "actualizado": "26/11/2026, 04:04 h",
+ "actualizado": "26/11/2026, 07:15 h",
  "localidades": [
   {
    "n": "Corrientes Capital",
@@ -158,10 +158,10 @@
    "dep": "Goya",
    "ref": "Goya",
    "rio": "Paraná",
-   "altura": 5.39,
+   "altura": 5.38,
    "alerta": 5.2,
    "evac": 5.7,
-   "reg": "26/11/2026, 00:00 h (Prefectura Naval Argentina, vía rioparana.com.ar)"
+   "reg": "26/11/2026, 06:00 h (Prefectura Naval Argentina, vía rioparana.com.ar)"
   },
   {
    "n": "Colonia Carolina",
