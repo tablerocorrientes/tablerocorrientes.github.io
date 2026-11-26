@@ -1,5 +1,5 @@
 {
- "actualizado": "26/11/2026, 09:10 h",
+ "actualizado": "26/11/2026, 10:20 h",
  "aviso": "Inferencias propias del tablero, elaboradas con procesamiento lógico a partir de sus registros y de fuentes oficiales. No son avisos oficiales: ante una emergencia, siga las indicaciones de Defensa Civil y del SMN.",
  "vigentes": [
   {
@@ -34,8 +34,9 @@
    "id": "rio-uruguay-pico",
    "tema": "🌊 Río Uruguay",
    "titulo": "El Uruguay subiría: el INA prevé alerta en Santo Tomé y en Paso de los Libres",
-   "texto": "Santo Tomé marca 8,05 m y el INA (25/11) prevé que se acerque o supere levemente la alerta (11,50 m) entre el 26/11 y el 30/11. En Paso de los Libres, hoy en 5,04 m, el INA prevé que supere la alerta (7,50 m) desde el 30/11 y que pueda llegar a la evacuación (8,50 m) entre el 1/12 y el 4/12.",
+   "texto": "Santo Tomé marca 8,50 m (25/11, 07:00 h) y sube con fuerza: +1,92 m respecto de la lectura anterior. Garruchos está en 9,15 m (+2,45 m). El INA (25/11) prevé que Santo Tomé se acerque o supere levemente la alerta (11,50 m) entre el 26/11 y el 30/11, y que Paso de los Libres, hoy en 5,16 m, supere la alerta (7,50 m) desde el 30/11 y pueda llegar a la evacuación (8,50 m) entre el 1/12 y el 4/12.",
    "base": [
+    "Prefectura Naval Argentina y CTM Salto Grande, lecturas del 25/11/2026",
     "INA, reporte diario del 25/11/2026"
    ],
    "confianza": "media",
@@ -89,6 +90,21 @@
   }
  ],
  "historial": [
+  {
+   "fecha": "2026-11-26",
+   "id": "rio-uruguay-pico",
+   "tema": "🌊 Río Uruguay",
+   "titulo": "El Uruguay subiría: el INA prevé alerta en Santo Tomé y en Paso de los Libres",
+   "texto": "Santo Tomé marca 8,50 m (25/11, 07:00 h) y sube con fuerza: +1,92 m respecto de la lectura anterior. Garruchos está en 9,15 m (+2,45 m). El INA (25/11) prevé que Santo Tomé se acerque o supere levemente la alerta (11,50 m) entre el 26/11 y el 30/11, y que Paso de los Libres, hoy en 5,16 m, supere la alerta (7,50 m) desde el 30/11 y pueda llegar a la evacuación (8,50 m) entre el 1/12 y el 4/12.",
+   "base": [
+    "Prefectura Naval Argentina y CTM Salto Grande, lecturas del 25/11/2026",
+    "INA, reporte diario del 25/11/2026"
+   ],
+   "confianza": "media",
+   "horizonte": "próximas semanas",
+   "ambito": "global",
+   "localidad": "Paso de los Libres"
+  },
   {
    "fecha": "2026-11-26",
    "id": "lluvia-sin-alertas",
