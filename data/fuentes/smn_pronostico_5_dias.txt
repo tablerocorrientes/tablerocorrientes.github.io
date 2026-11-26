@@ -1,4 +1,7 @@
 Fuente: https://ssl.smn.gob.ar/dpd/descarga_opendata.php?file=pron5d/pron20261126.txt
-Consultado: 26/11/2026, 02:27 h
+Consultado: 26/11/2026, 04:03 h
 
-pron5d/pron20261126.txtEl archivo no existe.
+************************************************************************************************
+Producto basado en un modelo de pronóstico numérico del tiempo, 
+por lo tanto puede diferir del pronostico emitido por el SMN
+************************************************************************************************
