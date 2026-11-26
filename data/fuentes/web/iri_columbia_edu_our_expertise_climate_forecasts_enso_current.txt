@@ -1,0 +1,230 @@
+Fuente: https://iri.columbia.edu/our-expertise/climate/forecasts/enso/current/
+Consultado: 25/11/2026, 23:17 h
+
+IRI – International Research Institute for Climate and Society | October 2026 Quick Look
+Subscribe
+-->
+Menu
+About Us
+What was IRI?
+Our Partners
+Privacy Policy
+Fact Sheets & Reports
+Our Projects
+Adapting Agriculture to Climate Today, for Tomorrow
+Our Expertise
+Climate
+Agriculture
+Financial Instruments
+Public Health
+Earth Observation Applications
+Disasters
+Water
+Ecosystems
+Resources
+Climate and Forecast Products
+Data Library
+ENACTS
+ENSO Resources
+Maprooms
+Academies & Trainings
+K-12 Materials
+Publications
+Tools
+Contact
+Directory
+Subscribe to Mailing Lists
+Home
+our-expertise
+climate
+forecasts
+enso
+current
+ENSO Forecast Navigation
+ENSO QuickLook
+Technical ENSO Update [October 19, 2026]
+ENSO Predictions Plume [October 19, 2026]
+Plume-Based Forecast Probability Distribution [October 19, 2026]
+IOD Forecast [October 19, 2026]
+NOAA CPC Diagnostic Discussion
+Contact Us
+ENSO Forecasts
+Select the desired ENSO Forecast:
+2002
+2003
+2004
+2005
+2006
+2007
+2008
+2009
+2010
+2011
+2012
+2013
+2014
+2015
+2016
+2017
+2018
+2019
+2020
+2021
+2022
+2023
+2024
+2025
+2026
+none
+ENSO Forecast
+New ENSO Forecasts are posted at our New Forecast Website .
+Please bookmark the new site at https://forecast.ccsr.columbia.edu/forecasts/enso/forecast .
+October 2026 Quick Look
+Published: October 19, 2026
+A monthly summary of the status of El Niño, La Niña, and the Southern Oscillation, or ENSO ,
+based on the NINO3.4 index (120-170W, 5S-5N)
+The 2026 El Niño event continues to intensify across the central and eastern equatorial Pacific. The traditional Niño 3.4 index shows a pronounced and sustained rise, with the seasonal mean reaching +2.46°C during July–September 2026 and the September monthly value increasing further to +2.84°C. The latest weekly Niño 3.4 index, centered on October 14, 2026, climbed to +3.3°C, providing further evidence that El Niño is already very strong and continuing to strengthen. Weekly sea surface temperature anomalies across the central-eastern equatorial Pacific have remained above +3.0°C for a fifth consecutive week, underscoring the exceptional intensity and persistence of the event.
+Figures 1 ((the official CPC ENSO probability forecast) and 3 (the objective model-based CCSR/IRI ENSO
+probability forecast) are often quite similar. However, occasionally they may differ noticeably.
+There can be several possible reasons for differences. One is the human forecasters, using their
+experience and judgment, may disagree to some degree with the models, which may have known biases.
+Another reason is the models are not run at the same time that the forecasters make their assessment,
+so that the starting ENSO conditions may be slightly different between the two times. The charts
+on this Quick Look page are updated at two different times of the month, typically about a week apart,
+with the CCSR/IRI forecast run later. Also note that the CPC forecast starts on the previous season
+while the CCSR/IRI forecast starts on the current season.
+Click on the for more information on each figure.
+Figure 1.
+Figure 3.
+Figure 2
+Figure 4.
+Historically Speaking
+El Niño and La Niña events tend to develop during the period Apr-Jun and they
+Tend to reach their maximum strength during October - February
+Typically persist for 9-12 months, though occasionally persisting for up to 2 years
+Typically recur every 2 to 7 years
+CCSR/IRI ENSO Forecast
+CCSR/IRI Technical ENSO Update and Model-Based Probabilistic ENSO Forecast
+Published: October 19, 2026
+ENSO Current State: Ocean–Atmosphere Overview
+The 2026 El Niño event continues to intensify across the central and eastern equatorial Pacific. The traditional Niño 3.4 index shows a pronounced and sustained rise, with the seasonal mean reaching +2.46°C during July–September 2026 and the September monthly value increasing further to +2.84°C. The latest weekly Niño 3.4 index, centered on October 14, 2026, climbed to +3.3°C, providing further evidence that El Niño is already very strong and continuing to strengthen. Weekly sea surface temperature anomalies across the central-eastern equatorial Pacific have remained above +3.0°C for a fifth consecutive week, underscoring the exceptional intensity and persistence of the event.
+Oceanic and atmospheric indicators are increasingly aligned, providing compelling evidence that the ongoing El Niño event will continue to intensify. On the atmospheric side, the Southern Oscillation Index (SOI) reached −21.4 in September 2026, while the latest 30-day SOI value, through October 17, remained strongly negative at −18.6. These persistently negative SOI values indicate a pronounced weakening of the Walker circulation, consistent with ongoing El Niño. In addition, the Equatorial SOI reached −2.3 in September 2026, further indicating that the atmosphere is responding to the warming Pacific Ocean. The spatial pattern of convection and winds further reinforces this atmospheric response. Enhanced convection and precipitation extended across the equatorial Pacific from the Date Line to the eastern Pacific, while suppressed convection persisted over the southern Philippines, Indonesia, and Papua New Guinea. Consistent with the exceptionally strong El Niño, low-level (850-hPa) westerly wind anomalies extended from the western to the east-central equatorial Pacific, while upper-level (200-hPa) easterly anomalies prevailed across the same region, with westerly anomalies over the far eastern equatorial Pacific. Together, these signals provide strong evidence that ocean–atmosphere coupling associated with El Niño is firmly established.
+The subsurface ocean remains exceptionally warm, reinforcing evidence of the major El Niño’s persistence and strength. A vast reservoir of unusually warm water continues to extend across the central and eastern equatorial Pacific, with temperatures at 50–150 m depth between 150°W and 80°W exceeding climatological values by more than 8°C. The exceptional subsurface warming is now becoming evident at the surface in the far eastern Pacific. The Niño 1+2 index has exceeded +5.0°C for three consecutive weeks, signaling the emergence of exceptionally strong coastal El Niño conditions along the South American coast. With substantial subsurface heat still in place, this vast reservoir of ocean heat could fuel further surface warming and intensify El Niño, provided favorable ocean–atmosphere coupling persists. In tandem, subsurface cooling is evident at approximately 100–250 m in parts of the western Pacific, from around 140°E toward the Date Line, although the anomalies there are considerably weaker. The stark contrast between the exceptionally warm central–eastern Pacific and the weaker or negative oceanic anomalies farther west provides strong evidence of a major redistribution of subsurface ocean heat associated with the ongoing El Niño. The magnitude and spatial extent of this warming raise the potential for further increases in surface temperature anomalies through the boreal fall and winter. If this evolution continues, the 2026 El Niño could rank among the strongest events in the historical ENSO record.
+ENSO Strength
+Forecasts of ENSO strength are estimated through a consensus-based model counting approach using a set of Niño 3.4 sea surface temperature anomaly thresholds, to indicate weak, moderate, strong and very strong El Nino and La Nina categories.
+The mid-October 2026 intensity assessment provides a striking indication of the exceptional strength of the ongoing El Niño event. The model ensemble points to an exceptionally strong 2026-27 El Niño, with all 27 models forecasting a “very strong” El Niño (Niño 3.4 ≥ +2.0 °C) from OND 2026 through DJF 2026–27. Our current intensity classification is capped at +2.0°C, yet a majority of models (about 10 models) in the plume—including both dynamical and statistical models—forecasts Niño3.4 values that could reach or exceed +3.5°C, well beyond our highest defined category. This is more than a high-probability El Niño: the ensemble shows an unusually strong and consistent signal for an event of exceptional intensity. Although the forecast shifts toward weaker categories in early 2027, strong-to-moderate El Niño conditions remain through MJJ 2027, underscoring the unusual magnitude and persistence of the 2026 event. Taken together, the mid-October objective ENSO outlook points to an exceptionally strong El Niño that will remain firmly established through the end of 2026 and persist into late spring 2027.
+Notes:
+The SST anomalies cited below are based on the NOAA Optimum Interpolation Sea Surface Temperature (OISSTv2)dataset. The climatology period is 1991–2020.
+The primary metric used to monitor the El Niño–Southern Oscillation (ENSO) is the traditional Niño3.4 index (TONI), defined as the area-averaged sea surface temperature anomaly over the Niño3.4 region (5°S–5°N, 170°W–120°W).
+According to the CCSR/IRI definition, El Niño conditions occur when monthly TONI exceeds +0.5 °C, while La Niña conditions occur when monthly TONI falls below −0.5 °C.
+An ENSO “event” is considered established when the TONI threshold (±0.5 °C) persists for at least five consecutive overlapping 3-month seasons (e.g., SON, OND, NDJ, DJF, JFM).
+ENSO Forecast
+CCSR/IRI ENSO Predictions Plume
+Published: October 19, 2026
+Note on interpreting model forecasts
+The following graph and table show forecasts made by dynamical and statistical models for SST in the Nino 3.4 region
+for nine overlapping 3-month periods. Note that the expected skills of the models, based on historical performance, are
+not equal to one another. The skills also generally decrease as the lead time increases. Thirdly, forecasts made at some
+times of the year generally have higher skill than forecasts made at other times of the year--namely, they are better when
+made between June and December than when they are made between February and May. Differences among the forecasts of the
+models reflect both differences in model design, and actual uncertainty in the forecast of the possible future SST scenario.
+List of Models Used
+Discussion of Current Forecasts
+ENSO Prediction Plume: Model-by-Model Outlook (Traditional Nino3.4 index)
+The mid-October 2026 CCSR/IRI ENSO prediction plume has been updated with the latest model forecasts. The outlook shows close agreement among the 27 participating models (16 dynamical and 11 statistical) that El Niño conditions will strengthen further during 2026 and continue into early 2027.
+The models deliver a strong and consistent message: an exceptionally strong El Niño is expected to persist through early 2027. The combined average of dynamical and statistical models (thick blue line) forecasts the Niño 3.4 index to reach approximately +3.5°C in both OND and NDJ 2026. Equally striking is the tight spread around the multimodel average from OND 2026 through MAM 2027, indicating strong model agreement on the event’s continued persistence. Although individual models differ in the magnitude of the peak, the overall signal points to a very strong El Niño lasting well beyond fall 2026 and into spring 2027.
+ENSO Probabilities
+To generate the ENSO probability outlook, forecasts from all 27 participating models (16 dynamical and 11 statistical) are combined into an equally weighted multi-model average of Niño3.4 SST anomalies. A Gaussian error distribution is then applied to the ensemble-mean forecast, with its width determined by the expected forecast skill for the season and lead time. Higher forecast skill results in a narrower distribution and greater confidence, while lower skill produces a broader range of possible outcomes. Probabilities are calculated based on the likelihood of Niño3.4 SST anomalies falling within the standard ENSO thresholds: El Niño (≥ +0.5°C), ENSO-neutral (-0.5°C to +0.5°C), and La Niña (≤ -0.5°C). This methodology translates the multi-model forecast into probabilities for each ENSO category.
+The October 2026 objective ENSO outlook strongly favors El Niño persisting through boreal spring 2027, with a potential continuation into early summer. El Niño probabilities remain at 100% from OND 2026 through MAM 2027, then ease to 92% in AMJ and 60% in MJJ 2027. By JJA 2027, ENSO-neutral becomes the most likely state at 51%, while the El Niño probability drops to 37%, signaling a gradual weakening of the event toward summer.
+Notably, no probability is assigned to either La Niña or ENSO-neutral conditions from SON 2026 through MAM 2027, underscoring the exceptionally strong likelihood of continued El Niño conditions through the remainder of 2026 and into early 2027. The accompanying probability plot summarizes the forecast evolution and the changing likelihood of each ENSO phase throughout the forecast period.
+Summary of forecasts issued over last 22 months
+The following interactive plot shows the model forecasts issued not only from the current month (as in the plot above),
+but also from the 21 months previous to this month. The observations are shown up to the most recently completed
+3-month period. The plots allow comparison of plumes from the previous start times, or examination of the forecast
+behavior of a given model over time.
+Hovering over any single model will highlight that particular model in the chart.
+Clicking a particular model will hide/show that model in the chart.
+At the bottom of the plot, you can select which models to show in the chart:
+all the models, the dynamical models only, or the statistical models only.
+Notes on the data
+Only models producing forecasts on a monthly basis are included. This means that some models whose forecasts appear in the Experimental Long-Lead Forecast Bulletin (produced by COLA) do not appear in the table.
+Once a CCSR/IRI ENSO probability forecast has been published, the results stand even if a model reports an error and changes their data.
+When this happens we will update the plume with the model's correct values even though our forecast hasn't changed.
+What this means is that our forecast is always the same, but the underlying data may be different from what we based our forecast on.
+The SST anomaly forecasts are for the 3-month periods shown, and are for the Nino 3.4 region (120-170W, 5N-5S). Often, the anomalies are provided directly in a graph or a table by the respective forecasting centers for the Nino 3.4 region. In some cases, however, they are given for 1-month periods, for 3-month periods that skip some of the periods in the above table, and/or only for a region (or regions) other than Nino 3.4. In these cases, the following means are used to obtain the needed anomalies for the table:
+Temporal averaging
+Linear temporal interpolation
+Visual averaging of values on a contoured map
+The anomalies shown are those with respect to the base period used to define the normals, which vary among the groups producing model forecasts. They have not been adjusted to anomalies with respect to a common base period. Discrepancies among the climatological SST resulting from differing base periods may be as high as a quarter of a degree C in the worst cases. Forecasters are encouraged to use the standard 1991-2020 period as the base period, or a period not very different from it.
+ENSO Forecast
+Forecast Probability Distribution Based on the CCSR/IRI ENSO Prediction Plume
+Published: October 19, 2026
+The plots on this page show predictions of seasonal (3-month average) sea surface temperature (SST)
+anomaly in the Niño3.4 region in the east-central tropical Pacific (5°N-5°S, 120°-170°W),
+covering the nine overlapping seasons beginning with the current month. The predictions are based on the large (20+)
+set of dynamical and statistical models in the plume of model ENSO predictions.
+Figure 5
+Predictions of ENSO are probabilistic. The ensemble mean prediction is only a best single guess. On either side of that prediction, there is a substantial uncertainty distribution, or error tolerance. The second plot (Figure 2) shows the estimated probability distribution of the predictions, showing a set of percentiles within that distribution for each lead time. The distribution is modeled as a normal (Gaussian) distribution, so that the overall mean forecast represents the center, or 50 percentile, in the distribution. The overall mean is formed using equal weighting among all models. On either side, other percentile values are shown symmetrically, ranging from 1 to 99 and including some intermediate percentiles (5 and 95, 15 and 85, and 25 and 75). The plot enables a user to estimate the probability of the Niño3.4 SST anomaly to be greater or less than some critical value, or within some interval. If, for example, the 85 percentile falls at 1.8° C above average, the probability of the SST exceeding 1.8° C can be estimated at 15%. Probabilities for exceeding or not exceeding values not exactly on percentile line can be roughly interpolated by eye. The overall width of the probability distribution is derived from the historical skill of the hindcasts of the models, from 1982 to present, for the specific forecast start time and lead time. This method of defining the probability distribution represents one of two general approaches, the other approach being a direct counting of ensemble members within each of the percentile bands. This second approach assumes that the ensemble spreads of the models are true representations of the uncertainty. Individual model spreads have often been found to be somwehate narrower than they should be, although in multi-model ensembles this tendency has been shown to be milder or even eliminated.
+Figure 6
+Figure 6, sometimes called a spaghetti diagram, shows synthetically generated prediction scenarios that are equally likely. Here, 100 scenarios are shown; any number can be generated for such a diagram. Each scenario is produced using a random number generator, combined with knowledge of the mean forecast and its uncertainty, as well as the amount of persistence of anomalies. The degree of persistence of anomalies is based on the correlation of prediction errors from one lead time to another. In other words, the individual lines are designed to show the correct amount of persistence as expected in nature, rather than jumping around more randomly from one lead time to the next. The uncertainty and persistence statistics are based on the set of 7 NMME (North American Multimodel Ensemble) models, as it is assumed that these statistics are approximately applicable to all of the models. Sometimes the “spaghetti density” may appear asymmetric about the mean of all the forecasts or outside of the 85 and 15 percentile lines. This is purely sampling variability, and would not occur if many thousands of such lines were plotted. But with that many lines, most of the plot would be too crowded to get a sense of the behavior of the lines near the center of the distribution. The main purpose of the diagram is to serve users who want to assess realistic individual scenarios of ENSO behavior rather than statistical summaries of the forecast like the percentiles shown in the second plot.
+IOD Forecast
+Published: October 19, 2026
+Note: The Dipole Mode Index is calculated based on the ERSSTv5 data. To account for evolving background conditions and long-term warming, SST anomalies were calculated relative to a sliding monthly climatology. For each month in the time series, the climatology was computed as the mean SST for that calendar month over the prior 30 years. The Dipole Mode Index (DMI) is then defined as the difference in sea surface temperature anomalies between the western equatorial Indian Ocean (50°E–70°E, 10°S–10°N) and the southeastern equatorial Indian Ocean (90°E–110°E, 10°S–0°), and is used to quantify the strength and phase of the Indian Ocean Dipole (IOD).
+Current Conditions
+In September 2026, the observed Dipole Mode Index was +0.51 °C, indicating positive IOD conditions across the Indian Ocean. According to the CCSR/IRI’s criteria for defining positive and negative IOD events, a positive IOD phase is defined when the DMI exceeds +0.4 °C, and a negative IOD when it falls below −0.4 °C. The IOD is considered inactive (neutral) when the DMI lies between −0.4 °C and +0.4 °C.
+Model-Based IOD Outlook: Deterministic Forecasts from the multi-model ensemble
+Forecasts from the latest set of operational models in the North American Multi-Model Ensemble (NMME) project and Centro Euro-Mediterraneo sui Cambiamenti Climatici (CMCC) are used to construct deterministic IOD forecasts from each individual model using its ensemble mean DMI to form an IOD forecast plume. The IOD plume plot shows the latest set of predictions (based on October 2026 initialization) from CESM1, CFSv2, CMCC, CanESM5, GEM-NEMO, GFDL-SPEAR and NASA along with their equally weighted multi-model mean (MME).
+Observations indicate that the Indian Ocean Dipole (IOD) remained neutral from June through August 2026 before transitioning to positive conditions in September. The IOD forecast plume suggests that positive conditions will persist through October, with the index potentially peaking in November before gradually weakening in December 2026. Despite this decline, the IOD is expected to remain positive through the end of the year, before returning to neutral conditions during January–April 2027.
+Probabilistic IOD Forecasts from the multi-model ensemble
+Based on October 2026 initialization data, the model-based probabilistic forecast of the Indian Ocean Dipole was generated by CCSR/IRI to assess potential phase developments. Probabilities are computed using an ensemble-member counting method, where all ensemble members from the contributing models combined, are pooled to determine the likelihood of a negative, neutral, or positive IOD phase for the upcoming months. Climatological probabilities for each IOD phase, based on historical data, are shown as dotted lines for reference. In October 2026, positive IOD conditions become strongly dominant, with probabilities approaching 100%. This dominance is expected to persist through November and December, with probabilities of 97% and 74%, respectively. From January through April 2027, IOD-neutral conditions become increasingly favored, with probabilities of 57%, 76%, 78%, and 65%, respectively. Overall, the forecasts strongly favor the persistence of positive IOD conditions from October through December 2026, followed by a transition toward neutral conditions beginning in January 2027.
+Contact Us
+Please contact us for opportunities to collaborate on research using the CCSR/IRI ENSO Forecasts. We
+are always interested in collaborating with researchers and organizations to advance our understanding
+of ENSO and its impacts. Please contact us at products@iri.columbia.edu
+or fill out this form, and we can get back to you regarding your interests:
+Loading…
+References
+Real-time ENSO forecast skill evaluated over the last two decades,
+with focus on the onset of ENSO events. Ehsan, M.A., L’Heureux, M.L., Tippett, M.K., Robertson, A.W, Turmelle, J.P., npj Clim Atmos Sci, 2024.
+The CCSR/IRI ENSO forecast is released on the 19th of each month. If the 19th falls on a weekend or holiday, it is released on the closest business day.
+We are no longer providing forecast data. If you would like to collaborate with us on ENSO research, please fill out this form, and we can get back to you regarding your interests:
+Request to Collaborate with the CCSR/IRI Forecast Team .
+All content from this website is covered under the
+Creative Commons Attribution 4.0 License .
+Please reference:
+ENSO Forecast Data © 2002-2026 by International Research Institute for Climate and Society is licensed under Creative Commons Attribution 4.0 International
+The official CPC ENSO probability forecast, based on a consensus of CPC forecasters.
+It is updated during the first half of the month, in association with the
+Official CPC ENSO Diagnostic Discussion .
+It is based on observational and predictive information from early in the month and from the previous month.
+It uses human judgment in addition to model output, while the forecast shown in Fig. 3 relies solely on model output.
+Figure 1 is updated on this page on the second Thursday of every month.
+NOAA/CPC ENSO Forecast Graphic, courtesy of NOAA/CPC
+×
+A purely objective ENSO probability forecast, based on regression, using as input the model predictions from the plume of dynamical and
+statistical forecasts shown in Fig. 4. Each of the forecasts is weighted equally. It is updated near or just after the middle of the month, using
+forecasts from the plume models that are run in the first half of the month. It does not use any human interpretation or judgment.
+Figure 3 is updated on the third Thursday of every month.
+×
+Plume of forecasts of the Nino3.4 SST anomaly from dynamical and statistical models that are run during the first half of the month. A probability
+forecast is generated using all the models in Fig. 4, and is shown in Fig. 3. The average of the forecasts of the dynamical models is shown by the
+thick yellow line, and of the statistical models by the thick green line. The average of the four models run at the NOAA Climate Prediction center (CPC)
+is shown by the thick pink line. This figure is updated on the third Thursday of every month. Because forecasts from some models of Fig. 4
+are not yet available when the official CPC ENSO probability forecast (Fig. 1) is made, the official forecast uses the previous month's Fig. 4
+as one of its inputs, which is shown in the CPC ENSO Diagnostic Discussion.
+×
+Connect with IRI
+The IRI was initially established as a cooperative agreement between NOAA's Climate Program Office and Columbia University.
+It is part of The Columbia Climate School, Columbia University , and
+is located on the Lamont Campus.
+CONTACT
+General Email
+Webmaster Email
+General Inquiries: 845-680-4468
+Staff Directory
+Support our Work
+LAMONT CAMPUS ADDRESS
+61 Route 9W
+Monell Building
+Palisades, NY 10964-1000
+Directions to the Lamont Campus
