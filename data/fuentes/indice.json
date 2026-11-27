@@ -1,6 +1,6 @@
 {
- "consultado": "26/11/2026, 19:40 h",
- "consultado_iso": "2026-11-26T19:40-03:00",
+ "consultado": "26/11/2026, 21:09 h",
+ "consultado_iso": "2026-11-26T21:09-03:00",
  "paginas": {
   "smn_alertas": {
    "url": "https://www.smn.gob.ar/alertas",
@@ -51,7 +51,7 @@
   "lanacion_clima_corrientes": {
    "url": "https://www.lanacion.com.ar/clima/corrientes/",
    "estado": 200,
-   "caracteres": 8395,
+   "caracteres": 8381,
    "archivo": "data/fuentes/lanacion_clima_corrientes.txt"
   },
   "noaa_enso": {
@@ -78,21 +78,18 @@
   },
   "smn_datos_horarios_ayer": {
    "url": "https://ssl.smn.gob.ar/dpd/descarga_opendata.php?file=observaciones/datohorario20261125.txt",
-   "estado": 200,
-   "caracteres": 10301,
-   "archivo": "data/fuentes/smn_datos_horarios_ayer.txt"
+   "estado": "error",
+   "detalle": "HTTP Error 503: Service Unavailable"
   },
   "smn_pronostico_5_dias": {
    "url": "https://ssl.smn.gob.ar/dpd/descarga_opendata.php?file=pron5d/pron20261126.txt",
-   "estado": 200,
-   "caracteres": 17711,
-   "archivo": "data/fuentes/smn_pronostico_5_dias.txt"
+   "estado": "error",
+   "detalle": "HTTP Error 503: Service Unavailable"
   },
   "smn_pronostico_5_dias_ayer": {
    "url": "https://ssl.smn.gob.ar/dpd/descarga_opendata.php?file=pron5d/pron20261125.txt",
-   "estado": 200,
-   "caracteres": 17711,
-   "archivo": "data/fuentes/smn_pronostico_5_dias_ayer.txt"
+   "estado": "error",
+   "detalle": "HTTP Error 503: Service Unavailable"
   },
   "coe_a_2026_0169_CP": {
    "url": "https://coe.corrientes.gob.ar/a/2026-0169-CP",
