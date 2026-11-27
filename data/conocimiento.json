@@ -1,5 +1,5 @@
 {
- "actualizado": "26/11/2026, 09:10 h",
+ "actualizado": "27/11/2026, 09:20 h",
  "explicacion": "Cada actualización suma registros: barrios afectados con la altura del río o la lluvia de ese día, obras terminadas, reportes de vecinos verificados y la comparación entre lo pronosticado y lo que ocurrió. Con esa comparación se detectan desvíos y se proponen ajustes a los cálculos, que revisa el autor del tablero.",
  "contadores": {
   "barrios_documentados": 87,
@@ -7,9 +7,23 @@
   "reportes_verificados": 0,
   "comparaciones_rio": 3,
   "comparaciones_lluvia": 5,
-  "aprendizajes": 84
+  "aprendizajes": 86
  },
  "aprendizajes": [
+  {
+   "fecha": "2026-11-27",
+   "tipo": "antecedente",
+   "lugar": "Ituzaingó",
+   "dato": "El Paraná marcó 3,30 m en Ituzaingó el 27/11, 20 cm bajo la alerta (3,50 m), después de 2,35 m el 24/11.",
+   "fuente": "Prefectura Naval Argentina, vía rioparana.com.ar (27/11/2026)"
+  },
+  {
+   "fecha": "2026-11-27",
+   "tipo": "antecedente",
+   "lugar": "Paso de los Libres",
+   "dato": "El INA prevé alerta en Santo Tomé desde el 28/11 y en Paso de los Libres desde el 29/11, con posible evacuación entre el 30/11 y el 4/12.",
+   "fuente": "INA, reporte diario del 26/11/2026"
+  },
   {
    "fecha": "2026-11-26",
    "tipo": "antecedente",
