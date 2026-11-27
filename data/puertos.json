@@ -667,6 +667,22 @@
  "prensa": [
   {
    "fecha": "27/11/2026",
+   "medio": "El Litoral | Novedades de Corrientes",
+   "titulo": "El río Uruguay sube cuatro centímetros por hora y Santo Tomé prohibió el acceso a la costa",
+   "enlace": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNVkVQNlJBQnJEdDN2TTdodXduV1pMZjlSWnJlU1VBb3FsalpNRW0zMmN4RTB0Q3RpSHpzT0tCVmJmZ1J4X2wzd2xEd1UxZ0gyMC1JYjhOeGVvYndTamh1TDRnTERYWDNlYmJrTm9EaTJIQUZDNHdCaHRTZVRNYWdKR0xScTFOd0FobFAzZU16YjJPamc3SzhfV0hDVWI4bjVGOHhtMDlrN0UwNzZBZE0wM1hRaVh4ZENvSEx1NTlCdU15RzNCVHRsR1ROMmN4NENWRFNhZEtkZktWaEE1ZldsQw?oc=5",
+   "breve": "El río Uruguay sube cuatro centímetros por hora y Santo Tomé prohibió el acceso a la costa",
+   "auto": true
+  },
+  {
+   "fecha": "27/11/2026",
+   "medio": "Radio Facundo Quiroga",
+   "titulo": "Yacyretá abrió compuertas y el río Paraná crecerá de forma acelerada",
+   "enlace": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPdjBSZHVhU2RLVjBXQy1IeW9BeVhqQzRCN1FVMG8tSjRGZXBlTTVkSnVtM29RN2R3Tm1SdWc1TWlxeU9HVWdNTW0tUUFaaWVDdDBYTFNpSVhHVXEwd1l2cjA4YVJoVU5GMk1GWURNcXZuWjBITmVYUk1TcFZWNHh4enFnaW9scnVCRlJFbTZ2NkdwYnd0VVFBU1FHZDg?oc=5",
+   "breve": "Yacyretá abrió compuertas y el río Paraná crecerá de forma acelerada",
+   "auto": true
+  },
+  {
+   "fecha": "27/11/2026",
    "medio": "LT7Noticias",
    "titulo": "El río Uruguay crece en varias localidades y alcanzó los 10,75 metros en Santo Tomé",
    "enlace": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQWldmaV8zTGdDZTVHdldrWXZQX1ZuS09tVUo5RS1DQmU0VUc5SC11X2pqbVQ3OHJUS0NFNENCa3Q5aUx6eF9KU2JPR19LaldOZWVURHV5TTNDalI0ellpVWY3ckxtRWlZUHJ1ZlV4blUtQVJQMHlsSGN2cGpzN2FNcUZsMG9nTVNVZW5aSEFDcDB4cHNHV3NPVU9ZbVE0SXhTSEZ0UUlMSmZnSjdzSnM3bHZQaDc0TUU?oc=5",
@@ -1128,22 +1144,6 @@
    "enlace": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA0b0Rma00yN3pHeDlFTVA3ZWxyaU9UWEdnamdUZnQ0S1NGeUZLTGxGNHpteG5CR0RTN2hYWlBnUnRfdkRYOFlGT3kzUXNEeUs4RXQxZlJrV2tTNTdMeVl4RnRBZ0tGU0dYR201STM3NFFkSV9iNHV2VmVIWQ?oc=5",
    "breve": "Yacyretá anticipa una nueva crecida del Paraná: Ayolas seguirá en niveles de alerta e inundabilidad",
    "auto": true
-  },
-  {
-   "fecha": "24/11/2026",
-   "medio": "El Litoral | Novedades de Corrientes",
-   "titulo": "Las lluvias dejaron hasta 95 milímetros en un solo día en Corrientes: en qué zonas",
-   "enlace": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPVUZlRHRrX2d2TF9oekM3QTB2U3FxMDQ3Rkt6MHJfdHVHejl2eGNWT0ozTXNYcFFXbXFBMU15MmtTaHUyem5jN3VyX05UVzY0Vk9pTUUzSWlraGJZeElzaEtOYnlUQ1NacUU0WXVBWXhuOERleXc2VTNQOWlBMTlyQzA3dEk5MWRra1JGcWVQbFRLUjJ4cUhJZ2ZNVUFscHVCTHZyenduVmpwWnNBcmlWUGIwaThoTEhBYmFqMl9DQU94RUgtZFktYlA1b0VhRkJzUzU5b1YycHhLVGdJY2U0?oc=5",
-   "breve": "Las lluvias dejaron hasta 95 milímetros en un solo día en Corrientes: en qué zonas",
-   "auto": true
-  },
-  {
-   "fecha": "25/11/2026",
-   "medio": "LT7Noticias",
-   "titulo": "Yacyretá abrió nuevamente las 18 compuertas y emitió una alerta hidrológica por la crecida del Paraná",
-   "enlace": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQUFJ2WEQ2Vk5QMk5pZlpHa1dDNnRLZnJ4RUNTY1ZoNlZ2cjZnYWVRalFIZHhnTjdGTVJrUFdXUS1WTEJQLV93NUw2TVhTWVRpRllJVzlvVVJUei0wZnYtaUZqclJoSjh3U2lCeldacEtVbWd3UER2TUQ1S2lXeWtEM1JtMTdZYXkwd0ZyWTZJTjlQN2lvQ1dBdmFzQkdrWXJFSTRMa1ZFcElRS3N1cHptY1RhczhnamdBOHJNck92MVcycjZYTU5yQkppX3oxNWhs?oc=5",
-   "breve": "Yacyretá abrió nuevamente las 18 compuertas y emitió una alerta hidrológica por la crecida del Paraná",
-   "auto": true
   }
  ],
  "puertos_uruguay": [
@@ -1461,7 +1461,7 @@
  "tapon_breve": "Alerta por tormentas para la Capital el viernes 27/11: amarilla de 20 a 21 h (15 a 30 mm). Con el río en 5,67 m, una lluvia fuerte puede superar la capacidad de los desagües.",
  "consultado": "27/11/2026, 18:01 h",
  "consulta_resultado": "sin cambios",
- "prensa_actualizada": "27/11/2026, 18:23 h",
+ "prensa_actualizada": "27/11/2026, 20:39 h",
  "ina_parana_breve": "El INA prevé el río casi estable en Corrientes 4 a 5 días y un nuevo repunte que podría acercarse a la alerta desde el 2/12.",
  "ina_uruguay_breve": "El INA prevé que Santo Tomé supere la alerta desde el 28/11 y Paso de los Libres desde el 29/11, con posible evacuación entre el 30/11 y el 4/12."
 }
