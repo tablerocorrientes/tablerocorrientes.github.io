@@ -11,7 +11,7 @@
   "fecha": "13/11/2026, 18:35 h"
  },
  "met_revision": "aae6c54b1ab7086a927cf2e4bb8e34a53a584e781ba42ff90ab9d653046ddc38",
- "actualizado": "27/11/2026, 02:54 h",
+ "actualizado": "27/11/2026, 06:31 h",
  "localidades": [
   {
    "n": "Corrientes Capital",
@@ -161,7 +161,7 @@
    "altura": 5.37,
    "alerta": 5.2,
    "evac": 5.7,
-   "reg": "27/11/2026, 00:00 h (Prefectura Naval Argentina, vía rioparana.com.ar)"
+   "reg": "27/11/2026, 06:00 h (Prefectura Naval Argentina, vía rioparana.com.ar)"
   },
   {
    "n": "Colonia Carolina",
@@ -173,10 +173,10 @@
    "dep": "Itatí",
    "ref": "Corrientes Capital",
    "rio": "Paraná",
-   "altura": 5.95,
+   "altura": 6.02,
    "alerta": 6.8,
    "evac": 7.5,
-   "reg": "26/11/2026, 00:00 h (Prefectura Naval Argentina, vía rioparana.com.ar)"
+   "reg": "27/11/2026, 00:00 h (Prefectura Naval Argentina, vía rioparana.com.ar)"
   },
   {
    "n": "Ramada Paso",
