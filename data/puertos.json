@@ -667,6 +667,14 @@
  "prensa": [
   {
    "fecha": "26/11/2026",
+   "medio": "El Litoral | Novedades de Corrientes",
+   "titulo": "El Paraná subió casi un metro en menos de 24 horas en Ituzaingó y se acerca a la alerta",
+   "enlace": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPMm1NUG1xM3l3d3lZNmtxYjdpM0pDMzNWdjVScGZKQWVzYldZZlAtbVZHZWR4ZXQyNWxIVEtRWnlJRVBFNVN5dzFhVTh1bzd0ZDEzeWpKQUx6S05YVTVSdWNvOEU3VG1MVm1CMkhOdGo4dEdRZHJvS1pnYzlxRXhHQnRKVlNsYzdYMUFjeWxOR0pueC1OZERxV1JDbUtjVjNJeWlXc3ltLXB3SDJENGZjUW95UV9uMXFQMmdKWk5lYXFJVGtfbTZyVXRZN2ppbG1QVUhENGVIZmpEeUxr?oc=5",
+   "breve": "El Paraná subió casi un metro en menos de 24 horas en Ituzaingó y se acerca a la alerta",
+   "auto": true
+  },
+  {
+   "fecha": "26/11/2026",
    "medio": "Diario Noticias De La Calle de Misiones",
    "titulo": "Yacyretá abrió las 18 compuertas y advierten por una nueva crecida del río Paraná",
    "enlace": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNa0lvRUxQMXNmVDRleUsyNDQtMzB4X0FGenpFT0t2WnVlOHczNGhWbGpmOW9FRFVDRlNja0hRd0dxRVFSNkJlOWNXMVBrVGtnOE5aOXBXZEZfeTFFS29ZVUxPLUJrTmxZdzZsaXBpS2g4VUNzalBpNHlQMEpMd0NvSG1SZmt0cDA2RkhFQjBYZnNPY3lDeWVwUWpHTjRSN25kM3hrVmp1N0djeU0waEhZZmRiQndCODZlZWZUdWVncFhWcy1ITXpHMk9TcllQb2ZDRnZ2dHNIWGh5YUhyTEHSAeMBQVVfeXFMTzItaGQxbzFoU3BsZzRzVHJMODJ2QjZCRGlLSkp0V1ZQZVl3VFQ5NEE5eXRneUFFWWhidGJ3WWZuNW95LVB1YUlSZU04ekd5dktDTnQ5RHU4Qm9NY0RMSk1lTFlLZ1NkREt5M0JoRkZYWXYxZ0haWVVUMmQ1OHJwaWdaN2hicTdLakFCWUtPZ2lNMm94WEpUNG42Q1lpVkZQanFUVzNjWGJZX0FDeFhiMkFBMnVlX3l4d3BsblNiQUw3aHAwMDdtSDN1eFlHM3hXN1RISnhMeXNoeENycTNuT2RCdzg?oc=5",
@@ -1136,14 +1144,6 @@
    "enlace": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNX0NVbTQ5b2FGV2NvT0EwT25sWmxZQjB5dV9GMlJkVnlyaGsybXNZWGJZcFhlaUxYdWRJXzVtMXdVb1lUbDFEZnJNMDNvcWM2ZWFFMW5KUzNwWXh0WDVUNG1yRmptNjc0ODJtbzJFc0J6UG02blQtRVgyYU5tSWRKbjFRaEYwSHJuRVIwOWJwRElsMVVjYjB1TWR4MGNTbExtdk10R0U2b2hIUUNwcnF3?oc=5",
    "breve": "Ante las lluvias lanzan plan preventivo contra el dengue en Corrientes",
    "auto": true
-  },
-  {
-   "fecha": "23/11/2026",
-   "medio": "Agrofy News",
-   "titulo": "Altura del río Paraná en Corrientes hoy",
-   "enlace": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5TVS04WV9ZOGtYZElmd0tlT3dYWUQtTEFsZ040UFFVWF9NbU55a0gtOVF4c1M3MWNOTXkxTlRhZzl0RV9iWjc2RFdmVzFsS0N3TnIxYkg3NWpmNUFnQ2J5UWF3VWhrZEE?oc=5",
-   "breve": "Altura del río Paraná en Corrientes hoy",
-   "auto": true
   }
  ],
  "puertos_uruguay": [
@@ -1461,7 +1461,7 @@
  "tapon_breve": "Sin alerta del SMN para la Capital en las próximas 48 horas. Con el río en 5,64 m, el riesgo de anegamiento depende de la intensidad de la lluvia.",
  "consultado": "26/11/2026, 18:48 h",
  "consulta_resultado": "sin cambios",
- "prensa_actualizada": "26/11/2026, 19:41 h",
+ "prensa_actualizada": "26/11/2026, 21:28 h",
  "ina_parana_breve": "El INA prevé el río casi estable en Corrientes unos 5 días y un nuevo repunte que podría acercarse a la alerta desde el 2/12.",
  "ina_uruguay_breve": "El INA prevé que Santo Tomé se acerque a la alerta entre el 26/11 y el 30/11, y Paso de los Libres la supere desde el 30/11."
 }
