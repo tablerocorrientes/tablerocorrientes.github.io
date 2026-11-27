@@ -1,7 +1,86 @@
 {
- "consultado": "27/11/2026, 10:38 h",
- "consultado_iso": "2026-11-27T10:38:00-03:00",
+ "consultado": "27/11/2026, 11:38 h",
+ "consultado_iso": "2026-11-27T11:38:24-03:00",
  "fuente": "Servicio Meteorológico Nacional, canal oficial de alertas y avisos (CAP)",
- "resultado": "sin alertas para Corrientes",
- "alertas": []
+ "resultado": "con alertas",
+ "alertas": [
+  {
+   "tipo": "aviso a muy corto plazo",
+   "nivel": "amarillo",
+   "fenomeno": "tormentas",
+   "zonas": "Berón de Astrada - Capital - Concepción - Curuzú Cuatiá - Empedrado - General Alvear - General Paz - Itatí - Ituzaingó - Mburucuyá - Mercedes - Paso de los Libres - Saladas - San Cosme - San Luis del Palmar - San Martín - San Miguel - San Roque - Santo Tomé - Sauce",
+   "departamentos": [
+    "Berón de Astrada",
+    "Capital",
+    "Concepción",
+    "Curuzú Cuatiá",
+    "Empedrado",
+    "General Alvear",
+    "General Paz",
+    "Itatí",
+    "Ituzaingó",
+    "Mburucuyá",
+    "Mercedes",
+    "Paso de los Libres",
+    "Saladas",
+    "San Cosme",
+    "San Luis del Palmar",
+    "San Martín",
+    "San Miguel",
+    "San Roque",
+    "Santo Tomé",
+    "Sauce"
+   ],
+   "incluye_capital": true,
+   "desde": "27/11/2026, 13:38 h",
+   "hasta": "27/11/2026, 20:59 h",
+   "desde_iso": "2026-11-27T13:38:37-03:00",
+   "hasta_iso": "2026-11-27T20:59:59-03:00",
+   "emision": "27/11/2026, 13:38 h",
+   "rango_mm": [
+    40,
+    70
+   ],
+   "texto": "Tormentas. El área será afectada por lluvias y tormentas, algunas fuertes. Las mismas podrán estar acompañadas principalmente por abundantes precipitaciones en cortos períodos, frecuente actividad eléctrica, ocasional caída de granizo y ráfagas intensas. Se esperan valores de precipitación acumulada entre 40 y 70 mm, que pueden ser superados en forma puntual."
+  },
+  {
+   "tipo": "aviso a muy corto plazo",
+   "nivel": "amarillo",
+   "fenomeno": "tormentas",
+   "zonas": "Berón de Astrada - Capital - Concepción - Curuzú Cuatiá - Empedrado - General Alvear - General Paz - Itatí - Ituzaingó - Mburucuyá - Mercedes - Paso de los Libres - Saladas - San Cosme - San Luis del Palmar - San Martín - San Miguel - San Roque - Santo Tomé - Sauce",
+   "departamentos": [
+    "Berón de Astrada",
+    "Capital",
+    "Concepción",
+    "Curuzú Cuatiá",
+    "Empedrado",
+    "General Alvear",
+    "General Paz",
+    "Itatí",
+    "Ituzaingó",
+    "Mburucuyá",
+    "Mercedes",
+    "Paso de los Libres",
+    "Saladas",
+    "San Cosme",
+    "San Luis del Palmar",
+    "San Martín",
+    "San Miguel",
+    "San Roque",
+    "Santo Tomé",
+    "Sauce"
+   ],
+   "incluye_capital": true,
+   "desde": "27/11/2026, 13:38 h",
+   "hasta": "27/11/2026, 20:59 h",
+   "desde_iso": "2026-11-27T13:38:38-03:00",
+   "hasta_iso": "2026-11-27T20:59:59-03:00",
+   "emision": "27/11/2026, 13:38 h",
+   "rango_mm": [
+    40,
+    70
+   ],
+   "texto": "Tormentas. El área será afectada por lluvias y tormentas, algunas fuertes. Las mismas podrán estar acompañadas principalmente por abundantes precipitaciones en cortos períodos, frecuente actividad eléctrica, ocasional caída de granizo y ráfagas intensas. Se esperan valores de precipitación acumulada entre 40 y 70 mm, que pueden ser superados en forma puntual."
+  }
+ ]
 }
