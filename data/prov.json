@@ -11,7 +11,7 @@
   "fecha": "13/11/2026, 18:35 h"
  },
  "met_revision": "aae6c54b1ab7086a927cf2e4bb8e34a53a584e781ba42ff90ab9d653046ddc38",
- "actualizado": "26/11/2026, 21:32 h",
+ "actualizado": "27/11/2026, 00:57 h",
  "localidades": [
   {
    "n": "Corrientes Capital",
@@ -33,10 +33,10 @@
    "dep": "Bella Vista",
    "ref": "Bella Vista",
    "rio": "Paraná",
-   "altura": 5.75,
+   "altura": 5.7,
    "alerta": 6.0,
    "evac": 6.4,
-   "reg": "26/11/2026, 12:00 h (Prefectura Naval Argentina, vía rioparana.com.ar)"
+   "reg": "27/11/2026, 00:00 h (Prefectura Naval Argentina, vía rioparana.com.ar)"
   },
   {
    "n": "Berón de Astrada",
@@ -91,7 +91,7 @@
    "altura": 5.11,
    "alerta": 6.5,
    "evac": 6.7,
-   "reg": "26/11/2026, 12:00 h (Prefectura Naval Argentina, vía rioparana.com.ar)"
+   "reg": "27/11/2026, 00:00 h (Prefectura Naval Argentina, vía rioparana.com.ar)"
   },
   {
    "n": "El Sombrero",
@@ -103,10 +103,10 @@
    "dep": "Esquina",
    "ref": "Esquina",
    "rio": "Paraná",
-   "altura": 5.18,
+   "altura": 5.17,
    "alerta": 5.0,
    "evac": 5.4,
-   "reg": "26/11/2026, 18:00 h (Prefectura Naval Argentina, vía rioparana.com.ar)"
+   "reg": "27/11/2026, 00:00 h (Prefectura Naval Argentina, vía rioparana.com.ar)"
   },
   {
    "n": "Pueblo Libertador",
@@ -138,10 +138,10 @@
    "dep": "General Paz",
    "ref": "Ituzaingó",
    "rio": "Paraná",
-   "altura": 5.0,
+   "altura": 5.1,
    "alerta": 7.0,
    "evac": 7.5,
-   "reg": "26/11/2026, 12:00 h (Prefectura Naval Argentina, vía rioparana.com.ar)"
+   "reg": "27/11/2026, 00:00 h (Prefectura Naval Argentina, vía rioparana.com.ar)"
   },
   {
    "n": "Lomas de Vallejos",
@@ -161,7 +161,7 @@
    "altura": 5.37,
    "alerta": 5.2,
    "evac": 5.7,
-   "reg": "26/11/2026, 18:00 h (Prefectura Naval Argentina, vía rioparana.com.ar)"
+   "reg": "27/11/2026, 00:00 h (Prefectura Naval Argentina, vía rioparana.com.ar)"
   },
   {
    "n": "Colonia Carolina",
@@ -188,10 +188,10 @@
    "dep": "Ituzaingó",
    "ref": "Ituzaingó",
    "rio": "Paraná",
-   "altura": 3.13,
+   "altura": 3.3,
    "alerta": 3.5,
    "evac": 4.0,
-   "reg": "26/11/2026, 12:00 h (Prefectura Naval Argentina, vía rioparana.com.ar)"
+   "reg": "27/11/2026, 00:00 h (Prefectura Naval Argentina, vía rioparana.com.ar)"
   },
   {
    "n": "San Carlos",
@@ -333,10 +333,10 @@
    "dep": "San Cosme",
    "ref": "Corrientes Capital",
    "rio": "Paraná",
-   "altura": 5.7,
+   "altura": 5.73,
    "alerta": 6.5,
    "evac": 7.0,
-   "reg": "26/11/2026, 12:00 h (Prefectura Naval Argentina, vía rioparana.com.ar)"
+   "reg": "27/11/2026, 00:00 h (Prefectura Naval Argentina, vía rioparana.com.ar)"
   },
   {
    "n": "Santa Ana",
