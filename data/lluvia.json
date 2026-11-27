@@ -1,5 +1,5 @@
 {
- "actualizado": "27/11/2026, 09:24 h",
+ "actualizado": "27/11/2026, 09:41 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
@@ -128,12 +128,12 @@
     null,
     null,
     null,
-    null,
+    0,
     null,
     null
    ],
    "total": 0.25,
-   "ultimo": "0,25 mm a las 04 h"
+   "ultimo": "0 mm a las 08 h"
   },
   {
    "localidad": "Colonia Carlos Pellegrini",
@@ -162,12 +162,12 @@
     null,
     null,
     null,
-    null,
+    0,
     null,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 04 h"
+   "ultimo": "0 mm a las 08 h"
   },
   {
    "localidad": "San Carlos",
@@ -1353,11 +1353,11 @@
     0,
     0,
     0.2,
-    null,
+    0,
     null
    ],
    "total": 0.2,
-   "ultimo": "0,2 mm a las 08 h"
+   "ultimo": "0 mm a las 09 h"
   },
   {
    "localidad": "San Isidro",
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "27/11/2026, 09:24 h",
+ "consultado": "27/11/2026, 09:41 h",
  "consulta_resultado": "datos nuevos"
 }
