@@ -1181,8 +1181,8 @@
     {
      "nivel": "naranja",
      "fenomeno": "tormentas",
-     "desde_iso": null,
-     "hasta_iso": null,
+     "desde_iso": "2026-11-14T00:00:00-03:00",
+     "hasta_iso": "2026-11-14T23:59:00-03:00",
      "zonas": "Corrientes Capital, Berón de Astrada, Empedrado, General Paz, Itatí, Mburucuyá, Saladas, San Cosme y San Luis del Palmar",
      "rango_mm": [
       80,
@@ -1194,8 +1194,8 @@
     {
      "nivel": "amarillo",
      "fenomeno": "tormentas",
-     "desde_iso": null,
-     "hasta_iso": null,
+     "desde_iso": "2026-11-14T00:00:00-03:00",
+     "hasta_iso": "2026-11-14T23:59:00-03:00",
      "zonas": "General Alvear, Paso de los Libres, San Martín, Santo Tomé, Concepción, Curuzú Cuatiá, Mercedes, San Roque, Sauce, Ituzaingó y San Miguel",
      "rango_mm": null,
      "incluye_capital": false,
