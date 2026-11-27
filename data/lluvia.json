@@ -1,5 +1,5 @@
 {
- "actualizado": "27/11/2026, 04:13 h",
+ "actualizado": "27/11/2026, 04:29 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
@@ -163,11 +163,11 @@
     null,
     null,
     null,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 00 h"
+   "ultimo": "0 mm a las 04 h"
   },
   {
    "localidad": "San Carlos",
@@ -231,11 +231,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 03 h"
+   "ultimo": "0 mm a las 04 h"
   },
   {
    "localidad": "La Palmira",
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "27/11/2026, 04:13 h",
+ "consultado": "27/11/2026, 04:29 h",
  "consulta_resultado": "datos nuevos"
 }
