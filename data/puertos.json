@@ -667,6 +667,30 @@
  "prensa": [
   {
    "fecha": "27/11/2026",
+   "medio": "Confirmado.com.ar",
+   "titulo": "El Niño: abren las compuertas de Yacyretá y hay alerta por crecidas en Santa Fe, Entre Ríos, Corrientes y Misiones",
+   "enlace": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1mZkE2Qm1aV0tFWVZUUENIa3VRRUlHTWZ4cEFFZVliVzdkVGF6b09welJvOWpMeE1nMXljNXRGdUYtdThXZ3ltZEdzTE9ZcHF3WThhMkdKTkQxSGxaSXRrMmtYWmpmRlVwQmc?oc=5",
+   "breve": "El Niño: abren las compuertas de Yacyretá y hay alerta por crecidas en Santa Fe, Entre Ríos, Corrientes y Misiones",
+   "auto": true
+  },
+  {
+   "fecha": "27/11/2026",
+   "medio": "Diario Noticias De La Calle de Misiones",
+   "titulo": "Yacyretá abrió 18 compuertas ante un nuevo incremento del caudal del Paraná",
+   "enlace": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNelg0SVF6N1BMVzQ1c3hEVjNNNFllYjJHSm03bGJuY2RTd3RkaDBvbnpaR25tS0ZkQUtzOGY1MVhvNVJ1YnJ2b1BpT0loME5TREhMLVRHYmpyLW5OYXlTTUFNeDdKZFhmb1lfWVRNQVRmV1cwemxnOVYwa1U4c3YtNUZhcDBRTzUxS2c3aGVGQkNma18yUnJ0STRVVmZxMUJkX1JhbGVZTWlpalpTak44YkU4OWY3NDh1cXdMYVp3OVY5amJlTXkxWng0M2pRNEhQTzRaSDlB0gHbAUFVX3lxTE4yTjBkdXYtaDZ1d0REOXhDSllFTlcwUXk1cVIyTjQ5aEo0dVNpRlNCbkZ4TE04NS1hd1NfcDZQUmJsSUhYOG9zMHpOTGpVRlVMYXBDVDRCYkZBbU1wSUJ2SWtPZEZLS2lINEtYWnVGZ1UxNlBqd3V2M2dBQ0diMnhwcWVsNWNCZzZPZEFJOS1GMjdOV2hlbjdhb1NrRVNfb2NhdnV2U2Q1UzRjRU16NXBLbXFaVWhkdVRLNDB5elVZSHJnQV9ZSUhYY3R2N3lOcG96VEktLVNXZ2hJZw?oc=5",
+   "breve": "Yacyretá abrió 18 compuertas ante un nuevo incremento del caudal del Paraná",
+   "auto": true
+  },
+  {
+   "fecha": "26/11/2026",
+   "medio": "Mas Contenidos.Net",
+   "titulo": "Alerta en Chaco y Corrientes: comunicado oficial de Yacyretá por la crecida del río Paraná",
+   "enlace": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPeElIT3B2bmZHWG5FZkFVU0xETlo3Y2J6MDFFeEJLY0NOaDB1bjUxSC1RYy1LRkFuYXJvSFRGb0M4bnRhdWd4TGUtbFJ1bGxnMGFzNnJ4ZGozNXM4U0FWcm5HTHhIM2VoSzJOSUFxbzl0dlhFVFhONDVNbDBSSjBDYkF2R3F4bE9NR2Jac1pLWEVHQTNkdWVBcE9Ib2hjNUE2Rl91QmViUzVvTWRlbXRuMDh5am9QWklZZU1xcW5RSdIBtwFBVV95cUxNSDlqT1Z4bzRjOE5MRXhRVnEyZDlkU0lkdjNIVGl2UHdtWVIxZTRYcUx0RnFHdjY4c0lFNG4xeUNqMFVMdUlYeVlfNXMxckNyZ0d3M0hMWjJPVTZWUkFIb2xNRmpucFBYVWQ2Ym9LZG5GUGNZaVRIMThwaGQtZnRUbFdFWUZhbDZmOWt5a19GZmZUUVZUVXVUbmpod3BNTjhYVTVhbXZaRmVzX3J3b09LQTRKc0tyN00?oc=5",
+   "breve": "Alerta en Chaco y Corrientes: comunicado oficial de Yacyretá por la crecida del río Paraná",
+   "auto": true
+  },
+  {
+   "fecha": "27/11/2026",
    "medio": "Diario 1588",
    "titulo": "Alerta: En menos de 24 horas el Paraná subió casi un metro en Ituzaingó",
    "enlace": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBsLWJCbTdCd0tiM0txMUs5SEx4TXpPTXhNVnJvWXEtUlRIR1pCMVpiMEpTZXlWZDhCTHZ0OFdnMXVIU2NHTVpJ0gFHQVVfeXFMUGwtYkJtN0J3S2IzS3ExSzlITHhNek9NeE1Wcm9ZcS1SVEhHWkIxWmIwSlNleVZkOEJMdnQ4V2cxdUhTY0dNWkk?oc=5",
@@ -1120,30 +1144,6 @@
    "enlace": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRkVNbzNPVDdtOGpwSnNOc1dxWV9ham1hVWxEaGJzeEpuZnkwU2dtTDhEbUt6SzBRZkhDZ1dwSk9SS3hpbXoxZjRYTEp5Q3hHUnVuWVBjMTgxcGVPZ1dFWHJtU3haY2RxakdCMDNVcFlNVXB2U0ZBdjFtRnpyNGJ0ZlJ1d19VVmRvU2FlTXppNmV5VnlkSlEtNGJ6NEZwalg5N0xBRDR0RC1vODRkUV9sZ1VLT0JrZw?oc=5",
    "breve": "VUELVE A CRECER EL RÍO URUGUAY SOBRE LAS COSTAS DE CORRIENTES",
    "auto": true
-  },
-  {
-   "fecha": "25/11/2026",
-   "medio": "Corrientes Hoy",
-   "titulo": "Limpian del paseo inferior de la Costanera de Goya tras la bajante del Paraná",
-   "enlace": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZkZfQnRZYWRMbERtSlJXaE90SDNUdWp6cFJLU2ZQU09ZX1p3Nk80Zk9SNzVjcEVHZ3FLeW1LVlo5MkN0VFFwaFVxWDl2T0wzZ08yem5aU3dDOWZMYzlTVEY2RWhmVS1WUUNWM1FHYXdFSmtqQ3dyNHUweFRhaC05NHY1bmJyakN4OGk0SXUtek9ZcGpTRWZwYm5XV2FIRnpWdkVtM1ZYNTAyMGpoakp2MDhDb29MRW1UU3U2REl1cjlsQQ?oc=5",
-   "breve": "Limpian del paseo inferior de la Costanera de Goya tras la bajante del Paraná",
-   "auto": true
-  },
-  {
-   "fecha": "25/11/2026",
-   "medio": "CHACODIAPORDIA.COM",
-   "titulo": "Yacyretá registró en octubre el mayor caudal afluente medio mensual histórico para este mes",
-   "enlace": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOM0c2WEhaWVg3a1lpQ2U3ZGp4Q1lxbkVzeDlWeGIxWnV2UXk1SzhhQmc0c2pvdU9NTHNxaUI0QVE1Sjg1bEp2MGlHN0FWTTctdjlsM2pVcm12OUg2b3JYMXNXQTBVaEdEcXpZdXc2aE5qWnRFZWN6TUp4NEZHdXNmTkpwXzNGQ0FRd2Jmazl5NmphMkpyUGRpeXB0UndVdHN5dWNheV92WGFkT2tCYmpka1NVTnB0UmlnRzg4?oc=5",
-   "breve": "Yacyretá registró en octubre el mayor caudal afluente medio mensual histórico para este mes",
-   "auto": true
-  },
-  {
-   "fecha": "24/11/2026",
-   "medio": "Elonce.com",
-   "titulo": "Creciente del río Paraná: desde Yacyretá advierten que podría haber repuntes hasta marzo",
-   "enlace": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxORmNCQTVWdzkyWmJwazh3Xzh1TVJaNVRSOHlSekdGZTUxU3drZzFBQXdQbXZoZm9LLS1jb0ZMRFI0SFVtcmFRcW52QnhYM3lQd3JXTXI2ZGlTMkZPZGV1VGhfZ01uc2c4NUQ0QUdGWENscTlmZnlOa3JMZ2NWdHc5OHhRUlBzNHhleGVHM0dMNkVkXzdjRGI4UERPTFY5OHZRZDE0YTJ3WnhUemFaMWhmUHlJSVRSRm9uMHFtSTB6RDTSAboBQVVfeXFMTWs5dFowYjFPRzVaT2o3RW45UndVeExpWnJzSkhCX04yX2ZVbDkySlpDbW1GZDlYa0NWZHFtNVBNVWE3b1hmako2VEMwY3VqVXJURnI2cEZhYnk0RFVjSnl3Z0xvYVJYZVZQN2kxMlNtMFcweUp4aEwwQkxNbjBPTWdKY1AyUFYtWXdTYzNUdk85SU5CMmwyajF5QnRGamFidXczenE0WDNVLUJ1NmpIbkhWU3FxZ1ZybDdB?oc=5",
-   "breve": "Creciente del río Paraná: desde Yacyretá advierten que podría haber repuntes hasta marzo",
-   "auto": true
   }
  ],
  "puertos_uruguay": [
@@ -1461,7 +1461,7 @@
  "tapon_breve": "Alerta por tormentas para la Capital el viernes 27/11: amarilla de 13 a 21 h (40 a 70 mm), luego amarilla de 13 a 21 h (40 a 70 mm). Con el río en 5,67 m, una lluvia fuerte puede superar la capacidad de los desagües.",
  "consultado": "27/11/2026, 14:53 h",
  "consulta_resultado": "datos nuevos",
- "prensa_actualizada": "27/11/2026, 14:53 h",
+ "prensa_actualizada": "27/11/2026, 15:39 h",
  "ina_parana_breve": "El INA prevé el río casi estable en Corrientes 4 a 5 días y un nuevo repunte que podría acercarse a la alerta desde el 2/12.",
  "ina_uruguay_breve": "El INA prevé que Santo Tomé supere la alerta desde el 28/11 y Paso de los Libres desde el 29/11, con posible evacuación entre el 30/11 y el 4/12."
 }
