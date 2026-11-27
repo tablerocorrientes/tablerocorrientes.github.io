@@ -666,6 +666,14 @@
  "prensa_fecha": "14/11/2026, 09:12 h",
  "prensa": [
   {
+   "fecha": "27/11/2026",
+   "medio": "MisionesOnline",
+   "titulo": "El Niño | Crecen los ríos Paraná y Uruguay en Corrientes: Ituzaingó quedó a 37 centímetros del nivel de alerta",
+   "enlace": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1DNWh2QTlPcVJ2dzBPYVdseUNXSjNvejdlZHVHdERZa2V6V0tEenREMmFycUd1cXBwa3YxZE1CdGlnd1RRZDRaWDZJZ2hTWU1ZbzBGMF9PbHhYV1VISW1JUGRtYVdSbl8tWklsc1hVaDEyLVVX?oc=5",
+   "breve": "El Niño | Crecen los ríos Paraná y Uruguay en Corrientes: Ituzaingó quedó a 37 centímetros del nivel de alerta",
+   "auto": true
+  },
+  {
    "fecha": "26/11/2026",
    "medio": "Radio EME",
    "titulo": "Rescataron a un ciervo en plena crecida del río Paraná en Corrientes",
@@ -1453,7 +1461,7 @@
  "tapon_breve": "Sin alerta del SMN para la Capital en las próximas 48 horas. Con el río en 5,65 m, el riesgo de anegamiento depende de la intensidad de la lluvia.",
  "consultado": "27/11/2026, 09:09 h",
  "consulta_resultado": "datos nuevos",
- "prensa_actualizada": "27/11/2026, 03:58 h",
+ "prensa_actualizada": "27/11/2026, 10:21 h",
  "ina_parana_breve": "El INA prevé el río casi estable en Corrientes 4 a 5 días y un nuevo repunte que podría acercarse a la alerta desde el 2/12.",
  "ina_uruguay_breve": "El INA prevé que Santo Tomé supere la alerta desde el 28/11 y Paso de los Libres desde el 29/11, con posible evacuación entre el 30/11 y el 4/12."
 }

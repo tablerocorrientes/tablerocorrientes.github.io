@@ -442,8 +442,8 @@
  "pronostico": {
   "Corrientes Capital": {
    "hoy": {
-    "mm": 8.5,
-    "horas": 14
+    "mm": 6.4,
+    "horas": 16
    },
    "manana": {
     "mm": 0.0,
@@ -478,8 +478,8 @@
   },
   "Goya": {
    "hoy": {
-    "mm": 3.0,
-    "horas": 7
+    "mm": 2.7,
+    "horas": 9
    },
    "manana": {
     "mm": 0.0,
@@ -501,8 +501,8 @@
   },
   "Esquina": {
    "hoy": {
-    "mm": 0.1,
-    "horas": 0
+    "mm": 0.4,
+    "horas": 3
    },
    "manana": {
     "mm": 0.0,
@@ -524,8 +524,8 @@
   },
   "Bella Vista": {
    "hoy": {
-    "mm": 1.5,
-    "horas": 6
+    "mm": 1.4,
+    "horas": 5
    },
    "manana": {
     "mm": 0.0,
@@ -570,7 +570,7 @@
   },
   "Curuzú Cuatiá": {
    "hoy": {
-    "mm": 0.5,
+    "mm": 0.9,
     "horas": 3
    },
    "manana": {
@@ -593,8 +593,8 @@
   },
   "Paso de los Libres": {
    "hoy": {
-    "mm": 0.1,
-    "horas": 0
+    "mm": 1.0,
+    "horas": 6
    },
    "manana": {
     "mm": 0.0,
@@ -621,7 +621,7 @@
   },
   "Santo Tomé": {
    "hoy": {
-    "mm": 35.2,
+    "mm": 55.5,
     "horas": 17
    },
    "manana": {
@@ -644,11 +644,11 @@
   },
   "Gobernador Virasoro": {
    "hoy": {
-    "mm": 57.1,
+    "mm": 52.3,
     "horas": 18
    },
    "manana": {
-    "mm": 2.7,
+    "mm": 2.6,
     "horas": 12
    },
    "smn": "Alerta amarilla del SMN por tormenta para Corrientes desde las 12:00 h del 17/11 hasta las 11:59 h del 18/11, sin departamentos detallados. Alerta amarilla del COE de Corrientes (fuente SMN) que incluye a esta ciudad el miércoles 18/11 de 05:00 a 12:00 h, con 30 a 70 mm posibles.",
@@ -667,7 +667,7 @@
   },
   "Ituzaingó": {
    "hoy": {
-    "mm": 40.3,
+    "mm": 34.9,
     "horas": 17
    },
    "manana": {
@@ -695,7 +695,7 @@
   },
   "Monte Caseros": {
    "hoy": {
-    "mm": 0.0,
+    "mm": 0.1,
     "horas": 0
    },
    "manana": {
@@ -723,7 +723,7 @@
   },
   "Saladas": {
    "hoy": {
-    "mm": 2.5,
+    "mm": 3.3,
     "horas": 7
    },
    "manana": {
@@ -1143,7 +1143,7 @@
    }
   ]
  },
- "pron_actualizado": "27/11/2026, 09:09 h",
+ "pron_actualizado": "27/11/2026, 10:21 h",
  "smn": [
   {
    "id_oficial": null,
