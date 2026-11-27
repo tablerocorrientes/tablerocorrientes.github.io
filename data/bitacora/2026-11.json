@@ -9110,7 +9110,7 @@
      0.0,
      0.0,
      0.0,
-     null
+     0.0
     ],
     "La Palmira": [
      0.0,
@@ -9136,7 +9136,7 @@
      0.0,
      0.0,
      0.0,
-     null
+     0.0
     ],
     "San Carlos": [
      0.0,
@@ -9344,7 +9344,7 @@
      0.0,
      0.0,
      0.0,
-     null
+     0.0
     ],
     "Bonpland": [
      0.0,
@@ -9370,7 +9370,7 @@
      0.0,
      0.0,
      0.0,
-     null
+     0.0
     ],
     "Bella Vista": [
      0.0,
@@ -9396,7 +9396,7 @@
      0.0,
      0.0,
      0.0,
-     null
+     0.0
     ],
     "Curuzú Cuatiá": [
      0.0,
@@ -9422,7 +9422,7 @@
      0.0,
      0.0,
      0.0,
-     null
+     0.0
     ],
     "Santo Tomé": [
      0.0,
@@ -9473,7 +9473,7 @@
      0.0,
      0.0,
      0.0,
-     null,
+     0.0,
      null
     ],
     "Garruchos": [
@@ -9600,7 +9600,7 @@
      null,
      null,
      null,
-     null,
+     0.0,
      null,
      null,
      null,
@@ -9634,6 +9634,62 @@
     ]
    },
    "alertas_del_dia": []
+  },
+  "2026-11-27": {
+   "fecha": "2026-11-27",
+   "pronostico_de": "27/11/2026, 00:12 h",
+   "ciudades": {
+    "Corrientes Capital": 10.9,
+    "Goya": 1.2,
+    "Esquina": 0.2,
+    "Bella Vista": 2.4,
+    "Mercedes": 0.5,
+    "Curuzú Cuatiá": 0.6,
+    "Paso de los Libres": 0.1,
+    "Santo Tomé": 23.1,
+    "Gobernador Virasoro": 51.5,
+    "Ituzaingó": 39.8,
+    "Monte Caseros": 0.2,
+    "Saladas": 7.8
+   },
+   "horario_capital": [
+    0.0,
+    0.03,
+    0.03,
+    0.07,
+    0.53,
+    0.6,
+    0.93,
+    1.3,
+    1.13,
+    1.1,
+    0.43,
+    0.77,
+    1.17,
+    1.2,
+    0.67,
+    0.4,
+    0.1,
+    0.27,
+    0.17,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "alertas_del_dia": [
+    {
+     "nivel": "amarillo",
+     "fenomeno": "Tormentas",
+     "desde_iso": "2026-11-27T06:00:00-03:00",
+     "hasta_iso": "2026-11-27T22:00:00-03:00",
+     "zonas": "General Alvear, Ituzaingó, Paso de los Libres, San Martín, San Miguel, Santo Tomé",
+     "rango_mm": null,
+     "incluye_capital": false,
+     "origen": "COE de Corrientes"
+    }
+   ]
   }
  }
 }

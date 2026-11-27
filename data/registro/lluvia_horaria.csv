@@ -1082,6 +1082,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-26,07,Paso Cerrito,Paso Cerrito,13849,0
 2026-11-26,11,Paso Cerrito,Paso Cerrito,13849,0
 2026-11-26,15,Paso Cerrito,Paso Cerrito,13849,0.25
+2026-11-26,19,Paso Cerrito,Paso Cerrito,13849,0
 2026-11-01,23,Garruchos,Garruchos,13857,0
 2026-11-02,03,Garruchos,Garruchos,13857,0
 2026-11-02,07,Garruchos,Garruchos,13857,0
@@ -2220,6 +2221,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-26,19,Parque Nacional Iberá,RMA08_PNI - Parque Nacional Iberá,220226,0
 2026-11-26,20,Parque Nacional Iberá,RMA08_PNI - Parque Nacional Iberá,220226,0
 2026-11-26,21,Parque Nacional Iberá,RMA08_PNI - Parque Nacional Iberá,220226,0
+2026-11-26,22,Parque Nacional Iberá,RMA08_PNI - Parque Nacional Iberá,220226,0
 2026-11-01,23,Mburucuyá,RMA04_PMB - Parque Nacional Mburucuyá,220246,0
 2026-11-02,00,Mburucuyá,RMA04_PMB - Parque Nacional Mburucuyá,220246,0
 2026-11-02,01,Mburucuyá,RMA04_PMB - Parque Nacional Mburucuyá,220246,0
@@ -2584,6 +2586,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-26,20,Mburucuyá,RMA04_PMB - Parque Nacional Mburucuyá,220246,0
 2026-11-26,21,Mburucuyá,RMA04_PMB - Parque Nacional Mburucuyá,220246,0
 2026-11-26,22,Mburucuyá,RMA04_PMB - Parque Nacional Mburucuyá,220246,0
+2026-11-26,23,Mburucuyá,RMA04_PMB - Parque Nacional Mburucuyá,220246,0
 2026-11-01,23,Bonpland,RMA08_BPL - Bonpland,220261,0
 2026-11-02,00,Bonpland,RMA08_BPL - Bonpland,220261,0
 2026-11-02,01,Bonpland,RMA08_BPL - Bonpland,220261,0
@@ -2948,6 +2951,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-26,20,Bonpland,RMA08_BPL - Bonpland,220261,0
 2026-11-26,21,Bonpland,RMA08_BPL - Bonpland,220261,0
 2026-11-26,22,Bonpland,RMA08_BPL - Bonpland,220261,0
+2026-11-26,23,Bonpland,RMA08_BPL - Bonpland,220261,0
 2026-11-01,23,Bella Vista,RMA08_BVI - Bella Vista,220262,0
 2026-11-02,00,Bella Vista,RMA08_BVI - Bella Vista,220262,0
 2026-11-02,01,Bella Vista,RMA08_BVI - Bella Vista,220262,0
@@ -3312,6 +3316,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-26,20,Bella Vista,RMA08_BVI - Bella Vista,220262,0
 2026-11-26,21,Bella Vista,RMA08_BVI - Bella Vista,220262,0
 2026-11-26,22,Bella Vista,RMA08_BVI - Bella Vista,220262,0
+2026-11-26,23,Bella Vista,RMA08_BVI - Bella Vista,220262,0
 2026-11-01,23,Curuzú Cuatiá,RMA08_CC - Curuzú Cuatiá,220263,0
 2026-11-02,00,Curuzú Cuatiá,RMA08_CC - Curuzú Cuatiá,220263,0
 2026-11-02,01,Curuzú Cuatiá,RMA08_CC - Curuzú Cuatiá,220263,0
@@ -3676,6 +3681,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-26,20,Curuzú Cuatiá,RMA08_CC - Curuzú Cuatiá,220263,0
 2026-11-26,21,Curuzú Cuatiá,RMA08_CC - Curuzú Cuatiá,220263,0
 2026-11-26,22,Curuzú Cuatiá,RMA08_CC - Curuzú Cuatiá,220263,0
+2026-11-26,23,Curuzú Cuatiá,RMA08_CC - Curuzú Cuatiá,220263,0
 2026-11-01,23,La Palmira,Estación La Palmira - Escuela N° 70,283902,0
 2026-11-02,00,La Palmira,Estación La Palmira - Escuela N° 70,283902,0
 2026-11-02,01,La Palmira,Estación La Palmira - Escuela N° 70,283902,0
@@ -4040,6 +4046,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-26,20,La Palmira,Estación La Palmira - Escuela N° 70,283902,0
 2026-11-26,21,La Palmira,Estación La Palmira - Escuela N° 70,283902,0
 2026-11-26,22,La Palmira,Estación La Palmira - Escuela N° 70,283902,0
+2026-11-26,23,La Palmira,Estación La Palmira - Escuela N° 70,283902,0
 2026-11-01,23,Caá Catí,Predio Ferial Sociedad Rural de Gral. Paz - Caá Catï,283903,0
 2026-11-02,00,Caá Catí,Predio Ferial Sociedad Rural de Gral. Paz - Caá Catï,283903,0
 2026-11-02,01,Caá Catí,Predio Ferial Sociedad Rural de Gral. Paz - Caá Catï,283903,0
@@ -5221,6 +5228,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-26,20,Corrientes Capital,ICAA,283906,0
 2026-11-26,21,Corrientes Capital,ICAA,283906,0
 2026-11-26,22,Corrientes Capital,ICAA,283906,0
+2026-11-26,23,Corrientes Capital,ICAA,283906,0
 2026-11-01,23,Santo Tomé,Santo Tomé –Corrientes,283907,0
 2026-11-02,00,Santo Tomé,Santo Tomé –Corrientes,283907,0
 2026-11-02,01,Santo Tomé,Santo Tomé –Corrientes,283907,0
