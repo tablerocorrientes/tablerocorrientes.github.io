@@ -1,5 +1,5 @@
 Fuente: https://www.lanacion.com.ar/clima/corrientes/
-Consultado: 26/11/2026, 23:46 h
+Consultado: 27/11/2026, 00:34 h
 
 Clima en Corrientes y pronóstico del tiempo en LA NACION
 CERRAR
@@ -78,15 +78,8 @@ Kiosco LA NACION
 > LA NACION > Clima > Corrientes
 Clima de hoy en Corrientes
 Pronóstico del tiempo extendido para Corrientes
-Actualizado a las 21:45 hs.
+Actualizado a las 00:01 hs.
 Pronóstico del tiempo en Corrientes hoy
-Noche
-Mayormente nublado
-25 ºc
-78%
-E 22Km/h
-10%
-Pronóstico del tiempo en Corrientes mañana
 Mañana
 Tormentas
 22 ºc
@@ -105,7 +98,7 @@ Chaparrones
 93%
 E 12Km/h
 40%
-Pronóstico del tiempo en Corrientes el sábado
+Pronóstico del tiempo en Corrientes mañana
 Mañana
 Parcialmente nublado
 22 ºc
