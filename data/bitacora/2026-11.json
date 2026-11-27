@@ -9500,7 +9500,7 @@
      null,
      null,
      null,
-     null
+     0.0
     ],
     "Portal Galarza": [
      null,
@@ -9526,7 +9526,7 @@
      null,
      null,
      null,
-     null
+     0.0
     ],
     "Colonia Carlos Pellegrini": [
      null,
@@ -9552,7 +9552,7 @@
      null,
      null,
      null,
-     null
+     0.0
     ],
     "Gobernador Virasoro": [
      null,
@@ -9992,6 +9992,58 @@
      null
     ],
     "Santo Tomé": [
+     0.0,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "Santa Lucía": [
+     0.0,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "Parque Nacional Iberá": [
      0.0,
      null,
      null,
