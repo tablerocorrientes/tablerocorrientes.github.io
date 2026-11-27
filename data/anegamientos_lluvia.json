@@ -1,5 +1,5 @@
 {
- "actualizado": "27/11/2026, 12:20 h",
+ "actualizado": "27/11/2026, 18:15 h",
  "criterio": "Calles, barrios o zonas anegadas por LLUVIA (no por la crecida de los ríos). Se registra cada caso con fecha, hora, lugar, lluvia medida y fuente: Defensa Civil, municipios, medios y observaciones verificadas. Los días sin registros también quedan anotados en la bitácora.",
  "registros": [
   {
@@ -27,7 +27,7 @@
   {
    "fecha": "2026-11-27",
    "localidad": "Corrientes Capital",
-   "nota": "Relevamiento de las 12:20 h: el SNIH registró solo llovizna (0,2 mm a las 11 h). Rige alerta amarilla por tormentas del SMN y del COE para la Capital de 10:39 a 20:00 h. Sin partes de calles o barrios anegados por lluvia en los medios consultados."
+   "nota": "Relevamiento de las 12:20 h: el SNIH registró solo llovizna (0,2 mm a las 11 h). Rige alerta amarilla por tormentas del SMN y del COE para la Capital de 10:39 a 20:00 h. Sin partes de calles o barrios anegados por lluvia en los medios consultados. Relevamiento de las 18:15 h: sin lluvia medida de importancia hasta las 17 h (SNIH, 0 mm) y la alerta amarilla sigue vigente hasta las 20:59 h; sin partes de anegamientos por lluvia en los medios consultados."
   },
   {
    "fecha": "2026-11-25",
