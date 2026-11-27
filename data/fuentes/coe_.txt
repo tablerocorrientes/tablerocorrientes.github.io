@@ -1,7 +1,7 @@
 Fuente: https://coe.corrientes.gob.ar/
-Consultado: 27/11/2026, 06:14 h
+Consultado: 27/11/2026, 06:47 h
 
-1 alerta vigente — COE Corrientes
+2 alertas vigentes — COE Corrientes
 Alertas del COE - Comando Operativo de Emergencias
 Instituto de
 Modernización e Innovación
@@ -14,7 +14,13 @@ Alertas hidrometeorológicas
 Avisos emitidos por el Comando Operativo de Emergencias de Corrientes por
 crecidas, tormentas, lluvias y vientos.
 Tocá una alerta para ver la pieza completa con el mapa del área alcanzada.
-Vigentes ahora 1
+Vigentes ahora 2
+Alerta Amarilla
+En curso
+Tormentas
+General Alvear, Ituzaingó, Paso de los Libres, San Martín, San Miguel, Santo Tomé
+Empezó viernes 27/11 · 06:30 h
+Termina viernes 27/11 · 22:00 h
 Alerta Amarilla
 En curso
 Tormentas

@@ -1,5 +1,5 @@
 {
- "actualizado": "27/11/2026, 06:30 h",
+ "actualizado": "27/11/2026, 06:46 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
@@ -1319,11 +1319,11 @@
     0,
     0,
     0,
-    0,
+    0.2,
     null
    ],
-   "total": 0,
-   "ultimo": "0 mm a las 06 h"
+   "total": 0.2,
+   "ultimo": "0,2 mm a las 06 h"
   },
   {
    "localidad": "Parque Nacional Iberá",
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "27/11/2026, 06:30 h",
+ "consultado": "27/11/2026, 06:46 h",
  "consulta_resultado": "datos nuevos"
 }
