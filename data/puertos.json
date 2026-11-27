@@ -667,6 +667,30 @@
  "prensa": [
   {
    "fecha": "27/11/2026",
+   "medio": "https://www.diarioya.ar/",
+   "titulo": "El Paraná subió 78 centímetros en menos de 24 horas y se acerca a la alerta en Ituzaingó",
+   "enlace": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQajlDRG9Qc2U1ME1iaHpRSjBFeXhDRktBdzBOR1Q0QXN3QUxZRUtuYjZGME9FREViNks2VEpTV3FXNjA1RjJncVZVdnN2Q3J4eVU0WnJfdTBqdFhUa05faGhVbWpCQW14dzFKTEN0SVFFMjNQQUUtNTQ3eHZiWjFjNUNYWGxpWGZSTndxUnpZbXBBYmFVdm5KN0dob0VQS3NoZ0pHZF9xTFh2amd4ZFNZbHdSOA?oc=5",
+   "breve": "El Paraná subió 78 centímetros en menos de 24 horas y se acerca a la alerta en Ituzaingó",
+   "auto": true
+  },
+  {
+   "fecha": "27/11/2026",
+   "medio": "Identidad Correntina",
+   "titulo": "Yacyretá abrió sus compuertas y Goya sigue en alerta",
+   "enlace": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQVjNrUVhWc093T3JLUFhqWnlreGoyYm9fOGJzcUtyaUNoYTN6NlJUYm5FdFBwZ182NDlsb1NwcFJNMHJrT1J6bXMxREhBSl9iaEtCcjg2TEFtekpmQ0k2NDNGTE56d3pxOWlrVzE2MGV6ZHJyeXVtUG9aWDhEUUhCLTFVd0taR01DWEJrN2NvMnBXclkzQnpfS05vNThLVjZRYUFBVno2UHNnc2c?oc=5",
+   "breve": "Yacyretá abrió sus compuertas y Goya sigue en alerta",
+   "auto": true
+  },
+  {
+   "fecha": "27/11/2026",
+   "medio": "El Comercial",
+   "titulo": "Crecen los ríos Paraná y Uruguay en Corrientes: Ituzaingó quedó a 37 centímetros del nivel de alerta",
+   "enlace": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNb09meGU3TkpfSVZ4NWxJRGU0YzZoSWdiMDFEVlRwbm54MFJxNUxNTUlEbjdvQlEwcFNhX1A5QnlWVVlVMThpbDlQeThCQWVDeXgzYmdFOW92U0xqcDY2NkYydHU2Z0gyTHpQZUNJSTBJaWlUa3hmZGpfTWF6dHJOOVZOWEt0V3dDNHU1NFQwVHg5MFlWYzBrTTRKOGhRMUZSXzY3WEVudW1SS3B2WjV1QWJRaWtjeUNKazVtZ18wT0U4TUtZY1lES05fOXh3R1lMU1E?oc=5",
+   "breve": "Crecen los ríos Paraná y Uruguay en Corrientes: Ituzaingó quedó a 37 centímetros del nivel de alerta",
+   "auto": true
+  },
+  {
+   "fecha": "27/11/2026",
    "medio": "Energía Online",
    "titulo": "Yacyretá abrió nuevamente sus 18 compuertas y sube el río Paraná en Ituzaingó",
    "enlace": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQZGNrOW5PNTExbl9qN09GeUFJM2U5YThfaC1pSVdyMGtoYWhPVEZEcnF3WmlDejNuWXROSkFoSWI4ZG1kQm93eTJfMVhLRHZOY01iQjZ3ell5X1BmcktkMGNVcm1lMDJyaEJJdDVBRl9ucXF2c192XzUzbjJiZlYzaFNfaHp5aVhlNGYwMUE0bFI2LS10TUs4UlZxeGFTYkgzc3RrcHY5T3RUdjQ?oc=5",
@@ -1120,30 +1144,6 @@
    "enlace": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPNm1BRUNuWXBydmhUS1NXaTBISDZEaDBkbHlUYlc4M3pvOTFaQVF5RjBiN0tOeDJjc2JOeWJvLUxWT1M5Q2pyaVl6MjNXZ2VpMzg0WEdPdzNiclg5cndUUDFHYm1NWThTMlFEVVBVSkY3WWVKZks5Q2lHX2VVTXM0S3YtYzM1Si1Sc0ZMeVNIVUZXdWRVYVVIUFdlN2ZSeW9RM3NKUlRZWVZNX3RpRGVPMl9ORXpxTFlLT0ZNZzgwQklDcnFUaUNSRUxEY2Nadw?oc=5",
    "breve": "Yacyretá emitió un informe hidrológico para los próximos días",
    "auto": true
-  },
-  {
-   "fecha": "24/11/2026",
-   "medio": "Bichos de Campo",
-   "titulo": "Después del octubre más caudaloso desde 1971, el Paraná da un respiro en Yacyretá, pero advierten que las crecidas seguirán hasta marzo",
-   "enlace": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPRTJyTzV1endENmdFWWtvNkRQbWQzRHBSbVBGTkNCT0FWSHBJSmxEM093aFpCa3hyM1hWZnFoWmxmYmFSVUJMSTR5ZVRNc3c4bWtmUHhTNkduLThISFl3YngwZ0x5cFg2dFZvSkw1amsyT1VMMGhaX0JKZmw3VHFJZW9CMU95MVE4SGdMQ0lWSC1vYjhKUFZMcFdkX3AweTlaOGgxazVCdnpDeXFEZm84T2tId0thMld3b2lST2pUMy1hNWd3TlRRdEk1ZW5ZazBLbkhaM3lxdWllN3Uwd3FaNXFBcl9UOUtiYXBzandpejQ2Q0trYk9jSURlaGk?oc=5",
-   "breve": "Después del octubre más caudaloso desde 1971, el Paraná da un respiro en Yacyretá, pero advierten que las crecidas seguirán hasta marzo",
-   "auto": true
-  },
-  {
-   "fecha": "23/11/2026",
-   "medio": "La Nación",
-   "titulo": "Hidrólogo de Yacyretá expone en la NASA avances sobre el pronóstico del río Paraná",
-   "enlace": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNUnE5Y0xnenBkTHBabE9HWW1XMV9GMTMycWlfU3E4OFl1a2E3UmhPdThnc3RQc3hkTHBraE12SUdobDB2dkdCaUxqM1pEZ0dCRk45Z1VVcGJkeEJhbjREM19kWGgyTDJfNHRUNE1fWGhYNjJNa3l0c214MEV1Zm5KYjB2VnpRZlc3Uy1fNnZJbGNzUFdkZ3pEbFBnZmpQYVk4a1hkeDlkTUVuZFlwQXRoM0ZyQmtNc1lfRVpmUmtZNWZGcmpJZ1E?oc=5",
-   "breve": "Hidrólogo de Yacyretá expone en la NASA avances sobre el pronóstico del río Paraná",
-   "auto": true
-  },
-  {
-   "fecha": "23/11/2026",
-   "medio": "República de Corrientes",
-   "titulo": "Yacyretá opera a plena capacidad y advierte que podrían repetirse las crecidas del Paraná hasta marzo",
-   "enlace": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOeGZsQTFYQVZTelowck02UFFidmplNjlnV0lGWmN2cHBpSnVrcVNJcUd3Wl9jZURHaTZOZlBESXNRLXp4clR2YWtyY3pZLTJab1BHM1BqdnB2TXZtX1JpRXFmQy12NGhwQ3c4ajAxcDdXRDFicTFvWHBqRlZ5Zm02Y2E3QkhpcE5pMUIxR1F0eXdva3g2dDJOaFBua3RsX0xtRTljZU10ajU5MzcwVUtOYTJUbGwxbXhLOUxtSTVmUmxjenEzNWFCYnhTY0FJa3planBLanJDbjF2QkdEaUE?oc=5",
-   "breve": "Yacyretá opera a plena capacidad y advierte que podrían repetirse las crecidas del Paraná hasta marzo",
-   "auto": true
   }
  ],
  "puertos_uruguay": [
@@ -1461,7 +1461,7 @@
  "tapon_breve": "Alerta por tormentas para la Capital el viernes 27/11: amarilla de 13 a 21 h (40 a 70 mm), luego amarilla de 13 a 21 h (40 a 70 mm). Con el río en 5,65 m, una lluvia fuerte puede superar la capacidad de los desagües.",
  "consultado": "27/11/2026, 12:24 h",
  "consulta_resultado": "datos nuevos",
- "prensa_actualizada": "27/11/2026, 12:24 h",
+ "prensa_actualizada": "27/11/2026, 14:24 h",
  "ina_parana_breve": "El INA prevé el río casi estable en Corrientes 4 a 5 días y un nuevo repunte que podría acercarse a la alerta desde el 2/12.",
  "ina_uruguay_breve": "El INA prevé que Santo Tomé supere la alerta desde el 28/11 y Paso de los Libres desde el 29/11, con posible evacuación entre el 30/11 y el 4/12."
 }
