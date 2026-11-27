@@ -1,5 +1,5 @@
 {
- "actualizado": "27/11/2026, 01:35 h",
+ "actualizado": "27/11/2026, 01:52 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
@@ -876,12 +876,12 @@
     null,
     null,
     null,
-    null,
+    0,
     null,
     null
    ],
    "total": 0.25,
-   "ultimo": "0 mm a las 20 h"
+   "ultimo": "0 mm a las 00 h"
   },
   {
    "localidad": "Paso de los Libres",
@@ -1454,12 +1454,12 @@
     null,
     null,
     null,
-    null,
+    0,
     null,
     null
    ],
    "total": 0.25,
-   "ultimo": "0 mm a las 20 h"
+   "ultimo": "0 mm a las 00 h"
   },
   {
    "localidad": "Santa Rosa",
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "27/11/2026, 01:35 h",
+ "consultado": "27/11/2026, 01:52 h",
  "consulta_resultado": "datos nuevos"
 }
