@@ -1,5 +1,5 @@
 {
- "actualizado": "27/11/2026, 19:26 h",
+ "actualizado": "27/11/2026, 19:46 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
@@ -140,7 +140,6 @@
    "estacion": "Carlos Pellegrini",
    "codigo": 13826,
    "valores": [
-    null,
     0,
     null,
     null,
@@ -162,6 +161,7 @@
     null,
     null,
     0,
+    null,
     null,
     null,
     null
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "27/11/2026, 19:26 h",
+ "consultado": "27/11/2026, 19:46 h",
  "consulta_resultado": "datos nuevos"
 }
