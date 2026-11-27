@@ -1,6 +1,6 @@
 {
- "consultado": "27/11/2026, 05:37 h",
- "consultado_iso": "2026-11-27T05:37-03:00",
+ "consultado": "27/11/2026, 06:09 h",
+ "consultado_iso": "2026-11-27T06:09-03:00",
  "paginas": {
   "smn_alertas": {
    "url": "https://www.smn.gob.ar/alertas",
@@ -28,7 +28,7 @@
     "https://coe.corrientes.gob.ar/a/2026-0029-NT"
    ],
    "estado": 200,
-   "caracteres": 3236,
+   "caracteres": 3218,
    "archivo": "data/fuentes/coe_inicio.txt"
   },
   "ina_reporte_diario": {
@@ -97,7 +97,7 @@
   "coe_": {
    "url": "https://coe.corrientes.gob.ar/",
    "estado": 200,
-   "caracteres": 3236,
+   "caracteres": 3218,
    "archivo": "data/fuentes/coe_.txt"
   },
   "coe_a_2026_0169_CP": {
