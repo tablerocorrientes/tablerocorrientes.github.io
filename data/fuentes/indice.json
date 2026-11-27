@@ -1,6 +1,6 @@
 {
- "consultado": "27/11/2026, 02:27 h",
- "consultado_iso": "2026-11-27T02:27-03:00",
+ "consultado": "27/11/2026, 03:02 h",
+ "consultado_iso": "2026-11-27T03:02-03:00",
  "paginas": {
   "smn_alertas": {
    "url": "https://www.smn.gob.ar/alertas",
@@ -158,8 +158,9 @@
   },
   "senado_corrientes": {
    "url": "https://www.senadoctes.gov.ar/",
-   "estado": "error",
-   "detalle": "The read operation timed out"
+   "estado": 200,
+   "notas": 6,
+   "archivo": "data/fuentes/portales/senado_corrientes.txt"
   },
   "eby_noticias": {
    "url": "https://www.eby.gov.py/",

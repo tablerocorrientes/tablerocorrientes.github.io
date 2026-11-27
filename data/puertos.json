@@ -667,6 +667,14 @@
  "prensa": [
   {
    "fecha": "26/11/2026",
+   "medio": "LT7Noticias",
+   "titulo": "Paso de la Patria comenzó a recuperar sus playas tras el descenso del río Paraná",
+   "enlace": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPUThVbGdXLTRITnEyRkpiLVpXb01jOE15enJ4TGh2eENRYTNzay1uZlVVYWJiaGJIRTFTM3dQTTZtMkFBTFdKQzlpZnFxN2s3VlZvVW9FRlctbGpIYW5tNTNsaGZ2S2lEZHFHam02cDZhMXpoaWtNQnZGeWdRemZmZ3B2SHhCVFdRMUNGdzBBcnp5VnhWbUdlQXhTcFF2YnN1QWRDRFJrZnoxUTdNMnlIRHNnTVE?oc=5",
+   "breve": "Paso de la Patria comenzó a recuperar sus playas tras el descenso del río Paraná",
+   "auto": true
+  },
+  {
+   "fecha": "26/11/2026",
    "medio": "Norte Corrientes",
    "titulo": "El río Uruguay crece y Yacyretá abrió sus compuertas ante el repunte del Paraná",
    "enlace": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNWHd1azRnbHRjMG9xa1FOaFUwbEVZbmh3a0FFc3RRWUlGRlRGNVlvSXY4MzhLRnlTeVBZLTd1MHctRVR2czNXQ3NRYWRIVTB5SGxaQmpUcWdPeDJHcm90S3JoXzlmYzl6bTlXMkI0TEVWdjZBWm55TnA0Y1UydE5MVDZiOER5WFJ1em1yMEV5eFhZTTNkNk4yQzBTWXBjakxDVXptMXdfWFA0d2czQlQ2Sks3QmxwclBjUHc?oc=5",
@@ -1136,14 +1144,6 @@
    "enlace": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQalRpdkw0UmdyZkhSM2MyUmVsbDh3VjZ6bHpjVG5VV2pjWVRsQVBsVWtRU3hvUW9GSVE0dDdobXptRmVfTnBFZlA5cFczd0RWWlVZZk9JWVhRa1ZOc1A2aEY3WU1oajlIX1ZzbExqMEJqckV0LU9idkRNZzJlYnJIYlFrUDNBWThWV1BvZ3RiN2NDTnJlVGo1SndvWUtjN0xjbVktOWRTSU0tQnJ6OTg3YkYxZkpYbFk?oc=5",
    "breve": "Corrientes presentó su plan contra el dengue ante las lluvias y las inundaciones",
    "auto": true
-  },
-  {
-   "fecha": "24/11/2026",
-   "medio": "infogoya.com",
-   "titulo": "Corrientes Capital: más de 80 mm de lluvia, árboles caídos y alertas por tormentas fuertes",
-   "enlace": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNMkpUdXdUc3M4Y0JhdkRmWUhOMnpGVmNhUzVXZkZId0lPNEFQbFNYVzNtRldCT2RFUU1kdzNRRGFhdG56ZmV6OHBhSU9TZWc4TGVfSDJHWGM5M1U3X0ZFMV92Q1pUMl9WMUZTOGg0a2xhTFVWSThla19XM1RiaTdNMGlKRTh3Y1REMlJSUFEySUVXZw?oc=5",
-   "breve": "Corrientes Capital: más de 80 mm de lluvia, árboles caídos y alertas por tormentas fuertes",
-   "auto": true
   }
  ],
  "puertos_uruguay": [
@@ -1456,12 +1456,12 @@
  "alertas": [],
  "alertas_fecha": "14/11/2026, 09:12 h",
  "eby_resumen_anteriores": "Entre el 24/10 y el 3/11 la EBY informó caudales de hasta unos 34.500 m³/s, el doble de lo habitual (octubre fue el mes más caudaloso de la serie 1971-2025), con Ituzaingó por encima de 4 m. El paso Ituzaingó–Ayolas estuvo cerrado desde el 12/10 y reabrió el 7/11. La EBY advirtió que El Niño podría extenderse hasta los primeros meses de 2027.",
- "nota_breve": "Paraná en Corrientes: 5,64 m (26/11, 12:00 h), estable y 86 cm debajo de la alerta (6,50 m). Goya y Esquina siguen sobre la alerta. El INA prevé el río casi estable en Corrientes unos 5 días y un nuevo repunte que podría acercarse a la alerta desde el 2/12.",
+ "nota_breve": "Paraná en Corrientes: 5,65 m (27/11, 00:00 h), estable y 85 cm debajo de la alerta (6,50 m). Goya y Esquina siguen sobre la alerta. El INA prevé el río casi estable en Corrientes unos 5 días y un nuevo repunte que podría acercarse a la alerta desde el 2/12.",
  "uruguay_breve": "Al 26/11, 07:00 h: Santo Tomé 9,60 m (subió 110 cm) y Paso de los Libres 5,80 m (subió 64 cm), ambos bajo la alerta (Salto Grande). El INA prevé que Santo Tomé se acerque a la alerta entre el 26/11 y el 30/11, y Paso de los Libres la supere desde el 30/11.",
- "tapon_breve": "Sin alerta del SMN para la Capital en las próximas 48 horas. Con el río en 5,64 m, el riesgo de anegamiento depende de la intensidad de la lluvia.",
+ "tapon_breve": "Sin alerta del SMN para la Capital en las próximas 48 horas. Con el río en 5,65 m, el riesgo de anegamiento depende de la intensidad de la lluvia.",
  "consultado": "27/11/2026, 02:54 h",
  "consulta_resultado": "datos nuevos",
- "prensa_actualizada": "27/11/2026, 00:34 h",
+ "prensa_actualizada": "27/11/2026, 03:03 h",
  "ina_parana_breve": "El INA prevé el río casi estable en Corrientes unos 5 días y un nuevo repunte que podría acercarse a la alerta desde el 2/12.",
  "ina_uruguay_breve": "El INA prevé que Santo Tomé se acerque a la alerta entre el 26/11 y el 30/11, y Paso de los Libres la supere desde el 30/11."
 }
