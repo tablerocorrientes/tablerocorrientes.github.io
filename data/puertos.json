@@ -667,6 +667,14 @@
  "prensa": [
   {
    "fecha": "26/11/2026",
+   "medio": "Radio EME",
+   "titulo": "Rescataron a un ciervo en plena crecida del río Paraná en Corrientes",
+   "enlace": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZGZXOVAwTTFwb2QtNUZRbmx5SEViblNNRVFSMS1PaTA2OExwcF9PdXVwVWNfYnRNR3FrWTh2Qmc0eEgteFladXFQQlppWEd5c3ladFc5WEFyMnlvSER2dHVfWWtzalRXYlYxOTFIUTBKVjlOVXJvNEF2c0p3cG9vdWE3aXQtUnpJc2dxSkhxNHJ5bWcxa1pvWm1vc0Nycld5T1B4QdIBqgFBVV95cUxPMjV6QVpZMWpDTi0xN2Uzc1JyaUhEbEVzbWhQOFIwajNudFIzYVpIUUVhVU5rV2IwN2c5ZjlKN1ZVajVFX2FXZ2hfN0ZYSFVBV1hocUh6YkFCcWowdjE1Y3pkRmtub2pYRXZNWm1uck1pUzI5bmU2bG1VSXVzUEVwbjlIYWt4VGtIVEF3bmlRbW5XZlZPTHN0N01Ud0tHZGFSUmFlLTZnX191QQ?oc=5",
+   "breve": "Rescataron a un ciervo en plena crecida del río Paraná en Corrientes",
+   "auto": true
+  },
+  {
+   "fecha": "26/11/2026",
    "medio": "LT7Noticias",
    "titulo": "Paso de la Patria comenzó a recuperar sus playas tras el descenso del río Paraná",
    "enlace": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPUThVbGdXLTRITnEyRkpiLVpXb01jOE15enJ4TGh2eENRYTNzay1uZlVVYWJiaGJIRTFTM3dQTTZtMkFBTFdKQzlpZnFxN2s3VlZvVW9FRlctbGpIYW5tNTNsaGZ2S2lEZHFHam02cDZhMXpoaWtNQnZGeWdRemZmZ3B2SHhCVFdRMUNGdzBBcnp5VnhWbUdlQXhTcFF2YnN1QWRDRFJrZnoxUTdNMnlIRHNnTVE?oc=5",
@@ -1136,14 +1144,6 @@
    "enlace": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPS0ZNU0JEY3BIUThXRWhNMVIxUGtrd3FzUzdrSkYzYVBuS2pqX2pNYUNNRWU2RkwyVGxJMWdRTkt1SUNBdlJVZU1IUDZ1TFNwVm9jYWV5ZnNDekgwZHhtZHE3YXdrUVlENkJ5bUF0QXQzcDFxNG5iTGNvWnhna1pkcVl5NmVhSTV4MkZ6WVJfWThFMThpdF9JZkpMLUxYUmYyZmJDZFZoLXBMbUZHeGNWdE5OWEgtZw?oc=5",
    "breve": "Baja el río Paraná, pero unas 4.000 personas siguen evacuadas en Corrientes y Chaco",
    "auto": true
-  },
-  {
-   "fecha": "24/11/2026",
-   "medio": "https://www.noticiero9.com.ar/",
-   "titulo": "Corrientes presentó su plan contra el dengue ante las lluvias y las inundaciones",
-   "enlace": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQalRpdkw0UmdyZkhSM2MyUmVsbDh3VjZ6bHpjVG5VV2pjWVRsQVBsVWtRU3hvUW9GSVE0dDdobXptRmVfTnBFZlA5cFczd0RWWlVZZk9JWVhRa1ZOc1A2aEY3WU1oajlIX1ZzbExqMEJqckV0LU9idkRNZzJlYnJIYlFrUDNBWThWV1BvZ3RiN2NDTnJlVGo1SndvWUtjN0xjbVktOWRTSU0tQnJ6OTg3YkYxZkpYbFk?oc=5",
-   "breve": "Corrientes presentó su plan contra el dengue ante las lluvias y las inundaciones",
-   "auto": true
   }
  ],
  "puertos_uruguay": [
@@ -1461,7 +1461,7 @@
  "tapon_breve": "Sin alerta del SMN para la Capital en las próximas 48 horas. Con el río en 5,65 m, el riesgo de anegamiento depende de la intensidad de la lluvia.",
  "consultado": "27/11/2026, 03:25 h",
  "consulta_resultado": "sin cambios",
- "prensa_actualizada": "27/11/2026, 03:03 h",
+ "prensa_actualizada": "27/11/2026, 03:58 h",
  "ina_parana_breve": "El INA prevé el río casi estable en Corrientes unos 5 días y un nuevo repunte que podría acercarse a la alerta desde el 2/12.",
  "ina_uruguay_breve": "El INA prevé que Santo Tomé se acerque a la alerta entre el 26/11 y el 30/11, y Paso de los Libres la supere desde el 30/11."
 }
