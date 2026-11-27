@@ -4143,6 +4143,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-27,05,La Palmira,Estación La Palmira - Escuela N° 70,283902,0.2
 2026-11-27,06,La Palmira,Estación La Palmira - Escuela N° 70,283902,0
 2026-11-27,07,La Palmira,Estación La Palmira - Escuela N° 70,283902,2
+2026-11-27,08,La Palmira,Estación La Palmira - Escuela N° 70,283902,5
 2026-11-01,23,Caá Catí,Predio Ferial Sociedad Rural de Gral. Paz - Caá Catï,283903,0
 2026-11-02,00,Caá Catí,Predio Ferial Sociedad Rural de Gral. Paz - Caá Catï,283903,0
 2026-11-02,01,Caá Catí,Predio Ferial Sociedad Rural de Gral. Paz - Caá Catï,283903,0
@@ -4516,6 +4517,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-27,05,Caá Catí,Predio Ferial Sociedad Rural de Gral. Paz - Caá Catï,283903,0
 2026-11-27,06,Caá Catí,Predio Ferial Sociedad Rural de Gral. Paz - Caá Catï,283903,0
 2026-11-27,07,Caá Catí,Predio Ferial Sociedad Rural de Gral. Paz - Caá Catï,283903,0
+2026-11-27,08,Caá Catí,Predio Ferial Sociedad Rural de Gral. Paz - Caá Catï,283903,0
 2026-11-01,23,Portal Galarza,Portal Galarza,283904,0
 2026-11-02,03,Portal Galarza,Portal Galarza,283904,0
 2026-11-02,07,Portal Galarza,Portal Galarza,283904,0
@@ -4981,6 +4983,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-27,05,Itá Ibaté,Puerto Ita Ibate,283905,0.4
 2026-11-27,06,Itá Ibaté,Puerto Ita Ibate,283905,0
 2026-11-27,07,Itá Ibaté,Puerto Ita Ibate,283905,7.2
+2026-11-27,08,Itá Ibaté,Puerto Ita Ibate,283905,23.6
 2026-11-01,23,Corrientes Capital,ICAA,283906,0
 2026-11-02,00,Corrientes Capital,ICAA,283906,0
 2026-11-02,01,Corrientes Capital,ICAA,283906,0
@@ -5354,6 +5357,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-27,05,Corrientes Capital,ICAA,283906,0
 2026-11-27,06,Corrientes Capital,ICAA,283906,0
 2026-11-27,07,Corrientes Capital,ICAA,283906,0.2
+2026-11-27,08,Corrientes Capital,ICAA,283906,0.2
 2026-11-01,23,Santo Tomé,Santo Tomé –Corrientes,283907,0
 2026-11-02,00,Santo Tomé,Santo Tomé –Corrientes,283907,0
 2026-11-02,01,Santo Tomé,Santo Tomé –Corrientes,283907,0
@@ -5726,6 +5730,7 @@ fecha,hora,localidad,estacion,codigo,mm
 2026-11-27,05,Santo Tomé,Santo Tomé –Corrientes,283907,0
 2026-11-27,06,Santo Tomé,Santo Tomé –Corrientes,283907,0
 2026-11-27,07,Santo Tomé,Santo Tomé –Corrientes,283907,0
+2026-11-27,08,Santo Tomé,Santo Tomé –Corrientes,283907,0
 2026-11-01,23,Mercedes,Mercedes - Corrientes,283908,0
 2026-11-02,00,Mercedes,Mercedes - Corrientes,283908,0
 2026-11-02,01,Mercedes,Mercedes - Corrientes,283908,0
