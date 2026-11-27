@@ -1,5 +1,5 @@
 {
- "actualizado": "27/11/2026, 11:22 h",
+ "actualizado": "27/11/2026, 12:20 h",
  "dias": {
   "2026-11-02": [
    0,
@@ -906,6 +906,20 @@
    "min": null,
    "max": null,
    "texto": "Alerta roja (aviso a corto plazo) por lluvias intensas y tormentas, difundida por el COE de Corrientes (2026-0167-CP y 2026-0169-CP) con fuente del SMN, para la Capital el martes 24/11 de 07:40 a 10:35 h, ya vencida. La alerta naranja del SMN (70 a 100 mm posibles) terminó a las 14:59 h y rige una alerta amarilla de 15:00 a 20:59 h (lectura del SMN de las 14:37 h)."
+  },
+  "2026-11-27": {
+   "nivel": "amarillo",
+   "incluye_capital": true,
+   "zonas": "Berón de Astrada, Capital, Concepción, Curuzú Cuatiá, Empedrado, General Alvear, General Paz, Itatí, Ituzaingó, Mburucuyá, Mercedes, Paso de los Libres, Saladas, San Cosme, San Luis del Palmar, San Martín, San Miguel, San Roque, Santo Tomé, Sauce",
+   "desde": "27/11/2026, 10:39 h",
+   "hasta": "27/11/2026, 20:00 h",
+   "desde_iso": "2026-11-27T10:39:00-03:00",
+   "hasta_iso": "2026-11-27T20:00:00-03:00",
+   "emision": "27/11/2026, 10:39 h",
+   "emision_iso": "2026-11-27T10:39:00-03:00",
+   "min": 40,
+   "max": 70,
+   "texto": "Alerta amarilla por tormentas del Servicio Meteorológico Nacional, difundida por el COE de Corrientes, que incluye a la Capital hoy, viernes 27/11, de 10:39 a 20:00 h, con lluvias y tormentas algunas fuertes y 40 a 70 mm posibles."
   }
  },
  "rio": {
@@ -1668,6 +1682,6 @@
    "criterio": "Mañana el SMN prevé tormentas fuertes con 70 %: se usa el modelo más alto, ECMWF, con 52,9 mm (el promedio de los modelos es 35,2 mm). Estimación derivada, no una medición. El rango de la alerta (70 a 100 mm) es el escenario severo y no se usa como pronóstico central."
   }
  },
- "estado_alertas": "VERIFICADO_SIN_ALERTAS",
- "nota_alertas": "Sin alertas vigentes para la Capital. Alerta amarilla del 27/11 en otros departamentos, sin incluir a la Capital."
+ "estado_alertas": "VERIFICADO_CON_ALERTAS",
+ "nota_alertas": "Alerta amarilla por tormentas hoy, 27/11, para Corrientes Capital y otros 19 departamentos, de 10:39 a 20:00 h, con 40 a 70 mm posibles (SMN y COE). Otra alerta amarilla rige hasta las 22:00 h en Ituzaingó, Santo Tomé, San Martín, San Miguel, General Alvear y Paso de los Libres."
 }
