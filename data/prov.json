@@ -1,8 +1,8 @@
 {
  "estado_alertas": "VERIFICADO_CON_ALERTAS",
  "estado_verificado": {
-  "fecha": "27/11/2026, 06:15 h",
-  "fuente": "COE de Corrientes (26/11/2026, 21:09 h); el canal oficial del SMN no tenía alertas para Corrientes a las 19:57 h"
+  "fecha": "27/11/2026, 09:30 h",
+  "fuente": "COE de Corrientes (lectura de las 09:09 h); el canal oficial del SMN no mostraba alertas para Corrientes a las 08:38 h"
  },
  "met_archivo": {
   "nombre": "vigilancia_meteorologica_20261113_183508.json",
