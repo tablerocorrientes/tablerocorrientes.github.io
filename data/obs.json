@@ -10,7 +10,7 @@
   "6": 0,
   "7": 0,
   "8": 0.2,
-  "9": 0.2
+  "9": 0.25
  },
  "registros_icaa": {
   "0": 0,
@@ -33,15 +33,14 @@
   "5": 0,
   "6": 0,
   "7": 0,
-  "8": 0
+  "8": 0,
+  "9": 0.25
  },
  "indicador": "compuesto: máximo horario de ICAA y Corrientes 13805",
- "cobertura": {
-  "9": "solo ICAA"
- },
+ "cobertura": {},
  "ultima_hora": 9,
- "mm": 0.2,
+ "mm": 0.25,
  "estado": "llovizna",
- "ts": 1795781106509,
+ "ts": 1795782298598,
  "fuente": "SNIH, indicador compuesto (máximo horario de ICAA y Corrientes 13805)"
 }
