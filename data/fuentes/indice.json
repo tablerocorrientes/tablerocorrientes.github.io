@@ -1,6 +1,6 @@
 {
- "consultado": "27/11/2026, 19:30 h",
- "consultado_iso": "2026-11-27T19:30-03:00",
+ "consultado": "27/11/2026, 20:03 h",
+ "consultado_iso": "2026-11-27T20:03-03:00",
  "paginas": {
   "smn_alertas": {
    "url": "https://www.smn.gob.ar/alertas",
@@ -26,11 +26,10 @@
     "https://coe.corrientes.gob.ar/a/2026-0092-AT",
     "https://coe.corrientes.gob.ar/a/2026-0091-AT",
     "https://coe.corrientes.gob.ar/a/2026-0090-AT",
-    "https://coe.corrientes.gob.ar/a/2026-0089-AT",
     "https://coe.corrientes.gob.ar/a/2026-0029-NT"
    ],
    "estado": 200,
-   "caracteres": 3745,
+   "caracteres": 3481,
    "archivo": "data/fuentes/coe_inicio.txt"
   },
   "ina_reporte_diario": {
@@ -42,7 +41,7 @@
   "rioparana_alturas": {
    "url": "https://www.rioparana.com.ar",
    "estado": 200,
-   "caracteres": 11325,
+   "caracteres": 11324,
    "archivo": "data/fuentes/rioparana_alturas.txt"
   },
   "prefectura_alturas": {
@@ -99,7 +98,7 @@
   "coe_": {
    "url": "https://coe.corrientes.gob.ar/",
    "estado": 200,
-   "caracteres": 3745,
+   "caracteres": 3481,
    "archivo": "data/fuentes/coe_.txt"
   },
   "coe_a_2026_0169_CP": {

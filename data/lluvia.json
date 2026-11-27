@@ -1,5 +1,5 @@
 {
- "actualizado": "27/11/2026, 20:00 h",
+ "actualizado": "27/11/2026, 20:02 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
@@ -61,11 +61,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 1.0,
-   "ultimo": "0 mm a las 19 h"
+   "ultimo": "0 mm a las 20 h"
   },
   {
    "localidad": "Corrientes Capital (estación 13805)",
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "27/11/2026, 20:00 h",
+ "consultado": "27/11/2026, 20:02 h",
  "consulta_resultado": "datos nuevos"
 }
