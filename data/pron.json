@@ -3,7 +3,7 @@
  "metodo": "estimación derivada: promedio de modelos (Open-Meteo), calculado automáticamente; las tareas agregan el parte del SMN cuando corren",
  "estado_alertas": "VERIFICADO_CON_ALERTAS",
  "estado_verificado": {
-  "fecha": "27/11/2026, 03:15 h",
+  "fecha": "27/11/2026, 06:15 h",
   "fuente": "SMN y COE de Corrientes"
  },
  "met_archivo": {
@@ -644,7 +644,7 @@
   ]
  },
  "horario_act": "27/11/2026, 05:40 h",
- "consultado": "27/11/2026, 03:15 h",
+ "consultado": "27/11/2026, 06:15 h",
  "consulta_resultado": "sin cambios",
  "extendido": {
   "actualizado": "27/11/2026, 05:38 h",
