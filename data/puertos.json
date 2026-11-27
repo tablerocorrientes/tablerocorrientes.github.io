@@ -667,6 +667,22 @@
  "prensa": [
   {
    "fecha": "27/11/2026",
+   "medio": "LT7Noticias",
+   "titulo": "El río Uruguay crece en varias localidades y alcanzó los 10,75 metros en Santo Tomé",
+   "enlace": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQWldmaV8zTGdDZTVHdldrWXZQX1ZuS09tVUo5RS1DQmU0VUc5SC11X2pqbVQ3OHJUS0NFNENCa3Q5aUx6eF9KU2JPR19LaldOZWVURHV5TTNDalI0ellpVWY3ckxtRWlZUHJ1ZlV4blUtQVJQMHlsSGN2cGpzN2FNcUZsMG9nTVNVZW5aSEFDcDB4cHNHV3NPVU9ZbVE0SXhTSEZ0UUlMSmZnSjdzSnM3bHZQaDc0TUU?oc=5",
+   "breve": "El río Uruguay crece en varias localidades y alcanzó los 10,75 metros en Santo Tomé",
+   "auto": true
+  },
+  {
+   "fecha": "27/11/2026",
+   "medio": "LT7Noticias",
+   "titulo": "El Paraná creció casi un metro en menos de 24 horas en Ituzaingó y se acerca al nivel de alerta",
+   "enlace": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOeUg2VzFMTnNDZ0dVX1FocTRCNUJTcW1GazZIRE02LU1VeGxsN3ZVY0huajV5OFBoZWdUQ3NlS2s0TjdSX1BZTHBOYnFCWmZGcG5HcGJWXzRHUUZjUFl2bG5ZQzAzOHktNnVEcFY4QmpWbEx1RjVqVVlBYWZHM0g2bUxIWUJpaDBHcjVSNFFxZVI0ME1uZzBPMTZvY2JWckUzQVBrQUhKWHZYSTdhcHI2bDVNOFFfeDFOLXBiTGpRNlF6ZGhyNzg5Tw?oc=5",
+   "breve": "El Paraná creció casi un metro en menos de 24 horas en Ituzaingó y se acerca al nivel de alerta",
+   "auto": true
+  },
+  {
+   "fecha": "27/11/2026",
    "medio": "www.abc.com.py",
    "titulo": "El río Paraná se acerca a los 5 metros en el puerto de Ayolas",
    "enlace": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPeVpWc3FBcG1ld0t6NHVXRjhtT0NDSnJ5bnBlS0xlRmdldUdUM1pnZmtEU18tczUwQWlOcmc2c3BMb1dPdjBxV0VnSE0tUVFxWkFQLTdrYTdKc0I4RVFjSTBZalNaMHIzMmx0N19ZckVSRmFnLW9yWGx4ZWprMUxZXzY3T3VZdUcyNkMzRFEzWE1qTERHaGF2Sy1YUWMxbEU1THF6ZUp3ZTdtaVFhOV9lamZQV0dWbG5H?oc=5",
@@ -1128,22 +1144,6 @@
    "enlace": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQUFJ2WEQ2Vk5QMk5pZlpHa1dDNnRLZnJ4RUNTY1ZoNlZ2cjZnYWVRalFIZHhnTjdGTVJrUFdXUS1WTEJQLV93NUw2TVhTWVRpRllJVzlvVVJUei0wZnYtaUZqclJoSjh3U2lCeldacEtVbWd3UER2TUQ1S2lXeWtEM1JtMTdZYXkwd0ZyWTZJTjlQN2lvQ1dBdmFzQkdrWXJFSTRMa1ZFcElRS3N1cHptY1RhczhnamdBOHJNck92MVcycjZYTU5yQkppX3oxNWhs?oc=5",
    "breve": "Yacyretá abrió nuevamente las 18 compuertas y emitió una alerta hidrológica por la crecida del Paraná",
    "auto": true
-  },
-  {
-   "fecha": "25/11/2026",
-   "medio": "Diario El Libertador de Corrientes",
-   "titulo": "Yacyretá abrió las 18 compuertas tras registrar caudales récord",
-   "enlace": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNdy1RMlpQQ19ES3hVVGl1VDhld0s2N3BoelM3WjRGNGZVdG9BejBQQmF6cXd6UWpQYXZneEkxV2d2YWRNbnBqY3BvdUVhMWxlQ1VBa2FnSi0wajVmNWswSlNreV9MMmZ3YWF1TXktanFKbDdLM3pFZXhVTG9fUmNsMlphR2hjUjNhQUR3bHlkREllLTBzNzhoa3FFUkZ2Wmk5UlpiZA?oc=5",
-   "breve": "Yacyretá abrió las 18 compuertas tras registrar caudales récord",
-   "auto": true
-  },
-  {
-   "fecha": "24/11/2026",
-   "medio": "El Cronista",
-   "titulo": "Se aproxima una tormenta este martes 24 de noviembre: habrá lluvias de hasta 100 mm, ráfagas de hasta 90 km/h y posible caída de granizo en Misiones y Corrientes",
-   "enlace": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxPTG43NHdnVFlfZnFHU2IzUE5TdEt6aWR1R2d5bEpsTnZ6bVBQd19hVDVmMnc2ZlA3WDJ5YWNreHNvak1tVnVFZ1I2WUtnVEtqZGpBMjR0Y2dOSEtsVkZwbjZ1X2tzSFdzdmVROUxCbHlqanlacUxiaV9WUVBfSkV4RFhYV0xiRXdGMWVjdnM1VDVNYlFkYkJyN2dWdC1GUWNDNDR2b1RnZE1Jb0hnY195TGJuZUtpZWs5elVzQzN4MUxtb3JCOVNKazBxN1hKcktZeThqRGtpbi0yZFVDVkpvV3VWbkxnMFVDN1QtVWJyaWhKS1ptZmNNXzExRkZBRVBsSXJ0MHpSMzIzaHhIUjUzRTZzdmxDTFR3Z2ZkUnNvWEUxa0tYQk5nMNIBwwJBVV95cUxQbmktSkFlR0tDeTBxOGZEU1FycGlHNFMzb0FqNTdhUGJ3bmxqTGVKbzZhZ19MS2k4blU4cHNhemhaN19PazUzeU5HejJLYVI5aExrWlBwU1VHdGQwVDR5Z1RVNGpfZHlFMEdheE9sbHVNdU5fRk9hT1BWdHVVX01NTG9NOUthSUVkZ3hoUXRLeHRpN2xGeXdhOXpTbmV2Wi0yZlZqY1o0YU84aVFkc3Z2VkdRSEg1Y2Nlb2t4bE9JOU5SU0hUdEhiMHZDMkU1dlU0dVpOOEJ0NWg1bld0OGtrODVIdlo4bVNMc0xYYUtMZzZFU1p3Q2RGMVYxMGJXQmJ3ckJoUm4ybkxlUGpXZmRyamdFWE9sU1RxZDdpRmJGSVczX0N6RVV6WS02Wk1ydEhMSHFfRGFjOEw5bXp1bmh4cEF2cw?oc=5",
-   "breve": "Se aproxima una tormenta este martes 24 de noviembre: habrá lluvias de hasta 100 mm, ráfagas de hasta 90 km/h y posible caída de granizo en Misiones y Corrientes",
-   "auto": true
   }
  ],
  "puertos_uruguay": [
@@ -1458,10 +1458,10 @@
  "eby_resumen_anteriores": "Entre el 24/10 y el 3/11 la EBY informó caudales de hasta unos 34.500 m³/s, el doble de lo habitual (octubre fue el mes más caudaloso de la serie 1971-2025), con Ituzaingó por encima de 4 m. El paso Ituzaingó–Ayolas estuvo cerrado desde el 12/10 y reabrió el 7/11. La EBY advirtió que El Niño podría extenderse hasta los primeros meses de 2027.",
  "nota_breve": "Paraná en Corrientes: 5,67 m (27/11, 12:00 h), subiendo y 83 cm debajo de la alerta (6,50 m). Goya y Esquina siguen sobre la alerta. El INA prevé el río casi estable en Corrientes 4 a 5 días y un nuevo repunte que podría acercarse a la alerta desde el 2/12.",
  "uruguay_breve": "Al 27/11, 07:00 h: Santo Tomé 10,75 m (subió 115 cm) y Paso de los Libres 6,38 m (subió 58 cm), ambos bajo la alerta (Salto Grande). El INA prevé que Santo Tomé supere la alerta desde el 28/11 y Paso de los Libres desde el 29/11, con posible evacuación entre el 30/11 y el 4/12.",
- "tapon_breve": "Alerta por tormentas para la Capital el viernes 27/11: amarilla de 13 a 21 h (40 a 70 mm), luego amarilla de 13 a 21 h (40 a 70 mm). Con el río en 5,67 m, una lluvia fuerte puede superar la capacidad de los desagües.",
+ "tapon_breve": "Alerta por tormentas para la Capital el viernes 27/11: amarilla de 20 a 21 h (15 a 30 mm). Con el río en 5,67 m, una lluvia fuerte puede superar la capacidad de los desagües.",
  "consultado": "27/11/2026, 18:01 h",
  "consulta_resultado": "sin cambios",
- "prensa_actualizada": "27/11/2026, 17:17 h",
+ "prensa_actualizada": "27/11/2026, 18:23 h",
  "ina_parana_breve": "El INA prevé el río casi estable en Corrientes 4 a 5 días y un nuevo repunte que podría acercarse a la alerta desde el 2/12.",
  "ina_uruguay_breve": "El INA prevé que Santo Tomé supere la alerta desde el 28/11 y Paso de los Libres desde el 29/11, con posible evacuación entre el 30/11 y el 4/12."
 }

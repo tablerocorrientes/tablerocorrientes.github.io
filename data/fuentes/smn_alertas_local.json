@@ -1,6 +1,6 @@
 {
- "consultado": "27/11/2026, 17:56 h",
- "consultado_iso": "2026-11-27T17:56:11-03:00",
+ "consultado": "27/11/2026, 18:17 h",
+ "consultado_iso": "2026-11-27T18:17:33-03:00",
  "fuente": "Servicio Meteorológico Nacional, canal oficial de alertas y avisos (CAP)",
  "resultado": "con alertas",
  "alertas": [
@@ -32,55 +32,16 @@
     "Sauce"
    ],
    "incluye_capital": true,
-   "desde": "27/11/2026, 13:38 h",
+   "desde": "27/11/2026, 20:45 h",
    "hasta": "27/11/2026, 20:59 h",
-   "desde_iso": "2026-11-27T13:38:37-03:00",
+   "desde_iso": "2026-11-27T20:45:07-03:00",
    "hasta_iso": "2026-11-27T20:59:59-03:00",
-   "emision": "27/11/2026, 13:38 h",
+   "emision": "27/11/2026, 20:45 h",
    "rango_mm": [
-    40,
-    70
+    15,
+    30
    ],
-   "texto": "Tormentas. El área será afectada por lluvias y tormentas, algunas fuertes. Las mismas podrán estar acompañadas principalmente por abundantes precipitaciones en cortos períodos, frecuente actividad eléctrica, ocasional caída de granizo y ráfagas intensas. Se esperan valores de precipitación acumulada entre 40 y 70 mm, que pueden ser superados en forma puntual."
-  },
-  {
-   "tipo": "aviso a muy corto plazo",
-   "nivel": "amarillo",
-   "fenomeno": "tormentas",
-   "zonas": "Berón de Astrada - Capital - Concepción - Curuzú Cuatiá - Empedrado - General Alvear - General Paz - Itatí - Ituzaingó - Mburucuyá - Mercedes - Paso de los Libres - Saladas - San Cosme - San Luis del Palmar - San Martín - San Miguel - San Roque - Santo Tomé - Sauce",
-   "departamentos": [
-    "Berón de Astrada",
-    "Capital",
-    "Concepción",
-    "Curuzú Cuatiá",
-    "Empedrado",
-    "General Alvear",
-    "General Paz",
-    "Itatí",
-    "Ituzaingó",
-    "Mburucuyá",
-    "Mercedes",
-    "Paso de los Libres",
-    "Saladas",
-    "San Cosme",
-    "San Luis del Palmar",
-    "San Martín",
-    "San Miguel",
-    "San Roque",
-    "Santo Tomé",
-    "Sauce"
-   ],
-   "incluye_capital": true,
-   "desde": "27/11/2026, 13:38 h",
-   "hasta": "27/11/2026, 20:59 h",
-   "desde_iso": "2026-11-27T13:38:38-03:00",
-   "hasta_iso": "2026-11-27T20:59:59-03:00",
-   "emision": "27/11/2026, 13:38 h",
-   "rango_mm": [
-    40,
-    70
-   ],
-   "texto": "Tormentas. El área será afectada por lluvias y tormentas, algunas fuertes. Las mismas podrán estar acompañadas principalmente por abundantes precipitaciones en cortos períodos, frecuente actividad eléctrica, ocasional caída de granizo y ráfagas intensas. Se esperan valores de precipitación acumulada entre 40 y 70 mm, que pueden ser superados en forma puntual."
+   "texto": "Tormentas. Las áreas de las provincias de Buenos Aires y La Pampa pueden ser afectadas por tormentas aisladas de variada intensidad, algunas puntualmente fuertes. Las mismas podrán estar acompañadas por lluvias intensas en cortos períodos, granizo e intensas ráfagas. Se esperan valores de precipitación acumulada entre 15 y 30 mm, que pueden ser superados en forma puntual.  Por otro lado, las áreas"
   }
  ]
 }
