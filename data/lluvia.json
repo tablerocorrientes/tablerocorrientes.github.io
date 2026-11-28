@@ -1,5 +1,5 @@
 {
- "actualizado": "28/11/2026, 06:22 h",
+ "actualizado": "28/11/2026, 06:38 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
@@ -1228,7 +1228,7 @@
    "estacion": "RMA08_BPL - Bonpland",
    "codigo": 220261,
    "valores": [
-    0.2,
+    0,
     0,
     0,
     0,
@@ -1254,7 +1254,7 @@
     0,
     null
    ],
-   "total": 0.2,
+   "total": 0,
    "ultimo": "0 mm a las 06 h"
   },
   {
@@ -1353,11 +1353,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 1.4,
-   "ultimo": "0 mm a las 05 h"
+   "ultimo": "0 mm a las 06 h"
   },
   {
    "localidad": "San Isidro",
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "28/11/2026, 06:22 h",
+ "consultado": "28/11/2026, 06:38 h",
  "consulta_resultado": "datos nuevos"
 }

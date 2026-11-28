@@ -1,37 +1,13 @@
 {
  "dia": "2026-11-28",
- "registros": {
-  "0": 0,
-  "1": 0,
-  "2": 0,
-  "3": 0,
-  "4": 0,
-  "5": 0,
-  "6": 0.25
- },
- "registros_icaa": {
-  "0": 0,
-  "1": 0,
-  "2": 0,
-  "3": 0,
-  "4": 0,
-  "5": 0,
-  "6": 0
- },
- "registros_13805": {
-  "0": 0,
-  "1": 0,
-  "2": 0,
-  "3": 0,
-  "4": 0,
-  "5": 0,
-  "6": 0.25
- },
+ "registros": {},
+ "registros_icaa": {},
+ "registros_13805": {},
  "indicador": "compuesto: máximo horario de ICAA y Corrientes 13805",
  "cobertura": {},
- "ultima_hora": 6,
- "mm": 0.25,
- "estado": "llovizna",
- "ts": 1795857754496,
+ "ultima_hora": null,
+ "mm": null,
+ "estado": null,
+ "ts": 1795858730966,
  "fuente": "SNIH, indicador compuesto (máximo horario de ICAA y Corrientes 13805)"
 }
