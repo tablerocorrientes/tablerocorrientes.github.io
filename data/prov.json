@@ -11,7 +11,7 @@
   "fecha": "13/11/2026, 18:35 h"
  },
  "met_revision": "aae6c54b1ab7086a927cf2e4bb8e34a53a584e781ba42ff90ab9d653046ddc38",
- "actualizado": "28/11/2026, 02:35 h",
+ "actualizado": "28/11/2026, 08:28 h",
  "localidades": [
   {
    "n": "Corrientes Capital",
@@ -103,10 +103,10 @@
    "dep": "Esquina",
    "ref": "Esquina",
    "rio": "Paraná",
-   "altura": 5.15,
+   "altura": 5.14,
    "alerta": 5.0,
    "evac": 5.4,
-   "reg": "28/11/2026, 00:00 h (Prefectura Naval Argentina, vía rioparana.com.ar)"
+   "reg": "28/11/2026, 06:00 h (Prefectura Naval Argentina, vía rioparana.com.ar)"
   },
   {
    "n": "Pueblo Libertador",
@@ -161,7 +161,7 @@
    "altura": 5.33,
    "alerta": 5.2,
    "evac": 5.7,
-   "reg": "28/11/2026, 00:00 h (Prefectura Naval Argentina, vía rioparana.com.ar)"
+   "reg": "28/11/2026, 06:00 h (Prefectura Naval Argentina, vía rioparana.com.ar)"
   },
   {
    "n": "Colonia Carolina",
@@ -625,8 +625,8 @@
     "horas": 0
    },
    "manana": {
-    "mm": 0.3,
-    "horas": 0
+    "mm": 0.4,
+    "horas": 1
    },
    "smn": "Alerta amarilla del SMN por tormenta para Corrientes desde las 12:00 h del 17/11 hasta las 11:59 h del 18/11, sin departamentos detallados. Alerta amarilla del COE de Corrientes (fuente SMN) que incluye a esta ciudad el miércoles 18/11 de 05:00 a 12:00 h, con 30 a 70 mm posibles.",
    "modelos": {
@@ -671,7 +671,7 @@
     "horas": 0
    },
    "manana": {
-    "mm": 0.2,
+    "mm": 0.1,
     "horas": 0
    },
    "smn": "Alerta amarilla del SMN por tormenta para Corrientes desde las 12:00 h del 17/11 hasta las 11:59 h del 18/11, sin departamentos detallados. Alerta amarilla del COE de Corrientes (fuente SMN) que incluye a esta ciudad el miércoles 18/11 de 05:00 a 12:00 h, con 30 a 70 mm posibles.",
@@ -1143,7 +1143,7 @@
    }
   ]
  },
- "pron_actualizado": "28/11/2026, 07:49 h",
+ "pron_actualizado": "28/11/2026, 08:28 h",
  "smn": [],
  "nota_alertas": "alerta vencida sin reconfirmación"
 }
