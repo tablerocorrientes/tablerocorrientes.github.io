@@ -1,6 +1,6 @@
 {
- "consultado": "28/11/2026, 08:56 h",
- "consultado_iso": "2026-11-28T08:56-03:00",
+ "consultado": "28/11/2026, 08:58 h",
+ "consultado_iso": "2026-11-28T08:58-03:00",
  "paginas": {
   "smn_alertas": {
    "url": "https://www.smn.gob.ar/alertas",
@@ -130,6 +130,50 @@
    "archivo": "data/fuentes/coe_a_2026_0093_AT.txt"
   }
  },
+ "pedidas": {
+  "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPT1BjeWx5MVNwUko2MHl1R1pJbU5ZRjliV3BHZ0JzejRIc0hqajYzYjNNMkQyblFadnFzRzhDNnZiT0xqLUxXSWRqbWpjSVNqOGRoeU5DTkU5b1hmd1F3VmFpUElKNzV5bzlRZlRrblVPSFlxWFA4Qy1MYXlQUXZPTFVWckVmQXRVeHZYU3puaTFVVEM0Mm1RLUxNTl9yWmlITFFBNDJuZ0Jsdl81Vk0zZnlZWlhEUWVVVDhrNWo2eXdKMXVtdUZaWXNMRVBzeVdaNEFqUVl0TW1fVDJu?oc=5": {
+   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPT1BjeWx5MVNwUko2MHl1R1pJbU5ZRjliV3BHZ0JzejRIc0hqajYzYjNNMkQyblFadnFzRzhDNnZiT0xqLUxXSWRqbWpjSVNqOGRoeU5DTkU5b1hmd1F3VmFpUElKNzV5bzlRZlRrblVPSFlxWFA4Qy1MYXlQUXZPTFVWckVmQXRVeHZYU3puaTFVVEM0Mm1RLUxNTl9yWmlITFFBNDJuZ0Jsdl81Vk0zZnlZWlhEUWVVVDhrNWo2eXdKMXVtdUZaWXNMRVBzeVdaNEFqUVl0TW1fVDJu?oc=5",
+   "estado": 200,
+   "caracteres": 15,
+   "archivo": "data/fuentes/web/news_google_com_rss_articles_CBMi3AFBVV95cUxPT1BjeWx5MVNwUko2MHl1R1pJbU5ZRjliV3BHZ0JzejRIc.txt"
+  },
+  "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNVkVQNlJBQnJEdDN2TTdodXduV1pMZjlSWnJlU1VBb3FsalpNRW0zMmN4RTB0Q3RpSHpzT0tCVmJmZ1J4X2wzd2xEd1UxZ0gyMC1JYjhOeGVvYndTamh1TDRnTERYWDNlYmJrTm9EaTJIQUZDNHdCaHRTZVRNYWdKR0xScTFOd0FobFAzZU16YjJPamc3SzhfV0hDVWI4bjVGOHhtMDlrN0UwNzZBZE0wM1hRaVh4ZENvSEx1NTlCdU15RzNCVHRsR1ROMmN4NENWRFNhZEtkZktWaEE1ZldsQw?oc=5": {
+   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNVkVQNlJBQnJEdDN2TTdodXduV1pMZjlSWnJlU1VBb3FsalpNRW0zMmN4RTB0Q3RpSHpzT0tCVmJmZ1J4X2wzd2xEd1UxZ0gyMC1JYjhOeGVvYndTamh1TDRnTERYWDNlYmJrTm9EaTJIQUZDNHdCaHRTZVRNYWdKR0xScTFOd0FobFAzZU16YjJPamc3SzhfV0hDVWI4bjVGOHhtMDlrN0UwNzZBZE0wM1hRaVh4ZENvSEx1NTlCdU15RzNCVHRsR1ROMmN4NENWRFNhZEtkZktWaEE1ZldsQw?oc=5",
+   "estado": 200,
+   "caracteres": 15,
+   "archivo": "data/fuentes/web/news_google_com_rss_articles_CBMi4AFBVV95cUxNVkVQNlJBQnJEdDN2TTdodXduV1pMZjlSWnJlU1VBb3Fsa.txt"
+  },
+  "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNelg0SVF6N1BMVzQ1c3hEVjNNNFllYjJHSm03bGJuY2RTd3RkaDBvbnpaR25tS0ZkQUtzOGY1MVhvNVJ1YnJ2b1BpT0loME5TREhMLVRHYmpyLW5OYXlTTUFNeDdKZFhmb1lfWVRNQVRmV1cwemxnOVYwa1U4c3YtNUZhcDBRTzUxS2c3aGVGQkNma18yUnJ0STRVVmZxMUJkX1JhbGVZTWlpalpTak44YkU4OWY3NDh1cXdMYVp3OVY5amJlTXkxWng0M2pRNEhQTzRaSDlB0gHbAUFVX3lxTE4yTjBkdXYtaDZ1d0REOXhDSllFTlcwUXk1cVIyTjQ5aEo0dVNpRlNCbkZ4TE04NS1hd1NfcDZQUmJsSUhYOG9zMHpOTGpVRlVMYXBDVDRCYkZBbU1wSUJ2SWtPZEZLS2lINEtYWnVGZ1UxNlBqd3V2M2dBQ0diMnhwcWVsNWNCZzZPZEFJOS1GMjdOV2hlbjdhb1NrRVNfb2NhdnV2U2Q1UzRjRU16NXBLbXFaVWhkdVRLNDB5elVZSHJnQV9ZSUhYY3R2N3lOcG96VEktLVNXZ2hJZw?oc=5": {
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNelg0SVF6N1BMVzQ1c3hEVjNNNFllYjJHSm03bGJuY2RTd3RkaDBvbnpaR25tS0ZkQUtzOGY1MVhvNVJ1YnJ2b1BpT0loME5TREhMLVRHYmpyLW5OYXlTTUFNeDdKZFhmb1lfWVRNQVRmV1cwemxnOVYwa1U4c3YtNUZhcDBRTzUxS2c3aGVGQkNma18yUnJ0STRVVmZxMUJkX1JhbGVZTWlpalpTak44YkU4OWY3NDh1cXdMYVp3OVY5amJlTXkxWng0M2pRNEhQTzRaSDlB0gHbAUFVX3lxTE4yTjBkdXYtaDZ1d0REOXhDSllFTlcwUXk1cVIyTjQ5aEo0dVNpRlNCbkZ4TE04NS1hd1NfcDZQUmJsSUhYOG9zMHpOTGpVRlVMYXBDVDRCYkZBbU1wSUJ2SWtPZEZLS2lINEtYWnVGZ1UxNlBqd3V2M2dBQ0diMnhwcWVsNWNCZzZPZEFJOS1GMjdOV2hlbjdhb1NrRVNfb2NhdnV2U2Q1UzRjRU16NXBLbXFaVWhkdVRLNDB5elVZSHJnQV9ZSUhYY3R2N3lOcG96VEktLVNXZ2hJZw?oc=5",
+   "estado": 200,
+   "caracteres": 15,
+   "archivo": "data/fuentes/web/news_google_com_rss_articles_CBMi1gFBVV95cUxNelg0SVF6N1BMVzQ1c3hEVjNNNFllYjJHSm03bGJuY2RTd.txt"
+  },
+  "https://news.google.com/rss/articles/CBMivwFBVV95cUxPeElIT3B2bmZHWG5FZkFVU0xETlo3Y2J6MDFFeEJLY0NOaDB1bjUxSC1RYy1LRkFuYXJvSFRGb0M4bnRhdWd4TGUtbFJ1bGxnMGFzNnJ4ZGozNXM4U0FWcm5HTHhIM2VoSzJOSUFxbzl0dlhFVFhONDVNbDBSSjBDYkF2R3F4bE9NR2Jac1pLWEVHQTNkdWVBcE9Ib2hjNUE2Rl91QmViUzVvTWRlbXRuMDh5am9QWklZZU1xcW5RSdIBtwFBVV95cUxNSDlqT1Z4bzRjOE5MRXhRVnEyZDlkU0lkdjNIVGl2UHdtWVIxZTRYcUx0RnFHdjY4c0lFNG4xeUNqMFVMdUlYeVlfNXMxckNyZ0d3M0hMWjJPVTZWUkFIb2xNRmpucFBYVWQ2Ym9LZG5GUGNZaVRIMThwaGQtZnRUbFdFWUZhbDZmOWt5a19GZmZUUVZUVXVUbmpod3BNTjhYVTVhbXZaRmVzX3J3b09LQTRKc0tyN00?oc=5": {
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPeElIT3B2bmZHWG5FZkFVU0xETlo3Y2J6MDFFeEJLY0NOaDB1bjUxSC1RYy1LRkFuYXJvSFRGb0M4bnRhdWd4TGUtbFJ1bGxnMGFzNnJ4ZGozNXM4U0FWcm5HTHhIM2VoSzJOSUFxbzl0dlhFVFhONDVNbDBSSjBDYkF2R3F4bE9NR2Jac1pLWEVHQTNkdWVBcE9Ib2hjNUE2Rl91QmViUzVvTWRlbXRuMDh5am9QWklZZU1xcW5RSdIBtwFBVV95cUxNSDlqT1Z4bzRjOE5MRXhRVnEyZDlkU0lkdjNIVGl2UHdtWVIxZTRYcUx0RnFHdjY4c0lFNG4xeUNqMFVMdUlYeVlfNXMxckNyZ0d3M0hMWjJPVTZWUkFIb2xNRmpucFBYVWQ2Ym9LZG5GUGNZaVRIMThwaGQtZnRUbFdFWUZhbDZmOWt5a19GZmZUUVZUVXVUbmpod3BNTjhYVTVhbXZaRmVzX3J3b09LQTRKc0tyN00?oc=5",
+   "estado": 200,
+   "caracteres": 15,
+   "archivo": "data/fuentes/web/news_google_com_rss_articles_CBMivwFBVV95cUxPeElIT3B2bmZHWG5FZkFVU0xETlo3Y2J6MDFFeEJLY0NOa.txt"
+  },
+  "https://news.google.com/rss/articles/CBMiswFBVV95cUxQajlDRG9Qc2U1ME1iaHpRSjBFeXhDRktBdzBOR1Q0QXN3QUxZRUtuYjZGME9FREViNks2VEpTV3FXNjA1RjJncVZVdnN2Q3J4eVU0WnJfdTBqdFhUa05faGhVbWpCQW14dzFKTEN0SVFFMjNQQUUtNTQ3eHZiWjFjNUNYWGxpWGZSTndxUnpZbXBBYmFVdm5KN0dob0VQS3NoZ0pHZF9xTFh2amd4ZFNZbHdSOA?oc=5": {
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQajlDRG9Qc2U1ME1iaHpRSjBFeXhDRktBdzBOR1Q0QXN3QUxZRUtuYjZGME9FREViNks2VEpTV3FXNjA1RjJncVZVdnN2Q3J4eVU0WnJfdTBqdFhUa05faGhVbWpCQW14dzFKTEN0SVFFMjNQQUUtNTQ3eHZiWjFjNUNYWGxpWGZSTndxUnpZbXBBYmFVdm5KN0dob0VQS3NoZ0pHZF9xTFh2amd4ZFNZbHdSOA?oc=5",
+   "estado": 200,
+   "caracteres": 15,
+   "archivo": "data/fuentes/web/news_google_com_rss_articles_CBMiswFBVV95cUxQajlDRG9Qc2U1ME1iaHpRSjBFeXhDRktBdzBOR1Q0QXN3Q.txt"
+  },
+  "https://news.google.com/rss/articles/CBMitwFBVV95cUxOeHVmT3VXNGx2T214SjZjOGRNZ0t5clZkaVhLZUd0Y1d2TlRnY3kzTk9aQmgwTVh4RzEzQURCZ1pvMDdWeHVoR3I2aV9RcFBFZ1FJcS1OSUYzaTZOdFdOSUVzc2sxdTRTWmh0NHhPelM2VnVSaFFxRXd3X3FDeW9YVk9TYjNMR3ZqVWxzRjFlOUtianZ1eERCOGFBYng5SmhJRTNVMjVaQ1B0eWQ0RHRTYWljVlhIQUk?oc=5": {
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOeHVmT3VXNGx2T214SjZjOGRNZ0t5clZkaVhLZUd0Y1d2TlRnY3kzTk9aQmgwTVh4RzEzQURCZ1pvMDdWeHVoR3I2aV9RcFBFZ1FJcS1OSUYzaTZOdFdOSUVzc2sxdTRTWmh0NHhPelM2VnVSaFFxRXd3X3FDeW9YVk9TYjNMR3ZqVWxzRjFlOUtianZ1eERCOGFBYng5SmhJRTNVMjVaQ1B0eWQ0RHRTYWljVlhIQUk?oc=5",
+   "estado": 200,
+   "caracteres": 15,
+   "archivo": "data/fuentes/web/news_google_com_rss_articles_CBMitwFBVV95cUxOeHVmT3VXNGx2T214SjZjOGRNZ0t5clZkaVhLZUd0Y1d2T.txt"
+  },
+  "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPN181ajliVFptNXp5bGhDMmZWSl9WWWplOWNjRU12bnJjaXlNX0N6SjNrZG5sOHE3bWJHeEhtd3lOWmdfME02U054SFh3VUlPSDJnOUVzX0poOG0yZ3JsMWNCUVl0V043UGVPXzJJNjRnVldiQ2xLWVZsd2xOVFN0WFk5V2l5UEoxV2xxTnMzRnhVSEdsSVBOcnlobDZfR0pGSFY2Z3ZucVpMUDhWODh3N0lNZHRsajFwUzNGQ254b0xlQTB3VFhGUW1iMTBSMmdyLUxWSHc4dnk4U2t0QnNTbTRXUQ?oc=5": {
+   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPN181ajliVFptNXp5bGhDMmZWSl9WWWplOWNjRU12bnJjaXlNX0N6SjNrZG5sOHE3bWJHeEhtd3lOWmdfME02U054SFh3VUlPSDJnOUVzX0poOG0yZ3JsMWNCUVl0V043UGVPXzJJNjRnVldiQ2xLWVZsd2xOVFN0WFk5V2l5UEoxV2xxTnMzRnhVSEdsSVBOcnlobDZfR0pGSFY2Z3ZucVpMUDhWODh3N0lNZHRsajFwUzNGQ254b0xlQTB3VFhGUW1iMTBSMmdyLUxWSHc4dnk4U2t0QnNTbTRXUQ?oc=5",
+   "estado": 200,
+   "caracteres": 15,
+   "archivo": "data/fuentes/web/news_google_com_rss_articles_CBMi4wFBVV95cUxPN181ajliVFptNXp5bGhDMmZWSl9WWWplOWNjRU12bnJja.txt"
+  }
+ },
  "portales": {
   "munired_municipio_corrientes": {
    "url": "https://munired.mcypcorrientes.gob.ar/noticias/corrientes",
@@ -162,36 +206,5 @@
    "archivo": "data/fuentes/portales/eby_noticias.txt"
   }
  },
- "pedidas": {
-  "https://www.ellitoral.com.ar/sociedad/2026-11-25-18-26-0-yacyreta-abrio-nuevamente-las-18-compuertas-del-vertedero-principal": {
-   "url": "https://www.ellitoral.com.ar/sociedad/2026-11-25-18-26-0-yacyreta-abrio-nuevamente-las-18-compuertas-del-vertedero-principal",
-   "estado": 200,
-   "caracteres": 3908,
-   "archivo": "data/fuentes/web/ellitoral_com_ar_sociedad_2026_11_25_18_26_0_yacyreta_abrio_nuevamente_las_18_compuertas_d.txt"
-  },
-  "https://www.eby.gov.py/alerta-hidrologico-n07-noviembre/": {
-   "url": "https://www.eby.gov.py/alerta-hidrologico-n07-noviembre/",
-   "estado": 200,
-   "caracteres": 6420,
-   "archivo": "data/fuentes/web/eby_gov_py_alerta_hidrologico_n07_noviembre.txt"
-  },
-  "https://examedia.com.ar/portada/post/88307200": {
-   "url": "https://examedia.com.ar/portada/post/88307200",
-   "estado": 200,
-   "caracteres": 4093,
-   "archivo": "data/fuentes/web/examedia_com_ar_portada_post_88307200.txt"
-  },
-  "https://www.apfdigital.com.ar/noticias/2026/11/26/480696-yacyreta-volvio-a-abrir-compuertas-y-emitio-una-alerta-hidrologica-por-la-crecida-del-parana": {
-   "url": "https://www.apfdigital.com.ar/noticias/2026/11/26/480696-yacyreta-volvio-a-abrir-compuertas-y-emitio-una-alerta-hidrologica-por-la-crecida-del-parana",
-   "estado": 200,
-   "caracteres": 6090,
-   "archivo": "data/fuentes/web/apfdigital_com_ar_noticias_2026_11_26_480696_yacyreta_volvio_a_abrir_compuertas_y_emitio_u.txt"
-  },
-  "https://www.diarioepoca.com/1395909-corrientes-siguen-1300-desplazados-y-esperan-un-repunte-del-rio-parana": {
-   "url": "https://www.diarioepoca.com/1395909-corrientes-siguen-1300-desplazados-y-esperan-un-repunte-del-rio-parana",
-   "estado": "error",
-   "detalle": "HTTP Error 404: NOT FOUND"
-  }
- },
- "pedidas_consultado": "26/11/2026, 08:59 h"
+ "pedidas_consultado": "28/11/2026, 08:58 h"
 }
