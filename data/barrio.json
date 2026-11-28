@@ -1682,6 +1682,6 @@
    "criterio": "Mañana el SMN prevé tormentas fuertes con 70 %: se usa el modelo más alto, ECMWF, con 52,9 mm (el promedio de los modelos es 35,2 mm). Estimación derivada, no una medición. El rango de la alerta (70 a 100 mm) es el escenario severo y no se usa como pronóstico central."
   }
  },
- "estado_alertas": "VERIFICADO_CON_ALERTAS",
- "nota_alertas": "Alerta amarilla por tormentas hoy, 27/11, para Corrientes Capital y otros 19 departamentos, de 10:39 a 20:00 h, con 40 a 70 mm posibles (SMN y COE). Otra alerta amarilla rige hasta las 22:00 h en Ituzaingó, Santo Tomé, San Martín, San Miguel, General Alvear y Paso de los Libres."
+ "estado_alertas": "NO_VERIFICADO",
+ "nota_alertas": "alerta vencida sin reconfirmación"
 }

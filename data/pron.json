@@ -1,7 +1,7 @@
 {
  "actualizado": "27/11/2026, 23:54 h",
  "metodo": "estimación derivada: promedio de modelos (Open-Meteo), calculado automáticamente; las tareas agregan el parte del SMN cuando corren",
- "estado_alertas": "VERIFICADO_CON_ALERTAS",
+ "estado_alertas": "NO_VERIFICADO",
  "estado_verificado": {
   "fecha": "27/11/2026, 21:09 h",
   "fuente": "SMN (canal oficial de alertas, lectura de las 20:57 h) y COE de Corrientes (lectura de las 20:40 h)"
@@ -13,26 +13,7 @@
   "fecha": "13/11/2026, 18:35 h"
  },
  "met_revision": "aae6c54b1ab7086a927cf2e4bb8e34a53a584e781ba42ff90ab9d653046ddc38",
- "smn": [
-  {
-   "id_oficial": null,
-   "tipo": "alerta",
-   "aviso": "Alerta amarilla por tormentas",
-   "nivel": "amarillo",
-   "fenomeno": "Tormentas",
-   "rango_mm": null,
-   "zonas": "General Alvear, Ituzaingó, Paso de los Libres, San Martín, San Miguel, Santo Tomé",
-   "desde": "27/11/2026, 06:00 h",
-   "hasta": "27/11/2026, 22:00 h",
-   "desde_iso": "2026-11-27T06:00:00-03:00",
-   "hasta_iso": "2026-11-27T22:00:00-03:00",
-   "emision": "26/11/2026, 19:40 h",
-   "incluye_corrientes": true,
-   "incluye_capital": false,
-   "url": "https://coe.corrientes.gob.ar/",
-   "origen": "COE de Corrientes"
-  }
- ],
+ "smn": [],
  "ciudades": {
   "Corrientes Capital": {
    "hoy": {
@@ -644,8 +625,8 @@
   ]
  },
  "horario_act": "27/11/2026, 23:54 h",
- "consultado": "27/11/2026, 21:09 h",
- "consulta_resultado": "datos nuevos",
+ "consultado": "28/11/2026, 00:10 h",
+ "consulta_resultado": "sin alerta ni lluvia",
  "extendido": {
   "actualizado": "27/11/2026, 23:54 h",
   "aviso": "Pronóstico extendido informativo. No se usa en los cálculos del simulador.",
@@ -1433,5 +1414,5 @@
    }
   }
  },
- "nota_alertas": "Alerta amarilla por tormentas hoy, 27/11, para Corrientes Capital y otros 19 departamentos, de 10:39 a 20:00 h, con 40 a 70 mm posibles (SMN y COE). Otra alerta amarilla rige hasta las 22:00 h en Ituzaingó, Santo Tomé, San Martín, San Miguel, General Alvear y Paso de los Libres."
+ "nota_alertas": "alerta vencida sin reconfirmación"
 }
