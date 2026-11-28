@@ -1,5 +1,5 @@
 {
- "actualizado": "27/11/2026, 09:20 h",
+ "actualizado": "28/11/2026, 09:05 h",
  "aviso": "Inferencias propias del tablero, elaboradas con procesamiento lógico a partir de sus registros y de fuentes oficiales. No son avisos oficiales: ante una emergencia, siga las indicaciones de Defensa Civil y del SMN.",
  "vigentes": [
   {
@@ -20,11 +20,11 @@
    "id": "rio-parana-repunte",
    "tema": "🌊 Río Paraná",
    "titulo": "El Paraná en Corrientes podría acercarse a la alerta desde el 2/12",
-   "texto": "El INA (26/11) prevé un nuevo repunte con chances de acercarse o superar la alerta (6,50 m) desde el 2/12, por la mayor descarga de Yacyretá, la onda del Iguazú y la crecida del Paraguay. Yacyretá abrió de nuevo sus 18 compuertas el 25/11 y espera 25.000 a 26.000 m³/s; en Ituzaingó prevé entre 2,80 y 3,20 m, bajo la alerta de 3,50 m. Hoy el río marca 5,65 m en la Capital y 3,30 m en Ituzaingó (alerta 3,50 m), donde subió 17 cm en el último día.",
+   "texto": "El INA (27/11) prevé el río estable 2 a 3 días y luego un leve ascenso, con más chances de superar la alerta en Barranqueras desde el 2/12 y de seguir bajo la alerta (6,50 m) en Corrientes. Yacyretá erogó 27.500 m³/s con 18 compuertas abiertas. Hoy el río marca 5,73 m en la Capital (+6 cm) y 3,40 m en Ituzaingó (alerta 3,50 m), por encima de lo que había previsto la EBY (2,80 a 3,20 m).",
    "base": [
-    "INA, reporte diario del 26/11/2026",
+    "INA, reporte diario del 27/11/2026",
     "EBY, alerta hidrológico del 25/11/2026 (El Litoral)",
-    "Prefectura Naval, lecturas del 27/11/2026"
+    "Prefectura Naval, lecturas del 28/11/2026"
    ],
    "confianza": "media",
    "horizonte": "próximas semanas",
@@ -34,11 +34,11 @@
   {
    "id": "rio-uruguay-pico",
    "tema": "🌊 Río Uruguay",
-   "titulo": "El Uruguay subiría: el INA prevé alerta en Santo Tomé desde el 28/11 y en Paso de los Libres desde el 29/11",
-   "texto": "Santo Tomé marcó 9,60 m el 26/11 (+1,10 m en un día) y Paso de los Libres 5,80 m (+64 cm). El INA (26/11) prevé que Santo Tomé supere la alerta (11,50 m) desde el 28/11 y Paso de los Libres la alerta (7,50 m) desde el 29/11, con posible evacuación (8,50 m) entre el 30/11 y el 4/12.",
+   "titulo": "El Uruguay seguiría subiendo: el INA prevé alerta en Paso de los Libres desde el 29/11",
+   "texto": "Santo Tomé marcó 10,75 m el 27/11 (+1,15 m en un día; alerta 11,50 m) y Paso de los Libres 6,38 m (+58 cm; alerta 7,50 m). El INA (27/11) prevé que Paso de los Libres supere la alerta desde el 29/11, con chances de evacuación (8,50 m) entre el 30/11 y el 4/12, y que Santo Tomé siga en aguas altas con chances de llegar a la evacuación.",
    "base": [
-    "CTM Salto Grande y Prefectura, lecturas del 26/11/2026",
-    "INA, reporte diario del 26/11/2026"
+    "CTM Salto Grande y Prefectura, lecturas del 27/11/2026",
+    "INA, reporte diario del 27/11/2026"
    ],
    "confianza": "media",
    "horizonte": "próximas semanas",
@@ -48,11 +48,11 @@
   {
    "id": "lluvia-alerta-interior",
    "tema": "🌧️ Lluvia",
-   "titulo": "Hay alerta amarilla por tormentas en el este de la provincia, no en la Capital",
-   "texto": "El COE (27/11, 08:43 h) informa alerta amarilla por tormentas hasta las 22:00 h para Ituzaingó, Santo Tomé, San Martín, San Miguel, General Alvear y Paso de los Libres. La Capital no está incluida y la estación ICAA midió 0,2 mm a las 08 h. En Itá Ibaté el SNIH midió 7,6 mm en 24 horas.",
+   "titulo": "Sin alertas vigentes por tormentas en la provincia",
+   "texto": "El SMN (canal oficial) y el COE no informan alertas vigentes el 28/11 a las 09:00 h. La alerta amarilla del este, vigente el 27/11 hasta las 20:00 h, ya venció.",
    "base": [
-    "COE de Corrientes, 27/11/2026",
-    "SNIH, estaciones ICAA e Itá Ibaté, 27/11/2026"
+    "SMN, canal oficial de alertas, 28/11/2026, 08:57 h",
+    "COE de Corrientes, 28/11/2026, 08:56 h"
    ],
    "confianza": "alta",
    "horizonte": "hoy",
@@ -90,6 +90,52 @@
   }
  ],
  "historial": [
+  {
+   "id": "lluvia-alerta-interior",
+   "tema": "🌧️ Lluvia",
+   "titulo": "Sin alertas vigentes por tormentas en la provincia",
+   "texto": "El SMN (canal oficial) y el COE no informan alertas vigentes el 28/11 a las 09:00 h. La alerta amarilla del este, vigente el 27/11 hasta las 20:00 h, ya venció.",
+   "base": [
+    "SMN, canal oficial de alertas, 28/11/2026, 08:57 h",
+    "COE de Corrientes, 28/11/2026, 08:56 h"
+   ],
+   "confianza": "alta",
+   "horizonte": "hoy",
+   "ambito": "global",
+   "localidad": "Corrientes Capital",
+   "fecha": "2026-11-28"
+  },
+  {
+   "id": "rio-uruguay-pico",
+   "tema": "🌊 Río Uruguay",
+   "titulo": "El Uruguay seguiría subiendo: el INA prevé alerta en Paso de los Libres desde el 29/11",
+   "texto": "Santo Tomé marcó 10,75 m el 27/11 (+1,15 m en un día; alerta 11,50 m) y Paso de los Libres 6,38 m (+58 cm; alerta 7,50 m). El INA (27/11) prevé que Paso de los Libres supere la alerta desde el 29/11, con chances de evacuación (8,50 m) entre el 30/11 y el 4/12, y que Santo Tomé siga en aguas altas con chances de llegar a la evacuación.",
+   "base": [
+    "CTM Salto Grande y Prefectura, lecturas del 27/11/2026",
+    "INA, reporte diario del 27/11/2026"
+   ],
+   "confianza": "media",
+   "horizonte": "próximas semanas",
+   "ambito": "global",
+   "localidad": "Paso de los Libres",
+   "fecha": "2026-11-28"
+  },
+  {
+   "id": "rio-parana-repunte",
+   "tema": "🌊 Río Paraná",
+   "titulo": "El Paraná en Corrientes podría acercarse a la alerta desde el 2/12",
+   "texto": "El INA (27/11) prevé el río estable 2 a 3 días y luego un leve ascenso, con más chances de superar la alerta en Barranqueras desde el 2/12 y de seguir bajo la alerta (6,50 m) en Corrientes. Yacyretá erogó 27.500 m³/s con 18 compuertas abiertas. Hoy el río marca 5,73 m en la Capital (+6 cm) y 3,40 m en Ituzaingó (alerta 3,50 m), por encima de lo que había previsto la EBY (2,80 a 3,20 m).",
+   "base": [
+    "INA, reporte diario del 27/11/2026",
+    "EBY, alerta hidrológico del 25/11/2026 (El Litoral)",
+    "Prefectura Naval, lecturas del 28/11/2026"
+   ],
+   "confianza": "media",
+   "horizonte": "próximas semanas",
+   "ambito": "global",
+   "localidad": "Corrientes Capital",
+   "fecha": "2026-11-28"
+  },
   {
    "fecha": "2026-11-27",
    "id": "lluvia-alerta-interior",

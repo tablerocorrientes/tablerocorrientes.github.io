@@ -94,6 +94,20 @@
  ],
  "partes_oficiales": [
   {
+   "fecha": "27/11/2026",
+   "organismo": "Instituto Nacional del Agua (INA), reporte diario de la Cuenca del Plata",
+   "resumen": "El INA informó que el caudal que llega a Yacyretá está en aguas altas, con 26.500 m³/s afluentes y 27.500 m³/s erogados (alerta 25.000 m³/s), y prevé que siga en ese rango durante 4 días. En Corrientes el río se mantendría estable 2 a 3 días y luego subiría levemente, con más chances de superar la alerta en Barranqueras desde el 2/12. En el río Uruguay, Paso de los Libres superaría la alerta (7,50 m) desde el 29/11, con chances de llegar a la evacuación (8,50 m) entre el 30/11 y el 4/12. Santo Tomé está en aguas altas, cerca de la alerta (11,50 m).",
+   "enlace": "https://alerta.ina.gob.ar/a5/diario/reporte_diario",
+   "breve": "INA: Yacyretá en aguas altas (26.500 m³/s). Corrientes estable y luego leve suba desde el 2/12; Paso de los Libres en alerta desde el 29/11."
+  },
+  {
+   "fecha": "28/11/2026, 00:00 h",
+   "organismo": "Prefectura Naval Argentina (alturas reproducidas por rioparana.com.ar)",
+   "resumen": "Ituzaingó marcó 3,40 m, a 10 cm de la alerta (3,50 m) y por encima de los 2,80 a 3,20 m que había previsto la EBY el 25/11; Itatí 6,24 m (+12 cm) y Corrientes 5,73 m (+6 cm), ambos bajo su alerta.",
+   "enlace": "https://www.rioparana.com.ar",
+   "breve": "Ituzaingó 3,40 m, a 10 cm de la alerta; Itatí 6,24 m y Corrientes 5,73 m, ambos bajo la alerta."
+  },
+  {
    "fecha": "25/11/2026",
    "organismo": "Entidad Binacional Yacyretá (EBY), alerta hidrológico (difundido por El Litoral, Examedia, Elonce y EntreMedios)",
    "resumen": "La EBY abrió nuevamente las 18 compuertas del vertedero principal y emitió un alerta hidrológico por una tendencia ascendente del caudal del Paraná. El caudal afluente, de unos 24.500 m³/s el 25/11, podría llegar a 25.000 o 26.000 m³/s en los próximos días. En Ituzaingó el río marcó 2,35 m y se prevén entre 2,80 y 3,20 m, por debajo de la alerta (3,50 m) y de la evacuación (4,00 m). En Ayolas (Paraguay), en alerta, se prevén entre 4,50 y 4,70 m, sobre el umbral de inundabilidad urbana (4,50 m). El intendente de Isla Apipé señaló que las familias que habían regresado a sus casas deberán ser evaluadas de nuevo.",
@@ -1462,6 +1476,6 @@
  "consultado": "28/11/2026, 08:28 h",
  "consulta_resultado": "datos nuevos",
  "prensa_actualizada": "28/11/2026, 02:02 h",
- "ina_parana_breve": "El INA prevé el río casi estable en Corrientes 4 a 5 días y un nuevo repunte que podría acercarse a la alerta desde el 2/12.",
- "ina_uruguay_breve": "El INA prevé que Santo Tomé supere la alerta desde el 28/11 y Paso de los Libres desde el 29/11, con posible evacuación entre el 30/11 y el 4/12."
+ "ina_parana_breve": "El INA prevé el río casi estable 2 a 3 días y un leve ascenso desde el 2/12, probablemente bajo la alerta en Corrientes.",
+ "ina_uruguay_breve": "El INA prevé que Paso de los Libres supere la alerta desde el 29/11 y que pueda llegar a evacuación entre el 30/11 y el 4/12."
 }

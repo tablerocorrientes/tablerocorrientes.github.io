@@ -3166,20 +3166,20 @@
  "pronosticos": [
   {
    "organismo": "INA",
-   "emision": "2026-11-26",
+   "emision": "2026-11-27",
    "rio": "Paraná",
    "horizonte_dias": 7,
    "tipo": "cualitativo",
-   "tendencia": "En Corrientes el río se mantendría casi estable durante 4 a 5 días, todavía por encima de lo normal para la época. Después volvería a subir y podría acercarse o superar el nivel de alerta (6,50 m) a partir del 2/12, por el agua que descargaría Yacyretá, las lluvias en la cuenca y la crecida del río Paraguay. En Goya seguiría sobre el nivel de alerta y más adelante podría acercarse a la evacuación.",
+   "tendencia": "En Corrientes el río seguiría casi estable 2 a 3 días, todavía por encima de lo normal para la época. Después subiría levemente por el agua que descarga Yacyretá y las lluvias en la cuenca. Es probable que se acerque o supere la alerta en Barranqueras desde el 2/12, y que en Corrientes siga por debajo de la alerta (6,50 m). En Goya seguiría sobre la alerta y en 7 a 12 días podría acercarse a la evacuación.",
    "url": "https://alerta.ina.gob.ar/a5/diario/reporte_diario"
   },
   {
    "organismo": "INA",
-   "emision": "2026-11-26",
+   "emision": "2026-11-27",
    "rio": "Uruguay",
    "horizonte_dias": 7,
    "tipo": "cualitativo",
-   "tendencia": "En Santo Tomé el río seguiría subiendo y superaría el nivel de alerta (11,50 m) a partir del 28/11. En Paso de los Libres superaría la alerta (7,50 m) desde el 29/11 y podría llegar al nivel de evacuación (8,50 m) entre el 30/11 y el 4/12.",
+   "tendencia": "En Santo Tomé el río está en aguas altas y se acerca a la alerta (11,50 m); seguiría alto, con nuevos repuntes probables y chances de llegar a la evacuación (12,50 m) por las lluvias previstas. En Paso de los Libres superaría la alerta (7,50 m) desde el 29/11 y podría llegar a la evacuación (8,50 m) entre el 30/11 y el 4/12.",
    "url": "https://alerta.ina.gob.ar/a5/diario/reporte_diario"
   }
  ],

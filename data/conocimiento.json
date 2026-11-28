@@ -1,5 +1,5 @@
 {
- "actualizado": "27/11/2026, 09:20 h",
+ "actualizado": "28/11/2026, 09:05 h",
  "explicacion": "Cada actualización suma registros: barrios afectados con la altura del río o la lluvia de ese día, obras terminadas, reportes de vecinos verificados y la comparación entre lo pronosticado y lo que ocurrió. Con esa comparación se detectan desvíos y se proponen ajustes a los cálculos, que revisa el autor del tablero.",
  "contadores": {
   "barrios_documentados": 87,
@@ -7,9 +7,23 @@
   "reportes_verificados": 0,
   "comparaciones_rio": 3,
   "comparaciones_lluvia": 5,
-  "aprendizajes": 86
+  "aprendizajes": 88
  },
  "aprendizajes": [
+  {
+   "fecha": "2026-11-28",
+   "tipo": "antecedente",
+   "lugar": "Ituzaingó",
+   "dato": "El Paraná marcó 3,40 m en Ituzaingó el 28/11, a 10 cm de la alerta (3,50 m) y por encima de los 2,80 a 3,20 m previstos por la EBY el 25/11.",
+   "fuente": "Prefectura Naval Argentina, vía rioparana.com.ar (28/11/2026)"
+  },
+  {
+   "fecha": "2026-11-28",
+   "tipo": "antecedente",
+   "lugar": "Santo Tomé",
+   "dato": "El INA (27/11) ubica a Santo Tomé en aguas altas y cerca de la alerta (11,50 m), con chances de llegar a evacuación; el río marcó 10,75 m el 27/11.",
+   "fuente": "INA, reporte diario del 27/11/2026; CTM Salto Grande"
+  },
   {
    "fecha": "2026-11-27",
    "tipo": "antecedente",

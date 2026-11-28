@@ -1,10 +1,10 @@
 {
  "actualizado": "28/11/2026, 08:28 h",
  "metodo": "estimación derivada: promedio de modelos (Open-Meteo), calculado automáticamente; las tareas agregan el parte del SMN cuando corren",
- "estado_alertas": "NO_VERIFICADO",
+ "estado_alertas": "VERIFICADO_SIN_ALERTAS",
  "estado_verificado": {
-  "fecha": "27/11/2026, 21:09 h",
-  "fuente": "SMN (canal oficial de alertas, lectura de las 20:57 h) y COE de Corrientes (lectura de las 20:40 h)"
+  "fecha": "28/11/2026, 09:00 h",
+  "fuente": "SMN (canal oficial de alertas, lectura de las 08:57 h) y COE de Corrientes (lectura de las 08:56 h)"
  },
  "met_archivo": {
   "nombre": "vigilancia_meteorologica_20261113_183508.json",
@@ -625,7 +625,7 @@
   ]
  },
  "horario_act": "28/11/2026, 08:28 h",
- "consultado": "28/11/2026, 06:10 h",
+ "consultado": "28/11/2026, 09:00 h",
  "consulta_resultado": "sin alerta ni lluvia",
  "extendido": {
   "actualizado": "28/11/2026, 08:25 h",
@@ -1428,5 +1428,5 @@
    }
   }
  },
- "nota_alertas": "alerta vencida sin reconfirmación"
+ "nota_alertas": "Sin alertas vigentes ni previstas del SMN ni del COE de Corrientes el 28/11/2026 (lecturas de las 08:56 y 08:57 h)."
 }

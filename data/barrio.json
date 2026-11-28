@@ -1708,6 +1708,6 @@
    "criterio": "Mañana el SMN prevé tormentas fuertes con 70 %: se usa el modelo más alto, ECMWF, con 52,9 mm (el promedio de los modelos es 35,2 mm). Estimación derivada, no una medición. El rango de la alerta (70 a 100 mm) es el escenario severo y no se usa como pronóstico central."
   }
  },
- "estado_alertas": "NO_VERIFICADO",
- "nota_alertas": "alerta vencida sin reconfirmación"
+ "estado_alertas": "VERIFICADO_SIN_ALERTAS",
+ "nota_alertas": "Sin alertas vigentes ni previstas del SMN ni del COE de Corrientes el 28/11/2026 (lecturas de las 08:56 y 08:57 h)."
 }
