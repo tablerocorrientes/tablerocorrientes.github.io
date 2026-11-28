@@ -1,5 +1,5 @@
 {
- "actualizado": "28/11/2026, 05:19 h",
+ "actualizado": "28/11/2026, 05:51 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
@@ -128,12 +128,12 @@
     null,
     null,
     null,
-    null,
+    0,
     null,
     null
    ],
    "total": 0.5,
-   "ultimo": "0,25 mm a las 00 h"
+   "ultimo": "0 mm a las 04 h"
   },
   {
    "localidad": "Colonia Carlos Pellegrini",
@@ -162,12 +162,12 @@
     null,
     null,
     null,
-    null,
+    0,
     null,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 00 h"
+   "ultimo": "0 mm a las 04 h"
   },
   {
    "localidad": "San Carlos",
@@ -1197,6 +1197,8 @@
     0,
     0,
     0,
+    0.2,
+    0.2,
     0,
     0,
     0,
@@ -1213,14 +1215,12 @@
     0,
     0,
     0,
-    0,
-    0,
-    0,
+    0.2,
     0,
     0,
     null
    ],
-   "total": 0,
+   "total": 0.6,
    "ultimo": "0 mm a las 05 h"
   },
   {
@@ -1434,32 +1434,32 @@
    "valores": [
     null,
     null,
+    0,
     null,
     null,
     null,
+    0,
     null,
     null,
     null,
+    0,
     null,
     null,
     null,
+    0,
     null,
     null,
     null,
+    0,
     null,
     null,
     null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
+    0,
     null,
     null
    ],
-   "total": null,
-   "ultimo": "sin datos en las últimas 24 horas"
+   "total": 0,
+   "ultimo": "0 mm a las 04 h"
   },
   {
    "localidad": "Santa Rosa",
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "28/11/2026, 05:19 h",
+ "consultado": "28/11/2026, 05:51 h",
  "consulta_resultado": "datos nuevos"
 }
