@@ -1,5 +1,5 @@
 {
- "actualizado": "28/11/2026, 01:13 h",
+ "actualizado": "28/11/2026, 01:45 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
@@ -162,46 +162,46 @@
     null,
     null,
     null,
-    null,
+    0,
     null,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 20 h"
+   "ultimo": "0 mm a las 00 h"
   },
   {
    "localidad": "San Carlos",
    "estacion": "San Carlos",
    "codigo": 13864,
    "valores": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
     null
    ],
-   "total": 0,
-   "ultimo": "0 mm a las 01 h"
+   "total": null,
+   "ultimo": "sin datos en las últimas 24 horas"
   },
   {
    "localidad": "Santa Lucía",
@@ -231,11 +231,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 00 h"
+   "ultimo": "0 mm a las 01 h"
   },
   {
    "localidad": "La Palmira",
@@ -1353,11 +1353,11 @@
     0,
     0.2,
     0,
-    null,
+    0,
     null
    ],
    "total": 1.4,
-   "ultimo": "0 mm a las 00 h"
+   "ultimo": "0 mm a las 01 h"
   },
   {
    "localidad": "San Isidro",
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "28/11/2026, 01:13 h",
+ "consultado": "28/11/2026, 01:45 h",
  "consulta_resultado": "datos nuevos"
 }
