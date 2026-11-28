@@ -1,13 +1,40 @@
 {
  "dia": "2026-11-28",
- "registros": {},
- "registros_icaa": {},
- "registros_13805": {},
+ "registros": {
+  "0": 0,
+  "1": 0,
+  "2": 0,
+  "3": 0,
+  "4": 0,
+  "5": 0,
+  "6": 0.25,
+  "7": 0
+ },
+ "registros_icaa": {
+  "0": 0,
+  "1": 0,
+  "2": 0,
+  "3": 0,
+  "4": 0,
+  "5": 0,
+  "6": 0,
+  "7": 0
+ },
+ "registros_13805": {
+  "0": 0,
+  "1": 0,
+  "2": 0,
+  "3": 0,
+  "4": 0,
+  "5": 0,
+  "6": 0.25,
+  "7": 0
+ },
  "indicador": "compuesto: máximo horario de ICAA y Corrientes 13805",
  "cobertura": {},
- "ultima_hora": null,
- "mm": null,
- "estado": null,
- "ts": 1795858730966,
+ "ultima_hora": 7,
+ "mm": 0,
+ "estado": "seca",
+ "ts": 1795860863876,
  "fuente": "SNIH, indicador compuesto (máximo horario de ICAA y Corrientes 13805)"
 }
