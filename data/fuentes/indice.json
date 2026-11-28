@@ -1,6 +1,6 @@
 {
- "consultado": "27/11/2026, 23:54 h",
- "consultado_iso": "2026-11-27T23:54-03:00",
+ "consultado": "28/11/2026, 02:01 h",
+ "consultado_iso": "2026-11-28T02:01-03:00",
  "paginas": {
   "smn_alertas": {
    "url": "https://www.smn.gob.ar/alertas",
@@ -39,7 +39,7 @@
   "rioparana_alturas": {
    "url": "https://www.rioparana.com.ar",
    "estado": 200,
-   "caracteres": 11324,
+   "caracteres": 11282,
    "archivo": "data/fuentes/rioparana_alturas.txt"
   },
   "prefectura_alturas": {
@@ -50,7 +50,7 @@
   "lanacion_clima_corrientes": {
    "url": "https://www.lanacion.com.ar/clima/corrientes/",
    "estado": 200,
-   "caracteres": 8362,
+   "caracteres": 8253,
    "archivo": "data/fuentes/lanacion_clima_corrientes.txt"
   },
   "noaa_enso": {
@@ -76,28 +76,22 @@
    "archivo": "data/fuentes/smn_datos_tiempo_presente.txt"
   },
   "smn_datos_horarios_ayer": {
-   "url": "https://ssl.smn.gob.ar/dpd/descarga_opendata.php?file=observaciones/datohorario20261126.txt",
+   "url": "https://ssl.smn.gob.ar/dpd/descarga_opendata.php?file=observaciones/datohorario20261127.txt",
    "estado": 200,
-   "caracteres": 10301,
+   "caracteres": 58,
    "archivo": "data/fuentes/smn_datos_horarios_ayer.txt"
   },
   "smn_pronostico_5_dias": {
-   "url": "https://ssl.smn.gob.ar/dpd/descarga_opendata.php?file=pron5d/pron20261127.txt",
+   "url": "https://ssl.smn.gob.ar/dpd/descarga_opendata.php?file=pron5d/pron20261128.txt",
    "estado": 200,
    "caracteres": 44,
    "archivo": "data/fuentes/smn_pronostico_5_dias.txt"
   },
   "smn_pronostico_5_dias_ayer": {
-   "url": "https://ssl.smn.gob.ar/dpd/descarga_opendata.php?file=pron5d/pron20261126.txt",
+   "url": "https://ssl.smn.gob.ar/dpd/descarga_opendata.php?file=pron5d/pron20261127.txt",
    "estado": 200,
-   "caracteres": 17711,
+   "caracteres": 44,
    "archivo": "data/fuentes/smn_pronostico_5_dias_ayer.txt"
-  },
-  "coe_": {
-   "url": "https://coe.corrientes.gob.ar/",
-   "estado": 200,
-   "caracteres": 3183,
-   "archivo": "data/fuentes/coe_.txt"
   },
   "coe_a_2026_0169_CP": {
    "url": "https://coe.corrientes.gob.ar/a/2026-0169-CP",
