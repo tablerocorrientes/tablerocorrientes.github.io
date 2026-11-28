@@ -649,7 +649,7 @@
    },
    "manana": {
     "mm": 0.7,
-    "horas": 1
+    "horas": 2
    },
    "smn": "Alerta amarilla del SMN por tormenta para Corrientes desde las 12:00 h del 17/11 hasta las 11:59 h del 18/11, sin departamentos detallados. Alerta amarilla del COE de Corrientes (fuente SMN) que incluye a esta ciudad el miércoles 18/11 de 05:00 a 12:00 h, con 30 a 70 mm posibles.",
    "modelos": {
@@ -671,7 +671,7 @@
     "horas": 2
    },
    "manana": {
-    "mm": 0.2,
+    "mm": 0.3,
     "horas": 0
    },
    "smn": "Alerta amarilla del SMN por tormenta para Corrientes desde las 12:00 h del 17/11 hasta las 11:59 h del 18/11, sin departamentos detallados. Alerta amarilla del COE de Corrientes (fuente SMN) que incluye a esta ciudad el miércoles 18/11 de 05:00 a 12:00 h, con 30 a 70 mm posibles.",
@@ -1143,7 +1143,7 @@
    }
   ]
  },
- "pron_actualizado": "28/11/2026, 02:18 h",
+ "pron_actualizado": "28/11/2026, 02:41 h",
  "smn": [],
  "nota_alertas": "alerta vencida sin reconfirmación"
 }
