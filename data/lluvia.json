@@ -1,5 +1,5 @@
 {
- "actualizado": "28/11/2026, 07:30 h",
+ "actualizado": "28/11/2026, 07:47 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
@@ -704,14 +704,14 @@
     null,
     null,
     null,
-    null,
+    0,
     null,
     null,
     null,
     null
    ],
    "total": 0.25,
-   "ultimo": "0 mm a las 00 h"
+   "ultimo": "0 mm a las 04 h"
   },
   {
    "localidad": "Los Laureles",
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "28/11/2026, 07:30 h",
+ "consultado": "28/11/2026, 07:47 h",
  "consulta_resultado": "datos nuevos"
 }
