@@ -1,6 +1,6 @@
 {
- "consultado": "28/11/2026, 08:58 h",
- "consultado_iso": "2026-11-28T08:58-03:00",
+ "consultado": "28/11/2026, 09:31 h",
+ "consultado_iso": "2026-11-28T09:31-03:00",
  "paginas": {
   "smn_alertas": {
    "url": "https://www.smn.gob.ar/alertas",
@@ -130,6 +130,38 @@
    "archivo": "data/fuentes/coe_a_2026_0093_AT.txt"
   }
  },
+ "portales": {
+  "munired_municipio_corrientes": {
+   "url": "https://munired.mcypcorrientes.gob.ar/noticias/corrientes",
+   "estado": 200,
+   "notas": 8,
+   "archivo": "data/fuentes/portales/munired_municipio_corrientes.txt"
+  },
+  "munired_municipio_corrientes_p2": {
+   "url": "https://munired.mcypcorrientes.gob.ar/noticias/corrientes?page=2",
+   "estado": 200,
+   "notas": 8,
+   "archivo": "data/fuentes/portales/munired_municipio_corrientes_p2.txt"
+  },
+  "diputados_corrientes": {
+   "url": "https://hcdcorrientes.gov.ar/",
+   "estado": 200,
+   "notas": 10,
+   "archivo": "data/fuentes/portales/diputados_corrientes.txt"
+  },
+  "senado_corrientes": {
+   "url": "https://www.senadoctes.gov.ar/",
+   "estado": 200,
+   "notas": 6,
+   "archivo": "data/fuentes/portales/senado_corrientes.txt"
+  },
+  "eby_noticias": {
+   "url": "https://www.eby.gov.py/",
+   "estado": 200,
+   "notas": 6,
+   "archivo": "data/fuentes/portales/eby_noticias.txt"
+  }
+ },
  "pedidas": {
   "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPT1BjeWx5MVNwUko2MHl1R1pJbU5ZRjliV3BHZ0JzejRIc0hqajYzYjNNMkQyblFadnFzRzhDNnZiT0xqLUxXSWRqbWpjSVNqOGRoeU5DTkU5b1hmd1F3VmFpUElKNzV5bzlRZlRrblVPSFlxWFA4Qy1MYXlQUXZPTFVWckVmQXRVeHZYU3puaTFVVEM0Mm1RLUxNTl9yWmlITFFBNDJuZ0Jsdl81Vk0zZnlZWlhEUWVVVDhrNWo2eXdKMXVtdUZaWXNMRVBzeVdaNEFqUVl0TW1fVDJu?oc=5": {
    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPT1BjeWx5MVNwUko2MHl1R1pJbU5ZRjliV3BHZ0JzejRIc0hqajYzYjNNMkQyblFadnFzRzhDNnZiT0xqLUxXSWRqbWpjSVNqOGRoeU5DTkU5b1hmd1F3VmFpUElKNzV5bzlRZlRrblVPSFlxWFA4Qy1MYXlQUXZPTFVWckVmQXRVeHZYU3puaTFVVEM0Mm1RLUxNTl9yWmlITFFBNDJuZ0Jsdl81Vk0zZnlZWlhEUWVVVDhrNWo2eXdKMXVtdUZaWXNMRVBzeVdaNEFqUVl0TW1fVDJu?oc=5",
@@ -172,38 +204,6 @@
    "estado": 200,
    "caracteres": 15,
    "archivo": "data/fuentes/web/news_google_com_rss_articles_CBMi4wFBVV95cUxPN181ajliVFptNXp5bGhDMmZWSl9WWWplOWNjRU12bnJja.txt"
-  }
- },
- "portales": {
-  "munired_municipio_corrientes": {
-   "url": "https://munired.mcypcorrientes.gob.ar/noticias/corrientes",
-   "estado": 200,
-   "notas": 8,
-   "archivo": "data/fuentes/portales/munired_municipio_corrientes.txt"
-  },
-  "munired_municipio_corrientes_p2": {
-   "url": "https://munired.mcypcorrientes.gob.ar/noticias/corrientes?page=2",
-   "estado": 200,
-   "notas": 8,
-   "archivo": "data/fuentes/portales/munired_municipio_corrientes_p2.txt"
-  },
-  "diputados_corrientes": {
-   "url": "https://hcdcorrientes.gov.ar/",
-   "estado": 200,
-   "notas": 10,
-   "archivo": "data/fuentes/portales/diputados_corrientes.txt"
-  },
-  "senado_corrientes": {
-   "url": "https://www.senadoctes.gov.ar/",
-   "estado": 200,
-   "notas": 6,
-   "archivo": "data/fuentes/portales/senado_corrientes.txt"
-  },
-  "eby_noticias": {
-   "url": "https://www.eby.gov.py/",
-   "estado": 200,
-   "notas": 6,
-   "archivo": "data/fuentes/portales/eby_noticias.txt"
   }
  },
  "pedidas_consultado": "28/11/2026, 08:58 h"
