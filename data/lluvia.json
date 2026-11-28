@@ -1,5 +1,5 @@
 {
- "actualizado": "28/11/2026, 08:43 h",
+ "actualizado": "28/11/2026, 08:51 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
@@ -1081,11 +1081,11 @@
     null,
     null,
     null,
-    null,
+    0,
     null
    ],
    "total": 0.6,
-   "ultimo": "0 mm a las 04 h"
+   "ultimo": "0 mm a las 08 h"
   },
   {
    "localidad": "Caá Catí",
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "28/11/2026, 08:43 h",
+ "consultado": "28/11/2026, 08:51 h",
  "consulta_resultado": "datos nuevos"
 }
