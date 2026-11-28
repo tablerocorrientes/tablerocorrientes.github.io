@@ -1,47 +1,7 @@
 {
- "consultado": "27/11/2026, 20:57 h",
- "consultado_iso": "2026-11-27T20:57:41-03:00",
+ "consultado": "27/11/2026, 21:13 h",
+ "consultado_iso": "2026-11-27T21:13:35-03:00",
  "fuente": "Servicio Meteorológico Nacional, canal oficial de alertas y avisos (CAP)",
- "resultado": "con alertas",
- "alertas": [
-  {
-   "tipo": "aviso a muy corto plazo",
-   "nivel": "amarillo",
-   "fenomeno": "tormentas",
-   "zonas": "Berón de Astrada - Capital - Concepción - Curuzú Cuatiá - Empedrado - General Alvear - General Paz - Itatí - Ituzaingó - Mburucuyá - Mercedes - Paso de los Libres - Saladas - San Cosme - San Luis del Palmar - San Martín - San Miguel - San Roque - Santo Tomé - Sauce",
-   "departamentos": [
-    "Berón de Astrada",
-    "Capital",
-    "Concepción",
-    "Curuzú Cuatiá",
-    "Empedrado",
-    "General Alvear",
-    "General Paz",
-    "Itatí",
-    "Ituzaingó",
-    "Mburucuyá",
-    "Mercedes",
-    "Paso de los Libres",
-    "Saladas",
-    "San Cosme",
-    "San Luis del Palmar",
-    "San Martín",
-    "San Miguel",
-    "San Roque",
-    "Santo Tomé",
-    "Sauce"
-   ],
-   "incluye_capital": true,
-   "desde": "27/11/2026, 20:45 h",
-   "hasta": "27/11/2026, 20:59 h",
-   "desde_iso": "2026-11-27T20:45:07-03:00",
-   "hasta_iso": "2026-11-27T20:59:59-03:00",
-   "emision": "27/11/2026, 20:45 h",
-   "rango_mm": [
-    15,
-    30
-   ],
-   "texto": "Tormentas. Las áreas de las provincias de Buenos Aires y La Pampa pueden ser afectadas por tormentas aisladas de variada intensidad, algunas puntualmente fuertes. Las mismas podrán estar acompañadas por lluvias intensas en cortos períodos, granizo e intensas ráfagas. Se esperan valores de precipitación acumulada entre 15 y 30 mm, que pueden ser superados en forma puntual.  Por otro lado, las áreas"
-  }
- ]
+ "resultado": "sin alertas para Corrientes",
+ "alertas": []
 }
