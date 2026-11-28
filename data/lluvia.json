@@ -1,5 +1,5 @@
 {
- "actualizado": "27/11/2026, 21:29 h",
+ "actualizado": "27/11/2026, 21:46 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
@@ -128,12 +128,12 @@
     null,
     null,
     null,
-    null,
+    0.25,
     null,
     null
    ],
-   "total": 0.25,
-   "ultimo": "0 mm a las 16 h"
+   "total": 0.5,
+   "ultimo": "0,25 mm a las 20 h"
   },
   {
    "localidad": "Colonia Carlos Pellegrini",
@@ -706,12 +706,12 @@
     null,
     null,
     null,
-    null,
+    0,
     null,
     null
    ],
    "total": 0.25,
-   "ultimo": "0 mm a las 16 h"
+   "ultimo": "0 mm a las 20 h"
   },
   {
    "localidad": "Los Laureles",
@@ -876,12 +876,12 @@
     null,
     null,
     null,
-    null,
+    0,
     null,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 12 h"
+   "ultimo": "0 mm a las 20 h"
   },
   {
    "localidad": "Paso de los Libres",
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "27/11/2026, 21:29 h",
+ "consultado": "27/11/2026, 21:46 h",
  "consulta_resultado": "datos nuevos"
 }
