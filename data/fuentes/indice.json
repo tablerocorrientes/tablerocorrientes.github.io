@@ -1,6 +1,6 @@
 {
- "consultado": "28/11/2026, 07:31 h",
- "consultado_iso": "2026-11-28T07:31-03:00",
+ "consultado": "28/11/2026, 08:06 h",
+ "consultado_iso": "2026-11-28T08:06-03:00",
  "paginas": {
   "smn_alertas": {
    "url": "https://www.smn.gob.ar/alertas",
@@ -39,7 +39,7 @@
   "rioparana_alturas": {
    "url": "https://www.rioparana.com.ar",
    "estado": 200,
-   "caracteres": 11262,
+   "caracteres": 11260,
    "archivo": "data/fuentes/rioparana_alturas.txt"
   },
   "prefectura_alturas": {
