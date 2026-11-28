@@ -9703,7 +9703,7 @@
      0.0,
      0.0,
      0.0,
-     null
+     0.0
     ],
     "San Carlos": [
      0.0,
@@ -9755,7 +9755,7 @@
      0.0,
      0.0,
      0.0,
-     null
+     0.0
     ],
     "La Cruz": [
      0.0,
@@ -9833,7 +9833,7 @@
      0.0,
      0.0,
      0.0,
-     null
+     0.0
     ],
     "Pueblo Libertador": [
      0.0,
@@ -9859,7 +9859,7 @@
      0.0,
      0.0,
      0.0,
-     null
+     0.0
     ],
     "Itá Ibaté": [
      0.0,
@@ -9885,7 +9885,7 @@
      0.0,
      0.0,
      0.0,
-     null
+     0.0
     ],
     "Mburucuyá": [
      0.0,
@@ -9911,7 +9911,7 @@
      0.0,
      0.0,
      0.0,
-     null
+     0.0
     ],
     "Bonpland": [
      0.0,
@@ -9937,7 +9937,7 @@
      0.0,
      0.0,
      0.0,
-     null
+     0.0
     ],
     "Bella Vista": [
      0.0,
@@ -9963,7 +9963,7 @@
      0.0,
      0.0,
      0.0,
-     null
+     0.0
     ],
     "Curuzú Cuatiá": [
      0.0,
@@ -9989,7 +9989,7 @@
      0.0,
      0.0,
      0.0,
-     null
+     0.0
     ],
     "Santo Tomé": [
      0.0,
@@ -10015,7 +10015,7 @@
      0.0,
      0.0,
      0.0,
-     null
+     0.0
     ],
     "Santa Lucía": [
      0.0,
@@ -10264,6 +10264,51 @@
      "origen": "SMN (canal oficial) y COE de Corrientes"
     }
    ]
+  },
+  "2026-11-28": {
+   "fecha": "2026-11-28",
+   "pronostico_de": "28/11/2026, 00:13 h",
+   "ciudades": {
+    "Corrientes Capital": 0.0,
+    "Goya": 0.0,
+    "Esquina": 0.0,
+    "Bella Vista": 0.0,
+    "Mercedes": 0.0,
+    "Curuzú Cuatiá": 0.0,
+    "Paso de los Libres": 0.0,
+    "Santo Tomé": 0.6,
+    "Gobernador Virasoro": 0.8,
+    "Ituzaingó": 0.1,
+    "Monte Caseros": 0.0,
+    "Saladas": 0.0
+   },
+   "horario_capital": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "alertas_del_dia": []
   }
  }
 }
