@@ -1,6 +1,6 @@
 {
- "consultado": "27/11/2026, 21:47 h",
- "consultado_iso": "2026-11-27T21:47-03:00",
+ "consultado": "27/11/2026, 23:54 h",
+ "consultado_iso": "2026-11-27T23:54-03:00",
  "paginas": {
   "smn_alertas": {
    "url": "https://www.smn.gob.ar/alertas",
@@ -20,8 +20,6 @@
     "https://coe.corrientes.gob.ar/a/2026-0167-CP",
     "https://coe.corrientes.gob.ar/a/2026-0166-CP",
     "https://coe.corrientes.gob.ar/a/2026-0165-CP",
-    "https://coe.corrientes.gob.ar/a/2026-0164-CP",
-    "https://coe.corrientes.gob.ar/a/2026-0163-CP",
     "https://coe.corrientes.gob.ar/a/2026-0093-AT",
     "https://coe.corrientes.gob.ar/a/2026-0092-AT",
     "https://coe.corrientes.gob.ar/a/2026-0091-AT",
@@ -29,7 +27,7 @@
     "https://coe.corrientes.gob.ar/a/2026-0029-NT"
    ],
    "estado": 200,
-   "caracteres": 3481,
+   "caracteres": 3183,
    "archivo": "data/fuentes/coe_inicio.txt"
   },
   "ina_reporte_diario": {
@@ -41,7 +39,7 @@
   "rioparana_alturas": {
    "url": "https://www.rioparana.com.ar",
    "estado": 200,
-   "caracteres": 11323,
+   "caracteres": 11324,
    "archivo": "data/fuentes/rioparana_alturas.txt"
   },
   "prefectura_alturas": {
@@ -52,7 +50,7 @@
   "lanacion_clima_corrientes": {
    "url": "https://www.lanacion.com.ar/clima/corrientes/",
    "estado": 200,
-   "caracteres": 8387,
+   "caracteres": 8362,
    "archivo": "data/fuentes/lanacion_clima_corrientes.txt"
   },
   "noaa_enso": {
@@ -98,7 +96,7 @@
   "coe_": {
    "url": "https://coe.corrientes.gob.ar/",
    "estado": 200,
-   "caracteres": 3481,
+   "caracteres": 3183,
    "archivo": "data/fuentes/coe_.txt"
   },
   "coe_a_2026_0169_CP": {
@@ -131,11 +129,11 @@
    "caracteres": 2124,
    "archivo": "data/fuentes/coe_a_2026_0165_CP.txt"
   },
-  "coe_a_2026_0164_CP": {
-   "url": "https://coe.corrientes.gob.ar/a/2026-0164-CP",
+  "coe_a_2026_0093_AT": {
+   "url": "https://coe.corrientes.gob.ar/a/2026-0093-AT",
    "estado": 200,
-   "caracteres": 2152,
-   "archivo": "data/fuentes/coe_a_2026_0164_CP.txt"
+   "caracteres": 2016,
+   "archivo": "data/fuentes/coe_a_2026_0093_AT.txt"
   }
  },
  "portales": {
