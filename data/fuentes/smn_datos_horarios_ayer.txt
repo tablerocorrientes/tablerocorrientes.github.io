@@ -1,4 +1,104 @@
 Fuente: https://ssl.smn.gob.ar/dpd/descarga_opendata.php?file=observaciones/datohorario20261127.txt
-Consultado: 28/11/2026, 08:24 h
+Consultado: 28/11/2026, 08:56 h
 
-observaciones/datohorario20261127.txtEl archivo no existe.
+FECHA     HORA  TEMP   HUM   PNM    DD    FF     NOMBRE                                             
+         [HOA]  [�C]   [%]  [hPa]  [gr] [km/hr]                                                     
+27112026     0  21.4   61  1020.2   70   17     AEROPARQUE AERO                                     
+27112026     0  21.1   75  1016.0  110    9     CORRIENTES AERO                                     
+27112026     1  20.9   77  1016.0  110    4     CORRIENTES AERO                                     
+27112026     2  21.3   72  1015.0  110    4     CORRIENTES AERO                                     
+27112026     3  21.0   74  1014.3  110    4     CORRIENTES AERO                                     
+27112026     4  20.3   77  1014.0  180    9     CORRIENTES AERO                                     
+27112026     5  20.1   80  1013.4  180    9     CORRIENTES AERO                                     
+27112026     6  20.4   76  1014.0  180   15     CORRIENTES AERO                                     
+27112026     7  19.8   81  1014.5  180    9     CORRIENTES AERO                                     
+27112026     8  20.1   77  1014.4  160   15     CORRIENTES AERO                                     
+27112026     9  20.7   78  1014.8  140   15     CORRIENTES AERO                                     
+27112026    10  20.7   87  1014.2  180   15     CORRIENTES AERO                                     
+27112026    11  22.3   76  1014.0  140   15     CORRIENTES AERO                                     
+27112026    12  23.5   69  1015.7  160   15     CORRIENTES AERO                                     
+27112026    13  24.8   64  1014.9  180   15     CORRIENTES AERO                                     
+27112026    14  21.7   84  1015.0  200   15     CORRIENTES AERO                                     
+27112026    15  22.7   78  1014.3  180   15     CORRIENTES AERO                                     
+27112026    16  23.9   66  1013.2  180   15     CORRIENTES AERO                                     
+27112026    17  24.5   65  1012.6  140   15     CORRIENTES AERO                                     
+27112026    18  24.3   67  1012.8  140   15     CORRIENTES AERO                                     
+27112026    19  23.5   73  1012.9  140    4     CORRIENTES AERO                                     
+27112026    20  21.5   78  1013.5  140    4     CORRIENTES AERO                                     
+27112026    21  20.0   85  1014.4  140    9     CORRIENTES AERO                                     
+27112026    22  19.9   87  1014.2  140    4     CORRIENTES AERO                                     
+27112026    23  20.3   87  1014.5  140    4     CORRIENTES AERO                                     
+27112026     9  19.8   98  1013.6  140   17     ITUZAINGO                                           
+27112026    12  20.4   98  1014.1   90   11     ITUZAINGO                                           
+27112026    15  20.2   96  1012.4  140    9     ITUZAINGO                                           
+27112026    18  20.4   95  1012.4  140    9     ITUZAINGO                                           
+27112026    21  19.8   98  1012.8  140    6     ITUZAINGO                                           
+27112026     9  19.6   78  1016.1   50    9     MERCEDES AERO (CTES)                                
+27112026    12  24.0   63  1016.1   70   15     MERCEDES AERO (CTES)                                
+27112026    15  28.4   44  1014.1   50   13     MERCEDES AERO (CTES)                                
+27112026    18  27.2   44  1013.3   50    9     MERCEDES AERO (CTES)                                
+27112026    21  21.6   72  1014.6  360    7     MERCEDES AERO (CTES)                                
+27112026     0  19.6   64  1018.4  180    7     MONTE CASEROS AERO                                  
+27112026     1  19.6   68  1017.5  140    7     MONTE CASEROS AERO                                  
+27112026     2  19.2   71  1017.6  180    7     MONTE CASEROS AERO                                  
+27112026     3  19.4   69  1017.6  140    6     MONTE CASEROS AERO                                  
+27112026     4  19.8   61  1016.9  140    6     MONTE CASEROS AERO                                  
+27112026     5  19.4   62  1016.7  140   13     MONTE CASEROS AERO                                  
+27112026     6  19.0   65  1017.1  140   13     MONTE CASEROS AERO                                  
+27112026     7  19.0   67  1017.5  140   13     MONTE CASEROS AERO                                  
+27112026     8  19.4   71  1018.3  110    9     MONTE CASEROS AERO                                  
+27112026     9  20.4   61  1017.3   90   13     MONTE CASEROS AERO                                  
+27112026    10  22.0   61  1017.1  110   15     MONTE CASEROS AERO                                  
+27112026    11  23.2   57  1016.8  140   11     MONTE CASEROS AERO                                  
+27112026    12  25.2   52  1016.5  110   13     MONTE CASEROS AERO                                  
+27112026    13  26.2   45  1015.9  140   13     MONTE CASEROS AERO                                  
+27112026    14  27.4   43  1015.1  110   19     MONTE CASEROS AERO                                  
+27112026    15  27.6   42  1014.5  110   19     MONTE CASEROS AERO                                  
+27112026    16  28.6   36  1013.9  110   17     MONTE CASEROS AERO                                  
+27112026    17  28.0   39  1013.4   70   17     MONTE CASEROS AERO                                  
+27112026    18  27.4   43  1013.8   70   15     MONTE CASEROS AERO                                  
+27112026    19  26.6   45  1013.6   70   13     MONTE CASEROS AERO                                  
+27112026    20  25.2   55  1013.9   70    7     MONTE CASEROS AERO                                  
+27112026    21  24.0   62  1014.5   70    7     MONTE CASEROS AERO                                  
+27112026    22  23.2   64  1015.1   50    6     MONTE CASEROS AERO                                  
+27112026    23  21.4   71  1015.6   90    4     MONTE CASEROS AERO                                  
+27112026     6  20.0   66  1017.3   70    7     PASO DE LOS LIBRES AERO                             
+27112026     7  18.8   76  1018.0  120    9     PASO DE LOS LIBRES AERO                             
+27112026     8  19.0   83  1017.8   60    6     PASO DE LOS LIBRES AERO                             
+27112026     9  20.0   81  1016.3   90   19     PASO DE LOS LIBRES AERO                             
+27112026    10  20.8   75  1016.6   90   17     PASO DE LOS LIBRES AERO                             
+27112026    11  22.3   68  1016.6  110   15     PASO DE LOS LIBRES AERO                             
+27112026    12  24.0   64  1016.7   90   19     PASO DE LOS LIBRES AERO                             
+27112026    13  24.5   60  1016.0   80   19     PASO DE LOS LIBRES AERO                             
+27112026    14  25.2   62  1015.2   90   17     PASO DE LOS LIBRES AERO                             
+27112026    15  26.2   62  1014.8   90   17     PASO DE LOS LIBRES AERO                             
+27112026    16  26.6   60  1014.3   70   13     PASO DE LOS LIBRES AERO                             
+27112026    17  25.9   61  1013.7   70   15     PASO DE LOS LIBRES AERO                             
+27112026    18  25.6   65  1013.4   90   15     PASO DE LOS LIBRES AERO                             
+27112026    19  24.6   71  1014.1   50    6     PASO DE LOS LIBRES AERO                             
+27112026    20  22.2   83  1014.3   20    4     PASO DE LOS LIBRES AERO                             
+27112026    21  21.7   83  1014.8  340    7     PASO DE LOS LIBRES AERO                             
+27112026     0  23.9   65  1016.1  130    6     RESISTENCIA AERO                                    
+27112026     1  23.9   65  1015.8  140   11     RESISTENCIA AERO                                    
+27112026     2  23.2   71  1015.1  140    9     RESISTENCIA AERO                                    
+27112026     3  21.6   82  1014.8  160    4     RESISTENCIA AERO                                    
+27112026     4  20.9   85  1014.0  150    9     RESISTENCIA AERO                                    
+27112026     5  21.5   80  1013.8  160   11     RESISTENCIA AERO                                    
+27112026     6  20.4   89  1013.9  140    7     RESISTENCIA AERO                                    
+27112026     7  20.9   85  1014.3  140    6     RESISTENCIA AERO                                    
+27112026     8  19.8   93  1014.8  140    6     RESISTENCIA AERO                                    
+27112026     9  20.4   89  1014.8  100    7     RESISTENCIA AERO                                    
+27112026    10  20.1   87  1013.8   90    9     RESISTENCIA AERO                                    
+27112026    11  21.9   83  1015.4  180    6     RESISTENCIA AERO                                    
+27112026    12  22.3   83  1015.5  180   13     RESISTENCIA AERO                                    
+27112026    13  20.9   87  1015.1  140    6     RESISTENCIA AERO                                    
+27112026    14  21.6   80  1014.9  160    7     RESISTENCIA AERO                                    
+27112026    15  23.2   74  1014.1  140    6     RESISTENCIA AERO                                    
+27112026    16  23.4   71  1013.3   90    9     RESISTENCIA AERO                                    
+27112026    17  24.2   67  1012.9   90    7     RESISTENCIA AERO                                    
+27112026    18  25.1   64  1012.8  120    6     RESISTENCIA AERO                                    
+27112026    19  23.5   65  1013.1  140    7     RESISTENCIA AERO                                    
+27112026    20  22.1   83  1013.4  160    7     RESISTENCIA AERO                                    
+27112026    21  20.8   89  1013.9  120    4     RESISTENCIA AERO                                    
+27112026    22  20.5   81  1014.0  110    6     RESISTENCIA AERO                                    
+27112026    23  19.0   89  1014.8  220    4     RESISTENCIA AERO                                    
