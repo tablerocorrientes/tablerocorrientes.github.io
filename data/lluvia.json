@@ -1,5 +1,5 @@
 {
- "actualizado": "28/11/2026, 00:10 h",
+ "actualizado": "28/11/2026, 00:43 h",
  "hasta": null,
  "parametro": 20,
  "columnas": [
@@ -707,11 +707,11 @@
     null,
     null,
     null,
-    null,
+    0,
     null
    ],
    "total": 0.25,
-   "ultimo": "0 mm a las 20 h"
+   "ultimo": "0 mm a las 00 h"
   },
   {
    "localidad": "Los Laureles",
@@ -775,11 +775,11 @@
     0,
     0,
     0,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 23 h"
+   "ultimo": "0 mm a las 00 h"
   },
   {
    "localidad": "Mercedes",
@@ -877,11 +877,11 @@
     null,
     null,
     null,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 20 h"
+   "ultimo": "0 mm a las 00 h"
   },
   {
    "localidad": "Paso de los Libres",
@@ -1353,11 +1353,11 @@
     0,
     0,
     0.2,
-    null,
+    0,
     null
    ],
    "total": 1.4,
-   "ultimo": "0,2 mm a las 23 h"
+   "ultimo": "0 mm a las 00 h"
   },
   {
    "localidad": "San Isidro",
@@ -1455,11 +1455,11 @@
     null,
     null,
     null,
-    null,
+    0,
     null
    ],
    "total": 0,
-   "ultimo": "0 mm a las 20 h"
+   "ultimo": "0 mm a las 00 h"
   },
   {
    "localidad": "Santa Rosa",
@@ -1632,6 +1632,6 @@
    "ultimo": "sin datos en las últimas 24 horas"
   }
  ],
- "consultado": "28/11/2026, 00:10 h",
+ "consultado": "28/11/2026, 00:43 h",
  "consulta_resultado": "datos nuevos"
 }
